@@ -1,0 +1,5 @@
+name: York County
+short: York County
+kind: county
+parent: va
+geoids: { state: "51", county: "51199" }

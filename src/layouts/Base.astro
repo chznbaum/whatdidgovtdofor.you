@@ -1,0 +1,167 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const SITE = 'What did government do for you?';
+const { title, description = 'The concrete things government did for people, who made them happen, and whether they still stand.', image } = Astro.props;
+const pageTitle = title ? `${title} | whatdidgovtdofor.you` : `${SITE} | whatdidgovtdofor.you`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://whatdidgovtdofor.you');
+const ogImage = image ? new URL(image, canonical) : undefined;
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/actions/', label: 'All actions' },
+  { href: '/places/', label: 'Places' },
+  { href: '/how-we-check/', label: 'How we check' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#006a4e" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="whatdidgovtdofor.you" />
+    <meta property="og:title" content={title ?? SITE} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta property="og:image:width" content="1200" />}
+    {ogImage && <meta property="og:image:height" content="630" />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="masthead wrap">
+      <a class="mark" href="/" aria-label="whatdidgovtdofor.you home">
+        <span class="mark-face">whatdidgovtdofor<span class="mark-tld">.you</span></span>
+      </a>
+      <nav aria-label="Site">
+        <ul>
+          {
+            nav.map((n) => (
+              <li>
+                <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>
+                  {n.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="wrap foot-inner">
+        <p>
+          Every action links to its sources and to the vote. Each entry is drafted by one AI model and checked by a model
+          from a different company. <a href="/how-we-check/">How we check</a>.
+        </p>
+        <p>Something wrong or missing? <a href="mailto:corrections@whatdidgovtdofor.you">Send a correction</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .skip {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 10;
+    padding: 0.5rem 0.75rem;
+    background: var(--warning);
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .skip:focus {
+    top: 1rem;
+  }
+
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 2rem;
+    padding-block: 1.25rem;
+  }
+
+  /* The site mark is a small route marker: black legend on a white plate. */
+  .mark {
+    display: inline-block;
+    padding: 3px;
+    background: var(--paper);
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  .mark-face {
+    display: block;
+    padding: 0.3rem 0.6rem 0.15rem;
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: var(--t-sm);
+    letter-spacing: -0.01em;
+  }
+  .mark-tld {
+    color: var(--guide);
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav a {
+    font-weight: 600;
+    text-decoration: none;
+    padding-block: 0.25rem;
+    border-bottom: 2px solid transparent;
+  }
+  nav a:hover,
+  nav a[aria-current='page'] {
+    border-bottom-color: currentColor;
+  }
+
+  main {
+    display: block;
+    min-height: 60vh;
+  }
+
+  .foot {
+    margin-top: 6rem;
+    padding-block: 2.5rem 3rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--serif);
+    font-size: var(--t-sm);
+    color: var(--steel);
+  }
+  .foot-inner {
+    display: grid;
+    gap: 0.6rem;
+    max-width: var(--page);
+  }
+  .foot-inner p {
+    max-width: var(--measure);
+  }
+  .foot a {
+    color: var(--ink);
+  }
+</style>

@@ -1,0 +1,5 @@
+name: Virginia Beach
+short: Virginia Beach
+kind: city
+parent: va
+geoids: { state: "51", county: "51810" }

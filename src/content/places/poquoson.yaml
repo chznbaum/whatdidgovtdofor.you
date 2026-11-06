@@ -1,0 +1,5 @@
+name: Poquoson
+short: Poquoson
+kind: city
+parent: va
+geoids: { state: "51", county: "51735" }

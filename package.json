@@ -1,0 +1,26 @@
+{
+  "name": "whatdidgovtdofor.you",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "validate": "node pipeline/validate.ts",
+    "sync:roster": "node pipeline/sync-roster.ts",
+    "pipeline": "node pipeline/run.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/overpass": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "@fontsource/overpass": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "astro": "^7.4.7",
+    "satori": "^0.63.2",
+    "yaml": "^2.9.1"
+  }
+}

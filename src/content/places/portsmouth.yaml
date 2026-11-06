@@ -1,0 +1,5 @@
+name: Portsmouth
+short: Portsmouth
+kind: city
+parent: va
+geoids: { state: "51", county: "51740" }

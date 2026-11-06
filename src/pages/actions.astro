@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+import SignGrid from '../components/SignGrid.astro';
+import { getEntries } from '../lib/data.ts';
+import { TOPIC_LABELS } from '../lib/format.ts';
+
+const entries = await getEntries();
+const topics = Object.entries(TOPIC_LABELS).filter(([t]) => entries.some((e) => e.data.topics.includes(t as never)));
+
+const filters = {
+  tone: [
+    ['', 'Any status'],
+    ['guide', 'In effect'],
+    ['work', 'Phasing in'],
+    ['warning', 'Under threat'],
+    ['stop', 'Ended'],
+  ],
+  level: [
+    ['', 'All governments'],
+    ['federal', 'Federal'],
+    ['state', 'State'],
+    ['local', 'Local'],
+  ],
+};
+---
+
+<Base title="All actions" description="Every government action on record, with its status and who made it happen.">
+  <div class="wrap">
+    <h1>All actions</h1>
+    <form class="filters" data-filters aria-label="Filter actions">
+      <fieldset>
+        <legend>Status</legend>
+        {
+          filters.tone.map(([value, label], i) => (
+            <label data-tone={value || undefined}>
+              <input type="radio" name="tone" value={value} checked={i === 0} />
+              <span>{label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+      <fieldset>
+        <legend>Government</legend>
+        {
+          filters.level.map(([value, label], i) => (
+            <label>
+              <input type="radio" name="level" value={value} checked={i === 0} />
+              <span>{label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+      <label class="topic">
+        <span>Topic</span>
+        <select name="topic">
+          <option value="">Any topic</option>
+          {topics.map(([value, label]) => <option value={value}>{label}</option>)}
+        </select>
+      </label>
+    </form>
+    <p class="count" role="status" aria-live="polite" data-count>{entries.length} actions</p>
+    <SignGrid entries={entries} heading="h2" />
+    <p class="empty" data-empty hidden>Nothing matches those filters. Try a different status or topic.</p>
+  </div>
+</Base>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-filters]')!;
+  const items = [...document.querySelectorAll<HTMLElement>('li[data-entry]')];
+  const count = document.querySelector<HTMLElement>('[data-count]')!;
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+
+  function apply() {
+    const f = new FormData(form);
+    const tone = f.get('tone') as string;
+    const level = f.get('level') as string;
+    const topic = f.get('topic') as string;
+    let n = 0;
+    for (const li of items) {
+      const show =
+        (!tone || li.dataset.tone === tone) &&
+        (!level || li.dataset.level === level) &&
+        (!topic || li.dataset.topics!.split(' ').includes(topic));
+      li.hidden = !show;
+      if (show) n++;
+    }
+    count.textContent = `${n} action${n === 1 ? '' : 's'}`;
+    empty.hidden = n > 0;
+    const params = new URLSearchParams([...f].filter(([, v]) => v) as [string, string][]);
+    history.replaceState(null, '', params.size ? `?${params}` : location.pathname);
+  }
+
+  // Restore filters from the URL so filtered views can be shared.
+  const params = new URLSearchParams(location.search);
+  for (const [k, v] of params) {
+    const field = form.elements.namedItem(k);
+    if (field instanceof RadioNodeList || field instanceof HTMLSelectElement) field.value = v;
+  }
+  form.addEventListener('change', apply);
+  if (params.size) apply();
+</script>
+
+<style>
+  h1 {
+    margin-top: 1.5rem;
+    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 1rem 2rem;
+    margin-top: 1.5rem;
+  }
+  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  legend,
+  .topic > span {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    font-size: var(--t-sm);
+  }
+  fieldset label {
+    position: relative;
+  }
+  fieldset input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    cursor: pointer;
+  }
+  fieldset span {
+    display: block;
+    padding: 0.45rem 0.8rem 0.3rem;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    background: var(--paper);
+    font-weight: 700;
+    font-size: var(--t-sm);
+  }
+  /* A checked status chip takes that status's sign color, so the filter doubles as the legend. */
+  fieldset input:checked + span {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  label[data-tone='guide'] input:checked + span {
+    background: var(--guide);
+    border-color: var(--guide);
+  }
+  label[data-tone='work'] input:checked + span {
+    background: var(--work);
+    border-color: var(--work);
+    color: var(--ink);
+  }
+  label[data-tone='warning'] input:checked + span {
+    background: var(--warning);
+    border-color: var(--warning);
+    color: var(--ink);
+  }
+  label[data-tone='stop'] input:checked + span {
+    background: var(--stop);
+    border-color: var(--stop);
+  }
+  fieldset input:focus-visible + span {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+  }
+  select {
+    padding: 0.45rem 0.6rem;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    background: var(--paper);
+    font: 600 var(--t-sm) var(--sans);
+  }
+  .count {
+    margin-block: 1.5rem;
+    font-weight: 700;
+    color: var(--steel);
+  }
+  .empty {
+    font-family: var(--serif);
+    font-size: var(--t-body);
+  }
+</style>

@@ -1,0 +1,117 @@
+---
+import Base from '../../layouts/Base.astro';
+import { entriesWithin, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
+
+const entries = await getEntries();
+const places = await getPlacesMap();
+const count = (id: string) =>
+  id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
+
+// One distance sign per state, listing the state, its regions, and its cities and counties.
+const groups = [
+  { title: 'Nationwide', ids: ['us'] },
+  { title: 'New York', ids: ['ny', 'nyc'] },
+  {
+    title: 'Virginia',
+    ids: ['va', 'hampton-roads', ...places.get('hampton-roads')!.data.members.map((m) => m.id)],
+  },
+];
+---
+
+<Base title="Places" description="Every place we track, with the number of government actions on record there.">
+  <div class="wrap">
+    <h1>Places</h1>
+    <p class="lede">
+      We track national actions everywhere, and state and local actions in New York and Virginia. More places are on the
+      way.
+    </p>
+    <div class="signs">
+      {
+        groups.map((g) => (
+          <nav class="panel" aria-label={g.title}>
+            <div class="face">
+              <h2>{g.title}</h2>
+              <ul role="list">
+                {g.ids.map((id) => (
+                  <li data-kind={places.get(id)!.data.kind}>
+                    <a href={placeUrl(id)}>
+                      <span>{places.get(id)!.data.name}</span>
+                      <span class="num">{count(id)}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        ))
+      }
+    </div>
+    <p class="note">Numbers are actions on record.</p>
+  </div>
+</Base>
+
+<style>
+  h1 {
+    margin-top: 1.5rem;
+    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+  }
+  .lede {
+    margin-top: 0.75rem;
+    font-family: var(--serif);
+    font-size: var(--t-body);
+    max-width: 56ch;
+  }
+  .signs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    align-items: start;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  .panel {
+    padding: 8px;
+    background: var(--guide);
+    color: var(--paper);
+    border-radius: 20px;
+  }
+  .face {
+    border: 4px solid var(--paper);
+    border-radius: 13px;
+    padding: 1.25rem 1.5rem;
+  }
+  h2 {
+    margin-bottom: 0.75rem;
+    font-size: var(--t-md);
+    font-weight: 700;
+  }
+  ul {
+    display: grid;
+    gap: 0.2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.15rem;
+    font-weight: 700;
+    font-size: var(--t-md);
+    text-decoration: none;
+  }
+  li[data-kind='city'] a,
+  li[data-kind='county'] a {
+    padding-left: 1rem;
+    font-weight: 600;
+    font-size: var(--t-sm);
+  }
+  a:hover span:first-child {
+    text-decoration: underline;
+  }
+  .note {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--steel);
+  }
+</style>

@@ -1,0 +1,5 @@
+name: Gloucester County
+short: Gloucester
+kind: county
+parent: va
+geoids: { state: "51", county: "51073" }

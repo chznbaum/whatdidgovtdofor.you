@@ -1,0 +1,140 @@
+@import '@fontsource-variable/overpass';
+@import '@fontsource-variable/overpass/wght-italic.css';
+@import '@fontsource-variable/source-serif-4/opsz.css';
+@import '@fontsource-variable/source-serif-4/opsz-italic.css';
+
+:root {
+  /* Sign colors. Color encodes status and nothing else; see docs/design.md. */
+  --guide: #006a4e;
+  --work: #f47b20;
+  --warning: #ffc72c;
+  --stop: #b5121b;
+
+  --sky: #dce4e9;
+  --paper: #ffffff;
+  --ink: #000000;
+  --steel: #59646b;
+  --rule: #b9c4cb;
+
+  --sans: 'Overpass Variable', 'Overpass', 'Helvetica Neue', Arial, sans-serif;
+  --serif: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif;
+
+  /* Type scale (px): 14 · 16 · 19 · 22 · 28 · 36 · 48 · 64 · 84 */
+  --t-xs: 0.875rem;
+  --t-sm: 1rem;
+  --t-body: 1.1875rem;
+  --t-md: 1.375rem;
+  --t-lg: 1.75rem;
+  --t-xl: 2.25rem;
+  --t-2xl: 3rem;
+  --t-3xl: 4rem;
+  --t-4xl: 5.25rem;
+
+  --measure: 68ch;
+  --page: 76rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--sky);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: var(--t-sm);
+  line-height: 1.45;
+  font-feature-settings: 'kern', 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--warning);
+}
+
+.wrap {
+  width: min(100% - 2 * var(--gutter), var(--page));
+  margin-inline: auto;
+}
+
+/* Reading surfaces: the fine print. */
+.prose {
+  font-family: var(--serif);
+  font-size: var(--t-body);
+  line-height: 1.62;
+  max-width: var(--measure);
+}
+
+.prose p + p {
+  margin-top: 0.9em;
+}
+
+.prose a {
+  color: var(--guide);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.num {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

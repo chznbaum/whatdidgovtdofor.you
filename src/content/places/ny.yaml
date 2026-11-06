@@ -1,0 +1,6 @@
+name: New York
+short: NY
+kind: state
+parent: us
+geoids: { state: "36" }
+blurb: Actions by the Governor, the State Senate and Assembly, and state agencies.

@@ -1,0 +1,364 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Sign from '../../components/Sign.astro';
+import VoteTally from '../../components/VoteTally.astro';
+import { entrySlug, getEntries, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
+import { ROLE_LABEL, TOPIC_LABELS, formatDate, modelName, nameWithParty } from '../../lib/format.ts';
+import { STATUS_LABEL, TONE } from '../../lib/status.ts';
+
+export async function getStaticPaths() {
+  return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
+}
+
+const { entry } = Astro.props as { entry: Entry };
+const d = entry.data;
+const { Content } = await render(entry);
+const place = (await getEntry(d.jurisdiction))!;
+const credits = await Promise.all(
+  d.credit.map(async (c) => ({ ...c, person: (await getEntry(c.official))! })),
+);
+const rollbackBy = await Promise.all(d.status.by.map(async (r) => (await getEntry(r))!));
+const v = d.verification;
+const tone = TONE[d.status.state];
+---
+
+<Base title={d.title} description={d.dek} image={`/og/${entrySlug(entry)}.png`}>
+  <div class="wrap">
+    <p class="crumbs">
+      <a href={placeUrl(place.id)}>{place.data.name}</a>
+      {d.topics.map((t) => <span>{TOPIC_LABELS[t]}</span>)}
+    </p>
+    <div class="hero-sign">
+      <Sign entry={entry} size="full" heading="h2" />
+    </div>
+    <h1 class="visually-hidden">{d.title}</h1>
+  </div>
+
+  <article class="sheet wrap">
+    <div class="main">
+      <p class="dek">{d.dek}</p>
+
+      {
+        tone !== 'guide' && (
+          <section class="status" data-tone={tone} aria-labelledby="status-h">
+            <h2 id="status-h">{STATUS_LABEL[d.status.state]}</h2>
+            {d.status.note && <p>{d.status.note}</p>}
+            {rollbackBy.length > 0 && (
+              <p class="who">
+                Responsible:{' '}
+                {rollbackBy.map((o, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    <a href={officialUrl(o.id)}>{nameWithParty(o.data)}</a>
+                  </>
+                ))}
+              </p>
+            )}
+            <p class="asof">
+              Checked {formatDate(d.status.as_of)}
+              {d.status.source && (
+                <>
+                  {' '}
+                  <a href={d.status.source}>Source</a>
+                </>
+              )}
+            </p>
+          </section>
+        )
+      }
+
+      <section aria-labelledby="means-h">
+        <h2 id="means-h">What it means for you</h2>
+        <p class="benefits"><strong>Who benefits:</strong> {d.who_benefits}</p>
+        <div class="prose body"><Content /></div>
+      </section>
+
+      <section aria-labelledby="sources-h">
+        <h2 id="sources-h">Sources</h2>
+        <ol class="sources">
+          {
+            d.sources.map((s) => (
+              <li>
+                <a href={s.url}>{s.title}</a>
+                <span class="pub">
+                  {s.publisher}
+                  {s.date && `, ${formatDate(s.date)}`}
+                </span>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+
+      <section class="check" aria-labelledby="check-h">
+        <h2 id="check-h">How we checked this</h2>
+        <p class="prose">
+          Drafted by {modelName(v.writer.model)} on {formatDate(v.writer.date)}.
+          {
+            v.verifier && v.verdict === 'pass' && (
+              <>
+                {' '}
+                Checked against its sources by {modelName(v.verifier.model)} on {formatDate(v.verifier.date)}, with no
+                problems found.
+              </>
+            )
+          }
+          {
+            v.verifier && v.verdict === 'corrected' && (
+              <>
+                {' '}
+                Checked against its sources by {modelName(v.verifier.model)} on {formatDate(v.verifier.date)}, which
+                corrected it.
+              </>
+            )
+          }
+          {v.verdict === 'pending' && ' A second check by a model from a different company is still to come.'}
+          {v.notes && <span class="notes"> {v.notes}</span>}
+        </p>
+        <p class="prose">
+          Spot a mistake? <a href={`mailto:corrections@whatdidgovtdofor.you?subject=${encodeURIComponent(`Correction: ${d.title}`)}`}>Send a correction</a> and we'll fix it.
+        </p>
+      </section>
+    </div>
+
+    <aside class="side">
+      <section aria-labelledby="who-h">
+        <h2 id="who-h">Who made it happen</h2>
+        <p class="action">
+          {d.action.name}
+          {d.action.identifier && <span class="ident">{d.action.identifier}</span>}
+          <span class="when">{formatDate(d.action.date)}</span>
+        </p>
+        <ul class="credits" role="list">
+          {
+            credits.map((c) => (
+              <li>
+                <a class="name" href={officialUrl(c.person.id)}>
+                  {nameWithParty(c.person.data)}
+                </a>
+                <span class="role">
+                  {ROLE_LABEL[c.role]}
+                  {c.note && `. ${c.note}`}
+                </span>
+                <span class="office">{c.person.data.office}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      {
+        d.votes.length > 0 && (
+          <section aria-labelledby="votes-h">
+            <h2 id="votes-h">How they voted</h2>
+            {d.votes.map((vote) => (
+              <VoteTally vote={vote} />
+            ))}
+          </section>
+        )
+      }
+
+      <button class="share" type="button" data-share hidden>Share this sign</button>
+    </aside>
+  </article>
+</Base>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>('[data-share]');
+  if (button) {
+    button.hidden = false;
+    button.addEventListener('click', async () => {
+      const data = { title: document.title, url: location.href };
+      if (navigator.share) {
+        await navigator.share(data).catch(() => {});
+      } else {
+        await navigator.clipboard.writeText(location.href);
+        button.textContent = 'Link copied';
+      }
+    });
+  }
+</script>
+
+<style>
+  .crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--steel);
+  }
+  .crumbs a {
+    color: var(--ink);
+  }
+  .hero-sign {
+    max-width: 58rem;
+  }
+
+  .sheet {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3rem;
+    margin-top: 2.5rem;
+    padding: clamp(1.5rem, 4vw, 3rem);
+    background: var(--paper);
+    border-radius: 4px;
+  }
+  @media (min-width: 62rem) {
+    .sheet {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      gap: 4rem;
+    }
+  }
+
+  .main,
+  .side {
+    display: grid;
+    align-content: start;
+    gap: 2.5rem;
+  }
+
+  h2 {
+    font-size: var(--t-md);
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+  }
+
+  .dek {
+    font-family: var(--serif);
+    font-size: var(--t-md);
+    line-height: 1.45;
+    max-width: var(--measure);
+  }
+
+  .benefits {
+    font-family: var(--serif);
+    font-size: var(--t-body);
+    line-height: 1.55;
+    margin-bottom: 0.9em;
+    max-width: var(--measure);
+  }
+  .benefits strong {
+    font-family: var(--sans);
+    font-weight: 700;
+  }
+
+  /* Status detail for anything not in effect, in the sign's own colors. */
+  .status {
+    padding: 1.1rem 1.25rem;
+    border-radius: 10px;
+    max-width: var(--measure);
+  }
+  .status[data-tone='warning'] {
+    background: var(--warning);
+  }
+  .status[data-tone='work'] {
+    background: var(--work);
+  }
+  .status[data-tone='stop'] {
+    background: var(--stop);
+    color: var(--paper);
+  }
+  .status h2 {
+    margin-bottom: 0.35rem;
+  }
+  .status p {
+    font-family: var(--serif);
+    font-size: var(--t-body);
+    line-height: 1.5;
+  }
+  .status .who,
+  .status .asof {
+    margin-top: 0.5rem;
+    font-family: var(--sans);
+    font-size: var(--t-sm);
+    font-weight: 600;
+  }
+
+  .sources {
+    display: grid;
+    gap: 0.6rem;
+    margin: 0;
+    padding-left: 1.4rem;
+    font-family: var(--serif);
+    max-width: var(--measure);
+  }
+  .sources a {
+    color: var(--guide);
+    font-weight: 600;
+  }
+  .pub {
+    display: block;
+    font-size: var(--t-sm);
+    color: var(--steel);
+  }
+
+  .check .prose {
+    font-size: var(--t-sm);
+    color: var(--steel);
+  }
+  .check .prose + .prose {
+    margin-top: 0.5rem;
+  }
+  .check a {
+    color: var(--ink);
+  }
+
+  .action {
+    display: grid;
+    gap: 0.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: var(--t-md);
+    line-height: 1.2;
+  }
+  .ident,
+  .when {
+    font-weight: 600;
+    font-size: var(--t-sm);
+    color: var(--steel);
+  }
+
+  .credits {
+    display: grid;
+    gap: 0.9rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .credits li {
+    display: grid;
+    padding-left: 0.85rem;
+    border-left: 4px solid var(--guide);
+  }
+  .name {
+    font-weight: 800;
+    font-size: var(--t-md);
+    text-decoration: none;
+  }
+  .name:hover {
+    text-decoration: underline;
+  }
+  .role {
+    font-weight: 600;
+  }
+  .office {
+    font-size: var(--t-sm);
+    color: var(--steel);
+  }
+
+  .share {
+    justify-self: start;
+    padding: 0.7rem 1.1rem 0.55rem;
+    border: 3px solid var(--ink);
+    border-radius: 8px;
+    background: var(--paper);
+    font: 700 var(--t-sm) / 1 var(--sans);
+    cursor: pointer;
+  }
+  .share:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+</style>

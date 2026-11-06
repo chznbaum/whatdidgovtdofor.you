@@ -1,0 +1,7 @@
+name: Hampton Roads
+short: Hampton Roads
+kind: region
+parent: va
+geoids: { state: "51" }
+members: [norfolk, virginia-beach, chesapeake, portsmouth, suffolk, hampton, newport-news, williamsburg, poquoson, james-city-county, york-county, isle-of-wight, gloucester]
+blurb: Regional projects and the cities and counties around the harbor, from Williamsburg to Virginia Beach.

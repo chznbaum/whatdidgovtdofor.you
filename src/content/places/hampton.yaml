@@ -1,0 +1,5 @@
+name: Hampton
+short: Hampton
+kind: city
+parent: va
+geoids: { state: "51", county: "51650" }

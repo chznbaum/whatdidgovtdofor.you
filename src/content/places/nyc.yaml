@@ -1,0 +1,6 @@
+name: New York City
+short: NYC
+kind: city
+parent: ny
+geoids: { state: "36", place: "3651000" }
+blurb: Actions by the Mayor, the City Council, and city agencies across all five boroughs.

@@ -1,0 +1,6 @@
+name: Virginia
+short: VA
+kind: state
+parent: us
+geoids: { state: "51" }
+blurb: Actions by the Governor, the General Assembly, and state agencies.

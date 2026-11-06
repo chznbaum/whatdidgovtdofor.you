@@ -1,0 +1,168 @@
+---
+// One floor vote: a sentence, then per-party rows with exact counts and a thin yes-share bar.
+// Party is never color-coded (sign colors are reserved for status), so rows are labeled in text.
+import { getEntry, type CollectionEntry } from 'astro:content';
+import { PARTY_PLURALS, formatDate, nameWithParty } from '../lib/format.ts';
+
+type Vote = CollectionEntry<'entries'>['data']['votes'][number];
+interface Props {
+  vote: Vote;
+}
+
+const { vote } = Astro.props;
+const passed = vote.yes > vote.no;
+// Fixed party order so rows never trade places between votes.
+const ORDER = ['D', 'R', 'I', 'L', 'G', 'NP'];
+const parties = Object.entries(vote.by_party ?? {})
+  .filter(([, t]) => t && t.yes + t.no > 0)
+  .sort(([a], [b]) => ORDER.indexOf(a) - ORDER.indexOf(b)) as [keyof typeof PARTY_PLURALS, { yes: number; no: number }][];
+const widest = Math.max(...parties.map(([, t]) => t.yes + t.no), 1);
+const tieBreaker = vote.tie_breaker ? await getEntry(vote.tie_breaker.official) : undefined;
+
+const yesParties = parties.filter(([, t]) => t.yes > 0).map(([p]) => p);
+let summary = '';
+if (vote.no === 0) summary = 'Passed unanimously.';
+else if (yesParties.includes('D') && yesParties.includes('R')) summary = 'Passed with votes from both parties.';
+else if (yesParties.length === 1) summary = `Only ${PARTY_PLURALS[yesParties[0]]} voted yes.`;
+else if (yesParties.length && !yesParties.includes('R') && parties.some(([p]) => p === 'R'))
+  summary = 'No Republicans voted yes.';
+---
+
+<figure class="vote">
+  <figcaption>
+    <span class="chamber">{vote.chamber}</span>
+    <span class="result">
+      {passed ? 'Passed' : 'Failed'} <span class="num">{vote.yes}–{vote.no}</span> on {formatDate(vote.date)}
+    </span>
+  </figcaption>
+  {
+    parties.length > 0 && (
+      <table>
+        <caption class="visually-hidden">
+          Votes by party in the {vote.chamber}
+        </caption>
+        <thead class="visually-hidden">
+          <tr>
+            <th scope="col">Party</th>
+            <th scope="col">Share voting yes</th>
+            <th scope="col">Yes</th>
+            <th scope="col">No</th>
+          </tr>
+        </thead>
+        <tbody>
+          {parties.map(([party, t]) => (
+            <tr>
+              <th scope="row">{PARTY_PLURALS[party]}</th>
+              <td class="bar-cell" aria-hidden="true">
+                <span class="bar" style={`--w:${((t.yes + t.no) / widest) * 100}%`}>
+                  {t.yes > 0 && <span class="yes" style={`flex-grow:${t.yes}`} />}
+                  {t.no > 0 && <span class="no" style={`flex-grow:${t.no}`} />}
+                </span>
+              </td>
+              <td class="num count">{t.yes} yes</td>
+              <td class="num count">{t.no} no</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )
+  }
+  {
+    (summary || tieBreaker) && (
+      <p class="summary">
+        {summary}
+        {tieBreaker && ` ${nameWithParty(tieBreaker.data)} cast the tie-breaking vote.`}
+      </p>
+    )
+  }
+  <p class="src"><a href={vote.source}>Official roll call</a></p>
+</figure>
+
+<style>
+  .vote {
+    margin: 0;
+    padding-block: 1rem;
+    border-top: 1px solid var(--rule);
+  }
+  figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.25rem 1rem;
+    margin-bottom: 0.75rem;
+  }
+  .chamber {
+    font-weight: 800;
+    font-size: var(--t-md);
+  }
+  .result {
+    font-weight: 600;
+    color: var(--steel);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 0.2rem 0;
+    text-align: left;
+    font-weight: 600;
+  }
+  th {
+    width: 8.5rem;
+    padding-right: 0.75rem;
+  }
+  .bar-cell {
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .bar {
+    display: flex;
+    gap: 2px;
+    width: var(--w);
+    min-width: 6px;
+    height: 10px;
+  }
+  .bar span {
+    flex-basis: 0;
+    min-width: 4px;
+    height: 100%;
+  }
+  .yes {
+    background: var(--ink);
+    border-radius: 4px 0 0 4px;
+  }
+  .no {
+    background: var(--rule);
+    border-radius: 0 4px 4px 0;
+  }
+  .yes:only-child,
+  .no:only-child {
+    border-radius: 4px;
+  }
+  .count {
+    padding-left: 0.75rem;
+    white-space: nowrap;
+    text-align: right;
+  }
+  .summary {
+    margin-top: 0.6rem;
+    font-weight: 700;
+  }
+  .src {
+    margin-top: 0.35rem;
+    font-size: var(--t-xs);
+  }
+  .src a {
+    color: var(--steel);
+  }
+  @media (max-width: 30rem) {
+    .bar-cell {
+      display: none;
+    }
+    th {
+      width: auto;
+    }
+  }
+</style>

@@ -1,0 +1,5 @@
+name: Newport News
+short: Newport News
+kind: city
+parent: va
+geoids: { state: "51", county: "51700" }

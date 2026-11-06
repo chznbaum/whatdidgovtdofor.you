@@ -1,0 +1,110 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SignGrid from '../../components/SignGrid.astro';
+import { getEntries, placeUrl, type Official } from '../../lib/data.ts';
+import { PARTY_NAMES, ROLE_LABEL, nameWithParty } from '../../lib/format.ts';
+
+export async function getStaticPaths() {
+  return (await getCollection('officials')).map((official) => ({ params: { id: official.id }, props: { official } }));
+}
+
+const { official } = Astro.props as { official: Official };
+const o = official.data;
+const place = (await getEntry(o.jurisdiction))!;
+const entries = (await getEntries()).filter((e) => e.data.credit.some((c) => c.official.id === official.id));
+const captions = new Map(
+  entries.map((e) => [
+    e.id,
+    e.data.credit
+      .filter((c) => c.official.id === official.id)
+      .map((c) => ROLE_LABEL[c.role])
+      .join(', '),
+  ]),
+);
+const tenure = o.current ? 'Serving now' : 'Former';
+---
+
+<Base
+  title={nameWithParty(o)}
+  description={`What ${o.name} did for people as ${o.office}: ${entries.length} action${entries.length === 1 ? '' : 's'} on record.`}
+>
+  <div class="wrap">
+    <header class="plate">
+      <div class="face">
+        <h1>{o.name}</h1>
+        <p class="office">{o.office}</p>
+        <p class="meta">
+          {o.kind === 'person' && o.party && <span>{PARTY_NAMES[o.party]}</span>}
+          {o.kind === 'person' && <span>{tenure}</span>}
+          <a href={placeUrl(place.id)}>{place.data.name}</a>
+          {o.url && <a href={o.url}>Official website</a>}
+        </p>
+      </div>
+    </header>
+
+    <section aria-labelledby="did-h" class="did">
+      <h2 id="did-h">
+        {entries.length > 0 ? `What ${o.kind === 'body' ? 'it' : o.name.split(' ').at(-1)} helped do` : 'Nothing on record yet'}
+      </h2>
+      {
+        entries.length > 0 ? (
+          <SignGrid entries={entries} captions={captions} />
+        ) : (
+          <p class="empty">
+            We haven't recorded any actions credited to {o.name} yet. If you know of one, <a href="mailto:corrections@whatdidgovtdofor.you">tell us</a>.
+          </p>
+        )
+      }
+    </section>
+  </div>
+</Base>
+
+<style>
+  /* A white regulatory-style plate: black legend, black border. */
+  .plate {
+    max-width: 44rem;
+    margin-top: 1.5rem;
+    padding: 8px;
+    background: var(--paper);
+    border-radius: 18px;
+  }
+  .face {
+    border: 4px solid var(--ink);
+    border-radius: 11px;
+    padding: clamp(1.25rem, 4vw, 2rem);
+  }
+  h1 {
+    font-weight: 800;
+    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+    line-height: 1;
+  }
+  .office {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: var(--t-md);
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--steel);
+  }
+  .meta a {
+    color: var(--ink);
+  }
+  .did {
+    margin-top: 3.5rem;
+  }
+  .did h2 {
+    margin-bottom: 1.25rem;
+    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
+  }
+  .empty {
+    font-family: var(--serif);
+    font-size: var(--t-body);
+    max-width: var(--measure);
+  }
+</style>

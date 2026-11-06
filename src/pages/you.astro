@@ -1,0 +1,352 @@
+---
+import Base from '../layouts/Base.astro';
+import AddressForm from '../components/AddressForm.astro';
+import SignGrid from '../components/SignGrid.astro';
+import { getEntries } from '../lib/data.ts';
+
+// Every sign is rendered here, hidden; the script below reveals the ones that apply to the address.
+const entries = await getEntries();
+const levels = [
+  { level: 'local', title: 'From your local government' },
+  { level: 'state', title: 'From your state' },
+  { level: 'federal', title: 'From Washington' },
+] as const;
+---
+
+<Base title="What government did for you" description="Enter your address to see your officials and what they did for you.">
+  <div class="wrap">
+    <div class="ask">
+      <div class="face">
+        <h1>What did government do for you?</h1>
+        <AddressForm id="you-address" />
+      </div>
+    </div>
+
+    <p class="status" role="status" aria-live="polite" data-status></p>
+
+    <section class="officials" aria-labelledby="off-h" data-officials hidden>
+      <h2 id="off-h">Your officials</h2>
+      <p class="districts" data-districts></p>
+      <div class="tiers" data-tiers></div>
+      <p class="coverage" data-coverage hidden>
+        We cover national actions everywhere, and state and local actions in New York and Virginia so far.
+      </p>
+    </section>
+
+    <div class="results" data-results hidden>
+      {
+        levels.map(({ level, title }) => (
+          <section aria-labelledby={`lvl-${level}`} data-level-section={level}>
+            <h2 id={`lvl-${level}`}>{title}</h2>
+            <SignGrid entries={entries.filter((e) => e.data.level === level)} />
+          </section>
+        ))
+      }
+    </div>
+  </div>
+</Base>
+
+<script>
+  type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
+  type Seat = Person & { place: string; title: string };
+  type PlaceInfo = {
+    id: string;
+    name: string;
+    kind: string;
+    geoids: { state?: string; county?: string; place?: string };
+    members: string[];
+  };
+  type Index = {
+    geocoder: { benchmark: string; vintage: string };
+    places: PlaceInfo[];
+    congress: Record<string, { senate: Person[]; house: Record<string, Person> }>;
+    legislatures: Record<string, { place: string; upper: Record<string, Person>; lower: Record<string, Person> }>;
+    seats: Seat[];
+  };
+  type Geo = Record<string, Record<string, string>[]>;
+
+  const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
+  const statusEl = $('[data-status]');
+  const officialsEl = $('[data-officials]');
+  const resultsEl = $('[data-results]');
+  const input = $<HTMLInputElement>('#you-address');
+  const indexPromise: Promise<Index> = fetch('/lookup-index.json').then((r) => r.json());
+
+  // The Census geocoder doesn't send CORS headers, but it does support JSONP.
+  function geocode(address: string, cfg: Index['geocoder']): Promise<any> {
+    return new Promise((resolve, reject) => {
+      const cb = `__census${Date.now()}`;
+      const script = document.createElement('script');
+      const timer = setTimeout(() => done(new Error('timeout')), 20000);
+      function done(err?: Error, data?: unknown) {
+        clearTimeout(timer);
+        delete (window as any)[cb];
+        script.remove();
+        err ? reject(err) : resolve(data);
+      }
+      (window as any)[cb] = (data: unknown) => done(undefined, data);
+      script.onerror = () => done(new Error('network'));
+      const params = new URLSearchParams({
+        address,
+        benchmark: cfg.benchmark,
+        vintage: cfg.vintage,
+        layers: 'all',
+        format: 'jsonp',
+        callback: cb,
+      });
+      script.src = `https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?${params}`;
+      document.head.append(script);
+    });
+  }
+
+  const layer = (geo: Geo, test: RegExp) => Object.entries(geo).find(([k, v]) => test.test(k) && v.length)?.[1][0];
+  const ordinal = (n: number) => {
+    const s = ['th', 'st', 'nd', 'rd'];
+    const v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  };
+
+  function el(tag: string, attrs: Record<string, string> = {}, ...children: (Node | string)[]) {
+    const node = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+    node.append(...children);
+    return node;
+  }
+
+  function officialItem(title: string, p: Person) {
+    const label = p.party && p.party !== 'NP' ? `${p.name} (${p.party})` : p.name;
+    const href = p.id ? `/officials/${p.id}/` : p.url;
+    const name = href ? el('a', { href, class: 'name' }, label) : el('span', { class: 'name' }, label);
+    const record = p.n
+      ? el('a', { href: `/officials/${p.id}/`, class: 'record' }, `${p.n} action${p.n === 1 ? '' : 's'} on record`)
+      : el('span', { class: 'record none' }, 'No actions on record yet');
+    return el('li', {}, el('span', { class: 'title' }, title), name, record);
+  }
+
+  function tier(title: string, items: HTMLElement[]) {
+    if (!items.length) return null;
+    return el('section', { class: 'tier' }, el('h3', {}, title), el('ul', { role: 'list' }, ...items));
+  }
+
+  async function lookup(address: string) {
+    input.value = address;
+    statusEl.textContent = 'Looking up your districts…';
+    officialsEl.hidden = true;
+    resultsEl.hidden = true;
+
+    let index: Index;
+    let result: any;
+    try {
+      index = await indexPromise;
+      result = await geocode(address, index.geocoder);
+    } catch {
+      statusEl.textContent =
+        "We couldn't reach the Census Bureau's address lookup. Check your connection and try again in a moment.";
+      return;
+    }
+
+    const match = result?.result?.addressMatches?.[0];
+    if (!match) {
+      statusEl.textContent =
+        "We couldn't find that address. Include the street number, street, city, and state, like \"810 Union St, Norfolk, VA\".";
+      return;
+    }
+
+    const geo: Geo = match.geographies;
+    const state = layer(geo, /^States$/);
+    const fips = state?.STATE ?? state?.GEOID;
+    const abbr = state?.STUSAB;
+    const cd = layer(geo, /Congressional Districts/);
+    const upper = layer(geo, /State Legislative Districts - Upper/);
+    const lower = layer(geo, /State Legislative Districts - Lower/);
+    const county = layer(geo, /^Counties$/);
+    const incPlace = layer(geo, /^Incorporated Places$/);
+
+    // Which of our places contain this address: the country, the state, a city or county, and any regions.
+    const mine = new Set(['us']);
+    for (const p of index.places) {
+      const g = p.geoids;
+      if (p.kind === 'state' && g.state === fips) mine.add(p.id);
+      if ((p.kind === 'city' || p.kind === 'county') && ((g.place && g.place === incPlace?.GEOID) || (g.county && g.county === county?.GEOID)))
+        mine.add(p.id);
+    }
+    for (const p of index.places) if (p.kind === 'region' && p.members.some((m) => mine.has(m))) mine.add(p.id);
+
+    // Officials.
+    const seatsFor = (placeId: string) => index.seats.filter((s) => s.place === placeId);
+    const congress = abbr ? index.congress[abbr] : undefined;
+    const district = cd ? String(parseInt(cd.GEOID.slice(2), 10)) : undefined;
+    const legislature = fips ? index.legislatures[fips] : undefined;
+
+    const national = [
+      ...seatsFor('us').map((s) => officialItem(s.title, s)),
+      ...(congress?.senate ?? []).map((p) => officialItem('U.S. Senator', p)),
+      ...(congress && district && congress.house[district] ? [officialItem('U.S. Representative', congress.house[district])] : []),
+    ];
+    const stateItems = legislature
+      ? [
+          ...seatsFor(legislature.place).map((s) => officialItem(s.title, s)),
+          ...(upper && legislature.upper[String(parseInt(upper.BASENAME, 10))]
+            ? [officialItem('State Senator', legislature.upper[String(parseInt(upper.BASENAME, 10))])]
+            : []),
+          ...(lower && legislature.lower[String(parseInt(lower.BASENAME, 10))]
+            ? [officialItem(fips === '51' ? 'Delegate' : 'Assembly Member', legislature.lower[String(parseInt(lower.BASENAME, 10))])]
+            : []),
+        ]
+      : [];
+    const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county'));
+    const localItems = localPlaces.flatMap((p) => seatsFor(p.id).map((s) => officialItem(s.title, s)));
+
+    const tiers = $('[data-tiers]');
+    tiers.replaceChildren(
+      ...[tier('National', national), tier('State', stateItems), tier('Local', localItems)].filter((t): t is HTMLElement => !!t),
+    );
+
+    const where = [
+      cd && abbr && district ? (district === '0' ? `${abbr} at-large congressional district` : `${abbr}'s ${ordinal(+district)} Congressional District`) : null,
+      upper?.NAME,
+      fips === '51' ? lower?.NAME?.replace('State House', 'House of Delegates') : lower?.NAME,
+      localPlaces[0]?.name ?? incPlace?.BASENAME,
+    ].filter(Boolean);
+    $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;
+    $('[data-coverage]').hidden = !!legislature;
+    officialsEl.hidden = false;
+
+    // Actions that apply to this address.
+    let shown = 0;
+    for (const section of document.querySelectorAll<HTMLElement>('[data-level-section]')) {
+      let any = false;
+      for (const li of section.querySelectorAll<HTMLElement>('li[data-places]')) {
+        const applies = li.dataset.places!.split(' ').some((p) => mine.has(p));
+        li.hidden = !applies;
+        if (applies) {
+          any = true;
+          shown++;
+        }
+      }
+      section.hidden = !any;
+    }
+    resultsEl.hidden = false;
+    statusEl.textContent = `${shown} action${shown === 1 ? '' : 's'} on record for this address.`;
+  }
+
+  function fromUrl() {
+    const query = new URLSearchParams(location.search).get('address');
+    if (query) {
+      // Move a no-JS form submission into the fragment so the address isn't kept in the URL sent to servers.
+      history.replaceState(null, '', `/you/#${encodeURIComponent(query)}`);
+      return query;
+    }
+    return location.hash.length > 1 ? decodeURIComponent(location.hash.slice(1)) : '';
+  }
+
+  const initial = fromUrl();
+  if (initial) lookup(initial);
+  addEventListener('hashchange', () => {
+    const a = fromUrl();
+    if (a) lookup(a);
+  });
+</script>
+
+<style>
+  .ask {
+    max-width: 52rem;
+    margin-top: 1.5rem;
+    padding: 9px;
+    background: var(--guide);
+    color: var(--paper);
+    border-radius: 24px;
+  }
+  .ask .face {
+    border: 5px solid var(--paper);
+    border-radius: 15px;
+    padding: clamp(1.25rem, 4vw, 2.25rem);
+  }
+  h1 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: clamp(var(--t-xl), 6vw, var(--t-2xl));
+    line-height: 1;
+  }
+  .status {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: var(--t-md);
+  }
+  .status:empty {
+    display: none;
+  }
+  .officials {
+    margin-top: 2.5rem;
+  }
+  h2 {
+    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
+  }
+  .districts {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: var(--steel);
+  }
+  .tiers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  /* Officials sit on white plates, like the name plate on an official's page. */
+  .tiers :global(.tier) {
+    padding: 6px;
+    background: var(--paper);
+    border-radius: 14px;
+  }
+  .tiers :global(h3) {
+    padding: 0.85rem 1rem 0.3rem;
+    font-size: var(--t-sm);
+    font-weight: 700;
+    color: var(--steel);
+  }
+  .tiers :global(ul) {
+    display: grid;
+    gap: 0.9rem;
+    margin: 0;
+    padding: 0 1rem 1rem;
+    list-style: none;
+  }
+  .tiers :global(li) {
+    display: grid;
+  }
+  .tiers :global(.title) {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--steel);
+  }
+  .tiers :global(.name) {
+    font-weight: 800;
+    font-size: var(--t-md);
+    text-decoration: none;
+  }
+  .tiers :global(a.name:hover) {
+    text-decoration: underline;
+  }
+  .tiers :global(.record) {
+    font-weight: 700;
+    font-size: var(--t-sm);
+    color: var(--guide);
+  }
+  .tiers :global(.record.none) {
+    font-weight: 500;
+    color: var(--steel);
+  }
+  .coverage {
+    margin-top: 1rem;
+    font-family: var(--serif);
+    font-size: var(--t-body);
+    max-width: var(--measure);
+  }
+  .results section {
+    margin-top: 3.5rem;
+  }
+  .results h2 {
+    margin-bottom: 1.25rem;
+  }
+</style>

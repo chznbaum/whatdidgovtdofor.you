@@ -1,0 +1,59 @@
+---
+// The same editorial standard the writing and checking models are given, published as-is.
+import Base from '../layouts/Base.astro';
+import { Content } from '../../docs/content-guide.md';
+---
+
+<Base title="Content guide" description="The editorial standard every entry is written and checked against.">
+  <div class="wrap">
+    <p class="note">
+      This is the exact guide our writing and checking models work from. It's published so you can hold us to it.
+    </p>
+    <div class="prose guide"><Content /></div>
+  </div>
+</Base>
+
+<style>
+  .note {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: var(--steel);
+  }
+  .guide {
+    margin-top: 1.5rem;
+  }
+  .guide :global(h1) {
+    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+    margin-bottom: 1rem;
+  }
+  .guide :global(h2) {
+    margin: 2.5rem 0 0.75rem;
+    font-size: var(--t-lg);
+  }
+  .guide :global(h3) {
+    margin: 1.75rem 0 0.5rem;
+    font-size: var(--t-md);
+  }
+  .guide :global(:is(ul, ol, pre, p) + :is(ul, ol, pre, p)) {
+    margin-top: 0.9em;
+  }
+  .guide :global(code) {
+    font-size: 0.85em;
+  }
+  .guide :global(pre) {
+    padding: 1rem;
+    overflow-x: auto;
+    background: var(--paper);
+    border-radius: 6px;
+    font-size: var(--t-sm);
+  }
+  .guide :global(table) {
+    border-collapse: collapse;
+    font-size: var(--t-sm);
+  }
+  .guide :global(:is(th, td)) {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+  }
+</style>

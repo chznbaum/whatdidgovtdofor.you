@@ -1,0 +1,5 @@
+name: Suffolk
+short: Suffolk
+kind: city
+parent: va
+geoids: { state: "51", county: "51800" }

@@ -1,0 +1,191 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SignGrid from '../../components/SignGrid.astro';
+import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeUrl, type Place } from '../../lib/data.ts';
+import { nameWithParty } from '../../lib/format.ts';
+
+export async function getStaticPaths() {
+  return (await getCollection('places')).map((place) => ({ params: { id: place.id }, props: { place } }));
+}
+
+const { place } = Astro.props as { place: Place };
+const p = place.data;
+const entries = await getEntries();
+const places = await getPlacesMap();
+
+const scope = placeAndDescendants(place.id, places);
+const isRegion = p.kind === 'region';
+const own = isRegion
+  ? entries.filter((e) => e.data.level === 'local' && scope.has(e.data.jurisdiction.id))
+  : entries.filter((e) => e.data.jurisdiction.id === place.id);
+const footprint =
+  place.id === 'us'
+    ? []
+    : entries.filter((e) => !own.includes(e) && e.data.places.some((x) => scope.has(x.id)) && !scope.has(e.data.jurisdiction.id));
+const around =
+  place.id === 'us' || isRegion
+    ? []
+    : entriesWithin(place.id, entries, places).filter((e) => !own.includes(e) && !footprint.includes(e));
+
+const seated = (await getCollection('officials')).filter((o) => o.data.current && o.data.seat?.place.id === place.id);
+const children = [...places.values()].filter((c) => c.data.parent?.id === place.id || p.members.some((m) => m.id === c.id));
+
+const ownHeading =
+  place.id === 'us'
+    ? 'What the federal government did'
+    : isRegion
+      ? 'What local governments did'
+      : p.kind === 'state'
+        ? `What ${p.name}'s state government did`
+        : `What ${p.name} did`;
+---
+
+<Base title={p.name} description={p.blurb ?? `What government did for people in ${p.name}.`}>
+  <div class="wrap">
+    <header class="head">
+      <div class="panel">
+        <div class="face">
+          <h1>{p.name}</h1>
+          {p.blurb && <p>{p.blurb}</p>}
+        </div>
+      </div>
+      {
+        seated.length > 0 && (
+          <ul class="seated" role="list">
+            {seated.map((o) => (
+              <li>
+                <span class="title">{o.data.seat!.title}</span>
+                <a href={officialUrl(o.id)}>{nameWithParty(o.data)}</a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </header>
+
+    {
+      own.length > 0 && (
+        <section aria-labelledby="own-h">
+          <h2 id="own-h">{ownHeading}</h2>
+          <SignGrid entries={own} />
+        </section>
+      )
+    }
+    {
+      footprint.length > 0 && (
+        <section aria-labelledby="fp-h">
+          <h2 id="fp-h">Federal and state actions in {p.name}</h2>
+          <SignGrid entries={footprint} />
+        </section>
+      )
+    }
+    {
+      around.length > 0 && (
+        <section aria-labelledby="around-h">
+          <h2 id="around-h">Around {p.name}</h2>
+          <SignGrid entries={around} />
+        </section>
+      )
+    }
+    {
+      own.length + footprint.length + around.length === 0 && (
+        <p class="empty">
+          Nothing on record here yet. If you know of something government did for people in {p.name},{' '}
+          <a href="mailto:corrections@whatdidgovtdofor.you">tell us</a>.
+        </p>
+      )
+    }
+
+    {
+      children.length > 0 && (
+        <nav class="children" aria-labelledby="kids-h">
+          <h2 id="kids-h">{isRegion ? 'Cities and counties' : 'Places in ' + p.name}</h2>
+          <ul role="list">
+            {children.map((c) => (
+              <li>
+                <a href={placeUrl(c.id)}>{c.data.name}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+  </div>
+</Base>
+
+<style>
+  .head {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .panel {
+    max-width: 48rem;
+    padding: 8px;
+    background: var(--guide);
+    color: var(--paper);
+    border-radius: 20px;
+  }
+  .face {
+    border: 5px solid var(--paper);
+    border-radius: 12px;
+    padding: clamp(1.25rem, 4vw, 2rem);
+  }
+  h1 {
+    font-weight: 700;
+    font-size: clamp(var(--t-xl), 8vw, var(--t-3xl));
+    line-height: 1;
+  }
+  .face p {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    font-size: var(--t-md);
+    max-width: 40ch;
+  }
+  .seated {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .seated li {
+    display: grid;
+  }
+  .title {
+    font-weight: 600;
+    color: var(--steel);
+  }
+  .seated a {
+    font-weight: 800;
+    font-size: var(--t-md);
+  }
+  section {
+    margin-top: 3.5rem;
+  }
+  section h2,
+  .children h2 {
+    margin-bottom: 1.25rem;
+    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
+  }
+  .empty {
+    font-family: var(--serif);
+    font-size: var(--t-body);
+  }
+  .children {
+    margin-top: 4rem;
+  }
+  .children ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+    font-size: var(--t-md);
+  }
+</style>
