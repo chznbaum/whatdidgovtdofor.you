@@ -10,7 +10,7 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
-import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
+import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readAllEntries, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
 import { MODELS, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
 import {
   OFFICIALS_RULE,
@@ -51,11 +51,7 @@ async function pool<T>(items: T[], concurrency: number, fn: (item: T) => Promise
   );
 }
 
-async function existingEntries() {
-  return Promise.all(
-    (await listFiles(join(CONTENT, 'entries'), '.md')).map(async (file) => ({ file, ...(await readMarkdown(file)) })),
-  );
-}
+const existingEntries = readAllEntries;
 
 async function writeOfficials(officials: { id: string; yaml: string }[]) {
   for (const o of officials) {

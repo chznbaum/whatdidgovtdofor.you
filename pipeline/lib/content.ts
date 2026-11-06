@@ -39,6 +39,20 @@ export async function writeMarkdown(file: string, doc: MarkdownDoc) {
   await writeFile(file, formatMarkdown(doc));
 }
 
+// Every entry that parses, with its path. A malformed file is skipped with a warning
+// (validation reports it) so one bad file can't stop a pipeline run.
+export async function readAllEntries(): Promise<(MarkdownDoc & { file: string })[]> {
+  const out: (MarkdownDoc & { file: string })[] = [];
+  for (const file of await listFiles(join(CONTENT, 'entries'), '.md')) {
+    try {
+      out.push({ file, ...(await readMarkdown(file)) });
+    } catch (err) {
+      console.warn(`  skipping ${rel(file)}: ${String(err).split('\n')[0]}`);
+    }
+  }
+  return out;
+}
+
 export async function readYaml(file: string): Promise<any> {
   return parse(await readFile(file, 'utf8'));
 }

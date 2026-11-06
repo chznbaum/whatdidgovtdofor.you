@@ -2,7 +2,7 @@
 // so editing the guide changes what the models produce.
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { CONTENT, ROOT, listFiles, idFromPath, readMarkdown, readYaml } from './lib/content.ts';
+import { CONTENT, ROOT, listFiles, idFromPath, readAllEntries, readYaml } from './lib/content.ts';
 
 // OpenAI structured outputs need strict schemas: every property required, no extras.
 const officialsArray = {
@@ -96,12 +96,7 @@ async function context() {
       return `${idFromPath(f)}: ${o.name}${o.party ? ` (${o.party})` : ''}, ${o.office}`;
     }),
   );
-  const entries = await Promise.all(
-    (await listFiles(join(CONTENT, 'entries'), '.md')).map(async (f) => {
-      const { data } = await readMarkdown(f);
-      return `${data.source_key ?? idFromPath(f)}: ${data.title}`;
-    }),
-  );
+  const entries = (await readAllEntries()).map(({ file, data }) => `${data.source_key ?? idFromPath(file)}: ${data.title}`);
   return { guide, example, places, officials: officials.join('\n'), entries: entries.join('\n') };
 }
 
@@ -208,6 +203,8 @@ Check every factual claim using web search and the cited sources:
 - status: correct as of today? Search specifically for repeal, expiration, court blocks, funding cuts, or extensions since enactment.
 - sources: do the URLs exist, and do they support what they're cited for?
 - guide compliance: impact-first headline, plain language, no editorializing about parties.
+
+Keep headlines readable at a glance. Change a title only if it is false or materially overstated, and fix it in plain words ("the extra half of overtime pay", not "federally required overtime premiums"). Precise qualifiers and legal terms belong in the dek and body, not the title.
 
 Return:
 - "pass" if everything checks out. Minor style preferences don't count as problems.

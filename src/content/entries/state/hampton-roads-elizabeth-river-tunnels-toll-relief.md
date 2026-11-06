@@ -1,16 +1,20 @@
 ---
 title: Free tunnel trips for lower-income Norfolk and Portsmouth drivers
-dek: Norfolk and Portsmouth residents earning under $50,000 get their Downtown and Midtown tunnel tolls fully refunded on up to 14 trips a week. The state also paid $36 million to wipe out residents' old tunnel toll debts.
+dek: Norfolk and Portsmouth residents earning under $50,000 get their Downtown and Midtown tunnel tolls fully refunded on up to 14 trips a week. The state also committed $36.2 million to wipe out residents' old tunnel toll debts.
 level: state
 jurisdiction: va
-places: [norfolk, portsmouth]
+places:
+  - norfolk
+  - portsmouth
 action:
   type: budget
-  name: 2024–2026 Appropriation Act, Item 441 (Elizabeth River Tunnels toll relief)
+  name: 2024 Appropriation Act, Item 441 (Elizabeth River Tunnels toll relief)
   identifier: HB 6001 (2024 Special Session I), Chapter 2
   date: 2024-05-13
   effective: 2024-12-18
-topics: [costs, transit]
+topics:
+  - costs
+  - transit
 who_benefits: Norfolk and Portsmouth residents who earn under $50,000 and drive through the Downtown and Midtown tunnels, plus residents whose old unpaid tunnel tolls were erased; about 20,000 drivers were enrolled in the region's toll relief program in 2025.
 impact:
   - figure: 100%
@@ -28,6 +32,9 @@ credit:
   - official: louise-lucas
     role: championed
     note: Chair of Senate Finance and Appropriations; negotiated the $101 million deal with the governor
+  - official: luke-torian
+    role: sponsored
+    note: Chief patron of HB 6001
   - official: glenn-youngkin
     role: signed
     note: Signed the 2024 budget; his 2025 amendments limited the extra rebate and debt payoff to Norfolk and Portsmouth
@@ -62,8 +69,16 @@ sources:
     date: 2025-07-18
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-05 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-05
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-05
+  verdict: corrected
+  notes: Confirmed the eligibility rules, figures, implementation date, roll-call totals, and continuation through fiscal year 2036. Corrected the payment timing and official action name, and added the budget bill’s chief patron.
 source_key: va-2024-hb6001-item441-ert-toll-relief
 ---
 

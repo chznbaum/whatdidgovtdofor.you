@@ -13,14 +13,13 @@ const { official } = Astro.props as { official: Official };
 const o = official.data;
 const place = (await getEntry(o.jurisdiction))!;
 const entries = (await getEntries()).filter((e) => e.data.credit.some((c) => c.official.id === official.id));
+// "Proposed it and signed it": every role this official played, as one phrase.
+const and = new Intl.ListFormat('en', { type: 'conjunction' });
 const captions = new Map(
-  entries.map((e) => [
-    e.id,
-    e.data.credit
-      .filter((c) => c.official.id === official.id)
-      .map((c) => ROLE_LABEL[c.role])
-      .join(', '),
-  ]),
+  entries.map((e) => {
+    const roles = e.data.credit.filter((c) => c.official.id === official.id).map((c) => ROLE_LABEL[c.role]);
+    return [e.id, and.format(roles.map((r, i) => (i ? r[0].toLowerCase() + r.slice(1) : r)))];
+  }),
 );
 const tenure = o.current ? 'Serving now' : 'Former';
 ---

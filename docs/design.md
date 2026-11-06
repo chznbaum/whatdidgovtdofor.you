@@ -66,4 +66,9 @@ The hero: a full guide sign asking *What did government do for you?*, with the a
 
 ## Notes from iterations
 
-- v1 (2026-11-05): first build.
+- v1 (2026-11-05): first build. What worked: the distance sign's counts in the hero, the exit tab as "which government", and plaques for status. At 50+ signs the page reads as a lively highway rather than a card grid, because status colors vary and signs size to their legends.
+- Added a `delivered` status (green) for one-time benefits like rebate checks. Calling them "expired" put them under "Already taken away", which was false.
+- Home sections dedupe top to bottom, and every under-threat sign gets its own section.
+- 404 is a white "Road closed" plate. An orange detour sign was tempting, but orange means "phasing in."
+- On narrow screens the impact figure moves above its label so the number leads.
+- Ideas not yet tried: a night/dark mode (signs as retroreflective panels on a dark sky), a printable one-page "receipt" of your officials' records, and per-official share images.

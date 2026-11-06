@@ -95,10 +95,10 @@
   "date": "2026-11-05"
  },
  "nyc-mayor-2026-11-fast-buses-mayor-mamdani-breaks-ground-on-project-to-speed-up-b": {
-  "decision": "error",
-  "reason": "YAMLParseError: Nested mappings are not allowed in compact mappings at line 28, column 11:\n\n    note: Mayor; part of his \"Next Stop: Fast Buses, Better Service\" plan\n          ^\n",
-  "date": "2026-11-05",
-  "attempts": 1
+  "decision": "drafted",
+  "reason": "NYC DOT has started building new bus lanes and protected bike lanes on the B38 corridor, a funded street project already under construction that directly affects 18,000 daily riders and the people who use these streets.",
+  "file": "src/content/entries/local/nyc-dekalb-lafayette-b38-bus-lanes.md",
+  "date": "2026-11-06"
  },
  "nyc-mayor-2026-11-mayor-mamdani-expands-program-helping-snap-recipients-receive-fr": {
   "decision": "skip",
@@ -201,9 +201,104 @@
   "date": "2026-11-05"
  },
  "va-gov-1127968": {
-  "decision": "error",
-  "reason": "invalid after repair: credit.1.official: unknown officials id \"virginia-general-assembly\"; credit.2.official: unknown officials id \"virginia-health-benefit-exchange\"",
-  "date": "2026-11-05",
-  "attempts": 1
+  "decision": "skip",
+  "reason": "triage: Duplicate of Premium Savings release",
+  "date": "2026-11-06"
+ },
+ "chesapeake-news-prtprojectupdatesseptember232026": {
+  "decision": "skip",
+  "reason": "triage: Generic project updates page",
+  "date": "2026-11-06"
+ },
+ "va-gov-1127635": {
+  "decision": "skip",
+  "reason": "triage: Duplicate of Premium Savings release",
+  "date": "2026-11-06"
+ },
+ "va-gov-1127607": {
+  "decision": "skip",
+  "reason": "triage: Internal government cybersecurity plan",
+  "date": "2026-11-06"
+ },
+ "va-gov-1127630": {
+  "decision": "skip",
+  "reason": "triage: Coalition membership, no direct effect",
+  "date": "2026-11-06"
+ },
+ "norfolk-news-10573": {
+  "decision": "skip",
+  "reason": "triage: Ceremony event",
+  "date": "2026-11-06"
+ },
+ "norfolk-news-10574": {
+  "decision": "skip",
+  "reason": "triage: Minor library program",
+  "date": "2026-11-06"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-announces-350-free-tickets-to-tcs-new-york-city-ma": {
+  "decision": "skip",
+  "reason": "triage: Event giveaway",
+  "date": "2026-11-06"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-triples-city-s-commitment-to-speed-limiting-techno": {
+  "decision": "skip",
+  "reason": "triage: Mainly affects city fleet",
+  "date": "2026-11-06"
+ },
+ "us-eo-14438": {
+  "decision": "skip",
+  "reason": "triage: Directs agency review, no direct effect yet",
+  "date": "2026-11-06"
+ },
+ "va-gov-1127575": {
+  "decision": "skip",
+  "reason": "triage: Statement only",
+  "date": "2026-11-06"
+ },
+ "norfolk-news-10571": {
+  "decision": "skip",
+  "reason": "triage: Event ticket giveaway",
+  "date": "2026-11-06"
+ },
+ "norfolk-news-8034": {
+  "decision": "skip",
+  "reason": "triage: Office profile",
+  "date": "2026-11-06"
+ },
+ "nyc-mayor-2026-10-mamdani-administration-releases-40-000-more-9-11-records-to-publ": {
+  "decision": "skip",
+  "reason": "triage: Records release, no tangible effect",
+  "date": "2026-11-06"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-opens-1976-time-capsule-to-break-ground-on-185-mi": {
+  "decision": "skip",
+  "reason": "triage: Plant upgrade, indirect effect",
+  "date": "2026-11-06"
+ },
+ "suffolk-news-drpt-virginia-gov": {
+  "decision": "skip",
+  "reason": "triage: Public input request",
+  "date": "2026-11-06"
+ },
+ "va-gov-1127552": {
+  "decision": "skip",
+  "reason": "triage: Flag order",
+  "date": "2026-11-06"
+ },
+ "virginia-beach-news-vbpd-lieutenant-takes-the-l-e-a-d-in-advancing-community-prevention": {
+  "decision": "skip",
+  "reason": "triage: Personnel feature",
+  "date": "2026-11-06"
+ },
+ "norfolk-news-personal-property-tax": {
+  "decision": "skip",
+  "reason": "triage: Routine tax reminder",
+  "date": "2026-11-06"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-announces-snap-users-to-receive-40-more-money-for": {
+  "decision": "drafted",
+  "reason": "The city has funded a concrete increase in a SNAP produce benefit: the daily Health Bucks match goes from $10 to $14 starting January 2027, paid for with city money and a $5.7 million federal GusNIP grant.",
+  "file": "src/content/entries/local/nyc-health-bucks-snap-produce-match-increase.md",
+  "date": "2026-11-06"
  }
 }

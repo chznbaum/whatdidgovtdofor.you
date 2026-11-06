@@ -9,14 +9,16 @@ action:
   identifier: HB 395 / SB 7 (2020 Acts, cc. 1204, 1242)
   date: 2020-04-22
   effective: 2021-05-01
-topics: [work, costs]
+topics:
+  - work
+  - costs
 who_benefits: Low-wage workers across Virginia, including domestic workers and others the law newly brought under the state minimum wage.
 impact:
-  - figure: "$12"
+  - figure: $12
     label: hourly minimum wage in 2023, up from $7.25
-  - figure: "+$4.75"
+  - figure: +$4.75
     label: hourly raise for minimum-wage workers between 2021 and 2023
-  - figure: "$12.77"
+  - figure: $12.77
     label: hourly minimum wage in 2026, after yearly inflation adjustments
 status:
   state: in-effect
@@ -31,19 +33,61 @@ credit:
   - official: dick-saslaw
     role: sponsored
     note: Chief patron of SB 7
+  - official: justin-fairfax
+    role: tie-breaker
+    note: Cast the deciding Senate vote to accept the governor's recommendation
 votes:
   - chamber: Virginia House of Delegates
     date: 2020-03-07
     yes: 54
     no: 45
-    by_party: { D: { yes: 54, no: 0 }, R: { yes: 0, no: 45 } }
+    by_party:
+      D:
+        yes: 54
+        no: 0
+      R:
+        yes: 0
+        no: 45
     source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+vot+HV2022+HB0395
   - chamber: Senate of Virginia
     date: 2020-03-08
     yes: 21
     no: 17
-    by_party: { D: { yes: 21, no: 0 }, R: { yes: 0, no: 17 } }
+    by_party:
+      D:
+        yes: 21
+        no: 0
+      R:
+        yes: 0
+        no: 17
     source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+vot+SV1849HB0395+HB0395
+  - chamber: Virginia House of Delegates
+    date: 2020-04-22
+    yes: 49
+    no: 45
+    by_party:
+      D:
+        yes: 48
+        no: 1
+      R:
+        yes: 1
+        no: 44
+    source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+vot+HV2160+HB0395
+  - chamber: Senate of Virginia
+    date: 2020-04-22
+    yes: 21
+    no: 20
+    by_party:
+      D:
+        yes: 20
+        no: 0
+      R:
+        yes: 0
+        no: 20
+    tie_breaker:
+      official: justin-fairfax
+      vote: yes
+    source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+vot+SV2014HB0395+HB0395
 sources:
   - title: "HB 395, 2020 Session: bill history and summary as enacted"
     publisher: Virginia Legislative Information System
@@ -56,8 +100,16 @@ sources:
     url: https://www.mcguirewoods.com/client-resources/alerts/2026/5/virginias-general-assembly-passes-slate-of-wage-and-hour-bills/
 featured: false
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-05 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-05
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-05
+  verdict: corrected
+  notes: Confirmed the enacted wage steps, current $12.77 rate, 2026 extension, sponsors, and official roll calls. Added the decisive April 22 concurrence votes and credited Lieutenant Governor Justin Fairfax for breaking the Senate tie.
 source_key: va-2020-hb395
 ---
 

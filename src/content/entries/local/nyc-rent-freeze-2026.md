@@ -1,5 +1,5 @@
 ---
-title: 0% guideline rent increase on stabilized leases renewed through Sept. 2027
+title: Rent-stabilized tenants get a 0% increase on leases renewed by Sept. 2027
 dek: The Rent Guidelines Board voted 7–1 to set a 0% guideline increase on one- and two-year leases in about 1 million rent-stabilized apartments, for leases starting Oct. 1, 2026 through Sept. 30, 2027. It's the first freeze ever on two-year leases.
 level: local
 jurisdiction: nyc
