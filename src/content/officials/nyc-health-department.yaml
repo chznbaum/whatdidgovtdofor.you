@@ -1,0 +1,7 @@
+name: NYC Department of Health and Mental Hygiene
+kind: body
+office: Department of Health and Mental Hygiene
+level: local
+jurisdiction: nyc
+current: true
+url: https://www.nyc.gov/site/doh/index.page

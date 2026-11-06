@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import federal from '../data/roster/federal.json';
 import stateVa from '../data/roster/state-va.json';
 import stateNy from '../data/roster/state-ny.json';
+import nycCouncil from '../data/roster/nyc-council.json';
 import { entryPlaceIds, getEntries } from '../lib/data.ts';
 
 // Census geocoder settings. ACS2025_Current carries the 119th Congress and the 2024 state legislative maps;
@@ -11,6 +12,14 @@ import { entryPlaceIds, getEntries } from '../lib/data.ts';
 const GEOCODER = {
   benchmark: 'Public_AR_Current',
   vintage: 'ACS2025_Current',
+};
+
+// Point-in-polygon services for council districts the Census doesn't publish (must send CORS headers).
+const COUNCIL_LOOKUP = {
+  nyc: {
+    url: 'https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/NYC_City_Council_Districts/FeatureServer/0/query',
+    field: 'CounDist',
+  },
 };
 
 // State legislatures we cover, keyed by state FIPS code.
@@ -43,8 +52,8 @@ export const GET: APIRoute = async () => {
 
   const byBioguide = new Map(officials.filter((o) => o.data.ids.bioguide).map((o) => [o.data.ids.bioguide!, o.id]));
   const byOpenstates = new Map(officials.filter((o) => o.data.ids.openstates).map((o) => [o.data.ids.openstates!, o.id]));
-  const findStateOfficial = (name: string, place: string) =>
-    officials.find((o) => o.data.level === 'state' && o.data.jurisdiction.id === place && sameName(o.data.name, name))?.id;
+  const findOfficial = (level: 'state' | 'local', name: string, place: string) =>
+    officials.find((o) => o.data.level === level && o.data.jurisdiction.id === place && sameName(o.data.name, name))?.id;
 
   const person = (name: string, party: string, office: string, id: string | undefined, url?: string | null) => ({
     name,
@@ -78,7 +87,7 @@ export const GET: APIRoute = async () => {
                 m.name,
                 m.party,
                 `${s[c]}, District ${m.district}`,
-                byOpenstates.get(m.openstates) ?? findStateOfficial(m.name, s.place),
+                byOpenstates.get(m.openstates) ?? findOfficial('state', m.name, s.place),
                 m.url,
               ),
             ]),
@@ -86,6 +95,19 @@ export const GET: APIRoute = async () => {
       return [s.fips, { place: s.place, upper: chamber('upper'), lower: chamber('lower') }];
     }),
   );
+
+  // City councils with district lookups. NYC districts come from an ArcGIS point query in the browser.
+  const councils = {
+    nyc: {
+      lookup: COUNCIL_LOOKUP.nyc,
+      members: Object.fromEntries(
+        nycCouncil.members.map((m) => [
+          m.district,
+          person(m.name, m.party, `New York City Council, District ${m.district}`, findOfficial('local', m.name, 'nyc'), m.url),
+        ]),
+      ),
+    },
+  };
 
   const seats = officials
     .filter((o) => o.data.current && o.data.seat)
@@ -104,6 +126,7 @@ export const GET: APIRoute = async () => {
     places,
     congress,
     legislatures,
+    councils,
     seats,
     entries: entries.map((e) => ({ id: e.id, places: entryPlaceIds(e), credit: e.data.credit.map((c) => c.official.id) })),
   };

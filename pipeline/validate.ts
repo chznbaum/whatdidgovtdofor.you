@@ -5,13 +5,16 @@ import { z } from 'astro/zod';
 import { entrySchema, officialSchema, placeSchema, type Collection } from '../src/lib/schema.ts';
 import { CONTENT, idFromPath, listFiles, loadIds, readMarkdown, readYaml, rel } from './lib/content.ts';
 
-const ids = { officials: await loadIds('officials'), places: await loadIds('places') };
-
-// A reference is a string id that must name an existing file in that collection.
-const ref = (collection: Collection) =>
-  z.string().refine((id) => ids[collection].has(id), { error: (i) => `unknown ${collection} id "${i.input}"` });
-
-const schemas = { entries: entrySchema(ref), officials: officialSchema(ref), places: placeSchema(ref) };
+// Ids are reloaded on every call: the pipeline creates officials mid-run, and a stale list rejects them.
+async function loadSchemas() {
+  const ids = { officials: await loadIds('officials'), places: await loadIds('places') };
+  // A reference is a string id that must name an existing file in that collection.
+  const ref = (collection: Collection) =>
+    z.string().refine((id) => ids[collection].has(id), { error: (i) => `unknown ${collection} id "${i.input}"` });
+  const refs = { officials: ref('officials'), places: ref('places') };
+  return { entries: entrySchema(refs), officials: officialSchema(refs), places: placeSchema(refs) };
+}
+type Schemas = Awaited<ReturnType<typeof loadSchemas>>;
 
 type Problem = { file: string; message: string };
 
@@ -20,11 +23,12 @@ function zodProblems(file: string, error: z.ZodError): Problem[] {
 }
 
 // Editorial rules from docs/content-guide.md that the schema alone doesn't enforce.
-function editorialProblems(file: string, e: z.infer<(typeof schemas)['entries']>, body: string): Problem[] {
+function editorialProblems(file: string, e: z.infer<Schemas['entries']>, body: string): Problem[] {
   const out: string[] = [];
   if (/[.!]$/.test(e.title)) out.push('title: no trailing period or exclamation point');
-  if (e.status.state !== 'in-effect' && !e.status.note) out.push('status.note: required unless in-effect');
-  if (e.status.state !== 'in-effect' && !e.status.source) out.push('status.source: required unless in-effect');
+  const settled = e.status.state === 'in-effect' || e.status.state === 'delivered';
+  if (!settled && !e.status.note) out.push('status.note: required unless in-effect or delivered');
+  if (!settled && !e.status.source) out.push('status.source: required unless in-effect or delivered');
   for (const [i, v] of e.votes.entries()) {
     if (!v.by_party) continue;
     const tallies = Object.values(v.by_party);
@@ -38,10 +42,10 @@ function editorialProblems(file: string, e: z.infer<(typeof schemas)['entries']>
   return out.map((message) => ({ file, message }));
 }
 
-export async function validateEntry(file: string): Promise<Problem[]> {
+export async function validateEntry(file: string, schemas?: Schemas): Promise<Problem[]> {
   try {
     const { data, body } = await readMarkdown(file);
-    const parsed = schemas.entries.safeParse(data);
+    const parsed = (schemas ?? (await loadSchemas())).entries.safeParse(data);
     if (!parsed.success) return zodProblems(rel(file), parsed.error);
     return editorialProblems(rel(file), parsed.data, body);
   } catch (err) {
@@ -49,7 +53,7 @@ export async function validateEntry(file: string): Promise<Problem[]> {
   }
 }
 
-async function validateYaml(collection: 'officials' | 'places'): Promise<Problem[]> {
+async function validateYaml(collection: 'officials' | 'places', schemas: Schemas): Promise<Problem[]> {
   const problems: Problem[] = [];
   for (const file of await listFiles(join(CONTENT, collection), '.yaml')) {
     const parsed = schemas[collection].safeParse(await readYaml(file));
@@ -62,9 +66,10 @@ async function validateYaml(collection: 'officials' | 'places'): Promise<Problem
 if (import.meta.main) {
   const targets = process.argv.slice(2);
   const entryFiles = targets.length ? targets : await listFiles(join(CONTENT, 'entries'), '.md');
+  const schemas = await loadSchemas();
   const problems = [
-    ...(targets.length ? [] : [...(await validateYaml('places')), ...(await validateYaml('officials'))]),
-    ...(await Promise.all(entryFiles.map(validateEntry))).flat(),
+    ...(targets.length ? [] : [...(await validateYaml('places', schemas)), ...(await validateYaml('officials', schemas))]),
+    ...(await Promise.all(entryFiles.map((f) => validateEntry(f, schemas)))).flat(),
   ];
   for (const p of problems) console.log(`${p.file}: ${p.message}`);
   console.log(problems.length ? `\n${problems.length} problem(s)` : `ok: ${entryFiles.length} entries valid`);

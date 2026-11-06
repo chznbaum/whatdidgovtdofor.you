@@ -1,0 +1,8 @@
+name: Jimmy Gray
+party: NP
+office: Mayor of Hampton
+level: local
+jurisdiction: hampton
+current: true
+seat: { place: hampton, title: Mayor }
+url: https://hampton.gov

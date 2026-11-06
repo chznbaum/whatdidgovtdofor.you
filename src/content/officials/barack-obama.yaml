@@ -1,0 +1,7 @@
+name: Barack Obama
+party: D
+office: President of the United States
+level: federal
+jurisdiction: us
+current: false
+ids: { bioguide: O000167, wikidata: Q76 }

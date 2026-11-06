@@ -12,7 +12,7 @@ The sign vernacular has rules, and we use them for meaning, never decoration:
 
 | Sign element | MUTCD meaning | Our meaning |
 | --- | --- | --- |
-| Green guide sign, white legend | Guidance, destinations | Action **in effect** |
+| Green guide sign, white legend | Guidance, destinations | Action **in effect**, or a one-time benefit **delivered** |
 | Orange construction sign, black legend | Work zone | **Phasing in**, being rolled out |
 | Yellow warning sign, black legend | Hazard ahead | **Under threat**, a named effort would end it |
 | Red regulatory sign, white legend | Stop / prohibition | **Ended** (repealed, expired, blocked, cancelled) |

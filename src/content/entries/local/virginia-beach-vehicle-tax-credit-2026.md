@@ -1,0 +1,68 @@
+---
+title: Virginia Beach car owners will get up to $80 off each vehicle's 2027 tax bill
+dek: The city's 2026–27 budget provides a one-time 10.1% credit on the first $20,000 of each qualifying personal vehicle's assessed value, worth up to $80 per vehicle. The City Council approved it 11–0 on May 12, 2026.
+level: local
+jurisdiction: virginia-beach
+action:
+  type: budget
+  name: Virginia Beach FY 2026-27 Adopted Operating Budget
+  date: 2026-05-12
+  effective: 2027-01-01
+topics:
+  - costs
+who_benefits: Virginia Beach residents with qualifying personal-use vehicles, including renters; the city estimates about 495,000 registered personal vehicles.
+impact:
+  - figure: $80
+    label: most you save per qualifying vehicle on 2027 personal property tax
+  - figure: 10.1%
+    label: credit on tax for the first $20,000 of each qualifying vehicle's value
+  - figure: 495,000
+    label: estimated registered personal vehicles in Virginia Beach
+status:
+  state: phasing-in
+  as_of: 2026-11-05
+  note: The one-time credit applies to calendar-year 2027 personal property tax assessments, with the city applying it to bills beginning in January 2027.
+  source: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Proposed/FY27-Proposed-Operating-Budget.pdf
+credit:
+  - official: virginia-beach-city-council
+    role: voted-yes
+    note: Adopted the budget 11–0
+votes:
+  - chamber: Virginia Beach City Council
+    date: 2026-05-12
+    yes: 11
+    no: 0
+    source: https://virginiabeach.gov/connect/blog/virginia-beach-city-council-votes-to-adopt-revised-budget
+sources:
+  - title: Virginia Beach City Council votes to adopt revised budget
+    publisher: City of Virginia Beach
+    url: https://virginiabeach.gov/connect/blog/virginia-beach-city-council-votes-to-adopt-revised-budget
+    date: 2026-05-12
+  - title: Virginia Beach FY 2026-27 Adopted Executive Summary
+    publisher: City of Virginia Beach
+    url: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY27-Adopted-Executive-Summary.pdf
+  - title: Virginia Beach approves $2.9 billion budget, keeps real estate tax rate unchanged as home assessments rise
+    publisher: WTKR News 3
+    url: https://www.wtkr.com/news/in-the-community/virginia-beach/virginia-beach-approves-2-9-billion-budget-keeps-real-estate-tax-rate-unchanged-as-home-assessments-rise
+  - title: Proposed city budget includes vehicle tax credit and funds new Princess Anne High School
+    publisher: WTKR News 3
+    url: https://www.wtkr.com/news/in-the-community/virginia-beach/proposed-city-budget-includes-vehicle-tax-credit-and-funds-new-princess-anne-high-school
+verification:
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-05
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-05
+  verdict: corrected
+  notes: Confirmed the adopted credit amount and unanimous vote. Corrected the timing, eligibility scope, vehicle estimate, and status because the one-time credit applies to 2027 assessments and had not yet reached bills as of November 5, 2026.
+source_key: vb-fy2027-vehicle-tax-credit
+---
+
+Starting with 2027 personal property tax bills, Virginia Beach will apply a 10.1% credit to the tax on the first $20,000 of each qualifying personal-use vehicle's assessed value. The credit is capped at $80 per vehicle. A household with two qualifying vehicles valued at $20,000 or more can save up to $160. You do not file a separate application; the city will build the credit into the bill.
+
+Virginia Beach's recent local tax relief had focused on real estate, which directly benefits property owners. This vehicle credit also reaches residents who rent their homes. Councilman Joash Schulman cited renters, single parents and young people as examples of residents who could benefit. The city estimates about 495,000 registered personal vehicles, compared with roughly 113,000 residents who own real estate.
+
+The credit is part of the nearly $2.9 billion budget for the fiscal year that began July 1, 2026, which the City Council adopted unanimously on May 12. Because personal property tax follows the calendar year, the credit starts with 2027 assessments and bills. The same budget kept the real estate tax rate at 97 cents per $100 of assessed value while home assessments rose about 6% on average, so many homeowners will still pay more in real estate tax.

@@ -18,11 +18,20 @@ const destinations = ['us', 'ny', 'nyc', 'va', 'hampton-roads'].map((id) => {
 const bipartisan = (e: Entry) =>
   e.data.votes.some((v) => (v.by_party?.D?.yes ?? 0) > 0 && (v.by_party?.R?.yes ?? 0) > 0);
 
-const live = entries.filter((e) => TONE[e.data.status.state] !== 'stop');
-const featured = live.filter((e) => e.data.featured).slice(0, 8);
-const threatened = entries.filter((e) => e.data.status.state === 'under-threat');
-const bothParties = live.filter(bipartisan).slice(0, 6);
-const ended = entries.filter((e) => TONE[e.data.status.state] === 'stop').slice(0, 6);
+// Each section skips signs already shown above it. Every under-threat sign gets its own section.
+const shown = new Set<Entry>();
+const take = (list: Entry[], n: number) => {
+  const out = list.filter((e) => !shown.has(e)).slice(0, n);
+  out.forEach((e) => shown.add(e));
+  return out;
+};
+const threatenedAll = entries.filter((e) => e.data.status.state === 'under-threat');
+const live = entries.filter((e) => TONE[e.data.status.state] !== 'stop' && !threatenedAll.includes(e));
+const featured = take(live.filter((e) => e.data.featured), 8);
+const recent = take(live, 6);
+const threatened = take(threatenedAll, 12);
+const bothParties = take(live.filter(bipartisan), 6);
+const ended = take(entries.filter((e) => TONE[e.data.status.state] === 'stop'), 6);
 ---
 
 <Base>
@@ -67,6 +76,18 @@ const ended = entries.filter((e) => TONE[e.data.status.state] === 'stop').slice(
             <p>Things government did that you can feel in your wallet, your commute, or your doctor's office.</p>
           </header>
           <SignGrid entries={featured} />
+        </section>
+      )
+    }
+
+    {
+      recent.length > 0 && (
+        <section aria-labelledby="recent-h">
+          <header class="sec-head">
+            <h2 id="recent-h">Most recent</h2>
+            <p>The latest actions on record, newest first.</p>
+          </header>
+          <SignGrid entries={recent} />
         </section>
       )
     }

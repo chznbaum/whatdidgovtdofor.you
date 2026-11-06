@@ -1,0 +1,9 @@
+name: Donald Trump
+party: R
+office: President of the United States
+level: federal
+jurisdiction: us
+current: true
+seat: { place: us, title: President }
+ids: { wikidata: Q22686 }
+url: https://www.whitehouse.gov

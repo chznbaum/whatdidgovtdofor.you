@@ -1,0 +1,8 @@
+name: Bobby Dyer
+party: NP
+office: Mayor of Virginia Beach
+level: local
+jurisdiction: virginia-beach
+current: true
+seat: { place: virginia-beach, title: Mayor }
+url: https://www.virginiabeach.gov

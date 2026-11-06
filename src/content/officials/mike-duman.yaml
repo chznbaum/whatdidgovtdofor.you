@@ -1,0 +1,8 @@
+name: Mike Duman
+party: NP
+office: Mayor of Suffolk
+level: local
+jurisdiction: suffolk
+current: true
+seat: { place: suffolk, title: Mayor }
+url: https://www.suffolkva.us

@@ -1,0 +1,9 @@
+name: Abigail Spanberger
+party: D
+office: Governor of Virginia
+level: state
+jurisdiction: va
+current: true
+seat: { place: va, title: Governor }
+ids: { bioguide: S001209 }
+url: https://www.governor.virginia.gov

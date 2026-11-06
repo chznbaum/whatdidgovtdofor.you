@@ -1,0 +1,8 @@
+name: Rick West
+party: NP
+office: Mayor of Chesapeake
+level: local
+jurisdiction: chesapeake
+current: true
+seat: { place: chesapeake, title: Mayor }
+url: https://www.cityofchesapeake.net

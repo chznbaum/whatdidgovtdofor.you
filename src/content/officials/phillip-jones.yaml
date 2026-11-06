@@ -1,0 +1,8 @@
+name: Phillip Jones
+party: NP
+office: Mayor of Newport News
+level: local
+jurisdiction: newport-news
+current: true
+seat: { place: newport-news, title: Mayor }
+url: https://www.nnva.gov

@@ -1,0 +1,8 @@
+name: Kathy Hochul
+party: D
+office: Governor of New York
+level: state
+jurisdiction: ny
+current: true
+seat: { place: ny, title: Governor }
+url: https://www.governor.ny.gov

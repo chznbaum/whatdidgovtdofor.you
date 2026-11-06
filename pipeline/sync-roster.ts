@@ -1,6 +1,7 @@
 // Downloads the current rosters the address lookup uses to turn districts into people.
 //   Congress: @unitedstates/congress-legislators (public domain)
 //   State legislatures: Open States bulk people CSVs (CC0)
+//   New York City Council: the district table on council.nyc.gov
 // Run: npm run sync:roster
 import { writeFile } from 'node:fs/promises';
 import { parseCsv } from './lib/csv.ts';
@@ -49,7 +50,8 @@ async function syncState(state: string) {
     .map((r) => ({
       openstates: r.id,
       name: r.name,
-      party: STATE_PARTY[r.current_party] ?? 'I',
+      // New York's fusion voting lists every line a member ran on ("Democratic/Working Families"); the first is the party.
+      party: STATE_PARTY[r.current_party.split('/')[0]] ?? 'I',
       chamber: r.current_chamber,
       district: r.current_district,
       url: r.links.split(';')[0] || null,
@@ -59,4 +61,23 @@ async function syncState(state: string) {
   console.log(`${state}: ${members.length} legislators`);
 }
 
-await Promise.all([syncCongress(), ...STATES.map(syncState)]);
+async function syncNycCouncil() {
+  const html = await get('https://council.nyc.gov/districts/');
+  const text = (cell: string) => cell.replace(/<[^>]+>/g, ' ').replace(/&#0?39;|&rsquo;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+  const members = [...html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)]
+    .map(([, row]) => [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(([, cell]) => cell))
+    .filter((cells) => /^\d+$/.test(text(cells[0] ?? '')))
+    .map((cells) => ({
+      district: text(cells[0]),
+      // Leadership titles are part of the name cell ("Minority Leader David Carr").
+      name: text(cells[1]).replace(/^((Deputy|Majority|Minority|Assistant) )*(Speaker|Leader|Whip) /, ''),
+      party: FEDERAL_PARTY[text(cells[4])] ?? 'I',
+      url: `https://council.nyc.gov/district-${text(cells[0])}/`,
+    }));
+  if (members.length < 51) throw new Error(`nyc council: expected 51 districts, parsed ${members.length}`);
+  const synced = new Date().toISOString().slice(0, 10);
+  await writeFile(new URL('nyc-council.json', OUT), JSON.stringify({ synced, members }, null, 1) + '\n');
+  console.log(`nyc council: ${members.length} members`);
+}
+
+await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);

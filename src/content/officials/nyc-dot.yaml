@@ -1,0 +1,7 @@
+name: NYC Department of Transportation
+kind: body
+office: Department of Transportation
+level: local
+jurisdiction: nyc
+current: true
+url: https://www.nyc.gov/html/dot/html/home/home.shtml

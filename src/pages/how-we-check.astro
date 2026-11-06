@@ -7,7 +7,7 @@ const entries = await getEntries();
 const verified = entries.filter((e) => e.data.verification.verdict === 'pass' || e.data.verification.verdict === 'corrected').length;
 
 const legend = [
-  { tone: 'guide', label: STATUS_LABEL['in-effect'], text: 'Working now. Green, like a guide sign.' },
+  { tone: 'guide', label: STATUS_LABEL['in-effect'], text: 'Working now, or a one-time benefit that was delivered. Green, like a guide sign.' },
   { tone: 'work', label: STATUS_LABEL['phasing-in'], text: 'Enacted and rolling out. Not everyone has it yet. Orange, like a work zone.' },
   { tone: 'warning', label: STATUS_LABEL['under-threat'], text: 'In effect, but a specific effort would end or gut it. We name the effort. Yellow, like a warning sign.' },
   { tone: 'stop', label: 'Ended', text: 'Repealed, expired, blocked by a court, or cancelled. Red, like a stop sign.' },

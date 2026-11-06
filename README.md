@@ -35,6 +35,10 @@ Every action is a road sign. Green means in effect, orange means phasing in, yel
 
 Entries publish without human review by design. `pipeline/decisions.json` records what happened to every candidate.
 
+### Running it every day
+
+`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → local commit. It never pushes. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file).
+
 ### Models
 
 The pipeline drives the local `claude` and `codex` CLIs in a hermetic mode (no MCP servers, no user hooks), so it runs on your existing logins.

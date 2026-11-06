@@ -1,0 +1,209 @@
+{
+ "norfolk-news-10606": {
+  "decision": "skip",
+  "reason": "triage: Private storefront openings",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-takes-aim-at-red-tape-delivers-one-on-one-support": {
+  "decision": "skip",
+  "reason": "triage: Business support service, not direct to people",
+  "date": "2026-11-05"
+ },
+ "va-gov-1128017": {
+  "decision": "skip",
+  "reason": "triage: Horse racing designation",
+  "date": "2026-11-05"
+ },
+ "hampton-news-6085": {
+  "decision": "skip",
+  "reason": "triage: One-day giveaway event",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-pilot-city-mayor-mamdani-pairs-city-workers-and-researchers-fro": {
+  "decision": "skip",
+  "reason": "triage: Internal government program",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-playoff-soccer-for-12-mayor-mamdani-and-gotham-fc-offer-discou": {
+  "decision": "skip",
+  "reason": "triage: Promotional ticket offer",
+  "date": "2026-11-05"
+ },
+ "virginia-beach-news-shoaling-alert-for-rudee-inlet-7": {
+  "decision": "skip",
+  "reason": "triage: Routine navigation alert",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-applauds-new-yorkers-for-voting-to-make-government": {
+  "decision": "skip",
+  "reason": "triage: Main effect on government process",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-22381": {
+  "decision": "skip",
+  "reason": "triage: Procedural flexibility for OPOs",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127967": {
+  "decision": "skip",
+  "reason": "triage: Election Day statement",
+  "date": "2026-11-05"
+ },
+ "norfolk-news-10601": {
+  "decision": "skip",
+  "reason": "triage: Routine class schedule",
+  "date": "2026-11-05"
+ },
+ "norfolk-news-10603": {
+  "decision": "skip",
+  "reason": "triage: Grant application notice for nonprofits",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-demands-ice-stop-unauthorized-use-of-city-lots-th": {
+  "decision": "skip",
+  "reason": "triage: Demand/threat, no enacted action",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-new-york-liberty-and-brooklyn-nets-bring-new-life": {
+  "decision": "skip",
+  "reason": "triage: Court refurbishment ribbon-cutting",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-22306": {
+  "decision": "skip",
+  "reason": "triage: Disclosure to plan fiduciaries, indirect",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-mayor-zohran-kwame-mamdani-releases-statement-on-javits-frimpong": {
+  "decision": "skip",
+  "reason": "triage: Statement only",
+  "date": "2026-11-05"
+ },
+ "norfolk-news-10598": {
+  "decision": "skip",
+  "reason": "triage: Zoo promotional discount days",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127843": {
+  "decision": "skip",
+  "reason": "triage: TV interview",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-and-speaker-menin-appoint-chris-alexander-to-lead": {
+  "decision": "skip",
+  "reason": "triage: Appointment",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-11-fast-buses-mayor-mamdani-breaks-ground-on-project-to-speed-up-b": {
+  "decision": "error",
+  "reason": "YAMLParseError: Nested mappings are not allowed in compact mappings at line 28, column 11:\n\n    note: Mayor; part of his \"Next Stop: Fast Buses, Better Service\" plan\n          ^\n",
+  "date": "2026-11-05",
+  "attempts": 1
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-expands-program-helping-snap-recipients-receive-fr": {
+  "decision": "skip",
+  "reason": "triage: Likely same SNAP produce boost as Oct 29 item",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127840": {
+  "decision": "skip",
+  "reason": "triage: Court ruling, not enacted government action",
+  "date": "2026-11-05"
+ },
+ "norfolk-news-10590": {
+  "decision": "skip",
+  "reason": "triage: Vague safety grant, unclear direct effect",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-installs-brooklyn-s-first-residential-empire-bins": {
+  "decision": "skip",
+  "reason": "triage: Incremental pilot installation event",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-22093": {
+  "decision": "skip",
+  "reason": "triage: Internal government personnel rule",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127820": {
+  "decision": "skip",
+  "reason": "triage: Media appearance, not new action",
+  "date": "2026-11-05"
+ },
+ "hampton-26-0311": {
+  "decision": "skip",
+  "reason": "triage: Routine administrative appropriation",
+  "date": "2026-11-05"
+ },
+ "hampton-26-0329": {
+  "decision": "skip",
+  "reason": "triage: Property gift acceptance, administrative",
+  "date": "2026-11-05"
+ },
+ "hampton-26-0335": {
+  "decision": "skip",
+  "reason": "triage: Initiating resolution, not enacted",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-unveils-major-safety-overhaul-of-third-avenue-in-s": {
+  "decision": "skip",
+  "reason": "triage: Unveiled plan, unclear if implemented",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-21943": {
+  "decision": "skip",
+  "reason": "triage: Deregulation affecting developers, not people",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-el-alcalde-mamdani-lanza-un-recurso-en-linea-para-ayudar-a-los-n": {
+  "decision": "skip",
+  "reason": "triage: Spanish duplicate; informational resource",
+  "date": "2026-11-05"
+ },
+ "nyc-mayor-2026-10-mayor-mamdani-launches-online-resource-to-help-new-yorkers-keep": {
+  "decision": "skip",
+  "reason": "triage: Informational website, not tangible benefit",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-21920": {
+  "decision": "skip",
+  "reason": "triage: Administrative background check rule",
+  "date": "2026-11-05"
+ },
+ "us-fr-2026-21923": {
+  "decision": "skip",
+  "reason": "triage: Finalizes existing rule, narrow group",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127671": {
+  "decision": "skip",
+  "reason": "triage: Forest management agreements, indirect effect",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127672": {
+  "decision": "skip",
+  "reason": "triage: Corporate relocation announcement",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127707": {
+  "decision": "skip",
+  "reason": "triage: Flag order",
+  "date": "2026-11-05"
+ },
+ "chesapeake-news-departmentreportprtseptember2026": {
+  "decision": "skip",
+  "reason": "triage: Department report",
+  "date": "2026-11-05"
+ },
+ "hampton-news-5533": {
+  "decision": "skip",
+  "reason": "triage: Contact info, not an action",
+  "date": "2026-11-05"
+ },
+ "va-gov-1127968": {
+  "decision": "error",
+  "reason": "invalid after repair: credit.1.official: unknown officials id \"virginia-general-assembly\"; credit.2.official: unknown officials id \"virginia-health-benefit-exchange\"",
+  "date": "2026-11-05",
+  "attempts": 1
+ }
+}

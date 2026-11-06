@@ -61,6 +61,7 @@ const levels = [
     places: PlaceInfo[];
     congress: Record<string, { senate: Person[]; house: Record<string, Person> }>;
     legislatures: Record<string, { place: string; upper: Record<string, Person>; lower: Record<string, Person> }>;
+    councils: Record<string, { lookup: { url: string; field: string }; members: Record<string, Person> }>;
     seats: Seat[];
   };
   type Geo = Record<string, Record<string, string>[]>;
@@ -97,6 +98,26 @@ const levels = [
       script.src = `https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?${params}`;
       document.head.append(script);
     });
+  }
+
+  // Council district for a point, from an ArcGIS feature service. Failure just means no council member shown.
+  async function councilDistrict(cfg: { url: string; field: string }, x: number, y: number): Promise<string | undefined> {
+    const params = new URLSearchParams({
+      geometry: `${x},${y}`,
+      geometryType: 'esriGeometryPoint',
+      inSR: '4326',
+      spatialRel: 'esriSpatialRelIntersects',
+      outFields: cfg.field,
+      returnGeometry: 'false',
+      f: 'json',
+    });
+    try {
+      const res = await fetch(`${cfg.url}?${params}`);
+      const value = (await res.json()).features?.[0]?.attributes?.[cfg.field];
+      return value == null ? undefined : String(value);
+    } catch {
+      return undefined;
+    }
   }
 
   const layer = (geo: Geo, test: RegExp) => Object.entries(geo).find(([k, v]) => test.test(k) && v.length)?.[1][0];
@@ -196,6 +217,16 @@ const levels = [
       : [];
     const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county'));
     const localItems = localPlaces.flatMap((p) => seatsFor(p.id).map((s) => officialItem(s.title, s)));
+    let councilName: string | undefined;
+    for (const p of localPlaces) {
+      const council = index.councils[p.id];
+      if (!council) continue;
+      const d = await councilDistrict(council.lookup, match.coordinates.x, match.coordinates.y);
+      if (d && council.members[d]) {
+        localItems.push(officialItem('City Council Member', council.members[d]));
+        councilName = `City Council District ${d}`;
+      }
+    }
 
     const tiers = $('[data-tiers]');
     tiers.replaceChildren(
@@ -207,6 +238,7 @@ const levels = [
       upper?.NAME,
       fips === '51' ? lower?.NAME?.replace('State House', 'House of Delegates') : lower?.NAME,
       localPlaces[0]?.name ?? incPlace?.BASENAME,
+      councilName,
     ].filter(Boolean);
     $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;
     $('[data-coverage]').hidden = !!legislature;

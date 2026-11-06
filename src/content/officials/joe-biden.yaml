@@ -1,0 +1,7 @@
+name: Joe Biden
+party: D
+office: President of the United States
+level: federal
+jurisdiction: us
+current: false
+ids: { bioguide: B000444, wikidata: Q6279 }

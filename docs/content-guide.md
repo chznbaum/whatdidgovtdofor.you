@@ -61,13 +61,14 @@ Big numbers for the sign. `figure` ≤ 18 chars (`$35`, `1.5 million`, `$2,000`,
 ### `status`
 - `state`: one of
   - `in-effect`: working now
+  - `delivered`: a one-time benefit that was paid out or completed (a rebate check, a finished project). Not "ended": nothing was taken away. Set `action.effective` to when it was delivered.
   - `phasing-in`: enacted and rolling out; not everyone has the benefit yet
   - `under-threat`: in effect, but a specific, active effort would end or gut it (a pending bill or rule, a lawsuit, a proposed budget cut). Name the effort.
   - `repealed`, `expired`, `blocked` (by a court), `cancelled` (funding or program terminated)
 - `as_of`: the date you checked the status
-- `note`: required for anything but `in-effect`. Say what happened, who did it, and when. "Repealed for vehicles bought after Sept. 30, 2025 by the One Big Beautiful Bill Act, signed by Donald Trump (R)."
+- `note`: required for anything but `in-effect` and `delivered`. Say what happened, who did it, and when. "Repealed for vehicles bought after Sept. 30, 2025 by the One Big Beautiful Bill Act, signed by Donald Trump (R)."
 - `by`: official ids responsible for the threat or rollback, if any
-- `source`: URL backing the status claim (required when the state isn't `in-effect`)
+- `source`: URL backing the status claim (required unless the state is `in-effect` or `delivered`)
 
 ### `credit` (1 or more)
 The people (or bodies) who made it happen, each with a `role`:

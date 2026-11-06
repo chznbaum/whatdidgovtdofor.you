@@ -9,6 +9,7 @@ export type Tone = 'guide' | 'work' | 'warning' | 'stop';
 
 export const TONE: Record<StatusState, Tone> = {
   'in-effect': 'guide',
+  delivered: 'guide',
   'phasing-in': 'work',
   'under-threat': 'warning',
   repealed: 'stop',
@@ -19,6 +20,7 @@ export const TONE: Record<StatusState, Tone> = {
 
 export const STATUS_LABEL: Record<StatusState, string> = {
   'in-effect': 'In effect',
+  delivered: 'Delivered',
   'phasing-in': 'Phasing in',
   'under-threat': 'Under threat',
   repealed: 'Repealed',
@@ -33,6 +35,8 @@ export function plaqueText({ status, action }: Entry, now = new Date()): string 
   switch (status.state) {
     case 'in-effect':
       return `In effect since ${formatMonth(start)}`;
+    case 'delivered':
+      return `Delivered ${formatMonth(start)}`;
     case 'phasing-in':
       return start > now ? `Phasing in, starts ${formatMonth(start)}` : `Phasing in since ${formatMonth(start)}`;
     default:
