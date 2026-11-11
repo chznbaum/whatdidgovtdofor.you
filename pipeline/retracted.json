@@ -61,5 +61,12 @@
   "title": "Smartphones stay put away from first bell to last in New York schools",
   "reason": "Owner's call: no money, service, or right for working people; low impact.",
   "date": "2026-11-11"
+ },
+ {
+  "slug": "va-2022-grocery-tax-cut",
+  "source_key": "va-2022-hb90",
+  "title": "Virginia's state grocery tax is gone; only a 1% local tax remains",
+  "reason": "Fails the net-impact test (owner's call after GPT verification): the state never replaced the transportation revenue it cut, a recurring loss (about $741M over six years), and groceries bought with SNAP or WIC were already exempt, so the lowest-income shoppers got nothing.",
+  "date": "2026-11-11"
  }
 ]

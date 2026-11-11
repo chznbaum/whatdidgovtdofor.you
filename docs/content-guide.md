@@ -95,6 +95,8 @@ The people (or bodies) who made it happen, each with a `role`:
 
 **Appointed officials** (a cabinet secretary, an agency head, a city manager) get credit by name when a source ties them to the specific action, e.g. a transportation secretary who issued the refund rule, or a city manager who proposed the budget item. Elected officials who directed the work still come first. Give appointees the party they publicly belong to (most cabinet secretaries), or `NP` if they have none (most city managers and career officials).
 
+**People who hold no office** can be credited when a source names them as championing the specific action, for example a First Lady or a named advocate who pushed it through. Use `championed`. List them after the officials who carried it but before the signer. Create their file with the office line describing who they are (`office: First Lady of the United States`), with `current` as appropriate.
+
 At minimum, credit the lead sponsors (or, for an executive action, whoever issued it). An entry whose only credit is the signer isn't finished: find out who carried it. Add others when a source names their role. Don't list every yes vote here; that's what `votes` is for. `note` is optional context ("Carried the bill for six sessions", "Lead Senate negotiator").
 
 Each `official` is an id that must exist in `src/content/officials/{id}.yaml`. Create the file if it's missing (see Officials below). A collective body like `norfolk-city-council` or `nyc-rent-guidelines-board` is a valid official with `kind: body`.
