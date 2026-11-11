@@ -28,19 +28,13 @@ status:
   note: Site preparation and utility work have begun for the first phase, from the Berkley Bridge east past Harbor Park. The Army Corps held an industry day for floodwall contractors on October 29, 2026, ahead of construction procurement. The Corps' March 2026 cost estimate was about $6.1 billion, with full completion scheduled for 2037 and the city's required share above $2 billion.
   source: https://sam.gov/workspace/contract/opp/132a56014ffe44a0a373f9312963779b/view
 credit:
-  - official: joe-biden
-    role: signed
-    note: Signed the infrastructure law that funded construction
-  - official: donald-trump
-    role: signed
-    note: Signed the December 2020 law that carried the water resources bill authorizing the project
-  - official: mark-warner
-    role: championed
-    note: Pressed the Army Corps and budget office for design money in 2020
-  - official: tim-kaine
-    role: championed
-    note: Pressed the Army Corps and budget office for design money in 2020
   - official: bobby-scott
+    role: championed
+    note: Pressed for the project's authorization in the 2020 water resources bill and for design money
+  - official: mark-warner
+    role: negotiated
+    note: Helped negotiate the infrastructure law that funds construction; pressed for design money in 2020
+  - official: tim-kaine
     role: championed
     note: Pressed the Army Corps and budget office for design money in 2020
   - official: elaine-luria
@@ -49,6 +43,12 @@ credit:
   - official: norfolk-city-council
     role: implemented
     note: The city is the Army Corps' local partner and pays the non-federal share
+  - official: joe-biden
+    role: signed
+    note: Signed the infrastructure law that funded construction
+  - official: donald-trump
+    role: signed
+    note: Signed the December 2020 law that carried the water resources bill authorizing the project
 sources:
   - title: Norfolk Coastal Storm Risk Management (CSRM)
     publisher: City of Norfolk
@@ -80,17 +80,13 @@ sources:
     publisher: U.S. Army Corps of Engineers
     url: https://sam.gov/workspace/contract/opp/132a56014ffe44a0a373f9312963779b/view
     date: 2026-10-30
+  - title: Scott highlights priorities for Water Resources Development Act of 2020
+    publisher: Office of Rep. Bobby Scott
+    url: https://bobbyscott.house.gov/media-center/press-releases/scott-highlights-priorities-water-resources-development-act-2020
+    date: 2020-02-27
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: The project and core benefit check out. I corrected the allocation timeline and updated the status using October 2026 Army Corps procurement records.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-iija-norfolk-csrm
 ---
 
@@ -98,4 +94,4 @@ Norfolk sits low along the water, and the Army Corps projects that without prote
 
 Residents don't apply for the wall; it protects whole neighborhoods. The home-elevation program is for eligible property owners in the project area. The first phase runs from the Berkley Bridge east past Harbor Park toward Chesterfield Heights, with a wall from 6.5 to 16.5 feet tall, two pump stations, a tide gate and a stretch of the Elizabeth River Trail on top.
 
-Congress authorized the project in a 2020 water resources law that President Donald Trump signed. In January and March 2022, the Army Corps allocated infrastructure-law money to the project, and the city counts $399.3 million in federal funding so far. Sens. Mark Warner and Tim Kaine and Reps. Bobby Scott and Elaine Luria had asked federal officials for design money in 2020. Washington pays 65% of the cost and Norfolk pays the rest, with some help from state flood grants. The price has since climbed sharply and the schedule has slipped.
+Rep. Bobby Scott pressed Congress to authorize the project, and he, Sens. Mark Warner and Tim Kaine and Rep. Elaine Luria asked for design money in 2020. Congress authorized it in a 2020 water resources law that President Donald Trump signed. Warner helped negotiate the 2021 infrastructure law, and in early 2022 the Army Corps allocated its money to the project; the city counts $399.3 million in federal funding so far. Washington pays 65% of the cost and Norfolk pays the rest, with some help from state flood grants. The price has since climbed sharply and the schedule has slipped.

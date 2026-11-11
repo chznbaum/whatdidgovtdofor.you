@@ -23,8 +23,6 @@ status:
   state: in-effect
   as_of: 2026-11-06
 credit:
-  - official: joe-biden
-    role: signed
   - official: mark-takano
     role: sponsored
     note: Introduced the original PACT Act in the House (H.R. 3967)
@@ -34,6 +32,8 @@ credit:
   - official: jerry-moran
     role: led
     note: Top Republican on the Senate Veterans' Affairs Committee
+  - official: joe-biden
+    role: signed
 votes:
   - chamber: U.S. House
     date: 2022-07-13
@@ -77,16 +77,8 @@ sources:
     publisher: Senate Committee on Veterans' Affairs
     url: https://www.veterans.senate.gov/2022/6/breaking-tester-s-bipartisan-toxic-exposure-bill-passes-senate
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the VA dashboard figures, enacted law, credited roles, and both official roll calls. The PACT Act remains in effect; I updated the status check to today.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 featured: true
 source_key: us-law-117-168
 ---

@@ -68,24 +68,10 @@ export const ROLE_LABEL: Record<Role, string> = {
   implemented: 'Carried it out',
 };
 
-// Credits that best answer "who did this?", in order of preference for the sign's byline.
-const BYLINE_ORDER: Role[] = [
-  'signed',
-  'issued',
-  'led',
-  'voted-yes',
-  'sponsored',
-  'proposed',
-  'championed',
-  'negotiated',
-  'secured-funding',
-  'implemented',
-  'cosponsored',
-  'tie-breaker',
-];
-
+// The byline is the first credit: entries list the people who did the work first and the signer last
+// (docs/content-guide.md, "credit"), so the order is an editorial decision, not something to re-sort here.
 export function primaryCredit<T extends { role: Role }>(credits: T[]): T {
-  return [...credits].sort((a, b) => BYLINE_ORDER.indexOf(a.role) - BYLINE_ORDER.indexOf(b.role))[0];
+  return credits[0];
 }
 
 export const TOPIC_LABELS: Record<CollectionEntry<'entries'>['data']['topics'][number], string> = {

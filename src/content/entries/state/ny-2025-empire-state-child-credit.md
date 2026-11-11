@@ -27,7 +27,8 @@ status:
   source: https://www.tax.ny.gov/pit/credits/empire_state_child_credit.htm
 credit:
   - official: kathy-hochul
-    role: signed
+    role: proposed
+    note: Proposed these credit amounts in her FY 2026 executive budget
 votes:
   - chamber: New York State Assembly
     date: 2025-05-08
@@ -57,22 +58,24 @@ sources:
   - title: S3009C (2025), revenue budget bill
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2025/S3009/amendment/C
+  - title: Report on the State Fiscal Year 2025-26 Executive Budget
+    publisher: Office of the New York State Comptroller
+    url: https://www.osc.ny.gov/files/reports/budget/pdf/executive-budget-report-2025-26.pdf
+  - title: Fiscal Year 2026 Enacted Budget briefing
+    publisher: Fiscal Policy Institute
+    url: https://fiscalpolicy.org/wp-content/uploads/2025/05/2026.05.12-FY-2026-Budget-Briefing-Enacted.pdf
+  - title: Sen. Gounardes' Working Families Tax Credit included in Senate and Assembly budget proposals
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/newsroom/press-releases/2025/andrew-gounardes/sen-gounardes-working-families-tax-credit-included
+    date: 2025-03-11
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the credit amounts, eligibility rules, phaseout, current status, estimates, and Senate vote. Corrected the enacted bill identifier and added the omitted Assembly final-passage vote.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2025-budget-empire-state-child-credit
 ---
 
 New York's Empire State Child Credit is a state tax credit for families with kids under 17. Starting with 2025 tax returns, it pays up to $1,000 for each child under age 4, about triple the old top amount of $330. Starting with 2026 returns, the credit for children ages 4 to 16 rises to as much as $500.
 
-The credit is refundable. If it's bigger than the state income tax you owe, you get the difference as a refund, so families who owe little or no tax still benefit. To claim it, you file a New York State tax return with Form IT-213. You must be a full-year resident, and you and each child need a Social Security number or ITIN. The credit shrinks gradually for joint filers with income above $110,000 and single filers above $75,000.
+The credit is refundable: if it's bigger than the state income tax you owe, you get the difference back, so families who owe little or no tax still benefit. To claim it, file a state tax return with Form IT-213. You must be a full-year resident, and you and each child need a Social Security number or ITIN. The credit shrinks gradually for joint filers with income above $110,000 and single filers above $75,000.
 
-The expansion was part of the budget Gov. Kathy Hochul signed on May 9, 2025. The state estimates it will reach about 1.6 million families and 2.75 million children, roughly doubling the average credit from $472 to $943. It also removes earlier income restrictions, which the state says makes about 187,000 more children eligible. The tax bill that carried it passed the Senate 35–27, with every Republican and five Democrats voting no.
+Gov. Kathy Hochul proposed the expansion in January 2025 and signed it into law in the budget on May 9, 2025. Sen. Andrew Gounardes and Assemblymember Andrew Hevesi pushed for a larger Working Families Tax Credit, but the final deal used the governor's version, which runs through tax year 2027. The state estimates it will reach about 1.6 million families and 2.75 million children, roughly doubling the average credit from $472 to $943. It also removes earlier income restrictions, which the state says makes about 187,000 more children eligible. It costs the state about $825 million a year once fully in effect. The same budget extended higher income-tax rates on the state's top earners through 2032.

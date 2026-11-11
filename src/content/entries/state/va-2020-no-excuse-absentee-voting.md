@@ -21,14 +21,14 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: ralph-northam
-    role: signed
   - official: charniele-herring
     role: sponsored
     note: Chief patron of HB 1
   - official: janet-howell
     role: sponsored
     note: Chief patron of SB 111
+  - official: ralph-northam
+    role: signed
 votes:
   - chamber: Senate of Virginia
     date: 2020-02-24
@@ -69,13 +69,8 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: pass
-  notes: Confirmed the benefit, enactment and effective dates, sponsor and signer credits, both official roll calls, current voting procedures, and status as of 2026-11-05.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2020-hb1
 ---
 

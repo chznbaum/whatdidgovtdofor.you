@@ -28,14 +28,15 @@ status:
     - alexis-weik
   source: https://www.nysenate.gov/legislation/bills/2025/S3300
 credit:
-  - official: kathy-hochul
-    role: signed
   - official: zellnor-myrie
     role: sponsored
-    note: Senate sponsor
+    note: Senate sponsor; carried it from 2020 until it passed
   - official: catalina-cruz
     role: sponsored
-    note: Assembly sponsor
+    note: Assembly sponsor from 2021
+  - official: kathy-hochul
+    role: negotiated
+    note: Called for it in her 2022 State of the State and negotiated the final compromise
 votes:
   - chamber: New York State Senate
     date: 2023-06-09
@@ -57,6 +58,13 @@ sources:
   - title: S7551A (2023), automatic sealing of certain convictions
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2023/S7551/amendment/A
+  - title: S1553 (2021–2022), automatic sealing of certain convictions
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/legislation/bills/2021/S1553
+  - title: 2022 State of the State
+    publisher: Office of the Governor of New York
+    url: https://www.governor.ny.gov/sites/default/files/2022-01/2022StateoftheStateBook.pdf
+    date: 2022-01-05
   - title: New York State's Clean Slate Act
     publisher: New York State Unified Court System
     url: https://www.nycourts.gov/cleanslate
@@ -66,16 +74,8 @@ sources:
     date: 2023-02-08
 featured: false
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the law, sponsors, Senate vote, implementation timeline, and current repeal effort. Corrected the eligibility details, narrowed the 2.3 million figure, and changed the status to under threat.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2023-s7551a-clean-slate
 ---
 
@@ -83,4 +83,4 @@ A criminal record can follow someone for decades, turning up in background check
 
 Most misdemeanor convictions become eligible three years after sentencing or release from incarceration, whichever is later. For most felonies, the wait is eight years. A person must have no pending criminal case and must have completed probation, parole, or post-release supervision. A new conviction restarts the clock. Sex offenses and most non-drug Class A felonies, including murder, are never eligible. Sealed records remain available to police, prosecutors, and courts, as well as for gun checks and legally required fingerprint-based checks for jobs such as police officer or teacher.
 
-Sen. Zellnor Myrie and Assemblymember Catalina Cruz sponsored the law. It passed the Senate 37–25 in June 2023, and Gov. Kathy Hochul signed it on November 16, 2023. It took effect one year later. Courts have until November 2027 to finish sealing older eligible records, so someone who qualifies may not see a record sealed immediately. A pending bill sponsored by Sen. Alexis Weik would repeal the law.
+Sen. Zellnor Myrie first introduced the bill in 2020, and Assemblymember Catalina Cruz carried it in the Assembly from 2021. The Senate passed it in 2022, but it stalled in the Assembly. Gov. Kathy Hochul called for it in her 2022 State of the State and negotiated the final compromise. It passed the Senate 37–25 in June 2023, and Hochul signed it on November 16, 2023. It took effect one year later. Courts have until November 2027 to finish sealing older eligible records, so someone who qualifies may not see a record sealed immediately. A pending bill sponsored by Sen. Alexis Weik would repeal the law.

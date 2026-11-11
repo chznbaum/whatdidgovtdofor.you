@@ -28,14 +28,15 @@ status:
     - donald-trump
   source: https://www.dmas.virginia.gov/news-updates/new-federal-requirements/federal-work-requirements/
 credit:
-  - official: ralph-northam
-    role: signed
+  - official: chris-jones
+    role: negotiated
+    note: Republican House Appropriations chair; introduced the budget bill and helped broker the expansion deal
   - official: emmett-hanger
     role: negotiated
-    note: Republican senator whose floor substitute carried expansion through the Senate
-  - official: chris-jones
-    role: sponsored
-    note: Republican House Appropriations chair who introduced the budget bill
+    note: Republican senator who brokered the Senate compromise
+  - official: ralph-northam
+    role: negotiated
+    note: Helped broker the final compromise with Hanger and Jones, then signed the budget
 votes:
   - chamber: Senate of Virginia
     date: 2018-05-30
@@ -88,18 +89,21 @@ sources:
     publisher: WTVR CBS 6
     url: https://www.wtvr.com/news/local-news/virginia-medicaid-expansion-impact-aug-13-2026
     date: 2026-08-13
+  - title: Virginia House embraces Medicaid expansion in budget
+    publisher: Associated Press (via The Washington Times)
+    url: https://www.washingtontimes.com/news/2018/feb/18/virginia-house-embraces-medicaid-expansion-in-budg/
+    date: 2018-02-18
+  - title: Northam to sign budget with Medicaid expansion
+    publisher: Associated Press (via The Washington Times)
+    url: https://www.washingtontimes.com/news/2018/jun/7/northam-to-sign-budget-medicaid-expansion/
+    date: 2018-06-07
 featured: true
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed enactment, credits, roll calls, financing, eligibility, and the current federal requirements. Updated enrollment to the latest state report and clarified the partial court ruling and how the 2027 requirement works.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2018-hb5002-medicaid-expansion
 ---
 
@@ -107,6 +111,6 @@ If you're an adult in Virginia earning less than about $22,000 a year on your ow
 
 More than half a million Virginians now have full-benefit coverage this way. The federal government pays 90% of the cost, and Virginia covers its share with an assessment on hospitals rather than general tax dollars.
 
-Expansion came after four years of gridlock, while Republicans controlled the General Assembly. Gov. Ralph Northam (D), a doctor, called coverage "a moral and economic imperative." Republican Sen. Emmett Hanger offered the Senate compromise, and four Republican senators joined all 19 Democrats to pass it 23–17. The House of Delegates approved it 67–31, and Northam signed the budget on June 7, 2018. Coverage began Jan. 1, 2019.
+Expansion came after four years of gridlock, while Republicans controlled the General Assembly. Two Republicans broke it open: Del. Chris Jones, the House Appropriations chair, whose House budget included expansion, and Sen. Emmett Hanger, who forged the Senate compromise. Gov. Ralph Northam (D), a doctor who called coverage "a moral and economic imperative," helped broker the final deal. Four Republican senators joined all 19 Democrats to pass it 23–17, and the House of Delegates approved it 67–31. Northam signed the budget on June 7, 2018, and coverage began Jan. 1, 2019.
 
 Federal rules taking effect in 2027 put some coverage at risk. Many expansion adults will have eligibility checked every six months and must qualify through work or other approved activities, half-time school, monthly earnings of at least $580, or an exemption. A federal court broadened the medical exemption in October 2026, but the work requirement remains scheduled to begin in January.

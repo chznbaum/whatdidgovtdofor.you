@@ -23,14 +23,20 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: andrew-cuomo
-    role: signed
   - official: andrea-stewart-cousins
     role: sponsored
-    note: Senate sponsor and Senate Majority Leader
+    note: Senate Majority Leader; sponsored the final bill and the bill to end vacancy decontrol
+  - official: brian-kavanagh
+    role: led
+    note: Senate Housing Committee chair and co-prime sponsor; led the Senate's effort to pass it
   - official: carl-heastie
     role: sponsored
-    note: Assembly sponsor and Speaker of the Assembly
+    note: Assembly Speaker; sponsored the identical Assembly bill
+  - official: linda-rosenthal
+    role: championed
+    note: Assembly sponsor of the bill to end vacancy decontrol and of a 2019 bill capping security deposits at one month's rent
+  - official: andrew-cuomo
+    role: signed
 votes:
   - chamber: New York State Senate
     date: 2019-06-14
@@ -53,9 +59,20 @@ sources:
   - title: S6458 (2019), Housing Stability and Tenant Protection Act of 2019
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2019/S6458
-  - title: S06458 (2019), Assembly actions and floor vote
-    publisher: New York State Assembly
-    url: https://nyassembly.gov/leg/?Actions=Y&Floor%26nbspVotes=Y&Summary=Y&bn=S06458&default_fld=&leg_video=&term=2019
+  - title: Senate passes strongest tenant protections in state history
+    publisher: New York State Senate (Sen. Brian Kavanagh)
+    url: https://nysenate.gov/newsroom/articles/2019/brian-kavanagh/senate-passes-strongest-tenant-protections-state-history
+    date: 2019-06-14
+  - title: Universal rent control bill package
+    publisher: New York State Senate
+    url: https://nysenate.gov/node/7781533
+  - title: A5044 (2019), security deposits limited to one month's rent
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/legislation/bills/2019/A5044
+  - title: Cuomo, legislative leaders say 2019 session includes many accomplishments
+    publisher: WAMC Northeast Public Radio
+    url: https://www.wamc.org/post/cuomo-legislative-leaders-say-2019-session-includes-many-accomplishments
+    date: 2019-06-21
   - title: Residential Tenants' Rights Guide
     publisher: New York State Attorney General
     url: https://ag.ny.gov/publications/residential-tenants-rights-guide
@@ -64,21 +81,13 @@ sources:
     url: https://www.governor.ny.gov/news/governor-hochul-signs-legislative-package-bolster-homeownership-and-strengthen-protections
     date: 2025-10-16
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the caps, enactment, sponsorship, current status, and both official floor votes. Clarified the later extension of the 14-day deposit-return rule and restored the missing Assembly credit and vote.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2019-s6458-hstpa
 ---
 
 If you rent a home in New York, your landlord can't ask for a security deposit bigger than one month's rent. A landlord can charge no more than $20 for a background and credit check, and a late fee can't be more than $50 or 5% of the monthly rent, whichever is less. The 2019 law also required landlords of market-rate rentals to return security deposits within 14 days after tenants move out. A later law extended that deadline to rent-regulated tenants on November 15, 2025.
 
-The 2019 law also overhauled rent stabilization. It ended vacancy decontrol, the rule that let landlords take apartments out of rent regulation, and stopped automatic rent increases when a tenant moved out. It made rent regulation permanent instead of letting it come up for renewal every few years, turned rent increases for building improvements into temporary charges with new limits, and extended the recovery period for rent-overcharge claims from four to six years. It also let communities anywhere in the state opt into rent stabilization when they meet the legal requirements.
+The 2019 law also overhauled rent stabilization. It ended vacancy decontrol, the rule that let landlords take apartments out of rent regulation, and stopped automatic rent increases when a tenant moved out. It made rent regulation permanent, turned rent increases for building improvements into temporary charges with new limits, and extended the recovery period for rent-overcharge claims from four to six years. It also let eligible communities statewide opt into rent stabilization.
 
-Senate Majority Leader Andrea Stewart-Cousins sponsored the Senate bill, Assembly Speaker Carl Heastie sponsored the identical Assembly bill, and Gov. Andrew Cuomo signed the legislation on June 14, 2019. It passed the Senate 36–26 and the Assembly 95–46 that day.
+The law grew out of a package of tenant bills. Senate Majority Leader Andrea Stewart-Cousins sponsored it, Sen. Brian Kavanagh, the Senate's housing chair, led the Senate's effort, and Assembly Speaker Carl Heastie sponsored the Assembly version. Assemblymember Linda Rosenthal had carried bills to end vacancy decontrol and to cap security deposits at one month's rent. Lawmakers settled the final version without Gov. Andrew Cuomo, who signed it on June 14, 2019, the day it passed the Senate 36–26 and the Assembly 95–46.

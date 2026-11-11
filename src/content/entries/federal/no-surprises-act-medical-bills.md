@@ -20,29 +20,31 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: donald-trump
-    role: signed
+  - official: bill-cassidy
+    role: negotiated
+    note: Started a bipartisan Senate push to end surprise bills in 2018
+  - official: maggie-hassan
+    role: negotiated
+    note: Led the Senate effort with Bill Cassidy
   - official: patty-murray
     role: negotiated
     note: Brokered the bipartisan deal
   - official: lamar-alexander
     role: negotiated
-  - official: bill-cassidy
-    role: negotiated
-  - official: maggie-hassan
-    role: negotiated
   - official: frank-pallone
     role: negotiated
   - official: greg-walden
-    role: negotiated
-  - official: bobby-scott
-    role: negotiated
-  - official: virginia-foxx
     role: negotiated
   - official: richard-neal
     role: negotiated
   - official: kevin-brady
     role: negotiated
+  - official: bobby-scott
+    role: negotiated
+  - official: virginia-foxx
+    role: negotiated
+  - official: donald-trump
+    role: signed
 votes:
   - chamber: U.S. House
     date: 2020-12-21
@@ -88,17 +90,17 @@ sources:
     publisher: U.S. Senate Committee on Health, Education, Labor and Pensions
     url: https://www.help.senate.gov/dem/newsroom/press/murray-bill-to-end-surprise-billing-passes-senate-and-house
     date: 2020-12-22
+  - title: Cassidy, bipartisan colleagues release draft legislation to end surprise medical bills
+    publisher: Office of Sen. Bill Cassidy
+    url: https://www.cassidy.senate.gov/newsroom/press-releases/cassidy-bipartisan-colleagues-release-draft-legislation-to-end-surprise-medical-bills/
+    date: 2018-09-18
+  - title: Senators Cassidy, Hassan secure end to surprise medical billing legislation in government funding package
+    publisher: Office of Sen. Bill Cassidy
+    url: https://www.cassidy.senate.gov/newsroom/press-releases/senators-cassidy-hassan-secure-end-to-surprise-medical-billing-legislation-in-government-funding-package/
+    date: 2020-12-20
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the law, effective date, both roll calls, parties, 7,798,616 initiated disputes, and current status. Narrowed several overbroad descriptions of the protections and credited all officials identified as final-deal negotiators.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-116-260-no-surprises
 ---
 
@@ -106,4 +108,4 @@ A surprise medical bill is what happens when you get care from a doctor or hospi
 
 If you have private insurance, you now pay only your normal in-network share for most emergency care, even at an out-of-network hospital. The protection also covers air ambulance rides and certain non-emergency services from out-of-network clinicians at an in-network hospital or surgery center, including services such as anesthesiology and radiology. For some scheduled non-emergency care, an out-of-network provider can ask you to give up these protections, but only after giving you notice and getting your consent. Providers and health plans settle covered payment disputes between themselves; since April 2022, they have initiated millions of disputes in the federal arbitration system. If you're uninsured or paying yourself, you can usually get a good faith estimate before scheduled care. You don't have to sign up for these protections.
 
-The law was the product of years of bipartisan work in both chambers. Senator Patty Murray brokered the final deal, which was negotiated by Republican and Democratic committee leaders and lawmakers from the House and Senate. Congress folded it into a year-end spending and COVID relief package that passed with large majorities, and President Donald Trump signed it on December 27, 2020.
+Republican Sen. Bill Cassidy started a bipartisan push in 2018, and Democratic Sen. Maggie Hassan joined him to lead it. Senator Patty Murray brokered the final deal, which was negotiated by Republican and Democratic committee leaders and lawmakers from the House and Senate. Congress folded it into a year-end spending and COVID relief package that passed with large majorities, and President Donald Trump signed it on December 27, 2020.

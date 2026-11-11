@@ -198,7 +198,8 @@ Check every factual claim using web search and the cited sources:
 - title, dek, who_benefits, and body: true, and no stronger than the sources support?
 - impact figures: each one appears in a source or follows from one arithmetically?
 - action: name, identifier, and dates correct?
-- credit: did each person really play that role, and is their party right?
+- credit: did each person really play that role, and is their party right? Is the order right: the legislators who wrote, carried, or championed it first; an executive first only with a sourced \`proposed\`, \`negotiated\`, or \`issued\`; \`signed\` last? Is anyone a source names as doing the work missing?
+- net impact: does it pass the guide's "Count what it cost" test from working people's point of view? If it's a tax change, does the body say how it was paid for? Fail it if it's a sweetener in a law that cuts services, relief that mostly goes to owners, or public housing redevelopment.
 - votes: totals and party breakdowns match the official roll call exactly?
 - status: correct as of today? Search specifically for repeal, expiration, court blocks, funding cuts, or extensions since enactment.
 - sources: do the URLs exist, and do they support what they're cited for?

@@ -24,15 +24,15 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: kathy-hochul
-    role: signed
-    note: Included universal school meals in her FY 2026 budget
   - official: michelle-hinchey
     role: championed
-    note: Prime Senate sponsor of the Universal School Meals Act (S.594)
+    note: Prime Senate sponsor of the Universal School Meals Act (S.594); carried it for more than two years
   - official: jessica-gonzalez-rojas
     role: championed
-    note: Assembly sponsor of the Universal School Meals Act
+    note: Prime Assembly sponsor of the Universal School Meals Act (A.282)
+  - official: kathy-hochul
+    role: proposed
+    note: Included universal school meals in her FY 2026 executive budget
 votes:
   - chamber: New York State Senate
     date: 2025-05-08
@@ -64,6 +64,13 @@ sources:
     publisher: Office of the Governor of New York
     url: https://governor.ny.gov/news/governor-hochul-announces-396-million-free-school-meals-served-statewide-2025-2026-school-year
     date: 2026-06-26
+  - title: Hinchey, advocates and governor unite for universal school meals
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/newsroom/press-releases/2025/michelle-hinchey/hinchey-advocates-and-governor-unite-universal-school
+  - title: Pols 'disappointed' universal school meals not in Hochul's budget
+    publisher: Spectrum News
+    url: https://spectrumlocalnews.com/nys/central-ny/politics/2023/02/03/pols--disappointed--universal-school-meals-not-in-hochul-s-budget
+    date: 2023-02-03
   - title: Hinchey announces historic completion of universal school meals
     publisher: New York State Senate
     url: https://www.nysenate.gov/newsroom/press-releases/2025/michelle-hinchey/hinchey-announces-historic-completion-universal
@@ -73,16 +80,8 @@ sources:
     url: https://www.nysenate.gov/legislation/bills/2025/S3006/amendment/C
 featured: true
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the eligibility, impact figures, sponsors, funding, enactment date and current status. Added the omitted Assembly final-passage vote.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2025-budget-school-meals
 ---
 
@@ -90,4 +89,4 @@ If your child goes to a public or charter school in New York, they can eat break
 
 Before this, free meals depended on family income or on whether a school served enough low-income students to qualify for a federal program. Families just above the cutoff paid full price, and advocates say stigma kept some kids from eating and left parents with school meal debt. The state estimates free meals save families about $1,600 per child a year.
 
-The change was part of the state budget Gov. Kathy Hochul signed on May 9, 2025, with $340 million set aside for the first year. Sen. Michelle Hinchey and Assemblymember Jessica González-Rojas sponsored the stand-alone Universal School Meals Act, and the budget made it law. In the Senate, the budget bill that carried it passed 44–18, with four Republicans voting yes. Schools served 396 million free meals in the first school year, and the next year's budget raised funding to $395 million.
+Sen. Michelle Hinchey and Assemblymember Jessica González-Rojas carried the Universal School Meals Act for more than two years, with advocates pushing alongside them. Gov. Kathy Hochul, who had left universal meals out of her 2023 budget, included the program in her 2025 budget proposal and signed it into law on May 9, 2025, with $340 million set aside for the first year. In the Senate, the budget bill that carried it passed 44–18, with four Republicans voting yes. Schools served 396 million free meals in the first school year, and the next year's budget raised funding to $395 million.

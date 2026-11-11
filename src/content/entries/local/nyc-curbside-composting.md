@@ -26,27 +26,32 @@ status:
 credit:
   - official: shahana-hanif
     role: sponsored
+  - official: antonio-reynoso
+    role: championed
+    note: Brooklyn Borough President; the bill was introduced at his request
   - official: nyc-city-council
     role: voted-yes
     note: Passed June 8, 2023
+  - official: eric-adams
+    role: implemented
+    note: His administration announced the citywide rollout in February 2023 and carried it out; the law took effect without his signature
+  - official: jessica-tisch
+    role: implemented
+    note: Sanitation commissioner who ran the borough-by-borough rollout
 sources:
   - title: Local Law 85 of 2023
     publisher: New York City Council (via intro.nyc)
     url: https://intro.nyc/local-laws/2023-85
+  - title: Mayor Adams announces roadmap for nation's largest compost collection program
+    publisher: NYC Mayor's Office
+    url: https://www.nyc.gov/office-of-the-mayor/news/084-23/mayor-adams-roadmap-nation-s-largest-compost-collection-program-including-achieving
+    date: 2023-02-01
   - title: Curbside Composting
     publisher: NYC Department of Sanitation
     url: https://www.nyc.gov/site/dsny/collection/residents/curbside-composting.page
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the citywide weekly service, mandatory separation, current enforcement, sponsorship, and Council passage. Corrected the enactment date and clarified that collected material may become either fertilizer or biogas.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: nyc-ll-2023-085
 ---
 
@@ -54,6 +59,6 @@ The Sanitation Department now picks up food scraps and yard waste from the curb 
 
 Separating compostables is mandatory. Starting April 1, 2025, building owners who don't keep compostable material out of the trash can be fined. Before that date, the law called for written warnings.
 
-The change comes from a 2023 law sponsored by Council Member Shahana Hanif and co-introduced by most of the Council, including the Council Speaker. The Council passed it on June 8, 2023, and it became law in July 2023 without Mayor Eric Adams's signature. The law set two deadlines: curbside collection in at least 30 sanitation districts by October 2, 2023, and in all remaining districts by October 7, 2024.
+The change comes from a 2023 law sponsored by Council Member Shahana Hanif, introduced at the request of Brooklyn Borough President Antonio Reynoso, and co-introduced by most of the Council. Mayor Eric Adams's administration had announced a borough-by-borough rollout in February 2023, run by Sanitation Commissioner Jessica Tisch. The Council passed the law on June 8, 2023, and it became law in July without Adams's signature. It set two deadlines: curbside collection in at least 30 sanitation districts by October 2, 2023, and in all remaining districts by October 7, 2024.
 
 The point is to pull food scraps and yard waste out of the regular trash so they can be processed into fertilizer or biogas instead of thrown away.

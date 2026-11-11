@@ -25,8 +25,6 @@ status:
   as_of: 2026-11-05
   note: A 2026 law (HB 1 / SB 1) keeps the minimum wage climbing, to $13.75 in 2027 and $15 in 2028.
 credit:
-  - official: ralph-northam
-    role: signed
   - official: jeion-ward
     role: sponsored
     note: Chief patron of HB 395
@@ -36,6 +34,8 @@ credit:
   - official: justin-fairfax
     role: tie-breaker
     note: Cast the deciding Senate vote to accept the governor's recommendation
+  - official: ralph-northam
+    role: signed
 votes:
   - chamber: Virginia House of Delegates
     date: 2020-03-07
@@ -103,13 +103,8 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enacted wage steps, current $12.77 rate, 2026 extension, sponsors, and official roll calls. Added the decisive April 22 concurrence votes and credited Lieutenant Governor Justin Fairfax for breaking the Senate tie.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2020-hb395
 ---
 

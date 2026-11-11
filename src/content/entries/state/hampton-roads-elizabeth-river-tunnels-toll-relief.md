@@ -26,18 +26,15 @@ impact:
 status:
   state: in-effect
   as_of: 2026-11-05
-  note: The 2026–2028 state budget keeps the extra rebate going and lets the state cover any shortfall in the base toll relief program. The relief is set to run through fiscal year 2036.
+  note: The 2026–2028 state budget adds $24 million for fiscal 2028, keeps unspent money in the relief fund, and lets the state cover shortfalls in the base toll relief program, with the relief planned through fiscal year 2036. VDOT must report by Dec. 1, 2026 on how much ongoing funding the program needs.
   source: https://budget.lis.virginia.gov/item/2026/2/HB30/Chapter/1/441/
 credit:
   - official: louise-lucas
     role: championed
     note: Chair of Senate Finance and Appropriations; negotiated the $101 million deal with the governor
-  - official: luke-torian
-    role: sponsored
-    note: Chief patron of HB 6001
   - official: glenn-youngkin
     role: signed
-    note: Signed the 2024 budget; his 2025 amendments limited the extra rebate and debt payoff to Norfolk and Portsmouth
+    note: Signed the 2024 budget
 votes:
   - chamber: Virginia House of Delegates
     date: 2024-05-13
@@ -72,17 +69,12 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the eligibility rules, figures, implementation date, roll-call totals, and continuation through fiscal year 2036. Corrected the payment timing and official action name, and added the budget bill’s chief patron.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2024-hb6001-item441-ert-toll-relief
 ---
 
-The Downtown and Midtown tunnels under the Elizabeth River are the main links between Norfolk and Portsmouth, and both are tolled. Since December 18, 2024, Norfolk and Portsmouth residents who earn less than $50,000 a year get the full toll refunded on up to 14 trips a week in a two-axle vehicle. Half of each refund comes from a long-running program paid for by Elizabeth River Crossings, the private company that runs the tunnels; the state now pays the other half.
+The Downtown and Midtown tunnels under the Elizabeth River are the main links between Norfolk and Portsmouth, and both are tolled. Since December 18, 2024, Norfolk and Portsmouth residents who earn less than $50,000 a year get the full toll refunded on up to 14 trips a week in a two-axle vehicle. Half of each refund comes from a long-running program paid for by Elizabeth River Crossings, the private company that runs the tunnels; the state now pays the other half from its general fund.
 
 You have to sign up in person at an E-ZPass customer service center, show proof of income and where you live, and re-enroll every year. If you don't have an E-ZPass, the state provides a transponder with $20 already on it. Refunds usually show up in your account the next business day. Drivers anywhere in Hampton Roads who earn $65,000 or less can still get half off.
 

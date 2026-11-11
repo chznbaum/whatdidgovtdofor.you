@@ -21,11 +21,15 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: ralph-northam
-    role: signed
   - official: bill-stanley
     role: sponsored
-    note: Republican chief patron of SB 1
+    note: Republican chief patron of SB 1; his 2019 version passed the Senate but died in a House subcommittee
+  - official: alfonso-lopez
+    role: sponsored
+    note: Chief patron of HB 1196, the identical House bill
+  - official: ralph-northam
+    role: proposed
+    note: Proposed the 2019 budget amendment that first halted these suspensions; signed SB 1
 votes:
   - chamber: Virginia House of Delegates
     date: 2020-02-26
@@ -64,18 +68,23 @@ sources:
   - title: End License Suspensions for Unpaid Court Fines and Costs
     publisher: Virginia Department of Motor Vehicles
     url: https://www.dmv.virginia.gov/licenses-ids/license/reinstate/fines-costs
+  - title: "HB 1196, 2020 Session: bill history"
+    publisher: Virginia Legislative Information System
+    url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+sum+HB1196
+  - title: "SB 1013, 2019 Session: bill history"
+    publisher: Virginia Legislative Information System
+    url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?191+sum+SB1013
+  - title: Northam budget amendment would end driver's license suspension over unpaid fees
+    publisher: WTVR CBS 6
+    url: https://wtvr.com/2019/03/26/northam-budget-amendment-would-end-drivers-license-suspension-over-unpaid-fees/
+    date: 2019-03-26
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enacted law, sponsorship, signing date, both roll calls, fee waiver, and current status. Corrected the timeline to show that a budget provision stopped suspensions in 2019 before SB 1 made the change permanent in 2020.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2020-sb1
 ---
 
@@ -85,4 +94,4 @@ A state budget provision first stopped those suspensions on July 1, 2019. It als
 
 The 2020 law made the change permanent by repealing the suspension requirement. It also required DMV to return or reinstate licenses that had been suspended before July 1, 2019, solely for unpaid fines or costs, without charging a reinstatement fee.
 
-Sen. Bill Stanley, a Republican, was the chief patron, and the bill drew support from both parties. In the House of Delegates, 20 Republicans joined every Democrat to pass it 75–25. In the Senate, 18 of 19 Republicans voted yes on the final vote, which passed 38–1. Gov. Ralph Northam signed it on April 9, 2020.
+Sen. Bill Stanley, a Republican, led the effort. His 2019 bill passed the Senate but died in a House subcommittee, so Gov. Ralph Northam (D) added the change to the state budget, with money to make up for the lost fee revenue. In 2020, Stanley and Del. Alfonso Lopez, a Democrat, carried identical bills to make it permanent. In the House of Delegates, 20 Republicans joined every Democrat to pass SB 1 75–25. In the Senate, 18 of 19 Republicans voted yes on the final vote, which passed 38–1. Northam signed it on April 9, 2020.

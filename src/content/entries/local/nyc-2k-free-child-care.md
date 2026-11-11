@@ -27,10 +27,11 @@ status:
   source: https://www.nyc.gov/mayors-office/news/2026/10/mamdani-and-hochul-bring-2-k-to-all-of-the-bronx-and-staten-isla
 credit:
   - official: zohran-mamdani
-    role: led
+    role: proposed
+    note: His signature child care program, announced with Gov. Hochul in January 2026
   - official: kathy-hochul
     role: secured-funding
-    note: Secured $73 million in the FY 2027 state budget to launch the first 2-K seats
+    note: Committed state money for the first two years, starting with $73 million in the FY 2027 state budget
 sources:
   - title: Mayor Mamdani & Governor Hochul to Launch Free Child Care for Two-Year-Olds
     publisher: NYC Mayor's Office
@@ -51,6 +52,13 @@ sources:
   - title: "Bringing Universal Child Care to New York City: Mayor Mamdani Delivers in First 100 Days"
     publisher: NYC Mayor's Office
     url: https://www.nyc.gov/mayors-office/news/2026/04/bringing-universal-child-care-to-new-york-city--mayor-mamdani-de
+  - title: Governor Hochul announces investments to deliver universal child care for New York children
+    publisher: Office of the Governor of New York
+    url: https://www.governor.ny.gov/news/governor-hochul-announces-investments-deliver-universal-child-care-new-york-children-under
+    date: 2026-01-08
+  - title: Overview of the New York City Fiscal Year 2027 Adopted Budget
+    publisher: Citizens' Committee for Children of New York
+    url: https://cccnewyork.org/data-publications/fy27-nyc-budget/
   - title: 2-K Enrollment
     publisher: New York City Public Schools
     url: https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3834/~/2-k-enrollment
@@ -64,16 +72,8 @@ sources:
     date: 2026-09-10
 featured: true
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the program’s launch, operating hours, demand, savings estimate, expansion plan, funding, and current status. Corrected eligibility, the qualifying action date, funding attribution, and overly exact enrollment language.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: nyc-2026-2k-launch
 ---
 
@@ -81,6 +81,6 @@ New York City now offers free child care for 2-year-olds, called 2-K. Around 2,0
 
 All New York City children born in 2024 could apply, with no income test. Families could apply to any program citywide, though children received priority for programs in the district where they live. Demand was high: more than 5,700 families applied for just over 2,000 seats, and more than half of families receiving offers got their first choice.
 
-Mayor Zohran Mamdani announced 2-K in his second week in office, alongside Governor Kathy Hochul. Hochul later signed a state budget providing $73 million to launch the first seats. The program runs through center-based and licensed family child care providers.
+Mayor Zohran Mamdani announced 2-K in his second week in office, alongside Governor Kathy Hochul. Hochul committed the state to fund the first two years: $73 million this year and $425 million next year, according to the city's budget. The program runs through center-based and licensed family child care providers.
 
 The city plans to serve about 12,000 children in fall 2027 across 22 districts, including all of the Bronx and Staten Island. Mamdani has promised that every family who wants a 2-K seat will have one by the end of his first term.

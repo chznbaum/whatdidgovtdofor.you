@@ -25,20 +25,20 @@ status:
   state: in-effect
   as_of: 2026-11-06
 credit:
-  - official: joe-biden
-    role: signed
   - official: garret-graves
     role: sponsored
-    note: Lead House sponsor of H.R. 82
+    note: Lead House sponsor of H.R. 82; filed the 2024 discharge petition that forced a House vote
   - official: abigail-spanberger
-    role: cosponsored
+    role: led
     note: Lead Democratic co-author of H.R. 82, as a U.S. Representative from Virginia
   - official: sherrod-brown
     role: sponsored
     note: Sponsored the Senate version (S. 597)
   - official: susan-collins
-    role: cosponsored
+    role: led
     note: Lead Republican on the Senate version
+  - official: joe-biden
+    role: signed
 votes:
   - chamber: U.S. House
     date: 2024-11-12
@@ -82,17 +82,13 @@ sources:
   - title: Social Security Fairness Act
     publisher: Social Security Administration
     url: https://www.ssa.gov/benefits/retirement/social-security-fairness-act.html
+  - title: "The Social Security Fairness Act of 2023 (H.R. 82): Background for Congress (IN12451)"
+    publisher: Congressional Research Service
+    url: https://www.everycrsreport.com/files/2024-11-13_IN12451_e4209df7c8a7d4d10b21e91ead4f81d9115ee3b3.pdf
+    date: 2024-11-13
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the law, payment totals, effective date, current status, credits, and both official roll calls. Corrected one sponsorship role, clarified the $360 estimate, and explained when a beneficiary must apply.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 featured: true
 source_key: us-law-118-273
 ---
@@ -101,6 +97,6 @@ For decades, two federal rules cut Social Security for people who also had a pen
 
 The Social Security Fairness Act repealed both rules for benefits due after December 2023. That meant higher checks going forward plus back pay for 2024. Social Security sent more than 3.1 million retroactive payments worth about $17 billion by early July 2025, months ahead of its own schedule. CBO estimated average monthly increases of about $360 for WEP-affected beneficiaries, $700 for spouses and $1,190 for widows and widowers by December 2025.
 
-Social Security handled the increases and back pay for people already receiving affected benefits. People who had not previously applied for benefits may need to contact Social Security and file an application.
+People already receiving affected benefits got the increases and back pay without applying. Those who never applied for benefits may need to file an application.
 
-This was a bipartisan effort years in the making. Republican Rep. Garret Graves of Louisiana and Democratic Rep. Abigail Spanberger of Virginia led it in the House, and Democrat Sherrod Brown and Republican Susan Collins led it in the Senate. President Joe Biden signed it on January 5, 2025.
+This was a bipartisan effort years in the making. Republican Rep. Garret Graves of Louisiana and Democratic Rep. Abigail Spanberger of Virginia led it in the House, where Graves's 2024 discharge petition forced a vote, and Democrat Sherrod Brown and Republican Susan Collins led it in the Senate. It wasn't paid for: CBO estimated about $196 billion in added benefits over 10 years, bringing the date Social Security's trust funds run short about six months closer. President Joe Biden signed it on January 5, 2025.

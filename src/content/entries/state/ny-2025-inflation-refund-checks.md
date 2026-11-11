@@ -26,13 +26,8 @@ status:
   source: https://www.governor.ny.gov/news/governor-hochul-announces-more-8-million-inflation-refund-checks-have-been-mailed-out-time
 credit:
   - official: kathy-hochul
-    role: signed
-  - official: andrea-stewart-cousins
-    role: negotiated
-    note: Senate Majority Leader
-  - official: carl-heastie
-    role: negotiated
-    note: Assembly Speaker
+    role: proposed
+    note: Proposed an inflation refund in her FY 2026 executive budget
 votes:
   - chamber: New York State Assembly
     date: 2025-05-08
@@ -67,17 +62,15 @@ sources:
   - title: S3009C (2025), revenue budget bill
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2025/S3009/amendment/C
+  - title: Report on the State Fiscal Year 2025-26 Executive Budget
+    publisher: Office of the New York State Comptroller
+    url: https://www.osc.ny.gov/files/reports/budget/pdf/executive-budget-report-2025-26.pdf
+  - title: Fiscal Year 2026 Enacted Budget briefing
+    publisher: Fiscal Policy Institute
+    url: https://fiscalpolicy.org/wp-content/uploads/2025/05/2026.05.12-FY-2026-Budget-Briefing-Enacted.pdf
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the eligibility rules, payment amounts, enactment, credits, and both final-passage votes. Updated the entry to distinguish checks mailed from checks received and to classify the completed one-time benefit as delivered.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2025-budget-inflation-refund
 ---
 
@@ -85,4 +78,4 @@ In the fall of 2025, New York mailed more than 8.2 million one-time inflation re
 
 Joint filers with income up to $150,000 got $400, and those earning up to $300,000 got $300. Single filers got $200 with income up to $75,000 and $150 with income up to $150,000. You qualified if you were a full-year New York resident in 2023, filed a resident return, met the income limits, and weren't claimed as a dependent on someone else's return. There was no age limit, so retirees who filed a return could qualify.
 
-The checks were part of the state budget Gov. Kathy Hochul signed on May 9, 2025, after negotiations with Senate Majority Leader Andrea Stewart-Cousins and Assembly Speaker Carl Heastie. The mailed checks totaled about $2.035 billion. The tax bill that carried the refund also cut middle-class income tax rates and expanded the state's child tax credit. It passed the Assembly 103–46 and the Senate 35–27; every Republican state senator and five Democratic state senators voted no. Mailings began Sept. 26, 2025, and the main phase was complete by Nov. 25.
+Gov. Kathy Hochul proposed the refund in her January 2025 budget, describing it as giving back extra sales-tax revenue that inflation had brought in, and signed it into law on May 9, 2025. The state paid for the checks, about $2.035 billion in all, out of a one-year budget surplus. The tax bill that carried the refund also cut middle-class income tax rates and expanded the state's child tax credit. It passed the Assembly 103–46 and the Senate 35–27. Mailings began Sept. 26, 2025, and the main phase was complete by Nov. 25.

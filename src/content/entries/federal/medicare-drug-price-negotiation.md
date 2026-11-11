@@ -26,14 +26,29 @@ status:
   as_of: 2026-11-06
   note: The Supreme Court declined drugmakers' appeals on May 18, 2026. The One Big Beautiful Bill Act (2025) exempted more rare-disease drugs from negotiation.
 credit:
-  - official: joe-biden
-    role: signed
+  - official: amy-klobuchar
+    role: championed
+    note: Led the Senate bill to let Medicare negotiate drug prices for years
+  - official: peter-welch
+    role: championed
+    note: Led the House version of that bill
+  - official: frank-pallone
+    role: championed
+    note: Sponsored H.R. 3, which passed the House with Medicare negotiation in 2019
+  - official: chuck-schumer
+    role: negotiated
+    note: Senate Majority Leader; negotiated the final law with Joe Manchin
+  - official: joe-manchin
+    role: negotiated
+    note: Negotiated the final law with Chuck Schumer
+  - official: john-yarmuth
+    role: sponsored
+    note: Sponsored the bill that carried it
   - official: kamala-harris
     role: tie-breaker
     note: Cast the deciding Senate vote
-  - official: chuck-schumer
-    role: negotiated
-    note: Senate Majority Leader
+  - official: joe-biden
+    role: signed
 votes:
   - chamber: U.S. Senate
     date: 2022-08-07
@@ -80,17 +95,22 @@ sources:
     publisher: PBS News
     url: https://www.pbs.org/newshour/nation/supreme-court-rejects-appeals-from-drug-manufacturers-over-medicare-price-negotiations-with-government
     date: 2026-05-18
+  - title: Klobuchar statement on Senate passage of Inflation Reduction Act
+    publisher: Office of Sen. Amy Klobuchar
+    url: https://www.klobuchar.senate.gov/public/index.cfm/2022/8/klobuchar-statement-on-senate-passage-of-inflation-reduction-act
+  - title: Klobuchar, Welch introduce legislation to cut prescription drug costs for seniors
+    publisher: Office of Sen. Amy Klobuchar
+    url: https://www.klobuchar.senate.gov/public/index.cfm/2021/3/klobuchar-welch-introduce-legislation-to-cut-prescription-drug-costs-for-seniors
+  - title: Pallone praises House passage of Lower Drug Costs Now Act
+    publisher: House Energy and Commerce Committee Democrats
+    url: https://democrats-energycommerce.house.gov/newsroom/press-releases/pallone-praises-house-passage-of-lower-drug-costs-now-act
+  - title: Joint Statement From Leader Schumer and Senator Manchin Announcing Agreement
+    publisher: Senate Democratic Caucus
+    url: https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs
+    date: 2022-07-27
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the drug list, savings estimates, enactment details, credits, House vote, and current status. Corrected the Senate tally and updated the status check date.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-117-169-drug-negotiation
 ---
 
@@ -100,4 +120,4 @@ The first 10 negotiated prices took effect on January 1, 2026. They treat condit
 
 The program keeps growing. In November 2025, the Trump administration announced negotiated prices for 15 more drugs, including Ozempic and Wegovy, which take effect in 2027. A third round, the first to include drugs given in a doctor's office, is underway for 2028.
 
-Democrats passed the law without Republican votes, with Vice President Kamala Harris breaking a 50–50 Senate tie. President Joe Biden signed it in August 2022.
+Democrats fought for this for years. Sen. Amy Klobuchar and Rep. Peter Welch carried bills to let Medicare negotiate, and Rep. Frank Pallone's H.R. 3 passed the House with it in 2019. Senate Majority Leader Chuck Schumer and Sen. Joe Manchin negotiated the final law, which passed without Republican votes after Vice President Kamala Harris broke a 50–50 Senate tie. President Joe Biden signed it in August 2022.

@@ -25,14 +25,24 @@ status:
   note: Expired after tax year 2021 when Congress did not extend it. The Census Bureau's supplemental child poverty rate rose from 5.2% in 2021 to 12.4% in 2022.
   source: https://uscode.house.gov/us/usc/t26/s24/
 credit:
-  - official: joe-biden
-    role: signed
-  - official: john-yarmuth
-    role: sponsored
-    note: Sponsor of H.R. 1319
   - official: rosa-delauro
     role: championed
-    note: Longtime sponsor of the American Family Act, which proposed a larger, monthly child credit
+    note: Pushed a larger, monthly child credit since 2003; lead author of the American Family Act
+  - official: michael-bennet
+    role: championed
+    note: Senate author of the American Family Act, with Sherrod Brown
+  - official: sherrod-brown
+    role: championed
+    note: Senate co-author of the American Family Act
+  - official: suzan-delbene
+    role: championed
+    note: House co-lead of the American Family Act
+  - official: joe-biden
+    role: proposed
+    note: Proposed the $3,600 and $3,000 credit in his American Rescue Plan; signed it
+  - official: john-yarmuth
+    role: sponsored
+    note: Sponsored the bill that carried it
 votes:
   - chamber: U.S. Senate
     date: 2021-03-06
@@ -82,17 +92,27 @@ sources:
   - title: Child Tax Credit
     publisher: Office of Rep. Rosa DeLauro
     url: https://delauro.house.gov/childtaxcredit
+  - title: DeLauro, DelBene, Torres welcome President's support for permanently expanding the Child Tax Credit
+    publisher: Office of Rep. Rosa DeLauro
+    url: https://delauro.house.gov/media-center/press-releases/delauro-delbene-torres-welcome-president-s-support-permanently-expanding
+  - title: Child Tax Credit
+    publisher: Office of Sen. Michael Bennet
+    url: https://www.bennet.senate.gov/child-tax-credit
+  - title: Two decades in the making, Rosa DeLauro's plan to cut child poverty in half is on the brink of passing
+    publisher: The Connecticut Mirror
+    url: https://ctmirror.org/2021/02/08/two-decades-in-the-making-rosa-delauros-plan-to-cut-child-poverty-in-half-is-on-the-brink-of-passing/
+    date: 2021-02-08
+  - title: President Biden announces American Rescue Plan
+    publisher: The White House (Biden administration archive)
+    url: https://bidenwhitehouse.archives.gov/briefing-room/legislation/2021/01/20/president-biden-announces-american-rescue-plan
+    date: 2021-01-20
+  - title: Statutory PAYGO and Budget Reconciliation Legislation (IN12564)
+    publisher: Congressional Research Service
+    url: https://www.everycrsreport.com/files/2025-06-12_IN12564_6c78b3123624337582c2473c137fbbb358008079.html
+    date: 2025-06-12
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the law, benefit amounts, poverty figures, signer, sponsor, and both official roll calls. Qualified the advance-payment language, added the missing bill sponsor and supporting credit sources, and confirmed the expansion remains expired as of today.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-117-2-child-tax-credit
 ---
 
@@ -102,4 +122,4 @@ Instead of waiting for tax time, eligible families could receive up to half of t
 
 The Census Bureau found child poverty, counting government aid, fell to 5.2% in 2021, the lowest on record. The expansion ended after 2021, and the rate more than doubled to 12.4% in 2022.
 
-Democrats passed the American Rescue Plan without Republican votes, and President Joe Biden signed it on March 11, 2021. Rep. John Yarmuth sponsored H.R. 1319. Rep. Rosa DeLauro had pushed a larger, monthly child credit for years.
+Rep. Rosa DeLauro had pushed a bigger, monthly child credit since 2003. The 2021 credit was modeled on the American Family Act she wrote with Rep. Suzan DelBene and Sens. Michael Bennet and Sherrod Brown, and President Joe Biden made it part of his American Rescue Plan. Democrats passed it without Republican votes, as emergency relief paid for by borrowing, and Biden signed it on March 11, 2021.

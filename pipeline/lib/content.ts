@@ -1,9 +1,10 @@
 // Read and write content files outside of Astro (pipeline, validation, agents).
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parse, stringify } from 'yaml';
 
-export const ROOT = new URL('../../', import.meta.url).pathname;
+export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const CONTENT = join(ROOT, 'src/content');
 
 export async function listFiles(dir: string, ext: string): Promise<string[]> {

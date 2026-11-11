@@ -22,8 +22,6 @@ status:
   state: in-effect
   as_of: 2026-11-06
 credit:
-  - official: donald-trump
-    role: signed
   - official: ted-cruz
     role: sponsored
   - official: amy-klobuchar
@@ -35,6 +33,8 @@ credit:
   - official: madeleine-dean
     role: cosponsored
     note: Co-led the House version
+  - official: donald-trump
+    role: signed
 votes:
   - chamber: U.S. House
     date: 2025-04-28
@@ -65,16 +65,8 @@ sources:
     url: https://www.whitehouse.gov/releases/2025/05/icymi-president-trump-signs-take-it-down-act-into-law/
     date: 2025-05-19
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the law, sponsors, official House roll call, current FTC enforcement, and all cited URLs. Narrowed several claims to match the statute and updated the status check to November 6, 2026.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-119-12
 ---
 

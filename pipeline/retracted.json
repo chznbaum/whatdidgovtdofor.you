@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "slug": "no-tax-on-tips-and-overtime",
+  "source_key": "us-law-119-21-tips-overtime",
+  "title": "Tips and the extra half of overtime pay get a tax break through 2028",
+  "reason": "Fails the net-impact test: a sweetener in the One Big Beautiful Bill Act, which was paid for largely by cutting Medicaid and SNAP (CBO: ~10M more uninsured by 2034). Belongs with harms, sweeteners noted.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "trump-accounts-1000-for-newborns",
+  "source_key": "us-law-119-21-trump-accounts",
+  "title": "Babies born 2025 through 2028 get $1,000 invested in their name",
+  "reason": "Fails the net-impact test: carried in the One Big Beautiful Bill Act, which was paid for largely by cutting Medicaid and SNAP. Belongs with harms, sweeteners noted.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "virginia-beach-real-estate-tax-cut-2024",
+  "source_key": "vb-fy2025-real-estate-rate-cut",
+  "title": "Virginia Beach lowered its property tax rate to 97 cents",
+  "reason": "Fails the net-impact test: a 2-cent rate cut for owners paired with a $36.60/yr flat trash-fee increase that renters' households also pay; the median owner's bill still rose.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "norfolk-st-pauls-choice-neighborhoods",
+  "source_key": "us-hud-2019-cni-norfolk-st-pauls",
+  "title": "Norfolk's Tidewater Gardens is being rebuilt as new mixed-income homes",
+  "reason": "Owner's call: public housing redevelopment with displacement (618 units demolished; 330 physical replacements plus 288 vouchers; 44 of 334 families returned). Out of scope for a wins site until harms are covered.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "newport-news-marshall-ridley-choice-neighborhoods",
+  "source_key": "us-hud-2019-cni-newport-news-marshall-ridley",
+  "title": "Newport News is replacing Ridley Place with hundreds of new homes",
+  "reason": "Owner's call: public housing redevelopment with displacement risk and low return rates. Out of scope for a wins site until harms are covered.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "nyc-debt-demolisher-fine-amnesty",
+  "source_key": "nyc-ll-2026-147",
+  "title": "Settle old city violation fines with no interest through Jan. 10",
+  "reason": "Owner's call: fine amnesty with no size limit; relief mostly to property and business owners, including large landlords.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "hampton-roads-transportation-fund-hrbt",
+  "source_key": "va-2013-hb2313-hampton-roads-transportation-fund",
+  "title": "A regional tax is paying to double the Hampton Roads Bridge-Tunnel",
+  "reason": "Owner's call: funded by regressive regional sales and fuel taxes; buys highway lanes (some tolled) and no transit; benefit still under construction.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "hampton-fort-monroe-national-monument",
+  "source_key": "us-2011-fort-monroe-national-monument",
+  "title": "Fort Monroe's historic grounds in Hampton are a national monument",
+  "reason": "Owner's call: low direct impact on working people.",
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "ny-2025-school-phone-ban",
+  "source_key": "ny-2025-budget-distraction-free-schools",
+  "title": "Smartphones stay put away from first bell to last in New York schools",
+  "reason": "Owner's call: no money, service, or right for working people; low impact.",
+  "date": "2026-11-11"
+ }
+]

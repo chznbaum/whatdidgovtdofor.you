@@ -27,9 +27,12 @@ credit:
   - official: brad-lander
     role: sponsored
     note: Lead sponsor of Local Law 115 of 2021, which required the city to set a minimum pay rate
+  - official: sandy-nurse
+    role: sponsored
+    note: Lead sponsor of Local Law 124 of 2025, which extended the minimum to grocery delivery apps over Mayor Adams's veto
   - official: eric-adams
     role: issued
-    note: His administration adopted the rule and defended it in court
+    note: His administration adopted the 2023 rule and defended it in court; he vetoed the 2025 grocery extension
   - official: nyc-dcwp
     role: issued
 sources:
@@ -53,17 +56,12 @@ sources:
   - title: Local Law 115 of 2021
     publisher: New York City Council (via intro.nyc)
     url: https://intro.nyc/local-laws/2021-115
+  - title: Local Law 124 of 2025
+    publisher: New York City Council (via intro.nyc)
+    url: https://intro.nyc/local-laws/2025-124
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the $22.13 rate, covered workers, sponsor credit, litigation history, and current status. Corrected the adoption date and updated the impact figures using DCWP’s October 2026 report.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: nyc-dcwp-2023-delivery-minimum-pay
 ---
 
@@ -71,6 +69,6 @@ If you deliver food or groceries through an app in New York City, the app has to
 
 Before the rule, app delivery workers earned an average of just $5.05 an hour before tips, according to the department. The city says the rule increased delivery workers' pay by more than $2 billion through June 2026.
 
-The City Council set this in motion in 2021 with a law led by Council Member Brad Lander that required the city to study delivery workers' pay and set a minimum. Mayor Eric Adams's administration adopted the rule in 2023, starting at $17.96 an hour, and defended it when the delivery apps sued; enforcement began after state courts ruled for the city.
+The City Council set this in motion in 2021 with a law led by Council Member Brad Lander that required the city to study delivery workers' pay and set a minimum; it became law without Mayor Bill de Blasio's signature. Mayor Eric Adams's administration adopted the rule in 2023, starting at $17.96 an hour, and defended it when the delivery apps sued; enforcement began after state courts ruled for the city.
 
-In January 2026, new Council laws extended the same minimum to grocery delivery apps and added requirements for tipping options, faster payment, and itemized pay statements.
+In 2025 the Council passed laws extending the same minimum to grocery delivery apps, led by Council Member Sandy Nurse, and adding requirements for tipping options, faster payment, and itemized pay statements. Adams vetoed two of the bills, including the grocery minimum; the Council overrode him on September 10, 2025, and the laws took effect in January 2026.

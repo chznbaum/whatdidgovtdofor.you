@@ -22,15 +22,15 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: ralph-northam
-    role: signed
-    note: Called for abolition in his 2021 State of the Commonwealth address
   - official: mike-mullin
     role: sponsored
     note: Chief patron of HB 2263
   - official: scott-surovell
     role: sponsored
     note: Chief patron of SB 1165
+  - official: ralph-northam
+    role: signed
+    note: Called for abolition in his 2021 State of the Commonwealth address
 votes:
   - chamber: Virginia House of Delegates
     date: 2021-02-05
@@ -99,13 +99,8 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enactment, sponsors, historical figures, and current status. Narrowed the beneficiary language, clarified how the two existing sentences changed, and added the omitted final-passage votes for SB 1165.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2021-hb2263
 ---
 

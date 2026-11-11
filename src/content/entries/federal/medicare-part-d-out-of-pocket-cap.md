@@ -25,18 +25,26 @@ status:
   state: in-effect
   as_of: 2026-11-06
 credit:
-  - official: joe-biden
-    role: signed
+  - official: ron-wyden
+    role: championed
+    note: Co-wrote the 2019 bipartisan Senate Finance bill that proposed a Part D out-of-pocket cap; Finance chair when the law passed
+  - official: frank-pallone
+    role: championed
+    note: Sponsored H.R. 3 (2019), which set the $2,000 cap level
+  - official: chuck-schumer
+    role: negotiated
+    note: Senate Majority Leader; negotiated the final law with Joe Manchin
+  - official: joe-manchin
+    role: negotiated
+    note: Negotiated the final law with Chuck Schumer
   - official: john-yarmuth
     role: sponsored
+    note: Sponsored the bill that carried it
   - official: kamala-harris
     role: tie-breaker
     note: Cast the deciding Senate vote
-  - official: chuck-schumer
-    role: negotiated
-    note: Senate Majority Leader
-  - official: joe-manchin
-    role: negotiated
+  - official: joe-biden
+    role: signed
 votes:
   - chamber: U.S. Senate
     date: 2022-08-07
@@ -82,17 +90,20 @@ sources:
   - title: Changes to Medicare Part D in 2024 and 2025 Under the Inflation Reduction Act
     publisher: KFF
     url: https://www.kff.org/medicare/changes-to-medicare-part-d-in-2024-and-2025-under-the-inflation-reduction-act-and-how-enrollees-will-benefit/
+  - title: "Grassley, Wyden op-ed: Congress can act now to lower drug prices"
+    publisher: U.S. Senate Committee on Finance
+    url: https://www.finance.senate.gov/chairmans-news/grassley-wyden-op-ed-congress-can-act-now-to-lower-drug-prices
+  - title: Potential savings for Medicare Part D enrollees under proposals to add a hard cap on out-of-pocket spending
+    publisher: KFF
+    url: https://www.kff.org/medicare/issue-brief/potential-savings-for-medicare-part-d-enrollees-under-proposals-to-add-a-hard-cap-on-out-of-pocket-spending/
+    date: 2021-09-10
+  - title: Wyden statement on drug pricing agreement
+    publisher: U.S. Senate Committee on Finance
+    url: https://www.finance.senate.gov/chairmans-news/wyden-statement-on-drug-pricing-agreement
+    date: 2021-11-02
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the cap amounts, HHS projections, enactment details, and current status. Corrected the Senate tally, narrowed the headline, completed the legislative credit, and updated the status check date.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-117-169-part-d-cap
 ---
 
@@ -102,4 +113,4 @@ The Inflation Reduction Act fixed that in two steps. In 2024, it ended the 5% sh
 
 You don't have to apply. The cap is built into Medicare drug coverage. If big bills early in the year are hard to manage, you can also ask your plan to spread your costs into monthly payments. That option doesn't lower what you owe, but it evens it out.
 
-Senate Majority Leader Chuck Schumer and Sen. Joe Manchin negotiated the final package. Congressional Democrats and two independent senators passed it without Republican votes. Vice President Kamala Harris broke a 50–50 Senate tie, and President Joe Biden signed it on August 16, 2022.
+The idea had support from both parties. In 2019, Democratic Sen. Ron Wyden and Republican Sen. Chuck Grassley proposed a $3,100 cap in a Senate Finance Committee bill, and Rep. Frank Pallone's H.R. 3 set a $2,000 cap. Senate Majority Leader Chuck Schumer and Sen. Joe Manchin negotiated the final package. Congressional Democrats and two independent senators passed it without Republican votes. Vice President Kamala Harris broke a 50–50 Senate tie, and President Joe Biden signed it on August 16, 2022.

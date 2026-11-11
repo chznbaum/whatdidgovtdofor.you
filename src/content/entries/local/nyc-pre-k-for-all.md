@@ -22,7 +22,8 @@ status:
   as_of: 2026-11-05
 credit:
   - official: bill-de-blasio
-    role: led
+    role: proposed
+    note: Proposed universal full-day pre-K as his signature program and pushed Albany to fund it
 sources:
   - title: Most pre-K seats are full one week before the start of school, city says
     publisher: Chalkbeat New York
@@ -43,21 +44,13 @@ sources:
     url: https://www.nyc.gov/mayors-office/news/2026/01/mamdani-administration-celebrates-launch-of-3-k---pre-k-applicat
     date: 2026-01-14
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the program’s launch, enrollment, eligibility, application process, funding, and current status. Corrected the rollout date and clarified that the $300 million came through the state budget after de Blasio pushed the expansion.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: nyc-2014-pre-k-for-all
 ---
 
 Every child in New York City can attend free, full-day pre-kindergarten the year they turn 4. There's no income test and no tuition. Families apply each winter through the city's public schools, online at MySchools, by phone, or at a Family Welcome Center, and the city says any family that applies by the deadline gets an offer.
 
-Before Pre-K for All, only about 20,000 children attended full-day pre-K in the city. Universal pre-K was Mayor Bill de Blasio's signature program. He pushed the plan, and the 2014 state budget made $300 million available to New York City for the first-year expansion. The city also ran a citywide outreach drive over the summer to sign families up.
+Before Pre-K for All, only about 20,000 children attended full-day pre-K in the city. Universal pre-K was Mayor Bill de Blasio's signature program. He proposed paying for it with a local income tax increase, but Albany rejected the tax. Instead, the 2014 state budget paid for it, making $300 million available to New York City for the first-year expansion. The city also ran a citywide outreach drive over the summer to sign families up.
 
 The program opened in September 2014 with more than 50,000 children registered a week before school started, and enrollment reached 53,230 that fall. That was the first phase of a two-year expansion; beginning in the 2015-16 school year, the city made a seat available to every 4-year-old whose family wanted one. The city later added 3-K for 3-year-olds, and Mayor Zohran Mamdani's administration has pledged to work with the state to make 3-K universal as well.

@@ -18,13 +18,15 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: joe-biden
-    role: signed
-  - official: jerrold-nadler
-    role: sponsored
   - official: tammy-baldwin
     role: led
-    note: Led the bipartisan Senate group that wrote the final version
+    note: Led the bipartisan Senate group that wrote the final version; co-introduced the first version in the House in 2009
+  - official: jerrold-nadler
+    role: sponsored
+    note: First introduced the bill in 2009
+  - official: dianne-feinstein
+    role: sponsored
+    note: Senate sponsor since 2011; introduced the 2022 Senate version (S. 4556)
   - official: susan-collins
     role: negotiated
     note: Member of the bipartisan Senate group
@@ -37,6 +39,8 @@ credit:
   - official: kyrsten-sinema
     role: negotiated
     note: Member of the bipartisan Senate group
+  - official: joe-biden
+    role: signed
 votes:
   - chamber: U.S. Senate
     date: 2022-11-29
@@ -77,17 +81,20 @@ sources:
     publisher: U.S. Census Bureau
     url: https://www.census.gov/library/stories/2026/04/same-sex-couples.html
     date: 2026-04-01
+  - title: Nadler, Baldwin and Polis introduce Respect for Marriage Act to repeal Defense of Marriage Act
+    publisher: Office of Rep. Jerrold Nadler
+    url: https://nadler.house.gov/press-release/nadler-baldwin-and-polis-introduce-respect-marriage-act-repeal-defense-marriage-act
+    date: 2009-09-14
+  - title: Senators Baldwin, Feinstein, Collins introduce bipartisan Respect for Marriage Act
+    publisher: Office of Sen. Susan Collins
+    url: https://www.collins.senate.gov/newsroom/senators-baldwin-feinstein-collins-introduce-bipartisan-respect-for-marriage-act
+    date: 2022-07-19
+  - title: S. 1236, Respect for Marriage Act (113th Congress, as introduced)
+    publisher: GovInfo
+    url: https://www.govinfo.gov/content/pkg/BILLS-113s1236is/html/BILLS-113s1236is.htm
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the law, Census figure, named negotiators, both roll calls, and current status. Narrowed the dek to match the statute’s precise federal-recognition rule.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-117-228
 ---
 
@@ -97,4 +104,4 @@ Under the law, the federal government treats a marriage as valid if it was valid
 
 The law also protects religious liberty: nonprofit religious organizations don't have to provide services for celebrating a marriage. It does not require any state to issue marriage licenses.
 
-Rep. Jerrold Nadler of New York sponsored the bill. In the Senate, a bipartisan group of Democrats Tammy Baldwin and Kyrsten Sinema and Republicans Susan Collins, Rob Portman and Thom Tillis negotiated the final version, which won 12 Republican votes. In the House, 39 Republicans joined every Democrat. President Joe Biden signed it on December 13, 2022.
+The fight took 13 years. Rep. Jerrold Nadler of New York first introduced the bill in 2009 with Tammy Baldwin, then a House member, and Sen. Dianne Feinstein carried it in the Senate from 2011. In 2022, a bipartisan group of senators, Democrats Tammy Baldwin and Kyrsten Sinema and Republicans Susan Collins, Rob Portman and Thom Tillis negotiated the final version, which won 12 Republican votes. In the House, 39 Republicans joined every Democrat. President Joe Biden signed it on December 13, 2022.

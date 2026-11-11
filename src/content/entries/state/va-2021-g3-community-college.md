@@ -25,7 +25,8 @@ status:
   as_of: 2026-11-05
 credit:
   - official: ralph-northam
-    role: signed
+    role: proposed
+    note: Proposed G3 and $145 million to fund it in December 2019; signed the bills
   - official: eileen-filler-corn
     role: sponsored
     note: Speaker of the House; chief patron of HB 2204
@@ -101,18 +102,17 @@ sources:
     publisher: Virginia's Community Colleges
     url: https://www.vccs.edu/news/new-report-finds-strong-wage-gains-for-virginia-g3-graduates/
     date: 2026-09-29
+  - title: Gov. Northam announces proposal for free community college
+    publisher: WTKR News 3
+    url: https://wtkr.com/2019/12/12/gov-northam-announces-proposal-for-free-community-college/
+    date: 2019-12-12
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the program remains funded and active, and verified the sponsors and four final-passage votes. Updated the 2026 income limit and corrected the enactment and voting details.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2021-hb2204
 ---
 
@@ -120,4 +120,4 @@ If you want to train for a high-demand job at a Virginia community college, the 
 
 To qualify, you must be a Virginia resident eligible for in-state tuition, have a household income at or below 400% of the federal poverty guideline ($132,000 for a family of four under the 2026 guideline), and apply for other federal and state aid you may qualify for. You must enroll in an approved program in education, health care, hospitality and culinary arts, information technology, public safety, or skilled trades, manufacturing, and construction. Credit-bearing students must take at least six credit hours per semester; approved noncredit programs may also qualify.
 
-House Speaker Eileen Filler-Corn sponsored HB 2204, and Senate Majority Leader Dick Saslaw sponsored the identical SB 1405. HB 2204 passed 93–7 in the House and 37–2 in the Senate; SB 1405 passed 39–0 in the Senate and 93–7 in the House. Gov. Ralph Northam signed both bills on March 29, 2021.
+G3 was Gov. Ralph Northam's (D) proposal; he announced it in December 2019 with $145 million in his budget plan. House Speaker Eileen Filler-Corn and Senate Majority Leader Dick Saslaw carried the identical bills that wrote it into law. HB 2204 passed 93–7 in the House and 37–2 in the Senate; SB 1405 passed 39–0 in the Senate and 93–7 in the House. Northam signed both on March 29, 2021.

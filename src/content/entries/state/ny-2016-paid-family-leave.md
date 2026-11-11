@@ -25,11 +25,15 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
+  - official: catherine-nolan
+    role: sponsored
+    note: Carried the stand-alone paid family leave bill in the Assembly, which passed it repeatedly
+  - official: joseph-addabbo
+    role: sponsored
+    note: Prime Senate sponsor of the paid family leave bill for four years
   - official: andrew-cuomo
-    role: signed
-  - official: john-flanagan
-    role: negotiated
-    note: Republican Senate Majority Leader; his Senate passed the budget bill 61–1
+    role: proposed
+    note: Proposed a 12-week plan in his 2016 State of the State and budget
 votes:
   - chamber: New York State Senate
     date: 2016-03-31
@@ -50,26 +54,25 @@ sources:
     publisher: City & State New York
     url: https://www.cityandstateny.com/policy/2015/10/with-newfound-republican-support-could-2016-be-the-year-for-paid-family-leave/180881/
     date: 2015-10-23
-  - title: From the desk of Senate Majority Leader John Flanagan
+  - title: Paid family leave (memo comparing the governor's plan and A.3870-A/S.3004-A)
+    publisher: New York Civil Liberties Union
+    url: https://www.nyclu.org/resources/policy/legislations/paid-family-leave
+    date: 2016-01-26
+  - title: Statement of Senator Joseph P. Addabbo Jr. on adoption of paid family leave
     publisher: New York State Senate
-    url: https://www.nysenate.gov/newsroom/press-releases/2016/john-j-flanagan/desk-senate-majority-leader-john-flanagan
+    url: https://nysenate.gov/newsroom/press-releases/2016/joseph-addabbo/statement-senator-joseph-p-addabbo-jr-adoption-paid
+  - title: S7547 (2012), paid family leave
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/legislation/bills/2011/S7547
 featured: true
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enacted law, Senate vote, political credit, 2026 benefit and contribution amounts, and that the program remains in effect. I narrowed the eligibility and military-leave language and added the missing application details.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2016-s6406c-paid-family-leave
 ---
 
-If you work for a private employer in New York, you are generally eligible after 26 consecutive weeks if you work at least 20 hours a week, or after 175 workdays if you work less than 20 hours. You can take up to 12 weeks of paid leave a year to bond with a new baby, adopted child, or foster child; care for a family member with a serious health condition; or handle qualifying needs when your spouse, domestic partner, child, or parent is deployed abroad on active military service. You get 67% of your average weekly pay, up to a cap of $1,228.53 a week in 2026, and your job is protected while you're out. To claim the benefit, notify your employer and submit the required forms to its Paid Family Leave insurance carrier.
+If you work for a private employer in New York, you're generally eligible after 26 consecutive weeks if you work 20 or more hours a week, or after 175 workdays if you work fewer. You can take up to 12 weeks of paid leave a year to bond with a new, adopted, or foster child; care for a seriously ill family member; or handle needs when a family member is deployed abroad on active military duty. You get 67% of your average weekly pay, up to a cap of $1,228.53 a week in 2026, and your job is protected while you're out. To claim it, tell your employer and file forms with its Paid Family Leave insurance carrier.
 
-Workers pay for the program through a small payroll deduction, set at 0.432% of wages in 2026 with a yearly maximum of $411.91. Employers don't pay for the benefit itself.
+Workers pay for it through a payroll deduction: 0.432% of wages in 2026, up to $411.91 a year. Employers don't pay for the benefit itself.
 
-Paid family leave sat stuck in Albany for more than a decade. The Assembly passed versions year after year, but the Republican-led Senate didn't. That changed in 2015, when Senate Republicans put a six-week plan in their own budget proposal and Majority Leader John Flanagan and Labor Committee Chair Jack Martins signaled support for a deal. The final 12-week program was part of the 2016 state budget, which passed the Republican-led Senate 61–1. Gov. Andrew Cuomo signed it on April 4, 2016, and benefits began on January 1, 2018, phasing up to the full 12 weeks.
+Paid family leave sat stuck in Albany for more than a decade. Assemblymember Catherine Nolan carried the bill, and the Assembly passed it repeatedly. Sen. Joseph Addabbo sponsored it in the Senate for four years, and Republican Sen. Roy McDonald introduced a version in 2012, but the Republican-led Senate didn't pass one. In 2016, Gov. Andrew Cuomo made a 12-week plan a priority, and the budget that carried it passed the Senate 61–1. The final program pays 67% of wages, as the Nolan-Addabbo bill proposed, rather than the 50% Cuomo had sought. Cuomo signed it on April 4, 2016, and benefits began January 1, 2018.

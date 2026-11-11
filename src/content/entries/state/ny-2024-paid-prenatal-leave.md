@@ -23,7 +23,8 @@ status:
   as_of: 2026-11-05
 credit:
   - official: kathy-hochul
-    role: signed
+    role: proposed
+    note: Proposed paid prenatal leave in her 2024 State of the State
 votes:
   - chamber: New York State Assembly
     date: 2024-04-18
@@ -46,6 +47,10 @@ sources:
   - title: S8305C (2024), public protection and general government budget bill
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2023/S8305/amendment/C
+  - title: Ahead of January 1, 2025 start date for first-in-the-nation paid prenatal leave, Governor Hochul reminds New Yorkers of new benefit
+    publisher: Office of the Governor of New York
+    url: https://www.governor.ny.gov/news/money-your-pockets-ahead-january-1-2025-start-date-first-nation-paid-prenatal-leave-governor
+    date: 2024-12-02
   - title: Paid Prenatal Leave Information for Employees
     publisher: New York State
     url: https://www.ny.gov/new-york-state-paid-prenatal-leave/paid-prenatal-leave-information-employees
@@ -56,16 +61,8 @@ sources:
     publisher: FordHarrison
     url: https://www.fordharrison.com/new-york-leads-the-way-with-new-paid-prenatal-leave
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the benefit, coverage, effective date, Hochul’s signature, Senate tally, and current status. Added the omitted Assembly final-passage vote and a current official state source supporting implementation.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2024-budget-paid-prenatal-leave
 ---
 
@@ -73,4 +70,4 @@ If you're pregnant and work for a private employer in New York, you can take up 
 
 You can use the leave in hourly blocks for appointments related to your pregnancy, including fertility treatment such as IVF and end-of-pregnancy care. Postpartum visits aren't covered, and the leave is only for the person receiving the care, not a spouse or partner. Unused hours don't roll over to the next year.
 
-The benefit was added to New York's paid sick leave law in the state budget Gov. Kathy Hochul signed on April 20, 2024, and it took effect on January 1, 2025. Employment lawyers noted it was the first state law in the country to require paid leave for prenatal care. The budget bill that carried it passed the Senate 44–15, with every Democrat present and four Republicans voting yes.
+Gov. Kathy Hochul proposed the benefit in her 2024 State of the State. It was added to New York's paid sick leave law in the state budget she signed on April 20, 2024, and took effect on January 1, 2025. Employment lawyers noted it was the first state law in the country to require paid leave for prenatal care. The budget bill that carried it passed the Senate 44–15, with every Democrat present and four Republicans voting yes.

@@ -23,11 +23,11 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
-  - official: ralph-northam
-    role: signed
   - official: adam-ebbin
     role: sponsored
     note: Chief patron of SB 868
+  - official: ralph-northam
+    role: signed
 votes:
   - chamber: Virginia House of Delegates
     date: 2020-02-24
@@ -74,13 +74,8 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enactment date, sponsor, both official roll calls, bipartisan Senate support, and the law’s continued effect. Narrowed categorical language that ignored statutory coverage limits and added the current Virginia Code as a source.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2020-sb868
 ---
 

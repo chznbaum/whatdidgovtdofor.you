@@ -23,17 +23,23 @@ status:
   state: in-effect
   as_of: 2026-11-06
 credit:
-  - official: donald-trump
-    role: signed
   - official: elizabeth-warren
     role: sponsored
     note: Wrote the Over-the-Counter Hearing Aid Act (S. 670)
   - official: chuck-grassley
     role: cosponsored
-    note: Original Republican cosponsor of S. 670
+    note: Co-author and original Republican cosponsor of S. 670
+  - official: joe-kennedy-iii
+    role: sponsored
+    note: Sponsored the House version (H.R. 1652)
+  - official: marsha-blackburn
+    role: cosponsored
+    note: Co-led the House version
   - official: joe-biden
     role: implemented
-    note: His July 2021 executive order directed FDA to propose the rule, which took effect in October 2022
+    note: After FDA missed the law's 2020 deadline, his July 2021 executive order directed FDA to propose the rule
+  - official: donald-trump
+    role: signed
 votes:
   - chamber: U.S. Senate
     date: 2017-08-03
@@ -65,22 +71,29 @@ sources:
     publisher: The White House (Biden administration archive)
     url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/10/17/fact-sheet-cheaper-hearing-aids-now-in-stores-thanks-to-biden-harris-administration-competition-agenda/
     date: 2022-10-17
+  - title: OTC Hearing Aid Act passed by US House
+    publisher: The Hearing Review
+    url: https://hearingreview.com/inside-hearing/industry-news/otc-hearing-aid-act-passed-us-house
+    date: 2017-07-13
+  - title: Bill status, H.R. 1652 (115th Congress)
+    publisher: GovInfo
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115hr1652.xml
+  - title: Statutory deadline for OTC hearing aid rule missed
+    publisher: Regulatory Affairs Professionals Society
+    url: https://www.raps.org/resource/statutory-deadline-for-otc-hearing-aid-rule-missed.html
+    date: 2020-11-17
+  - title: "Executive Order 14036: Promoting Competition in the American Economy"
+    publisher: Federal Register
+    url: https://www.govinfo.gov/content/pkg/FR-2021-07-14/html/2021-15069.htm
+    date: 2021-07-14
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: corrected
-  notes: Confirmed the benefit, eligibility, figures, credits, Senate vote, and current status. Corrected the enacted law’s official name, clarified the source of the savings estimate, and updated the status check date.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-115-52-otc-hearing-aids
 ---
 
 Hearing aids used to require a visit to a doctor or audiologist and a prescription-style fitting, and a pair often cost thousands of dollars. Now adults with mild to moderate hearing loss can walk into a pharmacy or big-box store, or shop online, and buy FDA-regulated hearing aids off the shelf. No exam or prescription is needed. People with more severe hearing loss, and children, still need prescription devices.
 
-The change took two steps across two administrations. In 2017, Sen. Elizabeth Warren, a Democrat, and Sen. Chuck Grassley, a Republican, wrote a law ordering the FDA to create a new over-the-counter category. It passed as part of a larger FDA bill, 94–1 in the Senate and by voice vote in the House, and President Donald Trump signed it in August 2017. In July 2021, President Joe Biden ordered the FDA to propose the rule within 120 days, and the final rule took effect on October 17, 2022.
+The change took two steps across two administrations. In 2017, Sen. Elizabeth Warren, a Democrat, and Sen. Chuck Grassley, a Republican, wrote a law ordering the FDA to create a new over-the-counter category. Reps. Joe Kennedy III, a Democrat, and Marsha Blackburn, a Republican, led it in the House. It passed as part of a larger FDA bill, 94–1 in the Senate and by voice vote in the House, and President Donald Trump signed it in August 2017. The FDA missed the law's August 2020 deadline. In July 2021, President Joe Biden ordered it to propose the rule within 120 days, and the final rule took effect on October 17, 2022.
 
 When stores began selling them, the White House said Walmart priced its OTC models at $199 to $999, compared with $4,400 to $5,500 for its prescription models.

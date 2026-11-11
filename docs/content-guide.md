@@ -8,15 +8,28 @@ Most people never hear about the concrete things government does for them. Each 
 
 The voice is **factual but compelling**. We are not neutral about whether people should know these things; we are scrupulous about whether they are true. Nothing should be easy to dismiss as spin.
 
-- Credit whoever did it, Republicans included. When Republicans deliver something good, say so plainly; bipartisan credit is a feature, not a concession.
+The site is nonpartisan, but it has a point of view: **working people's, not owners'**. "Did government do something for you?" is asked on behalf of people who earn a wage, rent or carry a mortgage, ride the bus, send kids to public school, and rely on public services. Most policy is a win for some people and a cost to others. We judge it from where workers stand.
+
+- Credit goes to whoever did the work, Republicans included. When Republicans deliver something good for working people, say so plainly. Never add or keep an entry to balance the parties. Balance is not a goal, and accuracy is.
 - Party is shown next to every official's name. Don't editorialize about parties in the text.
 - Never claim more than the sources support. Prefer a smaller true number to a bigger fuzzy one.
 
 ## What qualifies
 
-Include actions with a **direct, tangible effect on people's lives**: money in pockets, costs lowered, services created, rights protected, infrastructure built, safety improved.
+Include actions with a **direct, tangible effect on working people's lives**: money in pockets, costs lowered, services created or protected, rights protected, infrastructure built, safety improved.
 
 Leave out: commemorative resolutions, post-office namings, purely procedural votes, announcements of intent with no enacted action, and anything whose main effect is on government itself. A bill that only *passed one chamber* is not an entry. A proposal becomes an entry when it's enacted, signed, funded, or ordered.
+
+### Count what it cost (the net-impact test)
+
+An action qualifies only if working people come out ahead once you count **how it was paid for**. A benefit isn't a win if the same action takes more away from the people it claims to help.
+
+- **Tax cuts are not automatically wins.** Highways, buses, schools, health coverage, and food assistance are paid for with taxes. A tax cut that's paid for by cutting those services hurts the people who depend on them, even if it puts a little money in their pockets.
+- **These pass:** refunds or rebates from a real revenue surplus; tax relief where the lost revenue is replaced, so services aren't cut (say how, e.g., "the state replaces the lost school funding"); and credits aimed at lower- and middle-income workers and families that aren't paid for with service cuts.
+- **These fail:** benefits carried in a law that, taken as a whole, cuts services or coverage for working people more than it gives them. Example: the tips and overtime deductions in the One Big Beautiful Bill Act, which was paid for in large part by cutting Medicaid and SNAP. The sweetener doesn't become its own entry. (When harms are added to the site, such a law appears there, with its sweeteners noted.)
+- **These fail:** relief that mostly goes to owners and the wealthy, or that shifts costs onto workers. Examples: a property-tax rate cut paired with higher flat fees, or a cut whose benefits flow mainly to top earners or large property holders.
+- **When it's a judgment call,** say what it cost in the body ("The state replaced the lost revenue from its surplus") and cite the source. If you can't establish how it was paid for, it doesn't qualify yet.
+- **Public housing redevelopment** (demolish and rebuild, Choice Neighborhoods, RAD conversions) is out of scope while the site covers only wins. These projects can permanently remove homes from the lowest-income renters, and telling that honestly takes the harms side of the site.
 
 Harms ("what government did *to* you") are out of scope for v1. When a good thing has been rolled back, that goes in the entry's **status**, not in a separate entry.
 
@@ -74,7 +87,15 @@ Big numbers for the sign. `figure` ≤ 18 chars (`$35`, `1.5 million`, `$2,000`,
 The people (or bodies) who made it happen, each with a `role`:
 `signed`, `sponsored`, `cosponsored`, `proposed`, `led`, `championed`, `negotiated`, `secured-funding`, `voted-yes`, `tie-breaker`, `issued`, `implemented`
 
-Credit the signer and the lead sponsors at minimum. Add others when a source names their role. Don't list every yes vote here; that's what `votes` is for. `note` is optional context ("Lead Senate negotiator").
+**Credit goes to the people who did the work, in order of how much of it they did.** List credits in that order; the first credit is the byline readers see.
+
+1. **First:** the legislators who wrote, carried, or fought for it: the lead sponsors or chief patrons, and anyone a source names as its champion (often someone who pushed it for years before it passed) or as a lead negotiator. For a budget item, credit the legislators who won it in the budget, not just the leaders who passed the whole budget.
+2. **Executives come first only when the work was really theirs:** they proposed it and pushed it through (a governor's budget initiative, a mayor's program), negotiated it, or issued it themselves (an executive order or a rule). Use `proposed`, `negotiated`, or `issued` and back it with a source. Running for office on the idea alone doesn't count.
+3. **Last:** `signed`. Signing is the step of not blocking something; it isn't the work. Every entry that was signed lists the signer, and lists them last. An executive who also did the work gets that role instead of, not in addition to, `signed`.
+
+**Appointed officials** (a cabinet secretary, an agency head, a city manager) get credit by name when a source ties them to the specific action, e.g. a transportation secretary who issued the refund rule, or a city manager who proposed the budget item. Elected officials who directed the work still come first. Give appointees the party they publicly belong to (most cabinet secretaries), or `NP` if they have none (most city managers and career officials).
+
+At minimum, credit the lead sponsors (or, for an executive action, whoever issued it). An entry whose only credit is the signer isn't finished: find out who carried it. Add others when a source names their role. Don't list every yes vote here; that's what `votes` is for. `note` is optional context ("Carried the bill for six sessions", "Lead Senate negotiator").
 
 Each `official` is an id that must exist in `src/content/officials/{id}.yaml`. Create the file if it's missing (see Officials below). A collective body like `norfolk-city-council` or `nyc-rent-guidelines-board` is a valid official with `kind: body`.
 
@@ -117,7 +138,10 @@ Writers always set `verdict: pending`. The verifier, which is always a *differen
 A stable id for the underlying action ("us-law-117-169", "va-2026-hb1"). The pipeline uses it to avoid duplicates and to honor retractions.
 
 ### Body: "What it means for you"
-Two to four short paragraphs, 120–250 words total. Plain language at about an 8th-grade reading level. Answer three things: what it does, who gets it and how (do they need to apply?), and how it came about (who pushed it, any notable bipartisan support). Use no headings in the body. Say things in your own words and don't paste from sources.
+Two to four short paragraphs, 120–250 words total. Plain language at about an 8th-grade reading level. Answer three things:
+- what it does
+- who gets it and how (do they need to apply?)
+- how it came about: name the legislators who did the work before the person who signed it; say how long the fight took if it took years; note any notable support from both parties; and, when the net-impact test was a judgment call, say how it was paid for. Use no headings in the body. Say things in your own words and don't paste from sources.
 
 ## Officials
 

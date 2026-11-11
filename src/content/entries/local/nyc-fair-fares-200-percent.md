@@ -25,16 +25,20 @@ status:
   note: The Human Resources Administration adopted a rule raising the income limit to 200% of the poverty line, effective Nov. 30, 2026. Until then the limit stays at 150%.
   source: https://rules.cityofnewyork.us/rule/amendments-to-the-fair-fares-nyc-program/
 credit:
+  - official: julie-menin
+    role: secured-funding
+    note: Council Speaker; the Council won a Fair Fares budget 54% above the mayor's May proposal
   - official: zohran-mamdani
     role: negotiated
     note: Agreed to the expansion in the fiscal 2027 budget deal
-  - official: julie-menin
-    role: negotiated
-    note: Council Speaker
 sources:
   - title: Speaker Julie Menin and New York City Council Announce Agreement with Mayor Zohran Mamdani on Fiscal Year 2027 Budget
     publisher: New York City Council
     url: https://council.nyc.gov/press/2026/06/30/3151/
+    date: 2026-06-30
+  - title: Mamdani and City Council agree to expand Fair Fares half-priced transit program
+    publisher: Streetsblog NYC
+    url: https://nyc.streetsblog.org/2026/06/30/mamdani-and-city-council-agree-to-expand-fair-fares-half-priced-transit-program
     date: 2026-06-30
   - title: Amendments to the Fair Fares NYC Program
     publisher: NYC Rules (Human Resources Administration)
@@ -51,16 +55,8 @@ sources:
     publisher: NYC Human Resources Administration
     url: https://www.nyc.gov/site/fairfares/index.page
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the budget adoption, HRA rule, effective date, eligibility and impact figures, current status, and officials’ roles. Narrowed one sentence to match the rule’s exact renewal exemption.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: nyc-fy2027-budget-fair-fares
 ---
 
@@ -68,6 +64,6 @@ Fair Fares cuts subway and bus fares in half for New Yorkers with low incomes. I
 
 Starting November 30, 2026, the limit rises to 200% of the poverty level: about $31,920 for one person or $66,000 for a family of four. That makes about 340,000 more people eligible, for roughly 1.3 million in all. You must be 18 to 64 and live in the city. You apply through the city's Fair Fares NYC program, and the new rule also drops the yearly renewal for participants who enrolled while receiving public assistance and continue to receive it.
 
-Mayor Zohran Mamdani and Council Speaker Julie Menin agreed to the expansion in the city's $125.8 billion budget for fiscal year 2027, adding $54 million to the program. Menin called Fair Fares indispensable but underused; only about 40% of people who already qualify are signed up.
+The City Council pushed the expansion in budget talks, and Council Speaker Julie Menin won a Fair Fares budget 54% larger than Mayor Zohran Mamdani proposed in May. The mayor agreed to it in the city's $125.8 billion budget for fiscal year 2027, adding $54 million to the program. Menin called Fair Fares indispensable but underused; only about 40% of people who already qualify are signed up.
 
 To close that gap, the Council in September 2026 passed a bill from Council Member Crystal Hudson that fast-tracks enrollment for people on SNAP or cash assistance and requires the city to study automatic enrollment.

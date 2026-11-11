@@ -22,11 +22,17 @@ status:
   as_of: 2026-11-05
   note: The extension is temporary and ends Dec. 31, 2027 unless Congress acts again.
 credit:
-  - official: donald-trump
-    role: signed
+  - official: brian-schatz
+    role: championed
+    note: Wrote the extension; has led the CONNECT for Health Act since 2016
+  - official: roger-wicker
+    role: championed
+    note: Led a 2024 push by 100 lawmakers to extend the rules, with Brian Schatz
   - official: tom-cole
     role: sponsored
-    note: Sponsored H.R. 7148
+    note: Sponsored the bill that carried it
+  - official: donald-trump
+    role: signed
 votes:
   - chamber: U.S. Senate
     date: 2026-01-30
@@ -69,17 +75,16 @@ sources:
     publisher: The White House
     url: https://www.whitehouse.gov/briefings-statements/2026/02/congressional-bill-h-r-7148-signed-into-law/
     date: 2026-02-03
+  - title: Senate passes Schatz measure to extend Medicare telehealth coverage for additional two years
+    publisher: Office of Sen. Brian Schatz
+    url: https://www.schatz.senate.gov/news/press-releases/senate-passes-schatz-measure-to-extend-medicare-telehealth-coverage-for-additional-two-years
+    date: 2026-02-02
+  - title: Senators Wicker, Schatz lead group of 100 lawmakers in calling for extension of telehealth expansion
+    publisher: Office of Sen. Roger Wicker
+    url: https://www.wicker.senate.gov/2024/12/senators-wicker-schatz-lead-group-of-100-lawmakers-in-calling-for-extension-of-telehealth-expansion
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-06
-  verdict: pass
-  notes: Confirmed the law text, current CMS guidance, sponsorship, enactment, extension dates, and both official roll calls. The entry remains accurate as of November 6, 2026.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: us-law-119-75-telehealth
 ---
 
@@ -89,4 +94,4 @@ The Consolidated Appropriations Act, 2026, a government funding law, pushed that
 
 The same law extended Medicare's hospital-care-at-home program through September 2030, creates Medicare coverage for certain tests that screen for multiple cancers at once starting in 2029, and limits how middlemen called pharmacy benefit managers get paid in Medicare drug plans starting in 2028.
 
-It passed with votes from both parties: 71–29 in the Senate and 217–214 in the House. President Donald Trump signed it on February 3, 2026.
+Democratic Sen. Brian Schatz, who has pushed a broad telehealth bill since 2016, wrote the extension. He and Republican Sen. Roger Wicker had led 100 lawmakers in calling for it. The funding law passed with votes from both parties: 71–29 in the Senate and 217–214 in the House. President Donald Trump signed it on February 3, 2026.

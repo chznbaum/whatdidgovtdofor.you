@@ -23,14 +23,14 @@ status:
   note: The farm labor exemption is removed from the minimum wage law effective Jan. 1, 2027.
   source: https://law.lis.virginia.gov/vacodeupdates/title40.1/section40.1-28.9/
 credit:
-  - official: abigail-spanberger
-    role: signed
   - official: adele-mcclure
     role: sponsored
-    note: Chief patron of HB 20
+    note: Chief patron of HB 20; carried the bill through Youngkin's vetoes in 2024 and 2025
   - official: jennifer-carroll-foy
     role: sponsored
     note: Chief patron of SB 121
+  - official: abigail-spanberger
+    role: signed
 sources:
   - title: "HB 20: Acts of Assembly Chapter 357"
     publisher: Virginia Legislative Information System
@@ -50,18 +50,19 @@ sources:
     publisher: WHRO
     url: https://www.whro.org/virginia-government/2026-04-10/virginia-to-raise-minimum-wage-to-15-by-2028-under-new-law
     date: 2026-04-10
+  - title: "HB 157, 2024 Session: bill history"
+    publisher: Virginia Legislative Information System
+    url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB157
+  - title: "HB 1625, 2025 Session: minimum wage; farm laborers or farm employees; temporary foreign workers"
+    publisher: FastDemocracy
+    url: https://fastdemocracy.com/bill/va/2025/bills/VAB00033490/
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enacted chapters, wage schedule, sponsors, retained guest-worker exclusion, and current status. Corrected the official approval date and narrowed wording that implied the benefit already applied to every farmworker.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2026-hb20
 ---
 
@@ -69,4 +70,4 @@ Virginia's minimum wage law currently excludes “any person employed as a farm 
 
 There's one important limit. Temporary foreign workers governed by federal guest-worker rules are still excluded from the state law, so the change covers farmworkers who aren't hired through those programs.
 
-Del. Adele McClure and Sen. Jennifer Carroll Foy carried the bills. Gov. Abigail Spanberger approved them on April 8, 2026, alongside legislation raising the statewide minimum wage. Her office said it worked with the Virginia Farm Bureau to strike a balance between protecting farmworkers and supporting farming.
+Del. Adele McClure carried the change in 2024 and 2025, when her bills would also have covered temporary foreign workers, but Gov. Glenn Youngkin (R) vetoed both. In 2026 she and Sen. Jennifer Carroll Foy carried the bills again. Gov. Abigail Spanberger approved them on April 8, 2026, alongside legislation raising the statewide minimum wage. Her office said it worked with the Virginia Farm Bureau to strike a balance between protecting farmworkers and supporting farming.

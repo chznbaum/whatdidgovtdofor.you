@@ -49,22 +49,24 @@ sources:
   - title: FY 2026-27 adopted Capital Improvement Program
     publisher: City of Virginia Beach
     url: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY27-CIP-Adopted.pdf
+  - title: Cost to build Virginia Beach flood protection projects tops $1 billion
+    publisher: The Virginian-Pilot (via Yahoo News)
+    url: https://www.yahoo.com/news/cost-build-virginia-beach-flood-213500815.html
+    date: 2024-04-15
+  - title: FY 2026-27 Adopted Executive Summary
+    publisher: City of Virginia Beach
+    url: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY27-Adopted-Executive-Summary.pdf
 featured: true
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the referendum, vote share, bond amount, projects, council action, and mayor’s support. Updated the completion schedule and status using the city’s current project pages and FY 2026–27 capital plan.
+    date: 2026-11-11
+  verdict: pending
 source_key: vb-2021-flood-bond
 ---
 
-Virginia Beach voters authorized the city in 2021 to borrow up to $567.5 million for 21 flood protection projects. The plan was intended to compress work that could have taken roughly 40 years into about a decade. At the time of the vote, the higher real estate taxes expected to repay the bonds were estimated at $10 to $14 a month for an average-priced home.
+Virginia Beach voters authorized the city in 2021 to borrow up to $567.5 million for 21 flood protection projects. The plan was intended to compress work that could have taken roughly 40 years into about a decade. Before the vote, the city expected to raise real estate taxes to repay the bonds. Instead, the City Council set aside about 4 cents of the existing real estate tax rate, nearly $32 million a year, for flood protection. By 2024 the program's estimated cost had passed $1 billion because of higher material and labor prices.
 
 The projects include tide gates, pump stations, larger drainage pipes, deeper canals and new places to store stormwater. Residents do not apply for anything; protection reaches each area as its projects are completed.
 

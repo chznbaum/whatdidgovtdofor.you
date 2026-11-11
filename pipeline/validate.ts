@@ -37,6 +37,12 @@ function editorialProblems(file: string, e: z.infer<Schemas['entries']>, body: s
     const no = tallies.reduce((n, t) => n + (t?.no ?? 0), 0) + (tb === 'no' ? 1 : 0);
     if (yes !== v.yes || no !== v.no) out.push(`votes.${i}.by_party: sums ${yes}-${no} don't match ${v.yes}-${v.no}`);
   }
+  // Credit order is the byline: the people who did the work first, the signer last (see "credit" in the guide).
+  const roles = e.credit.map((c) => c.role);
+  if (roles.every((r) => r === 'signed')) out.push('credit: only the signer is credited; find who carried it');
+  else if (roles.includes('signed') && roles.slice(roles.indexOf('signed')).some((r) => r !== 'signed')) out.push('credit: list `signed` last');
+  const ids = e.credit.map((c) => JSON.stringify(c.official));
+  if (new Set(ids).size !== ids.length) out.push('credit: an official appears twice; give them their one real role');
   const words = body.split(/\s+/).filter(Boolean).length;
   if (words < 60) out.push(`body: ${words} words; write 120–250`);
   return out.map((message) => ({ file, message }));

@@ -24,11 +24,14 @@ status:
   state: in-effect
   as_of: 2026-11-05
 credit:
+  - official: julia-salazar
+    role: sponsored
+    note: Senate sponsor of the stand-alone good cause eviction bill (S.305) since 2019
+  - official: pamela-hunter
+    role: sponsored
+    note: Assembly sponsor of the stand-alone bill since 2019
   - official: kathy-hochul
     role: signed
-  - official: julia-salazar
-    role: championed
-    note: Sponsored the stand-alone good cause eviction bill (S.305)
 votes:
   - chamber: New York State Senate
     date: 2024-04-19
@@ -55,17 +58,13 @@ sources:
   - title: S305 (2023), prohibition of eviction without good cause
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2023/S305
+  - title: NY's housing deal is here. What does it mean for tenant stability?
+    publisher: City Limits
+    url: https://citylimits.org/2024/04/20/nys-housing-deal-is-here-what-does-it-mean-for-tenant-stability/
+    date: 2024-04-20
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the law, effective date, current status, credits, impact figures, exemptions, and Senate vote. Corrected one construction-date detail and explained that tenants enforce the protection through Housing Court rather than applying in advance.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2024-budget-good-cause-eviction
 ---
 
@@ -73,4 +72,4 @@ If you rent a market-rate apartment in New York City, your landlord generally ne
 
 The law covers unregulated rentals in New York City automatically. Cities, towns, and villages elsewhere in the state can opt in by passing a local law. Many homes are exempt, including those owned by landlords with 10 or fewer units, owner-occupied buildings with 10 or fewer apartments, rent-stabilized and subsidized units, buildings built on or after January 1, 2009 (for 30 years after construction), condos and co-ops, and high-rent units. It applies to eviction cases filed on or after April 20, 2024.
 
-Sen. Julia Salazar sponsored the stand-alone good cause eviction bill. A version of it became law through the state budget Gov. Kathy Hochul signed on April 20, 2024. The budget bill that carried it passed the Senate 36–24.
+Sen. Julia Salazar and Assemblymember Pamela Hunter sponsored the stand-alone good cause eviction bill starting in 2019, backed by tenant groups. A narrower version, with the exemptions above, became law through the state budget Gov. Kathy Hochul signed on April 20, 2024. The budget bill that carried it passed the Senate 36–24.

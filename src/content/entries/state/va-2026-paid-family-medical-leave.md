@@ -27,14 +27,14 @@ status:
   note: The Virginia Employment Commission is developing the program. Payroll contributions start April 1, 2028, and benefits start Dec. 1, 2028. Employers with more than 10 employees generally share contributions with workers; smaller employers do not have to pay an employer share.
   source: https://www.vec.virginia.gov/pfml
 credit:
-  - official: abigail-spanberger
-    role: signed
   - official: jennifer-boysko
     role: sponsored
-    note: Chief patron of SB 2
+    note: Chief patron of SB 2; carried the 2024 bill Youngkin vetoed
   - official: briana-sewell
     role: sponsored
-    note: Chief patron of HB 1207
+    note: Chief patron of HB 1207; carried the 2025 bill Youngkin vetoed
+  - official: abigail-spanberger
+    role: signed
 votes:
   - chamber: Senate of Virginia
     date: 2026-03-13
@@ -63,18 +63,24 @@ sources:
     publisher: WDBJ7
     url: https://www.wdbj7.com/2026/04/22/virginia-enacts-paid-family-medical-leave-program-set-start-2028/
     date: 2026-04-22
+  - title: Virginia Democrats again push for paid family and medical leave, advance bill
+    publisher: WTOP (from Virginia Mercury)
+    url: https://wtop.com/virginia/2024/01/virginia-democrats-again-push-for-paid-family-and-medical-leave-advance-bill/
+    date: 2024-01-29
+  - title: Youngkin vetoes paid family, medical leave mandate for Virginia
+    publisher: Bloomberg Law
+    url: https://news.bloomberglaw.com/daily-labor-report/youngkin-vetoes-paid-family-medical-leave-mandate-for-virginia
+  - title: "Virginia is not for workers: Youngkin vetoes minimum wage increase, paid leave"
+    publisher: Virginia Dogwood
+    url: https://vadogwood.com/2025/03/25/virginia-is-not-for-workers-youngkin-vetoes-minimum-wage-increase-paid-leave/
+    date: 2025-03-25
 featured: true
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the enacted law, benefit amounts, sponsors, legislative votes, and ongoing VEC implementation. Corrected the description of payroll contributions and linked the status to the current official program page.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2026-sb2
 ---
 
@@ -82,4 +88,4 @@ Virginia is creating a state insurance program that pays you while you take time
 
 While you're out, the program pays about 80% of your average weekly wage, up to a cap tied to the state's average weekly wage. It's funded by payroll contributions starting April 1, 2028. Employers with more than 10 employees generally pay half and workers pay half; employers with 10 or fewer employees do not have to pay an employer share. The Virginia Employment Commission will run the program, and you'll apply through the commission when you need leave.
 
-Virginia is the first state in the South to guarantee paid family and medical leave. Similar bills passed in 2024 and 2025, but Gov. Glenn Youngkin (R) vetoed them. Sen. Jennifer Boysko and Del. Briana Sewell carried the 2026 bills. Gov. Abigail Spanberger proposed changes that lawmakers accepted on April 22, 2026, which enacted the law, and she held a signing ceremony on May 11.
+Virginia is the first state in the South to guarantee paid family and medical leave. Sen. Jennifer Boysko carried a paid leave bill in 2024 and Del. Briana Sewell carried one in 2025, but Gov. Glenn Youngkin (R) vetoed both. Boysko and Sewell carried the 2026 bills. Gov. Abigail Spanberger proposed changes that lawmakers accepted on April 22, 2026, which enacted the law, and she held a signing ceremony on May 11.

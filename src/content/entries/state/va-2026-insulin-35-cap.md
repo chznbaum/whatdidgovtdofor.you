@@ -24,11 +24,11 @@ status:
   note: The new caps apply to insurance policies delivered, issued, reissued, amended, or extended on or after Jan. 1, 2027. The earlier $50 insulin cap stays in place until then.
   source: https://lis.blob.core.windows.net/files/1222542.PDF
 credit:
-  - official: abigail-spanberger
-    role: signed
   - official: karrie-delaney
     role: sponsored
     note: Chief patron of HB 1214
+  - official: abigail-spanberger
+    role: signed
 votes:
   - chamber: Virginia Senate
     date: 2026-03-11
@@ -60,13 +60,8 @@ verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the $35 aggregate caps, Jan. 1, 2027 applicability date, sponsor, governor’s approval, and unanimous final legislative votes. Corrected prospective wording, policy triggers, the action’s official title, and the vote records.
+    date: 2026-11-11
+  verdict: pending
 source_key: va-2026-hb1214
 ---
 

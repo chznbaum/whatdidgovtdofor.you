@@ -26,14 +26,14 @@ status:
     - consumer-financial-protection-bureau
   source: https://www.federalregister.gov/documents/2025/10/28/2025-19671/fair-credit-reporting-act-preemption-of-state-laws
 credit:
-  - official: kathy-hochul
-    role: signed
   - official: gustavo-rivera
     role: sponsored
     note: Senate sponsor
   - official: amy-paulin
     role: sponsored
     note: Assembly sponsor
+  - official: kathy-hochul
+    role: signed
 votes:
   - chamber: New York State Senate
     date: 2023-05-31
@@ -68,16 +68,8 @@ sources:
     date: 2025-10-28
 featured: true
 verification:
-  writer:
-    model: claude-opus-5-5
-    via: claude-code
-    date: 2026-11-05
-  verifier:
-    model: gpt-5.6-sol
-    via: codex-cli
-    date: 2026-11-05
-  verdict: corrected
-  notes: Confirmed the law, sponsors, enactment date, scope, and Senate’s 50–8 vote. Corrected the estimate’s date and provider scope, and marked the law under threat from the CFPB’s active federal-preemption interpretation.
+  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
+  verdict: pending
 source_key: ny-2023-s4907a-medical-debt-reporting
 ---
 
