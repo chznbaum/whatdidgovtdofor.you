@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/10fb37a0-e41f-4129-9ed2-7c5b674807da }
 url: https://assembly.state.ny.us/mem/Pamela-J-Hunter
+portrait:
+  image: /portraits/pamela-hunter.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Pamela-J-Hunter/video/28838/
+    license: "© New York State Assembly, used as a drawing reference"

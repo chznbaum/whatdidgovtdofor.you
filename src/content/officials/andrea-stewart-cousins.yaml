@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/5f3e7bcf-9e43-423b-946b-982cc6ecc154 }
 url: https://www.nysenate.gov/senators/andrea-stewart-cousins
+portrait:
+  image: /portraits/andrea-stewart-cousins.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/andrea-stewart-cousins
+    license: "© New York State Senate, used as a drawing reference"

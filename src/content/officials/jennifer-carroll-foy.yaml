@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/32dae8e8-9901-4705-b012-f8ce186f8403 }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S117
+portrait:
+  image: /portraits/jennifer-carroll-foy.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20190818172204/https://virginiageneralassembly.gov/house/members/members.php?id=H0292
+    license: "© Virginia House of Delegates, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/7ec1cbe4-667d-4dbb-a840-459449ccd5df }
 url: https://house.vga.virginia.gov/members/H0294
+portrait:
+  image: /portraits/karrie-delaney.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0294
+    license: "© Virginia House of Delegates, used as a drawing reference"

@@ -4,3 +4,10 @@ office: Governor of Virginia
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/glenn-youngkin.webp
+  kind: official
+  source:
+    label: Office of the Governor of Virginia, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Youngkin_Governor_Portrait.jpg
+    license: Public domain

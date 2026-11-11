@@ -4,3 +4,10 @@ office: New York City Council Member
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/vanessa-gibson.webp
+  kind: official
+  source:
+    label: Office of the Bronx Borough President
+    url: https://bronxboropres.nyc.gov/about_us/borough_president.php
+    license: "© Office of the Bronx Borough President, used as a drawing reference"

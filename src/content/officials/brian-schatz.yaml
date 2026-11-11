@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: S001194 }
 url: https://www.schatz.senate.gov
+portrait:
+  image: /portraits/brian-schatz.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/S001194
+    license: Public domain

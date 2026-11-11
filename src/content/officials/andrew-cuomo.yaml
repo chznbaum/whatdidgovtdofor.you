@@ -4,3 +4,10 @@ office: Governor of New York
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/andrew-cuomo.webp
+  kind: photo
+  source:
+    label: Office of the Governor of New York, via Flickr
+    url: https://www.flickr.com/photos/governorandrewcuomo/51395017921/
+    license: "© New York State Governor's Office, used as a drawing reference"

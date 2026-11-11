@@ -4,3 +4,10 @@ office: Virginia State Senator
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/adam-ebbin.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20230603202902/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S85
+    license: "© Senate of Virginia, used as a drawing reference"

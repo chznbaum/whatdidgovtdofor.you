@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: M000355 }
 url: https://www.mcconnell.senate.gov
+portrait:
+  image: /portraits/mitch-mcconnell.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/M000355
+    license: Public domain

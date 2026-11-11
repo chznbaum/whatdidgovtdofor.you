@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: B000444, wikidata: Q6279 }
+portrait:
+  image: /portraits/joe-biden.webp
+  kind: official
+  source:
+    label: The White House, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg
+    license: Public domain

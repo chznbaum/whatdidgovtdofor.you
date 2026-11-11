@@ -4,3 +4,10 @@ office: Delegate, Virginia House of Delegates; Chair, House Appropriations Commi
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/chris-jones.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20190519232716/https://virginiageneralassembly.gov/house/members/members.php?id=H0120
+    license: "© Virginia House of Delegates, used as a drawing reference"

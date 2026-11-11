@@ -4,3 +4,10 @@ office: Delegate, Virginia House of Delegates
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/mike-mullin.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20230224010818/https://virginiageneralassembly.gov/house/members/members.php?id=H0286
+    license: "© Virginia House of Delegates, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/eacc546e-93d4-4189-92fb-8c969b1b545c }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S82
+portrait:
+  image: /portraits/bill-stanley.webp
+  kind: photo
+  source:
+    label: Office of the Governor of Virginia, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Pluck%E2%80%99d,_Austinville_-_8-8-25_(72177720328527000)_(Bill_Stanley).jpg
+    license: CC BY 4.0

@@ -4,3 +4,10 @@ office: New York City Council Member
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/margaret-chin.webp
+  kind: photo
+  source:
+    label: New York City Council, via Flickr
+    url: https://www.flickr.com/photos/nyccouncil/41669636251/
+    license: "© New York City Council, used as a drawing reference"

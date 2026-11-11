@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/a0b9b444-ee25-48a1-ab61-cf0be462e89d }
 url: https://house.vga.virginia.gov/members/H0208
+portrait:
+  image: /portraits/charniele-herring.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0208
+    license: "© Virginia House of Delegates / Amanda Maglione, used as a drawing reference"

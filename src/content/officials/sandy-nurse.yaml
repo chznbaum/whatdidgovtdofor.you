@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/sandy-nurse/
+portrait:
+  image: /portraits/sandy-nurse.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://legistar.council.nyc.gov/PersonDetail.aspx?ID=259847&GUID=4390C59C-FBE7-458F-940F-1BABE234DC3F
+    license: "© New York City Council, used as a drawing reference"

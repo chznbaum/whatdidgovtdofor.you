@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: false
 url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+mbr+H172
+portrait:
+  image: /portraits/mark-sickles.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20260105153737/https://house.vga.virginia.gov/members/H0172
+    license: "© Virginia House of Delegates / Amanda Maglione, used as a drawing reference"

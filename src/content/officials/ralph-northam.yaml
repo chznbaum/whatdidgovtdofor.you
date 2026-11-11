@@ -4,3 +4,10 @@ office: Governor of Virginia
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/ralph-northam.webp
+  kind: official
+  source:
+    label: Office of the Governor of Virginia
+    url: https://web.archive.org/web/20210228220156/https://www.governor.virginia.gov/about-the-governor/governor-ralph-northam/
+    license: "© Commonwealth of Virginia, used as a drawing reference"

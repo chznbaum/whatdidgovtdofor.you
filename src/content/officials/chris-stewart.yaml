@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: S001192 }
+portrait:
+  image: /portraits/chris-stewart.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/S001192
+    license: Public domain

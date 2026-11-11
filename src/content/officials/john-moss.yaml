@@ -7,3 +7,10 @@ jurisdiction: virginia-beach
 current: false
 ids: {}
 url: https://mossforcouncil.org/about
+portrait:
+  image: /portraits/john-moss.webp
+  kind: photo
+  source:
+    label: John Moss for Council campaign
+    url: https://mossforcouncil.org/about
+    license: "© John Moss for Council campaign, used as a drawing reference"

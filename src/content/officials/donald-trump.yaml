@@ -7,3 +7,10 @@ current: true
 seat: { place: us, title: President }
 ids: { wikidata: Q22686 }
 url: https://www.whitehouse.gov
+portrait:
+  image: /portraits/donald-trump.webp
+  kind: official
+  source:
+    label: The White House, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
+    license: Public domain

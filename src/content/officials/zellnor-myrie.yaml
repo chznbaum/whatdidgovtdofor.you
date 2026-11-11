@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/52c0e400-2385-4c12-8bf4-6b9205c18eb2 }
 url: https://www.nysenate.gov/senators/zellnor-myrie
+portrait:
+  image: /portraits/zellnor-myrie.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/zellnor-myrie
+    license: "© New York State Senate, used as a drawing reference"

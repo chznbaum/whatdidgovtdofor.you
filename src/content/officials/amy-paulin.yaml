@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/f0f08f55-cf1f-477c-a5f8-a7f2382e5fa8 }
+portrait:
+  image: /portraits/amy-paulin.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Amy-Paulin
+    license: "© New York State Assembly, used as a drawing reference"

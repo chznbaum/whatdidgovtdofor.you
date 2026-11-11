@@ -4,3 +4,10 @@ office: New York City Council Member
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/mark-levine.webp
+  kind: official
+  source:
+    label: Office of the New York City Comptroller
+    url: https://comptroller.nyc.gov/about/about-mark-levine/
+    license: "© NYC Comptroller's Office, used as a drawing reference"

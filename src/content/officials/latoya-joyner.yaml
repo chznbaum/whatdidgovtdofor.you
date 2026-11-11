@@ -4,3 +4,10 @@ office: New York State Assembly Member, District 77
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/latoya-joyner.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20230525175221/https://nyassembly.gov/mem/Latoya-Joyner
+    license: "© New York State Assembly, used as a drawing reference"

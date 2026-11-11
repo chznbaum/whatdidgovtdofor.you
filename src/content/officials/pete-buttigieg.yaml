@@ -4,3 +4,10 @@ office: U.S. Secretary of Transportation
 level: federal
 jurisdiction: us
 current: false
+portrait:
+  image: /portraits/pete-buttigieg.webp
+  kind: official
+  source:
+    label: U.S. Department of Transportation, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Pete_Buttigieg,_Secretary_of_Transportation.jpg
+    license: Public domain

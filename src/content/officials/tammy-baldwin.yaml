@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: B001230 }
 url: https://www.baldwin.senate.gov
+portrait:
+  image: /portraits/tammy-baldwin.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/B001230
+    license: Public domain

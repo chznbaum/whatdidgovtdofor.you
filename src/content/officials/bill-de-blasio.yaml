@@ -4,3 +4,10 @@ office: Mayor of New York City
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/bill-de-blasio.webp
+  kind: photo
+  source:
+    label: Gage Skidmore, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Bill_de_Blasio_by_Gage_Skidmore.jpg
+    license: CC BY-SA 3.0

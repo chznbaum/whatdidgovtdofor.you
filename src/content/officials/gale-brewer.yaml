@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/district-6/
+portrait:
+  image: /portraits/gale-brewer.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://legistar.council.nyc.gov/PersonDetail.aspx?ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5
+    license: "© New York City Council, used as a drawing reference"

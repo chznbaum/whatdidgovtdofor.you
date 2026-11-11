@@ -4,3 +4,10 @@ office: New York State Assembly Member, District 37
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/catherine-nolan.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20221231145420/https://nyassembly.gov/mem/Catherine-Nolan/video/
+    license: "© New York State Assembly, used as a drawing reference"

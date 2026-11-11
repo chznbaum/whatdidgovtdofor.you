@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/50a6c704-2ba7-4ecc-a24c-8f55b400709b }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S100
+portrait:
+  image: /portraits/scott-surovell.webp
+  kind: photo
+  source:
+    label: WrenFalcon, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Scott_Surovell_smiling_headshot.jpg
+    license: CC BY 4.0

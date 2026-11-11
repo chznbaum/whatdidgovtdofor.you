@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/district-39/
+portrait:
+  image: /portraits/shahana-hanif.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://legistar.council.nyc.gov/PersonDetail.aspx?ID=259849&GUID=BF9C1F20-BAA2-4DE7-A446-8C82874071E9
+    license: "© New York City Council, used as a drawing reference"

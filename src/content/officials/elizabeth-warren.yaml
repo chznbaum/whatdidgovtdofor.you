@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: W000817 }
 url: https://www.warren.senate.gov
+portrait:
+  image: /portraits/elizabeth-warren.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/W000817
+    license: Public domain

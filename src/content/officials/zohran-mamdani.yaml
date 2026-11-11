@@ -8,8 +8,8 @@ seat: { place: nyc, title: Mayor }
 url: https://www.nyc.gov/mayors-office
 portrait:
   image: /portraits/zohran-mamdani.webp
-  kind: photo
+  kind: official
   source:
-    label: Dmitry Shein, via Wikimedia Commons
-    url: https://commons.wikimedia.org/wiki/File:Zohran_Mamdani_05.25.25_(b)_(cropped).jpg
-    license: CC BY-SA 4.0
+    label: NYC Mayor's Office
+    url: https://www.nyc.gov/mayors-office
+    license: "© City of New York, used as a drawing reference"

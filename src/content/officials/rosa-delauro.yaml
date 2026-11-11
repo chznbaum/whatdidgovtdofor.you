@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: D000216 }
 url: https://delauro.house.gov
+portrait:
+  image: /portraits/rosa-delauro.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/D000216
+    license: Public domain

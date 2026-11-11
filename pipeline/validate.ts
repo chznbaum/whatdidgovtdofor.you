@@ -61,8 +61,16 @@ export async function validateEntry(file: string, schemas?: Schemas): Promise<Pr
 }
 
 // Portrait rules from docs/design.md: the drawing ships with the site (its source photo never does; the site links
-// to the page it came from), and "official portrait" is only claimed for an official government portrait (the
-// Congress bioguide).
+// to the page it came from), and "official portrait" is only claimed when the photo is a government's own: it comes
+// from a government site, or it's a public-domain government portrait on Wikimedia Commons (e.g. a presidential one).
+const GOVERNMENT_HOST = /(^|\.)(gov|congress\.gov|nysenate\.gov|nyassembly\.gov|nyc\.gov|virginia\.gov)$|\.gov$|\.virginia\.gov$|\.ny\.gov$/;
+// An archived copy of an official page (web.archive.org/web/<timestamp>/<original url>) counts as the original.
+const unwrapArchive = (url: string) => url.match(/^https?:\/\/web\.archive\.org\/web\/[^/]+\/(.+)$/)?.[1] ?? url;
+const isOfficialSource = (src: { url: string; license?: string }) => {
+  const original = unwrapArchive(src.url);
+  const host = new URL(/^https?:/.test(original) ? original : `https://${original}`).hostname;
+  return GOVERNMENT_HOST.test(host) || (host === 'commons.wikimedia.org' && /public domain/i.test(src.license ?? ''));
+};
 function portraitProblems(file: string, o: z.infer<Schemas['officials']>): Problem[] {
   const p = o.portrait;
   if (!p) return [];
@@ -70,7 +78,8 @@ function portraitProblems(file: string, o: z.infer<Schemas['officials']>): Probl
   const pub = join(import.meta.dirname, '..', 'public');
   for (const path of [p.image, p.image.replace(/\.webp$/, '-400.webp')])
     if (!existsSync(join(pub, path))) out.push(`portrait: ${path} is missing from public/`);
-  if (p.kind === 'official' && !o.ids.bioguide) out.push('portrait.kind: "official" is only for a Congress bioguide portrait; use "photo"');
+  if (p.kind === 'official' && !isOfficialSource(p.source))
+    out.push('portrait.kind: "official" needs a government source (a .gov page, or a public-domain government portrait on Commons); use "photo"');
   if (o.kind === 'body') out.push('portrait: a body has no face; it is shown by name');
   return out.map((message) => ({ file, message }));
 }

@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: W000779 }
 url: https://www.wyden.senate.gov
+portrait:
+  image: /portraits/ron-wyden.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/W000779
+    license: Public domain

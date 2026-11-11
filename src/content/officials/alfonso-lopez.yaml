@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/ed935430-db59-4962-91f7-c0eeca2ef8e2 }
 url: https://house.vga.virginia.gov/members/H0239
+portrait:
+  image: /portraits/alfonso-lopez.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0239
+    license: "© Virginia House of Delegates, used as a drawing reference"

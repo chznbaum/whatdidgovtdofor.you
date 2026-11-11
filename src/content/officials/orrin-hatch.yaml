@@ -6,3 +6,10 @@ jurisdiction: us
 current: false
 ids: { bioguide: H000338 }
 url: https://bioguide.congress.gov/search/bio/H000338
+portrait:
+  image: /portraits/orrin-hatch.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/H000338
+    license: Public domain

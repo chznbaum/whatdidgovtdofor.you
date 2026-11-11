@@ -4,3 +4,10 @@ office: Virginia State Senator
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/emmett-hanger.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20231113152805/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S47
+    license: "© Senate of Virginia, used as a drawing reference"

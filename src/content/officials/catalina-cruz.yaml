@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/864e417d-df2e-4207-83e4-98450555f48a }
+portrait:
+  image: /portraits/catalina-cruz.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Catalina-Cruz
+    license: "© New York State Assembly, used as a drawing reference"

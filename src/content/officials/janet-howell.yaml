@@ -4,3 +4,10 @@ office: Virginia State Senator
 level: state
 jurisdiction: va
 current: false
+portrait:
+  image: /portraits/janet-howell.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20231029042139/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S17
+    license: "© Senate of Virginia, used as a drawing reference"
