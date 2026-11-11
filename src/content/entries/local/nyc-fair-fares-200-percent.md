@@ -21,13 +21,13 @@ impact:
     label: new yearly income limit for a family of four, up from about $49,500
 status:
   state: phasing-in
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The Human Resources Administration adopted a rule raising the income limit to 200% of the poverty line, effective Nov. 30, 2026. Until then the limit stays at 150%.
   source: https://rules.cityofnewyork.us/rule/amendments-to-the-fair-fares-nyc-program/
 credit:
   - official: julie-menin
     role: secured-funding
-    note: Council Speaker; the Council won a Fair Fares budget 54% above the mayor's May proposal
+    note: Council Speaker; the Council won $54 million beyond the mayor's May proposal for Fair Fares
   - official: zohran-mamdani
     role: negotiated
     note: Agreed to the expansion in the fiscal 2027 budget deal
@@ -55,8 +55,16 @@ sources:
     publisher: NYC Human Resources Administration
     url: https://www.nyc.gov/site/fairfares/index.page
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the eligibility expansion, funding, poverty thresholds, benefit amounts, officials’ roles, and Nov. 30 effective date. Corrected the budget comparison and refreshed the status check to Nov. 11.
 source_key: nyc-fy2027-budget-fair-fares
 ---
 
@@ -64,6 +72,6 @@ Fair Fares cuts subway and bus fares in half for New Yorkers with low incomes. I
 
 Starting November 30, 2026, the limit rises to 200% of the poverty level: about $31,920 for one person or $66,000 for a family of four. That makes about 340,000 more people eligible, for roughly 1.3 million in all. You must be 18 to 64 and live in the city. You apply through the city's Fair Fares NYC program, and the new rule also drops the yearly renewal for participants who enrolled while receiving public assistance and continue to receive it.
 
-The City Council pushed the expansion in budget talks, and Council Speaker Julie Menin won a Fair Fares budget 54% larger than Mayor Zohran Mamdani proposed in May. The mayor agreed to it in the city's $125.8 billion budget for fiscal year 2027, adding $54 million to the program. Menin called Fair Fares indispensable but underused; only about 40% of people who already qualify are signed up.
+The City Council pushed the expansion in budget talks, and Council Speaker Julie Menin won $54 million more for Fair Fares than Mayor Zohran Mamdani proposed in May. The mayor agreed to it in the city's $125.8 billion budget for fiscal year 2027, bringing the program's funding to $174.6 million. Menin called Fair Fares indispensable but underused; only about 40% of people who already qualify are signed up.
 
 To close that gap, the Council in September 2026 passed a bill from Council Member Crystal Hudson that fast-tracks enrollment for people on SNAP or cash assistance and requires the city to study automatic enrollment.

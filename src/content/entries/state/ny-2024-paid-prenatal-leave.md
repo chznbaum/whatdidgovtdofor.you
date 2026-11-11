@@ -20,7 +20,7 @@ impact:
     label: state to require paid leave for prenatal care
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: kathy-hochul
     role: proposed
@@ -61,8 +61,16 @@ sources:
     publisher: FordHarrison
     url: https://www.fordharrison.com/new-york-leads-the-way-with-new-paid-prenatal-leave
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the current statute, benefit details, governor’s proposal, enactment date, and both official roll calls. The law remains in effect; I updated the status check date to today.
 source_key: ny-2024-budget-paid-prenatal-leave
 ---
 

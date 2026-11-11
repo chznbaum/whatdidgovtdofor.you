@@ -19,11 +19,11 @@ impact:
   - figure: 2,000+
     label: children welcomed to free 2-K in September 2026
   - figure: 12,000
-    label: children 2-K is set to serve across all five boroughs in fall 2027
+    label: 2-K seats the city plans across all five boroughs for fall 2027
 status:
   state: phasing-in
-  as_of: 2026-11-05
-  note: About 2,000 seats in five school districts opened Sept. 10, 2026. On Oct. 19, 2026, Mayor Mamdani and Gov. Hochul announced 10,000 more seats for fall 2027 in 22 districts, including all of the Bronx and Staten Island. Mamdani has pledged a seat for every family that wants one by the end of his first term.
+  as_of: 2026-11-11
+  note: About 2,000 seats in five school districts opened Sept. 10, 2026. On Oct. 19, 2026, Mayor Mamdani and Gov. Hochul announced 10,000 more seats for fall 2027 in 22 districts, including all of the Bronx and Staten Island. The expansion relies on $425 million Hochul has pledged for FY 2028; unlike the first year's $73 million, that amount has not yet been enacted. Mamdani has pledged a seat for every family that wants one by the end of his first term.
   source: https://www.nyc.gov/mayors-office/news/2026/10/mamdani-and-hochul-bring-2-k-to-all-of-the-bronx-and-staten-isla
 credit:
   - official: zohran-mamdani
@@ -31,7 +31,7 @@ credit:
     note: His signature child care program, announced with Gov. Hochul in January 2026
   - official: kathy-hochul
     role: secured-funding
-    note: Committed state money for the first two years, starting with $73 million in the FY 2027 state budget
+    note: Provided $73 million for the first year and pledged $425 million for the second
 sources:
   - title: Mayor Mamdani & Governor Hochul to Launch Free Child Care for Two-Year-Olds
     publisher: NYC Mayor's Office
@@ -59,6 +59,9 @@ sources:
   - title: Overview of the New York City Fiscal Year 2027 Adopted Budget
     publisher: Citizens' Committee for Children of New York
     url: https://cccnewyork.org/data-publications/fy27-nyc-budget/
+  - title: Review of the Financial Plan of the City of New York
+    publisher: Office of the New York State Comptroller
+    url: https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf
   - title: 2-K Enrollment
     publisher: New York City Public Schools
     url: https://enrollmentsupport.schools.nyc/app/answers/detail/a_id/3834/~/2-k-enrollment
@@ -72,8 +75,16 @@ sources:
     date: 2026-09-10
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the operating 2-K program, enrollment, eligibility, schedule, savings estimate, credits, and expansion announcement. Clarified that $73 million is enacted funding while the $425 million for fall 2027 remains a gubernatorial pledge, and updated the status check date.
 source_key: nyc-2026-2k-launch
 ---
 
@@ -81,6 +92,6 @@ New York City now offers free child care for 2-year-olds, called 2-K. Around 2,0
 
 All New York City children born in 2024 could apply, with no income test. Families could apply to any program citywide, though children received priority for programs in the district where they live. Demand was high: more than 5,700 families applied for just over 2,000 seats, and more than half of families receiving offers got their first choice.
 
-Mayor Zohran Mamdani announced 2-K in his second week in office, alongside Governor Kathy Hochul. Hochul committed the state to fund the first two years: $73 million this year and $425 million next year, according to the city's budget. The program runs through center-based and licensed family child care providers.
+Mayor Zohran Mamdani announced 2-K in his second week in office, alongside Governor Kathy Hochul. Hochul provided $73 million in the FY 2027 state budget for the first year and pledged $425 million for FY 2028. The second amount has not yet been enacted in a state budget. The program runs through center-based and licensed family child care providers.
 
-The city plans to serve about 12,000 children in fall 2027 across 22 districts, including all of the Bronx and Staten Island. Mamdani has promised that every family who wants a 2-K seat will have one by the end of his first term.
+The city has announced plans to serve about 12,000 children in fall 2027 across 22 districts, including all of the Bronx and Staten Island. Mamdani has promised that every family who wants a 2-K seat will have one by the end of his first term.

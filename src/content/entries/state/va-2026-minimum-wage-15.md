@@ -22,7 +22,7 @@ impact:
     label: hourly raise by 2028 over the 2026 minimum of $12.77
 status:
   state: phasing-in
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The minimum is $12.77 an hour in 2026. It rises to $13.75 on Jan. 1, 2027, and to $15 on Jan. 1, 2028, then adjusts each year for inflation.
   source: https://law.lis.virginia.gov/vacode/title40.1/section40.1-28.10/
 credit:
@@ -40,6 +40,16 @@ votes:
     yes: 64
     no: 34
     source: https://lis.virginia.gov/vote-details/20261/HB1/2619916
+  - chamber: Senate of Virginia
+    date: 2026-02-16
+    yes: 20
+    no: 19
+    source: https://lis.virginia.gov/vote-details/SB1/20261/SV434
+  - chamber: Virginia House of Delegates
+    date: 2026-02-27
+    yes: 62
+    no: 34
+    source: https://lis.virginia.gov/vote-details/SB1/20261/26110611
   - chamber: Senate of Virginia
     date: 2026-03-04
     yes: 21
@@ -71,13 +81,22 @@ sources:
     publisher: WHRO
     url: https://www.whro.org/virginia-government/2025-03-25/youngkin-vetoes-minimum-wage-hike-prescription-affordability-board-bills
     date: 2025-03-25
+  - title: 2026 Acts of Assembly, Chapter 358
+    publisher: Virginia Legislative Information System
+    url: https://lis.blob.core.windows.net/files/1217662.PDF
+    date: 2026-04-08
 featured: true
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enacted wage schedule, sponsors, signing date, existing roll calls, and current status. Added the companion bill’s missing final-passage votes and narrowed the farmworker statement to match the law’s retained exemptions.
 source_key: va-2026-hb1
 ---
 
@@ -85,4 +104,4 @@ If you earn the minimum wage in Virginia, your pay floor goes up twice in the ne
 
 That's $2.23 more per hour by 2028, or roughly $4,600 a year for someone working 40 hours a week, 52 weeks a year.
 
-The law builds on a 2020 law that first lifted Virginia off the $7.25 federal minimum. Del. Jeion Ward carried bills to reach $15 in 2024 and 2025, and Sen. Louise Lucas carried the 2024 Senate version, but Gov. Glenn Youngkin (R) vetoed them. In 2026, Ward and Lucas carried the bills again. HB 1 passed the House of Delegates 64–34 and the Senate 21–19, and Gov. Abigail Spanberger approved it on April 8, 2026. She approved a companion law the same day that brings farmworkers under the minimum wage starting in 2027.
+The law builds on a 2020 law that first lifted Virginia off the $7.25 federal minimum. Del. Jeion Ward carried bills to reach $15 in 2024 and 2025, and Sen. Louise Lucas carried the 2024 Senate version, but Gov. Glenn Youngkin (R) vetoed them. In 2026, Ward and Lucas carried the bills again. HB 1 passed the House of Delegates 64–34 and the Senate 21–19, and Gov. Abigail Spanberger approved it on April 8, 2026. She approved separate legislation the same day that removes the blanket minimum-wage exemption for farmworkers starting in 2027.

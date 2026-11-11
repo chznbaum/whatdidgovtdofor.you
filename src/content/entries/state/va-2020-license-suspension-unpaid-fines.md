@@ -19,7 +19,7 @@ impact:
     label: reinstatement fee for licenses suspended only over unpaid court fines or costs
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: bill-stanley
     role: sponsored
@@ -27,6 +27,9 @@ credit:
   - official: alfonso-lopez
     role: sponsored
     note: Chief patron of HB 1196, the identical House bill
+  - official: jennifer-mcclellan
+    role: cosponsored
+    note: Chief co-patron of SB 1
   - official: ralph-northam
     role: proposed
     note: Proposed the 2019 budget amendment that first halted these suspensions; signed SB 1
@@ -78,13 +81,22 @@ sources:
     publisher: WTVR CBS 6
     url: https://wtvr.com/2019/03/26/northam-budget-amendment-would-end-drivers-license-suspension-over-unpaid-fees/
     date: 2019-03-26
+  - title: "Victory: Virginia Ends Debt-Based Driver's License Suspensions"
+    publisher: Fines and Fees Justice Center
+    url: https://finesandfeesjusticecenter.org/news/2020/04/13/victory-virginia-ends-debt-based-drivers-license-suspensions/
+    date: 2020-04-13
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enacted chapters, benefit, funding, roll calls, and current status. Added an omitted chief co-patron and updated the status check to November 11, 2026.
 source_key: va-2020-sb1
 ---
 
@@ -94,4 +106,4 @@ A state budget provision first stopped those suspensions on July 1, 2019. It als
 
 The 2020 law made the change permanent by repealing the suspension requirement. It also required DMV to return or reinstate licenses that had been suspended before July 1, 2019, solely for unpaid fines or costs, without charging a reinstatement fee.
 
-Sen. Bill Stanley, a Republican, led the effort. His 2019 bill passed the Senate but died in a House subcommittee, so Gov. Ralph Northam (D) added the change to the state budget, with money to make up for the lost fee revenue. In 2020, Stanley and Del. Alfonso Lopez, a Democrat, carried identical bills to make it permanent. In the House of Delegates, 20 Republicans joined every Democrat to pass SB 1 75–25. In the Senate, 18 of 19 Republicans voted yes on the final vote, which passed 38–1. Northam signed it on April 9, 2020.
+Sen. Bill Stanley, a Republican, led the effort. His 2019 bill passed the Senate but died in a House subcommittee, so Gov. Ralph Northam (D) added the change to the state budget, with money to make up for the lost fee revenue. In 2020, Stanley and Del. Alfonso Lopez, a Democrat, carried identical bills to make it permanent; Sen. Jennifer McClellan, a Democrat, was a chief co-patron of Stanley's bill. In the House of Delegates, 20 Republicans joined every Democrat to pass SB 1 75–25. In the Senate, 18 of 19 Republicans voted yes on the final vote, which passed 38–1. Northam signed it on April 9, 2020.

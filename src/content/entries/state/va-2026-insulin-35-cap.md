@@ -61,7 +61,12 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed both $35 caps, Jan. 1, 2027 applicability, credited roles, and the 40–0 and 97–0 votes against the enacted chapter and current Virginia Code. No later repeal, block, or active rollback was found.
 source_key: va-2026-hb1214
 ---
 

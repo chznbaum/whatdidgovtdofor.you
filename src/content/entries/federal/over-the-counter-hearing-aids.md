@@ -1,6 +1,6 @@
 ---
 title: You can buy hearing aids over the counter, no prescription needed
-dek: Since Oct. 17, 2022, adults with mild to moderate hearing loss can buy FDA-regulated hearing aids in stores and online without a medical exam or fitting. The change came from a 2017 bipartisan law and a 2022 FDA rule.
+dek: Since Oct. 17, 2022, adults with perceived mild to moderate hearing loss can buy FDA-regulated hearing aids in stores and online without a medical exam or fitting. The change came from a 2017 bipartisan law and a 2022 FDA rule.
 level: federal
 jurisdiction: us
 action:
@@ -21,7 +21,7 @@ impact:
     label: FDA's estimated reduction in average cost per pair
 status:
   state: in-effect
-  as_of: 2026-11-06
+  as_of: 2026-11-11
 credit:
   - official: elizabeth-warren
     role: sponsored
@@ -29,15 +29,30 @@ credit:
   - official: chuck-grassley
     role: cosponsored
     note: Co-author and original Republican cosponsor of S. 670
+  - official: maggie-hassan
+    role: cosponsored
+    note: Original cosponsor who helped reintroduce S. 670 in 2017
+  - official: johnny-isakson
+    role: cosponsored
+    note: Original cosponsor who helped reintroduce S. 670 in 2017
   - official: joe-kennedy-iii
     role: sponsored
     note: Sponsored the House version (H.R. 1652)
   - official: marsha-blackburn
     role: cosponsored
     note: Co-led the House version
+  - official: greg-walden
+    role: led
+    note: Helped advance the OTC provision as House Energy and Commerce chair
+  - official: frank-pallone
+    role: led
+    note: Helped advance the OTC provision as the committee's ranking member
   - official: joe-biden
-    role: implemented
-    note: After FDA missed the law's 2020 deadline, his July 2021 executive order directed FDA to propose the rule
+    role: issued
+    note: Issued Executive Order 14036, requiring HHS to publish the proposed rule within 120 days
+  - official: robert-califf
+    role: issued
+    note: Signed the FDA final rule establishing the OTC category
   - official: donald-trump
     role: signed
 votes:
@@ -71,13 +86,18 @@ sources:
     publisher: The White House (Biden administration archive)
     url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/10/17/fact-sheet-cheaper-hearing-aids-now-in-stores-thanks-to-biden-harris-administration-competition-agenda/
     date: 2022-10-17
+  - title: Members of Congress Introduce Bipartisan Legislation to Make Hearing Aids Available Over the Counter
+    publisher: Office of U.S. Senator Elizabeth Warren
+    url: https://www.warren.senate.gov/newsroom/press-releases/members-of-congress-introduce-bipartisan-legislation-to-make-hearing-aids-available-over-the-counter/
+    date: 2017-03-21
   - title: OTC Hearing Aid Act passed by US House
     publisher: The Hearing Review
     url: https://hearingreview.com/inside-hearing/industry-news/otc-hearing-aid-act-passed-us-house
     date: 2017-07-13
-  - title: Bill status, H.R. 1652 (115th Congress)
+  - title: FDA Reauthorization Act of 2017
     publisher: GovInfo
-    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115hr1652.xml
+    url: https://www.govinfo.gov/app/details/PLAW-115publ52
+    date: 2017-08-18
   - title: Statutory deadline for OTC hearing aid rule missed
     publisher: Regulatory Affairs Professionals Society
     url: https://www.raps.org/resource/statutory-deadline-for-otc-hearing-aid-rule-missed.html
@@ -87,13 +107,23 @@ sources:
     url: https://www.govinfo.gov/content/pkg/FR-2021-07-14/html/2021-15069.htm
     date: 2021-07-14
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the current FDA rule, impact figures, enactment dates, and exact 94–1 Senate roll call. Corrected the pre-2022 requirements, completed the legislative and implementation credits, and refreshed the status date.
 source_key: us-law-115-52-otc-hearing-aids
 ---
 
-Hearing aids used to require a visit to a doctor or audiologist and a prescription-style fitting, and a pair often cost thousands of dollars. Now adults with mild to moderate hearing loss can walk into a pharmacy or big-box store, or shop online, and buy FDA-regulated hearing aids off the shelf. No exam or prescription is needed. People with more severe hearing loss, and children, still need prescription devices.
+Before 2022, federal rules generally called for a medical evaluation before a hearing-aid sale, although adults could sign a waiver. Most hearing aids were sold through specialty outlets with professional services bundled into the price, and a pair often cost thousands of dollars. Now adults with perceived mild to moderate hearing loss can buy certain FDA-regulated air-conduction hearing aids in a store or online without an exam, prescription, or fitting. People with severe or profound hearing loss, and anyone younger than 18, still need prescription hearing aids.
 
-The change took two steps across two administrations. In 2017, Sen. Elizabeth Warren, a Democrat, and Sen. Chuck Grassley, a Republican, wrote a law ordering the FDA to create a new over-the-counter category. Reps. Joe Kennedy III, a Democrat, and Marsha Blackburn, a Republican, led it in the House. It passed as part of a larger FDA bill, 94–1 in the Senate and by voice vote in the House, and President Donald Trump signed it in August 2017. The FDA missed the law's August 2020 deadline. In July 2021, President Joe Biden ordered it to propose the rule within 120 days, and the final rule took effect on October 17, 2022.
+Sens. Elizabeth Warren, a Democrat, and Chuck Grassley, a Republican, first introduced the proposal in 2016. They reintroduced it in 2017 with Sens. Maggie Hassan, a Democrat, and Johnny Isakson, a Republican. Reps. Joe Kennedy III, a Democrat, and Marsha Blackburn, a Republican, led the House version. House committee leaders Greg Walden, a Republican, and Frank Pallone, a Democrat, helped advance the provision in the larger FDA bill. That bill passed 94–1 in the Senate and by voice vote in the House, and President Donald Trump signed it in August 2017.
+
+The FDA missed the law's August 2020 deadline. In July 2021, President Joe Biden issued an executive order requiring HHS to publish a proposed rule within 120 days. FDA Commissioner Robert Califf signed the final rule in August 2022, and it took effect on October 17, 2022.
 
 When stores began selling them, the White House said Walmart priced its OTC models at $199 to $999, compared with $4,400 to $5,500 for its prescription models.

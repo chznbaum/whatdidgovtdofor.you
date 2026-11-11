@@ -99,8 +99,16 @@ sources:
     url: https://www.cassidy.senate.gov/newsroom/press-releases/senators-cassidy-hassan-secure-end-to-surprise-medical-billing-legislation-in-government-funding-package/
     date: 2020-12-20
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed the consumer protections, enactment and effective dates, 7.8 million dispute figure, credited negotiators, and both official roll calls. The protections remain in effect as of today.
 source_key: us-law-116-260-no-surprises
 ---
 

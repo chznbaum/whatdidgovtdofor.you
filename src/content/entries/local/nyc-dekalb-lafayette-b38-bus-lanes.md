@@ -5,7 +5,7 @@ level: local
 jurisdiction: nyc
 action:
   type: program
-  name: "DeKalb and Lafayette Avenues bus and safety redesign (Next Stop: Fast Buses, Better Service)"
+  name: DeKalb and Lafayette Avenues Bus and Safety Project
   date: 2026-11-05
 topics:
   - transit
@@ -27,6 +27,9 @@ credit:
   - official: zohran-mamdani
     role: led
     note: Announced the start of construction as part of the Next Stop program
+  - official: mike-flynn
+    role: implemented
+    note: Led the Department of Transportation implementing the redesign
   - official: nyc-dot
     role: implemented
 sources:
@@ -34,14 +37,26 @@ sources:
     publisher: Office of the Mayor of New York City
     url: https://www.nyc.gov/mayors-office/news/2026/11/fast-buses--mayor-mamdani-breaks-ground-on-project-to-speed-up-b
     date: 2026-11-05
+  - title: DeKalb and Lafayette Avenues — Community Board 3 — September 2026
+    publisher: New York City Department of Transportation
+    url: https://www.nyc.gov/html/dot/downloads/pdf/dekalb-lafayette-cb3-sept2026.pdf
+    date: 2026-09-08
   - title: Desperately needed bus and bike lanes are coming to brownstone Brooklyn
     publisher: Streetsblog NYC
     url: https://nyc.streetsblog.org/2026/10/06/desperately-needed-bus-and-bike-lanes-are-coming-to-brownstone-brooklyn
     date: 2026-10-06
 featured: false
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the construction launch, route limits, lane mileage, ridership, operating hours, crash figures, and current status. Added the official project document and the transportation commissioner responsible for implementation.
 source_key: nyc-mayor-2026-11-fast-buses-mayor-mamdani-breaks-ground-on-project-to-speed-up-b
 ---
 

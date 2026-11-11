@@ -15,12 +15,12 @@ topics:
 who_benefits: People whose intimate images, real or AI-generated, are shared online without their consent, including minors.
 impact:
   - figure: 48 hours
-    label: deadline to remove an image and make reasonable efforts on identical copies
+    label: deadline to remove an image and make reasonable efforts to remove known copies
   - figure: $53,088
     label: potential FTC civil penalty per violation
 status:
   state: in-effect
-  as_of: 2026-11-06
+  as_of: 2026-11-11
 credit:
   - official: ted-cruz
     role: sponsored
@@ -33,6 +33,8 @@ credit:
   - official: madeleine-dean
     role: cosponsored
     note: Co-led the House version
+  - official: melania-trump
+    role: championed
   - official: donald-trump
     role: signed
 votes:
@@ -65,8 +67,16 @@ sources:
     url: https://www.whitehouse.gov/releases/2025/05/icymi-president-trump-signs-take-it-down-act-into-law/
     date: 2025-05-19
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law’s provisions, FTC enforcement, sponsor roles, and the 409–2 House vote. Added an omitted champion, clarified the copies requirement, and refreshed the status date.
 source_key: us-law-119-12
 ---
 

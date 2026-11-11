@@ -17,12 +17,14 @@ impact:
   - figure: $22.13
     label: minimum hourly pay before tips, since April 1, 2026
   - figure: $5.05
-    label: average hourly pay before tips before the rule was enforced
+    label: restaurant-app workers' average hourly pay before tips before enforcement
   - figure: Over $2 billion
     label: extra pay for delivery workers through June 2026
 status:
-  state: in-effect
-  as_of: 2026-11-05
+  state: under-threat
+  as_of: 2026-11-11
+  note: Instacart's parent company, Maplebear, is pursuing an appeal seeking to block the 2025 grocery-delivery laws. The Second Circuit denied an injunction on May 20, 2026, so the laws remain in effect while case 26-172 is pending.
+  source: https://dockets.justia.com/docket/circuit-courts/ca2/26-172
 credit:
   - official: brad-lander
     role: sponsored
@@ -30,9 +32,6 @@ credit:
   - official: sandy-nurse
     role: sponsored
     note: Lead sponsor of Local Law 124 of 2025, which extended the minimum to grocery delivery apps over Mayor Adams's veto
-  - official: eric-adams
-    role: issued
-    note: His administration adopted the 2023 rule and defended it in court; he vetoed the 2025 grocery extension
   - official: nyc-dcwp
     role: issued
 sources:
@@ -59,16 +58,27 @@ sources:
   - title: Local Law 124 of 2025
     publisher: New York City Council (via intro.nyc)
     url: https://intro.nyc/local-laws/2025-124
+  - title: Maplebear, Inc. v. City of New York, case 26-172
+    publisher: U.S. Court of Appeals for the Second Circuit (via Justia)
+    url: https://dockets.justia.com/docket/circuit-courts/ca2/26-172
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the current rate, enactment dates, impact figures, and grocery extension. Corrected the pending-litigation status, narrowed the $5.05 baseline claim, clarified how waiting time is covered, and removed an unsupported mayoral credit.
 source_key: nyc-dcwp-2023-delivery-minimum-pay
 ---
 
-If you deliver food or groceries through an app in New York City, the app has to pay you at least $22.13 an hour for your time, not counting tips. Apps can't use your tips to meet the minimum. The rate goes up with inflation every April. You don't have to sign up for anything; the city's Department of Consumer and Worker Protection enforces the rule.
+If you deliver food or groceries through an app in New York City, the app has to pay you at least $22.13 an hour for time spent preparing and making deliveries, not counting tips. Under the standard method, apps also must pay enough across their workforce to cover workers' combined waiting time at that rate. Apps can't use tips to meet the minimum. The rate goes up with inflation every April, and you don't have to sign up for anything.
 
-Before the rule, app delivery workers earned an average of just $5.05 an hour before tips, according to the department. The city says the rule increased delivery workers' pay by more than $2 billion through June 2026.
+Before enforcement, restaurant-app delivery workers earned an average of just $5.05 an hour before tips, according to the Department of Consumer and Worker Protection. The city says the rule increased delivery workers' pay by more than $2 billion through June 2026.
 
-The City Council set this in motion in 2021 with a law led by Council Member Brad Lander that required the city to study delivery workers' pay and set a minimum; it became law without Mayor Bill de Blasio's signature. Mayor Eric Adams's administration adopted the rule in 2023, starting at $17.96 an hour, and defended it when the delivery apps sued; enforcement began after state courts ruled for the city.
+The City Council set this in motion in 2021 with a law led by Council Member Brad Lander that required the city to study delivery workers' pay and set a minimum; it became law without Mayor Bill de Blasio's signature. DCWP adopted the rule in 2023, starting at $17.96 an hour, and the city defended it when delivery apps sued. Enforcement began after state courts ruled for the city.
 
-In 2025 the Council passed laws extending the same minimum to grocery delivery apps, led by Council Member Sandy Nurse, and adding requirements for tipping options, faster payment, and itemized pay statements. Adams vetoed two of the bills, including the grocery minimum; the Council overrode him on September 10, 2025, and the laws took effect in January 2026.
+In 2025 the Council passed laws extending the same minimum to grocery delivery apps, led by Council Member Sandy Nurse, and adding requirements for tipping options, faster payment, and itemized pay statements. Mayor Eric Adams vetoed two bills, including the grocery minimum; the Council overrode him on September 10, 2025, and the laws took effect in January 2026.

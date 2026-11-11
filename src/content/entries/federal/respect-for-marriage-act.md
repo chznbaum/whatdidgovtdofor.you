@@ -12,11 +12,11 @@ topics:
   - rights
 who_benefits: Married same-sex couples, about 836,000 households in 2024 according to the Census Bureau, and interracial couples.
 impact:
-  - figure: 836,000
+  - figure: about 836,000
     label: married same-sex couple households in the U.S. in 2024
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: tammy-baldwin
     role: led
@@ -83,18 +83,26 @@ sources:
     date: 2026-04-01
   - title: Nadler, Baldwin and Polis introduce Respect for Marriage Act to repeal Defense of Marriage Act
     publisher: Office of Rep. Jerrold Nadler
-    url: https://nadler.house.gov/press-release/nadler-baldwin-and-polis-introduce-respect-marriage-act-repeal-defense-marriage-act
+    url: https://nadler.house.gov/news/documentsingle.aspx?DocumentID=392285
     date: 2009-09-14
   - title: Senators Baldwin, Feinstein, Collins introduce bipartisan Respect for Marriage Act
     publisher: Office of Sen. Susan Collins
     url: https://www.collins.senate.gov/newsroom/senators-baldwin-feinstein-collins-introduce-bipartisan-respect-for-marriage-act
-    date: 2022-07-19
+    date: 2022-07-18
   - title: S. 1236, Respect for Marriage Act (113th Congress, as introduced)
     publisher: GovInfo
     url: https://www.govinfo.gov/content/pkg/BILLS-113s1236is/html/BILLS-113s1236is.htm
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law, legislative history, credits, current status, and both official roll calls. Qualified the Census estimate, repaired source metadata, and updated the status check date.
 source_key: us-law-117-228
 ---
 

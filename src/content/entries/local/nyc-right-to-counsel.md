@@ -58,8 +58,16 @@ sources:
     date: 2025-05-02
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed the law and 2023 amendment, eligibility rules, legislative credits, FY2025 figures, and current status. The current Administrative Code and FY2027 funding show the program remains in effect.
 source_key: nyc-ll-2017-136
 ---
 

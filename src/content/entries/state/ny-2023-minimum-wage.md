@@ -58,8 +58,16 @@ sources:
     url: https://www.nysenate.gov/legislation/bills/2023/A3006/amendment/C
     date: 2023-05-03
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed the wage schedule, enactment details, impact figures, credited roles, and current 2027 off-ramp status against official New York sources and the enacted bill text. The entry meets the content guide and remains accurate as of today.
 source_key: ny-2023-budget-minimum-wage
 ---
 

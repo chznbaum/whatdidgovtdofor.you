@@ -21,7 +21,7 @@ impact:
     label: child poverty rate in 2021, the lowest on record (Census supplemental measure)
 status:
   state: expired
-  as_of: 2026-11-06
+  as_of: 2026-11-11
   note: Expired after tax year 2021 when Congress did not extend it. The Census Bureau's supplemental child poverty rate rose from 5.2% in 2021 to 12.4% in 2022.
   source: https://uscode.house.gov/us/usc/t26/s24/
 credit:
@@ -37,12 +37,15 @@ credit:
   - official: suzan-delbene
     role: championed
     note: House co-lead of the American Family Act
-  - official: joe-biden
-    role: proposed
-    note: Proposed the $3,600 and $3,000 credit in his American Rescue Plan; signed it
+  - official: ritchie-torres
+    role: championed
+    note: House co-lead of the 2021 American Family Act
   - official: john-yarmuth
     role: sponsored
     note: Sponsored the bill that carried it
+  - official: joe-biden
+    role: proposed
+    note: Proposed the $3,600 and $3,000 credit in his American Rescue Plan; signed it
 votes:
   - chamber: U.S. Senate
     date: 2021-03-06
@@ -93,8 +96,9 @@ sources:
     publisher: Office of Rep. Rosa DeLauro
     url: https://delauro.house.gov/childtaxcredit
   - title: DeLauro, DelBene, Torres welcome President's support for permanently expanding the Child Tax Credit
-    publisher: Office of Rep. Rosa DeLauro
-    url: https://delauro.house.gov/media-center/press-releases/delauro-delbene-torres-welcome-president-s-support-permanently-expanding
+    publisher: Office of Rep. Suzan DelBene
+    url: https://delbene.house.gov/news/documentsingle.aspx?DocumentID=2737
+    date: 2021-03-04
   - title: Child Tax Credit
     publisher: Office of Sen. Michael Bennet
     url: https://www.bennet.senate.gov/child-tax-credit
@@ -111,8 +115,16 @@ sources:
     url: https://www.everycrsreport.com/files/2025-06-12_IN12564_6c78b3123624337582c2473c137fbbb358008079.html
     date: 2025-06-12
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the benefit amounts, payment mechanics, poverty figures, enactment, financing, and both roll calls. Added a missing House co-lead, corrected credit order, refreshed the status date, and replaced an inaccessible source link.
 source_key: us-law-117-2-child-tax-credit
 ---
 
@@ -122,4 +134,4 @@ Instead of waiting for tax time, eligible families could receive up to half of t
 
 The Census Bureau found child poverty, counting government aid, fell to 5.2% in 2021, the lowest on record. The expansion ended after 2021, and the rate more than doubled to 12.4% in 2022.
 
-Rep. Rosa DeLauro had pushed a bigger, monthly child credit since 2003. The 2021 credit was modeled on the American Family Act she wrote with Rep. Suzan DelBene and Sens. Michael Bennet and Sherrod Brown, and President Joe Biden made it part of his American Rescue Plan. Democrats passed it without Republican votes, as emergency relief paid for by borrowing, and Biden signed it on March 11, 2021.
+Rep. Rosa DeLauro had pushed a bigger, monthly child credit since 2003. The 2021 credit was modeled on the American Family Act she wrote with Reps. Suzan DelBene and Ritchie Torres and Sens. Michael Bennet and Sherrod Brown, and President Joe Biden made it part of his American Rescue Plan. Democrats passed it without Republican votes, as emergency relief paid for by borrowing, and Biden signed it on March 11, 2021.

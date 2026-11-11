@@ -23,7 +23,7 @@ impact:
     label: Virginia workers covered, per the governor's office
 status:
   state: phasing-in
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The Virginia Employment Commission is developing the program. Payroll contributions start April 1, 2028, and benefits start Dec. 1, 2028. Employers with more than 10 employees generally share contributions with workers; smaller employers do not have to pay an employer share.
   source: https://www.vec.virginia.gov/pfml
 credit:
@@ -37,15 +37,25 @@ credit:
     role: signed
 votes:
   - chamber: Senate of Virginia
-    date: 2026-03-13
+    date: 2026-04-22
     yes: 21
     no: 18
-    source: https://lis.virginia.gov/bill-details/20261/SB2
+    source: https://lis.virginia.gov/vote-details/SB2/20261/SV1529
   - chamber: Virginia House of Delegates
-    date: 2026-03-13
-    yes: 62
-    no: 33
-    source: https://lis.virginia.gov/bill-details/20261/SB2
+    date: 2026-04-22
+    yes: 63
+    no: 34
+    source: https://lis.virginia.gov/vote-details/SB2/20261/26111398
+  - chamber: Virginia House of Delegates
+    date: 2026-04-22
+    yes: 64
+    no: 36
+    source: https://lis.virginia.gov/vote-details/HB1207/20261/26111387
+  - chamber: Senate of Virginia
+    date: 2026-04-22
+    yes: 21
+    no: 18
+    source: https://lis.virginia.gov/vote-details/HB1207/20261/SV1658
 sources:
   - title: Governor Spanberger signs paid family and medical leave law
     publisher: Office of the Governor of Virginia
@@ -55,17 +65,17 @@ sources:
     publisher: VPM
     url: https://www.vpm.org/generalassembly/2026-05-12/sb2-hb1207-paid-family-medical-leave-spanberger-sewell-boysko
     date: 2026-05-12
-  - title: Virginia enacts paid family and medical leave
+  - title: Fast Facts About Paid Leave in Virginia
     publisher: Center for American Progress
-    url: https://www.americanprogress.org/?p=149551
-    date: 2026-04-22
+    url: https://www.americanprogress.org/article/fast-facts-about-paid-leave-in-virginia/
+    date: 2026-03-13
   - title: Virginia enacts Paid Family & Medical Leave Program, set to start in 2028
     publisher: WDBJ7
     url: https://www.wdbj7.com/2026/04/22/virginia-enacts-paid-family-medical-leave-program-set-start-2028/
     date: 2026-04-22
-  - title: Virginia Democrats again push for paid family and medical leave, advance bill
-    publisher: WTOP (from Virginia Mercury)
-    url: https://wtop.com/virginia/2024/01/virginia-democrats-again-push-for-paid-family-and-medical-leave-advance-bill/
+  - title: Virginia Democrats again push for paid family and medical leave
+    publisher: Virginia Mercury
+    url: https://virginiamercury.com/2024/01/29/virginia-democrats-again-push-for-paid-family-and-medical-leave/
     date: 2024-01-29
   - title: Youngkin vetoes paid family, medical leave mandate for Virginia
     publisher: Bloomberg Law
@@ -80,12 +90,17 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enacted law, benefit details, sponsors, prior vetoes, current implementation status, and both companion bills. Corrected the final roll calls, clarified eligibility and application routes, updated source metadata, and advanced the status check to Nov. 11, 2026.
 source_key: va-2026-sb2
 ---
 
-Virginia is creating a state insurance program that pays you while you take time off for life's biggest moments. Starting Dec. 1, 2028, most workers can take up to 12 weeks of paid leave a year to bond with a new baby or an adopted or foster child, recover from a serious health condition, care for a seriously ill family member, or handle certain military family needs. Survivors of domestic violence, sexual assault, or stalking can take up to four weeks of "safe leave."
+Virginia is creating an insurance program that pays you during leave for major family and health needs. Starting Dec. 1, 2028, eligible workers can take up to 12 weeks a year to bond with a new child, recover from a serious health condition, care for a seriously ill family member, or handle military family needs. Workers seeking safety services after domestic violence, sexual assault, harassment, or stalking involving themselves or a family member can take up to four weeks.
 
-While you're out, the program pays about 80% of your average weekly wage, up to a cap tied to the state's average weekly wage. It's funded by payroll contributions starting April 1, 2028. Employers with more than 10 employees generally pay half and workers pay half; employers with 10 or fewer employees do not have to pay an employer share. The Virginia Employment Commission will run the program, and you'll apply through the commission when you need leave.
+The program pays 80% of your average weekly wage, up to a cap tied to the state's average weekly wage. It's funded by payroll contributions starting April 1, 2028. Employers with more than 10 employees generally pay half and workers pay half; smaller employers do not pay an employer share. Workers generally must have earned at least $3,000 across two of the previous five calendar quarters; self-employed people can opt in. The Virginia Employment Commission will run the program. Most workers will apply through the commission; workers covered by an approved private employer plan will apply through that plan.
 
-Virginia is the first state in the South to guarantee paid family and medical leave. Sen. Jennifer Boysko carried a paid leave bill in 2024 and Del. Briana Sewell carried one in 2025, but Gov. Glenn Youngkin (R) vetoed both. Boysko and Sewell carried the 2026 bills. Gov. Abigail Spanberger proposed changes that lawmakers accepted on April 22, 2026, which enacted the law, and she held a signing ceremony on May 11.
+Virginia is the first state in the South to guarantee paid family and medical leave. Sen. Jennifer Boysko and Del. Briana Sewell carried versions in 2024 and 2025, but Gov. Glenn Youngkin (R) vetoed them. Boysko and Sewell carried the 2026 companion bills. Gov. Abigail Spanberger proposed changes that lawmakers accepted on April 22, 2026, which enacted the law, and she held a signing ceremony on May 11.

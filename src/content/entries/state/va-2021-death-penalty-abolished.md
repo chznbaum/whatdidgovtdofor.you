@@ -5,7 +5,7 @@ level: state
 jurisdiction: va
 action:
   type: law
-  name: Abolition of the death penalty (HB 2263 / SB 1165)
+  name: Abolition of the death penalty
   identifier: HB 2263 / SB 1165 (2021 Special Session I, cc. 344, 345)
   date: 2021-03-24
   effective: 2021-07-01
@@ -20,7 +20,7 @@ impact:
     label: death sentences changed to life without parole
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: mike-mullin
     role: sponsored
@@ -29,7 +29,7 @@ credit:
     role: sponsored
     note: Chief patron of SB 1165
   - official: ralph-northam
-    role: signed
+    role: championed
     note: Called for abolition in his 2021 State of the Commonwealth address
 votes:
   - chamber: Virginia House of Delegates
@@ -43,7 +43,7 @@ votes:
       R:
         yes: 3
         no: 41
-    source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?211+vot+HV1505+HB2263
+    source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?212+vot+HC1505+HB2263
   - chamber: Senate of Virginia
     date: 2021-02-22
     yes: 22
@@ -87,6 +87,9 @@ sources:
   - title: "SB 1165, 2021 Special Session I: bill history"
     publisher: Virginia Legislative Information System
     url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?212+sum+SB1165
+  - title: Code of Virginia § 18.2-10
+    publisher: Virginia Legislative Information System
+    url: https://law.lis.virginia.gov/vacode/title18.2/chapter1/section18.2-10/
   - title: Virginia
     publisher: Death Penalty Information Center
     url: https://deathpenaltyinfo.org/state-and-federal-info/state-by-state/virginia
@@ -100,11 +103,16 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law, impact figures, sponsors, all four vote tallies, and current status. Narrowed two claims to Virginia state law, fixed one broken roll-call link, corrected Northam’s credit role, and added the current Virginia Code.
 source_key: va-2021-hb2263
 ---
 
-No one can be sentenced to death in Virginia anymore. The 2021 law ended capital punishment for any crime and applied to people already sentenced, so the two men then on death row had their sentences changed to life in prison without parole.
+Virginia courts can no longer sentence anyone to death under state law. The identical 2021 laws ended capital punishment for state crimes and applied to people already sentenced, so the two men then on death row had their sentences changed to life in prison without parole.
 
 This was a big shift for a state with a long history of executions. Since 1976, Virginia carried out 113 executions, more than any state except Texas. By the time of the vote, executions had already slowed: the last one was in 2017, and the last new death sentence came in 2011.
 

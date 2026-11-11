@@ -5,7 +5,7 @@ level: state
 jurisdiction: va
 action:
   type: law
-  name: Absentee voting; no excuse required (HB 1 / SB 111)
+  name: Absentee voting; no excuse required, voting by absentee ballot
   identifier: HB 1 / SB 111 (2020 Acts, cc. 1149, 1151)
   date: 2020-04-11
   effective: 2020-07-01
@@ -19,7 +19,7 @@ impact:
     label: reasons you have to give to vote absentee
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: charniele-herring
     role: sponsored
@@ -55,7 +55,7 @@ votes:
         no: 34
     source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+vot+HV1464+HB0001
 sources:
-  - title: Absentee voting
+  - title: Absentee and Early Voting
     publisher: Virginia Department of Elections
     url: https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/
   - title: "Code of Virginia § 24.2-700: Persons entitled to vote by absentee ballot"
@@ -64,18 +64,26 @@ sources:
   - title: "HB 1, 2020 Session: bill history"
     publisher: Virginia Legislative Information System
     url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+sum+HB1
+  - title: "SB 111, 2020 Session: bill history"
+    publisher: Virginia Legislative Information System
+    url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?201+sum+SB111
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the current Virginia Code, enactment records, sponsors, signer, and both listed HB 1 roll calls. Corrected an attribution to separate permanent-absentee legislation and refreshed the status date.
 source_key: va-2020-hb1
 ---
 
 You no longer need a reason to vote before Election Day in Virginia. Until 2020, state law listed the reasons that let you vote absentee, and you had to claim one. The 2020 law deleted that list. Now any registered voter can vote absentee in any election they're eligible for.
 
-That gives you two simple options. You can vote early in person, starting 45 days before Election Day and ending the Saturday before. Or you can ask for a ballot by mail, and you can join a permanent absentee list so a ballot is sent to you for every election. You don't have to fill out an application to vote early in person.
+That gives you two simple options. You can vote early in person, starting 45 days before Election Day and ending the Saturday before. Or you can apply to have a ballot mailed to you. You don't have to fill out an application to vote early in person.
 
-Del. Charniele Herring and Sen. Janet Howell sponsored the bills, and Gov. Ralph Northam signed them on April 11, 2020. The final votes drew Republican support: four Republican senators and eight Republican delegates voted yes, along with every Democrat who voted.
+Del. Charniele Herring and Sen. Janet Howell sponsored the bills, and Gov. Ralph Northam signed them on April 11, 2020. On HB 1's final votes, four Republican senators and eight Republican delegates voted yes, along with every Democrat who voted.

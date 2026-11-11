@@ -21,8 +21,12 @@ impact:
   - figure: April 1, 2025
     label: when owners could start being fined for not separating compostables
 status:
-  state: in-effect
-  as_of: 2026-11-05
+  state: under-threat
+  as_of: 2026-11-11
+  note: Citywide pickup remains in effect, but Int. 0152-2026, introduced by Council Minority Leader David Carr (R) on Jan. 29, 2026, would replace the mandatory residential program with a voluntary one. It remains in the Council's Sanitation and Solid Waste Management Committee.
+  by:
+    - david-carr
+  source: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=5001E3C2-C128-4758-9EE8-396A614E9E46&ID=7861797
 credit:
   - official: shahana-hanif
     role: sponsored
@@ -50,8 +54,16 @@ sources:
     publisher: NYC Department of Sanitation
     url: https://www.nyc.gov/site/dsny/collection/residents/curbside-composting.page
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the citywide weekly service, mandate, enforcement dates, rollout, and credited roles. Updated the status because pending legislation would make the mandatory program voluntary.
 source_key: nyc-ll-2023-085
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Old convictions get sealed automatically once you've stayed crime-free
-dek: New York automatically seals most misdemeanor convictions after three years and most felonies after eight, measured from sentencing or release. About 2.3 million New Yorkers have criminal records; eligibility depends on the offense, pending cases, and supervision.
+dek: New York automatically seals most convictions under its laws after three years for misdemeanors and eight for felonies, measured from sentencing or release. About 2.3 million New Yorkers have criminal records; eligibility depends on the offense, pending cases, and supervision.
 level: state
 jurisdiction: ny
 action:
@@ -12,7 +12,7 @@ action:
 topics:
   - rights
   - work
-who_benefits: New Yorkers with eligible old convictions who have no pending criminal case and have completed probation, parole, or post-release supervision.
+who_benefits: People with eligible old New York convictions who meet the law's pending-case and supervision requirements.
 impact:
   - figure: 2.3 million
     label: New Yorkers estimated to have criminal records
@@ -22,7 +22,7 @@ impact:
     label: wait after sentencing or release for most felonies
 status:
   state: under-threat
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: In effect and being implemented, with courts given until Nov. 16, 2027, to seal older eligible records. Sen. Alexis Weik (R) introduced S.3300 on Jan. 24, 2025, to repeal the Clean Slate Act in its entirety; it was referred again to the Senate Codes Committee on Jan. 7, 2026, and remains active.
   by:
     - alexis-weik
@@ -74,13 +74,21 @@ sources:
     date: 2023-02-08
 featured: false
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law, sponsors, Senate roll call, implementation deadline, and active repeal bill. Clarified that the law seals New York convictions and corrected the pending-case, supervision, and clock-reset conditions.
 source_key: ny-2023-s7551a-clean-slate
 ---
 
-A criminal record can follow someone for decades, turning up in background checks for jobs and apartments long after a sentence is complete. New York's Clean Slate Act changes that for many old convictions. Eligible records are sealed automatically, without the person having to hire a lawyer or file an application.
+A criminal record can follow someone for decades, turning up in background checks for jobs and apartments long after a sentence is complete. New York's Clean Slate Act changes that for many old convictions under New York law. Eligible records are sealed automatically, without the person having to hire a lawyer or file an application.
 
-Most misdemeanor convictions become eligible three years after sentencing or release from incarceration, whichever is later. For most felonies, the wait is eight years. A person must have no pending criminal case and must have completed probation, parole, or post-release supervision. A new conviction restarts the clock. Sex offenses and most non-drug Class A felonies, including murder, are never eligible. Sealed records remain available to police, prosecutors, and courts, as well as for gun checks and legally required fingerprint-based checks for jobs such as police officer or teacher.
+Most misdemeanor convictions become eligible three years after sentencing or release from incarceration, whichever is later. For most felonies, the wait is eight years. A person must have no subsequent criminal case pending in New York and must have completed probation, parole, or post-release supervision for the conviction being sealed. Certain subsequent out-of-state felony charges or recent felony convictions can also block sealing if federal records become available. A new conviction before sealing restarts the clock. Sex offenses and most non-drug Class A felonies, including murder, are never eligible. Sealed records remain available to police, prosecutors, and courts, as well as for gun checks and legally required fingerprint-based checks for jobs such as police officer or teacher.
 
 Sen. Zellnor Myrie first introduced the bill in 2020, and Assemblymember Catalina Cruz carried it in the Assembly from 2021. The Senate passed it in 2022, but it stalled in the Assembly. Gov. Kathy Hochul called for it in her 2022 State of the State and negotiated the final compromise. It passed the Senate 37–25 in June 2023, and Hochul signed it on November 16, 2023. It took effect one year later. Courts have until November 2027 to finish sealing older eligible records, so someone who qualifies may not see a record sealed immediately. A pending bill sponsored by Sen. Alexis Weik would repeal the law.

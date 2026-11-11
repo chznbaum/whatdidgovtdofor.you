@@ -20,11 +20,11 @@ impact:
     label: state to keep medical debt off credit reports, after Colorado
 status:
   state: under-threat
-  as_of: 2026-11-05
-  note: The law remains in effect, but a Consumer Financial Protection Bureau interpretive rule published October 28, 2025 says federal law generally preempts state credit-reporting restrictions like New York's. The rule is nonbinding, and New York continued to present the ban as enforceable in May 2026.
+  as_of: 2026-11-11
+  note: The law remains in effect, but its credit-bureau provisions face a federal preemption threat. A nonbinding CFPB interpretation issued October 28, 2025 says federal law generally preempts state limits like New York's, and on August 10, 2026 a federal district court invalidated a narrower Texas medical-debt reporting ban on FCRA preemption grounds. That ruling did not decide New York's law, which New York's Attorney General continued to present as enforceable in May 2026.
   by:
     - consumer-financial-protection-bureau
-  source: https://www.federalregister.gov/documents/2025/10/28/2025-19671/fair-credit-reporting-act-preemption-of-state-laws
+  source: https://www.govinfo.gov/content/pkg/USCOURTS-txwd-1_19-cv-00876/pdf/USCOURTS-txwd-1_19-cv-00876-2.pdf
 credit:
   - official: gustavo-rivera
     role: sponsored
@@ -66,10 +66,22 @@ sources:
     publisher: Consumer Financial Protection Bureau
     url: https://www.federalregister.gov/documents/2025/10/28/2025-19671/fair-credit-reporting-act-preemption-of-state-laws
     date: 2025-10-28
+  - title: Order, Consumer Data Industry Association v. State of Texas
+    publisher: U.S. District Court for the Western District of Texas
+    url: https://www.govinfo.gov/content/pkg/USCOURTS-txwd-1_19-cv-00876/pdf/USCOURTS-txwd-1_19-cv-00876-2.pdf
+    date: 2026-08-10
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law, sponsors, effective date, impact figures, Senate vote and current enforcement guidance. Updated the threat assessment with a material August 2026 federal ruling involving a similar Texas law.
 source_key: ny-2023-s4907a-medical-debt-reporting
 ---
 

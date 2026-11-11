@@ -44,8 +44,16 @@ sources:
     url: https://rules.cityofnewyork.us/wp-content/uploads/2026/04/Roosevelt-Institute-Submission-to-NYC-5.8.26.pdf
     date: 2026-05-08
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed the rule’s requirements, exemptions, penalties, savings estimate, adoption and effective dates, credited roles, and current in-effect status against primary sources and recent city guidance.
 source_key: nyc-dcwp-2026-click-to-cancel
 ---
 

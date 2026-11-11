@@ -21,7 +21,7 @@ impact:
     label: most a late fee can be, or 5% of the rent if that's less
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: andrea-stewart-cousins
     role: sponsored
@@ -29,9 +29,15 @@ credit:
   - official: brian-kavanagh
     role: led
     note: Senate Housing Committee chair and co-prime sponsor; led the Senate's effort to pass it
+  - official: zellnor-myrie
+    role: led
+    note: Member of the Senate working group that helped draft and advance the bill; Kavanagh called his work essential
   - official: carl-heastie
     role: sponsored
     note: Assembly Speaker; sponsored the identical Assembly bill
+  - official: steven-cymbrowitz
+    role: led
+    note: Assembly Housing Committee chair; led the Assembly's work on the package
   - official: linda-rosenthal
     role: championed
     note: Assembly sponsor of the bill to end vacancy decontrol and of a 2019 bill capping security deposits at one month's rent
@@ -61,7 +67,7 @@ sources:
     url: https://www.nysenate.gov/legislation/bills/2019/S6458
   - title: Senate passes strongest tenant protections in state history
     publisher: New York State Senate (Sen. Brian Kavanagh)
-    url: https://nysenate.gov/newsroom/articles/2019/brian-kavanagh/senate-passes-strongest-tenant-protections-state-history
+    url: https://www.nysenate.gov/newsroom/articles/2019/brian-kavanagh/senate-passes-strongest-tenant-protections-state-history
     date: 2019-06-14
   - title: Universal rent control bill package
     publisher: New York State Senate
@@ -69,25 +75,41 @@ sources:
   - title: A5044 (2019), security deposits limited to one month's rent
     publisher: New York State Senate
     url: https://www.nysenate.gov/legislation/bills/2019/A5044
-  - title: Cuomo, legislative leaders say 2019 session includes many accomplishments
-    publisher: WAMC Northeast Public Radio
-    url: https://www.wamc.org/post/cuomo-legislative-leaders-say-2019-session-includes-many-accomplishments
-    date: 2019-06-21
+  - title: Assembly passes historic affordable housing protections to bring stability to tenants across New York State
+    publisher: New York State Assembly
+    url: https://www.assembly.ny.gov/Press/files/20190614a.php
+    date: 2019-06-14
+  - title: Legislature approves historic tenant protections; Cuomo signs them into law
+    publisher: WXXI News
+    url: https://www.wxxinews.org/capitol-bureau/2019-06-14/legislature-approves-historic-tenant-protections-cuomo-signs-them-into-law
+    date: 2019-06-14
   - title: Residential Tenants' Rights Guide
     publisher: New York State Attorney General
     url: https://ag.ny.gov/publications/residential-tenants-rights-guide
-  - title: Governor Hochul signs legislative package to bolster homeownership and strengthen protections for renters
-    publisher: Office of the Governor of New York
-    url: https://www.governor.ny.gov/news/governor-hochul-signs-legislative-package-bolster-homeownership-and-strengthen-protections
+  - title: Matter of Regina Metropolitan Co. v. New York State Division of Housing and Community Renewal
+    publisher: New York State Unified Court System
+    url: https://www.nycourts.gov/reporter/3dseries/2020/2020_02127.htm
+    date: 2020-04-02
+  - title: S952-B (2025), rent-stabilized security-deposit protections
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/legislation/bills/2025/S952/amendment/B
     date: 2025-10-16
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the three fee caps and both final-passage votes. Added missing legislative credit, narrowed two claims to reflect later court and statutory limits, and rechecked the law’s status as of November 11, 2026.
 source_key: ny-2019-s6458-hstpa
 ---
 
-If you rent a home in New York, your landlord can't ask for a security deposit bigger than one month's rent. A landlord can charge no more than $20 for a background and credit check, and a late fee can't be more than $50 or 5% of the monthly rent, whichever is less. The 2019 law also required landlords of market-rate rentals to return security deposits within 14 days after tenants move out. A later law extended that deadline to rent-regulated tenants on November 15, 2025.
+If you rent in New York, your landlord can't ask for a security deposit bigger than one month's rent. A landlord can charge no more than $20 for a background and credit check, and a late fee is capped at $50 or 5% of monthly rent, whichever is less. The 2019 law also required landlords of market-rate rentals to return deposits within 14 days after tenants move out. A later law applied that deadline to rent-stabilized leases entered into or renewed on or after November 15, 2025.
 
-The 2019 law also overhauled rent stabilization. It ended vacancy decontrol, the rule that let landlords take apartments out of rent regulation, and stopped automatic rent increases when a tenant moved out. It made rent regulation permanent, turned rent increases for building improvements into temporary charges with new limits, and extended the recovery period for rent-overcharge claims from four to six years. It also let eligible communities statewide opt into rent stabilization.
+The 2019 law also overhauled rent stabilization. It ended vacancy decontrol, which let landlords remove apartments from regulation, and stopped automatic increases when tenants moved out. It made rent regulation permanent, and improvement rent increases temporary and limited. It also extended the recovery period from four to six years for overcharges after the law took effect; courts kept the old rules for earlier overcharges. Eligible communities statewide could also opt in.
 
-The law grew out of a package of tenant bills. Senate Majority Leader Andrea Stewart-Cousins sponsored it, Sen. Brian Kavanagh, the Senate's housing chair, led the Senate's effort, and Assembly Speaker Carl Heastie sponsored the Assembly version. Assemblymember Linda Rosenthal had carried bills to end vacancy decontrol and to cap security deposits at one month's rent. Lawmakers settled the final version without Gov. Andrew Cuomo, who signed it on June 14, 2019, the day it passed the Senate 36–26 and the Assembly 95–46.
+The law came from a package of tenant bills. Senate Majority Leader Andrea Stewart-Cousins sponsored the final bill; Housing Chair Brian Kavanagh co-sponsored it and led statewide hearings; and Sen. Zellnor Myrie helped the Senate group that drafted it. Assembly Speaker Carl Heastie sponsored the Assembly bill, Housing Chair Steven Cymbrowitz led its work, and Assemblymember Linda Rosenthal had carried bills to end vacancy decontrol and cap deposits. The Legislature negotiated the deal without Gov. Andrew Cuomo, who signed it June 14, 2019. It passed the Senate 36–26 and Assembly 95–46.

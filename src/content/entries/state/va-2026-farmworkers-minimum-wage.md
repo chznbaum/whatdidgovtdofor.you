@@ -11,15 +11,15 @@ action:
   effective: 2027-01-01
 topics:
   - work
-who_benefits: People employed as farm laborers or farm employees in Virginia. Temporary foreign workers hired under federal guest-worker rules remain outside the state minimum wage law.
+who_benefits: Farm laborers and farm employees in Virginia who are otherwise covered by the state minimum wage law; temporary foreign workers governed by federal guest-worker rules remain excluded.
 impact:
   - figure: $13.75
-    label: hourly state minimum wage farmworkers must be paid starting Jan. 1, 2027
+    label: hourly state minimum wage for covered farmworkers starting Jan. 1, 2027
   - figure: $15
     label: hourly state minimum wage starting Jan. 1, 2028
 status:
   state: phasing-in
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The farm labor exemption is removed from the minimum wage law effective Jan. 1, 2027.
   source: https://law.lis.virginia.gov/vacodeupdates/title40.1/section40.1-28.9/
 credit:
@@ -52,22 +52,27 @@ sources:
     date: 2026-04-10
   - title: "HB 157, 2024 Session: bill history"
     publisher: Virginia Legislative Information System
-    url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB157
-  - title: "HB 1625, 2025 Session: minimum wage; farm laborers or farm employees; temporary foreign workers"
-    publisher: FastDemocracy
-    url: https://fastdemocracy.com/bill/va/2025/bills/VAB00033490/
+    url: https://lis.virginia.gov/bill-details/20241/HB157
+  - title: "HB 1625, 2025 Session: bill history"
+    publisher: Virginia Legislative Information System
+    url: https://lis.virginia.gov/bill-details/20251/HB1625
 featured: false
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enacted text, wage schedule, effective date, sponsors, prior vetoes, and current status. Tightened eligibility language, updated the status check, and replaced two unreliable links with current official LIS pages.
 source_key: va-2026-hb20
 ---
 
-Virginia's minimum wage law currently excludes “any person employed as a farm laborer or farm employee.” Starting Jan. 1, 2027, that exclusion is gone. Covered farm employers will have to pay at least the state minimum wage, which rises to $13.75 an hour that day and to $15 an hour on Jan. 1, 2028. Workers don't need to sign up for anything; the protection comes with the job.
+Virginia's minimum wage law currently excludes “any person employed as a farm laborer or farm employee.” Starting Jan. 1, 2027, that exclusion is gone. Farmworkers covered by the state law will have to be paid at least the state minimum wage, which rises to $13.75 an hour that day and to $15 an hour on Jan. 1, 2028. Workers don't need to sign up for anything; the protection comes with the job.
 
-There's one important limit. Temporary foreign workers governed by federal guest-worker rules are still excluded from the state law, so the change covers farmworkers who aren't hired through those programs.
+Temporary foreign workers governed by federal guest-worker rules are still excluded from the state law. Other existing exemptions can also apply—for example, the law excludes workers under 16—so this change covers farmworkers who are otherwise covered by the law.
 
 Del. Adele McClure carried the change in 2024 and 2025, when her bills would also have covered temporary foreign workers, but Gov. Glenn Youngkin (R) vetoed both. In 2026 she and Sen. Jennifer Carroll Foy carried the bills again. Gov. Abigail Spanberger approved them on April 8, 2026, alongside legislation raising the statewide minimum wage. Her office said it worked with the Virginia Farm Bureau to strike a balance between protecting farmworkers and supporting farming.

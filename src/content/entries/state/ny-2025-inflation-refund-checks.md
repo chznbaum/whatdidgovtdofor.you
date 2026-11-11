@@ -21,7 +21,7 @@ impact:
     label: total value of checks mailed
 status:
   state: delivered
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The main mailing phase was complete by Nov. 25, 2025, after more than 8.2 million checks were mailed; small additional mailings continued as more taxpayers were found eligible.
   source: https://www.governor.ny.gov/news/governor-hochul-announces-more-8-million-inflation-refund-checks-have-been-mailed-out-time
 credit:
@@ -69,8 +69,16 @@ sources:
     publisher: Fiscal Policy Institute
     url: https://fiscalpolicy.org/wp-content/uploads/2025/05/2026.05.12-FY-2026-Budget-Briefing-Enacted.pdf
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the eligibility rules, exact payment totals, funding source, Hochul’s role, and both official roll calls. Updated the status check date to today; no substantive claims changed.
 source_key: ny-2025-budget-inflation-refund
 ---
 

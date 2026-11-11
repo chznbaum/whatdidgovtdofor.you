@@ -11,9 +11,9 @@ action:
 topics:
   - rights
   - safety
-who_benefits: People in federal prison and their families. The Bureau of Prisons counts 69,649 people released under the law.
+who_benefits: People in federal prison and their families. The Bureau of Prisons counts 68,007 people released under the law.
 impact:
-  - figure: 69,649
+  - figure: 68,007
     label: people the Bureau of Prisons counts as released under the First Step Act
   - figure: 4,226
     label: retroactive crack-cocaine sentence cuts courts granted through Sept. 2021
@@ -21,26 +21,35 @@ impact:
     label: average cut among 2,858 cases with enough sentencing data
 status:
   state: in-effect
-  as_of: 2026-11-06
+  as_of: 2026-11-11
 credit:
+  - official: chuck-grassley
+    role: led
+    note: Coauthored the Senate sentencing reforms and introduced the final Senate text with Dick Durbin
+  - official: dick-durbin
+    role: led
+    note: Coauthored the Senate sentencing reforms and introduced the final Senate text with Chuck Grassley
+  - official: doug-collins
+    role: sponsored
+    note: Coauthored and sponsored the House version (H.R. 5682)
+  - official: hakeem-jeffries
+    role: led
+    note: Coauthored the House version and served as its lead Democrat
+  - official: mike-lee
+    role: led
+    note: Lead Senate sponsor
+  - official: cory-booker
+    role: led
+    note: Lead Senate sponsor
   - official: john-cornyn
     role: led
     note: Co-wrote the earned time credit system with Sheldon Whitehouse
   - official: sheldon-whitehouse
     role: led
     note: Co-wrote the earned time credit system with John Cornyn
-  - official: doug-collins
-    role: sponsored
-    note: Sponsored the House version (H.R. 5682)
-  - official: hakeem-jeffries
-    role: led
-    note: Lead Democrat on the House version (H.R. 5682)
-  - official: chuck-grassley
-    role: led
-    note: Introduced the final Senate text (S. 3747) with Dick Durbin
-  - official: dick-durbin
-    role: led
-    note: Co-introduced the final Senate text (S. 3747)
+  - official: jared-kushner
+    role: championed
+    note: Led the White House push and helped win the president's support
   - official: donald-trump
     role: signed
     note: Pressed Senate leaders to hold the vote
@@ -89,6 +98,10 @@ sources:
   - title: H.R. 5682, FIRST STEP Act (as introduced)
     publisher: GovInfo
     url: https://www.govinfo.gov/content/pkg/BILLS-115hr5682ih/html/BILLS-115hr5682ih.htm
+  - title: Durbin, Grassley reintroduce criminal justice reform bills
+    publisher: Office of Sen. Chuck Grassley
+    url: https://www.grassley.senate.gov/news/news-releases/durbin-grassley-reintroduce-criminal-justice-reform-bills
+    date: 2023-04-20
   - title: Whitehouse and Cornyn applaud new Bureau of Prisons rule adopting their input on First Step Act anti-recidivism measure
     publisher: Office of Sen. Sheldon Whitehouse
     url: https://www.whitehouse.senate.gov/news/release/whitehouse-and-cornyn-applaud-new-bureau-of-prisons-rule-adopting-their-input-on-first-step-act-anti-recidivism-measure
@@ -102,8 +115,16 @@ sources:
     url: https://www.npr.org/2018/12/17/676771335/how-trump-went-from-tough-on-crime-to-second-chance-for-felons
     date: 2018-12-17
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: The law’s provisions, sentencing figures, votes, enactment details, net impact, and current in-effect status check out. I updated the live BOP release count and corrected the credits to include the documented lead sponsors and White House champion.
 source_key: us-law-115-391
 ---
 
@@ -111,4 +132,4 @@ The First Step Act changed how federal prisons and federal sentencing work. Peop
 
 The law also made a 2010 change retroactive. That earlier law had narrowed the gap between sentences for crack and powder cocaine, but only for new cases. Under the First Step Act, people sentenced under the old rules could ask a judge to cut their sentence. The Sentencing Commission found that through September 2021, courts granted 4,226 such reductions. Among 2,858 cases with enough sentencing data, the average reduction was 72 months; among cases with known race, 92% involved Black defendants. The law also eased some mandatory minimums for repeat drug offenses, widened the "safety valve" that lets judges go below them, and generally barred restraints during pregnancy and postpartum recovery.
 
-It was a bipartisan deal. The earned-time credits came from a prison-reform bill Republican John Cornyn and Democrat Sheldon Whitehouse had carried for years, and from the House version led by Republican Doug Collins and Democrat Hakeem Jeffries. Republican Chuck Grassley and Democrat Dick Durbin added sentencing changes in the final Senate deal. Every Democrat who voted supported it, along with most Republicans. President Donald Trump, who pressed Senate leaders to hold the vote, signed it on December 21, 2018.
+It was bipartisan. Republican Chuck Grassley and Democrat Dick Durbin led the Senate deal. Republican Doug Collins and Democrat Hakeem Jeffries coauthored the House bill; Republican Mike Lee and Democrat Cory Booker were lead Senate sponsors, and Republican John Cornyn and Democrat Sheldon Whitehouse wrote earned-time provisions. White House adviser Jared Kushner led the administration’s push, and President Donald Trump pressed for a vote. Every Democrat who voted supported it, along with most Republicans. Trump signed it December 21, 2018.

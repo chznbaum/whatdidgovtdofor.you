@@ -1,6 +1,6 @@
 ---
 title: Every public school kindergartner gets $1,000 toward college
-dek: The city's 2027 budget raises its deposit in NYC Kids RISE college savings accounts from $100 to $1,000 for every public school kindergartner, starting with the 2026–27 class. Families don't have to sign up.
+dek: The city's 2027 budget raises the NYC Kids RISE scholarship for 2026–27 public school kindergartners from $100 to $1,000. Enrollment is automatic after 60 days in a participating school unless a family opts out.
 level: local
 jurisdiction: nyc
 action:
@@ -10,16 +10,16 @@ action:
 topics:
   - education
   - costs
-who_benefits: Every kindergartner in a New York City public school, and in participating charter schools, regardless of family income.
+who_benefits: Kindergartners who attend a New York City public school or participating charter school for at least 60 days and whose families do not opt out, regardless of family income.
 impact:
   - figure: $1,000
-    label: city seed money in each kindergartner's college savings account
+    label: scholarship allocated to each participating kindergartner
   - figure: 10x
-    label: the city's previous $100 deposit per child
+    label: the previous $100 scholarship per child
 status:
   state: phasing-in
-  as_of: 2026-11-05
-  note: The $1,000 deposit applies to kindergartners enrolled in 2026–27. Families of new participants can activate and view their child's account starting in early 2027.
+  as_of: 2026-11-11
+  note: The $1,000 scholarship applies to kindergartners enrolled in 2026–27. Families of new participants can activate and view their child's account starting in January 2027.
   source: https://infohub.nyced.org/resources/school-programs/nyc-kids-rise-save-for-college-program
 credit:
   - official: julie-menin
@@ -54,13 +54,21 @@ sources:
     publisher: Center for Social Development, Washington University in St. Louis
     url: https://csd.wustl.edu/kids-rise-expands/
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the adopted budget, funding, credit, and current rollout. Clarified eligibility, account ownership, and January 2027 availability, and removed a pasted quotation.
 source_key: nyc-fy2027-budget-kids-rise
 ---
 
-Every child who starts kindergarten in a New York City public school this year gets a college savings account with $1,000 from the city already in it. Most charter schools take part too. Until this year, the city's deposit was $100, so this is a tenfold increase.
+A child who starts kindergarten in a New York City public school this year and remains in a participating school for at least 60 days will receive an NYC Scholarship Account with $1,000 allocated on their behalf, unless their family opts out. Most charter schools take part too. The previous scholarship was $100, so this is a tenfold increase.
 
-The money sits in a tax-advantaged 529 college savings plan, where it's invested and can grow until the child is ready for school after high school. It can go toward a four-year college, community college, or vocational training. Enrollment is automatic; families can opt out, but they don't need to apply. Families can open a separate connected savings account and contribute their own money. Businesses and organizations can add money for groups of students through community scholarships. Families of this year's kindergartners can activate and view their child's account starting in early 2027.
+NYC Kids RISE owns and manages the scholarship money and invests it in New York's 529 Direct Plan, where its value can rise or fall until the child is ready for education after high school. The money can go toward a four-year college, community college, vocational school, or eligible apprenticeship program. Families do not need to apply or contribute money. They can open a separate connected savings account of their own, and businesses and organizations can add money for groups of students through community scholarships. Families of this year's kindergartners can activate and view their child's scholarship account starting in January 2027.
 
-The accounts are run by NYC Kids RISE, which started as a pilot in Community School District 30 in 2017 and expanded citywide in the 2021–22 school year. The bigger deposit came out of the fiscal year 2027 budget deal between Mayor Zohran Mamdani and the City Council. Council Speaker Julie Menin proposed the $1,000 deposit in February 2026. She has called college savings "one of the most effective ways we can truly address income inequality." Menin said it is the largest universal college savings program in the nation. The city budgeted about $53 million for the deposits in fiscal 2027.
+NYC Kids RISE began as a pilot in Community School District 30 in 2017 and expanded citywide in the 2021–22 school year. The larger scholarship came out of the fiscal year 2027 budget deal between Mayor Zohran Mamdani and the City Council. Council Speaker Julie Menin proposed the $1,000 scholarship in February 2026 and made the expansion a priority in budget negotiations. Menin said the program could help reduce income inequality and described it as the nation's largest universal college savings program. The city budgeted about $53 million for the expansion in fiscal 2027.

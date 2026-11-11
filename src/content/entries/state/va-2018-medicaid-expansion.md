@@ -1,6 +1,6 @@
 ---
 title: Medicaid covers more than 500,000 low-income Virginia adults
-dek: Since Jan. 1, 2019, adults with incomes below 138% of the poverty line, about $22,000 a year for one person, can get Medicaid. Virginia had 517,344 full-benefit expansion enrollees on Oct. 1, 2026.
+dek: Since Jan. 1, 2019, adults with incomes below 138% of the poverty line, about $22,000 a year for one person, can get Medicaid. Virginia had 505,578 full-benefit expansion enrollees on Nov. 1, 2026.
 level: state
 jurisdiction: va
 action:
@@ -12,18 +12,18 @@ action:
 topics:
   - health
   - costs
-who_benefits: Low-income adults ages 19 to 64 who didn't qualify for Medicaid before; 517,344 had full-benefit expansion coverage on Oct. 1, 2026, according to the state Medicaid agency.
+who_benefits: Low-income adults ages 19 to 64 who didn't qualify for Medicaid before; 505,578 had full-benefit expansion coverage on Nov. 1, 2026, according to the state Medicaid agency.
 impact:
-  - figure: 517,000
-    label: Virginians with full-benefit expansion coverage on Oct. 1, 2026
+  - figure: 505,578
+    label: Virginians with full-benefit expansion coverage on Nov. 1, 2026
   - figure: 138%
     label: of the federal poverty level, the income limit for expansion adults
   - figure: 90%
     label: share of expansion costs paid by the federal government
 status:
   state: under-threat
-  as_of: 2026-11-05
-  note: Starting in 2027, the One Big Beautiful Bill Act, signed by Donald Trump (R), requires many expansion adults to meet a work or activity requirement and renew coverage every six months. An Oct. 29, 2026 federal ruling struck down a narrower test for medical exemptions but did not block the work requirement itself.
+  as_of: 2026-11-11
+  note: Starting in 2027, the One Big Beautiful Bill Act, signed by Donald Trump (R), requires many expansion adults to meet a work or activity requirement and renew coverage every six months. An Oct. 29, 2026 federal ruling vacated a narrower federal definition of medical frailty but did not block the work requirement itself.
   by:
     - donald-trump
   source: https://www.dmas.virginia.gov/news-updates/new-federal-requirements/federal-work-requirements/
@@ -34,9 +34,18 @@ credit:
   - official: emmett-hanger
     role: negotiated
     note: Republican senator who brokered the Senate compromise
+  - official: kirk-cox
+    role: led
+    note: House speaker who backed the expansion plan and helped lead the House effort
+  - official: frank-wagner
+    role: negotiated
+    note: Republican senator who played a key role negotiating the final deal
+  - official: terry-mcauliffe
+    role: proposed
+    note: His final budget proposed expansion and the hospital assessment after years of unsuccessful efforts
   - official: ralph-northam
     role: negotiated
-    note: Helped broker the final compromise with Hanger and Jones, then signed the budget
+    note: Carried McAuliffe's proposal, worked with lawmakers on the compromise, then signed the budget
 votes:
   - chamber: Senate of Virginia
     date: 2018-05-30
@@ -56,10 +65,10 @@ votes:
     no: 31
     source: https://legacylis.virginia.gov/cgi-bin/legp604.exe?182+vot+HV1705+HB5002
 sources:
-  - title: DMAS Enrollment Report - October 2026
+  - title: DMAS Enrollment Report - November 2026
     publisher: Virginia Department of Medical Assistance Services
-    url: https://www.dmas.virginia.gov/media/opxjnexc/dmas-enrollment-report-october-2026.pdf
-    date: 2026-10-01
+    url: https://www.dmas.virginia.gov/media/nkrlopi3/dmas-enrollment-report-2026-11.pdf
+    date: 2026-11-01
   - title: Medicaid Update, Senate Finance and Appropriations Committee
     publisher: Virginia Department of Medical Assistance Services
     url: https://sfac.virginia.gov/pdf/health/2026/01222026_No1_DMAS.pdf
@@ -73,7 +82,7 @@ sources:
   - title: Attorney General Jones celebrates ruling on Medicaid medical exemptions
     publisher: Office of the Attorney General of Virginia
     url: https://www.oag.state.va.us/media-center/news-releases/3146-attorney-general-jones-celebrates-major-victory-blocking-implementation-of-unlawful-medicaid-work-requirements-for-medically-vulnerable-individuals
-    date: 2026-10-29
+    date: 2026-10-30
   - title: "HB 5002, 2018 Special Session I: bill history"
     publisher: Virginia Legislative Information System
     url: https://legacylis.virginia.gov/cgi-bin/legp604.exe?182+sum+HB5002
@@ -97,20 +106,33 @@ sources:
     publisher: Associated Press (via The Washington Times)
     url: https://www.washingtontimes.com/news/2018/jun/7/northam-to-sign-budget-medicaid-expansion/
     date: 2018-06-07
+  - title: "The Daily 202: Why Virginia's Medicaid expansion is a big deal"
+    publisher: The Washington Post
+    url: https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2018/05/31/daily-202-why-virginia-s-medicaid-expansion-is-a-big-deal/5b0f465f30fb0425887996be/
+    date: 2018-05-31
+  - title: McAuliffe takes one more swing at Medicaid expansion in final state budget
+    publisher: The Washington Post
+    url: https://www.washingtonpost.com/local/virginia-politics/mcauliffe-takes-one-more-swing-at-medicaid-expansion-in-final-state-budget/2017/12/18/b380ec7c-e3ef-11e7-833f-155031558ff4_story.html
+    date: 2017-12-18
 featured: true
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enactment, funding mechanism, eligibility rules, both roll calls, and the current 2027 threat. Corrected the enrollment count and added officials whose documented work was omitted.
 source_key: va-2018-hb5002-medicaid-expansion
 ---
 
-If you're an adult in Virginia earning less than about $22,000 a year on your own, you can get health coverage through Medicaid, even if you don't have children or a disability. When lawmakers approved expansion, it opened Medicaid to an estimated 400,000 low-income adults who couldn't qualify before. You must apply, which you can do through CommonHelp or Cover Virginia.
+Virginia adults ages 19 to 64 earning less than about $22,000 a year can get Medicaid, even without children or a disability. Expansion made an estimated 400,000 low-income adults newly eligible. You must apply through CommonHelp, Virginia's Insurance Marketplace, or Cover Virginia.
 
-More than half a million Virginians now have full-benefit coverage this way. The federal government pays 90% of the cost, and Virginia covers its share with an assessment on hospitals rather than general tax dollars.
+More than half a million Virginians now have full-benefit expansion coverage. The federal government pays 90% of the cost. Virginia funds its share with an assessment on hospitals rather than general tax dollars.
 
-Expansion came after four years of gridlock, while Republicans controlled the General Assembly. Two Republicans broke it open: Del. Chris Jones, the House Appropriations chair, whose House budget included expansion, and Sen. Emmett Hanger, who forged the Senate compromise. Gov. Ralph Northam (D), a doctor who called coverage "a moral and economic imperative," helped broker the final deal. Four Republican senators joined all 19 Democrats to pass it 23–17, and the House of Delegates approved it 67–31. Northam signed the budget on June 7, 2018, and coverage began Jan. 1, 2019.
+Expansion followed four years of failed proposals from Gov. Terry McAuliffe (D), while Republicans controlled the General Assembly. In 2018, House Appropriations chair Chris Jones led the budget effort and worked out the final substitute with Sen. Emmett Hanger, a longtime expansion supporter. House Speaker Kirk Cox backed the plan, and Sen. Frank Wagner helped negotiate the final deal. Gov. Ralph Northam (D) carried McAuliffe's proposal and worked with lawmakers on the compromise. Four Republican senators joined all 19 Democrats to pass it 23–17; the House approved it 67–31. Northam signed the budget June 7, 2018, and coverage began Jan. 1, 2019.
 
-Federal rules taking effect in 2027 put some coverage at risk. Many expansion adults will have eligibility checked every six months and must qualify through work or other approved activities, half-time school, monthly earnings of at least $580, or an exemption. A federal court broadened the medical exemption in October 2026, but the work requirement remains scheduled to begin in January.
+Federal rules taking effect in 2027 put some coverage at risk. Many expansion adults will face eligibility checks every six months and must qualify through work or other approved activities, half-time school, monthly earnings of at least $580, or an exemption. A federal court vacated a narrower medical-frailty test in October 2026, but the work requirement remains scheduled for January.

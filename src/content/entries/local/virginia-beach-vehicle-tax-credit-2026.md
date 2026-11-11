@@ -20,9 +20,9 @@ impact:
     label: estimated registered personal vehicles in Virginia Beach
 status:
   state: phasing-in
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The one-time credit applies to calendar-year 2027 personal property tax assessments, with the city applying it to bills beginning in January 2027.
-  source: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Proposed/FY27-Proposed-Operating-Budget.pdf
+  source: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY2026-27-Adopted-Operating-Budget.pdf
 credit:
   - official: virginia-beach-city-council
     role: led
@@ -35,7 +35,7 @@ votes:
     date: 2026-05-12
     yes: 11
     no: 0
-    source: https://virginiabeach.gov/connect/blog/virginia-beach-city-council-votes-to-adopt-revised-budget
+    source: https://edocs.vbgov.com/WebLink/DocView.aspx?dbid=0&id=51775913&repo=CityClerk
 sources:
   - title: Virginia Beach City Council votes to adopt revised budget
     publisher: City of Virginia Beach
@@ -59,7 +59,12 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the adopted credit, funding source, figures, attribution, and 11–0 vote. Updated the status through today and replaced proposed/summary evidence with final adopted and official vote records.
 source_key: vb-fy2027-vehicle-tax-credit
 ---
 

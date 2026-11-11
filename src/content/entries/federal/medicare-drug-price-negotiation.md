@@ -23,8 +23,8 @@ impact:
     label: Part D enrollees who used these drugs in 2023
 status:
   state: in-effect
-  as_of: 2026-11-06
-  note: The Supreme Court declined drugmakers' appeals on May 18, 2026. The One Big Beautiful Bill Act (2025) exempted more rare-disease drugs from negotiation.
+  as_of: 2026-11-11
+  note: The Supreme Court declined drugmakers' appeals on May 18, 2026. Beginning with prices for 2028, the One Big Beautiful Bill Act (2025) exempts more rare-disease drugs from negotiation.
 credit:
   - official: amy-klobuchar
     role: championed
@@ -109,8 +109,16 @@ sources:
     url: https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs
     date: 2022-07-27
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the benefit, CMS figures, enactment details, credits, House vote, and current program status. Corrected the Senate vote total and updated the third-round timeline and status through November 11, 2026.
 source_key: us-law-117-169-drug-negotiation
 ---
 
@@ -118,6 +126,6 @@ For years, Medicare was barred from bargaining over the prices of the drugs it c
 
 The first 10 negotiated prices took effect on January 1, 2026. They treat conditions such as heart disease, diabetes, autoimmune diseases and cancer: Eliquis, Enbrel, Entresto, Farxiga, Imbruvica, Januvia, Jardiance, NovoLog and Fiasp, Stelara, and Xarelto. If you take one of them through a Medicare drug plan, you don't need to do anything. The lower price is built into what your plan pays, and CMS expects it to cut what enrollees pay at the pharmacy by about $1.5 billion this year.
 
-The program keeps growing. In November 2025, the Trump administration announced negotiated prices for 15 more drugs, including Ozempic and Wegovy, which take effect in 2027. A third round, the first to include drugs given in a doctor's office, is underway for 2028.
+The program keeps growing. In November 2025, the Trump administration announced negotiated prices for 15 more drugs, including Ozempic and Wegovy, which take effect in 2027. A third round, the first to include drugs given in a doctor's office, finished negotiations on November 1, 2026. CMS must publish any agreed prices by November 30, and they take effect in 2028.
 
 Democrats fought for this for years. Sen. Amy Klobuchar and Rep. Peter Welch carried bills to let Medicare negotiate, and Rep. Frank Pallone's H.R. 3 passed the House with it in 2019. Senate Majority Leader Chuck Schumer and Sen. Joe Manchin negotiated the final law, which passed without Republican votes after Vice President Kamala Harris broke a 50–50 Senate tie. President Joe Biden signed it in August 2022.

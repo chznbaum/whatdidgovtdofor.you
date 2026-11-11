@@ -19,7 +19,7 @@ impact:
     label: new end date for Medicare's hospital-care-at-home program
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The extension is temporary and ends Dec. 31, 2027 unless Congress acts again.
 credit:
   - official: brian-schatz
@@ -34,6 +34,18 @@ credit:
   - official: donald-trump
     role: signed
 votes:
+  - chamber: U.S. House
+    date: 2026-01-22
+    yes: 341
+    no: 88
+    by_party:
+      R:
+        yes: 192
+        no: 24
+      D:
+        yes: 149
+        no: 64
+    source: https://clerk.house.gov/Votes/202645
   - chamber: U.S. Senate
     date: 2026-01-30
     yes: 71
@@ -82,16 +94,32 @@ sources:
   - title: Senators Wicker, Schatz lead group of 100 lawmakers in calling for extension of telehealth expansion
     publisher: Office of Sen. Roger Wicker
     url: https://www.wicker.senate.gov/2024/12/senators-wicker-schatz-lead-group-of-100-lawmakers-in-calling-for-extension-of-telehealth-expansion
+  - title: H.R. 7148, Consolidated Appropriations Act, 2026 — cost estimate
+    publisher: Congressional Budget Office
+    url: https://www.cbo.gov/publication/62029
+    date: 2026-01-21
+  - title: Telehealth FAQ
+    publisher: Centers for Medicare & Medicaid Services
+    url: https://www.cms.gov/files/document/telehealth-faq-updated-10-09-2026.pdf
+    date: 2026-10-08
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the enacted telehealth provisions, credits, current status, and reported vote totals. Added the omitted initial House passage vote and disclosed the health package’s Medicare payment offset.
 source_key: us-law-119-75-telehealth
 ---
 
-Under Medicare's permanent rules, telehealth is covered mainly for people in certain rural areas who go to a clinic or other approved site for the visit. Congress has temporarily lifted those limits, and the waivers were set to expire on January 30, 2026.
+Under Medicare's permanent rules, telehealth is covered mainly for people in certain rural areas who go to a clinic or other approved site. Congress temporarily lifted those limits, but the waivers were set to expire January 30, 2026.
 
-The Consolidated Appropriations Act, 2026, a government funding law, pushed that date to December 31, 2027. Until then, Medicare covers telehealth visits no matter where you live, including from your own home, and a wider range of practitioners can provide them. The law also extends telehealth through community health centers and rural health clinics, and delays in-person visit requirements for mental health care by telehealth until January 1, 2028. You don't need to sign up. Ask your doctor whether a visit can be done by video.
+The Consolidated Appropriations Act, 2026, pushed that date to December 31, 2027. Until then, Medicare covers telehealth visits no matter where you live, including at home, and more kinds of practitioners can provide them. The law also continues telehealth through community health centers and rural health clinics and delays in-person requirements for mental health telehealth until January 1, 2028. You don't need to sign up. Ask your doctor whether a visit can be done by video.
 
-The same law extended Medicare's hospital-care-at-home program through September 2030, creates Medicare coverage for certain tests that screen for multiple cancers at once starting in 2029, and limits how middlemen called pharmacy benefit managers get paid in Medicare drug plans starting in 2028.
+The law also extended Medicare's hospital-care-at-home program through September 2030, created coverage for certain multi-cancer screening tests starting in 2029, and limited how pharmacy benefit managers get paid in Medicare drug plans starting in 2028. Congress offset part of the health package by extending Medicare's 2% cut to provider payments into 2033; CBO still estimated that the health provisions would increase spending by $3.95 billion over 10 years.
 
-Democratic Sen. Brian Schatz, who has pushed a broad telehealth bill since 2016, wrote the extension. He and Republican Sen. Roger Wicker had led 100 lawmakers in calling for it. The funding law passed with votes from both parties: 71–29 in the Senate and 217–214 in the House. President Donald Trump signed it on February 3, 2026.
+Democratic Sen. Brian Schatz, who has pushed a broad telehealth bill since 2016, wrote the extension. He and Republican Sen. Roger Wicker had led 100 lawmakers in calling for it. The final version passed 71–29 in the Senate and 217–214 in the House. President Donald Trump signed it February 3, 2026.

@@ -25,13 +25,16 @@ impact:
     label: in state money set aside for the extra toll relief in 2024–2026
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
   note: The 2026–2028 state budget adds $24 million for fiscal 2028, keeps unspent money in the relief fund, and lets the state cover shortfalls in the base toll relief program, with the relief planned through fiscal year 2036. VDOT must report by Dec. 1, 2026 on how much ongoing funding the program needs.
   source: https://budget.lis.virginia.gov/item/2026/2/HB30/Chapter/1/441/
 credit:
   - official: louise-lucas
     role: championed
-    note: Chair of Senate Finance and Appropriations; negotiated the $101 million deal with the governor
+    note: Chair of Senate Finance and Appropriations; made toll relief a top priority and championed the $101 million package
+  - official: don-scott
+    role: secured-funding
+    note: House speaker who helped secure the $101 million initiative, including the toll-debt relief
   - official: glenn-youngkin
     role: signed
     note: Signed the 2024 budget
@@ -70,7 +73,12 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the eligibility rules, funding, debt relief, implementation date, roll calls, and continued operation. Added the omitted House leader, narrowed Lucas’s role to what the reporting supports, and refreshed the status date.
 source_key: va-2024-hb6001-item441-ert-toll-relief
 ---
 
@@ -80,4 +88,4 @@ You have to sign up in person at an E-ZPass customer service center, show proof 
 
 The budget also paid off old debts. VDOT negotiated a $36.2 million payment to clear unpaid tunnel tolls and fees from before 2024 for people living in Norfolk or Portsmouth at the time, and lifted vehicle registration holds tied to those debts.
 
-State Sen. Louise Lucas of Portsmouth made the relief her top priority and negotiated the $101 million deal with Gov. Glenn Youngkin, who signed the budget in May 2024. Residents of Hampton, Newport News and Franklin were first included, but Youngkin's 2025 budget amendments limited the extra benefit to Norfolk and Portsmouth.
+State Sen. Louise Lucas of Portsmouth made the relief her top priority and championed the $101 million package. House Speaker Don Scott also helped secure the initiative, and Gov. Glenn Youngkin signed the budget in May 2024. Residents of Hampton, Newport News and Franklin were first included, but Youngkin's 2025 budget amendments limited the extra benefit to Norfolk and Portsmouth.

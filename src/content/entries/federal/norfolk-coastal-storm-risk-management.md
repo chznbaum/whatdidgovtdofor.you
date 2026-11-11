@@ -24,9 +24,9 @@ impact:
     label: tallest section of the first floodwall, near Harbor Park
 status:
   state: phasing-in
-  as_of: 2026-11-05
-  note: Site preparation and utility work have begun for the first phase, from the Berkley Bridge east past Harbor Park. The Army Corps held an industry day for floodwall contractors on October 29, 2026, ahead of construction procurement. The Corps' March 2026 cost estimate was about $6.1 billion, with full completion scheduled for 2037 and the city's required share above $2 billion.
-  source: https://sam.gov/workspace/contract/opp/132a56014ffe44a0a373f9312963779b/view
+  as_of: 2026-11-11
+  note: Site preparation and utility work have begun for the first phase, from the Berkley Bridge east past Harbor Park. The Army Corps held an industry day for floodwall contractors on October 29, 2026, ahead of construction procurement. The Corps' March 2026 cost estimate was about $6.1 billion, with full completion now targeted for 2040 and the city's required share above $2 billion.
+  source: https://sam.gov/opp/a8c61d50a50f42fdaa4811646d69c068/view
 credit:
   - official: bobby-scott
     role: championed
@@ -78,15 +78,23 @@ sources:
     url: https://www.congress.gov/bill/116th-congress/house-bill/133
   - title: Norfolk CSRM Phase 1A floodwall construction industry day
     publisher: U.S. Army Corps of Engineers
-    url: https://sam.gov/workspace/contract/opp/132a56014ffe44a0a373f9312963779b/view
+    url: https://sam.gov/opp/a8c61d50a50f42fdaa4811646d69c068/view
     date: 2026-10-30
   - title: Scott highlights priorities for Water Resources Development Act of 2020
     publisher: Office of Rep. Bobby Scott
     url: https://bobbyscott.house.gov/media-center/press-releases/scott-highlights-priorities-water-resources-development-act-2020
     date: 2020-02-27
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the allocations, cost share, project scope, impact figures, authorization history, and credited officials. Updated the status with the latest official completion target and a public SAM.gov citation.
 source_key: us-iija-norfolk-csrm
 ---
 

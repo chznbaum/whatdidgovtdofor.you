@@ -74,7 +74,7 @@ sources:
     publisher: Cardinal News
     url: https://cardinalnews.org/2022/02/02/house-panel-oks-mcnamaras-grocery-tax-repeal/
     date: 2022-02-02
-  - title: "Summary of the Governor's Proposed 2022–24 Budget, Introduced as SB 30"
+  - title: Summary of the Governor's Proposed 2022–24 Budget, Introduced as SB 30
     publisher: Senate Finance & Appropriations Committee staff
     url: https://budget.lis.virginia.gov/sessionreport/2022/1/2352
     date: 2022-01-18
@@ -82,7 +82,7 @@ sources:
     publisher: Senate Finance & Appropriations Committee
     url: https://budget.lis.virginia.gov/sessionreport/2022/1/2370
     date: 2022-02-20
-  - title: "After months of wrangling, Virginia has a budget deal. What's in it?"
+  - title: After months of wrangling, Virginia has a budget deal. What's in it?
     publisher: Virginia Mercury
     url: https://virginiamercury.com/2022/06/01/after-months-of-wrangling-virginia-has-a-budget-deal-whats-in-it/
     date: 2022-06-01
@@ -99,7 +99,12 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-11
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: fail
+  notes: "The tax cut and current 1% rate are real, but the action fails the guide’s net-impact test because Virginia did not replace the transportation revenue it eliminated. The entry also overstates who benefited. Net-impact failure: the Senate Finance and Appropriations Committee explicitly declined to backfill the lost transportation revenue and reduced expected Commonwealth Transportation Fund revenue by $190.1 million for FY2023–24; the enrolled fiscal statement projected continuing annual transportation losses. A recurring revenue cut cannot accurately be described as fully paid from a one-time record surplus. Evidence: https://budget.lis.virginia.gov/sessionreport/2022/1/2370/ and https://legacylis.virginia.gov/cgi-bin/legp604.exe?222+oth+HB90FER161+PDF= The body’s statement that “The state paid for the cut out of a record budget surplus” is materially misleading. The official budget report says transportation revenue was not backfilled and that agency and modal allocations would reflect the foregone revenue; later estimates put the six-year transportation loss at $741.4 million. Evidence: https://sfac.virginia.gov/pdf/committee_meeting_presentations/2022/Annual%20Meeting%20Longwood/111822_No6b_Transportation_Partnerships_FINAL.pdf The `who_benefits` claim and “Every time you buy groceries” opening are too broad. Purchases made with SNAP or WIC were already exempt from Virginia sales tax, so those purchases received no reduction from this law. Evidence: https://law.lis.virginia.gov/vacode/title58.1/chapter6/section58.1-609.10/ and https://www.tax.virginia.gov/sales-tax-exemptions"
 source_key: va-2022-hb90
 ---
 

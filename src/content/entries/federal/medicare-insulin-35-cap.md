@@ -21,7 +21,7 @@ impact:
     label: Medicare Part D enrollees who used insulin in 2020
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: raphael-warnock
     role: championed
@@ -105,8 +105,16 @@ sources:
     date: 2020-03-11
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the $35 cap remains in effect, checked the law, benefit dates, credits, impact figures, and both official roll calls. Corrected the Senate vote total and updated the status check date.
 source_key: us-law-117-169-insulin
 ---
 

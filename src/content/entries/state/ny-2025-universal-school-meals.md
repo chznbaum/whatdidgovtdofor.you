@@ -1,6 +1,6 @@
 ---
 title: Every public school student in New York eats breakfast and lunch free
-dek: Since the 2025–26 school year, every school in the federal meal programs must serve free breakfast and lunch to all students, whatever their family earns. About 2.7 million students qualify.
+dek: Since the 2025–26 school year, every school participating in either federal meal program must serve free breakfast and lunch to all students, whatever their family earns. About 2.7 million students qualify.
 level: state
 jurisdiction: ny
 action:
@@ -12,7 +12,7 @@ topics:
   - food
   - education
   - costs
-who_benefits: About 2.7 million students at public, charter, and participating private schools, and their families.
+who_benefits: About 2.7 million students at public, charter, and nonpublic schools participating in either federal school meal program, and their families.
 impact:
   - figure: 2.7 million
     label: students who can get free breakfast and lunch at school
@@ -22,7 +22,7 @@ impact:
     label: free school meals served statewide in the 2025–26 school year
 status:
   state: in-effect
-  as_of: 2026-11-05
+  as_of: 2026-11-11
 credit:
   - official: michelle-hinchey
     role: championed
@@ -30,6 +30,9 @@ credit:
   - official: jessica-gonzalez-rojas
     role: championed
     note: Prime Assembly sponsor of the Universal School Meals Act (A.282)
+  - official: sarahana-shrestha
+    role: championed
+    note: Advocated for universal school meals beginning in 2023 and co-sponsored A.282
   - official: kathy-hochul
     role: proposed
     note: Included universal school meals in her FY 2026 executive budget
@@ -64,6 +67,10 @@ sources:
     publisher: Office of the Governor of New York
     url: https://governor.ny.gov/news/governor-hochul-announces-396-million-free-school-meals-served-statewide-2025-2026-school-year
     date: 2026-06-26
+  - title: DiNapoli says New York's school meal expansion may be at risk under federal changes
+    publisher: Office of the New York State Comptroller
+    url: https://www.osc.ny.gov/press/releases/2026/10/dinapoli-new-yorks-successful-school-meal-expansion-may-be-risk-under-federal-changes
+    date: 2026-10-15
   - title: Hinchey, advocates and governor unite for universal school meals
     publisher: New York State Senate
     url: https://www.nysenate.gov/newsroom/press-releases/2025/michelle-hinchey/hinchey-advocates-and-governor-unite-universal-school
@@ -80,13 +87,21 @@ sources:
     url: https://www.nysenate.gov/legislation/bills/2025/S3006/amendment/C
 featured: true
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: corrected
+  notes: Confirmed the law, impact figures, funding, both roll calls, and current operation. I corrected the program’s federal-meal-program scope, added a legislator whom a cited source identifies as a champion, and updated the status check.
 source_key: ny-2025-budget-school-meals
 ---
 
-If your child goes to a public or charter school in New York, they can eat breakfast and lunch at school for free every day. Families don't fill out an income form to get it. The law requires every school district, charter school, and private school that takes part in the federal school breakfast and lunch programs to serve both meals free to all students.
+If your child's public, charter, or nonpublic school participates in the National School Lunch Program or School Breakfast Program, they can eat breakfast and lunch at school for free every day. Families don't fill out an income form to get the meals. The law requires participating schools to serve both meals free to all students.
 
 Before this, free meals depended on family income or on whether a school served enough low-income students to qualify for a federal program. Families just above the cutoff paid full price, and advocates say stigma kept some kids from eating and left parents with school meal debt. The state estimates free meals save families about $1,600 per child a year.
 
-Sen. Michelle Hinchey and Assemblymember Jessica González-Rojas carried the Universal School Meals Act for more than two years, with advocates pushing alongside them. Gov. Kathy Hochul, who had left universal meals out of her 2023 budget, included the program in her 2025 budget proposal and signed it into law on May 9, 2025, with $340 million set aside for the first year. In the Senate, the budget bill that carried it passed 44–18, with four Republicans voting yes. Schools served 396 million free meals in the first school year, and the next year's budget raised funding to $395 million.
+Sen. Michelle Hinchey and Assemblymember Jessica González-Rojas carried the Universal School Meals Act for more than two years, with advocates pushing alongside them. Assemblymember Sarahana Shrestha also championed the program. Gov. Kathy Hochul, who had left universal meals out of her 2023 budget, included the program in her 2025 budget proposal and signed it into law on May 9, 2025, with $340 million set aside for the first year. In the Senate, the budget bill that carried it passed 44–18, with four Republicans voting yes. Schools served 396 million free meals in the first school year, and the next year's budget raised funding to $395 million.

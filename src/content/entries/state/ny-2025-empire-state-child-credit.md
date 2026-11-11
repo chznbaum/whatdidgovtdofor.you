@@ -69,8 +69,16 @@ sources:
     url: https://www.nysenate.gov/newsroom/press-releases/2025/andrew-gounardes/sen-gounardes-working-families-tax-credit-included
     date: 2025-03-11
 verification:
-  writer: { model: claude-opus-5-5, via: claude-code, date: 2026-11-11 }
-  verdict: pending
+  writer:
+    model: claude-opus-5-5
+    via: claude-code
+    date: 2026-11-11
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-11
+  verdict: pass
+  notes: Confirmed the amounts, eligibility, enactment details, roll calls, funding context, credit, and current phasing-in status against official sources.
 source_key: ny-2025-budget-empire-state-child-credit
 ---
 
