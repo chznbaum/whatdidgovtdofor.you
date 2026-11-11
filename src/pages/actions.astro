@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import SignGrid from '../components/SignGrid.astro';
+import ActionList from '../components/ActionList.astro';
+import StatusMark from '../components/StatusMark.astro';
 import { getEntries } from '../lib/data.ts';
 import { TOPIC_LABELS } from '../lib/format.ts';
 
@@ -8,13 +9,13 @@ const entries = await getEntries();
 const topics = Object.entries(TOPIC_LABELS).filter(([t]) => entries.some((e) => e.data.topics.includes(t as never)));
 
 const filters = {
-  tone: [
-    ['', 'Any status'],
-    ['guide', 'In effect or delivered'],
-    ['work', 'Phasing in'],
-    ['warning', 'Under threat'],
-    ['stop', 'Ended'],
-  ],
+  group: [
+    ['', 'Any status', null],
+    ['working', 'Working now', 'full'],
+    ['coming', 'Coming', 'half'],
+    ['threat', 'Under threat', 'threat'],
+    ['ended', 'Ended', 'ring'],
+  ] as const,
   level: [
     ['', 'All governments'],
     ['federal', 'Federal'],
@@ -31,10 +32,13 @@ const filters = {
       <fieldset>
         <legend>Status</legend>
         {
-          filters.tone.map(([value, label], i) => (
-            <label data-tone={value || undefined}>
-              <input type="radio" name="tone" value={value} checked={i === 0} />
-              <span>{label}</span>
+          filters.group.map(([value, label, mark], i) => (
+            <label>
+              <input type="radio" name="status" value={value} checked={i === 0} />
+              <span>
+                {mark && <StatusMark mark={mark} size={16} />}
+                {label}
+              </span>
             </label>
           ))
         }
@@ -59,7 +63,7 @@ const filters = {
       </label>
     </form>
     <p class="count" role="status" aria-live="polite" data-count>{entries.length} actions</p>
-    <SignGrid entries={entries} heading="h2" />
+    <ActionList entries={entries} heading="h2" />
     <p class="empty" data-empty hidden>Nothing matches those filters. Try a different status or topic.</p>
   </div>
 </Base>
@@ -72,13 +76,13 @@ const filters = {
 
   function apply() {
     const f = new FormData(form);
-    const tone = f.get('tone') as string;
+    const status = f.get('status') as string;
     const level = f.get('level') as string;
     const topic = f.get('topic') as string;
     let n = 0;
     for (const li of items) {
       const show =
-        (!tone || li.dataset.tone === tone) &&
+        (!status || li.dataset.group === status) &&
         (!level || li.dataset.level === level) &&
         (!topic || li.dataset.topics!.split(' ').includes(topic));
       li.hidden = !show;
@@ -102,8 +106,9 @@ const filters = {
 
 <style>
   h1 {
-    margin-top: 1.5rem;
-    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+    margin-top: 2rem;
+    font-size: clamp(var(--t-3xl), 7vw, var(--t-5xl));
+    letter-spacing: -0.02em;
   }
   .filters {
     display: flex;
@@ -126,7 +131,7 @@ const filters = {
     width: 100%;
     margin-bottom: 0.4rem;
     font-weight: 700;
-    font-size: var(--t-sm);
+    font-size: 1rem;
   }
   fieldset label {
     position: relative;
@@ -138,55 +143,37 @@ const filters = {
     cursor: pointer;
   }
   fieldset span {
-    display: block;
-    padding: 0.45rem 0.8rem 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 44px;
+    padding: 0 0.85rem;
     border: 2px solid var(--ink);
-    border-radius: 8px;
     background: var(--paper);
     font-weight: 700;
-    font-size: var(--t-sm);
+    font-size: 1rem;
   }
-  /* A checked status chip takes that status's sign color, so the filter doubles as the legend. */
   fieldset input:checked + span {
     background: var(--ink);
     color: var(--paper);
-  }
-  label[data-tone='guide'] input:checked + span {
-    background: var(--guide);
-    border-color: var(--guide);
-  }
-  label[data-tone='work'] input:checked + span {
-    background: var(--work);
-    border-color: var(--work);
-    color: var(--ink);
-  }
-  label[data-tone='warning'] input:checked + span {
-    background: var(--warning);
-    border-color: var(--warning);
-    color: var(--ink);
-  }
-  label[data-tone='stop'] input:checked + span {
-    background: var(--stop);
-    border-color: var(--stop);
   }
   fieldset input:focus-visible + span {
     outline: 3px solid var(--ink);
     outline-offset: 2px;
   }
   select {
-    padding: 0.45rem 0.6rem;
+    min-height: 44px;
+    padding: 0 0.6rem;
     border: 2px solid var(--ink);
-    border-radius: 8px;
+    border-radius: 0;
     background: var(--paper);
-    font: 600 var(--t-sm) var(--sans);
+    font: 600 1rem var(--text);
   }
   .count {
-    margin-block: 1.5rem;
+    margin-block: 1.5rem 0.5rem;
     font-weight: 700;
-    color: var(--steel);
   }
   .empty {
-    font-family: var(--serif);
     font-size: var(--t-body);
   }
 </style>

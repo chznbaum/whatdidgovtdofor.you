@@ -1,38 +1,36 @@
-@import '@fontsource-variable/overpass';
-@import '@fontsource-variable/overpass/wght-italic.css';
-@import '@fontsource-variable/source-serif-4/opsz.css';
-@import '@fontsource-variable/source-serif-4/opsz-italic.css';
+@import '@fontsource/young-serif/400.css';
+@import '@fontsource/libre-franklin/400.css';
+@import '@fontsource/libre-franklin/500.css';
+@import '@fontsource/libre-franklin/600.css';
+@import '@fontsource/libre-franklin/700.css';
+@import '@fontsource/libre-franklin/800.css';
 
+/* Faces first: hi-vis orange, ink, paper. Status is a shape plus words, never a hue. See docs/design.md. */
 :root {
-  /* Sign colors. Color encodes status and nothing else; see docs/design.md. */
-  --guide: #006a4e;
-  --work: #f47b20;
-  --warning: #ffc72c;
-  --stop: #b5121b;
-
-  --sky: #dce4e9;
-  --paper: #ffffff;
+  --orange: #ff7a00; /* the ground every portrait stands on; ink on orange is 8:1 */
   --ink: #000000;
-  --steel: #59646b;
-  --rule: #b9c4cb;
+  --paper: #ffffff;
+  --muted: #444444; /* secondary text on paper only (9.7:1); never on orange */
 
-  --sans: 'Overpass Variable', 'Overpass', 'Helvetica Neue', Arial, sans-serif;
-  --serif: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif;
+  --display: 'Young Serif', Georgia, serif;
+  --text: 'Libre Franklin', 'Franklin Gothic', 'Helvetica Neue', Arial, sans-serif;
 
-  /* Type scale (px): 14 · 16 · 19 · 22 · 28 · 36 · 48 · 64 · 84 */
-  --t-xs: 0.875rem;
+  /* Type scale (px): 16 · 17 · 19 · 22 · 26 · 34 · 46 · 58 · 84 · 112 */
+  --t-xs: 1rem;
   --t-sm: 1rem;
-  --t-body: 1.1875rem;
-  --t-md: 1.375rem;
-  --t-lg: 1.75rem;
-  --t-xl: 2.25rem;
-  --t-2xl: 3rem;
-  --t-3xl: 4rem;
-  --t-4xl: 5.25rem;
+  --t-body: 1.0625rem;
+  --t-md: 1.1875rem;
+  --t-lg: 1.375rem;
+  --t-xl: 1.625rem;
+  --t-2xl: 2.125rem;
+  --t-3xl: 2.875rem;
+  --t-4xl: 3.625rem;
+  --t-5xl: 5.25rem;
+  --t-6xl: 7rem;
 
-  --measure: 68ch;
-  --page: 76rem;
-  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --measure: 66ch;
+  --page: 84rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
 
   color-scheme: light;
 }
@@ -50,12 +48,14 @@ html {
 
 body {
   margin: 0;
-  background: var(--sky);
+  background: var(--paper);
   color: var(--ink);
-  font-family: var(--sans);
-  font-size: var(--t-sm);
-  line-height: 1.45;
+  font-family: var(--text);
+  font-size: var(--t-body);
+  line-height: 1.5;
   font-feature-settings: 'kern', 'liga';
+  /* Young Serif defaults to old-style figures; the 12 in "12 weeks" has to stand as tall as the words. */
+  font-variant-numeric: lining-nums;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -65,30 +65,39 @@ svg {
   max-width: 100%;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 h1,
 h2,
 h3,
 h4 {
   margin: 0;
-  font-family: var(--sans);
-  font-weight: 800;
+  font-family: var(--display);
+  font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.01em;
+  font-variant-numeric: lining-nums;
   text-wrap: balance;
 }
 
 p {
   margin: 0;
+  text-wrap: pretty;
 }
 
 a {
   color: inherit;
+  text-underline-offset: 0.18em;
 }
 
 :focus-visible {
   outline: 3px solid var(--ink);
   outline-offset: 3px;
-  box-shadow: 0 0 0 6px var(--warning);
+}
+.on-ink :focus-visible {
+  outline-color: var(--paper);
 }
 
 .wrap {
@@ -96,22 +105,17 @@ a {
   margin-inline: auto;
 }
 
-/* Reading surfaces: the fine print. */
+/* Reading surfaces: the full record. */
 .prose {
-  font-family: var(--serif);
   font-size: var(--t-body);
-  line-height: 1.62;
+  line-height: 1.6;
   max-width: var(--measure);
 }
-
 .prose p + p {
   margin-top: 0.9em;
 }
-
 .prose a {
-  color: var(--guide);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
 }
 
 .visually-hidden {
@@ -126,6 +130,16 @@ a {
 
 .num {
   font-variant-numeric: tabular-nums lining-nums;
+}
+
+.nb {
+  white-space: nowrap;
+}
+
+/* Section heads on paper: the display face, no eyebrows, no rules. */
+.sec-h {
+  font-size: clamp(var(--t-xl), 4vw, var(--t-2xl));
+  margin-bottom: 1.25rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import AddressForm from '../components/AddressForm.astro';
-import SignGrid from '../components/SignGrid.astro';
+import ActionList from '../components/ActionList.astro';
 import { getEntries } from '../lib/data.ts';
 
 // Every sign is rendered here, hidden; the script below reveals the ones that apply to the address.
@@ -38,7 +38,7 @@ const levels = [
         levels.map(({ level, title }) => (
           <section aria-labelledby={`lvl-${level}`} data-level-section={level}>
             <h2 id={`lvl-${level}`}>{title}</h2>
-            <SignGrid entries={entries.filter((e) => e.data.level === level)} />
+            <ActionList entries={entries.filter((e) => e.data.level === level)} />
           </section>
         ))
       }
@@ -282,23 +282,18 @@ const levels = [
 
 <style>
   .ask {
-    max-width: 52rem;
-    margin-top: 1.5rem;
-    padding: 9px;
-    background: var(--guide);
-    color: var(--paper);
-    border-radius: 24px;
+    margin-inline: calc(-1 * var(--gutter));
+    padding: 1.25rem var(--gutter) 1.75rem;
+    background: var(--orange);
   }
   .ask .face {
-    border: 5px solid var(--paper);
-    border-radius: 15px;
-    padding: clamp(1.25rem, 4vw, 2.25rem);
+    max-width: 44rem;
   }
   h1 {
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    font-size: clamp(var(--t-xl), 6vw, var(--t-2xl));
+    margin-bottom: 1.25rem;
+    font-size: clamp(var(--t-2xl), 7vw, var(--t-4xl));
     line-height: 1;
+    letter-spacing: -0.02em;
   }
   .status {
     margin-top: 1.5rem;
@@ -317,7 +312,7 @@ const levels = [
   .districts {
     margin-top: 0.5rem;
     font-weight: 600;
-    color: var(--steel);
+    color: var(--muted);
   }
   .tiers {
     display: grid;
@@ -325,17 +320,12 @@ const levels = [
     gap: 1.5rem;
     margin-top: 1.5rem;
   }
-  /* Officials sit on white plates, like the name plate on an official's page. */
   .tiers :global(.tier) {
-    padding: 6px;
-    background: var(--paper);
-    border-radius: 14px;
+    border: 3px solid var(--ink);
   }
   .tiers :global(h3) {
     padding: 0.85rem 1rem 0.3rem;
-    font-size: var(--t-sm);
-    font-weight: 700;
-    color: var(--steel);
+    font: 700 1rem / 1.3 var(--text);
   }
   .tiers :global(ul) {
     display: grid;
@@ -348,13 +338,12 @@ const levels = [
     display: grid;
   }
   .tiers :global(.title) {
-    font-size: var(--t-sm);
+    font-size: 1rem;
     font-weight: 600;
-    color: var(--steel);
+    color: var(--muted);
   }
   .tiers :global(.name) {
-    font-weight: 800;
-    font-size: var(--t-md);
+    font: 400 var(--t-lg) / 1.2 var(--display);
     text-decoration: none;
   }
   .tiers :global(a.name:hover) {
@@ -362,16 +351,14 @@ const levels = [
   }
   .tiers :global(.record) {
     font-weight: 700;
-    font-size: var(--t-sm);
-    color: var(--guide);
+    font-size: 1rem;
   }
   .tiers :global(.record.none) {
     font-weight: 500;
-    color: var(--steel);
+    color: var(--muted);
   }
   .coverage {
     margin-top: 1rem;
-    font-family: var(--serif);
     font-size: var(--t-body);
     max-width: var(--measure);
   }

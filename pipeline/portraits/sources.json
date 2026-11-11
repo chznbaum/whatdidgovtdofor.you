@@ -1,0 +1,102 @@
+{
+  "andrea-stewart-cousins": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/andrea-stewart-cousins",
+    "image": "https://www.nysenate.gov/sites/default/files/asc-hs-new_0.jpg",
+    "publisher": "New York State Senate",
+    "license": "© New York State Senate, used as a drawing reference",
+    "width": 2400,
+    "height": 2808,
+    "notes": "Official Senate headshot (the 4:3 member photo on her page). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine snapshot of the same URL (web.archive.org/web/20261019041751/...). Front-facing, broad smile, short dark hair with grey, gold earrings and chain, colorful scarf over one shoulder, flag behind."
+  },
+  "amy-paulin": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Amy-Paulin",
+    "image": "https://nyassembly.gov/write/upload/member_files/088/headshot/088.jpg",
+    "publisher": "New York State Assembly",
+    "license": "© New York State Assembly, used as a drawing reference",
+    "width": 1333,
+    "height": 2000,
+    "notes": "Assembly directory headshot. Seated at a desk, front-facing, wide smile, shoulder-length light brown hair with highlights, royal blue jacket and top, pearl necklace. A larger cut-out version (header_headshot/088.png, 1653x2000, face bigger) exists on the same page."
+  },
+  "catalina-cruz": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Catalina-Cruz",
+    "image": "https://nyassembly.gov/write/upload/member_files/039/headshot/039.jpg",
+    "publisher": "New York State Assembly",
+    "license": "© New York State Assembly, used as a drawing reference",
+    "width": 746,
+    "height": 900,
+    "notes": "Assembly directory headshot, studio backdrop with flag. Front-facing, smiling, long wavy brown hair with lighter ends, hoop earrings, light blue blazer with Assembly pin. Face is ~220px across; largest version the Assembly serves."
+  },
+  "jessica-gonzalez-rojas": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Jessica-Gonzalez-Rojas",
+    "image": "https://nyassembly.gov/write/upload/member_files/034/headshot/034.jpg",
+    "publisher": "New York State Assembly",
+    "license": "© New York State Assembly, used as a drawing reference",
+    "width": 2000,
+    "height": 2800,
+    "notes": "Assembly directory headshot, blue studio backdrop. Front-facing, smiling, long wavy brown hair with highlights, hoop earrings, black blazer over green top, Assembly pin. Photo dates from about 2022."
+  },
+  "shahana-hanif": {
+    "tier": "official",
+    "page": "https://legistar.council.nyc.gov/PersonDetail.aspx?ID=259849&GUID=BF9C1F20-BAA2-4DE7-A446-8C82874071E9",
+    "image": "https://legistar.council.nyc.gov/View.ashx?M=P&ID=259849&GUID=BF9C1F20-BAA2-4DE7-A446-8C82874071E9",
+    "publisher": "New York City Council",
+    "license": "© New York City Council, used as a drawing reference",
+    "width": 419,
+    "height": 600,
+    "notes": "Council member photo from the Council's Legistar profile (council.nyc.gov/district-39 has only a street-scene hero image). Front-facing, smiling, round wire-rimmed glasses, long dark hair, blue patterned scarf over a blue top, outdoors. Small file: face ~220px across."
+  },
+  "sandy-nurse": {
+    "tier": "official",
+    "page": "https://legistar.council.nyc.gov/PersonDetail.aspx?ID=259847&GUID=4390C59C-FBE7-458F-940F-1BABE234DC3F",
+    "image": "https://legistar.council.nyc.gov/View.ashx?M=P&ID=259847&GUID=4390C59C-FBE7-458F-940F-1BABE234DC3F",
+    "publisher": "New York City Council",
+    "license": "© New York City Council, used as a drawing reference",
+    "width": 416,
+    "height": 600,
+    "notes": "Council member photo from the Council's Legistar profile (council.nyc.gov/district-37 has only a rally hero image). Front-facing, big smile, voluminous dark curly hair, large gold hoop earrings, orange-red blazer. Small file: face ~200px across."
+  },
+  "gale-brewer": {
+    "tier": "official",
+    "page": "https://legistar.council.nyc.gov/PersonDetail.aspx?ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5",
+    "image": "https://legistar.council.nyc.gov/View.ashx?M=P&ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5",
+    "publisher": "New York City Council",
+    "license": "© New York City Council, used as a drawing reference",
+    "width": 473,
+    "height": 600,
+    "notes": "Council member photo from the Council's Legistar profile (council.nyc.gov/district-6 hero shows her small in a park). Front-facing, smiling, shoulder-length light blonde/grey hair, pink blazer, pearl necklace, green foliage behind. Face ~220px across."
+  },
+  "julie-menin": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/julie-menin/",
+    "image": "https://council.nyc.gov/julie-menin/wp-content/uploads/sites/89/2026/09/55514669632_945f17a3a2_o.jpg",
+    "publisher": "New York City Council",
+    "license": "© New York City Council, used as a drawing reference",
+    "width": 2911,
+    "height": 3639,
+    "notes": "Speaker's official portrait (shown on her Council site, linking to /julie-menin/biography/). Front-facing, closed-mouth smile, long wavy auburn-brown hair, black blazer over white top, US and NYC flags behind."
+  },
+  "mark-levine": {
+    "tier": "official",
+    "page": "https://comptroller.nyc.gov/about/about-mark-levine/",
+    "image": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/Comptroller-Mark-Levine-1.jpg",
+    "publisher": "Office of the New York City Comptroller",
+    "license": "© NYC Comptroller's Office, used as a drawing reference",
+    "width": 2048,
+    "height": 1365,
+    "notes": "Current (2026) NYC Comptroller portrait; he was the Council member for District 7, 2014-2021. Slight three-quarter, smiling, rectangular dark-rimmed glasses, short receding brown hair, short greying beard, blue suit, burgundy tie, Municipal Building columns. Face ~300px across."
+  },
+  "vanessa-gibson": {
+    "tier": "official",
+    "page": "https://bronxboropres.nyc.gov/about_us/borough_president.php",
+    "image": "https://bronxboropres.nyc.gov/Images/About%20Us/Borough%20President/BP_2026.jpg",
+    "publisher": "Office of the Bronx Borough President",
+    "license": "© Office of the Bronx Borough President, used as a drawing reference",
+    "width": 3510,
+    "height": 3510,
+    "notes": "Current (2026) Bronx Borough President portrait; she was the Council member for District 16, 2014-2021. Front-facing, smiling, long dark wavy hair, red blazer over black top, gold chain necklace, flags behind."
+  }
+}

@@ -1,0 +1,107 @@
+---
+// One person (or body) as the site shows them: an ink drawing cut out on orange, drawn from a real photo.
+// No photo on file: their initials, set in type. A body (a council, a board): its name, set in type.
+// Never an invented face. The source photo is never shown here; PortraitCredit links to the page it came from.
+import type { Official } from '../lib/data.ts';
+import { initials } from '../lib/format.ts';
+
+interface Props {
+  official: Official;
+  // `tile`: a square that the head breaks out of. `cutout`: the bare drawing, sized by its parent. `thumb`: a small square.
+  variant?: 'tile' | 'cutout' | 'thumb';
+  sizes?: string;
+  eager?: boolean;
+  class?: string;
+}
+
+const { official, variant = 'tile', sizes = '(min-width: 60rem) 16rem, 8rem', eager = false, class: cls } = Astro.props;
+const o = official.data;
+const p = o.portrait;
+const small = p?.image.replace(/\.webp$/, '-400.webp');
+const loading = eager ? 'eager' : 'lazy';
+---
+
+{
+  p ? (
+    <figure class:list={['face', `v-${variant}`, cls]} data-face={official.id}>
+      <img
+        class="ink"
+        src={p.image}
+        srcset={`${small} 400w, ${p.image} 800w`}
+        sizes={sizes}
+        width="800"
+        height="800"
+        alt={`Ink drawing of ${o.name}`}
+        loading={loading}
+        decoding="async"
+      />
+    </figure>
+  ) : (
+    <div class:list={['face', 'type', `v-${variant}`, o.kind === 'body' ? 't-body' : 't-initials', cls]} aria-hidden="true">
+      <span>{o.kind === 'body' ? o.name : initials(o.name)}</span>
+    </div>
+  )
+}
+
+<style>
+  .face {
+    position: relative;
+    margin: 0;
+  }
+  .ink {
+    width: 100%;
+    height: auto;
+  }
+  /* Tile: an orange square; the head rises out of its top edge. */
+  .v-tile {
+    aspect-ratio: 1;
+    background: var(--orange);
+    container-type: inline-size;
+    clip-path: inset(-60% 0 0 0);
+  }
+  .v-tile .ink {
+    position: absolute;
+    left: -9%;
+    bottom: 0;
+    width: 118%;
+    max-width: none;
+  }
+
+  .v-thumb {
+    width: 3.75rem;
+    aspect-ratio: 1;
+    background: var(--orange);
+    overflow: hidden;
+    container-type: inline-size;
+  }
+
+  /* Type stand-ins: initials for a person with no photo, the name for a body. */
+  .type {
+    display: flex;
+    align-items: flex-end;
+    background: var(--orange);
+    overflow: hidden;
+  }
+  .type span {
+    font-family: var(--display);
+    line-height: 0.86;
+    letter-spacing: -0.03em;
+    padding: 0 0.12em 0.12em;
+  }
+  .t-initials span {
+    font-size: 50cqw;
+    padding: 0 0.08em 0.1em;
+  }
+  .t-body span {
+    font-size: 17cqw;
+    padding: 0 8cqw 7cqw;
+    line-height: 0.92;
+    hyphens: auto;
+  }
+  .v-cutout.type {
+    width: 100%;
+    aspect-ratio: 1;
+    container-type: inline-size;
+    background: none;
+  }
+</style>

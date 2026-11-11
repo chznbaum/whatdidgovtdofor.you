@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # pipeline working state (candidates are re-fetchable)
 pipeline/state/
+
+# source photos of officials are never republished (pipeline/portraits/SOURCING.md)
+public/portraits/photos/

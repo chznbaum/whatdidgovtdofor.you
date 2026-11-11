@@ -1,0 +1,119 @@
+---
+// One action in a list: the face of the person who did the work, what they did for you, and where it stands.
+import { getEntry } from 'astro:content';
+import { entryUrl, type Entry } from '../lib/data.ts';
+import { ROLE_BYLINE, coverCredits, nameWithParty } from '../lib/format.ts';
+import Face from './Face.astro';
+import PortraitCredit from './PortraitCredit.astro';
+import Status from './Status.astro';
+
+interface Props {
+  entry: Entry;
+  heading?: 'h2' | 'h3';
+  caption?: string;
+  threatDetail?: boolean;
+}
+
+const { entry, heading = 'h3', caption, threatDetail } = Astro.props;
+const d = entry.data;
+const stars = await Promise.all(coverCredits(d.credit).map(async (c) => ({ ...c, official: (await getEntry(c.official))! })));
+// Two faces share a tile only when both have drawings; otherwise the key person (credit[0]) stands alone.
+const onTile = stars.length > 1 && stars.every((s) => s.official.data.portrait) ? stars : stars.slice(0, 1);
+const faces = onTile.map((s) => s.official);
+const byline = `${ROLE_BYLINE[stars[0].role]} ${new Intl.ListFormat('en', { type: 'conjunction' }).format(stars.map((s) => nameWithParty(s.official.data)))}.`;
+const H = heading;
+---
+
+<article class="card">
+  <div class="art">
+    {
+      faces.length > 1 ? (
+        <div class="duo">
+          {faces.map((f) => (
+            <Face official={f} variant="cutout" sizes="(min-width: 60rem) 12rem, 7rem" />
+          ))}
+        </div>
+      ) : (
+        <Face official={faces[0]} />
+      )
+    }
+    <PortraitCredit people={faces} class="card-credit" />
+  </div>
+  <a class="body" href={entryUrl(entry)}>
+    <H class="title">{d.title}</H>
+    <p class="by">{byline}</p>
+    {caption && <p class="caption">{caption}</p>}
+    <Status entry={entry} threatDetail={threatDetail} class="card-status" />
+  </a>
+</article>
+
+<style>
+  .card {
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+  .art {
+    min-width: 0;
+  }
+  /* Two people on one tile, side by side, both breaking out of the top. */
+  .duo {
+    position: relative;
+    aspect-ratio: 1;
+    background: var(--orange);
+    clip-path: inset(-60% 0 0 0);
+  }
+  .duo :global(.face) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .duo :global(.face:nth-child(1)) {
+    left: -26%;
+  }
+  .duo :global(.face:nth-child(2)) {
+    left: 30%;
+  }
+  .art :global(.card-credit) {
+    margin-top: 0.15rem;
+  }
+  .body {
+    display: grid;
+    gap: 0.5rem;
+    text-decoration: none;
+  }
+  .title {
+    font-size: var(--t-lg);
+    line-height: 1.16;
+    margin-top: -0.2rem;
+  }
+  .body:hover .title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.12em;
+  }
+  .by {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .caption {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .body :global(.card-status) {
+    margin-top: 0.1rem;
+    justify-self: start;
+  }
+
+  @container cards (min-width: 40rem) {
+    .card {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.5rem;
+    }
+    .title {
+      margin-top: 0.35rem;
+    }
+  }
+</style>

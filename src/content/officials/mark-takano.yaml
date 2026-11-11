@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: T000472 }
 url: https://takano.house.gov
+portrait:
+  image: /portraits/mark-takano.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/T000472
+    license: Public domain

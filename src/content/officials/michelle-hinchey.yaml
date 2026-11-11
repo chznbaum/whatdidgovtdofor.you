@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/0f3cecb9-87fb-48c7-96af-fd3ff8e0cd8b }
 url: https://www.nysenate.gov/senators/michelle-hinchey
+portrait:
+  image: /portraits/michelle-hinchey.webp
+  kind: photo
+  source:
+    label: NY Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Michelle_Hinchey.jpg
+    license: CC BY 2.5

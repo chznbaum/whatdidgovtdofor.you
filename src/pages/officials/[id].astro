@@ -1,7 +1,9 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import SignGrid from '../../components/SignGrid.astro';
+import ActionList from '../../components/ActionList.astro';
+import Face from '../../components/Face.astro';
+import PortraitCredit from '../../components/PortraitCredit.astro';
 import { getEntries, placeUrl, type Official } from '../../lib/data.ts';
 import { PARTY_NAMES, ROLE_LABEL, nameWithParty } from '../../lib/format.ts';
 
@@ -28,10 +30,10 @@ const tenure = o.current ? 'Serving now' : 'Former';
   title={nameWithParty(o)}
   description={`What ${o.name} did for people as ${o.office}: ${entries.length} action${entries.length === 1 ? '' : 's'} on record.`}
 >
-  <div class="wrap">
-    <header class="plate">
-      <div class="face">
-        <h1>{o.name}</h1>
+  <header class="cover" id="cover">
+    <div class="cover-in">
+      <div class="who">
+        <h1>{nameWithParty(o)}</h1>
         <p class="office">{o.office}</p>
         <p class="meta">
           {o.kind === 'person' && o.party && <span>{PARTY_NAMES[o.party]}</span>}
@@ -39,16 +41,20 @@ const tenure = o.current ? 'Serving now' : 'Former';
           <a href={placeUrl(place.id)}>{place.data.name}</a>
           {o.url && <a href={o.url}>Official website</a>}
         </p>
+        {o.portrait && <PortraitCredit people={[official]} class="person-credit" />}
+        {o.kind === 'person' && !o.portrait && <p class="no-photo">No photo on file, so initials stand in.</p>}
       </div>
-    </header>
-
+      <Face official={official} variant="cutout" class="person-face" eager sizes="(min-width: 60rem) 26rem, 14rem" />
+    </div>
+  </header>
+  <div class="wrap">
     <section aria-labelledby="did-h" class="did">
       <h2 id="did-h">
-        {entries.length > 0 ? `What ${o.kind === 'body' ? 'it' : o.name.split(' ').at(-1)} helped do` : 'Nothing on record yet'}
+        {entries.length > 0 ? `What ${o.kind === 'body' ? 'it' : o.name.split(' ').at(-1)} did for people` : 'Nothing on record yet'}
       </h2>
       {
         entries.length > 0 ? (
-          <SignGrid entries={entries} captions={captions} />
+          <ActionList entries={entries} captions={captions} />
         ) : (
           <p class="empty">
             We haven't recorded any actions credited to {o.name} yet. If you know of one, <a href="mailto:corrections@whatdidgovtdofor.you">tell us</a>.
@@ -60,49 +66,74 @@ const tenure = o.current ? 'Serving now' : 'Former';
 </Base>
 
 <style>
-  /* A white regulatory-style plate: black legend, black border. */
-  .plate {
-    max-width: 44rem;
-    margin-top: 1.5rem;
-    padding: 8px;
-    background: var(--paper);
-    border-radius: 18px;
+  .cover {
+    background: var(--orange);
+    overflow: hidden;
   }
-  .face {
-    border: 4px solid var(--ink);
-    border-radius: 11px;
-    padding: clamp(1.25rem, 4vw, 2rem);
+  .cover-in {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 9.5rem;
+    align-items: end;
+    gap: 0 1rem;
+    width: min(100% - 2 * var(--gutter), var(--page));
+    margin-inline: auto;
+  }
+  .who {
+    padding: 1.25rem 0 1rem;
   }
   h1 {
-    font-weight: 800;
-    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+    font-size: clamp(var(--t-2xl), 8vw, var(--t-5xl));
     line-height: 1;
+    letter-spacing: -0.02em;
   }
   .office {
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
     font-weight: 600;
     font-size: var(--t-md);
+    line-height: 1.3;
   }
   .meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.25rem 1.25rem;
-    margin-top: 1rem;
+    gap: 0 1.25rem;
+    margin-top: 0.75rem;
     font-weight: 600;
-    color: var(--steel);
+    font-size: 1rem;
   }
-  .meta a {
-    color: var(--ink);
+  .meta > * {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .no-photo {
+    font-size: 1rem;
+  }
+  .cover :global(.person-face) {
+    align-self: end;
+    margin-right: -1rem;
+  }
+  .cover :global(.person-face.t-body) {
+    display: none;
+  }
+  .cover :global(.person-face.t-initials span) {
+    font-size: 70cqw;
+  }
+  @media (min-width: 60rem) {
+    .cover-in {
+      grid-template-columns: minmax(0, 1fr) 26rem;
+    }
+    .who {
+      padding: 3rem 0 2.5rem;
+    }
   }
   .did {
-    margin-top: 3.5rem;
+    margin-top: 3rem;
   }
   .did h2 {
-    margin-bottom: 1.25rem;
-    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
+    margin-bottom: 0.5rem;
+    font-size: clamp(var(--t-xl), 4vw, var(--t-2xl));
   }
   .empty {
-    font-family: var(--serif);
     font-size: var(--t-body);
     max-width: var(--measure);
   }

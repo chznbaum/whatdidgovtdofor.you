@@ -1,0 +1,56 @@
+---
+// A list of actions as faces. Rows on a phone; a grid of faces once there's room.
+import ActionCard from './ActionCard.astro';
+import { entryPlaceIds, type Entry } from '../lib/data.ts';
+import { GROUP } from '../lib/status.ts';
+
+interface Props {
+  entries: Entry[];
+  heading?: 'h2' | 'h3';
+  // Optional line under each card, keyed by entry id (e.g. an official's role).
+  captions?: Map<string, string>;
+  threatDetail?: boolean;
+}
+
+const { entries, heading = 'h3', captions, threatDetail } = Astro.props;
+---
+
+<div class="cards">
+  <ul class="list" role="list">
+    {
+      entries.map((entry) => (
+        <li
+          data-entry={entry.id}
+          data-places={entryPlaceIds(entry).join(' ')}
+          data-group={GROUP[entry.data.status.state]}
+          data-level={entry.data.level}
+          data-topics={entry.data.topics.join(' ')}
+        >
+          <ActionCard entry={entry} heading={heading} caption={captions?.get(entry.id)} threatDetail={threatDetail} />
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<style>
+  .cards {
+    container: cards / inline-size;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.75rem 1.75rem;
+    margin: 0;
+    /* Room for the first row of heads to break out of their tiles. */
+    padding: 1.75rem 0 0;
+    list-style: none;
+  }
+  @container cards (min-width: 40rem) {
+    .list {
+      grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+      gap: 3.5rem 1.75rem;
+      padding-top: 2.5rem;
+    }
+  }
+</style>

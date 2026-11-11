@@ -1,0 +1,74 @@
+---
+// Where an action stands: the shape and the words. Under threat sits on an inverted band so it can't be missed.
+import type { Entry } from '../lib/data.ts';
+import { formatShortDate } from '../lib/format.ts';
+import { MARK, statusText } from '../lib/status.ts';
+import StatusMark from './StatusMark.astro';
+
+interface Props {
+  entry: Entry;
+  // `line`: one line for lists. `full`: headline plus detail, for covers and the record.
+  variant?: 'line' | 'full';
+  // Show the threat's full note on a list card (used where only a few appear, like the home page).
+  threatDetail?: boolean;
+  class?: string;
+}
+
+const { entry, variant = 'line', threatDetail = false, class: cls } = Astro.props;
+const d = entry.data;
+const mark = MARK[d.status.state];
+const { head, detail } = statusText(d);
+const threat = mark === 'threat';
+const asOf = `As of ${formatShortDate(d.status.as_of).replaceAll(' ', '\u00a0')}.`;
+const showDetail = variant === 'full' || (threat && threatDetail);
+---
+
+<div class:list={['status', `s-${variant}`, threat && 'threat', cls]} data-mark={mark}>
+  <StatusMark mark={mark} size={variant === 'full' ? 24 : 18} />
+  <p>
+    <b class="head">{head}</b>
+    {showDetail && detail && <span class="detail"> {detail}</span>}
+    {(threat || (variant === 'full' && mark !== 'full')) && <span class="asof"> {asOf}</span>}
+  </p>
+</div>
+
+<style>
+  .status {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+  }
+  .status :global(.mark) {
+    margin-top: 0.2em;
+  }
+  .s-line {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .s-line .head {
+    font-weight: 800;
+  }
+  .threat {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.35rem 0.6rem 0.45rem;
+  }
+  .s-full .head {
+    display: block;
+    font: 400 var(--t-xl) / 1.12 var(--display);
+  }
+  .s-full .detail,
+  .s-full .asof {
+    font-size: var(--t-body);
+  }
+  .s-full .detail {
+    display: inline;
+  }
+  .s-full p > .detail:first-of-type {
+    display: block;
+    margin-top: 0.4rem;
+  }
+  .s-full.threat {
+    padding: 0.9rem 1rem 1rem;
+  }
+</style>

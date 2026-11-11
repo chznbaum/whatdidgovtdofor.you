@@ -153,12 +153,30 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
       .object({ bioguide: z.string().optional(), openstates: z.string().optional(), wikidata: z.string().optional() })
       .default({}),
     url: z.url().optional(),
+    // An ink illustration drawn from a real photo of this person (see docs/design.md, "Portraits", and
+    // pipeline/portraits/). Without one, the site shows the person's initials; it never invents a face.
+    // The site never republishes the photo itself; it links to the page the photo came from.
+    portrait: z
+      .object({
+        // Cutout drawing under public/, e.g. /portraits/jennifer-boysko.webp (a -400.webp sibling serves small tiles).
+        image: z.string().regex(/^\/portraits\/[a-z0-9-]+\.webp$/),
+        // `official` only for an official government portrait (the Congress bioguide); everything else is `photo`.
+        kind: z.enum(['official', 'photo']),
+        source: z.object({
+          label: z.string(), // "U.S. Congress", "Senate of Virginia", "NY Senate, via Wikimedia Commons"
+          // The page the photo came from, linked from every drawing: a bioguide, member, or Commons file page,
+          // never a bare image file.
+          url: z.url(),
+          license: z.string().optional(), // "Public domain", "CC BY 2.0"
+        }),
+      })
+      .optional(),
   });
 
 export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) =>
   z.object({
     name: z.string(),
-    short: z.string().max(14), // text on the route plate: "US", "NY", "NYC", "Norfolk"
+    short: z.string().max(14), // short name: "US", "NY", "NYC", "Norfolk"
     kind: z.enum(['country', 'state', 'region', 'city', 'county']),
     parent: ref.places.optional(),
     // Census GEOIDs the address lookup matches against.

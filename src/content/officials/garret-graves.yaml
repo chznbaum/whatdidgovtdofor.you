@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: G000577 }
+portrait:
+  image: /portraits/garret-graves.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/G000577
+    license: Public domain

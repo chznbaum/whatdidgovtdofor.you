@@ -6,3 +6,9 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/23775904-887c-4a2c-9424-0683608193ba }
 url: https://house.vga.virginia.gov/members/H0343
+portrait:
+  image: /portraits/briana-sewell.webp
+  kind: photo
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0343

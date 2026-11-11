@@ -1,117 +1,86 @@
 ---
+// The cover: the site's question, answered by a face. Then the address lookup, and more people with what they did.
+import { getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import AddressForm from '../components/AddressForm.astro';
-import SignGrid from '../components/SignGrid.astro';
-import { entriesWithin, getEntries, getPlacesMap, placeUrl, type Entry } from '../lib/data.ts';
-import { TONE } from '../lib/status.ts';
+import ActionList from '../components/ActionList.astro';
+import Face from '../components/Face.astro';
+import PortraitCredit from '../components/PortraitCredit.astro';
+import Status from '../components/Status.astro';
+import { entriesWithin, entryUrl, getEntries, getPlacesMap, placeUrl, type Entry } from '../lib/data.ts';
+import { ROLE_BYLINE, nameWithParty } from '../lib/format.ts';
+import { GROUP } from '../lib/status.ts';
 
 const entries = await getEntries();
 const places = await getPlacesMap();
 
-// The distance sign: each place with the number of actions on record there.
-const destinations = ['us', 'ny', 'nyc', 'va', 'hampton-roads'].map((id) => {
+// The cover story. An editor's pick; it falls back to the newest featured action whose key person has a drawing.
+// Leading with a Republican who did the work says, without saying it, that this site credits whoever did it.
+const LEAD = 'social-security-fairness-act';
+const hasFace = async (e: Entry) => Boolean((await getEntry(e.data.credit[0].official))?.data.portrait);
+const featured = entries.filter((e) => e.data.featured);
+let lead = entries.find((e) => e.id.endsWith(`/${LEAD}`));
+if (!lead || !(await hasFace(lead))) {
+  for (const e of featured) if (await hasFace(e)) { lead = e; break; }
+}
+lead ??= entries[0];
+const ld = lead.data;
+const leadCredit = ld.credit[0];
+const leadPerson = (await getEntry(leadCredit.official))!;
+const leadFig = ld.impact.find((i) => !ld.title.toLowerCase().includes(i.figure.toLowerCase()));
+
+// More people: the featured actions. Then whatever else is under threat, and what has already ended.
+const shown = new Set<Entry>([lead]);
+const take = (list: Entry[]) => list.filter((e) => !shown.has(e) && shown.add(e));
+const more = take(featured);
+const threatened = take(entries.filter((e) => GROUP[e.data.status.state] === 'threat'));
+const ended = take(entries.filter((e) => GROUP[e.data.status.state] === 'ended'));
+
+const destinations = ['us', 'va', 'hampton-roads', 'ny', 'nyc'].map((id) => {
   const place = places.get(id)!;
   const count = id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
   return { id, name: place.data.name, count };
 });
-
-const bipartisan = (e: Entry) =>
-  e.data.votes.some((v) => (v.by_party?.D?.yes ?? 0) > 0 && (v.by_party?.R?.yes ?? 0) > 0);
-
-// Each section skips signs already shown above it. Every under-threat sign gets its own section.
-const shown = new Set<Entry>();
-const take = (list: Entry[], n: number) => {
-  const out = list.filter((e) => !shown.has(e)).slice(0, n);
-  out.forEach((e) => shown.add(e));
-  return out;
-};
-const threatenedAll = entries.filter((e) => e.data.status.state === 'under-threat');
-const live = entries.filter((e) => TONE[e.data.status.state] !== 'stop' && !threatenedAll.includes(e));
-const featured = take(live.filter((e) => e.data.featured), 8);
-const recent = take(live, 6);
-const threatened = take(threatenedAll, 12);
-const bothParties = take(live.filter(bipartisan), 6);
-const ended = take(entries.filter((e) => TONE[e.data.status.state] === 'stop'), 6);
 ---
 
 <Base>
-  <section class="road" aria-labelledby="hero-h">
-    <div class="wrap gantry">
-      <div class="mount">
-        <div class="panel big">
-          <div class="face">
-            <h1 id="hero-h">What did government do for you?</h1>
-            <AddressForm />
-          </div>
-        </div>
-      </div>
-      <div class="mount">
-        <nav class="panel distance" aria-labelledby="dest-h">
-          <div class="face">
-            <h2 id="dest-h">Actions on record</h2>
-            <ul role="list">
-              {
-                destinations.map((d) => (
-                  <li>
-                    <a href={placeUrl(d.id)}>
-                      <span class="dest">{d.name}</span>
-                      <span class="miles num">{d.count}</span>
-                    </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </div>
-        </nav>
-      </div>
+  <div class="top" id="lead">
+    <section class="cover" aria-labelledby="q">
+      <h1 id="q" class="q"><span>What did</span> <span>government</span> <span>do for</span> <span>you?</span></h1>
+      <Face official={leadPerson} variant="cutout" class="lead-face" eager sizes="(min-width: 60rem) 36rem, 22rem" />
+      <PortraitCredit people={[leadPerson]} class="lead-credit" />
+    </section>
+
+    <div class="side on-ink">
+      <section class="deed" aria-label="What they did">
+        <h2 class="deed-what"><a href={entryUrl(lead)}>{ld.title}</a></h2>
+        <p class="deed-who">
+          {ROLE_BYLINE[leadCredit.role]} {nameWithParty(leadPerson.data)}.{leadCredit.note && ` ${leadCredit.note}.`}
+        </p>
+        <Status entry={lead} class="deed-status" />
+        {
+          leadFig && (
+            <p class="deed-fig">
+              <b>{leadFig.figure}</b> {leadFig.label}
+            </p>
+          )
+        }
+      </section>
+      <AddressForm />
     </div>
-  </section>
+  </div>
 
-  <div class="wrap sections">
-    {
-      featured.length > 0 && (
-        <section aria-labelledby="start-h">
-          <header class="sec-head">
-            <h2 id="start-h">Start here</h2>
-            <p>Things government did that you can feel in your wallet, your commute, or your doctor's office.</p>
-          </header>
-          <SignGrid entries={featured} />
-        </section>
-      )
-    }
-
-    {
-      recent.length > 0 && (
-        <section aria-labelledby="recent-h">
-          <header class="sec-head">
-            <h2 id="recent-h">Most recent</h2>
-            <p>The latest actions on record, newest first.</p>
-          </header>
-          <SignGrid entries={recent} />
-        </section>
-      )
-    }
+  <div class="wrap lists">
+    <section aria-labelledby="more-h">
+      <h2 id="more-h" class="sec-h">More people who did something</h2>
+      <ActionList entries={more} threatDetail />
+    </section>
 
     {
       threatened.length > 0 && (
         <section aria-labelledby="threat-h">
-          <header class="sec-head">
-            <h2 id="threat-h">Could be taken away</h2>
-            <p>These are in effect today, but a specific effort is under way to end or gut them. Each sign names it.</p>
-          </header>
-          <SignGrid entries={threatened} />
-        </section>
-      )
-    }
-
-    {
-      bothParties.length > 0 && (
-        <section aria-labelledby="both-h">
-          <header class="sec-head">
-            <h2 id="both-h">Passed with votes from both parties</h2>
-            <p>Delivering for people isn't one party's job. When Republicans and Democrats both did it, we say so.</p>
-          </header>
-          <SignGrid entries={bothParties} />
+          <h2 id="threat-h" class="sec-h">Could be taken away</h2>
+          <ActionList entries={threatened} threatDetail />
         </section>
       )
     }
@@ -119,127 +88,189 @@ const ended = take(entries.filter((e) => TONE[e.data.status.state] === 'stop'), 
     {
       ended.length > 0 && (
         <section aria-labelledby="ended-h">
-          <header class="sec-head">
-            <h2 id="ended-h">Already taken away</h2>
-            <p>Some things government did for you have been repealed, allowed to expire, or blocked.</p>
-          </header>
-          <SignGrid entries={ended} />
+          <h2 id="ended-h" class="sec-h">Already ended</h2>
+          <ActionList entries={ended} />
         </section>
       )
     }
 
-    <p class="all"><a href="/actions/">See all {entries.length} action{entries.length === 1 ? '' : 's'}</a></p>
+    <p class="all"><a href="/actions/">See all {entries.length}, with who did each one</a></p>
   </div>
+
+  <nav class="places on-ink" aria-labelledby="places-h">
+    <div class="wrap">
+      <h2 id="places-h">Places</h2>
+      <ul role="list">
+        {
+          destinations.map((d) => (
+            <li>
+              <a href={placeUrl(d.id)}>
+                {d.name} <span class="num">{d.count}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </nav>
 </Base>
 
 <style>
-  /* Hero: two signs on posts, standing on a ground line. */
-  .road {
-    padding-top: clamp(1rem, 4vw, 3rem);
-    border-bottom: 3px solid var(--steel);
+  /* ---------- the cover: the question, and a face answering it ---------- */
+  .top {
+    background: var(--orange);
   }
-  .gantry {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    align-items: end;
-    gap: 0 2rem;
-  }
-  @media (min-width: 60rem) {
-    .gantry {
-      grid-template-columns: minmax(0, 1.75fr) minmax(18rem, 1fr);
-    }
-  }
-
-  .mount {
-    --post: 12px;
-    padding-bottom: clamp(2.5rem, 7vw, 4.5rem);
-    background:
-      linear-gradient(var(--steel), var(--steel)) 18% 100% / var(--post) 100% no-repeat,
-      linear-gradient(var(--steel), var(--steel)) 82% 100% / var(--post) 100% no-repeat;
-  }
-  @media (max-width: 59.99rem) {
-    .mount:first-child {
-      padding-bottom: 1.25rem;
-      background: none;
-    }
-  }
-
-  .panel {
+  .cover {
     position: relative;
-    padding: 9px;
-    background: var(--guide);
-    color: var(--paper);
-    border-radius: 24px;
+    height: 27.5rem;
+    overflow: hidden;
   }
-  .face {
-    height: 100%;
-    border: 5px solid var(--paper);
-    border-radius: 15px;
-    padding: clamp(1.5rem, 4vw, 2.75rem);
-  }
-
-  h1 {
-    max-width: 12ch;
-    margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
-    font-weight: 700;
-    font-size: clamp(2.75rem, 8vw, var(--t-4xl));
+  .q {
+    position: relative;
+    z-index: 1;
+    padding: 0.4rem var(--gutter) 0;
+    font-size: 3.625rem;
     line-height: 0.98;
     letter-spacing: -0.025em;
   }
-
-  .distance h2 {
-    margin-bottom: 1rem;
-    font-size: var(--t-md);
-    font-weight: 700;
+  .q span {
+    display: block;
   }
-  .distance ul {
+  .cover :global(.lead-face) {
+    position: absolute;
+    z-index: 2;
+    width: 23.5rem;
+    right: -3.75rem;
+    bottom: -3.25rem;
+  }
+  .cover :global(.lead-credit) {
+    position: absolute;
+    z-index: 3;
+    left: var(--gutter);
+    bottom: 0.25rem;
+    max-width: 10rem;
+  }
+
+  /* ---------- the deed, on ink ---------- */
+  .side {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .deed {
+    padding: 1rem var(--gutter) 1.1rem;
+  }
+  .deed-what {
+    font-size: 1.6875rem;
+    line-height: 1.12;
+  }
+  .deed-what a {
+    text-decoration: none;
+  }
+  .deed-what a:hover {
+    text-decoration: underline;
+  }
+  .deed-who {
+    margin: 0.6rem 0 0.75rem;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.4;
+  }
+  .deed-fig {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  .side :global(.lookup) {
+    padding: 1rem var(--gutter) 1.4rem;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  /* ---------- lists ---------- */
+  .lists {
     display: grid;
-    gap: 0.35rem;
+    gap: 4rem;
+    margin-top: 2.5rem;
+  }
+  .all a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    font-weight: 700;
+    font-size: 1.0625rem;
+  }
+  .places {
+    margin-top: 4rem;
+    margin-bottom: -5rem;
+    padding: 2rem 0 2.5rem;
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .places h2 {
+    font-size: var(--t-xl);
+    margin-bottom: 0.5rem;
+  }
+  .places ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  .distance a {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 1.5rem;
-    padding-block: 0.2rem;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: var(--t-lg);
-    line-height: 1.1;
-  }
-  .distance a:hover .dest {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.12em;
-  }
-  .miles {
-    font-weight: 800;
+  .places a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 44px;
+    font-weight: 600;
+    font-size: 1.0625rem;
   }
 
-  .sections {
-    display: grid;
-    gap: clamp(3.5rem, 8vw, 5.5rem);
-    margin-top: clamp(3rem, 7vw, 5rem);
-  }
-  .sec-head {
-    display: grid;
-    gap: 0.5rem;
-    margin-bottom: 1.25rem;
-  }
-  .sec-head h2 {
-    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
-  }
-  .sec-head p {
-    font-family: var(--serif);
-    font-size: var(--t-body);
-    line-height: 1.5;
-    max-width: 56ch;
-  }
-  .all a {
-    font-weight: 800;
-    font-size: var(--t-md);
+  /* ---------- desktop ---------- */
+  @media (min-width: 60rem) {
+    .top {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 27rem;
+    }
+    .cover {
+      height: min(calc(100vh - 4.5rem), 38rem);
+      min-height: 34rem;
+    }
+    .q {
+      padding: 0.25rem 0 0 max(var(--gutter), (100vw - var(--page)) / 2);
+      font-size: clamp(5.5rem, 7.2vw, 6.75rem);
+      line-height: 0.94;
+    }
+    .cover :global(.lead-face) {
+      width: min(36rem, 62%);
+      right: -3.5rem;
+      bottom: -4.5rem;
+    }
+    .cover :global(.lead-credit) {
+      left: max(var(--gutter), (100vw - var(--page)) / 2);
+      bottom: 0.5rem;
+      max-width: 20rem; /* wraps in the clear space left of the drawing */
+    }
+    .side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1.75rem;
+    }
+    .deed {
+      padding: 0 2.5rem;
+    }
+    .deed-what {
+      font-size: 2.375rem;
+      line-height: 1.06;
+    }
+    .side :global(.lookup) {
+      padding: 0 2.5rem;
+      background: none;
+      color: var(--paper);
+    }
+    .lists {
+      margin-top: 3rem;
+    }
   }
 </style>

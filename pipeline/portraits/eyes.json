@@ -1,0 +1,77 @@
+{
+  "_note": "Pupil midpoint (x, y) and pupil-to-pupil distance (ipd), in pixels on cutouts/<id>.png. Measure with ruler.py. Optional frame: [crop width in ipds, eye line as a share of height]; default [5.0, 0.42].",
+  "abigail-spanberger": {
+    "x": 375,
+    "y": 255,
+    "ipd": 114
+  },
+  "bobby-scott": {
+    "x": 404,
+    "y": 357,
+    "ipd": 165
+  },
+  "briana-sewell": {
+    "x": 497,
+    "y": 330,
+    "ipd": 130
+  },
+  "chuck-grassley": {
+    "x": 342,
+    "y": 268,
+    "ipd": 138
+  },
+  "garret-graves": {
+    "x": 336,
+    "y": 378,
+    "ipd": 148
+  },
+  "gustavo-rivera": {
+    "x": 399,
+    "y": 351,
+    "ipd": 170
+  },
+  "jennifer-boysko": {
+    "x": 484,
+    "y": 288,
+    "ipd": 128
+  },
+  "julia-salazar": {
+    "x": 300,
+    "y": 292,
+    "ipd": 147
+  },
+  "kathy-hochul": {
+    "x": 311,
+    "y": 263,
+    "ipd": 133
+  },
+  "louise-lucas": {
+    "x": 402,
+    "y": 400,
+    "ipd": 200,
+    "frame": [
+      4.35,
+      0.46
+    ]
+  },
+  "mark-takano": {
+    "x": 350,
+    "y": 405,
+    "ipd": 164
+  },
+  "michelle-hinchey": {
+    "x": 328,
+    "y": 266,
+    "ipd": 144
+  },
+  "raphael-warnock": {
+    "x": 320,
+    "y": 250,
+    "ipd": 136
+  },
+  "zohran-mamdani": {
+    "x": 338,
+    "y": 310,
+    "ipd": 145
+  }
+}

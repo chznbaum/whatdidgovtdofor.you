@@ -1,17 +1,17 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getEntries } from '../lib/data.ts';
-import { STATUS_LABEL } from '../lib/status.ts';
+import StatusMark from '../components/StatusMark.astro';
 
 const entries = await getEntries();
 const verified = entries.filter((e) => e.data.verification.verdict === 'pass' || e.data.verification.verdict === 'corrected').length;
 
 const legend = [
-  { tone: 'guide', label: STATUS_LABEL['in-effect'], text: 'Working now, or a one-time benefit that was delivered. Green, like a guide sign.' },
-  { tone: 'work', label: STATUS_LABEL['phasing-in'], text: 'Enacted and rolling out. Not everyone has it yet. Orange, like a work zone.' },
-  { tone: 'warning', label: STATUS_LABEL['under-threat'], text: 'In effect, but a specific effort would end or gut it. We name the effort. Yellow, like a warning sign.' },
-  { tone: 'stop', label: 'Ended', text: 'Repealed, expired, blocked by a court, or cancelled. Red, like a stop sign.' },
-];
+  { mark: 'full', label: 'Working now', text: 'In effect today, or a one-time benefit that was paid out or completed.' },
+  { mark: 'half', label: 'Law now, starts later', text: 'Enacted but not fully here yet. We give the date benefits start, and never suggest people have it before then.' },
+  { mark: 'threat', label: 'Under threat', text: 'Working now, but a specific, active effort would end or gut it. We name the effort and date the check.' },
+  { mark: 'ring', label: 'Ended', text: 'Repealed, expired, blocked by a court, or cancelled. It stays on the record, with who did the work.' },
+] as const;
 ---
 
 <Base title="How we check" description="How entries are chosen, written, verified, and corrected.">
@@ -21,7 +21,7 @@ const legend = [
     <div class="cols">
       <div class="prose">
         <p>
-          Every sign on this site is one thing government actually did: a law, an executive order, a rule, a budget item, a
+          Every action on this site is one thing government actually did: a law, an executive order, a rule, a budget item, a
           program, or a local ordinance. We don't include proposals, bills that passed only one chamber, or ceremonial
           resolutions. If it isn't enacted, signed, funded, or ordered, it isn't here.
         </p>
@@ -67,6 +67,16 @@ const legend = [
           Retracted entries are removed and won't be re-added automatically.
         </p>
 
+        <h2>Faces</h2>
+        <p>
+          Each action leads with the person who did the work, drawn in ink from a real photo of them. The drawing keeps
+          their real likeness and coloring and is always plainly a drawing. Each drawing links to the page where its photo
+          was published, so you can see the original there. We don't republish the photos. We say "official portrait" only
+          for official government portraits.
+          When we have no photo of someone, we show their initials. When a board or council did the work, we show its name.
+          We never invent a face.
+        </p>
+
         <h2>Your address</h2>
         <p>
           When you look up your address, your browser sends it directly to the U.S. Census Bureau's public geocoder to find
@@ -75,19 +85,21 @@ const legend = [
       </div>
 
       <aside aria-labelledby="legend-h">
-        <h2 id="legend-h">What the colors mean</h2>
+        <h2 id="legend-h">What the shapes mean</h2>
         <ul role="list">
           {
             legend.map((l) => (
               <li>
-                <span class="chip" data-tone={l.tone}>
-                  <span>{l.label}</span>
-                </span>
+                <p class:list={['key', l.mark === 'threat' && 'threat']}>
+                  <StatusMark mark={l.mark} size={20} />
+                  <b>{l.label}</b>
+                </p>
                 <p>{l.text}</p>
               </li>
             ))
           }
         </ul>
+        <p class="no-color">Status is never shown by color, so it can't be mistaken for a party.</p>
       </aside>
     </div>
   </div>
@@ -95,8 +107,9 @@ const legend = [
 
 <style>
   h1 {
-    margin-top: 1.5rem;
-    font-size: clamp(var(--t-xl), 7vw, var(--t-3xl));
+    margin-top: 2rem;
+    font-size: clamp(var(--t-3xl), 7vw, var(--t-5xl));
+    letter-spacing: -0.02em;
   }
   .cols {
     display: grid;
@@ -105,8 +118,8 @@ const legend = [
   }
   @media (min-width: 62rem) {
     .cols {
-      grid-template-columns: minmax(0, 1fr) 20rem;
-      gap: 4rem;
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      gap: 5rem;
     }
     aside {
       position: sticky;
@@ -116,11 +129,15 @@ const legend = [
   }
   .prose h2 {
     margin: 2.25rem 0 0.6rem;
-    font-size: var(--t-md);
+    font-size: var(--t-xl);
+  }
+  aside {
+    padding: 1.5rem;
+    background: var(--orange);
   }
   aside h2 {
     margin-bottom: 1rem;
-    font-size: var(--t-md);
+    font-size: var(--t-xl);
   }
   aside ul {
     display: grid;
@@ -129,34 +146,24 @@ const legend = [
     padding: 0;
     list-style: none;
   }
-  aside p {
-    margin-top: 0.4rem;
-    font-family: var(--serif);
+  .key {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.0625rem;
   }
-  .chip {
-    display: inline-block;
-    padding: 4px;
-    border-radius: 10px;
-  }
-  .chip span {
-    display: block;
-    padding: 0.3rem 0.75rem 0.15rem;
-    border: 3px solid;
-    border-radius: 7px;
-    font-weight: 800;
-  }
-  .chip[data-tone='guide'] {
-    background: var(--guide);
+  .key.threat {
+    background: var(--ink);
     color: var(--paper);
+    padding: 0.2rem 0.5rem;
   }
-  .chip[data-tone='work'] {
-    background: var(--work);
+  aside li p + p {
+    margin-top: 0.3rem;
+    font-size: 1rem;
   }
-  .chip[data-tone='warning'] {
-    background: var(--warning);
-  }
-  .chip[data-tone='stop'] {
-    background: var(--stop);
-    color: var(--paper);
+  .no-color {
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
   }
 </style>

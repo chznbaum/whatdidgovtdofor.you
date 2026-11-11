@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: G000386 }
 url: https://www.grassley.senate.gov
+portrait:
+  image: /portraits/chuck-grassley.webp
+  kind: photo
+  source:
+    label: United States Congress, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Chuck_Grassley_official_photo_2017.jpg
+    license: Public domain

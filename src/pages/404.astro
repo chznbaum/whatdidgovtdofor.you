@@ -3,38 +3,28 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="Page not found">
-  <div class="wrap">
-    <div class="closed">
-      <div class="face">
-        <h1>Road closed</h1>
-        <p>There's no page at this address. It may have moved, or the action may have been retracted.</p>
-        <p><a href="/">Go to the home page</a> or <a href="/actions/">browse all actions</a>.</p>
-      </div>
+  <div class="gone">
+    <div class="wrap">
+      <h1>Nothing here</h1>
+      <p>There's no page at this address. It may have moved, or the action may have been retracted.</p>
+      <p><a href="/">Go to the home page</a> or <a href="/actions/">browse all actions</a>.</p>
     </div>
   </div>
 </Base>
 
 <style>
-  /* A white "Road closed" plate. Sign colors stay reserved for status. */
-  .closed {
-    max-width: 40rem;
-    margin-top: 3rem;
-    padding: 8px;
-    background: var(--paper);
-    border-radius: 20px;
-  }
-  .face {
-    border: 5px solid var(--ink);
-    border-radius: 12px;
-    padding: 2rem;
+  .gone {
+    padding: 2rem 0 3rem;
+    background: var(--orange);
   }
   h1 {
-    font-size: clamp(var(--t-xl), 8vw, var(--t-3xl));
-    font-weight: 800;
+    font-size: clamp(var(--t-3xl), 9vw, var(--t-6xl));
+    letter-spacing: -0.02em;
   }
   p {
     margin-top: 0.75rem;
     font-weight: 600;
     font-size: var(--t-md);
+    max-width: 44ch;
   }
 </style>

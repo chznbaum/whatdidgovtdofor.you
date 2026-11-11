@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/6c410f28-9316-45db-935d-52764c90b4ae }
 url: https://www.nysenate.gov/senators/julia-salazar
+portrait:
+  image: /portraits/julia-salazar.webp
+  kind: photo
+  source:
+    label: New York Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Julia_Salazar,_2019_(cropped).jpg
+    license: CC BY 2.0

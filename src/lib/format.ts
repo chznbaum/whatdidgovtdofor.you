@@ -6,11 +6,12 @@ type Role = CollectionEntry<'entries'>['data']['credit'][number]['role'];
 // Content dates are calendar days parsed as UTC midnight; format them in UTC so they don't shift.
 const long = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' });
 const month = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
-const short = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+// AP-style month abbreviations: "Dec. 1, 2028", "Sept. 30, 2027", "April 1, 2028".
+const AP_MONTHS = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
 
 export const formatDate = (d: Date) => long.format(d);
 export const formatMonth = (d: Date) => month.format(d);
-export const formatShortDate = (d: Date) => short.format(d);
+export const formatShortDate = (d: Date) => `${AP_MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
 export const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 
 export const PARTY_NAMES: Record<Party, string> = {
@@ -36,20 +37,21 @@ export function nameWithParty(o: CollectionEntry<'officials'>['data']) {
   return o.party && o.party !== 'NP' ? `${o.name} (${o.party})` : o.name;
 }
 
-// How a credit reads on the face of a sign: "Signed by Joe Biden (D)".
+// How a credit reads as a byline under a face: "Carried by Jennifer Boysko (D)". Phrased by what the person did,
+// so a sponsor "carried" a bill and a mayor "proposed" a program. `signed` is always last and set lighter.
 export const ROLE_BYLINE: Record<Role, string> = {
-  signed: 'Signed by',
-  sponsored: 'Sponsored by',
+  sponsored: 'Carried by',
   cosponsored: 'Co-sponsored by',
   proposed: 'Proposed by',
   led: 'Led by',
   championed: 'Championed by',
   negotiated: 'Negotiated by',
-  'secured-funding': 'Funding secured by',
+  'secured-funding': 'Funding won by',
   'voted-yes': 'Passed by',
   'tie-breaker': 'Deciding vote by',
   issued: 'Issued by',
   implemented: 'Carried out by',
+  signed: 'Signed by',
 };
 
 // How a credit reads in a list of people: "Tim Kaine (D) · Sponsored it".
@@ -72,6 +74,22 @@ export const ROLE_LABEL: Record<Role, string> = {
 // (docs/content-guide.md, "credit"), so the order is an editorial decision, not something to re-sort here.
 export function primaryCredit<T extends { role: Role }>(credits: T[]): T {
   return credits[0];
+}
+
+// Who stands on an action's cover: the first credit, joined by the second when that person did the same job
+// (two chief patrons, two lead sponsors). Never the signer, unless the signer is somehow the only credit.
+export function coverCredits<T extends { role: Role }>(credits: T[]): T[] {
+  const [first, second] = credits;
+  return second && second.role === first.role && second.role !== 'signed' ? [first, second] : [first];
+}
+
+// "S. Chris Jones" → "CJ"; "Bill de Blasio" → "BdB". Used where there's no photo to draw from.
+export function initials(name: string): string {
+  const words = name.split(/\s+/).filter((w) => !/^[A-Z]\.$/.test(w));
+  if (words.length === 1) return words[0].slice(0, 2);
+  const last = words.at(-1)!;
+  const particle = words.length > 2 && /^[a-z]/.test(words.at(-2)!) ? words.at(-2)![0] : '';
+  return words[0][0] + particle + last[0];
 }
 
 export const TOPIC_LABELS: Record<CollectionEntry<'entries'>['data']['topics'][number], string> = {

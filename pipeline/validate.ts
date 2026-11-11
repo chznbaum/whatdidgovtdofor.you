@@ -1,5 +1,6 @@
 // Validates content against the shared schemas plus editorial rules Zod can't express.
 // Usage: npm run validate [-- path/to/entry.md ...]
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { z } from 'astro/zod';
 import { entrySchema, officialSchema, placeSchema, type Collection } from '../src/lib/schema.ts';
@@ -59,11 +60,27 @@ export async function validateEntry(file: string, schemas?: Schemas): Promise<Pr
   }
 }
 
+// Portrait rules from docs/design.md: the drawing ships with the site (its source photo never does; the site links
+// to the page it came from), and "official portrait" is only claimed for an official government portrait (the
+// Congress bioguide).
+function portraitProblems(file: string, o: z.infer<Schemas['officials']>): Problem[] {
+  const p = o.portrait;
+  if (!p) return [];
+  const out: string[] = [];
+  const pub = join(import.meta.dirname, '..', 'public');
+  for (const path of [p.image, p.image.replace(/\.webp$/, '-400.webp')])
+    if (!existsSync(join(pub, path))) out.push(`portrait: ${path} is missing from public/`);
+  if (p.kind === 'official' && !o.ids.bioguide) out.push('portrait.kind: "official" is only for a Congress bioguide portrait; use "photo"');
+  if (o.kind === 'body') out.push('portrait: a body has no face; it is shown by name');
+  return out.map((message) => ({ file, message }));
+}
+
 async function validateYaml(collection: 'officials' | 'places', schemas: Schemas): Promise<Problem[]> {
   const problems: Problem[] = [];
   for (const file of await listFiles(join(CONTENT, collection), '.yaml')) {
     const parsed = schemas[collection].safeParse(await readYaml(file));
     if (!parsed.success) problems.push(...zodProblems(rel(file), parsed.error));
+    else if (collection === 'officials') problems.push(...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>));
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(idFromPath(file))) problems.push({ file: rel(file), message: 'id must be a lowercase slug' });
   }
   return problems;

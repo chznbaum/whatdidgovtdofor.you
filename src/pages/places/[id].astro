@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import SignGrid from '../../components/SignGrid.astro';
+import ActionList from '../../components/ActionList.astro';
 import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
 
@@ -68,7 +68,7 @@ const ownHeading =
       own.length > 0 && (
         <section aria-labelledby="own-h">
           <h2 id="own-h">{ownHeading}</h2>
-          <SignGrid entries={own} />
+          <ActionList entries={own} />
         </section>
       )
     }
@@ -76,7 +76,7 @@ const ownHeading =
       footprint.length > 0 && (
         <section aria-labelledby="fp-h">
           <h2 id="fp-h">Federal and state actions in {p.name}</h2>
-          <SignGrid entries={footprint} />
+          <ActionList entries={footprint} />
         </section>
       )
     }
@@ -84,7 +84,7 @@ const ownHeading =
       around.length > 0 && (
         <section aria-labelledby="around-h">
           <h2 id="around-h">Around {p.name}</h2>
-          <SignGrid entries={around} />
+          <ActionList entries={around} />
         </section>
       )
     }
@@ -118,31 +118,24 @@ const ownHeading =
   .head {
     display: grid;
     gap: 1.25rem;
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
   }
   .panel {
-    max-width: 48rem;
-    padding: 8px;
-    background: var(--guide);
-    color: var(--paper);
-    border-radius: 20px;
-  }
-  .face {
-    border: 5px solid var(--paper);
-    border-radius: 12px;
-    padding: clamp(1.25rem, 4vw, 2rem);
+    margin-inline: calc(-1 * var(--gutter));
+    padding: 1.5rem var(--gutter) 1.75rem;
+    background: var(--orange);
   }
   h1 {
-    font-weight: 700;
-    font-size: clamp(var(--t-xl), 8vw, var(--t-3xl));
+    font-size: clamp(var(--t-3xl), 8vw, var(--t-5xl));
     line-height: 1;
+    letter-spacing: -0.02em;
   }
   .face p {
     margin-top: 0.75rem;
     font-weight: 600;
     font-size: var(--t-md);
-    max-width: 40ch;
+    max-width: 44ch;
   }
   .seated {
     display: flex;
@@ -157,22 +150,21 @@ const ownHeading =
   }
   .title {
     font-weight: 600;
-    color: var(--steel);
+    font-size: 1rem;
+    color: var(--muted);
   }
   .seated a {
-    font-weight: 800;
-    font-size: var(--t-md);
+    font: 400 var(--t-lg) / 1.2 var(--display);
   }
   section {
     margin-top: 3.5rem;
   }
   section h2,
   .children h2 {
-    margin-bottom: 1.25rem;
-    font-size: clamp(var(--t-lg), 4vw, var(--t-xl));
+    margin-bottom: 0.5rem;
+    font-size: clamp(var(--t-xl), 4vw, var(--t-2xl));
   }
   .empty {
-    font-family: var(--serif);
     font-size: var(--t-body);
   }
   .children {
@@ -181,11 +173,16 @@ const ownHeading =
   .children ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1.5rem;
+    gap: 0 1.5rem;
     margin: 0;
     padding: 0;
     list-style: none;
     font-weight: 700;
     font-size: var(--t-md);
+  }
+  .children a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
   }
 </style>

@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 seat: { place: ny, title: Governor }
 url: https://www.governor.ny.gov
+portrait:
+  image: /portraits/kathy-hochul.webp
+  kind: photo
+  source:
+    label: Metropolitan Transportation Authority, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:World_Cup_Transportation_and_Safety_(cropped).jpg
+    license: CC BY 4.0

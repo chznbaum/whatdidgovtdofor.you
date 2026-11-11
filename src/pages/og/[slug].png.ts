@@ -1,29 +1,48 @@
-// Share images: each action's sign at 1200×630, rendered at build time.
+// Share images: each action as a 1200×630 cover, rendered at build time. The key person's ink drawing stands on
+// orange next to what they did, who they are, and where it stands. No drawing: initials. A body: its name.
 import type { APIRoute } from 'astro';
 import { getEntry } from 'astro:content';
 import { readFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import { Resvg } from '@resvg/resvg-js';
 import satori from 'satori';
+import sharp from 'sharp';
 import { entrySlug, getEntries, type Entry } from '../../lib/data.ts';
-import { ROLE_BYLINE, nameWithParty, primaryCredit } from '../../lib/format.ts';
-import { TONE, plaqueText } from '../../lib/status.ts';
+import { ROLE_BYLINE, coverCredits, initials, nameWithParty } from '../../lib/format.ts';
+import { MARK, statusText, type Mark } from '../../lib/status.ts';
 
-const COLORS = {
-  guide: { bg: '#006a4e', fg: '#ffffff' },
-  work: { bg: '#f47b20', fg: '#000000' },
-  warning: { bg: '#ffc72c', fg: '#000000' },
-  stop: { bg: '#b5121b', fg: '#ffffff' },
+const ORANGE = '#ff7a00';
+// Paths from the project root: this module runs from a build chunk, so paths relative to it would break.
+const fontFile = (pkg: string, file: string) => readFile(join(process.cwd(), 'node_modules/@fontsource', pkg, 'files', file));
+const fonts = Promise.all([
+  fontFile('young-serif', 'young-serif-latin-400-normal.woff').then((data) => ({ name: 'Young Serif', data, weight: 400 as const })),
+  ...([600, 800] as const).map(async (weight) => ({
+    name: 'Libre Franklin',
+    data: await fontFile('libre-franklin', `libre-franklin-latin-${weight}-normal.woff`),
+    weight,
+  })),
+]);
+
+const MARK_SVG: Record<Mark, string> = {
+  full: '<circle cx="10" cy="10" r="8.5" fill="#000"/>',
+  half: '<circle cx="10" cy="10" r="7.75" fill="none" stroke="#000" stroke-width="1.5"/><path d="M10 2.25A7.75 7.75 0 0 0 10 17.75Z" fill="#000"/>',
+  threat: '<path d="M10 10L17.36 5.75A8.5 8.5 0 1 1 10 1.5Z" fill="#000"/>',
+  ring: '<circle cx="10" cy="10" r="7.5" fill="none" stroke="#000" stroke-width="2"/>',
 };
+const markUri = (m: Mark, color = '#000') =>
+  `data:image/svg+xml;base64,${Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">${MARK_SVG[m].replaceAll('#000', color)}</svg>`).toString('base64')}`;
 
-const font = (weight: number) =>
-  readFile(new URL(`../../../node_modules/@fontsource/overpass/files/overpass-latin-${weight}-normal.woff`, import.meta.url));
-const fonts = Promise.all([600, 700, 800].map(async (weight) => ({ name: 'Overpass', data: await font(weight), weight: weight as 600 | 700 | 800 })));
-
-type Node = { type: string; props: { style?: Record<string, unknown>; children?: unknown } };
+type Node = { type: string; props: Record<string, unknown> };
 const h = (style: Record<string, unknown>, ...children: unknown[]): Node => ({
   type: 'div',
   props: { style: { display: 'flex', boxSizing: 'border-box', ...style }, children: children.length === 1 ? children[0] : children },
 });
+const img = (src: string, style: Record<string, unknown>): Node => ({ type: 'img', props: { src, style } });
+
+async function portraitUri(path: string) {
+  const png = await sharp(join(process.cwd(), 'public', path)).resize(560).png().toBuffer();
+  return `data:image/png;base64,${png.toString('base64')}`;
+}
 
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
@@ -32,52 +51,49 @@ export async function getStaticPaths() {
 export const GET: APIRoute = async ({ props }) => {
   const { entry } = props as { entry: Entry };
   const d = entry.data;
-  const c = COLORS[TONE[d.status.state]];
-  const place = await getEntry(d.jurisdiction);
-  const credit = primaryCredit(d.credit);
-  const official = await getEntry(credit.official);
-  const byline = official ? `${ROLE_BYLINE[credit.role]} ${nameWithParty(official.data)}` : '';
-  const titleSize = d.title.length > 60 ? 62 : d.title.length > 40 ? 72 : 84;
-  const top = d.impact[0];
+  const stars = await Promise.all(coverCredits(d.credit).map(async (c) => ({ ...c, person: (await getEntry(c.official))! })));
+  const key = stars[0].person;
+  const and = new Intl.ListFormat('en', { type: 'conjunction' });
+  const byline = `${ROLE_BYLINE[stars[0].role]} ${and.format(stars.map((s) => nameWithParty(s.person.data)))}`;
+  const titleSize = d.title.length > 64 ? 50 : d.title.length > 42 ? 58 : 68;
+  const { head } = statusText(d);
+  const mark = MARK[d.status.state];
+
+  let art: Node;
+  if (key.data.portrait) {
+    art = img(await portraitUri(key.data.portrait.image), { width: 560, height: 560, position: 'absolute', right: -40, bottom: -40 });
+  } else if (key.data.kind === 'body') {
+    art = h({ position: 'absolute', right: 40, bottom: 70, width: 400, fontFamily: 'Young Serif', fontSize: 78, lineHeight: 0.95, letterSpacing: -2 }, key.data.name);
+  } else {
+    art = h({ position: 'absolute', right: 40, bottom: -36, fontFamily: 'Young Serif', fontSize: 300, lineHeight: 1, letterSpacing: -10 }, initials(key.data.name));
+  }
 
   const tree = h(
-    { width: 1200, height: 630, background: '#dce4e9', padding: '70px 56px 40px', flexDirection: 'column', fontFamily: 'Overpass' },
-    // Sign with its exit tab.
+    { position: 'relative', width: 1200, height: 630, background: ORANGE, color: '#000', fontFamily: 'Libre Franklin', overflow: 'hidden' },
+    art,
     h(
-      { position: 'relative', flexDirection: 'column', flexGrow: 1 },
+      { flexDirection: 'column', justifyContent: 'space-between', width: 720, height: 630, padding: '44px 0 40px 56px' },
       h(
-        { position: 'absolute', top: -46, right: 40, background: c.bg, padding: '7px 7px 0', borderRadius: '14px 14px 0 0' },
+        { flexDirection: 'column' },
+        h({ fontFamily: 'Young Serif', fontSize: titleSize, lineHeight: 1.02, letterSpacing: -1.5 }, d.title),
+        h({ fontSize: 28, fontWeight: 600, marginTop: 22, lineHeight: 1.25 }, byline),
+      ),
+      h(
+        { flexDirection: 'column' },
         h(
-          { border: `4px solid ${c.fg}`, borderBottom: 'none', borderRadius: '9px 9px 0 0', padding: '4px 18px 2px', color: c.fg, fontSize: 28, fontWeight: 800 },
-          place?.data.short ?? '',
+          {
+            alignItems: 'center',
+            alignSelf: 'flex-start',
+            gap: 14,
+            fontSize: 28,
+            fontWeight: 800,
+            ...(mark === 'threat' ? { background: '#000', color: '#fff', padding: '8px 16px' } : {}),
+          },
+          img(markUri(mark, mark === 'threat' ? '#fff' : '#000'), { width: 30, height: 30 }),
+          head,
         ),
+        h({ fontSize: 26, fontWeight: 800, marginTop: 22 }, 'whatdidgovtdofor.you'),
       ),
-      h(
-        { flexGrow: 1, background: c.bg, borderRadius: 26, padding: 9 },
-        h(
-          { flexGrow: 1, flexDirection: 'column', justifyContent: 'space-between', border: `6px solid ${c.fg}`, borderRadius: 18, padding: '36px 48px 34px', color: c.fg },
-          h({ fontSize: titleSize, fontWeight: 700, lineHeight: 1.02, letterSpacing: -1.5 }, d.title),
-          h(
-            { flexDirection: 'column' },
-            // The top impact figure, laid out like a distance sign.
-            h(
-              { justifyContent: 'space-between', alignItems: 'flex-end', borderTop: `5px solid ${c.fg}`, paddingTop: 18, gap: 32 },
-              h({ fontSize: 30, fontWeight: 600, lineHeight: 1.15, maxWidth: 640 }, top.label.charAt(0).toUpperCase() + top.label.slice(1)),
-              h({ fontSize: 64, fontWeight: 800, lineHeight: 1, letterSpacing: -1 }, top.figure),
-            ),
-            h({ fontSize: 28, fontWeight: 600, marginTop: 16 }, byline),
-          ),
-        ),
-      ),
-    ),
-    // Supplemental plaque and site name.
-    h(
-      { justifyContent: 'space-between', alignItems: 'center', marginTop: 10 },
-      h(
-        { background: c.bg, borderRadius: 14, padding: 6 },
-        h({ border: `3px solid ${c.fg}`, borderRadius: 9, padding: '6px 16px 2px', color: c.fg, fontSize: 26, fontWeight: 700 }, plaqueText(d)),
-      ),
-      h({ fontSize: 30, fontWeight: 800, color: '#000' }, 'whatdidgovtdofor.you'),
     ),
   );
 

@@ -1,11 +1,15 @@
 ---
+// One action as a cover story. The cover star is the person who did the work (credit[0], joined by a second
+// person who did the same job), drawn in ink. Then who they are, what you get, where it stands, and the signer
+// last and lighter. The full record (body, everyone credited, votes, sources, how we checked) follows on paper.
 import { getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import Sign from '../../components/Sign.astro';
+import Face from '../../components/Face.astro';
+import PortraitCredit from '../../components/PortraitCredit.astro';
+import Status from '../../components/Status.astro';
 import VoteTally from '../../components/VoteTally.astro';
 import { entrySlug, getEntries, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
-import { ROLE_LABEL, TOPIC_LABELS, formatDate, modelName, nameWithParty } from '../../lib/format.ts';
-import { STATUS_LABEL, TONE } from '../../lib/status.ts';
+import { ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
@@ -15,67 +19,135 @@ const { entry } = Astro.props as { entry: Entry };
 const d = entry.data;
 const { Content } = await render(entry);
 const place = (await getEntry(d.jurisdiction))!;
-const credits = await Promise.all(
-  d.credit.map(async (c) => ({ ...c, person: (await getEntry(c.official))! })),
-);
+const credits = await Promise.all(d.credit.map(async (c) => ({ ...c, person: (await getEntry(c.official))! })));
+const stars = coverCredits(credits);
+const signers = credits.filter((c) => c.role === 'signed' && !stars.includes(c));
 const rollbackBy = await Promise.all(d.status.by.map(async (r) => (await getEntry(r))!));
 const v = d.verification;
-const tone = TONE[d.status.state];
+
+// Two people share the cover only when both are drawn or both are initials. If only the second has a drawing,
+// the first person (the key person) stands alone, so a co-sponsor's face never upstages them.
+const pictured = stars.every((s) => Boolean(s.person.data.portrait) === Boolean(stars[0].person.data.portrait)) ? stars : stars.slice(0, 1);
+const faces = pictured.map((s) => s.person);
+const drawn = faces.filter((o) => o.data.portrait);
+const undrawn = pictured.filter((s) => s.person.data.kind === 'person' && !s.person.data.portrait);
+const art = stars[0].person.data.kind === 'body' ? 'body' : pictured.length > 1 ? 'duo' : 'one';
+const and = new Intl.ListFormat('en', { type: 'conjunction' });
+
+// "Virginia law, April 2026": who acted, what kind of action, when.
+const NOUN: Record<typeof d.action.type, string> = {
+  law: 'law',
+  ordinance: 'local law',
+  'ballot-measure': 'ballot measure',
+  budget: 'budget',
+  grant: 'grant',
+  program: 'program',
+  regulation: 'rule',
+  'executive-order': 'executive order',
+  settlement: 'settlement',
+};
+const where = `${place.id === 'us' ? 'Federal' : place.data.name} ${NOUN[d.action.type]}, ${formatMonth(d.action.date)}`;
+const size = d.title.length <= 42 ? 'l' : d.title.length <= 64 ? 'm' : 's';
+// Impact figures the headline doesn't already say.
+const impacts = d.impact.filter((i) => !d.title.toLowerCase().includes(i.figure.toLowerCase()));
+const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type === 'ordinance' ? 'Signed into law by' : 'Signed by');
 ---
 
 <Base title={d.title} description={d.dek} image={`/og/${entrySlug(entry)}.png`}>
-  <div class="wrap">
-    <p class="crumbs">
-      <a href={placeUrl(place.id)}>{place.data.name}</a>
-      {d.topics.map((t) => <span>{TOPIC_LABELS[t]}</span>)}
-    </p>
-    <div class="hero-sign">
-      <Sign entry={entry} size="full" heading="h2" />
-    </div>
-    <h1 class="visually-hidden">{d.title}</h1>
-  </div>
+  <div class="top" id="cover">
+    <section class="cover" data-art={art} data-size={size} aria-labelledby="title">
+      <p class="where"><a href={placeUrl(place.id)}>{where}</a></p>
+      <h1 id="title" class="title">{d.title}</h1>
+      <div class="art">
+        {faces.map((f) => <Face official={f} variant="cutout" eager sizes="(min-width: 60rem) 34rem, 16rem" />)}
+      </div>
+    </section>
 
-  <article class="sheet wrap">
-    <div class="main">
-      <p class="dek">{d.dek}</p>
+    <div class="side on-ink">
+      <section class="who" aria-label="Who did the work">
+        <p class="role">{ROLE_BYLINE[stars[0].role]}</p>
+        <ul class="names" role="list" data-n={stars.length}>
+          {
+            stars.map((s) => (
+              <li>
+                <a class="name" href={officialUrl(s.person.id)}>
+                  {nameWithParty(s.person.data)}
+                </a>
+                {!s.person.data.name.includes(s.person.data.office) && <span class="office">{s.person.data.office}</span>}
+              </li>
+            ))
+          }
+        </ul>
+        {drawn.length > 0 && <PortraitCredit people={drawn} class="cover-credit" />}
+        {undrawn.length > 0 && <p class="no-photo">No photo on file, so initials stand in.</p>}
+      </section>
 
       {
-        tone !== 'guide' && (
-          <section class="status" data-tone={tone} aria-labelledby="status-h">
-            <h2 id="status-h">{STATUS_LABEL[d.status.state]}</h2>
-            {d.status.note && <p>{d.status.note}</p>}
-            {rollbackBy.length > 0 && (
-              <p class="who">
-                Responsible:{' '}
-                {rollbackBy.map((o, i) => (
-                  <>
-                    {i > 0 && ', '}
-                    <a href={officialUrl(o.id)}>{nameWithParty(o.data)}</a>
-                  </>
-                ))}
-              </p>
-            )}
-            <p class="asof">
-              Checked {formatDate(d.status.as_of)}
-              {d.status.source && (
-                <>
-                  {' '}
-                  <a href={d.status.source}>Source</a>
-                </>
-              )}
-            </p>
+        impacts.length > 0 && (
+          <section class="gets-sec" aria-label="What you get">
+            <ul class="gets" role="list">
+              {impacts.map((i) => (
+                <li>
+                  <b class="fig">{i.figure}</b> {i.label}
+                </li>
+              ))}
+            </ul>
           </section>
         )
       }
 
+      <section class="stands" aria-label="Where it stands">
+        <Status entry={entry} variant="full" />
+        {
+          signers.length > 0 && (
+            <ul class="signers" role="list">
+              {signers.map((s) => (
+                <li>
+                  <Face official={s.person} variant="thumb" />
+                  <span>
+                    {signedPhrase(d.action.type)} <a href={officialUrl(s.person.id)}>{nameWithParty(s.person.data)}</a>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )
+        }
+      </section>
+    </div>
+  </div>
+
+  <article class="record wrap">
+    <div class="main">
       <section aria-labelledby="means-h">
-        <h2 id="means-h">What it means for you</h2>
-        <p class="benefits"><strong>Who benefits:</strong> {d.who_benefits}</p>
+        <h2 id="means-h" class="sec-h">What it means for you</h2>
+        <p class="dek">{d.dek}</p>
+        <p class="benefits"><b>Who benefits:</b> {d.who_benefits}</p>
         <div class="prose body"><Content /></div>
+        <p class="topics">
+          {d.topics.map((t) => <span>{TOPIC_LABELS[t]}</span>)}
+        </p>
       </section>
 
+      {
+        (rollbackBy.length > 0 || d.status.source) && (
+          <section aria-labelledby="status-h">
+            <h2 id="status-h" class="sec-h">Where it stands, and how we know</h2>
+            {rollbackBy.length > 0 && (
+              <p class="responsible">
+                Behind the effort to end it: {and.format(rollbackBy.map((o) => nameWithParty(o.data)))}.
+              </p>
+            )}
+            {d.status.source && (
+              <p class="status-src">
+                <a href={d.status.source}>Source for this status</a>, checked {formatDate(d.status.as_of)}.
+              </p>
+            )}
+          </section>
+        )
+      }
+
       <section aria-labelledby="sources-h">
-        <h2 id="sources-h">Sources</h2>
+        <h2 id="sources-h" class="sec-h">Sources</h2>
         <ol class="sources">
           {
             d.sources.map((s) => (
@@ -92,8 +164,8 @@ const tone = TONE[d.status.state];
       </section>
 
       <section class="check" aria-labelledby="check-h">
-        <h2 id="check-h">How we checked this</h2>
-        <p class="prose">
+        <h2 id="check-h" class="sec-h">How we checked this</h2>
+        <p>
           Drafted by {modelName(v.writer.model)} on {formatDate(v.writer.date)}.
           {
             v.verifier && v.verdict === 'pass' && (
@@ -116,32 +188,36 @@ const tone = TONE[d.status.state];
           {v.verdict === 'pending' && ' A second check by a model from a different company is still to come.'}
           {v.notes && <span class="notes"> {v.notes}</span>}
         </p>
-        <p class="prose">
-          Spot a mistake? <a href={`mailto:corrections@whatdidgovtdofor.you?subject=${encodeURIComponent(`Correction: ${d.title}`)}`}>Send a correction</a> and we'll fix it.
+        <p>
+          Spot a mistake?{' '}
+          <a href={`mailto:corrections@whatdidgovtdofor.you?subject=${encodeURIComponent(`Correction: ${d.title}`)}`}>Send a correction</a> and we'll fix it.
         </p>
       </section>
     </div>
 
-    <aside class="side">
+    <aside class="aside">
       <section aria-labelledby="who-h">
-        <h2 id="who-h">Who made it happen</h2>
-        <p class="action">
+        <h2 id="who-h" class="sec-h">Who did the work</h2>
+        <p class="act">
           {d.action.name}
-          {d.action.identifier && <span class="ident">{d.action.identifier}</span>}
-          <span class="when">{formatDate(d.action.date)}</span>
+          {d.action.identifier && <span>{d.action.identifier}</span>}
+          <span>{formatDate(d.action.date)}</span>
         </p>
         <ul class="credits" role="list">
           {
             credits.map((c) => (
-              <li>
-                <a class="name" href={officialUrl(c.person.id)}>
-                  {nameWithParty(c.person.data)}
-                </a>
-                <span class="role">
-                  {ROLE_LABEL[c.role]}
-                  {c.note && `. ${c.note}`}
-                </span>
-                <span class="office">{c.person.data.office}</span>
+              <li data-role={c.role}>
+                <Face official={c.person} variant="thumb" />
+                <div>
+                  <a class="cname" href={officialUrl(c.person.id)}>
+                    {nameWithParty(c.person.data)}
+                  </a>
+                  <span class="crole">
+                    {ROLE_LABEL[c.role]}
+                    {c.note && `. ${c.note}`}
+                  </span>
+                  <span class="coffice">{c.person.data.office}</span>
+                </div>
               </li>
             ))
           }
@@ -151,7 +227,7 @@ const tone = TONE[d.status.state];
       {
         d.votes.length > 0 && (
           <section aria-labelledby="votes-h">
-            <h2 id="votes-h">How they voted</h2>
+            <h2 id="votes-h" class="sec-h">How they voted</h2>
             {d.votes.map((vote) => (
               <VoteTally vote={vote} />
             ))}
@@ -159,7 +235,7 @@ const tone = TONE[d.status.state];
         )
       }
 
-      <button class="share" type="button" data-share hidden>Share this sign</button>
+      <button class="share" type="button" data-share hidden>Share this</button>
     </aside>
   </article>
 </Base>
@@ -181,184 +257,434 @@ const tone = TONE[d.status.state];
 </script>
 
 <style>
-  .crumbs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 1rem;
-    margin-top: 1rem;
+  /* ---------- the cover ---------- */
+  .top {
+    background: var(--orange);
+  }
+  .cover {
+    position: relative;
+    padding: 0.25rem var(--gutter) 0;
+    overflow: hidden;
+  }
+  .where {
     font-weight: 600;
-    color: var(--steel);
+    font-size: 1rem;
   }
-  .crumbs a {
-    color: var(--ink);
+  .where a {
+    text-decoration: none;
   }
-  .hero-sign {
-    max-width: 58rem;
+  .where a:hover {
+    text-decoration: underline;
+  }
+  .title {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.35rem;
+    letter-spacing: -0.02em;
+    line-height: 0.98;
+    max-width: 16ch;
+  }
+  [data-size='l'] .title {
+    font-size: 2.875rem;
+  }
+  [data-size='m'] .title {
+    font-size: 2.375rem;
+    max-width: none;
+  }
+  [data-size='s'] .title {
+    font-size: 2rem;
+    max-width: none;
   }
 
-  .sheet {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 3rem;
-    margin-top: 2.5rem;
-    padding: clamp(1.5rem, 4vw, 3rem);
-    background: var(--paper);
-    border-radius: 4px;
+  /* The art rises from the bottom edge, its head tucked up under the last line of the headline. */
+  .art {
+    position: relative;
+    z-index: 2;
+    margin: 0.5rem calc(-1 * var(--gutter)) 0;
+    pointer-events: none;
   }
-  @media (min-width: 62rem) {
-    .sheet {
-      grid-template-columns: minmax(0, 1fr) 22rem;
-      gap: 4rem;
-    }
+  .art :global(.face) {
+    pointer-events: auto;
   }
-
-  .main,
+  [data-art='one'] .art :global(.face) {
+    width: 68%;
+    margin-left: auto;
+    margin-right: -4%;
+  }
+  [data-art='duo'] .art {
+    display: flex;
+    justify-content: space-between;
+  }
+  [data-art='duo'] .art :global(.face) {
+    width: 56%;
+    flex: none;
+  }
+  [data-art='duo'] .art :global(.face:first-child) {
+    margin-left: -4%;
+  }
+  [data-art='duo'] .art :global(.face:last-child) {
+    margin-right: -8%;
+  }
+  [data-art='body'] .art {
+    margin: 1.25rem 0 0;
+  }
+  [data-art='body'] .art :global(.type) {
+    aspect-ratio: auto;
+    width: 100%;
+  }
+  [data-art='body'] .art :global(.type span) {
+    font-size: 15cqw;
+    padding: 0 0 1.25rem;
+  }
+  /* Initials stand in for a face: set big, but only as tall as the letters. */
+  .art :global(.t-initials) {
+    aspect-ratio: auto;
+    margin-top: 1.25rem;
+  }
+  [data-art='duo'] .art :global(.t-initials) {
+    width: 48%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  [data-art='duo'] .art :global(.t-initials span) {
+    font-size: 46cqw;
+  }
+  [data-art='one'] .art :global(.t-initials) {
+    width: 70%;
+  }
+  /* ---------- who, what you get, where it stands ---------- */
   .side {
-    display: grid;
-    align-content: start;
-    gap: 2.5rem;
-  }
-
-  h2 {
-    font-size: var(--t-md);
-    font-weight: 800;
-    margin-bottom: 0.75rem;
-  }
-
-  .dek {
-    font-family: var(--serif);
-    font-size: var(--t-md);
-    line-height: 1.45;
-    max-width: var(--measure);
-  }
-
-  .benefits {
-    font-family: var(--serif);
-    font-size: var(--t-body);
-    line-height: 1.55;
-    margin-bottom: 0.9em;
-    max-width: var(--measure);
-  }
-  .benefits strong {
-    font-family: var(--sans);
-    font-weight: 700;
-  }
-
-  /* Status detail for anything not in effect, in the sign's own colors. */
-  .status {
-    padding: 1.1rem 1.25rem;
-    border-radius: 10px;
-    max-width: var(--measure);
-  }
-  .status[data-tone='warning'] {
-    background: var(--warning);
-  }
-  .status[data-tone='work'] {
-    background: var(--work);
-  }
-  .status[data-tone='stop'] {
-    background: var(--stop);
+    background: var(--ink);
     color: var(--paper);
   }
-  .status h2 {
-    margin-bottom: 0.35rem;
+  /* Phone order: who, then where it stands, then the numbers. Desktop puts the numbers under who. */
+  .side {
+    display: flex;
+    flex-direction: column;
   }
-  .status p {
-    font-family: var(--serif);
-    font-size: var(--t-body);
-    line-height: 1.5;
+  .who {
+    padding: 1rem var(--gutter) 1.25rem;
   }
-  .status .who,
-  .status .asof {
-    margin-top: 0.5rem;
-    font-family: var(--sans);
-    font-size: var(--t-sm);
+  .stands {
+    order: 2;
+  }
+  .gets-sec {
+    order: 3;
+    padding: 0.25rem var(--gutter) 1.5rem;
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .role {
     font-weight: 600;
+    font-size: 1rem;
   }
-
-  .sources {
+  .names {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .names[data-n='2'] {
+    grid-template-columns: 1fr 1fr;
+  }
+  .names li {
+    display: grid;
+    gap: 0.2rem;
+    align-content: start;
+  }
+  .name {
+    font: 400 var(--t-lg) / 1.1 var(--display);
+    text-decoration: none;
+  }
+  .name:hover {
+    text-decoration: underline;
+  }
+  .office {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .who :global(.cover-credit) {
+    margin-top: 0.4rem;
+  }
+  .no-photo {
+    margin-top: 0.6rem;
+    font-size: 1rem;
+  }
+  .gets {
     display: grid;
     gap: 0.6rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+  .fig {
+    font: 400 var(--t-xl) / 1 var(--display);
+    margin-right: 0.15rem;
+  }
+  .stands {
+    padding: 1.1rem var(--gutter) 1.25rem;
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .stands :global(.s-full.threat) {
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+  }
+  /* A threat runs as its own inverted band, set off from the ink above by a paper rule. */
+  .stands:has(:global(.s-full.threat)) {
+    padding-top: 0;
+    border-top: 6px solid var(--paper);
+  }
+  .stands:has(:global(.s-full.threat)):not(:has(.signers)) {
+    padding-bottom: 0;
+  }
+  .signers {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .signers li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .signers a {
+    font-weight: 600;
+  }
+  .signers :global(.v-thumb) {
+    width: 3rem;
+  }
+
+  /* ---------- the record ---------- */
+  .record {
+    display: grid;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .main,
+  .aside {
+    display: grid;
+    align-content: start;
+    gap: 3rem;
+  }
+  .dek {
+    font: 400 var(--t-lg) / 1.3 var(--display);
+    max-width: 34ch;
+    margin-bottom: 1rem;
+  }
+  .benefits {
+    max-width: var(--measure);
+    margin-bottom: 0.9rem;
+  }
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    margin-top: 1.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .responsible,
+  .status-src {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+  .sources {
+    display: grid;
+    gap: 0.75rem;
     margin: 0;
     padding-left: 1.4rem;
-    font-family: var(--serif);
     max-width: var(--measure);
   }
   .sources a {
-    color: var(--guide);
     font-weight: 600;
   }
   .pub {
     display: block;
-    font-size: var(--t-sm);
-    color: var(--steel);
+    font-size: 1rem;
+    color: var(--muted);
   }
-
-  .check .prose {
-    font-size: var(--t-sm);
-    color: var(--steel);
+  .check p {
+    max-width: var(--measure);
+    font-size: 1rem;
+    color: var(--muted);
   }
-  .check .prose + .prose {
-    margin-top: 0.5rem;
+  .check p + p {
+    margin-top: 0.6rem;
   }
   .check a {
     color: var(--ink);
   }
-
-  .action {
+  .act {
     display: grid;
     gap: 0.1rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    font-size: var(--t-md);
-    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    font: 400 var(--t-md) / 1.25 var(--display);
   }
-  .ident,
-  .when {
-    font-weight: 600;
-    font-size: var(--t-sm);
-    color: var(--steel);
+  .act span {
+    font: 500 1rem / 1.4 var(--text);
+    color: var(--muted);
   }
-
   .credits {
     display: grid;
-    gap: 0.9rem;
+    gap: 1.1rem;
     margin: 0;
     padding: 0;
     list-style: none;
   }
   .credits li {
     display: grid;
-    padding-left: 0.85rem;
-    border-left: 4px solid var(--guide);
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: start;
   }
-  .name {
-    font-weight: 800;
-    font-size: var(--t-md);
+  .credits li > div {
+    display: grid;
+    gap: 0.1rem;
+  }
+  .cname {
+    font: 400 var(--t-md) / 1.2 var(--display);
     text-decoration: none;
   }
-  .name:hover {
+  .cname:hover {
     text-decoration: underline;
   }
-  .role {
+  .crole {
     font-weight: 600;
+    font-size: 1rem;
   }
-  .office {
-    font-size: var(--t-sm);
-    color: var(--steel);
+  .coffice {
+    font-size: 1rem;
+    color: var(--muted);
   }
-
+  /* The signer: last, smaller, lighter. */
+  .credits li[data-role='signed'] {
+    grid-template-columns: 2.75rem minmax(0, 1fr);
+  }
+  .credits li[data-role='signed'] :global(.v-thumb) {
+    width: 2.75rem;
+  }
+  .credits li[data-role='signed'] .cname {
+    font: 600 1rem / 1.3 var(--text);
+  }
+  .credits li[data-role='signed'] .crole {
+    font-weight: 500;
+  }
   .share {
     justify-self: start;
-    padding: 0.7rem 1.1rem 0.55rem;
+    min-height: 48px;
+    padding: 0 1.25rem;
     border: 3px solid var(--ink);
-    border-radius: 8px;
     background: var(--paper);
-    font: 700 var(--t-sm) / 1 var(--sans);
+    font: 700 1.0625rem / 1 var(--text);
     cursor: pointer;
   }
   .share:hover {
     background: var(--ink);
     color: var(--paper);
+  }
+
+  /* ---------- desktop: the cover on the left, the ink column on the right ---------- */
+  @media (min-width: 60rem) {
+    .top {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(26rem, 36rem);
+      min-height: calc(100vh - 4.5rem);
+    }
+    .cover {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 0 0 max(var(--gutter), (100vw - var(--page)) / 2);
+      min-height: 40rem;
+    }
+    .where {
+      font-size: 1.0625rem;
+    }
+    .title {
+      max-width: 13ch;
+      padding-right: 2rem;
+    }
+    [data-size='l'] .title {
+      font-size: clamp(4.5rem, 6.4vw, 6.5rem);
+    }
+    [data-size='m'] .title {
+      font-size: clamp(3.75rem, 5.2vw, 5.25rem);
+      max-width: 15ch;
+    }
+    [data-size='s'] .title {
+      font-size: clamp(3.25rem, 4.3vw, 4.25rem);
+      max-width: 17ch;
+    }
+    .art {
+      margin: auto 0 0 calc(-1 * max(var(--gutter), (100vw - var(--page)) / 2));
+    }
+    [data-art='one'] .art :global(.face) {
+      width: min(62%, 36rem);
+      margin-right: 2%;
+    }
+    [data-art='duo'] .art :global(.face) {
+      width: 58%;
+      max-width: 34rem;
+    }
+    [data-art='body'] .art {
+      margin: auto 3rem 0 0;
+    }
+    [data-art='body'] .art :global(.type span) {
+      font-size: 11cqw;
+      padding-bottom: 2.5rem;
+    }
+    [data-art='duo'] .art {
+      padding-right: 2rem;
+    }
+    [data-art='duo'] .art :global(.t-initials) {
+      width: 44%;
+    }
+    [data-art='one'] .art :global(.t-initials) {
+      width: 60%;
+      margin-left: 0;
+    }
+    .who {
+      padding: 2.25rem 2.75rem 0.5rem;
+    }
+    .gets-sec {
+      order: 1;
+      flex: 1;
+      padding: 0.5rem 2.75rem 2rem;
+    }
+    .name {
+      font-size: var(--t-2xl);
+    }
+    .names {
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    .gets {
+      margin-top: 1.5rem;
+      font-size: 1.0625rem;
+      gap: 0.9rem;
+    }
+    .fig {
+      font-size: var(--t-2xl);
+    }
+    .stands {
+      padding: 1.5rem 2.75rem 1.75rem;
+    }
+    .stands :global(.s-full.threat) {
+      margin-inline: -2.75rem;
+      padding-inline: 2.75rem;
+    }
+    .record {
+      grid-template-columns: minmax(0, 1fr) 24rem;
+      gap: 5rem;
+      margin-top: 4.5rem;
+    }
   }
 </style>

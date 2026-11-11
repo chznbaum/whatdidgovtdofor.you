@@ -2,7 +2,7 @@
 
 A public record of the concrete things government did for people (national, New York, New York City, Virginia, and Hampton Roads), each one traceable to the officials responsible and showing whether it still stands.
 
-Every action is a road sign. Green means in effect, orange means phasing in, yellow means under threat, and red means ended. Enter an address to see your officials and what they did. See [docs/design.md](docs/design.md) for the design system and [docs/content-guide.md](docs/content-guide.md) for the editorial standard.
+Every action leads with the person who did the work, drawn in ink from a real photo, next to what it does for you and where it stands. Enter an address to see your officials and what they did. See [docs/design.md](docs/design.md) for the design system and [docs/content-guide.md](docs/content-guide.md) for the editorial standard.
 
 ## Stack
 

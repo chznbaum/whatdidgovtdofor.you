@@ -1,0 +1,30 @@
+---
+// The status shape. It always sits next to words that say the same thing, so it never carries meaning alone.
+import type { Mark } from '../lib/status.ts';
+
+interface Props {
+  mark: Mark;
+  size?: number;
+}
+const { mark, size = 20 } = Astro.props;
+---
+
+<svg class="mark" width={size} height={size} viewBox="0 0 20 20" aria-hidden="true" data-mark={mark}>
+  {mark === 'full' && <circle cx="10" cy="10" r="8.5" fill="currentColor" />}
+  {
+    mark === 'half' && (
+      <>
+        <circle cx="10" cy="10" r="7.75" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <path d="M10 2.25A7.75 7.75 0 0 0 10 17.75Z" fill="currentColor" />
+      </>
+    )
+  }
+  {mark === 'threat' && <path d="M10 10L17.36 5.75A8.5 8.5 0 1 1 10 1.5Z" fill="currentColor" />}
+  {mark === 'ring' && <circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="2" />}
+</svg>
+
+<style>
+  .mark {
+    flex: none;
+  }
+</style>
