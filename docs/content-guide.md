@@ -38,7 +38,7 @@ Harms ("what government did *to* you") are out of scope for v1. When a good thin
 Entries are Markdown files in `src/content/entries/{federal|state|local}/{slug}.md`. The YAML frontmatter is validated by `src/content.config.ts`. The body is the "What it means for you" explainer.
 
 ### `title` (≤ 90 chars, aim for ≤ 60)
-The headline reads like a road sign: the impact, in plain words, from the reader's point of view. Use second person where it's natural. Lead with the benefit, not the bill.
+The headline is the impact, in plain words, from the reader's point of view: something a stranger gets at a glance. Use second person where it's natural. Lead with the benefit, not the bill.
 
 - Good: `Insulin costs $35 a month if you're on Medicare`
 - Good: `Every public school student in New York eats breakfast and lunch free`
@@ -69,7 +69,7 @@ One or two sentences that complete the picture: what changed, for whom, since wh
 One sentence naming the people helped, with a count if the sources give one. "About 3.3 million people on Medicare who use insulin."
 
 ### `impact` (1–3 items)
-Big numbers for the sign. `figure` ≤ 18 chars (`$35`, `1.5 million`, `$2,000`, `12 weeks`). `label` ≤ 80 chars and says what the figure is. Every figure must appear in, or follow arithmetically from, a cited source.
+The big numbers on the action's cover. `figure` ≤ 18 chars (`$35`, `1.5 million`, `$2,000`, `12 weeks`). `label` ≤ 80 chars and says what the figure is. Every figure must appear in, or follow arithmetically from, a cited source.
 
 ### `status`
 - `state`: one of
