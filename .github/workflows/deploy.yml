@@ -1,6 +1,7 @@
 # Builds the site and deploys it to Bunny (Storage Zone behind a Pull Zone) on every push to main,
-# including the daily pipeline's pushes. Secrets: BUNNY_STORAGE_ZONE, BUNNY_STORAGE_PASSWORD, BUNNY_STORAGE_HOST,
-# BUNNY_API_KEY, BUNNY_PULLZONE_ID (see ops/deploy-bunny.mjs).
+# including the daily pipeline's pushes. The secrets live in the `production` environment, which only main may
+# deploy to: BUNNY_STORAGE_ZONE, BUNNY_STORAGE_PASSWORD, BUNNY_STORAGE_HOST, BUNNY_API_KEY, BUNNY_PULLZONE_ID
+# (see ops/deploy-bunny.mjs).
 name: Deploy
 
 on:
@@ -20,6 +21,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment:
+      name: production
+      url: https://whatdidgovtdofor.you
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

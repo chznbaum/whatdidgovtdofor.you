@@ -48,7 +48,7 @@ The site is static and is served from a **Bunny Storage Zone behind a Bunny Pull
 
 `dist/404.html` is also uploaded as `bunnycdn_errors/404.html`, Bunny's custom 404 page.
 
-GitHub Actions secrets:
+GitHub Actions secrets, in the `production` environment (Settings → Environments; deployment branches limited to `main`, no required reviewers):
 
 | Secret | What it is |
 | --- | --- |
@@ -91,3 +91,7 @@ src/data/get-involved.json                           ways to run, serve, or work
 - After a new Congress is seated, run `npm run sync:roster`, then switch the geocoder vintage in `src/pages/lookup-index.json.ts` (it's commented).
 - When state legislatures redistrict, check that the geocoder vintage carries the new maps.
 - Update `seat` on officials when governors and mayors change.
+
+## License
+
+[MIT](LICENSE), for the code and the content. Source photos of officials are never republished here: each portrait is an ink drawing made from a photo, and it links to the page that photo came from.
