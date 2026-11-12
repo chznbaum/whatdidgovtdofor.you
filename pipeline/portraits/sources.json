@@ -61,13 +61,13 @@
   },
   "gale-brewer": {
     "tier": "official",
-    "page": "https://legistar.council.nyc.gov/PersonDetail.aspx?ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5",
-    "image": "https://legistar.council.nyc.gov/View.ashx?M=P&ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-6.jpg",
     "publisher": "New York City Council",
     "license": "\u00a9 New York City Council, used as a drawing reference",
-    "width": 473,
-    "height": 600,
-    "notes": "Council member photo from the Council's Legistar profile (council.nyc.gov/district-6 hero shows her small in a park). Front-facing, smiling, shoulder-length light blonde/grey hair, pink blazer, pearl necklace, green foliage behind. Face ~220px across."
+    "width": 2640,
+    "height": 3377,
+    "notes": "Re-sourced 2026-11-11 to replace a small (473x600), tilted open-laugh park photo from her Legistar profile (legistar.council.nyc.gov/PersonDetail.aspx?ID=34352&GUID=AB4A85D3-F71A-454E-98F2-1CE3A6D62ED5, now photos/gale-brewer.legistar.jpg). This is the Council's posed member headshot, shown as \"Gale A. Brewer Head Shot\" on the council.nyc.gov/districts/ member table and map; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-6.jpg, updated 2026-09-08, \"headshots provided by photo team's flickr\"). Slight three-quarter turn, warm smile showing upper teeth, pale blonde/silver hair pulled back in a loose twist with a dark clip on the left, pearl studs and pearl necklace, black-and-white striped jacket, white blouse, US and NYC flags behind. Face ~1100px across. Commons had only 2011 or event/podium shots. The drawing was made from a 1094x1400 downscale."
   },
   "julie-menin": {
     "tier": "official",
@@ -521,23 +521,23 @@
   },
   "catherine-nolan": {
     "tier": "official",
-    "page": "https://web.archive.org/web/20221231145420/https://nyassembly.gov/mem/Catherine-Nolan/video/",
-    "image": "https://nyassembly.gov/write/upload/member_files/037/vidclips/20180313a.jpg",
+    "page": "https://web.archive.org/web/20221231145555/https://nyassembly.gov/mem/Catherine-Nolan/photos",
+    "image": "https://nyassembly.gov/write/upload/member_files/037/photos/20181204c.jpg",
     "publisher": "New York State Assembly",
     "license": "\u00a9 New York State Assembly, used as a drawing reference",
-    "width": 1920,
-    "height": 1080,
-    "notes": "Still from the Assembly's own floor video on her member video page (video 10822: March 13, 2018, speaking during the joint session to elect the Regents), with the chyron \"Hon. Catherine T. Nolan, (D) 37th Assembly District\". She retired at the end of 2022 and died in March 2026; her member pages are gone, so the page and file come from the Wayback Machine (file: web.archive.org/web/20221231145124/...). The Assembly directory headshot from her tenure is only 134x200 and no Commons photo exists. Near front-facing, speaking, mouth slightly open; chin-length layered light brown hair, thin gold wire-rimmed oval glasses, drop earrings, grey textured jacket over black top. Another member sits behind her in frame (grey hair, glasses, scarf); crop to the right-centre figure in the foreground. Video-soft; face ~270px across. Other usable stills on the same page: vidclips/20180313.jpg and 20170615.jpg."
+    "width": 2016,
+    "height": 1512,
+    "notes": "Re-sourced 2026-11-11 to replace a low-res Assembly floor-video still of her mid-word (member_files/037/vidclips/20180313a.jpg; now photos/catherine-nolan.candid.jpg). From the photo gallery on her Assembly member page, 2018-12-04, at the groundbreaking for the Academy of American Studies building in Long Island City (caption names her with Lorraine Grillo, Karin Goldmark and William Bassell). She retired at the end of 2022 and her pages are gone, so the page and file come from the Wayback Machine (file: web.archive.org/web/2022im_/...). She stands at the left of the frame, front-facing, smiling broadly at the camera: chin-length honey-blonde hair with light-brown roots, thin oval wire glasses, black jacket with a studded leather yoke over a heather-grey top, pendant necklace. Phone photo, a little soft; face ~250px across. Drawn from a head-and-shoulders crop (x 10-660, y 330-1130). No posed headshot larger than the 134x200 directory photo exists, and no Commons photo."
   },
   "jennifer-carroll-foy": {
-    "tier": "official",
-    "page": "https://web.archive.org/web/20190818172204/https://virginiageneralassembly.gov/house/members/members.php?id=H0292",
-    "image": "https://web.archive.org/web/20190505112113id_/https://memdata.virginiageneralassembly.gov/images/display_image/H0292",
-    "publisher": "Virginia House of Delegates",
-    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
-    "width": 890,
-    "height": 1334,
-    "notes": "House member photo from her time as Delegate (District 2, 2018-2020), from the old virginiageneralassembly.gov member page via the Wayback Machine (member id H0292, captured 2019). Front-facing studio portrait on warm tan backdrop, confident smile, shoulder-length dark hair with loose waves, black blazer over a light blue collared shirt, arms crossed. Face ~380px across. Her current Senate photo (apps.senate.virginia.gov/Senator/images/member_photos/Carroll%20Foy33, on page memberpage.php?id=S117) is newer but only 474x535 with a ~110px face. It shows long straight dark hair, a light blue button shirt, and arms crossed in front of an electrical panel, so use it to check her current look. Commons alternatives are a 3/4 profile from 2017 and a 2018 book-reading photo. Drawing check (Nov 2026): compared with the current Senate photo, same face and features; her hair is now longer and straighter with a side part, so the drawing (from this 2019 photo) shows her earlier wavy, center-parted hair."
+    "tier": "press",
+    "page": "https://jennifercarrollfoy.com/wp-content/uploads/2025/03/24Senate_0206pp-scaled.jpg",
+    "image": "https://jennifercarrollfoy.com/wp-content/uploads/2025/03/24Senate_0206pp-scaled.jpg",
+    "publisher": "Senate Democrats of Virginia (Amanda Maglione)",
+    "license": "\u00a9 Senate Democrats of Virginia / Amanda Maglione, used as a drawing reference",
+    "width": 1707,
+    "height": 2560,
+    "notes": "Headshot captioned 'Senator Jennifer Carroll Foy Headshots for Virginia Senate Democrats in Richmond, 2024', 1/17/24, photo by Amanda Maglione. Found in her campaign site's media library (WordPress media item 2594, uploaded 2025-03-26); no page displays it (its attachment page redirects to the file), so the page link is the image file itself, which the owner OK'd. Front-facing, warm smile showing teeth, round soft face, long dark hair in loose waves past the shoulders with a side-swept part, red lipstick, pearl necklace and stud earrings, royal blue double-breasted blazer over a white top, US and Virginia flags behind. Face ~490px across. Replaces the 2019 House member photo (now photos/jennifer-carroll-foy.house-2019.jpg; page https://web.archive.org/web/20190818172204/https://virginiageneralassembly.gov/house/members/members.php?id=H0292, image https://web.archive.org/web/20190505112113id_/https://memdata.virginiageneralassembly.gov/images/display_image/H0292, 890x1334). Other options checked Nov 2026: Senate member photo (474x535, ~110px face), Senate Capitol Classroom card (253x403), vasenatedems.com 300x300 crop. The original is a three-quarter-length shot with a small head, so the working copy photos/jennifer-carroll-foy.jpg is cropped to head and shoulders (box 244,100,1544,1500 of the original; 1300x1400); the full file is photos/jennifer-carroll-foy.full.jpg."
   },
   "karrie-delaney": {
     "tier": "official",
@@ -549,25 +549,15 @@
     "height": 993,
     "notes": "Current House member-page photo for Karrie K. Delaney (District 9). Served as PNG despite the .jpg name, converted to JPEG. Outdoors in a garden, face toward camera with a slight head tilt, closed-lip smile, blue eyes, shoulder-length dark brown hair with a center part and soft waves, royal blue zip-front jacket with House lapel pin. Face ~420px across, slightly soft/upscaled. The caucus page (vahousedems.org) has a Dec 2023 headshot, new-delaney-headshot-edited.png."
   },
-  "brad-lander": {
-    "tier": "official",
-    "page": "https://web.archive.org/web/20251213212518/https://comptroller.nyc.gov/about/about-brad-lander/",
-    "image": "https://comptroller.nyc.gov/wp-content/uploads/2024/04/Comptroller-Brad-Lander-scaled.jpg",
-    "publisher": "Office of the New York City Comptroller",
-    "license": "\u00a9 NYC Comptroller's Office, used as a drawing reference",
-    "width": 2560,
-    "height": 1707,
-    "notes": "Official 2024 NYC Comptroller portrait (he was Comptroller 2022-2025, after serving as Council member for District 39, 2010-2021). The live about-brad-lander page now 404s, so the page link is the Wayback snapshot from December 2025; the image file is still served live by comptroller.nyc.gov. Front-facing, smiling with teeth, short greying hair combed back and receding, clean-shaven, charcoal tweed suit, white shirt, navy tie with white dots, Lower Manhattan street behind. Face ~430px across. His Council-era photos (council.nyc.gov/district-39 hero) are an older candid in three-quarter view; a 2026 CC BY 4.0 portrait by Tessa Bury is on Commons (File:Brad_Lander.jpg, 4280x5350) if a more recent look is needed."
-  },
   "margaret-chin": {
-    "tier": "official",
-    "page": "https://www.flickr.com/photos/nyccouncil/41669636251/",
-    "image": "https://live.staticflickr.com/850/41669636251_00c6e5945d_k.jpg",
-    "publisher": "New York City Council (photo: Emil Cohen)",
-    "license": "\u00a9 New York City Council, used as a drawing reference",
-    "width": 2048,
-    "height": 1365,
-    "notes": "From the Council's official Flickr (nyccouncil): \"Council Member Margaret Chin Chairs Aging Committee Hearing at City Hall--Credit Emil Cohen,\" taken 2018-04-23. She left the Council at the end of 2021 and her Legistar profile now returns 410 Gone. The only posed Council headshot from her tenure (council.nyc.gov/d1 and the Council's districts repo, 2015-2021) is 219x311, and the council.nyc.gov/district-1 hero is a three-quarter view. Front-facing at the dais, neutral closed-mouth expression; short layered black hair, burgundy rectangular glasses, pearl drop earrings, orange-and-pink floral scarf, navy jacket with Council pin, US flag and Council seal behind. Face ~480px across. A 5760x3840 original exists on the Flickr page but was rate-limited (429)."
+    "tier": "press",
+    "page": "https://web.archive.org/web/20140131043153/http://www.margaretchin.com/",
+    "image": "https://web.archive.org/web/20140131043153im_/http://static.squarespace.com/static/512a41bbe4b091ea7fc6a617/512a5205e4b099777375e6b8/51d63a8ee4b01caf88c9c9a8/1372994214652/AV4A8916.JPG",
+    "publisher": "Margaret Chin campaign (margaretchin.com, archived)",
+    "license": "\u00a9 Margaret Chin campaign, used as a drawing reference",
+    "width": 1000,
+    "height": 667,
+    "notes": "Re-sourced 2026-11-11 to replace a Council-dais candid with pursed lips (NYC Council Flickr 41669636251, 2018-04-23; now photos/margaret-chin.candid.jpg). First slide of the home-page slideshow on her 2013 re-election campaign site (uploaded 2013-07-05), while she was in office. Posed street portrait: front-facing, broad smile showing teeth, short layered black hair, thin oval rose-gold wire glasses, pearl drop earrings, bright pink coat over a patterned silk scarf; she stands at the left of a wide frame. Face ~215px across (about bioguide scale). The live Squarespace file is gone; retrieved from the Wayback Machine. Drawn from a crop of the left 560px. Official tier came up short: the Council headshot from her tenure is 219x311, the District 1 hero (6-photo_committee.jpg, 760x507) is three-quarter and mid-word, and a search of the Council Flickr turned up only event candids."
   },
   "john-moss": {
     "tier": "press",
@@ -610,23 +600,73 @@
     "notes": "Glenn Youngkin, Governor of Virginia (2022-2026). Official March 2022 governor portrait ('Governor Glenn Youngkin Official Photo'), from the Governor's Flickr (flickr.com/photos/192094652@N03/51914264014), public domain on Commons; original 3758x4698, saved at the 1280px Commons thumbnail. Replaces the earlier 512x640 2023 portrait from the archived governor.virginia.gov 'About' page (web.archive.org/web/20250601113429/https://www.governor.virginia.gov/about/, photo by Andrea Hanks); same look."
   },
   "bill-de-blasio": {
-    "tier": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Bill_de_Blasio_by_Gage_Skidmore.jpg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bill_de_Blasio_by_Gage_Skidmore.jpg",
-    "publisher": "Wikimedia Commons (Gage Skidmore)",
-    "license": "CC BY-SA 3.0",
-    "width": 1955,
-    "height": 2585,
-    "notes": "Taken 2019-08-10 while he was mayor, speaking at an event in Des Moines, Iowa. Official tier came up too small: the archived Mayor's Office bio photo (web.archive.org/web/20211202134641/https://www1.nyc.gov/office-of-the-mayor/bio.page, deblasiolarge.png) is only 380x336, and the index-page version is 326x386. That photo is the cleaner reference for expression: white backdrop, broad closed smile, grey suit, navy tie with white dots. No larger copy turned up on nyc.gov or the Mayor's Office Flickr. This one is near front-facing on a black background, mouth open mid-speech, with a handheld mic covering his chin and the right side of his mouth. Short grey hair, blue suit, light blue shirt, gold patterned tie, red lapel pin. Face ~650px across."
+    "tier": "press",
+    "page": "https://iop.harvard.edu/fellows/bill-de-blasio",
+    "image": "https://iop.harvard.edu/sites/default/files/media/image/MayordeBlasio.jpeg",
+    "publisher": "Harvard Kennedy School Institute of Politics (his official NYC mayoral portrait)",
+    "license": "\u00a9 NYC Mayor's Office (official portrait), used as a drawing reference",
+    "width": 443,
+    "height": 559,
+    "notes": "Re-sourced 2026-11-11 to replace a mid-speech candid at a mic (Commons File:Bill_de_Blasio_by_Gage_Skidmore.jpg, CC BY-SA 3.0, 2019; now photos/bill-de-blasio.candid.jpg). His official mayoral studio portrait (c. 2014): same session, suit and dotted navy tie as the nyc.gov Mayor's Office bio photo (www1.nyc.gov/assets/home/images/mayor/bio/deblasiolarge.png, archived 2014-2021), which is only 380x336 with a ~120px face. This IOP fellow-page copy is the largest found: dark grey backdrop, slight three-quarter turn, broad warm smile showing teeth, short salt-and-pepper hair, dark charcoal suit. Face ~200px across (bioguide scale). Drawn from a 2x LANCZOS upscale; at native size the model went to a heavy woodcut hand. Commons has no posed portrait from his mayoralty; the 2010 Public Advocate smiles are under 500px and show his old goatee."
   },
   "andrew-cuomo": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrew_Cuomo_2017.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Andrew_Cuomo_2017.jpg",
+    "publisher": "Wikimedia Commons (Metropolitan Transportation Authority; photo: Patrick Cashin / MTA)",
+    "license": "CC BY 2.0",
+    "width": 528,
+    "height": 748,
+    "notes": "Re-sourced 2026-11-11 to replace a low-res, mid-word briefing-table candid (governor's office Flickr 51395017921, 2021-08-22; now photos/andrew-cuomo.candid.jpg). Taken 2017-01-01 at the Second Avenue Subway opening ride, while governor; cropped on Commons from File:Second_Avenue_Subway_first_ride_96th_St_(31192356394).jpg (1920x1578, the largest available). Near front-facing with the head turned slightly to his left, broad smile showing teeth; dark-brown swept-back hair, dark suit, white shirt, light blue tie, round lapel pin; subway car behind. Face ~285px across. Official tier came up short: the governor.ny.gov About-page image from his tenure (sites/governor.ny.gov/files/thumbnails/image/gov_bio_image.png, 674x489, archived 2015-2020) is smiling and front-facing but the face is only ~150px with other people behind him; the SALT speaker headshot is an upward-gazing half-smile lit from above; Commons public-domain portraits are his 1998 HUD portrait."
+  },
+  "brad-lander.comptroller": {
     "tier": "official",
-    "page": "https://www.flickr.com/photos/governorandrewcuomo/51395017921/",
-    "image": "https://live.staticflickr.com/65535/51395017921_097bf3cc88_k.jpg",
-    "publisher": "Office of the Governor of New York (Governor Andrew M. Cuomo Flickr)",
-    "license": "\u00a9 New York State Governor's Office, used as a drawing reference",
-    "width": 2048,
+    "page": "https://web.archive.org/web/20251213212518/https://comptroller.nyc.gov/about/about-brad-lander/",
+    "image": "https://comptroller.nyc.gov/wp-content/uploads/2024/04/Comptroller-Brad-Lander-scaled.jpg",
+    "publisher": "Office of the New York City Comptroller",
+    "license": "\u00a9 NYC Comptroller's Office, used as a drawing reference",
+    "width": 2560,
+    "height": 1707,
+    "notes": "Official 2024 NYC Comptroller portrait (he was Comptroller 2022-2025, after serving as Council member for District 39, 2010-2021). The live about-brad-lander page now 404s, so the page link is the Wayback snapshot from December 2025; the image file is still served live by comptroller.nyc.gov. Front-facing, smiling with teeth, short greying hair combed back and receding, clean-shaven, charcoal tweed suit, white shirt, navy tie with white dots, Lower Manhattan street behind. Face ~430px across. His Council-era photos (council.nyc.gov/district-39 hero) are an older candid in three-quarter view; a 2026 CC BY 4.0 portrait by Tessa Bury is on Commons (File:Brad_Lander.jpg, 4280x5350) if a more recent look is needed. (Set aside Nov 2026 in favor of the 2026 Commons portrait, File:Brad_Lander.jpg; the working photo is photos/brad-lander.comptroller.jpg.)"
+  },
+  "brad-lander": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Brad_Lander.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Brad_Lander.jpg/1280px-Brad_Lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "publisher": "Tessa Bury, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "width": 1280,
+    "height": 1600,
+    "notes": "2026 portrait of former NYC Comptroller Brad Lander by Tessa Bury (own work, CC BY 4.0, taken 2026-03-01; original 4280x5350, downloaded as the 1280px Commons thumbnail). Not a government photo, so tier commons. Outdoors in soft sun, front-facing, gentle closed-mouth smile, short salt-and-pepper hair, clean-shaven, navy puffer jacket over a dark polo; a lavalier mic is clipped to the jacket (leave it out). Replaces the 2024 Comptroller office portrait (now under brad-lander.comptroller), which three earlier drawing tries could not render faithfully."
+  },
+  "jennifer-boysko": {
+    "tier": "press",
+    "page": "https://jenniferboysko.com/",
+    "image": "https://jenniferboysko.com/wp-content/uploads/2023/05/Boysko_Headshot_April23-edited.jpeg",
+    "publisher": "Jennifer Boysko for VA Senate",
+    "license": "\u00a9 Jennifer Boysko for VA Senate, used as a drawing reference",
+    "width": 4734,
+    "height": 4734,
+    "notes": "April 2023 headshot, the same portrait the Senate of Virginia uses on her member page (apps.senate.virginia.gov/Senator/memberpage.php?id=S106), but the Senate serves it only at 269x269 (face ~80px), below the size floor, so the full-resolution file from her campaign site's home page is used (working copy in photos/ downscaled to 2000x2000; face ~700px across). Front-facing, broad smile showing teeth, shoulder-length dark-brown hair with lighter brown ends and soft waves, center part, brown eyes, light skin, royal blue jacket with a large patterned silk scarf (navy, gold, green, pink) tied at the neck, US and Virginia flags behind. Other options checked Nov 2026: the Senate Capitol Classroom card (capclass PDF, 473x747) and her House history page photo (333x222) show an older shorter bob; Commons has only a video still and a small full-length outdoor photo."
+  },
+  "kathy-hochul": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Kathy_Hochul_(cropped).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kathy_Hochul_%28cropped%29.jpg",
+    "publisher": "Wikimedia Commons (Metropolitan Transportation Authority; photo: Marc A. Hermann / MTA)",
+    "license": "CC BY 2.0",
+    "width": 1023,
     "height": 1365,
-    "notes": "From the governor's office's official Flickr: \"Governor Cuomo Announces Pre-Landfall Federal Disaster Declaration Issued by President Biden,\" 2021-08-22, his last month in office. The Cuomo-era governor.ny.gov pages have no portrait; the archived About page has only 702x396 event slideshow images with small faces. Front-facing, seated at a briefing table, mid-speech with a slightly raised brow, left hand gesturing. Short dark-grey hair swept back, tanned, white short-sleeved shirt with the State seal patch, \"Governor Andrew M. Cuomo\" nameplate, State seal, US and NY flags behind. Face ~300px across. A 6000x4000 original is on the page but Flickr rate-limited it (429). For his 2026 look (greyer, older), see Commons File:Andrew_Cuomo_Tribeca_2026_1.jpg (CC BY-SA 4.0)."
+    "notes": "Re-sourced 2026-11-11 to replace a mid-word press-event candid at a mic (Commons File:World_Cup_Transportation_and_Safety_(cropped).jpg, CC BY 4.0, now photos/kathy-hochul.candid.jpg). Taken 2023-08-07 at the Avalon Harrison ribbon-cutting, while governor. Front-facing, warm closed smile showing upper teeth, dark background; dark auburn-brown shoulder-length hair, small silver hoops, thin necklace, light blue blazer over a navy blouse. Face ~450px across. Official tier came up short: governor.ny.gov has no portrait on her About page (it uses a 660x400 event photo, LGOption3.jpg), and the posed 2021 official governor portrait (blue jacket, grey backdrop) is only on NGA at 400x400 with a ~170px face (nga.org/governor/kathy-hochul/, wp-content/uploads/2021/08/GovernorHochul.jpg). Commons official portraits are from 2011 (Congress) and 2017 (Lt. Governor)."
+  },
+  "julia-salazar": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/julia-salazar",
+    "image": "https://www.nysenate.gov/sites/default/files/2023/07/27/official-headshot-004.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 1599,
+    "height": 1999,
+    "notes": "Re-sourced 2026-11-11 to replace a mid-word candid from the chamber floor (Commons File:Julia_Salazar,_2019_(cropped).jpg, CC BY 2.0, now photos/julia-salazar.candid.jpg). Official Senate headshot, uploaded 2023-07-27, shown on her member page. nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine snapshot (web.archive.org/web/20261022134606im_/...). Posed studio portrait on a grey backdrop: front-facing, soft closed-lip smile, long straight dark-brown hair lighter toward the ends, dark navy wrap top with the round Senate pin. Face ~400px across. Drawn from a head-and-shoulders crop (x 280-1280, y 220-1470); the full frame made the model draw her half-length with a small face."
   }
 }

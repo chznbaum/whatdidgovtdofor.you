@@ -8,7 +8,8 @@ ids: { openstates: ocd-person/27eeaa71-8938-412b-90ce-f83370824485 }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S106
 portrait:
   image: /portraits/jennifer-boysko.webp
-  kind: photo
+  kind: official
   source:
     label: Senate of Virginia
     url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S106
+    license: "Official Senate of Virginia headshot (2023), used as a drawing reference"

@@ -4,3 +4,10 @@ office: New York City Council Member
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/brad-lander.webp
+  kind: photo
+  source:
+    label: Tessa Bury, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Brad_Lander.jpg
+    license: CC BY 4.0

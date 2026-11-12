@@ -22,7 +22,9 @@ function record(id, entry) {
   const all = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest, 'utf8')) : {};
   if (all[id]) return false;
   all[id] = entry;
-  fs.writeFileSync(manifest, JSON.stringify(all, null, 2) + '\n');
+  // Escape non-ASCII the way the Python tools write this file, so a write doesn't churn every other entry.
+  const ascii = JSON.stringify(all, null, 2).replace(/[\u007f-\uffff]/g, (c) => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'));
+  fs.writeFileSync(manifest, ascii + '\n');
   return true;
 }
 

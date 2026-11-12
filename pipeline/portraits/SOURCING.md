@@ -24,7 +24,7 @@ Confirm it's the right person: the page must name them and match the office.
 
 ## Nothing gets republished
 
-The owner decided on 2026-11-11 that the site never republishes source photos, whatever their license. Every portrait's "see the photo" link goes to the **page** the photo came from: the bioguide page, member page, Commons file page, press page, video, or profile.
+The owner decided on 2026-11-11 that the site never republishes source photos, whatever their license. Every portrait's "see the photo" link goes to the **page** the photo came from: the bioguide page, member page, Commons file page, press page, video, or profile. When no page shows the photo (e.g. it exists only as a file in an official's media library), linking the image file itself is fine; the owner OK'd linking to source photos.
 
 The downloaded file in `photos/` is a private working copy for drawing. It's gitignored and never copied to `public/`.
 
@@ -36,7 +36,7 @@ The downloaded file in `photos/` is a private working copy for drawing. It's git
 ```json
 "<id>": {
   "tier": "official | commons | press | reference-only",
-  "page": "https://… (the page that shows the photo; never a bare image URL)",
+  "page": "https://… (the page that shows the photo; the image file itself only if no page shows it)",
   "image": "https://… (the image file you downloaded)",
   "publisher": "Senate of Virginia | Wikimedia Commons (Author Name) | …",
   "license": "Public domain | CC BY-SA 4.0 | © holder, used as a drawing reference | …",
