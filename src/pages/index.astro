@@ -7,23 +7,16 @@ import ActionList from '../components/ActionList.astro';
 import Face from '../components/Face.astro';
 import PortraitCredit from '../components/PortraitCredit.astro';
 import Status from '../components/Status.astro';
-import { entriesWithin, entryUrl, getEntries, getPlacesMap, placeUrl, type Entry } from '../lib/data.ts';
+import { entriesWithin, entryUrl, getEntries, getLead, getPlacesMap, placeUrl, type Entry } from '../lib/data.ts';
 import { ROLE_BYLINE, nameWithParty } from '../lib/format.ts';
 import { GROUP } from '../lib/status.ts';
 
 const entries = await getEntries();
 const places = await getPlacesMap();
 
-// The cover story. An editor's pick; it falls back to the newest featured action whose key person has a drawing.
-// Leading with a Republican who did the work says, without saying it, that this site credits whoever did it.
-const LEAD = 'social-security-fairness-act';
-const hasFace = async (e: Entry) => Boolean((await getEntry(e.data.credit[0].official))?.data.portrait);
+// The cover story (see getLead).
+const lead = await getLead(entries);
 const featured = entries.filter((e) => e.data.featured);
-let lead = entries.find((e) => e.id.endsWith(`/${LEAD}`));
-if (!lead || !(await hasFace(lead))) {
-  for (const e of featured) if (await hasFace(e)) { lead = e; break; }
-}
-lead ??= entries[0];
 const ld = lead.data;
 const leadCredit = ld.credit[0];
 const leadPerson = (await getEntry(leadCredit.official))!;

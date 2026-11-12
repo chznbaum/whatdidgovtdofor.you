@@ -1,4 +1,4 @@
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
 
 export type Entry = CollectionEntry<'entries'>;
 export type Official = CollectionEntry<'officials'>;
@@ -53,3 +53,16 @@ export function entriesWithin(id: string, entries: Entry[], places: Map<string, 
 }
 
 export const creditedIds = (e: Entry) => e.data.credit.map((c) => c.official.id);
+
+// The home page's cover story: an editor's pick, falling back to the newest featured action whose key person has a
+// drawing. Leading with a Republican who did the work says, without saying it, that this site credits whoever did it.
+// The home share image (/og/home.png) is drawn from the same pick, so a shared link shows the face people land on.
+const LEAD = 'social-security-fairness-act';
+export async function getLead(entries: Entry[]): Promise<Entry> {
+  const hasFace = async (e: Entry) => Boolean((await getEntry(e.data.credit[0].official))?.data.portrait);
+  let lead = entries.find((e) => e.id.endsWith(`/${LEAD}`));
+  if (!lead || !(await hasFace(lead))) {
+    for (const e of entries.filter((e) => e.data.featured)) if (await hasFace(e)) { lead = e; break; }
+  }
+  return lead ?? entries[0];
+}

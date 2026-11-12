@@ -18,7 +18,8 @@ const SITE = 'What did government do for you?';
 const {
   title,
   description = 'The concrete things government did for people, who made them happen, and whether they still stand.',
-  image,
+  // Pages without their own share image use the site's: the home page's question and lead person.
+  image = '/og/home.png',
   cta = true,
   footer = true,
   noindex = false,

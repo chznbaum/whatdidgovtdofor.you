@@ -2,47 +2,10 @@
 // orange next to what they did, who they are, and where it stands. No drawing: initials. A body: its name.
 import type { APIRoute } from 'astro';
 import { getEntry } from 'astro:content';
-import { readFile } from 'node:fs/promises';
-import { join } from 'node:path';
-import { Resvg } from '@resvg/resvg-js';
-import satori from 'satori';
-import sharp from 'sharp';
 import { entrySlug, getEntries, type Entry } from '../../lib/data.ts';
 import { ROLE_BYLINE, coverCredits, initials, nameWithParty } from '../../lib/format.ts';
-import { MARK, statusText, type Mark } from '../../lib/status.ts';
-
-const ORANGE = '#ff7a00';
-// Paths from the project root: this module runs from a build chunk, so paths relative to it would break.
-const fontFile = (pkg: string, file: string) => readFile(join(process.cwd(), 'node_modules/@fontsource', pkg, 'files', file));
-const fonts = Promise.all([
-  fontFile('young-serif', 'young-serif-latin-400-normal.woff').then((data) => ({ name: 'Young Serif', data, weight: 400 as const })),
-  ...([600, 800] as const).map(async (weight) => ({
-    name: 'Libre Franklin',
-    data: await fontFile('libre-franklin', `libre-franklin-latin-${weight}-normal.woff`),
-    weight,
-  })),
-]);
-
-const MARK_SVG: Record<Mark, string> = {
-  full: '<circle cx="10" cy="10" r="8.5" fill="#000"/>',
-  half: '<circle cx="10" cy="10" r="7.75" fill="none" stroke="#000" stroke-width="1.5"/><path d="M10 2.25A7.75 7.75 0 0 0 10 17.75Z" fill="#000"/>',
-  threat: '<path d="M10 10L17.36 5.75A8.5 8.5 0 1 1 10 1.5Z" fill="#000"/>',
-  ring: '<circle cx="10" cy="10" r="7.5" fill="none" stroke="#000" stroke-width="2"/>',
-};
-const markUri = (m: Mark, color = '#000') =>
-  `data:image/svg+xml;base64,${Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">${MARK_SVG[m].replaceAll('#000', color)}</svg>`).toString('base64')}`;
-
-type Node = { type: string; props: Record<string, unknown> };
-const h = (style: Record<string, unknown>, ...children: unknown[]): Node => ({
-  type: 'div',
-  props: { style: { display: 'flex', boxSizing: 'border-box', ...style }, children: children.length === 1 ? children[0] : children },
-});
-const img = (src: string, style: Record<string, unknown>): Node => ({ type: 'img', props: { src, style } });
-
-async function portraitUri(path: string) {
-  const png = await sharp(join(process.cwd(), 'public', path)).resize(560).png().toBuffer();
-  return `data:image/png;base64,${png.toString('base64')}`;
-}
+import { ORANGE, h, img, markUri, portraitUri, render, type Node } from '../../lib/og.ts';
+import { MARK, statusText } from '../../lib/status.ts';
 
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
@@ -61,7 +24,7 @@ export const GET: APIRoute = async ({ props }) => {
 
   let art: Node;
   if (key.data.portrait) {
-    art = img(await portraitUri(key.data.portrait.image), { width: 560, height: 560, position: 'absolute', right: -40, bottom: -40 });
+    art = img(await portraitUri(key.data.portrait.image, 560), { width: 560, height: 560, position: 'absolute', right: -40, bottom: -40 });
   } else if (key.data.kind === 'body') {
     art = h({ position: 'absolute', right: 40, bottom: 70, width: 400, fontFamily: 'Young Serif', fontSize: 78, lineHeight: 0.95, letterSpacing: -2 }, key.data.name);
   } else {
@@ -97,7 +60,5 @@ export const GET: APIRoute = async ({ props }) => {
     ),
   );
 
-  const svg = await satori(tree as any, { width: 1200, height: 630, fonts: await fonts });
-  const png = new Resvg(svg).render().asPng();
-  return new Response(new Uint8Array(png), { headers: { 'Content-Type': 'image/png' } });
+  return render(tree);
 };
