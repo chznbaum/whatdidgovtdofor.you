@@ -28,3 +28,6 @@ pipeline/state/
 
 # source photos of officials are never republished (pipeline/portraits/SOURCING.md)
 public/portraits/photos/
+
+# design samples hold private copies of officials' source photos; they stay local (see docs/design.md)
+design-samples/

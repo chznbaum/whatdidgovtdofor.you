@@ -2,7 +2,7 @@
 
 **Audience:** working people who don't follow the news, usually arriving on a phone from a link someone shared.
 **Job:** in five seconds, show what government did for them, who did the work, and whether it still stands. Proof is one tap away.
-**Reference:** the round-2 sample in `design-samples/r2-1-faces/` (chosen Nov. 2026).
+**Reference:** the round-2 "Faces first" sample (chosen Nov. 2026), kept locally in `design-samples/r2-1-faces/`, which is gitignored because the samples include private copies of source photos.
 
 ## Concept
 

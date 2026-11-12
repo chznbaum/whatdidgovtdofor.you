@@ -37,7 +37,28 @@ Entries publish without human review by design. `pipeline/decisions.json` record
 
 ### Running it every day
 
-`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → local commit. It never pushes. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file).
+`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → commit → push. The push is always a normal one, never forced. If the remote has moved, local commits are rebased onto it, and a conflict stops the run for a person. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file).
+
+## Deploying
+
+The site is static and is served from a **Bunny Storage Zone behind a Bunny Pull Zone**. Every push to `main`, including the daily pipeline's, runs `.github/workflows/deploy.yml`:
+
+1. validate and build
+2. `ops/deploy-bunny.mjs`: upload only the files whose SHA-256 changed, purge the Pull Zone cache, then delete stored files the build no longer has
+
+`dist/404.html` is also uploaded as `bunnycdn_errors/404.html`, Bunny's custom 404 page.
+
+GitHub Actions secrets:
+
+| Secret | What it is |
+| --- | --- |
+| `BUNNY_STORAGE_ZONE` | Storage zone name |
+| `BUNNY_STORAGE_PASSWORD` | The storage zone's password (FTP & API Access), not the account key |
+| `BUNNY_STORAGE_HOST` | The zone region's API host, e.g. `storage.bunnycdn.com` (Falkenstein) or `ny.storage.bunnycdn.com` |
+| `BUNNY_API_KEY` | Account API key, used only to purge the cache |
+| `BUNNY_PULLZONE_ID` | Pull zone id |
+
+To see what a deploy would change without changing anything, run `node ops/deploy-bunny.mjs --dry-run` with the same variables set. To revert a bad deploy, revert the commit on `main` and push; the workflow redeploys.
 
 ### Models
 
