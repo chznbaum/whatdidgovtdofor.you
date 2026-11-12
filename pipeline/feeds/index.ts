@@ -1,7 +1,8 @@
 // Runs every feed and collects candidates (raw government actions) for triage and drafting.
 // Run: node pipeline/feeds/index.ts --since 2026-09-01 [--limit 50] [--feed us-laws,va-laws]
 //   Writes pipeline/state/candidates.json, merged by key with what's already there.
-// Env: CONGRESS_API_KEY (optional; DEMO_KEY otherwise), NYSENATE_API_KEY, NYC_LEGISTAR_TOKEN.
+// Env (shell or the repo-root .env): CONGRESS_API_KEY (optional; DEMO_KEY otherwise), NYSENATE_API_KEY, NYC_LEGISTAR_TOKEN.
+import '../lib/env.ts';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';

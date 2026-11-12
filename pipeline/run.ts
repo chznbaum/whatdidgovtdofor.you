@@ -2,16 +2,18 @@
 // different company verifies them. Entries publish without human review; retract anything bad.
 //
 //   npm run pipeline -- feeds   [--since YYYY-MM-DD]
+//   npm run pipeline -- triage  [--limit N] [--concurrency N]
 //   npm run pipeline -- draft   [--limit N] [--writer claude|codex] [--concurrency N]
 //   npm run pipeline -- verify  [--limit N] [--stale DAYS] [--concurrency N] [files...]
 //   npm run pipeline -- retract <slug> [--reason "..."]
 //   npm run pipeline -- all     [--since YYYY-MM-DD] [--limit N]
+import './lib/env.ts';
 import { existsSync } from 'node:fs';
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readAllEntries, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
-import { MODELS, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
+import { MODELS, TRIAGE_MODEL, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
 import {
   OFFICIALS_RULE,
   TRIAGE_SCHEMA,
@@ -36,9 +38,23 @@ const today = () => new Date().toLocaleDateString('en-CA');
 async function readJson<T>(file: string, fallback: T): Promise<T> {
   return existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : fallback;
 }
-const writeJson = (file: string, data: unknown) => writeFile(file, JSON.stringify(data, null, 1) + '\n');
+// Write to a temp file and rename, so an interrupted run never leaves half a file.
+let writes = 0;
+async function writeJson(file: string, data: unknown) {
+  const tmp = `${file}.${process.pid}-${++writes}.tmp`;
+  await writeFile(tmp, JSON.stringify(data, null, 1) + '\n');
+  await rename(tmp, file);
+}
 
-type Decision = { decision: 'drafted' | 'skip' | 'error'; reason: string; date: string; file?: string; attempts?: number };
+// promising: triage passed it and it waits to be drafted. impact: triage's 1-5 score for working people.
+type Decision = {
+  decision: 'promising' | 'drafted' | 'skip' | 'error';
+  reason: string;
+  date: string;
+  impact?: number;
+  file?: string;
+  attempts?: number;
+};
 const MAX_ATTEMPTS = 3;
 type Retraction = { slug: string; source_key?: string; title?: string; reason: string; date: string };
 
@@ -74,48 +90,87 @@ async function feeds(since: string) {
   console.log(`feeds: ${found.length} candidates fetched, ${byKey.size} known`);
 }
 
+// --- triage --------------------------------------------------------------
+
+const TRIAGE_BATCH = 40;
+
+// Keys that never need triage or drafting: already an entry, retracted, or decided.
+async function settledKeys(decisions: Record<string, Decision>, retracted: Retraction[]) {
+  const entries = await existingEntries();
+  return new Set<string>([
+    ...entries.map((e) => e.data.source_key).filter(Boolean),
+    ...retracted.map((r) => r.source_key).filter((k): k is string => Boolean(k)),
+    ...Object.keys(decisions),
+  ]);
+}
+
+// Screens every candidate without a decision on the cheaper triage model, newest first, and records
+// promising/skip with an impact score. decisions.json is saved after every batch.
+async function triage({ limit, concurrency }: { limit: number; concurrency: number }) {
+  const candidates = await readJson<any[]>(CANDIDATES, []);
+  const decisions = await readJson<Record<string, Decision>>(DECISIONS, {});
+  const retracted = await readJson<Retraction[]>(RETRACTED, []);
+  const settled = await settledKeys(decisions, retracted);
+  const fresh = candidates
+    .filter((c) => !settled.has(c.key))
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, limit);
+  const batches = Array.from({ length: Math.ceil(fresh.length / TRIAGE_BATCH) }, (_, i) => fresh.slice(i * TRIAGE_BATCH, (i + 1) * TRIAGE_BATCH));
+  console.log(`triage: ${fresh.length} new candidates in ${batches.length} batches with ${TRIAGE_MODEL}`);
+
+  const provider = providerOfModel(TRIAGE_MODEL);
+  let saving = Promise.resolve();
+  let done = 0;
+  await pool(batches, concurrency, async (batch) => {
+    const started = Date.now();
+    try {
+      const prompt = await triagePrompt(batch);
+      const { data } = await runLlm<TriageOutput>(provider, { prompt, schema: TRIAGE_SCHEMA, web: false, cwd: ROOT, model: TRIAGE_MODEL, timeoutMs: 10 * 60_000 });
+      const byKey = new Map(data.results.map((r) => [r.key, r]));
+      let promising = 0;
+      for (const c of batch) {
+        const r = byKey.get(c.key);
+        if (!r) continue; // left for the next run
+        if (r.decision === 'draft') promising++;
+        decisions[c.key] = { decision: r.decision === 'draft' ? 'promising' : 'skip', reason: `triage: ${r.reason}`, impact: r.impact, date: today() };
+      }
+      console.log(`  batch ${++done}/${batches.length}: ${promising} promising of ${batch.length} (${Math.round((Date.now() - started) / 1000)}s)`);
+    } catch (err) {
+      console.log(`  batch ${++done}/${batches.length} failed: ${String(err).slice(0, 200)}`);
+    }
+    saving = saving.then(() => writeJson(DECISIONS, decisions));
+    await saving;
+  });
+}
+
 // --- draft ---------------------------------------------------------------
 
 async function draft({ limit, writer, concurrency }: { limit: number; writer: Provider; concurrency: number }) {
+  // Screen anything new first, so drafting only spends a full research call on plausible actions.
+  await triage({ limit: Infinity, concurrency });
+
   const candidates = await readJson<any[]>(CANDIDATES, []);
   const decisions = await readJson<Record<string, Decision>>(DECISIONS, {});
   const retracted = await readJson<Retraction[]>(RETRACTED, []);
   const entries = await existingEntries();
-  const taken = new Set([
-    ...entries.map((e) => e.data.source_key).filter(Boolean),
-    ...retracted.map((r) => r.source_key).filter(Boolean),
-    // Errors are retried on later runs, up to MAX_ATTEMPTS.
-    ...Object.entries(decisions)
-      .filter(([, d]) => d.decision !== 'error' || (d.attempts ?? 1) >= MAX_ATTEMPTS)
-      .map(([key]) => key),
-  ]);
-  const fresh = candidates.filter((c) => !taken.has(c.key)).sort((a, b) => b.date.localeCompare(a.date));
-
-  // Triage in batches first so a full research call is only spent on plausible actions.
-  const promising: any[] = [];
-  for (let i = 0; i < fresh.length && promising.length < limit; i += 25) {
-    const batch = fresh.slice(i, i + 25);
-    try {
-      const { data } = await runLlm<TriageOutput>(writer, { prompt: await triagePrompt(batch), schema: TRIAGE_SCHEMA, web: false, cwd: ROOT });
-      const byKey = new Map(data.results.map((r) => [r.key, r]));
-      for (const c of batch) {
-        const r = byKey.get(c.key);
-        if (r?.decision === 'draft') promising.push(c);
-        else if (r) decisions[c.key] = { decision: 'skip', reason: `triage: ${r.reason}`, date: today() };
-      }
-    } catch (err) {
-      console.log(`  triage batch failed: ${String(err).slice(0, 200)}`);
-    }
-  }
-  await writeJson(DECISIONS, decisions);
-  const todo = promising.slice(0, limit);
-  console.log(`draft: ${fresh.length} new candidates, ${promising.length} worth drafting, drafting ${todo.length} with ${MODELS[writer]}`);
+  const taken = new Set([...entries.map((e) => e.data.source_key), ...retracted.map((r) => r.source_key)].filter(Boolean));
+  // Promising candidates, plus errors still under MAX_ATTEMPTS, highest impact first, then newest.
+  const queue = candidates
+    .filter((c) => {
+      const d = decisions[c.key];
+      if (!d || taken.has(c.key)) return false;
+      return d.decision === 'promising' || (d.decision === 'error' && (d.attempts ?? 1) < MAX_ATTEMPTS);
+    })
+    .sort((a, b) => (decisions[b.key].impact ?? 0) - (decisions[a.key].impact ?? 0) || b.date.localeCompare(a.date));
+  const todo = queue.slice(0, limit);
+  console.log(`draft: ${queue.length} promising candidates, drafting ${todo.length} with ${MODELS[writer]}`);
 
   const retractedSlugs = new Set(retracted.map((r) => r.slug));
   await pool(todo, concurrency, async (candidate) => {
     const record = (d: Omit<Decision, 'date'>) => {
-      const attempts = (decisions[candidate.key]?.attempts ?? 0) + 1;
-      decisions[candidate.key] = { ...d, date: today(), ...(d.decision === 'error' ? { attempts } : {}) };
+      const prior = decisions[candidate.key];
+      const attempts = (prior?.attempts ?? 0) + 1;
+      decisions[candidate.key] = { ...d, impact: prior?.impact, date: today(), ...(d.decision === 'error' ? { attempts } : {}) };
       console.log(`  ${d.decision.padEnd(7)} ${candidate.key}: ${d.reason}`);
     };
     try {
@@ -251,7 +306,7 @@ const { values, positionals } = parseArgs({
   allowPositionals: true,
   options: {
     since: { type: 'string', default: new Date(Date.now() - 30 * 86_400_000).toISOString().slice(0, 10) },
-    limit: { type: 'string', default: '10' },
+    limit: { type: 'string' },
     writer: { type: 'string', default: 'claude' },
     concurrency: { type: 'string', default: '2' },
     stale: { type: 'string' },
@@ -259,13 +314,16 @@ const { values, positionals } = parseArgs({
   },
 });
 const [command, ...rest] = positionals;
-const limit = Number(values.limit);
+const limit = values.limit ? Number(values.limit) : 10;
 const concurrency = Number(values.concurrency);
 const writer = values.writer === 'codex' ? 'codex' : 'claude';
 
 switch (command) {
   case 'feeds':
     await feeds(values.since!);
+    break;
+  case 'triage':
+    await triage({ limit: values.limit ? Number(values.limit) : Infinity, concurrency });
     break;
   case 'draft':
     await draft({ limit, writer, concurrency });
@@ -283,6 +341,6 @@ switch (command) {
     await verify({ limit: limit * 2, concurrency, files: [] });
     break;
   default:
-    console.log('usage: npm run pipeline -- <feeds|draft|verify|retract|all> [options]');
+    console.log('usage: npm run pipeline -- <feeds|triage|draft|verify|retract|all> [options]');
     process.exit(1);
 }

@@ -13,12 +13,14 @@ export const MODELS: Record<Provider, string> = {
   claude: process.env.CLAUDE_MODEL ?? 'claude-opus-5-5',
   codex: process.env.CODEX_MODEL ?? 'gpt-5.6-sol',
 };
+// Triage only screens and scores candidates from their titles, so it runs on a cheaper model.
+export const TRIAGE_MODEL = process.env.TRIAGE_MODEL ?? 'claude-sonnet-5-5';
 const VIA: Record<Provider, string> = { claude: 'claude-code', codex: 'codex-cli' };
 
 export const otherProvider = (p: Provider): Provider => (p === 'claude' ? 'codex' : 'claude');
 export const providerOfModel = (model: string): Provider => (/^claude/i.test(model) ? 'claude' : 'codex');
 
-export type LlmCall = { prompt: string; schema: object; web: boolean; cwd: string; timeoutMs?: number };
+export type LlmCall = { prompt: string; schema: object; web: boolean; cwd: string; timeoutMs?: number; model?: string };
 export type LlmResult<T> = { data: T; model: string; via: string };
 
 function exec(cmd: string, args: string[], input: string, cwd: string, timeoutMs: number) {
@@ -53,7 +55,7 @@ async function runClaude<T>(call: LlmCall, timeoutMs: number): Promise<T> {
     '--json-schema',
     JSON.stringify(call.schema),
     '--model',
-    MODELS.claude,
+    call.model ?? MODELS.claude,
     // Keep runs hermetic: no MCP servers, no user hooks or CLAUDE.md, no saved session.
     '--strict-mcp-config',
     '--setting-sources',
@@ -88,7 +90,7 @@ async function runCodex<T>(call: LlmCall, timeoutMs: number): Promise<T> {
       '--sandbox',
       'read-only',
       '--model',
-      MODELS.codex,
+      call.model ?? MODELS.codex,
       '-c',
       `model_reasoning_effort=${process.env.CODEX_EFFORT ?? 'high'}`,
       '--output-schema',
@@ -109,5 +111,5 @@ async function runCodex<T>(call: LlmCall, timeoutMs: number): Promise<T> {
 export async function runLlm<T>(provider: Provider, call: LlmCall): Promise<LlmResult<T>> {
   const timeoutMs = call.timeoutMs ?? 20 * 60_000;
   const data = provider === 'claude' ? await runClaude<T>(call, timeoutMs) : await runCodex<T>(call, timeoutMs);
-  return { data, model: MODELS[provider], via: VIA[provider] };
+  return { data, model: call.model ?? MODELS[provider], via: VIA[provider] };
 }

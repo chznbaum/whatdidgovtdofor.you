@@ -55,18 +55,23 @@ export const TRIAGE_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['key', 'decision', 'reason'],
+        required: ['key', 'reason', 'decision', 'impact'],
         properties: {
           key: { type: 'string' },
-          decision: { type: 'string', enum: ['draft', 'skip'] },
           reason: { type: 'string', description: 'A few words.' },
+          decision: { type: 'string', enum: ['draft', 'skip'] },
+          impact: {
+            type: 'integer',
+            enum: [1, 2, 3, 4, 5],
+            description: 'How much the action does for working people, 1 (barely noticeable) to 5 (large and direct for millions).',
+          },
         },
       },
     },
   },
 };
 
-export type TriageOutput = { results: { key: string; decision: 'draft' | 'skip'; reason: string }[] };
+export type TriageOutput = { results: { key: string; reason: string; decision: 'draft' | 'skip'; impact: number }[] };
 
 export type WriterOutput = {
   decision: 'draft' | 'skip';
@@ -146,26 +151,47 @@ Your job:
 }
 
 // Cheap first pass over many candidates at once: no web search, just the qualification rules.
+// The stable part (rules, existing and retracted entries) comes first so repeated batches share a prefix.
 export async function triagePrompt(candidates: any[]): Promise<string> {
   const c = await context();
   const rules = c.guide.match(/## What qualifies[\s\S]*?(?=\n## )/)?.[0] ?? '';
+  const retracted: { slug: string; source_key?: string; title?: string; reason: string }[] = JSON.parse(
+    await readFile(join(ROOT, 'pipeline/retracted.json'), 'utf8').catch(() => '[]'),
+  );
   const list = candidates.map((x) => ({
     key: x.key,
     where: x.jurisdiction,
+    ...(x.places?.length ? { places: x.places } : {}),
     kind: x.kind,
     date: x.date,
     title: x.title,
     summary: (x.summary ?? '').slice(0, 400),
   }));
-  return `You screen candidate government actions for whatdidgovtdofor.you, a site about concrete things government did for people. Decide for each candidate whether it is worth researching as an entry.
+  return `You screen candidate government actions for whatdidgovtdofor.you, a site about concrete things government did for working people. For each candidate, decide whether it is worth researching as an entry, and score its impact. You only see each item's title and summary; a writer researches the ones you pass.
 
 ${rules}
 
-Mark "draft" only when the item itself is (or clearly announces) an enacted, signed, funded, or ordered action with a direct, tangible effect on people. Press releases about events, appointments, closures, ribbon-cuttings, awards, and routine administrative items are "skip". Also skip anything that duplicates an existing entry:
+Mark "draft" only when the item itself is (or clearly announces) an enacted, signed, funded, or ordered action with a direct, tangible effect on working people. Mark "skip" for:
+- press releases about events, visits, appointments, closures, ribbon-cuttings, awards, reports, and routine administrative items; proposals, plans, and bills that only passed one chamber; anything whose main effect is on government itself (agency procedure, technical fixes, fees between governments).
+- anything that fails the net-impact test above, as far as the item shows: a tax cut paid for by cutting services, a benefit carried in a law that cuts services or coverage for working people more than it gives, relief that mostly goes to owners, large property holders, businesses, or top earners, and anything that shifts costs onto workers. If how it was paid for is the only open question, mark "draft" and say so; the writer checks it.
+- public housing redevelopment: demolish-and-rebuild projects, Choice Neighborhoods grants, RAD conversions, HOPE VI-style redevelopment. Always skip these, whatever else they promise.
+- anything that duplicates an existing or a retracted entry below: the same action, even under another name, bill number, or source. Retracted entries stay out for the reason given.
+
+impact scores what the action does for working people, judged by the content guide, not how big the announcement sounds:
+5 = large and direct for millions of people or most residents of the place: wages, money in pockets, health coverage, lower everyday costs, housing security, or a basic right (a minimum-wage raise, universal school meals, Medicaid expansion).
+4 = substantial and direct for a large group, or a big gain for a sizable specific group (a $35 insulin cap, a right to counsel for tenants facing eviction).
+3 = a clear, tangible gain for a moderate group, or a local service or infrastructure project many residents will use.
+2 = real but small or narrow: one facility, a modest grant, a niche group, or a minor improvement.
+1 = barely noticeable for working people.
+Score every candidate, skips included.
 
 <existing_entries>
 ${c.entries}
 </existing_entries>
+
+<retracted_entries>
+${retracted.map((r) => `${r.source_key ?? r.slug}: ${r.title ?? r.slug} (retracted: ${r.reason})`).join('\n')}
+</retracted_entries>
 
 <candidates>
 ${JSON.stringify(list, null, 1)}

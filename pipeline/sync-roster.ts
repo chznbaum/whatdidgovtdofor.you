@@ -3,6 +3,7 @@
 //   State legislatures: Open States bulk people CSVs (CC0)
 //   New York City Council: the district table on council.nyc.gov
 // Run: npm run sync:roster
+import './lib/env.ts';
 import { writeFile } from 'node:fs/promises';
 import { parseCsv } from './lib/csv.ts';
 

@@ -43,14 +43,17 @@ Entries publish without human review by design. `pipeline/decisions.json` record
 
 The pipeline drives the local `claude` and `codex` CLIs in a hermetic mode (no MCP servers, no user hooks), so it runs on your existing logins.
 
+Set these in your shell or in a `.env` file at the repo root (gitignored; copy `.env.example`). The pipeline and `sync:roster` load `.env` automatically, and shell variables win.
+
 | Env var | Default | Notes |
 | --- | --- | --- |
-| `CLAUDE_MODEL` | `claude-opus-5-5` | |
+| `CLAUDE_MODEL` | `claude-opus-5-5` | Writer, and verifier of GPT-written entries |
+| `TRIAGE_MODEL` | `claude-sonnet-5-5` | Cheap first pass that screens and scores candidates; a `gpt-*` id runs it on Codex |
 | `CODEX_MODEL` | `gpt-5.6-sol` | `gpt-6-astra` needs a newer Codex CLI than 0.150 |
 | `CODEX_EFFORT` | `high` | |
-| `CONGRESS_API_KEY` | `DEMO_KEY` | Free from api.data.gov; DEMO_KEY is heavily rate-limited |
-
-Feed-specific keys are listed in `pipeline/feeds/`.
+| `CONGRESS_API_KEY` | `DEMO_KEY` | Free at [api.data.gov/signup](https://api.data.gov/signup/); DEMO_KEY is heavily rate-limited and skips sponsors and summaries |
+| `NYSENATE_API_KEY` | none | Free at [legislation.nysenate.gov](https://legislation.nysenate.gov/); without it the `ny-laws` feed is skipped |
+| `NYC_LEGISTAR_TOKEN` | none | Free at [council.nyc.gov/legislation/api](https://council.nyc.gov/legislation/api/); without it the `nyc-laws` feed is skipped |
 
 ## Content layout
 
