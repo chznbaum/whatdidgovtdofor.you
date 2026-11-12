@@ -43,7 +43,9 @@ export function wordpressFeed(o: WordpressOptions): Feed {
           date: String(p.date).slice(0, 10),
           url: p.link,
           summary: truncate(text),
-          ...(recap ? { extra: { text } } : {}),
+          // The post's text: in full for a recap (it's split into actions), else as the record writers cite when the
+          // site blocks their fetches (henrico.gov does).
+          extra: recap ? { text } : { record: truncate(text, 4000) },
         };
       });
       return newest(out.filter((c) => c.title && c.date >= since), limit);

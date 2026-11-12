@@ -163,7 +163,14 @@ async function split({ concurrency }: { concurrency: number }) {
             date,
             url: recap.url,
             summary: `${a.what} Approved${by.length ? `; ${by.join(', ')}` : ''}. From "${recap.title}".`,
-            extra: { recap: recap.key, identifier: a.identifier ?? undefined, movedBy: a.moved_by ?? undefined, secondedBy: a.seconded_by ?? undefined, vote: a.vote ?? undefined },
+            extra: {
+              recap: recap.key,
+              identifier: a.identifier ?? undefined,
+              movedBy: a.moved_by ?? undefined,
+              secondedBy: a.seconded_by ?? undefined,
+              vote: a.vote ?? undefined,
+              record: a.quote || undefined,
+            },
           };
         })
         .filter((c) => !ceremonialReason(c));
@@ -328,6 +335,7 @@ async function verify({ limit, stale, concurrency, files }: { limit: number; sta
     .filter((e) => files.length || e.data.verification?.verdict === 'pending' || (cutoff && new Date(e.data.status?.as_of).getTime() < cutoff))
     .slice(0, limit);
   console.log(`verify: ${todo.length} entries`);
+  const candidates = new Map((await readJson<any[]>(CANDIDATES, [])).map((c) => [c.key, c]));
 
   await pool(todo, concurrency, async (entry) => {
     const writerModel: string = entry.data.verification?.writer?.model ?? 'claude';
@@ -346,7 +354,9 @@ async function verify({ limit, stale, concurrency, files }: { limit: number; sta
     };
 
     try {
-      const prompt = await verifierPrompt(rel(entry.file), original);
+      const candidate = candidates.get(keep.source_key);
+      const record = candidate?.extra?.record ? { url: candidate.url, text: candidate.extra.record } : undefined;
+      const prompt = await verifierPrompt(rel(entry.file), original, record);
       let { data, model, via } = await runLlm<VerifierOutput>(verifier, { prompt, schema: VERIFIER_SCHEMA, web: true, cwd: ROOT });
 
       if (data.verdict === 'corrected' && data.file) {

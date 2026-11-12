@@ -111726,126 +111726,6 @@
   "impact": 2,
   "date": "2026-11-12"
  },
- "henrico-news-181689": {
-  "decision": "skip",
-  "reason": "split into 7 approved actions",
-  "date": "2026-11-12"
- },
- "powhatan-news-408": {
-  "decision": "skip",
-  "reason": "split into 7 approved actions",
-  "date": "2026-11-12"
- },
- "hanover-news-1180": {
-  "decision": "skip",
-  "reason": "split into 12 approved actions",
-  "date": "2026-11-12"
- },
- "hanover-news-1175": {
-  "decision": "skip",
-  "reason": "split into 0 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-180167": {
-  "decision": "skip",
-  "reason": "split into 9 approved actions",
-  "date": "2026-11-12"
- },
- "powhatan-news-405": {
-  "decision": "skip",
-  "reason": "split into 7 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-179116": {
-  "decision": "skip",
-  "reason": "split into 2 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-178533": {
-  "decision": "skip",
-  "reason": "split into 3 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-177890": {
-  "decision": "skip",
-  "reason": "split into 3 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030": {
-  "decision": "skip",
-  "reason": "split into 23 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-3152": {
-  "decision": "skip",
-  "reason": "split into 0 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-177069": {
-  "decision": "skip",
-  "reason": "split into 8 approved actions",
-  "date": "2026-11-12"
- },
- "goochland-council-3434": {
-  "decision": "skip",
-  "reason": "split into 8 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-176564": {
-  "decision": "skip",
-  "reason": "split into 8 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029": {
-  "decision": "skip",
-  "reason": "split into 50 approved actions",
-  "date": "2026-11-12"
- },
- "goochland-council-3316": {
-  "decision": "skip",
-  "reason": "split into 6 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-175307": {
-  "decision": "skip",
-  "reason": "split into 8 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028": {
-  "decision": "skip",
-  "reason": "split into 25 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-3144": {
-  "decision": "skip",
-  "reason": "split into 0 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-174384": {
-  "decision": "skip",
-  "reason": "split into 5 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027": {
-  "decision": "skip",
-  "reason": "split into 28 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-173858": {
-  "decision": "skip",
-  "reason": "split into 5 approved actions",
-  "date": "2026-11-12"
- },
- "henrico-news-173284": {
-  "decision": "skip",
-  "reason": "split into 5 approved actions",
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026": {
-  "decision": "skip",
-  "reason": "split into 39 approved actions",
-  "date": "2026-11-12"
- },
  "chesterfield-news-7666": {
   "decision": "skip",
   "reason": "triage: meeting notice",
@@ -111883,8 +111763,9 @@
   "date": "2026-11-12"
  },
  "henrico-news-181799": {
-  "decision": "promising",
-  "reason": "triage: state grant funds for addiction prevention and recovery",
+  "decision": "drafted",
+  "reason": "A state opioid-settlement grant of more than $1.7 million is paying for new, concrete services in Henrico: full-time staff for a mobile treatment van, treatment that firefighters can start at overdose scenes, and free naloxone cabinets.",
+  "file": "src/content/entries/local/henrico-opioid-settlement-mobile-treatment.md",
   "impact": 3,
   "date": "2026-11-12"
  },
@@ -111924,166 +111805,10 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "hanover-news-1180-approved-animal-protection-body-worn-camera-policy": {
-  "decision": "skip",
-  "reason": "triage: internal agency policy",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-cpa2026-00005": {
-  "decision": "skip",
-  "reason": "triage: planning document amendment",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-cpa2026-00007": {
-  "decision": "skip",
-  "reason": "triage: planning document amendment",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-cup2026-00006": {
-  "decision": "skip",
-  "reason": "triage: permit for park, vague",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-ordinance-26-06": {
-  "decision": "skip",
-  "reason": "triage: procedural enforcement change",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-ordinance-26-13": {
-  "decision": "skip",
-  "reason": "triage: administrative rounding",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-rez2025-00025": {
-  "decision": "skip",
-  "reason": "triage: developer rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-se2025-00025": {
-  "decision": "skip",
-  "reason": "triage: developer exception",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-se2025-00026": {
-  "decision": "skip",
-  "reason": "triage: developer exception",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-se2025-00027": {
-  "decision": "skip",
-  "reason": "triage: developer exception",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-se2026-00007": {
-  "decision": "skip",
-  "reason": "triage: developer exception",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "hanover-news-1180-se2026-00009": {
-  "decision": "skip",
-  "reason": "triage: park permit, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-181767": {
   "decision": "skip",
   "reason": "triage: groundbreaking; road widening and water line",
   "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-amended-agreement-with-maggie-walker-community-land-trust-fo": {
-  "decision": "promising",
-  "reason": "triage: 20 affordable homes for buyers up to 115% AMI",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-approved-500-000-grant-to-maggie-walker-community-land-trust": {
-  "decision": "skip",
-  "reason": "triage: same Arcadia affordable homes effort",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-approved-66-000-initial-donation-to-housing-families-first": {
-  "decision": "skip",
-  "reason": "triage: housing coach tied to redevelopment, small",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-authorized-condemnation-for-fall-line-trail-easements-on-mou": {
-  "decision": "skip",
-  "reason": "triage: easement condemnation, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-authorized-memorandum-of-understanding-with-housing-families": {
-  "decision": "skip",
-  "reason": "triage: redevelopment-linked, small",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-awarded-15-9-million-fall-line-trail-construction-contract": {
-  "decision": "promising",
-  "reason": "triage: funded contract for 1.6-mile trail and beacon",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "henrico-news-181689-awarded-45-5-million-three-chopt-road-construction-contract": {
-  "decision": "promising",
-  "reason": "triage: funded road widening with sidewalks, water, sewer",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-o-2026-22": {
-  "decision": "skip",
-  "reason": "triage: new business tax; cost passthrough, no worker benefit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-o-2026-23": {
-  "decision": "skip",
-  "reason": "triage: private campground permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-o-2026-25": {
-  "decision": "skip",
-  "reason": "triage: zoning updates to match state law, vague",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-r-2026-61": {
-  "decision": "skip",
-  "reason": "triage: routine appropriation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-r-2026-62": {
-  "decision": "skip",
-  "reason": "triage: routine school appropriation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-r-2026-63": {
-  "decision": "skip",
-  "reason": "triage: used fire truck purchase",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "powhatan-news-408-r-2026-64": {
-  "decision": "skip",
-  "reason": "triage: internal study",
-  "impact": 1,
   "date": "2026-11-12"
  },
  "henrico-news-180341": {
@@ -112102,60 +111827,6 @@
   "decision": "skip",
   "reason": "triage: Award recognition",
   "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-approved-multiple-rezoning-and-provisional-use-permit-reques": {
-  "decision": "skip",
-  "reason": "triage: Unspecified rezonings, no details",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-approved-one-year-lease-for-bp-seafood": {
-  "decision": "skip",
-  "reason": "triage: Lease to a business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-authorized-condemnation-proceedings-for-mount-olive-avenue-e": {
-  "decision": "skip",
-  "reason": "triage: Procedural land acquisition",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-authorized-condemnation-proceedings-for-staples-mill-road-la": {
-  "decision": "skip",
-  "reason": "triage: Procedural land acquisition",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-awarded-1-2-million-elevator-modernization-contract": {
-  "decision": "skip",
-  "reason": "triage: Government building upkeep",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-awarded-1-7-million-fruehauf-road-relief-sewer-contract": {
-  "decision": "skip",
-  "reason": "triage: Routine sewer contract, small",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-awarded-1-million-lakeside-community-trail-phase-1-contract": {
-  "decision": "promising",
-  "reason": "triage: Funded trail contract, modest local use",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-awarded-3-7-million-libbie-avenue-road-diet-contract": {
-  "decision": "promising",
-  "reason": "triage: Funded safety and bike/ped project",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-180167-awarded-nearly-2-million-laburnum-avenue-sidewalk-contract": {
-  "decision": "promising",
-  "reason": "triage: Funded sidewalks with ADA ramps",
-  "impact": 3,
   "date": "2026-11-12"
  },
  "henrico-news-179693": {
@@ -112188,201 +111859,9 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "powhatan-news-405-resolution-r-2026-54": {
-  "decision": "skip",
-  "reason": "triage: Only referral to planning commission",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-55": {
-  "decision": "skip",
-  "reason": "triage: Naming policy, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-56": {
-  "decision": "skip",
-  "reason": "triage: Basketball court renovation, small",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-57": {
-  "decision": "skip",
-  "reason": "triage: Feasibility study only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-58": {
-  "decision": "skip",
-  "reason": "triage: Private road approval for developer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-59": {
-  "decision": "skip",
-  "reason": "triage: Sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "powhatan-news-405-resolution-r-2026-60": {
-  "decision": "skip",
-  "reason": "triage: Ends review, no action taken",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-2027-healthcare-and-dental-rates": {
-  "decision": "skip",
-  "reason": "triage: Employee benefits, government internal",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-23sn0072": {
-  "decision": "skip",
-  "reason": "triage: Hotel rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-24sn1194": {
-  "decision": "skip",
-  "reason": "triage: Small commercial rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-25sn1238": {
-  "decision": "skip",
-  "reason": "triage: Developer rezoning for 18 homes",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-25sn1332": {
-  "decision": "skip",
-  "reason": "triage: Developer rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-26sn2055": {
-  "decision": "skip",
-  "reason": "triage: Garage rezoning for one lot",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-6-49m-contract-for-ist-employee-medical-center-ecc-classroom": {
-  "decision": "skip",
-  "reason": "triage: Government facility renovation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-accepted-0-697-acre-parcel-along-old-hundred-road": {
-  "decision": "skip",
-  "reason": "triage: Land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-accepted-3-484-acre-parcel-for-future-charter-park-drive": {
-  "decision": "skip",
-  "reason": "triage: Land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-accepted-parcels-along-genito-road": {
-  "decision": "skip",
-  "reason": "triage: Land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-adopted-ordinance-vacating-a-10-foot-easement-on-lot-14-antl": {
-  "decision": "skip",
-  "reason": "triage: Private easement vacation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-agreements-and-contracts-for-old-hundred-road-reconstruction": {
-  "decision": "promising",
-  "reason": "triage: Road reconstruction authorization, details thin",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-approved-change-in-ownership-of-colonial-ridge-apartments": {
-  "decision": "skip",
-  "reason": "triage: Ownership change, no stated effect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-approved-fy2027-budget-amendments": {
-  "decision": "skip",
-  "reason": "triage: Routine administrative",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-asked-vdot-to-accept-barrington-at-magnolia-green-streets": {
-  "decision": "skip",
-  "reason": "triage: Procedural request",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-asked-vdot-to-accept-ettrick-landing-streets": {
-  "decision": "skip",
-  "reason": "triage: Procedural request",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-asked-vdot-to-accept-old-hundred-mill-section-e-streets": {
-  "decision": "skip",
-  "reason": "triage: Procedural request, two streets",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-authorized-eminent-domain-for-otterdale-road-at-swift-creek-": {
-  "decision": "skip",
-  "reason": "triage: Land acquisition step, not the project itself",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-easements-to-virginia-electric-and-power-for-new-western-are": {
-  "decision": "skip",
-  "reason": "triage: Utility easement, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-funds-for-curtis-street-and-west-street-railroad-crossing-en": {
-  "decision": "skip",
-  "reason": "triage: Preliminary engineering only",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-lease-amendment-for-voter-registrar-office-space": {
-  "decision": "skip",
-  "reason": "triage: Government office lease",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-quitclaim-of-20-sanitary-sewer-easements-on-chirisa-meadowvi": {
-  "decision": "skip",
-  "reason": "triage: Easement quitclaim, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2030-quitclaim-of-part-of-a-swm-bmp-easement-on-wc-tier-5-llc-pro": {
-  "decision": "skip",
-  "reason": "triage: Easement quitclaim, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-179069": {
   "decision": "skip",
   "reason": "triage: Property purchases for redevelopment, no direct benefit yet",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-179116-amended-the-county-s-2026-27-budget-by-about-32-5-million": {
-  "decision": "skip",
-  "reason": "triage: Routine budget amendment grab bag",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-179116-authorized-applying-for-state-stormwater-funds-for-stream-re": {
-  "decision": "skip",
-  "reason": "triage: Only authorizes applying for funds",
   "impact": 1,
   "date": "2026-11-12"
  },
@@ -112398,339 +111877,10 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "henrico-news-178533-allow-photo-speed-cameras-in-school-crossing-zones": {
-  "decision": "promising",
-  "reason": "triage: Enacted ordinance for school-zone safety",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-178533-authorize-condemnation-for-mount-olive-avenue-realignment-ea": {
-  "decision": "skip",
-  "reason": "triage: Easement condemnation, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-178533-update-county-code-discharge-limits-for-pfas-monitoring": {
-  "decision": "skip",
-  "reason": "triage: Aligns code with state rules, technical",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-22sn0073": {
-  "decision": "skip",
-  "reason": "triage: Single rezoning, large-lot homes",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-24sn1350": {
-  "decision": "skip",
-  "reason": "triage: Self-storage approval, benefits business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1158": {
-  "decision": "skip",
-  "reason": "triage: One home business permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1184": {
-  "decision": "skip",
-  "reason": "triage: Single rezoning for 12 lots",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1208": {
-  "decision": "skip",
-  "reason": "triage: Market-rate rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1208-36": {
-  "decision": "skip",
-  "reason": "triage: Connectivity waiver, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1223": {
-  "decision": "skip",
-  "reason": "triage: One-property permit, narrow",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1336": {
-  "decision": "skip",
-  "reason": "triage: RV parking permit for one home",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1354": {
-  "decision": "skip",
-  "reason": "triage: Market-rate rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-25sn1354-39": {
-  "decision": "skip",
-  "reason": "triage: Connectivity waiver, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-26hp2157": {
-  "decision": "skip",
-  "reason": "triage: Removes historic designation for developer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-26hp2168": {
-  "decision": "skip",
-  "reason": "triage: Removes historic designation for developer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-26sn2068": {
-  "decision": "skip",
-  "reason": "triage: Gas station amendment, business benefit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-26sn2088": {
-  "decision": "skip",
-  "reason": "triage: One-home rezoning",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-26sn2139": {
-  "decision": "skip",
-  "reason": "triage: Utility substation approval",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-abandoned-portion-of-meadowville-road-route-618": {
-  "decision": "skip",
-  "reason": "triage: Road segment abandonment, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-accepted-and-appropriated-faa-and-state-aviation-grants-for-": {
-  "decision": "skip",
-  "reason": "triage: Airport runway site prep, not working-people focused",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-accepted-parcel-along-simonsbath-drive-road-from-the-sowers": {
-  "decision": "skip",
-  "reason": "triage: Land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-accepted-parcel-on-hogans-alley-from-the-eda": {
-  "decision": "skip",
-  "reason": "triage: Land transfer between entities",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-accepted-state-grant-funds-for-jail-mental-health-programs": {
-  "decision": "promising",
-  "reason": "triage: Funded continuing jail mental health care; small",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-accepted-two-parcels-on-bermuda-hundred-road-from-the-eda": {
-  "decision": "skip",
-  "reason": "triage: Land transfer between entities",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-amendments-to-chapter-19-2-of-the-county-code-zoning": {
-  "decision": "skip",
-  "reason": "triage: Technical zoning code amendments",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-capt-jeffrey-t-edwards-on-ret": {
-  "decision": "skip",
-  "reason": "triage: Commemorative resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-chesterfield-employment-servi": {
-  "decision": "skip",
-  "reason": "triage: Commemorative resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-cpl-daniel-a-shuklis-on-retir": {
-  "decision": "skip",
-  "reason": "triage: Commemorative resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-kimberly-d-ritchey-on-retirem": {
-  "decision": "skip",
-  "reason": "triage: commemorative retirement resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-lt-newton-m-georgel-iii-on-re": {
-  "decision": "skip",
-  "reason": "triage: commemorative retirement resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-lt-wetherly-t-bristow-on-reti": {
-  "decision": "skip",
-  "reason": "triage: commemorative retirement resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-resolution-recognizing-sgt-rodrick-w-brown-on-retire": {
-  "decision": "skip",
-  "reason": "triage: commemorative retirement resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-second-zoning-ordinance-ordinance-attachment-a": {
-  "decision": "skip",
-  "reason": "triage: content unknown, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-adopted-zoning-related-code-amendments-chapters-4-6-12-13-14": {
-  "decision": "skip",
-  "reason": "triage: technical code alignment",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-appropriated-opioid-abatement-authority-funding": {
-  "decision": "promising",
-  "reason": "triage: funds mobile outreach and crisis teams, ~$1.7M",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-conveyance-of-4731-black-oak-drive-to-habitat-for-h": {
-  "decision": "promising",
-  "reason": "triage: single lot to Habitat; small",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-fy2027-budget-amendments": {
-  "decision": "skip",
-  "reason": "triage: routine appropriations",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-fy2027-community-services-board-performance-contrac": {
-  "decision": "skip",
-  "reason": "triage: intergovernmental contract, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-powhite-parkway-extension-finance-plan": {
-  "decision": "skip",
-  "reason": "triage: finance plan, no details",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-spring-creek-area-rezoning-conditions-end-of-prior-": {
-  "decision": "skip",
-  "reason": "triage: unnamed rezoning case",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-status-reports-on-district-funds-fund-balance-debt-": {
-  "decision": "skip",
-  "reason": "triage: government reports",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-approved-vantage-aviation-airport-lease-amendments": {
-  "decision": "skip",
-  "reason": "triage: airport lease, benefits business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-authorized-overhead-easement-to-virginia-electric-and-power-": {
-  "decision": "skip",
-  "reason": "triage: utility easement, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-awarded-centralia-elevated-water-storage-tank-contract": {
-  "decision": "promising",
-  "reason": "triage: contract award for water infrastructure; check scope",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-awarded-ettrick-fire-station-no-12-replacement-contract": {
-  "decision": "promising",
-  "reason": "triage: funded replacement fire station",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-awarded-shared-warehouse-construction-contract": {
-  "decision": "skip",
-  "reason": "triage: internal government warehouse",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-funded-and-awarded-belmont-road-drainage-improvement-contrac": {
-  "decision": "promising",
-  "reason": "triage: funded drainage fix, local",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-requested-state-acceptance-of-nash-road-watermark-magnolia-m": {
-  "decision": "skip",
-  "reason": "triage: developer streets handoff to VDOT",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-section-6-4": {
-  "decision": "skip",
-  "reason": "triage: cuts business license fees; benefits businesses",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "chesterfield-council-2029-section-9-25": {
-  "decision": "promising",
-  "reason": "triage: expanded elderly/disabled tax relief, income-tested; check cost",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-set-sept-23-public-hearing-on-eminent-domain-for-otterdale-r": {
-  "decision": "skip",
-  "reason": "triage: hearing scheduled only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-set-sept-23-public-hearing-on-vacating-easement-at-antler-ri": {
-  "decision": "skip",
-  "reason": "triage: hearing scheduled only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2029-suspended-rules-to-consider-items-after-11-p-m": {
-  "decision": "skip",
-  "reason": "triage: procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177890-approved-ordinance-amendment-on-service-charges-for-cash-rou": {
-  "decision": "skip",
-  "reason": "triage: cash rounding, trivial",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177890-approved-ordinance-prohibiting-vehicles-stopping-or-parking-": {
-  "decision": "skip",
-  "reason": "triage: parking rule, minor safety",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177890-awarded-contract-for-tuckahoe-park-renovations": {
-  "decision": "promising",
-  "reason": "triage: funded $13.8M park rebuild, bond-paid",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors enacted an ordinance, funded in the FY2027 budget, that extends property-tax relief to seniors and disabled homeowners earning $65,401 to $80,000. It is aimed at moderate-income homeowners, and the budget that paid for it kept the real estate tax rate the same and raised spending on schools and public safety, with no service cuts reported.",
+  "file": "src/content/entries/local/chesterfield-elderly-disabled-tax-relief-80000.md",
   "impact": 3,
   "date": "2026-11-12"
  },
@@ -112770,147 +111920,9 @@
   "impact": 2,
   "date": "2026-11-12"
  },
- "henrico-news-177069-advertised-sept-8-hearing-on-school-zone-speed-camera-ordina": {
-  "decision": "skip",
-  "reason": "triage: proposal only",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-approved-access-easement-for-carter-woods-community": {
-  "decision": "skip",
-  "reason": "triage: easement, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-approved-bond-reimbursement-resolution-for-capital-projects": {
-  "decision": "skip",
-  "reason": "triage: financing procedure",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-approved-purchase-of-3004-emporia-st-for-flood-mitigation": {
-  "decision": "promising",
-  "reason": "triage: one-lot flood mitigation purchase",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-authorized-condemnation-for-fall-line-trail-longdale-section": {
-  "decision": "skip",
-  "reason": "triage: land acquisition step, construction 2027",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-authorized-condemnation-for-mount-olive-avenue-realignment": {
-  "decision": "skip",
-  "reason": "triage: land acquisition step",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-7": {
-  "decision": "skip",
-  "reason": "triage: Road construction contract; project completion unclear, procedural award",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-8": {
-  "decision": "skip",
-  "reason": "triage: Government operations facility contract",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-9": {
-  "decision": "skip",
-  "reason": "triage: Athletic field contract, small",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-19-a": {
-  "decision": "skip",
-  "reason": "triage: Development financing authority, benefits developers",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-19-b": {
-  "decision": "skip",
-  "reason": "triage: Federal lease renewal, government-to-government",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26pj0008": {
-  "decision": "skip",
-  "reason": "triage: Initiated rezoning, not enacted",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26sn2032": {
-  "decision": "skip",
-  "reason": "triage: Zoning deviation for developer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26sn2058": {
-  "decision": "skip",
-  "reason": "triage: Cell tower amendment, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26sn2062": {
-  "decision": "skip",
-  "reason": "triage: Single family day care permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26sn2109": {
-  "decision": "skip",
-  "reason": "triage: Private business permit renewal",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-26sn2129": {
-  "decision": "skip",
-  "reason": "triage: Single family day care permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-176227": {
   "decision": "skip",
   "reason": "triage: Demolition for proposed development, no enacted benefit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-appropriated-up-to-2-7m-for-middle-and-high-school-complex-d": {
-  "decision": "skip",
-  "reason": "triage: Design funds only, no built result",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-approved-fy-2027-school-budget-transfers-between-fund-and-ex": {
-  "decision": "skip",
-  "reason": "triage: Procedural budget transfer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-approved-land-acquisition-in-crozier-for-future-fire-station": {
-  "decision": "skip",
-  "reason": "triage: Land purchase for future station, not yet built",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-cu-2026-00005": {
-  "decision": "skip",
-  "reason": "triage: Private rental permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-endorsed-smart-scale-transportation-funding-applications": {
-  "decision": "skip",
-  "reason": "triage: Application endorsement, not funded",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3316-granted-access-easement-across-fire-training-center-property": {
-  "decision": "skip",
-  "reason": "triage: Single-parcel easement",
   "impact": 1,
   "date": "2026-11-12"
  },
@@ -112944,120 +111956,6 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "chesterfield-council-2027-24sn1345": {
-  "decision": "skip",
-  "reason": "triage: Private subdivision exception",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-25sn1121": {
-  "decision": "skip",
-  "reason": "triage: Gas station rezoning for business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-25sn1153": {
-  "decision": "skip",
-  "reason": "triage: Private housing rezoning, not affordable",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-25sn1315": {
-  "decision": "skip",
-  "reason": "triage: Goat permit for one person",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-26sn2022": {
-  "decision": "skip",
-  "reason": "triage: Church day care permit, narrow",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-26sn2049": {
-  "decision": "skip",
-  "reason": "triage: Single ADU permit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-26sn2066": {
-  "decision": "skip",
-  "reason": "triage: Rezoning of one parcel",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-accepted-0-062-acre-parcel-along-bellwood-road": {
-  "decision": "skip",
-  "reason": "triage: Minor land conveyance",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-accepted-400-000-vdem-9-1-1-call-handling-equipment-grant": {
-  "decision": "skip",
-  "reason": "triage: Equipment grant, government-facing",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-accepted-new-streets-into-state-system-old-hundred-mill-pali": {
-  "decision": "skip",
-  "reason": "triage: Routine street acceptance",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-appropriation-and-transfer-for-salem-church-kingsland-and-ch": {
-  "decision": "skip",
-  "reason": "triage: Roundabout projects funded, safety improvement but not yet built",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-approved-lease-amendment-with-t-mobile-northeast-llc-for-bon": {
-  "decision": "skip",
-  "reason": "triage: Tower lease, government revenue",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-approved-reports-on-district-funds-fund-balance-debt-ratios-": {
-  "decision": "skip",
-  "reason": "triage: Routine reports",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-code-secs-9-30-to-9-32": {
-  "decision": "skip",
-  "reason": "triage: Tax break for owners rehabbing historic homes; fails net-impact",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-code-secs-9-40-through-9-50": {
-  "decision": "skip",
-  "reason": "triage: Dissolves a service district, administrative",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-confirmed-dr-kevin-a-catlin-as-the-next-county-administrator": {
-  "decision": "skip",
-  "reason": "triage: Appointment",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-easement-to-virginia-electric-and-power-company-at-falling-c": {
-  "decision": "skip",
-  "reason": "triage: Utility easement, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-awarded-1-6m-contract-to-stabilize-1853-home-at-varina-on-th": {
-  "decision": "skip",
-  "reason": "triage: historic house repair, no direct worker effect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-177069-awarded-916-373-contract-for-water-treatment-facility-pump-d": {
-  "decision": "skip",
-  "reason": "triage: routine equipment replacement contract",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-176979": {
   "decision": "skip",
   "reason": "triage: cemetery roads ceremony",
@@ -113082,54 +111980,6 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "goochland-council-3434-approved-19-326-915-in-fy2026-budget-categorical-transfers": {
-  "decision": "skip",
-  "reason": "triage: procedural budget transfer",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-consent-item-12-a": {
-  "decision": "skip",
-  "reason": "triage: small grant appropriation, administrative",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-consent-item-12-b": {
-  "decision": "skip",
-  "reason": "triage: no amount, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-county-code-sec-14-251": {
-  "decision": "skip",
-  "reason": "triage: one parcel service district change",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-county-code-secs-14-38-and-14-127-1": {
-  "decision": "skip",
-  "reason": "triage: code clarification, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-county-code-secs-3-7-and-3-127": {
-  "decision": "skip",
-  "reason": "triage: animal code reclassification, minor",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-cu-2026-00006": {
-  "decision": "skip",
-  "reason": "triage: private rental permit renewal",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "goochland-council-3434-cu-2026-00007": {
-  "decision": "skip",
-  "reason": "triage: private permit benefiting business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-176721": {
   "decision": "skip",
   "reason": "triage: lifted voluntary request, no action",
@@ -113148,147 +111998,9 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "henrico-news-176564-adopted-the-2045-henriconext-comprehensive-plan": {
-  "decision": "skip",
-  "reason": "triage: long-range plan, no direct effect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-approved-ordinance-updating-wastewater-discharge-limits-and-": {
-  "decision": "skip",
-  "reason": "triage: regulatory update aimed at industry, indirect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-approved-resolution-commissioning-an-environmental-justice-s": {
-  "decision": "skip",
-  "reason": "triage: study only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-approved-resolution-raising-hcps-employee-salary-increase-to": {
-  "decision": "promising",
-  "reason": "triage: funded raise for school employees, 4% not 3%",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-approved-subdivision-ordinance-changes": {
-  "decision": "skip",
-  "reason": "triage: technical code conformity",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-approved-zoning-ordinance-amendments": {
-  "decision": "skip",
-  "reason": "triage: technical zoning changes",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-awarded-11-6m-contract-for-east-highland-park-sewer-rehabili": {
-  "decision": "promising",
-  "reason": "triage: funded sewer main replacement for a neighborhood",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-176564-awarded-40-3m-contract-for-richmond-henrico-turnpike-improve": {
-  "decision": "promising",
-  "reason": "triage: funded road with sidewalk and path, widely used",
-  "impact": 3,
-  "date": "2026-11-12"
- },
  "henrico-news-176404": {
   "decision": "skip",
   "reason": "triage: hearing notice",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-b": {
-  "decision": "skip",
-  "reason": "triage: administrator contract, government itself",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-d": {
-  "decision": "skip",
-  "reason": "triage: requests referendum only; regressive sales tax, not enacted",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-1-h": {
-  "decision": "promising",
-  "reason": "triage: enacted better retirement for EMTs and first responders",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-10": {
-  "decision": "skip",
-  "reason": "triage: endorsement resolutions, not funded",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-11": {
-  "decision": "skip",
-  "reason": "triage: petty cash fund, internal",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-13-c": {
-  "decision": "skip",
-  "reason": "triage: surplus property procedure",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-2-a-1": {
-  "decision": "skip",
-  "reason": "triage: land conveyance, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-2-b-1": {
-  "decision": "skip",
-  "reason": "triage: utility easement, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-2-b-2": {
-  "decision": "skip",
-  "reason": "triage: utility easement, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-2-c-1": {
-  "decision": "skip",
-  "reason": "triage: private developer sewer permissions",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-3": {
-  "decision": "skip",
-  "reason": "triage: request to VDOT, administrative",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-4": {
-  "decision": "promising",
-  "reason": "triage: funded roundabout and bike/ped road projects",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-5": {
-  "decision": "skip",
-  "reason": "triage: towing contract wording, unclear effect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2028-15-e-6": {
-  "decision": "skip",
-  "reason": "triage: office lease renewal",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173858-public-works-authorized-to-join-vdot-smart-scale-program": {
-  "decision": "skip",
-  "reason": "triage: letter of intent only; no funded project",
   "impact": 1,
   "date": "2026-11-12"
  },
@@ -113310,225 +112022,9 @@
   "impact": 1,
   "date": "2026-11-12"
  },
- "henrico-news-173284-added-235-000-to-tuckahoe-park-design-contract": {
-  "decision": "skip",
-  "reason": "triage: design contract add-on; procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173284-approved-cafeteria-lease-with-trolley-house-refreshments": {
-  "decision": "skip",
-  "reason": "triage: government cafeteria lease; admin",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173284-authorized-purchase-of-2304-martin-st-for-flood-and-drainage": {
-  "decision": "skip",
-  "reason": "triage: single house buyout; narrow",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-173284-awarded-4-7-million-williamsburg-road-water-main-contract": {
-  "decision": "promising",
-  "reason": "triage: funded water main infrastructure contract awarded",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "henrico-news-173284-moved-monument-hills-precinct-polling-place-for-aug-4-primar": {
-  "decision": "skip",
-  "reason": "triage: one precinct moved; past election",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-173227": {
   "decision": "skip",
   "reason": "triage: private hotel opening",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-26sn2016": {
-  "decision": "skip",
-  "reason": "triage: single-parcel rezoning, private benefit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-accepted-0-04-acre-parcel-on-branchway-road": {
-  "decision": "skip",
-  "reason": "triage: land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-accepted-0-212-acre-parcel-on-genito-road": {
-  "decision": "skip",
-  "reason": "triage: land conveyance, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-accepted-two-parcels-on-duval-road-from-the-eda": {
-  "decision": "skip",
-  "reason": "triage: transfer between governments",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-adopted-local-animal-cruelty-registry-ordinance": {
-  "decision": "skip",
-  "reason": "triage: registry, no direct worker benefit",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-adopted-ordinance-vacating-land-in-talley-family-subdivision": {
-  "decision": "skip",
-  "reason": "triage: private land vacation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-adopted-resolution-recognizing-a-j-eavey-iii-on-retirement": {
-  "decision": "skip",
-  "reason": "triage: commemorative resolution",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-adopted-resolution-supporting-safe-streets-for-all-grant": {
-  "decision": "skip",
-  "reason": "triage: grant request only, not funded",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-adopted-self-storage-zoning-ordinance-amendments": {
-  "decision": "skip",
-  "reason": "triage: zoning standards for businesses",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-approved-fy2026-budget-amendments-for-county-and-schools": {
-  "decision": "skip",
-  "reason": "triage: vague routine budget amendments",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-approved-fy2027-cdbg-and-home-budget-adjustments": {
-  "decision": "skip",
-  "reason": "triage: routine alignment to HUD amounts",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-approved-fy2027-fy2032-secondary-road-six-year-plan-and-fy20": {
-  "decision": "skip",
-  "reason": "triage: small road repairs, routine plan",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-approved-lease-amendment-with-american-towers-at-meadowville": {
-  "decision": "skip",
-  "reason": "triage: commercial lease amendment",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-change-orders-for-bailey-bridge-connector-utiliti": {
-  "decision": "skip",
-  "reason": "triage: procurement procedure",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-quitclaim-of-drainage-easement-wal-mart": {
-  "decision": "skip",
-  "reason": "triage: easement quitclaim to business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-quitclaim-of-sewer-and-swm-bmp-easements-12801-br": {
-  "decision": "skip",
-  "reason": "triage: easement quitclaim to business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-quitclaim-of-swmbmp-easement-alcan-associates": {
-  "decision": "skip",
-  "reason": "triage: easement quitclaim to business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-quitclaim-of-water-easement-riverstone-properties": {
-  "decision": "skip",
-  "reason": "triage: easement quitclaim to business",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-authorized-rail-grant-requests-for-curtis-and-west-street-cr": {
-  "decision": "skip",
-  "reason": "triage: grant requests only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-awarded-river-road-sidewalk-construction-contract": {
-  "decision": "promising",
-  "reason": "triage: funded $2.56M sidewalk contract awarded",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-designated-land-for-powhite-over-tomahawk-creek-project": {
-  "decision": "skip",
-  "reason": "triage: right-of-way designation, procedural",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-designated-right-of-way-for-elementary-school-bus-loops": {
-  "decision": "skip",
-  "reason": "triage: administrative designation for VDOT maintenance",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-requested-vdot-accept-new-streets-into-state-system": {
-  "decision": "skip",
-  "reason": "triage: routine street acceptance",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-date-on-dissolving-centerpointe-charter-colony-s": {
-  "decision": "skip",
-  "reason": "triage: sets hearing date only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-eminent-domain-for-center-pointe-park": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-eminent-domain-for-western-area-infra": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-rehabilitation-ordinance-amendment": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-sawmill-station-community-development": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-stormwater-fee-amendments": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-set-june-24-hearing-on-t-mobile-bon-air-tower-lease-amendmen": {
-  "decision": "skip",
-  "reason": "triage: sets hearing only",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2026-suspended-rules-to-consider-items-after-11-p-m": {
-  "decision": "skip",
-  "reason": "triage: procedural vote",
   "impact": 1,
   "date": "2026-11-12"
  },
@@ -113557,147 +112053,9 @@
   "date": "2026-11-12"
  },
  "henrico-news-173757": {
-  "decision": "promising",
-  "reason": "triage: county refuse service expanding to all areas; check cost",
+  "decision": "skip",
+  "reason": "This is an opt-in county trash service at $18 a month, about what private haulers already charge there (the one comparison found is $16–18), so I can't show that residents come out ahead; the county's own pages were blocked to fetching, and the Board also took up a trash disposal rate increase in June 2026 that I couldn't check.",
   "impact": 3,
-  "date": "2026-11-12"
- },
- "henrico-news-173858-allocate-1-2-million-in-bond-proceeds-for-airport-facilities": {
-  "decision": "skip",
-  "reason": "triage: benefits cargo business facility",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173858-board-adopts-recodification-of-the-county-code": {
-  "decision": "skip",
-  "reason": "triage: government housekeeping",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173858-conservation-easement-on-future-new-market-park-gifted-to-no": {
-  "decision": "skip",
-  "reason": "triage: easement gift, minor effect",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-173858-performance-agreement-addendum-approved-for-asgn-inc": {
-  "decision": "skip",
-  "reason": "triage: business incentive grant",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-eminent-domain-for-center-pointe-parkway-extension": {
-  "decision": "skip",
-  "reason": "triage: Land taking procedure; road not yet built",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-eminent-domain-for-western-area-infrastructure-improvements": {
-  "decision": "skip",
-  "reason": "triage: Land taking procedure",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-funds-and-construction-contract-for-route-60-sidewalk-improv": {
-  "decision": "promising",
-  "reason": "triage: Funded $4.75M sidewalk construction contract",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-fy2026-year-end-adjustments-and-reserve-requests": {
-  "decision": "skip",
-  "reason": "triage: Routine budget housekeeping",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-general-obligation-public-improvement-bonds-series-2026a": {
-  "decision": "promising",
-  "reason": "triage: Funds named school construction projects",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-ordinance-amending-rehabilitated-housing-tax-exemption-secti": {
-  "decision": "skip",
-  "reason": "triage: Unclear what changed; owner tax break",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-ordinance-amending-stormwater-management-fees-section-8-64": {
-  "decision": "skip",
-  "reason": "triage: Fee schedule, mostly developers",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-ordinance-on-setbacks-from-electric-transmission-lines-secti": {
-  "decision": "promising",
-  "reason": "triage: Enacted 100-ft safety setback for new homes",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-resolution-approving-plan-to-finance-capital-improvements-vi": {
-  "decision": "skip",
-  "reason": "triage: Financing plan for government buildings",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-set-july-22-public-hearing-on-gsa-lease-renewal-at-chesterfi": {
-  "decision": "skip",
-  "reason": "triage: Only sets a hearing",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "chesterfield-council-2027-set-july-22-public-hearing-on-sawmill-station-community-deve": {
-  "decision": "skip",
-  "reason": "triage: Only sets a hearing",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-appropriated-funds-per-the-adopted-fy2026-27-budget": {
-  "decision": "skip",
-  "reason": "triage: Routine appropriation",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-approved-2-5-million-change-order-for-glover-park-phase-ii": {
-  "decision": "skip",
-  "reason": "triage: Change order on stadium work",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-approved-fy2026-27-annual-action-plan-for-federal-housing-fu": {
-  "decision": "skip",
-  "reason": "triage: Routine HUD plan, vague specifics",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-authorized-800-000-acquisition-at-12325-kain-road": {
-  "decision": "skip",
-  "reason": "triage: Land purchase for future road",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-authorized-purchase-of-11490-greenwood-road-property": {
-  "decision": "skip",
-  "reason": "triage: Tiny property purchase",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-awarded-2-5-million-henrico-high-field-renovation-contract": {
-  "decision": "skip",
-  "reason": "triage: Single school field upgrade",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-raised-household-refuse-disposal-fees-effective-july-1": {
-  "decision": "skip",
-  "reason": "triage: Fee increase on residents",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-175307-released-county-interest-in-utility-easement-at-5801-bremo-r": {
-  "decision": "skip",
-  "reason": "triage: Easement release for hospital",
-  "impact": 1,
   "date": "2026-11-12"
  },
  "henrico-news-174835": {
@@ -113736,36 +112094,6 @@
   "impact": 2,
   "date": "2026-11-12"
  },
- "henrico-news-174384-amended-the-fy-2025-26-annual-fiscal-plan-by-55-6-million": {
-  "decision": "skip",
-  "reason": "triage: Budget amendment, routine",
-  "impact": 1,
-  "date": "2026-11-12"
- },
- "henrico-news-174384-awarded-lakeside-avenue-bridge-replacement-contract": {
-  "decision": "promising",
-  "reason": "triage: Funded $9.2M bridge replacement contract",
-  "impact": 3,
-  "date": "2026-11-12"
- },
- "henrico-news-174384-bought-1-37-acres-near-ziontown-road-for-a-pocket-park": {
-  "decision": "promising",
-  "reason": "triage: Funded purchase for new neighborhood park",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-174384-enhanced-hazard-duty-benefits-for-full-time-emts": {
-  "decision": "promising",
-  "reason": "triage: Enacted benefit for EMT workers; check cost",
-  "impact": 2,
-  "date": "2026-11-12"
- },
- "henrico-news-174384-raised-residential-vacuum-leaf-collection-fee-from-30-to-50": {
-  "decision": "skip",
-  "reason": "triage: Fee increase on residents",
-  "impact": 1,
-  "date": "2026-11-12"
- },
  "henrico-news-173875": {
   "decision": "skip",
   "reason": "triage: Clinic announcement",
@@ -113778,51 +112106,1612 @@
   "impact": 1,
   "date": "2026-11-12"
  },
+ "henrico-news-181689": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180": {
+  "decision": "skip",
+  "reason": "split into 12 approved actions",
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1175": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-179116": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-178533": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-177890": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030": {
+  "decision": "skip",
+  "reason": "split into 21 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-3152": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316": {
+  "decision": "skip",
+  "reason": "split into 6 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029": {
+  "decision": "skip",
+  "reason": "split into 41 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028": {
+  "decision": "skip",
+  "reason": "split into 25 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-3144": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027": {
+  "decision": "skip",
+  "reason": "split into 28 approved actions",
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026": {
+  "decision": "skip",
+  "reason": "split into 31 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-approved-animal-protection-body-worn-camera-policy": {
+  "decision": "skip",
+  "reason": "triage: government procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-cpa2026-00005": {
+  "decision": "skip",
+  "reason": "triage: plan amendment, no direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-cpa2026-00007": {
+  "decision": "skip",
+  "reason": "triage: plan amendment, no direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-cup2026-00006": {
+  "decision": "skip",
+  "reason": "triage: park permit, little detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-ordinance-26-06": {
+  "decision": "skip",
+  "reason": "triage: enforcement procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-ordinance-26-13": {
+  "decision": "skip",
+  "reason": "triage: billing rounding, trivial",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-rez2025-00025": {
+  "decision": "skip",
+  "reason": "triage: developer rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-se2025-00025": {
+  "decision": "skip",
+  "reason": "triage: developer exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-se2025-00026": {
+  "decision": "skip",
+  "reason": "triage: developer exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-se2025-00027": {
+  "decision": "skip",
+  "reason": "triage: developer exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-se2026-00007": {
+  "decision": "skip",
+  "reason": "triage: developer exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1180-se2026-00009": {
+  "decision": "skip",
+  "reason": "triage: park exception, little detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-approved-15-9m-fall-line-trail-construction-contract-with-cr": {
+  "decision": "promising",
+  "reason": "triage: funded trail construction many residents use",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-approved-45-5m-three-chopt-road-contract-with-shirley-contra": {
+  "decision": "promising",
+  "reason": "triage: funded road widening with sidewalks",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-approved-500-000-grant-to-maggie-walker-community-land-trust": {
+  "decision": "promising",
+  "reason": "triage: funded affordable homeownership grant",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-approved-amendment-to-mou-with-maggie-walker-community-land-": {
+  "decision": "skip",
+  "reason": "triage: same Arcadia homes action as the grant; overlaps",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-approved-initial-66-000-donation-to-housing-families-first": {
+  "decision": "skip",
+  "reason": "triage: part of housing coach MOU; small",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-authorized-condemnation-for-fall-line-trail-easements-on-mou": {
+  "decision": "skip",
+  "reason": "triage: land condemnation, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-181689-authorized-mou-with-housing-families-first-for-housing-coach": {
+  "decision": "promising",
+  "reason": "triage: funded housing coach for residents; narrow",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-ordinance-o-2026-22": {
+  "decision": "skip",
+  "reason": "triage: new business tax, not a worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-ordinance-o-2026-23-26-07-cup": {
+  "decision": "skip",
+  "reason": "triage: private campground permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-ordinance-o-2026-25-26-02-za": {
+  "decision": "skip",
+  "reason": "triage: zoning conformity to state law, vague",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-r-2026-61": {
+  "decision": "skip",
+  "reason": "triage: budget amendment, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-r-2026-62": {
+  "decision": "skip",
+  "reason": "triage: budget amendment, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-r-2026-63": {
+  "decision": "skip",
+  "reason": "triage: fire truck purchase, modest",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-408-r-2026-64": {
+  "decision": "skip",
+  "reason": "triage: study, government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-approved-one-year-lease-for-bp-seafood": {
+  "decision": "skip",
+  "reason": "triage: property lease, minor",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-approved-rezoning-and-provisional-use-permit-requests": {
+  "decision": "skip",
+  "reason": "triage: no details",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-authorized-condemnation-proceedings-for-road-project-propert": {
+  "decision": "skip",
+  "reason": "triage: condemnation, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-awarded-1-2-million-elevator-modernization-contract": {
+  "decision": "skip",
+  "reason": "triage: government facility upkeep",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-awarded-1-7-million-fruehauf-road-relief-sewer-contract": {
+  "decision": "skip",
+  "reason": "triage: small sewer upgrade",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-awarded-3-7-million-libbie-avenue-road-diet-contract": {
+  "decision": "promising",
+  "reason": "triage: funded safety and bike/ped project",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-awarded-laburnum-avenue-sidewalk-contract": {
+  "decision": "promising",
+  "reason": "triage: funded sidewalks with ADA ramps",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-180167-awarded-lakeside-community-trail-phase-1-contract": {
+  "decision": "promising",
+  "reason": "triage: funded trail phase; overlaps Fall Line Trail",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-54": {
+  "decision": "skip",
+  "reason": "triage: initiates process only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-55": {
+  "decision": "skip",
+  "reason": "triage: naming policy",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-56": {
+  "decision": "promising",
+  "reason": "triage: one basketball court renovation",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-57": {
+  "decision": "skip",
+  "reason": "triage: feasibility study only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-58": {
+  "decision": "skip",
+  "reason": "triage: private road permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-59": {
+  "decision": "skip",
+  "reason": "triage: sets hearing, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "powhatan-news-405-resolution-r-2026-60": {
+  "decision": "skip",
+  "reason": "triage: Ended review; no action enacted",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-23sn0072": {
+  "decision": "skip",
+  "reason": "triage: Hotel rezoning, not working-people benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-24sn1194": {
+  "decision": "skip",
+  "reason": "triage: Small commercial rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-25sn1238": {
+  "decision": "skip",
+  "reason": "triage: Private development rezoning, 18 homes",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-25sn1332": {
+  "decision": "skip",
+  "reason": "triage: Private development rezoning, 32 homes",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-26sn2055": {
+  "decision": "skip",
+  "reason": "triage: Single-lot garage rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-accepted-0-697-acre-parcel-along-old-hundred-road": {
+  "decision": "skip",
+  "reason": "triage: Routine land conveyance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-accepted-3-484-acre-parcel-for-future-charter-park-drive": {
+  "decision": "skip",
+  "reason": "triage: Routine land conveyance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-accepted-genito-road-parcels-from-browne-and-lattice-hall": {
+  "decision": "skip",
+  "reason": "triage: Routine land conveyance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-adopted-ordinance-vacating-a-10-foot-easement-on-lot-14-antl": {
+  "decision": "skip",
+  "reason": "triage: Private easement vacation",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-appropriated-funds-for-curtis-street-and-west-street-railroa": {
+  "decision": "skip",
+  "reason": "triage: Preliminary engineering only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-approved-change-in-ownership-of-colonial-ridge-apartments": {
+  "decision": "skip",
+  "reason": "triage: Routine ownership change",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-approved-fy2027-budget-amendments": {
+  "decision": "skip",
+  "reason": "triage: Routine administrative item, no detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-2027-healthcare-and-dental-rates": {
+  "decision": "skip",
+  "reason": "triage: Government employee benefit administration",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-agreements-and-contracts-for-old-hundred-road-rec": {
+  "decision": "skip",
+  "reason": "triage: Procedural contract authorization",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-dominion-easements-for-new-western-area-high-scho": {
+  "decision": "skip",
+  "reason": "triage: Utility easement, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-eminent-domain-for-otterdale-road-at-swift-creek-": {
+  "decision": "skip",
+  "reason": "triage: Land-acquisition step, not completed project",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-lease-amendment-for-voter-registrar-office-space": {
+  "decision": "skip",
+  "reason": "triage: Government office lease",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-quitclaim-of-part-of-swm-bmp-easement-on-wc-tier-": {
+  "decision": "skip",
+  "reason": "triage: Easement quitclaim to business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-authorized-quitclaim-of-sanitary-sewer-easements-on-chirisa-": {
+  "decision": "skip",
+  "reason": "triage: Easement quitclaim to business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-awarded-6-490-000-renovation-contract-to-trent-corporation": {
+  "decision": "skip",
+  "reason": "triage: Government facility renovation contract",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2030-requested-vdot-take-new-streets-into-the-state-system": {
+  "decision": "skip",
+  "reason": "triage: Routine street acceptance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-179116-approved-about-32-5-million-in-2026-27-budget-amendments": {
+  "decision": "skip",
+  "reason": "triage: Routine budget amendments",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-179116-authorized-public-works-to-seek-state-stormwater-funds-for-s": {
+  "decision": "skip",
+  "reason": "triage: Seeking funds, not enacted",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-178533-approved-ordinance-updating-pfas-discharge-limits-in-county-": {
+  "decision": "skip",
+  "reason": "triage: Technical code alignment with state rules",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-178533-authorized-condemnation-for-mount-olive-avenue-realignment-e": {
+  "decision": "skip",
+  "reason": "triage: Easement condemnation, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-178533-passed-ordinance-allowing-photo-speed-cameras-in-school-cros": {
+  "decision": "promising",
+  "reason": "triage: Enacted school-zone safety ordinance; writer checks fines",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-22sn0073": {
+  "decision": "skip",
+  "reason": "triage: Private development rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-24sn1350": {
+  "decision": "skip",
+  "reason": "triage: Self-storage approval",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1158": {
+  "decision": "skip",
+  "reason": "triage: Individual home occupation permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1184": {
+  "decision": "skip",
+  "reason": "triage: Church land rezoning for 12 lots",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1208": {
+  "decision": "skip",
+  "reason": "triage: Private development rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1208-28": {
+  "decision": "skip",
+  "reason": "triage: Development waiver, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1223": {
+  "decision": "skip",
+  "reason": "triage: Single-property ADU approval, narrow",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1336": {
+  "decision": "skip",
+  "reason": "triage: Single-lot RV parking permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1354": {
+  "decision": "skip",
+  "reason": "triage: Private development rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-25sn1354-31": {
+  "decision": "skip",
+  "reason": "triage: Development connectivity waiver",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-26hp2157": {
+  "decision": "skip",
+  "reason": "triage: Historic designation reduction",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-26hp2168": {
+  "decision": "skip",
+  "reason": "triage: Historic designation reduction",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-26sn2068": {
+  "decision": "skip",
+  "reason": "triage: Gas station zoning amendment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-26sn2088": {
+  "decision": "skip",
+  "reason": "triage: single-home rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-26sn2139": {
+  "decision": "skip",
+  "reason": "triage: utility substation rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-accepted-0-091-acre-parcel-on-simonsbath-drive-road": {
+  "decision": "skip",
+  "reason": "triage: land conveyance, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-accepted-a-hogans-alley-parcel-from-the-eda": {
+  "decision": "skip",
+  "reason": "triage: land transfer between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-accepted-faa-and-state-aviation-grants-for-airport-runway-ex": {
+  "decision": "skip",
+  "reason": "triage: airport runway, little working-people effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-accepted-state-grant-funds-for-jail-mental-health-programs": {
+  "decision": "promising",
+  "reason": "triage: funded jail mental health care continues",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-accepted-two-bermuda-hundred-road-parcels-from-the-eda": {
+  "decision": "skip",
+  "reason": "triage: land transfer between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-adopted-a-second-ordinance-text-in-attachment-a": {
+  "decision": "skip",
+  "reason": "triage: text unknown",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-adopted-resolution-abandoning-part-of-meadowville-road-route": {
+  "decision": "skip",
+  "reason": "triage: road abandonment, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-adopted-zoning-related-code-amendments-across-chapters-4-6-1": {
+  "decision": "skip",
+  "reason": "triage: code alignment, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-appropriated-opioid-abatement-funding-for-two-partnerships": {
+  "decision": "promising",
+  "reason": "triage: funds ~$1.7M for outreach and treatment partnerships",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-airport-fbo-lease-amendments-with-vantage-aviation": {
+  "decision": "skip",
+  "reason": "triage: airport lease administration",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-conditions-on-a-rezoning-case-case-not-named-in-thi": {
+  "decision": "skip",
+  "reason": "triage: unnamed rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-conveyance-of-4731-black-oak-drive-to-habitat-for-h": {
+  "decision": "skip",
+  "reason": "triage: single lot, narrow",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-fy2027-budget-amendments": {
+  "decision": "skip",
+  "reason": "triage: routine appropriations, one-time funds",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-fy2027-community-services-board-performance-contrac": {
+  "decision": "skip",
+  "reason": "triage: routine government contract",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-approved-powhite-parkway-extension-finance-plan": {
+  "decision": "skip",
+  "reason": "triage: unclear finance plan, no detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-asked-vdot-to-take-new-streets-into-the-state-system-nash-ro": {
+  "decision": "skip",
+  "reason": "triage: routine road transfer requests",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-authorized-11-15m-contract-for-ettrick-fire-station-no-12-re": {
+  "decision": "promising",
+  "reason": "triage: funded new fire station for community",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-authorized-11-37m-contract-for-centralia-elevated-water-stor": {
+  "decision": "promising",
+  "reason": "triage: funded water storage tank for residents",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-authorized-4-55m-contract-for-shared-warehouse-construction": {
+  "decision": "skip",
+  "reason": "triage: government warehouse",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-authorized-overhead-easement-to-virginia-electric-and-power-": {
+  "decision": "skip",
+  "reason": "triage: utility easement, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-chapter-19-2-amendment-attachment-a": {
+  "decision": "skip",
+  "reason": "triage: zoning rewrite, effect unclear",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-funded-and-authorized-3-87m-contract-for-belmont-road-draina": {
+  "decision": "promising",
+  "reason": "triage: funded drainage project",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-sec-6-4": {
+  "decision": "skip",
+  "reason": "triage: fee relief benefits businesses, not workers",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-sec-9-25": {
+  "decision": "skip",
+  "reason": "triage: duplicate of existing entry",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-set-sept-23-hearing-on-eminent-domain-for-otterdale-road-at-": {
+  "decision": "skip",
+  "reason": "triage: only sets a hearing",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2029-set-sept-23-hearing-on-vacating-a-10-easement-at-antler-ridg": {
+  "decision": "skip",
+  "reason": "triage: only sets a hearing",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177890-approved-ordinance-amendment-on-service-charges-cash-roundin": {
+  "decision": "skip",
+  "reason": "triage: minor administrative rounding",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177890-approved-ordinance-prohibiting-vehicles-stopping-or-parking-": {
+  "decision": "promising",
+  "reason": "triage: enacted rule keeping sidewalks clear for pedestrians",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177890-awarded-contract-for-tuckahoe-park-improvements": {
+  "decision": "promising",
+  "reason": "triage: $13.8M funded park with accessible features",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-advertise-sept-8-public-hearing-on-school-zone-speed-camera-": {
+  "decision": "skip",
+  "reason": "triage: only advertises hearing, not enacted",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-approve-access-easement-for-carter-woods-community": {
+  "decision": "skip",
+  "reason": "triage: easement, narrow",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-approve-bond-reimbursement-resolution-for-capital-projects": {
+  "decision": "skip",
+  "reason": "triage: procedural financing",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-approve-purchase-of-3004-emporia-st-for-flood-mitigation": {
+  "decision": "skip",
+  "reason": "triage: single property purchase",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-authorize-condemnation-for-fall-line-trail-longdale-section": {
+  "decision": "skip",
+  "reason": "triage: land acquisition step",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-authorize-condemnation-for-mount-olive-avenue-realignment": {
+  "decision": "skip",
+  "reason": "triage: land acquisition step",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-award-1-6m-contract-for-repairs-to-1853-home-at-varina-on-th": {
+  "decision": "skip",
+  "reason": "triage: historic house repair",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-177069-award-916-373-contract-for-water-treatment-facility-pump-dri": {
+  "decision": "skip",
+  "reason": "triage: routine equipment replacement",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-budget-amendment-for-victim-witness-and-repp-grant-revenue": {
+  "decision": "skip",
+  "reason": "triage: routine grant appropriation",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-cu-2026-00006": {
+  "decision": "skip",
+  "reason": "triage: permit renewal for one business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-cu-2026-00007": {
+  "decision": "skip",
+  "reason": "triage: private permit, benefits business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-fy2026-budget-amendment-for-19-326-915-in-categorical-transf": {
+  "decision": "skip",
+  "reason": "triage: internal budget transfer",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-schools-appropriation-to-cafeteria-fund": {
+  "decision": "skip",
+  "reason": "triage: routine, no amount or effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-sec-14-251": {
+  "decision": "skip",
+  "reason": "triage: one parcel service district change",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-secs-14-38-and-14-127-1": {
+  "decision": "skip",
+  "reason": "triage: technical clarification",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3434-secs-3-7-and-3-127": {
+  "decision": "skip",
+  "reason": "triage: minor enforcement reclassification",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-adopts-2045-henriconext-comprehensive-plan": {
+  "decision": "skip",
+  "reason": "triage: planning document, not direct action",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-approves-6-1-million-for-hcps-salary-increase": {
+  "decision": "drafted",
+  "reason": "Henrico supervisors approved $6.1 million so every Henrico County Public Schools employee gets a 4% raise instead of 3%. That is a direct pay increase for working people, and the county's own records confirm it.",
+  "file": "src/content/entries/local/henrico-schools-employees-4-percent-raise.md",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-approves-discharge-limits-ordinance-with-pfas-monitori": {
+  "decision": "skip",
+  "reason": "triage: hearing still pending; regulatory alignment",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-approves-environmental-justice-study-resolution": {
+  "decision": "skip",
+  "reason": "triage: commissions a study only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-approves-subdivision-ordinance-changes": {
+  "decision": "skip",
+  "reason": "triage: procedural code conformity",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-approves-zoning-ordinance-amendments": {
+  "decision": "skip",
+  "reason": "triage: zoning alignment, no clear direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-awards-11-6m-east-highland-park-sewer-contract": {
+  "decision": "promising",
+  "reason": "triage: funded sewer main replacement for neighborhood",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-176564-board-awards-40-3m-richmond-henrico-turnpike-contract": {
+  "decision": "promising",
+  "reason": "triage: funded road with sidewalk and path",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26pj0008": {
+  "decision": "skip",
+  "reason": "triage: initiated rezoning, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26sn2032": {
+  "decision": "skip",
+  "reason": "triage: zoning deviation for developer",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26sn2058": {
+  "decision": "skip",
+  "reason": "triage: telecom tower zoning amendment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26sn2062": {
+  "decision": "skip",
+  "reason": "triage: single day care permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26sn2109": {
+  "decision": "skip",
+  "reason": "triage: single business permit renewal",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-26sn2129": {
+  "decision": "skip",
+  "reason": "triage: single day care permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-accepted-six-otterdale-road-parcels-from-stanley-martin-home": {
+  "decision": "skip",
+  "reason": "triage: land conveyance, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-added-emts-to-enhanced-hazardous-duty-retirement-consultant-": {
+  "decision": "promising",
+  "reason": "triage: better retirement for first responders, county-funded",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-adopted-ordinance-creating-sawmill-community-development-aut": {
+  "decision": "skip",
+  "reason": "triage: development financing tool",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-appropriated-and-transferred-funds-for-transportation-projec": {
+  "decision": "promising",
+  "reason": "triage: funds roundabout and bike/ped projects",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-approved-airport-lease-renewal-to-u-s-general-services-admin": {
+  "decision": "skip",
+  "reason": "triage: lease between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-approved-employment-agreement-for-county-administrator-kevin": {
+  "decision": "skip",
+  "reason": "triage: government personnel item",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-approved-police-towing-contract-language-changes": {
+  "decision": "skip",
+  "reason": "triage: contract language, unclear effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-asked-circuit-court-to-order-nov-3-referendum-on-1-school-co": {
+  "decision": "skip",
+  "reason": "triage: only requests a vote; regressive sales tax",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-asked-vdot-to-accept-hampton-ridge-section-1-streets-into-st": {
+  "decision": "skip",
+  "reason": "triage: request, routine street acceptance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-authorized-dominion-easement-at-new-falling-creek-police-sta": {
+  "decision": "skip",
+  "reason": "triage: utility easement, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-authorized-dominion-easement-for-new-animal-shelter": {
+  "decision": "skip",
+  "reason": "triage: utility easement, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-authorized-lease-renewal-for-child-advocacy-center": {
+  "decision": "skip",
+  "reason": "triage: routine lease renewal",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-awarded-11-41-million-environmental-engineering-operations-c": {
+  "decision": "skip",
+  "reason": "triage: government facility",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-awarded-44-3-million-dutch-gap-parkway-construction-contract": {
+  "decision": "promising",
+  "reason": "triage: funded major road construction",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-awarded-l-c-bird-athletic-complex-field-improvements-contrac": {
+  "decision": "promising",
+  "reason": "triage: funded public athletic field upgrades",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-declared-4731-black-oak-drive-surplus-and-authorized-its-sal": {
+  "decision": "skip",
+  "reason": "triage: property disposal, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-endorsed-2026-smart-scale-candidate-projects-and-grtc-brt-su": {
+  "decision": "skip",
+  "reason": "triage: requests and support, no funding",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-established-5-000-petty-cash-fund-for-police-human-trafficki": {
+  "decision": "skip",
+  "reason": "triage: internal police fund",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2028-granted-permission-for-private-sewer-force-mains-on-shell-ro": {
+  "decision": "skip",
+  "reason": "triage: private utility permissions",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-appropriated-up-to-2-7m-for-goochland-middle-and-high-school": {
+  "decision": "skip",
+  "reason": "triage: design funding only, no built result",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-approved-fy-2027-schools-budget-transfers-to-fund-and-expend": {
+  "decision": "skip",
+  "reason": "triage: routine budget transfer",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-approved-land-acquisition-in-crozier-for-future-fire-station": {
+  "decision": "skip",
+  "reason": "triage: land purchase for future station",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-cu-2026-00005": {
+  "decision": "skip",
+  "reason": "triage: single short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-endorsed-smart-scale-applications-for-transportation-funding": {
+  "decision": "skip",
+  "reason": "triage: application endorsement, not funded",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "goochland-council-3316-granted-access-easement-across-fire-training-center-property": {
+  "decision": "skip",
+  "reason": "triage: single easement",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-2026b-bonds": {
+  "decision": "skip",
+  "reason": "triage: financing plan, mostly government buildings",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-24sn1345": {
+  "decision": "skip",
+  "reason": "triage: single lot zoning exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-25sn1121": {
+  "decision": "skip",
+  "reason": "triage: gas station rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-25sn1153": {
+  "decision": "skip",
+  "reason": "triage: developer rezoning, market-rate homes",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-25sn1315": {
+  "decision": "skip",
+  "reason": "triage: goats permit for one person",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-26sn2022": {
+  "decision": "skip",
+  "reason": "triage: one church day care permit",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-26sn2049": {
+  "decision": "skip",
+  "reason": "triage: single home ADU permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-26sn2066": {
+  "decision": "skip",
+  "reason": "triage: single parcel rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-accepted-0-062-acre-parcel-along-bellwood-road": {
+  "decision": "skip",
+  "reason": "triage: tiny land conveyance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-accepted-and-appropriated-400-000-call-handling-equipment-gr": {
+  "decision": "promising",
+  "reason": "triage: state grant upgrades 911 call equipment",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-adopted-fy2026-county-year-end-adjustments-and-reserve-reque": {
+  "decision": "skip",
+  "reason": "triage: internal budget adjustments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-adopted-fy2026-year-end-adjustments-for-chesterfield-county-": {
+  "decision": "skip",
+  "reason": "triage: internal school accounting, funds only reserved",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-adopted-ordinance-creating-a-partial-property-tax-exemption-": {
+  "decision": "skip",
+  "reason": "triage: duplicate of the amended exemption item",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-appropriated-and-transferred-funds-for-salem-church-kingslan": {
+  "decision": "promising",
+  "reason": "triage: funded roundabouts; check safety claim",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-appropriated-funds-and-authorized-4-75-million-contract-for-": {
+  "decision": "promising",
+  "reason": "triage: funded Route 60 sidewalk contract",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-approved-lease-amendment-with-t-mobile-northeast-llc-for-bon": {
+  "decision": "skip",
+  "reason": "triage: tower lease amendment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-asked-vdot-to-accept-old-hundred-mill-section-e-streets-into": {
+  "decision": "skip",
+  "reason": "triage: routine street transfer request",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-asked-vdot-to-accept-palisades-cove-at-magnolia-green-sectio": {
+  "decision": "skip",
+  "reason": "triage: routine street transfer request",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-asked-vdot-to-accept-rivers-trace-section-l-streets-into-sta": {
+  "decision": "skip",
+  "reason": "triage: routine street transfer request",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-authorized-eminent-domain-for-center-pointe-parkway-extensio": {
+  "decision": "skip",
+  "reason": "triage: land taking, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-authorized-eminent-domain-for-western-area-infrastructure-im": {
+  "decision": "skip",
+  "reason": "triage: land taking, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-authorized-overhead-easement-agreement-with-virginia-electri": {
+  "decision": "skip",
+  "reason": "triage: utility easement",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-confirmed-dr-kevin-a-catlin-as-new-county-administrator": {
+  "decision": "skip",
+  "reason": "triage: appointment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-repealed-the-powhite-parkway-charter-colony-parkway-intercha": {
+  "decision": "skip",
+  "reason": "triage: dissolves service district, effect unclear",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-section-19-2-37": {
+  "decision": "promising",
+  "reason": "triage: 100-ft buffer from power lines for new homes",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-section-8-64": {
+  "decision": "skip",
+  "reason": "triage: permit fee changes, mainly developers",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-sections-9-29-through-9-32": {
+  "decision": "promising",
+  "reason": "triage: home rehab tax break; writer checks cost and who benefits",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2027-series-2026a-general-obligation-public-improvement-bonds": {
+  "decision": "promising",
+  "reason": "triage: $141M voter-approved bonds build schools",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-approved-appropriation-resolution-for-fy2026-27-adopted-budg": {
+  "decision": "skip",
+  "reason": "triage: routine appropriation",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-approved-ordinance-raising-household-refuse-disposal-fees": {
+  "decision": "skip",
+  "reason": "triage: fee increase shifts cost to residents",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-approved-resolution-to-submit-fy2026-27-annual-action-plan-f": {
+  "decision": "skip",
+  "reason": "triage: plan submission, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-authorized-2-5-million-change-order-for-glover-park-phase-ii": {
+  "decision": "skip",
+  "reason": "triage: change order on existing project",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-authorized-6-800-purchase-of-greenwood-road-property-for-dra": {
+  "decision": "skip",
+  "reason": "triage: tiny property purchase",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-authorized-800-000-acquisition-of-4-acres-on-kain-road-for-l": {
+  "decision": "skip",
+  "reason": "triage: land acquisition only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-authorized-quitclaim-deed-releasing-utility-easement-at-5801": {
+  "decision": "skip",
+  "reason": "triage: easement release for hospital expansion",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-175307-awarded-2-5-million-contract-to-the-landtek-group-for-henric": {
+  "decision": "skip",
+  "reason": "triage: one school's athletic fields",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384-acquired-1-37-acre-parcel-near-ziontown-road-for-a-pocket-pa": {
+  "decision": "skip",
+  "reason": "triage: land purchase for future park",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384-amended-the-fy-2025-26-annual-fiscal-plan-by-55-6-million": {
+  "decision": "skip",
+  "reason": "triage: routine budget amendment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384-awarded-lakeside-avenue-bridge-replacement-contract": {
+  "decision": "promising",
+  "reason": "triage: funded bridge replacement, local infrastructure many use",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384-enhanced-hazard-duty-benefits-for-full-time-emts": {
+  "decision": "promising",
+  "reason": "triage: benefit for government employees, narrow",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-174384-raised-residential-vacuum-leaf-collection-fee-from-30-to-50": {
+  "decision": "skip",
+  "reason": "triage: fee increase, a cost on residents",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-1-b": {
+  "decision": "skip",
+  "reason": "triage: grant request, not funded",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-a-1": {
+  "decision": "skip",
+  "reason": "triage: land conveyance, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-a-2": {
+  "decision": "skip",
+  "reason": "triage: land conveyance, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-a-3": {
+  "decision": "skip",
+  "reason": "triage: land conveyance between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-b-1": {
+  "decision": "skip",
+  "reason": "triage: road maintenance designation, administrative",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-b-2": {
+  "decision": "skip",
+  "reason": "triage: right of way designation, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-c-1": {
+  "decision": "skip",
+  "reason": "triage: easement quitclaim for a business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-c-2": {
+  "decision": "skip",
+  "reason": "triage: easement quitclaim for a business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-c-3": {
+  "decision": "skip",
+  "reason": "triage: easement quitclaim for Wal-Mart",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-2-c-4": {
+  "decision": "skip",
+  "reason": "triage: easement quitclaim for a business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-3": {
+  "decision": "skip",
+  "reason": "triage: procedural street acceptance requests",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-4": {
+  "decision": "skip",
+  "reason": "triage: routine budget amendments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-5": {
+  "decision": "skip",
+  "reason": "triage: routine grant budget alignment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-6": {
+  "decision": "skip",
+  "reason": "triage: grant requests only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-7": {
+  "decision": "promising",
+  "reason": "triage: funded sidewalk contract on River Road",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-15-b-8": {
+  "decision": "skip",
+  "reason": "triage: change order authority, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
  "chesterfield-council-2026-23sn0124": {
   "decision": "skip",
-  "reason": "triage: Developer rezoning, not direct benefit",
+  "reason": "triage: developer rezoning, not affordable housing action",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-24sn1306": {
   "decision": "skip",
-  "reason": "triage: Single-developer rezoning",
+  "reason": "triage: developer rezoning for 50 homes",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-24sn1353": {
   "decision": "skip",
-  "reason": "triage: Developer rezoning, split vote",
+  "reason": "triage: developer rezoning",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-25sn1072": {
   "decision": "skip",
-  "reason": "triage: Proffer amendment for developer",
+  "reason": "triage: proffer amendment for developer",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-25sn1234": {
   "decision": "skip",
-  "reason": "triage: Single-parcel proffer change",
+  "reason": "triage: single-parcel proffer amendment",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-25sn1338": {
   "decision": "skip",
-  "reason": "triage: One household's ADU permit",
+  "reason": "triage: one accessory unit permit",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-25sn1353": {
   "decision": "skip",
-  "reason": "triage: One owner's farm permit",
+  "reason": "triage: one household's animal permit",
   "impact": 1,
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-26sn2014": {
   "decision": "skip",
-  "reason": "triage: One daycare permit",
+  "reason": "triage: one home day care permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-26sn2016": {
+  "decision": "skip",
+  "reason": "triage: one landowner rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-adopted-ordinance-vacating-land-in-talley-family-subdivision": {
+  "decision": "skip",
+  "reason": "triage: land vacation for two individuals",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-approved-fy2027-fy2032-secondary-road-six-year-plan-and-fy20": {
+  "decision": "skip",
+  "reason": "triage: routine plan, small repairs",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-approved-lease-amendment-at-meadowville-wastewater-pump-stat": {
+  "decision": "skip",
+  "reason": "triage: tower lease, government/business matter",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-code-section-4-4": {
+  "decision": "skip",
+  "reason": "triage: registry, no tangible benefit for workers",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-sections-19-2-29-19-2-30-49-19-2-72": {
+  "decision": "skip",
+  "reason": "triage: self-storage zoning, business-focused",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "chesterfield-council-2026-suspended-rules-to-consider-items-after-11-p-m": {
+  "decision": "skip",
+  "reason": "triage: procedural vote",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858-adopted-recodification-of-the-county-code": {
+  "decision": "skip",
+  "reason": "triage: administrative code cleanup",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858-approved-1-2-million-bond-proceeds-for-airport-facilities-at": {
+  "decision": "skip",
+  "reason": "triage: cargo facility for a business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858-approved-conservation-easement-on-future-new-market-park-gif": {
+  "decision": "skip",
+  "reason": "triage: Easement gift to nonprofit; no direct worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858-approved-performance-agreement-addendum-with-asgn-inc": {
+  "decision": "skip",
+  "reason": "triage: Corporate incentive grant; benefit to business",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173858-authorized-public-works-to-join-vdot-smart-scale-program": {
+  "decision": "skip",
+  "reason": "triage: Letter of intent only; no funded project",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284-added-235-000-to-tuckahoe-park-design-contract": {
+  "decision": "skip",
+  "reason": "triage: Design contract add-on; procedural, no built result",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284-approved-cafeteria-lease-with-trolley-house-refreshments": {
+  "decision": "skip",
+  "reason": "triage: Government building lease; affects government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284-authorized-323-000-purchase-of-2304-martin-st-for-drainage": {
+  "decision": "skip",
+  "reason": "triage: Single property purchase; very narrow",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284-awarded-4-7m-williamsburg-road-water-main-contract": {
+  "decision": "skip",
+  "reason": "triage: Routine utility contract; modest, narrow local effect",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "henrico-news-173284-moved-monument-hills-precinct-polling-place-for-aug-4-primar": {
+  "decision": "skip",
+  "reason": "triage: One-time polling place move; administrative",
   "impact": 1,
   "date": "2026-11-12"
  }

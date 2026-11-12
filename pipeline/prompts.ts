@@ -147,7 +147,9 @@ Your job:
    - Set verification to: writer: { model: ${model}, via: ${via}, date: ${today()} } and verdict: pending.
    - Set source_key: ${(candidate as any).key ?? 'a stable id for the action'}.
    - The slug is lowercase kebab-case describing the impact. Prefix state and local slugs with the place (ny-, nyc-, va-, norfolk-, …).
-3. Accuracy beats coverage. If you can't verify the core claim, skip it and say why.`;
+3. Accuracy beats coverage. If you can't verify the core claim, skip it and say why.
+
+If the candidate has extra.record, it is text the pipeline copied from the government's own page (the candidate's url) when it fetched that page. Some local government sites block your fetches; treat the record as a source you opened, and cite the candidate's url for what it says.`;
 }
 
 // Cheap first pass over many candidates at once: no web search, just the qualification rules.
@@ -211,7 +213,7 @@ export const SPLIT_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['title', 'identifier', 'what', 'outcome', 'moved_by', 'seconded_by', 'vote'],
+        required: ['title', 'identifier', 'what', 'outcome', 'moved_by', 'seconded_by', 'vote', 'quote'],
         properties: {
           title: { type: 'string', description: 'What the body did, in plain words, under 140 characters.' },
           identifier: { type: ['string', 'null'], description: 'Its number as the text gives it: "Ordinance 26-13", "R-2026-63", "26SN2080". Null if none.' },
@@ -220,6 +222,7 @@ export const SPLIT_SCHEMA = {
           moved_by: { type: ['string', 'null'] },
           seconded_by: { type: ['string', 'null'] },
           vote: { type: ['string', 'null'], description: 'As the text gives it: "5-0", "unanimous", or the ayes and nays.' },
+          quote: { type: 'string', description: 'The passage that records this action, copied word for word, up to about 1,200 characters.' },
         },
       },
     },
@@ -236,6 +239,7 @@ export type SplitOutput = {
     moved_by: string | null;
     seconded_by: string | null;
     vote: string | null;
+    quote: string;
   }[];
 };
 
@@ -248,14 +252,15 @@ List every action the governing body voted on or that the text says it approved,
 
 Leave out: recognitions and proclamations, presentations and reports, public comment, appointments to boards, approval of minutes or the agenda, closed sessions, and items only scheduled, introduced or discussed. A consent agenda counts: list each item on it that passed.
 
-Set outcome from the text: approved (also adopted, passed, awarded, authorized), denied, deferred, withdrawn, or other. Give the mover, seconder and vote only when the text names them.
+Set outcome from the text: approved (also adopted, passed, awarded, authorized), denied, deferred, withdrawn, or other. Give the mover, seconder and vote only when the text names them. Copy each action's passage word for word into quote: writers cite it when the government's site won't load for them.
 
 <document>
 ${text}
 </document>`;
 }
 
-export async function verifierPrompt(file: string, text: string): Promise<string> {
+// record: what the pipeline copied from the government's own page for this entry's candidate, if anything.
+export async function verifierPrompt(file: string, text: string, record?: { url: string; text: string }): Promise<string> {
   const c = await context();
   return `You are the independent fact-checker for whatdidgovtdofor.you. A model from a different company wrote the entry below. Today is ${today()}. Your working directory is the site's repository.
 
@@ -274,7 +279,16 @@ ${c.officials}
 </official_ids>
 
 ${ROSTERS}
-
+${
+  record
+    ? `
+<official_record url="${record.url}">
+${record.text}
+</official_record>
+The pipeline copied this from the government's own page when it found the action. Some local government sites block your fetches; if ${record.url} won't load, treat this record as that page.
+`
+    : ''
+}
 Check every factual claim using web search and the cited sources:
 - title, dek, who_benefits, and body: true, and no stronger than the sources support?
 - impact figures: each one appears in a source or follows from one arithmetically?
