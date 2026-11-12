@@ -21,15 +21,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment:
-      name: production
-      url: https://whatdidgovtdofor.you
+    environment: production
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
+      # The npm that wrote package-lock.json. Other npm versions disagree about the optional wasm32 builds the
+      # lock records but never installs (e.g. @rolldown/binding-wasm32-wasi), and `npm ci` then refuses the lock.
+      - run: npm install -g npm@11.6.2
       - run: npm ci
       - run: npm run validate
       - run: npm run build
