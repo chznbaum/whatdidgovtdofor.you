@@ -21,6 +21,7 @@ import numpy as np
 here = Path(__file__).parent
 eyes = json.loads((here / 'eyes.json').read_text())
 cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 
 def photo_value(pid):
@@ -33,7 +34,9 @@ def photo_value(pid):
     faces = cascade.detectMultiScale(gray, 1.1, 5, minSize=(60, 60))
     if len(faces) == 0:
         return None
-    x, y, w, h = max(faces, key=lambda f: f[2] * f[3])
+    # The largest box can be a false hit (a patterned blouse, a chest): prefer boxes with eyes in their upper half.
+    with_eyes = [f for f in faces if len(eye_cascade.detectMultiScale(gray[f[1]:f[1] + f[3] // 2, f[0]:f[0] + f[2]], 1.1, 5)) > 0]
+    x, y, w, h = max(with_eyes or faces, key=lambda f: f[2] * f[3])
     face = gray[y + int(0.45 * h): y + int(0.85 * h), x + int(0.22 * w): x + int(0.78 * w)]  # cheeks, nose, mouth
     # Normalize for exposure: place the face between the photo's own darkest and lightest tones (a studio-lit photo
     # and a dim one of the same person should score alike).

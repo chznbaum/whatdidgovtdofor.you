@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://www.nytwa.org/civil-rights-initiative
+portrait:
+  image: /portraits/bhairavi-desai.webp
+  kind: photo
+  source:
+    label: Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Bhairavi_Desai_on_October_20,_2011.jpg
+    license: CC BY 2.0

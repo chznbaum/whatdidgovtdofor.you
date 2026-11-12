@@ -4,4 +4,11 @@ office: Delegate, Virginia House of Delegates, District 6
 level: state
 jurisdiction: va
 current: true
-url: https://house.vga.virginia.gov
+url: https://house.vga.virginia.gov/members/H0269
+portrait:
+  image: /portraits/rip-sullivan.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0269
+    license: "© Virginia House of Delegates / Amanda Maglione, used as a drawing reference"

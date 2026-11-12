@@ -668,5 +668,1235 @@
     "width": 1599,
     "height": 1999,
     "notes": "Re-sourced 2026-11-11 to replace a mid-word candid from the chamber floor (Commons File:Julia_Salazar,_2019_(cropped).jpg, CC BY 2.0, now photos/julia-salazar.candid.jpg). Official Senate headshot, uploaded 2023-07-27, shown on her member page. nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine snapshot (web.archive.org/web/20261022134606im_/...). Posed studio portrait on a grey backdrop: front-facing, soft closed-lip smile, long straight dark-brown hair lighter toward the ends, dark navy wrap top with the round Senate pin. Face ~400px across. Drawn from a head-and-shoulders crop (x 280-1280, y 220-1470); the full frame made the model draw her half-length with a small face."
+  },
+  "kirsten-gillibrand": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/G000555",
+    "image": "https://unitedstates.github.io/images/congress/450x550/G000555.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Kirsten Gillibrand, U.S. Senator from New York"
+  },
+  "elaine-luria": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Elaine_Luria,_Official_Portrait,_116th_Congress.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Elaine_Luria%2C_Official_Portrait%2C_116th_Congress.jpg",
+    "publisher": "U.S. House Office of Photography, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 2580,
+    "height": 3870,
+    "notes": "Elaine Luria, U.S. Representative, Virginia's 2nd District (2019-2023). Her 116th Congress official House portrait (Jan 2019), full size from Commons; photos/elaine-luria.jpg is a head-and-shoulders crop (box 12%-88% width from 3% height) of photos/elaine-luria.full.jpg. Replaces the bioguide 450x550 (kept as photos/elaine-luria.bioguide.jpg), which crops off the top of her head and shoulders; three tries from it failed on hair value and hand. Front-facing, broad smile, dark brown shoulder-length hair with a center part, hazel eyes, fair skin, pearls, black suit, flag behind (drop it)."
+  },
+  "jerry-moran": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerry_Moran,_official_portrait,_112th_Congress.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Jerry_Moran%2C_official_portrait%2C_112th_Congress.jpg",
+    "publisher": "United States Senate, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 2400,
+    "height": 3040,
+    "notes": "Jerry Moran, U.S. Senator from Kansas. His 112th Congress official Senate portrait (June 2011, from moran.senate.gov; PD-USGov-Congress), full size from Commons: the same photo the bioguide 450x550 crops (kept as photos/jerry-moran.bioguide.jpg), whose tight crop ended the drawing above the frame bottom. photos/jerry-moran.jpg is a head-and-shoulders crop (x 680-1770, y 40-1300) of photos/jerry-moran.full.jpg. Front-facing, broad toothy grin, light silvery gray-blond hair, light blue eyes, fair ruddy skin, navy suit, white shirt, light-blue tie, bookshelves behind (drop them)."
+  },
+  "nita-lowey": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/L000480",
+    "image": "https://unitedstates.github.io/images/congress/450x550/L000480.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Nita Lowey, U.S. Representative, New York's 17th District; Chair, House Appropriations Committee"
+  },
+  "greg-steube": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/S001214",
+    "image": "https://unitedstates.github.io/images/congress/450x550/S001214.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Greg Steube, U.S. Representative, Florida's 17th District"
+  },
+  "chris-murphy": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/M001169",
+    "image": "https://unitedstates.github.io/images/congress/450x550/M001169.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Chris Murphy, U.S. Senator from Connecticut"
+  },
+  "john-cornyn": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/C001056",
+    "image": "https://unitedstates.github.io/images/congress/450x550/C001056.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "John Cornyn, U.S. Senator from Texas"
+  },
+  "rob-portman": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/P000449",
+    "image": "https://unitedstates.github.io/images/congress/450x550/P000449.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Not published (run 2, 2026-11-12): the bioguide drawing widened his smile ~12% and lifted his tan to his hair value (independent review: redraw); 6 more tries (bioguide, a larger Commons crop, and his 2018 Senate portrait, saved as photos/rob-portman.2018.full.jpg) never got the smile width and a clean fine line in the same try. Retry later. Rob Portman, U.S. Senator from Ohio"
+  },
+  "kyrsten-sinema": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/S001191",
+    "image": "https://unitedstates.github.io/images/congress/450x550/S001191.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Kyrsten Sinema, U.S. Senator from Arizona"
+  },
+  "suzanne-bonamici": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/B001278",
+    "image": "https://unitedstates.github.io/images/congress/450x550/B001278.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Suzanne Bonamici, U.S. Representative, Oregon's 1st District"
+  },
+  "susan-collins": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/C001035",
+    "image": "https://unitedstates.github.io/images/congress/450x550/C001035.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Susan Collins, U.S. Senator from Maine"
+  },
+  "john-thune": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/T000250",
+    "image": "https://unitedstates.github.io/images/congress/450x550/T000250.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "John Thune, U.S. Senator from South Dakota"
+  },
+  "ed-markey": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/M000133",
+    "image": "https://unitedstates.github.io/images/congress/450x550/M000133.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Ed Markey, U.S. Senator from Massachusetts"
+  },
+  "bob-casey": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/C001070",
+    "image": "https://unitedstates.github.io/images/congress/450x550/C001070.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Bob Casey, U.S. Senator from Pennsylvania"
+  },
+  "jerrold-nadler": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/N000002",
+    "image": "https://unitedstates.github.io/images/congress/450x550/N000002.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Jerrold Nadler, U.S. Representative, New York's 12th District"
+  },
+  "tammy-duckworth": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/D000622",
+    "image": "https://unitedstates.github.io/images/congress/450x550/D000622.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Tammy Duckworth, U.S. Senator from Illinois"
+  },
+  "carolyn-maloney": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/M000087",
+    "image": "https://unitedstates.github.io/images/congress/450x550/M000087.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Carolyn Maloney, U.S. Representative, New York's 12th District"
+  },
+  "cheri-bustos": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/B001286",
+    "image": "https://unitedstates.github.io/images/congress/450x550/B001286.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Cheri Bustos, U.S. Representative, Illinois's 17th District"
+  },
+  "richard-neal": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/N000015",
+    "image": "https://unitedstates.github.io/images/congress/450x550/N000015.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Richard Neal, U.S. Representative, Massachusetts's 1st District"
+  },
+  "julia-brownley": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/B001285",
+    "image": "https://unitedstates.github.io/images/congress/450x550/B001285.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Julia Brownley, U.S. Representative, California's 26th District"
+  },
+  "john-boozman": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/B001236",
+    "image": "https://unitedstates.github.io/images/congress/450x550/B001236.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "John Boozman, U.S. Senator from Arkansas"
+  },
+  "mark-warner": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/W000805",
+    "image": "https://unitedstates.github.io/images/congress/450x550/W000805.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Mark Warner, U.S. Senator from Virginia"
+  },
+  "lincoln-restler": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-33.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 2457,
+    "height": 3072,
+    "notes": "Council posed member headshot, shown as \"Lincoln Restler Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-33.jpg). Front-facing, broad open smile showing upper teeth, thick curly salt-and-pepper (mostly gray) hair, round-ish tortoise/gray-brown glasses, clean-shaven, dark textured suit jacket, light checked collared shirt, gray knit tie, NY State flag and NYC flag behind. Evenly lit studio-style. Face ~1100px across."
+  },
+  "jennifer-gutierrez": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-34.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 3999,
+    "height": 4999,
+    "notes": "Council posed member headshot, shown as \"Jennifer Guti\u00e9rrez Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-34.jpg). Front-facing, warm smile showing upper teeth, long straight dark brown/black hair parted in the middle falling over both shoulders, light eyes, fair-to-light olive skin, thin gold chain necklace, black blazer over white top, US flag and NY State flag behind. Face ~1360px across."
+  },
+  "crystal-hudson": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-35.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 3277,
+    "height": 4096,
+    "notes": "Council posed member headshot, shown as \"Crystal Hudson Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-35.jpg). Front-facing, big open smile showing teeth, short natural dark hair (twist-out/curly crop, slightly taller on top), small stud earrings, medium-brown skin, light blue-gray striped blazer over white tee, gold Council pin with a \"Brooklyn\" script pin, floral pocket square, US flag and NY State flag behind. Face ~1260px across."
+  },
+  "pierina-sanchez": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-14.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 2338,
+    "height": 2838,
+    "notes": "Council posed member headshot, shown as \"Pierina Ana Sanchez Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-14.jpg). Front-facing, warm broad smile showing teeth, red lipstick, dark brown hair swept to one side in a long loose side ponytail/curls over her right shoulder, large gold hoop earrings, medium skin tone, black V-neck top, US flag and NYC flag behind. Slightly soft focus compared with the other Council headshots. Face ~770px across."
+  },
+  "elsie-encarnacion": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-8.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 4096,
+    "height": 5120,
+    "notes": "Council posed member headshot, shown as \"Elsie Encarnacion Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-8.jpg). Front-facing, warm smile showing teeth, voluminous shoulder-length dark curly hair, medium-brown skin, thin gold name necklace, burgundy/plum blazer over white collared shirt with a purple awareness ribbon and a gold Council pin, US flag and NY State flag behind. Face ~1600px across."
+  },
+  "carmen-de-la-rosa": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-10.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 3825,
+    "height": 4781,
+    "notes": "Council posed member headshot, shown as \"Carmen De La Rosa Head Shot\" on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-10.jpg). Front-facing, gentle smile showing teeth, chin-length bob with dark roots and honey-blonde ends parted to one side, small stud earrings, medium skin tone, burgundy/wine scoop-neck top, US flag and NY State flag behind. Face ~1230px across."
+  },
+  "cia-price": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0284",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0284.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Marcia S. (Cia) Price (District 85), served at 2606x3648; photos/cia-price.jpg is a head-and-shoulders crop (2350x1825), full frame kept as photos/cia-price.full.jpg. Seated at her House desk in the chamber, front-facing, warm smile showing a little teeth, black rectangular glasses, shoulder-length dark brown box braids with curled ends, medium-brown skin, soft warm natural light, pastel pink/blue/gray watercolor-print blouse with a bow at the neck. Face ~600px across.",
+    "width": 2350,
+    "height": 1825
+  },
+  "phil-hernandez": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0366",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0366.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Phil M. Hernandez (District 94), 900x900, already a tight head-and-shoulders frame. Outdoors against blurred green trees in soft daylight, front-facing with a broad open smile showing teeth, short dark brown hair swept up and to the side, brown eyes, light-to-medium skin tone, clean-shaven, navy blazer over a white open-collar shirt. Face ~370px across.",
+    "width": 900,
+    "height": 900
+  },
+  "kathy-tran": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0305",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0305.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Kathy K.L. Tran (District 18), 827x995, already head and shoulders. Outdoors on a lawn with soft blurred green background, front-facing, big open smile showing teeth, no glasses, long straight black hair with a little gray at the part, dark brown eyes, light-to-medium skin tone, small teardrop earrings, burgundy cardigan over a navy top. Face ~270px across (a little under the 300px target). Alternative not used: caucus-site studio portrait (vahousedems.org/wp-content/uploads/2021/02/Tran_004-edited.jpg, 3762x3762, 2021) in front of US and Virginia flags, with black rectangular glasses and a black cardigan with a House pin; larger but older and with glasses, so the newer official photo was kept.",
+    "width": 827,
+    "height": 995
+  },
+  "karines-reyes": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Karines-Reyes",
+    "image": "https://nyassembly.gov/write/upload/member_files/087/headshot/087.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1353,
+    "height": 1894,
+    "notes": "Assembly directory headshot, blue studio backdrop with flag. Front-facing, broad smile, voluminous curly dark hair with gray streaks, small hoop earrings, bright royal-blue blazer with Assembly pin over navy top. Medium-brown skin, evenly lit. Face is ~550px across. A square cut-out version (header_headshot/087.png, 2000x2000) exists on the same page."
+  },
+  "jeffrey-dinowitz": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Jeffrey-Dinowitz",
+    "image": "https://nyassembly.gov/write/upload/member_files/081/headshot/081.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1080,
+    "height": 1512,
+    "notes": "Assembly directory headshot, blue studio backdrop with flag. Front-facing, gentle closed-lip smile, bald on top with gray hair at the sides, black rectangular glasses, clean-shaven, charcoal suit, light blue shirt and blue patterned tie. Light skin, evenly lit. Face is ~450px across."
+  },
+  "charles-lavine": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Charles-D-Lavine",
+    "image": "https://nyassembly.gov/write/upload/member_files/013/headshot/013.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1344,
+    "height": 2000,
+    "notes": "Assembly directory headshot, flag at left and gray-brown backdrop. Front-facing, broad open smile, full white hair, clean-shaven, no glasses, dark suit, white shirt, maroon patterned tie, small flag pin. Light skin, evenly lit. Face is ~550px across."
+  },
+  "deborah-glick": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Deborah-J-Glick",
+    "image": "https://nyassembly.gov/write/upload/member_files/066/headshot/066.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 771,
+    "height": 1080,
+    "notes": "Assembly directory headshot, blue studio backdrop. Front-facing, warm smile, short cropped gray-brown hair with swept bangs, black rectangular glasses, royal-blue blazer over light pink collared shirt. Light skin, evenly lit. Face is ~280px across (image 771x1080), the largest the Assembly serves (the member-page cut-out is smaller, 691x864)."
+  },
+  "andrew-hevesi": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Andrew-Hevesi",
+    "image": "https://nyassembly.gov/write/upload/member_files/028/header_headshot/028.png",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 978,
+    "height": 1371,
+    "notes": "Assembly member-page cut-out headshot (background removed, composited onto white here); the same session as the directory photo (headshot/028.jpg, 771x1080, blue studio backdrop) but cropped tighter, so the face is larger (~450px across). Front-facing, broad smile showing teeth, short sandy-blond hair swept back, blue-gray eyes, reddish-blond stubble beard and mustache, no glasses, dark navy suit, light blue shirt, gray patterned tie. Light skin, evenly lit."
+  },
+  "chiquita-brooks-lasure": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiquita_Brooks-LaSure,_CMS_Administrator_2.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chiquita_Brooks-LaSure%2C_CMS_Administrator_2.png",
+    "publisher": "Centers for Medicare & Medicaid Services, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official CMS Administrator portrait (2021, U.S. government work). Working copy is the 1280px render of the 6205x7756 original PNG on Commons. Posed, front-facing, broad open smile showing teeth with a small gap between the front teeth; face ~520px across. Shoulder-length dark brown/black hair in a smooth bob with subtle lighter highlights, small silver hoop earrings, thin gold necklace with interlocking-circle pendant, coral-pink collarless jacket over black top. Warm medium-brown skin, soft even studio light, white background with US flag at left. Alternative: the smaller 1275x1650 sibling File:Chiquita Brooks-LaSure, CMS Administrator.png; the HHS version (CBL Portrait HHS.png) is only 165x240."
+  },
+  "xavier-becerra": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:HHS_Xavier_Becerra.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/HHS_Xavier_Becerra.jpg",
+    "publisher": "U.S. Department of Health and Human Services, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official HHS Secretary portrait (Aug 2021, U.S. government work). Working copy is the 1280px render of the 2400x3000 original. Posed, slight three-quarter turn with a slight head tilt, warm closed-to-slightly-open smile; face ~480px across. Short gray hair combed forward/up (salt-and-pepper, mostly gray), thin half-rim (browline-style metal) glasses, medium olive-tan skin, dark suit, white shirt, navy tie, small flag lapel pin; wood paneling, US flag and HHS flag behind, warm studio light. Rejected: File:Secretary Xavier Becerra HHS.jpg (outdoor candid on the National Mall, no glasses); File:Xavier Becerra official portrait.jpg is his 2017 California AG portrait (800x1200)."
+  },
+  "marcia-fudge": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:SecretaryMarciaFudge.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/SecretaryMarciaFudge.jpg",
+    "publisher": "U.S. Department of Housing and Urban Development, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official HUD Secretary portrait (Mar 2021, U.S. government work), preferred over her House bioguide portrait (F000455) because she is credited as HUD Secretary. Working copy is the 1280px render of the 1600x2000 original. Posed, front-facing, big wide smile showing teeth, face ~440px across. Very short natural gray-and-black hair cropped close, bold black cat-eye glasses, silver textured hoop earrings, deep red lipstick, pearl necklace, black top with black-and-white embroidered/mesh statement jacket with tall collar. Medium-dark brown skin, even studio light, US flag at left and teal-blue backdrop."
+  },
+  "miriam-delphin-rittmon": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Miriam-Delphin-Rittmon-SAMHSA.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Miriam-Delphin-Rittmon-SAMHSA.png",
+    "publisher": "Substance Abuse and Mental Health Services Administration, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official SAMHSA portrait of the HHS Assistant Secretary for Mental Health and Substance Use (2021, U.S. government work). Working copy is the 1280px render of the 2400x3000 original PNG. Posed, front-facing to slight three-quarter, warm broad smile showing teeth, face ~480px across. Dark brown chin-length bob with a side part and subtle reddish-brown highlights, light brown tortoiseshell rectangular glasses, pearl drop earrings and a graduated pearl necklace, charcoal pinstripe blazer over a cream top. Dark brown skin, warm even studio light, cream wall with US flag at left."
+  },
+  "miguel-cardona": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Secretary_of_Education_Miguel_Cardona,_official_portrait.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Secretary_of_Education_Miguel_Cardona%2C_official_portrait.jpg",
+    "publisher": "U.S. Department of Education, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official Secretary of Education portrait (2021, U.S. government work). Working copy is the 1280px render of the 2400x3000 original (a larger 3777x5087 version is File:Secretary Miguel A. Cardona.jpg). Posed, front-facing, big wide smile showing teeth, face ~500px across. Short dark curly hair with a receding hairline, black browline glasses with clear lower rims, mustache and goatee that are gray/white (salt-and-pepper mustache, white chin beard), light-medium olive-tan skin with a ruddy flush on the cheeks, blue plaid suit, white shirt, gray-and-navy checked tie, gray pocket square. US flag at left and Department of Education flag at right, bookshelf behind, bright studio light."
+  },
+  "martin-omalley": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Martin_O%E2%80%99Malley.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Official_portrait_of_Martin_O%E2%80%99Malley.jpg",
+    "publisher": "Social Security Administration, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1787,
+    "notes": "Official SSA Commissioner portrait (Dec 2023, U.S. government work). Working copy is the 1280px render of the 3475x4852 original (a 4667x6533 version is File:Martin O\u2019Malley SSA.jpg; the 360x504 file is too small). Posed, front-facing, closed-lip to slight smile with a hint of teeth, face ~560px across. Short gray hair combed to the side with a receding hairline, pale gray-blue eyes, light fair skin with a rosy tone, dark suit, white shirt, light-blue patterned tie, American flag lapel pin. US flag at left and SSA flag at right, blue backdrop, smooth even light (slightly retouched look)."
+  },
+  "amit-bose": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Amit_Bose,_FRA_Administrator.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Amit_Bose%2C_FRA_Administrator.jpg",
+    "publisher": "U.S. Department of Transportation, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Official Federal Railroad Administration Administrator portrait (2021, U.S. government work). Working copy is the 1280px render of the 1788x2235 original. Posed, front-facing, slight smile with some teeth, face ~480px across. Short, neatly parted black hair, no glasses, no facial hair, medium brown skin, dark navy suit, white shirt, navy tie with small lavender floral pattern. US flag at left and solid blue backdrop, bright flash-style studio light. A 200x250 version (File:Amit-bose.png) is too small."
+  },
+  "rae-cousins": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0356",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0356.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Rae C. Cousins (District 79), 900x900, head and shoulders. Outdoors against a brick wall in warm light, front-facing, broad smile showing teeth, shoulder-length curly dark brown hair with caramel-brown ends, center part, brown eyes, medium-light brown skin, emerald green zip-front blazer over a black top. Face (skin area) ~220px across, whole head with hair ~560px; the caucus-site copy (vahousedems.org/wp-content/uploads/2023/07/Cousins-edited.webp) is the same portrait at only 532x532, so the House file is the largest found.",
+    "width": 900,
+    "height": 900
+  },
+  "atoosa-reaser": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0380",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0380.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Atoosa R. Reaser (District 27), 900x900, tight head and shoulders. Outdoors on a street, daylight, hair lifted slightly by wind, front-facing with a soft closed-to-slightly-open smile, wavy shoulder-length light brown hair with golden highlights, brown eyes, light olive skin, small stud earrings, white open-collar shirt under a royal blue blazer. Face ~280px across.",
+    "width": 900,
+    "height": 900
+  },
+  "keith-powers": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20241104120026/https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/ab1dd2ffedf103cca08d001a2f28178995242206/thumbnails/district-4.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 2352,
+    "height": 2957,
+    "notes": "Former Majority Leader (District 4, left office end of 2025). Council posed leadership headshot (2022), shown as \"Keith Powers Head Shot\" on the council.nyc.gov/districts/ member table (Wayback snapshot 2024-11-04); the file is the 2022-04-06 \"update to leadership headshots\" version of thumbnails/district-4.jpg in the Council's own NewYorkCityCouncil/districts GitHub repo (the current copy there shows his successor, so the image URL is pinned to that commit). Front-facing, broad warm smile showing teeth, short dark hair combed back with a slightly receding hairline, full dark trimmed beard, clean fair skin, navy suit, light blue shirt, dark navy tie, round red Council pin on lapel, US flag and NYC flag behind. Evenly lit. Face ~970px across."
+  },
+  "rozia-henson": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0365",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0365.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Rozia A. Henson Jr. (District 19), served at 1824x2736 (three-quarter length, hands clasped); photos/rozia-henson.jpg is a head-and-shoulders crop (1807x1848) and the full frame is kept as photos/rozia-henson.full.jpg. Studio portrait in front of US and Virginia flags with gold cord, front-facing, broad smile showing teeth, short black hair with a close fade, full dark well-groomed beard and mustache, dark brown eyes, medium-dark brown skin, evenly lit; navy suit, white shirt, navy textured tie with a tie bar, House lapel pin. Face ~550px across.",
+    "width": 1807,
+    "height": 1848
+  },
+  "patrick-hope": {
+    "tier": "press",
+    "page": "https://vahousedems.org/our-members/",
+    "image": "https://vahousedems.org/wp-content/uploads/2021/02/HopeDesk_004-edited.jpg",
+    "publisher": "Virginia House Democratic Caucus",
+    "license": "\u00a9 Virginia House Democratic Caucus, used as a drawing reference",
+    "notes": "Caucus member-directory photo ('HopeDesk_004', uploaded Feb 2021), 1230x1230, at his House desk in the chamber (leather chairs and wood desks behind). Front-facing, relaxed smile showing a little teeth, short side-parted brown hair graying at the temples, light skin with smile lines, light blue-gray eyes, clean-shaven, gray suit, white button-down shirt, lavender patterned tie, House lapel pin. Face ~385px across. Official alternative rejected: the House member page (house.vga.virginia.gov/members/H0219, delegate_photos/H0219.jpg) serves a formal studio portrait that is only 457x640 (face ~215px) and EXIF-dated Feb 2010, when he looked much younger (no gray).",
+    "width": 1230,
+    "height": 1230
+  },
+  "alicia-hyndman": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Alicia-Hyndman",
+    "image": "https://nyassembly.gov/write/upload/member_files/029/headshot/029.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1428,
+    "height": 2000,
+    "notes": "Assembly directory headshot (2024), plain light-gray studio backdrop. Front-facing, broad smile, sleek black shoulder-length hair parted to one side, red lipstick, bright red blazer over white pussy-bow blouse. Medium-brown skin, evenly lit. Face is ~520px across."
+  },
+  "crystal-peoples-stokes": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Crystal-D-Peoples-Stokes",
+    "image": "https://nyassembly.gov/write/upload/member_files/141/headshot/141.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 771,
+    "height": 1080,
+    "notes": "Assembly directory headshot (about 2022), blue-gray studio backdrop. Front-facing, wide smile showing a small gap between the upper front teeth, short dark burgundy-brown bob with side-swept bangs, small gold earrings, multi-strand pearl necklace, navy top with a kente-patterned scarf. Deep brown skin, evenly lit. Face is ~300px across (image 771x1080), the largest the Assembly serves (member-page cut-out is only 550x771)."
+  },
+  "khaleel-anderson": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Khaleel-M-Anderson",
+    "image": "https://nyassembly.gov/write/upload/member_files/031/headshot/031.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1429,
+    "height": 2000,
+    "notes": "Assembly directory headshot (about 2022), blue studio backdrop with the New York State flag. Front-facing, broad smile, short black hair, trimmed mustache and light chin stubble, gray-blue suit, white shirt, purple tie, gray-and-navy floral lapel pin and Assembly pin. Dark brown skin, evenly lit. Face is ~480px across."
+  },
+  "micah-lasher": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Micah-C-Lasher",
+    "image": "https://nyassembly.gov/write/upload/member_files/069/headshot/069.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1327,
+    "height": 1860,
+    "notes": "Assembly directory headshot (Dec. 2024 upload), blue studio backdrop with flag. Front-facing, broad smile, short brown hair with receding hairline, tortoiseshell rectangular glasses, clean-shaven, black pinstripe suit, white shirt, navy dotted tie. Light skin, evenly lit. Face is ~450px across."
+  },
+  "nily-rozic": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Nily-Rozic",
+    "image": "https://nyassembly.gov/write/upload/member_files/025/headshot/025.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 2000,
+    "height": 2989,
+    "notes": "Assembly directory headshot, blue studio backdrop with flag. Front-facing, warm smile, long straight chestnut-brown hair with the top pulled back, small stud earrings, black top and blazer with a pendant necklace and Assembly pins. Light skin, evenly lit. Face is ~650px across (image 2000x2989)."
+  },
+  "stacey-pheffer-amato": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Stacey-Pheffer-Amato",
+    "image": "https://nyassembly.gov/write/upload/member_files/023/headshot/023.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1353,
+    "height": 1894,
+    "notes": "Assembly directory headshot, blue studio backdrop with flag. Front-facing, broad smile, short tightly curled silver-gray hair, small hoop earrings, silver chain necklace, bright blue blazer over white top. Light-olive skin, evenly lit. Face is ~470px across."
+  },
+  "josh-cole": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0314",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0314.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Joshua G. Cole (District 65), 1773x1672, head and torso to the waist. Indoors on a stairway with wooden handrails and blue carpeted steps, bright even light, torso angled slightly with face turned to the camera, big smile showing teeth, short dark brown hair with a rounded crop, full dark trimmed beard and mustache, brown eyes, medium-dark brown skin, light gray-blue suit, light check shirt, purple-blue paisley tie, House lapel pin. Face ~440px across. Head is slightly right of center with the stair rail passing behind the head.",
+    "width": 1773,
+    "height": 1672
+  },
+  "mark-downey": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0392",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0392.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Mark C. Downey (District 69), 1200x1200, tight head and shoulders. Studio portrait against a mottled blue backdrop, front-facing with head tilted slightly, warm closed-lips-to-slight smile, short brown hair with gray at the temples and a receding hairline, blue eyes, light skin with smile lines, clean-shaven, charcoal windowpane-check suit, white shirt, light blue tie. Face ~500px across.",
+    "width": 1200,
+    "height": 1200
+  },
+  "josh-thomas": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0382",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0382.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Josh Thomas (District 21), 900x900, head and shoulders. Outdoors on a town sidewalk beside a red brick building in soft overcast daylight, head turned and tilted slightly toward the camera, broad smile showing teeth, short side-parted dark brown hair, blue eyes, light skin with a little stubble shadow, navy textured blazer over a white open-collar shirt. Face ~340px across.",
+    "width": 900,
+    "height": 900
+  },
+  "karen-keys-gamarra": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0370",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0370.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Karen Keys-Gamarra (District 7), served at 1429x2000 (half-length, subject cut out on a plain white background); photos/karen-keys-gamarra.jpg is a head-and-shoulders crop (1401x1288), full frame kept as photos/karen-keys-gamarra.full.jpg. Front-facing, warm smile showing teeth, shoulder-length black faux locs gathered up and twisted on top, brown eyes, medium-brown skin, plum lipstick, teal short-sleeved blouse with a draped bow collar and a House lapel pin. Face ~450px across.",
+    "width": 1401,
+    "height": 1288
+  },
+  "shiela-corley": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:20250825-USDA-OSEC-TEW-0021_(54743228167).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/20250825-USDA-OSEC-TEW-0021_%2854743228167%29.jpg",
+    "publisher": "U.S. Department of Agriculture (photo by Tom Witham), via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "USDA official portrait taken Aug 25, 2025 in Washington (USDA photo by Tom Witham; Commons caption still gives her old title, FNCS Chief of Staff). Working copy is the 1280px render of the 3935x4919 original. It is the same portrait the agency shows on its administrator page (https://www.fna.usda.gov/about/administrator, which names her Acting Administrator of the Food and Nutrition Administration; that page blocks scripts, Wayback copy: web.archive.org/web/20261031125128/https://www.fna.usda.gov/about/administrator, which only serves a 550x688 crop). Posed, front-facing, big open smile showing teeth, face ~480px across. Chin-length blond bob with a side part (light blond, no visible gray), blue-gray eyes, light freckled fair skin, red lipstick, small pearl drop earrings, thin gold chain with an octagonal medallion, bright red tweed zip jacket with fringed trim and a high collar. Dark gray backdrop with US flag at left and USDA flag at right. Other Commons photos of her are candids at the 2026 Great American State Fair booth, rejected."
+  },
+  "marty-martinez": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0374",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0374.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Fernando J. \"Marty\" Martinez (District 29, preferred name Marty; in office since Jan 2024), 900x900, tight head and shoulders. Outdoors in front of a brick-and-glass building in overcast light, head turned slightly three-quarter toward the camera, mild closed-mouth smile, short thick white hair, dark-rimmed rectangular glasses, brown eyes, medium-brown skin with lines at the eyes, blue-and-white gingham button-down shirt with open collar. Face ~380px across. A 2023 caucus-site headshot also exists (vahousedems.org Headshot-Marty-2-edited.jpeg) but the House photo is current and already large.",
+    "width": 900,
+    "height": 900
+  },
+  "margaret-franklin": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0404",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0404.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Margaret Angela Franklin (District 23; in office since Jan 2026), 2335x2919, head and torso. Studio portrait in front of the US and Virginia flags (dark vignette at the corners, slightly saturated color), front-facing, big open smile showing teeth, shoulder-length dark brown/black hair with soft curled ends, brown eyes, medium-dark brown skin, red mock-neck top with a tie detail and a small House pin. Face ~700px across. Head is left of center and the flags are busy behind the hair.",
+    "width": 2335,
+    "height": 2919
+  },
+  "liz-krueger": {
+    "tier": "press",
+    "page": "https://politicsny.com/2025/12/12/op-ed-we-can-no-longer-look-away-its-time-new-york-holds-sex-buyers-accountable/",
+    "image": "https://politicsny.com/wp-content/uploads/2025/12/lk-headshot-high-res-2.jpg",
+    "publisher": "Politics NY (headshot supplied with Sen. Krueger's op-ed)",
+    "license": "\u00a9 Liz Krueger / photographer, used as a drawing reference",
+    "width": 1831,
+    "height": 1512,
+    "notes": "Author headshot shown as the featured image of her Dec. 2025 op-ed on politicsny.com (file name lk-headshot-high-res-2.jpg; also the image on her Politics NY candidate page). Posed studio portrait on a plain light-grey backdrop: front-facing, broad open-mouth smile, short brown hair with a few grey strands, no glasses, pearl necklace and pink textured jacket over lavender top; soft even light, fair skin. Face ~800px across. Rejected: the nysenate.gov member-page headshot (a 2009 8x10 posed portrait, smiling, but the largest copy the Senate serves is 160x160), the 2026 page hero (680x510 floor candid at a mic), Commons floor photos (2022 masked, 2024 speaking at a podium, 2019 floor session) and a 2009 Commons panel shot."
+  },
+  "marcus-simon": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0264",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0264.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Marcus B. Simon (District 13), 2560x2560. Seated at his House desk in the chamber (cream paneling and leather chairs behind), front-facing, relaxed closed-to-slightly-open smile, short wavy dark brown hair with a little gray at the sides, brown eyes, light olive skin, brown stubble-free face with smile lines, dark charcoal suit, white shirt, gold medallion-patterned tie, House lapel pin. Face ~770px across. Head is high in the frame with plenty of margin.",
+    "width": 2560,
+    "height": 2560
+  },
+  "harry-bronson": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Harry-B-Bronson",
+    "image": "https://nyassembly.gov/write/upload/member_files/138/headshot/138.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1080,
+    "height": 1512,
+    "notes": "Assembly directory headshot, blue studio backdrop with flag. Posed, front-facing, calm closed-mouth expression (a faint, slight smile; not a broad smile) -- the only posed portrait the Assembly offers; the member-page photo gallery holds only event candids (podium, rallies, parades) and the Commons photo is a 2014 parade candid, so neither was used. Bald crown with short gray hair at the sides, full salt-and-pepper beard, round red-framed wire glasses, navy blazer, pink checked shirt, pink-purple plaid tie, Assembly pin. Light skin, evenly lit. Face is ~400px across."
+  },
+  "phara-souffrant-forrest": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Phara-Souffrant-Forrest",
+    "image": "https://nyassembly.gov/write/upload/member_files/057/headshot/057.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1200,
+    "height": 1680,
+    "notes": "Assembly directory headshot (about 2022), blue studio backdrop with flag. Posed, front-facing, a soft closed-lip smile, head tilted very slightly; arms crossed at the bottom of the frame. Black braids gathered into a high top-knot, small diamond-shaped stud earrings, thin gold pendant chain, orange-coral blazer over black top, Assembly pin. Dark brown skin, evenly lit. Face is ~430px across (image 1200x1680)."
+  },
+  "brian-kavanagh": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/brian-kavanagh",
+    "image": "https://www.nysenate.gov/sites/default/files/2024/10/22/brian-high-def-headshot-scaled-1.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 1910,
+    "height": 2560,
+    "notes": "Official Senate member-page headshot (4:3 photo on his page, uploaded 2024-10-22). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine (web.archive.org/web/20261105im_/ copy of the original under /sites/default/files/). Outdoor posed portrait in front of an iron fence and green foliage, arms crossed (half-length), front-facing, relaxed closed-mouth smile, short grey-white hair, blue-green eyes, rectangular dark tortoise-shell glasses, fair skin with warm natural light, navy suit, light blue shirt, red patterned tie. Face ~650px across. photos/brian-kavanagh.jpg is a head-and-shoulders crop (x 256-1741, y 256-1640) of the full frame saved as photos/brian-kavanagh.full.jpg. The hero image on his page (kavanagh-b-headshot.jpg) was not used."
+  },
+  "kelly-convirs-fowler": {
+    "tier": "press",
+    "page": "https://vahousedems.org/our-members/",
+    "image": "https://vahousedems.org/wp-content/uploads/2021/02/Kelly-edited.jpg",
+    "publisher": "Virginia House Democratic Caucus",
+    "license": "\u00a9 Virginia House Democratic Caucus, used as a drawing reference",
+    "notes": "Caucus member-directory photo (card 'Kelly Fowler, District 96'; file uploaded Feb 2021), 683x683, studio portrait. Same picture as the House member page photo (house.vga.virginia.gov/members/H0295, delegate_photos/H0295.jpg) but that copy is only 464x464 (face ~140px, under the floor); the caucus copy is the larger one (face ~255px, still under the ~300px target; no larger version found). Front-facing, wide smile showing teeth, coral lipstick, long straight black hair with side-swept bangs, brown eyes, light-to-medium skin with light freckling on the cheeks, white pearl necklace, navy blazer over a white lace top, mottled dark-brown studio backdrop. The photo likely dates from her earlier House years (2018-2022 as Kelly Fowler). Rejected: Commons File:(05-28-2022) Kelly Convirs-Fowler.jpg (Max Lonzanida, public domain, 2935x2208), a candid mid-sentence at a microphone with glasses and a shawl; her old campaign domain voteforfowler.com is now an unrelated spam page.",
+    "width": 683,
+    "height": 683
+  },
+  "michael-feggans": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0360",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0360.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Michael Feggans (District 97), 900x900, tight head and shoulders (somewhat soft/compressed). Outdoors against a red brick wall, front-facing, easy smile showing teeth, short dark brown tight curls with a short fade, brown eyes, light-medium skin with prominent freckling across the cheeks and nose, short trimmed beard and mustache, gray-blue textured blazer over a white open-collar shirt. Face ~370px across.",
+    "width": 900,
+    "height": 900
+  },
+  "paul-krizek": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0281",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0281.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Paul E. Krizek (District 16), served at 3690x5535 (three-quarter length); photos/paul-krizek.jpg is a head-and-shoulders crop (3690x3323), full frame kept as photos/paul-krizek.full.jpg. Studio portrait between the US and Virginia flags, front-facing, broad open smile showing teeth, thin wire rimless glasses, short side-swept brown hair with a high forehead and receding hairline (no obvious gray), brown eyes, light skin that reads slightly ruddy, dark navy micro-check suit, light blue shirt, navy textured tie, House lapel pin. Face ~1200px across.",
+    "width": 3690,
+    "height": 3323
+  },
+  "betsy-carr": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0212",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0212.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Betsy B. Carr (District 78), 2420x3387, head and shoulders down to the chest. EXIF: Nikon D7000, Jan 2014, so the portrait is about 12 years old. Studio portrait against a mottled brown-gray backdrop, front-facing, warm closed-to-slightly-open smile with pink lipstick, chin-length straight bob in silver-blond/gray with lighter highlights, blue eyes, fair skin with fine lines, small gold earrings and a thin gold necklace, royal blue stand-collar jacket with large buttons and a House lapel pin. Face ~890px across. Alternative not used: the caucus-site photo (vahousedems.org/wp-content/uploads/2021/02/522A2592-1-edited-scaled.jpg, 2560x2560, EXIF Feb 2018, Canon 5D III) in front of the US and Virginia flags, silver-gray bob, navy stand-collar jacket with a gold pin; four years newer and also smiling, so it is a fair substitute if the 2014 look is judged too young.",
+    "width": 2420,
+    "height": 3387
+  },
+  "virgil-thornton": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0400",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0400.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Virgil Gene Thornton Sr. (District 86), served at 1365x2048 (three-quarter length, hands clasped); photos/virgil-thornton.jpg is a head-and-shoulders crop (1268x1088), full frame kept as photos/virgil-thornton.full.jpg. Studio portrait against a smooth gray gradient backdrop, front-facing, broad smile showing teeth, closely cropped gray-and-black hair (receding), brown eyes, dark brown skin, clean-shaven, dark navy suit, white shirt, bright blue diamond-pattern tie. Face ~400px across.",
+    "width": 1268,
+    "height": 1088
+  },
+  "kimberly-pope-adams": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0399",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0399.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Kimberly Pope Adams (District 82), 1036x1060, head and shoulders. Indoors against a pale wall with a blurred floral painting behind the head, even bright light, front-facing with a closed-lips smile, large tortoiseshell-pattern glasses (gray-green), chin-length sleek bob in dark brown with caramel highlights tucked behind one ear, small gold hoop earring, medium-brown skin, powder blue blazer over a black top. Face ~330px across.",
+    "width": 1036,
+    "height": 1060
+  },
+  "katrina-callsen": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0354",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0354.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Current House member-page photo for Katrina E. Callsen (District 54), served at 3744x5616 (half-length); photos/katrina-callsen.jpg is a head-and-shoulders crop (3513x3232), full frame kept as photos/katrina-callsen.full.jpg. Outdoors under trees with blurred green grass behind, daylight with some dappled shade, front-facing with head tilted slightly, very broad smile showing teeth, long dark brown/black hair with soft waves blown slightly by wind, dark brown eyes, light-medium olive skin, light blue linen-look blazer over a royal blue top. Face ~1000px across.",
+    "width": 3513,
+    "height": 3232
+  },
+  "rip-sullivan": {
+    "tier": "official",
+    "page": "https://house.vga.virginia.gov/members/H0269",
+    "image": "https://house.vga.virginia.gov/delegate_photos/H0269.jpg",
+    "publisher": "Virginia House of Delegates (photo by Amanda Maglione)",
+    "license": "\u00a9 Virginia House of Delegates / Amanda Maglione, used as a drawing reference",
+    "notes": "Current House member-page photo for Richard C. (Rip) Sullivan Jr. (District 6), served at 3488x4026 (three-quarter length); photos/rip-sullivan.jpg is a head-and-shoulders crop (3071x2466), full frame kept as photos/rip-sullivan.full.jpg. EXIF: Canon EOS R6 Mark II, Mar 2026, photographer Amanda Maglione, so very recent. Studio portrait between the US and Virginia flags against a warm cream wall, front-facing, broad smile showing teeth, short side-swept gray hair, blue eyes, light skin with crow's feet and smile lines, clean-shaven, navy jacket, white pinstripe button-down shirt, mauve textured tie, House lapel pin. Face ~950px across. Head sits close to the top of the crop.",
+    "width": 3071,
+    "height": 2466
+  },
+  "jeremy-mcpike": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20230926022819/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S98",
+    "image": "https://web.archive.org/web/20230926022819id_/https://apps.senate.virginia.gov/Senator/images/member_photos/McPike29",
+    "publisher": "Senate of Virginia",
+    "license": "\u00a9 Senate of Virginia, used as a drawing reference",
+    "width": 1500,
+    "height": 2101,
+    "notes": "Official Senate member photo for Jeremy S. McPike (District 29), as served on his member page in Sept 2023 (the file served at that URL in the Sept 2023 snapshot is 1500x2101; the live Senate page now serves only a 262x269 thumbnail of a different, flag-backdrop shot with face ~130px, so the archived larger copy is used). Photo likely from around 2020-2023. Studio headshot against a mottled gray-brown backdrop, front-facing to slight three-quarter, broad smile showing teeth, face ~650px across. Short dark brown hair parted to the side with a receding hairline, brown eyes, no glasses, clean-shaven, fair skin with a warm tone, navy suit, white button-down shirt, red tie with small blue-and-white diamond pattern. Soft even lighting."
+  },
+  "brad-hoylman-sigal": {
+    "tier": "official",
+    "page": "https://www.manhattanbp.nyc.gov/about/",
+    "image": "https://www.manhattanbp.nyc.gov/wp-content/uploads/2026/01/BHS-Headshot-scaled.jpeg",
+    "publisher": "Manhattan Borough President's Office",
+    "license": "\u00a9 Manhattan Borough President's Office, used as a drawing reference",
+    "width": 2560,
+    "height": 1707,
+    "notes": "Official Borough President headshot (uploaded Jan. 2026, on the About page of manhattanbp.nyc.gov), chosen over his older Senate headshot because it shows his current look. Outdoor posed portrait, half-length, hands clasped, front-facing, closed-mouth smile, silver-grey side-swept hair, blue-grey eyes, no glasses, clean-shaven, navy blazer over black V-neck sweater and light-blue collared shirt, warm low sun, blurred subway entrance behind. Face ~380px across. photos/brad-hoylman-sigal.jpg is a head-and-shoulders crop (x 330-1536, y 60-1160) of photos/brad-hoylman-sigal.full.jpg. Alternate: photos/brad-hoylman-sigal.senate.jpg is the nysenate.gov member-page headshot (https://www.nysenate.gov/sites/default/files/bh_headshot.jpg, 2652x2869, tight studio portrait, flag backdrop, smiling, face ~1000px) but it is an older photo with dark brown hair going grey at the temples, navy suit, blue gingham shirt, Senate pin; it was retrieved from the Wayback Machine because nysenate.gov blocks scripts. Use the Senate one if the BP crop draws poorly."
+  },
+  "michelle-maldonado": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20260210095502/https://house.vga.virginia.gov/members/H0340",
+    "image": "https://web.archive.org/web/20260210095504id_/https://house.vga.virginia.gov/delegate_photos/H0340.jpg",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "notes": "Former delegate (District 20; resigned May 31, 2026, so her live House page now returns 404). This is the member-page photo from the Wayback Machine snapshot of Feb 10, 2026 (member id H0340, page names Michelle Lopes Maldonado, 20th District); served at 3527x2845, EXIF Jan 2022. photos/michelle-maldonado.jpg is a head-and-shoulders crop (2821x2712) with the full frame kept as photos/michelle-maldonado.full.jpg. Outdoors against a red brick wall with a blurred lantern at upper left, bright daylight, front-facing, very broad smile showing teeth, very short natural black hair with substantial gray, dark brown eyes, medium-brown skin, small pearl drop earrings, white crew-neck top. Face ~1000px across. Hair is shorter and grayer in later 2024 photos but still short and gray, so it is a fair likeness. Rejected: Commons File:Del. Michelle Maldonado, 2024.jpg (Office of the Governor, CC BY 2.0, 928x1326), a candid looking away from the camera, unsmiling, in a crowd.",
+    "width": 2821,
+    "height": 2712
+  },
+  "michael-gianaris": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/michael-gianaris",
+    "image": "https://www.nysenate.gov/sites/default/files/hs_3.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 2462,
+    "height": 2211,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on his page; photo year unknown, looks recent). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Outdoor posed portrait by the East River with the Queensboro Bridge softly blurred behind: front-facing, wide open-mouth smile, short dark brown hair combed back with a little grey, no glasses, clean-shaven, olive skin, warm even light, black polo shirt (no suit). Face ~600px across. Not cropped. The page hero (52168793832_6b5abcf643_o_0.jpg, 6000x4000) was not used."
+  },
+  "richard-gottfried": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:AssemblymanRichardGottfried.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/AssemblymanRichardGottfried.jpg",
+    "publisher": "Wikimedia Commons (Citizen Action of New York)",
+    "license": "CC BY-SA 3.0",
+    "width": 1165,
+    "height": 1511,
+    "notes": "Photo from 2009-12-08 (Gottfried was ~62; he kept the same gray-blond hair and full gray-white beard through leaving the Assembly in 2022). Front-facing, slight closed-mouth smile, wire-rimmed round glasses, dark pinstripe suit, light blue shirt, navy tie with gold stripes. Light skin, warm dim indoor event lighting with a dark crowd background; head and shoulders, face ~450px across. Rejected: the Assembly's own headshot (Wayback copies of nyassembly.gov/.../075/headshot/075.jpg from 2020-2022) is only 134x200 and shows him mid-word at a mic; the current file at that URL is his successor Tony Simone, not Gottfried. Rejected the Commons 2013 rally photo (speaking at a podium, profile)."
+  },
+  "eric-adams": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Eric_Adams_at_City_Hall_2023_(3x4_cropped).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Eric_Adams_at_City_Hall_2023_%283x4_cropped%29.jpg",
+    "publisher": "Wikimedia Commons (UK Government, photo by Kirsty O'Connor / Cabinet Office)",
+    "license": "CC BY 2.0",
+    "width": 1672,
+    "height": 2228,
+    "notes": "Former Mayor (2022-2025). Taken 2023-09-20 at City Hall during a meeting with the UK Deputy Prime Minister (3x4 crop of a larger UK Government photo, used as the lead image on his Wikipedia article). Close-cropped: front-facing, broad warm smile showing upper teeth, bald, clean-shaven, deep brown skin lit warmly from the front-left, smile creases at the eyes, small stud earring in his right ear (viewer's right), navy suit, white shirt with a collar pin, blue-patterned tie; blurred flags behind. Face ~1000px across. His official mayoral portrait (nyc.gov/assets/home/images/mayor/bio/adams.png, seen in the Wayback copy of nyc.gov/office-of-the-mayor/bio.page, 2024-01-16) is also a smiling studio shot but only 380x336 with a ~120px face, so this larger Commons photo is preferred (precedent: Hochul, Boysko). Other Commons options are event candids (MTA 2022 podium shots, 2021 Pelosi balcony photo at 383px wide)."
+  },
+  "rachel-may": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/rachel-may",
+    "image": "https://www.nysenate.gov/sites/default/files/may-2019portrait.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 474,
+    "height": 711,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on her page, filename may-2019portrait, so from 2019). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original. Studio portrait, front-facing, broad open-mouth smile, short straight grey-white hair with wispy bangs, light blue eyes, no glasses, fair skin, black open cardigan over a rust-and-brown patterned top, drop earrings, flag and grey backdrop. Face ~190px across (largest version the Senate serves, image width 474px). Alternate: photos/rachel-may.commons.jpg is Commons File:Official NYS Senate portrait of Senator May.png (1306x1318, face ~450px, CC BY-SA 4.0, attributed to NYS Senate, dated 2019-01-19, uploaded by a user from her Facebook page, so provenance is secondhand): a different 2019 Senate studio portrait, smiling, same grey hair, olive-yellow jacket and pale yellow scarf, Senate pin. Use it if the 474px photo draws poorly. Rejected: Commons (05-18-22) photos (candid, mid-word, sunglasses) and the page hero (electric_bulding_presser.jpg, a press-conference candid)."
+  },
+  "robert-jackson": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/robert-jackson",
+    "image": "https://www.nysenate.gov/sites/default/files/01-03-19jackson-hs-048_2.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 2844,
+    "height": 2844,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on his page; filename dated 01-03-19, so a 2019 studio shot). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Tight head-and-shoulders portrait on a plain white backdrop, front-facing, big open smile with teeth, short cropped grey hair receding at the temples, grey moustache, rimless oval glasses, dark brown skin lit evenly with a few dark moles on the cheek, navy plaid suit, light blue shirt, navy tie with a leopard-and-flower pattern, small gold pin on the lapel. Face ~1000px across. Not cropped. The page hero (frontpagesd31.jpg, 680x510) was not used."
+  },
+  "john-liu": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/john-c-liu",
+    "image": "https://www.nysenate.gov/sites/default/files/2024/08/12/thumbnail_02-28-24-liu-headshot-017r_1.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 1920,
+    "height": 2879,
+    "notes": "Official Senate member-page headshot (4:3 photo on his page; filename dated 02-28-24, uploaded 2024-08-12). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original. Studio portrait, front-facing, closed-mouth soft smile, very short cropped hair (balding, grey at the sides), light stubble, no glasses, light tan skin, navy blazer over an open-collar white shirt, flag and grey backdrop. Face ~790px across. photos/john-liu.jpg is a head-and-shoulders crop (x 0-1920, y 216-2016) of photos/john-liu.full.jpg; the full frame is chest-up with a lot of torso."
+  },
+  "lashrecse-aird": {
+    "tier": "press",
+    "page": "https://www.lashrecseaird.com/",
+    "image": "https://static1.squarespace.com/static/621d2b5f4c96dc5124198911/t/6453a70e24dd314ca597957c/1683203854288/MC-Aird-Petersburg+Va-3.29.23+Barrett_-7371.jpg?format=2500w",
+    "publisher": "Lashrecse Aird campaign site (lashrecseaird.com)",
+    "license": "\u00a9 Lashrecse Aird, used as a drawing reference",
+    "width": 1450,
+    "height": 1460,
+    "notes": "Campaign-site portrait whose file name reads 'MC-Aird-Petersburg Va-3.29.23 Barrett_-7371' (a Mar 29, 2023 shoot in Petersburg; photographer credit not shown). It is the same shoot and pose as her official Senate member photo (apps.senate.virginia.gov/Senator/images/member_photos/Aird13, id S115), which the Senate serves only at 262x269 with a ~110px face; this 2500x1669 original is the large copy. The working copy is cropped to head and shoulders (box 400,40,1850,1500; 1450x1460); the full file is photos/lashrecse-aird.full.jpg. Outdoors on a porch with blurred green foliage, front-facing with a slight head tilt, big smile showing teeth with pink-coral lipstick, face ~430px across in the crop. Shoulder-length dark brown/black wavy hair with auburn highlights near the part, brown eyes, no glasses, medium-brown skin lit warmly, light powder-blue blazer over a blush-pink pleated top. Rejected: her 2016-era House member photo (history.house.virginia.gov/members/8709, 333x466, short pixie cut with blond highlights, face ~170px); Commons File:Lashrecse Aird 2021 (cropped).jpg (masked); Commons File:Lashrecse Aird 2024 (cropped).png (809x788 Governor's-office bill-signing crop, a decent smiling alternative)."
+  },
+  "kevin-thomas": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/kevin-thomas",
+    "image": "https://www.nysenate.gov/sites/default/files/senator-thomas-sd6-main-header.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 680,
+    "height": 510,
+    "notes": "Official Senate studio portrait, used as the page hero on his archived nysenate.gov member page (Wayback snapshot web.archive.org/web/20241230230408/https://www.nysenate.gov/senators/kevin-thomas; the live page is behind a Cloudflare challenge). The page's small member-photo version of the same shot (senator-thomas-sd6-member-head.jpg) is only 213x160, so the 680x510 hero is the larger copy. Front-facing, slight smile with teeth, short dark hair receding on top, full dark beard, no glasses, brown skin lit evenly, navy suit, white shirt, dark green polka-dot tie, Senate pin, flag and grey backdrop. Face ~240px across (largest the Senate serves). Alternate considered: Commons File:Senator Thomas Consumer Protection.jpg (1203x1409, wide smile, black glasses, seated at a committee dais with a nameplate and mic; Senate photographer, CC BY 2.0), not used because the official studio portrait is posed and clean."
+  },
+  "jumaane-williams": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Jumaane_Williams.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Jumaane_Williams.jpg",
+    "publisher": "Wikimedia Commons (Tessa Bury)",
+    "license": "CC BY 4.0",
+    "width": 4221,
+    "height": 5276,
+    "notes": "Photo taken 2026-03-01 outdoors at a Manhattan rally (it is the lead image on his Wikipedia article). Not a government photo, so tier commons. Front-facing with a slight head tilt, relaxed closed-lip-to-open smile showing a few teeth, eyes clear, dark brown skin lit softly in daylight, short trimmed beard with gray at the chin, small hoop earring in his right ear (viewer's right), gray knit beanie covering his hair, gray-and-blue plaid scarf, gray herringbone wool overcoat over a dark turtleneck; blurred street background. Face ~1200px across. He wears the beanie in every flattering recent photo; the drawer can keep it. Rejected: advocate.nyc.gov has only event photos (megaphone at a rally) and staff headshots, no posed portrait of him; Commons options are the BetaNYC 2021 video frame (746x933, unsmiling, glaring into a webcam), NYC Mayor's Office 2026 inauguration frame (at the podium with a mic in front of his mouth), Council-era files (2010-2012, small or mid-speech), and a 219x311 Council-site thumbnail from 2017."
+  },
+  "schuyler-vanvalkenburg": {
+    "tier": "press",
+    "page": "https://vanvalkenburg4va.com/?p=1661",
+    "image": "https://vanvalkenburg4va.com/wp-content/uploads/2021/05/VanValkenburg-4424-scaled-e1623927835198.jpg",
+    "publisher": "Schuyler VanValkenburg campaign site (vanvalkenburg4va.com)",
+    "license": "\u00a9 Schuyler VanValkenburg, used as a drawing reference",
+    "width": 1696,
+    "height": 1702,
+    "notes": "Campaign-site portrait on the 'About Schuyler' page, uploaded May-June 2021 (file VanValkenburg-4424-scaled-e1623927835198.jpg, the 1696x1702 square crop; the uncropped original is 2560x1704 at .../2021/05/VanValkenburg-4424-scaled.jpg). Photo is about 5 years old but he looks the same. Outdoors on a street with blurred trees and brick buildings, front-facing, relaxed closed-to-slightly-open smile showing some teeth, face ~850px across. Short brown hair with a receding hairline and a bit of gray at the temples (mostly brown), light eyes (blue-gray/hazel), clean-shaven, fair skin with a slight flush, white open-collar dress shirt with sleeves rolled, arms crossed at the bottom of frame. The Senate of Virginia member photo (apps.senate.virginia.gov/Senator/images/member_photos/VanValkenburg16, id S129) is only 262x269 with a ~120px face (gray studio backdrop, navy suit, purple plaid tie); House DOME photo (history.house.virginia.gov/members/9947) is 333x349. Rejected: Commons File:Schuyler VanValkenburg 2023.jpg (CC BY-SA 4.0, Sean Dudley; wearing a ball cap with an extreme grin at a GOTV event)."
+  },
+  "letitia-james": {
+    "tier": "official",
+    "page": "https://ag.ny.gov/about/meet-letitia-james",
+    "image": "https://ag.ny.gov/sites/default/files/2023-01/LetitiaJames.jpg",
+    "publisher": "New York State Office of the Attorney General",
+    "license": "\u00a9 New York State Office of the Attorney General, used as a drawing reference",
+    "width": 1603,
+    "height": 1068,
+    "notes": "Official headshot (alt text \"Headshot of Attorney General Letitia James\") on the \"Meet Letitia James\" page; the same photo, tighter crop, is the spotlight card on the ag.ny.gov homepage (2022-09/tish_headshot-crop.jpg, 1599x1017). Landscape frame, head-and-shoulders. Front-facing with a slight head tilt, warm closed-lip-to-slight-teeth smile, medium-brown skin lit evenly, shoulder-length dark brown straight hair worn down and tucked behind her right ear (viewer's left) with a soft wave, navy knit top with scalloped neckline trimmed in lighter blue, small gold Attorney General lapel pin, US flag and NY State flag behind, blurred office windows. Face ~360px across (largest copy the site serves). Commons has only event shots (Congressional Black Caucus swearing-in 2025 crop at 1854x2472), not needed."
+  },
+  "jabari-brisport": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/jabari-brisport",
+    "image": "https://www.nysenate.gov/sites/default/files/sd25jabar_brisport.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 667,
+    "height": 805,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on his page; photo year unknown, looks recent). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Studio portrait, front-facing with a slight head tilt, broad toothy smile, close-cropped dark hair, short moustache and light stubble on the chin, no glasses, medium-brown skin lit evenly, charcoal suit, purple dress shirt, navy and lilac diamond-pattern tie, Senate pin, flag and dark grey backdrop. Face ~250px across (largest version the Senate serves; the page hero sd25jabarbrispormainpaget.jpg is only 481x361). Not cropped."
+  },
+  "james-sanders": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/james-sanders-jr",
+    "image": "https://www.nysenate.gov/sites/default/files/2026/01/12/senator-pic1.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 4128,
+    "height": 6192,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on his page, uploaded 2026-01-12, so current). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Studio portrait on a blue-grey backdrop, half-length, seated and turned slightly to his right with hands clasped, face toward camera, warm closed-mouth smile, shaved head with grey stubble, no glasses, dark brown skin, navy tweed jacket with a burgundy windowpane check, striped shirt, magenta paisley bow tie, burgundy rosette lapel flower, Senate pin, pocket square. Face ~1250px across. photos/james-sanders.jpg is a head-and-shoulders crop (x 0-3100, y 465-3500) of photos/james-sanders.full.jpg. Rejected: the page hero (01-16-1910-1-0133_0.jpg, 1200x800, 2019, standing outdoors with arms spread, small face)."
+  },
+  "cordell-cleare": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/cordell-cleare",
+    "image": "https://www.nysenate.gov/sites/default/files/2024/05/31/680.cleare-hs-014-1.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 810,
+    "height": 680,
+    "notes": "Official Senate headshot used as the page hero on her member page (uploaded 2024-05-31). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Studio portrait, front-facing with a slight head tilt, warm open smile with teeth, long dark brown locs falling past the shoulders, no glasses, small gold square-hoop earrings, dark brown skin lit evenly, navy pinstripe jacket over a white blouse, flag and grey backdrop. Face ~290px across; tightly framed. The page member-photo version (sd30-cleareofficialheadshot.jpg, 468x508, face ~170px) is a different, smaller official shot: navy jacket with white piping, cream bow-tie blouse, drop earrings, closed-lip smile; not used because it is smaller."
+  },
+  "sam-levine": {
+    "tier": "official",
+    "page": "https://www.nyc.gov/site/dca/about/commissioner.page",
+    "image": "https://www.nyc.gov/assets/dca/images/content/about/samuel-a-a-levine-dcwp-commissioner.jpg",
+    "publisher": "NYC Department of Consumer and Worker Protection",
+    "license": "\u00a9 City of New York, used as a drawing reference",
+    "width": 620,
+    "height": 660,
+    "notes": "Official Commissioner headshot (alt text \"DCWP Commissioner Levine's headshot\") on the DCWP Leadership page. The full file is 1024x1024 half-length with arms crossed (kept as photos/sam-levine.full.jpg); photos/sam-levine.jpg is a 620x660 head-and-shoulders crop of it (no upscaling), listed here as width/height. Front-facing, big open smile showing teeth, short dark wavy brown hair swept up, short salt-and-pepper stubble beard, tortoiseshell/blue-green round glasses, light skin, houndstooth/gingham-check navy-and-cream blazer over an open-collar cream shirt, plain light gray studio backdrop, evenly lit. Face ~260px across in the original (face width ~230px in the crop); native resolution is as large as the page serves."
+  },
+  "toby-ann-stavisky": {
+    "tier": "press",
+    "page": "https://stavisky.com/",
+    "image": "https://stavisky.com/wp-content/uploads/2026/03/Portrait-of-Senator-Toby-Stavisky-Outdoors-in-Gray-Suit-03-1-scaled.png",
+    "publisher": "Toby Stavisky campaign website (stavisky.com)",
+    "license": "\u00a9 Toby Stavisky campaign / photographer, used as a drawing reference",
+    "width": 1707,
+    "height": 2560,
+    "notes": "Campaign-site portrait uploaded March 2026 (file name Portrait-of-Senator-Toby-Stavisky-Outdoors-in-Gray-Suit-03-1), so current. Outdoors in front of pink crape-myrtle and roses with a brick building, posed with arms crossed, head tilted slightly, warm smile showing teeth with red lipstick, short white hair, tortoise-shell rectangular glasses, fair skin, pale blue tweed jacket with navy trim over a light blue collared shirt, soft natural light. Face ~540px across. photos/toby-ann-stavisky.jpg is a head-and-shoulders crop (x 50-1660, y 40-1300) of photos/toby-ann-stavisky.full.jpg. Rejected: the nysenate.gov member-page headshot (a 2009 posed portrait, purple jacket and pearls, but the largest copy served is 160x160), the page hero (1366x1020 hearing-room candid mid-word at a mic), and Commons floor/podium candids (2021-2025, several masked or mid-speech). The same campaign site has a 2022 outtake with a stern expression (-01) and a second smiling frame (-02, landscape, 2048x1365) that were not used."
+  },
+  "andrew-gounardes": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/andrew-gounardes",
+    "image": "https://www.nysenate.gov/sites/default/files/ag_headshot1.jpeg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 643,
+    "height": 900,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on his page; photo year unknown, looks recent). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). Studio portrait on a dark grey-blue backdrop, front-facing, broad toothy smile, swept-back light-brown hair, full short brown beard with moustache, no glasses, light olive skin lit evenly, navy suit, light blue shirt, navy tie with red and white stripes, Senate pin, white pocket square. Face ~270px across (largest version the Senate serves; the page hero sd22ag-680x510-headerphoto.jpg is 680x510). Not cropped."
+  },
+  "jen-metzger": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/jen-metzger",
+    "image": "https://www.nysenate.gov/sites/default/files/sd42metzgerheaderig_0.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 680,
+    "height": 510,
+    "notes": "Official Senate studio portrait used as the page hero on her archived nysenate.gov member page (Wayback snapshot web.archive.org/web/20231206042317/https://www.nysenate.gov/senators/jen-metzger; she left the Senate in Dec. 2022). The page's small member-photo version of the same shot (member-head-sen.metzger-sd42_0.jpg) is only 160x190. The hero file has a solid teal panel along its right edge (x 530-680), so photos/jen-metzger.jpg is cropped to x 0-530; the uncropped file is photos/jen-metzger.full.jpg. Front-facing, closed-mouth smile with red lipstick, dark brown hair pinned up loosely with grey strands at the part, no glasses, light fair skin, light blue eyes, drop earrings, black blazer over a pale top, flag and dark grey backdrop. Face ~235px across (largest the Senate serves). Alternate considered: Commons File:(02-24-20) NYS Senator Jen Metzger.jpg (1000x667, curly shoulder-length hair, smiling, a chamber candid talking with two visitors), not used because it is not a posed portrait."
+  },
+  "mamie-locke": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20230603215950/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S67",
+    "image": "https://web.archive.org/web/20230616192043id_/https://apps.senate.virginia.gov/Senator/images/member_photos/Locke2",
+    "publisher": "Senate of Virginia",
+    "license": "\u00a9 Senate of Virginia, used as a drawing reference",
+    "width": 2220,
+    "height": 3107,
+    "notes": "Official Senate member photo for Mamie E. Locke (then District 2, now 23), as served on her member page in June 2023 (file member_photos/Locke2, 2220x3107; EXIF says shot Jan 20, 2016 on a Nikon D7000). The live Senate page now serves only a 262x269 thumbnail (face ~130px) of a newer photo, so the archived large copy is used, but it is about 10 years old: in the newer photo she wears bold black cat-eye glasses and her locs show more gray. Studio headshot against a mottled gray backdrop, front-facing, warm closed-lip-to-slight smile with a hint of teeth in coral-orange lipstick, face ~1000px across. Shoulder-length black locs pulled back with a thin black headband, no glasses, dark brown eyes, medium-dark brown skin, red turtleneck with a black faux-fur vest, large coral-red beaded statement necklace, dark drop earrings. A more recent posed alternative is her campaign-site portrait https://senatorlocke.com/assets/img/mamie_locke.jpg (2022, 512x640, face ~160px: white backdrop, no glasses, shoulder-length gray-streaked locs, pale pink wrap, long pearl necklace, soft smile). Rejected: Commons File:Mamie Locke on 12 December 2023 - 4 (cropped).jpg (CC BY 2.0, US Dept of Education; crowded NCSL event candid with lanyard and bystanders, though it shows her current glasses look)."
+  },
+  "barbara-favola": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20240222165744/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S86",
+    "image": "https://web.archive.org/web/20240222182024/https://apps.senate.virginia.gov/Senator/images/member_photos/Favola40",
+    "publisher": "Senate of Virginia",
+    "license": "\u00a9 Senate of Virginia, used as a drawing reference",
+    "width": 458,
+    "height": 640,
+    "notes": "Official Senate member photo for Barbara A. Favola (District 40, previously 31), 458x640, as served on her member page through early 2025 (identical file as member_photos/Favola31 in 2023; EXIF Feb 15, 2018). The live Senate page now serves a different, newer photo at only ~269x269 (blue backdrop, royal-blue dress, arms crossed, face ~70px), too small to use, and her campaign site (barbarafavola.org) and the caucus site have no posed headshot. Face is only ~170px across (below the ~300px target) because the file is small; this is the largest posed official photo found. Studio headshot against a mottled blue-gray backdrop, front-facing, soft closed-lip smile, a bust crop to the upper chest with the face in the upper third. Chin-length dark brown/black bob with a long side-swept fringe, brown eyes, no glasses (she is often seen in glasses now and with shorter, curlier hair), light skin, pink-red lipstick, purple quilted jacket with a button, silver-crystal necklace, small stud earrings. Rejected: Commons File:Barbara Favola 2010.jpg (CC BY 2.0, Cliff; a candid of her clapping at an outdoor event with a name tag, 2010); campaign-site photos are floor-speech and group candids."
+  },
+  "elizabeth-bennett-parker": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20251109212259/https://house.vga.virginia.gov/members/H0334",
+    "image": "https://memdata.virginiageneralassembly.gov/images/display_image/H0334",
+    "publisher": "Virginia House of Delegates",
+    "license": "\u00a9 Virginia House of Delegates, used as a drawing reference",
+    "width": 790,
+    "height": 680,
+    "notes": "Page updated by the orchestrator after review: the archived House member page (Wayback 2025-11-09) shows this same photo; was the bare image URL https://memdata.virginiageneralassembly.gov/images/display_image/H0334. Her Virginia House of Delegates member portrait (memdata.virginiageneralassembly.gov/images/display_image/H0334, 1100x740; House member id H0334; the House history page history.house.virginia.gov/members/9993 serves only a different, 124x122 photo; no page was found that statically displays this file, so the image URL is also the page link). She won the Feb 2026 special election for Senate District 39 (Senate member id S135). The Senate's own member photo (apps.senate.virginia.gov/Senator/images/member_photos/Bennett-Parker39, 262x269, face ~130px; teal cardigan, US and Virginia flags behind) is too small, so this larger official photo is used; no date given, probably about 2019-2022. The working copy is cropped to head and shoulders (box 140,60,930,740; 790x680); the full file is photos/elizabeth-bennett-parker.full.jpg. Outdoors in front of a black wrought-iron fence with blurred green behind, front-facing, bright open smile showing teeth, face ~215px across. Long straight-to-wavy strawberry-red / copper hair past the shoulders with lighter ends, blue-gray eyes, very fair skin, soft pink lipstick, navy blazer over a red-and-navy top. Soft overcast light, some flyaway hairs. Face is below the ~300px target."
+  },
+  "carl-heastie": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Carl-E-Heastie/photos",
+    "image": "https://nyassembly.gov/write/upload/member_files/083/photos/20191210m.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1212,
+    "height": 1174,
+    "notes": "Photo from the Speaker's member-page photo gallery (posted Dec. 2019; he is standing beside Senate Majority Leader Andrea Stewart-Cousins, who is cropped out of the working copy). Chosen over the Assembly's own headshots because every one of those is the same podium shot of him mid-word: the directory headshot (134x168), the member-page cut-out (500x639) and the Speaker's intro photo (1913x2392, nyassembly.gov/write/upload/standalone_page/intro/Speaker_lg_img.jpg) all show him speaking at the Speaker's lectern, and the Commons photo is a 2020 mid-word candid. This one is posed, front-facing, gentle smile with teeth showing. Bald, mustache and short gray-flecked goatee, navy suit with Assembly lapel pin, pale blue shirt, burgundy dotted tie. Brown skin, soft indoor light with wood paneling behind. Face is ~250px across in the crop (the gallery's largest copy is 1212x1174, so it can't be bigger). The working copy photos/carl-heastie.jpg is cropped to him (box 560,170,1212,950 of the original; 652x780); the full file is photos/carl-heastie.full.jpg."
+  },
+  "leroy-comrie": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/leroy-comrie",
+    "image": "https://www.nysenate.gov/sites/default/files/2025/10/20/untitled-design-2.png",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 418,
+    "height": 510,
+    "notes": "Official Senate studio portrait used as the page hero on his member page (uploaded 2025-10-20, so current). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original (web.archive.org/web/2026im_/...). The hero file is a 680x510 canvas with black bars either side (x 0-130 and 549-680), so photos/leroy-comrie.jpg is cropped to the picture itself (x 131-549); the uncropped file is photos/leroy-comrie.full.jpg. Front-facing, composed closed-mouth slight smile, short grey hair, grey moustache, no glasses, medium-brown skin lit evenly, navy suit, white shirt, purple square-pattern tie, Senate pin, flag and grey backdrop, half-length. FACE IS SMALL: ~145px across (the Senate serves nothing larger: the member-photo version is a 160x160 crop of the same portrait). No better posed photo exists elsewhere: no campaign site or press kit, and Commons has only chamber/podium candids (2019 floor session, 2023 and 2025 group photos at a podium, 2016 convention selfie) and a 2015 Senate floor photo on nysenate.gov."
+  },
+  "didi-barrett": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:DDB_Gen_Portrait-chinGW2_0859.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/DDB_Gen_Portrait-chinGW2_0859.jpg",
+    "publisher": "Wikimedia Commons (Opatters0)",
+    "license": "CC BY-SA 4.0",
+    "width": 2832,
+    "height": 4256,
+    "notes": "Portrait dated 2012-08-09 (14 years old; her look is unchanged: same short curly silver-blond hair), the image Wikipedia uses for her. Chosen over the Assembly's own photo because the Assembly's directory headshot is only 134x200 (face ~70px) and its member-page gallery (2014-2025) holds only group and event shots with faces ~100px. Seated outdoors at a table, chin resting on her fist, front-facing, broad smile showing teeth. Short curly silver-blond hair, small gold earrings, dark gray crinkled jacket over black top, glasses hanging from a cord with a pendant necklace, steel watch. Light skin, soft daylight, out-of-focus brick and green background. Face ~550px across in the crop. The working copy photos/didi-barrett.jpg is cropped to head and shoulders (box 200,600,2700,3000 of the original; 2500x2400); the full file is photos/didi-barrett.full.jpg."
+  },
+  "velmanette-montgomery": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/velmanette-montgomery",
+    "image": "https://www.nysenate.gov/sites/default/files/facebook_headshot_2_copy.png",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 852,
+    "height": 820,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on her archived page; Wayback snapshot web.archive.org/web/20240413184520/https://www.nysenate.gov/senators/velmanette-montgomery; the live page is behind a Cloudflare challenge; she left the Senate at the end of 2020). Photo year unknown, probably 2010s (file name facebook_headshot_2_copy). The picture is a cut-out on a plain white background, close crop, front-facing, wide open smile showing teeth, dark hair pulled straight back with grey at the temples, no glasses, dark brown skin warmly lit, large amber-gold drop earrings, amber stone necklace, black jacket with a wide collar, a Senate pin just visible at the bottom edge. Face ~380px across. Rejected: the page hero (dsc_0043-001.jpg, 2434x1826, a blurry candid in a doorway, wearing a hat and scarf, with another person beside her) and Commons candids (2010-11 panel photos and a 2020 floor photo)."
+  },
+  "alessandra-biaggi": {
+    "tier": "official",
+    "page": "https://www.nysenate.gov/senators/alessandra-biaggi",
+    "image": "https://www.nysenate.gov/sites/default/files/01-09-19_biaggi-hs_0003.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 3423,
+    "height": 3421,
+    "notes": "Official Senate member-page headshot (the 4:3 photo on her archived page, Wayback snapshot web.archive.org/web/20240511063535/https://www.nysenate.gov/senators/alessandra-biaggi; file dated 01-09-19, so a 2019 studio shot; she left the Senate at the end of 2022). nysenate.gov serves a Cloudflare challenge to scripts, so the file was retrieved from the Wayback Machine copy of the original. Very tight studio portrait on a dark grey backdrop with the flag at left: front-facing, big smile with teeth and red lipstick, long straight dark-brown hair with caramel highlights, parted in the middle, dark brown eyes, no glasses, fair skin, small sparkly stud earring, dark blazer barely visible at the bottom. Face ~1400px across. Not cropped. The page hero (webp-net-resizeimage_0.png, 680x510) was not used."
+  },
+  "bhairavi-desai": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhairavi_Desai_on_October_20,_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bhairavi_Desai_on_October_20%2C_2011.jpg",
+    "publisher": "Wikimedia Commons (Labor 2008, via Flickr labor2008)",
+    "license": "CC BY 2.0",
+    "width": 1524,
+    "height": 1987,
+    "notes": "Not an official; the owner approved drawing them on 2026-11-12. Best candidate found for the founder and executive director of the New York Taxi Workers Alliance (the file is captioned as her and is the lead image of her Wikipedia article; the photo is from 2011, so she is about 15 years older now). Seated at a panel, facing the camera with a slight head tilt and a closed-mouth half-smile; face ~450px across. Medium-brown skin, shoulder-length dark brown curly hair with a few loose wisps, small gold hoop earrings, teal sheer scarf over a rust/orange top, no glasses. Flaws for the drawer: a microphone enters at the right edge and a hand and ring at lower left (leave both out), warm tungsten indoor light, background clutter (wall thermostat, a stand). Crop to head and shoulders if used. Tried: nytwa.org (Squarespace site) has no portrait of her anywhere (about-1, mission-history, civil-rights-initiative, home); Jacobin author page has none; American Kahani 2022 article image is a Democracy Now! video frame (1300x813, mid-word, with on-screen graphics) and would be reference-only; The Better India article reuses this same 2011 photo plus 1998 protest pictures credited to Martha Camarillo (too old, not posed). No government photo exists (she holds no office)."
+  },
+  "stella-pekarsky": {
+    "tier": "press",
+    "page": "https://www.stellapekarsky.com/meet-stella",
+    "image": "https://static.wixstatic.com/media/2cd4df_d397f6c2e01545d18ec25d340543e9a2~mv2.png",
+    "publisher": "Stella Pekarsky campaign site (stellapekarsky.com)",
+    "license": "\u00a9 Stella Pekarsky, used as a drawing reference",
+    "width": 2000,
+    "height": 1800,
+    "notes": "Cutout campaign portrait on the 'Meet Stella' page (Wix media 2cd4df_d397f6c2e01545d18ec25d340543e9a2, 3375x3375 PNG on a white background; photographer not credited; about 2023). The working copy is cropped to head and shoulders (box 700,250,2700,2050; 2000x1800); the full file is photos/stella-pekarsky.full.jpg (arms crossed, royal-blue jacket to the waist). Front-facing, warm open smile showing teeth, face ~620px across. Chin-length straight-to-wavy brown hair with a side part and slight auburn tone, brown eyes behind dark navy/black rectangular glasses, small gold hoop earrings, fair/olive skin, pink lipstick, royal-blue notch-collar jacket over a white top. Flat white background, even light. The official Senate photo (apps.senate.virginia.gov/Senator/images/member_photos/Pekarsky36, id S124) is only 262x269 with a ~140px face (gray studio backdrop, glasses, black top with pale collar), so the larger campaign photo is used."
+  },
+  "timothy-kennedy": {
+    "tier": "official",
+    "page": "https://bioguide.congress.gov/search/bio/K000402",
+    "image": "https://unitedstates.github.io/images/congress/450x550/K000402.jpg",
+    "publisher": "U.S. Congress",
+    "license": "Public domain",
+    "width": 450,
+    "height": 550,
+    "notes": "Official U.S. House portrait (bioguide K000402; Rep. Timothy M. Kennedy, NY-26, in the House since 2024, formerly NY State Senator District 63). The bioguide page itself blocks scripts, but the image is served from the unitedstates.github.io congress image set keyed by that bioguide ID; the 450x550 file is the largest published (the \"original\" path serves the same file). Studio portrait on a blue-grey backdrop, close head-and-shoulders crop, front-facing, warm smile showing teeth, receding light-brown/sandy hair cut short, blue eyes, no glasses, clean-shaven, fair freckled skin lit evenly, navy pinstripe suit, white shirt, red and blue striped tie. Face ~290px across. The nysenate.gov member-page headshot was not needed."
+  },
+  "russet-perry": {
+    "tier": "press",
+    "page": "https://russetperry.com/meet-russet",
+    "image": "https://img1.wsimg.com/isteam/ip/381a7842-f685-40bc-b348-2c22ac98075f/GH23_52938%20(2).jpeg",
+    "publisher": "Russet Perry campaign site (russetperry.com)",
+    "license": "\u00a9 Russet Perry, used as a drawing reference",
+    "width": 1400,
+    "height": 1250,
+    "notes": "Portrait on the 'Meet Russet' page of her campaign/Senate site (file GH23_52938 (2).jpeg, 2560x1707; the 'GH23' suggests a 2023 shoot, photographer not credited). The working copy is cropped to head and shoulders (box 850,0,2250,1250; 1400x1250); the full file is photos/russet-perry.full.jpg (hands clasped at the waist). Outdoors in front of a green wall and hedges, front-facing, broad natural smile showing teeth, face ~320px across. Shoulder-length straight blond hair with side-swept bangs and light highlights, blue eyes, no glasses, fair skin, thin gold chain necklace, hot-pink blazer over a white split-neck blouse. Soft daylight. The official Senate photo (apps.senate.virginia.gov/Senator/images/member_photos/Perry31, id S125) is only 262x269 with a ~120px face (white backdrop, black blouse, similar blond hair). Rejected: the other site photo russet-cover-image-e6455b9.jpg (817x1000; leaning on a table, head small, face ~140px) and Commons File:Bill Signings, Richmond - 9-24-24 and 9-25-24 (cropped).jpg (Governor's-office bill-signing candid)."
+  },
+  "rosendo-tacam": {
+    "tier": "reference-only",
+    "page": "https://www.thecityreporter.nyc/2026/09/22/nyc-doordash-130-million-delivery-worker-settlement-mamdani/",
+    "image": "https://www.thecityreporter.nyc/wp-content/uploads/2026/09/092226_doordash_settlement_presser-6.jpg",
+    "publisher": "THE CITY (photo by Ben Fractenberg)",
+    "license": "\u00a9 THE CITY / Ben Fractenberg, used as a drawing reference only (never republish)",
+    "width": 1200,
+    "height": 1265,
+    "notes": "Not an official; the owner approved drawing them on 2026-11-12. Best clear photo of him found. News photo captioned \"Deliverista Rosendo Tacam prepares to speak at City Hall about a $131 million settlement with DoorDash over wage theft, Sept. 22, 2026\" (the same article also quotes him by name). Full file is 2048x1365 (kept as photos/rosendo-tacam.full.jpg); photos/rosendo-tacam.jpg is a 1200x1265 crop of it, listed here as width/height (no upscaling). Candid, not posed: he is looking up and off to the camera's right with a serious, unsmiling expression, wearing a black open-face motorcycle helmet with the visor pushed up, black zip jacket over a black shirt; eyes clearly visible, warm medium-brown skin, no visible facial hair, dark eyebrows, deep smile-line creases; blurred City Hall rotunda stair railing and red union signs behind. Face ~470px across in the full file. The helmet covers his hair; the drawer can keep it (it reads as his delivery gear). No smiling or posed photo of him found. Rejected: THE CITY 2023-08-01 group shot (Ben Fractenberg, 2560x1707) where he is the man at far left in sunglasses and an Adidas jacket (eyes hidden); the 2023 solo photo of him holding up a DoorDash deactivation screen on his phone (face not in frame). Workers Justice Project / Los Deliveristas Unidos site (workersjustice.org/en/ldu-about etc.), nyc.gov DCWP press release 065-26, and Commons have no photo of him."
+  },
+  "saddam-azlan-salim": {
+    "tier": "press",
+    "page": "https://www.salimforsenate.com/about",
+    "image": "https://static.wixstatic.com/media/37e4c1_83a82a03e1484ce7ae2ab7bd1ac830be~mv2.jpg",
+    "publisher": "Salim for Senate campaign site (salimforsenate.com)",
+    "license": "\u00a9 Saddam Azlan Salim, used as a drawing reference",
+    "width": 3000,
+    "height": 3250,
+    "notes": "Posed Senate-style portrait on the About page of salimforsenate.com (Wix media 37e4c1_83a82a03e1484ce7ae2ab7bd1ac830be, 3609x5414; photographer not credited; shows him wearing the Senate member lapel pin, so 2024 or later). The working copy is cropped to head and shoulders (box 500,250,3500,3500; 3000x3250); the full file is photos/saddam-azlan-salim.full.jpg. Front-facing, warm closed-to-slightly-open smile showing teeth, face ~1150px across. Short black hair slicked back with a side sweep, brown eyes, full dark well-groomed beard and mustache, no glasses, medium-brown skin, royal/navy blue suit, white shirt, textured blue tie, small round Senate pin on the lapel; US flag at left and Virginia flag at right against a cream wall, even studio light. The official Senate member photo (apps.senate.virginia.gov/Senator/images/member_photos/Salim37, id S127; gray backdrop, navy suit, patterned tie) is only 262x269 with a ~130px face. Rejected: Commons File:SaddamSalim2023 (cropped).jpg (CC0, Lime10001, 1679x2240; close-up candid mid-laugh outdoors in a quilted green vest). Cautions: saddamsalim.com is NOT the senator (a different Saddam Salim, a Dubai-based influencer); the yaml url for this official points to S124, which is Stella Pekarsky's page; his Senate page id is S127."
+  },
+  "diana-ayala": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20241104120026/https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/ab1dd2ffedf103cca08d001a2f28178995242206/thumbnails/district-8.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 633,
+    "height": 800,
+    "notes": "Former Deputy Speaker (District 8, left office end of 2025). Council posed leadership headshot (2022), shown as \"Diana Ayala Head Shot\" on the council.nyc.gov/districts/ member table (Wayback snapshot 2024-11-04); the file is the 2022-04-06 \"update to leadership headshots\" version of thumbnails/district-8.jpg in the Council's own NewYorkCityCouncil/districts GitHub repo (the current copy there shows her successor, so the image URL is pinned to that commit). Front-facing, soft closed-mouth smile, straight dark brown shoulder-length hair with a few strands of gray at the part, black rectangular glasses, gold hoop earring, light-medium skin, black blazer over a white blouse with a black geometric print, US flag and NYC flag behind. Face ~250px across, a bit under the 300px target but the largest posed copy found (her 2018 Council-site photo is 600x436 and the Commons 2021 photo is a masked profile, both rejected)."
+  },
+  "steven-cymbrowitz": {
+    "tier": "official",
+    "page": "https://www.nyccfb.info/nyc-votes/vgwelcome/general-election-2020/meet-the-candidates/meet-the-candidates/member-of-the-assembly/assembly-district-45/steven-cymbrowitz/",
+    "image": "https://www.nyccfb.info/media/1646/ad45_steven-cymbrowitz_photo.jpg",
+    "publisher": "New York City Campaign Finance Board",
+    "license": "\u00a9 the candidate / NYC Campaign Finance Board, used as a drawing reference",
+    "width": 600,
+    "height": 600,
+    "notes": "Photo from the NYC Campaign Finance Board's 2020 general-election Voter Guide page for Assembly District 45 (the page already named in his officials file); it is the candidate-submitted official-style portrait, so tier official (a city government page). Square 600x600 crop already at head and shoulders, flag at left, gray studio backdrop. Front-facing, gentle closed-mouth smile. Gray-white hair combed straight back, receding, black half-rim rectangular glasses with green temple tips, clean-shaven, navy pinstripe suit, light blue grid-check shirt, magenta patterned tie, Assembly lapel pin. Light skin, evenly lit. Face is ~330px across. Rejected: the Assembly's own headshot (Wayback copies of nyassembly.gov/write/upload/member_files/045/headshot/045.jpg from 2020-2022) is only 134x200 and is an earlier photo from years before, with dark hair; the current file at that URL is his successor Michael Novakhov. He left the Assembly after 2024, so his nyassembly.gov member page is gone."
+  },
+  "jo-anne-simon": {
+    "tier": "official",
+    "page": "https://www.nyccfb.info/nyc-votes/vgwelcome/general-election-2020/meet-the-candidates/meet-the-candidates/member-of-the-assembly/assembly-district-52/jo-anne-simon/",
+    "image": "https://www.nyccfb.info/media/1651/ad52_jo-anne-simon_photo.jpg",
+    "publisher": "New York City Campaign Finance Board",
+    "license": "\u00a9 the candidate / NYC Campaign Finance Board, used as a drawing reference",
+    "width": 600,
+    "height": 600,
+    "notes": "Photo from the NYC Campaign Finance Board's 2020 general-election Voter Guide page for Assembly District 52 (candidate-submitted official-style portrait, so tier official: a city government page). It is the same blue-backdrop sitting as the Assembly's own directory headshot, which the Assembly serves only at 134x200 (face ~65px); this copy is 600x600 already cropped tight. Front-facing, warm smile showing teeth, chin-length auburn bob with gray at the part, blue-gray eyes, dark round earrings, bright royal-blue blazer over a dark top with a thin black cord. Light skin, evenly lit. Face is ~330px across. Candid alternatives on Commons (MTA photos, mid-word at a mic or masked) were rejected."
+  },
+  "james-vacca": {
+    "tier": "official",
+    "page": "https://octagon-elephant-zezl.squarespace.com/james-vacca",
+    "image": "https://images.squarespace-cdn.com/content/v1/5bfc4cecfcf7fde7d3719c06/1552410008332-J39WCJSSVFAOV1R4WH1H/2018.06.26_James+Vacca+Photo+circle.png",
+    "publisher": "NYC Charter Revision Commission 2019 (commissioner page)",
+    "license": "\u00a9 City of New York, used as a drawing reference",
+    "width": 364,
+    "height": 364,
+    "notes": "Former Council Member (District 13, 2006-2017). SMALL: face only ~150px across, the largest posed copy found (no larger copy exists in the Council archives or Commons). Posed studio headshot from his Council years (same session as the 2014-2017 council.nyc.gov D13 member photo, which is only 220x311), published on his commissioner page of the 2019 NYC Charter Revision Commission site (a city body; the site is hosted on a Squarespace domain, so call it official with that caveat). The file is a circular crop, so the four corners are white; the drawer should ignore them. Front-facing, soft closed-lip smile, short curly dark brown hair with some gray, rectangular dark-rimmed glasses, light-to-medium olive skin, dark suit jacket, mint/pale teal shirt, navy tie with yellow and light-blue stripes, mottled lavender-gray studio backdrop. Rejected: Commons James_Vacca.jpg (451x583, side profile shouting at a mic at a 2012 MTA meeting); archived Council hearing shot JamesVacca.png (700x400, blurred, mid-word); 2013 CFB candidate photo (120x150); a ~2006 Gay City News photo from his Council office (330x495, older look with round wire glasses, face ~130px)."
+  },
+  "aaron-rouse": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Aaron_Rouse_on_First_Colonial_High_School_Football_Field,_Virginia_Beach.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Aaron_Rouse_on_First_Colonial_High_School_Football_Field%2C_Virginia_Beach.png",
+    "publisher": "Wikimedia Commons (Lucas Anderton)",
+    "license": "CC BY-SA 4.0",
+    "width": 1050,
+    "height": 1155,
+    "notes": "Commons file of a professional campaign photo taken Oct 2, 2023 on a football field in Virginia Beach (1675x1675; the same frame appears on rouseforsenate.com as EDIT-Deliver-Stratagies-Aaron-Rouse-VA-Beach-VA-Barrett-10.02.23_-0625.webp, so the campaign credits the shoot to a photographer named Barrett, while Commons credits Lucas Anderton). The working copy is cropped to head and shoulders (box 230,120,1280,1275; 1050x1155); the full file is photos/aaron-rouse.full.jpg. Caveat: this is not a straight-on headshot. He is turned about three-quarters to his right with his gaze past the camera to the left, but the eyes and both sides of the face are visible, with a big warm smile showing teeth; face ~450px across. Bald/shaved head, dark brown eyes, short graying stubble on the chin and cheeks, medium-dark brown skin lit by sunlight from the side, light-blue chambray button-down shirt open at the collar, clear blue sky with a green goalpost behind. The official Senate photo (apps.senate.virginia.gov/Senator/images/member_photos/Rouse22, id S113) is only 262x299 with a ~80px face, a tilted-head candid-looking smile in a navy suit and yellow polka-dot tie. No posed front-facing large photo was found (rouseforsenate.com photos are all football-field candids or news shots; saved Commons crops are tight squinting candids; vbgov.com council page did not load). Rejected: Commons File:Aaron Rouse 2024 (cropped).png (450x529 squinting crop at an event, kente stole), File:Aaron Rouse.jpg (297x358, ~120px face, red backdrop, suit)."
+  },
+  "linda-rosenthal": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Linda_B._Rosenthal.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Linda_B._Rosenthal.jpg",
+    "publisher": "Wikimedia Commons (Steven Barall)",
+    "license": "CC BY-SA 3.0",
+    "width": 1015,
+    "height": 1100,
+    "notes": "Photo dated 2012-11-16 (14 years old; the 'Linda B. Rosenthal' image on Commons). Chosen over the Assembly's own headshot because the Assembly serves hers only at 134x200 (face ~65px; its member page and gallery hold nothing bigger: the gallery is group/event candids, banners are text). Seated at a district-office desk signing a document, front-facing, broad natural smile. Shoulder-length red-blond hair with full bangs, black rectangular glasses, hoop earrings, chunky silver necklace, dark navy blazer with a small flag pin over a coral top. Light skin, even indoor light; shelves of pamphlets behind. Face is only ~190px across (the largest copy), larger than the Assembly one but under the ~300px target. Her current official photo (about 2022): same long strawberry-blond hair and black glasses, navy blazer, red blouse, royal-blue studio backdrop, smiling. Rejected: Commons 2024 MTA photo (mid-word at a mic). The working copy photos/linda-rosenthal.jpg is cropped to head and shoulders (box 60,0,1000,720 of the original; 940x720); the full file is photos/linda-rosenthal.full.jpg."
+  },
+  "aravella-simotas": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Aravella_Simotas_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Aravella_Simotas_2011.jpg",
+    "publisher": "Wikimedia Commons (Harris Graber)",
+    "license": "CC BY 2.0",
+    "width": 600,
+    "height": 916,
+    "notes": "Photo dated 2011-07-16, her first year in the Assembly (she served 2011-2020, lost the June 2020 primary). Chosen over the Assembly's own headshot because the Assembly's archived directory photo (Wayback copies of nyassembly.gov/write/upload/member_files/036/headshot/036.jpg, 2020-2021) is only 134x200 (face ~65px; the current file at that URL is her successor's, and the member-page cut-out captured in Feb. 2021 is Zohran Mamdani, not Simotas). Semi-posed: accepting a certificate (the page text names 'Simotas'), looking at the camera, big open smile showing teeth, head tipped slightly. Dark brown hair pinned up in a loose updo (in the official 2020 photo she wears it down, shoulder-length, with a soft smile), small drop earrings, long double strand of pearls, black short-sleeved dress, white watch. Light-olive skin, flat bright event lighting, beige curtain behind. Face is ~190px across, the largest on Commons; other Commons options were the 2012 Maria Fitz photo (550x831, smiling in a white cardigan, harsh light) and candids at the Assembly mic. The working copy photos/aravella-simotas.jpg is cropped to head and shoulders (box 0,0,600,640 of the original); the full file is photos/aravella-simotas.full.jpg."
+  },
+  "michael-benedetto": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Michael-Benedetto",
+    "image": "https://nyassembly.gov/write/upload/member_files/082/headshot/082.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 134,
+    "height": 200,
+    "notes": "Orchestrator decision: draw from the Assembly's smiling 134x200 member headshot (photos/michael-benedetto.jpg, upscaled for drawing), not the stern or pursed video still, so this Democrat isn't shown less flatteringly than peers drawn from posed portraits. Because the headshot face is only ~65px, the sharp official video still (photos/michael-benedetto.video.jpg; page https://nyassembly.gov/mem/Michael-Benedetto/video/, image https://nyassembly.gov/write/upload/member_files/082/vidclips/20260129b.jpg) is the feature check: the drawing's nose, glasses, brows, hairline and face shape must match it too. If they can't both be matched, leave the person out. Second-pass notes on the still follow. Second-pass upgrade. Head-and-shoulders crop (880x732, face ~300px wide) of the Assembly's own 1920x1080 video poster for the Jan. 29, 2026 joint budget hearing on Elementary & Secondary Education (full frame kept as photos/michael-benedetto.full.jpg), published on his member video page. He chaired that hearing; the same man appears in the neighboring poster 20260129d captioned Hon. Michael R. Benedetto, same gray plaid sport coat. At rest, front-facing, mouth closed and unsmiling (a stern, listening look, not mid-word), looking at the camera over dark rectangular glasses. Bald with white hair at the sides, white stubble beard and mustache, gray-brown plaid sport coat, white grid-check shirt, navy tie, red paisley pocket square, gold Assembly lapel pin, small table microphone at the bottom edge. Light skin, even indoor light, pinkish curtain behind; a staffer's dark-haired head is visible behind his right shoulder (ignore). The previous 134x200 Assembly directory headshot (broad smile, navy pinstripe suit, red tie) is kept as photos/michael-benedetto.headshot.jpg for expression and likeness cross-checking. Other posters rejected: the 2026-04-27 chamber still (220px, looking sideways), 2020-2022 Zoom webcam stills, and many mid-sentence floor/podium stills. The clip videos on the member page are only 480x270, too small."
+  },
+  "phil-steck": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Phil-Steck/video/",
+    "image": "https://nyassembly.gov/write/upload/member_files/110/vidclips/20180306.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 850,
+    "height": 740,
+    "notes": "Second-pass upgrade. Head-and-shoulders crop (850x740, face ~330px wide) of the Assembly's own 1920x1080 poster for his video clip \"Steck Sponsors Bill to Strengthen Whistleblower Law\" (March 6, 2018), published on his member video page; the full frame is kept as photos/phil-steck.full.jpg (a table mic and a colleague in the background are cropped out). Hallway interview stance in the Capitol, not mid-word: closed-lip gentle smile, face turned slightly three-quarter to his left, eyes toward the camera. Short gray hair swept to the side (a touch whiter than in the old headshot), thin rimless/half-rim metal glasses, clean-shaven, charcoal-gray textured suit, light blue button-down shirt, navy patterned tie. Light skin, even indoor light. Photo is ~8 years old; his 2023-2026 video stills (office, law books behind) show hair now whiter but are all mid-sentence. Alternate if a broader smile is wanted: https://nyassembly.gov/write/upload/member_files/110/vidclips/20140108.jpg (State of the State 2014 hallway clip, face ~414px, big open smile, but 2014 and softer focus). Rejected: 2019-2020 Zoom webcam stills (color-cast, mid-word). The previous 134x200 Assembly directory headshot (smiling, outdoors, gray-brown sport coat) is kept as photos/phil-steck.headshot.jpg for likeness cross-checking."
+  },
+  "latrice-walker": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Latrice-Walker/video/",
+    "image": "https://nyassembly.gov/write/upload/member_files/055/vidclips/20250318.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 960,
+    "height": 745,
+    "notes": "Second-pass upgrade. Head-and-shoulders crop (960x745, face ~320px wide) of the Assembly's own 1920x1080 poster for her video clip \"Walker Advocates for Equal Pay for Women\" (Assembly Update, March 2025), published on her member video page; the full frame (with the on-screen caption naming Latrice M. Walker, Member of Assembly, 55th District, Kings County) is kept as photos/latrice-walker.full.jpg, and the crop leaves the caption out. Studio shot, front-facing, warm open smile (the clip's opening, mouth slightly open). Current look: long straight dark-brown hair parted just off-center and falling past the shoulders, bold thick black rectangular glasses, gold hoop earrings, dark red-brown lipstick, navy jacket over a black tie-neck blouse with a sparkly silver J-shaped brooch (blurry at lower right). Deep brown skin, even broadcast lighting; law-book shelves and green marble columns behind. Her old directory headshot (photos/latrice-walker.headshot.jpg, black chin-length bob with side-swept bangs, no glasses, pearl necklace, black jacket) is much older; use it only to cross-check likeness. Other captioned stills considered and rejected: Jan. 2024 budget-hearing still (smiling but 261px and looking sideways), Feb. 2024 Legislative Update (350px but eyes half-closed), 2016 and 2019 Capitol hallway interviews (bob hairstyle, closed smile, 310-446px, from the clip pages \"District 23 CEC Meeting\" and \"Walker on Voting for GENDA Legislation\")."
+  },
+  "ellen-jaffee": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20201223231853/https://nyassembly.gov/mem/Ellen-Jaffee/video/",
+    "image": "https://web.archive.org/web/20201223231853im_/https://nyassembly.gov/member_files/097/vidclips/20200303.jpg",
+    "publisher": "New York State Assembly (via Wayback Machine)",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 820,
+    "height": 682,
+    "notes": "Second-pass upgrade. Crop (820x682, face ~200px wide) of the Assembly's own 1920x1080 video poster for her clip \"Dominican College Students Visit Assembly\" (March 3, 2020), from her member video page; the live page is gone, so this is the Wayback capture of 2020-12-23. The on-screen caption in the full frame (kept as photos/ellen-jaffee.full.jpg) reads Hon. Ellen Jaffee, (D) 97th Assembly District, so identity is certain (the district's earlier clips on that page belong to a predecessor; only 2019-2020 clips are hers). In her seat on the Assembly floor, smiling warmly and not mid-word, head tilted and turned about 30 degrees to her right with her eyes toward something off-frame (three-quarter, not looking into the camera). Short curly gray-and-light-brown hair, small stud earring, single-strand pearl necklace, black blazer with Assembly lapel pin over a green-yellow-black patterned top, a floor microphone at lower left. Light skin, even broadcast lighting; chamber background in tan leather chairs. Broadcast-resolution frame, a little soft but features read clearly. Her old 134x200 directory headshot (frontal wide smile, teal-blue collar, aqua earrings, blue studio backdrop) is kept as photos/ellen-jaffee.headshot.jpg for the frontal view. Rejected: Feb. 2019 hearing still (smiling, but mid-word with a bag and cup in frame), many mid-sentence or looking-down floor stills (220-330px), and 2020 Zoom still (soft, color-cast)."
+  },
+  "kevin-cahill": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20221209132309/https://nyassembly.gov/mem/Kevin-A-Cahill/",
+    "image": "https://web.archive.org/web/20221216230242im_/https://nyassembly.gov/write/upload/member_files/103/headshot/103.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 134,
+    "height": 200,
+    "notes": "Orchestrator decision: draw from the Assembly's smiling 134x200 member headshot (photos/kevin-cahill.jpg, upscaled for drawing), not the stern or pursed video still, so this Democrat isn't shown less flatteringly than peers drawn from posed portraits. Because the headshot face is only ~65px, the sharp official video still (photos/kevin-cahill.video.jpg; page https://web.archive.org/web/20221231051353/https://nyassembly.gov/mem/Kevin-A-Cahill/video/, image https://web.archive.org/web/20221231051353im_/https://nyassembly.gov/write/upload/member_files/103/vidclips/20210610.jpg) is the feature check: the drawing's nose, glasses, brows, hairline and face shape must match it too. If they can't both be matched, leave the person out. Second-pass notes on the still follow. Second-pass upgrade, with a quality caveat. Crop (680x476, face ~215px wide, ~260px with hair) of the Assembly's own 1280x720 video poster for his clip \"Funding for Early Intervention Services for Toddlers with Disabilities\" (June 10, 2021), from his member video page (the live page is gone; Wayback capture 2022-12-31). The on-screen caption in the full frame (kept as photos/kevin-cahill.full.jpg) reads Hon. Kevin A. Cahill, Dutchess & Ulster Counties, so identity is certain. He appears by Zoom from the empty Assembly chamber (red velvet curtains, orange leather seats and desk nameplates behind). At rest, front-facing, looking straight into the camera with lips pressed together in a neutral, serious expression (not mid-word, not smiling). THE FRAME IS SOFT: it is webcam video upscaled, so real detail is closer to ~120px than 215px, and it is less warm than his smiling directory headshot. Thick swept-back white hair, black browline (clubmaster-style) glasses with a slight reflection, clean-shaven, heavy cheeks and jowls, dark charcoal suit, light blue shirt, navy-and-white striped tie. Light skin, flat indoor light. Note he is shown here with glasses, which the old 134x200 headshot (kept as photos/kevin-cahill.headshot.jpg: easy smile, no glasses, red tie, blue studio backdrop) does not have; use the headshot for expression and unobstructed eyes, this frame for current proportions. Rejected: 2017-2019 floor and hearing stills (sharper broadcast frames at 250-335px but all mid-sentence or stern, often turned), 2020-2021 Zoom stills (mid-word), and a masked frame. Commons has no photo of him."
+  },
+  "helene-weinstein": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20241110144831/https://nyassembly.gov/mem/Helene-E-Weinstein/",
+    "image": "https://web.archive.org/web/20240909052955im_/https://nyassembly.gov/write/upload/member_files/041/headshot/041.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 134,
+    "height": 200,
+    "notes": "Orchestrator decision: draw from the Assembly's smiling 134x200 member headshot (photos/helene-weinstein.jpg, upscaled for drawing), not the stern or pursed video still, so this Democrat isn't shown less flatteringly than peers drawn from posed portraits. Because the headshot face is only ~65px, the sharp official video still (photos/helene-weinstein.video.jpg; page https://web.archive.org/web/20240810162455/https://nyassembly.gov/mem/Helene-E-Weinstein/video/, image https://web.archive.org/web/20240810162455im_/https://nyassembly.gov/write/upload/member_files/041/vidclips/20200212.jpg) is the feature check: the drawing's nose, glasses, brows, hairline and face shape must match it too. If they can't both be matched, leave the person out. Second-pass notes on the still follow. Second-pass upgrade, with a quality caveat. Crop (820x645, face ~220px wide, ~265px with hair) of the Assembly's own 1920x1080 video poster for the Feb. 12, 2020 Joint Budget Hearing on Public Protection, from her member video page (live copy is gone; Wayback capture 2024-08-10). The on-screen caption in the full frame (kept as photos/helene-weinstein.full.jpg) reads Assemblymember Helene E. Weinstein, (D) 41st A.D., Chair, Committee on Ways & Means, so identity is certain. At rest, front-facing, mouth closed, listening (not mid-word) with a neutral, slightly stern look; table microphone and a necklace at the bottom edge. THE FRAME IS SOFT: it was upscaled from broadcast-resolution video, so true detail is closer to ~100px than 220px, and it is less flattering than her smiling directory headshot. Chin-length straight silver-gray hair with a side part, dark tortoiseshell rectangular glasses with a slight yellow tint, silver beaded necklace, cream/oatmeal cardigan over a purple top. Light skin, even stage lighting, purple-and-wood dais behind; a staffer's dark head is cropped out at right. The previous 134x200 headshot (calm closed smile, black blazer, in her office) is kept as photos/helene-weinstein.headshot.jpg: use it for expression and sharp feature detail, this frame for proportions. Rejected: all other 2019-2021 hearing posters (mid-sentence, 205-266px, equally soft), 2021 Zoom stills with a virtual Capitol backdrop (mid-word), 2022-2024 wide chamber shots (face under 100px). No 2022-2024 newsletter or press image of her survives in the Wayback Machine, and the only Commons file is a 148x183 Flickr crop."
+  },
+  "helen-rosenthal": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20150905220456/http://council.nyc.gov/d6/html/members/home.shtml",
+    "image": "https://web.archive.org/web/20150905220456im_/http://council.nyc.gov/d6/images/Rosenthal%20headshot%20-%20brighter,%20cropped%20-%20for%20CC%20site.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 220,
+    "height": 311,
+    "notes": "Former Council Member (District 6, 2014-2021). The Council's 2015 posed headshot from her archived District 6 page: front-facing, big smile, blue eyes, shoulder-length brown hair, red blazer, gray cowl scarf, Council pin. Small (face ~95px): draw from an upscale. Chosen by the orchestrator over the larger 2021 MTA event candid (Commons, CC BY 2.0, three-quarter turn looking off, identified only by matching outfit to a captioned frame at the same event; kept as photos/helen-rosenthal.mta.jpg) because it is posed, front-facing and certainly her. First-pass notes follow. Former Council Member (District 6, 2014-2021). Judgment call, please review: every Council-posed photo of her is tiny, so this is a 660x800 head-and-shoulders crop (no upscaling) from the 3890x3028 MTA photo taken 2021-07-28 at the Edith Prentiss memorial at the 175 St subway station (full frame kept as photos/helen-rosenthal.full.jpg). It is a candid, not posed: she stands in a crowd, turned to three-quarter and looking off to the camera's right at the podium, with a broad warm smile showing teeth, eyes visible. Face ~240px across. Shoulder-length brown hair with gray at the temples and part, no glasses on her face (clear-framed sunglasses are pushed up on top of her head; the drawer should leave them out or keep them), thin gold pendant necklace, navy sleeveless dress with a sheer yoke, bright blue drape behind. The Commons caption of this frame does not name her; I identified her by matching the outfit, necklace and hair to Commons File:Helen Rosenthal Unveils Memorial to Edith Prentiss at 175 St Station (5) (cropped).jpg, taken 15 minutes later at the same event and captioned with her name (that frame has her mid-word at a mic, so it was rejected). Her best official photo is photos/helen-rosenthal.official.jpg: the Council's 2015 posed headshot (archived council.nyc.gov/d6/images/Rosenthal headshot - brighter, cropped - for CC site.jpg, Wayback 2015-07-21), front-facing, big smile, blue eyes, shoulder-length brown hair, red blazer, gray cowl scarf, Council pin, but only 220x311 with a ~95px face; use that instead if the owner prefers a posed shot over resolution. Other rejects: Council GitHub 2019 thumbnail (mid-word, 304x396), 2008 campaign photo (black-and-white at a mic), 2016-2018 Council hearing shots, helenrosenthal.com site images (crowds)."
   }
 }

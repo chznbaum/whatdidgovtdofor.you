@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://assembly.ny.gov/mem/Nily-Rozic
+portrait:
+  image: /portraits/nily-rozic.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Nily-Rozic
+    license: "© New York State Assembly, used as a drawing reference"

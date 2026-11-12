@@ -4,3 +4,10 @@ office: Delegate, Virginia House of Delegates, District 18
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/kathy-tran.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0305
+    license: "© Virginia House of Delegates, used as a drawing reference"

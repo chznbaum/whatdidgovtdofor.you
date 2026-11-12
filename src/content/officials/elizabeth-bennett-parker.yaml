@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/c3b0c2fc-c7bf-45f8-8ee3-50d5a57bad08 }
 url: https://vpap.org/candidates/294304
+portrait:
+  image: /portraits/elizabeth-bennett-parker.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20251109212259/https://house.vga.virginia.gov/members/H0334
+    license: "© Virginia House of Delegates, used as a drawing reference"

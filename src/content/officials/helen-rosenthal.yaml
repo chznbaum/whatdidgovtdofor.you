@@ -4,3 +4,10 @@ office: New York City Council Member, District 6
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/helen-rosenthal.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://web.archive.org/web/20150905220456/http://council.nyc.gov/d6/html/members/home.shtml
+    license: "© New York City Council, used as a drawing reference"

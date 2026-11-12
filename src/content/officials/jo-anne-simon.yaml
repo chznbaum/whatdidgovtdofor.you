@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Jo-Anne-Simon
+portrait:
+  image: /portraits/jo-anne-simon.webp
+  kind: photo
+  source:
+    label: NYC Campaign Finance Board
+    url: https://www.nyccfb.info/nyc-votes/vgwelcome/general-election-2020/meet-the-candidates/meet-the-candidates/member-of-the-assembly/assembly-district-52/jo-anne-simon/
+    license: "© the candidate / NYC Campaign Finance Board, used as a drawing reference"

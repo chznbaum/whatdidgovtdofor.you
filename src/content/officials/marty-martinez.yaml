@@ -4,3 +4,10 @@ office: Delegate, Virginia House of Delegates, District 29
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/marty-martinez.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0374
+    license: "© Virginia House of Delegates, used as a drawing reference"

@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.ssa.gov
+portrait:
+  image: /portraits/martin-omalley.webp
+  kind: official
+  source:
+    label: Social Security Administration, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Official_portrait_of_Martin_O%E2%80%99Malley.jpg
+    license: Public domain

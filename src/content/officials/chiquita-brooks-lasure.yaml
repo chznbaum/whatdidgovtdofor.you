@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.cms.gov
+portrait:
+  image: /portraits/chiquita-brooks-lasure.webp
+  kind: official
+  source:
+    label: Centers for Medicare & Medicaid Services, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Chiquita_Brooks-LaSure,_CMS_Administrator_2.png
+    license: Public domain

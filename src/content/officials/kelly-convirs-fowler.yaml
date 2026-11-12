@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://ballotpedia.org/Kelly_Convirs-Fowler
+portrait:
+  image: /portraits/kelly-convirs-fowler.webp
+  kind: photo
+  source:
+    label: Virginia House Democratic Caucus
+    url: https://vahousedems.org/our-members/
+    license: "© Virginia House Democratic Caucus, used as a drawing reference"

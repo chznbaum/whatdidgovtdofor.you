@@ -22,6 +22,8 @@ Use the first tier that has a clear, current, front-facing photo of the right pe
 
 Confirm it's the right person: the page must name them and match the office.
 
+People who aren't officials (an organizer, a worker whose complaint started a case) get portraits too when they're credited on a cover. The owner decided this on 2026-11-12. Use the same tiers: a photo their own organization publishes counts as press. A news photographer's photo is reference-only, and the drawing links to the article it ran with.
+
 ## Nothing gets republished
 
 The owner decided on 2026-11-11 that the site never republishes source photos, whatever their license. Every portrait's "see the photo" link goes to the **page** the photo came from: the bioguide page, member page, Commons file page, press page, video, or profile. When no page shows the photo (e.g. it exists only as a file in an official's media library), linking the image file itself is fine; the owner OK'd linking to source photos.

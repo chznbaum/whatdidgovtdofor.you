@@ -5,3 +5,10 @@ level: federal
 jurisdiction: va
 current: false
 ids: { bioguide: L000591 }
+portrait:
+  image: /portraits/elaine-luria.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Elaine_Luria,_Official_Portrait,_116th_Congress.jpg
+    license: Public domain

@@ -6,3 +6,10 @@ jurisdiction: nyc
 current: true
 url: https://www.pubadvocate.nyc.gov
 seat: { place: nyc, title: Public Advocate }
+portrait:
+  image: /portraits/jumaane-williams.webp
+  kind: photo
+  source:
+    label: Tessa Bury, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Jumaane_Williams.jpg
+    license: CC BY 4.0

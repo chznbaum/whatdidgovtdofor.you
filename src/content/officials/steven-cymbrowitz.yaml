@@ -7,3 +7,10 @@ jurisdiction: ny
 current: false
 ids: {}
 url: https://www.nyccfb.info/nyc-votes/vgwelcome/general-election-2020/meet-the-candidates/meet-the-candidates/member-of-the-assembly/assembly-district-45/steven-cymbrowitz/
+portrait:
+  image: /portraits/steven-cymbrowitz.webp
+  kind: photo
+  source:
+    label: NYC Campaign Finance Board
+    url: https://www.nyccfb.info/nyc-votes/vgwelcome/general-election-2020/meet-the-candidates/meet-the-candidates/member-of-the-assembly/assembly-district-45/steven-cymbrowitz/
+    license: "© the candidate / NYC Campaign Finance Board, used as a drawing reference"

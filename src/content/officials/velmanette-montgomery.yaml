@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://www.nysenate.gov/senators/velmanette-montgomery
+portrait:
+  image: /portraits/velmanette-montgomery.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/velmanette-montgomery
+    license: "© New York State Senate, used as a drawing reference"

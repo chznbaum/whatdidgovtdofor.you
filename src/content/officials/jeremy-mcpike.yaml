@@ -4,3 +4,10 @@ office: Virginia State Senator, District 29
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/jeremy-mcpike.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20230926022819/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S98
+    license: "© Senate of Virginia, used as a drawing reference"

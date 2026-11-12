@@ -5,4 +5,11 @@ level: state
 jurisdiction: va
 current: true
 ids: { openstates: ocd-person/ca122856-dfc5-4ba1-84bb-48fdcf7a36f5 }
-url: https://house.vga.virginia.gov/members/H0258
+url: https://house.vga.virginia.gov/members/H0264
+portrait:
+  image: /portraits/marcus-simon.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0264
+    license: "© Virginia House of Delegates, used as a drawing reference"

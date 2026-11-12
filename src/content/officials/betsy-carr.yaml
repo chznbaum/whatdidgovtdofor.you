@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/a6f78488-1c78-4409-8c4a-bf0d0920e852 }
 url: https://house.vga.virginia.gov/members/H0212
+portrait:
+  image: /portraits/betsy-carr.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0212
+    license: "© Virginia House of Delegates, used as a drawing reference"

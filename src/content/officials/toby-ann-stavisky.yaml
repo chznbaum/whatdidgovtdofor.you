@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/3d51aca8-81d1-4f3e-8cef-47c999626a9a }
 url: https://www.nysenate.gov/senators/toby-ann-stavisky
+portrait:
+  image: /portraits/toby-ann-stavisky.webp
+  kind: photo
+  source:
+    label: Toby Stavisky campaign
+    url: https://stavisky.com/
+    license: "© Toby Stavisky campaign / photographer, used as a drawing reference"

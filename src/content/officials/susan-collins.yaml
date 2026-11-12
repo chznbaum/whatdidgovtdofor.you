@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: C001035 }
 url: https://www.collins.senate.gov
+portrait:
+  image: /portraits/susan-collins.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/C001035
+    license: Public domain

@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { bioguide: N000002 }
 url: https://nadler.house.gov
+portrait:
+  image: /portraits/jerrold-nadler.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/N000002
+    license: Public domain

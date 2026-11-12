@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://www.nysenate.gov/senators/brad-hoylman-sigal
+portrait:
+  image: /portraits/brad-hoylman-sigal.webp
+  kind: official
+  source:
+    label: Manhattan Borough President's Office
+    url: https://www.manhattanbp.nyc.gov/about/
+    license: "© Manhattan Borough President's Office, used as a drawing reference"

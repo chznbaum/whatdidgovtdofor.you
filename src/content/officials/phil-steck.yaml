@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/968287e2-d20f-4e07-9f66-5765ca51b475 }
 url: https://nyassembly.gov/mem/Phil-Steck
+portrait:
+  image: /portraits/phil-steck.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Phil-Steck/video/
+    license: "© New York State Assembly, used as a drawing reference"

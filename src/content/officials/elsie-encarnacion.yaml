@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/district-8/
+portrait:
+  image: /portraits/elsie-encarnacion.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://council.nyc.gov/districts/
+    license: "© New York City Council, used as a drawing reference"

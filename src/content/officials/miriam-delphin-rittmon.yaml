@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.samhsa.gov
+portrait:
+  image: /portraits/miriam-delphin-rittmon.webp
+  kind: official
+  source:
+    label: Substance Abuse and Mental Health Services Administration, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Miriam-Delphin-Rittmon-SAMHSA.png
+    license: Public domain

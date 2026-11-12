@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.hhs.gov
+portrait:
+  image: /portraits/xavier-becerra.webp
+  kind: official
+  source:
+    label: U.S. Department of Health and Human Services, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:HHS_Xavier_Becerra.jpg
+    license: Public domain

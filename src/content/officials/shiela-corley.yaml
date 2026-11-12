@@ -4,3 +4,10 @@ office: Acting Administrator, USDA Food and Nutrition Administration
 level: federal
 jurisdiction: us
 current: true
+portrait:
+  image: /portraits/shiela-corley.webp
+  kind: official
+  source:
+    label: U.S. Department of Agriculture, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:20250825-USDA-OSEC-TEW-0021_(54743228167).jpg
+    license: Public domain

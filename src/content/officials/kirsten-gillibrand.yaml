@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { bioguide: G000555 }
 url: https://www.gillibrand.senate.gov
+portrait:
+  image: /portraits/kirsten-gillibrand.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/G000555
+    license: Public domain

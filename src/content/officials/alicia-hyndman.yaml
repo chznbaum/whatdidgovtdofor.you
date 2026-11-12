@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/2196fbda-e731-4e6b-a221-7bf5e25b8b95 }
 url: https://nyassembly.gov/mem/Alicia-Hyndman
+portrait:
+  image: /portraits/alicia-hyndman.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Alicia-Hyndman
+    license: "© New York State Assembly, used as a drawing reference"

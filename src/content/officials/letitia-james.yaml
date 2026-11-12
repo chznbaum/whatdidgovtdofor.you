@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 seat: { place: ny, title: Attorney General }
 url: https://ag.ny.gov
+portrait:
+  image: /portraits/letitia-james.webp
+  kind: official
+  source:
+    label: New York State Attorney General
+    url: https://ag.ny.gov/about/meet-letitia-james
+    license: "© New York State Office of the Attorney General, used as a drawing reference"

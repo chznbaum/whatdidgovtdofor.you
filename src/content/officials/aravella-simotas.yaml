@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Aravella-Simotas
+portrait:
+  image: /portraits/aravella-simotas.webp
+  kind: photo
+  source:
+    label: Harris Graber, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Aravella_Simotas_2011.jpg
+    license: CC BY 2.0

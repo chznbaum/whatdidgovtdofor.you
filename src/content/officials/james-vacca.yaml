@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: false
 url: https://council.nyc.gov/
+portrait:
+  image: /portraits/james-vacca.webp
+  kind: photo
+  source:
+    label: NYC Charter Revision Commission
+    url: https://octagon-elephant-zezl.squarespace.com/james-vacca
+    license: "© City of New York, used as a drawing reference"

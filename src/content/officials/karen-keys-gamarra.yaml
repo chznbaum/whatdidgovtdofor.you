@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://ballotpedia.org/Karen_Keys-Gamarra
+portrait:
+  image: /portraits/karen-keys-gamarra.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0370
+    license: "© Virginia House of Delegates, used as a drawing reference"

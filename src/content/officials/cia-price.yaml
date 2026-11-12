@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/58b46062-f618-4b27-b0ec-3bbb57db839b }
 url: https://house.vga.virginia.gov/members/H0284
+portrait:
+  image: /portraits/cia-price.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0284
+    license: "© Virginia House of Delegates, used as a drawing reference"

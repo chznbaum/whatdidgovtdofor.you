@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: M000133 }
 url: https://www.markey.senate.gov
+portrait:
+  image: /portraits/ed-markey.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/M000133
+    license: Public domain

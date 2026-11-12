@@ -4,3 +4,10 @@ office: Mayor of New York City
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/eric-adams.webp
+  kind: photo
+  source:
+    label: UK Government, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Eric_Adams_at_City_Hall_2023_(3x4_cropped).jpg
+    license: CC BY 2.0

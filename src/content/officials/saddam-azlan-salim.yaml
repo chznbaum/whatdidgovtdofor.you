@@ -4,4 +4,11 @@ office: Virginia State Senator, District 37
 level: state
 jurisdiction: va
 current: true
-url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S124
+url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S127
+portrait:
+  image: /portraits/saddam-azlan-salim.webp
+  kind: photo
+  source:
+    label: Salim for Senate campaign
+    url: https://www.salimforsenate.com/about
+    license: "© Saddam Azlan Salim, used as a drawing reference"

@@ -4,3 +4,10 @@ office: Virginia State Senator, District 40
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/barbara-favola.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20240222165744/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S86
+    license: "© Senate of Virginia, used as a drawing reference"

@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: S001191 }
+portrait:
+  image: /portraits/kyrsten-sinema.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/S001191
+    license: Public domain

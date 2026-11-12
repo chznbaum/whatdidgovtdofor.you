@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Kevin-A-Cahill
+portrait:
+  image: /portraits/kevin-cahill.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20221209132309/https://nyassembly.gov/mem/Kevin-A-Cahill/
+    license: "© New York State Assembly, used as a drawing reference"

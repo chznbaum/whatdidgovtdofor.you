@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://www.assembly.ny.gov/mem/Crystal-D-Peoples-Stokes/bio
+portrait:
+  image: /portraits/crystal-peoples-stokes.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Crystal-D-Peoples-Stokes
+    license: "© New York State Assembly, used as a drawing reference"

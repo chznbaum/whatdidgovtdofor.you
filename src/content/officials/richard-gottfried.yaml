@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Richard-N-Gottfried
+portrait:
+  image: /portraits/richard-gottfried.webp
+  kind: photo
+  source:
+    label: Citizen Action of New York, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:AssemblymanRichardGottfried.jpg
+    license: CC BY-SA 3.0

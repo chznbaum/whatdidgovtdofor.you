@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/638d1d66-ccbe-4107-b7fb-f3d22cb2ec9c }
 url: https://www.nysenate.gov/senators/liz-krueger
+portrait:
+  image: /portraits/liz-krueger.webp
+  kind: photo
+  source:
+    label: Politics NY
+    url: https://politicsny.com/2025/12/12/op-ed-we-can-no-longer-look-away-its-time-new-york-holds-sex-buyers-accountable/
+    license: "© Liz Krueger / photographer, used as a drawing reference"

@@ -1,6 +1,7 @@
 """Contact sheets for reviewing portraits: each published drawing beside the photo it was drawn from, labeled with
 name and party, so a reviewer can check likeness, skin tone, and that no one is drawn less flatteringly than their
-photo. Usage: python3 pipeline/portraits/review-sheet.py [out-dir]   (default /tmp/portrait-review)
+photo. Usage: python3 pipeline/portraits/review-sheet.py [out-dir] [id ...]   (default /tmp/portrait-review, everyone
+with a portrait; name ids to sheet only those, e.g. a new batch)
 """
 import json
 import re
@@ -12,6 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 here = Path(__file__).parent
 root = here.parent.parent
 out = Path(sys.argv[1] if len(sys.argv) > 1 else '/tmp/portrait-review')
+only = set(sys.argv[2:])
 out.mkdir(parents=True, exist_ok=True)
 
 H = 380  # height of each image in a pair
@@ -30,6 +32,8 @@ for y in sorted((root / 'src/content/officials').glob('*.yaml')):
     if not re.search(r'^portrait:', text, re.M):
         continue
     pid = y.stem
+    if only and pid not in only:
+        continue
     drawing = root / 'public/portraits' / f'{pid}.webp'
     photo = next((p for p in [here / 'photos' / f'{pid}.official.jpg', here / 'photos' / f'{pid}.jpg'] if p.exists()), None)
     if pid == 'zohran-mamdani' and (here / 'photos' / 'zohran-mamdani.official.jpg').exists():

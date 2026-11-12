@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S124
+portrait:
+  image: /portraits/stella-pekarsky.webp
+  kind: photo
+  source:
+    label: Stella Pekarsky campaign
+    url: https://www.stellapekarsky.com/meet-stella
+    license: "© Stella Pekarsky, used as a drawing reference"

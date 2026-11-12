@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: false
 ids: { openstates: ocd-person/47e6d456-740e-4707-ae93-4b6efe8c0ce1 }
+portrait:
+  image: /portraits/michelle-maldonado.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20260210095502/https://house.vga.virginia.gov/members/H0340
+    license: "© Virginia House of Delegates, used as a drawing reference"

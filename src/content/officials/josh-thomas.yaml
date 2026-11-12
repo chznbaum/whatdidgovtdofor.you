@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://jetforva.com
+portrait:
+  image: /portraits/josh-thomas.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0382
+    license: "© Virginia House of Delegates, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/48911708-f8c9-4fa5-bf7c-7d035b08874e }
 url: https://vpap.org/legislators/57262-mamie-locke
+portrait:
+  image: /portraits/mamie-locke.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://web.archive.org/web/20230603215950/https://apps.senate.virginia.gov/Senator/memberpage.php?id=S67
+    license: "© Senate of Virginia, used as a drawing reference"

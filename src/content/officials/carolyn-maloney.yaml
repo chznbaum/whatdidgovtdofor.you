@@ -5,3 +5,10 @@ level: federal
 jurisdiction: ny
 current: false
 ids: { bioguide: M000087 }
+portrait:
+  image: /portraits/carolyn-maloney.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/M000087
+    license: Public domain

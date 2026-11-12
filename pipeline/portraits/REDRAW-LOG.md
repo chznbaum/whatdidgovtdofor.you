@@ -35,3 +35,51 @@ One line per person re-sourced or redrawn after the portrait review (`REVIEW.md`
 | brad-lander | 2 | yes (first portrait) | New source: Tessa Bury's 2026 portrait on Commons (`File:Brad_Lander.jpg`, CC BY 4.0), fetched with `fetch-official.mjs` and re-tiered `commons` (not a government photo); the 2024 Comptroller portrait that failed three earlier tries is kept as `brad-lander.comptroller` in `sources.json`. Drawing: squinting eyes, long nose, closed half smile, receding salt-and-pepper hair; medium oval face with a clean jaw (no jowls, not gaunt), clean skin with no specks, stubble or freckle dots; lav mic and background removed. Try 1 was too pale and thin (face near-blank paper, jacket mid-gray, generic likeness). Grayscale: light skin, mid-dark hair, dark jacket, in the photo's order. Published: cutout, eyes, webp, yaml `portrait:`. |
 | shelley-mayer | 3 | yes | Face back to the photo's round, soft shape and smooth skin (was longer, with added cheek, forehead and neck lines), so she no longer looks older than her photo. Golden-blonde hair now drawn the blonde way: white wave crowns and darker lowlights in the troughs, at the set's blonde value, beside her face as in the grayscale photo (was even mid-gray hatching with dark strands that read as gray hair). Try 1 overcorrected to near-white hair; try 2 was still evenly gray-textured. Drawn from a 2000px downscale of the same photo. Eyes re-measured. |
 | jennifer-carroll-foy (2024 photo) | 2 | yes | New source: the Jan 2024 Senate Democrats headshot (Amanda Maglione, 1707x2560) from her campaign site's media library, linked as the image file since no page shows it (owner OK'd); press tier in `sources.json`, yaml source "Virginia Senate Democrats", `kind: photo`. 2019 photo kept as `photos/jennifer-carroll-foy.house-2019.jpg`; the working copy is cropped to head and shoulders (full file `photos/jennifer-carroll-foy.full.jpg`). Replaces the 2019-photo redraw above: current long side-swept waves, pearls and studs, round soft face with full cheeks, smooth skin, broad smile. Skin is even mid-density hatching, on the set's trend for her photo value. Try 1, from the uncropped photo, came out three-quarter length with a tiny head (too low-res to frame). Grayscale: skin, hair, jacket and top keep the photo's order. Eyes re-measured; standard frame now (the [4.7] override is gone). |
+
+## Run 2 (Nov. 12, 2026)
+
+Every fix below was gated by measuring the flagged property on the photo and the drawing with the eyes aligned (smile width as mouth corners over pupil distance, ±5%; cheek, hair and suit values in grayscale), not by eye. Previous versions are kept as `raw/<id>.v1.webp` and every try as `raw/<id>.fix<N>.png`.
+
+### Sources changed during the run
+
+| id | change | why |
+|---|---|---|
+| elaine-luria | bioguide 450x550 → her 116th Congress official portrait on Commons (2580x3870, public domain) | Three tries from the tight bioguide crop failed (hair value, pencil hand, then woodcut). First try from the full portrait passed. |
+| helen-rosenthal | 2021 MTA event candid on Commons → the Council's 2015 posed headshot from her archived District 6 page (face ~95px, drawn from a 3x upscale) | The candid was three-quarter, looking off, and identified only by matching her outfit to a captioned frame at the same event. The headshot is posed, front-facing and certainly her. Reviewed `ok`: same person in an overlay. |
+| michael-benedetto, helene-weinstein, kevin-cahill | drawn from the Assembly's smiling 134x200 headshots (3x upscale); the sharp Assembly video stills a second sourcing pass found are kept as `photos/<id>.video.jpg` and were used only to confirm features | The stills are stern hearing or pursed Zoom frames, the unflattering-candid pattern run 1 found. Reviewed `ok` against both. |
+| phil-steck, latrice-walker, ellen-jaffee | Assembly HD video posters (official) instead of 134x200 headshots | Sharper, and smiling or at rest. |
+| jerry-moran | bioguide → the same photo's full-size 112th Congress portrait on Commons | The bioguide crop left an orange strip under his shoulders. |
+| elizabeth-bennett-parker | source link: bare image URL → her archived House member page, which shows the same photo | The reviewer found the page. |
+
+### Fix round
+
+| id | party | first-pass verdict | tries | result | before → after (measured) |
+|---|---|---|---|---|---|
+| phara-souffrant-forrest | D | redraw | 3 | fixed | Skin pushed dark and tonal: skin-check -69 (darkest face in the set) → -21, between Walker and Peoples-Stokes; open ruled hatching that reads as ink. Smile 1.07 → 1.01 ipd (photo 1.02). |
+| marcus-simon | D | redraw | 3 | fixed | Smile 0.97 → 0.92 ipd (photo 0.89 at the half-value point; the first reviewer's 0.82 read the dark core only, and the final pass confirmed 0.89); squint restored (eye opening 0.15 → 0.11, photo 0.12); suit 94 → 61-73. |
+| rob-portman | R | redraw | 9 | not published | Smile 1.18 ipd (photo 1.04) and tan lifted to his hair's value. Nine tries from the bioguide photo, a larger Commons crop and his 2018 Senate portrait: the clean-line tries widened the smile 8-9%; the right-smile tries had a gritty, speckled line. Pulled; shows initials. Retry later. |
+| martin-omalley | D | left out (drawing run) | 2 | published | Chin length 1.76 ipd vs photo 1.74 (old tries ~12% long); smile +3%; crisp ink; no added creases. Final pass `ok`. |
+| chiquita-brooks-lasure | NP | minor | 1 | fixed | Skin a shade light: skin-check +8 → -20, now beside Hudson and Herring instead of the palest of that group. |
+| pierina-sanchez | D | minor | 2 | fixed | Lifted tan: cheeks 222 → 206 (peers Gutiérrez 210, Callsen 210); forehead lightly hatched, not bare paper. |
+| elsie-encarnacion | D | minor | 3 | fixed (minor remains) | Smile 1.15 → 1.08 ipd (photo 1.07); skin now darker than her white shirt (skin-check +9 → -7). Final pass: the denser hatching added faint lower-lid lines; curls a little light. |
+| john-thune | R | minor | 2 | fixed (minor remains) | Tan lifted to paper: forehead 248 → 227, skin-check +28 → +4. Smile, unchanged, measures +6-7%. |
+| brad-hoylman-sigal | D | minor | 1 | fixed | Face lighter than his silver hair: cheeks 246 → 219, skin-check +33 → +8. |
+| paul-krizek | D | minor | 3 | fixed | Suit 87 → 51, hair 110 → 93, cheeks 236 → 218 (now a step darker than his shirt). |
+| jerry-moran | R | minor | 3 | fixed (cutout re-cut) | Smile +9% → +4.5%; shoulders fill the frame. The fix left a white halo along the hair edge, removed afterward by clearing near-white pixels at the outer edge (original kept as `raw/jerry-moran.rim-cutout.png`). |
+| lincoln-restler | D | minor | 1 | fixed | Smile 1.24 → 1.18 ipd (photo 1.15); suit 70 → 34; curls mid-dark gray. |
+| andrew-gounardes | D | minor | 2 | fixed | Navy suit 125 → 56, crisp ink instead of soft pencil. |
+| rip-sullivan | D | minor | 2 | fixed | Jacket 90 → 53; drawn from a head-and-shoulders crop, so the webp is no longer upscaled. |
+| atoosa-reaser | D | minor | 3 | fixed | Golden-brown hair read ash: hair beside face 113 → 73 (photo 64). Drawn from a grayscale copy of the photo, which held the hair value where color input swung near-black or mid-gray. |
+| deborah-glick | D | minor | 0 | fixed (framing) | Frame [5.75] → [6.25] and eye x nudged, so her far shoulder reaches the bottom edge. |
+| cheri-bustos | D | minor | 3 | kept v1 | No try beat v1; re-measured, her smile is +4% (within tolerance). |
+| mark-downey | D | minor | 3 | kept v1 | Tries that removed the extra lines lifted his face to paper or softened the hand. |
+| elizabeth-bennett-parker | D | minor | 3 | kept v1 | Nose ~16% wide; the one narrower try went back to a soft pencil hand. A sharper source may be needed. |
+
+### What the run learned about drawing
+
+- A heavy woodcut or scratchboard hand still shows up on first tries, more often on darker-skinned people. Adding "delicate, refined hedcut with thin black lines; no high-contrast engraving, no thick or jagged strokes, no white scratches, no black blotches" to the notes fixed it every time.
+- Measure smiles; don't eyeball them. Read the corners at the half-value point of the lip line on photo and drawing alike. Across the set, mouths run about +3% wide.
+- Dark suits drift to mid-gray, mostly on light-skinned men; name the suit "near-black" in the notes.
+- For a hair value the model keeps missing, a grayscale copy of the photo as input holds it.
+- Small sources (faces under ~250px) draw better from a 2-3x LANCZOS upscale; very wide or tight crops draw better from a head-and-shoulders crop.
+- `skin-check.py` used to measure the largest "face" its detector found, which could be a blouse or a chest; it now prefers boxes with eyes in them. Beards and dark backgrounds still pull its number darker.

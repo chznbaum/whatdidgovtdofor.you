@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/b4246863-b244-4d37-acae-0600d4b429b4 }
 url: https://assembly.ny.gov/mem/Stacey-Pheffer-Amato
+portrait:
+  image: /portraits/stacey-pheffer-amato.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Stacey-Pheffer-Amato
+    license: "© New York State Assembly, used as a drawing reference"

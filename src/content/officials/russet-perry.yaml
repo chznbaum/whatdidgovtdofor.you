@@ -4,3 +4,10 @@ office: Virginia State Senator, District 31
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/russet-perry.webp
+  kind: photo
+  source:
+    label: Russet Perry campaign
+    url: https://russetperry.com/meet-russet
+    license: "© Russet Perry, used as a drawing reference"

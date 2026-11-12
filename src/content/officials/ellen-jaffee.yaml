@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Ellen-Jaffee
+portrait:
+  image: /portraits/ellen-jaffee.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20201223231853/https://nyassembly.gov/mem/Ellen-Jaffee/video/
+    license: "© New York State Assembly, used as a drawing reference"

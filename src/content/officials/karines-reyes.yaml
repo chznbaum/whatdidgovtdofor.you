@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://assembly.ny.gov/mem/Karines-Reyes
+portrait:
+  image: /portraits/karines-reyes.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Karines-Reyes
+    license: "© New York State Assembly, used as a drawing reference"

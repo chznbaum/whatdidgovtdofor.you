@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/448bfee3-3314-4608-8531-811fdf9d0c23 }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S115
+portrait:
+  image: /portraits/lashrecse-aird.webp
+  kind: photo
+  source:
+    label: Lashrecse Aird campaign
+    url: https://www.lashrecseaird.com/
+    license: "© Lashrecse Aird, used as a drawing reference"

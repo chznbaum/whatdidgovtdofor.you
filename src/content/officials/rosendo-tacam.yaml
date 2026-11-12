@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://www.workersjustice.org/en/ldu-about
+portrait:
+  image: /portraits/rosendo-tacam.webp
+  kind: photo
+  source:
+    label: THE CITY
+    url: https://www.thecityreporter.nyc/2026/09/22/nyc-doordash-130-million-delivery-worker-settlement-mamdani/
+    license: "© THE CITY, used as a drawing reference"

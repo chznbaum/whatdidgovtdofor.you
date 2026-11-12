@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/934d4a02-a27c-4682-a31f-5a8372ceaaf9 }
 url: https://www.nysenate.gov/senators/brian-kavanagh
+portrait:
+  image: /portraits/brian-kavanagh.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/brian-kavanagh
+    license: "© New York State Senate, used as a drawing reference"

@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://house.vga.virginia.gov/members/H0400
+portrait:
+  image: /portraits/virgil-thornton.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0400
+    license: "© Virginia House of Delegates, used as a drawing reference"

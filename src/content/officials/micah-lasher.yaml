@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/bb46f499-d77e-4863-9269-6a04d5ba3f7e }
 url: https://nyassembly.gov/mem/Micah-C-Lasher
+portrait:
+  image: /portraits/micah-lasher.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Micah-C-Lasher
+    license: "© New York State Assembly, used as a drawing reference"

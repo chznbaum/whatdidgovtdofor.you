@@ -6,3 +6,10 @@ jurisdiction: us
 current: false
 ids: { bioguide: F000455 }
 url: https://archives.hud.gov/secretaries/fudgebio.cfm
+portrait:
+  image: /portraits/marcia-fudge.webp
+  kind: official
+  source:
+    label: U.S. Department of Housing and Urban Development, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:SecretaryMarciaFudge.jpg
+    license: Public domain

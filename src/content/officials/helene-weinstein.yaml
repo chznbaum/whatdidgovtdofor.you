@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Helene-E-Weinstein
+portrait:
+  image: /portraits/helene-weinstein.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20241110144831/https://nyassembly.gov/mem/Helene-E-Weinstein/
+    license: "© New York State Assembly, used as a drawing reference"

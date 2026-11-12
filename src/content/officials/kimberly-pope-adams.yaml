@@ -4,3 +4,10 @@ office: Delegate, Virginia House of Delegates, District 82
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/kimberly-pope-adams.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0399
+    license: "© Virginia House of Delegates, used as a drawing reference"

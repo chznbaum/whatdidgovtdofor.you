@@ -399,5 +399,651 @@
     "x": 357,
     "y": 309,
     "ipd": 132
+  },
+  "john-thune": {
+    "x": 390,
+    "y": 377,
+    "ipd": 168
+  },
+  "ed-markey": {
+    "x": 376,
+    "y": 386,
+    "ipd": 182
+  },
+  "marty-martinez": {
+    "x": 328,
+    "y": 337,
+    "ipd": 136
+  },
+  "cia-price": {
+    "x": 472,
+    "y": 217,
+    "ipd": 97
+  },
+  "kirsten-gillibrand": {
+    "x": 354,
+    "y": 417,
+    "ipd": 183
+  },
+  "michelle-maldonado": {
+    "x": 429,
+    "y": 340,
+    "ipd": 170
+  },
+  "bob-casey": {
+    "x": 332,
+    "y": 398,
+    "ipd": 173
+  },
+  "james-sanders": {
+    "x": 469,
+    "y": 371,
+    "ipd": 161
+  },
+  "brian-kavanagh": {
+    "x": 459,
+    "y": 320,
+    "ipd": 143
+  },
+  "phil-hernandez": {
+    "x": 360,
+    "y": 326,
+    "ipd": 160
+  },
+  "jerrold-nadler": {
+    "x": 324,
+    "y": 366,
+    "ipd": 177
+  },
+  "cordell-cleare": {
+    "x": 458,
+    "y": 315,
+    "ipd": 130
+  },
+  "chiquita-brooks-lasure": {
+    "x": 358,
+    "y": 270,
+    "ipd": 132
+  },
+  "margaret-franklin": {
+    "x": 358,
+    "y": 314,
+    "ipd": 143
+  },
+  "liz-krueger": {
+    "x": 405,
+    "y": 291,
+    "ipd": 109
+  },
+  "mamie-locke": {
+    "x": 435,
+    "y": 319,
+    "ipd": 160
+  },
+  "kathy-tran": {
+    "x": 410,
+    "y": 310,
+    "ipd": 135
+  },
+  "xavier-becerra": {
+    "x": 343,
+    "y": 333,
+    "ipd": 156
+  },
+  "carmen-de-la-rosa": {
+    "x": 386,
+    "y": 242,
+    "ipd": 109
+  },
+  "karines-reyes": {
+    "x": 376,
+    "y": 323,
+    "ipd": 134
+  },
+  "jerry-moran": {
+    "x": 388,
+    "y": 298,
+    "ipd": 141
+  },
+  "brad-hoylman-sigal": {
+    "x": 440,
+    "y": 287,
+    "ipd": 134
+  },
+  "stacey-pheffer-amato": {
+    "x": 359,
+    "y": 379,
+    "ipd": 132
+  },
+  "marcus-simon": {
+    "x": 444,
+    "y": 297,
+    "ipd": 148
+  },
+  "tammy-duckworth": {
+    "x": 355,
+    "y": 379,
+    "ipd": 165
+  },
+  "barbara-favola": {
+    "x": 321,
+    "y": 334,
+    "ipd": 138
+  },
+  "jeffrey-dinowitz": {
+    "x": 349,
+    "y": 298,
+    "ipd": 123
+  },
+  "toby-ann-stavisky": {
+    "x": 407,
+    "y": 372,
+    "ipd": 151
+  },
+  "bhairavi-desai": {
+    "x": 371,
+    "y": 290,
+    "ipd": 126
+  },
+  "keith-powers": {
+    "x": 388,
+    "y": 284,
+    "ipd": 102
+  },
+  "nita-lowey": {
+    "x": 363,
+    "y": 418,
+    "ipd": 171
+  },
+  "marcia-fudge": {
+    "x": 367,
+    "y": 331,
+    "ipd": 138
+  },
+  "charles-lavine": {
+    "x": 337,
+    "y": 367,
+    "ipd": 154
+  },
+  "rachel-may": {
+    "x": 296,
+    "y": 336,
+    "ipd": 118
+  },
+  "rae-cousins": {
+    "x": 420,
+    "y": 331,
+    "ipd": 131
+  },
+  "carolyn-maloney": {
+    "x": 374,
+    "y": 358,
+    "ipd": 157
+  },
+  "michael-gianaris": {
+    "x": 453,
+    "y": 241,
+    "ipd": 125
+  },
+  "kelly-convirs-fowler": {
+    "x": 465,
+    "y": 323,
+    "ipd": 164
+  },
+  "miriam-delphin-rittmon": {
+    "x": 350,
+    "y": 356,
+    "ipd": 171
+  },
+  "greg-steube": {
+    "x": 364,
+    "y": 345,
+    "ipd": 132
+  },
+  "elizabeth-bennett-parker": {
+    "x": 464,
+    "y": 267,
+    "ipd": 109
+  },
+  "robert-jackson": {
+    "x": 476,
+    "y": 357,
+    "ipd": 163
+  },
+  "cheri-bustos": {
+    "x": 406,
+    "y": 402,
+    "ipd": 175
+  },
+  "phara-souffrant-forrest": {
+    "x": 381,
+    "y": 348,
+    "ipd": 110
+  },
+  "diana-ayala": {
+    "x": 382,
+    "y": 313,
+    "ipd": 104,
+    "frame": [
+      5.75,
+      0.42
+    ]
+  },
+  "atoosa-reaser": {
+    "x": 476,
+    "y": 299,
+    "ipd": 157
+  },
+  "miguel-cardona": {
+    "x": 360,
+    "y": 319,
+    "ipd": 141
+  },
+  "eric-adams": {
+    "x": 305,
+    "y": 323,
+    "ipd": 160
+  },
+  "chris-murphy": {
+    "x": 353,
+    "y": 393,
+    "ipd": 171
+  },
+  "andrew-gounardes": {
+    "x": 402,
+    "y": 328,
+    "ipd": 142
+  },
+  "harry-bronson": {
+    "x": 348,
+    "y": 344,
+    "ipd": 130
+  },
+  "michael-feggans": {
+    "x": 411,
+    "y": 313,
+    "ipd": 145
+  },
+  "rozia-henson": {
+    "x": 367,
+    "y": 292,
+    "ipd": 181
+  },
+  "jumaane-williams": {
+    "x": 318,
+    "y": 291,
+    "ipd": 116
+  },
+  "sam-levine": {
+    "x": 428,
+    "y": 356,
+    "ipd": 134,
+    "frame": [
+      4.5,
+      0.42
+    ]
+  },
+  "jen-metzger": {
+    "x": 424,
+    "y": 418,
+    "ipd": 164
+  },
+  "kevin-thomas": {
+    "x": 485,
+    "y": 264,
+    "ipd": 130
+  },
+  "phil-steck": {
+    "x": 509,
+    "y": 312,
+    "ipd": 148
+  },
+  "deborah-glick": {
+    "x": 372,
+    "y": 355,
+    "ipd": 119,
+    "frame": [
+      6.25,
+      0.42
+    ]
+  },
+  "lashrecse-aird": {
+    "x": 451,
+    "y": 321,
+    "ipd": 142
+  },
+  "carl-heastie": {
+    "x": 302,
+    "y": 297,
+    "ipd": 167
+  },
+  "john-liu": {
+    "x": 514,
+    "y": 358,
+    "ipd": 141
+  },
+  "letitia-james": {
+    "x": 377,
+    "y": 335,
+    "ipd": 145
+  },
+  "john-cornyn": {
+    "x": 357,
+    "y": 398,
+    "ipd": 162
+  },
+  "velmanette-montgomery": {
+    "x": 506,
+    "y": 304,
+    "ipd": 200,
+    "frame": [
+      4.5,
+      0.42
+    ]
+  },
+  "richard-neal": {
+    "x": 336,
+    "y": 389,
+    "ipd": 165
+  },
+  "latrice-walker": {
+    "x": 418,
+    "y": 222,
+    "ipd": 129
+  },
+  "andrew-hevesi": {
+    "x": 334,
+    "y": 301,
+    "ipd": 109
+  },
+  "rosendo-tacam": {
+    "x": 505,
+    "y": 409,
+    "ipd": 147
+  },
+  "james-vacca": {
+    "x": 394,
+    "y": 350,
+    "ipd": 175
+  },
+  "patrick-hope": {
+    "x": 438,
+    "y": 358,
+    "ipd": 153
+  },
+  "lincoln-restler": {
+    "x": 381,
+    "y": 318,
+    "ipd": 129
+  },
+  "stella-pekarsky": {
+    "x": 421,
+    "y": 315,
+    "ipd": 122
+  },
+  "timothy-kennedy": {
+    "x": 343,
+    "y": 378,
+    "ipd": 183,
+    "frame": [
+      5.0,
+      0.432
+    ]
+  },
+  "julia-brownley": {
+    "x": 381,
+    "y": 399,
+    "ipd": 156
+  },
+  "jabari-brisport": {
+    "x": 415,
+    "y": 299,
+    "ipd": 123
+  },
+  "paul-krizek": {
+    "x": 465,
+    "y": 290,
+    "ipd": 139
+  },
+  "helen-rosenthal": {
+    "x": 301,
+    "y": 277,
+    "ipd": 108
+  },
+  "john-boozman": {
+    "x": 345,
+    "y": 334,
+    "ipd": 170
+  },
+  "jo-anne-simon": {
+    "x": 456,
+    "y": 419,
+    "ipd": 181
+  },
+  "russet-perry": {
+    "x": 457,
+    "y": 266,
+    "ipd": 100
+  },
+  "alicia-hyndman": {
+    "x": 399,
+    "y": 287,
+    "ipd": 128
+  },
+  "jennifer-gutierrez": {
+    "x": 372,
+    "y": 266,
+    "ipd": 114
+  },
+  "josh-cole": {
+    "x": 426,
+    "y": 305,
+    "ipd": 154
+  },
+  "mark-warner": {
+    "x": 352,
+    "y": 384,
+    "ipd": 163
+  },
+  "leroy-comrie": {
+    "x": 436,
+    "y": 303,
+    "ipd": 143
+  },
+  "amit-bose": {
+    "x": 337,
+    "y": 313,
+    "ipd": 146
+  },
+  "ellen-jaffee": {
+    "x": 455,
+    "y": 363,
+    "ipd": 134,
+    "frame": [
+      5.5,
+      0.42
+    ]
+  },
+  "elaine-luria": {
+    "x": 416,
+    "y": 388,
+    "ipd": 144
+  },
+  "kyrsten-sinema": {
+    "x": 336,
+    "y": 340,
+    "ipd": 156,
+    "frame": [
+      5.5,
+      0.42
+    ]
+  },
+  "crystal-peoples-stokes": {
+    "x": 329,
+    "y": 376,
+    "ipd": 168
+  },
+  "steven-cymbrowitz": {
+    "x": 436,
+    "y": 362,
+    "ipd": 168
+  },
+  "mark-downey": {
+    "x": 426,
+    "y": 328,
+    "ipd": 147
+  },
+  "alessandra-biaggi": {
+    "x": 446,
+    "y": 420,
+    "ipd": 181,
+    "frame": [
+      5.0,
+      0.47
+    ]
+  },
+  "shiela-corley": {
+    "x": 355,
+    "y": 310,
+    "ipd": 123,
+    "frame": [
+      5.5,
+      0.42
+    ]
+  },
+  "khaleel-anderson": {
+    "x": 360,
+    "y": 320,
+    "ipd": 145
+  },
+  "betsy-carr": {
+    "x": 340,
+    "y": 341,
+    "ipd": 161
+  },
+  "suzanne-bonamici": {
+    "x": 361,
+    "y": 385,
+    "ipd": 157
+  },
+  "josh-thomas": {
+    "x": 466,
+    "y": 324,
+    "ipd": 175
+  },
+  "crystal-hudson": {
+    "x": 339,
+    "y": 304,
+    "ipd": 118
+  },
+  "didi-barrett": {
+    "x": 406,
+    "y": 378,
+    "ipd": 147
+  },
+  "susan-collins": {
+    "x": 287,
+    "y": 333,
+    "ipd": 149
+  },
+  "michael-benedetto": {
+    "x": 344,
+    "y": 250,
+    "ipd": 101
+  },
+  "saddam-azlan-salim": {
+    "x": 403,
+    "y": 305,
+    "ipd": 125
+  },
+  "micah-lasher": {
+    "x": 356,
+    "y": 284,
+    "ipd": 129
+  },
+  "karen-keys-gamarra": {
+    "x": 422,
+    "y": 301,
+    "ipd": 124
+  },
+  "jeremy-mcpike": {
+    "x": 341,
+    "y": 343,
+    "ipd": 139
+  },
+  "helene-weinstein": {
+    "x": 290,
+    "y": 324,
+    "ipd": 113
+  },
+  "virgil-thornton": {
+    "x": 415,
+    "y": 241,
+    "ipd": 136
+  },
+  "linda-rosenthal": {
+    "x": 378,
+    "y": 322,
+    "ipd": 139
+  },
+  "schuyler-vanvalkenburg": {
+    "x": 462,
+    "y": 358,
+    "ipd": 143
+  },
+  "nily-rozic": {
+    "x": 313,
+    "y": 300,
+    "ipd": 145
+  },
+  "richard-gottfried": {
+    "x": 384,
+    "y": 322,
+    "ipd": 138
+  },
+  "kevin-cahill": {
+    "x": 301,
+    "y": 248,
+    "ipd": 116
+  },
+  "katrina-callsen": {
+    "x": 479,
+    "y": 259,
+    "ipd": 132
+  },
+  "pierina-sanchez": {
+    "x": 326,
+    "y": 304,
+    "ipd": 110
+  },
+  "aravella-simotas": {
+    "x": 322,
+    "y": 296,
+    "ipd": 139
+  },
+  "aaron-rouse": {
+    "x": 435,
+    "y": 299,
+    "ipd": 140
+  },
+  "elsie-encarnacion": {
+    "x": 379,
+    "y": 300,
+    "ipd": 108
+  },
+  "kimberly-pope-adams": {
+    "x": 476,
+    "y": 250,
+    "ipd": 121
+  },
+  "rip-sullivan": {
+    "x": 358,
+    "y": 361,
+    "ipd": 164
+  },
+  "martin-omalley": {
+    "x": 354,
+    "y": 312,
+    "ipd": 149
   }
 }

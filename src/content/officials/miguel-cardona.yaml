@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.ed.gov
+portrait:
+  image: /portraits/miguel-cardona.webp
+  kind: official
+  source:
+    label: U.S. Department of Education, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Secretary_of_Education_Miguel_Cardona,_official_portrait.jpg
+    license: Public domain

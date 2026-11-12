@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://assembly.state.ny.us/mem/Michael-Benedetto
+portrait:
+  image: /portraits/michael-benedetto.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Michael-Benedetto
+    license: "© New York State Assembly, used as a drawing reference"

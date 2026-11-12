@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://assembly.ny.gov/mem/Harry-B-Bronson/
+portrait:
+  image: /portraits/harry-bronson.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Harry-B-Bronson
+    license: "© New York State Assembly, used as a drawing reference"

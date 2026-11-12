@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://apps.senate.virginia.gov
+portrait:
+  image: /portraits/schuyler-vanvalkenburg.webp
+  kind: photo
+  source:
+    label: Schuyler VanValkenburg campaign
+    url: https://vanvalkenburg4va.com/?p=1661
+    license: "© Schuyler VanValkenburg, used as a drawing reference"

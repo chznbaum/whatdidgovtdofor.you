@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: S001214 }
 url: https://steube.house.gov
+portrait:
+  image: /portraits/greg-steube.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/S001214
+    license: Public domain

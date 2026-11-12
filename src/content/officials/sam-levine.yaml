@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://www.nyc.gov/site/dca/index.page
+portrait:
+  image: /portraits/sam-levine.webp
+  kind: official
+  source:
+    label: NYC Department of Consumer and Worker Protection
+    url: https://www.nyc.gov/site/dca/about/commissioner.page
+    license: "© City of New York, used as a drawing reference"
