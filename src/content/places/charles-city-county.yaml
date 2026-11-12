@@ -3,3 +3,4 @@ short: Charles City
 kind: county
 parent: va
 geoids: { state: "51", county: "51036" }
+# No feed yet: minutes are PDFs in the Agenda Center (charlescityva.us/AgendaCenter/Board-of-Supervisors-6).

@@ -3,3 +3,7 @@ short: Henrico
 kind: county
 parent: va
 geoids: { state: "51", county: "51087" }
+# Board actions come from the county's "Board of Supervisors meeting recap" posts. The Agend-O-Gram and minutes,
+# which name movers and votes, are PDF-only (henrico.gov/supervisors/supervisors-agenda-o-gram/).
+feeds:
+  - { type: wordpress, url: "https://henrico.gov", recaps: '\brecap\b' }

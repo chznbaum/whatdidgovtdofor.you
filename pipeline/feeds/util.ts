@@ -95,6 +95,19 @@ export function plainText(s: string | null | undefined): string {
     .trim();
 }
 
+// HTML to plain text that keeps its paragraphs and list items on their own lines, for long documents a model reads.
+export function blockText(s: string | null | undefined): string {
+  if (!s) return '';
+  return s
+    .replace(/<!--[\s\S]*?(?:-->|$)/g, ' ') // comments, including one cut off at the end
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<\/?(?:p|div|li|ul|ol|h\d|br|tr|table|section|article|blockquote)\b[^>]*>/gi, '\n')
+    .split('\n')
+    .map((line) => plainText(line))
+    .filter(Boolean)
+    .join('\n');
+}
+
 export function truncate(s: string | null | undefined, max = 1500): string | undefined {
   if (!s) return undefined;
   if (s.length <= max) return s;

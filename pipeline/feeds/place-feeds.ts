@@ -2,9 +2,11 @@
 // src/lib/schema.ts), and this turns them into adapters. Bespoke national and state feeds stay in code.
 import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
+import { civicClerkFeed } from './civicclerk.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
 import type { Feed } from './types.ts';
+import { wordpressFeed } from './wordpress.ts';
 
 export async function placeFeeds(): Promise<Feed[]> {
   const out: Feed[] = [];
@@ -28,7 +30,37 @@ export async function placeFeeds(): Promise<Feed[]> {
           );
           break;
         case 'rss':
-          out.push(rssFeed({ id: f.id ?? `${place}-news`, description: `${p.name}: news releases (RSS)`, url: f.url, place }));
+          out.push(
+            rssFeed({
+              id: f.id ?? `${place}-news`,
+              description: `${p.name}: news releases${f.recaps ? ' and meeting recaps' : ''} (RSS)`,
+              url: f.url,
+              place,
+              recaps: f.recaps ? new RegExp(f.recaps, 'i') : undefined,
+            }),
+          );
+          break;
+        case 'wordpress':
+          out.push(
+            wordpressFeed({
+              id: f.id ?? `${place}-news`,
+              description: `${p.name}: news releases and meeting recaps (WordPress)`,
+              origin: f.url,
+              place,
+              recaps: f.recaps ? new RegExp(f.recaps, 'i') : undefined,
+            }),
+          );
+          break;
+        case 'civicclerk':
+          out.push(
+            civicClerkFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: meeting minutes (CivicClerk)`,
+              tenant: f.tenant,
+              category: f.category,
+              place,
+            }),
+          );
           break;
         default:
           throw new Error(`${file}: unknown feed type ${f.type}`);

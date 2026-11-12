@@ -174,8 +174,9 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
   });
 
 // A machine-readable source of a place's own actions, read by the pipeline (pipeline/feeds/place-feeds.ts). The feed
-// id defaults to "<place>-council" for a meeting system and "<place>-news" for a news feed; candidate keys and
-// decisions hang off it, so don't rename one that has run.
+// id defaults to "<place>-council" for a meeting system or recaps and "<place>-news" for a news feed; candidate keys
+// and decisions hang off it, so don't rename one that has run. A recap (a meeting summary or minutes) lists many
+// actions; the pipeline splits it into one candidate per action before triage.
 const placeFeedSchema = z.discriminatedUnion('type', [
   z.object({
     type: z.literal('legistar'), // Granicus Legistar Web API: webapi.legistar.com/v1/<client>
@@ -190,6 +191,19 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     type: z.literal('rss'), // an RSS 2.0 news feed, e.g. CivicPlus News Flash: <origin>/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml
     id: z.string().optional(),
     url: z.url(),
+    recaps: z.string().optional(), // pattern for the titles of meeting recaps (CivicPlus articles, each read in full)
+  }),
+  z.object({
+    type: z.literal('wordpress'), // a WordPress site's posts: <url>/wp-json/wp/v2/posts
+    id: z.string().optional(),
+    url: z.url(),
+    recaps: z.string().optional(), // pattern for the titles of meeting recaps, e.g. "\\brecap\\b"
+  }),
+  z.object({
+    type: z.literal('civicclerk'), // CivicClerk meetings: each one's minutes, as text, is a recap
+    id: z.string().optional(),
+    tenant: z.string(), // <tenant>.api.civicclerk.com
+    category: z.number().int(), // the governing body's event category
   }),
 ]);
 

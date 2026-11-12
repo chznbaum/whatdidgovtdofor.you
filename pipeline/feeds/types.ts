@@ -7,7 +7,9 @@ export type Candidate = {
   level: 'federal' | 'state' | 'local';
   jurisdiction: string; // place id: us | ny | nyc | va | norfolk | virginia-beach | chesapeake | portsmouth | suffolk | hampton | newport-news | ...
   places?: string[]; // other place ids with a local footprint, e.g. a federal grant to Norfolk: jurisdiction us, places [norfolk]
-  kind: 'law' | 'executive-order' | 'regulation' | 'ordinance' | 'press-release' | 'other';
+  // recap: a meeting recap or minutes that lists many actions. The pipeline splits it into one candidate per action
+  // before triage (pipeline/run.ts, split); its full text is in extra.text.
+  kind: 'law' | 'executive-order' | 'regulation' | 'ordinance' | 'press-release' | 'recap' | 'other';
   title: string;
   date: string; // YYYY-MM-DD (enacted / signed / published)
   url: string; // human-readable canonical page

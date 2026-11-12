@@ -200,6 +200,61 @@ ${JSON.stringify(list, null, 1)}
 Return one result per candidate key.`;
 }
 
+export const SPLIT_SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['meeting_date', 'actions'],
+  properties: {
+    meeting_date: { type: ['string', 'null'], description: 'YYYY-MM-DD of the meeting, if the text gives it.' },
+    actions: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['title', 'identifier', 'what', 'outcome', 'moved_by', 'seconded_by', 'vote'],
+        properties: {
+          title: { type: 'string', description: 'What the body did, in plain words, under 140 characters.' },
+          identifier: { type: ['string', 'null'], description: 'Its number as the text gives it: "Ordinance 26-13", "R-2026-63", "26SN2080". Null if none.' },
+          what: { type: 'string', description: 'One to three sentences from the text: what it does, for whom, and any amount.' },
+          outcome: { type: 'string', enum: ['approved', 'denied', 'deferred', 'withdrawn', 'other'] },
+          moved_by: { type: ['string', 'null'] },
+          seconded_by: { type: ['string', 'null'] },
+          vote: { type: ['string', 'null'], description: 'As the text gives it: "5-0", "unanimous", or the ayes and nays.' },
+        },
+      },
+    },
+  },
+};
+
+export type SplitOutput = {
+  meeting_date: string | null;
+  actions: {
+    title: string;
+    identifier: string | null;
+    what: string;
+    outcome: 'approved' | 'denied' | 'deferred' | 'withdrawn' | 'other';
+    moved_by: string | null;
+    seconded_by: string | null;
+    vote: string | null;
+  }[];
+};
+
+// A meeting recap or minutes, read once to list its actions; each becomes a candidate that triage screens on its own.
+// Long minutes come in parts ("part 2 of 3"); each part is read on its own.
+export function splitPrompt(recap: { title: string; jurisdiction: string; date: string; url: string }, text: string, part = ''): string {
+  return `You read a local government's meeting recap or minutes and list the actions it records. Place: ${recap.jurisdiction}. Document: "${recap.title}" (${recap.date}), ${recap.url}${part ? `. This is ${part} of the document; list only the actions in this part` : ''}.
+
+List every action the governing body voted on or that the text says it approved, adopted, awarded, accepted, appropriated or authorized: ordinances, resolutions, budget amendments and appropriations, grants accepted, contracts and agreements, purchases, land-use and zoning cases, policies. One item per action, in the order they appear. Use only what the text says; don't add facts.
+
+Leave out: recognitions and proclamations, presentations and reports, public comment, appointments to boards, approval of minutes or the agenda, closed sessions, and items only scheduled, introduced or discussed. A consent agenda counts: list each item on it that passed.
+
+Set outcome from the text: approved (also adopted, passed, awarded, authorized), denied, deferred, withdrawn, or other. Give the mover, seconder and vote only when the text names them.
+
+<document>
+${text}
+</document>`;
+}
+
 export async function verifierPrompt(file: string, text: string): Promise<string> {
   const c = await context();
   return `You are the independent fact-checker for whatdidgovtdofor.you. A model from a different company wrote the entry below. Today is ${today()}. Your working directory is the site's repository.

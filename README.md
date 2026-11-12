@@ -29,7 +29,7 @@ Every action leads with the person who did the work, drawn in ink from a real ph
 
 ## How content gets published
 
-1. **Feeds** (`pipeline/feeds/`) pull enacted laws, executive actions, and official releases into `pipeline/state/candidates.json`. Ceremonial items are filtered out up front.
+1. **Feeds** (`pipeline/feeds/`) pull enacted laws, executive actions, and official releases into `pipeline/state/candidates.json`. Ceremonial items are filtered out up front. National and state feeds are code; a city's or county's feeds are listed in its place file (`src/content/places/<id>.yaml`). Where a county records what passed only in meeting recaps or minutes, each recap is split into one candidate per approved action before triage.
 2. **Draft**: a writer model triages each candidate against the content guide, researches it, and writes a complete entry with sources, votes, credits, and current status. Entries that fail schema validation get one repair attempt.
 3. **Verify**: a model from a *different company* checks every claim and returns `pass`, `corrected` (with a fixed file), or `fail`. Failed entries are hidden from the site. Each entry's page shows who wrote it and who checked it.
 4. **Retract**: if something's wrong, `npm run pipeline -- retract <slug>`. It's logged in `pipeline/retracted.json` and won't come back.

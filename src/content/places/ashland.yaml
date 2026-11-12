@@ -3,3 +3,4 @@ short: Ashland
 kind: town
 parent: hanover
 geoids: { state: "51", place: "5103368" }
+# No feed yet: Town Council minutes are Granicus PDFs (ashland-va.granicus.com, view_id=1).

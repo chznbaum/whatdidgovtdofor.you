@@ -3,3 +3,6 @@ short: Chesterfield
 kind: county
 parent: va
 geoids: { state: "51", county: "51041" }
+feeds:
+  - { type: civicclerk, tenant: chesterfieldcova, category: 26 } # Board of Supervisors; minutes about a month behind
+  - { type: rss, url: "https://www.chesterfield.gov/RSSFeed.aspx?ModID=1&CID=Chesterfield-News-1" }

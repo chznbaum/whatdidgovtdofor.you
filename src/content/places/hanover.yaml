@@ -3,3 +3,7 @@ short: Hanover
 kind: county
 parent: va
 geoids: { state: "51", county: "51085" }
+# CivicClerk (hanovercova) lists agenda items with no outcomes, and its minutes don't extract as text; the
+# "Hanover Board Brief" after each meeting lists every item with its outcome.
+feeds:
+  - { type: rss, url: "https://www.hanovercounty.gov/RSSFeed.aspx?ModID=1&CID=Hanover-Board-Brief-15", recaps: 'Board Brief' }

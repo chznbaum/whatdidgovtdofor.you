@@ -3,3 +3,6 @@ short: Powhatan
 kind: county
 parent: va
 geoids: { state: "51", county: "51145" }
+# Agendas and minutes are PDF-only; "Meeting Summary" posts (from Sept. 2026) list each item and its outcome.
+feeds:
+  - { type: rss, url: "https://www.powhatanva.gov/RSSFeed.aspx?ModID=1&CID=Board-of-Supervisors-20", recaps: 'Meeting Summary' }

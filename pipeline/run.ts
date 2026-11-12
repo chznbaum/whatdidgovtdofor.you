@@ -2,7 +2,7 @@
 // different company verifies them. Entries publish without human review; retract anything bad.
 //
 //   npm run pipeline -- feeds   [--since YYYY-MM-DD]
-//   npm run pipeline -- triage  [--limit N] [--concurrency N]
+//   npm run pipeline -- triage  [--limit N] [--concurrency N]   (splits meeting recaps into actions first)
 //   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--writer claude|codex] [--concurrency N] [keys...]
 //   npm run pipeline -- verify  [--limit N] [--stale DAYS] [--concurrency N] [files...]
 //   npm run pipeline -- retract <slug> [--reason "..."]
@@ -12,16 +12,22 @@ import { existsSync } from 'node:fs';
 import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
+import { ceremonialReason } from './feeds/ceremonial.ts';
+import type { Candidate } from './feeds/types.ts';
+import { slugify } from './feeds/util.ts';
 import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readAllEntries, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
 import { MODELS, TRIAGE_MODEL, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
 import {
   OFFICIALS_RULE,
+  SPLIT_SCHEMA,
   TRIAGE_SCHEMA,
   VERIFIER_SCHEMA,
   WRITER_SCHEMA,
+  splitPrompt,
   triagePrompt,
   verifierPrompt,
   writerPrompt,
+  type SplitOutput,
   type TriageOutput,
   type VerifierOutput,
   type WriterOutput,
@@ -88,6 +94,92 @@ async function feeds(since: string) {
   console.log(`feeds: ${found.length} candidates fetched (${added} new), ${total} known`);
 }
 
+// --- split ---------------------------------------------------------------
+
+// Minutes that include whole ordinances run to 500,000 characters; the triage model reads them in parts this long.
+const SPLIT_CHUNK = 150_000;
+
+// Cut text into pieces of at most `size` characters, at line breaks where possible.
+function chunks(text: string, size: number): string[] {
+  const out: string[] = [];
+  let rest = text;
+  while (rest.length > size) {
+    const cut = rest.lastIndexOf('\n', size);
+    const at = cut > size / 2 ? cut : size;
+    out.push(rest.slice(0, at));
+    rest = rest.slice(at);
+  }
+  return [...out, rest];
+}
+
+// A meeting recap or minutes lists many actions. Each unsettled recap is read once on the triage model and becomes one
+// candidate per approved action, each triaged on its own; the recap itself is then settled as a skip.
+async function split({ concurrency }: { concurrency: number }) {
+  const { saveCandidates } = await import('./feeds/index.ts');
+  const candidates = await readJson<any[]>(CANDIDATES, []);
+  const decisions = await readJson<Record<string, Decision>>(DECISIONS, {});
+  const settled = await settledKeys(decisions, await readJson<Retraction[]>(RETRACTED, []));
+  const recaps = candidates.filter((c) => c.kind === 'recap' && c.extra?.text && !settled.has(c.key));
+  if (!recaps.length) return;
+  console.log(`split: ${recaps.length} meeting recaps with ${TRIAGE_MODEL}`);
+
+  let saving = Promise.resolve();
+  await pool(recaps, concurrency, async (recap) => {
+    try {
+      const parts = chunks(recap.extra.text, SPLIT_CHUNK);
+      const data: SplitOutput = { meeting_date: null, actions: [] };
+      for (const [i, text] of parts.entries()) {
+        const part = parts.length > 1 ? `part ${i + 1} of ${parts.length}` : '';
+        const out = (
+          await runLlm<SplitOutput>(providerOfModel(TRIAGE_MODEL), {
+            prompt: splitPrompt(recap, text, part),
+            schema: SPLIT_SCHEMA,
+            web: false,
+            cwd: ROOT,
+            model: TRIAGE_MODEL,
+            timeoutMs: 15 * 60_000,
+          })
+        ).data;
+        data.meeting_date ??= out.meeting_date;
+        data.actions.push(...out.actions);
+      }
+      // A recap is posted on or after the meeting it describes.
+      const date = /^\d{4}-\d{2}-\d{2}$/.test(data.meeting_date ?? '') && data.meeting_date! <= recap.date ? data.meeting_date! : recap.date;
+      const keys = new Set<string>();
+      const actions = data.actions
+        .filter((a) => a.outcome === 'approved')
+        .map((a, i): Candidate => {
+          let key = `${recap.key}-${slugify(a.identifier ?? a.title).slice(0, 60)}`;
+          if (keys.has(key)) key += `-${i}`;
+          keys.add(key);
+          const by = [a.moved_by && `moved by ${a.moved_by}`, a.seconded_by && `seconded by ${a.seconded_by}`, a.vote && `vote ${a.vote}`].filter(Boolean);
+          return {
+            key,
+            feed: `${recap.jurisdiction}-council`,
+            level: recap.level,
+            jurisdiction: recap.jurisdiction,
+            kind: /ordinance/i.test(`${a.identifier} ${a.title}`) ? 'ordinance' : 'other',
+            title: a.title,
+            date,
+            url: recap.url,
+            summary: `${a.what} Approved${by.length ? `; ${by.join(', ')}` : ''}. From "${recap.title}".`,
+            extra: { recap: recap.key, identifier: a.identifier ?? undefined, movedBy: a.moved_by ?? undefined, secondedBy: a.seconded_by ?? undefined, vote: a.vote ?? undefined },
+          };
+        })
+        .filter((c) => !ceremonialReason(c));
+      saving = saving.then(async () => {
+        await saveCandidates(actions);
+        decisions[recap.key] = { decision: 'skip', reason: `split into ${actions.length} approved actions`, date: today() };
+        await writeJson(DECISIONS, decisions);
+      });
+      await saving;
+      console.log(`  ${recap.key}: ${actions.length} approved actions of ${data.actions.length}`);
+    } catch (err) {
+      console.log(`  ${recap.key} failed: ${String(err).slice(0, 200)}`); // left for the next run
+    }
+  });
+}
+
 // --- triage --------------------------------------------------------------
 
 const TRIAGE_BATCH = 40;
@@ -105,12 +197,13 @@ async function settledKeys(decisions: Record<string, Decision>, retracted: Retra
 // Screens every candidate without a decision on the cheaper triage model, newest first, and records
 // promising/skip with an impact score. decisions.json is saved after every batch.
 async function triage({ limit, concurrency }: { limit: number; concurrency: number }) {
+  await split({ concurrency });
   const candidates = await readJson<any[]>(CANDIDATES, []);
   const decisions = await readJson<Record<string, Decision>>(DECISIONS, {});
   const retracted = await readJson<Retraction[]>(RETRACTED, []);
   const settled = await settledKeys(decisions, retracted);
   const fresh = candidates
-    .filter((c) => !settled.has(c.key))
+    .filter((c) => !settled.has(c.key) && c.kind !== 'recap')
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, limit);
   const batches = Array.from({ length: Math.ceil(fresh.length / TRIAGE_BATCH) }, (_, i) => fresh.slice(i * TRIAGE_BATCH, (i + 1) * TRIAGE_BATCH));

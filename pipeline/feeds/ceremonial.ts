@@ -70,6 +70,7 @@ const RULES: Rule[] = [
 ];
 
 export function ceremonialReason(c: Candidate): string | null {
+  if (c.kind === 'recap') return null; // judged item by item once it's split
   for (const rule of RULES) {
     if (rule.kinds && !rule.kinds.includes(c.kind)) continue;
     if (rule.pattern.test(c.title)) return rule.reason;

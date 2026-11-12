@@ -3,3 +3,6 @@ short: Goochland
 kind: county
 parent: va
 geoids: { state: "51", county: "51075" }
+# Meetings moved from Granicus IQM2 to CivicClerk on July 1, 2026; earlier ones aren't read yet.
+feeds:
+  - { type: civicclerk, tenant: goochlandcova, category: 26 }
