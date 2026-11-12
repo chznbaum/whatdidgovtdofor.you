@@ -186,3 +186,40 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),
   });
+
+// Ways into government (src/data/get-involved.json, described in src/data/get-involved.schema.md): groups that help
+// people run, official guides to getting on the ballot, boards and commissions, and poll work. Each item belongs to a
+// place, with the same place ids actions use, so a reader's address narrows them the same way. The site renders
+// whatever parses (src/lib/involved.ts); the validator holds the file to this schema.
+export const LEANS = ['progressive', 'worker', 'nonpartisan', 'official'] as const;
+
+const webUrl = z.url({ protocol: /^https?$/, error: 'must be an http(s) URL' });
+const named = z.string().trim().min(1);
+
+export const involvedSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) => {
+  const resource = z.object({
+    place: ref.places,
+    name: named,
+    url: webUrl,
+    offers: z.string().optional(),
+    lean: z.enum(LEANS).optional(),
+  });
+  return z.object({
+    checked: z.iso.date().optional(),
+    organizations: z
+      .array(
+        z.object({
+          name: named,
+          url: webUrl,
+          lean: z.enum(LEANS),
+          for: z.string().optional(),
+          offers: z.string().optional(),
+          places: z.array(ref.places).min(1),
+        }),
+      )
+      .default([]),
+    how_to_run: z.array(resource).default([]),
+    boards: z.array(resource).default([]),
+    poll_work: z.array(resource).default([]),
+  });
+};

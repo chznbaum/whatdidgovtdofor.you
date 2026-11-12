@@ -130,6 +130,30 @@
       "name": "NYC Campaign Finance Board: matching funds",
       "url": "https://www.nyccfb.info/program/how-it-works/",
       "offers": "public money for city races: each NYC resident's donation is matched 8 to 1 on up to $250 ($175 for City Council), so small donations go much further"
+    },
+    {
+      "place": "virginia-beach",
+      "name": "Virginia Beach Voter Registration & Elections: candidacy and campaign finance",
+      "url": "https://voter.virginiabeach.gov/elections/candidacy-campaign-finance",
+      "offers": "where to get candidate filing forms, a tool to check which election district you live in, when each local office is next on the ballot, and the campaign finance reporting rules"
+    },
+    {
+      "place": "chesapeake",
+      "name": "Chesapeake Voter Registrar: becoming a candidate",
+      "url": "https://www.cityofchesapeake.net/1028/Becoming-a-Candidate",
+      "offers": "the basic qualifications to run, with links to the state's candidate bulletin for each office, the filing forms, campaign finance reporting, and the city's political sign rules"
+    },
+    {
+      "place": "suffolk",
+      "name": "Suffolk General Registrar: candidate resources and requirements",
+      "url": "https://www.suffolkva.us/846/Candidate-Resources-Requirements",
+      "offers": "who can run for city council and school board, which borough seats are on the ballot, how many petition signatures each office needs, and the city's rules for campaign finance and political signs"
+    },
+    {
+      "place": "gloucester",
+      "name": "Gloucester Elections & Voter Registration: become a candidate",
+      "url": "https://gloucesterva.gov/elections-voter-registration#candidate",
+      "offers": "when you can file to run, the campaign committee, bank account, and finance-report rules you'll have to follow, and a link to the state's full candidate guide"
     }
   ],
   "boards": [
@@ -174,6 +198,96 @@
       "name": "Mayor's Office of Appointments: boards and commissions",
       "url": "https://www.nyc.gov/content/appointments/pages/boards-commissions",
       "offers": "the list of more than 200 city boards and commissions the mayor appoints, with a form to send your resume and say you want to serve"
+    },
+    {
+      "place": "norfolk",
+      "name": "City of Norfolk: apply for a board or commission",
+      "url": "https://www.norfolk.gov/4810/Apply-for-a-Board-or-Commission",
+      "offers": "the current vacancy list and the online application for more than 50 city boards and commissions; City Council reviews applications every quarter and keeps them on file for a year"
+    },
+    {
+      "place": "virginia-beach",
+      "name": "City of Virginia Beach: Talent Bank application for boards and commissions",
+      "url": "https://onboardgov.virginiabeach.gov/application/",
+      "offers": "the application City Council draws from to fill seats on about 60 boards, commissions, and committees; open to Virginia Beach residents who are registered voters, and kept on file for five years"
+    },
+    {
+      "place": "chesapeake",
+      "name": "City of Chesapeake: applicants needed for boards and commissions",
+      "url": "https://www.cityofchesapeake.net/1260/Applicants-Needed-for-City-Boards-and-Co",
+      "offers": "the current list of open seats, application deadlines and the online application, which goes to the City Clerk"
+    },
+    {
+      "place": "portsmouth",
+      "name": "City of Portsmouth: boards and commissions",
+      "url": "https://www.portsmouthva.gov/boards-commissions",
+      "offers": "what each city board and commission does, a link to the current vacancy list, and an application you can fill out online or print"
+    },
+    {
+      "place": "suffolk",
+      "name": "City of Suffolk: boards and commissions",
+      "url": "https://www.suffolkva.us/527/Boards-Commissions",
+      "offers": "the city's boards, commissions, and council committees; the page has no application, so ask the City Clerk's office, which handles appointments, at 757-514-4018 or council@suffolkva.us"
+    },
+    {
+      "place": "newport-news",
+      "name": "City of Newport News: boards, commissions and committees",
+      "url": "https://www.nnva.gov/262/Boards-Commissions-Committees",
+      "offers": "how appointments to nearly 45 city boards work, with a link to the online Board Bank application; you must live in Newport News and pass a background check, and City Council appoints every quarter"
+    },
+    {
+      "place": "williamsburg",
+      "name": "City of Williamsburg: boards and commissions",
+      "url": "https://www.williamsburgva.gov/799/Boards-Commissions",
+      "offers": "the online application for city residents to serve on city and regional boards; applications are taken any time and City Council reviews them when a seat opens"
+    },
+    {
+      "place": "poquoson",
+      "name": "City of Poquoson: boards and commissions",
+      "url": "https://www.poquoson-va.gov/152/Boards-Commissions",
+      "offers": "a printable Board Bank application for U.S. citizens registered to vote in Poquoson, covering 14 boards from the Planning Commission to the Wetlands Board; you turn it in, or a resume and cover letter, at the City Manager's Office"
+    },
+    {
+      "place": "york-county",
+      "name": "York County: boards and commissions",
+      "url": "https://www.yorkcounty.gov/677/Boards-Commissions",
+      "offers": "the online Board Bank application, the list of current vacancies, and a guide to each board's requirements and meeting times; about 200 residents serve, appointed by the Board of Supervisors, and applications stay on file for a year"
+    },
+    {
+      "place": "isle-of-wight",
+      "name": "Isle of Wight County: board and committee application",
+      "url": "https://www.isleofwight.gov/departments/planning_and_zoning/boards_and_commissions/committee_application.php",
+      "offers": "an online questionnaire for anyone who wants to serve on a county board, committee, or commission; questions go to County Administration at 757-365-6204"
+    },
+    {
+      "place": "gloucester",
+      "name": "Gloucester County: boards and commissions",
+      "url": "https://gloucesterva.gov/boards-commissions",
+      "offers": "a link to current vacancies and the application for the county's committees, councils, boards, and commissions, where more than 150 residents volunteer; questions go to County Administration at 804-693-4042"
+    },
+    {
+      "place": "hampton-roads",
+      "name": "Hampton Roads Planning District Commission: Community Advisory Committee",
+      "url": "https://www.hamptonroads.gov/297/Community-Advisory-Committee-CAC",
+      "offers": "a printable application to join the up-to-30-member public committee that advises the region's planning and transportation boards; open to residents of the 17 member cities and counties, it meets six times a year, for three-year terms"
+    },
+    {
+      "place": "hampton-roads",
+      "name": "Hampton Roads Transit: Transit Riders Advisory Committee",
+      "url": "https://gohrt.com/agency/governing-board/trac",
+      "offers": "a volunteer committee of up to 14 riders, with at least one from each city HRT serves, that tells HRT how to fix service problems; it meets every other month, and you ask HRT Customer Relations at 757-222-6000 about joining"
+    },
+    {
+      "place": "hampton-roads",
+      "name": "Hampton Roads Transit: Student Transit Riders Commission",
+      "url": "https://gohrt.com/agency/governing-board/student-transit-riders-commission",
+      "offers": "an online application for high school students (grades 9 to 12) in the six cities HRT serves; a one-year term with a meeting every month"
+    },
+    {
+      "place": "nyc",
+      "name": "NYC Civic Engagement Commission: Language Assistance Advisory Committee",
+      "url": "https://www.nyc.gov/site/civicengagement/voting/get-involved.page",
+      "offers": "a volunteer committee that advises the city's program of poll-site interpreters for voters with limited English; applications are taken on a rolling basis, members meet at least every three months, and speaking a second language helps but isn't required"
     }
   ],
   "poll_work": [
@@ -194,6 +308,72 @@
       "name": "NYC Board of Elections: poll worker positions",
       "url": "https://vote.nyc/page/poll-worker-positions",
       "offers": "paid poll work as an inspector, interpreter, or 17-year-old poll worker; up to $2,750 for up to 10 days of work; apply online or on paper"
+    },
+    {
+      "place": "norfolk",
+      "name": "Norfolk Office of Elections: officer of election",
+      "url": "https://www.norfolk.gov/4915/Officer-of-Election",
+      "offers": "the interest form for working Norfolk's polls; paid, with a $200 base rate that includes training and more for pollbook officers and chiefs; you stay the whole day, and polls are open 6 a.m. to 7 p.m."
+    },
+    {
+      "place": "virginia-beach",
+      "name": "Virginia Beach Voter Registration & Elections: poll worker information",
+      "url": "https://voter.virginiabeach.gov/get-involved/poll-worker-information",
+      "offers": "the online application to be an election official; $240 for Election Day plus $25 for a three-hour training; you must be 18 or older and a Virginia voter, and stay from 5 a.m. until the polls close and results are in"
+    },
+    {
+      "place": "chesapeake",
+      "name": "Chesapeake Voter Registrar: working the polls",
+      "url": "https://www.cityofchesapeake.net/1813/Working-the-Polls",
+      "offers": "an interest form to work at a precinct near your home; $240 for Election Day and $25 for a training class, working from 5 a.m. until about 8 p.m."
+    },
+    {
+      "place": "portsmouth",
+      "name": "Portsmouth Voter Registration & Elections: becoming an election officer",
+      "url": "https://www.portsmouthva.gov/becoming-an-election-officer",
+      "offers": "the city's page for working the polls, with training videos; the city asks people who want to serve as an officer of election to contact the Registrar's office"
+    },
+    {
+      "place": "suffolk",
+      "name": "Suffolk Registrar: officer of election information",
+      "url": "https://www.suffolkva.us/1623/Officer-of-Election-Information",
+      "offers": "the online application to work the polls if you're a registered Virginia voter; $250 to $350 for Election Day depending on your role, plus $35 for training, from about 5 a.m. to 9 p.m."
+    },
+    {
+      "place": "newport-news",
+      "name": "Newport News Voter Registrar: become an election official",
+      "url": "https://www.nnva.gov/492/Become-an-Election-Official",
+      "offers": "the sign-up link for registered Virginia voters to work the polls from 5 a.m. until the count is done; $200 for an officer of election, up to $275 plus $20 for training for a chief officer"
+    },
+    {
+      "place": "williamsburg",
+      "name": "Williamsburg Voter Registrar: working at the polls",
+      "url": "https://www.williamsburgva.gov/354/Working-at-the-Polls",
+      "offers": "how to become one of the 40-plus election officers the city needs for a general election, with full-day and half-day shifts; registered voters are paid $150, which covers a two-hour training class and Election Day"
+    },
+    {
+      "place": "poquoson",
+      "name": "Poquoson Voter Registration & Elections",
+      "url": "https://www.poquoson-va.gov/234/Voter-Registration",
+      "offers": "the registrar's page, which links at the top to the state's sign-up form for election officials; it doesn't list pay or training, so call the office at 757-868-3070"
+    },
+    {
+      "place": "york-county",
+      "name": "York County Voter Registration: election official information",
+      "url": "https://www.yorkcounty.gov/3808/Election-Official-Information",
+      "offers": "a link to the state's sign-up form for working York County's polls; the page doesn't list pay or training"
+    },
+    {
+      "place": "isle-of-wight",
+      "name": "Isle of Wight Voter Registration: officer of election information",
+      "url": "https://www.isleofwight.gov/our_services/voter_registration/officer_of_election_information.php",
+      "offers": "the forms to apply as an officer of election in Isle of Wight County and a short Poll Working 101 video; the page doesn't list pay"
+    },
+    {
+      "place": "gloucester",
+      "name": "Gloucester Elections & Voter Registration: become an election officer",
+      "url": "https://gloucesterva.gov/elections-voter-registration#officer",
+      "offers": "how to apply: pick up the forms at the Elections & Voter Registration office, and the Electoral Board will reply before the next election with training details if you're needed; the page doesn't list pay"
     }
   ]
 }

@@ -1,10 +1,11 @@
 // Validates content against the shared schemas plus editorial rules Zod can't express.
 // Usage: npm run validate [-- path/to/entry.md ...]
 import { existsSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { z } from 'astro/zod';
-import { entrySchema, officialSchema, placeSchema, type Collection } from '../src/lib/schema.ts';
-import { CONTENT, idFromPath, listFiles, loadIds, readMarkdown, readYaml, rel } from './lib/content.ts';
+import { entrySchema, involvedSchema, officialSchema, placeSchema, type Collection } from '../src/lib/schema.ts';
+import { CONTENT, ROOT, idFromPath, listFiles, loadIds, readMarkdown, readYaml, rel } from './lib/content.ts';
 
 // Ids are reloaded on every call: the pipeline creates officials mid-run, and a stale list rejects them.
 async function loadSchemas() {
@@ -13,7 +14,12 @@ async function loadSchemas() {
   const ref = (collection: Collection) =>
     z.string().refine((id) => ids[collection].has(id), { error: (i) => `unknown ${collection} id "${i.input}"` });
   const refs = { officials: ref('officials'), places: ref('places') };
-  return { entries: entrySchema(refs), officials: officialSchema(refs), places: placeSchema(refs) };
+  return {
+    entries: entrySchema(refs),
+    officials: officialSchema(refs),
+    places: placeSchema(refs),
+    involved: involvedSchema(refs),
+  };
 }
 type Schemas = Awaited<ReturnType<typeof loadSchemas>>;
 
@@ -95,12 +101,35 @@ async function validateYaml(collection: 'officials' | 'places', schemas: Schemas
   return problems;
 }
 
+// The ways in on /your-turn/ and the place pages: every place a real place id, every URL http(s), every lean one of
+// the allowed values. Problems name the item, so whoever is adding them can find it.
+export async function validateInvolved(schemas?: Schemas, path = join(ROOT, 'src/data/get-involved.json')): Promise<Problem[]> {
+  if (!existsSync(path)) return [];
+  const file = rel(path);
+  let data: any;
+  try {
+    data = JSON.parse(await readFile(path, 'utf8'));
+  } catch (err) {
+    return [{ file, message: `not valid JSON: ${String(err)}` }];
+  }
+  const parsed = (schemas ?? (await loadSchemas())).involved.safeParse(data);
+  if (parsed.success) return [];
+  return parsed.error.issues.map((i) => {
+    const [list, n, ...rest] = i.path.map(String);
+    const name = data?.[list]?.[Number(n)]?.name;
+    const where = name ? `${list}.${n} ("${name}")${rest.length ? '.' + rest.join('.') : ''}` : i.path.map(String).join('.') || '(root)';
+    return { file, message: `${where}: ${i.message}` };
+  });
+}
+
 if (import.meta.main) {
   const targets = process.argv.slice(2);
   const entryFiles = targets.length ? targets : await listFiles(join(CONTENT, 'entries'), '.md');
   const schemas = await loadSchemas();
   const problems = [
-    ...(targets.length ? [] : [...(await validateYaml('places', schemas)), ...(await validateYaml('officials', schemas))]),
+    ...(targets.length
+      ? []
+      : [...(await validateYaml('places', schemas)), ...(await validateYaml('officials', schemas)), ...(await validateInvolved(schemas))]),
     ...(await Promise.all(entryFiles.map((f) => validateEntry(f, schemas)))).flat(),
   ];
   for (const p of problems) console.log(`${p.file}: ${p.message}`);

@@ -1,0 +1,78 @@
+---
+// One way in: a group that helps people run (labeled by where it stands), or an official page (a ballot guide, a board
+// application, a poll worker sign-up). Links leave the site, so they open in a new tab and say so.
+//   card:  the national groups on /your-turn/, set large.
+//   brief: the place pages, where a group gets its lean and a page gets its one line.
+import { LEAN_LABEL, sentence, type Org, type Resource } from '../lib/involved.ts';
+
+interface Props {
+  item: Org | Resource;
+  variant?: 'card' | 'row' | 'brief';
+}
+const { item, variant = 'row' } = Astro.props;
+const org = 'lean' in item ? item : undefined;
+---
+
+<li class:list={['item', variant]}>
+  {
+    variant === 'card' ? (
+      <h3>
+        <a href={item.url} target="_blank" rel="noopener">
+          {item.name}
+          <span class="visually-hidden">, opens in a new tab</span>
+        </a>
+      </h3>
+    ) : (
+      <a class="name" href={item.url} target="_blank" rel="noopener">
+        {item.name}
+        <span class="visually-hidden">, opens in a new tab</span>
+      </a>
+    )
+  }
+  {org && <p class="lean">{LEAN_LABEL[org.lean]}</p>}
+  {variant !== 'brief' && org?.for && <p>{sentence(org.for, 'For')}</p>}
+  {(variant !== 'brief' || !org) && item.offers && <p>{sentence(item.offers, org ? 'You get' : '')}</p>}
+</li>
+
+<style>
+  .item {
+    max-width: 40rem;
+  }
+  .item p {
+    margin-top: 0.2rem;
+  }
+  .lean {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .name {
+    font-weight: 700;
+    font-size: var(--t-md);
+    line-height: 1.3;
+    text-decoration-thickness: 2px;
+  }
+  .card {
+    padding-top: 0.9rem;
+    border-top: 3px solid var(--ink);
+  }
+  .card h3 {
+    font-size: var(--t-xl);
+    line-height: 1.12;
+  }
+  .card h3 a {
+    text-decoration-thickness: 2px;
+  }
+  .card .lean {
+    margin: 0.35rem 0 0.5rem;
+  }
+  .card p + p {
+    margin-top: 0.35rem;
+  }
+  .brief p {
+    margin-top: 0.1rem;
+  }
+  .brief .lean {
+    font-weight: 600;
+    color: var(--muted);
+  }
+</style>

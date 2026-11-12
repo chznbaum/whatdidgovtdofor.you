@@ -1,0 +1,93 @@
+---
+// "Your turn here" on a place page: the ways in listed for this place itself (from src/data/get-involved.json), and a
+// link to /your-turn/ narrowed to this place, which adds everything that contains it (the state, the national groups).
+import TurnItem from './TurnItem.astro';
+import type { Place } from '../lib/data.ts';
+import { WAYS, byWay, listedCount, listedFor, yourTurnUrl } from '../lib/involved.ts';
+
+interface Props {
+  place: Place;
+}
+const { place } = Astro.props;
+const name = place.data.name;
+const listed = listedFor(place.id);
+const ways = byWay(listed);
+const n = listedCount(listed);
+const isUs = place.id === 'us';
+const href = isUs ? yourTurnUrl() : yourTurnUrl([place.id]);
+const more = isUs ? 'See ways in for every state and city' : `See everything open to people in ${name}`;
+---
+
+<section class="turn" aria-labelledby="turn-h">
+  <h2 id="turn-h">Your turn here</h2>
+  {
+    n > 0 ? (
+      <div class="ways">
+        {WAYS.map(
+          (w) =>
+            ways[w.id].length > 0 && (
+              <div class="way">
+                <h3>{w.title}</h3>
+                <ul role="list">
+                  {ways[w.id].map((i) => (
+                    <TurnItem item={i} variant="brief" />
+                  ))}
+                </ul>
+              </div>
+            ),
+        )}
+      </div>
+    ) : (
+      <p class="none">Nothing listed for {name} itself yet.</p>
+    )
+  }
+  <a class="more" href={href}>{more}</a>
+</section>
+
+<style>
+  .turn {
+    margin-top: 4rem;
+  }
+  h2 {
+    margin-bottom: 0.5rem;
+    font-size: clamp(var(--t-xl), 4vw, var(--t-2xl));
+  }
+  .ways {
+    display: grid;
+    gap: 1.5rem 2.5rem;
+    margin-top: 1rem;
+  }
+  /* A third each, like the columns on /your-turn/. */
+  @media (min-width: 60rem) {
+    .ways {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .way {
+    padding-top: 0.6rem;
+    border-top: 3px solid var(--ink);
+  }
+  h3 {
+    font: 700 1rem / 1.3 var(--text);
+    letter-spacing: 0;
+  }
+  ul {
+    display: grid;
+    gap: 0.8rem;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .none {
+    font-size: var(--t-body);
+  }
+  .more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: var(--t-md);
+    text-decoration-thickness: 2px;
+  }
+</style>

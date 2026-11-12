@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import ActionList from '../../components/ActionList.astro';
+import YourTurnHere from '../../components/YourTurnHere.astro';
 import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
 
@@ -96,6 +97,8 @@ const ownHeading =
         </p>
       )
     }
+
+    <YourTurnHere place={place} />
 
     {
       children.length > 0 && (

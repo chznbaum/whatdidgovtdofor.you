@@ -31,6 +31,9 @@ const levels = [
       <p class="coverage" data-coverage hidden>
         We cover national actions everywhere, and state and local actions in New York and Virginia so far.
       </p>
+      <p class="turn">
+        <a href="/your-turn/" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
+      </p>
     </section>
 
     <div class="results" data-results hidden>
@@ -242,6 +245,12 @@ const levels = [
     ].filter(Boolean);
     $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;
     $('[data-coverage]').hidden = !!legislature;
+
+    // Ways in for the same places: /your-turn/ narrowed by the place ids, never the address. The call to action at
+    // the bottom of the page follows suit.
+    const nearest = localPlaces[0] ?? index.places.find((p) => p.kind === 'state' && mine.has(p.id));
+    $('[data-turn-where]').textContent = nearest ? ` in ${nearest.name}` : '';
+    for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="/your-turn/"]')) a.href = `/your-turn/?places=${[...mine].join(',')}`;
     officialsEl.hidden = false;
 
     // Actions that apply to this address.
@@ -361,6 +370,17 @@ const levels = [
     margin-top: 1rem;
     font-size: var(--t-body);
     max-width: var(--measure);
+  }
+  .turn {
+    margin-top: 1.25rem;
+  }
+  .turn a {
+    display: inline-block;
+    padding: 0.6rem 0;
+    font-weight: 700;
+    font-size: var(--t-md);
+    line-height: 1.3;
+    text-decoration-thickness: 2px;
   }
   .results section {
     margin-top: 3.5rem;

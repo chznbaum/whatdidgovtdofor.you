@@ -62,6 +62,7 @@ src/content/entries/{federal,state,local}/<slug>.md   one action per file
 src/content/officials/<id>.yaml                      people and bodies (councils, boards)
 src/content/places/<id>.yaml                         jurisdictions with Census GEOIDs
 src/data/roster/*.json                               synced legislator rosters
+src/data/get-involved.json                           ways to run, serve, or work the polls, by place (see get-involved.schema.md)
 ```
 
 ## Annual upkeep

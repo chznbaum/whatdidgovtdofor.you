@@ -1,40 +1,61 @@
 ---
 // Where the call to action leads: how to run for office, and lower-barrier ways in (boards and commissions, poll
-// work). Driven by src/data/get-involved.json, which may be partial; empty sections say so.
+// work), organized by place the way actions are: the country, then each state with its regions, cities, and counties.
+// A reader narrows it to where they live with the chooser, or arrives narrowed from their /you/ results
+// (?places=us,va,hampton-roads,norfolk: the lookup's own place ids, never the address). Driven by
+// src/data/get-involved.json, which may be partial; places with nothing listed stay out of the full view.
 import Base from '../layouts/Base.astro';
+import TurnItem from '../components/TurnItem.astro';
 import { getPlacesMap } from '../lib/data.ts';
 import { formatDate } from '../lib/format.ts';
-import { FILTERS, LEAN_LABEL, byPlace, filtersFor, involved, sentence, type Resource } from '../lib/involved.ts';
+import { WAYS, byWay, containing, involved, listedCount, listedFor, outline, placeIdsInData, type Listed } from '../lib/involved.ts';
 
 const places = await getPlacesMap();
-const placeName = (id: string) => (id === 'us' ? 'Nationwide' : (places.get(id)?.data.name ?? id));
-const where = (ids: string[]) => (ids.includes('us') ? 'nationwide' : new Intl.ListFormat('en', { type: 'conjunction' }).format(ids.map(placeName)));
-const tags = (ids: string[]) => filtersFor(ids, places).join(' ');
-const { organizations: orgs, how_to_run, boards, poll_work, checked } = involved;
-const any = orgs.length + how_to_run.length + boards.length + poll_work.length > 0;
+const chapters = outline(places, placeIdsInData()).map((c) => ({
+  ...c,
+  rows: c.rows.map((r) => ({ ...r, listed: listedFor(r.id), n: listedCount(listedFor(r.id)) })),
+}));
+const national = chapters.find((c) => c.id === 'us');
+const local = chapters.filter((c) => c.id !== 'us');
 
-const sections: { id: string; title: string; intro: string; empty: string; items: Resource[] }[] = [
-  {
-    id: 'boards',
-    title: 'Join a board or commission',
-    intro:
-      'Cities, counties, and states appoint residents to boards and commissions on things like zoning, parks, and libraries. You apply instead of running.',
-    empty: 'Not listed yet. We’re adding how to apply in Virginia, Hampton Roads, and New York.',
-    items: boards,
-  },
-  {
-    id: 'polls',
-    title: 'Work the polls',
-    intro: 'Every election needs poll workers. You sign up with your local election office.',
-    empty: 'Not listed yet. We’re adding the sign-up pages for Virginia and New York.',
-    items: poll_work,
-  },
-];
+// The chooser: each state's cities and counties by name, then "somewhere else" in the state for an address we have
+// no city or county for. Regions aren't choices; choosing a city brings in the regions it belongs to.
+const choices = local
+  .filter((c) => c.id !== 'other')
+  .map((c) => ({
+    state: c.title,
+    id: c.id,
+    places: c.rows.filter((r) => r.kind === 'city' || r.kind === 'county').sort((a, b) => a.name.localeCompare(b.name)),
+  }));
+const listedStates = new Intl.ListFormat('en', { type: 'conjunction' }).format(
+  local.filter((c) => c.id !== 'other' && c.rows.some((r) => r.n > 0)).map((c) => c.title),
+);
+
+// For the script: each place's name and its line (itself plus every place that contains it), in page order.
+const data = {
+  order: chapters.flatMap((c) => c.rows.map((r) => r.id)),
+  places: Object.fromEntries(
+    chapters.flatMap((c) =>
+      c.rows.map((r) => [r.id, { name: r.id === 'us' ? 'nationwide' : r.name, line: [r.id, ...containing(r.id, places)] }]),
+    ),
+  ),
+  listedStates,
+};
+const json = JSON.stringify(data).replace(/</g, '\\u003c');
+// A folded row on a phone says what's inside: "Boards and poll work".
+const SHORT = { run: 'running for office', boards: 'boards', polls: 'poll work' } as const;
+const and = new Intl.ListFormat('en', { type: 'conjunction' });
+const offered = (l: Listed) => {
+  const ways = byWay(l);
+  const t = and.format(WAYS.filter((w) => ways[w.id].length).map((w) => SHORT[w.id]));
+  return t[0].toUpperCase() + t.slice(1);
+};
+const tellUs = (name: string) => `mailto:corrections@whatdidgovtdofor.you?subject=${encodeURIComponent(`Your turn: ${name}`)}`;
 ---
 
 <Base
   title="Your turn: run for office, join a board, or work the polls"
-  description="The people on this site got there by running for office, taking an appointment, or pushing from the outside. Here's where to start."
+  description="The people on this site got there by running for office, taking an appointment, or pushing from the outside. Here's where to start where you live."
   cta={false}
 >
   <header class="cover">
@@ -43,177 +64,256 @@ const sections: { id: string; title: string; intro: string; empty: string; items
         <h1>Your turn</h1>
         <p class="dek">
           The people on this site got there in different ways. Some ran for office, some were appointed, and some pushed
-          from the outside. Here’s where to start, from a seat on the ballot to a day at the polls.
+          from the outside. Here’s where to start where you live, from a seat on the ballot to a day at the polls.
         </p>
       </div>
-      <nav class="jump" aria-label="On this page">
-        <ul role="list">
-          <li><a href="#run">Run for office</a></li>
-          <li><a href="#boards">Join a board or commission</a></li>
-          <li><a href="#polls">Work the polls</a></li>
-        </ul>
-      </nav>
+      <div class="choose" data-choose hidden>
+        <label for="where">Where do you live?</label>
+        <select id="where" data-where>
+          <option value="">Every place</option>
+          {
+            choices.map((s) =>
+              s.places.length ? (
+                <optgroup label={s.state}>
+                  {s.places.map((p) => (
+                    <option value={p.id}>{p.name}</option>
+                  ))}
+                  <option value={s.id}>Somewhere else in {s.state}</option>
+                </optgroup>
+              ) : (
+                <option value={s.id}>{s.state}</option>
+              ),
+            )
+          }
+          <option value="us">Another state</option>
+        </select>
+        <a class="lookup" href="/you/">Or look up your address</a>
+      </div>
     </div>
   </header>
 
-  {
-    any && (
-      <div class="filter on-ink" data-filter hidden>
-        <div class="wrap filter-in">
-          <p id="filter-l">Show what’s open to people in</p>
-          <div class="choices" role="group" aria-labelledby="filter-l">
-            <button type="button" data-place="" aria-pressed="true">
-              Anywhere
-            </button>
-            {FILTERS.map((f) => (
-              <button type="button" data-place={f.id} aria-pressed="false">
-                {f.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-    )
-  }
+  <div class="scope on-ink" data-scope hidden>
+    <div class="wrap scope-in">
+      <p role="status" data-scope-text></p>
+      <button type="button" data-all>Show every place</button>
+    </div>
+  </div>
 
   <div class="wrap body">
-    <section id="run" aria-labelledby="run-h">
-      <h2 id="run-h" class="sec-h">Run for office</h2>
-      <p class="intro">
-        Groups that help people run, from school board to the state legislature. Each says where it stands, so you know what
-        you’re signing up for.
-      </p>
+    <dl class="ways">
       {
-        orgs.length > 0 ? (
-          <ul class="orgs" role="list">
-            {orgs.map((o) => (
-              <li data-in={tags(o.places)}>
-                <h3>
-                  <a href={o.url} target="_blank" rel="noopener">
-                    {o.name}
-                    <span class="visually-hidden">, opens in a new tab</span>
-                  </a>
-                </h3>
-                <p class="lean">
-                  <b>{LEAN_LABEL[o.lean]}</b>, {where(o.places)}
-                </p>
-                {o.for && <p>{sentence(o.for, 'For')}</p>}
-                {o.offers && <p>{sentence(o.offers, 'You get')}</p>}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p class="empty">Not listed yet. We’re adding groups that help people run.</p>
-        )
-      }
-
-      <h3 class="sub" id="ballot">How to get on the ballot</h3>
-      {
-        how_to_run.length > 0 ? (
-          <div class="places">
-            {byPlace(how_to_run).map(([place, items]) => (
-              <section class="place" data-in={tags([place])} aria-label={placeName(place)}>
-                <h4>{placeName(place)}</h4>
-                <ul role="list">
-                  {items.map((r) => (
-                    <li>
-                      <a href={r.url} target="_blank" rel="noopener">
-                        {r.name}
-                        <span class="visually-hidden">, opens in a new tab</span>
-                      </a>
-                      {r.offers && <p>{sentence(r.offers)}</p>}
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
+        WAYS.map((w) => (
+          <div>
+            <dt>{w.title}</dt>
+            <dd>{w.blurb}</dd>
           </div>
-        ) : (
-          <p class="empty">Not listed yet. We’re adding the official guides for Virginia and New York.</p>
-        )
+        ))
       }
-      <p class="none" data-none hidden>Nothing listed for <span data-none-place></span> yet.</p>
-    </section>
+    </dl>
 
     {
-      sections.map((s) => (
-        <section id={s.id} aria-labelledby={`${s.id}-h`}>
-          <h2 id={`${s.id}-h`} class="sec-h">
-            {s.title}
+      national && (
+        <section class="chapter" data-chapter aria-labelledby="c-us">
+          <h2 id="c-us" class="ch-h">
+            Nationwide
           </h2>
-          <p class="intro">{s.intro}</p>
-          {s.items.length > 0 ? (
-            <div class="places">
-              {byPlace(s.items).map(([place, items]) => (
-                <section class="place" data-in={tags([place])} aria-label={placeName(place)}>
-                  <h3>{placeName(place)}</h3>
-                  <ul role="list">
-                    {items.map((r) => (
-                      <li>
-                        <a href={r.url} target="_blank" rel="noopener">
-                          {r.name}
-                          <span class="visually-hidden">, opens in a new tab</span>
-                        </a>
-                        {r.offers && <p>{sentence(r.offers)}</p>}
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              ))}
+          {national.rows.map((r) => (
+            <div class="national" id="p-us" data-row="us" data-empty={r.n ? undefined : ''} hidden={!r.n}>
+              <p class="intro">
+                Groups that help people run, from school board to the state legislature. Each says where it stands, so you
+                know what you’re signing up for.
+              </p>
+              {r.listed.orgs.length > 0 && (
+                <ul class="orgs" role="list">
+                  {r.listed.orgs.map((o) => (
+                    <TurnItem item={o} variant="card" />
+                  ))}
+                </ul>
+              )}
+              {WAYS.map((w) => {
+                const items = w.id === 'run' ? r.listed.guides : byWay(r.listed)[w.id];
+                return (
+                  items.length > 0 && (
+                    <div class="national-way">
+                      <h3>{w.title}</h3>
+                      <ul role="list">
+                        {items.map((i) => (
+                          <TurnItem item={i} />
+                        ))}
+                      </ul>
+                    </div>
+                  )
+                );
+              })}
             </div>
-          ) : (
-            <p class="empty">{s.empty}</p>
-          )}
-          <p class="none" data-none hidden>
-            Nothing listed for <span data-none-place /> yet.
-          </p>
+          ))}
+        </section>
+      )
+    }
+
+    {
+      local.map((c) => (
+        <section class="chapter" data-chapter aria-labelledby={`c-${c.id}`} hidden={c.rows.every((r) => !r.n)}>
+          <h2 id={`c-${c.id}`} class="ch-h">
+            {c.title}
+          </h2>
+          <div class="cols" aria-hidden="true">
+            {WAYS.map((w) => (
+              <span data-way={w.id}>{w.title}</span>
+            ))}
+          </div>
+          {c.rows.map((r) => {
+            const ways = byWay(r.listed);
+            return (
+              <details class="row" id={`p-${r.id}`} data-row={r.id} data-empty={r.n ? undefined : ''} hidden={!r.n} open>
+                <summary>
+                  <h3 class="row-h">{r.label}</h3>
+                  {r.n > 0 && <span class="row-what">{offered(r.listed)}</span>}
+                </summary>
+                <div class="row-body">
+                  {r.n ? (
+                    WAYS.map(
+                      (w) =>
+                        ways[w.id].length > 0 && (
+                          <div class="cell" data-way={w.id}>
+                            <h4 class="cell-h">{w.title}</h4>
+                            <ul role="list">
+                              {ways[w.id].map((i) => (
+                                <TurnItem item={i} />
+                              ))}
+                            </ul>
+                          </div>
+                        ),
+                    )
+                  ) : (
+                    <p class="none">
+                      Nothing listed for {r.name} yet. Know a sign-up page we should add?{' '}
+                      <a href={tellUs(r.name)}>Tell us</a>.
+                    </p>
+                  )}
+                </div>
+              </details>
+            );
+          })}
         </section>
       ))
     }
 
     <p class="checked">
-      {checked && <>Links checked {formatDate(new Date(`${checked}T00:00:00Z`))}. </>}
+      {involved.checked && <>Links checked {formatDate(new Date(`${involved.checked}T00:00:00Z`))}. </>}
       We list groups across the spectrum and say where each one stands. Know one we should add, or a link that’s out of
       date? <a href="mailto:corrections@whatdidgovtdofor.you?subject=Your%20turn%20page">Tell us</a>.
     </p>
   </div>
+  <script type="application/json" id="turn-data" set:html={json} />
 </Base>
 
 <script>
-  // Narrow the page to one place. Without JavaScript, everything shows.
-  const bar = document.querySelector<HTMLElement>('[data-filter]');
-  if (bar) {
-    bar.hidden = false;
-    const buttons = [...bar.querySelectorAll<HTMLButtonElement>('button[data-place]')];
-    const apply = (place: string) => {
-      for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.place === place));
-      for (const el of document.querySelectorAll<HTMLElement>('[data-in]')) {
-        el.hidden = Boolean(place) && !el.dataset.in!.split(' ').includes(place);
-      }
-      // A section whose list is now empty says so, instead of showing nothing.
-      const label = buttons.find((b) => b.dataset.place === place)?.textContent?.trim() ?? '';
-      for (const sec of document.querySelectorAll<HTMLElement>('.body > section')) {
-        const items = [...sec.querySelectorAll<HTMLElement>('[data-in]')];
-        const none = sec.querySelector<HTMLElement>('[data-none]');
-        if (!none) continue;
-        none.hidden = !place || items.length === 0 || items.some((i) => !i.hidden);
-        none.querySelector('[data-none-place]')!.textContent = label;
-      }
-      const url = new URL(location.href);
-      if (place) url.searchParams.set('place', place);
-      else url.searchParams.delete('place');
-      history.replaceState(null, '', url);
-    };
-    for (const b of buttons) b.addEventListener('click', () => apply(b.dataset.place!));
-    const start = new URLSearchParams(location.search).get('place');
-    if (start && buttons.some((b) => b.dataset.place === start)) apply(start);
+  // Narrow the page to the places a reader lives in. A place brings in every place that contains it (Norfolk brings
+  // in Hampton Roads, Virginia, and the national groups), the same set the /you/ lookup finds for an address.
+  // Without JavaScript, every place with something listed shows.
+  type Data = { order: string[]; places: Record<string, { name: string; line: string[] }>; listedStates: string };
+  const data: Data = JSON.parse(document.getElementById('turn-data')!.textContent!);
+  const choose = document.querySelector<HTMLElement>('[data-choose]')!;
+  const select = document.querySelector<HTMLSelectElement>('[data-where]')!;
+  const scope = document.querySelector<HTMLElement>('[data-scope]')!;
+  const scopeText = document.querySelector<HTMLElement>('[data-scope-text]')!;
+  const rows = [...document.querySelectorAll<HTMLElement>('[data-row]')];
+  const chapters = [...document.querySelectorAll<HTMLElement>('[data-chapter]')];
+
+  const known = (id: string) => id in data.places;
+  const lineOf = (ids: string[]) => new Set(ids.filter(known).flatMap((id) => data.places[id].line));
+  // The most specific places in a set: the ones no other place in it sits inside.
+  const leaves = (set: Set<string>) => [...set].filter((id) => ![...set].some((o) => o !== id && data.places[o].line.includes(id)));
+
+  function link(id: string) {
+    const a = document.createElement('a');
+    a.href = `#p-${id}`;
+    a.textContent = data.places[id].name;
+    return a;
   }
+
+  // On a phone the full view folds each place to one line (its name and what it lists), so the page scans as a list
+  // of places; narrowed, or on a wide screen, every place is open. Folding is the script's job: without it, all open.
+  const wide = matchMedia('(min-width: 60rem)');
+  const folds = [...document.querySelectorAll<HTMLDetailsElement>('details[data-row]')];
+  let narrowed = false;
+  const fold = () => folds.forEach((d) => (d.open = wide.matches || narrowed));
+  wide.addEventListener('change', fold);
+  // On a wide screen the place names head their rows and don't fold.
+  for (const d of folds) d.querySelector('summary')!.addEventListener('click', (e) => wide.matches && e.preventDefault());
+  // A jump straight to a place (#p-norfolk) opens it.
+  const openTarget = () => {
+    const t = location.hash.length > 1 ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+    if (t instanceof HTMLDetailsElement) t.open = true;
+  };
+  addEventListener('hashchange', openTarget);
+
+  function show(set: Set<string> | null) {
+    for (const r of rows) r.hidden = set ? !set.has(r.dataset.row!) : 'empty' in r.dataset;
+    for (const c of chapters) c.hidden = [...c.querySelectorAll<HTMLElement>('[data-row]')].every((r) => r.hidden);
+    narrowed = Boolean(set);
+    fold();
+    scope.hidden = !set;
+    if (!set) return;
+
+    // "Showing Norfolk, Hampton Roads, Virginia, and nationwide.", nearest first, each a jump to its place.
+    const ids = data.order.filter((id) => set.has(id)).reverse();
+    if (ids.length === 1 && ids[0] === 'us') {
+      scopeText.textContent = `Showing national groups. We list state and local ways in for ${data.listedStates} so far.`;
+      return;
+    }
+    const parts: (Node | string)[] = ['Showing '];
+    ids.forEach((id, i) => {
+      if (i > 0) parts.push(ids.length > 2 ? (i === ids.length - 1 ? ', and ' : ', ') : ' and ');
+      parts.push(link(id));
+    });
+    parts.push('.');
+    scopeText.replaceChildren(...parts);
+  }
+
+  function setChoice(value: string) {
+    select.querySelector('option[data-added]')?.remove();
+    if (value && !select.querySelector(`option[value="${CSS.escape(value)}"]`)) {
+      // A place that isn't a choice (a region, from its place page): add it so the chooser says where we are.
+      const o = new Option(data.places[value].name, value);
+      o.dataset.added = '';
+      select.options.add(o, 1);
+    }
+    select.value = value;
+  }
+
+  function apply(ids: string[], updateUrl: boolean) {
+    const set = ids.length ? lineOf(ids) : null;
+    show(set && set.size ? set : null);
+    setChoice(set && set.size ? (leaves(set)[0] ?? '') : '');
+    if (updateUrl) {
+      const url = new URL(location.href);
+      url.searchParams.delete('place');
+      if (ids.length) url.searchParams.set('places', ids.join(','));
+      else url.searchParams.delete('places');
+      history.replaceState(null, '', `${url.pathname}${url.search.replace(/%2C/gi, ',')}${url.hash}`);
+    }
+  }
+
+  choose.hidden = false;
+  select.addEventListener('change', () => apply(select.value ? [select.value] : [], true));
+  document.querySelector('[data-all]')!.addEventListener('click', () => {
+    apply([], true);
+    select.focus();
+  });
+  // ?places= from /you/ results and place pages; ?place= from the page's first version.
+  const params = new URLSearchParams(location.search);
+  const start = (params.get('places') ?? params.get('place') ?? '').split(',').map((s) => s.trim()).filter(known);
+  if (start.length) apply(start, false);
+  else fold();
+  openTarget();
 </script>
 
 <style>
   .cover {
     background: var(--orange);
-    padding: 1.75rem 0 1.5rem;
+    padding: 1.75rem 0 1.75rem;
   }
   h1 {
     font-size: clamp(var(--t-4xl), 12vw, 8rem);
@@ -226,139 +326,206 @@ const sections: { id: string; title: string; intro: string; empty: string; items
     font-size: var(--t-md);
     line-height: 1.45;
   }
-  /* The three ways in, as the cover's own table of contents. */
-  .jump ul {
+
+  /* The chooser: the same ink-framed field as the address lookup, set in the display face. */
+  .choose {
     display: grid;
-    margin: 1.25rem 0 0;
-    padding: 0;
-    list-style: none;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    max-width: 30rem;
   }
-  .jump li {
-    border-top: 3px solid var(--ink);
+  .choose label {
+    font-weight: 700;
+    font-size: var(--t-body);
   }
-  .jump a {
-    display: flex;
+  select {
+    appearance: none;
+    width: 100%;
+    min-height: 3.5rem;
+    padding: 0 3rem 0 0.85rem;
+    border: 3px solid var(--ink);
+    border-radius: 0;
+    background: var(--paper)
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3Cpath d='M1 1l7 7 7-7' fill='none' stroke='%23000' stroke-width='2.5'/%3E%3C/svg%3E")
+      no-repeat right 1rem center / 1rem auto;
+    color: var(--ink);
+    font: 400 var(--t-lg) / 1.2 var(--display);
+    cursor: pointer;
+  }
+  .lookup {
+    display: inline-flex;
     align-items: center;
-    min-height: 3.25rem;
-    font: 400 var(--t-xl) / 1.1 var(--display);
-    text-decoration: none;
-  }
-  .jump a:hover {
-    text-decoration: underline;
+    justify-self: start;
+    min-height: 44px;
+    font-weight: 600;
     text-decoration-thickness: 2px;
   }
 
-  /* The place filter: an ink band right under the cover. */
-  .filter {
+  /* While narrowed: an ink band that says which places are showing, each a jump to its place, and the way back. */
+  .scope {
     background: var(--ink);
     color: var(--paper);
-    padding: 1rem 0 1.1rem;
+    padding: 0.9rem 0 1rem;
   }
-  .filter p {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .choices {
+  .scope-in {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.6rem 1.5rem;
   }
-  .choices button {
+  .scope p {
+    flex: 1 1 20rem;
+    font-weight: 600;
+    font-size: var(--t-md);
+    line-height: 1.4;
+  }
+  .scope p :global(a) {
+    font-weight: 800;
+    text-decoration-thickness: 2px;
+  }
+  .scope button {
     min-height: 44px;
-    padding: 0 0.9rem;
-    border: 2px solid var(--paper);
-    background: var(--ink);
-    color: var(--paper);
+    padding: 0 1rem;
+    border: 0;
+    border-radius: 0;
+    background: var(--orange);
+    color: var(--ink);
     font: 700 1rem / 1 var(--text);
     cursor: pointer;
   }
-  .choices button[aria-pressed='true'] {
-    background: var(--orange);
-    border-color: var(--orange);
-    color: var(--ink);
+  .scope button:hover {
+    text-decoration: underline;
   }
 
   .body {
     display: grid;
     gap: 3.5rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
-  .body > section {
+
+  /* The three ways in, defined once; every place lists them in this order. */
+  .ways {
+    display: grid;
+    gap: 0.85rem;
+    margin: 0;
+  }
+  .ways div {
+    padding-top: 0.6rem;
+    border-top: 3px solid var(--ink);
+  }
+  .ways dt {
+    font: 400 var(--t-lg) / 1.15 var(--display);
+  }
+  .ways dd {
+    margin: 0.2rem 0 0;
+    max-width: 36rem;
+    font-size: 1rem;
+  }
+
+  .chapter {
     scroll-margin-top: 1rem;
+  }
+  .ch-h {
+    font-size: clamp(var(--t-2xl), 8vw, var(--t-4xl));
+    line-height: 1;
+    letter-spacing: -0.02em;
   }
   .intro {
     max-width: 40rem;
-    margin-top: -0.5rem;
-    font-size: var(--t-body);
+    margin-top: 0.6rem;
   }
-
   .orgs {
     display: grid;
     gap: 1.75rem;
-    margin: 1.75rem 0 0;
+    margin: 1.5rem 0 0;
     padding: 0;
     list-style: none;
   }
-  .orgs li {
-    padding-top: 0.9rem;
-    border-top: 3px solid var(--ink);
-    max-width: 40rem;
+  .national-way {
+    margin-top: 2rem;
   }
-  .orgs h3 {
-    font-size: var(--t-xl);
-    line-height: 1.12;
-  }
-  .orgs h3 a {
-    text-decoration-thickness: 2px;
-  }
-  .lean {
-    margin: 0.35rem 0 0.5rem;
-    font-size: 1rem;
-  }
-  .lean b {
-    font-weight: 800;
-  }
-  .orgs p + p {
-    margin-top: 0.35rem;
+  .national-way h3 {
+    font-size: var(--t-lg);
   }
 
-  .sub {
-    margin-top: 3rem;
+  /* Each place: its name, then whichever of the three ways it lists. On a phone, a row that folds to its name and
+     what it lists; on a wide screen, a grid of places by ways in. */
+  .cols {
+    display: none;
+  }
+  .ch-h + .cols + .row,
+  .ch-h + .row {
+    margin-top: 1rem;
+  }
+  .row {
+    border-top: 3px solid var(--ink);
+    scroll-margin-top: 1rem;
+  }
+  .row summary {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: 1rem;
+    min-height: 44px;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    list-style: none;
+  }
+  .row summary::-webkit-details-marker {
+    display: none;
+  }
+  .row summary::after {
+    content: '';
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    width: 1rem;
+    height: 0.65rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 10'%3E%3Cpath d='M1 1l7 7 7-7' fill='none' stroke='%23000' stroke-width='2.5'/%3E%3C/svg%3E")
+      no-repeat center / contain;
+  }
+  .row[open] summary::after {
+    transform: rotate(180deg);
+  }
+  .row-h {
+    grid-column: 1;
     font-size: var(--t-xl);
   }
-  .places {
+  .row-what {
+    grid-column: 1;
+    margin-top: 0.15rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--muted);
+  }
+  /* Open, the cells' own heads say the same thing. */
+  .row[open] .row-what {
+    display: none;
+  }
+  .row-body {
     display: grid;
-    gap: 1.75rem;
-    margin-top: 1.25rem;
+    gap: 1.25rem;
+    padding: 0.25rem 0 2rem;
   }
-  .place h3,
-  .place h4 {
-    font: 400 var(--t-lg) / 1.2 var(--display);
-    padding-bottom: 0.4rem;
-    border-bottom: 3px solid var(--ink);
+  .cell-h {
+    font: 700 1rem / 1.3 var(--text);
+    letter-spacing: 0;
   }
-  .place ul {
+  .cell ul,
+  .national-way ul {
     display: grid;
     gap: 0.9rem;
-    margin: 0.75rem 0 0;
+    margin: 0.4rem 0 0;
     padding: 0;
     list-style: none;
   }
-  .place a {
-    font-weight: 700;
-    font-size: var(--t-md);
-  }
-  .place li p {
-    margin-top: 0.2rem;
-    max-width: 40rem;
-  }
-  .empty,
   .none {
-    margin-top: 1rem;
     font-size: var(--t-body);
     color: var(--muted);
   }
+  .none a {
+    color: var(--ink);
+  }
+
   .checked {
     max-width: 40rem;
     font-size: 1rem;
@@ -378,20 +545,97 @@ const sections: { id: string; title: string; intro: string; empty: string; items
       gap: 4rem;
       align-items: end;
     }
-    .jump ul {
-      margin: 0;
+    .choose {
+      margin-top: 0;
     }
-    .jump a {
-      min-height: 4.25rem;
-      font-size: var(--t-2xl);
+    .body {
+      gap: 4.5rem;
+      margin-top: 2.5rem;
+    }
+    .ways {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 3rem;
+    }
+    .ways dt {
+      font-size: var(--t-xl);
     }
     .orgs {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 2.25rem 3rem;
     }
-    .places {
-      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-      gap: 2.25rem 3rem;
+
+    /* A grid of places by ways in: the place on the left, one column per way, headed once and kept in view. The
+       place name floats rather than sitting in a grid cell, so the layout doesn't depend on how a browser boxes the
+       inside of <details>. */
+    .cols {
+      display: grid;
+      grid-template-columns: 13rem repeat(3, minmax(0, 1fr));
+      column-gap: 2.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      margin-top: 1rem;
+      padding: 0.6rem 0;
+      background: var(--paper);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .cols span:first-child {
+      grid-column: 2;
+    }
+    .ch-h + .cols + .row {
+      margin-top: 0;
+    }
+    .row {
+      display: flow-root;
+      padding: 1rem 0 2.25rem;
+      /* Clear of the sticky column heads when a jump link lands here. */
+      scroll-margin-top: 3.5rem;
+    }
+    .row summary {
+      display: block;
+      float: left;
+      width: 13rem;
+      min-height: 0;
+      padding: 0;
+      cursor: default;
+    }
+    .row summary::after,
+    .row .row-what {
+      display: none;
+    }
+    .row-body {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 2.5rem;
+      margin-left: 15.5rem;
+      padding: 0;
+    }
+    .cell {
+      grid-row: 1;
+    }
+    .cell[data-way='run'] {
+      grid-column: 1;
+    }
+    .cell[data-way='boards'] {
+      grid-column: 2;
+    }
+    .cell[data-way='polls'] {
+      grid-column: 3;
+    }
+    /* The column heads above say which way each cell is. */
+    .cell-h {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    .cell ul {
+      margin-top: 0;
+    }
+    .none {
+      grid-column: 1 / -1;
     }
   }
 </style>

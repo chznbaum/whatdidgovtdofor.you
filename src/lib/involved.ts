@@ -1,9 +1,11 @@
-// The "your turn" page and the call to action above the footer. Data comes from src/data/get-involved.json
-// (shape: src/data/get-involved.schema.md), which a researcher fills in over time, so everything here tolerates a
-// missing file, missing lists, and half-filled items: anything without a name and a URL is skipped.
+// Ways into government: /your-turn/, "Your turn here" on each place page, and the link from /you/ results. Data comes
+// from src/data/get-involved.json (shape: src/data/get-involved.schema.md). Every item belongs to a place, with the
+// same place ids actions use, so a reader's address narrows these the way it narrows actions. A researcher fills the
+// file in over time, so everything here tolerates a missing file, missing lists, and half-filled items: anything
+// without a name and a URL is skipped. The validator (pipeline/validate.ts) is the strict side.
 import type { Place } from './data.ts';
+import { LEANS } from './schema.ts';
 
-export const LEANS = ['progressive', 'worker', 'nonpartisan', 'official'] as const;
 export type Lean = (typeof LEANS)[number];
 // Said plainly, the way the site gives party as a word: a reader should know what they're clicking.
 export const LEAN_LABEL: Record<Lean, string> = {
@@ -54,43 +56,107 @@ export const involved: Involved = {
   poll_work: resources(raw.poll_work),
 };
 
-// The places a reader can narrow the page to.
-export const FILTERS = [
-  { id: 'va', label: 'Virginia' },
-  { id: 'hampton-roads', label: 'Hampton Roads' },
-  { id: 'ny', label: 'New York State' },
-  { id: 'nyc', label: 'New York City' },
+// The three ways in, in the order every place lists them.
+export const WAYS = [
+  {
+    id: 'run',
+    title: 'Run for office',
+    blurb: 'The official rules for getting on the ballot, and groups that train and back candidates.',
+  },
+  {
+    id: 'boards',
+    title: 'Join a board or commission',
+    blurb: 'Cities, counties, and states appoint residents to boards on things like zoning, parks, and libraries. You apply instead of running.',
+  },
+  {
+    id: 'polls',
+    title: 'Work the polls',
+    blurb: 'Every election needs poll workers. You sign up with your state or local election office.',
+  },
 ] as const;
+export type Way = (typeof WAYS)[number]['id'];
 
-// For one item's place: the filters it belongs under. An item applies to a filter when its place is that place, inside
-// it (Norfolk is in Hampton Roads), or contains it (a Virginia guide applies to Hampton Roads; anything national applies
-// everywhere).
-export function filtersFor(placeIds: string[], places: Map<string, Place>): string[] {
-  const ancestors = (id: string): string[] => {
-    const p = places.get(id);
-    const up = [p?.data.parent?.id, ...[...places.values()].filter((r) => r.data.members.some((m) => m.id === id)).map((r) => r.id)];
-    return up.filter(Boolean).flatMap((u) => [u!, ...ancestors(u!)]);
+export type Listed = { guides: Resource[]; orgs: Org[]; boards: Resource[]; polls: Resource[] };
+
+// What's listed for one place. A group that works nationwide is listed once, under the country, even when it also
+// names states; a group that names only states or localities is listed under each of them.
+export function listedFor(id: string): Listed {
+  const national = (o: Org) => o.places.includes('us');
+  return {
+    guides: involved.how_to_run.filter((r) => r.place === id),
+    orgs: involved.organizations.filter((o) => (id === 'us' ? national(o) : !national(o) && o.places.includes(id))),
+    boards: involved.boards.filter((r) => r.place === id),
+    polls: involved.poll_work.filter((r) => r.place === id),
   };
-  const out = new Set<string>();
-  for (const id of placeIds) {
-    if (id === 'us') return FILTERS.map((f) => f.id);
-    const line = [id, ...ancestors(id)];
-    for (const f of FILTERS) {
-      const inside = line.includes(f.id);
-      const contains = ancestors(f.id).includes(id);
-      if (inside || contains) out.add(f.id);
+}
+export const listedCount = (l: Listed) => l.guides.length + l.orgs.length + l.boards.length + l.polls.length;
+// Under "Run for office", the official guide comes before the groups.
+export const byWay = (l: Listed): Record<Way, (Org | Resource)[]> => ({ run: [...l.guides, ...l.orgs], boards: l.boards, polls: l.polls });
+
+// Every place id the data names, including any that aren't places yet (the validator flags those).
+export const placeIdsInData = () => [
+  ...new Set([
+    ...involved.organizations.flatMap((o) => o.places),
+    ...[...involved.how_to_run, ...involved.boards, ...involved.poll_work].map((r) => r.place),
+  ]),
+];
+
+// The places that contain a place: its parent, any region that lists it as a member, and on up to the country.
+// The address lookup on /you/ produces the same set (the country, the state, the city or county, and its regions).
+export function containing(id: string, places: Map<string, Place>): string[] {
+  const out: string[] = [];
+  const visit = (x: string) => {
+    const regions = [...places.values()].filter((r) => r.data.members.some((m) => m.id === x)).map((r) => r.id);
+    for (const up of [places.get(x)?.data.parent?.id, ...regions]) {
+      if (up && !out.includes(up)) {
+        out.push(up);
+        visit(up);
+      }
     }
-  }
-  return [...out];
+  };
+  visit(id);
+  return out;
 }
 
-// Group resources by place, in the order the site lists places: national, then Virginia, then New York.
-const ORDER = ['us', 'va', 'hampton-roads', 'ny', 'nyc'];
-export function byPlace(items: Resource[]): [string, Resource[]][] {
-  const groups = new Map<string, Resource[]>();
-  for (const r of items) groups.set(r.place, [...(groups.get(r.place) ?? []), r]);
-  const rank = (id: string) => (ORDER.includes(id) ? ORDER.indexOf(id) : ORDER.length);
-  return [...groups.entries()].sort(([a], [b]) => rank(a) - rank(b) || a.localeCompare(b));
+// The page's outline: the country first, then each state (by name) with its own row, then its regions, each followed
+// by its member cities and counties, then any other places in the state. Anything left over (an id in the data that
+// isn't a place yet) goes last, so it still shows.
+export type Row = { id: string; label: string; name: string; kind: string };
+export type Chapter = { id: string; title: string; rows: Row[] };
+
+export function outline(places: Map<string, Place>, extra: string[] = []): Chapter[] {
+  const byName = (a: Place, b: Place) => a.data.name.localeCompare(b.data.name);
+  const isRegion = (p: Place) => p.data.kind === 'region';
+  const inside = (id: string) =>
+    [...places.values()]
+      .filter((p) => p.data.parent?.id === id || places.get(id)?.data.members.some((m) => m.id === p.id))
+      .sort((a, b) => Number(isRegion(b)) - Number(isRegion(a)) || byName(a, b));
+  const row = (p: Place, label = p.data.name): Row => ({ id: p.id, label, name: p.data.name, kind: p.data.kind });
+
+  const seen = new Set<string>();
+  const chapters: Chapter[] = [];
+  const us = places.get('us');
+  if (us) {
+    seen.add('us');
+    chapters.push({ id: 'us', title: 'Nationwide', rows: [row(us, 'Nationwide')] });
+  }
+  for (const state of [...places.values()].filter((p) => p.data.kind === 'state').sort(byName)) {
+    const rows: Row[] = [];
+    const walk = (p: Place, label?: string) => {
+      if (seen.has(p.id)) return;
+      seen.add(p.id);
+      rows.push(row(p, label));
+      for (const q of inside(p.id)) walk(q);
+    };
+    walk(state, 'Statewide');
+    chapters.push({ id: state.id, title: state.data.name, rows });
+  }
+  const rest: Row[] = [
+    ...[...places.values()].filter((p) => !seen.has(p.id)).map((p) => row(p)),
+    ...extra.filter((id) => !places.has(id)).map((id) => ({ id, label: id, name: id, kind: 'unknown' })),
+  ];
+  if (rest.length) chapters.push({ id: 'other', title: 'Other places', rows: rest });
+  return chapters;
 }
 
 // "teachers who want to run" → "For teachers who want to run."; leaves a sentence that already ends alone.
@@ -98,3 +164,7 @@ export const sentence = (s: string, lead = '') => {
   const t = lead ? `${lead} ${s}` : s[0].toUpperCase() + s.slice(1);
   return /[.!?]$/.test(t) ? t : `${t}.`;
 };
+
+// Where /your-turn/ narrows to: the places listed, plus everything that contains them. The /you/ results link passes
+// the lookup's own place set ("us,va,hampton-roads,norfolk"); a place page passes its own id.
+export const yourTurnUrl = (ids: string[] = []) => (ids.length ? `/your-turn/?places=${ids.join(',')}` : '/your-turn/');
