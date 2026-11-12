@@ -6,6 +6,7 @@ export type Candidate = {
   feed: string; // feed id that produced it
   level: 'federal' | 'state' | 'local';
   jurisdiction: string; // place id: us | ny | nyc | va | norfolk | virginia-beach | chesapeake | portsmouth | suffolk | hampton | newport-news | ...
+  places?: string[]; // other place ids with a local footprint, e.g. a federal grant to Norfolk: jurisdiction us, places [norfolk]
   kind: 'law' | 'executive-order' | 'regulation' | 'ordinance' | 'press-release' | 'other';
   title: string;
   date: string; // YYYY-MM-DD (enacted / signed / published)

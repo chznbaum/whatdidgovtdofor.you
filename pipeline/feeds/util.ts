@@ -108,20 +108,24 @@ export const slugify = (s: string) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 
-export type RssItem = { title: string; link: string; pubDate: string; description: string; guid: string };
+// `xml` is the raw item, for feeds that carry extra tags (read them with xmlTag).
+export type RssItem = { title: string; link: string; pubDate: string; description: string; guid: string; xml: string };
+
+// Inner text of the first <name> element, CDATA unwrapped; '' if absent.
+export function xmlTag(xml: string, name: string): string {
+  const m = xml.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)</${name}>`, 'i'));
+  return m ? m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim() : '';
+}
 
 // Regex extractor for RSS 2.0 <item>s; good enough for CivicPlus and similar CMS feeds.
 export function rssItems(xml: string): RssItem[] {
-  const tag = (item: string, name: string) => {
-    const m = item.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)</${name}>`, 'i'));
-    return m ? m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim() : '';
-  };
   return [...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(([, item]) => ({
-    title: plainText(tag(item, 'title')),
-    link: decodeEntities(tag(item, 'link')),
-    pubDate: tag(item, 'pubDate'),
-    description: tag(item, 'description'),
-    guid: decodeEntities(tag(item, 'guid')),
+    title: plainText(xmlTag(item, 'title')),
+    link: decodeEntities(xmlTag(item, 'link')),
+    pubDate: xmlTag(item, 'pubDate'),
+    description: xmlTag(item, 'description'),
+    guid: decodeEntities(xmlTag(item, 'guid')),
+    xml: item,
   }));
 }
 
@@ -130,10 +134,11 @@ const iso = (y: number | string, m: number, d: number | string) =>
   `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 
 // "Thu, 05 Nov 2026 17:23:52 -0500" -> "2026-11-05" (the publisher's local date, not UTC).
+//   RFC 822 also allows two-digit years ("Tue, 10 Nov 26", as dol.gov sends).
 export function rfc822Date(s: string): string | null {
-  const m = s.match(/(\d{1,2})\s+([a-z]{3})[a-z]*\s+(\d{4})/i);
+  const m = s.match(/(\d{1,2})\s+([a-z]{3})[a-z]*\s+(\d{4}|\d{2})\b/i);
   const month = m ? MONTHS.indexOf(m[2].toLowerCase()) + 1 : 0;
-  return m && month ? iso(m[3], month, m[1]) : null;
+  return m && month ? iso(m[3].length === 2 ? `20${m[3]}` : m[3], month, m[1]) : null;
 }
 
 // "November 5, 2026" / "Nov. 05, 2026" -> "2026-11-05"

@@ -9,11 +9,14 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { ceremonialReason } from './ceremonial.ts';
 import { hamptonRoadsFeeds } from './hampton-roads.ts';
+import { nyGovernor } from './ny-governor.ts';
 import { nyLaws } from './ny-laws.ts';
 import { nycLaws } from './nyc-laws.ts';
 import { nycMayor } from './nyc-mayor.ts';
+import { nycRules } from './nyc-rules.ts';
 import type { Candidate, Feed, FeedOptions } from './types.ts';
 import { usExecutiveOrders } from './us-executive-orders.ts';
+import { usGrants } from './us-grants.ts';
 import { usLaws } from './us-laws.ts';
 import { usRules } from './us-rules.ts';
 import { localDate, today } from './util.ts';
@@ -24,9 +27,12 @@ export const feeds: Feed[] = [
   usLaws,
   usExecutiveOrders,
   usRules,
+  usGrants,
   nyLaws,
+  nyGovernor,
   nycLaws,
   nycMayor,
+  nycRules,
   vaLaws,
   vaGovernor,
   ...hamptonRoadsFeeds,
