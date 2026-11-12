@@ -30,6 +30,11 @@ const levels = [
       <div class="tiers" data-tiers></div>
       <p class="coverage" data-coverage hidden>
         We cover national actions everywhere, and state and local actions in New York and Virginia so far.
+        <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add your area</a>.
+      </p>
+      <p class="coverage" data-local-coverage hidden>
+        We don't track <span data-local-name></span>'s local government yet.
+        <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add it</a>.
       </p>
       <p class="turn">
         <a href="/your-turn/" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
@@ -245,6 +250,14 @@ const levels = [
     ].filter(Boolean);
     $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;
     $('[data-coverage]').hidden = !!legislature;
+    // Not covered yet: offer to ask for the city or county (never the address itself). A covered state with an
+    // uncovered locality gets its own note; an uncovered state gets the general one above.
+    const localName = incPlace?.BASENAME ?? county?.NAME;
+    $('[data-local-name]').textContent = localName ?? '';
+    $('[data-local-coverage]').hidden = !legislature || localPlaces.length > 0 || !localName;
+    const askFor = [localName ?? state?.NAME, abbr].filter(Boolean).join(', ');
+    for (const a of document.querySelectorAll<HTMLAnchorElement>('a[data-ask]'))
+      a.href = `mailto:places@whatdidgovtdofor.you?subject=${encodeURIComponent(`Please add ${askFor}`)}`;
 
     // Ways in for the same places: /your-turn/ narrowed by the place ids, never the address. The call to action at
     // the bottom of the page follows suit.
