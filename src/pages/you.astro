@@ -196,7 +196,7 @@ const levels = [
     for (const p of index.places) {
       const g = p.geoids;
       if (p.kind === 'state' && g.state === fips) mine.add(p.id);
-      if ((p.kind === 'city' || p.kind === 'county') && ((g.place && g.place === incPlace?.GEOID) || (g.county && g.county === county?.GEOID)))
+      if ((p.kind === 'city' || p.kind === 'county' || p.kind === 'town') && ((g.place && g.place === incPlace?.GEOID) || (g.county && g.county === county?.GEOID)))
         mine.add(p.id);
     }
     for (const p of index.places) if (p.kind === 'region' && p.members.some((m) => mine.has(m))) mine.add(p.id);
@@ -223,7 +223,7 @@ const levels = [
             : []),
         ]
       : [];
-    const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county'));
+    const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'));
     const localItems = localPlaces.flatMap((p) => seatsFor(p.id).map((s) => officialItem(s.title, s)));
     let councilName: string | undefined;
     for (const p of localPlaces) {

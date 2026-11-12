@@ -1,0 +1,5 @@
+name: New Kent County
+short: New Kent
+kind: county
+parent: va
+geoids: { state: "51", county: "51127" }

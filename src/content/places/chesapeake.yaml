@@ -3,3 +3,5 @@ short: Chesapeake
 kind: city
 parent: va
 geoids: { state: "51", county: "51550" }
+feeds:
+  - { type: rss, url: "https://www.cityofchesapeake.net/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }

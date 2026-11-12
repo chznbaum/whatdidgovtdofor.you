@@ -8,6 +8,8 @@
 //   - An ambiguous name counts only when it's followed by ", Virginia" / ", Va." / ", VA", or when
 //     the text is about Virginia, isn't followed by another state ("Portsmouth, N.H."), and names
 //     none of the other states or countries that have a place by that name.
+//   - A strict name (Ashland, Powhatan) counts only when it's followed by ", Virginia": there are too
+//     many Ashlands, and Powhatan is also a people and their paramount chief.
 //   - States (ny, va) are reported apart from local places; callers decide when a state is enough.
 import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
@@ -21,6 +23,11 @@ const NOT_PLACES = [
   /\bPortsmouth Naval Shipyard\b/g, // Kittery, Maine
   /\bWilliamsburg (?:Bridge|Houses)\b/g, // Brooklyn
   /\bNew York County\b/g, // Manhattan, and it contains "York County"
+  /\bFederal Reserve Bank of Richmond\b|\bRichmond Fed\b/g, // federal, not the city
+  /\bRichmond (?:County|Hill|Terrace|Avenue|Valley|Heights|Highway|District|University Medical Center)\b/g, // Staten Island, Queens, Ga., N.C., Ohio, U.S. 1 in Fairfax, San Francisco
+  /\bCedric Richmond\b/g, // former Louisiana congressman
+  /\bNew Hanover\b|\bHanover (?:Square|Street|Insurance)\b|\bHouse of Hanover\b/g, // N.C. county; Manhattan; a company; the dynasty
+  /\bChesterfield Township\b/g, // Mich., N.J.
 ];
 
 // Ambiguous name -> other states and countries with a place by that name. Abbreviations only
@@ -36,15 +43,28 @@ const AMBIGUOUS: Record<string, string[]> = {
   Gloucester: ['Massachusetts', 'Mass.', 'MA', 'New Jersey', 'N.J.', 'NJ', 'England', 'United Kingdom', 'U.K.', 'UK'],
   'Gloucester County': ['New Jersey', 'N.J.', 'NJ'],
   'Isle of Wight': ['England', 'United Kingdom', 'U.K.', 'UK'],
+  Richmond: ['California', 'Calif.', 'CA', 'Kentucky', 'Ky.', 'KY', 'Indiana', 'Ind.', 'IN', 'Texas', 'Tex.', 'TX', 'Missouri', 'Mo.', 'MO', 'Michigan', 'Mich.', 'MI', 'Illinois', 'Ill.', 'IL', 'Rhode Island', 'R.I.', 'RI', 'Vermont', 'Vt.', 'VT', 'Maine', 'Utah', 'Staten Island', 'British Columbia', 'B.C.', 'BC', 'Canada', 'London', 'England', 'United Kingdom', 'U.K.', 'UK', 'Australia', 'New Zealand'],
+  Chesterfield: ['Missouri', 'Mo.', 'MO', 'Michigan', 'Mich.', 'MI', 'New Jersey', 'N.J.', 'NJ', 'New Hampshire', 'N.H.', 'NH', 'Indiana', 'Ind.', 'IN', 'South Carolina', 'S.C.', 'SC', 'Massachusetts', 'Mass.', 'MA', 'England', 'Derbyshire', 'United Kingdom', 'U.K.', 'UK'],
+  'Chesterfield County': ['South Carolina', 'S.C.', 'SC'],
+  Hanover: ['Germany', 'New Hampshire', 'N.H.', 'NH', 'Dartmouth', 'Pennsylvania', 'Pa.', 'PA', 'Massachusetts', 'Mass.', 'MA', 'Maryland', 'Md.', 'MD', 'Indiana', 'Ind.', 'IN', 'Illinois', 'Ill.', 'IL', 'Minnesota', 'Minn.', 'MN', 'New Jersey', 'N.J.', 'NJ', 'Kansas', 'Kan.', 'KS', 'Ontario', 'Jamaica'],
+  'Charles City': ['Iowa', 'IA'],
 };
+
+// Names that count only right before ", Virginia" (see above).
+const STRICT = new Set(['Ashland', 'Powhatan']);
 
 // Extra names for a place, beyond its name and short name.
 // (Not "New York, N.Y.": that's the dateline of every FEMA Region 2 release.)
 const ALIASES: Record<string, string[]> = { nyc: ['City of New York'] };
 
-// Longer places that start with a shorter one's name.
+// Longer places that start or end with a shorter one's name.
+const NOT_PRECEDED_BY: Record<string, string> = { Richmond: 'Greater ' };
 const NOT_FOLLOWED_BY: Record<string, string> = {
   Hampton: ' Roads',
+  Chesterfield: ' County', // matched (or rejected) as "Chesterfield County"
+  Hanover: ' County',
+  Powhatan: ' County',
+  'Charles City': ' County',
   Virginia: ' Beach',
   Gloucester: ' County', // matched (or rejected) as "Gloucester County"
   'Isle of Wight': ' County',
@@ -54,9 +74,9 @@ const NOT_FOLLOWED_BY: Record<string, string> = {
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const word = (s: string) => `(?<![\\w-])${s}(?![\\w-])`;
 const VIRGINIA = /,?\s+(?:in\s+)?(?:Virginia|Va\.|VA)(?!\w)|\s*\(Va\.\)/y;
-const ABOUT_VIRGINIA = new RegExp(word('(?:Virginia|Hampton Roads|Newport News|Poquoson)'));
+const ABOUT_VIRGINIA = new RegExp(word('(?:Virginia|Hampton Roads|Newport News|Poquoson|Henrico|Goochland)'));
 
-type Matcher = { id: string; state: boolean; pattern: RegExp; nextTo?: RegExp; elsewhere?: RegExp };
+type Matcher = { id: string; state: boolean; strict: boolean; pattern: RegExp; nextTo?: RegExp; elsewhere?: RegExp };
 
 async function load(): Promise<Matcher[]> {
   const out: Matcher[] = [];
@@ -70,7 +90,12 @@ async function load(): Promise<Matcher[]> {
       out.push({
         id,
         state: p.kind === 'state',
-        pattern: new RegExp(word(esc(name) + (NOT_FOLLOWED_BY[name] ? `(?!${NOT_FOLLOWED_BY[name]})` : '')), 'g'),
+        strict: STRICT.has(name),
+        pattern: new RegExp(
+          (NOT_PRECEDED_BY[name] ? `(?<!${NOT_PRECEDED_BY[name]})` : '') +
+            word(esc(name) + (NOT_FOLLOWED_BY[name] ? `(?!${NOT_FOLLOWED_BY[name]})` : '')),
+          'g',
+        ),
         nextTo: others && new RegExp(`,?\\s+(?:${others.map(esc).join('|')})(?!\\w)`, 'y'),
         elsewhere: others && new RegExp(word(`(?:${others.filter((s) => /^[A-Z][a-z]/.test(s) && !s.endsWith('.')).map(esc).join('|')})`)),
       });
@@ -104,9 +129,8 @@ export async function namedPlaces(text: string): Promise<NamedPlaces> {
     for (const hit of t.matchAll(m.pattern)) {
       const end = hit.index + hit[0].length;
       const ok =
-        !m.nextTo ||
         followedBy(VIRGINIA, t, end) ||
-        (aboutVirginia && !followedBy(m.nextTo, t, end) && !m.elsewhere!.test(t));
+        (!m.strict && (!m.nextTo || (aboutVirginia && !followedBy(m.nextTo, t, end) && !m.elsewhere!.test(t))));
       if (ok) {
         found.add(m.id);
         at[m.id] = hit.index;

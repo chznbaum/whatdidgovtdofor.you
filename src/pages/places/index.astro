@@ -7,14 +7,20 @@ const places = await getPlacesMap();
 const count = (id: string) =>
   id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
 
-// One orange panel per state, listing the state, its regions, and its cities and counties.
+// One orange panel per state: the state, each of its regions followed by the region's members, then the cities and
+// counties outside any region.
+const all = [...places.values()];
 const groups = [
   { title: 'Nationwide', ids: ['us'] },
-  { title: 'New York', ids: ['ny', 'nyc'] },
-  {
-    title: 'Virginia',
-    ids: ['va', 'hampton-roads', ...places.get('hampton-roads')!.data.members.map((m) => m.id)],
-  },
+  ...all
+    .filter((s) => s.data.kind === 'state')
+    .sort((a, b) => a.data.name.localeCompare(b.data.name))
+    .map((s) => {
+      const regions = all.filter((r) => r.data.kind === 'region' && r.data.parent?.id === s.id).sort((a, b) => a.data.name.localeCompare(b.data.name));
+      const inRegions = regions.flatMap((r) => [r.id, ...r.data.members.map((m) => m.id)]);
+      const rest = all.filter((p) => p.data.parent?.id === s.id && !inRegions.includes(p.id)).sort((a, b) => a.data.name.localeCompare(b.data.name));
+      return { title: s.data.name, ids: [s.id, ...inRegions, ...rest.map((p) => p.id)] };
+    }),
 ];
 ---
 
@@ -93,10 +99,14 @@ const groups = [
     text-decoration: none;
   }
   li[data-kind='city'] a,
-  li[data-kind='county'] a {
+  li[data-kind='county'] a,
+  li[data-kind='town'] a {
     padding-left: 1rem;
     font-weight: 600;
     font-size: 1rem;
+  }
+  li[data-kind='town'] a {
+    padding-left: 2rem;
   }
   a:hover span:first-child {
     text-decoration: underline;

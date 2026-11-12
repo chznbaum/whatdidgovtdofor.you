@@ -173,18 +173,39 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
       .optional(),
   });
 
+// A machine-readable source of a place's own actions, read by the pipeline (pipeline/feeds/place-feeds.ts). The feed
+// id defaults to "<place>-council" for a meeting system and "<place>-news" for a news feed; candidate keys and
+// decisions hang off it, so don't rename one that has run.
+const placeFeedSchema = z.discriminatedUnion('type', [
+  z.object({
+    type: z.literal('legistar'), // Granicus Legistar Web API: webapi.legistar.com/v1/<client>
+    id: z.string().optional(),
+    client: z.string(),
+    site: z.url().optional(), // public site, if not https://<client>.legistar.com
+    types: z.array(z.string()).optional(), // matter types to keep, e.g. [Ordinance, Resolution]; default: all but housekeeping
+    sponsors: z.boolean().optional(), // fetch each matter's sponsors
+    text: z.boolean().optional(), // fetch each matter's text, so triage sees what it does and not just its title
+  }),
+  z.object({
+    type: z.literal('rss'), // an RSS 2.0 news feed, e.g. CivicPlus News Flash: <origin>/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml
+    id: z.string().optional(),
+    url: z.url(),
+  }),
+]);
+
 export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) =>
   z.object({
     name: z.string(),
     short: z.string().max(14), // short name: "US", "NY", "NYC", "Norfolk"
-    kind: z.enum(['country', 'state', 'region', 'city', 'county']),
+    kind: z.enum(['country', 'state', 'region', 'city', 'county', 'town']), // a town sits inside its county (its parent)
     parent: ref.places.optional(),
-    // Census GEOIDs the address lookup matches against.
+    // Census GEOIDs the address lookup matches against: a county or independent city by county, a town by place.
     geoids: z
       .object({ state: z.string().optional(), county: z.string().optional(), place: z.string().optional() })
       .default({}),
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),
+    feeds: z.array(placeFeedSchema).default([]),
   });
 
 // Ways into government (src/data/get-involved.json, described in src/data/get-involved.schema.md): groups that help

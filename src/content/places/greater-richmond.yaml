@@ -1,0 +1,8 @@
+name: Greater Richmond
+short: Greater RVA
+kind: region
+parent: va
+geoids: { state: "51" }
+# The nine PlanRVA localities.
+members: [richmond, henrico, chesterfield, hanover, ashland, goochland, powhatan, new-kent, charles-city-county]
+blurb: Regional projects and the nine localities around the state capital, from Ashland to Chesterfield.

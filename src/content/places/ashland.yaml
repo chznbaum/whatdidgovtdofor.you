@@ -1,0 +1,5 @@
+name: Ashland
+short: Ashland
+kind: town
+parent: hanover
+geoids: { state: "51", place: "5103368" }

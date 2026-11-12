@@ -51,7 +51,7 @@ Sentence case. No trailing period. No exclamation points.
 One or two sentences that complete the picture: what changed, for whom, since when. Concrete nouns and numbers.
 
 ### `level`, `jurisdiction`, `places`
-`level` is `federal`, `state`, or `local`. `jurisdiction` is the place id of the government that acted: `us`, `ny`, `nyc`, `va`, `hampton-roads`, `norfolk`, `virginia-beach`, `chesapeake`, `portsmouth`, `suffolk`, `hampton`, `newport-news`, `williamsburg`, `poquoson`, `james-city-county`, `york-county`, `isle-of-wight`, `gloucester`.
+`level` is `federal`, `state`, or `local`. `jurisdiction` is the place id of the government that acted, one of the files in `src/content/places/`: `us`, a state (`ny`, `va`), a region (`hampton-roads`, `greater-richmond`), or a city, county or town (`nyc`, `norfolk`, `richmond`, `henrico`, `ashland`, …).
 
 `places` (optional) lists *other* places where the action has a specific local footprint. A federal grant that built a Norfolk floodwall has `jurisdiction: us` and `places: [norfolk]`. That's how someone looking up a Norfolk address finds it.
 

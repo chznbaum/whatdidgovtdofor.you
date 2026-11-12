@@ -52,11 +52,3 @@ export function rssFeed(o: RssOptions): Feed {
   };
 }
 
-// CivicPlus sites publish every News Flash category at the same path.
-export const civicPlusNews = (place: string, origin: string, name: string): Feed =>
-  rssFeed({
-    id: `${place}-news`,
-    description: `${name} city news (CivicPlus News Flash RSS)`,
-    url: `${origin}/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml`,
-    place,
-  });

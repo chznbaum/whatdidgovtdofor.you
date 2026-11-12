@@ -3,3 +3,6 @@ short: Norfolk
 kind: city
 parent: va
 geoids: { state: "51", county: "51710" }
+# Norfolk's Legistar client ("norfolkva") exists but is empty (checked 2026-11-05).
+feeds:
+  - { type: rss, url: "https://www.norfolk.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }

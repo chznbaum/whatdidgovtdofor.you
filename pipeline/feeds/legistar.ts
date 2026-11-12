@@ -16,6 +16,8 @@ export type LegistarOptions = {
   dateField?: 'MatterPassedDate' | 'MatterEnactmentDate';
   filter?: string; // extra OData filter, ANDed with the date filter
   sponsors?: boolean; // one extra request per matter
+  text?: boolean; // the matter's text as its summary, so triage sees what it does; two extra requests per matter
+  types?: string[]; // keep only these matter types (passed ones), e.g. ['Ordinance', 'Resolution']
   include?: (m: any) => boolean;
   kind?: (m: any) => Kind;
   key?: (m: any) => string;
@@ -34,10 +36,32 @@ const defaults = {
   title: (m: any) => m.MatterTitle || m.MatterName,
 };
 
+// A matter's text, minus its title, as a summary. Legistar marks sections with lines like "..Title", "..Purpose",
+// "..Rec" and "..Body"; a staff "PURPOSE/BACKGROUND" section says what an item does better than the resolution's
+// whereas clauses, so it wins when there is one (Hampton). Otherwise it's the ordinance itself (Richmond).
+export function matterSummary(plain: string, title: string): string | undefined {
+  const squash = (s: string) => s.replace(/\uFFFD/g, '').replace(/\s+/g, ' ').trim();
+  const parts = plain.split(/^[ \t]*\.\.([A-Za-z]+)\b.*$/m);
+  const sections = new Map<string, string>();
+  for (let i = 1; i < parts.length; i += 2) sections.set(parts[i].toLowerCase(), parts[i + 1]);
+  const purpose = sections.get('purpose');
+  let text = squash(purpose ? purpose.replace(/^\s*PURPOSE\s*(?:\/\s*BACKGROUND)?\s*:?/i, '') : [parts[0], ...sections.values()].join('\n'));
+  // Drop the title from the front, comparing letters and digits only: the text loses characters like "±".
+  const alnum = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+  const heading = alnum(title);
+  let end = 0;
+  for (let n = 0; end < text.length && n < heading.length; end++) if (/[a-z0-9]/i.test(text[end])) n++;
+  if (alnum(text.slice(0, end)) === heading) text = text.slice(end).replace(/^[\s.:;,)\]-]+/, '');
+  return truncate(text);
+}
+
 export function legistarFeed(o: LegistarOptions): Feed {
   const dateField = o.dateField ?? 'MatterPassedDate';
   const site = o.site ?? `https://${o.client}.legistar.com`;
-  const include = o.include ?? defaults.include;
+  const types = o.types?.map((t) => t.toLowerCase());
+  const include =
+    o.include ??
+    (types ? (m: any) => types.includes(String(m.MatterTypeName ?? '').trim().toLowerCase()) && PASSED.test(m.MatterStatusName ?? '') : defaults.include);
   const kind = o.kind ?? defaults.kind;
   const title = o.title ?? defaults.title;
   const key =
@@ -59,7 +83,8 @@ export function legistarFeed(o: LegistarOptions): Feed {
       kind: kind(m),
       title: heading,
       date: String(m[dateField]).slice(0, 10),
-      url: `${site}/LegislationDetail.aspx?ID=${m.MatterId}&GUID=${m.MatterGuid}`,
+      // The public site numbers matters differently from the API; its gateway takes the API's id and redirects.
+      url: `${site}/gateway.aspx?M=L&ID=${m.MatterId}`,
       summary: truncate(other?.trim()),
       extra: {
         file: m.MatterFile,
@@ -107,8 +132,19 @@ export function legistarFeed(o: LegistarOptions): Feed {
           const rows: any[] = await getJson(`${api}/matters/${c.extra!.matterId}/sponsors?${query()}`).catch(() => []);
           const names = rows
             .sort((a, b) => a.MatterSponsorSequence - b.MatterSponsorSequence)
-            .map((s) => s.MatterSponsorName);
+            .map((s) => s.MatterSponsorName)
+            .filter((name, i, all) => all.indexOf(name) === i);
           if (names.length) c.extra!.sponsors = names;
+        });
+      }
+      if (o.text) {
+        await mapLimit(recent, 4, async (c) => {
+          const versions: any[] = await getJson(`${api}/matters/${c.extra!.matterId}/versions?${query()}`).catch(() => []);
+          const latest = versions.at(-1);
+          if (!latest) return;
+          const text = await getJson(`${api}/matters/${c.extra!.matterId}/texts/${latest.Key}?${query()}`).catch(() => null);
+          const summary = text?.MatterTextPlain && matterSummary(text.MatterTextPlain, c.title);
+          if (summary) c.summary = summary;
         });
       }
       return recent;

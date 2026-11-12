@@ -3,3 +3,5 @@ short: Newport News
 kind: city
 parent: va
 geoids: { state: "51", county: "51700" }
+feeds:
+  - { type: rss, url: "https://www.nnva.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }

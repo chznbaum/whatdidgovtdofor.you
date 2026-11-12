@@ -25,7 +25,7 @@ const choices = local
   .map((c) => ({
     state: c.title,
     id: c.id,
-    places: c.rows.filter((r) => r.kind === 'city' || r.kind === 'county').sort((a, b) => a.name.localeCompare(b.name)),
+    places: c.rows.filter((r) => r.kind === 'city' || r.kind === 'county' || r.kind === 'town').sort((a, b) => a.name.localeCompare(b.name)),
   }));
 const listedStates = new Intl.ListFormat('en', { type: 'conjunction' }).format(
   local.filter((c) => c.id !== 'other' && c.rows.some((r) => r.n > 0)).map((c) => c.title),

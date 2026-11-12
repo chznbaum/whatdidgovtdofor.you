@@ -3,3 +3,5 @@ short: Suffolk
 kind: city
 parent: va
 geoids: { state: "51", county: "51800" }
+feeds:
+  - { type: rss, url: "https://www.suffolkva.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }

@@ -1,0 +1,5 @@
+name: Charles City County
+short: Charles City
+kind: county
+parent: va
+geoids: { state: "51", county: "51036" }

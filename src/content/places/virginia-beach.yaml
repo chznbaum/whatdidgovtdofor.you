@@ -3,3 +3,5 @@ short: Virginia Beach
 kind: city
 parent: va
 geoids: { state: "51", county: "51810" }
+feeds:
+  - { type: rss, url: "https://virginiabeach.gov/news.rss" }

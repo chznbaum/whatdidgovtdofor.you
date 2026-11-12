@@ -1,6 +1,6 @@
 # whatdidgovtdofor.you
 
-A public record of the concrete things government did for people (national, New York, New York City, Virginia, and Hampton Roads), each one traceable to the officials responsible and showing whether it still stands.
+A public record of the concrete things government did for people (national, New York, New York City, Virginia, Hampton Roads, and Greater Richmond), each one traceable to the officials responsible and showing whether it still stands.
 
 Every action leads with the person who did the work, drawn in ink from a real photo, next to what it does for you and where it stands. Enter an address to see your officials and what they did. See [docs/design.md](docs/design.md) for the design system and [docs/content-guide.md](docs/content-guide.md) for the editorial standard.
 
@@ -21,6 +21,7 @@ Every action leads with the person who did the work, drawn in ink from a real ph
 | `npm run sync:roster` | Refresh Congress and NY/VA legislature rosters |
 | `npm run pipeline -- feeds --since 2026-10-01` | Pull candidate actions from official feeds |
 | `npm run pipeline -- draft --limit 10` | Draft entries from new candidates (writer: Claude by default; `--writer codex` for GPT) |
+| `npm run pipeline -- draft <key> <key> …` | Draft particular promising candidates, by key |
 | `npm run pipeline -- verify` | Fact-check pending entries with the *other* company's model |
 | `npm run pipeline -- verify --stale 90` | Also re-check entries whose status is more than 90 days old |
 | `npm run pipeline -- retract <slug> --reason "..."` | Remove an entry for good; the pipeline won't re-add it |

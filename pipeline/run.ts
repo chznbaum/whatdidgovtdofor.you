@@ -3,13 +3,13 @@
 //
 //   npm run pipeline -- feeds   [--since YYYY-MM-DD]
 //   npm run pipeline -- triage  [--limit N] [--concurrency N]
-//   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--writer claude|codex] [--concurrency N]
+//   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--writer claude|codex] [--concurrency N] [keys...]
 //   npm run pipeline -- verify  [--limit N] [--stale DAYS] [--concurrency N] [files...]
 //   npm run pipeline -- retract <slug> [--reason "..."]
 //   npm run pipeline -- all     [--since YYYY-MM-DD] [--limit N]
 import './lib/env.ts';
 import { existsSync } from 'node:fs';
-import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
+import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readAllEntries, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
@@ -82,14 +82,10 @@ async function writeOfficials(officials: { id: string; yaml: string }[]) {
 // --- feeds ---------------------------------------------------------------
 
 async function feeds(since: string) {
-  const { fetchAll } = await import('./feeds/index.ts');
+  const { fetchAll, saveCandidates } = await import('./feeds/index.ts');
   const found = await fetchAll({ since });
-  const existing = await readJson<any[]>(CANDIDATES, []);
-  const byKey = new Map(existing.map((c) => [c.key, c]));
-  for (const c of found) byKey.set(c.key, c);
-  await mkdir(join(ROOT, 'pipeline/state'), { recursive: true });
-  await writeJson(CANDIDATES, [...byKey.values()]);
-  console.log(`feeds: ${found.length} candidates fetched, ${byKey.size} known`);
+  const { total, added } = await saveCandidates(found); // merges, keeping `seen` and fields a sparser fetch lacks
+  console.log(`feeds: ${found.length} candidates fetched (${added} new), ${total} known`);
 }
 
 // --- triage --------------------------------------------------------------
@@ -147,7 +143,7 @@ async function triage({ limit, concurrency }: { limit: number; concurrency: numb
 
 // --- draft ---------------------------------------------------------------
 
-async function draft({ limit, writer, concurrency }: { limit: number; writer: Provider; concurrency: number }) {
+async function draft({ limit, writer, concurrency, keys }: { limit: number; writer: Provider; concurrency: number; keys: string[] }) {
   // Screen anything new first, so drafting only spends a full research call on plausible actions.
   await triage({ limit: Infinity, concurrency });
 
@@ -163,7 +159,7 @@ async function draft({ limit, writer, concurrency }: { limit: number; writer: Pr
   const queue = candidates
     .filter((c) => {
       const d = decisions[c.key];
-      if (!d || taken.has(c.key) || (d.impact ?? 0) < minImpact) return false;
+      if (!d || taken.has(c.key) || (d.impact ?? 0) < minImpact || (keys.length && !keys.includes(c.key))) return false;
       return d.decision === 'promising' || (d.decision === 'error' && (d.attempts ?? 1) < MAX_ATTEMPTS);
     })
     .sort(
@@ -336,7 +332,7 @@ switch (command) {
     await triage({ limit: values.limit ? Number(values.limit) : Infinity, concurrency });
     break;
   case 'draft':
-    await draft({ limit, writer, concurrency });
+    await draft({ limit, writer, concurrency, keys: rest });
     break;
   case 'verify':
     await verify({ limit, stale: values.stale ? Number(values.stale) : undefined, concurrency, files: rest });
@@ -347,7 +343,7 @@ switch (command) {
     break;
   case 'all':
     await feeds(values.since!);
-    await draft({ limit, writer, concurrency });
+    await draft({ limit, writer, concurrency, keys: [] });
     await verify({ limit: limit * 2, concurrency, files: [] });
     break;
   default:

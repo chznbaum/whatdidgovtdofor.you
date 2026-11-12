@@ -1,0 +1,8 @@
+name: Richmond
+short: Richmond
+kind: city
+parent: va
+geoids: { state: "51", county: "51760" }
+feeds:
+  - { type: legistar, client: richmondva, types: [Ordinance, Resolution], sponsors: true, text: true }
+  - { type: rss, url: "https://www.rva.gov/rss.xml" }

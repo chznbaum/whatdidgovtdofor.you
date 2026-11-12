@@ -1,0 +1,5 @@
+name: Chesterfield County
+short: Chesterfield
+kind: county
+parent: va
+geoids: { state: "51", county: "51041" }

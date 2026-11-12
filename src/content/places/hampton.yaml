@@ -3,3 +3,6 @@ short: Hampton
 kind: city
 parent: va
 geoids: { state: "51", county: "51650" }
+feeds:
+  - { type: legistar, client: hampton, text: true }
+  - { type: rss, url: "https://www.hampton.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
