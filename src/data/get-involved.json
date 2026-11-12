@@ -288,6 +288,12 @@
       "name": "NYC Civic Engagement Commission: Language Assistance Advisory Committee",
       "url": "https://www.nyc.gov/site/civicengagement/voting/get-involved.page",
       "offers": "a volunteer committee that advises the city's program of poll-site interpreters for voters with limited English; applications are taken on a rolling basis, members meet at least every three months, and speaking a second language helps but isn't required"
+    },
+    {
+      "place": "james-city-county",
+      "name": "James City County: boards, commissions and other agencies",
+      "url": "https://www.jamescitycountyva.gov/205/Boards-Commissions-Other-Agencies",
+      "offers": "the county’s boards and commissions, with how to apply to serve on one"
     }
   ],
   "poll_work": [
@@ -374,6 +380,18 @@
       "name": "Gloucester Elections & Voter Registration: become an election officer",
       "url": "https://gloucesterva.gov/elections-voter-registration#officer",
       "offers": "how to apply: pick up the forms at the Elections & Voter Registration office, and the Electoral Board will reply before the next election with training details if you're needed; the page doesn't list pay"
+    },
+    {
+      "place": "hampton",
+      "name": "City of Hampton Voter Registrar: becoming an election official",
+      "url": "https://hampton.gov/3777/Election-Official-Poll-Worker-Informatio",
+      "offers": "how to become an officer of election (poll worker) in Hampton, from the city registrar"
+    },
+    {
+      "place": "james-city-county",
+      "name": "James City County Voter Registration: becoming an election officer",
+      "url": "https://www.jamescitycountyva.gov/4026/Get-Involved-Become-an-Election-Officer",
+      "offers": "how to sign up to work the polls as an officer of election in James City County"
     }
   ]
 }

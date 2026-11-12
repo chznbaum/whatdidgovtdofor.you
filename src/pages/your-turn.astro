@@ -249,10 +249,23 @@ const tellUs = (name: string) => `mailto:corrections@whatdidgovtdofor.you?subjec
   };
   addEventListener('hashchange', openTarget);
 
+  // Narrowed, the reader's own places lead, nearest first (Norfolk, Hampton Roads, Virginia), and the national groups
+  // follow. The full view keeps page order: Nationwide, then each state from statewide down.
+  const nationalChapter = document.querySelector<HTMLElement>('[data-chapter][aria-labelledby="c-us"]');
+  const checked = document.querySelector<HTMLElement>('.checked');
+  const pageRows = new Map(chapters.map((c) => [c, [...c.querySelectorAll<HTMLElement>(':scope > [data-row]')]]));
+  function arrange(nearestFirst: boolean) {
+    for (const [c, own] of pageRows) for (const r of nearestFirst ? [...own].reverse() : own) c.append(r);
+    if (!nationalChapter) return;
+    if (nearestFirst) checked?.before(nationalChapter);
+    else chapters.find((c) => c !== nationalChapter)?.before(nationalChapter);
+  }
+
   function show(set: Set<string> | null) {
     for (const r of rows) r.hidden = set ? !set.has(r.dataset.row!) : 'empty' in r.dataset;
     for (const c of chapters) c.hidden = [...c.querySelectorAll<HTMLElement>('[data-row]')].every((r) => r.hidden);
     narrowed = Boolean(set);
+    arrange(narrowed);
     fold();
     scope.hidden = !set;
     if (!set) return;
