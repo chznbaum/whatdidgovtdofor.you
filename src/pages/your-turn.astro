@@ -1,0 +1,397 @@
+---
+// Where the call to action leads: how to run for office, and lower-barrier ways in (boards and commissions, poll
+// work). Driven by src/data/get-involved.json, which may be partial; empty sections say so.
+import Base from '../layouts/Base.astro';
+import { getPlacesMap } from '../lib/data.ts';
+import { formatDate } from '../lib/format.ts';
+import { FILTERS, LEAN_LABEL, byPlace, filtersFor, involved, sentence, type Resource } from '../lib/involved.ts';
+
+const places = await getPlacesMap();
+const placeName = (id: string) => (id === 'us' ? 'Nationwide' : (places.get(id)?.data.name ?? id));
+const where = (ids: string[]) => (ids.includes('us') ? 'nationwide' : new Intl.ListFormat('en', { type: 'conjunction' }).format(ids.map(placeName)));
+const tags = (ids: string[]) => filtersFor(ids, places).join(' ');
+const { organizations: orgs, how_to_run, boards, poll_work, checked } = involved;
+const any = orgs.length + how_to_run.length + boards.length + poll_work.length > 0;
+
+const sections: { id: string; title: string; intro: string; empty: string; items: Resource[] }[] = [
+  {
+    id: 'boards',
+    title: 'Join a board or commission',
+    intro:
+      'Cities, counties, and states appoint residents to boards and commissions on things like zoning, parks, and libraries. You apply instead of running.',
+    empty: 'Not listed yet. We’re adding how to apply in Virginia, Hampton Roads, and New York.',
+    items: boards,
+  },
+  {
+    id: 'polls',
+    title: 'Work the polls',
+    intro: 'Every election needs poll workers. You sign up with your local election office.',
+    empty: 'Not listed yet. We’re adding the sign-up pages for Virginia and New York.',
+    items: poll_work,
+  },
+];
+---
+
+<Base
+  title="Your turn: run for office, join a board, or work the polls"
+  description="The people on this site got there by running for office, taking an appointment, or pushing from the outside. Here's where to start."
+  cta={false}
+>
+  <header class="cover">
+    <div class="wrap cover-in">
+      <div>
+        <h1>Your turn</h1>
+        <p class="dek">
+          The people on this site got there in different ways. Some ran for office, some were appointed, and some pushed
+          from the outside. Here’s where to start, from a seat on the ballot to a day at the polls.
+        </p>
+      </div>
+      <nav class="jump" aria-label="On this page">
+        <ul role="list">
+          <li><a href="#run">Run for office</a></li>
+          <li><a href="#boards">Join a board or commission</a></li>
+          <li><a href="#polls">Work the polls</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  {
+    any && (
+      <div class="filter on-ink" data-filter hidden>
+        <div class="wrap filter-in">
+          <p id="filter-l">Show what’s open to people in</p>
+          <div class="choices" role="group" aria-labelledby="filter-l">
+            <button type="button" data-place="" aria-pressed="true">
+              Anywhere
+            </button>
+            {FILTERS.map((f) => (
+              <button type="button" data-place={f.id} aria-pressed="false">
+                {f.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  <div class="wrap body">
+    <section id="run" aria-labelledby="run-h">
+      <h2 id="run-h" class="sec-h">Run for office</h2>
+      <p class="intro">
+        Groups that help people run, from school board to the state legislature. Each says where it stands, so you know what
+        you’re signing up for.
+      </p>
+      {
+        orgs.length > 0 ? (
+          <ul class="orgs" role="list">
+            {orgs.map((o) => (
+              <li data-in={tags(o.places)}>
+                <h3>
+                  <a href={o.url} target="_blank" rel="noopener">
+                    {o.name}
+                    <span class="visually-hidden">, opens in a new tab</span>
+                  </a>
+                </h3>
+                <p class="lean">
+                  <b>{LEAN_LABEL[o.lean]}</b>, {where(o.places)}
+                </p>
+                {o.for && <p>{sentence(o.for, 'For')}</p>}
+                {o.offers && <p>{sentence(o.offers, 'You get')}</p>}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="empty">Not listed yet. We’re adding groups that help people run.</p>
+        )
+      }
+
+      <h3 class="sub" id="ballot">How to get on the ballot</h3>
+      {
+        how_to_run.length > 0 ? (
+          <div class="places">
+            {byPlace(how_to_run).map(([place, items]) => (
+              <section class="place" data-in={tags([place])} aria-label={placeName(place)}>
+                <h4>{placeName(place)}</h4>
+                <ul role="list">
+                  {items.map((r) => (
+                    <li>
+                      <a href={r.url} target="_blank" rel="noopener">
+                        {r.name}
+                        <span class="visually-hidden">, opens in a new tab</span>
+                      </a>
+                      {r.offers && <p>{sentence(r.offers)}</p>}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <p class="empty">Not listed yet. We’re adding the official guides for Virginia and New York.</p>
+        )
+      }
+      <p class="none" data-none hidden>Nothing listed for <span data-none-place></span> yet.</p>
+    </section>
+
+    {
+      sections.map((s) => (
+        <section id={s.id} aria-labelledby={`${s.id}-h`}>
+          <h2 id={`${s.id}-h`} class="sec-h">
+            {s.title}
+          </h2>
+          <p class="intro">{s.intro}</p>
+          {s.items.length > 0 ? (
+            <div class="places">
+              {byPlace(s.items).map(([place, items]) => (
+                <section class="place" data-in={tags([place])} aria-label={placeName(place)}>
+                  <h3>{placeName(place)}</h3>
+                  <ul role="list">
+                    {items.map((r) => (
+                      <li>
+                        <a href={r.url} target="_blank" rel="noopener">
+                          {r.name}
+                          <span class="visually-hidden">, opens in a new tab</span>
+                        </a>
+                        {r.offers && <p>{sentence(r.offers)}</p>}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+            </div>
+          ) : (
+            <p class="empty">{s.empty}</p>
+          )}
+          <p class="none" data-none hidden>
+            Nothing listed for <span data-none-place /> yet.
+          </p>
+        </section>
+      ))
+    }
+
+    <p class="checked">
+      {checked && <>Links checked {formatDate(new Date(`${checked}T00:00:00Z`))}. </>}
+      We list groups across the spectrum and say where each one stands. Know one we should add, or a link that’s out of
+      date? <a href="mailto:corrections@whatdidgovtdofor.you?subject=Your%20turn%20page">Tell us</a>.
+    </p>
+  </div>
+</Base>
+
+<script>
+  // Narrow the page to one place. Without JavaScript, everything shows.
+  const bar = document.querySelector<HTMLElement>('[data-filter]');
+  if (bar) {
+    bar.hidden = false;
+    const buttons = [...bar.querySelectorAll<HTMLButtonElement>('button[data-place]')];
+    const apply = (place: string) => {
+      for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.place === place));
+      for (const el of document.querySelectorAll<HTMLElement>('[data-in]')) {
+        el.hidden = Boolean(place) && !el.dataset.in!.split(' ').includes(place);
+      }
+      // A section whose list is now empty says so, instead of showing nothing.
+      const label = buttons.find((b) => b.dataset.place === place)?.textContent?.trim() ?? '';
+      for (const sec of document.querySelectorAll<HTMLElement>('.body > section')) {
+        const items = [...sec.querySelectorAll<HTMLElement>('[data-in]')];
+        const none = sec.querySelector<HTMLElement>('[data-none]');
+        if (!none) continue;
+        none.hidden = !place || items.length === 0 || items.some((i) => !i.hidden);
+        none.querySelector('[data-none-place]')!.textContent = label;
+      }
+      const url = new URL(location.href);
+      if (place) url.searchParams.set('place', place);
+      else url.searchParams.delete('place');
+      history.replaceState(null, '', url);
+    };
+    for (const b of buttons) b.addEventListener('click', () => apply(b.dataset.place!));
+    const start = new URLSearchParams(location.search).get('place');
+    if (start && buttons.some((b) => b.dataset.place === start)) apply(start);
+  }
+</script>
+
+<style>
+  .cover {
+    background: var(--orange);
+    padding: 1.75rem 0 1.5rem;
+  }
+  h1 {
+    font-size: clamp(var(--t-4xl), 12vw, 8rem);
+    line-height: 0.92;
+    letter-spacing: -0.025em;
+  }
+  .dek {
+    margin-top: 1rem;
+    max-width: 38rem;
+    font-size: var(--t-md);
+    line-height: 1.45;
+  }
+  /* The three ways in, as the cover's own table of contents. */
+  .jump ul {
+    display: grid;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .jump li {
+    border-top: 3px solid var(--ink);
+  }
+  .jump a {
+    display: flex;
+    align-items: center;
+    min-height: 3.25rem;
+    font: 400 var(--t-xl) / 1.1 var(--display);
+    text-decoration: none;
+  }
+  .jump a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  /* The place filter: an ink band right under the cover. */
+  .filter {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 1rem 0 1.1rem;
+  }
+  .filter p {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .choices button {
+    min-height: 44px;
+    padding: 0 0.9rem;
+    border: 2px solid var(--paper);
+    background: var(--ink);
+    color: var(--paper);
+    font: 700 1rem / 1 var(--text);
+    cursor: pointer;
+  }
+  .choices button[aria-pressed='true'] {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: var(--ink);
+  }
+
+  .body {
+    display: grid;
+    gap: 3.5rem;
+    margin-top: 2.5rem;
+  }
+  .body > section {
+    scroll-margin-top: 1rem;
+  }
+  .intro {
+    max-width: 40rem;
+    margin-top: -0.5rem;
+    font-size: var(--t-body);
+  }
+
+  .orgs {
+    display: grid;
+    gap: 1.75rem;
+    margin: 1.75rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .orgs li {
+    padding-top: 0.9rem;
+    border-top: 3px solid var(--ink);
+    max-width: 40rem;
+  }
+  .orgs h3 {
+    font-size: var(--t-xl);
+    line-height: 1.12;
+  }
+  .orgs h3 a {
+    text-decoration-thickness: 2px;
+  }
+  .lean {
+    margin: 0.35rem 0 0.5rem;
+    font-size: 1rem;
+  }
+  .lean b {
+    font-weight: 800;
+  }
+  .orgs p + p {
+    margin-top: 0.35rem;
+  }
+
+  .sub {
+    margin-top: 3rem;
+    font-size: var(--t-xl);
+  }
+  .places {
+    display: grid;
+    gap: 1.75rem;
+    margin-top: 1.25rem;
+  }
+  .place h3,
+  .place h4 {
+    font: 400 var(--t-lg) / 1.2 var(--display);
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid var(--ink);
+  }
+  .place ul {
+    display: grid;
+    gap: 0.9rem;
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .place a {
+    font-weight: 700;
+    font-size: var(--t-md);
+  }
+  .place li p {
+    margin-top: 0.2rem;
+    max-width: 40rem;
+  }
+  .empty,
+  .none {
+    margin-top: 1rem;
+    font-size: var(--t-body);
+    color: var(--muted);
+  }
+  .checked {
+    max-width: 40rem;
+    font-size: 1rem;
+    color: var(--muted);
+  }
+  .checked a {
+    color: var(--ink);
+  }
+
+  @media (min-width: 60rem) {
+    .cover {
+      padding: 3rem 0 3rem;
+    }
+    .cover-in {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 4rem;
+      align-items: end;
+    }
+    .jump ul {
+      margin: 0;
+    }
+    .jump a {
+      min-height: 4.25rem;
+      font-size: var(--t-2xl);
+    }
+    .orgs {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2.25rem 3rem;
+    }
+    .places {
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+      gap: 2.25rem 3rem;
+    }
+  }
+</style>

@@ -1,14 +1,28 @@
 ---
 import '../styles/global.css';
+import CallToAction from '../components/CallToAction.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 
 interface Props {
   title?: string;
   description?: string;
   image?: string;
+  // The call to action above the footer. Off on the page it points to.
+  cta?: boolean;
+  footer?: boolean;
+  noindex?: boolean;
 }
 
+
 const SITE = 'What did government do for you?';
-const { title, description = 'The concrete things government did for people, who made them happen, and whether they still stand.', image } = Astro.props;
+const {
+  title,
+  description = 'The concrete things government did for people, who made them happen, and whether they still stand.',
+  image,
+  cta = true,
+  footer = true,
+  noindex = false,
+} = Astro.props;
 const pageTitle = title ? `${title} | whatdidgovtdofor.you` : `${SITE} | whatdidgovtdofor.you`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://whatdidgovtdofor.you');
 const ogImage = image ? new URL(image, canonical) : undefined;
@@ -40,6 +54,7 @@ const nav = [
     {ogImage && <meta property="og:image:width" content="1200" />}
     {ogImage && <meta property="og:image:height" content="630" />}
     <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    {noindex && <meta name="robots" content="noindex" />}
     <slot name="head" />
   </head>
   <body>
@@ -65,21 +80,8 @@ const nav = [
     <main id="main">
       <slot />
     </main>
-    <footer class="foot on-ink">
-      <div class="wrap foot-in">
-        <p>
-          Every action links to its sources and to the vote. Each entry is drafted by one AI model and checked by a model
-          from a different company. <a href="/how-we-check/">How we check</a>.
-        </p>
-        <p>
-          Faces are ink illustrations drawn from real photos. Each drawing links to the page its photo came from.
-        </p>
-        <p>
-          Something wrong or missing? <a href="mailto:corrections@whatdidgovtdofor.you">Send a correction</a>. Follow new
-          actions with the <a href="/feed.xml">RSS feed</a>.
-        </p>
-      </div>
-    </footer>
+    {cta && <CallToAction />}
+    {footer && <SiteFooter />}
   </body>
 </html>
 
@@ -168,20 +170,8 @@ const nav = [
   main {
     display: block;
     min-height: 60vh;
+    /* Space before whatever ends the page: the call to action, or the footer. */
+    padding-bottom: 5rem;
   }
 
-  .foot {
-    margin-top: 5rem;
-    padding-block: 2.5rem 3rem;
-    background: var(--ink);
-    color: var(--paper);
-    font-size: 1rem;
-  }
-  .foot-in {
-    display: grid;
-    gap: 0.75rem;
-  }
-  .foot-in p {
-    max-width: var(--measure);
-  }
 </style>

@@ -1,0 +1,190 @@
+---
+// The call to action above the footer on every page: after showing what government did for the reader, ask whether
+// they'd like to be one of the people doing it, and point to /your-turn/. "Your face here?": a row of real people who
+// ran and won, ending in an empty tile set the way the site shows someone without a photo. (The owner chose this over
+// two other versions.)
+// Copy rules: true and nonpartisan. Not everyone on the site was elected, so only claim "ran and won" for the people
+// in the faces row, who all did.
+import { getEntry } from 'astro:content';
+import { nameWithParty } from '../lib/format.ts';
+import type { Official } from '../lib/data.ts';
+import Face from './Face.astro';
+import PortraitCredit from './PortraitCredit.astro';
+
+const HREF = '/your-turn/';
+
+// Faces row: people who ran for a city council or a state legislature, won, and did work credited on this site
+// (not just signed it). Mixed parties and places on purpose. The first three show on a phone.
+const ROW = ['chi-osse', 'bill-stanley', 'louise-lucas', 'emmett-hanger', 'michelle-hinchey'];
+const PHONE = 3;
+const row = (await Promise.all(ROW.map((id) => getEntry('officials', id)))).filter((o) => o?.data.portrait) as Official[];
+const and = new Intl.ListFormat('en', { type: 'conjunction' });
+const names = (people: Official[]) => and.format(people.map((o) => nameWithParty(o.data)));
+
+---
+
+<section class="cta faces" aria-labelledby="cta-h">
+      <div class="wrap">
+        <ul class="row" role="list">
+          {row.map((o, i) => (
+            <li class:list={[i >= PHONE && 'wide-only']}>
+              <a href={`/officials/${o.id}/`} aria-label={nameWithParty(o.data)}>
+                <Face official={o} sizes="(min-width: 60rem) 10rem, 5.5rem" />
+              </a>
+            </li>
+          ))}
+          <li class="you" aria-hidden="true">
+            <span>You?</span>
+          </li>
+        </ul>
+        <div class="copy">
+          <h2 id="cta-h">Your face here?</h2>
+          <p>
+            Each of them ran for a city council or a state legislature, won, and did work you’ll find on this site.
+            Running is one way in. Serving on a board or working the polls are others.
+          </p>
+          <a class="go" href={HREF}>
+            See where to start
+          </a>
+        </div>
+        <p class="from phone-only">From left: {names(row.slice(0, PHONE))}.</p>
+        <p class="from wide-only">From left: {names(row)}.</p>
+        <PortraitCredit people={row.slice(0, PHONE)} class="cta-credit phone-only" />
+        <PortraitCredit people={row} class="cta-credit wide-only" />
+      </div>
+</section>
+
+<style>
+  .cta h2 {
+    letter-spacing: -0.02em;
+  }
+  .cta p {
+    max-width: 40rem;
+  }
+  .go {
+    display: inline-flex;
+    align-items: center;
+    min-height: 3.25rem;
+    padding: 0 1.25rem;
+    background: var(--ink);
+    color: var(--paper);
+    font: 700 1.0625rem / 1 var(--text);
+    text-decoration: none;
+  }
+  .go:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  /* The faces row shows three people on a phone and five on a wide screen; their credits follow suit. These are
+     global because PortraitCredit renders its own root element. */
+  .cta :global(.wide-only) {
+    display: none !important;
+  }
+  @media (min-width: 60rem) {
+    .cta :global(.phone-only) {
+      display: none !important;
+    }
+    .cta :global(li.wide-only) {
+      display: block !important;
+    }
+    .cta :global(p.from.wide-only) {
+      display: block !important;
+    }
+    .cta :global(.cta-credit.wide-only) {
+      display: flex !important;
+    }
+  }
+
+  .faces {
+    padding: 3.5rem 0 3rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 0;
+    /* Room for the heads to break out of their tiles. */
+    padding: 1.5rem 0 0;
+    list-style: none;
+  }
+  .row a {
+    display: block;
+  }
+  /* Bigger heads than a list card's, so they rise well out of their tiles. */
+  .row :global(.v-tile .ink) {
+    width: 136%;
+    left: -18%;
+  }
+  /* The empty slot is set the way the site shows a person with no photo: in type, on the orange tile. */
+  .you {
+    display: flex;
+    align-items: flex-end;
+    aspect-ratio: 1;
+    background: var(--orange);
+    container-type: inline-size;
+    overflow: hidden;
+  }
+  .you span {
+    font: 400 40cqw / 0.86 var(--display);
+    letter-spacing: -0.03em;
+    padding: 0 0.08em 0.12em;
+  }
+  .from {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  /* The required photo credits, kept quiet so the faces and the question lead. */
+  .faces :global(.cta-credit) {
+    margin-top: 0.1rem;
+    color: var(--muted);
+  }
+  .faces .from {
+    color: var(--muted);
+  }
+  .faces .copy {
+    margin-top: 1.75rem;
+  }
+  .faces .from {
+    margin-top: 2rem;
+  }
+  .faces h2 {
+    font-size: clamp(var(--t-3xl), 7vw, var(--t-5xl));
+    line-height: 0.98;
+  }
+  .faces .copy p {
+    margin: 0.9rem 0 1.4rem;
+    font-size: var(--t-md);
+    line-height: 1.45;
+  }
+  @media (min-width: 60rem) {
+    .faces {
+      padding: 4.5rem 0 4rem;
+    }
+    .faces .wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+      grid-template-areas: 'row copy' 'from copy' 'credit copy';
+      align-items: start;
+      column-gap: 4rem;
+    }
+    .row {
+      grid-area: row;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      padding-top: 2.5rem;
+    }
+    .faces .from {
+      grid-area: from;
+      margin-top: 0.75rem;
+    }
+    .faces :global(.cta-credit) {
+      grid-area: credit;
+    }
+    .faces .copy {
+      grid-area: copy;
+      margin-top: 0;
+      padding-top: 2.5rem;
+    }
+  }
+
+</style>

@@ -1,0 +1,199 @@
+{
+  "checked": "2026-11-12",
+  "organizations": [
+    {
+      "name": "Run For Something",
+      "url": "https://runforsomething.net/run/",
+      "lean": "progressive",
+      "for": "young progressives (Millennials and Gen Z) thinking about a first or second run for local or state office",
+      "offers": "a call with staff and other would-be candidates, then online trainings, referrals, mentors, and a national network",
+      "places": [
+        "us"
+      ]
+    },
+    {
+      "name": "Working Families Party: Working Class Wins",
+      "url": "https://workingfamilies.org/2025/03/working-class-wins-our-biggest-candidate-recruitment-push-ever/",
+      "lean": "progressive",
+      "for": "working people (nurses, drivers, organizers) who want to run as a Working Families Democrat or independent; the party has its own ballot line in New York",
+      "offers": "a sign-up to learn the basics of running and how to seek the party's backing, plus training and a network",
+      "places": [
+        "us",
+        "ny",
+        "nyc"
+      ]
+    },
+    {
+      "name": "Emerge",
+      "url": "https://emergeamerica.org/run-for-office/",
+      "lean": "progressive",
+      "for": "Democratic women thinking about running for office",
+      "offers": "a free 90-minute intro session, and state programs such as Emerge Virginia's six-month, 70-hour candidate course",
+      "places": [
+        "us",
+        "va",
+        "ny"
+      ]
+    },
+    {
+      "name": "The Collective PAC",
+      "url": "https://collectivepac.org/candidatequestionnaire/",
+      "lean": "progressive",
+      "for": "progressive Black candidates running at the local, state, or federal level",
+      "offers": "an endorsement, with training, technical help, and fundraising support; applications for 2027 races open Dec. 1, 2026",
+      "places": [
+        "us"
+      ]
+    },
+    {
+      "name": "NEA See Educators Run",
+      "url": "https://educationvotes.nea.org/run-for-office/",
+      "lean": "worker",
+      "for": "teachers and school staff in the National Education Association who are running or thinking about it",
+      "offers": "a three-day union training on vote goals, your pitch, and building a slate of candidates",
+      "places": [
+        "us"
+      ]
+    },
+    {
+      "name": "Virginia Education Association: Running for Office",
+      "url": "https://www.veanea.org/events/running-for-office/",
+      "lean": "worker",
+      "for": "VEA members in Virginia's public schools who are thinking about running for state or local office",
+      "offers": "a workshop, on request, on whether you're ready, Virginia election and campaign-finance law, organizing, and fundraising",
+      "places": [
+        "va"
+      ]
+    },
+    {
+      "name": "NYSUT Pipeline Project",
+      "url": "https://www.nysut.org/resources/special-resources-sites/representative-assembly/blog-2024/pipeline-project",
+      "lean": "worker",
+      "for": "members of New York State United Teachers who want to run, from school board to the Legislature",
+      "offers": "training and help from the union's regional political organizers for members who run",
+      "places": [
+        "ny"
+      ]
+    },
+    {
+      "name": "Vote Run Lead",
+      "url": "https://vrlhq.org/",
+      "lean": "nonpartisan",
+      "for": "women and gender-expansive people who want to run, of any party",
+      "offers": "an online library of worksheets, videos, and guides for planning and running a campaign",
+      "places": [
+        "us"
+      ]
+    },
+    {
+      "name": "New American Leaders",
+      "url": "https://newamericanleaders.org/programs/ready-to-lead/",
+      "lean": "nonpartisan",
+      "for": "immigrants, refugees, and children of immigrants thinking about public office",
+      "offers": "a weekend training on your stump speech, fundraising, and messaging; $150, with some scholarships",
+      "places": [
+        "us"
+      ]
+    },
+    {
+      "name": "LGBTQ+ Victory Institute",
+      "url": "https://victoryinstitute.org/trainings/candidate-campaign-trainings/",
+      "lean": "nonpartisan",
+      "for": "LGBTQ+ people thinking about running, and the people who staff their campaigns",
+      "offers": "a free one-day Candidate & Campaign 101 and multi-day campaign bootcamps (with a fee)",
+      "places": [
+        "us"
+      ]
+    }
+  ],
+  "how_to_run": [
+    {
+      "place": "va",
+      "name": "Virginia Department of Elections: becoming a candidate",
+      "url": "https://www.elections.virginia.gov/candidatepac-info/becoming-a-candidate/",
+      "offers": "the step-by-step list for getting on a Virginia ballot: who qualifies, the forms, voter petitions, fees, and deadlines, with a guide for each office"
+    },
+    {
+      "place": "ny",
+      "name": "New York State Board of Elections: running for office",
+      "url": "https://elections.ny.gov/running-office",
+      "offers": "who can hold each office, the petition rules for party and independent candidates, and the filing calendar"
+    },
+    {
+      "place": "nyc",
+      "name": "NYC Board of Elections: for candidates",
+      "url": "https://vote.nyc/page/candidates",
+      "offers": "petition forms and guidelines, the filing calendar, campaign finance reports, and where to file in each borough"
+    },
+    {
+      "place": "nyc",
+      "name": "NYC Campaign Finance Board: matching funds",
+      "url": "https://www.nyccfb.info/program/how-it-works/",
+      "offers": "public money for city races: each NYC resident's donation is matched 8 to 1 on up to $250 ($175 for City Council), so small donations go much further"
+    }
+  ],
+  "boards": [
+    {
+      "place": "va",
+      "name": "Secretary of the Commonwealth: state boards and commissions",
+      "url": "https://www.commonwealth.virginia.gov/va-government/boards-and-commissions/",
+      "offers": "how to apply online for the roughly 900 seats the governor fills each year on state boards; most boards meet about four times a year"
+    },
+    {
+      "place": "nyc",
+      "name": "Brooklyn Borough President: community boards",
+      "url": "https://www.brooklynbp.nyc.gov/community-boards/",
+      "offers": "apply online or on paper to your Brooklyn community board; open to New Yorkers 16 and up, unpaid, about 6 to 8 hours a month; 2027 applications due Feb. 8, 2027"
+    },
+    {
+      "place": "nyc",
+      "name": "Bronx Borough President: community boards",
+      "url": "https://bronxboropres.nyc.gov/community/community_boards.php",
+      "offers": "how Bronx community boards work and who gets appointed; unpaid seats, with applications reopening at the end of each year"
+    },
+    {
+      "place": "nyc",
+      "name": "Manhattan Borough President: community boards",
+      "url": "https://www.manhattanbp.nyc.gov/communityboards/",
+      "offers": "what Manhattan community board members do and how to apply; two-year unpaid terms, with a monthly board meeting and at least two committees"
+    },
+    {
+      "place": "nyc",
+      "name": "Queens Borough President: community boards",
+      "url": "https://www.queensbp.nyc.gov/community-boards/",
+      "offers": "how to join a Queens community board if you're 16 or older; unpaid two-year terms, with the next application period opening in early January 2027"
+    },
+    {
+      "place": "nyc",
+      "name": "Staten Island Borough President: community board application",
+      "url": "https://www.statenislandusa.com/cbapplication.html",
+      "offers": "apply online or by mail to a Staten Island community board if you live, work, or have a stake in the district; 16- and 17-year-olds can apply"
+    },
+    {
+      "place": "nyc",
+      "name": "Mayor's Office of Appointments: boards and commissions",
+      "url": "https://www.nyc.gov/content/appointments/pages/boards-commissions",
+      "offers": "the list of more than 200 city boards and commissions the mayor appoints, with a form to send your resume and say you want to serve"
+    }
+  ],
+  "poll_work": [
+    {
+      "place": "va",
+      "name": "Virginia Department of Elections: officers of election",
+      "url": "https://www.elections.virginia.gov/officer-of-elections/",
+      "offers": "how to sign up to work the polls anywhere in Virginia, with training before Election Day; pay depends on your role and your city or county, and the state says not every officer is paid"
+    },
+    {
+      "place": "ny",
+      "name": "New York State Board of Elections: become a poll worker",
+      "url": "https://elections.ny.gov/become-poll-worker",
+      "offers": "paid for training and for each day you work; you're assigned in your own county, and the sign-up form goes to your county board of elections"
+    },
+    {
+      "place": "nyc",
+      "name": "NYC Board of Elections: poll worker positions",
+      "url": "https://vote.nyc/page/poll-worker-positions",
+      "offers": "paid poll work as an inspector, interpreter, or 17-year-old poll worker; up to $2,750 for up to 10 days of work; apply online or on paper"
+    }
+  ]
+}
