@@ -26,6 +26,8 @@ Every action leads with the person who did the work, drawn in ink from a real ph
 | `npm run pipeline -- verify --stale 90` | Also re-check entries whose status is more than 90 days old |
 | `npm run pipeline -- retract <slug> --reason "..."` | Remove an entry for good; the pipeline won't re-add it |
 | `npm run pipeline -- all` | feeds → draft → verify |
+| `node pipeline/backfill-civicplus.ts --place hanover` | One-off: a place's older meeting recaps from its CivicPlus News Flash archive (the RSS feed only carries current items) |
+| `node pipeline/backfill-iqm2.ts backfill --site https://goochlandcountyva.iqm2.com --place goochland --before 2026-07-01` | One-off: a board's older meeting minutes from a Granicus IQM2 portal it has since left |
 
 ## How content gets published
 

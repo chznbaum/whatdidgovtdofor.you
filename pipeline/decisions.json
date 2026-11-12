@@ -113714,5 +113714,1626 @@
   "reason": "triage: One-time polling place move; administrative",
   "impact": 1,
   "date": "2026-11-12"
+ },
+ "hanover-news-1168": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171": {
+  "decision": "skip",
+  "reason": "split into 9 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164": {
+  "decision": "skip",
+  "reason": "split into 13 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1122": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1114": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098": {
+  "decision": "skip",
+  "reason": "split into 9 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1090": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1085": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1081": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1079": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1065": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055": {
+  "decision": "skip",
+  "reason": "split into 6 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042": {
+  "decision": "skip",
+  "reason": "split into 6 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1017": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1006": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-989": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-993": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-981": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-962": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-954": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-946": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-913": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-914": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-938": {
+  "decision": "skip",
+  "reason": "split into 12 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-915": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-917": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-916": {
+  "decision": "skip",
+  "reason": "split into 9 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-918": {
+  "decision": "skip",
+  "reason": "split into 3 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-919": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-920": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-921": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-922": {
+  "decision": "skip",
+  "reason": "split into 6 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-923": {
+  "decision": "skip",
+  "reason": "split into 8 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-924": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-925": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-926": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-927": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-929": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-928": {
+  "decision": "skip",
+  "reason": "split into 13 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-930": {
+  "decision": "skip",
+  "reason": "split into 13 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-932": {
+  "decision": "skip",
+  "reason": "split into 1 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-931": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-approved-verizon-wireless-lease-for-antenna-on-creighton-roa": {
+  "decision": "skip",
+  "reason": "triage: Government lease revenue, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-cup2026-00009": {
+  "decision": "skip",
+  "reason": "triage: Routine land-use permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-rez2026-00016": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-rez2026-00018": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-rez2026-00020": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-rez2026-00024": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-se2025-00033": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-se2026-00021": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1171-se2026-00023": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-approved-revisions-to-policy-for-use-of-public-facilities": {
+  "decision": "skip",
+  "reason": "triage: Administrative policy revision",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-authorized-mou-for-school-based-mental-health-services": {
+  "decision": "promising",
+  "reason": "triage: Enacted school mental health service agreement",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-cup2025-00023": {
+  "decision": "skip",
+  "reason": "triage: Solar permit, no direct worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-cup2026-00007": {
+  "decision": "skip",
+  "reason": "triage: Routine business permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-cup2026-00008": {
+  "decision": "skip",
+  "reason": "triage: Routine church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-ordinance-26-04": {
+  "decision": "skip",
+  "reason": "triage: Regulatory update, no clear direct benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-rez2026-00002": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-rez2026-00013": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-rez2026-00021": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-se2026-00010": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-se2026-00017": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-se2026-00018": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1164-se2026-00019": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-cpa2026-00005": {
+  "decision": "skip",
+  "reason": "triage: Only authorizes advertising; not enacted",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-cup2025-00015": {
+  "decision": "skip",
+  "reason": "triage: Routine church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-cup2025-00020": {
+  "decision": "skip",
+  "reason": "triage: Routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-cup2026-00002": {
+  "decision": "skip",
+  "reason": "triage: Cell tower permit, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-cup2026-00005": {
+  "decision": "skip",
+  "reason": "triage: County-initiated permit, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-rez2026-00003": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-rez2026-00004": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-se2026-00008": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-se2026-00014": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1147-se2026-00015": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-cpa2026-00001": {
+  "decision": "skip",
+  "reason": "triage: Plan amendment, no direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-cup2026-00001": {
+  "decision": "skip",
+  "reason": "triage: Routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-directed-staff-to-research-data-centers-and-develop-a-county": {
+  "decision": "skip",
+  "reason": "triage: Study directive only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-kept-the-data-center-tax-rate-at-45-cents-and-referred-it-to": {
+  "decision": "skip",
+  "reason": "triage: No change; referred for study",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-ordinance-26-07": {
+  "decision": "skip",
+  "reason": "triage: Local adoption of state law; minimal worker effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-rez2026-00009": {
+  "decision": "skip",
+  "reason": "triage: Routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-se2026-00005": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1134-se2026-00011": {
+  "decision": "skip",
+  "reason": "triage: Routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1122-adopted-secondary-six-year-plan-fy-27-32": {
+  "decision": "skip",
+  "reason": "triage: planning list of road projects, not funded action",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1122-ordinance-26-05": {
+  "decision": "skip",
+  "reason": "triage: cost reimbursement for enforcement; govt-focused",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1122-rez2025-00030": {
+  "decision": "skip",
+  "reason": "triage: single RV rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1114-board-adopts-updated-emergency-operations-plan-and-authorize": {
+  "decision": "skip",
+  "reason": "triage: internal plan update, procedural",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107-authorized-advertising-a-public-hearing-on-data-center-equip": {
+  "decision": "skip",
+  "reason": "triage: only advertises hearing",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107-gpin-7870-50-8456": {
+  "decision": "skip",
+  "reason": "triage: sale of school property, no direct benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107-ord25-07": {
+  "decision": "skip",
+  "reason": "triage: technical zoning height definition",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107-se2026-00004": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1107-se2026-00006": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-2026-property-tax-rates-and-fees-without-a-data-cent": {
+  "decision": "skip",
+  "reason": "triage: routine rates; no clear worker benefit",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-county-administrator-s-proposed-budget-with-amendmen": {
+  "decision": "skip",
+  "reason": "triage: duplicate of budget adoption, vague",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-five-year-capital-improvements-program-fy27-fy31": {
+  "decision": "skip",
+  "reason": "triage: planning document",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-five-year-general-fund-financial-plan-fy27-fy31": {
+  "decision": "skip",
+  "reason": "triage: government financial plan",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-reimbursement-resolution-up-to-10-million": {
+  "decision": "skip",
+  "reason": "triage: procedural bond reimbursement",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-reimbursement-resolution-up-to-50-million": {
+  "decision": "skip",
+  "reason": "triage: procedural bond reimbursement",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-adopted-the-fiscal-year-2027-budget": {
+  "decision": "promising",
+  "reason": "triage: enacted budget funding schools, safety, pay; writer checks specifics and cost",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-appropriated-funds-in-the-adopted-fy27-budget": {
+  "decision": "skip",
+  "reason": "triage: procedural companion to budget",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-ordinance-26-02": {
+  "decision": "skip",
+  "reason": "triage: raises fees",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1103-ordinance-26-03": {
+  "decision": "skip",
+  "reason": "triage: raises water and sewer fees",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-approved-verizon-virginia-cable-television-franchise": {
+  "decision": "skip",
+  "reason": "triage: franchise agreement, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-authorized-4-million-for-short-term-water-resilience-improve": {
+  "decision": "promising",
+  "reason": "triage: funded water pumps improve supply reliability; transfer, no new cost",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-cup2025-00012": {
+  "decision": "skip",
+  "reason": "triage: individual permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-cup2025-00019": {
+  "decision": "skip",
+  "reason": "triage: church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-cup2025-00021": {
+  "decision": "promising",
+  "reason": "triage: permit for school trades center; thin, writer could check",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-rez2025-00017": {
+  "decision": "skip",
+  "reason": "triage: individual rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-se2026-00001": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-se2026-00002": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1098-se2026-00003": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1090-gpin-8718-24-0841": {
+  "decision": "skip",
+  "reason": "triage: land purchase, use unspecified",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1085-rez2025-00024": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1085-rez2025-00027": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1085-se2025-00031": {
+  "decision": "skip",
+  "reason": "triage: middle mile infrastructure exception, unclear benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1085-se2025-00032": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076-authorized-county-attorney-to-petition-circuit-court-for-spe": {
+  "decision": "skip",
+  "reason": "triage: election procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076-se2025-00022": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076-se2025-00028": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076-se2025-00029": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1076-se2025-00030": {
+  "decision": "skip",
+  "reason": "triage: individual special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1065-adopted-additional-2026-county-holidays": {
+  "decision": "skip",
+  "reason": "triage: affects government employees only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1065-adopted-the-2042-airport-master-plan": {
+  "decision": "skip",
+  "reason": "triage: long-range plan",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1065-readopted-board-standing-rules-and-procedures": {
+  "decision": "skip",
+  "reason": "triage: procedural, affects government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-adopted-the-2035-parks-and-recreation-master-plan": {
+  "decision": "skip",
+  "reason": "triage: plan, no funded action",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-afd2025-00002": {
+  "decision": "skip",
+  "reason": "triage: routine land-use case",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-cup-2025-00009": {
+  "decision": "skip",
+  "reason": "triage: routine permit for a mission board",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-cup2025-00013": {
+  "decision": "skip",
+  "reason": "triage: routine permit, private applicant",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-ordinance-25-09": {
+  "decision": "skip",
+  "reason": "triage: land division rule, no clear worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1055-ordinance-25-15": {
+  "decision": "skip",
+  "reason": "triage: car wash zoning, business-focused",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-cup2026-00010": {
+  "decision": "skip",
+  "reason": "triage: private business permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-rez2025-00012": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-rez2025-00018": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-rez2025-00019": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-se2025-00016": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1042-se2025-00024": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1017-condemnation-of-right-of-way-for-pole-green-road-widening-pr": {
+  "decision": "skip",
+  "reason": "triage: land acquisition step, not completed project",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1017-cup2024-00023": {
+  "decision": "skip",
+  "reason": "triage: private storage permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1017-gpin-7788-88-7413": {
+  "decision": "skip",
+  "reason": "triage: land acquisition step for roundabout",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1017-rez2025-00009": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-1006-authorized-issuing-up-to-61-million-in-general-obligation-bo": {
+  "decision": "promising",
+  "reason": "triage: funds school capital projects; check cost/what built",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "hanover-news-993-ordinance-25-13": {
+  "decision": "skip",
+  "reason": "triage: inspection reporting admin system",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-993-ordinance-25-14": {
+  "decision": "skip",
+  "reason": "triage: board terms, government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-993-rez2025-00006": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-993-se2025-00018": {
+  "decision": "skip",
+  "reason": "triage: private health system exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-989-approved-resolution-exempting-county-and-school-owned-buildi": {
+  "decision": "skip",
+  "reason": "triage: fees between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-approved-10-year-lease-to-beta-technologies-at-hanover-count": {
+  "decision": "skip",
+  "reason": "triage: business lease at airport",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-cpa2025-00002": {
+  "decision": "skip",
+  "reason": "triage: planning amendment, no direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-cup2025-00006": {
+  "decision": "skip",
+  "reason": "triage: church permit, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-ordinance-25-10": {
+  "decision": "skip",
+  "reason": "triage: short-term rental rules favor owners",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-ordinance-25-11": {
+  "decision": "skip",
+  "reason": "triage: retail zoning, no clear worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-ordinance-25-12": {
+  "decision": "skip",
+  "reason": "triage: zoning perk for homeowners, small",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-se2025-00012": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-981-se2025-00017": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-962-oov2024-00001": {
+  "decision": "skip",
+  "reason": "triage: private development case",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-962-se2025-00014": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-approved-county-code-change-on-date-of-disclosure-form-submi": {
+  "decision": "skip",
+  "reason": "triage: government procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-approved-proposed-2025-real-property-tax-rate": {
+  "decision": "skip",
+  "reason": "triage: no detail; rate effect and payment unclear",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-cup2025-00004": {
+  "decision": "skip",
+  "reason": "triage: permit step for school rebuild, not funding",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-cup2025-00021": {
+  "decision": "skip",
+  "reason": "triage: permit step for fire station",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-rez2025-00005": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-rez2025-00007": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-954-se2025-00011": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-se2024-00011": {
+  "decision": "skip",
+  "reason": "triage: individual special exception, private",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-se2024-00015": {
+  "decision": "skip",
+  "reason": "triage: taller lights for pickleball courts, minor",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-transfer-775-000-in-arpa-funds-for-medical-care-access-and-n": {
+  "decision": "promising",
+  "reason": "triage: federally funded; nine more firefighter-medics, local service",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-929-approved-resolution-authorizing-vpsa-general-obligation-bond": {
+  "decision": "promising",
+  "reason": "triage: enacted bonds fund two new elementary schools and HVAC",
+  "impact": 3,
+  "date": "2026-11-12"
+ },
+ "hanover-news-929-cup2024-00001": {
+  "decision": "skip",
+  "reason": "triage: private permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-929-ordinance-24-07": {
+  "decision": "skip",
+  "reason": "triage: polling place move, procedural",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-929-rez2023-00025": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-adopted-rules-committee-revisions-to-citizens-time-procedure": {
+  "decision": "skip",
+  "reason": "triage: meeting procedure, government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-appropriated-2-3-million-for-cardiac-monitors-and-aeds": {
+  "decision": "promising",
+  "reason": "triage: equipment for EMS and sheriff vehicles, safety gain",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-appropriated-2-7-million-for-replacement-ladder-truck": {
+  "decision": "skip",
+  "reason": "triage: equipment replacement, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-approved-381-000-for-new-electronic-pollbooks": {
+  "decision": "skip",
+  "reason": "triage: election equipment, administrative",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-authorized-advertising-public-hearing-on-vpsa-general-obliga": {
+  "decision": "skip",
+  "reason": "triage: only schedules hearing; bond later approved",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-cup2024-00002": {
+  "decision": "skip",
+  "reason": "triage: church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-cup2024-00003": {
+  "decision": "skip",
+  "reason": "triage: church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-ordinance-24-09": {
+  "decision": "skip",
+  "reason": "triage: only authorizes advertising hearings",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-rez2023-00041": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-rez2023-00042": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-rez2023-00046": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-se2024-00008": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-930-se2024-00009": {
+  "decision": "skip",
+  "reason": "triage: business special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-approved-secondary-road-six-year-plan": {
+  "decision": "skip",
+  "reason": "triage: road widening priority list; plan, modest",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-approved-trail-easements-to-vdot-for-fall-line-trail": {
+  "decision": "skip",
+  "reason": "triage: easement conveyance, procedural",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-cup2023-00011": {
+  "decision": "skip",
+  "reason": "triage: private permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-cup2024-00004": {
+  "decision": "skip",
+  "reason": "triage: permit for replacement school, covered by bond",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-cup2024-00005": {
+  "decision": "skip",
+  "reason": "triage: permit for replacement school, covered by bond",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-rez2023-00030": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-rez2024-00001": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-rez2024-00004": {
+  "decision": "skip",
+  "reason": "triage: no detail, unclear effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-se2024-00006": {
+  "decision": "skip",
+  "reason": "triage: hotel exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-931-se2024-00007": {
+  "decision": "skip",
+  "reason": "triage: modular classrooms, minor stopgap",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-932-board-adopted-new-rules-of-decorum-for-public-meetings": {
+  "decision": "skip",
+  "reason": "triage: meeting procedure, government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-cup2025-00002": {
+  "decision": "skip",
+  "reason": "triage: individual permit, no clear worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-cup2025-00003": {
+  "decision": "skip",
+  "reason": "triage: park permit, little detail",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-ordinance-25-02": {
+  "decision": "skip",
+  "reason": "triage: land-use storage rules, unclear benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-ordinance-25-10": {
+  "decision": "skip",
+  "reason": "triage: only authorizes advertising hearings",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-resolution-supporting-through-truck-restriction-on-goddins-h": {
+  "decision": "skip",
+  "reason": "triage: request to VDOT, not enacted restriction",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-rez2024-00005": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-rez2025-00001": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-rez2025-00003": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-se2024-00023": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-se2025-00008": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-se2025-00010": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-938-secondary-road-six-year-plan-fy-26-31-approved": {
+  "decision": "skip",
+  "reason": "triage: plan of road projects, no specifics shown",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-913-approved-compensation-increase-for-board-of-supervisors-and-": {
+  "decision": "skip",
+  "reason": "triage: pay for officials, government itself",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-913-approved-removing-sidewalks-from-route-301-route-54-roundabo": {
+  "decision": "skip",
+  "reason": "triage: removes pedestrian infrastructure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-914-cup2024-00022": {
+  "decision": "skip",
+  "reason": "triage: landfill expansion, not a worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-914-cup2025-00001": {
+  "decision": "skip",
+  "reason": "triage: private permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-914-rez2025-00002": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-914-se2025-00002": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-915-board-adopts-781-9-million-fy2026-budget-with-81-cent-tax-ra": {
+  "decision": "skip",
+  "reason": "triage: general budget, rate cut benefit unclear",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-915-board-approves-one-time-bonus-for-county-employees": {
+  "decision": "skip",
+  "reason": "triage: government employee bonus, no detail",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-915-board-approves-three-additional-county-holidays": {
+  "decision": "skip",
+  "reason": "triage: government employee perk only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-cpa2025-00001": {
+  "decision": "skip",
+  "reason": "triage: procedural plan amendment",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-ordinance-24-13": {
+  "decision": "skip",
+  "reason": "triage: zoning district, no direct effect",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-ordinance-25-05": {
+  "decision": "skip",
+  "reason": "triage: neighborhood-funded curbside recycling for one subdivision",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-rez2024-00014": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-rez2024-00019": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-rez2024-00022": {
+  "decision": "skip",
+  "reason": "triage: church rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-rez2024-00023": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-se2025-00003": {
+  "decision": "skip",
+  "reason": "triage: church special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-916-se2025-00004": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-917-approved-compromise-and-settlement-of-a-tax-claim": {
+  "decision": "skip",
+  "reason": "triage: single tax claim, no detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-918-renamed-department-of-animal-control-to-department-of-animal": {
+  "decision": "skip",
+  "reason": "triage: rename only",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-918-rez2024-00021": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-918-se2024-00025": {
+  "decision": "skip",
+  "reason": "triage: private special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-cup2024-00015": {
+  "decision": "skip",
+  "reason": "triage: utility permit, no detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-cup2024-00019": {
+  "decision": "skip",
+  "reason": "triage: power company permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-gpin-7788-52-6309-part": {
+  "decision": "skip",
+  "reason": "triage: property sale, no detail",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-ord24-09": {
+  "decision": "skip",
+  "reason": "triage: short-term rental permit rule, unclear worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-ordinance-24-11": {
+  "decision": "skip",
+  "reason": "triage: merges ordinances, administrative",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-rez2024-00013": {
+  "decision": "skip",
+  "reason": "triage: private rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-rez2024-00016": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-rez2024-00020": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-se2024-00019": {
+  "decision": "skip",
+  "reason": "triage: routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-920-se2024-00022": {
+  "decision": "skip",
+  "reason": "triage: utility permit, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-921-directed-staff-to-consider-roundabout-enhancements-in-small-": {
+  "decision": "skip",
+  "reason": "triage: aesthetic study direction",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-921-re-adopted-board-standing-rules-and-procedures": {
+  "decision": "skip",
+  "reason": "triage: government procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-approved-quitclaim-request-from-gwathmey-baptist-church": {
+  "decision": "skip",
+  "reason": "triage: property administrative item",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-created-three-full-time-shop-foreman-positions-in-fleet-serv": {
+  "decision": "skip",
+  "reason": "triage: internal government staffing",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-cup2024-00008": {
+  "decision": "skip",
+  "reason": "triage: routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-cup2024-00016": {
+  "decision": "skip",
+  "reason": "triage: routine energy permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-ordinance-24-14": {
+  "decision": "skip",
+  "reason": "triage: traffic fine, aligns with state law",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-922-ordinance-24-15": {
+  "decision": "skip",
+  "reason": "triage: technical alignment with state code",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-accepted-henry-clay-elementary-school-site-from-school-board": {
+  "decision": "skip",
+  "reason": "triage: property transfer between governments",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-adopted-updated-solar-energy-and-storage-policy": {
+  "decision": "skip",
+  "reason": "triage: land-use policy, no direct worker benefit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-cup2024-00017": {
+  "decision": "skip",
+  "reason": "triage: routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-ordinance-24-12": {
+  "decision": "skip",
+  "reason": "triage: vague utilities ordinance",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-rez2023-00044": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-rez2023-00047": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-rez2024-00011": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-923-rez2024-00012": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-924-approved-sale-of-four-acres-of-county-property-in-ashland-to": {
+  "decision": "skip",
+  "reason": "triage: land sale to developer",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-924-cup2024-00013": {
+  "decision": "skip",
+  "reason": "triage: routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-924-rez2024-00006": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-924-se2024-00013": {
+  "decision": "skip",
+  "reason": "triage: routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-924-se2024-00017": {
+  "decision": "skip",
+  "reason": "triage: land-use approval for one facility",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-926-cup2024-00009": {
+  "decision": "skip",
+  "reason": "triage: routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-926-cup2024-00012": {
+  "decision": "skip",
+  "reason": "triage: routine church permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-926-rez2024-00007": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-926-se2024-00016": {
+  "decision": "skip",
+  "reason": "triage: routine special exception",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-927-approved-economic-development-authority-request-for-up-to-70": {
+  "decision": "skip",
+  "reason": "triage: conduit bonds for one private facility",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-add-seven-more-firefighter-medic-ftes-in-fy25": {
+  "decision": "promising",
+  "reason": "triage: funded positions add emergency medical staffing",
+  "impact": 2,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-authorize-holiday-cash-pay-for-56-hour-fire-ems-personnel": {
+  "decision": "skip",
+  "reason": "triage: internal HR pay policy",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-cpa2024-00001": {
+  "decision": "skip",
+  "reason": "triage: plan amendment removing roads",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-cup2023-00018": {
+  "decision": "skip",
+  "reason": "triage: transfer station permit, routine",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-cup2024-00010": {
+  "decision": "skip",
+  "reason": "triage: routine permit",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-one-time-pto-buyback-for-uniformed-public-safety-personnel": {
+  "decision": "skip",
+  "reason": "triage: internal HR item",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-ord24-08": {
+  "decision": "skip",
+  "reason": "triage: parking requirement technicality",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-ord24-10": {
+  "decision": "skip",
+  "reason": "triage: notice procedure",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-rez2023-00011": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
+ },
+ "hanover-news-928-rez2024-00003": {
+  "decision": "skip",
+  "reason": "triage: routine rezoning",
+  "impact": 1,
+  "date": "2026-11-12"
  }
 }
