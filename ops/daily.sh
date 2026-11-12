@@ -6,9 +6,9 @@ cd "$(dirname "$0")/.."
 
 npm run -s sync:roster
 npm run -s pipeline -- feeds --since "$(date -v-14d +%Y-%m-%d)"
-npm run -s pipeline -- draft --limit "${DRAFT_LIMIT:-10}"
+npm run -s pipeline -- draft --limit "${DRAFT_LIMIT:-100}" --min-impact "${MIN_IMPACT:-3}" --concurrency "${CONCURRENCY:-3}"
 # Verify new drafts, and re-check any entry whose status is more than 60 days old.
-npm run -s pipeline -- verify --stale 60 --limit "${VERIFY_LIMIT:-30}"
+npm run -s pipeline -- verify --stale 60 --limit "${VERIFY_LIMIT:-130}" --concurrency "${CONCURRENCY:-3}"
 npm run -s validate
 npm run -s build
 

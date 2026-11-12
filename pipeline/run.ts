@@ -3,7 +3,7 @@
 //
 //   npm run pipeline -- feeds   [--since YYYY-MM-DD]
 //   npm run pipeline -- triage  [--limit N] [--concurrency N]
-//   npm run pipeline -- draft   [--limit N] [--writer claude|codex] [--concurrency N]
+//   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--writer claude|codex] [--concurrency N]
 //   npm run pipeline -- verify  [--limit N] [--stale DAYS] [--concurrency N] [files...]
 //   npm run pipeline -- retract <slug> [--reason "..."]
 //   npm run pipeline -- all     [--since YYYY-MM-DD] [--limit N]
@@ -31,6 +31,8 @@ import { validateEntry } from './validate.ts';
 const CANDIDATES = join(ROOT, 'pipeline/state/candidates.json');
 const DECISIONS = join(ROOT, 'pipeline/decisions.json'); // committed: what we did with each candidate key
 const RETRACTED = join(ROOT, 'pipeline/retracted.json'); // committed: never re-add these
+// News-release feeds announce actions that the law, rule and council feeds also carry.
+const ANNOUNCEMENT_FEEDS = /(-mayor|-governor|-news)$/;
 
 // Local calendar date (YYYY-MM-DD), so late-evening runs don't stamp tomorrow's date.
 const today = () => new Date().toLocaleDateString('en-CA');
@@ -154,14 +156,20 @@ async function draft({ limit, writer, concurrency }: { limit: number; writer: Pr
   const retracted = await readJson<Retraction[]>(RETRACTED, []);
   const entries = await existingEntries();
   const taken = new Set([...entries.map((e) => e.data.source_key), ...retracted.map((r) => r.source_key)].filter(Boolean));
-  // Promising candidates, plus errors still under MAX_ATTEMPTS, highest impact first, then newest.
+  // Promising candidates (at least minImpact), plus errors still under MAX_ATTEMPTS: highest impact first; within an
+  // impact level the enacted action itself (laws, rules, orders, council votes) before announcements about it, so an
+  // announcement drafted later sees the law's entry and is skipped as a duplicate; then newest.
+  const announcement = (c: { feed?: string }) => (ANNOUNCEMENT_FEEDS.test(c.feed ?? '') ? 1 : 0);
   const queue = candidates
     .filter((c) => {
       const d = decisions[c.key];
-      if (!d || taken.has(c.key)) return false;
+      if (!d || taken.has(c.key) || (d.impact ?? 0) < minImpact) return false;
       return d.decision === 'promising' || (d.decision === 'error' && (d.attempts ?? 1) < MAX_ATTEMPTS);
     })
-    .sort((a, b) => (decisions[b.key].impact ?? 0) - (decisions[a.key].impact ?? 0) || b.date.localeCompare(a.date));
+    .sort(
+      (a, b) =>
+        (decisions[b.key].impact ?? 0) - (decisions[a.key].impact ?? 0) || announcement(a) - announcement(b) || b.date.localeCompare(a.date),
+    );
   const todo = queue.slice(0, limit);
   console.log(`draft: ${queue.length} promising candidates, drafting ${todo.length} with ${MODELS[writer]}`);
 
@@ -309,6 +317,7 @@ const { values, positionals } = parseArgs({
     limit: { type: 'string' },
     writer: { type: 'string', default: 'claude' },
     concurrency: { type: 'string', default: '2' },
+    'min-impact': { type: 'string', default: '0' },
     stale: { type: 'string' },
     reason: { type: 'string', default: 'Retracted by editor' },
   },
@@ -316,6 +325,7 @@ const { values, positionals } = parseArgs({
 const [command, ...rest] = positionals;
 const limit = values.limit ? Number(values.limit) : 10;
 const concurrency = Number(values.concurrency);
+const minImpact = Number(values['min-impact']);
 const writer = values.writer === 'codex' ? 'codex' : 'claude';
 
 switch (command) {

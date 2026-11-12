@@ -1130,8 +1130,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1127551": {
-  "decision": "promising",
-  "reason": "triage: Funded $150M state premium savings for 200,000",
+  "decision": "drafted",
+  "reason": "The enacted 2026–2028 Virginia budget (HB 30, Item 478) puts $150 million from the general fund toward lowering 2027 Marketplace premiums for households earning 138% to 250% of the poverty line. It is a direct cost reduction paid for with spending, not service cuts, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-premium-savings-marketplace-premiums-up-to-70-percent-off.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -1244,8 +1245,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-10-mamdani-and-hochul-bring-2-k-to-all-of-the-bronx-and-staten-isla": {
-  "decision": "promising",
-  "reason": "triage: Funded expansion adds 10,000 free child care seats",
+  "decision": "skip",
+  "reason": "This is the next phase of the same state-funded 2-K program already covered by nyc-2026-2k-launch: 10,000 more seats in 17 more districts starting fall 2027, so it should update that entry's dek and phasing-in status rather than become a duplicate entry.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -1700,8 +1701,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-10-mayor-mamdani-to-deliver-free-child-care-to-more-than-10-000-low": {
-  "decision": "promising",
-  "reason": "triage: free child care for 10,000+ low-income kids",
+  "decision": "drafted",
+  "reason": "NYC's children's services agency (ACS) is moving more than 10,000 low-income children off the Child Care Assistance Program waitlist and into free care, using state money from the enacted FY2027 budget. This is a funded program that families receive, not just a stated intention, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-child-care-vouchers-for-10000-waitlisted-kids.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -1934,8 +1936,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-09-el-alcalde-mamdani-consigue-un-acuerdo-record-de-131-5-millones": {
-  "decision": "promising",
-  "reason": "triage: $131.5M DoorDash settlement for delivery workers (Spanish duplicate)",
+  "decision": "drafted",
+  "reason": "The city reached an enforcement settlement that pays more than $115 million directly to over 260,000 underpaid NYC delivery workers, with no claim needed. That is money in workers' pockets, and no existing entry covers it; the existing minimum-pay rule entry is a separate action.",
+  "file": "src/content/entries/local/nyc-doordash-pays-back-underpaid-delivery-workers.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -1952,8 +1955,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-09-mayor-mamdani-wins-record-131-5-million-from-doordash-for-deliv": {
-  "decision": "promising",
-  "reason": "triage: $131.5M DoorDash settlement for delivery workers",
+  "decision": "drafted",
+  "reason": "A city enforcement settlement that is paying more than $115 million in back pay to over 260,000 NYC delivery workers and changes how DoorDash pays them. That is direct money to workers, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-doordash-delivery-workers-115-million-back-pay.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -2828,8 +2832,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1123023": {
-  "decision": "promising",
-  "reason": "triage: Restored voting rights for 100,000; check mechanism",
+  "decision": "drafted",
+  "reason": "Spanberger used her clemency power to restore voting and civil rights to 100,000 formerly incarcerated Virginians, with proactive outreach and a simpler application. That is a separate executive action from the voting-rights amendment in va-2026-hb964, and it has a direct effect on people's rights.",
+  "file": "src/content/entries/state/va-voting-rights-restored-for-100000-virginians.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -3524,8 +3529,8 @@
   "date": "2026-11-11"
  },
  "va-gov-1122057": {
-  "decision": "promising",
-  "reason": "triage: SCC orders data centers to pay transmission costs, saving ratepayers",
+  "decision": "skip",
+  "reason": "The SCC's July 31, 2026 Rider T1 order only told Dominion to write a tariff charging data centers for direct-connect transmission; that tariff is still pending in a separate docket, Microsoft has filed a notice of appeal, and no source gives a confirmed savings figure, so nothing has reached ratepayers yet (revisit once the SCC approves the tariff).",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4220,8 +4225,8 @@
   "date": "2026-11-11"
  },
  "va-gov-1121876": {
-  "decision": "promising",
-  "reason": "triage: Ordered restoration of voting rights, 66,085 people",
+  "decision": "skip",
+  "reason": "This press release reports how many people Spanberger has restored so far (66,085) under the governor's existing case-by-case power. It is a progress report on routine clemency, not a new enacted action. The existing entry va-2026-hb964 already covers the lasting change: voters approved the automatic-restoration amendment on Nov. 3, 2026, which takes restoration out of the governor's hands.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4280,8 +4285,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0966": {
-  "decision": "promising",
-  "reason": "triage: Rental assistance voucher program; check funding and enactment",
+  "decision": "drafted",
+  "reason": "Local Law 126 of 2026 is now law and has funding. It creates a city rent voucher run by HPD. Low-income rent-stabilized tenants in nonpayment eviction cases, and shelter residents who can't get CityFHEPS, pay 30% of their income toward rent and the city pays the rest.",
+  "file": "src/content/entries/local/nyc-ll-2026-126-rent-voucher.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4346,8 +4352,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-unveils-30-discount-including-all-produce-all": {
-  "decision": "promising",
-  "reason": "triage: Municipal grocery 30% discount; check funding",
+  "decision": "skip",
+  "reason": "This is a plan with money set aside, not something anyone can use yet: the 30% discount is a term in a July 2026 request for proposals, no operator has been picked, and the first store (Hunts Point) isn't due to open until late 2027, so no New Yorker gets the discount today; revisit when a store opens.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4586,8 +4592,9 @@
   "date": "2026-11-11"
  },
  "us-law-119-101": {
-  "decision": "promising",
-  "reason": "triage: enacted federal housing act; check cost and redevelopment parts",
+  "decision": "drafted",
+  "reason": "The law is enacted (Pub. L. 119-101). Its ban on investors with 350 or more homes buying more single-family houses directly helps families trying to buy, it takes effect January 7, 2027, and the law adds no service cuts to pay for it.",
+  "file": "src/content/entries/federal/big-investors-barred-from-buying-more-homes.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4718,8 +4725,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1120864": {
-  "decision": "promising",
-  "reason": "triage: Signed housing and renter laws; writer finds specifics",
+  "decision": "drafted",
+  "reason": "The roundtable itself is ceremonial, but one law it highlights qualifies on its own: HB 527/SB 628, which turned Virginia's eviction-prevention pilot into a permanent program, and the budget added $11.5 million to it. Late-rent protections (HB 15) already have an entry.",
+  "file": "src/content/entries/state/va-eviction-reduction-program-made-permanent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4790,8 +4798,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-kicks-off-summer-youth-employment-program-providi": {
-  "decision": "promising",
-  "reason": "triage: Funded 100,000+ paid youth jobs",
+  "decision": "skip",
+  "reason": "This is the routine kickoff of the 63rd year of an existing program, and the release announces no new expansion, funding, wage change, or eligibility change that we could credit to anyone.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -4946,8 +4954,8 @@
   "date": "2026-11-11"
  },
  "va-gov-1120477": {
-  "decision": "promising",
-  "reason": "triage: signed energy cost package, RGGI rejoin; check cost net impact",
+  "decision": "skip",
+  "reason": "No bill in this package clearly qualifies yet: the RGGI rejoin (HB397) fails the net-impact test for now because Dominion's proposed rider of up to $13 a month and the budget's offsetting bill credit are both still pending at the SCC (decision expected by Feb. 2027), the low-income heat-pump bill (HB2/SB72) only asks utilities to make \"best, reasonable efforts\" by 2031 with no penalties, and the other bills are utility planning or study measures with no direct effect on people yet. Revisit RGGI once the SCC sets the rider and credit.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -5000,8 +5008,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1120418": {
-  "decision": "promising",
-  "reason": "triage: enacted budget with education, health, housing investments; check specifics and funding",
+  "decision": "drafted",
+  "reason": "The press release covers a whole omnibus budget, so this entry picks out one concrete, enacted item that isn't on the site yet: $136.7 million added to Virginia's Child Care Subsidy Program for about 6,700 more slots, in the 2026 Appropriation Act approved June 29, 2026.",
+  "file": "src/content/entries/state/va-budget-child-care-subsidy-6700-more-slots.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -5432,8 +5441,8 @@
   "date": "2026-11-11"
  },
  "va-gov-1119733": {
-  "decision": "promising",
-  "reason": "triage: Signed law guaranteeing contraception access",
+  "decision": "skip",
+  "reason": "The release covers the Right to Contraception Act (HB 6/SB 596) and the Contraception Equity Act (HB 1182/SB 361), which existing entries va-2026-hb6, va-2026-sb596, and va-2026-hb1182 already cover.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -6104,8 +6113,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-doubles-number-of-3-k-seats-to-be-added-across-all": {
-  "decision": "promising",
-  "reason": "triage: funded expansion of free child care seats; similar to 2K/3K entries, check",
+  "decision": "drafted",
+  "reason": "The mayor's program adds 2,000 free 3-K seats for the 2026-27 school year in 56 ZIP codes where demand outran supply, which is a direct child care benefit for working families, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-2026-3k-2000-new-seats.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -6572,8 +6582,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1118631": {
-  "decision": "promising",
-  "reason": "triage: signed childcare cost laws",
+  "decision": "drafted",
+  "reason": "HB 18 and SB 3 became law (Chapters 545 and 546) and the June 2026 budget put $25 million into the program, so it is a funded program with a direct effect on what working parents pay for child care, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-employers-child-care-state-match.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -7089,14 +7100,16 @@
   "date": "2026-11-11"
  },
  "va-gov-1117710": {
-  "decision": "promising",
-  "reason": "triage: Signed energy cost bills; writer checks cost and who pays",
+  "decision": "drafted",
+  "reason": "Out of the energy package, the balcony solar law (HB 395 / SB 250) has the clearest direct effect on working people: starting January 1, 2027, renters at larger rental properties gain an enforceable right to plug in small solar panels that cut their power bills, with no utility fees or approval, at no cost to public services.",
+  "file": "src/content/entries/state/va-2026-renters-can-plug-in-balcony-solar.md",
   "impact": 4,
   "date": "2026-11-11"
  },
  "va-gov-1117715": {
-  "decision": "promising",
-  "reason": "triage: Signed healthcare/drug cost package; insulin cap already an entry, check other bills",
+  "decision": "drafted",
+  "reason": "The package's insulin, drug-copay, and prior-approval bills are already on the site, but HB328, signed in the same package, was enacted (Chapter 1048) and adds IVF, doula care, and adult hearing aids to Virginia's required health benefits, so it qualifies as a new entry.",
+  "file": "src/content/entries/state/va-ivf-doulas-hearing-aids-in-health-plans.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -7623,8 +7636,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb569": {
-  "decision": "promising",
-  "reason": "triage: Prevailing wage on public works contracts",
+  "decision": "drafted",
+  "reason": "The enacted law requires public universities that manage their own construction to pay the prevailing wage on state-funded contracts of $5 million or more starting July 2027, and it has Virginia set those rates from local wage surveys, never below the federal rate. That raises pay for construction workers directly, but localities can still choose whether to opt in.",
+  "file": "src/content/entries/state/va-2026-hb569-prevailing-wage-universities.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -7641,8 +7655,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb636": {
-  "decision": "promising",
-  "reason": "triage: Salary history ban and pay range transparency",
+  "decision": "drafted",
+  "reason": "An enacted law in effect since July 1, 2026 that requires pay ranges in Virginia job postings and bans salary-history questions. It directly helps workers when they apply for and negotiate jobs, it isn't a duplicate, and nothing paid for it at workers' expense.",
+  "file": "src/content/entries/state/va-2026-hb636-pay-transparency.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -7875,8 +7890,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1182": {
-  "decision": "promising",
-  "reason": "triage: Insurers must cover contraceptives incl. OTC",
+  "decision": "drafted",
+  "reason": "HB 1182, enacted as Chapter 1092 of 2026, requires Virginia health insurers to cover FDA-approved birth control, including over-the-counter products, with no-cost options starting with plans issued or renewed on or after Jan. 1, 2027; this direct cost saving isn't covered by any existing entry.",
+  "file": "src/content/entries/state/va-2026-hb1182-birth-control-coverage.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -7995,8 +8011,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb964": {
-  "decision": "promising",
-  "reason": "triage: Voting rights restored automatically on release; basic right (likely needs constitutional step, writer checks)",
+  "decision": "drafted",
+  "reason": "HB 964 is an enacted law that gives people back the right to vote, and voters approved the amendment it depends on on Nov. 3, 2026, so it takes effect Jan. 1, 2027.",
+  "file": "src/content/entries/state/va-2026-hb964-voting-rights-on-release.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -8061,8 +8078,9 @@
   "date": "2026-11-11"
  },
  "va-2026-sb215": {
-  "decision": "promising",
-  "reason": "triage: Bans salary history questions and requires pay range transparency",
+  "decision": "drafted",
+  "reason": "An enacted law, in effect since July 1, 2026, that requires every Virginia employer to post pay ranges and bars them from asking job seekers about past pay, a direct and tangible workplace protection not already covered by an entry.",
+  "file": "src/content/entries/state/va-2026-sb215-pay-transparency.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -8145,8 +8163,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb361": {
-  "decision": "promising",
-  "reason": "triage: Insurers must cover contraception including OTC; lowers costs",
+  "decision": "skip",
+  "reason": "SB 361 is identical to HB 1182, which already has an entry (va-2026-hb1182), so this would duplicate it; if that entry doesn't credit Sen. Jennifer Carroll Foy, add her there.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -8187,8 +8205,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb518": {
-  "decision": "promising",
-  "reason": "triage: Prevailing wage on public works; raises pay for workers",
+  "decision": "skip",
+  "reason": "SB 518 (Rouse) is the Senate companion of HB 569 (Feggans); Gov. Spanberger's April 2026 signing release presents the two together as a single prevailing wage measure, and the site already has an entry for it (va-2026-hb569).",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -8301,8 +8319,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1116677": {
-  "decision": "promising",
-  "reason": "triage: signed maternal health coverage package",
+  "decision": "drafted",
+  "reason": "The Momnibus package includes HB1400 (Chapter 840), which took effect July 1, 2026 and requires Virginia-regulated health plans to cover maternal mental health screenings during and after pregnancy and limits prior approval for the drugs that treat those conditions; this is a concrete, enacted benefit.",
+  "file": "src/content/entries/state/va-2026-hb1400-maternal-mental-health-screenings.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -8643,8 +8662,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1320": {
-  "decision": "promising",
-  "reason": "triage: Raises weekly unemployment benefit by $48; direct money for laid-off workers",
+  "decision": "drafted",
+  "reason": "An enacted law that adds $48 a week to every new Virginia unemployment claim is money in the pockets of jobless workers, and it is paid from the employer-funded unemployment trust fund, not by cutting services.",
+  "file": "src/content/entries/state/va-2026-hb1320-unemployment-benefit-increase.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -9327,8 +9347,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1092": {
-  "decision": "promising",
-  "reason": "triage: heat illness rules for workers ordered",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Chapter 731, signed April 13, 2026). It requires enforceable rules on water, shade, rest, and training to protect Virginia workers from heat illness, and the rulemaking is now underway with a May 1, 2028 deadline. Two notes on the draft: the final-vote party breakdowns are left out because I couldn't load the official LIS roll call, and Phil Hernandez's openstates id is left out because sources disagree on it, so it should be filled in from src/data/roster/state-va.json.",
+  "file": "src/content/entries/state/va-2026-hb1092-heat-illness-rules.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -9495,8 +9516,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb601": {
-  "decision": "promising",
-  "reason": "triage: Automatic garnishment protection of $1,000 for debtors",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 637, signed April 13, 2026, effective July 1, 2026) that makes banks automatically shield up to $1,000 and recent benefit deposits from garnishment, which directly protects working people's money and costs the public nothing.",
+  "file": "src/content/entries/state/va-2026-hb601-garnishment-protected-balance.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -9513,8 +9535,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb625": {
-  "decision": "promising",
-  "reason": "triage: Caps prescription cost-sharing on marketplace plans",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed Virginia law (Chapter 641). It requires insurers in the individual and small-group markets to offer, at every metal level, plans that cap what you pay per 30-day supply of each covered drug, which directly lowers and steadies drug costs for working people. No existing entry covers it; the insulin cap (va-2026-hb1214) is a separate law.",
+  "file": "src/content/entries/state/va-2026-hb625-prescription-copay-cap-plans.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -9699,8 +9722,8 @@
   "date": "2026-11-11"
  },
  "va-2026-hb830": {
-  "decision": "promising",
-  "reason": "triage: PBM pass-through pricing; may lower drug costs, check effect",
+  "decision": "skip",
+  "reason": "HB 830 (identical to SB 669) mostly changes how pharmacy benefit managers pay pharmacies and insurers, and no source gives a concrete saving for patients, so it doesn't meet the direct-tangible-benefit test or the rule against claiming more than the sources support.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -9765,8 +9788,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb884": {
-  "decision": "promising",
-  "reason": "triage: Caps electric bills at 3% of income for eligible households; check funding",
+  "decision": "drafted",
+  "reason": "HB 884 is enacted (Chapter 690, approved April 13, 2026). Starting January 1, 2027, it halves what low-income Dominion and Appalachian Power customers pay for electricity as a share of their income and extends the program to households up to 200% of the poverty level. The cost is a capped per-kWh fee on ratepayers, not cuts to services.",
+  "file": "src/content/entries/state/va-2026-hb884-electric-bill-income-cap.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10101,8 +10125,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb481": {
-  "decision": "promising",
-  "reason": "triage: doctor must review prior authorization denials",
+  "decision": "drafted",
+  "reason": "HB 481 was signed as Chapter 925 and gives people on state-regulated health plans a concrete protection: a licensed physician has to approve any prior-authorization denial. It covers drugs from July 1, 2026 and other care from January 1, 2027.",
+  "file": "src/content/entries/state/va-2026-hb481-doctor-review-prior-auth-denials.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10449,8 +10474,9 @@
   "date": "2026-11-11"
  },
  "va-2026-sb493": {
-  "decision": "promising",
-  "reason": "triage: stronger auto-renewal disclosure and cancellation rules; check overlap with existing click-to-cancel",
+  "decision": "drafted",
+  "reason": "SB 493 is signed and has been in effect since July 1, 2026. It is a concrete consumer protection that makes subscriptions and automatic renewals as easy to cancel as they were to start, and violations are enforceable under the Virginia Consumer Protection Act. No existing entry covers it for Virginia; the NYC click-to-cancel rule is a different jurisdiction.",
+  "file": "src/content/entries/state/va-2026-sb493-click-to-cancel.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10593,8 +10619,9 @@
   "date": "2026-11-11"
  },
  "va-2026-sb637": {
-  "decision": "promising",
-  "reason": "triage: extends anti-discrimination law to employers with 5+ employees and schools",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 950, signed April 13, 2026, in effect since July 1, 2026) that gives workers at small Virginia businesses full protection from job discrimination and more time to file complaints, which is a direct and tangible gain in workers' rights.",
+  "file": "src/content/entries/state/va-2026-sb637-bias-protections-small-employers.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10659,8 +10686,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb693": {
-  "decision": "promising",
-  "reason": "triage: Bans credit-based auto insurance rate discrimination; lowers costs",
+  "decision": "skip",
+  "reason": "SB 693 only stops insurers from denying coverage or setting rates \"solely\" on credit, and the Consumer Federation of America's Doug Heller says that lets them keep pricing on credit alongside other factors, so I can't verify that drivers will see any concrete change in coverage or premiums; the rest of the law is a Bureau of Insurance study due in 2027.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10737,8 +10764,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb759": {
-  "decision": "promising",
-  "reason": "triage: Raises weekly unemployment benefit by $48; check funding and whether enacted",
+  "decision": "skip",
+  "reason": "SB 759 is identical to HB 1320 (same $48 weekly unemployment benefit increase for claims on or after July 1, 2026), which already has the entry va-2026-hb1320; Sen. Adam Ebbin's Senate version should be credited and cited in that entry rather than written up separately.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10875,8 +10902,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb288": {
-  "decision": "promising",
-  "reason": "triage: Orders heat illness rules for workers",
+  "decision": "skip",
+  "reason": "SB 288 is identical to HB 1092 (the bill summary says so), which already has an entry (va-2026-hb1092, heat illness rules), so it would be a duplicate.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -10905,8 +10932,8 @@
   "date": "2026-11-11"
  },
  "va-2026-sb301": {
-  "decision": "promising",
-  "reason": "triage: Bank accounts protected from garnishment up to $1,000",
+  "decision": "skip",
+  "reason": "SB 301 (Chapter 638) is the Senate companion to HB 601, and the same $1,000 automatic garnishment protection is already covered by va-2026-hb601 (\"Debt collectors can't take the last $1,000 in your Virginia bank account\"), so a new entry would be a duplicate; Sen. Schuyler VanValkenburg's credit as Senate patron belongs in that entry.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -11637,8 +11664,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb6": {
-  "decision": "promising",
-  "reason": "triage: Establishes a state right to contraception with enforcement; basic right",
+  "decision": "drafted",
+  "reason": "HB 6 (Chapter 524) was signed April 8, 2026 and took effect July 1, 2026; it makes getting birth control a legal right in Virginia that people can enforce in court, and no existing entry covers it (va-2026-hb1182 covers insurance coverage).",
+  "file": "src/content/entries/state/va-2026-hb6-right-to-contraception.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -11841,8 +11869,9 @@
   "date": "2026-11-11"
  },
  "va-2026-hb15": {
-  "decision": "promising",
-  "reason": "triage: tenants get 14 days before eviction action",
+  "decision": "drafted",
+  "reason": "HB 15 (Chapter 353) is an enacted law in effect since July 1, 2026. It directly protects Virginia renters by giving them 14 days instead of 5 to pay overdue rent before a landlord can move to end the lease, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-2026-hb15-14-days-to-pay-late-rent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -12369,8 +12398,9 @@
   "date": "2026-11-11"
  },
  "va-2026-sb596": {
-  "decision": "promising",
-  "reason": "triage: Statutory right to contraception, a basic right",
+  "decision": "drafted",
+  "reason": "This is an enacted Virginia law, signed April 8, 2026 and in effect since July 1, 2026. It creates a legal right to birth control that people can enforce in court. It is a different law from the existing HB 1182 entry, which covers insurance coverage.",
+  "file": "src/content/entries/state/va-2026-sb596-right-to-contraception.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -14439,8 +14469,9 @@
   "date": "2026-11-11"
  },
  "va-gov-1115213": {
-  "decision": "promising",
-  "reason": "triage: Signed bills on healthcare, housing, energy costs; writer finds specifics",
+  "decision": "drafted",
+  "reason": "The roundup release covers several bills. I drafted one: HB 1180 and SB 591, which are enacted and require Virginia to offer its own free online state income tax filing. It saves working people the cost of filing, and no other entry covers it.",
+  "file": "src/content/entries/state/va-free-state-tax-filing-program.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -15183,8 +15214,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-02-mayor-mamdani-announces-major-expansion-of-protected-time-off-fo": {
-  "decision": "promising",
-  "reason": "triage: expands protected time off for 4.3M workers",
+  "decision": "drafted",
+  "reason": "Local Law 145 of 2025 became law and took effect Feb. 22, 2026. It gives most NYC workers 32 more hours of job-protected time off each year and adds new reasons they can use it, so it changes workers' lives directly, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-32-more-hours-protected-time-off.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -16767,8 +16799,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0994": {
-  "decision": "promising",
-  "reason": "triage: Cooling requirement for tenants' homes; check scope",
+  "decision": "drafted",
+  "reason": "Local Law 23 of 2026 is an enacted city law that gives NYC renters a right to cooling from their landlord. It has a direct, tangible effect on tenants' health and safety, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-ll-2026-023-air-conditioning.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -17391,8 +17424,9 @@
   "date": "2026-11-11"
  },
  "ny-2025-a584": {
-  "decision": "promising",
-  "reason": "triage: Bans training-repayment notes that trap workers",
+  "decision": "drafted",
+  "reason": "New York enacted a law that voids most \"stay or pay\" contracts making workers repay employers, including for job training, if they quit early. It is a direct workplace protection, and a February 2026 chapter amendment set its start date for Dec. 19, 2026.",
+  "file": "src/content/entries/state/ny-2025-a584-no-paying-to-quit.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -18219,8 +18253,9 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8416": {
-  "decision": "promising",
-  "reason": "triage: Expands AG power against unfair business practices",
+  "decision": "drafted",
+  "reason": "Signed law, in effect since Feb. 17, 2026, that lets New York's attorney general stop unfair and abusive business practices (not just deceptive ones) that hurt consumers, such as debt collectors seizing Social Security or dealers adding warranties nobody bought.",
+  "file": "src/content/entries/state/ny-2025-s8416-unfair-abusive-business-practices.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -18813,8 +18848,9 @@
   "date": "2026-11-11"
  },
  "us-law-119-42": {
-  "decision": "promising",
-  "reason": "triage: Annual COLA raising veterans' disability and survivor benefits",
+  "decision": "drafted",
+  "reason": "The law gave about 6.9 million disabled veterans and survivors a 2.8% raise in their monthly VA payments, nothing was cut to pay for it, and no existing entry covers it.",
+  "file": "src/content/entries/federal/veterans-disability-survivor-pay-2-8-percent-raise.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -18861,8 +18897,9 @@
   "date": "2026-11-11"
  },
  "ny-2025-a128": {
-  "decision": "promising",
-  "reason": "triage: free inhaler coverage; lowers health costs, signing unconfirmed",
+  "decision": "drafted",
+  "reason": "This is a signed New York law (Chapter 504 of 2025). Starting Jan. 1, 2027, it removes all out-of-pocket costs for one rescue inhaler and one maintenance inhaler on state-regulated health plans, which is a direct cost saving for people with asthma.",
+  "file": "src/content/entries/state/ny-2025-a128-free-asthma-inhalers.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -19029,8 +19066,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1372": {
-  "decision": "promising",
-  "reason": "triage: enacted cap on voucher holders' rent share",
+  "decision": "drafted",
+  "reason": "This enacted local law caps the rent CityFHEPS voucher holders pay at 30% of income. It reverses a city rule that raised working families' share to 40%, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-ll-2025-176-voucher-rent-cap-30-percent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -19149,8 +19187,8 @@
   "date": "2026-11-11"
  },
  "us-law-119-44": {
-  "decision": "promising",
-  "reason": "triage: enacted reauthorization of addiction treatment programs",
+  "decision": "skip",
+  "reason": "The law mostly extends existing federal grant programs for substance use through FY2030, but authorizing a program doesn't fund it: the money still depends on separate appropriations, and sources show no new benefit or coverage change for patients, so no concrete, verifiable effect on people can be stated yet.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -19809,8 +19847,9 @@
   "date": "2026-11-11"
  },
  "us-law-119-37": {
-  "decision": "promising",
-  "reason": "triage: Ended shutdown; funding extension, includes SNAP/WIC funding but mainly procedural",
+  "decision": "drafted",
+  "reason": "The law that ended the 43-day 2025 shutdown restored SNAP for about 42 million people, funding it and WIC through September 2026. It also guaranteed back pay to about 1.4 million federal workers and voided layoffs made during the shutdown, with no offsetting service cuts.",
+  "file": "src/content/entries/federal/snap-restored-after-2025-shutdown.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -20241,8 +20280,9 @@
   "date": "2026-11-11"
  },
  "ny-2025-s7882": {
-  "decision": "promising",
-  "reason": "triage: Bans rent-fixing algorithms; signed law lowers rent costs",
+  "decision": "drafted",
+  "reason": "An enacted, signed New York law (Chapter 437 of 2025) that makes it illegal under state antitrust law for rent-setting software to coordinate rents among competing landlords. It protects renters directly, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2025-s7882-algorithmic-rent-fixing-ban.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -20667,8 +20707,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-10-mayor-adams-cancels-nearly-135-million-in-medical-debt-for-work": {
-  "decision": "promising",
-  "reason": "triage: Cancelled $135M medical debt plus financial centers",
+  "decision": "drafted",
+  "reason": "This is a funded city program that has wiped out nearly $135 million in medical debt for more than 75,000 low- and middle-income New Yorkers, with no application needed. It's still running in Oct. 2026, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-medical-debt-erased-no-application-needed.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -25821,8 +25862,9 @@
   "date": "2026-11-11"
  },
  "ny-2025-a3009": {
-  "decision": "promising",
-  "reason": "triage: Middle-class tax cut paid by surcharge extension; check",
+  "decision": "drafted",
+  "reason": "The FY2026 revenue bill (Ch. 59 of 2025) put into law a middle-class income tax rate cut for about 8.3 million New Yorkers. It was paid for by keeping the high-income surcharge through 2032, so it passes the net-impact test, and no existing entry covers it (the inflation refund and child credit parts already have entries).",
+  "file": "src/content/entries/state/ny-2025-a3009-middle-class-tax-cut.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -29889,8 +29931,9 @@
   "date": "2026-11-11"
  },
  "us-law-118-210": {
-  "decision": "promising",
-  "reason": "triage: Enacted veterans health and benefits law",
+  "decision": "drafted",
+  "reason": "The Dole Act's Section 120 directly raised what VA can pay for a veteran's care at home from 65% to 100% of the nursing home rate, VA has put it into effect, and no existing entry covers it.",
+  "file": "src/content/entries/federal/veterans-home-care-cap-100-percent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -30849,8 +30892,9 @@
   "date": "2026-11-11"
  },
  "ny-2023-s5081": {
-  "decision": "promising",
-  "reason": "triage: Employers must cut warehouse injuries",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, Chapter 652 of 2024, in effect since June 1, 2025. It requires large warehouse employers to find and reduce the risks behind strain injuries, train workers on paid time and protect them from retaliation, which is a direct safety benefit for workers.",
+  "file": "src/content/entries/state/ny-2024-s5081-warehouse-injury-prevention.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -31137,8 +31181,9 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8650": {
-  "decision": "promising",
-  "reason": "triage: Auto-enrolls low-income seniors in Medicare Savings Program; saves premiums",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed New York law (Ch. 585 of 2024) that has been in effect since April 1, 2026. It lets Social Security's Extra Help data count as a Medicare Savings Program application, so low-income Medicare enrollees can get help with premiums without filing a second form.",
+  "file": "src/content/entries/state/ny-2024-s8650-extra-help-counts-as-msp-application.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -31221,8 +31266,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-28861": {
-  "decision": "promising",
-  "reason": "triage: Final rule: 30-day eviction notice for public/subsidized housing tenants",
+  "decision": "drafted",
+  "reason": "A final HUD rule gives tenants in public housing and project-based assisted housing a 30-day written notice and a chance to pay before a landlord can file an eviction for unpaid rent; it is in force now, but a pending HUD revocation threatens it.",
+  "file": "src/content/entries/federal/hud-housing-30-days-notice-before-eviction.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -31815,8 +31861,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-12-mayor-adams-governor-hochul-speaker-adams-celebrates-passage-most-pro-housing-proposal-in": {
-  "decision": "promising",
-  "reason": "triage: City of Yes housing passage; check details",
+  "decision": "drafted",
+  "reason": "City of Yes for Housing Opportunity is an enacted citywide zoning change that legalized small accessory units, dropped parking mandates and added an affordable-housing bonus, and came with a $5 billion investment package; working people come out ahead, a court rejected a challenge to it in 2025, and it remains in effect.",
+  "file": "src/content/entries/local/nyc-city-of-yes-zoning-makes-room-for-80000-homes.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -32013,8 +32060,8 @@
   "date": "2026-11-11"
  },
  "us-law-118-130": {
-  "decision": "promising",
-  "reason": "triage: Veterans compensation COLA increase for disabled veterans and survivors",
+  "decision": "skip",
+  "reason": "This is the routine annual cost-of-living raise for VA disability and survivor pay, and those rates have since been replaced by the next raise; the site already covers that annual raise in us-law-119-42 (the 2.8% increase), so a separate 2024 entry would repeat it.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -34575,8 +34622,9 @@
   "date": "2026-11-11"
  },
  "ny-2023-a8947": {
-  "decision": "promising",
-  "reason": "triage: Retail worker violence prevention law with panic buttons",
+  "decision": "drafted",
+  "reason": "The Retail Worker Safety Act is a signed New York law that requires retail employers to give workers violence-prevention plans and training, and requires big chains to provide silent alarm buttons. That is a direct workplace-safety benefit, paid for by employers, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2024-a8947-retail-worker-safety.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -35487,8 +35535,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-08-new-yorkers-claim-345-million-thanks-mayor-adams-push-enhanced-earned-income-tax-credit": {
-  "decision": "promising",
-  "reason": "triage: Enhanced NYC EITC, $345M claimed by workers",
+  "decision": "drafted",
+  "reason": "The 2022 state budget (Ch. 59, Part JJ) permanently raised NYC's earned income credit from 5% to 10–30% of the federal credit. That puts money directly in low-wage workers' pockets, the city pays for it, and it's still in effect for tax year 2025. It's separate from the one-time Part NN supplemental payments already covered in ny-2021-s8009.",
+  "file": "src/content/entries/local/nyc-earned-income-tax-credit-up-to-six-times-bigger.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -38097,8 +38146,8 @@
   "date": "2026-11-11"
  },
  "us-law-118-63": {
-  "decision": "promising",
-  "reason": "triage: FAA law with passenger protections (refunds, seat size, safety), enacted",
+  "decision": "skip",
+  "reason": "This is a broad FAA and NTSB reauthorization. Its main direct benefit to travelers, automatic cash refunds for canceled or significantly changed flights, is already covered by the entry us-dot-2024-airline-refunds. Its free family seating mandate depends on a DOT rule (RIN 2105-AF15) that sources from as late as August 2026 still describe as pending, so that benefit hasn't reached anyone yet.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -38199,8 +38248,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-08363": {
-  "decision": "promising",
-  "reason": "triage: Medicaid access rule: wait times, payment transparency, home care worker pay share",
+  "decision": "drafted",
+  "reason": "This final rule has a direct, concrete effect on working people: it requires that at least 80% of Medicaid home care payments go to direct care workers' pay starting in 2030. It is under threat from a pending CMS proposal (CMS-2450, now in White House review) that names this rule for rescission or revision.",
+  "file": "src/content/entries/federal/medicaid-home-care-workers-80-percent-pay.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -38235,8 +38285,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-06-mayor-adams-celebrates-new-age-economic-opportunity-nyc-passage-city-yes": {
-  "decision": "promising",
-  "reason": "triage: City of Yes zoning enacted; housing supply, check cost/effects",
+  "decision": "skip",
+  "reason": "City of Yes for Economic Opportunity is a citywide zoning text amendment that mainly frees up where businesses can locate and operate, so it helps business and property owners directly and gives working people no direct, measurable benefit the guide requires.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -38571,8 +38621,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06625": {
-  "decision": "promising",
-  "reason": "triage: Final rule requiring two-person train crews for rail safety",
+  "decision": "drafted",
+  "reason": "The FRA's 2024 final rule requires two-person crews on most trains. That is a real safety protection for rail workers and the communities along the tracks, and it is in effect but under an active en banc challenge from the railroads.",
+  "file": "src/content/entries/federal/two-person-train-crews-required.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -39405,8 +39456,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-03-mayor-adams-signs-two-pieces-legislation-extending-city-s-rent-stabilization-laws-honoring": {
-  "decision": "promising",
-  "reason": "triage: Signed extension of rent stabilization laws; writer verifies",
+  "decision": "skip",
+  "reason": "The rent stabilization extension (Int. 0653-A of 2024) is already covered by the existing entry nyc-int-2024-0653, and the other bill only names an animal care center after Paul Vallone, which is ceremonial.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -39591,8 +39642,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-03-mayor-adams-boosts-pay-80-000-human-services-workers-741-million-cost-of-living-adjustment": {
-  "decision": "promising",
-  "reason": "triage: Funded COLA raising pay for 80,000 workers",
+  "decision": "drafted",
+  "reason": "A funded city budget action that raised wages for about 80,000 workers at nonprofits with city contracts, through three 3% cost-of-living raises. No existing entry covers it.",
+  "file": "src/content/entries/local/nyc-human-services-workers-3-percent-raises.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -39837,8 +39889,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06464": {
-  "decision": "promising",
-  "reason": "triage: SSI stops cutting benefits for food help; final rule",
+  "decision": "drafted",
+  "reason": "A final SSA rule, still in effect, that stopped free food from reducing SSI checks for low-income seniors and people with disabilities and put about $1.6 billion more into their payments.",
+  "file": "src/content/entries/federal/ssi-free-food-no-longer-cuts-your-check.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -39867,8 +39920,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0653": {
-  "decision": "promising",
-  "reason": "triage: Continues rent stabilization for about 1M homes",
+  "decision": "drafted",
+  "reason": "Local Law 47 of 2024 kept NYC's rent stabilization law, with its yearly rent-increase limits and lease-renewal rights, in force for nearly 1 million rent-regulated households when it would otherwise have expired April 1, 2024; no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-ll-2024-047-rent-stabilization-extended.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -40659,8 +40713,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-00895": {
-  "decision": "promising",
-  "reason": "triage: Final rule speeding prior authorization for millions of patients",
+  "decision": "drafted",
+  "reason": "CMS's final rule makes Medicare Advantage, Medicaid, and CHIP plans decide on prior authorization requests within 7 days, or 72 hours for urgent ones, and give a specific reason for every denial. Those deadlines have been in force since January 1, 2026, and CMS's 2026 materials confirm it.",
+  "file": "src/content/entries/federal/medicare-advantage-medicaid-prior-approval-in-7-days.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -40977,8 +41032,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-01693": {
-  "decision": "promising",
-  "reason": "triage: final rule permanently expands opioid treatment access",
+  "decision": "drafted",
+  "reason": "The 2024 final rule permanently lets opioid treatment patients take home up to 28 days of methadone, start treatment through telehealth, and get medication without first proving a year of addiction, which directly affects more than 650,000 patients; it remains in effect after only a technical correction in 2026.",
+  "file": "src/content/entries/federal/methadone-take-home-doses-and-telehealth-start.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -41295,8 +41351,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2024-01-mayor-adams-relieve-2-billion-medical-debt-hundreds-thousands-working-class": {
-  "decision": "promising",
-  "reason": "triage: medical debt relief for hundreds of thousands",
+  "decision": "skip",
+  "reason": "This is the January 2024 launch of the same $18 million city partnership with Undue Medical Debt (formerly RIP Medical Debt) that the existing entry nyc-mayor-2025-10-mayor-adams-cancels-nearly-135-million-in-medical-debt-for-work already covers.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -41349,8 +41405,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0632": {
-  "decision": "promising",
-  "reason": "triage: enacted ban on housing discrimination by criminal history",
+  "decision": "drafted",
+  "reason": "Local Law 24 of 2024 (Fair Chance for Housing Act) is an enacted, in-effect NYC law that protects renters and buyers from being denied housing over arrests and older convictions, so it is a direct rights win that no existing entry covers.",
+  "file": "src/content/entries/local/nyc-ll-2024-024-fair-chance-for-housing.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -41541,8 +41598,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-00204": {
-  "decision": "promising",
-  "reason": "triage: early implementation of income-driven repayment rule; lowers student loan payments",
+  "decision": "drafted",
+  "reason": "The Education Department moved up SAVE's 10-year forgiveness for small original balances, and about 153,000 borrowers had $1.2 billion cancelled in February 2024; the courts stopped further forgiveness in 2024 and vacated the rule in March 2026.",
+  "file": "src/content/entries/federal/small-student-loans-forgiven-after-10-years.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -41817,8 +41875,8 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-27997": {
-  "decision": "promising",
-  "reason": "triage: FTC final rule banning car dealer scams and junk fees",
+  "decision": "skip",
+  "reason": "The FTC put the CARS Rule on hold before its July 2024 effective date, and the Fifth Circuit vacated it on Jan. 27, 2025, so it never took effect and did nothing concrete for car buyers.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -42411,8 +42469,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2023-12-el-alcalde-adams-la-presidenta-del-concejo-adams-y-la-comisionada-park-del-dss-anuncian-una": {
-  "decision": "promising",
-  "reason": "triage: Fair Fares expansion funded; Spanish duplicate of English release",
+  "decision": "skip",
+  "reason": "This is the December 2023 rise in Fair Fares eligibility from 100% to 120% of the poverty line, a step later raised to 145% (January 2025) and then expanded again in the FY2027 budget, which the site already covers as nyc-fy2027-budget-fair-fares; a separate entry for an outdated step would duplicate that program.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -42429,8 +42487,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2023-12-mayor-adams-speaker-adams-dss-commissioner-park-20-million-investment-eligibility": {
-  "decision": "promising",
-  "reason": "triage: Fair Fares $20M eligibility expansion, funded",
+  "decision": "skip",
+  "reason": "The December 2023 change raised Fair Fares eligibility from 100% to 120% of the poverty line, but later budgets raised it to 145%, then 150%, and the FY2027 budget raised it to 200%; that latest expansion is already the entry nyc-fy2027-budget-fair-fares, so a separate entry would duplicate the program under a cutoff that's no longer current (the 2023 step could be a line of history in that entry instead).",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -45939,8 +45997,9 @@
   "date": "2026-11-11"
  },
  "ny-2023-s7394": {
-  "decision": "promising",
-  "reason": "triage: Enacted early mail voting for all voters",
+  "decision": "drafted",
+  "reason": "An enacted law that lets every registered New York voter vote by mail without giving a reason, in effect since 2024 and upheld by the state's top court in August 2024.",
+  "file": "src/content/entries/state/ny-2023-s7394-vote-early-by-mail.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -47283,8 +47342,8 @@
   "date": "2026-11-11"
  },
  "ny-2023-a7355": {
-  "decision": "promising",
-  "reason": "triage: gender identity added to NY human rights law; signed rights protection",
+  "decision": "skip",
+  "reason": "Chapter 305 of 2023 only adds gender identity or expression to the intern section of the Human Rights Law (Exec. Law §296-c), fixing a drafting oversight from GENDA in 2019; the sponsors' memo says interns were already protected under the Division of Human Rights' reading of sex discrimination, so this technical cleanup makes the protection explicit without giving anyone a new, tangible benefit.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -48723,8 +48782,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2023-0893": {
-  "decision": "promising",
-  "reason": "triage: Expands rental voucher eligibility; writer checks veto override",
+  "decision": "skip",
+  "reason": "The city never put Local Law 101 of 2023 into effect, and the June 2026 settlement of the lawsuit over it produced Local Law 126 of 2026 (Int 966-2026), which already has an entry (nyc-int-2026-0966), so a separate entry would duplicate it or describe a benefit nobody received.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -48951,8 +49010,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-13112": {
-  "decision": "promising",
-  "reason": "triage: Final rule cutting student loan payments; check later court/repeal status",
+  "decision": "drafted",
+  "reason": "The 2023 SAVE rule lowered student loan payments for millions of borrowers, including 4.3 million with $0 payments, and stopped unpaid interest from growing their balances; courts and a 2025 settlement later ended it, which is recorded as the entry's status.",
+  "file": "src/content/entries/federal/save-plan-lower-student-loan-payments.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -49893,8 +49953,8 @@
   "date": "2026-11-11"
  },
  "us-law-118-6": {
-  "decision": "promising",
-  "reason": "triage: Enacted COLA raising veterans' disability and survivor benefits",
+  "decision": "skip",
+  "reason": "This is the routine yearly VA cost-of-living raise (3.2% for December 2023), and later yearly raises have built on it, so it duplicates the existing entry us-law-119-42 for the current raise and shouldn't get its own entry for each year.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -50109,8 +50169,8 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-05744": {
-  "decision": "promising",
-  "reason": "triage: final EPA rule cutting ozone-causing pollution across 23 states",
+  "decision": "skip",
+  "reason": "The Supreme Court stayed the Good Neighbor Plan in June 2024 before most of it took effect, and EPA has since stayed it in all 23 states and proposed rolling it back (January 2026), so its pollution cuts never reached people and any impact figure would be an unrealized projection.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -51441,8 +51501,9 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-07115": {
-  "decision": "promising",
-  "reason": "triage: final rule: Medicare Advantage/Part D protections for millions",
+  "decision": "drafted",
+  "reason": "This final rule gives every Medicare Advantage enrollee direct protections. Plans must follow traditional Medicare's coverage rules, a prior approval holds for the whole course of treatment, and someone who switches plans mid-treatment gets 90 days of continued care. No existing entry covers it, and CMS's 2027 rule did not undo these protections.",
+  "file": "src/content/entries/federal/medicare-advantage-must-follow-medicare-coverage-rules.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -51639,8 +51700,8 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-05836": {
-  "decision": "promising",
-  "reason": "triage: HUD final rule restoring fair housing discriminatory-effects protection",
+  "decision": "skip",
+  "reason": "The 2023 rule only re-adopted HUD's 2013 disparate-impact standard, which had stayed in force because a court blocked the 2020 rule before it took effect, and the Supreme Court's 2015 Inclusive Communities decision already makes this liability part of the Fair Housing Act, so the rule produced no concrete change in renters' or buyers' lives; HUD has also proposed rescinding it (Jan. 14, 2026 proposed rule, comment period later reopened, no final rule found).",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -51831,8 +51892,9 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2023-03-mayor-adams-expands-big-apple-connect-deliver-free-internet-tv-more-300-000-new": {
-  "decision": "promising",
-  "reason": "triage: funded free internet and TV for 300,000 NYCHA residents",
+  "decision": "drafted",
+  "reason": "Big Apple Connect gives NYCHA residents free home internet and basic cable TV, and the city pays the bill. That is a direct, ongoing saving for about 330,000 public housing residents, the program has been extended through June 2028, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-nycha-residents-get-free-internet-and-cable-tv.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -53139,8 +53201,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0673": {
-  "decision": "promising",
-  "reason": "triage: free legal representation for seniors in eviction; enacted law",
+  "decision": "drafted",
+  "reason": "Local Law 20 of 2023 is an enacted law with a direct effect on people. It gives every NYC tenant 60 and older facing eviction the right to a free lawyer at any income, which goes beyond the existing income-limited right-to-counsel entry, and it is still in effect.",
+  "file": "src/content/entries/local/nyc-free-eviction-lawyer-for-tenants-60-and-older.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -54357,8 +54420,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-338": {
-  "decision": "promising",
-  "reason": "triage: FCC must make prison phone and video rates just and reasonable",
+  "decision": "drafted",
+  "reason": "The law let the FCC cap in-state and video call rates from prisons and jails for the first time, and those caps have been binding since April 6, 2026, so families of incarcerated people pay directly less to stay in touch.",
+  "file": "src/content/entries/federal/prison-and-jail-calls-have-price-caps.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -54735,8 +54799,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-a6328": {
-  "decision": "promising",
-  "reason": "triage: Bans discrimination by immigration status; a rights protection",
+  "decision": "drafted",
+  "reason": "This enacted law (Chapter 748 of 2022) adds citizenship and immigration status to the NY Human Rights Law, which protects people at work, in housing, in credit, and in public places. It still stands, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2022-a6328-immigration-status-discrimination-ban.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -54969,8 +55034,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-328": {
-  "decision": "promising",
-  "reason": "triage: omnibus with postpartum Medicaid, nursing worker rights, retirement provisions; writer picks",
+  "decision": "drafted",
+  "reason": "The 2023 omnibus enacted the Pregnant Workers Fairness Act. It gives tens of millions of workers a direct, enforceable right to pregnancy accommodations, the act is in effect, and no existing entry covers it.",
+  "file": "src/content/entries/federal/pregnant-workers-right-to-job-accommodations.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -55299,8 +55365,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9427": {
-  "decision": "promising",
-  "reason": "triage: Pay transparency in job postings",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law that requires most employers to post pay ranges for jobs and promotions, which directly helps workers negotiate pay. It is still in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-job-ads-must-list-pay-range.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -58209,8 +58276,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-191": {
-  "decision": "promising",
-  "reason": "triage: Raises veterans disability and survivor payments",
+  "decision": "drafted",
+  "reason": "An enacted law that raised monthly VA disability and survivor payments 8.7% starting December 2022, which is direct money to veterans and families; it is a different year's raise from the existing 2025 COLA entry.",
+  "file": "src/content/entries/federal/veterans-disability-survivor-pay-8-7-percent-raise.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -58779,8 +58847,8 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9120": {
-  "decision": "promising",
-  "reason": "triage: easements enabling Metro-North Bronx stations",
+  "decision": "skip",
+  "reason": "S9120A is a parkland-alienation and easement law that lets New York City hand over Bronx land for Metro-North's Penn Station Access project, so its main effect is on government, and the real benefit (four new Bronx stations, funded through the MTA capital program and not yet open) belongs in a future entry about that project, not in this procedural enabling act.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -59253,8 +59321,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-58": {
-  "decision": "promising",
-  "reason": "triage: major enacted infrastructure funding, no service cuts",
+  "decision": "drafted",
+  "reason": "The 2021 infrastructure law put $550 billion in new money into lead pipe replacement, roads, transit, and internet. It was paid for mainly with repurposed COVID money and new revenue, not service cuts. Its five years of extra funding ended Sept. 30, 2026.",
+  "file": "src/content/entries/federal/infrastructure-law-lead-pipes-roads-internet.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -61533,8 +61602,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0558": {
-  "decision": "promising",
-  "reason": "triage: Extends rent stabilization; likely duplicate-ish procedural, but protects ~1M homes",
+  "decision": "skip",
+  "reason": "Local Law 69 of 2022 was one of the routine three-year renewals of NYC rent stabilization, and a later renewal has replaced it; the existing entry nyc-int-2024-0653 already covers keeping rent stabilization in place, so a separate entry would repeat it.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -61611,8 +61680,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-159": {
-  "decision": "promising",
-  "reason": "triage: Background checks and mental health funding, safety",
+  "decision": "drafted",
+  "reason": "The Bipartisan Safer Communities Act is an enacted law, isn't paid for with service cuts, and makes people safer: it bars dating partners convicted of domestic abuse from having guns and adds deeper checks for buyers under 21, and both rules are still in effect.",
+  "file": "src/content/entries/federal/gun-checks-cover-abusive-dating-partners-and-buyers-under-21.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -61755,8 +61825,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s1046": {
-  "decision": "promising",
-  "reason": "triage: enacted state voting rights act, basic right",
+  "decision": "drafted",
+  "reason": "New York's John R. Lewis Voting Rights Act is an enacted law that protects voting rights for racial and language-minority voters (lawsuits over vote dilution, state preclearance, wider language help), it's still in force after the Court of Appeals upheld it in November 2025, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-voting-rights-act-protects-minority-voters.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -62667,8 +62738,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0134": {
-  "decision": "promising",
-  "reason": "triage: Salary range posting law helps job seekers",
+  "decision": "skip",
+  "reason": "Local Law 59 of 2022 is an amendment that employers pushed for: it pushed NYC's job-ad pay range law back from May 15 to Nov. 1, 2022 and took away job applicants' right to sue, so on balance it weakened the law rather than benefiting workers. The benefit itself comes from the original law, Local Law 32 of 2022 (Int. 1208), which should get its own entry.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -63495,8 +63566,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0070": {
-  "decision": "promising",
-  "reason": "triage: continues rent stabilization for about 1M homes",
+  "decision": "skip",
+  "reason": "This is the 2022 three-year renewal of NYC's rent stabilization law, which ran only until the 2024 renewal replaced it, and the existing entry nyc-int-2024-0653 already covers that renewal, so a separate entry would repeat it.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -63639,14 +63710,16 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2022-04-mayor-adams-applauds-earned-income-tax-credit-enhancement-state-budget-fulfilling-pledge-to": {
-  "decision": "promising",
-  "reason": "triage: enacted EITC enhancement for working families",
+  "decision": "drafted",
+  "reason": "The FY2023 state budget raised New York City's refundable earned income credit from 5% to 10–30% of the federal credit for low-wage workers. The city pays for it and it is still in effect, and no existing entry covers it (ny-2021-s8009 covers the one-time state supplemental checks).",
+  "file": "src/content/entries/state/ny-nyc-earned-income-credit-up-to-30-percent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
  "nyc-mayor-2022-04-mayor-adams-celebrates-4-billion-allocated-childcare-state-budget": {
-  "decision": "promising",
-  "reason": "triage: enacted state budget child care funding",
+  "decision": "drafted",
+  "reason": "The mayor's release celebrates New York's FY2023 state budget, which raised the income limit for child care aid from 200% to 300% of the poverty line (up to $83,250 for a family of four) starting August 2022; this is enacted, gives working families a direct benefit, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-child-care-aid-for-families-earning-up-to-83250.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -63813,8 +63886,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8006": {
-  "decision": "promising",
-  "reason": "triage: enacted education, labor, housing budget with foundation aid",
+  "decision": "drafted",
+  "reason": "This 2022 budget bill has many parts. Part XX raised the legal minimum pay for New York home care aides above the regular minimum wage, which is a direct raise for low-paid workers, and it is still in effect today in amended form.",
+  "file": "src/content/entries/state/ny-2022-home-care-aide-raise.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -63825,8 +63899,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8009": {
-  "decision": "promising",
-  "reason": "triage: accelerated middle class tax cuts; writer checks how paid for",
+  "decision": "drafted",
+  "reason": "The FY2023 revenue budget bill (Part NN) sent $475 million in one-time extra child and earned income credit payments to about 1.8 million lower-income New Yorkers; existing entries don't cover it, and nothing in the budget cut services to pay for it.",
+  "file": "src/content/entries/state/ny-2022-budget-extra-child-and-earned-income-credit-checks.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -64665,8 +64740,9 @@
   "date": "2026-11-11"
  },
  "us-law-117-90": {
-  "decision": "promising",
-  "reason": "triage: Enacted law protecting workers' right to sue over harassment/assault",
+  "decision": "drafted",
+  "reason": "This enacted federal law gives workers and consumers a concrete legal right: forced-arbitration clauses can't keep their sexual assault or harassment claims out of court. It costs nothing in services, so it passes the net-impact test, and no existing entry covers it.",
+  "file": "src/content/entries/federal/sexual-harassment-claims-can-go-to-court.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -65547,8 +65623,8 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2022-02-mayor-adams-speaker-adams-critical-fair-fares-program-be-expanded-made-permanent": {
-  "decision": "promising",
-  "reason": "triage: Fair Fares expansion and permanence; distinct from FY2027 entry",
+  "decision": "skip",
+  "reason": "The Feb. 2022 announcement put $75 million a year for Fair Fares in the preliminary budget but changed no one's eligibility or benefit (the program stayed at 100% of poverty, and the 120% expansion came later in FY2024), so it gives readers nothing new beyond the existing Fair Fares entry (nyc-fy2027-budget-fair-fares).",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -66435,8 +66511,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1208": {
-  "decision": "promising",
-  "reason": "triage: salary range in job listings, pay transparency",
+  "decision": "drafted",
+  "reason": "NYC's Local Law 32 of 2022 is an enacted law that requires good-faith pay ranges in NYC job ads, a direct and still-standing gain for workers that came before the separate New York State law.",
+  "file": "src/content/entries/local/nyc-job-ads-must-show-pay-range.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -66543,8 +66620,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s5724": {
-  "decision": "promising",
-  "reason": "triage: Caps consumer debt judgment interest at 2%; direct relief",
+  "decision": "drafted",
+  "reason": "This enacted law cut the interest on court judgments over consumer debts, including medical and student debt, from 9% to 2%. That directly lowers what people sued by creditors owe, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-consumer-debt-judgment-interest-capped-2-percent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -67671,8 +67749,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4824": {
-  "decision": "promising",
-  "reason": "triage: utilities must reimburse customers for long outages, no cost passthrough",
+  "decision": "drafted",
+  "reason": "This is an enacted law, signed Dec. 22, 2021 as Chapter 786. It gives New York households and small businesses bill credits and pays them back for spoiled food and medicine after outages of 72 hours or more, and utilities can't pass that cost on to ratepayers. It remains in effect as Public Service Law §73.",
+  "file": "src/content/entries/state/ny-utilities-pay-you-back-after-long-power-outages.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -67725,8 +67804,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-a8009": {
-  "decision": "promising",
-  "reason": "triage: FHEPS housing vouchers for families in NYC, enacted",
+  "decision": "drafted",
+  "reason": "An enacted state law (Ch. 666 of 2021) raised the rent that FHEPS vouchers can pay for NYC families with children facing eviction or fleeing domestic violence from 85% to 100% of HUD fair market rent; the statute is still in force.",
+  "file": "src/content/entries/state/ny-fheps-vouchers-pay-fair-market-rent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -68787,8 +68867,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s153": {
-  "decision": "promising",
-  "reason": "triage: 3-year limit on consumer debt lawsuits, notice rules",
+  "decision": "drafted",
+  "reason": "This enacted New York law gives people sued over consumer debt a shorter, permanent time limit and new safeguards against default judgments. That directly protects workers' wages and bank accounts, and no existing entry covers it (the 2% interest cap entry is a separate law).",
+  "file": "src/content/entries/state/ny-debt-collectors-have-3-years-to-sue.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -70311,8 +70392,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s50001": {
-  "decision": "promising",
-  "reason": "triage: Eviction protections and rental assistance program",
+  "decision": "drafted",
+  "reason": "This enacted 2021 law directly protected New York tenants, homeowners and small landlords from pandemic evictions and foreclosures, and added rental aid and legal help. It has expired, which the status shows, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-covid-eviction-moratorium-extended-to-jan-2022.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -72525,8 +72607,9 @@
   "date": "2026-11-11"
  },
  "us-eo-14026": {
-  "decision": "promising",
-  "reason": "triage: Raises federal contractor minimum wage to $15",
+  "decision": "drafted",
+  "reason": "The order raised pay for hundreds of thousands of workers on federal contracts to at least $15 an hour, with yearly inflation raises and a full wage for tipped workers. Trump revoked it in March 2025, so the entry is marked repealed.",
+  "file": "src/content/entries/federal/federal-contract-workers-15-minimum-wage.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -72813,8 +72896,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-s854": {
-  "decision": "promising",
-  "reason": "triage: cannabis legalization, expungement, social equity; check funding use",
+  "decision": "drafted",
+  "reason": "The MRTA directly changed New Yorkers' lives: it legalized adult cannabis use, automatically cleared past convictions for conduct that is now legal, and protected workers' legal off-duty use. It is paid for by cannabis sales taxes that go to schools, community reinvestment, and drug treatment, and it is still in effect.",
+  "file": "src/content/entries/state/ny-adults-can-use-cannabis-and-old-pot-records-are-erased.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -73203,8 +73287,9 @@
   "date": "2026-11-11"
  },
  "ny-2021-a2681": {
-  "decision": "promising",
-  "reason": "triage: HERO Act: workplace infectious disease protections",
+  "decision": "drafted",
+  "reason": "The NY HERO Act gives private-sector workers enforceable airborne-disease safety plans, anti-retaliation rights, and the right to form workplace safety committees, and it is still law.",
+  "file": "src/content/entries/state/ny-hero-act-airborne-disease-safety-plans.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -73552,14 +73637,15 @@
   "date": "2026-11-11"
  },
  "ny-2021-s2558": {
-  "decision": "promising",
-  "reason": "triage: Driver's license suspension reform, payment plans",
+  "decision": "drafted",
+  "reason": "New York's Driver's License Suspension Reform Act, finalized by this chapter amendment, ended license suspensions for unpaid traffic fines and guaranteed income-based payment plans, a direct, lasting benefit to low-income drivers that no existing entry covers.",
+  "file": "src/content/entries/state/ny-unpaid-traffic-fines-no-longer-suspend-your-license.md",
   "impact": 4,
   "date": "2026-11-11"
  },
  "ny-2021-s471": {
-  "decision": "promising",
-  "reason": "triage: COVID eviction and foreclosure protections",
+  "decision": "skip",
+  "reason": "S471A is the COVID-19 Emergency Protect Our Small Businesses Act, which paused evictions and foreclosures for small-business commercial tenants and commercial property owners; it mainly helped business and property owners rather than wage earners or residential renters, it expired in 2021, and the residential COVID eviction protections are already covered by ny-2021-s50001.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -73948,8 +74034,8 @@
   "date": "2026-11-11"
  },
  "us-eo-14002": {
-  "decision": "promising",
-  "reason": "triage: Ordered SNAP boosts and relief steps",
+  "decision": "skip",
+  "reason": "E.O. 14002 only told agencies to look for and consider relief steps, so it had no direct effect on people by itself; the real benefits came later from separate USDA and Treasury actions (the 2021 Thrifty Food Plan update that raised SNAP, bigger P-EBT payments, SNAP emergency allotments), and each of those should be its own entry under its own source key.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -74434,8 +74520,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s9114": {
-  "decision": "promising",
-  "reason": "triage: COVID eviction and foreclosure protections enacted; direct housing security",
+  "decision": "drafted",
+  "reason": "This is the original Dec. 2020 law that created New York's COVID eviction and foreclosure protections, a separate earlier action from the Sept. 2021 extension already on the site (ny-2021-s50001), and it had a direct, concrete effect on renters, homeowners, and seniors.",
+  "file": "src/content/entries/state/ny-covid-hardship-paused-evictions-and-foreclosures.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -75280,8 +75367,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1314": {
-  "decision": "promising",
-  "reason": "triage: Bars arrest/conviction record discrimination (Fair Chance expansion)",
+  "decision": "drafted",
+  "reason": "Local Law 4 of 2021 expanded NYC's Fair Chance Act. It protects job applicants and current workers from being judged on arrests that didn't lead to a conviction, unsealed violations, and pending cases, and it is still in effect, so it qualifies. No existing entry covers it; the existing nyc-int-2022-0632 entry covers housing, not jobs.",
+  "file": "src/content/entries/local/nyc-employers-cant-punish-workers-for-arrests-without-convictions.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -75322,8 +75410,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1415": {
-  "decision": "promising",
-  "reason": "triage: Just-cause protection against firing for fast food workers",
+  "decision": "drafted",
+  "reason": "Local Law 2 of 2021 ended at-will firing for NYC fast food workers at large chains: a direct, enforceable job protection that is still in effect after federal courts upheld it.",
+  "file": "src/content/entries/local/nyc-fast-food-workers-cant-be-fired-without-just-cause.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -75562,8 +75651,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2020-2082": {
-  "decision": "promising",
-  "reason": "triage: bans source-of-income housing discrimination, helps voucher holders",
+  "decision": "skip",
+  "reason": "Local Law 119 of 2020 (Int. 2082-A) gave tenants no new rights: it only brought the city's Human Rights Law in line with the state law New York passed in 2019, which already banned source-of-income discrimination in buildings of every size and already counted child support and alimony as income, so an honest entry would overclaim or offer only a minor enforcement change.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -75592,8 +75681,8 @@
   "date": "2026-11-11"
  },
  "nyc-int-2020-2093": {
-  "decision": "promising",
-  "reason": "triage: continuation of rent stabilization, protects millions of tenants",
+  "decision": "skip",
+  "reason": "This is the 2020 three-year renewal of NYC's rent stabilization law. The 2024 renewal already has an entry (nyc-int-2024-0653) and replaced this one, so a separate entry for the earlier renewal would duplicate it.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -76276,8 +76365,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-178": {
-  "decision": "promising",
-  "reason": "triage: Annual raise in veterans' disability compensation",
+  "decision": "drafted",
+  "reason": "An enacted law that raised VA disability compensation, dependent allowances, the clothing allowance, and survivor DIC payments by 1.3% from Dec. 1, 2020. It's a different year from the existing 2023 and 2026 COLA entries.",
+  "file": "src/content/entries/federal/veterans-disability-survivor-pay-1-3-percent-raise.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -76318,8 +76408,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-171": {
-  "decision": "promising",
-  "reason": "triage: Expands veterans' mental health care and suicide prevention",
+  "decision": "drafted",
+  "reason": "The Hannon Act created the Staff Sergeant Fox grant program, which pays community groups to serve veterans at risk of suicide; it still runs and just awarded $111.9 million to 191 groups for fiscal 2027.",
+  "file": "src/content/entries/federal/veterans-suicide-prevention-grants-to-local-groups.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -77488,8 +77579,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8192": {
-  "decision": "promising",
-  "reason": "triage: Bars evictions of hardship tenants during COVID; temporary, enacted",
+  "decision": "drafted",
+  "reason": "The Tenant Safe Harbor Act is an enacted state law that kept New York renters who lost income in the pandemic from being evicted over that rent, and it is a separate law from the CEEFPA moratorium already on the site (ny-2021-s50001).",
+  "file": "src/content/entries/state/ny-renters-hit-by-covid-cant-be-evicted-for-that-back-rent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -77572,8 +77664,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8243": {
-  "decision": "promising",
-  "reason": "triage: 180-day mortgage forbearance required of banks; direct help",
+  "decision": "drafted",
+  "reason": "An enacted state law that gave homeowners with COVID hardship up to 360 days of mortgage forbearance from state-regulated lenders, with no late fees and no negative credit reporting. This is a direct, tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-covid-mortgage-forbearance-180-days.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -77650,8 +77743,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8419": {
-  "decision": "promising",
-  "reason": "triage: Emergency rent relief program; check if enacted and funded",
+  "decision": "drafted",
+  "reason": "An enacted law that paid rent, which tenants never had to repay, for about 15,000 lower-income New York households that lost income to COVID; it was funded with federal CARES Act money, not service cuts, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-covid-rent-relief-for-15000-households.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -78922,8 +79016,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-131": {
-  "decision": "promising",
-  "reason": "triage: Older Americans Act reauthorization funds senior services",
+  "decision": "drafted",
+  "reason": "The 2020 law renewed and expanded the Older Americans Act programs, including Meals on Wheels, rides, senior centers and caregiver support, which serve about 11 million older people. Congress has kept funding them through 2026, even though the law's authorization ran out after 2024.",
+  "file": "src/content/entries/federal/older-americans-act-meals-and-caregiver-help-renewed.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -78977,8 +79072,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8091": {
-  "decision": "promising",
-  "reason": "triage: NY COVID paid quarantine leave, enacted; job-protected paid leave for workers",
+  "decision": "drafted",
+  "reason": "New York's March 2020 COVID quarantine leave law gave workers job-protected sick days, up to 14 of them paid, plus family leave and disability benefits. It isn't a duplicate of the federal entry, and it ended July 31, 2025 under a sunset in the FY2025 budget.",
+  "file": "src/content/entries/state/ny-covid-quarantine-paid-sick-leave.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -79043,8 +79139,8 @@
   "date": "2026-11-11"
  },
  "us-law-116-123": {
-  "decision": "promising",
-  "reason": "triage: enacted $8.3B COVID funding for vaccines, testing, response; direct health effect",
+  "decision": "skip",
+  "reason": "This $8.3 billion emergency bill mostly paid federal agencies (vaccine research, public health grants, SBA loans, foreign aid), with no clear direct benefit to people that can be measured, and its one person-facing piece, a narrow Medicare telehealth waiver, was replaced weeks later by the CARES Act and is already covered by the existing telehealth entry.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -79487,8 +79583,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-105": {
-  "decision": "promising",
-  "reason": "triage: Robocall deterrence law; call authentication, blocking",
+  "decision": "drafted",
+  "reason": "The TRACED Act requires phone companies to verify caller ID at no extra line-item charge to customers, and it lets the FCC fine intentional robocallers up to $10,000 more per call. Everyone with a phone gets a direct, concrete consumer protection, and the law is still in effect.",
+  "file": "src/content/entries/federal/phone-companies-must-verify-caller-id-to-fight-robocalls.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -79583,8 +79680,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s6436": {
-  "decision": "promising",
-  "reason": "triage: Equal pay for similar work across protected classes; wide worker protection",
+  "decision": "drafted",
+  "reason": "Chapter 741 of 2019 (S6436/A7748) was signed and is in effect. It extends equal pay for similar or substantially similar work to New York State civil service workers in every protected class, a direct pay right for public workers.",
+  "file": "src/content/entries/state/ny-state-workers-equal-pay-across-protected-classes.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -82103,8 +82201,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s660": {
-  "decision": "promising",
-  "reason": "triage: Bars employer discrimination over reproductive health decisions; enacted right",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 457 of 2019) that gives every New York worker an enforceable right not to be fired or punished over their own or a dependent's reproductive health decisions; it remains in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-boss-cant-punish-reproductive-health-choices.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -82601,8 +82700,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-a264": {
-  "decision": "promising",
-  "reason": "triage: Protects patients from excessive ER charges",
+  "decision": "drafted",
+  "reason": "Chapter 375 of 2019 is in effect and has a direct effect on patients: when someone with a state-regulated plan gets emergency care at an out-of-network hospital, including an inpatient stay that follows the ER visit, they pay only in-network cost-sharing.",
+  "file": "src/content/entries/state/ny-out-of-network-er-costs-you-in-network-rates.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -82613,8 +82713,8 @@
   "date": "2026-11-11"
  },
  "ny-2019-s6544": {
-  "decision": "promising",
-  "reason": "triage: Excess hospital charge protections; likely same law as a264",
+  "decision": "skip",
+  "reason": "S6544A (Chapter 377 of 2019) is a chapter amendment that changes how insurers pay out-of-network hospitals for emergency care: a minimum initial payment, factors for settling disputes, and mediation before contracts end. Patients were already protected from these balance bills, and the sponsor memo names state and city health plans as the ones that benefit, so it has no direct, tangible effect on working people.",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -84533,8 +84633,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-a8421": {
-  "decision": "promising",
-  "reason": "triage: major workplace harassment protections, bans NDAs and forced arbitration",
+  "decision": "drafted",
+  "reason": "This is an enacted 2019 New York law, Chapter 160, and it's still in effect. It makes job harassment easier to prove and gives workers more time to file and more say over secrecy agreements. That's a direct, concrete protection for working people, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-workplace-harassment-no-longer-has-to-be-severe.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -84731,8 +84832,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-a8419": {
-  "decision": "promising",
-  "reason": "triage: Farm laborers get bargaining, overtime, rest day, workers' comp",
+  "decision": "drafted",
+  "reason": "An enacted 2019 New York law that gave farmworkers overtime pay, a weekly day of rest, union rights, unemployment insurance and workers' compensation. Its overtime threshold is still falling toward 40 hours.",
+  "file": "src/content/entries/state/ny-farmworkers-overtime-day-off-union-rights.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -84995,8 +85097,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-34": {
-  "decision": "promising",
-  "reason": "triage: Permanently funds 9/11 victim compensation through 2092",
+  "decision": "drafted",
+  "reason": "The 2019 law kept the 9/11 Victim Compensation Fund paying until 2090 and restored the awards cut for lack of money. It directly compensates sick responders, recovery and construction workers, and residents. It was deficit-financed rather than paid for with service cuts, and it is still in effect.",
+  "file": "src/content/entries/federal/sept-11-victim-fund-made-permanent.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -85541,8 +85644,9 @@
   "date": "2026-11-11"
  },
  "us-law-116-23": {
-  "decision": "promising",
-  "reason": "triage: Blue Water Navy vets get Agent Orange benefits; enacted, large benefit",
+  "decision": "drafted",
+  "reason": "The law made tens of thousands of Navy veterans who served off Vietnam eligible for VA disability pay and care for Agent Orange illnesses, and it is still in effect; the only cost was a small two-year rise in the VA home loan fee.",
+  "file": "src/content/entries/federal/navy-veterans-off-vietnam-get-agent-orange-benefits.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -85763,8 +85867,9 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1445": {
-  "decision": "promising",
-  "reason": "triage: Bans pre-employment drug testing for NYC jobs",
+  "decision": "drafted",
+  "reason": "Local Law 91 of 2019 is an enacted NYC law, still in effect, that stops most employers from testing job applicants for marijuana, which directly protects job seekers' access to work.",
+  "file": "src/content/entries/local/nyc-no-marijuana-test-to-get-a-job.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -86189,8 +86294,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s659": {
-  "decision": "promising",
-  "reason": "triage: enacted law requiring insurers to cover contraception",
+  "decision": "drafted",
+  "reason": "An enacted New York law (Chapter 25 of 2019) that requires state-regulated health plans to cover birth control with no copay or deductible and to cover a 12-month supply at once; it is still in effect and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-birth-control-free-with-12-month-supply.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -86693,8 +86799,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s2440": {
-  "decision": "promising",
-  "reason": "triage: Child Victims Act: longer time to sue/prosecute, revives claims",
+  "decision": "drafted",
+  "reason": "New York's Child Victims Act was signed in 2019 and is still in effect. It gives survivors of child sexual abuse a lasting legal right: they can sue until age 55. It also opened a window that sent more than 9,000 old claims to court.",
+  "file": "src/content/entries/state/ny-child-sex-abuse-survivors-can-sue-until-55.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -86849,8 +86956,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s1047": {
-  "decision": "promising",
-  "reason": "triage: GENDA: gender identity anti-discrimination and hate crimes",
+  "decision": "drafted",
+  "reason": "GENDA (Chapter 8 of 2019) is an enacted law that added gender identity or expression to New York's Human Rights Law and hate crimes statute. It protects transgender workers, tenants, and students and is still in effect, so it qualifies as a rights protection.",
+  "file": "src/content/entries/state/ny-transgender-new-yorkers-protected-from-discrimination.md",
   "impact": 4,
   "date": "2026-11-11"
  },
@@ -87048,8 +87156,9 @@
   "date": "2026-11-11"
  },
  "ny-2019-s2451": {
-  "decision": "promising",
-  "reason": "triage: Red flag law: court orders to remove guns from dangerous people",
+  "decision": "drafted",
+  "reason": "New York's 2019 red flag law gives families, schools, and police a court process to keep guns from people likely to seriously harm themselves or others. It's a direct safety protection that's still in effect and has been upheld on appeal, and it doesn't duplicate any existing entry.",
+  "file": "src/content/entries/state/ny-red-flag-law-court-can-remove-guns-from-someone-in-crisis.md",
   "impact": 4,
   "date": "2026-11-11"
  },

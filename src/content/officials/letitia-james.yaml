@@ -1,0 +1,8 @@
+name: Letitia James
+party: D
+office: Attorney General of New York
+level: state
+jurisdiction: ny
+current: true
+seat: { place: ny, title: Attorney General }
+url: https://ag.ny.gov
