@@ -105,6 +105,7 @@ function councilProblems(file: string, p: z.infer<Schemas['places']>): Problem[]
   if (!c.roster && !c.checked) out.push('council.checked: say when the roster was last checked against the government\'s page');
   const names = c.members.map((m) => m.name);
   if (new Set(names).size !== names.length) out.push('council.members: a name appears twice');
+  for (const m of c.members) if (m.from && m.until && m.until <= m.from) out.push(`council.members: ${m.name} leaves before taking office`);
   return out.map((message) => ({ file, message }));
 }
 

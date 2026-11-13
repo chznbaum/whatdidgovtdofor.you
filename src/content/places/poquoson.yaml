@@ -3,3 +3,22 @@ short: Poquoson
 kind: city
 parent: va
 geoids: { state: "51", county: "51735" }
+council:
+  body: City Council
+  title: Council Member
+  districts: { arcgis: "https://services7.arcgis.com/hCzFMACCMQgadoak/arcgis/rest/services/Poquoson_GIS/FeatureServer/8", field: NAME, label: Precinct }
+  url: "https://www.poquoson-va.gov/252/City-Council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter art. III § 5): two members from each of three precincts, plus the mayor, who
+  # is elected at large and sits on the council. Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026
+  # results. No one qualified for Freeman's Eastern seat; check the write-in canvass and add the winner (or the
+  # council's appointee) before Jan. 1, 2027.
+  members:
+    - { name: David A. Hux, party: NP, role: Mayor, url: "https://www.poquoson-va.gov/directory.aspx?EID=103" }
+    - { district: Central, name: Keith A. Feigh, party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=135" }
+    - { district: Central, name: "Charles M. 'Bud' Southall, III", party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=58", until: 2027-01-01 }
+    - { district: Eastern, name: Anjie Emmett, party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=102" }
+    - { district: Eastern, name: Carey L. Freeman, party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=62", until: 2027-01-01 }
+    - { district: Western, name: Debra Bunting, party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=61" }
+    - { district: Western, name: Jeanne Darby Hubbard, party: NP, url: "https://www.poquoson-va.gov/directory.aspx?EID=145" }
+    - { district: Central, name: Stephen K. Geissinger, party: NP, from: 2027-01-01 }

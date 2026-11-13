@@ -5,3 +5,23 @@ parent: va
 geoids: { state: "51", county: "51810" }
 feeds:
   - { type: rss, url: "https://virginiabeach.gov/news.rss" }
+council:
+  body: City Council
+  title: Council Member
+  districts: { arcgis: "https://services2.arcgis.com/CyVvlIiUfRBmMQuu/arcgis/rest/services/2022_City_Council_Districts_Map/FeatureServer/0", field: District }
+  url: "https://clerk.virginiabeach.gov/city-council/city-council-members"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.02:1). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  members:
+    - { district: "1", name: David Hutcheson, party: NP }
+    - { district: "2", name: Barbara Henley, party: NP }
+    - { district: "3", name: Michael Berlucchi, party: NP }
+    - { district: "4", name: Amelia Ross-Hammond, party: NP, until: 2027-01-01 }
+    - { district: "5", name: Rosemary Wilson, party: NP }
+    - { district: "6", name: "Robert W. \"Worth\" Remick", party: NP }
+    - { district: "7", name: "Cal \"Cash\" Jackson-Green", party: NP }
+    - { district: "8", name: Stacy Cummings, party: NP }
+    - { district: "9", name: Joashua F. Schulman, party: NP }
+    - { district: "10", name: Jennifer V. Rouse, party: NP }
+    - { district: "4", name: Janet L. Byrnes, party: NP, from: 2027-01-01 }

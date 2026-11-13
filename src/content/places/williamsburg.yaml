@@ -3,3 +3,20 @@ short: Williamsburg
 kind: city
 parent: va
 geoids: { state: "51", county: "51830" }
+# Elected at large, so every Williamsburg address sees all five. The council picks the Mayor from its members after
+# each regular election (charter § 14); vice mayors aren't shown.
+council:
+  body: City Council
+  title: Council Member
+  url: "https://www.williamsburgva.gov/369/City-Council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 16). Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026
+  # results: Korpela leads Carolyn A. Murphy by 31 votes, within recount range, so confirm the certified result. The
+  # new council picks a new mayor in January 2027: add their `role` then.
+  members:
+    - { name: Douglas G. Pons, party: NP, role: Mayor, url: "https://www.williamsburgva.gov/373/Douglas-G-Doug-Pons", until: 2027-01-01 }
+    - { name: W. Pat Dent, party: NP, url: "https://www.williamsburgva.gov/371/W-Pat-Dent" }
+    - { name: Barbara L. Ramsey, party: NP, url: "https://www.williamsburgva.gov/374/Barbara-L-Ramsey" }
+    - { name: Stacy E. Kern-Scheerer, party: NP, url: "https://www.williamsburgva.gov/1027/Stacy-E-Kern-Scheerer" }
+    - { name: Ayanna T. Williams, party: NP, url: "https://www.williamsburgva.gov/1215/Ayanna-T-Williams" }
+    - { name: Eino I. Korpela, party: NP, from: 2027-01-01 }

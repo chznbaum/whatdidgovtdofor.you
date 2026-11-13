@@ -9,7 +9,9 @@ feeds:
 council:
   body: Board of Supervisors
   title: Supervisor
-  districts: census
+  # Districts come from the county's 2021 electoral districts (ignore its stale `Rep` names); the Census disagreed at 2 of 30
+  # random points.
+  districts: { arcgis: "https://services5.arcgis.com/nip9boeHfv9Av5yj/arcgis/rest/services/Electoral_Districts_2021/FeatureServer/0", field: DISTRICT }
   url: "https://www.powhatanva.gov/155/Board-of-Supervisors"
   checked: 2026-11-13
   # Parties: the Department of Elections' candidate lists (Nov. 2026, Nov. 2023), elections.virginia.gov.

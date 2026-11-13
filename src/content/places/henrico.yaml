@@ -10,7 +10,9 @@ feeds:
 council:
   body: Board of Supervisors
   title: Supervisor
-  districts: census
+  # Districts come from the layer behind the county's "Find Your Supervisor" map; the Census disagreed at 1 of 30
+  # random points.
+  districts: { arcgis: "https://services.arcgis.com/LxWK4CxNTBBlLshT/arcgis/rest/services/SupervisorLookup/FeatureServer/0", field: Mag_Dist_Name }
   url: "https://henrico.gov/supervisors/"
   checked: 2026-11-13
   # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.

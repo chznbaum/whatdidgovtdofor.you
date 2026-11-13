@@ -6,3 +6,22 @@ geoids: { state: "51", county: "51710" }
 # Norfolk's Legistar client ("norfolkva") exists but is empty (checked 2026-11-05).
 feeds:
   - { type: rss, url: "https://www.norfolk.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Council Member
+  districts:
+    - { arcgis: "https://gisshare.norfolk.gov/pubserver/rest/services/OpenData/Maps/FeatureServer/7", field: WARD, label: Ward }
+    - { arcgis: "https://gisshare.norfolk.gov/pubserver/rest/services/OpenData/Maps/FeatureServer/8", field: SUPWARD, label: Superward }
+  url: "https://www.norfolk.gov/200/City-Council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 21(b)). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  members:
+    - { district: "1", name: Martin A. Thomas Jr., party: NP, url: "https://www.norfolk.gov/542/Vice-Mayor-Martin-A-Thomas-Jr", until: 2027-01-01 }
+    - { district: "2", name: Courtney R. Doyle, party: NP, url: "https://www.norfolk.gov/4111/Courtney-R-Doyle" }
+    - { district: "3", name: Mamie B. Johnson, party: NP, url: "https://www.norfolk.gov/2932/Mamie-B-Johnson" }
+    - { district: "4", name: "John E. \"JP\" Paige", party: NP, url: "https://www.norfolk.gov/538/John-E-JP-Paige" }
+    - { district: "5", name: Thomas R. Smigiel Jr., party: NP, url: "https://www.norfolk.gov/539/Thomas-R-Smigiel-Jr" }
+    - { district: "6", name: Jeremy D. McGee, party: NP, url: "https://www.norfolk.gov/6429/Jeremy-D-McGee" }
+    - { district: "7", name: Carlos J. Clanton, party: NP, url: "https://www.norfolk.gov/6428/Carlos-J-Clanton" }
+    - { district: "1", name: Scott R. Guirlinger, party: NP, from: 2027-01-01 }

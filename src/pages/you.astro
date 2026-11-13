@@ -57,8 +57,9 @@ const levels = [
 <script>
   type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
   type Seat = Person & { place: string; title: string };
-  type Member = Person & { district: string | null; title: string; where: string | null };
-  type Council = { districts: 'census' | { url: string; field: string } | null; members: Member[] };
+  type Member = Person & { district: string | null; role: string; lead: boolean };
+  type Lookup = { census: true; label: string } | { census?: undefined; url: string; field: string; label: string };
+  type Council = { body: string; districts: Lookup[]; members: Member[] };
   type PlaceInfo = {
     id: string;
     name: string;
@@ -110,7 +111,8 @@ const levels = [
     });
   }
 
-  // Council district for a point, from an ArcGIS feature service. Failure just means no council member shown.
+  // Council district for a point, from an ArcGIS feature service. Failure (or a server slower than 8 seconds) just
+  // means no district member shown.
   async function councilDistrict(cfg: { url: string; field: string }, x: number, y: number): Promise<string | undefined> {
     const params = new URLSearchParams({
       geometry: `${x},${y}`,
@@ -122,13 +124,18 @@ const levels = [
       f: 'json',
     });
     try {
-      const res = await fetch(`${cfg.url}/query?${params}`);
+      const res = await fetch(`${cfg.url}/query?${params}`, { signal: AbortSignal.timeout(8000) });
       const value = (await res.json()).features?.[0]?.attributes?.[cfg.field];
       return value == null ? undefined : String(value);
     } catch {
       return undefined;
     }
   }
+
+  // "Ward 2", "Chuckatuck Borough", "Brookland District".
+  const districtName = (d: string, label: string) => (/^\d+$/.test(d) ? `${label} ${d}` : `${d} ${label}`);
+  // Layers spell districts their own way ("CLOVERHILL", "HOLY NECK"), so compare letters and digits only.
+  const sameDistrict = (a: string, b: string) => a.toLowerCase().replace(/[^a-z0-9]/g, '') === b.toLowerCase().replace(/[^a-z0-9]/g, '');
 
   const layer = (geo: Geo, test: RegExp) => Object.entries(geo).find(([k, v]) => test.test(k) && v.length)?.[1][0];
   const ordinal = (n: number) => {
@@ -226,8 +233,9 @@ const levels = [
         ]
       : [];
     const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'));
-    // Each local place's own seats (a mayor), then its council: the member for the address's district, then any
-    // members elected at large. A district lookup that fails just leaves the district member out.
+    // Each local place's own seats (a mayor), then its council: a council's own mayor, the members for each of the
+    // address's districts, then the other members elected at large. A district lookup that fails just leaves those
+    // members out.
     const subdivision = layer(geo, /^County Subdivisions$/);
     const localItems: HTMLElement[] = [];
     const localWhere: string[] = [];
@@ -236,16 +244,23 @@ const levels = [
       localWhere.push(p.name);
       const council = index.councils[p.id];
       if (!council) continue;
-      const d =
-        council.districts === 'census'
-          ? subdivision?.BASENAME
-          : council.districts
-            ? await councilDistrict(council.districts, match.coordinates.x, match.coordinates.y)
-            : undefined;
-      const forDistrict = council.members.filter((m) => d !== undefined && m.district === d);
       const atLarge = council.members.filter((m) => m.district === null);
-      localItems.push(...[...forDistrict, ...atLarge].map((m) => officialItem(m.title, m)));
-      if (forDistrict[0]?.where) localWhere.push(forDistrict[0].where);
+      localItems.push(...atLarge.filter((m) => m.lead).map((m) => officialItem(m.role, m)));
+      const found = await Promise.all(
+        council.districts.map(async (l) => ({
+          label: l.label,
+          value: l.census ? subdivision?.BASENAME : await councilDistrict(l, match.coordinates.x, match.coordinates.y),
+        })),
+      );
+      for (const { label, value } of found) {
+        const members = council.members.filter((m) => value && m.district && sameDistrict(m.district, value));
+        if (!members.length) continue;
+        const name = districtName(members[0].district!, label);
+        localItems.push(...members.map((m) => officialItem(`${m.role}, ${name}`, m)));
+        // A bare "District 6" could be anything on this line, so a numbered district carries the body's name.
+        localWhere.push(label === 'District' && /^\d+$/.test(members[0].district!) ? `${council.body} ${name}` : name);
+      }
+      localItems.push(...atLarge.filter((m) => !m.lead).map((m) => officialItem(m.role, m)));
     }
 
     const tiers = $('[data-tiers]');

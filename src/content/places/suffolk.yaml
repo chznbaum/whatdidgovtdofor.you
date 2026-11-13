@@ -5,3 +5,22 @@ parent: va
 geoids: { state: "51", county: "51800" }
 feeds:
   - { type: rss, url: "https://www.suffolkva.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Council Member
+  districts: { arcgis: "https://suffolkgis.suffolk-va.net/hosting/rest/services/Public_Website/Voting_Information/MapServer/10", field: BOROUGHS, label: Borough }
+  url: "https://www.suffolkva.us/881/City-Council-Mayor"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.03). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  members:
+    - { district: Chuckatuck, name: Shelley Butler Barlow, party: NP, url: "https://www.suffolkva.us/885/Chuckatuck-Borough", until: 2027-01-01 }
+    - { district: Cypress, name: Leroy Bennett, party: NP, url: "https://www.suffolkva.us/886/Cypress-Borough", until: 2027-01-01 }
+    - { district: Holy Neck, name: Timothy Johnson, party: NP, url: "https://www.suffolkva.us/887/Holy-Neck-Borough" }
+    - { district: Nansemond, name: "Lue R. Ward, Jr.", party: NP, url: "https://www.suffolkva.us/888/Nansemond-Borough" }
+    - { district: Sleepy Hole, name: Ebony Wright, party: NP, url: "https://www.suffolkva.us/889/Sleepy-Hole-Borough" }
+    - { district: Suffolk, name: John T. Rector, party: NP, url: "https://www.suffolkva.us/890/Suffolk-Borough", until: 2027-01-01 }
+    - { district: Whaleyville, name: LeOtis Williams, party: NP, url: "https://www.suffolkva.us/891/Whaleyville-Borough" }
+    - { district: Chuckatuck, name: Mary Ellen Hill, party: NP, from: 2027-01-01 }
+    - { district: Cypress, name: Will J. Smith, party: NP, from: 2027-01-01 }
+    - { district: Suffolk, name: Tyron D. Riddick, party: NP, from: 2027-01-01 }

@@ -4,3 +4,21 @@ kind: city
 parent: va
 geoids: { state: "51", county: "51740" }
 # No feed: the city moved to CivicPlus HCMS, which has no public one (checked 2026-11-05).
+council:
+  body: City Council
+  title: Council Member
+  url: "https://www.portsmouthva.gov/city-council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.02). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  # The Nov. 2026 race's third seat (Moody over Mark M. Whitaker by 49 votes) is within recount range: confirm the
+  # certified result before Jan. 1, 2027. Names follow the Department of Elections' ballots; the city's roster page
+  # draws its list in the browser, so check spellings there.
+  members:
+    - { name: "William E. \"Bill\" Moody, Jr.", party: NP }
+    - { name: Mark A. Hugel, party: NP, until: 2027-01-01 }
+    - { name: "Vernon Lamont Tillage, Jr.", party: NP }
+    - { name: Yolanda C. Edmonds Thomas, party: NP }
+    - { name: "Kathryn W. \"Kitty\" Bryant", party: NP }
+    - { name: "William Smith \"Bill\" Dodson, Jr.", party: NP }
+    - { name: Lisa L. Lucas-Burke, party: NP, from: 2027-01-01 }

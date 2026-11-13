@@ -4,8 +4,8 @@ kind: town
 parent: hanover
 geoids: { state: "51", place: "5103368" }
 # No feed yet: Town Council minutes are Granicus PDFs (ashland-va.granicus.com, view_id=1).
-# Elected at large, so every Ashland address sees all five. The council picks the Mayor and Vice Mayor every two
-# years, at its first January meeting (next: January 2028).
+# Elected at large, so every Ashland address sees all five. The council picks the Mayor from its members every two
+# years, at its first January meeting (next: January 2028). Vice mayors, like board chairs, aren't shown.
 council:
   body: Town Council
   title: Council Member
@@ -15,7 +15,7 @@ council:
   # candidate ran without a party nomination, but the town charter doesn't make the races nonpartisan, so `I`, not `NP`.
   members:
     - { name: Steve Trivett, party: I, role: Mayor, url: "https://www.ashlandva.gov/521/Mayor-Steve-Trivett" }
-    - { name: Daniel McGraw, party: I, role: Vice Mayor, url: "https://www.ashlandva.gov/520/Council-Member-Daniel-McGraw" }
+    - { name: Daniel McGraw, party: I, url: "https://www.ashlandva.gov/520/Council-Member-Daniel-McGraw" }
     - { name: Anita Barnhart, party: I, url: "https://www.ashlandva.gov/573/Council-Member-Anita-Barnhart" }
     - { name: Pamela Sopall, party: I, url: "https://www.ashlandva.gov/691/Council-Member-Pamela-Sopall" }
     - { name: Drew Molloy, party: I }

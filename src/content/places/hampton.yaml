@@ -6,3 +6,19 @@ geoids: { state: "51", county: "51650" }
 feeds:
   - { type: legistar, client: hampton, text: true }
   - { type: rss, url: "https://www.hampton.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Council Member
+  url: "https://hampton.gov/100/City-Council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.01:1). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  # hampton.gov blocks automated reads; names follow the city's Legistar records. Check spellings on the roster page.
+  members:
+    - { name: Steven L. Brown, party: NP, until: 2027-01-01 }
+    - { name: Martha Mugler, party: NP }
+    - { name: Michelle T. Ferebee, party: NP }
+    - { name: Hope L. Harper, party: NP }
+    - { name: "Randy C. Bowman, Sr.", party: NP }
+    - { name: Carolyn S. Campbell, party: NP }
+    - { name: Joseph M. Griffith, party: NP, from: 2027-01-01 }

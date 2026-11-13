@@ -3,3 +3,18 @@ short: James City
 kind: county
 parent: va
 geoids: { state: "51", county: "51095" }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: { arcgis: "https://property.jamescitycountyva.gov/arcgis/rest/services/JCC/GIS_Data/FeatureServer/27", field: Code }
+  url: "https://www.jamescitycountyva.gov/212/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023, Nov. 2025), elections.virginia.gov.
+  # Districts come from the county's map: the Census uses the same names but the lines from before the
+  # county's 2022 redistricting. jamescitycountyva.gov blocks automated reads; names follow the board's minutes.
+  members:
+    - { district: Berkeley, name: Ruth M. Larson, party: I }
+    - { district: Jamestown, name: "James O. Icenhour, Jr.", party: D }
+    - { district: Powhatan, name: Tracy L. Wainwright, party: R }
+    - { district: Roberts, name: John J. McGlennon, party: D }
+    - { district: Stonehouse, name: Barbara E. Null, party: R }

@@ -3,3 +3,19 @@ short: Gloucester
 kind: county
 parent: va
 geoids: { state: "51", county: "51073" }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://gloucesterva.gov/board-of-supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023, Nov. 2025), elections.virginia.gov.
+  # Two supervisors are elected at large, so every address sees them with its district supervisor.
+  members:
+    - { district: Abingdon, name: "Robert \"JJ\" Orth", party: I }
+    - { district: Gloucester Point, name: "Christopher \"Chris\" Hutson", party: R }
+    - { district: Petsworth, name: "Joseph \"Joe\" Leming", party: R }
+    - { district: Ware, name: Tony Nicosia, party: I }
+    - { district: York, name: Shannon Lee Hanson, party: I }
+    - { name: Ashley C. Chriscoe, party: R }
+    - { name: "Nicholas A. \"Nick\" Bonniville", party: R }

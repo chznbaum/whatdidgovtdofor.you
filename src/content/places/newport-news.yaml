@@ -5,3 +5,17 @@ parent: va
 geoids: { state: "51", county: "51700" }
 feeds:
   - { type: rss, url: "https://www.nnva.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Council Member
+  districts: { arcgis: "https://maps.nnva.gov/gis/rest/services/Operational/CityCouncilDistrict/MapServer/0", field: LONGNAME }
+  url: "https://nngov.civicweb.net/portal/members.aspx?id=10"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.02). The mayor is elected separately and shown as a seat.
+  members:
+    - { district: North, name: Marcellus L. Harris III, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#MarcellusLHarrisIIIDDiv" }
+    - { district: North, name: Curtis D. Bethany III, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#CurtisDBethanyIII" }
+    - { district: Central, name: Robert Coleman, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#RobertColeman" }
+    - { district: Central, name: Cleon M. Long, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#CleonMLongPE" }
+    - { district: South, name: Tina L. Vick, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#TinaLVick" }
+    - { district: South, name: John R. Eley III, party: NP, url: "https://nngov.civicweb.net/portal/members.aspx?id=10#JohnREleyIII" }

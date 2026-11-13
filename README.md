@@ -94,7 +94,7 @@ src/data/get-involved.json                           ways to run, serve, or work
 - After a new Congress is seated, run `npm run sync:roster`, then switch the geocoder vintage in `src/pages/lookup-index.json.ts` (it's commented).
 - When state legislatures redistrict, check that the geocoder vintage carries the new maps.
 - Update `seat` on officials when governors and mayors change.
-- Update `council` rosters in place yaml after local elections and appointments (they're copied by hand; `checked` says when). Virginia's counties and cities mostly seat new members on January 1. A county's districts come from the geocoder's County Subdivisions, so a redistricting there also waits on the geocoder vintage.
+- Update `council` rosters in place yaml after local elections and appointments (they're copied by hand; `checked` says when). Virginia's localities seat new members on January 1, so enter them ahead with `from` (and the outgoing member's `until`); the daily build switches them over. Where a county's districts come from the geocoder's County Subdivisions (`districts: census`), recheck them against the county's own map after a redistricting or a geocoder vintage change.
 
 ## License
 

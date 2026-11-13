@@ -7,7 +7,9 @@ geoids: { state: "51", county: "51127" }
 council:
   body: Board of Supervisors
   title: Supervisor
-  districts: census
+  # Districts come from the layer behind the county's polling-place finder; the Census disagreed at 5 of 30 random
+  # points.
+  districts: { arcgis: "https://services2.arcgis.com/wRTEaR3VIVeAhJdr/arcgis/rest/services/CivQuest/FeatureServer/14", field: DISTRICT }
   url: "https://www.newkent-va.us/123/Member-Listing"
   checked: 2026-11-13
   # Parties: the Department of Elections' candidate lists (Nov. 2023, Nov. 2024), elections.virginia.gov.

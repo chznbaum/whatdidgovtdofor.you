@@ -5,3 +5,24 @@ parent: va
 geoids: { state: "51", county: "51550" }
 feeds:
   - { type: rss, url: "https://www.cityofchesapeake.net/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Council Member
+  url: "https://www.cityofchesapeake.net/1893/City-Council-Members"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 3.02). The mayor is elected separately and shown as a seat.
+  # Seats changing hands on Jan. 1, 2027 follow the unofficial Nov. 3, 2026 results.
+  # The Nov. 2026 race's fifth seat (Jefferies over Jennifer P. Naperala by 390 votes) is within recount range:
+  # confirm the certified result before Jan. 1, 2027.
+  members:
+    - { name: "S.Z. \"Debbie\" Ritter", party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=105" }
+    - { name: C. Jeff Bunn, party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=234", until: 2027-01-01 }
+    - { name: "E.R. \"Jeff\" Jefferies, Jr.", party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=386" }
+    - { name: "Patricia Y. \"Pat\" King", party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=350" }
+    - { name: Amanda L. Newins, party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=235" }
+    - { name: "Les Smith, Jr.", party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=349" }
+    - { name: Ella P. Ward, party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=107", until: 2027-01-01 }
+    - { name: Daniel W. Whitaker, party: NP, url: "https://www.cityofchesapeake.net/Directory.aspx?EID=236", until: 2027-01-01 }
+    - { name: Janelle K. St Louis, party: NP, from: 2027-01-01 }
+    - { name: Santiera Brown-Yearling, party: NP, from: 2027-01-01 }
+    - { name: Daniel E. Rosinski, party: NP, from: 2027-01-01 }

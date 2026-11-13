@@ -7,7 +7,7 @@ import stateNy from '../data/roster/state-ny.json';
 import { entryPlaceIds, getEntries } from '../lib/data.ts';
 
 // Synced council rosters a place can name instead of listing its members (see `council.roster` in the place schema).
-type RosterMember = { district?: string; name: string; party: string; role?: string; url?: string };
+type RosterMember = { district?: string; name: string; party: string; role?: string; url?: string; from?: Date; until?: Date };
 const rosters = Object.fromEntries(
   Object.entries(import.meta.glob<{ members: RosterMember[] }>('../data/roster/*.json', { eager: true, import: 'default' })).map(
     ([path, data]) => [path.match(/([^/]+)\.json$/)![1], data.members],
@@ -97,34 +97,36 @@ export const GET: APIRoute = async () => {
 
   const allPlaces = await getCollection('places');
 
-  // Councils and boards, by place. The browser finds the address's district (from the geocoder's County Subdivisions
-  // or an ArcGIS point query) and shows that district's members plus any at-large ones. Numbered districts get the
-  // body's name ("City Council District 6"); named ones stand alone ("Brookland District").
+  // Councils and boards, by place, with the members serving on the day the site is built. The browser finds the
+  // address's districts (from the geocoder's County Subdivisions or ArcGIS point queries) and shows those districts'
+  // members plus any at-large ones.
+  const today = new Date();
   const councils = Object.fromEntries(
     allPlaces
       .filter((p) => p.data.council)
       .map((p) => {
         const c = p.data.council!;
-        const named = (d: string) => (/^\d+$/.test(d) ? `District ${d}` : `${d} District`);
         const members = c.roster ? rosters[c.roster] : c.members;
         if (!members) throw new Error(`${p.id}: no roster named "${c.roster}" in src/data/roster/`);
+        const layers = c.districts === 'census' || !c.districts ? [] : [c.districts].flat();
         return [
           p.id,
           {
-            districts: c.districts === 'census' ? 'census' : c.districts ? { url: c.districts.arcgis, field: c.districts.field } : null,
-            members: members.map((m) => {
-              const role = m.role ?? c.title;
-              const title = m.district ? `${role}, ${named(m.district)}` : role;
-              // Someone the site already credits keeps the name their page uses ("Andrew Breton", not "Andrew S. Breton").
-              const id = findOfficial('local', m.name, p.id);
-              const name = officials.find((o) => o.id === id)?.data.name ?? m.name;
-              return {
-                district: m.district ?? null,
-                title,
-                where: m.district ? (/^\d+$/.test(m.district) ? `${c.body} ${named(m.district)}` : named(m.district)) : null,
-                ...person(name, m.party, title, id, m.url ?? c.url),
-              };
-            }),
+            body: c.body,
+            districts:
+              c.districts === 'census'
+                ? [{ census: true, label: 'District' }]
+                : layers.map((l) => ({ url: l.arcgis, field: l.field, label: l.label ?? 'District' })),
+            members: members
+              .filter((m) => (!m.from || m.from <= today) && (!m.until || today < m.until))
+              .map((m) => {
+                const role = m.role ?? c.title;
+                // Someone the site already credits keeps the name their page uses ("Andrew Breton", not "Andrew S. Breton").
+                const id = findOfficial('local', m.name, p.id);
+                const name = officials.find((o) => o.id === id)?.data.name ?? m.name;
+                // `lead`: a member with their own title (a Mayor) heads the council's list.
+                return { district: m.district ?? null, role, lead: !!m.role, ...person(name, m.party, role, id, m.url ?? c.url) };
+              }),
           },
         ];
       }),

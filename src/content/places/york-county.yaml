@@ -3,3 +3,17 @@ short: York County
 kind: county
 parent: va
 geoids: { state: "51", county: "51199" }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: { arcgis: "https://maps.yorkcounty.gov/arcgis/rest/services/AGOservices/Boundary_Service/MapServer/8", field: DISTR }
+  url: "https://www.yorkcounty.gov/101/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.
+  # Districts come from the county's map: the Census uses the same numbers but older lines.
+  members:
+    - { district: "1", name: Douglas R. Holroyd, party: R }
+    - { district: "2", name: Sheila S. Noll, party: R }
+    - { district: "3", name: Wayne Drewry, party: I }
+    - { district: "4", name: "G. Stephen Roane, Jr.", party: R }
+    - { district: "5", name: "Thomas G. Shepperd, Jr.", party: R }

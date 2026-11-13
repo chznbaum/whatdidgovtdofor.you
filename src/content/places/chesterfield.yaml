@@ -9,7 +9,8 @@ feeds:
 council:
   body: Board of Supervisors
   title: Supervisor
-  districts: census
+  # Districts come from the county's magisterial district layer; the Census disagreed at 1 of 30 random points.
+  districts: { arcgis: "https://services3.arcgis.com/TsynfzBSE6sXfoLq/arcgis/rest/services/Administrative/FeatureServer/9", field: MagDistName }
   url: "https://www.chesterfield.gov/1218/Board-of-Supervisors"
   checked: 2026-11-13
   # Parties: the Department of Elections' candidate lists (Nov. 2026, Nov. 2023), elections.virginia.gov.

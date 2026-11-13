@@ -207,6 +207,10 @@ const placeFeedSchema = z.discriminatedUnion('type', [
   }),
 ]);
 
+// A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.
+// `label` names its districts: "Ward" makes "Ward 2", "Borough" makes "Chuckatuck Borough" (default "District").
+const districtLayer = z.object({ arcgis: z.url(), field: z.string(), label: z.string().optional() });
+
 // The elected body that runs a place, so the address lookup can name a reader's own member. Members with a `district`
 // are shown to addresses in it; members without one sit at large and are shown to everyone in the place. Rosters are
 // copied by hand from the government's roster page (`url`, `checked`); New York City's is synced instead (`roster`).
@@ -214,9 +218,11 @@ const councilSchema = z.object({
   body: z.string(), // "City Council", "Board of Supervisors"
   title: z.string(), // a member's title: "Council Member", "Supervisor"
   // How an address finds its district. `census`: the geocoder's County Subdivisions layer, whose BASENAME is a
-  // Virginia county's magisterial district ("Brookland", "2"). Otherwise a point query on an ArcGIS layer that sends
-  // CORS headers, read from `field`. Omit when every member is elected at large.
-  districts: z.union([z.literal('census'), z.object({ arcgis: z.url(), field: z.string() })]).optional(),
+  // Virginia county's magisterial district ("Ashland", "2"), free since the page already asks the geocoder. The Census
+  // can lag a redistricting, so use it only where random points agree with the county's own map. Otherwise the county
+  // or city's own district layer, or several when an address sits in more than one kind of district (Norfolk's wards
+  // and superwards). Omit when every member is elected at large.
+  districts: z.union([z.literal('census'), districtLayer, z.array(districtLayer).min(1)]).optional(),
   url: z.url().optional(),
   checked: date.optional(),
   roster: z.string().optional(), // a synced file in src/data/roster/, e.g. nyc-council
@@ -225,9 +231,13 @@ const councilSchema = z.object({
       z.object({
         name: z.string(),
         party: z.enum(PARTIES),
-        district: z.string().optional(),
+        district: z.string().optional(), // as the Census or the layer gives it, ignoring case, spaces and punctuation
         role: z.string().optional(), // a title that replaces `title`, e.g. "Mayor" for a council-elected mayor
         url: z.url().optional(),
+        // A seat changing hands on a known date: the new member's `from` is the old one's `until`. The site is rebuilt
+        // daily, so the lookup switches on its own.
+        from: date.optional(),
+        until: date.optional(),
       }),
     )
     .default([]),

@@ -3,3 +3,17 @@ short: Isle of Wight
 kind: county
 parent: va
 geoids: { state: "51", county: "51093" }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: { arcgis: "https://services.arcgis.com/Dc6hhMQCpvLlOmSY/arcgis/rest/services/ElectionDistricts2022/FeatureServer/0", field: DIST_ID }
+  url: "https://www.isleofwight.gov/government/county_board_of_supervisors/index.php"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023, Nov. 2025), elections.virginia.gov.
+  # Districts come from the county's map: the Census still uses the old magisterial names (Smithfield, Newport...).
+  members:
+    - { district: "1", name: Renee K. Rountree, party: I, url: "https://www.isleofwight.gov/government/county_board_of_supervisors/renee_rountree_bio.php" }
+    - { district: "2", name: David O. Garner, party: I, url: "https://www.isleofwight.gov/government/county_board_of_supervisors/david_garner.php" }
+    - { district: "3", name: Rudolph Jefferson, party: I, url: "https://www.isleofwight.gov/government/county_board_of_supervisors/rudolph_jefferson_bio.php" }
+    - { district: "4", name: Joel C. Acree, party: I, url: "https://www.isleofwight.gov/government/county_board_of_supervisors/joel_acree_bio.php" }
+    - { district: "5", name: Robert Eley III, party: I, url: "https://www.isleofwight.gov/government/county_board_of_supervisors/robert_eley_bio.php" }
