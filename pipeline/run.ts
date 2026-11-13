@@ -344,10 +344,16 @@ async function verify({ limit, stale, concurrency, files }: { limit: number; sta
     const doc = parseMarkdown(original);
     const keep = { source_key: doc.data.source_key, verification: doc.data.verification };
 
-    // Write a verifier's corrected file (keeping our bookkeeping fields) and return its validation problems.
+    // Write a verifier's corrected file (keeping our bookkeeping fields) and return its validation problems. YAML errors
+    // come back as problems too, so they get the repair round.
     const applyCorrection = async (out: VerifierOutput) => {
+      let corrected;
+      try {
+        corrected = parseMarkdown(out.file!);
+      } catch (err) {
+        return [{ file: rel(entry.file), message: `the frontmatter isn't valid YAML (${String(err).split('\n')[0]}); quote any value containing a colon` }];
+      }
       await writeOfficials(out.new_officials);
-      const corrected = parseMarkdown(out.file!);
       Object.assign(corrected.data, keep);
       await writeMarkdown(entry.file, corrected);
       return validateEntry(entry.file);
@@ -362,7 +368,7 @@ async function verify({ limit, stale, concurrency, files }: { limit: number; sta
       if (data.verdict === 'corrected' && data.file) {
         let problems = await applyCorrection(data);
         if (problems.length) {
-          // One repair round, usually for officials referenced without a file in new_officials.
+          // One repair round, usually for officials referenced without a file in new_officials, or YAML that won't parse.
           const fix = `${prompt}\n\nYou returned verdict "corrected", but your corrected file failed validation:\n${problems.map((p) => `- ${p.message}`).join('\n')}\n\n${OFFICIALS_RULE}\n\nYour corrected file:\n${data.file}\n\nReturn verdict "corrected" with a valid file.`;
           const repaired = (await runLlm<VerifierOutput>(verifier, { prompt: fix, schema: VERIFIER_SCHEMA, web: false, cwd: ROOT })).data;
           if (repaired.file) {
