@@ -4,3 +4,7 @@ kind: state
 parent: us
 geoids: { state: "36" }
 blurb: Actions by the Governor, the State Senate and Assembly, and state agencies.
+legislature:
+  roster: state-ny
+  upper: { name: State Senate, title: State Senator }
+  lower: { name: Assembly, title: Assembly Member }

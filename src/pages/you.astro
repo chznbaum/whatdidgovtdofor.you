@@ -58,6 +58,7 @@ const levels = [
   type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
   type Seat = Person & { place: string; title: string };
   type Member = Person & { district: string | null; role: string; lead: boolean };
+  type Chamber = { name: string; title: string; members: Record<string, Person> };
   type Lookup = { census: true; label: string } | { census?: undefined; url: string; field: string; label: string };
   type Council = { body: string; districts: Lookup[]; members: Member[] };
   type PlaceInfo = {
@@ -71,7 +72,7 @@ const levels = [
     geocoder: { benchmark: string; vintage: string };
     places: PlaceInfo[];
     congress: Record<string, { senate: Person[]; house: Record<string, Person> }>;
-    legislatures: Record<string, { place: string; upper: Record<string, Person>; lower: Record<string, Person> }>;
+    legislatures: Record<string, { place: string; upper: Chamber; lower: Chamber }>;
     councils: Record<string, Council>;
     seats: Seat[];
   };
@@ -221,16 +222,14 @@ const levels = [
       ...(congress?.senate ?? []).map((p) => officialItem('U.S. Senator', p)),
       ...(congress && district && congress.house[district] ? [officialItem('U.S. Representative', congress.house[district])] : []),
     ];
+    // The address's member of each chamber, by district as the geocoder names it ("45A", "045A" and "45a" alike).
+    const districtKey = (d: string) => d.trim().toUpperCase().replace(/^0+(?=\d)/, '');
+    const member = (chamber: Chamber, hit?: Record<string, string>) => {
+      const p = hit && chamber.members[districtKey(hit.BASENAME)];
+      return p ? [officialItem(chamber.title, p)] : [];
+    };
     const stateItems = legislature
-      ? [
-          ...seatsFor(legislature.place).map((s) => officialItem(s.title, s)),
-          ...(upper && legislature.upper[String(parseInt(upper.BASENAME, 10))]
-            ? [officialItem('State Senator', legislature.upper[String(parseInt(upper.BASENAME, 10))])]
-            : []),
-          ...(lower && legislature.lower[String(parseInt(lower.BASENAME, 10))]
-            ? [officialItem(fips === '51' ? 'Delegate' : 'Assembly Member', legislature.lower[String(parseInt(lower.BASENAME, 10))])]
-            : []),
-        ]
+      ? [...seatsFor(legislature.place).map((s) => officialItem(s.title, s)), ...member(legislature.upper, upper), ...member(legislature.lower, lower)]
       : [];
     const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'));
     // Each local place's own seats (a mayor), then its council: a council's own mayor, the members for each of the
@@ -270,8 +269,9 @@ const levels = [
 
     const where = [
       cd && abbr && district ? (district === '0' ? `${abbr} at-large congressional district` : `${abbr}'s ${ordinal(+district)} Congressional District`) : null,
-      upper?.NAME,
-      fips === '51' ? lower?.NAME?.replace('State House', 'House of Delegates') : lower?.NAME,
+      // Each chamber by its own name ("House of Delegates District 80"); the Census's generic one where we don't cover it.
+      upper && legislature ? `${legislature.upper.name} District ${districtKey(upper.BASENAME)}` : upper?.NAME,
+      lower && legislature ? `${legislature.lower.name} District ${districtKey(lower.BASENAME)}` : lower?.NAME,
       ...(localWhere.length ? localWhere : [incPlace?.BASENAME]),
     ].filter(Boolean);
     $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;

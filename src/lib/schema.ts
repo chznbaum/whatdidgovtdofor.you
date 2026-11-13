@@ -265,6 +265,12 @@ const councilSchema = z.object({
     .default([]),
 });
 
+// A state's legislature, for the address lookup: its roster, synced from Open States by `npm run sync:roster` into
+// src/data/roster/<roster>.json, and what each chamber and its members are called. Districts are matched as the Census
+// geocoder names them, ignoring leading zeros ("045A" is "45A").
+const chamberSchema = z.object({ name: z.string(), title: z.string() }); // { name: House of Delegates, title: Delegate }
+const legislatureSchema = z.object({ roster: z.string(), upper: chamberSchema, lower: chamberSchema });
+
 export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) =>
   z.object({
     name: z.string(),
@@ -279,6 +285,7 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     blurb: z.string().optional(),
     feeds: z.array(placeFeedSchema).default([]),
     council: councilSchema.optional(),
+    legislature: legislatureSchema.optional(), // a state's
   });
 
 // Ways into government (src/data/get-involved.json, described in src/data/get-involved.schema.md): groups that help

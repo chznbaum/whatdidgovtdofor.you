@@ -2,12 +2,21 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import federal from '../data/roster/federal.json';
-import stateVa from '../data/roster/state-va.json';
-import stateNy from '../data/roster/state-ny.json';
 import { entryPlaceIds, getEntries } from '../lib/data.ts';
 
-// Synced council rosters a place can name instead of listing its members (see `council.roster` in the place schema).
-type RosterMember = { district?: string; name: string; party: string; role?: string; url?: string; from?: Date; until?: Date };
+// Synced rosters, by file name: state legislatures (`legislature.roster` in a state's place file) and councils a place
+// names instead of listing its members (`council.roster`).
+type RosterMember = {
+  district?: string;
+  name: string;
+  party: string;
+  role?: string;
+  url?: string | null;
+  from?: Date;
+  until?: Date;
+  chamber?: 'upper' | 'lower';
+  openstates?: string;
+};
 const rosters = Object.fromEntries(
   Object.entries(import.meta.glob<{ members: RosterMember[] }>('../data/roster/*.json', { eager: true, import: 'default' })).map(
     ([path, data]) => [path.match(/([^/]+)\.json$/)![1], data.members],
@@ -21,11 +30,8 @@ const GEOCODER = {
   vintage: 'ACS2025_Current',
 };
 
-// State legislatures we cover, keyed by state FIPS code.
-const STATES = [
-  { fips: '51', place: 'va', roster: stateVa, upper: 'State Senator', lower: 'Delegate' },
-  { fips: '36', place: 'ny', roster: stateNy, upper: 'State Senator', lower: 'Assembly Member' },
-];
+// A legislative district as the geocoder and rosters both can name it: no leading zeros, letters upper case ("45A").
+const districtKey = (d: string) => d.trim().toUpperCase().replace(/^0+(?=\d)/, '');
 
 const normalize = (name: string) =>
   name
@@ -74,28 +80,37 @@ export const GET: APIRoute = async () => {
     }
   }
 
-  const legislatures = Object.fromEntries(
-    STATES.map((s) => {
-      const chamber = (c: 'upper' | 'lower') =>
-        Object.fromEntries(
-          s.roster.members
-            .filter((m) => m.chamber === c)
-            .map((m) => [
-              m.district,
-              person(
-                m.name,
-                m.party,
-                `${s[c]}, District ${m.district}`,
-                byOpenstates.get(m.openstates) ?? findOfficial('state', m.name, s.place),
-                m.url,
-              ),
-            ]),
-        );
-      return [s.fips, { place: s.place, upper: chamber('upper'), lower: chamber('lower') }];
-    }),
-  );
-
   const allPlaces = await getCollection('places');
+
+  // State legislatures we cover, keyed by state FIPS code, each chamber's members keyed by district.
+  const legislatures = Object.fromEntries(
+    allPlaces
+      .filter((p) => p.data.legislature && p.data.geoids.state)
+      .map((p) => {
+        const l = p.data.legislature!;
+        const members = rosters[l.roster];
+        if (!members) throw new Error(`${p.id}: no roster named "${l.roster}" in src/data/roster/ (run npm run sync:roster)`);
+        const chamber = (c: 'upper' | 'lower') => ({
+          name: l[c].name,
+          title: l[c].title,
+          members: Object.fromEntries(
+            members
+              .filter((m) => m.chamber === c && m.district)
+              .map((m) => [
+                districtKey(m.district!),
+                person(
+                  m.name,
+                  m.party,
+                  `${l[c].title}, District ${m.district}`,
+                  (m.openstates && byOpenstates.get(m.openstates)) || findOfficial('state', m.name, p.id),
+                  m.url,
+                ),
+              ]),
+          ),
+        });
+        return [p.data.geoids.state!, { place: p.id, upper: chamber('upper'), lower: chamber('lower') }];
+      }),
+  );
 
   // Councils and boards, by place, with the members serving on the day the site is built. The browser finds the
   // address's districts (from the geocoder's County Subdivisions or ArcGIS point queries) and shows those districts'

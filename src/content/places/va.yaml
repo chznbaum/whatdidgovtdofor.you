@@ -4,3 +4,7 @@ kind: state
 parent: us
 geoids: { state: "51" }
 blurb: Actions by the Governor, the General Assembly, and state agencies.
+legislature:
+  roster: state-va
+  upper: { name: State Senate, title: State Senator }
+  lower: { name: House of Delegates, title: Delegate }

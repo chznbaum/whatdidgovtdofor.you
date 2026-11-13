@@ -5,10 +5,17 @@
 // Run: npm run sync:roster
 import './lib/env.ts';
 import { writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
+import { CONTENT, listFiles, readYaml } from './lib/content.ts';
 import { parseCsv } from './lib/csv.ts';
 
 const OUT = new URL('../src/data/roster/', import.meta.url);
-const STATES = ['va', 'ny'];
+// States whose place file has a `legislature`, by its roster's name: state-va → va.
+const STATES: string[] = [];
+for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) {
+  const roster = (await readYaml(file))?.legislature?.roster;
+  if (roster) STATES.push(String(roster).replace(/^state-/, ''));
+}
 
 const FEDERAL_PARTY: Record<string, string> = { Democrat: 'D', Republican: 'R', Independent: 'I', Libertarian: 'L' };
 const STATE_PARTY: Record<string, string> = {
