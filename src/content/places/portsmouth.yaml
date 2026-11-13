@@ -3,7 +3,11 @@ short: Portsmouth
 kind: city
 parent: va
 geoids: { state: "51", county: "51740" }
-# No feed: the city moved to CivicPlus HCMS, which has no public one (checked 2026-11-05).
+# The city's CivicPlus HCMS site has no feeds; its pages load content with a guest token the page carries. Within days
+# of each council meeting the clerk adds an "Agenda Actions" PDF ("Results" before September 2026), every item with its
+# outcome and tally. The formal minutes are scans. News isn't read yet (HCMS content type `news`).
+feeds:
+  - { type: hcms, page: "https://www.portsmouthva.gov/agendas-minutes", category: 9296d8dc-ada2-47d7-97b2-22f3522a5838, files: "Agenda Actions|Results" }
 council:
   body: City Council
   title: Council Member

@@ -220,6 +220,13 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     folder: z.number().int(), // the series' folder, which holds one subfolder per year
     title: z.string(), // what each document is: "Summary of City Council actions"
   }),
+  z.object({
+    type: z.literal('hcms'), // a CivicPlus HCMS ("Evolve") site: each meeting's matching minutes files are a recap
+    id: z.string().optional(),
+    page: z.url(), // a public page listing the meetings; the guest token is read from it
+    category: z.string(), // the body's category id
+    files: z.string(), // pattern for the minutes files to read, by file name, e.g. 'Agenda Actions'
+  }),
 ]);
 
 // A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.

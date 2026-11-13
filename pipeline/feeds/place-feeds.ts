@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
 import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
+import { hcmsFeed } from './hcms.ts';
 import { laserficheFeed } from './laserfiche.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
@@ -85,6 +86,18 @@ export async function placeFeeds(): Promise<Feed[]> {
               repo: f.repo,
               folder: f.folder,
               title: f.title,
+              place,
+            }),
+          );
+          break;
+        case 'hcms':
+          out.push(
+            hcmsFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: meeting agenda actions (CivicPlus HCMS)`,
+              page: f.page,
+              category: f.category,
+              files: new RegExp(f.files, 'i'),
               place,
             }),
           );
