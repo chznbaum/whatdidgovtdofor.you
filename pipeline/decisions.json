@@ -8211,10 +8211,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb25": {
-  "decision": "promising",
-  "reason": "triage: Two-person freight train crew safety law",
+  "decision": "drafted",
+  "reason": "Virginia enacted HB 25 (Chapter 548), requiring at least two qualified crew members on every freight train, a rail-worker and public safety protection that does not depend on the federal rule; railroads have since sued to block it.",
+  "file": "src/content/entries/state/va-2026-hb25-two-person-freight-train-crews.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb252": {
   "decision": "skip",
@@ -8313,10 +8314,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb331": {
-  "decision": "promising",
-  "reason": "triage: Defendants on deferral no longer pay court costs",
+  "decision": "drafted",
+  "reason": "This is an enacted law, in effect since July 1, 2026. It stops Virginia courts from making defendants pay court costs to complete a deferred disposition, so people who can't afford the costs no longer face conviction for that reason alone.",
+  "file": "src/content/entries/state/va-2026-hb331-deferral-court-costs.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb332": {
   "decision": "skip",
@@ -8914,10 +8916,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb616": {
-  "decision": "promising",
-  "reason": "triage: Tenants can get payment ledger; modest right",
+  "decision": "skip",
+  "reason": "Virginia law (§ 55.1-1204(D)) already makes landlords give tenants who ask in writing a 10-business-day statement of charges and payments; HB 616 mainly restates that in the records section, adding a state template, utility itemization only for submetered or formula-billed units, and a small-landlord exemption, so it gives tenants no clear new benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb625": {
   "decision": "drafted",
@@ -8963,16 +8965,18 @@
   "date": "2026-11-11"
  },
  "va-2026-hb656": {
-  "decision": "promising",
-  "reason": "triage: Network adequacy standards for mental health care access",
+  "decision": "drafted",
+  "reason": "This is an enacted 2026 Virginia law (Chapter 652). It strengthens enforcement of mental health and addiction parity and sets network standards in state-regulated health plans, which directly affects whether working people can get that care through their insurance.",
+  "file": "src/content/entries/state/va-mental-health-parity-enforcement-networks.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb665": {
-  "decision": "promising",
-  "reason": "triage: Licenses crypto kiosks, protects scam victims",
+  "decision": "drafted",
+  "reason": "This enacted, signed law protects Virginians, especially older adults targeted by scams, from crypto-kiosk fraud. It caps fees at 18%, sets transaction limits and a 48-hour hold for new users, and refunds fees to fraud victims, at no cost to services.",
+  "file": "src/content/entries/state/va-crypto-kiosk-scam-protections.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb667": {
   "decision": "promising",
@@ -8981,16 +8985,17 @@
   "date": "2026-11-11"
  },
  "va-2026-hb672": {
-  "decision": "promising",
-  "reason": "triage: Keeps appliance efficiency standards if federal ones removed; savings",
+  "decision": "skip",
+  "reason": "HB 672 (Chapter 928) is a backstop that only takes effect if the federal government removes an appliance efficiency standard, and I found no final federal removal (DOE's rollbacks are still proposals, and the cooking-product rule set aside by a court is excluded), so the law has no direct effect on anyone yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb677": {
-  "decision": "promising",
-  "reason": "triage: Bars insurers dropping homeowners over roof age; roofing protections",
+  "decision": "drafted",
+  "reason": "This is an enacted law with a direct consumer benefit. Starting Jan. 1, 2027, insurers can't drop or refuse to cover owner-occupied Virginia homes solely because an asphalt shingle roof is under 15 years old or still has at least 5 years of useful life left. It also curbs roofing-contractor storm-chasing practices and adds a 10-day cancellation right after declared emergencies.",
+  "file": "src/content/entries/state/va-roof-age-home-insurance-protection.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb681": {
   "decision": "skip",
@@ -9077,16 +9082,18 @@
   "date": "2026-11-11"
  },
  "va-2026-hb807": {
-  "decision": "promising",
-  "reason": "triage: Expands shared solar access, bill savings for subscribers; enacted",
+  "decision": "drafted",
+  "reason": "The enacted law adds 525 MW of shared solar in Dominion territory. Customers who can't put panels on their own roof can subscribe and get bill credits. Low-income customers get a set-aside, no minimum bill and no credit checks, and Phase II projects were accepted on July 1, 2026.",
+  "file": "src/content/entries/state/va-2026-shared-solar-dominion-525-megawatts.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb808": {
-  "decision": "promising",
-  "reason": "triage: Insurers must explain cuts to claim estimates; consumer protection",
+  "decision": "drafted",
+  "reason": "An enacted, signed consumer protection law (Chapter 672, in effect July 1, 2026) that requires insurers to explain and document any cut of $3,000 or more to an adjuster's damage estimate. It directly protects people with home and auto insurance claims, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-insurers-must-explain-cuts-to-damage-estimates.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb809": {
   "decision": "skip",
@@ -9119,16 +9126,17 @@
   "date": "2026-11-11"
  },
  "va-2026-hb836": {
-  "decision": "promising",
-  "reason": "triage: Guarantees free public education regardless of immigration status",
+  "decision": "drafted",
+  "reason": "HB 836 became law as Chapter 680 and took effect July 1, 2026; it guarantees every child in Virginia a free K-12 education whatever their or their parents' immigration status, and families can sue to enforce it.",
+  "file": "src/content/entries/state/va-schools-cant-exclude-kids-over-immigration-status.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb838": {
-  "decision": "promising",
-  "reason": "triage: Medicaid doula care coverage; narrow group",
+  "decision": "skip",
+  "reason": "HB 838 writes into state law a Medicaid doula benefit that already existed: since 2022 it has covered labor and delivery support and two $50 linkage-to-care incentive payments, according to NASHP. DMAS's notice says the law \"codifies\" that benefit and expects no change in spending, so Medicaid members got nothing new.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb84": {
   "decision": "skip",
@@ -9210,10 +9218,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb901": {
-  "decision": "promising",
-  "reason": "triage: Expands who can petition for red flag orders; safety gain",
+  "decision": "drafted",
+  "reason": "HB 901 became law and lets family and household members, partners, doctors, mental health professionals and school officials ask a court to temporarily remove guns from someone at risk, where before only prosecutors and police could; this is a direct safety protection now in effect.",
+  "file": "src/content/entries/state/va-red-flag-orders-family-can-petition.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb902": {
   "decision": "skip",
@@ -9264,16 +9273,17 @@
   "date": "2026-11-11"
  },
  "va-2026-hb938": {
-  "decision": "promising",
-  "reason": "triage: PFAS monitoring of industrial discharges to treatment plants; water safety",
+  "decision": "skip",
+  "reason": "HB 938 only requires industrial users to monitor PFAS in what they send to sewage plants and report the results to the plants and DEQ; it sets no limits, requires no cleanup and has no public-facing benefit, so it has no direct, tangible effect on working people yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb942": {
-  "decision": "promising",
-  "reason": "triage: Parents can't lose custody solely for legal cannabis use",
+  "decision": "drafted",
+  "reason": "Enacted law (2026 Acts ch. 711, in effect July 1, 2026) that stops Virginia courts from restricting a parent's custody or visitation only because they legally use cannabis, alcohol or prescribed drugs, which protects families' rights.",
+  "file": "src/content/entries/state/va-legal-cannabis-use-alone-cant-cost-custody.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb951": {
   "decision": "skip",
@@ -9300,10 +9310,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb967": {
-  "decision": "promising",
-  "reason": "triage: State voting rights protections strengthened; basic right",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 717, in effect July 1, 2026). It lowers the thresholds that make Virginia localities provide election materials in minority languages, and it widens who can sue over voter suppression and vote dilution, a direct effect on voting rights.",
+  "file": "src/content/entries/state/va-voting-materials-in-more-languages.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb358": {
   "decision": "skip",
@@ -9330,16 +9341,18 @@
   "date": "2026-11-11"
  },
  "va-2026-hb374": {
-  "decision": "promising",
-  "reason": "triage: itemized lot charges; protects manufactured home renters",
+  "decision": "drafted",
+  "reason": "HB 374 is Chapter 598 of the 2026 Acts, in effect since July 1, 2026. It bars manufactured home communities from raising lot rent at renewal while a code violation from the locality is unresolved, and it requires leases to list every charge up front, both direct protections for tenants.",
+  "file": "src/content/entries/state/va-mobile-home-lot-rent-frozen-during-code-violations.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb375": {
-  "decision": "promising",
-  "reason": "triage: residents can buy their park first; housing security",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 599, in effect July 1, 2026) that lets manufactured home park residents, and then their locality, match a sale offer and buy the park. It is a concrete housing protection for working families at no cost to services.",
+  "file": "src/content/entries/state/va-manufactured-home-park-residents-first-right-to-buy.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb383": {
   "decision": "skip",
@@ -9360,16 +9373,16 @@
   "date": "2026-11-11"
  },
  "va-2026-hb397": {
-  "decision": "promising",
-  "reason": "triage: RGGI rejoin funds flood prep; writer must check cost to ratepayers",
+  "decision": "skip",
+  "reason": "HB 397 put Virginia back in RGGI, but whether working people come out ahead isn't settled yet: Dominion has asked to add about $10–13 a month to residential bills, and the SCC hasn't decided that rider or how the bill credit or rebates from auction money will work (its recommendations are due Nov. 30), so the net-impact test can't be met.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb398": {
-  "decision": "promising",
-  "reason": "triage: protects veterans from predatory claim-help fees",
+  "decision": "skip",
+  "reason": "HB 398 (Ch. 602) sets disclosure rules and a fee cap of five times the monthly benefit increase, but it also gives state legal cover to unaccredited, paid VA-claim consultants whose fees for initial claims federal law prohibits; the VFW opposed it in committee and VFW Georgia opposed the matching Georgia \"SAVE Act\" on these grounds, so we can't show veterans come out ahead.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb399": {
   "decision": "skip",
@@ -9402,10 +9415,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb426": {
-  "decision": "promising",
-  "reason": "triage: keeps injured workers' benefits when recovery is made",
+  "decision": "drafted",
+  "reason": "HB 426 became law as Chapter 923 and took effect July 1, 2026. When an injured worker wins money from a third party, their existing workers' comp award can no longer be suspended or ended because of it. Their lifetime medical care continues without a new claim, and the employer's credit is taken as a pro rata reduction.",
+  "file": "src/content/entries/state/va-workers-comp-award-survives-third-party-recovery.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb427": {
   "decision": "skip",
@@ -9529,16 +9543,18 @@
   "date": "2026-11-11"
  },
  "va-2026-hb515": {
-  "decision": "promising",
-  "reason": "triage: bans credit cards for sports betting; protects from debt",
+  "decision": "drafted",
+  "reason": "HB 515 became law (Chapter 926, signed April 13, 2026, effective July 1, 2026). It is a consumer-finance protection that keeps Virginia sports bettors from funding betting accounts with credit-card debt.",
+  "file": "src/content/entries/state/va-sports-betting-credit-card-ban.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb519": {
-  "decision": "promising",
-  "reason": "triage: landlord-supplied central AC is an essential service",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 624, in effect July 1, 2026) that gives Virginia renters with landlord-supplied central AC the same legal remedies they have when the heat, water or power goes out, which is a direct, tangible tenant protection.",
+  "file": "src/content/entries/state/va-central-ac-essential-service-tenants.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb52": {
   "decision": "skip",
@@ -9631,10 +9647,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb161": {
-  "decision": "promising",
-  "reason": "triage: caps prescription cost-sharing in ACA plans",
+  "decision": "skip",
+  "reason": "SB 161 (Ch. 642) is the identical Senate companion to HB 625 (Ch. 641), and the existing entry va-2026-hb625 (\"Starting in 2028, you can choose a health plan with capped drug copays\") already covers the same tiered $150–$300 drug cost-sharing caps.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb164": {
   "decision": "promising",
@@ -9649,10 +9665,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb170": {
-  "decision": "promising",
-  "reason": "triage: noncompete void if fired without severance",
+  "decision": "drafted",
+  "reason": "This enacted law, now in effect, protects workers directly. A Virginia employer that fires someone without cause can't enforce a noncompete unless it pays severance or another payment it disclosed when the noncompete was signed. No existing entry covers it; the nurse and doctor noncompete entry (HB 627) is a different law.",
+  "file": "src/content/entries/state/va-noncompete-void-if-fired-without-severance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb171": {
   "decision": "skip",
@@ -9685,10 +9702,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb191": {
-  "decision": "promising",
-  "reason": "triage: two-person freight train crew safety",
+  "decision": "skip",
+  "reason": "SB 191 is the identical Senate companion to HB 25, which is already covered by the existing entry va-2026-hb25 (\"Freight trains in Virginia must run with at least two crew members\").",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb196": {
   "decision": "skip",
@@ -9751,10 +9768,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb254": {
-  "decision": "promising",
-  "reason": "triage: adds 525 MW shared solar; check cost to ratepayers",
+  "decision": "skip",
+  "reason": "SB 254 is identical to HB 807, which already has an entry (va-2026-hb807, \"More Dominion customers can save with community solar, no rooftop needed\"), so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb255": {
   "decision": "skip",
@@ -9781,10 +9798,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb273": {
-  "decision": "promising",
-  "reason": "triage: widens eviction diversion eligibility, notice on summons",
+  "decision": "drafted",
+  "reason": "SB 273, signed as Chapter 818 and in effect since July 1, 2026, makes it much easier for tenants sued for unpaid rent to use Virginia's Eviction Diversion Program. It cuts the up-front payment to 10% from 25%, drops the late-payment disqualifications, and puts program information in the eviction summons. That is a separate action from the existing entry on the eviction reduction program.",
+  "file": "src/content/entries/state/va-eviction-diversion-10-percent-down.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb439": {
   "decision": "skip",
@@ -9817,10 +9835,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb453": {
-  "decision": "promising",
-  "reason": "triage: $50,000 penalty for intentional sewage discharge protects water and health",
+  "decision": "skip",
+  "reason": "SB 453 (Chapter 946) only sets a maximum civil penalty of $50,000 for intentionally discharging untreated sewage under the onsite-sewage code (§ 32.1-164); it is an enforcement tool with no direct, measurable benefit to working people that sources document, and the penalty can also fall on individual homeowners with failing septic systems.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb459": {
   "decision": "promising",
@@ -9847,16 +9865,16 @@
   "date": "2026-11-11"
  },
  "va-2026-sb489": {
-  "decision": "promising",
-  "reason": "triage: crypto kiosk licensing and consumer protections against scams",
+  "decision": "skip",
+  "reason": "SB 489 is identical to HB 665, which is already covered by the existing entry va-2026-hb665 (Virginia crypto kiosks must hold new users' cash 48 hours and cap fees), so a new entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb491": {
-  "decision": "promising",
-  "reason": "triage: guarantees free public schooling regardless of immigration status",
+  "decision": "skip",
+  "reason": "SB 491 is the Senate companion to HB 836, which already has an entry (\"Virginia schools can't turn kids away over immigration status\", va-2026-hb836) covering the same ban on denying public education over immigration status.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb493": {
   "decision": "drafted",
@@ -9920,10 +9938,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb524": {
-  "decision": "promising",
-  "reason": "triage: mental health network adequacy standards require timely access to care",
+  "decision": "skip",
+  "reason": "SB 524 (Chapter 653) is Sen. Deeds' Senate twin of HB 656 (Chapter 652), and both were approved April 13, 2026; the site already covers it as va-2026-hb656 (\"Virginia will fine insurers that skimp on mental health and addiction care\"), so it's a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb527": {
   "decision": "skip",
@@ -9932,10 +9950,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb531": {
-  "decision": "promising",
-  "reason": "triage: requires localities to allow accessory dwelling units, adding housing options",
+  "decision": "drafted",
+  "reason": "SB 531 (Chapter 895) is an enacted state law. From July 1, 2027 it requires Virginia localities to allow accessory dwelling units by right in single-family zones and caps the permit fee at $500, which directly adds housing options for homeowners and renters at no cost to public services.",
+  "file": "src/content/entries/state/va-backyard-apartments-allowed-by-right.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb532": {
   "decision": "skip",
@@ -9974,10 +9993,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb594": {
-  "decision": "promising",
-  "reason": "triage: insurers can't add drivers to your policy without authorization",
+  "decision": "drafted",
+  "reason": "This enacted Virginia law (Chapter 898) stops car insurers from adding people to your policy, and raising your premium, based only on database guesses that they live with you, unless you get 45 days' notice and a chance to prove they don't.",
+  "file": "src/content/entries/state/va-car-insurers-cant-add-drivers-without-notice.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb595": {
   "decision": "skip",
@@ -10017,10 +10037,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb640": {
-  "decision": "promising",
-  "reason": "triage: centralized child abuse hotline creates a service",
+  "decision": "skip",
+  "reason": "SB 640 mainly reorganizes government: it moves child abuse and neglect intake from local social services departments to a state-run hotline (Virginia already ran a statewide hotline) and lets the Commissioner put failing local boards under corrective action plans, so it has no direct, concrete benefit for working people that the sources show.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb645": {
   "decision": "skip",
@@ -10161,10 +10181,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb776": {
-  "decision": "promising",
-  "reason": "triage: Probation not revoked solely for inability to pay fines; check enacted",
+  "decision": "drafted",
+  "reason": "An enacted law, Chapter 953 of 2026, says that failing to pay court fines and costs can't on its own be treated as breaking probation, and courts must presume that people found indigent can't pay. This directly protects low-income Virginians from being punished for being poor, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-unpaid-fines-alone-cant-violate-probation.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb777": {
   "decision": "skip",
@@ -10197,16 +10218,18 @@
   "date": "2026-11-11"
  },
  "va-2026-sb790": {
-  "decision": "promising",
-  "reason": "triage: Requires insurers to cover menopause treatment",
+  "decision": "drafted",
+  "reason": "SB 790 became law as Chapter 955: it requires Virginia-regulated health plans to cover medically necessary menopause and perimenopause care for plans issued or renewed from Jan. 1, 2027, and that is a direct health benefit no existing entry covers.",
+  "file": "src/content/entries/state/va-menopause-care-insurance-coverage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb794": {
-  "decision": "promising",
-  "reason": "triage: Shields health care access from extradition; legal protection, check enacted",
+  "decision": "drafted",
+  "reason": "This is an enacted Virginia law, in effect since July 1, 2026, that protects patients, providers, and helpers from out-of-state prosecution and lawsuits over health care that is legal in Virginia. That is a direct protection of rights, and no existing Virginia entry covers it.",
+  "file": "src/content/entries/state/va-health-care-shield-law.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb800": {
   "decision": "skip",
@@ -10257,10 +10280,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb823": {
-  "decision": "promising",
-  "reason": "triage: Consumer protections in residential solar contracts",
+  "decision": "drafted",
+  "reason": "This is an enacted consumer protection law (Chapter 852 of the 2026 Acts). It requires written contracts, standard disclosures and a no-penalty cancellation window for Virginians who buy or lease home solar, and it isn't covered by any existing entry.",
+  "file": "src/content/entries/state/va-residential-solar-contract-disclosures.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb827": {
   "decision": "skip",
@@ -10269,10 +10293,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb276": {
-  "decision": "promising",
-  "reason": "triage: Enacted prison visitation minimums, long-distance access",
+  "decision": "drafted",
+  "reason": "SB 276 was enacted as Chapter 572 and took effect July 1, 2026. It gives families who visit people in Virginia state prisons concrete protections: a two-hour minimum visit, extra time for long-distance visitors, and limits on suspensions with a right to appeal.",
+  "file": "src/content/entries/state/va-prison-visits-two-hours-minimum.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb278": {
   "decision": "skip",
@@ -10293,16 +10318,16 @@
   "date": "2026-11-11"
  },
  "va-2026-sb290": {
-  "decision": "promising",
-  "reason": "triage: Localities can enforce tenant safety hazards",
+  "decision": "skip",
+  "reason": "SB 290 is identical to HB 14, which the site already covers as va-2026-hb14 (\"Your Virginia city or county can sue a landlord to fix an unsafe home\"), so a separate entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb294": {
-  "decision": "promising",
-  "reason": "triage: Eviction notice requirement, submetering rules for tenants",
+  "decision": "skip",
+  "reason": "SB 294 (Chapter 784) is identical to HB 1361 (Chapter 783), which already has an entry (va-2026-hb1361) on itemized late-rent eviction notices, so a separate entry would be a duplicate; Sen. Lashrecse Aird could instead be added as the Senate patron on that entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb299": {
   "decision": "skip",
@@ -10311,10 +10336,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb3": {
-  "decision": "promising",
-  "reason": "triage: State matching funds for employer child care help",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry va-gov-1118631 (\"Virginia will help pay for child care if your employer joins\"), which already covers the Employee Child Care Assistance Program that SB 3 and its identical companion HB 18 created.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb301": {
   "decision": "skip",
@@ -10341,10 +10366,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb313": {
-  "decision": "promising",
-  "reason": "triage: Landlords must accept check, no payment fees",
+  "decision": "skip",
+  "reason": "SB 313 is identical to HB 1005, which the site already covers as va-2026-hb1005 (\"Virginia landlords must take rent by check and can't pad payment fees\"), so a new entry would be a duplicate; the existing entry could credit Sen. Adam Ebbin as the Senate patron.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb315": {
   "decision": "promising",
@@ -10377,10 +10402,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb338": {
-  "decision": "promising",
-  "reason": "triage: Bans sale of precise geolocation data",
+  "decision": "drafted",
+  "reason": "SB 338 (Ch. 820) became law and has been in effect since July 1, 2026. It flatly bans covered companies from selling Virginians' precise location data, a concrete privacy protection that no existing entry covers.",
+  "file": "src/content/entries/state/va-companies-cant-sell-your-precise-location.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb343": {
   "decision": "skip",
@@ -10395,10 +10421,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb373": {
-  "decision": "promising",
-  "reason": "triage: Tenants can raise defenses without paying rent into court",
+  "decision": "skip",
+  "reason": "SB 373 is the Senate companion of HB 281 (Callsen), which already has an entry (va-2026-hb281, \"Sued for back rent over an unsafe home? You can fight it without paying first\"). Both bills remove the rule that a tenant must pay the rent owed into court before raising a defense to a nonpayment eviction, so this would duplicate an existing entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb382": {
   "decision": "skip",
@@ -10431,10 +10457,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb402": {
-  "decision": "promising",
-  "reason": "triage: Insurers can't drop homeowners over roof age",
+  "decision": "skip",
+  "reason": "SB 402 is identical to HB 677, which already has an entry (va-2026-hb677: \"Your Virginia home insurer can't drop you over a roof under 15 years old\"), so this candidate would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb403": {
   "decision": "skip",
@@ -10479,10 +10505,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb429": {
-  "decision": "promising",
-  "reason": "triage: Nursing home oversight and resident assessments",
+  "decision": "drafted",
+  "reason": "SB 429 became law as Chapter 944 and has been in effect since July 1, 2026. It gives nursing home residents and their families a concrete right: they must be told when a doctor visit that federal rules require doesn't happen. It also writes regular care assessments into state law, where the state can enforce them.",
+  "file": "src/content/entries/state/va-nursing-homes-must-report-missed-doctor-visits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb43": {
   "decision": "skip",
@@ -10491,10 +10518,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb433": {
-  "decision": "promising",
-  "reason": "triage: Locked-out workers can get unemployment benefits",
+  "decision": "drafted",
+  "reason": "SB 433 was signed and is in effect. It changes Virginia unemployment law so that workers locked out by their employer are no longer denied benefits on the grounds that they are in a labor dispute, which directly protects workers' income.",
+  "file": "src/content/entries/state/va-locked-out-workers-unemployment-benefits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb436": {
   "decision": "skip",
@@ -10503,10 +10531,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb438": {
-  "decision": "promising",
-  "reason": "triage: Guaranteed Sunday early voting hours",
+  "decision": "drafted",
+  "reason": "SB 438 became law as Chapter 945 and took effect July 1, 2026. It requires every Virginia locality to offer early in-person voting on two Sundays before each election, which widens voting access, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-sunday-early-voting-two-sundays.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-04-mayor-mamdani-advances-redesign-of-flatbush-avenue-for-faster-bu": {
   "decision": "skip",
@@ -10587,10 +10616,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1117": {
-  "decision": "promising",
-  "reason": "triage: Faster license recognition for workers moving to Virginia",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Chapter 448, in effect since July 1, 2026). Licensed workers who move to Virginia, such as electricians, plumbers and barbers, can now transfer their license after one year of out-of-state licensure instead of three.",
+  "file": "src/content/entries/state/va-2026-hb1117-license-transfer-one-year.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1144": {
   "decision": "skip",
@@ -10677,10 +10707,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1313": {
-  "decision": "promising",
-  "reason": "triage: PTSD workers' comp for police and firefighters without physical injury; enacted",
+  "decision": "skip",
+  "reason": "The Senate substitute removed the bill's main changes (dropping the primary-cause test and covering worsened preexisting conditions), and the enacted Chapter 465 only adds a clause to the Code § 65.2-107 definition of \"qualifying event\" (\"an incident or exposure without any accompanying physical injury… on or after January 1, 2027\"); since 2020 that statute has already covered PTSD claims without physical injury for officers and firefighters, and no source I could open explains what concrete new benefit workers get, so the core claim can't be verified.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1334": {
   "decision": "skip",
@@ -10695,10 +10725,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1363": {
-  "decision": "promising",
-  "reason": "triage: Abusers can be ordered to pay rent for survivors' home; enacted",
+  "decision": "drafted",
+  "reason": "This is an enacted Virginia law, Chapter 468, in effect since July 1, 2026. It lets judges order an abuser to pay the rent or mortgage and keep the utilities on for a home the survivor was granted, which directly helps survivors keep their housing.",
+  "file": "src/content/entries/state/va-protective-order-abuser-pays-rent-mortgage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1382": {
   "decision": "skip",
@@ -10713,10 +10744,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb84": {
-  "decision": "promising",
-  "reason": "triage: enacted speed/crossing cameras in school and work zones",
+  "decision": "skip",
+  "reason": "SB 84 lets police agencies add stop-sign and crosswalk cameras and changes how fines are issued, but it doesn't require any locality to use them, so it has no direct, guaranteed effect on people, and the costs it does create are civil fines on drivers.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb88": {
   "decision": "skip",
@@ -10815,10 +10846,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb19": {
-  "decision": "promising",
-  "reason": "triage: enacted firearm limits after domestic assault",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed Virginia law. It extends the state's gun ban after a domestic assault conviction to dating partners, a direct safety protection for people facing abuse, and no existing entry covers it at the state level.",
+  "file": "src/content/entries/state/va-gun-ban-domestic-abusers-dating-partners.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb21": {
   "decision": "skip",
@@ -11243,10 +11275,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1529": {
-  "decision": "promising",
-  "reason": "triage: helps eligible people enroll in Medicaid via tax data",
+  "decision": "skip",
+  "reason": "According to Virginia Tax's legislative summary, HB 1529 only consolidates an existing voluntary tax-return checkoff by routing the shared data through the Health Benefit Exchange instead of three agencies, so its main effect is on how government handles data rather than a new benefit for people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb163": {
   "decision": "promising",
@@ -11255,10 +11287,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb17": {
-  "decision": "promising",
-  "reason": "triage: limits court fines collection to 10 years; debtor relief",
+  "decision": "drafted",
+  "reason": "HB 17 became law as Chapter 355. Starting Jan. 1, 2027, it cuts how long Virginia can collect court fines and costs from up to 60 years to 10, gives people more time before debts go to collections, and pauses payments while someone is in prison, which helps people with court debt directly.",
+  "file": "src/content/entries/state/va-court-debt-collection-limit-10-years.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb185": {
   "decision": "skip",
@@ -11297,10 +11330,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb242": {
-  "decision": "promising",
-  "reason": "triage: limits utility budget-plan payment hikes",
+  "decision": "drafted",
+  "reason": "An enacted 2026 Virginia law, in effect since July 1, 2026, protects residential utility customers on budget billing from surprise and repeated jumps in their monthly payment.",
+  "file": "src/content/entries/state/va-2026-utility-budget-plan-payment-limits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb255": {
   "decision": "skip",
@@ -11357,10 +11391,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb338": {
-  "decision": "promising",
-  "reason": "triage: localities may require 90-day retention of service workers",
+  "decision": "skip",
+  "reason": "HB 338 only lets localities pass worker-retention ordinances if they choose to, and I found no Virginia city or county that has adopted one, so no worker is protected yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb352": {
   "decision": "skip",
@@ -85770,10 +85804,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-204": {
-  "decision": "promising",
-  "reason": "triage: funds winter surge shelter and warming center for homeless people",
+  "decision": "drafted",
+  "reason": "The adopted ordinance pays for real winter shelter capacity for unhoused Richmond residents: a CARITAS surge shelter for up to 70 people and a warming center for up to 60, open Dec. 1 through March 31.",
+  "file": "src/content/entries/local/richmond-caritas-winter-surge-shelter.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-205": {
   "decision": "skip",
@@ -86059,10 +86094,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-300": {
-  "decision": "promising",
-  "reason": "triage: $4.78M extra funding to Richmond schools",
+  "decision": "drafted",
+  "reason": "The city council passed this appropriation. It sends $4.78 million in overdue short-term rental taxes to Richmond Public Schools, which were facing an $8.9 million budget gap. As a result, the schools kept their annual substitute teachers and mental health services, and no worker or service paid for it.",
+  "file": "src/content/entries/local/richmond-schools-back-rental-taxes.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-301": {
   "decision": "skip",
@@ -86360,16 +86396,18 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-284": {
-  "decision": "promising",
-  "reason": "triage: lease continues 50-bed year-round emergency shelter",
+  "decision": "drafted",
+  "reason": "The ordinance keeps a 50-bed, year-round downtown family shelter open beyond its Nov. 30, 2026 lease end date. That protects an existing service for homeless families.",
+  "file": "src/content/entries/local/richmond-family-shelter-second-street-lease.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-285": {
-  "decision": "promising",
-  "reason": "triage: sublease continues 50-bed family shelter",
+  "decision": "drafted",
+  "reason": "The ordinance keeps a city-backed 50-bed, year-round family shelter in operation by extending HomeAgain's sublease (one guaranteed year plus up to three renewals); without it, the sublease's extended term would have ended June 30, 2026, so it protects a direct service for homeless families.",
+  "file": "src/content/entries/local/richmond-downtown-family-shelter-stays-open.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-286": {
   "decision": "skip",
@@ -86732,16 +86770,18 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-142": {
-  "decision": "promising",
-  "reason": "triage: Funded low-cost afterschool programs at six elementary schools",
+  "decision": "drafted",
+  "reason": "The ordinance funds a $457,000 city grant so the YMCA can run low-cost afterschool care at six Richmond public elementary schools, a direct child-care service for working parents.",
+  "file": "src/content/entries/local/richmond-ymca-afterschool-six-elementary-schools.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-143": {
-  "decision": "promising",
-  "reason": "triage: Extends funding for year-round emergency shelter and inclement weather shelter",
+  "decision": "drafted",
+  "reason": "The adopted ordinance keeps the city-backed Salvation Army shelter on Chamberlayne Avenue running through June 30, 2027. That site holds Richmond's main cold-weather shelter and 50 year-round beds, so the ordinance protects a direct service, and no existing entry covers this shelter.",
+  "file": "src/content/entries/local/richmond-salvation-army-chamberlayne-shelter-extended.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-144": {
   "decision": "skip",
@@ -86846,10 +86886,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2025-282": {
-  "decision": "promising",
-  "reason": "triage: Enacted real estate tax deferral for qualified owner-occupied homes; writer to check eligibility and cost",
+  "decision": "drafted",
+  "reason": "This is an enacted Richmond ordinance. Starting in 2028 it lets owner-occupants of homes assessed at or below 200% of the median put off the part of their property tax increase that goes above 5%, at no more than 2% interest. The aim is to help working homeowners stay in their homes, and it doesn't cut services.",
+  "file": "src/content/entries/local/richmond-homeowner-tax-increase-deferral.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-059": {
   "decision": "skip",
@@ -87332,10 +87373,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-071": {
-  "decision": "promising",
-  "reason": "triage: HUD funds accepted for housing/services; writer can check specifics",
+  "decision": "skip",
+  "reason": "This is Richmond's routine yearly application to accept HUD formula grants ($12.55M across CDBG, HOME, ESG and HOPWA) for \"various projects.\" The ordinance was amended before passage, and the adopted project list (Attachment A) isn't published anywhere I could reach, so no concrete benefit can be verified and credited.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-074": {
   "decision": "skip",
@@ -87506,10 +87547,10 @@
   "date": "2026-11-12"
  },
  "richmond-res-2026-r030": {
-  "decision": "promising",
-  "reason": "triage: bond approval for 126-unit senior rental housing; check affordability",
+  "decision": "skip",
+  "reason": "This resolution is the federally required TEFRA sign-off (IRS Section 147(f)) on conduit bonds that the Richmond Redevelopment and Housing Authority would issue for a private developer. It commits no city money and doesn't guarantee the 126 senior apartments get financed or built, so it's a procedural vote, not an enacted benefit.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "nyc-rule-implementation-dates-for-the-brooklyn-north-and-upper-manhattan-commercial-waste-zonesdsny-proposed-implementation-dates-for-the-brooklyn-north-and-upper-manhattan-commercial-waste-zones": {
   "decision": "skip",
@@ -89291,11 +89332,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2025-223": {
-  "decision": "error",
-  "reason": "invalid after repair: impact.2.label: Too big: expected string to have <=80 characters",
+  "decision": "drafted",
+  "reason": "Richmond accepted $100 million in state money and put it in the budget for an underground tank that will cut sewage overflows into the James River from about 37 a year to 10, so city sewer ratepayers don't carry that $100 million.",
+  "file": "src/content/entries/local/richmond-canoe-run-sewage-tank.md",
   "impact": 4,
-  "date": "2026-11-12",
-  "attempts": 1
+  "date": "2026-11-13"
  },
  "richmond-ord-2025-224": {
   "decision": "skip",
@@ -89694,10 +89735,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-legislation-fully-fund-improvements-transit-riders-part-fy-2026-budget": {
-  "decision": "promising",
-  "reason": "triage: Enacted full funding of MTA capital plan for transit riders; check funding source",
+  "decision": "drafted",
+  "reason": "New York's FY2026 budget closed the funding gap in the MTA's $68.4 billion 2025-29 capital plan, which pays for transit infrastructure across the region. Most of the new money comes from raising the payroll tax on large employers while cutting it for small businesses and lower-earning self-employed people, so the plan passes the net-impact test.",
+  "file": "src/content/entries/state/ny-2025-budget-mta-capital-plan.md",
   "impact": 4,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2025-054": {
   "decision": "skip",
@@ -112299,16 +112341,18 @@
   "date": "2026-11-12"
  },
  "henrico-news-181689-approved-15-9m-fall-line-trail-construction-contract-with-cr": {
-  "decision": "promising",
-  "reason": "triage: funded trail construction many residents use",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors approved and funded construction of public infrastructure: 1.6 miles of free walking and biking path in Lakeside with bridges, boardwalks and a pedestrian crossing signal. The county's own recap confirms the award.",
+  "file": "src/content/entries/local/henrico-fall-line-trail-lakeside-brook-hilliard.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-181689-approved-45-5m-three-chopt-road-contract-with-shirley-contra": {
-  "decision": "promising",
-  "reason": "triage: funded road widening with sidewalks",
+  "decision": "drafted",
+  "reason": "The Henrico board approved and funded a $45.5 million construction contract that will add sidewalks on both sides and safety upgrades to a 2-mile stretch of Three Chopt Road where a child was killed. That makes it concrete infrastructure, not just an announcement.",
+  "file": "src/content/entries/local/henrico-three-chopt-road-sidewalks-widening.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-181689-approved-500-000-grant-to-maggie-walker-community-land-trust": {
   "decision": "promising",
@@ -112413,16 +112457,18 @@
   "date": "2026-11-12"
  },
  "henrico-news-180167-awarded-3-7-million-libbie-avenue-road-diet-contract": {
-  "decision": "promising",
-  "reason": "triage: funded safety and bike/ped project",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors awarded a $3.7 million construction contract for a funded project that will build a shared-use path, two-way bike lanes, a flashing crossing beacon, ADA ramps and crosswalks on Libbie Avenue: real infrastructure that makes the street safer.",
+  "file": "src/content/entries/local/henrico-libbie-avenue-bike-lanes-path.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-180167-awarded-laburnum-avenue-sidewalk-contract": {
-  "decision": "promising",
-  "reason": "triage: funded sidewalks with ADA ramps",
+  "decision": "drafted",
+  "reason": "On Oct. 13, 2026, Henrico's Board of Supervisors awarded a construction contract of nearly $2 million for about 6,700 feet of new sidewalk and ADA curb ramps on Laburnum Avenue, which is funded infrastructure that makes walking safer.",
+  "file": "src/content/entries/local/henrico-laburnum-avenue-sidewalks.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-180167-awarded-lakeside-community-trail-phase-1-contract": {
   "decision": "promising",
@@ -112767,10 +112813,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2029-appropriated-opioid-abatement-funding-for-two-partnerships": {
-  "decision": "promising",
-  "reason": "triage: funds ~$1.7M for outreach and treatment partnerships",
+  "decision": "drafted",
+  "reason": "The board's unanimous vote renewed $1.67 million in opioid settlement money for two existing services: medication treatment for opioid addiction in the Chesterfield jail and harm-reduction outreach to people who use drugs. The vote, amounts and program descriptions are confirmed by the county minutes and the county's Opioid Response page.",
+  "file": "src/content/entries/local/chesterfield-opioid-treatment-jail-mobile-outreach-renewed.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-approved-airport-fbo-lease-amendments-with-vantage-aviation": {
   "decision": "skip",
@@ -112815,16 +112862,17 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2029-authorized-11-15m-contract-for-ettrick-fire-station-no-12-re": {
-  "decision": "promising",
-  "reason": "triage: funded new fire station for community",
+  "decision": "drafted",
+  "reason": "The board signed an $11.15 million contract to replace Ettrick's fire and EMS station, which dates to the 1930s. Voters approved the bond money for it in 2022, so this is funded public safety infrastructure for working families.",
+  "file": "src/content/entries/local/chesterfield-ettrick-fire-station-replacement.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-authorized-11-37m-contract-for-centralia-elevated-water-stor": {
-  "decision": "promising",
-  "reason": "triage: funded water storage tank for residents",
+  "decision": "skip",
+  "reason": "The sources confirm only a 5-0 vote awarding an $11.37M contract for a water storage tank on Cogbill Road, which a procurement listing says holds 2 million gallons; none of them say who the tank serves or what it changes for residents, so there's no benefit I can verify.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-authorized-4-55m-contract-for-shared-warehouse-construction": {
   "decision": "skip",
@@ -112887,10 +112935,11 @@
   "date": "2026-11-12"
  },
  "henrico-news-177890-awarded-contract-for-tuckahoe-park-improvements": {
-  "decision": "promising",
-  "reason": "triage: $13.8M funded park with accessible features",
+  "decision": "drafted",
+  "reason": "Henrico's board awarded a $13.8 million contract, paid for by a voter-approved bond, that is now building accessible restrooms, parking, trails, a pedestrian bridge, a playground and drainage fixes at a public park.",
+  "file": "src/content/entries/local/henrico-tuckahoe-park-renovation.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-177069-advertise-sept-8-public-hearing-on-school-zone-speed-camera-": {
   "decision": "skip",
@@ -113032,10 +113081,11 @@
   "date": "2026-11-12"
  },
  "henrico-news-176564-board-awards-40-3m-richmond-henrico-turnpike-contract": {
-  "decision": "promising",
-  "reason": "triage: funded road with sidewalk and path",
+  "decision": "drafted",
+  "reason": "The Henrico board awarded a $40.3 million construction contract that adds a sidewalk, a lighted shared-use path, drainage and water lines along 1.15 miles of Richmond-Henrico Turnpike, and the project is now under construction.",
+  "file": "src/content/entries/local/henrico-richmond-henrico-turnpike-sidewalk-path.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2028-26pj0008": {
   "decision": "skip",
@@ -113152,10 +113202,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2028-awarded-44-3-million-dutch-gap-parkway-construction-contract": {
-  "decision": "promising",
-  "reason": "triage: funded major road construction",
+  "decision": "skip",
+  "reason": "The $44.3 million Dutch Gap Parkway mostly replaces the road into Henricus Park and Dutch Gap Conservation Area that Dominion's coal ash cleanup is displacing, and it extends a road to a factory in Meadowville Technology Park, so working people gain little directly; also, its main funding is a Dominion obligation that may be billed to ratepayers, so I can't make the net-impact case.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2028-awarded-l-c-bird-athletic-complex-field-improvements-contrac": {
   "decision": "promising",
@@ -113308,10 +113358,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-appropriated-funds-and-authorized-4-75-million-contract-for-": {
-  "decision": "promising",
-  "reason": "triage: funded Route 60 sidewalk contract",
+  "decision": "drafted",
+  "reason": "The board funded and awarded construction of new sidewalks and pedestrian crossings on a busy Route 60 commercial stretch where people now walk in the grass or at the road's edge. That is a concrete safety improvement, and it is not a duplicate of any existing entry.",
+  "file": "src/content/entries/local/chesterfield-route-60-sidewalks-ruthers-road.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2027-approved-lease-amendment-with-t-mobile-northeast-llc-for-bon": {
   "decision": "skip",
@@ -113386,10 +113437,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-series-2026a-general-obligation-public-improvement-bonds": {
-  "decision": "promising",
-  "reason": "triage: $141M voter-approved bonds build schools",
+  "decision": "skip",
+  "reason": "This resolution only sets the terms for selling school bonds that voters already approved in 2022, so it is a procedural financing step and not the action that funded the schools.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-175307-approved-appropriation-resolution-for-fy2026-27-adopted-budg": {
   "decision": "skip",
@@ -113452,10 +113503,11 @@
   "date": "2026-11-12"
  },
  "henrico-news-174384-awarded-lakeside-avenue-bridge-replacement-contract": {
-  "decision": "promising",
-  "reason": "triage: funded bridge replacement, local infrastructure many use",
+  "decision": "drafted",
+  "reason": "Henrico's Board of Supervisors awarded a $9.2 million construction contract to replace the Lakeside Avenue bridge, which is funded public infrastructure that will carry local traffic, like the county's other contract entries already on the site.",
+  "file": "src/content/entries/local/henrico-lakeside-avenue-bridge-replacement.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-174384-enhanced-hazard-duty-benefits-for-full-time-emts": {
   "decision": "promising",
@@ -114011,10 +114063,10 @@
   "date": "2026-11-12"
  },
  "hanover-news-1164-authorized-mou-for-school-based-mental-health-services": {
-  "decision": "promising",
-  "reason": "triage: Enacted school mental health service agreement",
+  "decision": "skip",
+  "reason": "The August 2026 MOU continues Hanover's school-based mental health program at three CSB clinicians plus a supervisor, after the FY2027 school budget cut contracted clinicians from seven to four (WTVR, Feb. 2026). That makes it a scaled-back continuation, not a new or expanded benefit, and the MOU's terms can't be verified beyond the one-line board brief.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "hanover-news-1164-cup2025-00023": {
   "decision": "skip",
@@ -114281,10 +114333,10 @@
   "date": "2026-11-12"
  },
  "hanover-news-1103-adopted-the-fiscal-year-2027-budget": {
-  "decision": "promising",
-  "reason": "triage: enacted budget funding schools, safety, pay; writer checks specifics and cost",
+  "decision": "skip",
+  "reason": "Adopting Hanover's whole FY2027 general fund budget is too broad to qualify: the record names no specific benefit for working people (a raise, a service, a project), and it gives no basis to check the net-impact test on how that budget was paid for.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "hanover-news-1103-appropriated-funds-in-the-adopted-fy27-budget": {
   "decision": "skip",
@@ -122822,14 +122874,16 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1316-ordinance-no-50481": {
-  "decision": "promising",
-  "reason": "triage: Funded sidewalk construction, $2M",
+  "decision": "drafted",
+  "reason": "Norfolk City Council voted unanimously to put $2.07 million in state transportation money, plus a $517,692 city match, into building the first phase of new sidewalks on Tidewater Drive, a funded public works project.",
+  "file": "src/content/entries/local/norfolk-tidewater-drive-sidewalks-phase-1.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "norfolk-council-1316-ordinance-no-50482": {
-  "decision": "promising",
-  "reason": "triage: Funded sidewalk construction, $1.9M",
+  "decision": "drafted",
+  "reason": "Norfolk's council adopted an ordinance that funds new sidewalks on Tidewater Drive (Phase 2), a funded infrastructure project for people on foot, and no existing entry covers it.",
+  "file": "src/content/entries/local/norfolk-tidewater-drive-sidewalks-phase-2.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -123110,8 +123164,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1310-ordinance-no-50449": {
-  "decision": "promising",
-  "reason": "triage: 3.5-4% raises for city employees",
+  "decision": "skip",
+  "reason": "The record confirms that Norfolk raised base pay for \"certain\" city and non-city employees to a total of 3.5% or 4% as of Aug. 1, 2026, but the full ordinance and staff report are unreadable compressed PDFs, and no source I opened says which workers got the 1%, 3% or 3.5%, how many there are, or how it was paid for (the companion Ordinance 50448 points to state Compensation Board money for constitutional officers' staff), so the core who-benefits claim can't be verified.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -123308,8 +123362,9 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1304-ordinance-no-50382": {
-  "decision": "promising",
-  "reason": "triage: $25M state flood grant matched for Willoughby Spit storm protection; funded",
+  "decision": "drafted",
+  "reason": "The council put a $24,986,500 state flood grant and an equal city match into the budget to raise up to 62 high-risk Willoughby Spit homes at no cost to owners and to build flood barriers, which is a concrete storm-protection benefit and separate from the existing federal floodwall entry.",
+  "file": "src/content/entries/local/norfolk-willoughby-spit-home-raising-flood-grant.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -123740,8 +123795,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3750-consent-agenda-item-14": {
-  "decision": "promising",
-  "reason": "triage: Funds an overpass and downtown library; writer checks amounts",
+  "decision": "skip",
+  "reason": "This is an internal transfer from Suffolk's capital reserve into two projects already underway, and the overpass is already open; no source gives an amount or a new benefit for residents to verify, so it fails the direct-effect test.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -124179,8 +124234,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51836173-1-1": {
-  "decision": "promising",
-  "reason": "triage: Workforce housing code; likely paired with zoning, writer should verify details",
+  "decision": "skip",
+  "reason": "This is a technical change to Virginia Beach's voluntary workforce housing density-bonus program. As far as I can tell, it drops the program's local-resident preference for rentals so projects can use LIHTC and bond financing, and it doesn't directly deliver any housing or benefit, so it doesn't count as a tangible win for working people. I also couldn't open the ordinance text (the city's document site blocks fetches), so I can't verify the details.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -124251,8 +124306,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51836173-j-7": {
-  "decision": "promising",
-  "reason": "triage: Workforce housing zoning ordinance; pairs with code change, writer should verify",
+  "decision": "skip",
+  "reason": "Ordinance 3870 is a technical rewrite of Virginia Beach's existing workforce-housing density bonus: it drops a local-resident preference that conflicts with federal low-income housing tax credit rules and adds a compliance-agreement step, and since it creates no units, money or benefit we can measure, it doesn't meet the direct-effect test.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -124491,8 +124546,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51866206-j-5": {
-  "decision": "promising",
-  "reason": "triage: $7M funded for road repaving residents use",
+  "decision": "skip",
+  "reason": "This is the council routinely accepting and moving about $7 million in yearly VDOT maintenance money into an ongoing street repaving account, approved on the consent agenda; no source names the streets, the scope or the timing, so there is no concrete benefit a reader could check.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -124671,8 +124726,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51814799-k-10": {
-  "decision": "promising",
-  "reason": "triage: workforce housing grant program change",
+  "decision": "skip",
+  "reason": "The July 7, 2026 ordinance amends an existing developer grant program to match a new state law (HB 352) and to cap how much the city can owe over the long term, so its main effect is on the city, with no new benefit for renters that I could verify; the program itself began earlier and would need its own entry.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125336,8 +125391,8 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-e": {
-  "decision": "promising",
-  "reason": "triage: HUD-funded housing for chronically homeless",
+  "decision": "skip",
+  "reason": "This is a routine consent-agenda vote to accept and appropriate HUD's recurring Shelter Plus Care renewal grant for an existing program, and no source I could find gives the council's role beyond accepting the money, how many households it serves, or what changed for residents.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125402,8 +125457,8 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233d": {
-  "decision": "promising",
-  "reason": "triage: federal funds for free summer meals for kids",
+  "decision": "skip",
+  "reason": "This ordinance only accepts USDA money, through the Virginia Department of Education, to repay Portsmouth Parks & Recreation for summer meals it already served under a long-running federal program. Its direct effect is on the city's books. I also couldn't find a source for the 2026 Portsmouth meals, such as how many kids were served or where, so an entry about them couldn't be verified.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125420,8 +125475,8 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233g": {
-  "decision": "promising",
-  "reason": "triage: pump station rehab, defense-funded sewer infrastructure",
+  "decision": "skip",
+  "reason": "The $3,003,000 federal defense-community grant pays to rehab one sewage pump station that serves Naval Support Activity Hampton Roads, and no source says what residents get from it (fewer overflows, service, or homes served), so we can't show a direct effect on working people.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125468,14 +125523,16 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220b": {
-  "decision": "promising",
-  "reason": "triage: $5.2M FEMA flood dam resilience funds",
+  "decision": "drafted",
+  "reason": "Portsmouth accepted and appropriated $5.226 million in restored FEMA BRIC funding for the first phase of work on the high-hazard Lake Meade Dam. The dam holds back drinking water for about 36,000 households and businesses and protects more than 80 homes below it, so this is enacted, funded infrastructure and safety work.",
+  "file": "src/content/entries/local/portsmouth-lake-meade-dam-fema-phase-1.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220c": {
-  "decision": "promising",
-  "reason": "triage: $500K opioid treatment aid funded",
+  "decision": "drafted",
+  "reason": "Portsmouth's council accepted $500,000 in state opioid-settlement money for a second year of its harm-reduction program (hot-spot outreach, syringe exchange, a mobile unit). That is a funded service that directly helps residents, and it is paid for by settlement money rather than local taxes.",
+  "file": "src/content/entries/local/portsmouth-operation-stop-opioid-harm-reduction.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125510,8 +125567,9 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-221": {
-  "decision": "promising",
-  "reason": "triage: enacted collective bargaining for city workers",
+  "decision": "drafted",
+  "reason": "Portsmouth adopted an ordinance setting the rules that let city police, firefighters and other workers choose a union and bargain over pay, benefits and working conditions, which directly affects workers' rights.",
+  "file": "src/content/entries/local/portsmouth-city-workers-collective-bargaining.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -125549,6 +125607,72 @@
   "decision": "skip",
   "reason": "triage: large housing permit; affordability unknown, private developer",
   "impact": 2,
+  "date": "2026-11-13"
+ },
+ "hampton-26-0343": {
+  "decision": "skip",
+  "reason": "This is a routine budget step: Hampton is moving $3.3 million in state repaving grants into its capital budget for normal resurfacing of seven streets, which changes little for residents beyond regular upkeep.",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "hampton-26-0344": {
+  "decision": "skip",
+  "reason": "triage: Routine budget transfers, administrative",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "hampton-26-0352": {
+  "decision": "skip",
+  "reason": "triage: Building code terminology and enforcement; government procedure",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "hampton-news-6088": {
+  "decision": "skip",
+  "reason": "triage: Outage notice, not an action",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "va-gov-1128882": {
+  "decision": "skip",
+  "reason": "triage: Agenda preview, no enacted action",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a10921": {
+  "decision": "promising",
+  "reason": "triage: Waives home-modification fees for disabled veterans; check if enacted",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a11233": {
+  "decision": "skip",
+  "reason": "triage: Minor convenience for service members, small",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a3450": {
+  "decision": "skip",
+  "reason": "triage: Definition tweak; unclear tangible effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a5578": {
+  "decision": "promising",
+  "reason": "triage: Extends veterans property tax exemptions; check cost shift and signing",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a6001": {
+  "decision": "skip",
+  "reason": "triage: Campus gym memberships for disabled veterans, narrow",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "ny-2025-a9351": {
+  "decision": "skip",
+  "reason": "triage: License plates, symbolic",
+  "impact": 1,
   "date": "2026-11-13"
  }
 }
