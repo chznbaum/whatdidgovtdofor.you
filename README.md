@@ -84,7 +84,7 @@ Set these in your shell or in a `.env` file at the repo root (gitignored; copy `
 ```
 src/content/entries/{federal,state,local}/<slug>.md   one action per file
 src/content/officials/<id>.yaml                      people and bodies (councils, boards)
-src/content/places/<id>.yaml                         jurisdictions with Census GEOIDs
+src/content/places/<id>.yaml                         jurisdictions with Census GEOIDs, feeds, and council rosters
 src/data/roster/*.json                               synced legislator rosters
 src/data/get-involved.json                           ways to run, serve, or work the polls, by place (see get-involved.schema.md)
 ```
@@ -94,6 +94,7 @@ src/data/get-involved.json                           ways to run, serve, or work
 - After a new Congress is seated, run `npm run sync:roster`, then switch the geocoder vintage in `src/pages/lookup-index.json.ts` (it's commented).
 - When state legislatures redistrict, check that the geocoder vintage carries the new maps.
 - Update `seat` on officials when governors and mayors change.
+- Update `council` rosters in place yaml after local elections and appointments (they're copied by hand; `checked` says when). Virginia's counties and cities mostly seat new members on January 1. A county's districts come from the geocoder's County Subdivisions, so a redistricting there also waits on the geocoder vintage.
 
 ## License
 

@@ -90,12 +90,31 @@ function portraitProblems(file: string, o: z.infer<Schemas['officials']>): Probl
   return out.map((message) => ({ file, message }));
 }
 
+// A council the address lookup can use: its members listed or synced (not both), census districts only where the
+// geocoder returns them for this place (a county), and no district member left unreachable by a missing lookup.
+function councilProblems(file: string, p: z.infer<Schemas['places']>): Problem[] {
+  const c = p.council;
+  if (!c) return [];
+  const out: string[] = [];
+  if (c.roster && c.members.length) out.push('council: list `members` or name a synced `roster`, not both');
+  if (!c.roster && !c.members.length) out.push('council: no members');
+  if (c.roster && !existsSync(join(ROOT, 'src/data/roster', `${c.roster}.json`))) out.push(`council.roster: src/data/roster/${c.roster}.json is missing`);
+  if (c.districts === 'census' && (p.kind !== 'county' || !p.geoids.county))
+    out.push('council.districts: Census county subdivisions are districts only for a county (with geoids.county)');
+  if (!c.districts && c.members.some((m) => m.district)) out.push('council: members have districts but `districts` says how to find none');
+  if (!c.roster && !c.checked) out.push('council.checked: say when the roster was last checked against the government\'s page');
+  const names = c.members.map((m) => m.name);
+  if (new Set(names).size !== names.length) out.push('council.members: a name appears twice');
+  return out.map((message) => ({ file, message }));
+}
+
 async function validateYaml(collection: 'officials' | 'places', schemas: Schemas): Promise<Problem[]> {
   const problems: Problem[] = [];
   for (const file of await listFiles(join(CONTENT, collection), '.yaml')) {
     const parsed = schemas[collection].safeParse(await readYaml(file));
     if (!parsed.success) problems.push(...zodProblems(rel(file), parsed.error));
     else if (collection === 'officials') problems.push(...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>));
+    else problems.push(...councilProblems(rel(file), parsed.data as z.infer<Schemas['places']>));
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(idFromPath(file))) problems.push({ file: rel(file), message: 'id must be a lowercase slug' });
   }
   return problems;

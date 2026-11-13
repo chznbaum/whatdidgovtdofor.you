@@ -4,3 +4,16 @@ kind: county
 parent: va
 geoids: { state: "51", county: "51127" }
 # No feed yet: actions are only in Granicus action-agenda PDFs (newkentcounty.granicus.com, view_id=1).
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.newkent-va.us/123/Member-Listing"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023, Nov. 2024), elections.virginia.gov.
+  members:
+    - { district: "1", name: Thomas W. Evelyn, party: I }
+    - { district: "2", name: John P. Moyer, party: I }
+    - { district: "3", name: Amy M. Pearson, party: I }
+    - { district: "4", name: Ronald P. Stiers, party: I }
+    - { district: "5", name: Jordan T. Stewart, party: R }

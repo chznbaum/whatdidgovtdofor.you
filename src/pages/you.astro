@@ -57,6 +57,8 @@ const levels = [
 <script>
   type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
   type Seat = Person & { place: string; title: string };
+  type Member = Person & { district: string | null; title: string; where: string | null };
+  type Council = { districts: 'census' | { url: string; field: string } | null; members: Member[] };
   type PlaceInfo = {
     id: string;
     name: string;
@@ -69,7 +71,7 @@ const levels = [
     places: PlaceInfo[];
     congress: Record<string, { senate: Person[]; house: Record<string, Person> }>;
     legislatures: Record<string, { place: string; upper: Record<string, Person>; lower: Record<string, Person> }>;
-    councils: Record<string, { lookup: { url: string; field: string }; members: Record<string, Person> }>;
+    councils: Record<string, Council>;
     seats: Seat[];
   };
   type Geo = Record<string, Record<string, string>[]>;
@@ -120,7 +122,7 @@ const levels = [
       f: 'json',
     });
     try {
-      const res = await fetch(`${cfg.url}?${params}`);
+      const res = await fetch(`${cfg.url}/query?${params}`);
       const value = (await res.json()).features?.[0]?.attributes?.[cfg.field];
       return value == null ? undefined : String(value);
     } catch {
@@ -224,16 +226,26 @@ const levels = [
         ]
       : [];
     const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'));
-    const localItems = localPlaces.flatMap((p) => seatsFor(p.id).map((s) => officialItem(s.title, s)));
-    let councilName: string | undefined;
+    // Each local place's own seats (a mayor), then its council: the member for the address's district, then any
+    // members elected at large. A district lookup that fails just leaves the district member out.
+    const subdivision = layer(geo, /^County Subdivisions$/);
+    const localItems: HTMLElement[] = [];
+    const localWhere: string[] = [];
     for (const p of localPlaces) {
+      localItems.push(...seatsFor(p.id).map((s) => officialItem(s.title, s)));
+      localWhere.push(p.name);
       const council = index.councils[p.id];
       if (!council) continue;
-      const d = await councilDistrict(council.lookup, match.coordinates.x, match.coordinates.y);
-      if (d && council.members[d]) {
-        localItems.push(officialItem('City Council Member', council.members[d]));
-        councilName = `City Council District ${d}`;
-      }
+      const d =
+        council.districts === 'census'
+          ? subdivision?.BASENAME
+          : council.districts
+            ? await councilDistrict(council.districts, match.coordinates.x, match.coordinates.y)
+            : undefined;
+      const forDistrict = council.members.filter((m) => d !== undefined && m.district === d);
+      const atLarge = council.members.filter((m) => m.district === null);
+      localItems.push(...[...forDistrict, ...atLarge].map((m) => officialItem(m.title, m)));
+      if (forDistrict[0]?.where) localWhere.push(forDistrict[0].where);
     }
 
     const tiers = $('[data-tiers]');
@@ -245,8 +257,7 @@ const levels = [
       cd && abbr && district ? (district === '0' ? `${abbr} at-large congressional district` : `${abbr}'s ${ordinal(+district)} Congressional District`) : null,
       upper?.NAME,
       fips === '51' ? lower?.NAME?.replace('State House', 'House of Delegates') : lower?.NAME,
-      localPlaces[0]?.name ?? incPlace?.BASENAME,
-      councilName,
+      ...(localWhere.length ? localWhere : [incPlace?.BASENAME]),
     ].filter(Boolean);
     $('[data-districts]').textContent = `${match.matchedAddress}: ${where.join(', ')}`;
     $('[data-coverage]').hidden = !!legislature;

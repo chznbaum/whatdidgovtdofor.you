@@ -6,3 +6,16 @@ geoids: { state: "51", county: "51145" }
 # Agendas and minutes are PDF-only; "Meeting Summary" posts (from Sept. 2026) list each item and its outcome.
 feeds:
   - { type: rss, url: "https://www.powhatanva.gov/RSSFeed.aspx?ModID=1&CID=Board-of-Supervisors-20", recaps: 'Meeting Summary' }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.powhatanva.gov/155/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2026, Nov. 2023), elections.virginia.gov.
+  members:
+    - { district: "1", name: "William Donati, Jr.", party: I, url: "https://powhatanva.gov/m/directory/employee?eid=203" }
+    - { district: "2", name: Steve W. McClung, party: R, url: "https://powhatanva.gov/m/directory/employee?eid=165" }
+    - { district: "3", name: Robert Powers, party: R, url: "https://powhatanva.gov/m/directory/employee?eid=204" }
+    - { district: "4", name: Mark Kinney, party: R, url: "https://powhatanva.gov/m/directory/employee?eid=205" }
+    - { district: "5", name: Barbara Brown, party: I, url: "https://powhatanva.gov/m/directory/employee?eid=242" }

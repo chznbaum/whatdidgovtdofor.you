@@ -7,3 +7,18 @@ geoids: { state: "51", county: "51085" }
 # "Hanover Board Brief" after each meeting lists every item with its outcome.
 feeds:
   - { type: rss, url: "https://www.hanovercounty.gov/RSSFeed.aspx?ModID=1&CID=Hanover-Board-Brief-15", recaps: 'Board Brief' }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.hanovercounty.gov/646/Board-of-Supervisors-Members"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.
+  members:
+    - { district: Ashland, name: Faye O. Prichard, party: D, url: "https://www.hanovercounty.gov/434/Ashland-District" }
+    - { district: Beaverdam, name: Jeff S. Stoneman, party: R, url: "https://www.hanovercounty.gov/435/Beaverdam-District" }
+    - { district: Chickahominy, name: Danielle Grieshaber Floyd, party: R, url: "https://www.hanovercounty.gov/431/Chickahominy-District" }
+    - { district: Cold Harbor, name: F. Michael Herzberg IV, party: R, url: "https://www.hanovercounty.gov/437/Cold-Harbor-District" }
+    - { district: Henry, name: Sean M. Davis, party: R, url: "https://www.hanovercounty.gov/433/Henry-District" }
+    - { district: Mechanicsville, name: Ryan M. Hudson, party: R, url: "https://www.hanovercounty.gov/438/Mechanicsville-District" }
+    - { district: South Anna, name: Susan P. Dibble, party: R, url: "https://www.hanovercounty.gov/439/South-Anna-District" }

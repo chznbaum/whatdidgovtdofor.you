@@ -4,3 +4,16 @@ kind: county
 parent: va
 geoids: { state: "51", county: "51036" }
 # No feed yet: minutes are PDFs in the Agenda Center (charlescityva.us/AgendaCenter/Board-of-Supervisors-6).
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.charlescityva.us/230/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.
+  # On Jan. 1, 2027 a countywide seat joins the board (voters adopted the county board form in April 2026): add Robert
+  # H. Tyler (I), elected Nov. 3, 2026, with no district, so every Charles City address sees him.
+  members:
+    - { district: "1", name: Ryan Patterson, party: I }
+    - { district: "2", name: Michael Hill, party: I }
+    - { district: "3", name: "Byron M. Adkins, Sr.", party: I }

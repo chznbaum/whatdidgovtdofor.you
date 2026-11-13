@@ -6,3 +6,16 @@ geoids: { state: "51", county: "51041" }
 feeds:
   - { type: civicclerk, tenant: chesterfieldcova, category: 26 } # Board of Supervisors; minutes about a month behind
   - { type: rss, url: "https://www.chesterfield.gov/RSSFeed.aspx?ModID=1&CID=Chesterfield-News-1" }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.chesterfield.gov/1218/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2026, Nov. 2023), elections.virginia.gov.
+  members:
+    - { district: Bermuda, name: Jim Ingle, party: R, url: "https://www.chesterfield.gov/1238/Bermuda-District" }
+    - { district: Clover Hill, name: Jessica Schneider, party: D, url: "https://www.chesterfield.gov/1246/Clover-Hill-District" }
+    - { district: Dale, name: LeQuan M. Hylton, party: D, url: "https://www.chesterfield.gov/1244/Dale-District" }
+    - { district: Matoaca, name: Kevin Carroll, party: R, url: "https://www.chesterfield.gov/1242/Matoaca-District" }
+    - { district: Midlothian, name: Mark S. Miller, party: D, url: "https://www.chesterfield.gov/1240/Midlothian-District" }

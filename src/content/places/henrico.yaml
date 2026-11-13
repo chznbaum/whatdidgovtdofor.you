@@ -7,3 +7,16 @@ geoids: { state: "51", county: "51087" }
 # which name movers and votes, are PDF-only (henrico.gov/supervisors/supervisors-agenda-o-gram/).
 feeds:
   - { type: wordpress, url: "https://henrico.gov", recaps: '\brecap\b' }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://henrico.gov/supervisors/"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.
+  members:
+    - { district: Brookland, name: Daniel J. Schmitt, party: R, url: "https://henrico.gov/supervisors/brookland-district/" }
+    - { district: Fairfield, name: Roscoe D. Cooper III, party: D, url: "https://henrico.gov/supervisors/fairfield-district/" }
+    - { district: Three Chopt, name: Misty D. Roundtree, party: D, url: "https://henrico.gov/supervisors/three-chopt-district/" }
+    - { district: Tuckahoe, name: Jody K. Rogish, party: D, url: "https://henrico.gov/supervisors/tuckahoe-district/" }
+    - { district: Varina, name: Tyrone E. Nelson, party: D, url: "https://henrico.gov/supervisors/varina-district/" }

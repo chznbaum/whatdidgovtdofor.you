@@ -4,22 +4,21 @@ import { getCollection } from 'astro:content';
 import federal from '../data/roster/federal.json';
 import stateVa from '../data/roster/state-va.json';
 import stateNy from '../data/roster/state-ny.json';
-import nycCouncil from '../data/roster/nyc-council.json';
 import { entryPlaceIds, getEntries } from '../lib/data.ts';
+
+// Synced council rosters a place can name instead of listing its members (see `council.roster` in the place schema).
+type RosterMember = { district?: string; name: string; party: string; role?: string; url?: string };
+const rosters = Object.fromEntries(
+  Object.entries(import.meta.glob<{ members: RosterMember[] }>('../data/roster/*.json', { eager: true, import: 'default' })).map(
+    ([path, data]) => [path.match(/([^/]+)\.json$/)![1], data.members],
+  ),
+);
 
 // Census geocoder settings. ACS2025_Current carries the 119th Congress and the 2024 state legislative maps;
 // switch to ACS2026_Current (120th Congress) when the new Congress is seated in January 2027.
 const GEOCODER = {
   benchmark: 'Public_AR_Current',
   vintage: 'ACS2025_Current',
-};
-
-// Point-in-polygon services for council districts the Census doesn't publish (must send CORS headers).
-const COUNCIL_LOOKUP = {
-  nyc: {
-    url: 'https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/NYC_City_Council_Districts/FeatureServer/0/query',
-    field: 'CounDist',
-  },
 };
 
 // State legislatures we cover, keyed by state FIPS code.
@@ -96,24 +95,46 @@ export const GET: APIRoute = async () => {
     }),
   );
 
-  // City councils with district lookups. NYC districts come from an ArcGIS point query in the browser.
-  const councils = {
-    nyc: {
-      lookup: COUNCIL_LOOKUP.nyc,
-      members: Object.fromEntries(
-        nycCouncil.members.map((m) => [
-          m.district,
-          person(m.name, m.party, `New York City Council, District ${m.district}`, findOfficial('local', m.name, 'nyc'), m.url),
-        ]),
-      ),
-    },
-  };
+  const allPlaces = await getCollection('places');
+
+  // Councils and boards, by place. The browser finds the address's district (from the geocoder's County Subdivisions
+  // or an ArcGIS point query) and shows that district's members plus any at-large ones. Numbered districts get the
+  // body's name ("City Council District 6"); named ones stand alone ("Brookland District").
+  const councils = Object.fromEntries(
+    allPlaces
+      .filter((p) => p.data.council)
+      .map((p) => {
+        const c = p.data.council!;
+        const named = (d: string) => (/^\d+$/.test(d) ? `District ${d}` : `${d} District`);
+        const members = c.roster ? rosters[c.roster] : c.members;
+        if (!members) throw new Error(`${p.id}: no roster named "${c.roster}" in src/data/roster/`);
+        return [
+          p.id,
+          {
+            districts: c.districts === 'census' ? 'census' : c.districts ? { url: c.districts.arcgis, field: c.districts.field } : null,
+            members: members.map((m) => {
+              const role = m.role ?? c.title;
+              const title = m.district ? `${role}, ${named(m.district)}` : role;
+              // Someone the site already credits keeps the name their page uses ("Andrew Breton", not "Andrew S. Breton").
+              const id = findOfficial('local', m.name, p.id);
+              const name = officials.find((o) => o.id === id)?.data.name ?? m.name;
+              return {
+                district: m.district ?? null,
+                title,
+                where: m.district ? (/^\d+$/.test(m.district) ? `${c.body} ${named(m.district)}` : named(m.district)) : null,
+                ...person(name, m.party, title, id, m.url ?? c.url),
+              };
+            }),
+          },
+        ];
+      }),
+  );
 
   const seats = officials
     .filter((o) => o.data.current && o.data.seat)
     .map((o) => ({ place: o.data.seat!.place.id, title: o.data.seat!.title, ...person(o.data.name, o.data.party ?? '', o.data.office, o.id) }));
 
-  const places = (await getCollection('places')).map((p) => ({
+  const places = allPlaces.map((p) => ({
     id: p.id,
     name: p.data.name,
     kind: p.data.kind,

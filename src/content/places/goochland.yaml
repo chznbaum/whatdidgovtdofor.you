@@ -6,3 +6,16 @@ geoids: { state: "51", county: "51075" }
 # Meetings moved from Granicus IQM2 to CivicClerk on July 1, 2026; earlier ones aren't read yet.
 feeds:
   - { type: civicclerk, tenant: goochlandcova, category: 26 }
+council:
+  body: Board of Supervisors
+  title: Supervisor
+  districts: census
+  url: "https://www.goochlandva.us/158/Board-of-Supervisors"
+  checked: 2026-11-13
+  # Parties: the Department of Elections' candidate lists (Nov. 2023), elections.virginia.gov.
+  members:
+    - { district: "1", name: Jonathan Christy, party: R }
+    - { district: "2", name: Neil Spoonhower, party: R }
+    - { district: "3", name: Tom Winfree, party: R }
+    - { district: "4", name: Charlie Vaughters, party: R }
+    - { district: "5", name: Jonathan Lyle, party: I }

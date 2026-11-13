@@ -6,3 +6,22 @@ geoids: { state: "51", county: "51760" }
 feeds:
   - { type: legistar, client: richmondva, types: [Ordinance, Resolution], sponsors: true, text: true }
   - { type: rss, url: "https://www.rva.gov/rss.xml" }
+council:
+  body: City Council
+  title: Council Member
+  districts:
+    arcgis: "https://services1.arcgis.com/k3vhq11XkBNeeOfM/arcgis/rest/services/CouncilDistricts/FeatureServer/0"
+    field: Name
+  url: "https://www.rva.gov/richmond-city-council/council-contacts"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (city charter § 3.01).
+  members:
+    - { district: "1", name: Andrew S. Breton, party: NP }
+    - { district: "2", name: Katherine L. Jordan, party: NP }
+    - { district: "3", name: Kenya J. Gibson, party: NP }
+    - { district: "4", name: Sarah M.A. Abubaker, party: NP }
+    - { district: "5", name: Stephanie A. Lynch, party: NP }
+    - { district: "6", name: Ellen F. Robertson, party: NP }
+    - { district: "7", name: Cynthia I. Newbille, party: NP }
+    - { district: "8", name: Reva M. Trammell, party: NP }
+    - { district: "9", name: Nicole Jones, party: NP }

@@ -207,6 +207,32 @@ const placeFeedSchema = z.discriminatedUnion('type', [
   }),
 ]);
 
+// The elected body that runs a place, so the address lookup can name a reader's own member. Members with a `district`
+// are shown to addresses in it; members without one sit at large and are shown to everyone in the place. Rosters are
+// copied by hand from the government's roster page (`url`, `checked`); New York City's is synced instead (`roster`).
+const councilSchema = z.object({
+  body: z.string(), // "City Council", "Board of Supervisors"
+  title: z.string(), // a member's title: "Council Member", "Supervisor"
+  // How an address finds its district. `census`: the geocoder's County Subdivisions layer, whose BASENAME is a
+  // Virginia county's magisterial district ("Brookland", "2"). Otherwise a point query on an ArcGIS layer that sends
+  // CORS headers, read from `field`. Omit when every member is elected at large.
+  districts: z.union([z.literal('census'), z.object({ arcgis: z.url(), field: z.string() })]).optional(),
+  url: z.url().optional(),
+  checked: date.optional(),
+  roster: z.string().optional(), // a synced file in src/data/roster/, e.g. nyc-council
+  members: z
+    .array(
+      z.object({
+        name: z.string(),
+        party: z.enum(PARTIES),
+        district: z.string().optional(),
+        role: z.string().optional(), // a title that replaces `title`, e.g. "Mayor" for a council-elected mayor
+        url: z.url().optional(),
+      }),
+    )
+    .default([]),
+});
+
 export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) =>
   z.object({
     name: z.string(),
@@ -220,6 +246,7 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),
     feeds: z.array(placeFeedSchema).default([]),
+    council: councilSchema.optional(),
   });
 
 // Ways into government (src/data/get-involved.json, described in src/data/get-involved.schema.md): groups that help
