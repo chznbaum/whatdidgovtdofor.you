@@ -2,10 +2,14 @@
 import Base from '../layouts/Base.astro';
 import AddressForm from '../components/AddressForm.astro';
 import ActionList from '../components/ActionList.astro';
+import { getCollection } from 'astro:content';
 import { getEntries } from '../lib/data.ts';
 
 // Every sign is rendered here, hidden; the script below reveals the ones that apply to the address.
 const entries = await getEntries();
+// The states we cover, for the note an address elsewhere gets: "New York and Virginia", "Minnesota, New York and Virginia".
+const states = (await getCollection('places', (p) => p.data.kind === 'state')).map((p) => p.data.name).sort();
+const covered = states.length > 1 ? `${states.slice(0, -1).join(', ')} and ${states.at(-1)}` : states[0];
 const levels = [
   { level: 'local', title: 'From your local government' },
   { level: 'state', title: 'From your state' },
@@ -29,7 +33,7 @@ const levels = [
       <p class="districts" data-districts></p>
       <div class="tiers" data-tiers></div>
       <p class="coverage" data-coverage hidden>
-        We cover national actions everywhere, and state and local actions in New York and Virginia so far.
+        We cover national actions everywhere, and state and local actions in {covered} so far.
         <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add your area</a>.
       </p>
       <p class="coverage" data-local-coverage hidden>
