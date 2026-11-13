@@ -139,8 +139,10 @@ const levels = [
 
   // "Ward 2", "Chuckatuck Borough", "Brookland District".
   const districtName = (d: string, label: string) => (/^\d+$/.test(d) ? `${label} ${d}` : `${d} ${label}`);
-  // Layers spell districts their own way ("CLOVERHILL", "HOLY NECK"), so compare letters and digits only.
-  const sameDistrict = (a: string, b: string) => a.toLowerCase().replace(/[^a-z0-9]/g, '') === b.toLowerCase().replace(/[^a-z0-9]/g, '');
+  // Layers spell districts their own way ("CLOVERHILL", "HOLY NECK", "02"), so compare letters and digits only, without
+  // leading zeros.
+  const plain = (d: string) => d.toLowerCase().replace(/[^a-z0-9]/g, '').replace(/^0+(?=\d)/, '');
+  const sameDistrict = (a: string, b: string) => plain(a) === plain(b);
 
   const layer = (geo: Geo, test: RegExp) => Object.entries(geo).find(([k, v]) => test.test(k) && v.length)?.[1][0];
   const ordinal = (n: number) => {
