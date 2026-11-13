@@ -3,9 +3,12 @@ short: Norfolk
 kind: city
 parent: va
 geoids: { state: "51", county: "51710" }
-# Norfolk's Legistar client ("norfolkva") exists but is empty (checked 2026-11-05).
+# Norfolk's Legistar client ("norfolkva") exists but is empty (checked 2026-11-05). Council minutes (every ordinance
+# and resolution with its roll call) reach the Agenda Center about two weeks after a meeting. News comes from the home
+# page's feed: the all-news feed is mostly police items.
 feeds:
-  - { type: rss, url: "https://www.norfolk.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+  - { type: agendacenter, url: "https://www.norfolk.gov", category: 25, file: minutes }
+  - { type: rss, url: "https://www.norfolk.gov/RSSFeed.aspx?ModID=1&CID=News-Home-page-1" }
 council:
   body: City Council
   title: Council Member

@@ -48,14 +48,17 @@ export type FeedResult = {
 
 // Run feeds in parallel; one failing (or missing its key) never sinks the rest.
 export async function runFeeds(opts: FeedOptions, only: Feed[] = feeds): Promise<FeedResult[]> {
+  const known = opts.known ?? new Set((await readCandidates()).map((c) => c.key));
   return Promise.all(
     only.map(async (feed): Promise<FeedResult> => {
       if (feed.needsKey && !process.env[feed.needsKey]) {
         console.warn(`[${feed.id}] skipped: set ${feed.needsKey} to enable`);
         return { feed, status: 'skipped', candidates: [], dropped: [] };
       }
+      const back = feed.lookback ? localDate(new Date(Date.now() - feed.lookback * 864e5)) : opts.since;
+      const since = back < opts.since ? back : opts.since;
       try {
-        const all = (await feed.fetch(opts)).filter((c) => c.date >= opts.since);
+        const all = (await feed.fetch({ ...opts, since, known })).filter((c) => c.date >= since);
         const dropped = all.filter((c) => ceremonialReason(c));
         return { feed, status: 'ok', candidates: all.filter((c) => !ceremonialReason(c)), dropped };
       } catch (e) {
@@ -83,11 +86,14 @@ const STATE = new URL('../state/candidates.json', import.meta.url);
 const defined = <T extends object>(o: T): Partial<T> =>
   Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined)) as Partial<T>;
 
-// Merge fresh candidates into candidates.json by key; keeps fields added downstream and `seen`.
-export async function saveCandidates(fresh: Candidate[]): Promise<{ total: number; added: number }> {
-  const existing: Candidate[] = await readFile(STATE, 'utf8')
+const readCandidates = (): Promise<Candidate[]> =>
+  readFile(STATE, 'utf8')
     .then((text) => JSON.parse(text))
     .catch(() => []);
+
+// Merge fresh candidates into candidates.json by key; keeps fields added downstream and `seen`.
+export async function saveCandidates(fresh: Candidate[]): Promise<{ total: number; added: number }> {
+  const existing = await readCandidates();
   const merged = new Map(existing.map((c) => [c.key, c]));
   const seen = today();
   let added = 0;

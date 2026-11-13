@@ -3,6 +3,10 @@ short: Poquoson
 kind: city
 parent: va
 geoids: { state: "51", county: "51735" }
+# Council minutes, with movers and recorded votes, reach the Agenda Center about two weeks after a meeting. The city
+# posts almost no news.
+feeds:
+  - { type: agendacenter, url: "https://www.poquoson-va.gov", category: 2, file: minutes }
 council:
   body: City Council
   title: Council Member

@@ -1,6 +1,7 @@
 // Generic adapter for CivicClerk (https://<tenant>.api.civicclerk.com, OData, no key). Its agenda items carry no
 // outcomes, so each meeting's published minutes, as plain text, become one recap candidate, split into actions
-// before triage. Minutes appear about a month after a meeting; a run picks them up once they're posted.
+// before triage. Minutes appear one to three months after a meeting, so the feed looks back four months and downloads
+// only minutes it doesn't have yet.
 import type { Candidate, Feed } from './types.ts';
 import { getJson, getText, localDate, mapLimit, newest, truncate } from './util.ts';
 
@@ -18,7 +19,8 @@ export function civicClerkFeed(o: CivicClerkOptions): Feed {
   return {
     id: o.id,
     description: o.description,
-    async fetch({ since, limit }) {
+    lookback: 120,
+    async fetch({ since, limit, known }) {
       const events: any[] = [];
       let url: string | undefined = `${api}/Events?${new URLSearchParams({
         $filter: `categoryId eq ${o.category} and startDateTime ge ${since}T00:00:00Z`,
@@ -33,7 +35,7 @@ export function civicClerkFeed(o: CivicClerkOptions): Feed {
       for (const e of events) {
         const minutes = (e.publishedFiles ?? []).find((f: any) => /minutes/i.test(f.type ?? ''));
         const date = localDate(new Date(e.startDateTime));
-        if (!minutes || date < since) continue;
+        if (!minutes || date < since || known?.has(`${o.id}-${e.id}`)) continue;
         out.push({
           key: `${o.id}-${e.id}`,
           feed: o.id,

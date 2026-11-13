@@ -6,13 +6,12 @@
 //   node pipeline/backfill-iqm2.ts backfill --site https://goochlandcountyva.iqm2.com --place goochland --before 2026-07-01 [--since 2019-01-01] [--board "Board of Supervisors"]
 //   node pipeline/backfill-iqm2.ts probe --site https://goochlandcountyva.iqm2.com --path /Citizens/Default.aspx
 import './lib/env.ts';
-import { execFile } from 'node:child_process';
-import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { parseArgs, promisify } from 'node:util';
+import { parseArgs } from 'node:util';
 import { saveCandidates } from './feeds/index.ts';
-import { decodeEntities, get, getTextIfExists, longDate, truncate } from './feeds/util.ts';
+import { decodeEntities, get, getTextIfExists, longDate, pdfText, truncate } from './feeds/util.ts';
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
@@ -74,17 +73,6 @@ async function meetings(since: string, before: string) {
     }
   }
   return out;
-}
-
-async function pdfText(bytes: Buffer): Promise<string> {
-  const dir = await mkdtemp(join(tmpdir(), 'iqm2-'));
-  try {
-    await writeFile(join(dir, 'minutes.pdf'), bytes);
-    const { stdout } = await promisify(execFile)('pdftotext', ['-layout', join(dir, 'minutes.pdf'), '-'], { maxBuffer: 64 * 1024 * 1024 });
-    return stdout;
-  } finally {
-    await rm(dir, { recursive: true, force: true });
-  }
 }
 
 switch (positionals[0]) {

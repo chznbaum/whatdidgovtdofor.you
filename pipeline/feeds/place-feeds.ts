@@ -2,6 +2,7 @@
 // src/lib/schema.ts), and this turns them into adapters. Bespoke national and state feeds stay in code.
 import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
+import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
@@ -58,6 +59,18 @@ export async function placeFeeds(): Promise<Feed[]> {
               description: `${p.name}: meeting minutes (CivicClerk)`,
               tenant: f.tenant,
               category: f.category,
+              place,
+            }),
+          );
+          break;
+        case 'agendacenter':
+          out.push(
+            agendaCenterFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: meeting ${f.file === 'minutes' ? 'minutes' : 'action agendas'} (CivicPlus Agenda Center)`,
+              origin: f.url,
+              category: f.category,
+              file: f.file,
               place,
             }),
           );

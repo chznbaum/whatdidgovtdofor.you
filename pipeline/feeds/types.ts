@@ -18,11 +18,18 @@ export type Candidate = {
   seen?: string; // YYYY-MM-DD the candidate first landed in pipeline/state/candidates.json
 };
 
-export type FeedOptions = { since: string /* YYYY-MM-DD */; limit?: number };
+export type FeedOptions = {
+  since: string; // YYYY-MM-DD
+  limit?: number;
+  known?: Set<string>; // keys already in candidates.json, so a feed can skip downloading what it has
+};
 
 export type Feed = {
   id: string;
   description: string;
   needsKey?: string;
+  // Minutes are posted weeks after the meeting they're dated by, so a feed of them looks back at least this many days
+  // whatever `since` a run asks for.
+  lookback?: number;
   fetch(opts: FeedOptions): Promise<Candidate[]>;
 };

@@ -205,6 +205,13 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     tenant: z.string(), // <tenant>.api.civicclerk.com
     category: z.number().int(), // the governing body's event category
   }),
+  z.object({
+    type: z.literal('agendacenter'), // a CivicPlus Agenda Center: each meeting's minutes (or marked-up agenda) is a recap
+    id: z.string().optional(),
+    url: z.url(), // the site's origin, e.g. https://www.norfolk.gov
+    category: z.number().int(), // the body's category id (/AgendaCenter/City-Council-Agendas-25 is 25)
+    file: z.enum(['minutes', 'agenda']), // `agenda` where the clerk adds every item's outcome to the agenda after the meeting
+  }),
 ]);
 
 // A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.

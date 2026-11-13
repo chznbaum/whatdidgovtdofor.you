@@ -1,4 +1,9 @@
-// Helpers shared by feeds: HTTP with timeouts, HTML/RSS cleanup, and date parsing.
+// Helpers shared by feeds: HTTP with timeouts, PDF text, HTML/RSS cleanup, and date parsing.
+import { execFile } from 'node:child_process';
+import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { promisify } from 'node:util';
 import type { Candidate } from './types.ts';
 
 const USER_AGENT = 'Mozilla/5.0 (compatible; whatdidgovtdofor.you-feeds; +https://whatdidgovtdofor.you)';
@@ -28,6 +33,21 @@ export async function getTextIfExists(url: string): Promise<string | null> {
     throw e;
   }
 }
+
+// A PDF's text, laid out as on the page, via poppler's pdftotext (brew install poppler). Scans without a text layer
+// come back empty.
+export async function pdfText(bytes: Uint8Array): Promise<string> {
+  const dir = await mkdtemp(join(tmpdir(), 'feed-pdf-'));
+  try {
+    await writeFile(join(dir, 'file.pdf'), bytes);
+    const { stdout } = await promisify(execFile)('pdftotext', ['-layout', join(dir, 'file.pdf'), '-'], { maxBuffer: 64 * 1024 * 1024 });
+    return stdout;
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+}
+
+export const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // Run `fn` over `items` with at most `n` in flight.
 export async function mapLimit<T, R>(items: T[], n: number, fn: (item: T) => Promise<R>): Promise<R[]> {

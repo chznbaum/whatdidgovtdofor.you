@@ -3,7 +3,9 @@ short: Charles City
 kind: county
 parent: va
 geoids: { state: "51", county: "51036" }
-# No feed yet: minutes are PDFs in the Agenda Center (charlescityva.us/AgendaCenter/Board-of-Supervisors-6).
+# Board minutes, with movers and roll calls, reach the Agenda Center one to three months after a meeting.
+feeds:
+  - { type: agendacenter, url: "https://www.charlescityva.us", category: 6, file: minutes }
 council:
   body: Board of Supervisors
   title: Supervisor

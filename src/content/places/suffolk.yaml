@@ -3,7 +3,10 @@ short: Suffolk
 kind: city
 parent: va
 geoids: { state: "51", county: "51800" }
+# A day or two after each meeting the clerk replaces the agenda with an action agenda, every item marked with its
+# outcome and tally; the minutes, with movers, follow about two months later.
 feeds:
+  - { type: agendacenter, url: "https://www.suffolkva.us", category: 11, file: agenda }
   - { type: rss, url: "https://www.suffolkva.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
 council:
   body: City Council
