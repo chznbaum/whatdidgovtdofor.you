@@ -125215,5 +125215,340 @@
   "reason": "triage: Vague mobile home code change, no benefit shown",
   "impact": 1,
   "date": "2026-11-13"
+ },
+ "portsmouth-council-fc1b79cd-4263-4a5f-ae14-8dfb2733284e": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d": {
+  "decision": "skip",
+  "reason": "split into 10 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1": {
+  "decision": "skip",
+  "reason": "split into 12 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-c04dea62-146b-4631-9e3c-5c41f1e58cee": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167a": {
+  "decision": "skip",
+  "reason": "triage: Donated equipment; government-internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167b": {
+  "decision": "skip",
+  "reason": "triage: Small grant acceptance; vague service",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167c": {
+  "decision": "skip",
+  "reason": "triage: Planning grant; administrative",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167d": {
+  "decision": "skip",
+  "reason": "triage: Payroll procedure; internal to government",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167e": {
+  "decision": "skip",
+  "reason": "triage: Tiny opioid fund appropriation",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-167f": {
+  "decision": "skip",
+  "reason": "triage: Tiny PFAS settlement appropriation",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-c04dea62-146b-4631-9e3c-5c41f1e58cee-26-121-a": {
+  "decision": "skip",
+  "reason": "triage: Higher taxes on blighted property; no direct benefit shown",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-c04dea62-146b-4631-9e3c-5c41f1e58cee-26-121-f": {
+  "decision": "skip",
+  "reason": "triage: Parking fee changes; unclear, may raise costs",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-c04dea62-146b-4631-9e3c-5c41f1e58cee-26-152-a": {
+  "decision": "skip",
+  "reason": "triage: Rehab tax credit rule tweak; benefits owners",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-c04dea62-146b-4631-9e3c-5c41f1e58cee-26-152-b": {
+  "decision": "skip",
+  "reason": "triage: Small state grant for peer recovery supports",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-a": {
+  "decision": "skip",
+  "reason": "triage: $500, tiny",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-b": {
+  "decision": "skip",
+  "reason": "triage: $1,500 incentive, tiny",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-c": {
+  "decision": "skip",
+  "reason": "triage: $2,197 training/travel funds",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-d": {
+  "decision": "skip",
+  "reason": "triage: reimbursement for court evaluations, narrow",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-e": {
+  "decision": "promising",
+  "reason": "triage: HUD-funded housing for chronically homeless",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-f": {
+  "decision": "skip",
+  "reason": "triage: utility easement, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-26-259-g": {
+  "decision": "skip",
+  "reason": "triage: legislative wish lists, no enacted effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-up-26-10": {
+  "decision": "skip",
+  "reason": "triage: private 16-unit permit, not affordable",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-up-26-11": {
+  "decision": "skip",
+  "reason": "triage: billboard LED sign permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-19246275-250e-47bc-aafb-dc7ac2bf955d-up-26-12": {
+  "decision": "skip",
+  "reason": "triage: warehouse permit for a business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-fc1b79cd-4263-4a5f-ae14-8dfb2733284e-26-244-consent-item-a": {
+  "decision": "skip",
+  "reason": "triage: small homeland security grant, government-facing",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-fc1b79cd-4263-4a5f-ae14-8dfb2733284e-26-244-consent-item-b": {
+  "decision": "skip",
+  "reason": "triage: emergency management admin grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233a": {
+  "decision": "skip",
+  "reason": "triage: returns one person's tax-sale funds",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233b": {
+  "decision": "skip",
+  "reason": "triage: bonus for elected officers' staff, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233c": {
+  "decision": "skip",
+  "reason": "triage: $5,375, tiny",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233d": {
+  "decision": "promising",
+  "reason": "triage: federal funds for free summer meals for kids",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233e": {
+  "decision": "skip",
+  "reason": "triage: fire dept aid, mostly internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233f": {
+  "decision": "skip",
+  "reason": "triage: police grant, unclear worker benefit",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233g": {
+  "decision": "promising",
+  "reason": "triage: pump station rehab, defense-funded sewer infrastructure",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233h": {
+  "decision": "skip",
+  "reason": "triage: small traffic grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233i": {
+  "decision": "skip",
+  "reason": "triage: small DUI enforcement grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233j": {
+  "decision": "skip",
+  "reason": "triage: grant application support only",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233k": {
+  "decision": "promising",
+  "reason": "triage: living shoreline park grant, modest",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233l": {
+  "decision": "skip",
+  "reason": "triage: plan affirmation, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-206-up-26-08": {
+  "decision": "skip",
+  "reason": "triage: banquet hall permit for a business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220a": {
+  "decision": "skip",
+  "reason": "triage: vests for police, government-facing",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220b": {
+  "decision": "promising",
+  "reason": "triage: $5.2M FEMA flood dam resilience funds",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220c": {
+  "decision": "promising",
+  "reason": "triage: $500K opioid treatment aid funded",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220d": {
+  "decision": "skip",
+  "reason": "triage: small homeless outreach funds",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220e": {
+  "decision": "promising",
+  "reason": "triage: funded youth substance prevention program",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220f": {
+  "decision": "skip",
+  "reason": "triage: strategy adoption, plan not funded action",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220g": {
+  "decision": "skip",
+  "reason": "triage: utility easement, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220h": {
+  "decision": "skip",
+  "reason": "triage: request to legislature, eliminates oversight body",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-221": {
+  "decision": "promising",
+  "reason": "triage: enacted collective bargaining for city workers",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207a": {
+  "decision": "skip",
+  "reason": "triage: small HOME income appropriation, vague",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207b": {
+  "decision": "skip",
+  "reason": "triage: one-time bonus for city employees, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207c": {
+  "decision": "skip",
+  "reason": "triage: $5,000, tiny",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207d": {
+  "decision": "promising",
+  "reason": "triage: $140K funds recovery court",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207e": {
+  "decision": "skip",
+  "reason": "triage: $50K vague disability support",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "portsmouth-council-973d6bf3-1372-4a2e-b9c9-75867b6951b9-26-166-up-26-03": {
+  "decision": "skip",
+  "reason": "triage: large housing permit; affordability unknown, private developer",
+  "impact": 2,
+  "date": "2026-11-13"
  }
 }
