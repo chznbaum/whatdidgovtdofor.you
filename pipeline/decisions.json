@@ -123978,5 +123978,1242 @@
   "reason": "triage: bond refunding, government finance",
   "impact": 1,
   "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672": {
+  "decision": "skip",
+  "reason": "split into 15 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206": {
+  "decision": "skip",
+  "reason": "split into 17 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948": {
+  "decision": "skip",
+  "reason": "split into 17 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173": {
+  "decision": "skip",
+  "reason": "split into 13 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678": {
+  "decision": "skip",
+  "reason": "split into 15 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841": {
+  "decision": "skip",
+  "reason": "split into 6 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144": {
+  "decision": "skip",
+  "reason": "split into 22 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799": {
+  "decision": "skip",
+  "reason": "split into 31 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51789294": {
+  "decision": "skip",
+  "reason": "split into 4 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183": {
+  "decision": "skip",
+  "reason": "split into 33 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460": {
+  "decision": "skip",
+  "reason": "split into 24 approved actions",
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-9": {
+  "decision": "skip",
+  "reason": "triage: Small equipment grant for fire rescue team",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-1": {
+  "decision": "skip",
+  "reason": "triage: Single-lot variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-10": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit, benefits owners",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-2": {
+  "decision": "skip",
+  "reason": "triage: Private rezoning for one development; affordability unstated",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-3": {
+  "decision": "skip",
+  "reason": "triage: Private permit modification",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-5": {
+  "decision": "skip",
+  "reason": "triage: Private kennel permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-6": {
+  "decision": "skip",
+  "reason": "triage: Commercial marina permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-7": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-k-8": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-1": {
+  "decision": "skip",
+  "reason": "triage: Business lease, benefits one tenant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-2": {
+  "decision": "skip",
+  "reason": "triage: Business lease, benefits one tenant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-3": {
+  "decision": "skip",
+  "reason": "triage: Private waterfront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-4": {
+  "decision": "skip",
+  "reason": "triage: Routine budget carry-forward",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-5": {
+  "decision": "skip",
+  "reason": "triage: Small youth sports grant",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-6": {
+  "decision": "promising",
+  "reason": "triage: State-funded mental health and substance services appropriation; modest",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-7": {
+  "decision": "skip",
+  "reason": "triage: Vague school budget amendment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-k-8": {
+  "decision": "skip",
+  "reason": "triage: Pass-through to development authority for entertainment project",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-1": {
+  "decision": "skip",
+  "reason": "triage: Church permit modification",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-2": {
+  "decision": "skip",
+  "reason": "triage: Single-home variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-3": {
+  "decision": "skip",
+  "reason": "triage: One duplex rezoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-4": {
+  "decision": "skip",
+  "reason": "triage: Single adult daycare permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-5": {
+  "decision": "skip",
+  "reason": "triage: Church permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-6": {
+  "decision": "skip",
+  "reason": "triage: Single childcare center permit",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51857678-l-7": {
+  "decision": "skip",
+  "reason": "triage: Parking rule for short-term rentals, unclear benefit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-1": {
+  "decision": "promising",
+  "reason": "triage: Workforce housing code; likely paired with zoning, writer should verify details",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-2": {
+  "decision": "skip",
+  "reason": "triage: Development authority financing, government finance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-3": {
+  "decision": "skip",
+  "reason": "triage: Data center moratorium, indirect effect on workers",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-4": {
+  "decision": "skip",
+  "reason": "triage: Private easement encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-5": {
+  "decision": "skip",
+  "reason": "triage: Mural, no tangible worker benefit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-1-6": {
+  "decision": "skip",
+  "reason": "triage: Police equipment grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-1": {
+  "decision": "skip",
+  "reason": "triage: Private street closure",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-2": {
+  "decision": "skip",
+  "reason": "triage: Developer street closure",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-3": {
+  "decision": "skip",
+  "reason": "triage: Developer permit modification for senior living",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-4": {
+  "decision": "skip",
+  "reason": "triage: Business storage yard permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-5": {
+  "decision": "skip",
+  "reason": "triage: Business mini-warehouse permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-6": {
+  "decision": "skip",
+  "reason": "triage: Business permits",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836173-j-7": {
+  "decision": "promising",
+  "reason": "triage: Workforce housing zoning ordinance; pairs with code change, writer should verify",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-approved-conditional-use-permit-for-child-day-care-at-804-ga": {
+  "decision": "skip",
+  "reason": "triage: One YMCA child care site permit",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-1": {
+  "decision": "skip",
+  "reason": "triage: Land sale to developer, redevelopment unclear benefit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-10": {
+  "decision": "skip",
+  "reason": "triage: Internal reimbursement to city vehicle program",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-1": {
+  "decision": "skip",
+  "reason": "triage: Easement vacation, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-10": {
+  "decision": "skip",
+  "reason": "triage: Government equipment/training aid",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-11": {
+  "decision": "skip",
+  "reason": "triage: Tiny homeless grant, administrative",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-2": {
+  "decision": "skip",
+  "reason": "triage: Land preservation easement, little worker effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-4": {
+  "decision": "skip",
+  "reason": "triage: Easement acceptance, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-5": {
+  "decision": "skip",
+  "reason": "triage: Funds a rescue team, government-internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-6": {
+  "decision": "skip",
+  "reason": "triage: Grant funds nine firefighter jobs, narrow",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-7": {
+  "decision": "skip",
+  "reason": "triage: Tennis court renovations, minor",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-8": {
+  "decision": "skip",
+  "reason": "triage: Police software and equipment, internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-k-9": {
+  "decision": "skip",
+  "reason": "triage: Church restoration pass-through",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-1": {
+  "decision": "skip",
+  "reason": "triage: Subdivision variance, private",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-2": {
+  "decision": "skip",
+  "reason": "triage: Alley closure for a private lot",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-3": {
+  "decision": "skip",
+  "reason": "triage: Alley closure for a private lot",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-4": {
+  "decision": "skip",
+  "reason": "triage: Street closure for a private lot",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-7": {
+  "decision": "skip",
+  "reason": "triage: Market-rate rezoning, no affordability shown",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-8": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit for business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51893948-l-9": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit for investor",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-1": {
+  "decision": "skip",
+  "reason": "triage: Temporary encroachment, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-10": {
+  "decision": "skip",
+  "reason": "triage: Internal fund transfer closing project",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-2": {
+  "decision": "skip",
+  "reason": "triage: Withdrawn resolution, no action",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-3": {
+  "decision": "skip",
+  "reason": "triage: Deadline extension for a business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-5": {
+  "decision": "skip",
+  "reason": "triage: Court clerk technology, government-internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-6": {
+  "decision": "skip",
+  "reason": "triage: Small dredging appropriation, special district",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-7": {
+  "decision": "skip",
+  "reason": "triage: Small preschool access grant, vague",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-8": {
+  "decision": "skip",
+  "reason": "triage: Small speed enforcement grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-k-9": {
+  "decision": "skip",
+  "reason": "triage: Small DUI enforcement grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-1": {
+  "decision": "skip",
+  "reason": "triage: Private three-lot rezoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-2": {
+  "decision": "skip",
+  "reason": "triage: Church field house permit change",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-4": {
+  "decision": "skip",
+  "reason": "triage: Business storage yard permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-5": {
+  "decision": "skip",
+  "reason": "triage: Private gym permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-6": {
+  "decision": "skip",
+  "reason": "triage: Nightclub permit for business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51873672-l-7": {
+  "decision": "skip",
+  "reason": "triage: Private recreation facility permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-1": {
+  "decision": "skip",
+  "reason": "triage: Land preservation easement purchase",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-10": {
+  "decision": "skip",
+  "reason": "triage: Event sponsorship, not tangible",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-3": {
+  "decision": "skip",
+  "reason": "triage: Referral only, not enacted",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-4": {
+  "decision": "skip",
+  "reason": "triage: Sign code, no worker effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-5": {
+  "decision": "promising",
+  "reason": "triage: $7M funded for road repaving residents use",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-6": {
+  "decision": "promising",
+  "reason": "triage: Funded gun violence prevention programs",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-7": {
+  "decision": "skip",
+  "reason": "triage: Reimbursement to city for easement",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51866206-j-8": {
+  "decision": "skip",
+  "reason": "triage: IT modernization, government-internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-11": {
+  "decision": "skip",
+  "reason": "triage: tiny state grant, prevention program",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-12": {
+  "decision": "skip",
+  "reason": "triage: historic nomination grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-13": {
+  "decision": "skip",
+  "reason": "triage: registrar salary adjustment, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-2": {
+  "decision": "skip",
+  "reason": "triage: internal city/school revenue policy",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-4": {
+  "decision": "promising",
+  "reason": "triage: possible affordable housing bonds; writer checks",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-5": {
+  "decision": "skip",
+  "reason": "triage: cell tower lease, routine",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-6": {
+  "decision": "skip",
+  "reason": "triage: private sign encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-7": {
+  "decision": "skip",
+  "reason": "triage: donation to another government",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-8": {
+  "decision": "skip",
+  "reason": "triage: narrow pilot, small group",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-k-9": {
+  "decision": "skip",
+  "reason": "triage: equipment purchase, minor",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-10": {
+  "decision": "skip",
+  "reason": "triage: private short term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-12": {
+  "decision": "skip",
+  "reason": "triage: mini-warehouse zoning, business",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-2": {
+  "decision": "skip",
+  "reason": "triage: private garage permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-3": {
+  "decision": "skip",
+  "reason": "triage: private retail rezoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-4": {
+  "decision": "skip",
+  "reason": "triage: private retail rezoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-6": {
+  "decision": "skip",
+  "reason": "triage: private business permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-7": {
+  "decision": "skip",
+  "reason": "triage: private permit, narrow",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-8": {
+  "decision": "skip",
+  "reason": "triage: signage approval",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51836144-l-9": {
+  "decision": "skip",
+  "reason": "triage: private short term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-h-2": {
+  "decision": "skip",
+  "reason": "triage: moves one absentee voting site; minor",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-h-4": {
+  "decision": "skip",
+  "reason": "triage: commission bylaws, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-h-5": {
+  "decision": "skip",
+  "reason": "triage: police fund appropriation, mostly internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-i-1": {
+  "decision": "skip",
+  "reason": "triage: private condo development",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-i-2": {
+  "decision": "skip",
+  "reason": "triage: preservation rezoning, vacant parcel",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814841-i-3": {
+  "decision": "skip",
+  "reason": "triage: private short term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-1": {
+  "decision": "skip",
+  "reason": "triage: land acquisition step, not built yet",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-10": {
+  "decision": "promising",
+  "reason": "triage: workforce housing grant program change",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-11": {
+  "decision": "skip",
+  "reason": "triage: routine ambulance permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-12": {
+  "decision": "skip",
+  "reason": "triage: procedural deadline extension",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-13": {
+  "decision": "skip",
+  "reason": "triage: foam container rules, little worker effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-14": {
+  "decision": "skip",
+  "reason": "triage: support for applications only",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-15": {
+  "decision": "skip",
+  "reason": "triage: private waterfront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-16": {
+  "decision": "skip",
+  "reason": "triage: private waterfront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-17": {
+  "decision": "promising",
+  "reason": "triage: funds a public park and land purchase",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-18": {
+  "decision": "skip",
+  "reason": "triage: dredging paid by neighborhood district, waterfront owners",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-19": {
+  "decision": "skip",
+  "reason": "triage: small police equipment grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-2": {
+  "decision": "skip",
+  "reason": "triage: one property levy refund",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-3": {
+  "decision": "skip",
+  "reason": "triage: official pay, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-4": {
+  "decision": "skip",
+  "reason": "triage: official pay, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-5": {
+  "decision": "skip",
+  "reason": "triage: official pay, government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k16": {
+  "decision": "skip",
+  "reason": "triage: Permit fee tweak, routine",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k2": {
+  "decision": "skip",
+  "reason": "triage: Developer subdivision variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k3": {
+  "decision": "skip",
+  "reason": "triage: Developer subdivision variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k4": {
+  "decision": "skip",
+  "reason": "triage: Business permit modification",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k5": {
+  "decision": "skip",
+  "reason": "triage: Business permit modification",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k6": {
+  "decision": "skip",
+  "reason": "triage: Utility substation permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k7": {
+  "decision": "skip",
+  "reason": "triage: Single-site permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k8": {
+  "decision": "skip",
+  "reason": "triage: Single home daycare permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k9": {
+  "decision": "skip",
+  "reason": "triage: Single home daycare permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51789294-j-1": {
+  "decision": "skip",
+  "reason": "triage: Office lease, government-facing",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51789294-j-2": {
+  "decision": "skip",
+  "reason": "triage: Parking meters for art project",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51789294-j-3": {
+  "decision": "skip",
+  "reason": "triage: Routine grant for water main; narrow",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51789294-j-4": {
+  "decision": "skip",
+  "reason": "triage: Police training grant, internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-1": {
+  "decision": "skip",
+  "reason": "triage: Regional charter membership, procedural",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-2": {
+  "decision": "skip",
+  "reason": "triage: Developer agreement assignment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-3": {
+  "decision": "skip",
+  "reason": "triage: Private lakefront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-4": {
+  "decision": "skip",
+  "reason": "triage: Private lakefront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-5": {
+  "decision": "skip",
+  "reason": "triage: Land purchase, use and benefit unclear",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-6": {
+  "decision": "promising",
+  "reason": "triage: $1M HUD funds for housing vouchers",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-7": {
+  "decision": "skip",
+  "reason": "triage: Tiny subsidy, narrow",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-8": {
+  "decision": "skip",
+  "reason": "triage: Cost share between agencies",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-k-9": {
+  "decision": "skip",
+  "reason": "triage: Internal budget transfer",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-1": {
+  "decision": "skip",
+  "reason": "triage: Developer subdivision variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-10": {
+  "decision": "skip",
+  "reason": "triage: Single-site permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-11": {
+  "decision": "skip",
+  "reason": "triage: Developer design exception",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-12": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-13": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-14": {
+  "decision": "skip",
+  "reason": "triage: Short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-15": {
+  "decision": "skip",
+  "reason": "triage: Crematory zoning, no clear benefit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-2": {
+  "decision": "skip",
+  "reason": "triage: Business subdivision variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-3": {
+  "decision": "skip",
+  "reason": "triage: Alley closure for private owner",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-4": {
+  "decision": "skip",
+  "reason": "triage: Alley closure for private owner",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-5": {
+  "decision": "skip",
+  "reason": "triage: Alley closure for private owner",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-6": {
+  "decision": "skip",
+  "reason": "triage: Food truck permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-7": {
+  "decision": "skip",
+  "reason": "triage: Permit deadline extension",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-8": {
+  "decision": "skip",
+  "reason": "triage: Single home daycare permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51784460-l-9": {
+  "decision": "skip",
+  "reason": "triage: Rental business permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-6": {
+  "decision": "skip",
+  "reason": "triage: Government pay setting",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-7": {
+  "decision": "skip",
+  "reason": "triage: Government pay setting",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-8": {
+  "decision": "skip",
+  "reason": "triage: Advisory board membership",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-k-9": {
+  "decision": "skip",
+  "reason": "triage: Commission membership",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-1": {
+  "decision": "skip",
+  "reason": "triage: Single-lot variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-10": {
+  "decision": "promising",
+  "reason": "triage: Parking minimums change may cut housing costs; writer checks",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-11": {
+  "decision": "skip",
+  "reason": "triage: Unclear zoning tweak, no shown benefit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-12": {
+  "decision": "promising",
+  "reason": "triage: Nonconforming mobile homes rules may protect owners; writer checks",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-2": {
+  "decision": "skip",
+  "reason": "triage: Single home occupation permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-3": {
+  "decision": "skip",
+  "reason": "triage: Single short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-4": {
+  "decision": "skip",
+  "reason": "triage: Private parking structure permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-5": {
+  "decision": "skip",
+  "reason": "triage: Private rezoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-6": {
+  "decision": "skip",
+  "reason": "triage: Single facility permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-7": {
+  "decision": "skip",
+  "reason": "triage: Single business permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-8": {
+  "decision": "skip",
+  "reason": "triage: Zoning allowance for solar, no direct worker benefit shown",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51814799-l-9": {
+  "decision": "skip",
+  "reason": "triage: Technical telecom zoning",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j1": {
+  "decision": "skip",
+  "reason": "triage: Procedural CIP amendment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j10": {
+  "decision": "skip",
+  "reason": "triage: Private waterfront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j11": {
+  "decision": "skip",
+  "reason": "triage: Internal fund transfer",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j12": {
+  "decision": "skip",
+  "reason": "triage: Business incentive grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j13": {
+  "decision": "skip",
+  "reason": "triage: Business incentive grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j14": {
+  "decision": "promising",
+  "reason": "triage: Funds opioid prevention and treatment programs",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j15": {
+  "decision": "skip",
+  "reason": "triage: Police equipment grant",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j16": {
+  "decision": "skip",
+  "reason": "triage: Election operations funding, government-internal",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j17": {
+  "decision": "skip",
+  "reason": "triage: Internal budget transfer",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j2": {
+  "decision": "skip",
+  "reason": "triage: Routine permit renewals",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j3": {
+  "decision": "skip",
+  "reason": "triage: Hotel developer financing endorsement",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j4": {
+  "decision": "skip",
+  "reason": "triage: Private franchise",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j5": {
+  "decision": "skip",
+  "reason": "triage: Council procedure",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j6": {
+  "decision": "skip",
+  "reason": "triage: Procedural appointments",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j7": {
+  "decision": "skip",
+  "reason": "triage: Developer deadline extension",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j8": {
+  "decision": "skip",
+  "reason": "triage: Pre-development only, not built",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-j9": {
+  "decision": "skip",
+  "reason": "triage: Private waterfront encroachment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k1": {
+  "decision": "skip",
+  "reason": "triage: Single-lot variance",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k10": {
+  "decision": "skip",
+  "reason": "triage: Single business permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k11": {
+  "decision": "skip",
+  "reason": "triage: Single short-term rental permit",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k12": {
+  "decision": "skip",
+  "reason": "triage: Technical code amendment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k13": {
+  "decision": "skip",
+  "reason": "triage: Technical regulation amendment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k14": {
+  "decision": "skip",
+  "reason": "triage: Technical site plan amendment",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-council-51800183-k15": {
+  "decision": "skip",
+  "reason": "triage: Vague mobile home code change, no benefit shown",
+  "impact": 1,
+  "date": "2026-11-13"
  }
 }
