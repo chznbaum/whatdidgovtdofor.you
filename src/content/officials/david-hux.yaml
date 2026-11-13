@@ -1,0 +1,8 @@
+name: David Hux
+party: NP
+office: Mayor of Poquoson
+level: local
+jurisdiction: poquoson
+current: true
+seat: { place: poquoson, title: Mayor }
+url: https://www.poquoson-va.gov

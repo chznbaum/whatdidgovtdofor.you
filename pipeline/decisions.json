@@ -293,10 +293,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0246": {
-  "decision": "promising",
-  "reason": "triage: Returns incarcerated people's commissary money on release",
+  "decision": "drafted",
+  "reason": "Local Law 157 of 2026 is enacted and puts money directly back in people's hands: it requires NYC jails to return a person's whole commissary balance before release, where the old rule capped cash at $200 and mailed the rest.",
+  "file": "src/content/entries/local/nyc-jail-commissary-balance-returned-at-release.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2026-0248": {
   "decision": "drafted",
@@ -558,10 +559,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a6790": {
-  "decision": "promising",
-  "reason": "triage: $800 credit for volunteer firefighters/EMS; enacted, niche group",
+  "decision": "drafted",
+  "reason": "This is an enacted, unanimously passed law (Chapter 313 of 2026) that quadruples New York's flat state income tax credit for volunteer firefighters and ambulance workers. The credit is a modest per-person benefit, and it isn't paid for by cutting services.",
+  "file": "src/content/entries/state/ny-volunteer-firefighter-ems-tax-credit-800.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a7033": {
   "decision": "skip",
@@ -853,10 +855,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0489": {
-  "decision": "promising",
-  "reason": "triage: Towed-vehicle lookup database",
+  "decision": "drafted",
+  "reason": "Local Law 161 of 2026 is enacted and creates a public service: one city database where New Yorkers can find a towed car, with opt-in text or email alerts, which spares them from searching several databases or calling precincts.",
+  "file": "src/content/entries/local/nyc-towed-car-database-and-alerts.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2026-0684": {
   "decision": "skip",
@@ -926,10 +929,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a5175": {
-  "decision": "promising",
-  "reason": "triage: Baby monitor security rules",
+  "decision": "drafted",
+  "reason": "This is a signed state law with a direct safety effect on families: internet-connected baby monitors sold in New York must have security features that keep outsiders from watching or listening, and must carry a warning label.",
+  "file": "src/content/entries/state/ny-baby-monitor-security-law.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s10643": {
   "decision": "skip",
@@ -938,16 +942,18 @@
   "date": "2026-11-11"
  },
  "ny-2025-s9051": {
-  "decision": "promising",
-  "reason": "triage: Protects minors from AI companion features",
+  "decision": "drafted",
+  "reason": "This is a signed New York law (Chapter 368 of 2026) that bars AI chatbot companies from giving minors 12 unsafe features, such as posing as a human, flattery, or encouraging self-harm. Companies face penalties of up to $25,000 per violation. That is a concrete safety protection for working families' kids, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-ai-chatbots-unsafe-features-minors.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a10960": {
-  "decision": "promising",
-  "reason": "triage: Notice protects DV victims' voter privacy",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Chapter 366 of 2026, in effect now). It protects domestic violence survivors: the board of elections must warn them before their confidential voter registration expires, so an abuser can't find their address once it lapses.",
+  "file": "src/content/entries/state/ny-confidential-voter-record-expiration-notice.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a8939": {
   "decision": "skip",
@@ -956,10 +962,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a6338": {
-  "decision": "promising",
-  "reason": "triage: Extends victim status to intimate image victims",
+  "decision": "drafted",
+  "reason": "The bill was signed as Chapter 364 of 2026 and takes effect immediately. It lets victims of revenge porn enroll in New York's Address Confidentiality Program, which keeps their home address out of public records and forwards their mail for free.",
+  "file": "src/content/entries/state/ny-revenge-porn-victims-address-confidentiality.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s8953": {
   "decision": "skip",
@@ -1059,10 +1066,11 @@
   "date": "2026-11-12"
  },
  "ny-2025-s7236": {
-  "decision": "promising",
-  "reason": "triage: Enacted ammo purchase limit for failed checks",
+  "decision": "drafted",
+  "reason": "Signed Oct. 21, 2026 as Chapter 316 and in effect immediately, the law closes a gap that let people barred from guns under New York law or a red flag order still pass the state's ammunition check, a concrete safety measure for New Yorkers.",
+  "file": "src/content/entries/state/ny-ammunition-check-blocks-prohibited-buyers.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-10-mayor-mamdani-deploys-red-light-cameras-at-600-intersections-to": {
   "decision": "promising",
@@ -1126,10 +1134,11 @@
   "date": "2026-11-11"
  },
  "us-law-119-129": {
-  "decision": "promising",
-  "reason": "triage: Enacted dating-app fraud ban notices",
+  "decision": "drafted",
+  "reason": "This is an enacted federal law with a direct, tangible effect: dating apps must warn users who were messaged by an account later banned for fraud, which helps protect people from losing money to romance scams.",
+  "file": "src/content/entries/federal/dating-apps-must-warn-you-about-banned-scammers.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-130": {
   "decision": "skip",
@@ -1564,10 +1573,11 @@
   "date": "2026-11-11"
  },
  "us-law-119-119": {
-  "decision": "promising",
-  "reason": "triage: enacted single point of contact for ID theft victims at SSA",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Pub. L. 119-119) that gives people whose Social Security number was misused, or whose card was lost in the mail, a single trained contact at SSA until their case is resolved. That service takes effect April 5, 2027.",
+  "file": "src/content/entries/federal/social-security-single-contact-for-identity-theft-victims.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-120": {
   "decision": "skip",
@@ -1739,10 +1749,10 @@
   "date": "2026-11-11"
  },
  "us-law-119-113": {
-  "decision": "promising",
-  "reason": "triage: Rural water system reauthorization; niche but real service",
+  "decision": "skip",
+  "reason": "The law only changes \"2026\" to \"2028\" in the Fort Peck Reservation Rural Water System Act. That gives the Bureau of Reclamation two more years of authority to build the system, but it adds no money and no new benefit. Its main effect is on government authority, so it isn't a direct, tangible effect on working people.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-114": {
   "decision": "skip",
@@ -2180,22 +2190,25 @@
   "date": "2026-11-11"
  },
  "ny-2025-a11538": {
-  "decision": "promising",
-  "reason": "triage: extends WTC benefits for militia members, niche",
+  "decision": "drafted",
+  "reason": "The signed law (Chapter 294 of 2026) keeps a real benefit open: New York Guard members who worked at Ground Zero, and their survivors, now have four more years, until Sept. 11, 2030, to file for a 9/11 disability pension or death benefit.",
+  "file": "src/content/entries/state/ny-guard-9-11-responders-benefit-deadline-2030.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s10085": {
-  "decision": "promising",
-  "reason": "triage: extends WTC retirement benefit eligibility for responders",
+  "decision": "drafted",
+  "reason": "This is a signed law (Ch. 295 of 2026). It lets families of 9/11 responders who die of World Trade Center illnesses up to 35 years after retiring, instead of 25, get line-of-duty death benefits, which is a direct benefit to public workers' survivors.",
+  "file": "src/content/entries/state/ny-9-11-responder-death-benefit-window-35-years.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s10605": {
-  "decision": "promising",
-  "reason": "triage: extends WTC disability claim deadline to 2030",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 296 of 2026) that gives 9/11 rescue, recovery and cleanup workers until 2030 to preserve workers' comp and retirement disability claims and reopens claims denied for lateness, which has a direct effect on workers' benefits.",
+  "file": "src/content/entries/state/ny-911-recovery-workers-wtc-claim-deadline-2030.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-09-mayor-mamdani-brings-nyc-public-schools-procurement-into-the-21s": {
   "decision": "skip",
@@ -2881,10 +2894,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0955": {
-  "decision": "promising",
-  "reason": "triage: Coordinated inspections speed business openings; check enactment",
+  "decision": "skip",
+  "reason": "Local Law 132 of 2026 (the Red Tape Relief Act) requires the city to coordinate inspections and plan reviews among its agencies so new businesses can open sooner. That changes government process and mainly helps business owners. It has no direct, tangible effect on working people's pay, costs, services or rights.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2026-0972": {
   "decision": "skip",
@@ -2929,10 +2942,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-a10390": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in Poughkeepsie; enacted safety, local",
+  "decision": "skip",
+  "reason": "This is enabling legislation. It lets one city, Poughkeepsie, which is outside the site's covered places, run a speed camera pilot it hasn't installed yet, so there isn't a concrete benefit for readers to verify; I also couldn't confirm the signing beyond the feed's status.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a10391": {
   "decision": "skip",
@@ -2971,10 +2984,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-a11180": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in Pelham; enacted safety, local",
+  "decision": "skip",
+  "reason": "Chapter 216 of 2026 only allows the Village of Pelham to run school-zone speed cameras, and I found no sign that the village has installed or switched on any yet, so there is no benefit to people that I can verify; it can be revisited once the cameras are running.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a11374": {
   "decision": "skip",
@@ -3349,10 +3362,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a9058": {
-  "decision": "promising",
-  "reason": "triage: Cooling tower certification; Legionella safety, minor",
+  "decision": "drafted",
+  "reason": "This is an enacted state law (Chapter 206 of 2026) that tightens public-health safety rules on the NYC cooling towers that spread Legionnaires' disease, a direct safety benefit for New Yorkers.",
+  "file": "src/content/entries/state/ny-nyc-cooling-towers-certified-twice-a-year-legionnaires.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-08-mayor-mamdani-issues-cease-and-desist-orders-to-online-retailers": {
   "decision": "promising",
@@ -3505,10 +3519,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-s10058": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras, local demo program enacted; safety, narrow",
+  "decision": "skip",
+  "reason": "Chapter 229 of 2026 only lets one village, Croton-on-Hudson, choose to run speed cameras in up to three school zones. That gives power to a local government rather than delivering a direct benefit, and the village is not a place the site covers; if the village turns cameras on, that local action could become its own entry.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s10071": {
   "decision": "skip",
@@ -3523,28 +3537,28 @@
   "date": "2026-11-11"
  },
  "ny-2025-s10196": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in Amsterdam, small local safety gain",
+  "decision": "skip",
+  "reason": "S10196A only lets the small upstate city of Amsterdam set up a speed camera pilot in school zones if it chooses to; I found no evidence the city has installed any cameras, so no direct effect on people can be verified yet.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s10564": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in Yonkers, local safety gain",
+  "decision": "skip",
+  "reason": "S10564 (Chapter 233 of 2026) only lets Yonkers start an optional school-zone speed camera pilot, Yonkers isn't one of the site's places, and I found nothing showing the city has adopted or launched the program, so there is no confirmed direct effect on people yet.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s9238": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in New Rochelle, local safety gain",
+  "decision": "skip",
+  "reason": "Chapter 219 of 2026 only allows New Rochelle to put cameras in up to three school zones, and no reliable source shows the city has adopted its own law or turned on any cameras, so the safety benefit can't yet be verified as delivered or phasing in.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s9528": {
-  "decision": "promising",
-  "reason": "triage: School speed cameras in Ithaca, small local safety gain",
+  "decision": "skip",
+  "reason": "S9528-A (Ch. 220 of 2026) only lets Ithaca run speed cameras in up to 12 school zones if it chooses to, and I found no sign the city has adopted or switched on a program, so for now it is an authorization with no direct effect on people.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s9863": {
   "decision": "skip",
@@ -3565,10 +3579,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2026-16687": {
-  "decision": "promising",
-  "reason": "triage: Pay differential for federal wildland firefighters, final rule; niche",
+  "decision": "drafted",
+  "reason": "An OPM final rule took effect Sept. 14, 2026. It pays about 12,500 federal wildland firefighters a 25% hazard differential for fireline work on prescribed burns, a direct pay gain for workers.",
+  "file": "src/content/entries/federal/federal-firefighters-hazard-pay-prescribed-burns.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-gov-1122476": {
   "decision": "skip",
@@ -4310,10 +4325,10 @@
   "date": "2026-11-11"
  },
  "us-law-119-102": {
-  "decision": "promising",
-  "reason": "triage: disaster payments for farmers, forest owners",
+  "decision": "skip",
+  "reason": "The law changes how disaster cost-share payments work for farm producers and owners of private forest land, such as larger advances and more time to spend the money. That helps landowners and agricultural businesses, not wage earners, renters or users of public services, so it doesn't fit the site's working-people standard.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2026-0009": {
   "decision": "skip",
@@ -4334,10 +4349,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0821": {
-  "decision": "promising",
-  "reason": "triage: keeps non-digital access for seniors, small",
+  "decision": "drafted",
+  "reason": "Local Law 116 of 2026 is in force and requires NYC's Department for the Aging to let older adults apply for and track its services by phone and on paper, not only online, which protects access for people who don't use the internet.",
+  "file": "src/content/entries/local/nyc-aging-services-phone-and-paper-access.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-101": {
   "decision": "drafted",
@@ -5165,10 +5181,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2026-0139": {
-  "decision": "promising",
-  "reason": "triage: Benefits interview notice; modest but helps keep benefits",
+  "decision": "drafted",
+  "reason": "Local Law 104 of 2026 is enacted. Starting June 2027 it requires NYC to send SNAP and cash assistance applicants a written confirmation within 72 hours of their benefits interview, a concrete protection for people applying for food and cash aid.",
+  "file": "src/content/entries/local/nyc-benefits-interview-confirmation-notice.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2026-0741": {
   "decision": "skip",
@@ -5441,10 +5458,10 @@
   "date": "2026-11-11"
  },
  "us-law-119-97": {
-  "decision": "promising",
-  "reason": "triage: authorizes one VA hospital project in St. Louis",
+  "decision": "skip",
+  "reason": "The law only authorizes the VA to carry out one construction project in St. Louis, Missouri, during FY2026, up to a spending limit; it funds or delivers nothing to veterans yet, so it doesn't meet the guide's enacted-and-funded bar, and the project is outside the site's coverage area.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-gov-1119353": {
   "decision": "skip",
@@ -5495,10 +5512,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a10542": {
-  "decision": "promising",
-  "reason": "triage: Longer rape-kit retention for survivors",
+  "decision": "drafted",
+  "reason": "This is an enacted law, Chapter 125 of 2026, with a direct effect on survivors. It gives young sexual assault survivors years longer to decide whether to test their evidence kit, and it stops parents or guardians from having a kit destroyed.",
+  "file": "src/content/entries/state/ny-rape-kits-kept-until-young-survivors-turn-40.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a11534": {
   "decision": "skip",
@@ -6306,10 +6324,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1482": {
-  "decision": "promising",
-  "reason": "triage: enacted limit on officer masking, accountability",
+  "decision": "skip",
+  "reason": "A federal judge blocked HB 1482's mask and ID rules the day before they took effect (June 30, 2026), the Fourth Circuit heard the appeal Oct. 27 and hasn't ruled, and no source I could open says whether the block covers only federal officers or Virginia police too, so the entry's core status can't be verified.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb5": {
   "decision": "drafted",
@@ -6373,10 +6391,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb834": {
-  "decision": "promising",
-  "reason": "triage: Tenant protections after fire; narrow, enacted",
+  "decision": "drafted",
+  "reason": "This is an enacted tenant protection (Chapter 1117, approved May 14, 2026, effective Jan. 1, 2027) that gives renters more notice, a meeting, and a similar unit if one is open before a landlord can end their lease after a fire or other casualty.",
+  "file": "src/content/entries/state/va-fire-damaged-rental-landlord-must-offer-similar-unit.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb848": {
   "decision": "drafted",
@@ -6442,10 +6461,10 @@
   "date": "2026-11-12"
  },
  "va-2026-sb62": {
-  "decision": "promising",
-  "reason": "triage: Resentencing path for old marijuana felonies",
+  "decision": "skip",
+  "reason": "SB 62 is identical to HB 26, which already has an entry (va-2026-hb26, \"Virginians serving time for old marijuana felonies get a new hearing\"), so this would be a duplicate; Sen. Lucas's patronage could be added as a credit on that entry instead.",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb749": {
   "decision": "skip",
@@ -6672,10 +6691,11 @@
   "date": "2026-11-11"
  },
  "us-law-119-88": {
-  "decision": "promising",
-  "reason": "triage: Enacted law speeding tribal land mortgages",
+  "decision": "drafted",
+  "reason": "An enacted law that writes deadlines into statute for how fast BIA must act on home and business mortgages on tribal trust land, so tribal members can buy homes there with less delay.",
+  "file": "src/content/entries/federal/tribal-land-mortgages-approval-deadlines.md",
   "impact": 2,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-gov-1117183": {
   "decision": "skip",
@@ -79228,10 +79248,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-driver-relief-penalty-reduction-and-mrp": {
-  "decision": "promising",
-  "reason": "triage: reduces fines and fees for taxi/FHV drivers",
+  "decision": "drafted",
+  "reason": "On Oct. 22, 2026 the TLC adopted the Medallion Relief Program part of this rule (effective Nov. 28). It lets owner-drivers whose debt was restructured pass their medallion to family or move it into an LLC to save on taxes. The driver fine cuts failed on Sept. 17 and are not in the adopted rule.",
+  "file": "src/content/entries/local/nyc-taxi-medallion-relief-family-transfers.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "nyc-rule-amendment-of-rules-regarding-fees-for-electrical-permits-and-licensing-and-compensation-of-registered-design-professionals": {
   "decision": "skip",
@@ -79277,10 +79298,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-general-vendor-license-waitlists": {
-  "decision": "promising",
-  "reason": "triage: vendor license waitlist; implementing Local Law 54 expansion, niche",
+  "decision": "drafted",
+  "reason": "DCWP's adopted rule puts Local Law 54 of 2026 into effect. The waitlists open the first big expansion of NYC general vendor licenses, from 853 to 10,500 more starting in January 2027, and current and long-waiting vendors get priority. The law itself has no existing entry.",
+  "file": "src/content/entries/local/nyc-10500-new-general-vendor-licenses.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "ny-gov-governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby": {
   "decision": "promising",
@@ -79415,10 +79437,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-self-storage-facilities-and-storage-warehouses": {
-  "decision": "promising",
-  "reason": "triage: licensing and fee disclosure for storage consumers",
+  "decision": "skip",
+  "reason": "The adopted rule text can't be read (the NOA PDF won't extract), so its consumer protections are known only from trade-press summaries; a Staten Island judge's temporary restraining order (Inside Self-Storage, Oct. 29, 2026) bars enforcement until Dec. 15, but its scope is unclear; and who signed Local Laws 162 and 171 of 2025 is unconfirmed. Revisit after the Dec. 15 hearing.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "us-grant-fema-20260610-fema-approves-more-171-million-funding-help-communities-recover-disasters": {
   "decision": "promising",
@@ -79852,10 +79874,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-home-improvement-contractor-disclosures": {
-  "decision": "promising",
-  "reason": "triage: Contractors must disclose permit info to homeowners; consumer protection",
+  "decision": "drafted",
+  "reason": "Local Law 181 of 2025 and DCWP's rules implementing it took effect June 19, 2026. They require NYC home improvement contractors to tell owners in writing, before the contract is signed, which permits the job needs. That is a concrete consumer protection against unpermitted work and the violations that follow.",
+  "file": "src/content/entries/local/nyc-home-contractors-must-disclose-needed-permits.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "nyc-rule-bsa-ahft": {
   "decision": "skip",
@@ -85866,10 +85889,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-276": {
-  "decision": "promising",
-  "reason": "triage: opioid settlement money funds jail medication treatment pilot",
+  "decision": "drafted",
+  "reason": "The adopted ordinance moves $400,000 in opioid settlement money to keep paying for opioid use disorder medication and nursing in Richmond's jail. That is a concrete health service for incarcerated people, and it costs city taxpayers nothing.",
+  "file": "src/content/entries/local/richmond-jail-opioid-treatment-medication-funding.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-277": {
   "decision": "skip",
@@ -85878,10 +85902,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-278": {
-  "decision": "promising",
-  "reason": "triage: removes duplicate annual affidavits for renters in affordable units",
+  "decision": "skip",
+  "reason": "The ordinance only removes a duplicate yearly affidavit for renters in Richmond's affordable dwelling units, mainly cleaning up how the program is administered, and no source gives a tangible benefit or a count of households affected that could support an entry.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-280": {
   "decision": "skip",
@@ -86252,10 +86276,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-201": {
-  "decision": "promising",
-  "reason": "triage: $1M federal Safe Streets grant accepted; funded safety work, details thin",
+  "decision": "skip",
+  "reason": "The ordinance accepts $1 million in federal Safe Streets and Roads for All money for an unnamed \"SS4A program,\" and neither the Legistar record nor other sources say whether it pays for built safety projects or for planning, so its direct effect on people can't be verified.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-207": {
   "decision": "skip",
@@ -86378,10 +86402,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-275": {
-  "decision": "promising",
-  "reason": "triage: opioid settlement funds accepted for abatement programs",
+  "decision": "skip",
+  "reason": "The ordinance only accepts $614,406 in opioid settlement money and puts it into a general special fund for unspecified 'abatement and remediation strategies'; it names no specific program or service, so its direct, tangible effect on people can't be verified.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-282": {
   "decision": "skip",
@@ -86656,10 +86680,10 @@
   "date": "2026-11-12"
  },
  "hampton-26-0255": {
-  "decision": "promising",
-  "reason": "triage: bonds to preserve Century Plaza affordable apartments; check details",
+  "decision": "skip",
+  "reason": "This is the council's procedural TEFRA (Section 147(f)) approval, which federal tax law requires before HRHA can issue up to $22 million in conduit bonds for a private developer's purchase and rehab of 120 existing subsidized apartments. No city money is committed, and the approval doesn't show that the bonds were issued, that the rehab is funded and underway, or that tenants get a concrete benefit.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "hampton-26-0258": {
   "decision": "skip",
@@ -86710,10 +86734,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-132": {
-  "decision": "promising",
-  "reason": "triage: Accepts $1M federal grant for park access and amenities; funded, local park",
+  "decision": "drafted",
+  "reason": "Richmond adopted an ordinance that accepts and spends a $1 million federal grant to build trails, restrooms, a repaired bridge and other public amenities at Broad Rock Creek Park, which is concrete public infrastructure.",
+  "file": "src/content/entries/local/richmond-broad-rock-creek-park-trails-restrooms.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-133": {
   "decision": "skip",
@@ -86752,10 +86777,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-139": {
-  "decision": "promising",
-  "reason": "triage: $80K transfer for surge shelter operations; small but funded service",
+  "decision": "skip",
+  "reason": "This $80,000 transfer topped up CARITAS surge shelter costs for the 2025–26 winter, and it passed in June 2026, after that season had ended. The existing entry richmond-ord-2026-204 (\"Richmond pays for overflow shelter beds on its coldest nights\") already covers the same program, which Richmond funded at $844,143 for this winter, so a separate entry would be a near-duplicate.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-140": {
   "decision": "skip",
@@ -86764,10 +86789,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-141": {
-  "decision": "promising",
-  "reason": "triage: $300K funds jail medication-assisted treatment pilot; funded service",
+  "decision": "skip",
+  "reason": "ORD 2026-141 moves $300,000 of opioid settlement money within the FY2026 budget to the Sheriff's Medication Assisted Treatment pilot, the program first approved in December 2024 (Ord. 2024-297); the existing entry richmond-ord-2026-276 (\"$400,000 keeps people on opioid treatment in Richmond's jail\") already covers it, so a separate entry would be a duplicate.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-142": {
   "decision": "drafted",
@@ -87505,10 +87530,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-170": {
-  "decision": "promising",
-  "reason": "triage: city grant funds affordable housing build; check terms",
+  "decision": "drafted",
+  "reason": "The council adopted a 30-year affordability deal for at least 288 apartments at an average of 60% of area median income, paid for by returning part of the new property taxes the project generates rather than by cutting services.",
+  "file": "src/content/entries/local/richmond-rady-street-288-affordable-apartments.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-171": {
   "decision": "skip",
@@ -87667,10 +87693,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-131": {
-  "decision": "promising",
-  "reason": "triage: $612K opioid settlement funds for abatement",
+  "decision": "skip",
+  "reason": "The ordinance only accepts $611,807.50 in opioid settlement money and moves it into a city special fund for unspecified \"opioid abatement and remediation strategies.\" Neither the record nor any source I found names a program, service, or group of people it pays for, so there is no concrete, verifiable effect on people to report.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2025-150": {
   "decision": "skip",
@@ -112355,10 +112381,11 @@
   "date": "2026-11-13"
  },
  "henrico-news-181689-approved-500-000-grant-to-maggie-walker-community-land-trust": {
-  "decision": "promising",
-  "reason": "triage: funded affordable homeownership grant",
+  "decision": "drafted",
+  "reason": "Henrico's Board of Supervisors approved a $500,000 grant to help a community land trust buy 20 homes in the Arcadia development and keep them affordable for buyers earning up to 115% of the Richmond-area median income.",
+  "file": "src/content/entries/local/henrico-arcadia-land-trust-affordable-homes.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-181689-approved-amendment-to-mou-with-maggie-walker-community-land-": {
   "decision": "skip",
@@ -112379,10 +112406,10 @@
   "date": "2026-11-12"
  },
  "henrico-news-181689-authorized-mou-with-housing-families-first-for-housing-coach": {
-  "decision": "promising",
-  "reason": "triage: funded housing coach for residents; narrow",
+  "decision": "skip",
+  "reason": "The item is one county-funded housing counselor tied to tearing down and rebuilding Glenwood Farms as mixed-income CloverSpring. The guide keeps redevelopment that can push out the lowest-income renters out of scope while the site covers only wins, and one support position is too small to count as a standalone benefit.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "powhatan-news-408-ordinance-o-2026-22": {
   "decision": "skip",
@@ -112471,10 +112498,11 @@
   "date": "2026-11-13"
  },
  "henrico-news-180167-awarded-lakeside-community-trail-phase-1-contract": {
-  "decision": "promising",
-  "reason": "triage: funded trail phase; overlaps Fall Line Trail",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors awarded a construction contract for a new public walking and biking path in Lakeside. That's infrastructure people will use, and it doesn't duplicate the existing Fall Line Trail entry, which covers the separately bid Phases 2 and 3 (the Southern Sections contract).",
+  "file": "src/content/entries/local/henrico-lakeside-community-trail-phase-1.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "powhatan-news-405-resolution-r-2026-54": {
   "decision": "skip",
@@ -112489,10 +112517,10 @@
   "date": "2026-11-12"
  },
  "powhatan-news-405-resolution-r-2026-56": {
-  "decision": "promising",
-  "reason": "triage: one basketball court renovation",
+  "decision": "skip",
+  "reason": "The record only says Powhatan County authorized a contract to renovate one basketball court, with no cost, location or scope I could verify, so it reads as routine maintenance with no concrete benefit to report.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "powhatan-news-405-resolution-r-2026-57": {
   "decision": "skip",
@@ -112669,10 +112697,11 @@
   "date": "2026-11-12"
  },
  "henrico-news-178533-passed-ordinance-allowing-photo-speed-cameras-in-school-cros": {
-  "decision": "promising",
-  "reason": "triage: Enacted school-zone safety ordinance; writer checks fines",
+  "decision": "drafted",
+  "reason": "Henrico enacted an ordinance that puts speed cameras at 11 school crossing zones, a concrete safety measure for students that the drivers who speed pay for. Every claim in the entry is backed by the county recap and local news coverage.",
+  "file": "src/content/entries/local/henrico-school-zone-speed-cameras.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-22sn0073": {
   "decision": "skip",
@@ -112783,10 +112812,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2029-accepted-state-grant-funds-for-jail-mental-health-programs": {
-  "decision": "promising",
-  "reason": "triage: funded jail mental health care continues",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors accepted state funds for FY2027 that keep mental health care going for people held in the Chesterfield County Jail. That is a direct service for jail inmates, and it doesn't duplicate the existing opioid-treatment entry.",
+  "file": "src/content/entries/local/chesterfield-jail-mental-health-care-continues.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-accepted-two-bermuda-hundred-road-parcels-from-the-eda": {
   "decision": "skip",
@@ -112893,10 +112923,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2029-funded-and-authorized-3-87m-contract-for-belmont-road-draina": {
-  "decision": "promising",
-  "reason": "triage: funded drainage project",
+  "decision": "drafted",
+  "reason": "The board funded and awarded a $3.87 million construction contract that will rebuild a stretch of Belmont Road that floods routinely, a concrete infrastructure and safety fix for local residents and drivers.",
+  "file": "src/content/entries/local/chesterfield-belmont-road-flooding-fix.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2029-sec-6-4": {
   "decision": "skip",
@@ -112929,10 +112960,10 @@
   "date": "2026-11-12"
  },
  "henrico-news-177890-approved-ordinance-prohibiting-vehicles-stopping-or-parking-": {
-  "decision": "promising",
-  "reason": "triage: enacted rule keeping sidewalks clear for pedestrians",
+  "decision": "skip",
+  "reason": "This is mostly a traffic-code cleanup with mixed effects: Virginia law already bans parking on sidewalks, and the same ordinance limits where Class 3 e-bikes can ride, which affects commuters and delivery riders who use them. The county's ordinance text wouldn't load (HTTP 403), so I couldn't confirm what actually changed or that working people come out ahead.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-177890-awarded-contract-for-tuckahoe-park-improvements": {
   "decision": "drafted",
@@ -113075,10 +113106,10 @@
   "date": "2026-11-12"
  },
  "henrico-news-176564-board-awards-11-6m-east-highland-park-sewer-contract": {
-  "decision": "promising",
-  "reason": "triage: funded sewer main replacement for neighborhood",
+  "decision": "skip",
+  "reason": "This is routine sewer-pipe maintenance paid for by utility ratepayers, and none of the sources I could open says what it changes for residents, such as fewer sewer backups or overflows, so an entry would have to claim a benefit no source supports.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-176564-board-awards-40-3m-richmond-henrico-turnpike-contract": {
   "decision": "drafted",
@@ -113130,10 +113161,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2028-added-emts-to-enhanced-hazardous-duty-retirement-consultant-": {
-  "decision": "promising",
-  "reason": "triage: better retirement for first responders, county-funded",
+  "decision": "drafted",
+  "reason": "On July 22, 2026, Chesterfield's Board of Supervisors voted 5-0 to put full-time county EMTs on the same enhanced VRS retirement as police, firefighters and jail officers starting Jan. 1, 2027, and the county pays the employer cost, so these public workers get a direct gain.",
+  "file": "src/content/entries/local/chesterfield-emts-hazardous-duty-retirement.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2028-adopted-ordinance-creating-sawmill-community-development-aut": {
   "decision": "skip",
@@ -113142,10 +113174,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2028-appropriated-and-transferred-funds-for-transportation-projec": {
-  "decision": "promising",
-  "reason": "triage: funds roundabout and bike/ped projects",
+  "decision": "skip",
+  "reason": "This is a bundled budget step: it books expected VDOT reimbursements and moves local funds across seven transportation projects, and it authorizes engineering and right-of-way work, but no construction is funded or awarded yet; I couldn't find a source that says what most of these projects will build or when, so the entry couldn't make a concrete, verified claim about the benefit.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2028-approved-airport-lease-renewal-to-u-s-general-services-admin": {
   "decision": "skip",
@@ -113208,10 +113240,10 @@
   "date": "2026-11-13"
  },
  "chesterfield-council-2028-awarded-l-c-bird-athletic-complex-field-improvements-contrac": {
-  "decision": "promising",
-  "reason": "triage: funded public athletic field upgrades",
+  "decision": "skip",
+  "reason": "The minutes show only that a $4.03 million field-improvement contract was awarded, and no source I could open says what the work is or who it serves (nearby county upgrades are aimed at sports-tourism tournaments), so the concrete benefit to residents can't be verified.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2028-declared-4731-black-oak-drive-surplus-and-authorized-its-sal": {
   "decision": "skip",
@@ -113328,10 +113360,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-accepted-and-appropriated-400-000-call-handling-equipment-gr": {
-  "decision": "promising",
-  "reason": "triage: state grant upgrades 911 call equipment",
+  "decision": "skip",
+  "reason": "A routine state grant for 9-1-1 call-handling equipment mainly affects the county's own operations, and the record shows no new service, capability or measurable benefit for residents.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2027-adopted-fy2026-county-year-end-adjustments-and-reserve-reque": {
   "decision": "skip",
@@ -113352,10 +113384,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-appropriated-and-transferred-funds-for-salem-church-kingslan": {
-  "decision": "promising",
-  "reason": "triage: funded roundabouts; check safety claim",
+  "decision": "skip",
+  "reason": "This vote funded design and right-of-way work on two roundabouts whose construction won't start until about spring 2030 (per the county's Salem Church/Kingsland project page), and I couldn't open any source describing the Chester Road/Hamlin Creek project or its safety case, so the tangible benefit can't yet be verified.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2027-appropriated-funds-and-authorized-4-75-million-contract-for-": {
   "decision": "drafted",
@@ -113419,10 +113451,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-section-19-2-37": {
-  "decision": "promising",
-  "reason": "triage: 100-ft buffer from power lines for new homes",
+  "decision": "skip",
+  "reason": "A 100-foot buffer between new subdivision lots and transmission-line easements is a land-use development standard with no clear, source-backed benefit for working people, and it could cost housing by taking buildable land out of new subdivisions, so it fails the direct-impact and net-impact tests.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2027-section-8-64": {
   "decision": "skip",
@@ -113431,10 +113463,10 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2027-sections-9-29-through-9-32": {
-  "decision": "promising",
-  "reason": "triage: home rehab tax break; writer checks cost and who benefits",
+  "decision": "skip",
+  "reason": "This amends a property-tax break for owners who rehab older homes, but the minutes couldn't be read and no other source says what changed, what it costs, or whether working people come out ahead rather than property owners and investors, so it fails the net-impact test as written.",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2027-series-2026a-general-obligation-public-improvement-bonds": {
   "decision": "skip",
@@ -113510,10 +113542,11 @@
   "date": "2026-11-13"
  },
  "henrico-news-174384-enhanced-hazard-duty-benefits-for-full-time-emts": {
-  "decision": "promising",
-  "reason": "triage: benefit for government employees, narrow",
+  "decision": "drafted",
+  "reason": "On June 9, 2026, Henrico's Board of Supervisors approved enhanced VRS hazardous duty benefits for full-time EMS-only EMTs and paramedics. These workers are not sworn officers and had not received the benefits before. It is a concrete gain for county workers, and no existing entry covers it.",
+  "file": "src/content/entries/local/henrico-emts-enhanced-hazardous-duty-benefits.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "henrico-news-174384-raised-residential-vacuum-leaf-collection-fee-from-30-to-50": {
   "decision": "skip",
@@ -113606,10 +113639,11 @@
   "date": "2026-11-12"
  },
  "chesterfield-council-2026-15-b-7": {
-  "decision": "promising",
-  "reason": "triage: funded sidewalk contract on River Road",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors funded construction of a new 1,730-foot sidewalk with four crosswalks on River Road, which makes walking safer there and isn't covered by any existing entry.",
+  "file": "src/content/entries/local/chesterfield-river-road-sidewalk-hickory-to-brickhouse.md",
   "impact": 2,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "chesterfield-council-2026-15-b-8": {
   "decision": "skip",
@@ -122058,8 +122092,9 @@
   "date": "2026-11-13"
  },
  "poquoson-council-468-authorized-little-florida-sidewalk-contract-with-finley-asph": {
-  "decision": "promising",
-  "reason": "triage: funded contract to build a sidewalk; safety infrastructure",
+  "decision": "drafted",
+  "reason": "Poquoson's council voted 6-0 to award a $533,640.10 construction contract for a new sidewalk on Little Florida Road. That's funded public infrastructure people will use, like the existing Norfolk and Henrico sidewalk entries.",
+  "file": "src/content/entries/local/poquoson-little-florida-road-sidewalk.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122094,8 +122129,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3817-accepted-and-appropriated-additional-home-arp-funds-from-hud": {
-  "decision": "promising",
-  "reason": "triage: HOME-ARP housing funds; details unknown, could be drafted",
+  "decision": "skip",
+  "reason": "This is a consent-agenda appropriation of an unspecified amount of extra HOME-ARP money, and none of the sources I could reach say how much it is or which housing, shelter or service project it pays for, so there is no concrete benefit to people that I can verify.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122352,14 +122387,15 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3829-accepted-and-appropriated-vdot-cmaq-funds-for-constance-wilr": {
-  "decision": "promising",
-  "reason": "triage: Funded intersection safety improvements",
+  "decision": "skip",
+  "reason": "The only source I could open is the 8-0 vote record; the $4.8M amount and scope appear only in search snippets of pages that returned 403, and an unfinished car-capacity project at two intersections is a weak working-people benefit.",
   "impact": 2,
   "date": "2026-11-13"
  },
  "suffolk-council-3829-accepted-and-appropriated-vdot-funds-for-route-17-bridge-roa": {
-  "decision": "promising",
-  "reason": "triage: Funded multi-use path",
+  "decision": "drafted",
+  "reason": "Suffolk's council voted 8-0 to accept and spend a $2.18 million state and regional grant for a walking and biking path along Route 17 (Bridge Road), which is new infrastructure for residents.",
+  "file": "src/content/entries/local/suffolk-route-17-bridge-road-multi-use-path.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122472,8 +122508,9 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1322-ordinance-no-50513": {
-  "decision": "promising",
-  "reason": "triage: Funded jail addiction treatment program",
+  "decision": "drafted",
+  "reason": "Norfolk City Council voted unanimously to accept and spend a $150,000 state grant for addiction treatment and reentry help in the city jail. That is an enacted, funded service that reaches people directly. The action and vote are confirmed by the city's minutes, and the grant program's purpose is confirmed by DCJS.",
+  "file": "src/content/entries/local/norfolk-jail-addiction-recovery-reentry-grant.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122502,8 +122539,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1326-ordinance-no-50536": {
-  "decision": "promising",
-  "reason": "triage: funded water infrastructure; check purpose and ratepayer cost",
+  "decision": "skip",
+  "reason": "This is a routine shift of existing Norfolk water-utility capital money (mostly moved from another treatment-plant upgrade project) to replace a pump station inside the Lentz Water Treatment Plant, and no source names a concrete change for residents.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122598,8 +122635,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1326-ordinance-no-50552": {
-  "decision": "promising",
-  "reason": "triage: state-funded youth and developmental services",
+  "decision": "skip",
+  "reason": "This is a routine pass-through of $175,321.55 in state DBHDS money into the Community Services Board's budget, and neither the record nor any source I could find says what service it pays for or who it reaches, so I can't establish a concrete, verifiable effect on people.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122670,8 +122707,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3838-item-10": {
-  "decision": "promising",
-  "reason": "triage: foundation-funded park fitness equipment",
+  "decision": "skip",
+  "reason": "The only verifiable fact is a one-line consent item: the council accepted a private Obici Healthcare Foundation donation for a trail fitness park. No source gives the amount, the equipment, or when it will be built, so an entry would have no supportable figures or details.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122688,8 +122725,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3838-item-13": {
-  "decision": "promising",
-  "reason": "triage: funded road project; check details",
+  "decision": "skip",
+  "reason": "This is a routine consent-agenda appropriation, and the money it accepts appears to fund an interchange study (UPC 111036), not construction, so it has no direct effect on people yet; the record also gives no dollar amount or scope that could be verified.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122712,8 +122749,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3838-item-8": {
-  "decision": "promising",
-  "reason": "triage: funded trail project",
+  "decision": "skip",
+  "reason": "The record confirms Suffolk accepted state money for the Seaboard Coastline Trail West, but no source I could open gives the amount, length or route, and construction isn't expected to be bid until 2027, so there isn't enough to write an entry.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122868,8 +122905,9 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1316-ordinance-no-50480": {
-  "decision": "promising",
-  "reason": "triage: Funded sidewalk extension",
+  "decision": "drafted",
+  "reason": "Norfolk City Council voted 8-0 to accept and spend $963,678 in regional Transportation Alternatives money, plus a $240,920 city share, to extend a sidewalk on 25th Street. That is new walking infrastructure, like the Tidewater Drive sidewalk entries already on the site.",
+  "file": "src/content/entries/local/norfolk-25th-street-sidewalk-extension.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -122918,8 +122956,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1316-ordinance-no-50488": {
-  "decision": "promising",
-  "reason": "triage: Pay floor raised to $55,000 for social services workers",
+  "decision": "skip",
+  "reason": "This is mostly routine cleanup of Norfolk's pay plan, and I couldn't verify how much it actually raises pay: 2026 job postings put the old starting salary at about $54,191, so the new $55,000 floor may add only about $800 for some entry-level workers, and no source gives a count of affected workers or a reason for the change.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123104,8 +123142,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1310-ordinance-no-50439": {
-  "decision": "promising",
-  "reason": "triage: Opioid settlement funds two recovery specialists",
+  "decision": "skip",
+  "reason": "The record only shows the $143,110.54 for two Peer Recovery Specialist III jobs and the 8-0 vote; no readable source says who the two staff will serve or what they will do, so the direct effect on people can't be verified.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123128,8 +123166,8 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1310-ordinance-no-50443": {
-  "decision": "promising",
-  "reason": "triage: Funded pedestrian safety project",
+  "decision": "skip",
+  "reason": "The council record confirms the 8-0 vote and the $1,973,600 in stormwater funds, but I couldn't open any source that says what the project builds or where: the city's project sheet, the staff report and the July 14 results are all PDFs I couldn't read, and what I could see conflicts (the minutes list an \"add'l $1,472,960\", search snippets cite $2.6 million in city stormwater funds, and two different segments and schedules show up), so I can't say accurately what it does for residents.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123158,8 +123196,9 @@
   "date": "2026-11-13"
  },
  "norfolk-council-1310-ordinance-no-50448": {
-  "decision": "promising",
-  "reason": "triage: Raises for local officers' staff and CSB workers",
+  "decision": "drafted",
+  "reason": "The council funded real raises and bonuses for Norfolk's court, jail, tax-office, election and community mental health workers, which is direct pay for working people, like the existing Poquoson bonus entry.",
+  "file": "src/content/entries/local/norfolk-constitutional-office-and-csb-staff-raises.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123453,8 +123492,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3799-item-15": {
-  "decision": "promising",
-  "reason": "triage: funded transit facility, state money",
+  "decision": "skip",
+  "reason": "This consent-agenda ordinance adds state DRPT money and moves fund balance into Suffolk's transit operations facility, a building for the city's own operations, and the record shows no specific change for riders.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123465,8 +123504,9 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3799-item-22": {
-  "decision": "promising",
-  "reason": "triage: enacted truck ban on residential roads",
+  "decision": "drafted",
+  "reason": "Suffolk City Council's 7-0 ordinance keeps through trucks off two residential roads. A city study counted 43 crashes on Manning Road, 22 with injuries and 1 fatal, so the ban makes those roads safer for the people who live along them.",
+  "file": "src/content/entries/local/suffolk-manning-road-arthur-drive-truck-ban.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123483,8 +123523,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3799-item-7": {
-  "decision": "promising",
-  "reason": "triage: funds crime victim assistance service",
+  "decision": "skip",
+  "reason": "This is Suffolk's routine yearly acceptance of continuing state grant money for its existing Victim/Witness Assistance Program, and I couldn't confirm how much money it was, what it pays for, or how many people it reaches (the agenda PDF had no readable text and searches found no 2026 details), so there are no checkable facts to build an entry on.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123513,8 +123553,9 @@
   "date": "2026-11-13"
  },
  "poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo": {
-  "decision": "promising",
-  "reason": "triage: one-time bonus for city workers from carryover",
+  "decision": "drafted",
+  "reason": "Poquoson's council voted 7-0 to pay city workers a one-time bonus out of unspent carryover money. That puts cash directly in public employees' pockets without cutting services, and no existing entry covers it.",
+  "file": "src/content/entries/local/poquoson-city-workers-one-time-retention-bonus.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123549,8 +123590,8 @@
   "date": "2026-11-13"
  },
  "charles-city-county-council-635-adopted-vdot-fy2027-fy2032-secondary-road-six-year-plan-and-": {
-  "decision": "promising",
-  "reason": "triage: adopted road funding plan",
+  "decision": "skip",
+  "reason": "Every Virginia county adopts VDOT's six-year secondary road plan each year as a routine planning step, and the record names no specific project, amount or result for residents.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123579,8 +123620,8 @@
   "date": "2026-11-13"
  },
  "suffolk-council-3780-consent-agenda-item-11": {
-  "decision": "promising",
-  "reason": "triage: 911 call equipment funded",
+  "decision": "skip",
+  "reason": "Accepting a state 9-1-1 grant for police call handling equipment is routine equipment funding whose main effect is on government operations, and the record gives no amount and no specific change for the public.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -123855,8 +123896,8 @@
   "date": "2026-11-13"
  },
  "poquoson-council-454-resolution-approving-dcr-flood-sensors-at-three-poquoson-wat": {
-  "decision": "promising",
-  "reason": "triage: Funded $19,000 flood sensors for flood-prone waterways; small",
+  "decision": "skip",
+  "reason": "The council only approved a $19,000 state DCR project that installs flood sensors at three waterways, and no source shows the sensors give residents alerts or other public data, so a direct effect on working people can't be verified.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -124174,8 +124215,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51857678-k-6": {
-  "decision": "promising",
-  "reason": "triage: State-funded mental health and substance services appropriation; modest",
+  "decision": "skip",
+  "reason": "Every year the city signs a routine performance contract with the state for its behavioral health services. This one also added an unspecified $262,235 to the budget. Its main effect is on how the city and state work together, and the record names no new or protected service, so readers can't see a concrete benefit to themselves.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -124552,8 +124593,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51866206-j-6": {
-  "decision": "promising",
-  "reason": "triage: Funded gun violence prevention programs",
+  "decision": "skip",
+  "reason": "More than half of the $500,000 state grant buys police equipment and supplies (a metal detector and non-lethal training rounds), which mainly affects government itself; the rest is small, loosely described money for \"Parks After Dark\" and juvenile probation programming, with no concrete benefit for residents that a source spells out.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -124594,8 +124635,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51836144-k-4": {
-  "decision": "promising",
-  "reason": "triage: possible affordable housing bonds; writer checks",
+  "decision": "skip",
+  "reason": "This is a conduit-bond approval that lets a private owner borrow tax-exempt money to rehab Victoria Place, an existing 122-unit senior property with income limits. The city puts in no money, and I couldn't open or find any source on what the rehab covers, whether rents stay affordable, or whether tenants are protected, so the benefit can't be verified.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -124768,8 +124809,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51814799-k-17": {
-  "decision": "promising",
-  "reason": "triage: funds a public park and land purchase",
+  "decision": "skip",
+  "reason": "The $3 million buys a tenth of an acre, with an apartment building on it, from a developer-managed company so the city can add some parking to an Oceanfront park whose design is still unfinished and whose construction might start in fall 2027. That's a land deal, not a service delivered or something built that working people can point to yet.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -124918,8 +124959,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51784460-k-6": {
-  "decision": "promising",
-  "reason": "triage: $1M HUD funds for housing vouchers",
+  "decision": "skip",
+  "reason": "This was a routine 9-0 consent vote that took $1 million from HUD and $60,000 of Section 8 reserves into the city's existing voucher budget for \"Housing Choice Voucher Program and operations.\" No source I found says whether the money adds vouchers or helps more households, or whether it only covers administration, so I can't verify a concrete effect on residents.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125062,8 +125103,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51814799-l-10": {
-  "decision": "promising",
-  "reason": "triage: Parking minimums change may cut housing costs; writer checks",
+  "decision": "skip",
+  "reason": "This zoning change resets how many parking spaces developers must build, which affects people only indirectly. It appears to bring the city in line with Virginia's new parking-minimum law (Va. Code § 15.2-2209.4, effective July 1, 2026), and I couldn't read the ordinance text to confirm exactly what changed.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125074,8 +125115,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51814799-l-12": {
-  "decision": "promising",
-  "reason": "triage: Nonconforming mobile homes rules may protect owners; writer checks",
+  "decision": "skip",
+  "reason": "The amendment (Ordinance 3866) only brings Virginia Beach's zoning code in line with the state's HB 1463 and writes down the city's existing reading of the rules, so the benefit to mobile home owners comes from state law, not from this local action.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125158,8 +125199,8 @@
   "date": "2026-11-13"
  },
  "virginia-beach-council-51800183-j14": {
-  "decision": "promising",
-  "reason": "triage: Funds opioid prevention and treatment programs",
+  "decision": "skip",
+  "reason": "The council record only describes the $229,209.60 Health Department share, which pays two outreach staff for a Teen to Teen social media awareness campaign, not a direct service; I couldn't open sources confirming what the Police ($30,000), Human Services ($100,500) and schools ($70,000) shares fund, and OAA's June 2026 renewals list Youth Peer Support at $0, so the tangible benefit and its current status can't be verified.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125499,8 +125540,9 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233k": {
-  "decision": "promising",
-  "reason": "triage: living shoreline park grant, modest",
+  "decision": "drafted",
+  "reason": "Portsmouth accepted and set aside a $128,000 state grant to build a living shoreline and stormwater park meant to reduce flooding in the Parkview neighborhood, a funded project with a tangible flood-safety benefit.",
+  "file": "src/content/entries/local/portsmouth-parkview-stormwater-park-living-shoreline.md",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125543,8 +125585,8 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220e": {
-  "decision": "promising",
-  "reason": "triage: funded youth substance prevention program",
+  "decision": "skip",
+  "reason": "The record shows only that Portsmouth accepted a general $111,856 state grant for youth substance-misuse prevention, and no source I could find says what services, programs, or people it will fund, so I can't say what it concretely changes for residents.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125592,8 +125634,8 @@
   "date": "2026-11-13"
  },
  "portsmouth-council-a0ca6777-515c-4828-b1d5-272ab106e579-26-207d": {
-  "decision": "promising",
-  "reason": "triage: $140K funds recovery court",
+  "decision": "skip",
+  "reason": "This is the routine yearly renewal of state money for a recovery court Portsmouth has run since about 2000 (council approved the FY2026 round in February 2026), so nothing changes for anyone, and I couldn't find a source for how many people the court serves or what the money pays for beyond the $140,000 agenda line.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125640,8 +125682,8 @@
   "date": "2026-11-13"
  },
  "ny-2025-a10921": {
-  "decision": "promising",
-  "reason": "triage: Waives home-modification fees for disabled veterans; check if enacted",
+  "decision": "skip",
+  "reason": "As amended and signed (Chapter 374 of 2026), A10921-A does not exempt any veteran from fees; it only allows cities, towns and villages to waive or reduce building fees for disability-related home changes if they pass their own local law, so no one benefits directly until a locality acts.",
   "impact": 2,
   "date": "2026-11-13"
  },
@@ -125658,8 +125700,9 @@
   "date": "2026-11-13"
  },
  "ny-2025-a5578": {
-  "decision": "promising",
-  "reason": "triage: Extends veterans property tax exemptions; check cost shift and signing",
+  "decision": "drafted",
+  "reason": "Signed into law as Chapter 371 of 2026, it lets more New York combat veterans qualify for the extra 10% veterans' property tax exemption by adding new ways to prove combat-zone service; the break is capped and modest, and no services are cut to pay for it.",
+  "file": "src/content/entries/state/ny-combat-veterans-property-tax-exemption-proof.md",
   "impact": 2,
   "date": "2026-11-13"
  },
