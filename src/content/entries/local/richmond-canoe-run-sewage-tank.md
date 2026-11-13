@@ -5,7 +5,7 @@ level: local
 jurisdiction: richmond
 action:
   type: ordinance
-  name: Ordinance accepting $100 million from the Virginia Department of Environmental Quality for the Canoe Run Park Storage Tank project
+  name: To authorize the Chief Administrative Officer, for and on behalf of the City of Richmond, to accept funds in the amount of $100,000,000.00 from the Virginia Department of Environmental Quality and to amend the Fiscal Year 2025-2026 Wastewater Utility Budget which appropriated the estimated receipts of the wastewater utility, by increasing estimated receipts and the amount appropriated for the wastewater utility by $100,000,000.00 for the purpose of funding the Canoe Run Park Storage Tank project.
   identifier: Ord. 2025-223
   date: 2025-10-14
 topics:
@@ -40,7 +40,7 @@ credit:
     note: Submitted DPU's request to accept and budget the grant for the tank project
   - official: richmond-city-council
     role: voted-yes
-    note: Adopted the ordinance 9-0 on Oct. 14, 2025
+    note: Adopted the ordinance on Oct. 14, 2025
 sources:
   - title: Ord. 2025-223 and Virginia DEQ Grant Agreement 2025-CSO-01
     publisher: Richmond City Council (Legistar)
@@ -80,12 +80,12 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the ordinance, grant agreement, funding, 9–0 vote, project figures, and latest public procurement status. Added the DPU director who submitted the ordinance request and corrected the source list.
+  notes: Confirmed the grant, ordinance, funding history, project figures, credited roles, and latest public procurement status. Corrected the ordinance’s official name and removed an unsupported 9–0 vote count.
 source_key: richmond-ord-2025-223
 ---
 
 In much of Richmond, sewage and rainwater run through the same pipes. When a heavy storm fills those pipes, the extra water, sewage included, spills into the James River. The city estimates the Canoe Run Park outfall has about 37 overflow events in an average year. A planned 6-million-gallon tank under the park will hold that flow until the wastewater treatment plant can take it, cutting the projected average to about 10 overflows a year.
 
-You don't need to apply for anything. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The state grant covers $100 million of the city's estimated $135.81 million project budget; the grant agreement leaves the remaining costs to Richmond. Then-Gov. Glenn Youngkin proposed the additional $50 million that brought available state support to $100 million, and the General Assembly enacted it. Mayor Danny Avula was patron of the ordinance accepting the grant, and Public Utilities Director Scott Morris submitted DPU's request. City Council adopted the ordinance 9-0 on October 14, 2025.
+You don't need to apply for anything. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The state grant covers $100 million of the city's estimated $135.81 million project budget; the grant agreement leaves the remaining costs to Richmond. Then-Gov. Glenn Youngkin proposed the additional $50 million that brought available state support to $100 million, and the General Assembly enacted it. Mayor Danny Avula was patron of the ordinance accepting the grant, and Public Utilities Director Scott Morris submitted DPU's request. City Council adopted the ordinance on October 14, 2025.
 
 The city developed its first long-term sewer-overflow plan in 1988, and a 2020 state law now requires completing the work by July 1, 2035. Bids for this tank closed in July 2026, but the design-build contract had not been awarded as of August 5. The park will be mostly closed during construction and restored afterward.

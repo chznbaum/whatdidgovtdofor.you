@@ -1,6 +1,6 @@
 ---
 title: Your ESCO bill must show what the utility would have charged you
-dek: Since June 2026, New York law has required the first page of ESCO customers' bills to compare their charges with the utility's price. It also requires a yearly statement showing whether they saved or paid more, though utilities are still completing the rollout.
+dek: Since June 2026, New York law has required residential and small-business ESCO bills to compare their charges with the utility's price. A yearly statement must also show whether customers saved or paid more; some utilities are still completing the rollout.
 level: state
 jurisdiction: ny
 action:
@@ -89,14 +89,14 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the enacted and amended text, sponsors, effective date, and both listed vote totals. Corrected the billing description, lawsuit qualification, and status because the latest confirmed implementation update showed an uneven rollout.
+  notes: Confirmed the enacted and amended text, sponsors, effective date, roll calls, damages, and rollout status. Narrowed two statements to the customers covered by the law and corrected the attribution of the implementation update.
 source_key: ny-2025-s3876
 ---
 
-Some New Yorkers buy their gas or electricity supply from an energy services company, or ESCO, instead of their local utility. New York law now requires the first page of every ESCO customer's bill to put two totals side by side: what the customer paid for ESCO supply plus utility delivery during the last billing period, and what the customer would have paid if the local utility or municipal provider supplied and delivered the energy. Any extras, like add-on energy products, must be listed separately.
+Some New Yorkers buy their gas or electricity supply from an energy services company, or ESCO, instead of their local utility. New York law now requires the first page of every residential and small-business ESCO customer's bill to put two totals side by side: what the customer paid for ESCO supply plus utility delivery during the last billing period, and what the customer would have paid if the local utility or municipal provider supplied and delivered the energy. Any extras, like add-on energy products, must be listed separately.
 
 Every 12 months, the ESCO must also provide a statement that says plainly whether the customer saved money or paid a premium. This covers homes and small businesses, and customers do not need to request it. ESCOs must bear the utilities' compliance costs and cannot recover those costs from customers. If a violation injures you, you can sue for your actual damages or $500, whichever is greater. The attorney general can also sue.
 
 Sen. Brad Hoylman-Sigal and Assemblymember Jeffrey Dinowitz sponsored the original bill. It passed the Senate 57–4 and the Assembly 134–11 in spring 2025. Gov. Kathy Hochul signed it on December 19, 2025. Dinowitz sponsored the 2026 chapter amendment, and Sen. Rachel May sponsored its Senate counterpart. The law took effect June 17, 2026.
 
-Implementation has been uneven. In the latest confirmed update, on September 10, 2026, state utility officials reported that comparisons were live for some customers while several utilities were still building systems for other bills and the annual statements.
+Implementation has been uneven. In the latest confirmed update, on September 10, 2026, utility representatives reported that comparisons were live for some customers while several utilities were still building systems for other bills and the annual statements.

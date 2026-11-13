@@ -21,9 +21,9 @@ impact:
     label: minimum time the apartments must stay affordable
 status:
   state: phasing-in
-  as_of: 2026-07-27
-  note: The latest source we could verify is the July 27, 2026, adopted agreement, which describes construction as still to come. It requires construction to start within 18 months of the agreement's effective date and finish within three years after work starts, although the city may extend either deadline.
-  source: https://richmondva.legistar.com/LegislationDetail.aspx?ID=8128475&GUID=D7DFA387-5EE6-4004-ACBA-B6D4E8DAED24&FullText=1
+  as_of: 2026-08-27
+  note: On Aug. 27, 2026, the Economic Development Authority unanimously authorized its chair to execute the agreement; no later verifiable construction update was found. The agreement requires construction to start within 18 months of its effective date and finish within three years after work starts, although the city may extend either deadline.
+  source: https://richmondeda.com/wp-content/uploads/2026/09/August-27-2026-Board-Meeting-Minutes-FINAL.pdf
 credit:
   - official: ellen-robertson
     role: sponsored
@@ -39,6 +39,10 @@ sources:
     publisher: Richmond City Council (Legistar)
     url: https://richmondva.legistar.com/LegislationDetail.aspx?ID=8128475&GUID=D7DFA387-5EE6-4004-ACBA-B6D4E8DAED24&FullText=1
     date: 2026-07-27
+  - title: Economic Development Authority Board meeting agenda packet
+    publisher: Economic Development Authority of the City of Richmond
+    url: https://richmondeda.com/wp-content/uploads/2026/08/2026.08.27-EDA-Board-Meeting-Agenda-Packet.pdf
+    date: 2026-08-27
   - title: Public Information Advisory, Special Meeting (Rady Flats housing bonds)
     publisher: City of Richmond, Office of the City Clerk
     url: https://www.rva.gov/office-city-clerk/news/public-information-advisory-special-meeting-9
@@ -58,7 +62,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the adoption date, patrons, affordability terms, tax-grant structure, project history, and lack of a newer verifiable construction update. Replaced a dead attachment URL and restored the required pending verification state.
+  notes: Confirmed the council’s 9–0 adoption and the agreement’s affordability, tax-grant, and construction terms. Updated the status to the newer August 2026 EDA action and reset verification to pending.
 source_key: richmond-ord-2026-170
 ---
 

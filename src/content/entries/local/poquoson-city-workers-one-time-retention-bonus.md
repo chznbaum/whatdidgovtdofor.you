@@ -48,7 +48,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: pass
-  notes: Confirmed all amounts, eligibility rules, funding source, ordinance details, and the 7–0 vote against the official minutes. No later public record confirmed payment, so the dated phasing-in status and explanatory note remain appropriately cautious.
+  notes: Confirmed the amounts, eligibility rules, carryover funding, action date and name, and 7–0 vote against the official minutes. Searches of later Poquoson records found no confirmation of payment, so the cautious dated status remains appropriate.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 
