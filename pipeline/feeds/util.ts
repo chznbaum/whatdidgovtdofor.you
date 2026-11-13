@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import { promisify } from 'node:util';
 import type { Candidate } from './types.ts';
 
-const USER_AGENT = 'Mozilla/5.0 (compatible; whatdidgovtdofor.you-feeds; +https://whatdidgovtdofor.you)';
+export const USER_AGENT = 'Mozilla/5.0 (compatible; whatdidgovtdofor.you-feeds; +https://whatdidgovtdofor.you)';
 
 // Keep API keys out of logs and error messages.
 export const redact = (url: string) => url.replace(/((?:api_)?key|token)=[^&]+/gi, '$1=***');

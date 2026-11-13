@@ -212,6 +212,14 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     category: z.number().int(), // the body's category id (/AgendaCenter/City-Council-Agendas-25 is 25)
     file: z.enum(['minutes', 'agenda']), // `agenda` where the clerk adds every item's outcome to the agenda after the meeting
   }),
+  z.object({
+    type: z.literal('laserfiche'), // a Laserfiche WebLink archive: each meeting's OCR'd summary or minutes is a recap
+    id: z.string().optional(),
+    url: z.url(), // the WebLink root, e.g. https://edocs.vbgov.com/WebLink
+    repo: z.string(), // the repository, e.g. CityClerk
+    folder: z.number().int(), // the series' folder, which holds one subfolder per year
+    title: z.string(), // what each document is: "Summary of City Council actions"
+  }),
 ]);
 
 // A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.

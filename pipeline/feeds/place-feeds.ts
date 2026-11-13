@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
 import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
+import { laserficheFeed } from './laserfiche.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
 import type { Feed } from './types.ts';
@@ -71,6 +72,19 @@ export async function placeFeeds(): Promise<Feed[]> {
               origin: f.url,
               category: f.category,
               file: f.file,
+              place,
+            }),
+          );
+          break;
+        case 'laserfiche':
+          out.push(
+            laserficheFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: ${f.title.toLowerCase()} (Laserfiche WebLink)`,
+              url: f.url,
+              repo: f.repo,
+              folder: f.folder,
+              title: f.title,
               place,
             }),
           );

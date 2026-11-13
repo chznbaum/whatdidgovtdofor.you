@@ -3,7 +3,10 @@ short: Virginia Beach
 kind: city
 parent: va
 geoids: { state: "51", county: "51810" }
+# A day or two after each meeting the clerk files a "Summary of City Council Actions" (every item's action and each
+# member's vote) in the city's Laserfiche archive. The news feed is mostly police and court items.
 feeds:
+  - { type: laserfiche, url: "https://edocs.vbgov.com/WebLink", repo: CityClerk, folder: 840, title: Summary of City Council actions }
   - { type: rss, url: "https://virginiabeach.gov/news.rss" }
 council:
   body: City Council
