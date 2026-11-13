@@ -97,7 +97,9 @@ switch (positionals[0]) {
     for (const m of list) {
       const detail = `/Citizens/Detail_Meeting.aspx?ID=${m.id}`;
       const html = (await fetchBytes(detail)).toString('utf8');
-      const file = html.match(/FileOpen\.aspx\?Type=15&(?:amp;)?ID=(\d+)/)?.[1]; // Summary Minutes
+      // The meeting's own minutes are the "Summary Minutes" download; links in the agenda ("Minutes of Feb 25, 2026")
+      // are earlier meetings' minutes up for approval.
+      const file = html.match(/FileOpen\.aspx\?Type=15&(?:amp;)?ID=(\d+)[^>]*>\s*Summary Minutes\s*</)?.[1];
       if (!file) continue; // no minutes posted
       const text = (await pdfText(await fetchBytes(`/Citizens/FileOpen.aspx?Type=15&ID=${file}&Inline=True`))).trim();
       if (!text) continue; // a scan, not text
