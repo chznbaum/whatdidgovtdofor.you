@@ -10999,10 +10999,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb488": {
-  "decision": "promising",
-  "reason": "triage: Caps wage garnishment for state tax debt at 25%; direct protection",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 396, 2026) that for the first time puts state tax debts under Virginia's wage-garnishment limits and writes Currently Not Collectible protection into law. That protects workers' paychecks, and it is separate from the existing local-tax entry (HB 1100).",
+  "file": "src/content/entries/state/va-2026-hb488-state-tax-garnishment-cap.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb507": {
   "decision": "skip",
@@ -11156,10 +11157,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb795": {
-  "decision": "promising",
-  "reason": "triage: Insurers must cover another opioid overdose reversal drug; saves lives",
+  "decision": "drafted",
+  "reason": "HB 795 is signed law (Chapter 423, approved April 8, 2026) that requires Virginia-regulated health plans with drug coverage to put at least one overdose-reversal drug on their lowest cost tier with no prior authorization, a direct cost and safety benefit for members.",
+  "file": "src/content/entries/state/va-2026-hb795-overdose-reversal-drug-lowest-tier.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb797": {
   "decision": "skip",
@@ -11192,10 +11194,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb845": {
-  "decision": "promising",
-  "reason": "triage: Bars splitting eviction case when tenant contests rent; tenant protection",
+  "decision": "error",
+  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13",
+  "attempts": 1
  },
  "va-2026-hb846": {
   "decision": "skip",
@@ -11429,10 +11432,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb4": {
-  "decision": "promising",
-  "reason": "triage: localities can preserve affordable housing via first refusal",
+  "decision": "skip",
+  "reason": "HB 4 only lets Virginia localities adopt a right-of-first-refusal ordinance to preserve subsidized housing, and I found no locality that has adopted one, so it has no direct effect on anyone yet (a local ordinance adopted under Va. Code § 36-179 could qualify later).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb401": {
   "decision": "skip",
@@ -11441,10 +11444,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb410": {
-  "decision": "promising",
-  "reason": "triage: SAT during school day required",
+  "decision": "drafted",
+  "reason": "An enacted law that has been in effect since July 1, 2026 requires every Virginia school board to let each high school student take the SAT at their own school during the school day, a concrete service for students who can't make a weekend test.",
+  "file": "src/content/entries/state/va-sat-at-your-high-school-on-a-school-day.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb413": {
   "decision": "promising",
@@ -11453,10 +11457,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb422": {
-  "decision": "promising",
-  "reason": "triage: water utilities limited to one rate case per 3 years",
+  "decision": "skip",
+  "reason": "HB 422's limit of one water-rate increase every three years only takes effect if the 2027 General Assembly reenacts it, so for now it has no effect on anyone and is closer to a proposal than an enacted benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb425": {
   "decision": "promising",
@@ -11477,10 +11481,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb444": {
-  "decision": "promising",
-  "reason": "triage: protects consumers from bad debt default judgments",
+  "decision": "drafted",
+  "reason": "This is an enacted Virginia law, Chapter 395, signed April 8, 2026. Starting July 1, 2027, it bars default judgments in consumer debt lawsuits unless the collector documents the debt and sends a plain-language warning notice, which directly protects people who get sued over debts.",
+  "file": "src/content/entries/state/va-2026-hb444-consumer-debt-default-judgments.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb1": {
   "decision": "skip",
@@ -11543,10 +11548,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb180": {
-  "decision": "promising",
-  "reason": "triage: Cuts fines collection window from 30-60 to 10 years; real relief",
+  "decision": "skip",
+  "reason": "SB 180 (Chapter 356) is the Senate companion of HB 17 (Chapter 355); both were approved on the same day and cut the court-fine collection limit to 10 years, which the existing entry va-2026-hb17 already covers.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb184": {
   "decision": "promising",
@@ -11567,10 +11572,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb227": {
-  "decision": "promising",
-  "reason": "triage: Arbitration fairness rules for consumers/workers with civil remedies",
+  "decision": "drafted",
+  "reason": "SB 227 (Chapter 490) is enacted and in effect. It gives consumers and Virginia workers who were forced into arbitration a say in who their arbitrator is, bars conflicted providers from running cases, and lets them go to court if the company doesn't pay its arbitration fees, which is a direct rights protection.",
+  "file": "src/content/entries/state/va-2026-sb227-fair-arbitrator-selection.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb246": {
   "decision": "skip",
@@ -11591,10 +11597,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb257": {
-  "decision": "promising",
-  "reason": "triage: Requires insurers cover overdose reversal drug",
+  "decision": "skip",
+  "reason": "SB 257 is identical to HB 795, which already has an entry (va-2026-hb795, \"An overdose-reversal drug must be on your plan's cheapest tier\"), so this would duplicate it; Sen. Favola's credit belongs in that entry instead.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb260": {
   "decision": "skip",
@@ -11711,10 +11717,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb48": {
-  "decision": "promising",
-  "reason": "triage: Tenants get 14 days instead of 5 before eviction remedies",
+  "decision": "skip",
+  "reason": "SB 48 is identical to HB 15, which the site already covers as va-2026-hb15 (\"Virginia renters get 14 days, not 5, to catch up on late rent\"); Sen. Aaron Rouse's Senate version could be added as a credit on that entry instead.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb492": {
   "decision": "skip",
@@ -11868,10 +11874,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb74": {
-  "decision": "promising",
-  "reason": "triage: Lets all localities create affordable housing programs; enabling only, optional",
+  "decision": "skip",
+  "reason": "SB 74 only lets any Virginia locality choose to create an affordable dwelling unit program through zoning, starting July 1, 2027, so nobody gets a home or a benefit until a locality adopts such a program, and that local ordinance would be the entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb77": {
   "decision": "skip",
@@ -11988,16 +11994,18 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1002": {
-  "decision": "promising",
-  "reason": "triage: utility disconnection notices in more languages and added protections; tangible",
+  "decision": "drafted",
+  "reason": "HB 1002 became law (Ch. 250, in effect July 1, 2026). Before a residential shutoff, state-regulated utilities must now try to offer payment help, and they must send shutoff notices in the local election-materials language. That is a concrete protection for working households, and no existing entry covers it.",
+  "file": "src/content/entries/state/va-2026-hb1002-utility-shutoff-help-first.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1020": {
-  "decision": "promising",
-  "reason": "triage: extends time for child sexual abuse survivors to sue; rights protected",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 251, in effect July 1, 2026) that gives survivors of childhood sexual abuse a new start to Virginia's 20-year deadline to sue when corroborating evidence turns up later. That is a direct, tangible gain in legal rights for people.",
+  "file": "src/content/entries/state/va-2026-hb1020-sexual-abuse-survivors-new-evidence.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1036": {
   "decision": "skip",
@@ -12174,10 +12182,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1301": {
-  "decision": "promising",
-  "reason": "triage: school diabetes care plans required in every division",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 287, signed April 6, 2026) that gives Virginia public school students with diabetes the right to use phones for their care and to get insulin pump help from trained staff, and that requires every division to have a diabetes care plan.",
+  "file": "src/content/entries/state/va-2026-hb1301-student-diabetes-care-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1304": {
   "decision": "skip",
@@ -12372,10 +12381,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb176": {
-  "decision": "promising",
-  "reason": "triage: more workers get state retirement IRA access",
+  "decision": "drafted",
+  "reason": "HB 176 is enacted (Chapter 84, in effect since July 1, 2026). It extends Virginia's auto-enroll RetirePath IRA from businesses with 25+ employees to those with 5+, and to part-time workers, which reaches about 350,000 more workers who have no retirement plan at their job.",
+  "file": "src/content/entries/state/va-2026-hb176-retirepath-small-employers.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb177": {
   "decision": "skip",
@@ -12492,10 +12502,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb527": {
-  "decision": "promising",
-  "reason": "triage: Eviction Reduction Program established; may be unfunded, writer checks funding",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry va-gov-1120864 (\"Help for Virginians facing eviction is now permanent, not a pilot\"): HB 527 and its identical bill SB 628 are the law that made Virginia's eviction reduction pilot a permanent program at the state housing department.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb544": {
   "decision": "skip",
@@ -12576,10 +12586,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb602": {
-  "decision": "promising",
-  "reason": "triage: Open captioning required at theaters; clear access gain for deaf/hard of hearing",
+  "decision": "drafted",
+  "reason": "HB 602 became law as Chapter 184, signed April 6, 2026, and took effect July 1, 2026. It gives deaf and hard-of-hearing Virginians a concrete accessibility right: open-captioned showings at large theater chains.",
+  "file": "src/content/entries/state/va-2026-hb602-open-captions-at-movie-theaters.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb608": {
   "decision": "skip",
@@ -12792,10 +12803,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb37": {
-  "decision": "promising",
-  "reason": "triage: keeps disability waiver eligibility by ending sunset",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 55, approved April 6, 2026) that permanently keeps Virginians with developmental disabilities from losing Medicaid waiver services when their SSDI rises above the SSI maximum.",
+  "file": "src/content/entries/state/va-2026-hb37-dd-waiver-ssdi-disregard-permanent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb373": {
   "decision": "promising",
@@ -12978,10 +12990,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb770": {
-  "decision": "promising",
-  "reason": "triage: allows discounted water rates for low-income; only permissive, but direct cost relief",
+  "decision": "skip",
+  "reason": "HB 770 only allows private water and sewer utilities to propose low-income discount rates, and allows the SCC to approve them, starting Jan. 1, 2027; no utility has to offer one and none has been approved, so nobody is getting a discount yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb772": {
   "decision": "skip",
@@ -13050,10 +13062,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb837": {
-  "decision": "promising",
-  "reason": "triage: eviction diversion info on summons and eligibility; tenant help, check details",
+  "decision": "skip",
+  "reason": "HB 837 is identical to SB 273, which the site already covers in va-2026-sb273 (\"Sued for back rent in Virginia? Pay 10% down, not 25%, to stop the eviction\"), so a separate entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb840": {
   "decision": "skip",
@@ -13140,10 +13152,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb998": {
-  "decision": "promising",
-  "reason": "triage: menstrual product ingredient labeling and restrictions; consumer safety",
+  "decision": "drafted",
+  "reason": "HB 998 became law as Chapter 249 of 2026 and is effective Jan. 1, 2027. It requires ingredient labels on menstrual products sold in Virginia, a concrete consumer health and safety protection that no existing entry covers.",
+  "file": "src/content/entries/state/va-2026-hb998-menstrual-product-ingredient-labels.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb10": {
   "decision": "skip",
@@ -13152,10 +13165,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb100": {
-  "decision": "promising",
-  "reason": "triage: job protection for volunteer emergency responders",
+  "decision": "drafted",
+  "reason": "This is an enacted Virginia law, in effect since July 1, 2026. It protects working volunteer firefighters and EMS members from losing their jobs for answering emergency calls, and it gives them a right to sue.",
+  "file": "src/content/entries/state/va-2026-sb100-volunteer-responder-job-protection.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb108": {
   "decision": "skip",
@@ -13188,10 +13202,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb122": {
-  "decision": "promising",
-  "reason": "triage: Required school diabetes care plans, protects students",
+  "decision": "skip",
+  "reason": "SB 122 is identical to HB 1301, which is already covered by the existing entry va-2026-hb1301 (student diabetes care at school), so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb123": {
   "decision": "skip",
@@ -13206,10 +13220,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb136": {
-  "decision": "promising",
-  "reason": "triage: Shorter probation for work, treatment, housing; enacted",
+  "decision": "drafted",
+  "reason": "SB 136 (Chapter 77) took effect July 1, 2026. It requires the Department of Corrections to ask a court to end supervised probation after 12 months for people who comply with their conditions and pose minimal risk, which directly affects tens of thousands of Virginians on probation; no existing entry covers it.",
+  "file": "src/content/entries/state/va-2026-sb136-probation-early-termination.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb14": {
   "decision": "skip",
@@ -13236,10 +13251,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb149": {
-  "decision": "promising",
-  "reason": "triage: Expands state retirement savings to firms with 5+ employees",
+  "decision": "skip",
+  "reason": "SB 149 is the Senate companion to HB 176. The existing entry va-2026-hb176 (\"No retirement plan at work? Virginia's IRA now reaches firms with 5+ workers\") already covers the same change to the RetirePath program, which lowers the employer threshold from 25 workers to 5 and drops the 30-hour rule, so a new entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb151": {
   "decision": "skip",
@@ -13614,10 +13629,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb650": {
-  "decision": "promising",
-  "reason": "triage: Lets utilities propose low-income water discounts; optional, but could cut bills",
+  "decision": "skip",
+  "reason": "SB 650 only allows water and sewer utilities to propose low-income discounts and lets the SCC approve them; it doesn't require any discount, it takes effect Jan. 1, 2027, and no approved discount exists yet (WMRA: discounts \"could be on the way\"), so no one gets a concrete benefit until a utility files and the SCC approves.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb665": {
   "decision": "skip",
@@ -13644,10 +13659,10 @@
   "date": "2026-11-11"
  },
  "va-2026-sb722": {
-  "decision": "promising",
-  "reason": "triage: Enacted open captioning at large theater chains",
+  "decision": "skip",
+  "reason": "SB 722 is the Senate companion to HB 602, and the site already covers that law as va-2026-hb602 (\"Virginia's big movie chains must show films with captions on screen\").",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb735": {
   "decision": "skip",
@@ -13915,10 +13930,10 @@
   "date": "2026-11-11"
  },
  "va-2026-hb1180": {
-  "decision": "promising",
-  "reason": "triage: Signed free state tax filing program, starts 2028",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry va-gov-1115213 (\"Virginia is building a free way to file your state taxes online\"), which already covers Virginia's free state income tax filing program enacted by HB 1180 and the identical SB 591.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb1191": {
   "decision": "skip",
@@ -13951,10 +13966,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb220": {
-  "decision": "promising",
-  "reason": "triage: Ends tobacco premium surcharge in health insurance",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 34, 2026) bringing back Virginia's ban on charging tobacco users higher premiums, which had expired Jan. 1, 2026; it cuts premiums for individual and small-group enrollees who use tobacco, at a sourced cost to everyone else of under 1%.",
+  "file": "src/content/entries/state/va-2026-hb220-no-tobacco-surcharge-on-health-premiums.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb340": {
   "decision": "skip",
@@ -13993,10 +14009,11 @@
   "date": "2026-11-11"
  },
  "va-2026-hb655": {
-  "decision": "promising",
-  "reason": "triage: Manufactured homes allowed wherever site-built homes are, cheaper housing",
+  "decision": "drafted",
+  "reason": "This enacted law has a direct housing-cost effect: it makes Virginia localities allow newer manufactured homes on individual lots wherever site-built houses are allowed, and it does not duplicate the existing mobile-home-park entries (HB 374 and HB 375).",
+  "file": "src/content/entries/state/va-2026-hb655-manufactured-homes-where-houses-allowed.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-hb889": {
   "decision": "skip",
@@ -14035,10 +14052,11 @@
   "date": "2026-11-11"
  },
  "va-2026-sb346": {
-  "decision": "promising",
-  "reason": "triage: Manufactured housing zoning, same as HB655",
+  "decision": "drafted",
+  "reason": "An enacted law, in effect since July 1, 2026, that opens most residential zoning to lower-cost manufactured homes and bans stricter rules for them, which directly widens working people's housing options at no cost to services.",
+  "file": "src/content/entries/state/va-2026-sb346-manufactured-homes-zoning.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb377": {
   "decision": "skip",
@@ -14077,28 +14095,29 @@
   "date": "2026-11-11"
  },
  "va-2026-sb591": {
-  "decision": "promising",
-  "reason": "triage: Free state tax filing, same as HB1180",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry va-gov-1115213 (\"Virginia is building a free way to file your state taxes online\"), which covers the same free state tax filing program created by SB 591 and its identical companion, HB 1180.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb628": {
-  "decision": "promising",
-  "reason": "triage: Eviction Reduction Program to divert evictions; check funding",
+  "decision": "skip",
+  "reason": "SB 628 matches HB 527 word for word, and HB 527's expansion of the Virginia Eviction Reduction Program is already covered by entry va-gov-1120864 (\"Help for Virginians facing eviction is now permanent, not a pilot\"), which comes from the governor's July 2026 release that links HB 527 for the program.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb630": {
-  "decision": "promising",
-  "reason": "triage: Ends tobacco premium surcharge, same as HB220",
+  "decision": "skip",
+  "reason": "SB 630 is identical to HB 220, which is already covered by the existing entry va-2026-hb220 (\"Virginia health plans can't charge you more for using tobacco\"), so a new entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb669": {
-  "decision": "promising",
-  "reason": "triage: PBM pass-through pricing rules to lower drug costs",
+  "decision": "drafted",
+  "reason": "This enacted law has a direct effect on patients. Starting July 1, 2027, pharmacy benefit managers must send 100% of drugmaker rebates either to plans, to offset enrollees' cost sharing and premiums, or to patients at the counter. It also covers the state employee health plan.",
+  "file": "src/content/entries/state/va-2026-sb669-drug-rebates-lower-your-costs.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "va-2026-sb729": {
   "decision": "skip",
@@ -14834,10 +14853,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8811": {
-  "decision": "promising",
-  "reason": "triage: Stronger AG power against deceptive and abusive practices",
+  "decision": "skip",
+  "reason": "S8811 is the chapter amendment (Ch. 94 of 2026) to the FAIR Business Practices Act (S8416, Ch. 708 of 2025), which already has an entry (ny-2025-s8416); its changes mostly narrow that law and add nothing new for people, so a separate entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s8818": {
   "decision": "promising",
@@ -15014,10 +15033,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8830": {
-  "decision": "promising",
-  "reason": "triage: Right to sue over coerced debt, protects abuse survivors",
+  "decision": "drafted",
+  "reason": "S8830 is the signed chapter amendment that finalized and set the start date for New York's coerced debt law. That law gives survivors of abuse a concrete legal way to stop collection on debts an abuser forced on them, and to sue the abuser for those debts.",
+  "file": "src/content/entries/state/ny-2025-s8830-coerced-debt-protections.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s8783": {
   "decision": "skip",
@@ -15044,10 +15064,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8789": {
-  "decision": "promising",
-  "reason": "triage: bans credit checks in hiring; enacted-looking, direct worker protection",
+  "decision": "drafted",
+  "reason": "S8789 is the signed chapter amendment that completes New York's statewide ban on using credit history in most hiring, firing, pay and licensing decisions. The ban took effect April 18, 2026, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2025-s8789-no-credit-checks-for-jobs.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s8795": {
   "decision": "promising",
@@ -15236,10 +15257,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-a9452": {
-  "decision": "promising",
-  "reason": "triage: Bans stay-or-pay employment promissory notes",
+  "decision": "skip",
+  "reason": "A9452 (Chapter 16 of 2026) is the chapter amendment to the Trapped at Work Act (A584-C/S4070-B), which ny-2025-a584 already covers, including the Dec. 19 effective date that this amendment set.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a9453": {
   "decision": "promising",
@@ -15326,10 +15347,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a9503": {
-  "decision": "promising",
-  "reason": "triage: Restricts harmful substances in menstrual products",
+  "decision": "drafted",
+  "reason": "A9503 is the signed chapter amendment that sets the final terms of New York's ban on added PFAS, lead, parabens and other toxic chemicals in period products. The ban takes effect Dec. 19, 2026, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2025-a9503-no-toxic-chemicals-in-period-products.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a9506": {
   "decision": "skip",
@@ -15734,10 +15756,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0276": {
-  "decision": "promising",
-  "reason": "triage: enacted protections for rideshare drivers from wrongful deactivation",
+  "decision": "drafted",
+  "reason": "This is an enacted local law (Local Law 52 of 2026) that gives about 87,000 Uber and Lyft drivers job-security rights. A federal judge has blocked it, and it is shown with status blocked.",
+  "file": "src/content/entries/local/nyc-uber-lyft-drivers-just-cause-deactivation.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0408": {
   "decision": "skip",
@@ -15758,16 +15781,16 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0570": {
-  "decision": "promising",
-  "reason": "triage: enacted land bank for affordable housing",
+  "decision": "skip",
+  "reason": "Local Law 56 of 2026 (enacted when the Council overrode Mayor Adams's veto on Jan. 29, 2026) only sets up a land bank corporation, and it hasn't reached anyone yet: Gothamist reported in Sept. 2026 that the board was still being appointed and wasn't expected to apply for the required state UDC approval until about January 2027, and that how it would buy liens or properties was still undecided, so it's still just an entity being organized rather than a delivered benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0958": {
-  "decision": "promising",
-  "reason": "triage: enacted affordable homeownership law",
+  "decision": "skip",
+  "reason": "Local Law 57 of 2026 makes HPD direct at least 4% of the new units it finances to homeownership units priced for incomes up to 165% of area median, but it fails the net-impact test: Mayor Mamdani's HPD says this housing package would cost $600 million a year or produce more than 3,275 fewer affordable units overall, so it may take housing from lower-income renters, and no units have been delivered yet to show otherwise.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-1120": {
   "decision": "skip",
@@ -15776,10 +15799,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1251": {
-  "decision": "promising",
-  "reason": "triage: enacted vendor licensing; writer verifies effect",
+  "decision": "skip",
+  "reason": "Int 1251-A (Local Law 59 of 2026) is a companion bill: it only lets DCWP and the Health Department keep issuing license applications until they reach the caps that Int 431-B (Local Law 54 of 2026) set, and the existing entry nyc-rule-general-vendor-license-waitlists already covers those new licenses, so a separate entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1279": {
   "decision": "skip",
@@ -15788,22 +15811,25 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1297": {
-  "decision": "promising",
-  "reason": "triage: enacted expansion of protections against gender-motivated violence",
+  "decision": "drafted",
+  "reason": "Local Law 50 of 2026, enacted over a mayoral veto, gives survivors of gender-motivated violence from before 2022 an 18-month window to sue abusers and the institutions that enabled them. It restores claims that hundreds of survivors lost when courts dismissed their cases in 2025.",
+  "file": "src/content/entries/local/nyc-gender-violence-survivors-new-window-to-sue.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1391": {
-  "decision": "promising",
-  "reason": "triage: enacted pay and training standards for security guards",
+  "decision": "drafted",
+  "reason": "Local Law 61 of 2026, passed over Mayor Adams's veto, sets a wage, paid time off and benefits floor for about 60,000 private security guards in NYC, and DCWP has already published 2027 rates; a pending REBNY lawsuit makes its status under-threat.",
+  "file": "src/content/entries/local/nyc-security-guards-city-contract-pay.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1407": {
-  "decision": "promising",
-  "reason": "triage: tax lien sales; writer checks homeowner protection",
+  "decision": "drafted",
+  "reason": "Local Law 62 of 2026 was enacted over a mayoral veto. It protects people who own and live in their homes: after the city sells a lien on their tax debt, the buyer must wait a year to foreclose and can only do so once the debt is large, and the buyer must send quarterly notices of what's owed. The protections cover the next sale, which the city plans for mid-2027.",
+  "file": "src/content/entries/local/nyc-tax-lien-buyers-must-wait-to-foreclose-on-homes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1412": {
   "decision": "skip",
@@ -15824,10 +15850,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1443": {
-  "decision": "promising",
-  "reason": "triage: enacted deeper affordability requirements for subsidized rentals",
+  "decision": "skip",
+  "reason": "Local Law 66 of 2026 (passed over Adams's veto on Jan. 29, 2026) doesn't start until July 1, 2027, HPD can scale it back if federal housing money falls, and the net-impact test is unsettled: Mamdani's HPD and the Fiscal Policy Institute both warned the Council's three housing bills could mean thousands fewer affordable units or cost about $600 million a year (cited for the package, not this bill alone), so we can't yet show working people come out ahead.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-01-executive-order-12": {
   "decision": "skip",
@@ -15944,10 +15970,11 @@
   "date": "2026-11-11"
  },
  "us-law-119-73": {
-  "decision": "promising",
-  "reason": "triage: Enacted law clearing records of trafficking survivors",
+  "decision": "drafted",
+  "reason": "An enacted federal law that gives human trafficking survivors a new way to clear federal convictions and arrests tied to their trafficking, which directly affects their access to jobs and housing.",
+  "file": "src/content/entries/federal/trafficking-survivors-can-clear-federal-records.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-74": {
   "decision": "skip",
@@ -15980,10 +16007,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14376": {
-  "decision": "promising",
-  "reason": "triage: Order limiting investor home purchases; effect on buyers to verify",
+  "decision": "skip",
+  "reason": "The order mostly told agencies to write definitions and guidance and asked Congress to make the policy law; the actual limit on big investors buying homes comes from the 21st Century ROAD to Housing Act (Pub. L. 119-101 §1001), which CRS says was added in response to this order and which existing entry us-law-119-101 already covers.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-fr-2026-00928": {
   "decision": "skip",
@@ -16058,10 +16085,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0910": {
-  "decision": "promising",
-  "reason": "triage: Community hiring and pay standards on city-assisted housing",
+  "decision": "drafted",
+  "reason": "Local Law 21 of 2026 is an enacted law that sets a $40-an-hour pay and benefits floor, a 30% local hiring target and worker enforcement rights for construction workers on large city-funded housing projects starting Jan. 1, 2027; no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-city-funded-housing-construction-pays-40-an-hour.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0987": {
   "decision": "skip",
@@ -16137,10 +16165,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1332": {
-  "decision": "promising",
-  "reason": "triage: Protections against wrongful deactivation for delivery workers",
+  "decision": "drafted",
+  "reason": "Local Law 34 of 2026 is an enacted NYC law that gives app delivery workers just-cause protection against being cut off, with notice and appeals. It is separate from the existing rideshare-driver entry (Int. 276).",
+  "file": "src/content/entries/local/nyc-delivery-app-workers-just-cause-deactivation.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1346": {
   "decision": "skip",
@@ -16167,10 +16196,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1366": {
-  "decision": "promising",
-  "reason": "triage: web forms for benefit applications; enacted, easier access",
+  "decision": "drafted",
+  "reason": "Local Law 39 of 2026 is in effect. It requires NYC's Department of Social Services to let people fill out and sign benefit applications online and to offer phone interviews, while still taking paper applications. That makes city benefits concretely easier to get.",
+  "file": "src/content/entries/local/nyc-benefit-applications-online-and-phone-interviews.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1401": {
   "decision": "skip",
@@ -16323,10 +16353,10 @@
   "date": "2026-11-11"
  },
  "us-law-119-69": {
-  "decision": "promising",
-  "reason": "triage: whole milk in school lunches signed into law; modest",
+  "decision": "skip",
+  "reason": "The law mainly loosens school-meal nutrition standards: it allows whole and 2% milk, leaves milk out of the saturated-fat limit, and drops the tie to the Dietary Guidelines. Whether kids come out ahead is contested, and the law mostly serves the dairy industry, so it isn't a clear win for working families. The smaller provisions that would be clear wins (a parent's note for a milk substitute, allergy training for staff) don't outweigh the core of the law and shouldn't be split off as their own entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2026-01-emergency-executive-order-2-1": {
   "decision": "skip",
@@ -16431,10 +16461,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0895": {
-  "decision": "promising",
-  "reason": "triage: Enacted law stocking epinephrine in schools and child care",
+  "decision": "drafted",
+  "reason": "Local Law 2 of 2026 is an enacted NYC law that requires every public, charter and private school building, and every city-regulated child care facility, to keep epinephrine on hand for allergic emergencies, a direct safety benefit for children.",
+  "file": "src/content/entries/local/nyc-schools-must-stock-epinephrine.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0988": {
   "decision": "skip",
@@ -16467,10 +16498,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1217": {
-  "decision": "promising",
-  "reason": "triage: Required building inspections after rat complaints",
+  "decision": "drafted",
+  "reason": "Local Law 8 of 2026 is in force. It requires NYC's Health Department to try to inspect a building within 14 days of a 311 rat complaint, try again within 20 days if it can't get in, and post the results online, which is a concrete service for tenants.",
+  "file": "src/content/entries/local/nyc-rat-complaints-inspected-within-14-days.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1225": {
   "decision": "skip",
@@ -16617,10 +16649,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a4040": {
-  "decision": "promising",
-  "reason": "triage: Codifies housing discrimination protection",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, Chapter 649 of 2025, and it gives renters and homebuyers a concrete legal protection: they can prove housing discrimination from a practice's effect without showing intent, even if federal rules weaken.",
+  "file": "src/content/entries/state/ny-2025-a4040-housing-bias-by-effect-not-intent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a4712": {
   "decision": "skip",
@@ -16629,10 +16662,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a4727": {
-  "decision": "promising",
-  "reason": "triage: Paid family leave for union construction workers",
+  "decision": "drafted",
+  "reason": "This is a signed law. Starting Jan. 1, 2027, union construction workers who move between employers can qualify for New York's paid family leave, a direct benefit to workers that no existing entry covers.",
+  "file": "src/content/entries/state/ny-2025-a4727-construction-workers-paid-family-leave.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a4938": {
   "decision": "promising",
@@ -16756,10 +16790,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-s1353": {
-  "decision": "promising",
-  "reason": "triage: Debtors freed from coerced debts",
+  "decision": "skip",
+  "reason": "This duplicates existing entry ny-2025-s8830 (\"Forced into debt by an abuser? New York lets you fight it and sue them\"), which covers the same coerced-debt law: S8830 is the negotiated chapter amendment to S1353-B, sponsored by Cordell Cleare.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s1548": {
   "decision": "promising",
@@ -16804,10 +16838,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-s3072": {
-  "decision": "promising",
-  "reason": "triage: Bans credit checks in hiring",
+  "decision": "skip",
+  "reason": "This repeats the existing entry ny-2025-s8789. S8789 is the chapter amendment to S3072 (L.2025, c.681), and that entry already covers the ban on using credit history in hiring and firing.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s3157": {
   "decision": "promising",
@@ -16828,10 +16862,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s3876": {
-  "decision": "promising",
-  "reason": "triage: Energy bills must show price vs utility",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, in effect since June 2026. ESCOs must show residential and small-business customers, on every bill and once a year, what the utility would have charged them, and ESCOs can't pass the cost of doing so on to customers.",
+  "file": "src/content/entries/state/ny-2025-s3876-esco-bills-show-utility-price.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s3967": {
   "decision": "promising",
@@ -16852,10 +16887,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2025-24123": {
-  "decision": "promising",
-  "reason": "triage: telehealth prescribing extended through 2026",
+  "decision": "drafted",
+  "reason": "The joint DEA–HHS temporary rule keeps patients' access to Schedule II–V medications through telemedicine, with no in-person exam required, through Dec. 31, 2026. That is a direct effect on patients, and no existing entry covers it (the Medicare telehealth entry is a different action).",
+  "file": "src/content/entries/federal/telehealth-prescriptions-for-controlled-medicines-through-2026.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2025-12-mayor-adams-announces-2-million-emergency-fund-to-further-suppo": {
   "decision": "promising",
@@ -17014,10 +17050,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-1049": {
-  "decision": "promising",
-  "reason": "triage: gas pump hold disclosure protects drivers' money",
+  "decision": "drafted",
+  "reason": "Local Law 196 of 2025 is now in effect. It requires NYC gas stations to post whether they place a hold on your card, how much it is, and how to avoid it, which protects drivers who pay with debit and benefit cards from surprise holds.",
+  "file": "src/content/entries/local/nyc-gas-stations-must-disclose-card-holds.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-1075": {
   "decision": "skip",
@@ -17074,16 +17111,18 @@
   "date": "2026-11-11"
  },
  "ny-2025-s2536": {
-  "decision": "promising",
-  "reason": "triage: prevailing wage for off-site fabrication workers",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed New York law (Chapter 713 of 2025, amended by Chapter 20 of 2026). It extends prevailing-wage pay to workers who build custom parts off-site for public projects. A federal court has paused it by consent, so its status is set to blocked.",
+  "file": "src/content/entries/state/ny-2025-s2536-offsite-fabrication-prevailing-wage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-58": {
-  "decision": "promising",
-  "reason": "triage: Funds rural county schools and roads; enacted",
+  "decision": "drafted",
+  "reason": "An enacted, bipartisan law that restored more than $400 million in payments to over 700 rural counties for schools, roads and emergency services. The money adds spending and cuts no services.",
+  "file": "src/content/entries/federal/rural-counties-got-back-school-and-road-money-after-lapse.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "us-law-119-60": {
   "decision": "skip",
@@ -17158,10 +17197,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a203": {
-  "decision": "promising",
-  "reason": "triage: Hospital workplace violence programs protect health workers",
+  "decision": "drafted",
+  "reason": "This signed New York law, Chapter 618 of 2025, requires hospitals to set up violence prevention programs with their workers and to post security staff at emergency departments. That directly improves safety for health care workers, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2025-a203-hospital-workplace-violence-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a2725": {
   "decision": "promising",
@@ -17194,10 +17234,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a8465": {
-  "decision": "promising",
-  "reason": "triage: Prevailing wage for concrete/asphalt haulers; wage gain for workers",
+  "decision": "drafted",
+  "reason": "Signed law (Ch. 626 of 2025) that took effect immediately and requires prevailing wages for drivers delivering and hauling concrete and asphalt on public works in NYC, Nassau, Suffolk, Westchester and Putnam, which gives a direct pay gain to workers.",
+  "file": "src/content/entries/state/ny-2025-a8465-concrete-asphalt-haulers-prevailing-wage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a8678": {
   "decision": "skip",
@@ -17254,10 +17295,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s7120": {
-  "decision": "promising",
-  "reason": "triage: Manufactured home titling lets owners get standard mortgages",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 636 of 2025) that gives owners of manufactured homes on permanent foundations a way to make them real property, so they can get regular mortgages instead of costlier chattel loans; it takes effect Dec. 12, 2026.",
+  "file": "src/content/entries/state/ny-2025-s7120-manufactured-homes-mortgaged-like-houses.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s7416": {
   "decision": "skip",
@@ -17296,10 +17338,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-1123": {
-  "decision": "promising",
-  "reason": "triage: On-street trash containers; local sanitation service",
+  "decision": "skip",
+  "reason": "Local Law 180 of 2025 mainly gives DSNY the power to require on-street trash bins and charge 10+ unit buildings up to $55 per unit a year (a cost that can pass to residents), so its effect falls mostly on government powers and building fees rather than a clear, sourced net benefit to working people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1193": {
   "decision": "promising",
@@ -17362,10 +17404,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s4914": {
-  "decision": "promising",
-  "reason": "triage: Shields health care providers and patients from out-of-state penalties",
+  "decision": "drafted",
+  "reason": "Enacted Dec. 19, 2025 as Chapter 694, it protects patients, helpers and clinicians from other states' penalties. It also limits release of their health records for legal abortion and gender-affirming care. This goes beyond the existing 2022 shield-law entry and is still in effect, as amended in 2026.",
+  "file": "src/content/entries/state/ny-2025-s4914-shield-law-health-records-protections.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s52": {
   "decision": "skip",
@@ -17470,10 +17513,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8338": {
-  "decision": "promising",
-  "reason": "triage: Discriminatory-effect standard strengthens civil rights protection",
+  "decision": "drafted",
+  "reason": "Signed law (Chapter 706 of 2025) that lets New York workers challenge employer practices that unfairly shut out protected groups even when nobody can prove intent. It covers employment, so it's separate from the housing law in the existing ny-2025-a4040 entry.",
+  "file": "src/content/entries/state/ny-2025-s8338-job-bias-by-effect-not-intent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s8415": {
   "decision": "promising",
@@ -17675,10 +17719,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-a387": {
-  "decision": "promising",
-  "reason": "triage: enacted: hospitals must provide language assistance",
+  "decision": "skip",
+  "reason": "A387B (Chapter 614 of 2025) mostly writes into state law New York's existing hospital language-assistance rule, 10 NYCRR 405.7(a)(7). The rule already requires the coordinator, signage, free interpreters, the age-16 interpreter limit, the limits on family interpreters and the 1% translation threshold, so patients gain no new benefit they can point to, and the entry would overstate what changed.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2025-12-emergency-executive-order-893": {
   "decision": "skip",
@@ -17849,10 +17893,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s3398": {
-  "decision": "promising",
-  "reason": "triage: Bans retaliation against workers requesting accommodation",
+  "decision": "drafted",
+  "reason": "Signed as Chapter 600 of 2025, the law explicitly bars retaliation for asking for a reasonable accommodation. That closes a gap that New York appellate courts had read into the state Human Rights Law, so it directly protects workers', tenants' and customers' rights.",
+  "file": "src/content/entries/state/ny-2025-s3398-no-retaliation-for-accommodation-requests.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s3799": {
   "decision": "skip",
@@ -17867,10 +17912,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s4200": {
-  "decision": "promising",
-  "reason": "triage: Clearer financial aid letters for students",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Ch. 602 of 2025). It requires the award letter that every New York college and vocational school must send to undergraduate aid applicants to show the net cost after grants and the loan options available, which helps students and families avoid unexpected debt.",
+  "file": "src/content/entries/state/ny-2025-s4200-college-aid-letters-show-net-cost.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s4274": {
   "decision": "skip",
@@ -17885,10 +17931,10 @@
   "date": "2026-11-11"
  },
  "ny-2025-s5935": {
-  "decision": "promising",
-  "reason": "triage: Bans online sweepstakes games, protects consumers",
+  "decision": "skip",
+  "reason": "S5935A (Chapter 605 of 2025) bans online sweepstakes casino games and penalizes the operators and the companies that support them; it gives people nothing they can point to (no refunds or wind-down for players, no new addiction help beyond sending the fines to existing problem-gambling programs), and the sponsor's memo says much of the aim is to stop untaxed competition with licensed casinos, so it doesn't meet the direct, tangible effect standard.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s6705": {
   "decision": "promising",
@@ -17957,10 +18003,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a1195": {
-  "decision": "promising",
-  "reason": "triage: No-cost lung cancer follow-up screening coverage",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed law. It requires state-regulated health plans to cover follow-up lung cancer scans and tests with no cost sharing, starting January 1, 2027, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-2025-a1195-lung-cancer-follow-up-tests-no-cost.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0982": {
   "decision": "skip",
@@ -17969,10 +18016,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2025-21242": {
-  "decision": "promising",
-  "reason": "triage: VA debt waiver window doubled to one year; enacted rule",
+  "decision": "drafted",
+  "reason": "Section 254 of the Cleland-Dole Act gives people who get a VA benefit-overpayment debt notice a year instead of 180 days to ask VA to waive the debt. VA's November 2025 final rule writes that change into its regulations. None of the existing entries covers this provision.",
+  "file": "src/content/entries/federal/veterans-get-a-year-to-ask-va-to-waive-overpayment-debts.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2025-11-mayor-adams-borough-president-richards-announce-queens-holocau": {
   "decision": "skip",
@@ -18187,10 +18235,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a7385": {
-  "decision": "promising",
-  "reason": "triage: $125M more for Rochester school modernization",
+  "decision": "drafted",
+  "reason": "The bill was signed into law (Chapter 527 of 2025). It added $125 million in state-backed money to renovate six aging Rochester public schools, which is real school infrastructure for students and staff.",
+  "file": "src/content/entries/state/ny-2025-a7385-rochester-schools-renovation-125-million.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a7427": {
   "decision": "promising",
@@ -18404,10 +18453,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-1146": {
-  "decision": "promising",
-  "reason": "triage: expands newborn home visits",
+  "decision": "drafted",
+  "reason": "Local Law 167 of 2025 is in force: it requires NYC to keep its free newborn home visiting program and to expand it to every priority neighborhood by 2030, a direct health service for new parents.",
+  "file": "src/content/entries/local/nyc-free-newborn-home-visits-expand-to-every-priority-neighborhood.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1231": {
   "decision": "promising",
@@ -18422,10 +18472,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2025-1285": {
-  "decision": "promising",
-  "reason": "triage: citywide doula program",
+  "decision": "drafted",
+  "reason": "Local Law 170 of 2025 makes NYC's free doula program permanent in law. The program serves residents of high-need neighborhoods at no cost, so it is a concrete health service for working families.",
+  "file": "src/content/entries/local/nyc-free-doula-care-made-permanent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2025-1290": {
   "decision": "promising",
@@ -18560,10 +18611,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s4153": {
-  "decision": "promising",
-  "reason": "triage: Stores must accept cash; enacted, protects unbanked and low-income shoppers",
+  "decision": "drafted",
+  "reason": "This signed New York law has been in effect since March 21, 2026. It requires food stores and retailers across the state to accept cash and bars them from charging cash payers more, which directly protects people without bank accounts or cards.",
+  "file": "src/content/entries/state/ny-2025-s4153-stores-must-accept-cash.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s4892": {
   "decision": "skip",
@@ -18878,10 +18930,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a6558": {
-  "decision": "promising",
-  "reason": "triage: allergen labeling on prepackaged foods, safety",
+  "decision": "drafted",
+  "reason": "This enacted law (Chapter 494 of 2025) took effect Nov. 12, 2026. It requires delis, bakeries, cafeterias, food trucks and stores to label the major allergens in grab-and-go food they package on site, which directly protects New Yorkers with food allergies.",
+  "file": "src/content/entries/state/ny-deli-bakery-grab-and-go-food-must-list-allergens.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a6768": {
   "decision": "skip",
@@ -19047,10 +19100,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8150": {
-  "decision": "promising",
-  "reason": "triage: Law protects veterans from benefits fraud with penalties",
+  "decision": "drafted",
+  "reason": "This is an enacted law, Chapter 491 of 2025. It gives New York veterans a right to sue and adds criminal penalties for anyone who charges unlawful fees for VA benefits help, with penalty money funding free claims assistance. That is a direct protection for working people.",
+  "file": "src/content/entries/state/ny-veterans-can-sue-over-unlawful-va-claims-fees.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2025-11-mayor-adams-offers-former-employees-who-were-terminated-for-refu": {
   "decision": "skip",
@@ -19179,10 +19233,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a3280": {
-  "decision": "promising",
-  "reason": "triage: Insurance must cover pregnancy ultrasounds",
+  "decision": "drafted",
+  "reason": "This is a signed New York law (Chapter 447 of 2025) that requires state-regulated health plans to cover medically necessary transvaginal ultrasounds during pregnancy starting January 1, 2027, which is a direct health-coverage benefit that no existing entry covers.",
+  "file": "src/content/entries/state/ny-pregnancy-transvaginal-ultrasounds-covered.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a3470": {
   "decision": "promising",
@@ -19233,10 +19288,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-a6869": {
-  "decision": "promising",
-  "reason": "triage: Bans appraiser discrimination in housing",
+  "decision": "drafted",
+  "reason": "Signed law (Ch. 435 of 2025) that makes biased home appraisals a violation of New York's Human Rights Law and lets the state fine appraisers. This is a direct fair-housing protection for homeowners and buyers.",
+  "file": "src/content/entries/state/ny-home-appraisals-cant-be-based-on-who-lives-there.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-a7341": {
   "decision": "skip",
@@ -19329,10 +19385,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s1985": {
-  "decision": "promising",
-  "reason": "triage: Police must seize guns in family violence calls",
+  "decision": "drafted",
+  "reason": "This is an enacted law, signed and in effect, with a direct safety effect on domestic violence victims. It makes it mandatory for police to take guns at family violence calls and keep them at least 120 hours. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-police-must-remove-guns-at-family-violence-calls.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s2551": {
   "decision": "skip",
@@ -19420,10 +19477,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s8311": {
-  "decision": "promising",
-  "reason": "triage: NYCHA succession rights; keeps family in homes, enacted",
+  "decision": "drafted",
+  "reason": "This signed law (Chapter 438 of 2025) writes NYCHA's lease-succession process into state law, guarantees a grievance route when a claim is denied, and requires 30 days' notice before the rules change, a concrete housing-security protection for NYCHA households.",
+  "file": "src/content/entries/state/ny-nycha-family-succession-rights-written-into-law.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2025-s952": {
   "decision": "promising",
@@ -19714,10 +19772,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0621": {
-  "decision": "promising",
-  "reason": "triage: Local law protecting tenants from harassment via unlawful evictions",
+  "decision": "drafted",
+  "reason": "Local Law 144 of 2025 is in effect. It makes an illegal eviction count as tenant harassment under NYC's housing code, so locked-out tenants can bring a harassment case in Housing Court that can end in a court order and fines.",
+  "file": "src/content/entries/local/nyc-illegal-lockouts-count-as-tenant-harassment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0780": {
   "decision": "skip",
@@ -19774,10 +19833,11 @@
   "date": "2026-11-11"
  },
  "ny-2025-s4544": {
-  "decision": "promising",
-  "reason": "triage: Statewide anti-bullying protections for students; confirm signed",
+  "decision": "drafted",
+  "reason": "The bill was signed as Chapter 480 of 2025 and took effect immediately. It gives about 420,000 students at New York private and religious schools real anti-bullying protections, including a required policy, required staff reports and required investigations.",
+  "file": "src/content/entries/state/ny-private-school-students-protected-from-bullying.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2025-10-mayor-adams-continues-to-make-nyc-the-best-place-to-raise-a-fami": {
   "decision": "skip",
@@ -79959,10 +80019,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-hotel-junk-fees": {
-  "decision": "promising",
-  "reason": "triage: Adopted rule banning hidden hotel fees for consumers",
+  "decision": "drafted",
+  "reason": "An adopted DCWP rule in effect since Feb. 21, 2026 requires hotel prices to show mandatory fees up front, which directly lowers surprise costs for New Yorkers; no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-hotel-prices-must-include-mandatory-fees.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "nyc-rule-emergency-rule-repealing-the-low-barrier-bed-placement-process-rule": {
   "decision": "skip",
@@ -87729,10 +87790,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2025-280": {
-  "decision": "promising",
-  "reason": "triage: federal Vision Zero safety grant agreement, funded and enacted",
+  "decision": "skip",
+  "reason": "The ordinance only lets the city sign a federal Safe Streets and Roads for All grant agreement, and the city's own staff report says the money pays for \"supplemental planning activities for Vision Zero,\" so it builds nothing yet and has no direct effect on people.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2025-281": {
   "decision": "skip",
@@ -87801,10 +87862,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2026-008": {
-  "decision": "promising",
-  "reason": "triage: opioid abatement funds for overdose prevention, appropriated",
+  "decision": "drafted",
+  "reason": "The ordinance accepted and spent $619,950 in state opioid-abatement money on overdose outreach, harm-reduction supplies, help paying recovery-housing bed fees, and counseling for children, which are direct services for Richmond residents. The state renewed the award for 2027.",
+  "file": "src/content/entries/local/richmond-overdose-outreach-and-recovery-help.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2026-009": {
   "decision": "skip",
@@ -88896,10 +88958,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2025-225": {
-  "decision": "promising",
-  "reason": "triage: $2M moved into affordable housing trust fund",
+  "decision": "skip",
+  "reason": "This ordinance moves $2 million from one city fund to another, the Affordable Housing Trust Fund, and no source names any homes or people it helped; also, the city auditor found in February 2026 that the transfer still hadn't been recorded, so I can't confirm the money was delivered (the trust fund's lasting funding is already covered by richmond-ord-2026-045).",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "hampton-25-0273": {
   "decision": "skip",
@@ -89184,10 +89246,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2025-236": {
-  "decision": "promising",
-  "reason": "triage: City grant funds affordable housing development; writer checks details",
+  "decision": "drafted",
+  "reason": "The ordinance authorized a city performance grant that helped finance 78 income-restricted apartments for households at 30% to 80% of area median income, and the building opened in May 2026.",
+  "file": "src/content/entries/local/richmond-bellevue-gardens-78-affordable-apartments.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2025-237": {
   "decision": "skip",
@@ -114397,10 +114460,11 @@
   "date": "2026-11-12"
  },
  "hanover-news-1098-authorized-4-million-for-short-term-water-resilience-improve": {
-  "decision": "promising",
-  "reason": "triage: funded water pumps improve supply reliability; transfer, no new cost",
+  "decision": "drafted",
+  "reason": "Hanover's board funded $4 million in pumps and pump-station upgrades. The work is meant to keep water flowing to county customers if Richmond's supply fails again, as it did in January 2025. It is paid from existing capital funds with no new taxes or fees.",
+  "file": "src/content/entries/local/hanover-water-backup-pumps-after-richmond-outage.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "hanover-news-1098-cup2025-00012": {
   "decision": "skip",
@@ -116709,10 +116773,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1608-6592": {
-  "decision": "promising",
-  "reason": "triage: $9.45M contract to build fire station",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors awarded a funded $9.45 million contract to build a new fire and rescue station in Sandy Hook. Sources say it will be staffed 24/7 with an engine and an ambulance, and it creates the county's first new emergency response district in more than 60 years.",
+  "file": "src/content/entries/local/goochland-sandy-hook-fire-station-8.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "goochland-council-iqm2-1608-6594": {
   "decision": "skip",
@@ -116751,10 +116816,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1606-6550": {
-  "decision": "promising",
-  "reason": "triage: Funded roundabout for road safety",
+  "decision": "drafted",
+  "reason": "Goochland's board formally appropriated $3.29 million to fund a roundabout at the Fairground Road and Maidens Road intersection, a funded infrastructure project, using developer proffers and regional transportation money rather than service cuts.",
+  "file": "src/content/entries/local/goochland-fairground-maidens-road-roundabout.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "goochland-council-iqm2-1606-6552": {
   "decision": "skip",
@@ -116781,10 +116847,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1606-6559": {
-  "decision": "promising",
-  "reason": "triage: Funded fire engines and tanker",
+  "decision": "skip",
+  "reason": "A budget transfer to buy three fire engines and a tanker reads as routine fleet replacement, and its main effect is on the county's own equipment; the minutes, agenda and search results don't show any new coverage, station or service for residents that could be verified.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "goochland-council-iqm2-1577-6420": {
   "decision": "skip",
@@ -125716,6 +125782,54 @@
   "decision": "skip",
   "reason": "triage: License plates, symbolic",
   "impact": 1,
+  "date": "2026-11-13"
+ },
+ "chesterfield-news-7670": {
+  "decision": "skip",
+  "reason": "triage: Meeting notice, no action",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "virginia-beach-news-virginia-beach-fire-department-receives-2027-national-fire-service-safety-leadership-award": {
+  "decision": "skip",
+  "reason": "triage: Award press release",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-announces-overdose-deaths-at-lowest-rates-since-20": {
+  "decision": "skip",
+  "reason": "triage: Report of statistics, not an enacted action",
+  "impact": 2,
+  "date": "2026-11-13"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-releases-november-financial-plan-reduces-budget-g": {
+  "decision": "skip",
+  "reason": "triage: Budget plan, mainly about government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "us-law-119-139": {
+  "decision": "skip",
+  "reason": "triage: Internal IRS advocate personnel authority; government itself",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "us-law-119-140": {
+  "decision": "skip",
+  "reason": "The law creates Medicare billing codes for titanium and carbon-fiber ultralightweight wheelchairs, but Medicare pays the same amount as before and suppliers can bill beneficiaries the difference, so it moves costs onto patients instead of adding coverage or lowering costs, and it fails the net-impact test.",
+  "impact": 3,
+  "date": "2026-11-13"
+ },
+ "us-law-119-141": {
+  "decision": "skip",
+  "reason": "triage: Landmark designation, commemorative",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "us-law-119-142": {
+  "decision": "promising",
+  "reason": "triage: Raises bankruptcy debt limits; Chapter 13 wage earners and small businesses, enacted. Benefit is real but mixed, writer should check",
+  "impact": 2,
   "date": "2026-11-13"
  }
 }

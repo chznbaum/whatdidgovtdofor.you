@@ -47,8 +47,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the appropriation amount, bonus amounts, ordinance date and title, funding source, and 7–0 vote against the official minutes. Added the documented eligibility conditions and removed claims the record does not establish.
+  verdict: pass
+  notes: Confirmed all amounts, eligibility rules, funding source, ordinance details, and the 7–0 vote against the official minutes. No later public record confirmed payment, so the dated phasing-in status and explanatory note remain appropriately cautious.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 

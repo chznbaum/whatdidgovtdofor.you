@@ -4,10 +4,10 @@ dek: For decades, New York City capped general vendor licenses for selling goods
 level: local
 jurisdiction: nyc
 action:
-  type: regulation
-  name: General Vendor License Waitlists rule (implementing Local Law 54 of 2026)
-  identifier: Local Law 54 of 2026 (Int. 0431-2024)
-  date: 2026-10-29
+  type: law
+  name: Local Law 54 of 2026
+  identifier: Int. 0431-B-2024
+  date: 2026-01-29
   effective: 2027-01-15
 topics:
   - work
@@ -27,6 +27,9 @@ credit:
   - official: pierina-sanchez
     role: sponsored
     note: Prime sponsor of Intro 431, the main bill in the Street Vendor Reform Package
+  - official: amanda-farias
+    role: sponsored
+    note: Co-prime sponsor of Intro 431
   - official: street-vendor-project
     role: championed
     note: Led the vendors' campaign to lift the license cap
@@ -63,12 +66,17 @@ verification:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-13
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-13
+  verdict: corrected
+  notes: Confirmed the 10,500-license expansion and current application window. Corrected the action record, applicant priority rules, legislative credit, and suspension/revocation explanation.
 source_key: nyc-rule-general-vendor-license-waitlists
 ---
 
 To sell goods other than food on a New York City sidewalk, like clothes, phone cases, or souvenirs, you need a general vendor license. For decades, the city capped those licenses at 853. Thousands of people sold without one and risked tickets, and the waiting list stopped taking new names in 2016. A new city law adds 10,500 licenses, available starting January 15, 2027.
 
-The city's consumer and worker protection department wrote the rules for who gets them first. People already on the old waiting list come first, in the order they applied. People who are vending now come next, and everyone else follows. To get on the new waitlists, apply online, by mail, or in some cases in person between November 2 and December 16, 2026.
+The city's consumer and worker protection department wrote the rules for who gets them first. People on the 2016 waiting list come first, in their existing priority order. Among new applicants, people who can document general vending between January 29, 2025, and November 2, 2026, are randomized ahead of other applicants. To join the new waitlists, apply online or by mail—or, in hardship cases, in person—between November 2 and 5 p.m. December 16, 2026.
 
-Council Member Pierina Sanchez sponsored the law, and vendors organized by the Street Vendor Project pushed for it. The Council passed it in December 2025, and Mayor Eric Adams vetoed it on his last day in office. On January 29, 2026, the Council overrode the veto 41–7. The law also tightens the rules for vendors: higher fines for some violations, and licenses can be suspended or revoked after three violations of certain location and timing rules within a year.
+Council Member Pierina Sanchez was the bill's prime sponsor, with Council Member Amanda Farías as a co-prime sponsor, and vendors organized by the Street Vendor Project pushed for it. The Council passed it in December 2025, and Mayor Eric Adams vetoed it on his last day in office. On January 29, 2026, the Council overrode the veto 41–7. The law also raises fines for some violations. A first finding of three specified time, place, or manner violations within a year brings a 30-day suspension; a second brings 60 days, and a third revokes the license.

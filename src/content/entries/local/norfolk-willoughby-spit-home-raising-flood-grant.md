@@ -1,6 +1,6 @@
 ---
 title: Norfolk will raise flood-prone Willoughby Spit homes at no cost to owners
-dek: In June 2026, Norfolk put a $24,986,500 state flood grant and an equal city match into its budget. Up to 62 high-risk homes are eligible for free elevation or floodproofing; the rest supports Phase 1A and 1B flood-barrier work.
+dek: In June 2026, Norfolk put a $24,986,500 state flood grant and an equal city match into its budget. Up to 62 pre-eligible, high-risk homes may receive free elevation or floodproofing; the rest supports Phase 1A and 1B flood-barrier work.
 level: local
 jurisdiction: norfolk
 action:
@@ -22,8 +22,8 @@ impact:
     label: grant-plus-match total across home mitigation and Phase 1A/1B work
 status:
   state: phasing-in
-  as_of: 2026-08-10
-  note: About 20 owners had begun applications by April. The latest project-specific public milestone we found was the city's design-build RFQ response deadline on August 10, 2026; the solicitation calls for work to finish within 18 months of notice to proceed, and the grant application targets January 2029 completion.
+  as_of: 2026-11-13
+  note: About 20 owners had begun applications by April. The design-build RFQ closed on August 10, 2026; the solicitation calls for work to finish within 18 months of notice to proceed, and the grant application targets January 2029 completion.
   source: https://procurement.opengov.com/portal/norfolk/projects/270625
 credit:
   - official: norfolk-city-council
@@ -63,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the unanimous ordinance, grant-and-match math, owner cost share, and active procurement. Clarified the voluntary 62-home cohort and updated the status through the August 2026 proposal deadline.
+  notes: Confirmed the ordinance, unanimous vote, funding amounts, owner cost share, voluntary cohort, and project scope. Tightened the eligibility language and refreshed the still-active rollout status through November 13, 2026.
 source_key: norfolk-council-1304-ordinance-no-50382
 ---
 
