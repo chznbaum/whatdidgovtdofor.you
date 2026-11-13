@@ -1,10 +1,12 @@
 #!/bin/sh
 # One unattended pipeline run: refresh rosters, pull feeds, draft, verify, build, commit, and push.
-# The push triggers the GitHub Actions deploy to Bunny. It is always a normal push, never forced: if the remote has
-# moved, local commits are rebased onto it, and a conflict stops the run for a person to look at.
-# Schedule it with ops/com.whatdidgovtdofor.pipeline.plist (see README).
+# The push triggers the GitHub Actions deploy to Bunny (see publish in ops/common.sh).
+# Schedule it with ops/com.whatdidgovtdofor.pipeline.plist (see README). Safe to start by hand too: if another run is
+# going, it waits for it (up to four hours) instead of running alongside.
 set -eu
 cd "$(dirname "$0")/.."
+. ops/common.sh
+lock 240
 
 npm run -s sync:roster
 npm run -s pipeline -- feeds --since "$(date -v-14d +%Y-%m-%d)"
@@ -14,10 +16,4 @@ npm run -s pipeline -- verify --stale 60 --limit "${VERIFY_LIMIT:-130}" --concur
 npm run -s validate
 npm run -s build
 
-git add src/content src/data/roster pipeline/decisions.json pipeline/retracted.json
-git diff --cached --quiet || git commit -q -m "Pipeline run $(date +%Y-%m-%d)"
-
-# Publish. No remote configured means a local-only run.
-if git remote get-url origin >/dev/null 2>&1; then
-  git push -q origin HEAD:main || { git pull -q --rebase origin main && git push -q origin HEAD:main; }
-fi
+publish "Pipeline run $(date +%Y-%m-%d)"

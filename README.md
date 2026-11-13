@@ -40,7 +40,9 @@ Entries publish without human review by design. `pipeline/decisions.json` record
 
 ### Running it every day
 
-`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → commit → push. The push is always a normal one, never forced. If the remote has moved, local commits are rebased onto it, and a conflict stops the run for a person. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file).
+`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → commit → push. The push is always a normal one, never forced. If the remote has moved, local commits are rebased onto it, and a conflict stops the run for a person. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file). It drafts only actions triaged at impact 3 or higher, 100 a run, and can also be started by hand to work through a backlog.
+
+`ops/lower-impact.sh` is for when there's capacity to spare: it drafts actions triaged at impact 2 (which the daily run never reaches; `MIN_IMPACT=1` adds impact 1), then verifies, builds, commits and pushes the same way. Start it by hand, e.g. `nohup ops/lower-impact.sh > /tmp/whatdidgovtdofor-lower-impact.log 2>&1 &`. Runs take a lock (`pipeline/state/run.lock`), so two never overlap: a run started by hand won't start while another is going, and the scheduled run waits for it (up to four hours).
 
 ## Deploying
 

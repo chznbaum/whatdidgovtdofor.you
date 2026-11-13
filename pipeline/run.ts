@@ -3,7 +3,7 @@
 //
 //   npm run pipeline -- feeds   [--since YYYY-MM-DD]
 //   npm run pipeline -- triage  [--limit N] [--concurrency N]   (splits meeting recaps into actions first)
-//   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--writer claude|codex] [--concurrency N] [keys...]
+//   npm run pipeline -- draft   [--limit N] [--min-impact 1-5] [--max-impact 1-5] [--writer claude|codex] [--concurrency N] [keys...]
 //   npm run pipeline -- verify  [--limit N] [--stale DAYS] [--concurrency N] [files...]
 //   npm run pipeline -- retract <slug> [--reason "..."]
 //   npm run pipeline -- all     [--since YYYY-MM-DD] [--limit N]
@@ -252,14 +252,14 @@ async function draft({ limit, writer, concurrency, keys }: { limit: number; writ
   const retracted = await readJson<Retraction[]>(RETRACTED, []);
   const entries = await existingEntries();
   const taken = new Set([...entries.map((e) => e.data.source_key), ...retracted.map((r) => r.source_key)].filter(Boolean));
-  // Promising candidates (at least minImpact), plus errors still under MAX_ATTEMPTS: highest impact first; within an
-  // impact level the enacted action itself (laws, rules, orders, council votes) before announcements about it, so an
-  // announcement drafted later sees the law's entry and is skipped as a duplicate; then newest.
+  // Promising candidates with impact from minImpact to maxImpact, plus errors still under MAX_ATTEMPTS: highest impact
+  // first; within an impact level the enacted action itself (laws, rules, orders, council votes) before announcements
+  // about it, so an announcement drafted later sees the law's entry and is skipped as a duplicate; then newest.
   const announcement = (c: { feed?: string }) => (ANNOUNCEMENT_FEEDS.test(c.feed ?? '') ? 1 : 0);
   const queue = candidates
     .filter((c) => {
       const d = decisions[c.key];
-      if (!d || taken.has(c.key) || (d.impact ?? 0) < minImpact || (keys.length && !keys.includes(c.key))) return false;
+      if (!d || taken.has(c.key) || (d.impact ?? 0) < minImpact || (d.impact ?? 0) > maxImpact || (keys.length && !keys.includes(c.key))) return false;
       return d.decision === 'promising' || (d.decision === 'error' && (d.attempts ?? 1) < MAX_ATTEMPTS);
     })
     .sort(
@@ -417,6 +417,7 @@ const { values, positionals } = parseArgs({
     writer: { type: 'string', default: 'claude' },
     concurrency: { type: 'string', default: '2' },
     'min-impact': { type: 'string', default: '0' },
+    'max-impact': { type: 'string', default: '5' },
     stale: { type: 'string' },
     reason: { type: 'string', default: 'Retracted by editor' },
   },
@@ -425,6 +426,7 @@ const [command, ...rest] = positionals;
 const limit = values.limit ? Number(values.limit) : 10;
 const concurrency = Number(values.concurrency);
 const minImpact = Number(values['min-impact']);
+const maxImpact = Number(values['max-impact']);
 const writer = values.writer === 'codex' ? 'codex' : 'claude';
 
 switch (command) {
