@@ -24,6 +24,7 @@ const RULES: Rule[] = [
     pattern:
       /^(?:a resolution |resolution )?(?:honoring|commending|congratulating|recognizing|celebrating|mourning|remembering|expressing (?:support|condolences|gratitude|appreciation))\b/i,
   },
+  { reason: 'commemorative', pattern: /\bflown at half-staff\b/i }, // New Jersey's flag orders are executive orders
   {
     reason: 'observance',
     pattern: /\b(?:awareness|appreciation|heritage|history|remembrance|recognition|pride) (?:day|week|month|year)\b/i,

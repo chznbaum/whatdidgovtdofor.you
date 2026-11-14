@@ -10,6 +10,8 @@ import { parseArgs } from 'node:util';
 import { ceremonialReason } from './ceremonial.ts';
 import { mnExecutiveOrders } from './mn-executive-orders.ts';
 import { mnLaws } from './mn-laws.ts';
+import { njExecutiveOrders, njGovernor } from './nj-governor.ts';
+import { njLaws } from './nj-laws.ts';
 import { nyGovernor } from './ny-governor.ts';
 import { nyLaws } from './ny-laws.ts';
 import { nycLaws } from './nyc-laws.ts';
@@ -39,6 +41,9 @@ export const feeds: Feed[] = [
   vaGovernor,
   mnLaws,
   mnExecutiveOrders,
+  njLaws,
+  njExecutiveOrders,
+  njGovernor,
   ...(await placeFeeds()), // city and county sources, declared in src/content/places/*.yaml
 ];
 
