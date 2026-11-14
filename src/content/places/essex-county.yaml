@@ -1,0 +1,48 @@
+name: Essex County
+short: Essex County
+kind: county
+parent: nj
+geoids: { state: "34", county: "34013" }
+# The Board of County Commissioners keeps its agendas and resolutions on ecode360, behind a Cloudflare challenge, and
+# its minutes run about a year late, so the county's actions come from the County Executive's news releases.
+# robots.txt asks 10 seconds between requests; the feed makes one.
+feeds:
+  - { type: wordpress, url: "https://essexcountynj.org" }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # No map of the five districts exists. Each is drawn from whole towns, except that Newark is split by ward and
+  # election district (the Nov. 2023 results' precinct lists): North and East wards are all District 1; West is District
+  # 3 but for six election districts in 1; Central is split between 1 and 2; South is 2 but for three in 1. Without a
+  # current Newark election-district map, an address in those three wards sees both possible commissioners.
+  districts:
+    - towns:
+        { Irvington: "2", Maplewood: "2", East Orange: "3", City of Orange: "3", South Orange Village: "3", Caldwell: "4", Cedar Grove: "4",
+          Essex Fells: "4", Fairfield: "4", Livingston: "4", Millburn: "4", North Caldwell: "4", Roseland: "4", Verona: "4", West Caldwell: "4",
+          West Orange: "4", Belleville: "5", Bloomfield: "5", Glen Ridge: "5", Montclair: "5", Nutley: "5" }
+    - arcgis: "https://services1.arcgis.com/WAUuvHqqP3le2PMh/arcgis/rest/services/Newark_Geographies/FeatureServer/1"
+      field: WARD_NAME
+      values: { NORTH: "1", EAST: "1", WEST: ["1", "3"], CENTRAL: ["1", "2"], SOUTH: ["1", "2"] }
+  url: "https://ecfnj.com/cms/26/Members"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party (Essex County Clerk's results, Nov. 3, 2026: every commissioner
+  # candidate DEM or REP). All nine seats were elected together on Nov. 3, 2026 for three-year terms (2027-2029).
+  # Changes follow the clerk's unofficial results (571 of 575 districts); terms start Jan. 1, 2027 (Ballotpedia records
+  # the 2023 winners taking office Jan. 1, 2024). The board swears members in and elects officers at its organization
+  # meeting, the first Wednesday in January (Jan. 7, 2026; likely Jan. 6, 2027, not yet posted).
+  members:
+    - { district: "1", name: Robert Mercado, party: D, url: "https://ecfnj.com/cms/41/Robert-Mercado", until: 2027-01-01 }
+    - { district: "2", name: "A'Dorian Murray-Thomas", party: D, url: "https://ecfnj.com/cms/44/Dorian-Murray" } # Vice President; re-elected
+    - { district: "3", name: Tyshammie L. Cooper, party: D, url: "https://ecfnj.com/cms/40/Tyshammie-Cooper", until: 2027-01-01 }
+    - { district: "4", name: Leonard M. Luciano, party: D, url: "https://ecfnj.com/cms/38/Leonard-Luciano" } # re-elected
+    - { district: "5", name: Carlos M. Pomares, party: D, url: "https://ecfnj.com/cms/39/Carlos-Pomares" } # President; re-elected
+    - { name: Wayne L. Richardson, party: D, url: "https://ecfnj.com/cms/33/Wayne-Richardson" } # re-elected at large
+    - { name: Brendan W. Gill, party: D, url: "https://ecfnj.com/cms/34/Brendan-Gill", until: 2027-01-01 }
+    - { name: Patricia Sebold, party: D, url: "https://ecfnj.com/cms/35/Patricia-Sebold", until: 2027-01-01 }
+    - { name: Romaine Sermons, party: D, url: "https://ecfnj.com/cms/37/Romaine-Sermons", until: 2027-01-01 }
+    # Elected Nov. 3, 2026 (names as the ballot prints them, in title case; no county roster page yet).
+    - { district: "1", name: Wilson A. Pichardo, party: D, from: 2027-01-01 }
+    - { district: "3", name: Medinah Muhammad, party: D, from: 2027-01-01 }
+    - { name: Christine McGrath, party: D, from: 2027-01-01 }
+    - { name: Deborah Engel, party: D, from: 2027-01-01 }
+    - { name: Abdur R. Yasin, party: D, from: 2027-01-01 }

@@ -1,0 +1,12 @@
+name: New Jersey
+short: NJ
+kind: state
+parent: us
+geoids: { state: "34" }
+blurb: Actions by the Governor, the Legislature, and state agencies.
+# Laws come from the Legislature's daily database (nj-laws), executive orders and news releases from the Governor's
+# pages on nj.gov (nj-executive-orders, nj-governor).
+legislature:
+  roster: state-nj
+  upper: { name: Senate, title: State Senator }
+  lower: { name: General Assembly, title: Assembly Member }

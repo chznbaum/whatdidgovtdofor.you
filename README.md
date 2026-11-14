@@ -1,6 +1,6 @@
 # whatdidgovtdofor.you
 
-A public record of the concrete things government did for people (national, New York, New York City, Virginia, Hampton Roads, Greater Richmond, Minnesota, the Twin Cities, and Duluth), each one traceable to the officials responsible and showing whether it still stands.
+A public record of the concrete things government did for people (national, New York, New York City, Virginia, Hampton Roads, Greater Richmond, Minnesota, the Twin Cities, Duluth, New Jersey, Newark, Camden, Atlantic City, and Elizabeth), each one traceable to the officials responsible and showing whether it still stands.
 
 Every action leads with the person who did the work, drawn in ink from a real photo, next to what it does for you and where it stands. Enter an address to see your officials and what they did. See [docs/design.md](docs/design.md) for the design system and [docs/content-guide.md](docs/content-guide.md) for the editorial standard.
 

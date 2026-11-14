@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-12",
+  "checked": "2026-11-14",
   "organizations": [
     {
       "name": "Run For Something",
@@ -134,6 +134,26 @@
       "places": [
         "mn"
       ]
+    },
+    {
+      "name": "New Jersey Working Families Party",
+      "url": "https://workingfamilies.org/state/new-jersey/",
+      "lean": "progressive",
+      "for": "progressive candidates in New Jersey, from county commissioner to Congress, who want the party's backing",
+      "offers": "a link to apply for the party's endorsement, plus its endorsed candidates and voter guides; in 2026 it backed county commissioner candidates, including four in Hudson County, and congressional candidates in the 10th, 11th, and 12th districts",
+      "places": [
+        "nj"
+      ]
+    },
+    {
+      "name": "New Jersey School Boards Association: school board candidate kit",
+      "url": "https://www.njsba.org/membership/membership-school-board-members/school-board-candidacy/",
+      "lean": "nonpartisan",
+      "for": "anyone in New Jersey thinking about running for their local school board",
+      "offers": "sample nominating petitions (you need 25 signatures, filed with your county clerk), a school election FAQ and calendar, county clerk contacts, a recorded webinar on campaign finance rules, and what new board members must do; petitions for the Nov. 3, 2026 school board races were due July 27, 2026",
+      "places": [
+        "nj"
+      ]
     }
   ],
   "how_to_run": [
@@ -214,6 +234,36 @@
       "name": "St. Louis County Elections: candidate filing",
       "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/elections-voting",
       "offers": "links for anyone running for county, city, town, or school board office in St. Louis County: who to file with and when, the affidavit forms, the county's filing notice, and campaign finance reports; questions go to elections@stlouiscountymn.gov or 218-726-2385"
+    },
+    {
+      "place": "nj",
+      "name": "New Jersey Division of Elections: candidate information",
+      "url": "https://www.nj.gov/state/elections/candidate-information.shtml",
+      "offers": "the state's page for candidates for Congress, Governor, and the Legislature, who file their petitions with the Division of Elections in Trenton; the 2026 filing period is over, and the page says petitions and instructions for 2027, when all 120 legislative seats are on the ballot, will be posted in 2027; it also links to the rules for petition challenges and campaign finance"
+    },
+    {
+      "place": "nj",
+      "name": "New Jersey Division of Elections: election timelines",
+      "url": "https://www.nj.gov/state/elections/election-chronological-timelines.shtml",
+      "offers": "a date-by-date calendar for each kind of New Jersey election, with every petition filing deadline: the June party primary, the November general election, May nonpartisan city elections (the kind Newark holds), school board, and fire district elections; the 2027 calendars weren't posted as of Nov. 14, 2026"
+    },
+    {
+      "place": "union-county",
+      "name": "Union County Clerk: candidate petitions",
+      "url": "https://unioncountyvotes.com/candidate-petitions/",
+      "offers": "who you file with for each kind of race: county offices and November school board seats file with the County Clerk's Election Division (908-527-4996, 2 Broad St., Elizabeth), and city and town races file with your municipal clerk, so Elizabeth candidates file with the Elizabeth City Clerk; party primary petitions are due by 4 p.m. on the 71st day before the primary, independents file by 4 p.m. on primary day, and Hillside is the county's only town with nonpartisan elections"
+    },
+    {
+      "place": "camden-county",
+      "name": "Camden County: information for candidates",
+      "url": "https://www.camdencounty.com/service/voting-and-elections/candidate-information/",
+      "offers": "where each kind of candidate files: Sheriff, County Clerk, Surrogate, County Commissioner, and school board petitions go to the County Clerk's Election Division at 100 University Ct., Blackwood; party primary and May nonpartisan petitions for mayor and council go to your municipal clerk; independents for November file with the County Clerk by primary day; primary petitions are due by 4 p.m. on the 71st day before the June primary, signatures must be in ink and collected in person, and the petition forms are on the page"
+    },
+    {
+      "place": "atlantic-city",
+      "name": "Atlantic County Clerk: candidate information",
+      "url": "https://www.atlanticcountyclerk.org/elections-2/candidate-info/",
+      "offers": "nominating petitions for county, municipal (including Atlantic City mayor and council), county committee, independent, school board, and fire commissioner candidates, with how many signatures each office needs for 2026 and 2027 and the current candidate lists"
     }
   ],
   "boards": [
@@ -396,6 +446,36 @@
       "name": "St. Louis County: application for a citizen advisory committee",
       "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/clerk-of-the-county-board/application-for-citizen-advisory-committee",
       "offers": "the online form to apply for a county advisory committee, commission, or board (you name the one you want); the County Board appoints, and a paper application is available from the Clerk of the County Board at 218-726-2385"
+    },
+    {
+      "place": "nj",
+      "name": "Governor's Appointments Office: boards, commissions, and authorities",
+      "url": "https://wwwdnet-dos.nj.gov/GOV_APPT/Directory",
+      "offers": "an A-to-Z directory of the state boards, commissions, and authorities the Governor appoints to, with details on each; to apply, you email a current resume naming the board you want to appointments@nj.gov, and the Governor's Appointments Office, (609) 777-0251, has the latest on openings"
+    },
+    {
+      "place": "union-county",
+      "name": "Union County Commissioners: public advisory boards",
+      "url": "https://ucnj.org/commissioners/public-advisory-boards/",
+      "offers": "how to get on a county advisory board: you send a standard application (and a resume when a seat needs a license or skill) to the Clerk of the Board, one for each board you want, and for a term that's ending, at least a month before it ends; the Commissioners' Policy Committee reviews applications, the full board appoints, and applications stay on file for six months; the application form wasn't showing on the county's site on Nov. 14, 2026, so ask the Clerk of the Board at 908-527-4140"
+    },
+    {
+      "place": "camden-county",
+      "name": "Camden County: boards, committees and commissions",
+      "url": "https://www.camdencounty.com/service/boards-committees-and-commissions/",
+      "offers": "the county's boards and commissions, from the Environmental Commission and Library Commission to the Cultural Awareness Commission, with what each does and who can serve; the page has no application, so ask the Clerk of the Board of Commissioners at (856) 225-2130"
+    },
+    {
+      "place": "camden",
+      "name": "City of Camden: become a citizen leader",
+      "url": "https://www.camdennj.gov/become-a-citizen-leader/",
+      "offers": "the Citizen Leadership Form, online or printable in English or Spanish, for city boards, committees, and commissions; you must live in Camden, seats are unpaid, members are expected at regular meetings and serve at the pleasure of the Mayor and City Council, and paper forms go to the Municipal Clerk, City Hall Room 105, or Clerk@camdennj.gov"
+    },
+    {
+      "place": "atlantic-city",
+      "name": "City of Atlantic City: Environmental Commission",
+      "url": "https://www.acnj.gov/News/View/2342/atlantic-city-is-creating-an-environmental-commission",
+      "offers": "the city's call, posted Sept. 8, 2025, for residents to join its new Environmental Commission, which advises city leaders on parks, trees, flooding, litter, food security, and climate; unpaid, monthly meetings, three-year terms (two for alternates), with an online interest form; the page doesn't say whether seats are still open"
     }
   ],
   "poll_work": [
@@ -524,6 +604,30 @@
       "name": "St. Louis County Elections: election judge interest form",
       "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/elections-voting/election-judge-interest-form",
       "offers": "a form to say you'd like to work as an election judge, absentee ballot board judge, early-voting judge, or student trainee (16 or 17); the county passes it to the cities or townships you pick, and pay varies by city and township"
+    },
+    {
+      "place": "nj",
+      "name": "New Jersey Division of Elections: become a poll worker",
+      "url": "https://www.nj.gov/state/elections/pollworker.shtml",
+      "offers": "the statewide application, which goes to your county board of elections; paid $21.43 an hour on early voting days and $300 for Election Day; you must live in New Jersey, be a U.S. citizen registered to vote in your county, and be 16 or older (under-18s work shorter shifts and needn't be registered), and you can't be a candidate in that election"
+    },
+    {
+      "place": "essex-county",
+      "name": "Essex County Board of Elections: become a poll worker",
+      "url": "https://essexboardofelections.com/become-a-poll-worker/",
+      "offers": "applications to download and email to the board (essexelections@clerk.essexcountynj.org), with a separate student application; $21.44 an hour on early voting days and $300 for Election Day; adults must be registered voters, 18 or older, take a required training class, and work the full day, 5:15 a.m. to 8:30 p.m.; questions go to 862-234-4321"
+    },
+    {
+      "place": "union-county",
+      "name": "Union County Board of Elections: poll workers",
+      "url": "https://ucnj.org/boe/virtual-poll-worker-training-sessions/",
+      "offers": "separate online applications for Election Day and early voting; $300 for Election Day, plus $12.50 each for picking up and returning your district's supplies, about 5:15 a.m. to 8:15 p.m.; you must be a Union County voter 18 or older, or 16 or 17 for up to 8 hours; first-timers take a two-hour training in person, required every two years, and skipping it cuts your pay to minimum wage"
+    },
+    {
+      "place": "camden-county",
+      "name": "Camden County Board of Elections: poll workers",
+      "url": "https://www.camdencounty.com/service/voting-and-elections/pollworkers/",
+      "offers": "the online application; $300 for Election Day, 5 a.m. to 9 p.m., after a required training; you must be 16 or older and registered to vote in Camden County, and bilingual workers are especially needed in Camden City, Pennsauken, and Woodlynne; questions go to (856) 401-8683"
     }
   ]
 }

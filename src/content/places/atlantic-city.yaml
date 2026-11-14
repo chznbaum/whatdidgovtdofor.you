@@ -1,0 +1,35 @@
+name: Atlantic City
+short: Atlantic City
+kind: city
+parent: nj
+geoids: { state: "34", place: "3402080" }
+# The city's meetings page loads a JSON list of every meeting and its files. A week or two after a council meeting the
+# clerk posts a scanned minutes book: the minutes, then the final agenda marking each resolution passed and naming each
+# ordinance's sponsors, then every adopted item's full text. The reader OCRs up to the full texts. Atlantic County's
+# site refuses our reader.
+feeds:
+  - { type: acnj, url: "https://www.acnj.gov", body: Council }
+council:
+  body: City Council
+  title: Council Member
+  # The city adopted new ward lines in January 2022, and no map of them is published that we can read (the statewide
+  # ward layer has the old plan; Atlantic County's site refuses our reader). Until one is, every Atlantic City address
+  # sees all six ward members, each labeled with their ward.
+  districts: { unmapped: true, label: Ward }
+  # The city has no council page: its roster is the home page's Elected Officials list (data:
+  # https://www.acnj.gov/api/data/GetElectedOfficialsData), each name linking to a bio page.
+  url: "https://www.acnj.gov/"
+  checked: 2026-11-14
+  # Partisan races (June party primaries, November general). Party is the ballot's, from the Atlantic County Clerk's
+  # results: wards Nov. 7, 2023 (Ward 5 by a court-ordered special on Nov. 5, 2024), at large Nov. 4, 2025. Ward terms
+  # run 2024-2027, at-large 2026-2029; no city council contest on the Nov. 3, 2026 ballot, so no change in January 2027.
+  members:
+    - { district: "1", name: Aaron Randolph, party: D, url: "https://www.acnj.gov/Officials/Bio/council-president-and-1st-ward-councilman-aaron-randolph" } # Council President
+    - { district: "2", name: Latoya Dunston, party: D, url: "https://www.acnj.gov/Officials/Bio/2nd-ward-councilwoman-latoya-dunston" }
+    - { district: "3", name: Kaleem Shabazz, party: D, url: "https://www.acnj.gov/Officials/Bio/council-vice-president-and-3rd-ward-councilman-kaleem-shabazz" } # Vice President
+    - { district: "4", name: "George 'Animal' Crouch", party: D, url: "https://www.acnj.gov/Officials/Bio/4th-ward-councilman-george-animal-crouch" }
+    - { district: "5", name: Maria Lacca, party: R, url: "https://www.acnj.gov/Officials/Bio/5th-ward-councilwoman-maria-lacca" }
+    - { district: "6", name: Jesse O. Kurtz, party: R, url: "https://www.acnj.gov/Officials/Bio/6th-ward-councilman-jesse-o-kurtz" }
+    - { name: Stephanie Marshall, party: D, url: "https://www.acnj.gov/Officials/Bio/councilwoman-at-large-stephanie-marshall" }
+    - { name: Patricia Bailey, party: D, url: "https://www.acnj.gov/Officials/Bio/councilwoman-at-large-patricia-bailey" }
+    - { name: Mohammed Suhel Ahmed, party: D, url: "https://www.acnj.gov/Officials/Bio/councilman-at-large-mohammed-suhel-ahmed" }

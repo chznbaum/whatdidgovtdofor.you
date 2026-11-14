@@ -1,0 +1,10 @@
+name: Marty Small Sr.
+party: D
+office: Mayor of Atlantic City
+level: local
+jurisdiction: atlantic-city
+current: true
+# Atlantic City has been under state oversight since 2016 (the Municipal Stabilization and Recovery Act), which limits
+# what the mayor and council decide alone.
+seat: { place: atlantic-city, title: Mayor }
+url: https://www.acnj.gov/Officials/Bio/mayor-marty-small-sr

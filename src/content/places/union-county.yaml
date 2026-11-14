@@ -1,0 +1,30 @@
+name: Union County
+short: Union County
+kind: county
+parent: nj
+geoids: { state: "34", county: "34039" }
+# Regular-meeting minutes name each resolution's sponsoring commissioner, its mover and seconder, and the tally. They
+# are scans with a machine-read text layer (noisy names), posted five to six weeks after a meeting.
+feeds:
+  - { type: minutes-list, url: "https://ucnj.org/commissioners/agendas-minutes-and-videos/", pages: 1, title: Board of County Commissioners, rows: Regular Meeting }
+  - { type: wordpress, url: "https://ucnj.org" }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # All nine elected at large: no district layer.
+  url: "https://ucnj.org/commissioners/"
+  checked: 2026-11-14
+  # Partisan races: the County Clerk's results print DEM/REP. Three-year staggered terms, three seats each November.
+  # Leon, Bodek and Delisfort (terms 2024-2026) were re-elected Nov. 3, 2026 (unofficial, all 434 districts), so no
+  # member changes in January 2027; the board elects a new Chair and Vice Chair at its January reorganization.
+  # No elected executive: the County Manager (Edward T. Oatman, since 2018) is appointed by the board.
+  members:
+    - { name: Joseph Bodek, party: D, url: "https://ucnj.org/commissioners/commissionerjoseph-bodek/" } # Chairman (2026)
+    - { name: Rebecca Williams, party: D, url: "https://ucnj.org/commissioners/rebecca-williams/" } # Vice Chair (2026)
+    - { name: "James E. Baker, Jr.", party: D, url: "https://ucnj.org/commissioners/commissioner-james-e-baker-jr/" }
+    - { name: Michèle S. Delisfort, party: D, url: "https://ucnj.org/commissioners/commissionerbr-michele-s-delisfort/" }
+    - { name: Lourdes M. Leon, party: D, url: "https://ucnj.org/commissioners/commissioner-lourdes-m-leon/" }
+    - { name: Alexander Mirabella, party: D, url: "https://ucnj.org/commissioners/commissioner-alexander-mirabella/" }
+    - { name: Stanley J. Neron, party: D, url: "https://ucnj.org/commissioners/commissioner-stan-j-neron/" }
+    - { name: Kimberly Palmieri-Mouded, party: D, url: "https://ucnj.org/commissioners/commissioner-kimberly-palmieri-mouded/" }
+    - { name: Joseph Signorello III, party: D, url: "https://ucnj.org/commissioners/commissioner-joseph-signorello-iii/" }

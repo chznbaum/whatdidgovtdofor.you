@@ -1,0 +1,34 @@
+name: Elizabeth
+short: Elizabeth
+kind: city
+parent: union-county
+geoids: { state: "34", place: "3421000" }
+# Council minutes reach the Agenda Center four to five months after a meeting, as image-only scans (some pages upside
+# down) that the PDF reader OCRs. The agendas carry no outcomes, and the news feed is nearly empty.
+feeds:
+  - { type: agendacenter, url: "https://www.elizabethnj.org", category: 3, file: minutes }
+council:
+  body: City Council
+  title: Council Member
+  # The 2022 re-warding has no public map service (the statewide ward layer predates it and puts 12% of the city in the
+  # wrong ward; the county's own map is a PDF). Until there is one, every Elizabeth address sees all six ward members,
+  # each labeled with their ward.
+  districts: { unmapped: true, label: Ward }
+  url: "https://www.elizabethnj.org/215/City-Council"
+  checked: 2026-11-14
+  # Partisan races (June party primaries, November general): the Union County Clerk's results print DEM/REP. Ward seats
+  # were elected Nov. 3, 2026 (unofficial, all 62 districts) for 2027-2030; at-large seats Nov. 2024 for 2025-2028.
+  # The council reorganizes and swears members in on Jan. 1 (the 2026 reorganization agenda is dated Jan. 1, 2026).
+  # Member bios are PDFs, so no member URLs.
+  members:
+    - { district: "1", name: Carlos Torres, party: D } # re-elected
+    - { district: "2", name: Nelson Gonzalez, party: D, until: 2027-01-01 } # retiring
+    - { district: "3", name: Kevin Kiniery, party: D } # re-elected
+    - { district: "4", name: Carlos Cedeño, party: D } # re-elected
+    - { district: "5", name: "William Gallman, Jr.", party: D } # re-elected
+    - { district: "6", name: Frank O. Mazza, party: D } # re-elected
+    - { name: "Manny Grova, Jr.", party: D } # Council President
+    - { name: Patricia Perkins-Auguste, party: D }
+    - { name: Georgette Gonzalez Lugo, party: D } # appointed to Frank J. Cuesta's seat; won the unexpired term Nov. 3, 2026
+    # Elected Nov. 3, 2026 ("DEM Isaias J. RIVERA", 2,749 to 672; name as the ballot prints it).
+    - { district: "2", name: Isaias J. Rivera, party: D, from: 2027-01-01 }
