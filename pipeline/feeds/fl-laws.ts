@@ -3,16 +3,18 @@
 // numbers run through the calendar year across sessions, so `fl-<year>-<n>` is unique. For each new chapter, the
 // Senate's page for the bill (www.flsenate.gov/Session/Bill/<session>/<number>, both chambers' bills) has the prime
 // sponsor (after any committees that substituted it), the summary, effective date, floor votes, the Governor's approval
-// and the other chamber's companion. Both sites ask 10 seconds between requests, and the Senate's throttles a run of
-// requests anyway (a 429 with a five-minute Retry-After), so a run reads at most MAX bill pages, 30 seconds apart, and
-// stops at a 429; the rest come on later runs.
+// and the other chamber's companion. Both sites ask 10 seconds between requests, and the Senate's throttles anyway (a
+// 429 with a five-minute Retry-After, sometimes after a page or two), so a run reads at most MAX bill pages, 30 seconds
+// apart. Once the Senate says to slow down, the rest come from their chapter PDFs on Laws of Florida instead: the act's
+// title, the Governor's approval and the effective date, without sponsors or votes, which the writer looks up.
 import { coveredPlaceNames } from './places.ts';
 import type { Candidate, Feed } from './types.ts';
-import { decodeEntities, getText, mdyDate, newest, plainText, sleep, truncate } from './util.ts';
+import { decodeEntities, get, getText, longDate, mdyDate, newest, pdfText, plainText, sleep, truncate } from './util.ts';
 
 const LAWS = 'http://laws.flrules.org';
 const SENATE = 'https://www.flsenate.gov';
 const MAX = 40;
+const PDFS = 300; // chapter PDFs a run reads once the Senate is throttling (a first backfill is about 250 a year)
 
 const text = (html: string | undefined) => plainText(decodeEntities(html ?? '')).replace(/\s+/g, ' ').trim();
 
@@ -102,6 +104,47 @@ async function law(c: Chapter): Promise<Candidate | 'throttled' | null> {
   }
 }
 
+// A chapter from its Laws of Florida PDF: "An act relating to ...", "This act shall take effect July 1, 2026.",
+// "Approved by the Governor May 22, 2026."
+async function fromChapter(c: Chapter): Promise<Candidate | null> {
+  const text = await pdfText(new Uint8Array(await (await get(c.pdf)).arrayBuffer())).catch(() => '');
+  const flat = text.replace(/\s+/g, ' ');
+  const approved = longDate(flat.match(/Approved by the Governor ([A-Z][a-z]+\.? \d{1,2}, \d{4})/)?.[1] ?? '');
+  if (!approved) return null;
+  // The act's description runs to "Be It Enacted" (it holds periods: "amending s. 112.1816, F.S.").
+  const act = flat.match(/(An act (?:relating to|for the relief of) [\s\S]*?)(?:; providing (?:for )?an effective date)?\.\s+(?:Be It Enacted|WHEREAS)/)?.[1];
+  const effective = flat.match(/(?:This act|Except as otherwise[^.]*?, this act) shall take effect ([^.]+)\./)?.[1];
+  const number = c.bill.match(/(\d+)/)?.[1];
+  // Claim bills relieve a person; local bills open with their city, county or district.
+  const subject = (act ?? '').split(';')[0];
+  const billType = /^An act for the relief of/i.test(subject)
+    ? 'CLAIM BILL'
+    : /\b(?:City|Town|Village) of [A-Z]|\b[A-Z][\w.'-]+(?: [A-Z][\w.'-]+)* Count(?:y|ies)\b/.test(subject)
+      ? 'LOCAL BILL'
+      : undefined;
+  return {
+    key: `fl-${c.year}-${c.n}`,
+    feed: 'fl-laws',
+    level: 'state',
+    jurisdiction: 'fl',
+    kind: 'law',
+    title: c.title,
+    date: approved,
+    url: number ? `${SENATE}/Session/Bill/${c.session}/${number}` : c.pdf,
+    summary: truncate([act, effective && `Takes effect ${effective}.`].filter(Boolean).join('. ')),
+    extra: {
+      bill: c.bill,
+      chapter: `Laws of Florida, Chapter ${c.year}-${c.n}`,
+      session: c.session,
+      billType,
+      approved,
+      effective,
+      text: c.pdf,
+      note: "Sponsors and votes weren't read (the Senate's site was throttling); they're on the bill page.",
+    },
+  };
+}
+
 export const flLaws: Feed = {
   id: 'fl-laws',
   description: 'Florida chapter laws (Laws of Florida, with sponsors and votes from the Senate)',
@@ -118,17 +161,31 @@ export const flLaws: Feed = {
     }
     const out: Candidate[] = [];
     const local = await coveredPlaceNames('fl');
-    // Newest chapters first; the Senate's throttle caps a run.
-    for (const c of all.filter((c) => !known?.has(`fl-${c.year}-${c.n}`)).sort((a, b) => b.year - a.year || Number(b.n) - Number(a.n)).slice(0, MAX)) {
-      await sleep(30_000);
-      const result = await law(c);
+    // Newest chapters first; the Senate's throttle caps a run, then the chapter PDFs take over.
+    let senate = 0;
+    let throttled = false;
+    let pdfs = 0;
+    for (const c of all.filter((c) => !known?.has(`fl-${c.year}-${c.n}`)).sort((a, b) => b.year - a.year || Number(b.n) - Number(a.n))) {
+      let result: Candidate | 'throttled' | null = 'throttled';
+      if (!throttled && senate < MAX) {
+        await sleep(30_000);
+        senate++;
+        result = await law(c);
+        if (result === 'throttled') {
+          throttled = true;
+          console.warn('[fl-laws] the Senate asked us to slow down; reading the rest from Laws of Florida');
+        }
+      }
       if (result === 'throttled') {
-        console.warn('[fl-laws] the Senate asked us to slow down; the rest wait for the next run');
-        break;
+        if (pdfs++ >= PDFS) break;
+        await sleep(11_000);
+        result = await fromChapter(c);
       }
       // Local and claim bills ("City of Trenton, Gilchrist County", "Relief of ...") only for places we cover.
-      if (result && /LOCAL|CLAIM/.test(String(result.extra?.billType)) && !local.test(result.title)) continue;
-      if (result && result.date >= since) out.push(result);
+      if (result && /LOCAL|CLAIM/.test(String(result.extra?.billType)) && !local.test(`${result.title} ${result.summary ?? ''}`)) continue;
+      // Chapter numbers follow the order laws are filed, so the first one older than `since` ends the run.
+      if (result && result.date < since) break;
+      if (result) out.push(result);
     }
     return newest(out, limit);
   },
