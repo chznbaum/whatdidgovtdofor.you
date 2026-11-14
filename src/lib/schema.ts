@@ -185,6 +185,7 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     client: z.string(),
     site: z.url().optional(), // public site, if not https://<client>.legistar.com
     types: z.array(z.string()).optional(), // matter types to keep, e.g. [Ordinance, Resolution]; default: all but housekeeping
+    status: z.string().optional(), // with `types`, a pattern for the statuses kept; default: passed, adopted, approved...
     sponsors: z.boolean().optional(), // fetch each matter's sponsors
     text: z.boolean().optional(), // fetch each matter's text, so triage sees what it does and not just its title
   }),

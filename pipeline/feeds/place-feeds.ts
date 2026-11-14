@@ -29,6 +29,7 @@ export async function placeFeeds(): Promise<Feed[]> {
               site: f.site,
               place,
               types: f.types,
+              status: f.status ? new RegExp(f.status, 'i') : undefined,
               sponsors: f.sponsors,
               text: f.text,
             }),

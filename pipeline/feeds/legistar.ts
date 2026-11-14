@@ -18,6 +18,7 @@ export type LegistarOptions = {
   sponsors?: boolean; // one extra request per matter
   text?: boolean; // the matter's text as its summary, so triage sees what it does; two extra requests per matter
   types?: string[]; // keep only these matter types (passed ones), e.g. ['Ordinance', 'Resolution']
+  status?: RegExp; // with `types`: the statuses kept (default: passed, adopted, approved, enacted, accepted)
   include?: (m: any) => boolean;
   kind?: (m: any) => Kind;
   key?: (m: any) => string;
@@ -32,7 +33,7 @@ const PASSED = /pass|adopt|approv|enact|accept/i;
 
 const defaults = {
   include: (m: any) => !SKIP_TYPES.test(m.MatterTypeName ?? '') && PASSED.test(m.MatterStatusName ?? ''),
-  kind: (m: any): Kind => (/ordinance/i.test(m.MatterTypeName ?? '') ? 'ordinance' : 'other'),
+  kind: (m: any): Kind => (/ordinance/i.test(m.MatterTypeName ?? '') ? 'ordinance' : /executive order/i.test(m.MatterTypeName ?? '') ? 'executive-order' : 'other'),
   title: (m: any) => m.MatterTitle || m.MatterName,
 };
 
@@ -61,7 +62,7 @@ export function legistarFeed(o: LegistarOptions): Feed {
   const types = o.types?.map((t) => t.toLowerCase());
   const include =
     o.include ??
-    (types ? (m: any) => types.includes(String(m.MatterTypeName ?? '').trim().toLowerCase()) && PASSED.test(m.MatterStatusName ?? '') : defaults.include);
+    (types ? (m: any) => types.includes(String(m.MatterTypeName ?? '').trim().toLowerCase()) && (o.status ?? PASSED).test(m.MatterStatusName ?? '') : defaults.include);
   const kind = o.kind ?? defaults.kind;
   const title = o.title ?? defaults.title;
   const key =
