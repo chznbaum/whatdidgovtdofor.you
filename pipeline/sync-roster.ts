@@ -72,6 +72,14 @@ const OFFICIAL_URL: Record<string, () => Promise<(r: Record<string, string>) => 
       return link ? `${site}${link}` : null;
     };
   },
+  // Georgia: each row carries the General Assembly's member id, which a member keeps across chambers, in a link or
+  // source; the first link is often the bare member list or the retired House site.
+  async ga() {
+    return (r) => {
+      const id = `${r.links};${r.sources}`.match(/legis\.ga\.gov\/(?:members\/(?:house|senate)|api\/members\/detail)\/(\d+)/)?.[1];
+      return id ? `https://www.legis.ga.gov/members/${r.current_chamber === 'upper' ? 'senate' : 'house'}/${id}` : null;
+    };
+  },
 };
 
 async function syncState(state: string) {
