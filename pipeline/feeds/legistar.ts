@@ -19,6 +19,10 @@ export type LegistarOptions = {
   text?: boolean; // the matter's text as its summary, so triage sees what it does; two extra requests per matter
   types?: string[]; // keep only these matter types (passed ones), e.g. ['Ordinance', 'Resolution']
   status?: RegExp; // with `types`: the statuses kept (default: passed, adopted, approved, enacted, accepted)
+  // Read outcomes from these bodies' meetings instead of the matters' status and passed date, for clients whose status
+  // is the agenda section and whose passed date a deferral also sets (DeKalb County): each meeting's items with an
+  // action like "Approved", and its mover and seconder.
+  meetings?: RegExp;
   include?: (m: any) => boolean;
   kind?: (m: any) => Kind;
   key?: (m: any) => string;
@@ -34,8 +38,10 @@ const PASSED = /pass|adopt|approv|enact|accept/i;
 const defaults = {
   include: (m: any) => !SKIP_TYPES.test(m.MatterTypeName ?? '') && PASSED.test(m.MatterStatusName ?? ''),
   kind: (m: any): Kind => (/ordinance/i.test(m.MatterTypeName ?? '') ? 'ordinance' : /executive order/i.test(m.MatterTypeName ?? '') ? 'executive-order' : 'other'),
-  title: (m: any) => m.MatterTitle || m.MatterName,
+  // DeKalb's titles open with "Commission District(s): All Districts" on a line of their own.
+  title: (m: any) => String(m.MatterTitle || m.MatterName || '').replace(/^\s*Commission Districts?(?:\(s\))?:[^\r\n]*[\r\n]+/i, ''),
 };
+const APPROVED = /^(?:approv|adopt|pass|enact)/i;
 
 // A matter's text, minus its title, as a summary. Legistar marks sections with lines like "..Title", "..Purpose",
 // "..Rec" and "..Body"; a staff "PURPOSE/BACKGROUND" section says what an item does better than the resolution's
@@ -97,6 +103,9 @@ export function legistarFeed(o: LegistarOptions): Feed {
         enacted: m.MatterEnactmentDate?.slice(0, 10),
         enactmentNumber: m.MatterEnactmentNumber ?? undefined,
         matterId: m.MatterId,
+        action: m.approval?.action,
+        mover: m.approval?.mover || undefined,
+        seconder: m.approval?.seconder || undefined,
         ...o.extra?.(m),
       },
     };
@@ -114,7 +123,23 @@ export function legistarFeed(o: LegistarOptions): Feed {
         new URLSearchParams(token ? { ...params, token } : params).toString();
 
       const matters: any[] = [];
-      for (let skip = 0; ; skip += 1000) {
+      if (o.meetings) {
+        // Approved items from each meeting since `since`, then their matters, dated by the meeting.
+        const events: any[] = await getJson(`${api}/events?${query({ $filter: `EventDate ge datetime'${since}'`, $orderby: 'EventDate desc' })}`);
+        const approved = new Map<number, any>();
+        for (const e of events.filter((e) => o.meetings!.test(e.EventBodyName ?? ''))) {
+          const items: any[] = await getJson(`${api}/events/${e.EventId}/eventitems?${query()}`).catch(() => []);
+          for (const i of items)
+            if (i.EventItemMatterId && APPROVED.test(i.EventItemActionName ?? '') && !approved.has(i.EventItemMatterId))
+              approved.set(i.EventItemMatterId, { date: e.EventDate, action: i.EventItemActionName, mover: i.EventItemMover, seconder: i.EventItemSeconder });
+        }
+        await mapLimit([...approved], 4, async ([id, a]) => {
+          const m = await getJson(`${api}/matters/${id}?${query()}`).catch(() => null);
+          if (m && !SKIP_TYPES.test(m.MatterTypeName ?? '') && (!types || types.includes(String(m.MatterTypeName ?? '').trim().toLowerCase())))
+            matters.push({ ...m, [dateField]: a.date, approval: a });
+        });
+      }
+      for (let skip = 0; !o.meetings; skip += 1000) {
         const page: any[] = await getJson(
           `${api}/matters?${query({
             $filter: `${dateField} ge datetime'${since}'${o.filter ? ` and ${o.filter}` : ''}`,
@@ -127,7 +152,7 @@ export function legistarFeed(o: LegistarOptions): Feed {
         if (page.length < 1000) break;
       }
 
-      const recent = newest(matters.filter(include).map(candidate), limit);
+      const recent = newest((o.meetings ? matters : matters.filter(include)).map(candidate), limit);
       if (o.sponsors) {
         await mapLimit(recent, 4, async (c) => {
           const rows: any[] = await getJson(`${api}/matters/${c.extra!.matterId}/sponsors?${query()}`).catch(() => []);

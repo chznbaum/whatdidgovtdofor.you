@@ -6,6 +6,7 @@ import { acnjFeed } from './acnj.ts';
 import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
 import { hcmsFeed } from './hcms.ts';
+import { iqm2Feed } from './iqm2.ts';
 import { laserficheFeed } from './laserfiche.ts';
 import { minutesListFeed } from './minutes-list.ts';
 import { legistarFeed } from './legistar.ts';
@@ -30,6 +31,7 @@ export async function placeFeeds(): Promise<Feed[]> {
               place,
               types: f.types,
               status: f.status ? new RegExp(f.status, 'i') : undefined,
+              meetings: f.meetings ? new RegExp(f.meetings, 'i') : undefined,
               sponsors: f.sponsors,
               text: f.text,
             }),
@@ -116,6 +118,17 @@ export async function placeFeeds(): Promise<Feed[]> {
             }),
           );
           break;
+        case 'iqm2':
+          out.push(
+            iqm2Feed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: meeting minutes (IQM2)`,
+              origin: f.url,
+              board: new RegExp(f.board, 'i'),
+              place,
+            }),
+          );
+          break;
         case 'minutes-list':
           out.push(
             minutesListFeed({
@@ -130,6 +143,7 @@ export async function placeFeeds(): Promise<Feed[]> {
               rows: f.rows ? new RegExp(f.rows, 'i') : undefined,
               delay: f.delay,
               lookback: f.lookback,
+              keyByDate: f.keyByDate,
             }),
           );
           break;

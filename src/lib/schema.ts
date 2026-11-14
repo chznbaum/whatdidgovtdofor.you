@@ -186,6 +186,7 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     site: z.url().optional(), // public site, if not https://<client>.legistar.com
     types: z.array(z.string()).optional(), // matter types to keep, e.g. [Ordinance, Resolution]; default: all but housekeeping
     status: z.string().optional(), // with `types`, a pattern for the statuses kept; default: passed, adopted, approved...
+    meetings: z.string().optional(), // read approvals from these bodies' meeting items instead (DeKalb County)
     sponsors: z.boolean().optional(), // fetch each matter's sponsors
     text: z.boolean().optional(), // fetch each matter's text, so triage sees what it does and not just its title
   }),
@@ -236,6 +237,12 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     body: z.string(), // the meeting type, "Council"
   }),
   z.object({
+    type: z.literal('iqm2'), // a Granicus IQM2 portal: each meeting's minutes file is a recap
+    id: z.string().optional(),
+    url: z.url(), // the portal's origin, e.g. https://atlantacityga.iqm2.com
+    board: z.string(), // pattern for the body in a meeting's title ("Board: Atlanta City Council")
+  }),
+  z.object({
     type: z.literal('minutes-list'), // a page listing a body's meetings with "Minutes" PDF links: each one's is a recap
     id: z.string().optional(),
     url: z.url(), // the meeting list (older meetings on ?page=2, ...)
@@ -246,6 +253,7 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     rows: z.string().optional(), // pattern a meeting's row must match, e.g. "Regular Meeting"
     delay: z.number().optional(), // seconds between requests, if robots.txt sets a Crawl-delay
     lookback: z.number().int().optional(), // days to look back for late minutes (default 120)
+    keyByDate: z.boolean().optional(), // key meetings by date, where official minutes replace unofficial ones under a new name
   }),
 ]);
 

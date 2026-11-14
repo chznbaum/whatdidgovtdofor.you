@@ -4,8 +4,9 @@
 //   - `table` layout: a row per meeting (the Metropolitan Council's and Union County's meeting tables).
 //   - `blocks` layout: a line or box per meeting, split at <br>, paragraphs, divs and list items (Camden County's
 //     "Commissioner Meeting (7/16/26) (AGENDA PACKET) (MINUTES)" lines; Camden's buttons, one per meeting).
-// A meeting's date comes from its row ("11/12/2026", "7/16/26", "June 25, 2026"). Where the row gives only a month
-// ("August 2026 Regular Meeting"), the date is read from the minutes themselves.
+// A meeting's date comes from its row ("11/12/2026", "7/16/26", "June 25, 2026"), else from the link's path
+// (Gwinnett's /20261103/), and where there's only a month ("August 2026 Regular Meeting"), from the minutes themselves.
+// A minutes link is found by its text, or by its address where it's an icon with no text.
 import type { Candidate, Feed } from './types.ts';
 import { decodeEntities, get, getTextIfExists, longDate, newest, pdfText, plainText, sleep, truncate } from './util.ts';
 
@@ -17,10 +18,13 @@ export type MinutesListOptions = {
   title: string; // the body, for candidate titles: "Metropolitan Council"
   place: string;
   layout?: 'table' | 'blocks';
-  link?: RegExp; // the minutes link's text (default: "Minutes")
+  link?: RegExp; // the minutes link's text, or its address if it has no text (default: "Minutes")
   rows?: RegExp; // only meetings whose row says this, e.g. "Regular Meeting" (not the agenda-setting session)
   delay?: number; // seconds between requests, for a robots.txt Crawl-delay (default 1)
   lookback?: number; // days (default 120): some clerks post minutes months late
+  // Key each meeting by its date, not its file, where a clerk replaces unofficial minutes with official ones under a
+  // new name (Gwinnett).
+  keyByDate?: boolean;
 };
 
 const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
@@ -58,12 +62,13 @@ export function minutesListFeed(o: MinutesListOptions): Feed {
         const html = await getTextIfExists(list);
         if (html === null) continue; // next year's page isn't up yet
         for (const row of html.split(split)) {
-          const minutes = [...row.matchAll(/<a[^>]*href="([^"]+)"[^>]*>((?:(?!<\/a>)[\s\S])*)<\/a>/g)].find(([, , text]) =>
-            link.test(plainText(decodeEntities(text))),
+          const minutes = [...row.matchAll(/<a[^>]*href="([^"]+)"[^>]*>((?:(?!<\/a>)[\s\S])*)<\/a>/g)].find(([, href, text]) =>
+            link.test(plainText(decodeEntities(text)) || decodeURIComponent(decodeEntities(href))),
           )?.[1];
           const text = plainText(decodeEntities(row)).trim();
           if (!minutes || (o.rows && !o.rows.test(text))) continue;
-          const exact = fullDate(text);
+          const inPath = decodeURIComponent(minutes).match(/\/(20\d\d)(\d\d)(\d\d)\//);
+          const exact = fullDate(text) ?? (inPath ? `${inPath[1]}-${inPath[2]}-${inPath[3]}` : null);
           const date = exact ?? monthDate(text);
           // A month-only date stands for the whole month.
           if (!date || (exact ? date < since : date.slice(0, 7) < since.slice(0, 7))) continue;
@@ -73,7 +78,7 @@ export function minutesListFeed(o: MinutesListOptions): Feed {
             decodeURIComponent(url.split('/').pop()!.replace(/\.pdf$/i, ''))
               .toLowerCase()
               .replace(/[^a-z0-9]+/g, '-');
-          const key = `${o.id}-${file || date}`;
+          const key = `${o.id}-${(!o.keyByDate && file) || date}`;
           if (known?.has(key) || out.some((c) => c.key === key)) continue;
           out.push({ key, feed: o.id, level: 'local', jurisdiction: o.place, kind: 'recap', title: `${o.title} minutes, ${date}`, date, url, dateFromText: !exact });
         }
