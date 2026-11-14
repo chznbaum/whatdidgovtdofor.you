@@ -10,3 +10,7 @@ legislature:
   roster: state-ga
   upper: { name: State Senate, title: State Senator }
   lower: { name: House of Representatives, title: State Representative }
+  # Rep. Sharon Henderson (HD 113) was suspended by Executive Order 01.22.26.02 after her indictment, until her case
+  # ends or her term does; she pleaded guilty in July 2026. Open States still lists her.
+  out:
+    - { chamber: lower, district: "113", name: Sharon Henderson, until: 2027-01-11 }

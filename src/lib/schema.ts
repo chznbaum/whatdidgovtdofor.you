@@ -310,7 +310,14 @@ const councilSchema = z.object({
 // src/data/roster/<roster>.json, and what each chamber and its members are called. Districts are matched as the Census
 // geocoder names them, ignoring leading zeros ("045A" is "45A").
 const chamberSchema = z.object({ name: z.string(), title: z.string() }); // { name: House of Delegates, title: Delegate }
-const legislatureSchema = z.object({ roster: z.string(), upper: chamberSchema, lower: chamberSchema });
+// `out`: members the synced roster still lists who can't serve until a date, such as a member the governor suspended;
+// the lookup leaves them out until then.
+const legislatureSchema = z.object({
+  roster: z.string(),
+  upper: chamberSchema,
+  lower: chamberSchema,
+  out: z.array(z.object({ chamber: z.enum(['upper', 'lower']), district: z.string(), name: z.string(), until: date })).default([]),
+});
 
 export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<O, P>) =>
   z.object({

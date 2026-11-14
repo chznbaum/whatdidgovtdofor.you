@@ -68,8 +68,13 @@ export const GET: APIRoute = async () => {
 
   const allPlaces = await getCollection('places');
 
+  // Whether a seat with optional start and end dates is held on the day the site is built.
+  const today = new Date();
+  const holds = (seat: { from?: Date; until?: Date }) => (!seat.from || seat.from <= today) && (!seat.until || today < seat.until);
+
   // State legislatures we cover, keyed by state FIPS code, each chamber's members keyed by district. A district can
-  // elect more than one member (New Jersey's Assembly elects two).
+  // elect more than one member (New Jersey's Assembly elects two). Members a state's file marks as out (suspended)
+  // are left out until their date.
   const legislatures = Object.fromEntries(
     allPlaces
       .filter((p) => p.data.legislature && p.data.geoids.state)
@@ -79,7 +84,9 @@ export const GET: APIRoute = async () => {
         if (!members) throw new Error(`${p.id}: no roster named "${l.roster}" in src/data/roster/ (run npm run sync:roster)`);
         const chamber = (c: 'upper' | 'lower') => {
           const byDistrict: Record<string, ReturnType<typeof person>[]> = {};
-          for (const m of members.filter((m) => m.chamber === c && m.district))
+          const out = (m: RosterMember) =>
+            l.out.some((o) => o.chamber === c && districtKey(o.district) === districtKey(m.district!) && sameName(o.name, m.name) && today < o.until);
+          for (const m of members.filter((m) => m.chamber === c && m.district && !out(m)))
             (byDistrict[districtKey(m.district!)] ??= []).push(
               person(
                 m.name,
@@ -98,9 +105,6 @@ export const GET: APIRoute = async () => {
   // Councils and boards, by place, with the members serving on the day the site is built. The browser finds the
   // address's districts (from the geocoder's County Subdivisions or ArcGIS point queries) and shows those districts'
   // members plus any at-large ones.
-  const today = new Date();
-  // Whether a seat with optional start and end dates is held on the day the site is built.
-  const holds = (seat: { from?: Date; until?: Date }) => (!seat.from || seat.from <= today) && (!seat.until || today < seat.until);
   const councils = Object.fromEntries(
     allPlaces
       .filter((p) => p.data.council)
