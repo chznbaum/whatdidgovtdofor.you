@@ -15,7 +15,7 @@ How an official gets their ink drawing. The rules are in `docs/design.md`, "Port
    ```yaml
    portrait:
      image: /portraits/<id>.webp
-     kind: official        # only when the photo is a government's own (a .gov page, or a public-domain government portrait on Commons); otherwise: photo
+     kind: official        # only when the photo is a government's own (a .gov page, a place's own site such as goochlandva.us, or a public-domain government portrait on Commons); otherwise: photo
      source:
        label: U.S. Congress  # who published the photo, as readers should see it
        url: https://bioguide.congress.gov/search/bio/<bioguide>  # the page from sources.json, never a bare image
