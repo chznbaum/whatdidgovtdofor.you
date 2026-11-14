@@ -149,9 +149,12 @@ export const GET: APIRoute = async () => {
       }),
   );
 
-  // Seats held on the day the site is built: a governor-elect's starts on inauguration day.
+  // Seats held on the day the site is built (a governor-elect's starts on inauguration day), chief executives first.
+  const SEAT_ORDER = ['President', 'Vice President', 'Governor', 'Lieutenant Governor', 'Mayor'];
+  const rank = (title: string) => (SEAT_ORDER.includes(title) ? SEAT_ORDER.indexOf(title) : SEAT_ORDER.length);
   const seats = officials
     .filter((o) => o.data.current && o.data.seat && holds(o.data.seat))
+    .sort((a, b) => rank(a.data.seat!.title) - rank(b.data.seat!.title))
     .map((o) => ({ place: o.data.seat!.place.id, title: o.data.seat!.title, ...person(o.data.name, o.data.party ?? '', o.data.office, o.id) }));
 
   const places = allPlaces.map((p) => ({

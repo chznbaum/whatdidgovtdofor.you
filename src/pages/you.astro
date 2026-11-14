@@ -239,7 +239,10 @@ const levels = [
     const stateItems = legislature
       ? [...seatsFor(legislature.place).map((s) => officialItem(s.title, s)), ...member(legislature.upper, upper), ...member(legislature.lower, lower)]
       : [];
-    const localPlaces = index.places.filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'));
+    // The city or town first, then its county.
+    const localPlaces = index.places
+      .filter((p) => mine.has(p.id) && (p.kind === 'city' || p.kind === 'county' || p.kind === 'town'))
+      .sort((a, b) => Number(a.kind === 'county') - Number(b.kind === 'county'));
     // Each local place's own seats (a mayor), then its council: a council's own mayor, the members for each of the
     // address's districts, then the other members elected at large. A district lookup that fails just leaves those
     // members out.
