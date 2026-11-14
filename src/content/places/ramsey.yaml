@@ -1,0 +1,7 @@
+name: Ramsey County
+short: Ramsey
+kind: county
+parent: mn
+geoids: { state: "27", county: "27123" }
+feeds:
+  - { type: legistar, client: ramseycountymn, types: [Ordinance, Administrative Item, Policy Item], text: true }

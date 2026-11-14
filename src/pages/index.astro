@@ -29,7 +29,7 @@ const more = take(featured);
 const threatened = take(entries.filter((e) => GROUP[e.data.status.state] === 'threat'));
 const ended = take(entries.filter((e) => GROUP[e.data.status.state] === 'ended'));
 
-const destinations = ['us', 'va', 'hampton-roads', 'greater-richmond', 'ny', 'nyc'].map((id) => {
+const destinations = ['us', 'va', 'hampton-roads', 'greater-richmond', 'ny', 'nyc', 'mn', 'twin-cities', 'duluth'].map((id) => {
   const place = places.get(id)!;
   const count = id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
   return { id, name: place.data.name, count };

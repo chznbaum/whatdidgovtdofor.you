@@ -1,0 +1,9 @@
+name: Hennepin County
+short: Hennepin
+kind: county
+parent: mn
+geoids: { state: "27", county: "27053" }
+# The county's website forbids all robots; its Legistar records are on the shared Legistar API. Titles are terse
+# abbreviations, so triage needs each resolution's text.
+feeds:
+  - { type: legistar, client: hennepinmn, types: [Resolution], text: true }

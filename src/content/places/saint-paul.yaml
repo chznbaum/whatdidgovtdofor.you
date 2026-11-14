@@ -1,0 +1,7 @@
+name: Saint Paul
+short: Saint Paul
+kind: city
+parent: ramsey
+geoids: { state: "27", place: "2758000" }
+feeds:
+  - { type: legistar, client: stpaul, types: [Ordinance, Resolution, Resolution-Public Hearing], sponsors: true, text: true }

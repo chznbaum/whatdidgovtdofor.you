@@ -1,0 +1,8 @@
+name: Duluth
+short: Duluth
+kind: city
+parent: st-louis-county
+geoids: { state: "27", place: "2717000" }
+# Legistar's sponsor lists are empty here; movers and roll calls are in each meeting's item minutes.
+feeds:
+  - { type: legistar, client: duluth-mn, types: [Resolution, Ordinance], text: true }

@@ -1,0 +1,7 @@
+name: Minneapolis
+short: Minneapolis
+kind: city
+parent: hennepin
+geoids: { state: "27", place: "2743000" }
+# No feed yet: the council's records are in LIMS (lims.minneapolismn.gov), whose API needs a key; the owner requested one
+# on Nov. 13, 2026. The rest of the site is behind a Cloudflare check; the API's /api/v1/ paths aren't.

@@ -1,0 +1,12 @@
+name: Minnesota
+short: MN
+kind: state
+parent: us
+geoids: { state: "27" }
+blurb: Actions by the Governor, the Legislature, and state agencies.
+# Laws come from the Revisor of Statutes (mn-laws) and executive orders from the Legislative Reference Library
+# (mn-governor). The governor's news releases sit behind a bot check and aren't read.
+legislature:
+  roster: state-mn
+  upper: { name: State Senate, title: State Senator }
+  lower: { name: House, title: State Representative }

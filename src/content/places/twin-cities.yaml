@@ -1,0 +1,11 @@
+name: Twin Cities
+short: Twin Cities
+kind: region
+parent: mn
+# The Metropolitan Council serves all seven metro counties, more than the places we track one by one.
+geoids: { state: "27", counties: ["27003", "27019", "27037", "27053", "27123", "27139", "27163"] }
+members: [minneapolis, saint-paul, hennepin, ramsey]
+blurb: The seven-county region the Metropolitan Council serves. It runs Metro Transit and the regional wastewater system and plans for housing and growth.
+# The Council's minutes (every business item it adopts, with movers) are posted two to four weeks after a meeting.
+feeds:
+  - { type: minutes-list, url: "https://metrocouncil.org/getdoc/b8f01832-993f-45e0-8a33-9a5c98ef86a0/Committee.aspx", title: Metropolitan Council }

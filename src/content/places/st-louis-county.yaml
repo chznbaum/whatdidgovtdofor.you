@@ -1,0 +1,8 @@
+name: St. Louis County
+short: St. Louis Co.
+kind: county
+parent: mn
+geoids: { state: "27", county: "27137" }
+# The board's agendas and minutes sit under /Portals/, which the county's robots.txt disallows, so only its news is read.
+feeds:
+  - { type: rss, url: "https://www.stlouiscountymn.gov/article-details/rss/2399" }
