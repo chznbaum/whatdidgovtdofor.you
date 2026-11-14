@@ -7,3 +7,19 @@ geoids: { state: "27", county: "27053" }
 # abbreviations, so triage needs each resolution's text.
 feeds:
   - { type: legistar, client: hennepinmn, types: [Resolution], text: true }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  districts: { arcgis: "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_sos/bdry_votingdistricts/FeatureServer/0", field: ctycomdist }
+  url: "https://hennepinmn.legistar.com/People.aspx"
+  checked: 2026-11-13
+  # County races are nonpartisan by law. Districts come from the Secretary of State's statewide precinct layer; the
+  # county's own site and map server forbid all robots.
+  members:
+    - { district: "01", name: Jeff Lunde, party: NP }
+    - { district: "02", name: Irene Fernando, party: NP }
+    - { district: "03", name: Marion Greene, party: NP }
+    - { district: "04", name: Angela Conley, party: NP }
+    - { district: "05", name: Debbie Goettel, party: NP }
+    - { district: "06", name: Heather Edelson, party: NP }
+    - { district: "07", name: Kevin Anderson, party: NP }

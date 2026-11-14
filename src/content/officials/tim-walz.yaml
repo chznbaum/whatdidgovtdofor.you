@@ -1,0 +1,8 @@
+name: Tim Walz
+party: D
+office: Governor of Minnesota
+level: state
+jurisdiction: mn
+current: true
+seat: { place: mn, title: Governor, until: 2027-01-04 }
+url: https://mn.gov/governor/

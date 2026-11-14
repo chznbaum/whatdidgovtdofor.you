@@ -6,3 +6,20 @@ geoids: { state: "27", county: "27137" }
 # The board's agendas and minutes sit under /Portals/, which the county's robots.txt disallows, so only its news is read.
 feeds:
   - { type: rss, url: "https://www.stlouiscountymn.gov/article-details/rss/2399" }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  districts: { arcgis: "https://services3.arcgis.com/PBz5hDp35DPCX9Xs/arcgis/rest/services/Commissioner_Districts_2022/FeatureServer/6", field: DISTRICTID }
+  url: "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners"
+  checked: 2026-11-13
+  # County races are nonpartisan by law. Districts 1 and 6 change on Jan. 4, 2027 (Nov. 3, 2026 results).
+  members:
+    - { district: "1", name: Annie Harala, party: NP, until: 2027-01-04 }
+    - { district: "2", name: Patrick Boyle, party: NP }
+    - { district: "3", name: Ashley Grimm, party: NP }
+    - { district: "4", name: Paul McDonald, party: NP }
+    - { district: "5", name: Keith Musolf, party: NP }
+    - { district: "6", name: Keith Nelson, party: NP, until: 2027-01-04 }
+    - { district: "7", name: Mike Jugovich, party: NP }
+    - { district: "1", name: Kris Eilers, party: NP, from: 2027-01-04 }
+    - { district: "6", name: Timothy Mattson, party: NP, from: 2027-01-04 }

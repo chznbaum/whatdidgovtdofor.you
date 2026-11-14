@@ -4,6 +4,8 @@ office: U.S. Senator from Minnesota
 level: federal
 jurisdiction: us
 current: true
+# Governor-elect: takes office Jan. 4, 2027, when she leaves the Senate. Update `office` and `level` then.
+seat: { place: mn, title: Governor, from: 2027-01-04 }
 ids: { bioguide: K000367 }
 url: https://www.klobuchar.senate.gov
 portrait:

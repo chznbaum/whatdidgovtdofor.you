@@ -1,0 +1,8 @@
+name: Jacob Frey
+party: D
+office: Mayor of Minneapolis
+level: local
+jurisdiction: minneapolis
+current: true
+seat: { place: minneapolis, title: Mayor }
+url: https://www.minneapolismn.gov/government/mayor/

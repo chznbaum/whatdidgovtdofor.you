@@ -9,3 +9,29 @@ blurb: The seven-county region the Metropolitan Council serves. It runs Metro Tr
 # The Council's minutes (every business item it adopts, with movers) are posted two to four weeks after a meeting.
 feeds:
   - { type: minutes-list, url: "https://metrocouncil.org/getdoc/b8f01832-993f-45e0-8a33-9a5c98ef86a0/Committee.aspx", title: Metropolitan Council }
+council:
+  body: Metropolitan Council
+  title: Met Council Member
+  districts: { arcgis: "https://arcgis.metc.state.mn.us/arcgis/rest/services/cd/metroDistricts/MapServer/7", field: MCDIST }
+  url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Council-Districts-Map.aspx"
+  checked: 2026-11-13
+  # Appointed by the governor (Minn. Stat. § 473.123), so no party. Every term ends with the governor's on Jan. 4, 2027,
+  # but members serve until the new governor appoints successors (due by March 1, 2027).
+  members:
+    - { name: Robin Hutcheson, party: NP, role: Met Council Chair, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Chair.aspx" }
+    - { district: "1", name: Judy Johnson, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-1.aspx" }
+    - { district: "2", name: Reva Chamblis, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-2.aspx" }
+    - { district: "3", name: Tyronne Carter, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-3.aspx" }
+    - { district: "4", name: Deb Barber, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Vacant,-District-4.aspx" }
+    - { district: "5", name: John Pacheco Jr., party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-5.aspx" }
+    - { district: "6", name: Robert Lilligren, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-6.aspx" }
+    - { district: "7", name: Yassin Osman, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-7.aspx" }
+    - { district: "8", name: Anjuli Cameron, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-8.aspx" }
+    - { district: "9", name: Diego Morales, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-9.aspx" }
+    - { district: "10", name: Peter Lindstrom, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-10.aspx" }
+    - { district: "11", name: Gail Cederberg, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-11.aspx" }
+    - { district: "12", name: Mark Jenkins, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-12.aspx" }
+    - { district: "13", name: Chai Lee, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-13.aspx" }
+    - { district: "14", name: Toni Carter, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-14.aspx" }
+    - { district: "15", name: Victor Obisakin, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-15.aspx" }
+    - { district: "16", name: Wendy Wulff, party: NP, url: "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/District-16.aspx" }

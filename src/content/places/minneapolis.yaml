@@ -5,3 +5,25 @@ parent: hennepin
 geoids: { state: "27", place: "2743000" }
 # No feed yet: the council's records are in LIMS (lims.minneapolismn.gov), whose API needs a key; the owner requested one
 # on Nov. 13, 2026. The rest of the site is behind a Cloudflare check; the API's /api/v1/ paths aren't.
+council:
+  body: City Council
+  title: Council Member
+  districts: { arcgis: "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/msvcWards_2022/FeatureServer/0", field: BDNUM, label: Ward }
+  url: "https://www.minneapolismn.gov/government/city-council/"
+  checked: 2026-11-13
+  # The charter lets candidates print a party or principle on the ballot: 12 printed DFL (shown as D) and Robin Wonsley
+  # Democratic Socialist (DSA). Labels per Ballotpedia; the 2025 sample ballots are no longer online.
+  members:
+    - { district: "1", name: Elliott Payne, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-1/" }
+    - { district: "2", name: Robin Wonsley, party: DSA, url: "https://www.minneapolismn.gov/government/city-council/members/ward-2/" }
+    - { district: "3", name: Michael Rainville, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-3/" }
+    - { district: "4", name: LaTrisha Vetaw, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-4/" }
+    - { district: "5", name: Pearll Warren, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-5/" }
+    - { district: "6", name: Jamal Osman, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-6/" }
+    - { district: "7", name: Elizabeth Shaffer, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-7/" }
+    - { district: "8", name: Soren Stevenson, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-8/" }
+    - { district: "9", name: Jason Chavez, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-9/" }
+    - { district: "10", name: Aisha Chughtai, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-10/" }
+    - { district: "11", name: Jamison Whiting, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-11/" }
+    - { district: "12", name: Aurin Chowdhury, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-12/" }
+    - { district: "13", name: Linea Palmisano, party: D, url: "https://www.minneapolismn.gov/government/city-council/members/ward-13/" }

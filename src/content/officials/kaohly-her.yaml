@@ -1,0 +1,8 @@
+name: Kaohly Her
+party: NP
+office: Mayor of Saint Paul
+level: local
+jurisdiction: saint-paul
+current: true
+seat: { place: saint-paul, title: Mayor }
+url: https://www.stpaul.gov/departments/mayors-office

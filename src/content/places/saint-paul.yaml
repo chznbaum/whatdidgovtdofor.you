@@ -5,3 +5,19 @@ parent: ramsey
 geoids: { state: "27", place: "2758000" }
 feeds:
   - { type: legistar, client: stpaul, types: [Ordinance, Resolution, Resolution-Public Hearing], sponsors: true, text: true }
+council:
+  body: City Council
+  title: Councilmember
+  districts: { arcgis: "https://services1.arcgis.com/9meaaHE3uiba0zr8/ArcGIS/rest/services/Council_Ward_/FeatureServer/0", field: district, label: Ward }
+  url: "https://www.stpaul.gov/department/city-council"
+  checked: 2026-11-13
+  # Elected in nonpartisan races (charter § 7.09). Rebecca Noecker leaves Ward 2 on Jan. 4, 2027 for the Ramsey County
+  # board, unless a recount (requests due by about Nov. 18, 2026) changes that race; the council fills the seat.
+  members:
+    - { district: "1", name: Anika Bowie, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-1" }
+    - { district: "2", name: Rebecca Noecker, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-2", until: 2027-01-04 }
+    - { district: "3", name: Saura Jost, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-3" }
+    - { district: "4", name: Molly Coleman, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-4" }
+    - { district: "5", name: HwaJeong Kim, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-5" }
+    - { district: "6", name: Nelsie Yang, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-6" }
+    - { district: "7", name: Cheniqua Johnson, party: NP, url: "https://www.stpaul.gov/department/city-council/ward-7-cheniqua-johnson" }

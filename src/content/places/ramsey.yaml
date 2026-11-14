@@ -5,3 +5,20 @@ parent: mn
 geoids: { state: "27", county: "27123" }
 feeds:
   - { type: legistar, client: ramseycountymn, types: [Ordinance, Administrative Item, Policy Item], text: true }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  districts: { arcgis: "https://gis.ramseycountymn.gov/server/rest/services/Boundary/BOUND_CommissionerDistrict2022_ViewOnly/FeatureServer/25", field: District }
+  url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners"
+  checked: 2026-11-13
+  # County races are nonpartisan by law (Minn. Stat. § 200.02, subd. 28). District 5 changes on Jan. 4, 2027: Noecker
+  # won by 119 votes, within the free-recount margin; recheck after Nov. 18, 2026.
+  members:
+    - { district: "1", name: Tara Jebens-Singh, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/tara-jebens-singh-district-1" }
+    - { district: "2", name: Mary Jo McGuire, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/mary-jo-mcguire-district-2" }
+    - { district: "3", name: Garrison McMurtrey, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/garrison-mcmurtrey-district-3" }
+    - { district: "4", name: Rena Moran, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/rena-moran-district-4" }
+    - { district: "5", name: Rafael E. Ortega, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/rafael-ortega-district-5", until: 2027-01-04 }
+    - { district: "6", name: Mai Chong Xiong, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/mai-chong-xiong-district-6-board-vice-chair" }
+    - { district: "7", name: Kelly Miller, party: NP, url: "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/kelly-miller-district-7" }
+    - { district: "5", name: Rebecca Noecker, party: NP, from: 2027-01-04 }

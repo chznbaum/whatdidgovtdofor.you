@@ -6,3 +6,20 @@ geoids: { state: "27", place: "2717000" }
 # Legistar's sponsor lists are empty here; movers and roll calls are in each meeting's item minutes.
 feeds:
   - { type: legistar, client: duluth-mn, types: [Resolution, Ordinance], text: true }
+council:
+  body: City Council
+  title: City Councilor
+  districts: { arcgis: "https://utility.arcgis.com/usrsvcs/servers/48a6121974c84a63bc18be012b1fa10a/rest/services/VotingDistricts/VotingDistricts/MapServer/16", field: CouncilDist }
+  url: "https://duluthmn.gov/city-council/"
+  checked: 2026-11-13
+  # Elected in nonpartisan races: five districts and four at large.
+  members:
+    - { district: "1", name: Wendy Durrwachter, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/wendy-durrwachter/" }
+    - { district: "2", name: Diane Desotelle, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/diane-desotelle/" }
+    - { district: "3", name: Roz Randorf, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/roz-randorf/" }
+    - { district: "4", name: David Clanaugh, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/david-clanaugh/" }
+    - { district: "5", name: Janet Kennedy, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/janet-kennedy/" }
+    - { name: Arik Forsman, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/arik-forsman/" }
+    - { name: Lynn Marie Nephew, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/lynn-marie-nephew/" }
+    - { name: Jordon Johnson, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/jordon-johnson/" }
+    - { name: Terese Tomanek, party: NP, url: "https://duluthmn.gov/city-council/city-councilors/terese-tomanek/" }
