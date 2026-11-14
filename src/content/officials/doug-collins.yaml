@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: C001093 }
+portrait:
+  image: /portraits/doug-collins.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Doug_Collins_official_congressional_photo.jpg
+    license: Public domain

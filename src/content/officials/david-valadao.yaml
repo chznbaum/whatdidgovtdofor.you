@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: V000129 }
 url: https://valadao.house.gov
+portrait:
+  image: /portraits/david-valadao.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:David_Valadao_117th_U.S_Congress.jpg
+    license: Public domain

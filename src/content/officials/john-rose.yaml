@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: R000612 }
 url: https://johnrose.house.gov
+portrait:
+  image: /portraits/john-rose.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives (House Creative Services, photo by Leah Herman), via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:John_Rose_118th_Congress.jpeg
+    license: Public domain

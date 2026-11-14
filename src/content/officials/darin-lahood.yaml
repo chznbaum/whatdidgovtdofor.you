@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: L000585 }
 url: https://lahood.house.gov
+portrait:
+  image: /portraits/darin-lahood.webp
+  kind: official
+  source:
+    label: U.S. House Office of Photography, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Darin_LaHood_official_photo.jpg
+    license: Public domain

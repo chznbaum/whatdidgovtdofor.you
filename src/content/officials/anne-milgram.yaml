@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.dea.gov
+portrait:
+  image: /portraits/anne-milgram.webp
+  kind: official
+  source:
+    label: U.S. Drug Enforcement Administration, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Anne_Milgram_-_Official_Portrait.jpg
+    license: Public domain

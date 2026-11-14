@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/4d3e092b-0cef-41ca-89a0-e73e1f9fda01 }
 url: https://nyassembly.gov/mem/Sam-Berger
+portrait:
+  image: /portraits/sam-berger.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Sam-Berger
+    license: "© New York State Assembly, used as a drawing reference"

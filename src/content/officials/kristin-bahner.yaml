@@ -4,3 +4,10 @@ office: Minnesota State Representative
 level: state
 jurisdiction: mn
 current: true
+portrait:
+  image: /portraits/kristin-bahner.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15505
+    license: "© Minnesota House of Representatives (photo by Paul Battaglia), used as a drawing reference"

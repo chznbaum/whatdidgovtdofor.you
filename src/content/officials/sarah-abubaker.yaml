@@ -5,3 +5,10 @@ level: local
 jurisdiction: richmond
 current: true
 url: https://rva.gov/richmond-city-council/council-contacts
+portrait:
+  image: /portraits/sarah-abubaker.webp
+  kind: official
+  source:
+    label: Richmond City Council
+    url: https://rva.gov/richmond-city-council/council-contacts
+    license: "© City of Richmond, used as a drawing reference"

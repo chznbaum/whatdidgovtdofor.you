@@ -4,3 +4,10 @@ office: Virginia State Senator, District 9
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/tammy-mulchi.webp
+  kind: photo
+  source:
+    label: Tammy Brankley Mulchi for Virginia Senate
+    url: https://mulchi4senate.com/
+    license: "© Tammy Brankley Mulchi for Virginia Senate, used as a drawing reference"

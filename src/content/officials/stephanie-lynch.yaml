@@ -5,3 +5,10 @@ level: local
 jurisdiction: richmond
 current: true
 url: https://rva.gov/richmond-city-council/council-contacts
+portrait:
+  image: /portraits/stephanie-lynch.webp
+  kind: photo
+  source:
+    label: Elect Stephanie Lynch campaign
+    url: https://www.electstephanielynch.com/stephanie-headshot/
+    license: "© Elect Stephanie Lynch, used as a drawing reference"

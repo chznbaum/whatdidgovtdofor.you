@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://www.nysenate.gov/senators/jamaal-t-bailey
+portrait:
+  image: /portraits/jamaal-bailey.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/jamaal-t-bailey
+    license: "© New York State Senate, used as a drawing reference"

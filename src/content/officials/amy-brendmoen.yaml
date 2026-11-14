@@ -5,3 +5,10 @@ level: local
 jurisdiction: saint-paul
 current: false
 url: https://amybrendmoen.com/resume/
+portrait:
+  image: /portraits/amy-brendmoen.webp
+  kind: photo
+  source:
+    label: Amy Brendmoen Strategies
+    url: https://amybrendmoen.com/
+    license: "© Amy Brendmoen, used as a drawing reference"

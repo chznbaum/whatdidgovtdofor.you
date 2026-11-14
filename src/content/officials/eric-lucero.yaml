@@ -4,3 +4,10 @@ office: Minnesota State Senator
 level: state
 jurisdiction: mn
 current: true
+portrait:
+  image: /portraits/eric-lucero.webp
+  kind: official
+  source:
+    label: Minnesota Legislative Reference Library
+    url: https://www.lrl.mn.gov/legdb/media?legid=15438
+    license: "© Minnesota House of Representatives, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/12dbcb73-95de-4067-8e68-7d7af51eac55 }
 url: https://www.nyassembly.gov/mem/Nader-J-Sayegh/
+portrait:
+  image: /portraits/nader-sayegh.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Nader-J-Sayegh
+    license: "© New York State Assembly, used as a drawing reference"

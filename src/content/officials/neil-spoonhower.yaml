@@ -5,3 +5,10 @@ level: local
 jurisdiction: goochland
 current: true
 url: https://www.goochlandva.us/158/Board-of-Supervisors
+portrait:
+  image: /portraits/neil-spoonhower.webp
+  kind: official
+  source:
+    label: Goochland County
+    url: https://www.goochlandva.us/158/Board-of-Supervisors
+    license: "© Goochland County, used as a drawing reference"

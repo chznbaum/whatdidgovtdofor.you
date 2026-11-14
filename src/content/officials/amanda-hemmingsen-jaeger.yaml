@@ -5,3 +5,10 @@ level: state
 jurisdiction: mn
 current: true
 url: https://www.senate.mn/members
+portrait:
+  image: /portraits/amanda-hemmingsen-jaeger.webp
+  kind: official
+  source:
+    label: Minnesota Senate
+    url: https://www.mnsenate.gov/members/member_bio.html?mem_id=1278
+    license: "© Minnesota Senate, used as a drawing reference"

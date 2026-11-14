@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 ids: { openstates: ocd-person/725be36e-2485-4f9f-a15f-86c574cc8d4b }
+portrait:
+  image: /portraits/bonita-anthony.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0353
+    license: "© Virginia House of Delegates / LynTracey Images, used as a drawing reference"

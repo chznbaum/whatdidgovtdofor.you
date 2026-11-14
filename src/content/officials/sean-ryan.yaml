@@ -3,5 +3,12 @@ party: D
 office: New York State Senator, District 61
 level: state
 jurisdiction: ny
-current: true
-url: https://www.nysenate.gov/senators/sean-ryan
+current: false
+url: https://www.nysenate.gov/senators/sean-m-ryan
+portrait:
+  image: /portraits/sean-ryan.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://web.archive.org/web/20260120172326/https://www.nysenate.gov/senators/sean-m-ryan
+    license: "© New York State Senate, used as a drawing reference"

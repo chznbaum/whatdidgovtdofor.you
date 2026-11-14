@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/yusef-salaam/
+portrait:
+  image: /portraits/yusef-salaam.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://council.nyc.gov/districts/
+    license: "© New York City Council, used as a drawing reference"

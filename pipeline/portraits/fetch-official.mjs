@@ -11,21 +11,22 @@ import { parse } from 'yaml';
 const here = import.meta.dirname;
 const root = path.resolve(here, '../..');
 const manifest = path.join(here, 'sources.json');
-const UA = { 'User-Agent': 'whatdidgovtdofor.you portrait pipeline (chazona@chazonabaum.com)' };
+const UA = { 'User-Agent': 'whatdidgovtdofor.you portrait pipeline (+https://whatdidgovtdofor.you; places@whatdidgovtdofor.you)' };
 
 const size = (file) => {
   const out = execFileSync('sips', ['-g', 'pixelWidth', '-g', 'pixelHeight', file]).toString();
   return [Number(out.match(/pixelWidth: (\d+)/)[1]), Number(out.match(/pixelHeight: (\d+)/)[1])];
 };
 
+// Through merge.py, which locks the file and re-reads it, so an agent writing at the same moment loses nothing.
 function record(id, entry) {
-  const all = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest, 'utf8')) : {};
-  if (all[id]) return false;
-  all[id] = entry;
-  // Escape non-ASCII the way the Python tools write this file, so a write doesn't churn every other entry.
-  const ascii = JSON.stringify(all, null, 2).replace(/[\u007f-\uffff]/g, (c) => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'));
-  fs.writeFileSync(manifest, ascii + '\n');
-  return true;
+  try {
+    execFileSync('python3', [path.join(here, 'merge.py'), manifest, id, JSON.stringify(entry)], { stdio: 'pipe' });
+    return true;
+  } catch (e) {
+    if (e.status === 2) return false; // already recorded
+    throw e;
+  }
 }
 
 async function commons(file) {

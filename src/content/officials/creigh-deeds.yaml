@@ -5,4 +5,11 @@ level: state
 jurisdiction: va
 current: true
 ids: { openstates: ocd-person/ad107e73-7e1e-45dd-ab19-52005a0b948c }
-url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S70
+url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S62
+portrait:
+  image: /portraits/creigh-deeds.webp
+  kind: photo
+  source:
+    label: Senator Creigh Deeds
+    url: https://www.senatordeeds.com/meet-creigh
+    license: "© Creigh Deeds, used as a drawing reference"

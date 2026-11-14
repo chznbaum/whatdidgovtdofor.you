@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Steve-Stern
+portrait:
+  image: /portraits/steve-stern.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Steve-Stern
+    license: "© New York State Assembly, used as a drawing reference"

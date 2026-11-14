@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: H001093 }
 url: https://houchin.house.gov
+portrait:
+  image: /portraits/erin-houchin.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Rep._Erin_Houchin_official_photo,_118th_Congress.jpg
+    license: Public domain

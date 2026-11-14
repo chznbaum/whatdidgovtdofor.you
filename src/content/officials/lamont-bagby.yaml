@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/fa49c701-d235-4f56-b9af-b772dec36d02 }
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S114
+portrait:
+  image: /portraits/lamont-bagby.webp
+  kind: photo
+  source:
+    label: Virginia Senate Democratic Caucus
+    url: https://vasenatedems.com/about-us/
+    license: "© Virginia Senate Democratic Caucus, used as a drawing reference"

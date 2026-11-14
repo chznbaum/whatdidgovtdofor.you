@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/44ebbeab-055c-402b-a56e-bb7487d0da62 }
 url: https://house.vga.virginia.gov/members/H0227
+portrait:
+  image: /portraits/luke-torian.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0227
+    license: "© Virginia House of Delegates, used as a drawing reference"

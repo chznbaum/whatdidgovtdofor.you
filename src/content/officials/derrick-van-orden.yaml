@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: V000135 }
 url: https://vanorden.house.gov
+portrait:
+  image: /portraits/derrick-van-orden.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Congressman_dvo.jpg
+    license: Public domain

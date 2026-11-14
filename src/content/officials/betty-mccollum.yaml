@@ -6,3 +6,10 @@ jurisdiction: mn
 current: true
 ids: { bioguide: M001143 }
 url: https://mccollum.house.gov
+portrait:
+  image: /portraits/betty-mccollum.webp
+  kind: official
+  source:
+    label: U.S. House Office of Photography (Franmarie Metzler), via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Betty_McCollum,_official_portrait,_116th_Congress.jpg
+    license: Public domain

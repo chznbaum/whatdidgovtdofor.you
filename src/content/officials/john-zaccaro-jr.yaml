@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/John-Zaccaro-Jr
+portrait:
+  image: /portraits/john-zaccaro-jr.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/John-Zaccaro-Jr
+    license: "© New York State Assembly, used as a drawing reference"

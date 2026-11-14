@@ -3,6 +3,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import federal from '../data/roster/federal.json';
 import { entryPlaceIds, getEntries } from '../lib/data.ts';
+import { sameName } from '../lib/names.ts';
 
 // Synced rosters, by file name: state legislatures (`legislature.roster` in a state's place file) and councils a place
 // names instead of listing its members (`council.roster`).
@@ -32,21 +33,6 @@ const GEOCODER = {
 
 // A legislative district as the geocoder and rosters both can name it: no leading zeros, letters upper case ("45A").
 const districtKey = (d: string) => d.trim().toUpperCase().replace(/^0+(?=\d)/, '');
-
-const normalize = (name: string) =>
-  name
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[^a-z ]/g, '')
-    .replace(/\b(jr|sr|ii|iii)\b/g, '')
-    .split(/\s+/)
-    .filter(Boolean);
-// "Robert C. "Bobby" Scott" and "Bobby Scott" match on last name plus any shared given name.
-const sameName = (a: string, b: string) => {
-  const x = normalize(a);
-  const y = normalize(b);
-  return x.at(-1) === y.at(-1) && x.slice(0, -1).some((w) => y.includes(w));
-};
 
 export const GET: APIRoute = async () => {
   const officials = await getCollection('officials');

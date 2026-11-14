@@ -5,3 +5,10 @@ level: local
 jurisdiction: richmond
 current: true
 url: https://rva.gov/richmond-city-council/council-contacts
+portrait:
+  image: /portraits/ellen-robertson.webp
+  kind: photo
+  source:
+    label: Ellen Robertson, 6th District
+    url: https://www.robertsonrva6.com/
+    license: "© Ellen Robertson, used as a drawing reference"

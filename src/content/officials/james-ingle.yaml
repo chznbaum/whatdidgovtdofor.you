@@ -5,3 +5,10 @@ level: local
 jurisdiction: chesterfield
 current: true
 url: https://www.chesterfield.gov/181/Board-of-Supervisors
+portrait:
+  image: /portraits/james-ingle.webp
+  kind: official
+  source:
+    label: Chesterfield County
+    url: https://www.chesterfield.gov/1238/Bermuda-District---Ingle
+    license: "© Chesterfield County, used as a drawing reference"

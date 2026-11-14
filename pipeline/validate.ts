@@ -69,23 +69,32 @@ export async function validateEntry(file: string, schemas?: Schemas): Promise<Pr
 // Portrait rules from docs/design.md: the drawing ships with the site (its source photo never does; the site links
 // to the page it came from), and "official portrait" is only claimed when the photo is a government's own: it comes
 // from a government site, or it's a public-domain government portrait on Wikimedia Commons (e.g. a presidential one).
+// A government site is a .gov host, a name in the .us locality space RFC 1480 keeps for governments
+// (assembly.state.ny.us, ci.richmond.va.us), or the site a place's council page is on (goochlandva.us, suffolkva.us).
+// Not every .us: anyone in the U.S. can register a name like goochlandva.us.
 const GOVERNMENT_HOST = /(^|\.)(gov|congress\.gov|nysenate\.gov|nyassembly\.gov|nyc\.gov|virginia\.gov)$|\.gov$|\.virginia\.gov$|\.ny\.gov$/;
+const LOCALITY_US = /(^|\.)(state|ci|co|town|vil|twp)\.([a-z0-9-]+\.)?[a-z]{2}\.us$/;
+const bareHost = (url: string) => new URL(/^https?:/.test(url) ? url : `https://${url}`).hostname.replace(/^www\./, '');
+async function placeSites(): Promise<Set<string>> {
+  const places = await Promise.all((await listFiles(join(CONTENT, 'places'), '.yaml')).map(readYaml));
+  return new Set(places.flatMap((p) => (p?.council?.url ? [bareHost(p.council.url)] : [])));
+}
 // An archived copy of an official page (web.archive.org/web/<timestamp>/<original url>) counts as the original.
 const unwrapArchive = (url: string) => url.match(/^https?:\/\/web\.archive\.org\/web\/[^/]+\/(.+)$/)?.[1] ?? url;
-const isOfficialSource = (src: { url: string; license?: string }) => {
-  const original = unwrapArchive(src.url);
-  const host = new URL(/^https?:/.test(original) ? original : `https://${original}`).hostname;
-  return GOVERNMENT_HOST.test(host) || (host === 'commons.wikimedia.org' && /public domain/i.test(src.license ?? ''));
+const isOfficialSource = (src: { url: string; license?: string }, sites: Set<string>) => {
+  const host = bareHost(unwrapArchive(src.url));
+  if (GOVERNMENT_HOST.test(host) || LOCALITY_US.test(host) || sites.has(host)) return true;
+  return host === 'commons.wikimedia.org' && /public domain/i.test(src.license ?? '');
 };
-function portraitProblems(file: string, o: z.infer<Schemas['officials']>): Problem[] {
+function portraitProblems(file: string, o: z.infer<Schemas['officials']>, sites: Set<string>): Problem[] {
   const p = o.portrait;
   if (!p) return [];
   const out: string[] = [];
   const pub = join(import.meta.dirname, '..', 'public');
   for (const path of [p.image, p.image.replace(/\.webp$/, '-400.webp')])
     if (!existsSync(join(pub, path))) out.push(`portrait: ${path} is missing from public/`);
-  if (p.kind === 'official' && !isOfficialSource(p.source))
-    out.push('portrait.kind: "official" needs a government source (a .gov page, or a public-domain government portrait on Commons); use "photo"');
+  if (p.kind === 'official' && !isOfficialSource(p.source, sites))
+    out.push('portrait.kind: "official" needs a government source (a .gov page, a place\'s own site, or a public-domain government portrait on Commons); use "photo"');
   if (o.kind === 'body') out.push('portrait: a body has no face; it is shown by name');
   return out.map((message) => ({ file, message }));
 }
@@ -111,10 +120,11 @@ function councilProblems(file: string, p: z.infer<Schemas['places']>): Problem[]
 
 async function validateYaml(collection: 'officials' | 'places', schemas: Schemas): Promise<Problem[]> {
   const problems: Problem[] = [];
+  const sites = collection === 'officials' ? await placeSites() : new Set<string>();
   for (const file of await listFiles(join(CONTENT, collection), '.yaml')) {
     const parsed = schemas[collection].safeParse(await readYaml(file));
     if (!parsed.success) problems.push(...zodProblems(rel(file), parsed.error));
-    else if (collection === 'officials') problems.push(...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>));
+    else if (collection === 'officials') problems.push(...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>, sites));
     else problems.push(...councilProblems(rel(file), parsed.data as z.infer<Schemas['places']>));
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(idFromPath(file))) problems.push({ file: rel(file), message: 'id must be a lowercase slug' });
   }

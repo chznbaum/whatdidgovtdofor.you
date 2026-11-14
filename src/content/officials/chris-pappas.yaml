@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: P000614 }
 url: https://pappas.house.gov
+portrait:
+  image: /portraits/chris-pappas.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Chris_Pappas,_official_portrait,_116th_Congress.jpg
+    license: Public domain

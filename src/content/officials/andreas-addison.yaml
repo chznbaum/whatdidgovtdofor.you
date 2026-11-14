@@ -4,3 +4,10 @@ office: Member, Richmond City Council, 1st District
 level: local
 jurisdiction: richmond
 current: false
+portrait:
+  image: /portraits/andreas-addison.webp
+  kind: photo
+  source:
+    label: Andreas Addison for Mayor campaign
+    url: https://web.archive.org/web/20241003001233/https://www.andreasaddison.com/
+    license: "© Andreas Addison for Mayor, used as a drawing reference"

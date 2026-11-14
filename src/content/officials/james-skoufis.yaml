@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://www.nysenate.gov/senators/james-skoufis
+portrait:
+  image: /portraits/james-skoufis.webp
+  kind: photo
+  source:
+    label: "James Skoufis, via Wikimedia Commons"
+    url: https://commons.wikimedia.org/wiki/File:James_Skoufis.jpg
+    license: CC0

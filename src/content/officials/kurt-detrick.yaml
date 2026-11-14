@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://www.vpff.org/welcome/
+portrait:
+  image: /portraits/kurt-detrick.webp
+  kind: photo
+  source:
+    label: Virginia Professional Fire Fighters
+    url: https://www.vpff.org/kurt-detrick/
+    license: "© Virginia Professional Fire Fighters, used as a drawing reference"

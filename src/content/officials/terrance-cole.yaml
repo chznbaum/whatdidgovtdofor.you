@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: true
 url: https://www.dea.gov
+portrait:
+  image: /portraits/terrance-cole.webp
+  kind: official
+  source:
+    label: U.S. Drug Enforcement Administration, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:DEA_Administrator_Terrance_Cole_Official_Portrait.jpg
+    license: Public domain

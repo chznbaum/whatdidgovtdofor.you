@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.osha.gov
+portrait:
+  image: /portraits/doug-parker.webp
+  kind: official
+  source:
+    label: U.S. Department of Labor, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Douglas_L._Parker,_Assistant_Secretary_of_Labor_official.jpg
+    license: Public domain

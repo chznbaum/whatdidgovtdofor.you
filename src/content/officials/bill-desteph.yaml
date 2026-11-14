@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S96
+portrait:
+  image: /portraits/bill-desteph.webp
+  kind: official
+  source:
+    label: Senate of Virginia
+    url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S96
+    license: "© Senate of Virginia, used as a drawing reference"

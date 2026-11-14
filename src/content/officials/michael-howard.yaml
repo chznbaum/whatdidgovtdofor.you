@@ -1,7 +1,14 @@
 name: Michael Howard
 party: D
-office: Minnesota State Representative, District 50A
+office: Minnesota State Representative, District 51A
 level: state
 jurisdiction: mn
 current: true
 url: https://www.house.mn.gov
+portrait:
+  image: /portraits/michael-howard.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15518
+    license: "© Minnesota House of Representatives (photo by Paul Battaglia), used as a drawing reference"

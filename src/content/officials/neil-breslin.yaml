@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://www.nysenate.gov/senators/neil-d-breslin
+portrait:
+  image: /portraits/neil-breslin.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://web.archive.org/web/20251109063137/https://www.nysenate.gov/senators/neil-d-breslin
+    license: "© New York State Senate, used as a drawing reference"

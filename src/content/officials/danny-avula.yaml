@@ -6,3 +6,10 @@ jurisdiction: richmond
 current: true
 seat: { place: richmond, title: Mayor }
 url: https://www.rva.gov/mayor
+portrait:
+  image: /portraits/danny-avula.webp
+  kind: official
+  source:
+    label: City of Richmond, Office of the Mayor
+    url: https://www.rva.gov/mayors-office/about-danny
+    license: "© City of Richmond, used as a drawing reference"

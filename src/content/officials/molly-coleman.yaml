@@ -5,3 +5,10 @@ level: local
 jurisdiction: saint-paul
 current: true
 url: https://www.stpaul.gov/departments/city-council/ward-4
+portrait:
+  image: /portraits/molly-coleman.webp
+  kind: official
+  source:
+    label: City of Saint Paul
+    url: https://www.stpaul.gov/department/city-council/ward-4
+    license: "© City of Saint Paul, used as a drawing reference"

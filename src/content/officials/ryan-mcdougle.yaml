@@ -4,4 +4,11 @@ office: Virginia State Senator, District 26
 level: state
 jurisdiction: va
 current: true
-url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S70
+url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S69
+portrait:
+  image: /portraits/ryan-mcdougle.webp
+  kind: photo
+  source:
+    label: Ryan McDougle campaign
+    url: https://www.ryanmcdougle.com/
+    license: "© Ryan McDougle, used as a drawing reference"

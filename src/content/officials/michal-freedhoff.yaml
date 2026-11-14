@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.epa.gov
+portrait:
+  image: /portraits/michal-freedhoff.webp
+  kind: official
+  source:
+    label: U.S. Environmental Protection Agency, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Michal_Freedhoff,_EPA_Assistant_Administrator.jpg
+    license: Public domain

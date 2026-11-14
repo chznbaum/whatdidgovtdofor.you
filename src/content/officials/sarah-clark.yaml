@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://assembly.ny.gov/mem/Sarah-Clark/bio
+portrait:
+  image: /portraits/sarah-clark.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Sarah-Clark
+    license: "© New York State Assembly, used as a drawing reference"

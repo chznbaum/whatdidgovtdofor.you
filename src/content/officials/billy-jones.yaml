@@ -3,5 +3,12 @@ party: D
 office: New York State Assembly Member, District 115
 level: state
 jurisdiction: ny
-current: true
-url: https://nyassembly.gov/mem/D-Billy-Jones
+current: false
+url: https://web.archive.org/web/20250621160305/https://nyassembly.gov/mem/Billy-Jones
+portrait:
+  image: /portraits/billy-jones.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20250323144352/https://nyassembly.gov/write/upload/member_files/115/pdfs/20231214_0108434.pdf
+    license: "© New York State Assembly, used as a drawing reference"

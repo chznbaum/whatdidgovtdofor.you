@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: B001298 }
 url: https://bacon.house.gov
+portrait:
+  image: /portraits/don-bacon.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives (House Creative Services, photo by Brian Thorpe), via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Bacon_Don_119th_Congress.jpg
+    license: Public domain

@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/8ec90d7b-fd5f-4157-b779-1979e7a54e76 }
 url: https://history.house.virginia.gov/members/9972
+portrait:
+  image: /portraits/rodney-willett.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0327
+    license: "© Virginia House of Delegates / Amanda Maglione, used as a drawing reference"

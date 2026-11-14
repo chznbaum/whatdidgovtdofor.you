@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.dhs.gov
+portrait:
+  image: /portraits/alejandro-mayorkas.webp
+  kind: official
+  source:
+    label: U.S. Department of Homeland Security (photo by Zachary Hupp), via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Secretary_Mayorkas_Official_Photo.jpg
+    license: Public domain
