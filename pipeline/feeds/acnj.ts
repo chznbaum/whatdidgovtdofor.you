@@ -10,8 +10,10 @@ import { get, getJson, newest, pdfText, sleep, truncate } from './util.ts';
 
 export type AcnjOptions = { id: string; description: string; origin: string; body: string; place: string };
 
-// The final agenda marks outcomes.
-const OUTCOME = /\bPASSED\b|^\s*P\s+\d+\s*[-–]/m;
+// The final agenda marks outcomes, and the split step is told how (its letters don't say "approved").
+const OUTCOME = /\bPASSED\b|^\s*P\s*\d+\s*[-–]/m;
+const LEGEND =
+  'The pages after the minutes are the clerk\'s FINAL agenda, read from a scan. "P" before a resolution\'s number ("P 598 - RESOLUTION ...") means the resolution passed. On ordinances, "PASSED" next to the number means adopted, and the council members named before it are its sponsors. ADJOURNED, TABLED or WITHDRAWN means it did not pass at this meeting. Each resolution passed is an action, contracts and payments included.';
 // The appendix starts with each adopted resolution or ordinance on its own page.
 const APPENDIX = /^\s*(?:Resolution|Ordinance) of the City of Atlantic City\b/im;
 
@@ -54,7 +56,7 @@ export function acnjFeed(o: AcnjOptions): Feed {
           if ((e as NodeJS.ErrnoException).code === 'ENOENT') throw new Error('pdftotext not found (brew install poppler)');
           console.warn(`[${o.id}] skipped ${c.url}: ${(e as Error).message}`);
         }
-        if (OUTCOME.test(text)) Object.assign(c, { summary: truncate(text.replace(/\s+/g, ' ')), extra: { text } });
+        if (OUTCOME.test(text)) Object.assign(c, { summary: truncate(text.replace(/\s+/g, ' ')), extra: { text, legend: LEGEND } });
         else console.warn(`[${o.id}] no outcomes found in ${c.url}`);
       }
       return recent.filter((c) => c.extra?.text);

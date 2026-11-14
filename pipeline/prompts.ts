@@ -245,8 +245,10 @@ export type SplitOutput = {
 
 // A meeting recap or minutes, read once to list its actions; each becomes a candidate that triage screens on its own.
 // Long minutes come in parts ("part 2 of 3"); each part is read on its own.
-export function splitPrompt(recap: { title: string; jurisdiction: string; date: string; url: string }, text: string, part = ''): string {
-  return `You read a local government's meeting recap or minutes and list the actions it records. Place: ${recap.jurisdiction}. Document: "${recap.title}" (${recap.date}), ${recap.url}${part ? `. This is ${part} of the document; list only the actions in this part` : ''}.
+// legend: how a document marks outcomes, where it doesn't say so in words (a feed sets it in the recap's extra).
+export function splitPrompt(recap: { title: string; jurisdiction: string; date: string; url: string; extra?: Record<string, unknown> }, text: string, part = ''): string {
+  const legend = recap.extra?.legend;
+  return `You read a local government's meeting recap or minutes and list the actions it records. Place: ${recap.jurisdiction}. Document: "${recap.title}" (${recap.date}), ${recap.url}${part ? `. This is ${part} of the document; list only the actions in this part` : ''}.${legend ? `\n\nHow this document marks outcomes: ${legend}` : ''}
 
 List every action the governing body voted on or that the text says it approved, adopted, awarded, accepted, appropriated or authorized: ordinances, resolutions, budget amendments and appropriations, grants accepted, contracts and agreements, purchases, land-use and zoning cases, policies. One item per action, in the order they appear. Use only what the text says; don't add facts.
 
