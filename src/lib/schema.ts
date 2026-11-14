@@ -62,7 +62,7 @@ export const ACTION_TYPES = [
   'grant',
 ] as const;
 
-export const PARTIES = ['D', 'R', 'I', 'L', 'G', 'DSA', 'NP'] as const;
+export const PARTIES = ['D', 'R', 'I', 'L', 'G', 'DSA', 'NPA', 'NP'] as const;
 
 export type Collection = 'officials' | 'places';
 // Generic so Astro's `reference()` output type ({ id, collection }) flows through to the inferred types.

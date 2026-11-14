@@ -21,6 +21,7 @@ export const PARTY_NAMES: Record<Party, string> = {
   L: 'Libertarian',
   G: 'Green',
   DSA: 'Democratic Socialists of America',
+  NPA: 'No Party Affiliation',
   NP: 'Nonpartisan',
 };
 
@@ -31,6 +32,7 @@ export const PARTY_PLURALS: Record<Party, string> = {
   L: 'Libertarians',
   G: 'Greens',
   DSA: 'Democratic Socialists',
+  NPA: 'No Party Affiliation',
   NP: 'Nonpartisan',
 };
 
