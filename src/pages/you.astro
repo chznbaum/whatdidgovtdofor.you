@@ -64,7 +64,9 @@ const levels = [
   type Seat = Person & { place: string; title: string };
   type Member = Person & { district: string | null; role: string; lead: boolean };
   type Chamber = { name: string; title: string; members: Record<string, Person[]> };
-  type Lookup = { census: true; label: string } | { census?: undefined; url: string; field: string; label: string };
+  // How an address finds a council district (see districtLookup in src/lib/schema.ts). `values` and `towns` give the
+  // district or districts for what the map or the Census says.
+  type Lookup = { label: string; census?: true; unmapped?: true; towns?: Record<string, string[]>; url?: string; field?: string; values?: Record<string, string[]> };
   type Council = { body: string; districts: Lookup[]; members: Member[] };
   type PlaceInfo = {
     id: string;
@@ -259,18 +261,33 @@ const levels = [
       if (!council) continue;
       const atLarge = council.members.filter((m) => m.district === null);
       localItems.push(...atLarge.filter((m) => m.lead).map((m) => officialItem(m.role, m)));
+      // What the map or the Census says, translated where the lookup gives districts for it.
+      const lookUp = (map: Record<string, string[]> | undefined, said: string | undefined) =>
+        said === undefined ? [] : map ? (Object.entries(map).find(([k]) => sameDistrict(k, said))?.[1] ?? []) : [said];
       const found = await Promise.all(
         council.districts.map(async (l) => ({
           label: l.label,
-          value: l.census ? subdivision?.BASENAME : await councilDistrict(l, match.coordinates.x, match.coordinates.y),
+          unmapped: !!l.unmapped,
+          values: l.unmapped
+            ? council.members.flatMap((m) => (m.district ? [m.district] : []))
+            : l.census
+              ? lookUp(undefined, subdivision?.BASENAME)
+              : l.towns
+                ? lookUp(l.towns, subdivision?.BASENAME)
+                : lookUp(l.values, await councilDistrict({ url: l.url!, field: l.field! }, match.coordinates.x, match.coordinates.y)),
         })),
       );
-      for (const { label, value } of found) {
-        const members = council.members.filter((m) => value && m.district && sameDistrict(m.district, value));
+      for (const { label, unmapped, values } of found) {
+        const members = council.members
+          .filter((m) => m.district && values.some((v) => sameDistrict(m.district!, v)))
+          .sort((a, b) => a.district!.localeCompare(b.district!, undefined, { numeric: true }));
         if (!members.length) continue;
+        localItems.push(...members.map((m) => officialItem(`${m.role}, ${districtName(m.district!, label)}`, m)));
+        // Name the address's district only when it's known to be one. A bare "District 6" could be anything on this
+        // line, so a numbered district carries the body's name.
+        const districts = [...new Set(members.map((m) => plain(m.district!)))];
+        if (unmapped || districts.length > 1) continue;
         const name = districtName(members[0].district!, label);
-        localItems.push(...members.map((m) => officialItem(`${m.role}, ${name}`, m)));
-        // A bare "District 6" could be anything on this line, so a numbered district carries the body's name.
         localWhere.push(label === 'District' && /^\d+$/.test(members[0].district!) ? `${council.body} ${name}` : name);
       }
       localItems.push(...atLarge.filter((m) => !m.lead).map((m) => officialItem(m.role, m)));

@@ -116,7 +116,13 @@ export const GET: APIRoute = async () => {
             districts:
               c.districts === 'census'
                 ? [{ census: true, label: 'District' }]
-                : layers.map((l) => ({ url: l.arcgis, field: l.field, label: l.label ?? 'District' })),
+                : layers.map((l) => {
+                    const label = l.label ?? 'District';
+                    if ('unmapped' in l) return { unmapped: true, label };
+                    if ('towns' in l) return { towns: Object.fromEntries(Object.entries(l.towns).map(([t, d]) => [t, [d]])), label };
+                    const values = l.values && Object.fromEntries(Object.entries(l.values).map(([v, d]) => [v, [d].flat()]));
+                    return { url: l.arcgis, field: l.field, label, ...(values && { values }) };
+                  }),
             members: members
               .filter(holds)
               .map((m) => {

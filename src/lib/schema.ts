@@ -249,9 +249,22 @@ const placeFeedSchema = z.discriminatedUnion('type', [
   }),
 ]);
 
-// A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.
-// `label` names its districts: "Ward" makes "Ward 2", "Borough" makes "Chuckatuck Borough" (default "District").
-const districtLayer = z.object({ arcgis: z.url(), field: z.string(), label: z.string().optional() });
+// How an address finds its district. `label` names the districts: "Ward" makes "Ward 2", "Borough" makes "Chuckatuck
+// Borough" (default "District").
+//   - A map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district. `values`
+//     translates what the map says when it isn't the district itself, into one district or several where it's split
+//     (Newark's wards into Essex County commissioner districts: { NORTH: "1", WEST: ["1", "3"] }).
+//   - `towns`: the town (the Census County Subdivision) decides it, for districts drawn from whole towns.
+//   - `unmapped`: no current map yet, so every address in the place sees each district's member, labeled with it.
+const districtLayer = z.object({
+  arcgis: z.url(),
+  field: z.string(),
+  label: z.string().optional(),
+  values: z.record(z.string(), z.union([z.string(), z.array(z.string())])).optional(),
+});
+const districtTowns = z.object({ towns: z.record(z.string(), z.string()), label: z.string().optional() });
+const districtUnmapped = z.object({ unmapped: z.literal(true), label: z.string().optional() });
+const districtLookup = z.union([districtLayer, districtTowns, districtUnmapped]);
 
 // The elected body that runs a place, so the address lookup can name a reader's own member. Members with a `district`
 // are shown to addresses in it; members without one sit at large and are shown to everyone in the place. Rosters are
@@ -264,7 +277,7 @@ const councilSchema = z.object({
   // can lag a redistricting, so use it only where random points agree with the county's own map. Otherwise the county
   // or city's own district layer, or several when an address sits in more than one kind of district (Norfolk's wards
   // and superwards). Omit when every member is elected at large.
-  districts: z.union([z.literal('census'), districtLayer, z.array(districtLayer).min(1)]).optional(),
+  districts: z.union([z.literal('census'), districtLookup, z.array(districtLookup).min(1)]).optional(),
   url: z.url().optional(),
   checked: date.optional(),
   roster: z.string().optional(), // a synced file in src/data/roster/, e.g. nyc-council
