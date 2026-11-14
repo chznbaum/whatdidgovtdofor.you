@@ -139,7 +139,7 @@ export const GET: APIRoute = async () => {
   );
 
   // Seats held on the day the site is built (a governor-elect's starts on inauguration day), chief executives first.
-  const SEAT_ORDER = ['President', 'Vice President', 'Governor', 'Lieutenant Governor', 'Mayor'];
+  const SEAT_ORDER = ['President', 'Vice President', 'Governor', 'Lieutenant Governor', 'Attorney General', 'Mayor'];
   const rank = (title: string) => (SEAT_ORDER.includes(title) ? SEAT_ORDER.indexOf(title) : SEAT_ORDER.length);
   const seats = officials
     .filter((o) => o.data.current && o.data.seat && holds(o.data.seat))
