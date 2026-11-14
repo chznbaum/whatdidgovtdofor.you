@@ -54,9 +54,15 @@ export async function pdfText(bytes: Uint8Array, { ocrPages = 150, until }: { oc
       if ((pages[i].match(/[A-Za-z]/g)?.length ?? 0) >= 40) continue;
       budget--;
       try {
+        const png = join(dir, 'page.png');
         await run('pdftoppm', ['-r', '300', '-gray', '-png', '-singlefile', '-f', `${i + 1}`, '-l', `${i + 1}`, file, join(dir, 'page')]);
-        // --psm 1 detects each page's orientation: clerks scan pages sideways and upside down.
-        pages[i] = (await run('tesseract', [join(dir, 'page.png'), '-', '--psm', '1'], { maxBuffer: 16 * 1024 * 1024 })).stdout;
+        // Clerks scan pages sideways and upside down: find the page's orientation (OSD), turn it upright with macOS's
+        // sips, then read it line by line (--psm 4), which keeps an agenda's "P 559 - RESOLUTION ..." on one line where
+        // automatic layout reads the numbers and the titles as separate columns.
+        const osd = await run('tesseract', [png, '-', '--psm', '0']).then((r) => r.stdout, () => ''); // too little text: leave it
+        const rotate = Number(osd.match(/^Rotate: (\d+)/m)?.[1] ?? 0);
+        if (rotate && Number(osd.match(/^Orientation confidence: ([\d.]+)/m)?.[1] ?? 0) >= 2) await run('sips', ['-r', String(rotate), png]);
+        pages[i] = (await run('tesseract', [png, '-', '--psm', '4'], { maxBuffer: 16 * 1024 * 1024 })).stdout;
         if (until?.test(pages[i])) return pages.slice(0, i).join('\f');
       } catch (e) {
         if ((e as NodeJS.ErrnoException).code === 'ENOENT') break; // no tesseract: leave scans empty
