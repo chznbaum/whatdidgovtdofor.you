@@ -68,7 +68,8 @@ export const GET: APIRoute = async () => {
 
   const allPlaces = await getCollection('places');
 
-  // State legislatures we cover, keyed by state FIPS code, each chamber's members keyed by district.
+  // State legislatures we cover, keyed by state FIPS code, each chamber's members keyed by district. A district can
+  // elect more than one member (New Jersey's Assembly elects two).
   const legislatures = Object.fromEntries(
     allPlaces
       .filter((p) => p.data.legislature && p.data.geoids.state)
@@ -76,24 +77,20 @@ export const GET: APIRoute = async () => {
         const l = p.data.legislature!;
         const members = rosters[l.roster];
         if (!members) throw new Error(`${p.id}: no roster named "${l.roster}" in src/data/roster/ (run npm run sync:roster)`);
-        const chamber = (c: 'upper' | 'lower') => ({
-          name: l[c].name,
-          title: l[c].title,
-          members: Object.fromEntries(
-            members
-              .filter((m) => m.chamber === c && m.district)
-              .map((m) => [
-                districtKey(m.district!),
-                person(
-                  m.name,
-                  m.party,
-                  `${l[c].title}, District ${m.district}`,
-                  (m.openstates && byOpenstates.get(m.openstates)) || findOfficial('state', m.name, p.id),
-                  m.url,
-                ),
-              ]),
-          ),
-        });
+        const chamber = (c: 'upper' | 'lower') => {
+          const byDistrict: Record<string, ReturnType<typeof person>[]> = {};
+          for (const m of members.filter((m) => m.chamber === c && m.district))
+            (byDistrict[districtKey(m.district!)] ??= []).push(
+              person(
+                m.name,
+                m.party,
+                `${l[c].title}, District ${m.district}`,
+                (m.openstates && byOpenstates.get(m.openstates)) || findOfficial('state', m.name, p.id),
+                m.url,
+              ),
+            );
+          return { name: l[c].name, title: l[c].title, members: byDistrict };
+        };
         return [p.data.geoids.state!, { place: p.id, upper: chamber('upper'), lower: chamber('lower') }];
       }),
   );
