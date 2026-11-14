@@ -5,3 +5,10 @@ level: state
 jurisdiction: mn
 current: true
 url: https://www.house.mn.gov/members/profile/15465
+portrait:
+  image: /portraits/erin-koegel.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15465
+    license: "© Minnesota House of Representatives, used as a drawing reference"

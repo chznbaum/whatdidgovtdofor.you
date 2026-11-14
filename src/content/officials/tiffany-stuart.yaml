@@ -4,3 +4,10 @@ office: President, IAFF Local 539 (Portsmouth Professional Fire Fighters and Par
 level: local
 jurisdiction: portsmouth
 current: true
+portrait:
+  image: /portraits/tiffany-stuart.webp
+  kind: photo
+  source:
+    label: WHRO Public Media
+    url: https://www.whro.org/local-government/2026-07-21/portsmouth-firefighters-union-pushes-for-collective-bargaining-citing-staffing-concerns
+    license: "© WHRO Public Media / Toby Cox, used as a drawing reference"

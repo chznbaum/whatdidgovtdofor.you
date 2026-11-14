@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://house.vga.virginia.gov/members/H0336
+portrait:
+  image: /portraits/nadarius-clark.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0336
+    license: "© Virginia House of Delegates, used as a drawing reference"

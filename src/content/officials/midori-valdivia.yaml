@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://www.nyc.gov/site/tlc/about/midori-valdivia-confirmed-new-tlc-commissioner-chair.page
+portrait:
+  image: /portraits/midori-valdivia.webp
+  kind: official
+  source:
+    label: NYC Taxi and Limousine Commission
+    url: https://www.nyc.gov/site/tlc/about/tlc-commissioners.page
+    license: "© City of New York, used as a drawing reference"

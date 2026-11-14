@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: P000449 }
+portrait:
+  image: /portraits/rob-portman.webp
+  kind: official
+  source:
+    label: United States Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Rob_Portman_official_portrait.jpg
+    license: Public domain

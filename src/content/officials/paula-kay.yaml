@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Paula-Elaine-Kay
+portrait:
+  image: /portraits/paula-kay.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Paula-Elaine-Kay
+    license: "© New York State Assembly, used as a drawing reference"

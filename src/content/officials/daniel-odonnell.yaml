@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://nyassembly.gov/mem/Daniel-J-ODonnell
+portrait:
+  image: /portraits/daniel-odonnell.webp
+  kind: photo
+  source:
+    label: Office of U.S. Rep. Charles Rangel, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:ODonnellHeadshot.png
+    license: CC BY 2.0

@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://www.nysenate.gov/senators/jessica-scarcella-spanton
+portrait:
+  image: /portraits/jessica-scarcella-spanton.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/jessica-scarcella-spanton
+    license: "© New York State Senate, used as a drawing reference"

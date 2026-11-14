@@ -5,3 +5,10 @@ level: state
 jurisdiction: mn
 current: true
 url: https://www.house.mn.gov/members/profile/15563
+portrait:
+  image: /portraits/jessica-hanson.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15563
+    license: "© Minnesota House of Representatives, used as a drawing reference"

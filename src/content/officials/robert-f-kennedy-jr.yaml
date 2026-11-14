@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: true
 url: https://www.hhs.gov
+portrait:
+  image: /portraits/robert-f-kennedy-jr.webp
+  kind: official
+  source:
+    label: U.S. Department of Health and Human Services, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Jr.,_official_portrait_(2025).jpg
+    license: Public domain

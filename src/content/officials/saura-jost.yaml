@@ -5,3 +5,10 @@ level: local
 jurisdiction: saint-paul
 current: true
 url: https://www.stpaul.gov/department/city-council/ward-3
+portrait:
+  image: /portraits/saura-jost.webp
+  kind: official
+  source:
+    label: City of Saint Paul
+    url: https://www.stpaul.gov/department/city-council/ward-3
+    license: "© City of Saint Paul / Rich Ryan, used as a drawing reference"

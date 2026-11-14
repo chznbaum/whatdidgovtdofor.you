@@ -5,3 +5,10 @@ level: local
 jurisdiction: saint-paul
 current: true
 url: https://www.stpaul.gov/departments/city-council/ward-2
+portrait:
+  image: /portraits/rebecca-noecker.webp
+  kind: official
+  source:
+    label: City of Saint Paul
+    url: https://www.stpaul.gov/department/city-council/ward-2
+    license: "© City of Saint Paul / Rich Ryan, used as a drawing reference"

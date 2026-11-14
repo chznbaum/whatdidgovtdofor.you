@@ -5,3 +5,10 @@ level: state
 jurisdiction: mn
 current: true
 url: https://www.house.mn.gov/25A
+portrait:
+  image: /portraits/kim-hicks.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15605
+    license: "© Minnesota House of Representatives, used as a drawing reference"

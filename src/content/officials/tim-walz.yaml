@@ -6,3 +6,10 @@ jurisdiction: mn
 current: true
 seat: { place: mn, title: Governor, until: 2027-01-04 }
 url: https://mn.gov/governor/
+portrait:
+  image: /portraits/tim-walz.webp
+  kind: official
+  source:
+    label: Office of Governor Tim Walz & Lt. Governor Peggy Flanagan, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Tim_Walz_2024_(cropped).jpeg
+    license: Public domain

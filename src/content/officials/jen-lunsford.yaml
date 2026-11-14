@@ -4,4 +4,11 @@ office: New York State Assembly Member, District 135
 level: state
 jurisdiction: ny
 current: true
-url: https://nyassembly.gov/mem/Jennifer-Lunsford
+url: https://nyassembly.gov/mem/Jen-Lunsford
+portrait:
+  image: /portraits/jen-lunsford.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Jen-Lunsford
+    license: "© New York State Assembly, used as a drawing reference"

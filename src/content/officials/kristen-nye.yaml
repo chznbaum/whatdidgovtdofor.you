@@ -4,3 +4,10 @@ office: Member, Richmond City Council, 4th District
 level: local
 jurisdiction: richmond
 current: false
+portrait:
+  image: /portraits/kristen-nye.webp
+  kind: official
+  source:
+    label: Richmond City Council
+    url: https://web.archive.org/web/20240913120957/https://www.rva.gov/richmond-city-council/council-contacts
+    license: "© City of Richmond, used as a drawing reference"

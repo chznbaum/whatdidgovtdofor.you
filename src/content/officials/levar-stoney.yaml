@@ -4,3 +4,10 @@ office: Mayor of Richmond
 level: local
 jurisdiction: richmond
 current: false
+portrait:
+  image: /portraits/levar-stoney.webp
+  kind: photo
+  source:
+    label: Stoney for Lt. Governor campaign
+    url: https://web.archive.org/web/20250615011033/https://www.levarstoney.com/
+    license: "© Stoney for Lt. Governor / Moore Campaigns, used as a drawing reference"

@@ -5,3 +5,10 @@ level: local
 jurisdiction: henrico
 current: true
 url: https://henrico.gov/police/
+portrait:
+  image: /portraits/eric-english.webp
+  kind: official
+  source:
+    label: Henrico County Police Division
+    url: https://henrico.gov/police/about/chief/
+    license: "© Henrico County, used as a drawing reference"

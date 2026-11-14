@@ -6,3 +6,10 @@ jurisdiction: poquoson
 current: true
 seat: { place: poquoson, title: Mayor }
 url: https://www.poquoson-va.gov
+portrait:
+  image: /portraits/david-hux.webp
+  kind: photo
+  source:
+    label: WYDaily
+    url: https://wydaily.com/latest/2025/02/17/ten-questions-with-poquoson-mayor-david-hux/
+    license: "© Teresa Hux, used as a drawing reference"

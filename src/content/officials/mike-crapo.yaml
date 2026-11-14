@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: C000880 }
 url: https://www.crapo.senate.gov
+portrait:
+  image: /portraits/mike-crapo.webp
+  kind: official
+  source:
+    label: Office of U.S. Senator Mike Crapo
+    url: https://www.crapo.senate.gov/about
+    license: Public domain

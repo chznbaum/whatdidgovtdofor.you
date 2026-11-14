@@ -4,4 +4,11 @@ office: New York State Assembly Member, District 11
 level: state
 jurisdiction: ny
 current: false
-url: https://en.wikipedia.org/wiki/Kimberly_Jean-Pierre
+url: https://web.archive.org/web/20240413200956/https://www.nyassembly.gov/mem/Kimberly-Jean-Pierre/
+portrait:
+  image: /portraits/kimberly-jean-pierre.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20240413200956/https://www.nyassembly.gov/mem/Kimberly-Jean-Pierre/
+    license: "© New York State Assembly, used as a drawing reference"

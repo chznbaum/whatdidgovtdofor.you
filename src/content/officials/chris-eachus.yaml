@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Chris-Eachus
+portrait:
+  image: /portraits/chris-eachus.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Chris-Eachus
+    license: "© New York State Assembly, used as a drawing reference"

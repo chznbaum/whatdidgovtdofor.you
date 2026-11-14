@@ -4,3 +4,10 @@ office: Virginia State Senator, District 8
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/mark-peake.webp
+  kind: photo
+  source:
+    label: Andrea P. Barrios, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:MP_Headshot_(1).jpg
+    license: CC BY 4.0

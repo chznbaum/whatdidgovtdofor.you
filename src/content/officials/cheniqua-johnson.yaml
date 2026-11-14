@@ -5,3 +5,10 @@ level: local
 jurisdiction: saint-paul
 current: true
 url: https://www.stpaul.gov/departments/city-council/ward-7
+portrait:
+  image: /portraits/cheniqua-johnson.webp
+  kind: official
+  source:
+    label: City of Saint Paul
+    url: https://www.stpaul.gov/department/city-council/ward-7-cheniqua-johnson
+    license: "© City of Saint Paul / Rich Ryan, used as a drawing reference"

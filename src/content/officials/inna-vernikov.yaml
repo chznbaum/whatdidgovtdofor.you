@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://council.nyc.gov/district-48/
+portrait:
+  image: /portraits/inna-vernikov.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://council.nyc.gov/districts/
+    license: "© New York City Council, used as a drawing reference"

@@ -4,3 +4,10 @@ office: Housing and Neighborhood Services Division Manager, City of Hampton
 level: local
 jurisdiction: hampton
 current: true
+portrait:
+  image: /portraits/jonathan-mcbride.webp
+  kind: photo
+  source:
+    label: WTKR News 3
+    url: https://www.wtkr.com/news/in-the-community/hampton/effort-underway-to-create-ordinance-to-allow-accessory-dwelling-units-in-hampton
+    license: "© WTKR / Scripps, used as a drawing reference"

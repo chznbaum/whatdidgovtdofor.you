@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/John-T-McDonald-III
+portrait:
+  image: /portraits/john-mcdonald.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/John-T-McDonald-III
+    license: "© New York State Assembly, used as a drawing reference"

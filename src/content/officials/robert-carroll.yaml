@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Robert-C-Carroll
+portrait:
+  image: /portraits/robert-carroll.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Robert-C-Carroll
+    license: "© New York State Assembly, used as a drawing reference"

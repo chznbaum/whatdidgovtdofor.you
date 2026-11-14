@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 ids: { openstates: ocd-person/6ab67007-e48a-4048-bb7b-20a608a88f77 }
+portrait:
+  image: /portraits/sam-rasoul.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0266
+    license: "© Virginia House of Delegates, used as a drawing reference"

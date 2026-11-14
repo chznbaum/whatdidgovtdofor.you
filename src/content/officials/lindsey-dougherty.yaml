@@ -6,3 +6,10 @@ jurisdiction: va
 current: true
 ids: { openstates: ocd-person/1084ab28-a14a-4814-8501-96cfd1b17d1d }
 url: https://house.vga.virginia.gov/members/H0391
+portrait:
+  image: /portraits/lindsey-dougherty.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0391
+    license: "© Blueberry Shoes Productions LLC / Will Schermerhorn, used as a drawing reference"

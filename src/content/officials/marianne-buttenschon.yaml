@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/ac084b72-95c0-46df-96c9-be727ccf35ff }
 url: https://assembly.ny.gov/mem/Marianne-Buttenschon
+portrait:
+  image: /portraits/marianne-buttenschon.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Marianne-Buttenschon
+    license: "© New York State Assembly, used as a drawing reference"

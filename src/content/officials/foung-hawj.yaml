@@ -4,3 +4,10 @@ office: Minnesota State Senator
 level: state
 jurisdiction: mn
 current: true
+portrait:
+  image: /portraits/foung-hawj.webp
+  kind: official
+  source:
+    label: Minnesota Senate
+    url: https://www.mnsenate.gov/members/member_bio.html?mem_id=1213
+    license: "© Minnesota Senate, used as a drawing reference"

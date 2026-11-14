@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://apps.house.virginia.gov/members/H0372
+portrait:
+  image: /portraits/destiny-levere-bolling.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0372
+    license: "© Virginia House of Delegates, used as a drawing reference"

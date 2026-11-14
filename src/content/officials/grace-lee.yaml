@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/18830756-58c1-4fd1-b1b0-d16041b10e12 }
 url: https://assembly.ny.gov/mem/Grace-Lee
+portrait:
+  image: /portraits/grace-lee.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Grace-Lee
+    license: "© New York State Assembly, used as a drawing reference"

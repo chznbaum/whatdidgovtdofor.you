@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://house.vga.virginia.gov/members/H0301
+portrait:
+  image: /portraits/david-reid.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://house.vga.virginia.gov/members/H0301
+    license: "© Virginia House of Delegates / Amanda Maglione, used as a drawing reference"

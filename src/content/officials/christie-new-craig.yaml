@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://apps.senate.virginia.gov/Senator/memberpage.php?id=S118
+portrait:
+  image: /portraits/christie-new-craig.webp
+  kind: photo
+  source:
+    label: Christie New Craig campaign
+    url: https://christienewcraig.com/
+    license: "© Christie New Craig, used as a drawing reference"

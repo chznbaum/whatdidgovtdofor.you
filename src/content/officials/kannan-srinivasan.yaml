@@ -4,3 +4,10 @@ office: Virginia State Senator, District 32
 level: state
 jurisdiction: va
 current: true
+portrait:
+  image: /portraits/kannan-srinivasan.webp
+  kind: photo
+  source:
+    label: Kannan Srinivasan campaign
+    url: https://kannanforvirginia.com/
+    license: "© Kannan Srinivasan, used as a drawing reference"

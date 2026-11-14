@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://www.nysenate.gov/senators/jeremy-cooney
+portrait:
+  image: /portraits/jeremy-cooney.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://www.nysenate.gov/senators/jeremy-cooney
+    license: "© New York State Senate, used as a drawing reference"

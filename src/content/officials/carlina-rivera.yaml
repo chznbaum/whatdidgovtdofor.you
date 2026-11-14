@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: false
 url: https://council.nyc.gov/district-2/
+portrait:
+  image: /portraits/carlina-rivera.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://web.archive.org/web/20250802024825/https://council.nyc.gov/districts/
+    license: "© New York City Council, used as a drawing reference"

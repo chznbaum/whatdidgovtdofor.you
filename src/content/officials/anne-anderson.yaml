@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: true
 url: https://hsph.harvard.edu/news/centennial-mother-clean-water/
+portrait:
+  image: /portraits/anne-anderson.webp
+  kind: photo
+  source:
+    label: Sen. Ed Markey (posted on X), via Common Dreams
+    url: https://www.commondreams.org/news/trichloroethylene
+    license: "© Office of Sen. Ed Markey, used as a drawing reference"

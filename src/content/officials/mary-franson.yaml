@@ -4,3 +4,10 @@ office: Minnesota State Representative, District 12B; Co-chair, House Capital In
 level: state
 jurisdiction: mn
 current: true
+portrait:
+  image: /portraits/mary-franson.webp
+  kind: official
+  source:
+    label: Minnesota House of Representatives
+    url: https://www.house.mn.gov/members/profile/photo/15347
+    license: "© Minnesota House of Representatives, used as a drawing reference"

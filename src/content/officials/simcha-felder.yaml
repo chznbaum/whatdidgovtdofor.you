@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://www.nysenate.gov/senators/simcha-felder
+portrait:
+  image: /portraits/simcha-felder.webp
+  kind: official
+  source:
+    label: New York State Senate
+    url: https://web.archive.org/web/20251117220033/https://www.nysenate.gov/senators/simcha-felder
+    license: "© New York State Senate, used as a drawing reference"

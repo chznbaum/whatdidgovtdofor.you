@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.nhtsa.gov
+portrait:
+  image: /portraits/adam-raviv.webp
+  kind: photo
+  source:
+    label: Sidley Austin LLP
+    url: https://www.sidley.com/en/people/r/raviv-adam-m
+    license: "© Sidley Austin LLP, used as a drawing reference"

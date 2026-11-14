@@ -5,3 +5,10 @@ level: local
 jurisdiction: chesterfield
 current: true
 url: https://www.chesterfield.gov/181/Board-of-Supervisors
+portrait:
+  image: /portraits/lequan-hylton.webp
+  kind: official
+  source:
+    label: Chesterfield County
+    url: https://www.chesterfield.gov/1244/Dale-District---Hylton
+    license: "© Chesterfield County, used as a drawing reference"

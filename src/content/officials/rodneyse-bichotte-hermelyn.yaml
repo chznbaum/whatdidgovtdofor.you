@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Rodneyse-Bichotte-Hermelyn
+portrait:
+  image: /portraits/rodneyse-bichotte-hermelyn.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Rodneyse-Bichotte-Hermelyn
+    license: "© New York State Assembly, used as a drawing reference"

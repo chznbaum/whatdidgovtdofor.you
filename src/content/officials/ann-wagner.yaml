@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: W000812 }
 url: https://wagner.house.gov
+portrait:
+  image: /portraits/ann-wagner.webp
+  kind: official
+  source:
+    label: Office of U.S. Rep. Ann Wagner
+    url: https://wagner.house.gov/about
+    license: Public domain

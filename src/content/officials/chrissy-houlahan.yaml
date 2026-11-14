@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: H001085 }
 url: https://houlahan.house.gov
+portrait:
+  image: /portraits/chrissy-houlahan.webp
+  kind: official
+  source:
+    label: "U.S. House of Representatives (House Creative Services, photo by Brendan O'Hara), via Wikimedia Commons"
+    url: https://commons.wikimedia.org/wiki/File:Houlahan_Chrissy_119th_Congress.jpg
+    license: Public domain

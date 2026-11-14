@@ -3,5 +3,14 @@ party: D
 office: New York State Senator, District 50
 level: state
 jurisdiction: ny
+# U.S. Representative for NY-22 since Jan. 2025 (bioguide M001231); this file still describes his State Senate seat.
+# `npm run sync:roster` lists him until it's relinked (ids, office, level, jurisdiction).
 current: false
 url: https://www.nysenate.gov/senators/john-w-mannion
+portrait:
+  image: /portraits/john-mannion.webp
+  kind: official
+  source:
+    label: U.S. Congress
+    url: https://bioguide.congress.gov/search/bio/M001231
+    license: Public domain

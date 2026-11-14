@@ -4,3 +4,10 @@ office: New York City Council Member, District 43
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/justin-brannan.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://web.archive.org/web/20251101203714/https://council.nyc.gov/districts/
+    license: "© New York City Council, used as a drawing reference"

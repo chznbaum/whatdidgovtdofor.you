@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 ids: { openstates: ocd-person/f747c790-f609-4da1-b125-73f1807e1430 }
+portrait:
+  image: /portraits/angelia-williams-graves.webp
+  kind: official
+  source:
+    label: Virginia House of Delegates
+    url: https://web.archive.org/web/20221206215543/https://virginiageneralassembly.gov/house/members/members.php?id=H0331
+    license: "© Virginia House of Delegates, used as a drawing reference"
