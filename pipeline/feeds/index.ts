@@ -8,6 +8,8 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { ceremonialReason } from './ceremonial.ts';
+import { flExecutiveOrders } from './fl-executive-orders.ts';
+import { flLaws } from './fl-laws.ts';
 import { gaExecutiveOrders } from './ga-executive-orders.ts';
 import { gaLaws } from './ga-laws.ts';
 import { mnExecutiveOrders } from './mn-executive-orders.ts';
@@ -48,6 +50,8 @@ export const feeds: Feed[] = [
   njGovernor,
   gaLaws,
   gaExecutiveOrders,
+  flLaws,
+  flExecutiveOrders,
   ...(await placeFeeds()), // city and county sources, declared in src/content/places/*.yaml
 ];
 
