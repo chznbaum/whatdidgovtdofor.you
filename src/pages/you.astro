@@ -37,8 +37,9 @@ const levels = [
         <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add your area</a>.
       </p>
       <p class="coverage" data-local-coverage hidden>
-        We don't track <span data-local-name></span>'s local government yet.
-        <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add it</a>.
+        We don't track <span data-local-name></span>'s local government yet. <a href="mailto:places@whatdidgovtdofor.you" data-ask
+          >Ask us to add it</a
+        >.
       </p>
       <p class="turn">
         <a href="/your-turn/" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
@@ -62,8 +63,10 @@ const levels = [
   type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
   type Seat = Person & { place: string; title: string };
   type Member = Person & { district: string | null; role: string; lead: boolean };
-  type Chamber = { name: string; title: string; members: Record<string, Person> };
-  type Lookup = { census: true; label: string } | { census?: undefined; url: string; field: string; label: string };
+  type Chamber = { name: string; title: string; members: Record<string, Person[]> };
+  // How an address finds a council district (see districtLookup in src/lib/schema.ts). `values` and `towns` give the
+  // district or districts for what the map or the Census says.
+  type Lookup = { label: string; census?: true; unmapped?: true; towns?: Record<string, string[]>; url?: string; field?: string; values?: Record<string, string[]> };
   type Council = { body: string; districts: Lookup[]; members: Member[] };
   type PlaceInfo = {
     id: string;
@@ -230,12 +233,11 @@ const levels = [
       ...(congress?.senate ?? []).map((p) => officialItem('U.S. Senator', p)),
       ...(congress && district && congress.house[district] ? [officialItem('U.S. Representative', congress.house[district])] : []),
     ];
-    // The address's member of each chamber, by district as the geocoder names it ("45A", "045A" and "45a" alike).
+    // The address's members of each chamber (two in New Jersey's Assembly), by district as the geocoder names it
+    // ("45A", "045A" and "45a" alike).
     const districtKey = (d: string) => d.trim().toUpperCase().replace(/^0+(?=\d)/, '');
-    const member = (chamber: Chamber, hit?: Record<string, string>) => {
-      const p = hit && chamber.members[districtKey(hit.BASENAME)];
-      return p ? [officialItem(chamber.title, p)] : [];
-    };
+    const member = (chamber: Chamber, hit?: Record<string, string>) =>
+      ((hit && chamber.members[districtKey(hit.BASENAME)]) || []).map((p) => officialItem(chamber.title, p));
     const stateItems = legislature
       ? [...seatsFor(legislature.place).map((s) => officialItem(s.title, s)), ...member(legislature.upper, upper), ...member(legislature.lower, lower)]
       : [];
@@ -259,18 +261,33 @@ const levels = [
       if (!council) continue;
       const atLarge = council.members.filter((m) => m.district === null);
       localItems.push(...atLarge.filter((m) => m.lead).map((m) => officialItem(m.role, m)));
+      // What the map or the Census says, translated where the lookup gives districts for it.
+      const lookUp = (map: Record<string, string[]> | undefined, said: string | undefined) =>
+        said === undefined ? [] : map ? (Object.entries(map).find(([k]) => sameDistrict(k, said))?.[1] ?? []) : [said];
       const found = await Promise.all(
         council.districts.map(async (l) => ({
           label: l.label,
-          value: l.census ? subdivision?.BASENAME : await councilDistrict(l, match.coordinates.x, match.coordinates.y),
+          unmapped: !!l.unmapped,
+          values: l.unmapped
+            ? council.members.flatMap((m) => (m.district ? [m.district] : []))
+            : l.census
+              ? lookUp(undefined, subdivision?.BASENAME)
+              : l.towns
+                ? lookUp(l.towns, subdivision?.BASENAME)
+                : lookUp(l.values, await councilDistrict({ url: l.url!, field: l.field! }, match.coordinates.x, match.coordinates.y)),
         })),
       );
-      for (const { label, value } of found) {
-        const members = council.members.filter((m) => value && m.district && sameDistrict(m.district, value));
+      for (const { label, unmapped, values } of found) {
+        const members = council.members
+          .filter((m) => m.district && values.some((v) => sameDistrict(m.district!, v)))
+          .sort((a, b) => a.district!.localeCompare(b.district!, undefined, { numeric: true }));
         if (!members.length) continue;
+        localItems.push(...members.map((m) => officialItem(`${m.role}, ${districtName(m.district!, label)}`, m)));
+        // Name the address's district only when it's known to be one. A bare "District 6" could be anything on this
+        // line, so a numbered district carries the body's name.
+        const districts = [...new Set(members.map((m) => plain(m.district!)))];
+        if (unmapped || districts.length > 1) continue;
         const name = districtName(members[0].district!, label);
-        localItems.push(...members.map((m) => officialItem(`${m.role}, ${name}`, m)));
-        // A bare "District 6" could be anything on this line, so a numbered district carries the body's name.
         localWhere.push(label === 'District' && /^\d+$/.test(members[0].district!) ? `${council.body} ${name}` : name);
       }
       localItems.push(...atLarge.filter((m) => !m.lead).map((m) => officialItem(m.role, m)));
@@ -292,9 +309,14 @@ const levels = [
     $('[data-coverage]').hidden = !!legislature;
     // Not covered yet: offer to ask for the city or county (never the address itself). A covered state with an
     // uncovered locality gets its own note; an uncovered state gets the general one above.
-    const localName = incPlace?.BASENAME ?? county?.NAME;
+    // The address's own municipality: a city or town, or a township that governs itself (a New Jersey township's County
+    // Subdivision is an active government, FUNCSTAT A; a Virginia magisterial district isn't). Covering its county
+    // doesn't cover the municipality.
+    const municipality = incPlace?.BASENAME ?? (subdivision?.FUNCSTAT === 'A' ? subdivision.BASENAME : undefined);
+    const localName = municipality ?? county?.NAME;
     $('[data-local-name]').textContent = localName ?? '';
-    $('[data-local-coverage]').hidden = !legislature || localPlaces.length > 0 || !localName;
+    $('[data-local-coverage]').hidden =
+      !legislature || !localName || (municipality ? localPlaces.some((p) => p.kind !== 'county') : localPlaces.length > 0);
     const askFor = [localName ?? state?.NAME, abbr].filter(Boolean).join(', ');
     for (const a of document.querySelectorAll<HTMLAnchorElement>('a[data-ask]'))
       a.href = `mailto:places@whatdidgovtdofor.you?subject=${encodeURIComponent(`Please add ${askFor}`)}`;

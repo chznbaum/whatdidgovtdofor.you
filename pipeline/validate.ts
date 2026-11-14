@@ -111,6 +111,12 @@ function councilProblems(file: string, p: z.infer<Schemas['places']>): Problem[]
   if (c.districts === 'census' && (p.kind !== 'county' || !p.geoids.county))
     out.push('council.districts: Census county subdivisions are districts only for a county (with geoids.county)');
   if (!c.districts && c.members.some((m) => m.district)) out.push('council: members have districts but `districts` says how to find none');
+  // A district a lookup translates to must be some member's, or the lookup finds nobody.
+  const plain = (d: string) => d.toLowerCase().replace(/[^a-z0-9]/g, '').replace(/^0+(?=\d)/, '');
+  const seats = new Set(c.members.flatMap((m) => (m.district ? [plain(m.district)] : [])));
+  for (const l of c.districts && c.districts !== 'census' ? [c.districts].flat() : [])
+    for (const d of Object.values('towns' in l ? l.towns : 'values' in l ? (l.values ?? {}) : {}).flat())
+      if (!seats.has(plain(d))) out.push(`council.districts: no member sits for district "${d}"`);
   if (!c.roster && !c.checked) out.push('council.checked: say when the roster was last checked against the government\'s page');
   const names = c.members.map((m) => m.name);
   if (new Set(names).size !== names.length) out.push('council.members: a name appears twice');

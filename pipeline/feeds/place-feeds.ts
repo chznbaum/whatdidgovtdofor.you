@@ -2,6 +2,7 @@
 // src/lib/schema.ts), and this turns them into adapters. Bespoke national and state feeds stay in code.
 import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
+import { acnjFeed } from './acnj.ts';
 import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
 import { hcmsFeed } from './hcms.ts';
@@ -28,6 +29,7 @@ export async function placeFeeds(): Promise<Feed[]> {
               site: f.site,
               place,
               types: f.types,
+              status: f.status ? new RegExp(f.status, 'i') : undefined,
               sponsors: f.sponsors,
               text: f.text,
             }),
@@ -103,6 +105,17 @@ export async function placeFeeds(): Promise<Feed[]> {
             }),
           );
           break;
+        case 'acnj':
+          out.push(
+            acnjFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: ${f.body} minutes and final agendas (meetings JSON)`,
+              origin: f.url,
+              body: f.body,
+              place,
+            }),
+          );
+          break;
         case 'minutes-list':
           out.push(
             minutesListFeed({
@@ -112,6 +125,11 @@ export async function placeFeeds(): Promise<Feed[]> {
               pages: f.pages ?? 2,
               title: f.title,
               place,
+              layout: f.layout,
+              link: f.link ? new RegExp(f.link, 'i') : undefined,
+              rows: f.rows ? new RegExp(f.rows, 'i') : undefined,
+              delay: f.delay,
+              lookback: f.lookback,
             }),
           );
           break;

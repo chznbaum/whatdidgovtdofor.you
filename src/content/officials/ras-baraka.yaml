@@ -1,0 +1,9 @@
+name: Ras J. Baraka
+party: NP
+office: Mayor of Newark
+level: local
+jurisdiction: newark
+current: true
+# Newark's elections are nonpartisan: the ballot prints no party. Re-elected May 12, 2026, for July 2026 to June 2030.
+seat: { place: newark, title: Mayor }
+url: https://www.newarknj.gov/city-mayor

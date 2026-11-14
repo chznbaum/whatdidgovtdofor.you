@@ -3,7 +3,8 @@
 //   State legislatures: Open States bulk people CSVs (CC0)
 //   New York City Council: the district table on council.nyc.gov
 // Then lists officials who look to have moved to a rostered seat (below).
-// Run: npm run sync:roster (or `npm run sync:roster -- --check` to list moves against the rosters on disk)
+// Run: npm run sync:roster (or `npm run sync:roster -- --check` to list moves against the rosters on disk, or
+// `npm run sync:roster -- nj` to sync only the named states' legislatures)
 import './lib/env.ts';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -54,8 +55,28 @@ async function syncCongress() {
   console.log(`congress: ${members.length} members`);
 }
 
+// Official member pages, where Open States' first link is often a caucus or campaign site. New Jersey: Open States
+// carries each member's Legislature roster id somewhere in its links or sources (a member who changed house carries
+// the old id too), so the id on the Legislature's current roster wins.
+const OFFICIAL_URL: Record<string, () => Promise<(r: Record<string, string>) => string | null>> = {
+  async nj() {
+    const site = 'https://www.njleg.state.nj.us';
+    const html = await get(`${site}/legislative-roster`);
+    const data = JSON.parse(html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/)![1]);
+    const current = new Map<string, string>(
+      data.props.pageProps.legrosterData[0].map((m: { BioLink: string }) => [m.BioLink.match(/\/legislative-roster\/(\d+)\//)![1], m.BioLink]),
+    );
+    return (r) => {
+      const ids = [...`${r.links};${r.sources}`.matchAll(/legislative-roster\/(\d+)|legislatorBio\/(\d+)/g)].map((m) => m[1] ?? m[2]);
+      const link = ids.map((id) => current.get(id)).find(Boolean);
+      return link ? `${site}${link}` : null;
+    };
+  },
+};
+
 async function syncState(state: string) {
   const rows = parseCsv(await get(`https://data.openstates.org/people/current/${state}.csv`));
+  const official = await OFFICIAL_URL[state]?.();
   const members = rows
     .filter((r) => r.current_chamber === 'upper' || r.current_chamber === 'lower')
     .map((r) => ({
@@ -65,7 +86,7 @@ async function syncState(state: string) {
       party: STATE_PARTY[r.current_party.split('/')[0]] ?? 'I',
       chamber: r.current_chamber,
       district: r.current_district,
-      url: r.links.split(';')[0] || null,
+      url: official?.(r) ?? (r.links.split(';')[0] || null),
     }));
   const synced = new Date().toISOString().slice(0, 10);
   await writeFile(new URL(`state-${state}.json`, OUT), JSON.stringify({ synced, state, members }, null, 1) + '\n');
@@ -133,5 +154,7 @@ async function listMoves() {
         console.log(`moved? ${rel(o.file)} (${o.office}) looks like ${seat.name}, ${seat.office} (${seat.id.join(' ')})`);
 }
 
-if (!process.argv.includes('--check')) await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);
+const only = process.argv.slice(2).filter((a) => STATES.includes(a));
+if (only.length) await Promise.all(only.map(syncState));
+else if (!process.argv.includes('--check')) await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);
 await listMoves();

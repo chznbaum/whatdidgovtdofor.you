@@ -185,6 +185,7 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     client: z.string(),
     site: z.url().optional(), // public site, if not https://<client>.legistar.com
     types: z.array(z.string()).optional(), // matter types to keep, e.g. [Ordinance, Resolution]; default: all but housekeeping
+    status: z.string().optional(), // with `types`, a pattern for the statuses kept; default: passed, adopted, approved...
     sponsors: z.boolean().optional(), // fetch each matter's sponsors
     text: z.boolean().optional(), // fetch each matter's text, so triage sees what it does and not just its title
   }),
@@ -229,17 +230,41 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     files: z.string(), // pattern for the minutes files to read, by file name, e.g. 'Agenda Actions'
   }),
   z.object({
+    type: z.literal('acnj'), // Atlantic City's meetings JSON: each meeting's minutes book, up to its appendix, is a recap
+    id: z.string().optional(),
+    url: z.url(), // the site's origin, https://www.acnj.gov
+    body: z.string(), // the meeting type, "Council"
+  }),
+  z.object({
     type: z.literal('minutes-list'), // a page listing a body's meetings with "Minutes" PDF links: each one's is a recap
     id: z.string().optional(),
     url: z.url(), // the meeting list (older meetings on ?page=2, ...)
     pages: z.number().int().default(2), // how many list pages to read
     title: z.string(), // the body: "Metropolitan Council"
+    layout: z.enum(['table', 'blocks']).optional(), // a table row per meeting (default), or a line or box per meeting
+    link: z.string().optional(), // pattern for the minutes link's text (default "Minutes")
+    rows: z.string().optional(), // pattern a meeting's row must match, e.g. "Regular Meeting"
+    delay: z.number().optional(), // seconds between requests, if robots.txt sets a Crawl-delay
+    lookback: z.number().int().optional(), // days to look back for late minutes (default 120)
   }),
 ]);
 
-// A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.
-// `label` names its districts: "Ward" makes "Ward 2", "Borough" makes "Chuckatuck Borough" (default "District").
-const districtLayer = z.object({ arcgis: z.url(), field: z.string(), label: z.string().optional() });
+// How an address finds its district. `label` names the districts: "Ward" makes "Ward 2", "Borough" makes "Chuckatuck
+// Borough" (default "District").
+//   - A map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district. `values`
+//     translates what the map says when it isn't the district itself, into one district or several where it's split
+//     (Newark's wards into Essex County commissioner districts: { NORTH: "1", WEST: ["1", "3"] }).
+//   - `towns`: the town (the Census County Subdivision) decides it, for districts drawn from whole towns.
+//   - `unmapped`: no current map yet, so every address in the place sees each district's member, labeled with it.
+const districtLayer = z.object({
+  arcgis: z.url(),
+  field: z.string(),
+  label: z.string().optional(),
+  values: z.record(z.string(), z.union([z.string(), z.array(z.string())])).optional(),
+});
+const districtTowns = z.object({ towns: z.record(z.string(), z.string()), label: z.string().optional() });
+const districtUnmapped = z.object({ unmapped: z.literal(true), label: z.string().optional() });
+const districtLookup = z.union([districtLayer, districtTowns, districtUnmapped]);
 
 // The elected body that runs a place, so the address lookup can name a reader's own member. Members with a `district`
 // are shown to addresses in it; members without one sit at large and are shown to everyone in the place. Rosters are
@@ -252,7 +277,7 @@ const councilSchema = z.object({
   // can lag a redistricting, so use it only where random points agree with the county's own map. Otherwise the county
   // or city's own district layer, or several when an address sits in more than one kind of district (Norfolk's wards
   // and superwards). Omit when every member is elected at large.
-  districts: z.union([z.literal('census'), districtLayer, z.array(districtLayer).min(1)]).optional(),
+  districts: z.union([z.literal('census'), districtLookup, z.array(districtLookup).min(1)]).optional(),
   url: z.url().optional(),
   checked: date.optional(),
   roster: z.string().optional(), // a synced file in src/data/roster/, e.g. nyc-council

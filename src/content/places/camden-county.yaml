@@ -1,0 +1,30 @@
+name: Camden County
+short: Camden County
+kind: county
+parent: nj
+geoids: { state: "34", county: "34007" }
+# The board's minutes (text, with the mover and seconder of each block of resolutions and the roll call) are posted two
+# to four months after a meeting, in batches; caucus minutes are work sessions and aren't read. robots.txt asks 10
+# seconds between requests and rules out query strings, so the WordPress API is out; the news feed is a plain path.
+feeds:
+  - { type: minutes-list, url: "https://www.camdencounty.com/commissioner-caucus-meetings/", pages: 1, title: Board of Commissioners, layout: blocks, rows: "Commissioner Meeting|Special|Reorganization", delay: 10, lookback: 180 }
+  - { type: rss, url: "https://www.camdencounty.com/feed/" }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # All seven elected at large: no district layer.
+  url: "https://www.camdencounty.com/about-the-commissioners/"
+  checked: 2026-11-14
+  # Partisan races: the County Clerk's results print the party, e.g. "Louis Cappelli, Jr. (D)" (Nov. 3, 2026, unofficial).
+  # Three-year staggered terms. Cappelli and Young (terms 2024-2026) were re-elected Nov. 3, 2026 over Robert Stone (R),
+  # so no member changes in January 2027. No county executive: the board holds executive power and the Director, whom
+  # the board elects at its January reorganization (Jan. 6 in 2026), chairs it. Cappelli has been Director since 2006;
+  # `role` shows him as such, so recheck after the Jan. 2027 reorganization.
+  members:
+    - { name: "Louis Cappelli, Jr.", party: D, role: Commissioner Director, url: "https://www.camdencounty.com/contact/louis-cappelli-jr/" }
+    - { name: Edward T. McDonnell, party: D, url: "https://www.camdencounty.com/contact/edward-t-mcdonnell/" } # Deputy Director
+    - { name: Colleen Bianco Bezich, party: D, url: "https://www.camdencounty.com/contact/colleen-bianco-bezich/" }
+    - { name: Al Dyer, party: D, url: "https://www.camdencounty.com/contact/al-dyer/" }
+    - { name: Jennifer Cooley Fleisher, party: D, url: "https://www.camdencounty.com/contact/jennifer-fleisher/" }
+    - { name: Jeffrey L. Nash, party: D, url: "https://www.camdencounty.com/contact/jeffrey-l-nash/" }
+    - { name: "Jonathan L. Young, Sr.", party: D, url: "https://www.camdencounty.com/contact/jonathan-l-young/" }

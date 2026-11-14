@@ -1,0 +1,31 @@
+name: Camden
+short: Camden
+kind: city
+parent: camden-county
+geoids: { state: "34", place: "3410000" }
+# Council minutes are image-only scans, read with OCR, posted six to ten weeks after a meeting on a page per year (each
+# meeting a button named for its month). Movers and seconders are ticks in a vote grid that OCR can't place, but each
+# item's outcome and tally are in text. robots.txt asks 10 seconds between requests. There's no city news feed.
+feeds:
+  - { type: minutes-list, url: "https://www.camdennj.gov/{year}-council-minutes/", pages: 1, title: City Council, layout: blocks, link: Meeting, delay: 10 }
+council:
+  body: City Council
+  title: Council Member
+  # The statewide NJOGIS ward layer (no longer updated, data from 2021) matches the city's own 2023 ward map and its
+  # polling places; Camden's wards didn't need redrawing after the 2020 census. WARD_CODE is "01" to "04".
+  districts: { arcgis: "https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/Ward_Boundaries_for_New_Jersey/FeatureServer/0", field: WARD_CODE, label: Ward }
+  url: "https://www.camdennj.gov/council-members/"
+  checked: 2026-11-14
+  # Partisan races (June party primaries, November general). Party is the ballot's, from the Camden County Clerk:
+  # the at-large members won the Nov. 4, 2025 general as "(D)" (official canvass); the ward members won the June 2023
+  # Democratic primary ("DEM Member of Council Camden City - Ward n") and the Nov. 2023 general, where the Republican
+  # line read "NO NOMINATION MADE". Ward terms run 2024-2027, at-large 2026-2029: no change in January 2027.
+  # Member bios are PDFs on the roster page, so no member URLs.
+  members:
+    - { district: "1", name: Arthur Barclay, party: D } # Vice President
+    - { district: "2", name: Christopher Collins, party: D }
+    - { district: "3", name: Falio Leyba-Martinez, party: D }
+    - { district: "4", name: Jannette Ramos, party: D }
+    - { name: Angel Fuentes, party: D } # President
+    - { name: Sheila Davis, party: D }
+    - { name: Nohemi G. Soria-Perez, party: D }
