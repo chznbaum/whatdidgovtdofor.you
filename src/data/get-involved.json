@@ -104,6 +104,36 @@
       "places": [
         "us"
       ]
+    },
+    {
+      "name": "Women Winning: run for office",
+      "url": "https://womenwinning.org/run-for-office/",
+      "lean": "progressive",
+      "for": "pro-choice women in Minnesota who are running for any office or thinking about it; the group calls itself nonpartisan but backs only pro-choice candidates",
+      "offers": "free trainings for candidates and campaign staff, one-on-one coaching on campaign plans and budgets, and a competitive endorsement that can bring money, volunteers, and promotion",
+      "places": [
+        "mn"
+      ]
+    },
+    {
+      "name": "Minnesota AFL-CIO: Run for Office",
+      "url": "https://mnaflcio.org/runforoffice",
+      "lean": "worker",
+      "for": "union members in Minnesota who are running, thinking about running, or want to work on campaigns",
+      "offers": "a two-day training each year on campaign plans, messaging, public speaking, volunteers, fundraising, and campaign finance rules; the 2026 session was in May, and if you fill out the page's form, staff will follow up about the 2027 one",
+      "places": [
+        "mn"
+      ]
+    },
+    {
+      "name": "Minnesota School Boards Association: running for school board",
+      "url": "https://mnmsba.org/membership/running-for-school-board/",
+      "lean": "nonpartisan",
+      "for": "anyone in Minnesota thinking about running for their local school board",
+      "offers": "a short video on running, a guide to what board members do, a candidate FAQ and key dates for school board elections, and links to the state's election guides and campaign finance manual",
+      "places": [
+        "mn"
+      ]
     }
   ],
   "how_to_run": [
@@ -154,6 +184,36 @@
       "name": "Gloucester Elections & Voter Registration: become a candidate",
       "url": "https://gloucesterva.gov/elections-voter-registration#candidate",
       "offers": "when you can file to run, the campaign committee, bank account, and finance-report rules you'll have to follow, and a link to the state's full candidate guide"
+    },
+    {
+      "place": "mn",
+      "name": "Minnesota Secretary of State: become a candidate",
+      "url": "https://www.sos.mn.gov/election-administration-campaigns/become-a-candidate/",
+      "offers": "how to get on a Minnesota ballot: you file an affidavit of candidacy and pay a filing fee (or turn in a petition) during the filing period, with a guide for each office, from the Legislature to county board, city council, school board, and township"
+    },
+    {
+      "place": "minneapolis",
+      "name": "Minneapolis Elections & Voter Services: filing for office",
+      "url": "https://vote.minneapolismn.gov/candidates/filing-for-office/",
+      "offers": "the steps to get on a Minneapolis ballot: you file in person at 980 E. Hennepin Ave. during the filing period and pay $20 to $500 depending on the office, or turn in a petition of up to 500 signatures; mayor, council, park board, and Board of Estimate and Taxation races use ranked-choice voting (rank up to three), and the next filing period is in 2028, for School Board"
+    },
+    {
+      "place": "saint-paul",
+      "name": "Ramsey County Elections: ranked voting in Saint Paul",
+      "url": "https://www.ramseycountymn.gov/residents/elections-voting/voters/prepare-vote/ranked-voting",
+      "offers": "how Saint Paul's city races are won: voters rank the candidates, and if no one gets a majority of first choices, the votes are reallocated to pick a winner; the school board race isn't ranked. The city pays Ramsey County to run its elections, so candidates file in person at the county elections office, 90 W. Plato Blvd."
+    },
+    {
+      "place": "ramsey",
+      "name": "Ramsey County Elections: candidate filing",
+      "url": "https://www.ramseycountymn.gov/residents/elections-voting/candidates/candidate-filing",
+      "offers": "who can run (an eligible voter who will be 21 by the time they take office and has lived in the district for 30 days before the election), the affidavit of candidacy for each kind of office, and the campaign finance rules; questions go to 651-266-2171"
+    },
+    {
+      "place": "st-louis-county",
+      "name": "St. Louis County Elections: candidate filing",
+      "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/elections-voting",
+      "offers": "links for anyone running for county, city, town, or school board office in St. Louis County: who to file with and when, the affidavit forms, the county's filing notice, and campaign finance reports; questions go to elections@stlouiscountymn.gov or 218-726-2385"
     }
   ],
   "boards": [
@@ -294,6 +354,48 @@
       "name": "James City County: boards, commissions and other agencies",
       "url": "https://www.jamescitycountyva.gov/205/Boards-Commissions-Other-Agencies",
       "offers": "the county’s boards and commissions, with how to apply to serve on one"
+    },
+    {
+      "place": "mn",
+      "name": "Minnesota Secretary of State: open appointments to state boards",
+      "url": "https://commissionsandappointments.sos.mn.gov/Position/",
+      "offers": "the list of open seats on state boards, councils, and task forces, each with an Apply button; on Nov. 13, 2026 it showed more than 1,000 open seats, filled by the governor, state agencies, and other appointing authorities"
+    },
+    {
+      "place": "twin-cities",
+      "name": "Metropolitan Council: current advisory committee vacancies",
+      "url": "https://metrocouncil.org/Council-Meetings/Committees/Current-Committee-Vacancies.aspx",
+      "offers": "the regional government's open advisory committee seats and its online application; in mid-November 2026 it listed four community seats on the Transportation Advisory Board for two-year terms starting January 2027 (the priority deadline was Nov. 5) and an Equity Advisory Committee seat for District H; TAB members are unpaid, with transit fare, parking, and mileage covered, and meet monthly in downtown St. Paul"
+    },
+    {
+      "place": "minneapolis",
+      "name": "City of Minneapolis: boards and commissions openings",
+      "url": "https://www.minneapolismn.gov/government/boards-and-commissions/current-openings/",
+      "offers": "what's open and how to apply online; the city recruits March 1 to 31 and Aug. 1 to 31, and through Nov. 30, 2026 it's taking applications for the Capital Long-Range Improvement Committee and the Local Board of Appeal and Equalization; you must live in Minneapolis, be 18 or older, and not work for the city, and the Mayor and City Council approve appointments"
+    },
+    {
+      "place": "saint-paul",
+      "name": "City of Saint Paul: committees, boards, and commissions",
+      "url": "https://www.stpaul.gov/departments/mayors-office/committees-boards-commissions",
+      "offers": "the city's more than 30 boards and commissions, grouped by topic, and the online application; applications are taken any time and stay in the pool for the next opening, the Mayor recommends and the City Council approves, and the city suggests asking your council member to back you"
+    },
+    {
+      "place": "ramsey",
+      "name": "Ramsey County: advisory boards and committees",
+      "url": "https://www.ramseycountymn.gov/your-government/volunteer/advisory-boards-committees",
+      "offers": "current openings (in November 2026, 911 Community Voices and four Charter Commission seats) and the online application; you must live in Ramsey County and be 18 or older or have a parent's consent, and you interview for 10 minutes with three county commissioners; paper applications at 651-266-9200"
+    },
+    {
+      "place": "duluth",
+      "name": "City of Duluth: boards and commissions",
+      "url": "https://duluthmn.gov/boards-commissions/",
+      "offers": "about 30 city boards and commissions, from the Planning Commission to the Indigenous Commission, with an Apply button and a list of vacancies; applications are taken any time and kept for a year, the Mayor appoints and the City Council confirms, and most boards meet once or twice a month for an hour or two"
+    },
+    {
+      "place": "st-louis-county",
+      "name": "St. Louis County: application for a citizen advisory committee",
+      "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/clerk-of-the-county-board/application-for-citizen-advisory-committee",
+      "offers": "the online form to apply for a county advisory committee, commission, or board (you name the one you want); the County Board appoints, and a paper application is available from the Clerk of the County Board at 218-726-2385"
     }
   ],
   "poll_work": [
@@ -392,6 +494,36 @@
       "name": "James City County Voter Registration: becoming an election officer",
       "url": "https://www.jamescitycountyva.gov/4026/Get-Involved-Become-an-Election-Officer",
       "offers": "how to sign up to work the polls as an officer of election in James City County"
+    },
+    {
+      "place": "minneapolis",
+      "name": "Minneapolis Elections & Voter Services: apply to work on Election Day",
+      "url": "https://vote.minneapolismn.gov/election-workers/apply-for-election-jobs/",
+      "offers": "the online application for the nearly 2,000 election judges the city needs; $17.15 an hour, including a paid training, for a 16-hour day (some half days), and you choose which elections to work; you must be eligible to vote in Minnesota, and people who speak Hmong, Somali, Spanish, Oromo, Amharic, Lao, or ASL are especially wanted"
+    },
+    {
+      "place": "minneapolis",
+      "name": "Minneapolis Elections & Voter Services: student election judges",
+      "url": "https://vote.minneapolismn.gov/election-workers/student-program/",
+      "offers": "high school students 16 and older who are U.S. citizens living in Hennepin or a nearby metro county can work a Minneapolis polling place; $17.15 an hour (or volunteer), a three-hour training, and an 8- or 15-hour shift; a parent, and during the school year a principal, must give permission"
+    },
+    {
+      "place": "ramsey",
+      "name": "Ramsey County Elections: election judges",
+      "url": "https://www.ramseycountymn.gov/residents/elections-voting/election-judges/election-judge-information",
+      "offers": "sign-ups for adult and student (16 and 17) election judges at polling places and early voting in Ramsey County, which runs Saint Paul's elections; paid by default, from $16 an hour for precinct and student judges to $22 for early-voting judges, after a two-hour training, or you can volunteer"
+    },
+    {
+      "place": "duluth",
+      "name": "Duluth City Clerk: be an election judge",
+      "url": "https://duluthmn.gov/city-clerk/elections-voter-services/be-an-election-judge/",
+      "offers": "the application to work one of the city's 34 precincts, from 6 a.m. to about 9 p.m.; the page lists pay of $13 an hour ($15 for head judges), or you can volunteer, and 16- and 17-year-olds can serve as trainees"
+    },
+    {
+      "place": "st-louis-county",
+      "name": "St. Louis County Elections: election judge interest form",
+      "url": "https://www.stlouiscountymn.gov/departments-a-z/auditor/elections-voting/election-judge-interest-form",
+      "offers": "a form to say you'd like to work as an election judge, absentee ballot board judge, early-voting judge, or student trainee (16 or 17); the county passes it to the cities or townships you pick, and pay varies by city and township"
     }
   ]
 }
