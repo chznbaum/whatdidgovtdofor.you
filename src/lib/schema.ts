@@ -237,6 +237,19 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     body: z.string(), // the meeting type, "Council"
   }),
   z.object({
+    type: z.literal('agendaonline'), // a Hyland OnBase Agenda Online portal: each meeting's minutes page is a recap
+    id: z.string().optional(),
+    url: z.url(), // the portal, e.g. https://tampagov.hylandcloud.com/251agendaonline
+    types: z.string(), // pattern for the meeting types read, e.g. "Council (Regular|Evening|Special)"
+  }),
+  z.object({
+    type: z.literal('govaction'), // Miami-Dade County's Clerk minutes pages: each meeting's minutes are a recap
+    id: z.string().optional(),
+    url: z.url(), // the county's origin, https://www.miamidade.gov
+    minute: z.string(), // the body's minutes code, e.g. CC (the Board of County Commissioners)
+    body: z.string(), // its name as the minutes page gives it
+  }),
+  z.object({
     type: z.literal('iqm2'), // a Granicus IQM2 portal: each meeting's minutes file is a recap
     id: z.string().optional(),
     url: z.url(), // the portal's origin, e.g. https://atlantacityga.iqm2.com
