@@ -34,6 +34,9 @@ const NOT_PLACES = [
   /\bUniversity of Minnesota Duluth\b/g, // a campus, not the city government
   /\bCamden Yards\b/g, // Baltimore
   /\bAtlantic City Electric\b/g, // the utility, not the city
+  /\b(?:Republic|country|nation) of Georgia\b|\bGeorgia,? the (?:country|nation)\b/g, // the country
+  /\bFederal Reserve Bank of Atlanta\b|\bAtlanta Fed\b|\bAtlanta Regional Office\b/g, // federal offices, not the city
+  /\bSavannah River(?: Site| National Laboratory)?\b/g, // the Energy Department's site is in South Carolina
 ];
 
 // Ambiguous name -> other states and countries with a place by that name. Abbreviations only
@@ -62,13 +65,21 @@ const AMBIGUOUS: Record<string, string[]> = {
   Camden: ['South Carolina', 'S.C.', 'SC', 'Maine', 'ME', 'Arkansas', 'Ark.', 'AR', 'Delaware', 'Del.', 'DE', 'Alabama', 'Ala.', 'AL', 'Tennessee', 'Tenn.', 'TN', 'Ohio', 'OH', 'London', 'England'],
   'Camden County': ['Georgia', 'Ga.', 'GA', 'Missouri', 'Mo.', 'MO', 'North Carolina', 'N.C.', 'NC'],
   'Essex County': ['Massachusetts', 'Mass.', 'MA', 'New York', 'N.Y.', 'NY', 'Vermont', 'Vt.', 'VT', 'Virginia', 'Va.', 'VA', 'Ontario', 'England'],
+  Atlanta: ['Texas', 'Tex.', 'TX', 'Indiana', 'Ind.', 'IN', 'Illinois', 'Ill.', 'IL', 'Michigan', 'Mich.', 'MI', 'Idaho', 'Nebraska', 'Kansas'],
+  Savannah: ['Tennessee', 'Tenn.', 'TN', 'Missouri', 'Mo.', 'MO', 'New York', 'N.Y.', 'NY'],
+  Marietta: ['Ohio', 'OH', 'Oklahoma', 'Okla.', 'OK', 'Pennsylvania', 'Pa.', 'PA'],
+  Lawrenceville: ['New Jersey', 'N.J.', 'NJ', 'Virginia', 'Va.', 'VA', 'Illinois', 'Ill.', 'IL'],
+  'Fulton County': ['New York', 'N.Y.', 'NY', 'Pennsylvania', 'Pa.', 'PA', 'Ohio', 'OH', 'Illinois', 'Ill.', 'IL', 'Indiana', 'Ind.', 'IN', 'Kentucky', 'Ky.', 'KY', 'Arkansas', 'Ark.', 'AR'],
+  'DeKalb County': ['Illinois', 'Ill.', 'IL', 'Indiana', 'Ind.', 'IN', 'Alabama', 'Ala.', 'AL', 'Tennessee', 'Tenn.', 'TN', 'Missouri', 'Mo.', 'MO', 'New York', 'N.Y.', 'NY'],
+  'Chatham County': ['North Carolina', 'N.C.', 'NC'],
 };
 
-// Names that count only right before their own state (see above). Union County is in 17 states.
-const STRICT = new Set(['Ashland', 'Powhatan', 'Ramsey', 'Elizabeth', 'Union County']);
+// Names that count only right before their own state (see above). Union County is in 17 states; Columbus is also Ohio's
+// capital and a man.
+const STRICT = new Set(['Ashland', 'Powhatan', 'Ramsey', 'Elizabeth', 'Union County', 'Columbus']);
 
 // How news copy writes each state we cover, besides its name and postal code (AP style).
-const AP: Record<string, string> = { va: 'Va.', ny: 'N.Y.', mn: 'Minn.', nj: 'N.J.' };
+const AP: Record<string, string> = { va: 'Va.', ny: 'N.Y.', mn: 'Minn.', nj: 'N.J.', ga: 'Ga.' };
 
 // Extra names for a place, beyond its name and short name.
 // (Not "New York, N.Y.": that's the dateline of every FEMA Region 2 release.)

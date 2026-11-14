@@ -1,0 +1,8 @@
+name: Andre Dickens
+party: NP
+office: Mayor of Atlanta
+level: local
+jurisdiction: atlanta
+current: true
+seat: { place: atlanta, title: Mayor }
+url: https://www.atlantaga.gov/government/mayor-s-office

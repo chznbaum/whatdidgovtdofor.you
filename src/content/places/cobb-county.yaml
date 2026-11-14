@@ -1,0 +1,34 @@
+name: Cobb County
+short: Cobb County
+kind: county
+parent: ga
+geoids: { state: "13", county: "13067" }
+# CivicClerk minutes (machine-read scans: noisy, but they name movers and dissenters): regular meetings and zoning
+# hearings.
+feeds:
+  - { type: civicclerk, tenant: cobbcoga, category: 26 }
+  - { type: civicclerk, id: cobb-county-zoning, tenant: cobbcoga, category: 31 }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  # The county's live layer (owner CobbCountyCore, edited 2026-10-02). COMM_D is an integer 1 to 4; CORS is "*". The
+  # Marietta Square → 2 (COMMISSION "Erick Allen - 2"). Its description cites HB 1256, the struck home-rule map, but
+  # the lines are the legislature's 2022 map (HB 1154), which the county now uses (see metro.md). COMMISSION names
+  # Birrell for 3 until the county edits it. The chair is elected countywide and shown to every address.
+  districts: { arcgis: "https://services.arcgis.com/HYLRafMc4Ux6DA8c/arcgis/rest/services/Commissioner_Districts/FeatureServer/2", field: COMM_D }
+  url: "https://www.cobbcounty.gov/board"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party (Cobb Elections' official Nov. 3, 2026 summary: "Kevin Redmon (Dem)",
+  # "JoAnn K. Birrell (I) (Rep)", "Keli Gambrill (I) (Rep)"; Nov. 2024: "Lisa N. Cupid (I) (Dem)"; the Apr. 29, 2025
+  # special-election sample ballots: Erick Allen "Democrat", Monique Sheffield "(Incumbent) Democrat"). Districts 1 and
+  # 3 were on the 2026 ballot: Gambrill was unopposed; Redmon beat Birrell 48,735 to 48,174 (561 votes, 0.58%, above
+  # Georgia's 0.5% recount line), certified by the county board Nov. 9. He's sworn in "in January" (FOX 5); Georgia
+  # county terms run from Jan. 1, so 2027-01-01. Member URLs are the county's seat pages.
+  members:
+    - { name: Lisa Cupid, party: D, role: Chairwoman, url: "https://www.cobbcounty.gov/board/commission-chairwoman" }
+    - { district: "1", name: Keli Gambrill, party: R, url: "https://www.cobbcounty.gov/board/district-commissioners/district-1-commissioner" }
+    - { district: "2", name: Erick Allen, party: D, url: "https://www.cobbcounty.gov/board/district-commissioners/district-2-commissioner" }
+    - { district: "3", name: JoAnn K. Birrell, party: R, url: "https://www.cobbcounty.gov/board/district-commissioners/district-3-commissioner", until: 2027-01-01 }
+    - { district: "4", name: Monique Sheffield, party: D, url: "https://www.cobbcounty.gov/board/district-commissioners/district-4-commissioner" }
+    # Elected Nov. 3, 2026 (name as the ballot prints it). The District 3 seat page should carry him after January.
+    - { district: "3", name: Kevin Redmon, party: D, from: 2027-01-01 }

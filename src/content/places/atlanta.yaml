@@ -1,0 +1,45 @@
+name: Atlanta
+short: Atlanta
+kind: city
+parent: fulton-county
+# Most of Atlanta is in Fulton County; part is in DeKalb.
+geoids: { state: "13", place: "1304000" }
+# Council minutes come from IQM2 (60 seconds between requests): every item's sponsor is in its title, then its result,
+# mover, seconder and each member's vote. The city's own websites (the mayor's releases and executive orders) refuse
+# our reader at Akamai.
+feeds:
+  - { type: iqm2, url: "https://atlantacityga.iqm2.com", board: "Board:\\s*Atlanta City Council\\b" }
+council:
+  body: City Council
+  title: Councilmember
+  # The city's own planning server (the layer behind its "NPU, City Council District, and Neighborhood Lookup" app).
+  # It carries the 2022 redistricting, in effect since the Nov. 2025 election: City Hall → "4", Candler Park → "5" (the
+  # old lines put it in 2). CORS echoes our origin. NAME is "1" to "12"; no member names on the layer. Don't use the
+  # hosted GeopoliticalArea copy or APD's layer: both carry the pre-2026 lines.
+  districts: { arcgis: "https://gis.atlantaga.gov/dpcd/rest/services/AdministrativeArea/GeopoliticalArea/MapServer/4", field: NAME }
+  # The council's own site (citycouncil.atlantaga.gov) refuses us (Akamai), so the roster is the clerk's IQM2 board
+  # page, which lists the same 15 members and the president; no member pages there, so no member URLs.
+  url: "https://atlantacityga.iqm2.com/Citizens/Board/1000-Atlanta-City-Council"
+  checked: 2026-11-14
+  # Nonpartisan races: Fulton County's Nov. 4, 2025 results print no party for any Atlanta candidate (while the county's
+  # partisan races print "(Dem)"/"(Rep)"). All elected Nov. 4, 2025 (Districts 7 and 11 in the Dec. 2, 2025 runoffs)
+  # for terms from the first Monday of January 2026 to January 2030: no change in January 2027 and no 2026 vacancy
+  # found (the board page lists all 15 seats filled, and the Nov. 2, 2026 minutes' roll call names the same people).
+  members:
+    - { district: "1", name: Jason H. Winston, party: NP }
+    - { district: "2", name: Kelsea Bond, party: NP }
+    - { district: "3", name: Byron D. Amos, party: NP }
+    - { district: "4", name: Jason Dozier, party: NP }
+    - { district: "5", name: Liliana Bakhtiari, party: NP }
+    - { district: "6", name: Alex Wan, party: NP }
+    - { district: "7", name: Thomas Worthy, party: NP }
+    - { district: "8", name: Mary Norwood, party: NP }
+    - { district: "9", name: Dustin Hillis, party: NP }
+    - { district: "10", name: Andrea L. Boone, party: NP }
+    - { district: "11", name: Wayne Martin, party: NP }
+    - { district: "12", name: Antonio Lewis, party: NP }
+    - { name: Michael Julian Bond, party: NP } # Post 1 At Large
+    - { name: Matt Westmoreland, party: NP } # Post 2 At Large
+    - { name: Eshé Collins, party: NP } # Post 3 At Large
+    # Elected citywide; presides, appoints committees, and votes only to break a tie.
+    - { name: Marci Collier Overstreet, party: NP, role: Council President }
