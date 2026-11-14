@@ -2,6 +2,8 @@ name: Byron Donalds
 party: R
 office: Governor of Florida
 level: state
+# Still U.S. Representative for FL-19 until he's sworn in as Governor on Jan. 5, 2027.
+ids: { bioguide: D000032 }
 jurisdiction: fl
 current: true
 seat: { place: fl, title: Governor, from: 2027-01-05 }

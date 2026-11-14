@@ -11,6 +11,7 @@ import { join } from 'node:path';
 import { sameName } from '../src/lib/names.ts';
 import { CONTENT, idFromPath, listFiles, readYaml, rel } from './lib/content.ts';
 import { parseCsv } from './lib/csv.ts';
+import { USER_AGENT } from './feeds/util.ts';
 
 const OUT = new URL('../src/data/roster/', import.meta.url);
 // States whose place file has a `legislature`, by its roster's name: state-va → va.
@@ -31,7 +32,7 @@ const STATE_PARTY: Record<string, string> = {
 };
 
 async function get(url: string): Promise<string> {
-  const res = await fetch(url);
+  const res = await fetch(url, { headers: { 'user-agent': USER_AGENT } });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
   return res.text();
 }
@@ -203,7 +204,9 @@ async function listMoves() {
         console.log(`moved? ${rel(o.file)} (${o.office}) looks like ${seat.name}, ${seat.office} (${seat.id.join(' ')})`);
 }
 
+// A source that fails (Florida's Senate throttles) keeps its last roster on disk; the daily run goes on.
 const only = process.argv.slice(2).filter((a) => STATES.includes(a));
-if (only.length) await Promise.all(only.map(syncState));
-else if (!process.argv.includes('--check')) await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);
+const runs = only.length ? only.map(syncState) : process.argv.includes('--check') ? [] : [syncCongress(), ...STATES.map(syncState), syncNycCouncil()];
+for (const r of await Promise.allSettled(runs))
+  if (r.status === 'rejected') console.warn(`roster sync failed, kept the last roster: ${(r.reason as Error)?.message ?? r.reason}`);
 await listMoves();
