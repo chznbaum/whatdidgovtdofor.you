@@ -1,5 +1,5 @@
 ---
-title: Safer crossings and brighter streetlights on 13 Richmond corridors
+title: Safer crossings and LED streetlights on 13 Richmond corridors
 dek: In November 2024, Richmond accepted a $10.77 million federal Safe Streets grant. With the city's match it comes to $13.46 million for pedestrian beacons, accessible bus stops, concrete-protected bike lanes and other fixes where serious crashes happen most.
 level: local
 jurisdiction: richmond
@@ -12,7 +12,7 @@ topics:
   - safety
   - transit
   - infrastructure
-who_benefits: People who walk, bike, ride the bus or drive on 13 high-crash Richmond corridors. The city aims to spend 75% of the grant in its poorest and historically disadvantaged neighborhoods.
+who_benefits: People who walk, bike, ride the bus or drive on 13 high-crash Richmond corridors. The city aims to spend 75% of all its Safe Streets and Roads for All funds in areas of persistent poverty or historically disadvantaged communities.
 impact:
   - figure: $10.77 million
     label: federal Safe Streets and Roads for All grant Richmond accepted
@@ -22,9 +22,9 @@ impact:
     label: of bike lanes to get permanent concrete separation from traffic
 status:
   state: phasing-in
-  as_of: 2025-12-31
-  note: As of Dec. 31, 2025, the project was in planning and design, with 90% design plans underway and $613,356 spent. We couldn't find a newer detailed public progress report.
-  source: https://rva.gov/sites/default/files/2026-05/FY26%202nd%20Quarter%20CIP%20Report.pdf
+  as_of: 2026-03-19
+  note: The city's March 2026 proposed budget still listed the project as active, with $10,155,554 of its $10,768,910 appropriation available. We found no newer public progress report.
+  source: https://rva.gov/sites/default/files/2026-03/2026.03.19-BSP-FY27ProposedBudget.pdf
 credit:
   - official: levar-stoney
     role: proposed
@@ -51,10 +51,10 @@ sources:
     publisher: Office of Sen. Tim Kaine
     url: https://www.kaine.senate.gov/press-releases/warner-and-kaine-announce-over-256-million-in-funding-for-safety-improvements-in-virginia-beach-and-richmond
     date: 2023-12-11
-  - title: Capital Improvement Plan for Fiscal Years 2026-2030, quarterly report to City Council
+  - title: Proposed Budget 2027 — FY 2027-2031 proposed capital improvement plan active projects
     publisher: City of Richmond
-    url: https://rva.gov/sites/default/files/2026-05/FY26%202nd%20Quarter%20CIP%20Report.pdf
-    date: 2025-12-31
+    url: https://rva.gov/sites/default/files/2026-03/2026.03.19-BSP-FY27ProposedBudget.pdf
+    date: 2026-03-19
 verification:
   writer:
     model: claude-opus-5-5
@@ -65,12 +65,12 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the ordinance, grant amount, project scope, patrons, council action and current funding. Updated the stale status and corrected two overstatements about the impaired-driving work and Stoney’s patronage.
+  notes: Confirmed the ordinance, award, match, scope, patrons and 8–0 adoption. Corrected unsupported streetlight and design-progress claims, tightened the equity language, and updated status from the March 2026 city budget.
 source_key: richmond-ord-2024-278
 ---
 
-Richmond is putting $10.77 million in federal money toward fixing the streets where people get hurt most. The grant covers 13 corridors where many serious crashes happen at intersections. Planned work includes pedestrian hybrid beacons, which stop traffic when someone presses the button to cross. It also adds curb extensions and median islands that shorten crossings, makes bus stops accessible, and puts concrete barriers along 1.93 miles of bike lanes. Other pieces include brighter LED streetlights, flashing yellow left-turn arrows, easier-to-see traffic signals, better stop signs at risky intersections, and red-light cameras where red-light crashes have killed or badly hurt people.
+Richmond is putting $10.77 million in federal money toward fixing streets where people get hurt most. The grant covers 13 corridors with many fatal or serious-injury crashes. Planned work includes pedestrian hybrid beacons, which stop traffic when someone activates them to cross. It also adds curb extensions and median islands that shorten crossings, makes bus stops accessible, and puts concrete barriers along 1.93 miles of bike lanes. Other pieces include LED streetlights, flashing yellow left-turn arrows, easier-to-see traffic signals, better stop signs at risky intersections, and red-light cameras where red-light crashes have killed or seriously injured people.
 
-You don't have to apply for anything. The work happens on public streets. The city set a goal of spending 75% of the money in neighborhoods the federal government counts as persistently poor or historically disadvantaged. Part of the grant also pays for planning and pilot work: a speed management plan, wider accessibility audits, and work with the Richmond Behavioral Health Authority to screen people for mental health and substance-use problems and connect them with treatment before a crash.
+You don't have to apply. The work happens on public streets. The city set a goal to spend 75% of all its Safe Streets and Roads for All funds in areas of persistent poverty or historically disadvantaged communities. Part of this grant also pays for a speed management plan, wider accessibility audits, and work with the Richmond Behavioral Health Authority on screening, assessment and treatment meant to address substance-use disorders before they lead to a fatal or serious-injury crash.
 
-The U.S. Department of Transportation awarded the grant in December 2023. It was Richmond's second award that year from the Safe Streets and Roads for All program, which was created by the 2021 infrastructure law. In late 2024, Mayor Levar Stoney and Councilmember Ellen Robertson carried the ordinance to accept the money and set up the project. City Council adopted it on November 12, 2024. Richmond adds $2.69 million of its own, which brings the total to $13.46 million.
+The U.S. Department of Transportation awarded the grant in December 2023. It was Richmond's second award that year from the Safe Streets and Roads for All program, created by the 2021 infrastructure law. In 2024, Mayor Levar Stoney and Councilmember Ellen Robertson were patrons of the ordinance to accept the money and set up the project. City Council adopted it on November 12, 2024. Richmond's $2.69 million match brings the total to $13.46 million.

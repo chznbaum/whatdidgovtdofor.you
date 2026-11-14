@@ -1,6 +1,6 @@
 ---
 title: Airlines must pay for a loaner and fix or replace your damaged wheelchair
-dek: Since August 2025, DOT has enforced requirements for safe, prompt help. If airlines damage, lose or delay your chair, they must use best efforts to arrange a loaner and pay for it, fix or replace your chair, and deliver a delayed device within 24 hours after a domestic flight.
+dek: Since August 2025, airlines have had to use best efforts to provide and pay for a loaner, promptly fix or replace a chair damaged in their custody, and return a delayed chair within 24 hours after a domestic flight. International liability limits apply.
 level: federal
 jurisdiction: us
 action:
@@ -22,8 +22,8 @@ impact:
     label: deadline for hands-on training of staff who lift passengers or handle chairs
 status:
   state: under-threat
-  as_of: 2026-08-04
-  note: The Department of Transportation under the Trump administration has stopped enforcing four parts of the rule until at least April 30, 2027 while it rewrites them. The paused parts are the presumption that a chair returned damaged was mishandled, notices of your rights before departure, refunds of fare differences when your chair won't fit on a flight, and yearly refresher training. The rest of the rule is still enforced.
+  as_of: 2026-11-13
+  note: The Department of Transportation under the Trump administration has stopped enforcing four parts of the rule until April 30, 2027 while it considers changing them. The paused parts are the presumption that a chair returned damaged was mishandled, notices of your rights before departure, refunds of fare differences when your chair won't fit on a flight, and yearly refresher training. The rest of the rule is still enforced.
   by:
     - us-department-of-transportation
   source: https://www.federalregister.gov/documents/2026/08/04/2026-15835/accessible-lavatories-on-single-aisle-aircraft-and-ensuring-safe-accommodations-for-air-travelers
@@ -69,11 +69,11 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the repair, delivery, training, and current enforcement provisions against DOT and Federal Register sources. Corrected the loaner standard, enforcement timeline, claim process, and description of Tammy Duckworth’s role.
+  notes: Confirmed the loaner, repair, delivery, training, and current enforcement requirements. Added the international-liability qualifier, corrected the description of DOT’s reconsideration, and updated the status check date.
 source_key: us-fr-2024-29731
 ---
 
-If you fly with a wheelchair or scooter, airlines now have to help you in a way that is safe and dignified. That means helping without putting you at extra risk of injury and respecting your privacy and independence. If you need an aisle chair to get off the plane, staff and the chair must be ready by the time the other passengers have left. If an airline damages, loses or delays your chair, it must tell you your rights. It must use its best efforts to arrange an adequate loaner and pay for it. If repair or replacement is needed, you may choose whether the airline or a repair shop you pick does the work. A delayed chair must reach you within 24 hours on domestic flights and 30 hours on long international flights.
+If you fly with a wheelchair or scooter, airlines now have to help you in a way that is safe and dignified. That means helping without putting you at extra risk of injury and respecting your privacy and independence. If you need an aisle chair to get off the plane, staff and the chair must be ready by the time the other passengers have left. If an airline damages, loses or delays your chair, it must tell you your rights. It must use its best efforts to arrange an adequate loaner and pay for it. If repair or replacement is needed, you may choose whether the airline or a repair shop you pick does the work. On an international flight, a treaty called the Montreal Convention can cap what the airline must pay. A delayed chair must reach you within 24 hours on domestic flights and 30 hours on long international flights.
 
 You don't need to enroll. Ask the airline for assistance, and file a claim if your chair is damaged or lost and needs repair or replacement. The rule took effect January 16, 2025, but DOT did not enforce its new requirements before August 1, 2025, and some compliance dates came later. Airline staff and contractors who lift passengers or handle wheelchairs had to finish hands-on training by June 17, 2026.
 

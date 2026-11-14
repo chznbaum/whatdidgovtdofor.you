@@ -6,6 +6,7 @@ jurisdiction: richmond
 places:
   - henrico
   - chesterfield
+  - hanover
 action:
   type: grant
   name: Ordinance 2025-159, accepting a Natural Gas Distribution Infrastructure Safety and Modernization grant
@@ -15,7 +16,7 @@ topics:
   - safety
   - infrastructure
   - costs
-who_benefits: Richmond Gas Works customers in Richmond and parts of Henrico and Chesterfield, and the neighbors who live near its old gas pipes.
+who_benefits: Richmond Gas Works customers in Richmond and Henrico and parts of Chesterfield and Hanover, and the neighbors who live near its old gas pipes.
 impact:
   - figure: $39.16 million
     label: federal grant Richmond accepted to repair and replace gas pipes
@@ -42,6 +43,9 @@ sources:
     publisher: City of Richmond Department of Public Utilities
     url: https://rva.gov/press-releases-and-announcements-public-utilities/news/richmond-receives-additional-39m-replace
     date: 2024-08-21
+  - title: Richmond gas utility overview
+    publisher: City of Richmond Department of Public Utilities
+    url: https://www.rva.gov/public-utilities/news/richmond-gas-utility-overview
   - title: Grant will help modernize Richmond's natural gas pipelines, which serve part of Henrico
     publisher: Henrico Citizen
     url: https://www.henricocitizen.com/grant-will-help-modernize-richmonds-natural-gas-pipelines-which-serve-part-of-henrico/
@@ -60,12 +64,12 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the grant amount, 9–0 ordinance adoption, pipeline mileage, and continued project activity. Updated the status evidence, corrected unsupported credit and award claims, and completed the documented service-area footprint.
+  notes: Confirmed the grant amount, mileage, ordinance adoption, credit, and latest project-specific status. Added Hanover to the documented Richmond Gas Works service-area footprint.
 source_key: richmond-ord-2025-159
 ---
 
 Richmond owns its gas utility, Richmond Gas Works. Some of its pipes are very old, and a federal safety official said some communities still rely on pipes laid in the 1800s. Old pipes are more likely to leak. This grant pays to repair, rehabilitate, or replace them, which lowers the risk of leaks and cuts methane pollution.
 
-You don't need to do anything to benefit. The work is done on the city's gas system, which also serves parts of Henrico and Chesterfield counties. Because federal money pays for it, the cost doesn't land on gas bills. The city said the grant lets it keep energy affordable without further burdening ratepayers.
+You don't need to do anything to benefit. The work is done on the city's gas system, which also serves Henrico and parts of Chesterfield and Hanover counties. Because federal money pays for it, the cost doesn't land on gas bills. The city said the grant lets it keep energy affordable without further burdening ratepayers.
 
 The money comes from a federal program created by the 2021 Bipartisan Infrastructure Law to help cities and towns replace leak-prone gas pipes. Richmond won $10 million from the program in April 2023. In 2024, PHMSA selected Richmond for $39 million more. Together, the two grants cover nearly 50 miles of pipe. Mayor Danny Avula sent City Council the ordinance authorizing the city to accept the $39,158,844 and add it to the gas utility's budget. The Council adopted it on July 28, 2025.

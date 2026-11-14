@@ -31140,10 +31140,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0991": {
-  "decision": "promising",
-  "reason": "triage: Hotel licensing law protects workers; enacted",
+  "decision": "drafted",
+  "reason": "Local Law 104 of 2024 (Safe Hotels Act) is an enacted law that gives NYC hotel workers panic buttons and protection from subcontracting, and it is being enforced; a pending suit challenges only parts of the city's implementing rules.",
+  "file": "src/content/entries/local/nyc-hotel-workers-panic-buttons-direct-hiring.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-mayor-2024-11-emergency-executive-order-684": {
   "decision": "skip",
@@ -31248,10 +31249,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0346": {
-  "decision": "promising",
-  "reason": "triage: Pedestrian right-of-way law enacted; safety",
+  "decision": "skip",
+  "reason": "Int. 0346-2024 (Local Law 98 of 2024, Narcisse) is the law that ended jaywalking tickets in NYC, and the site already has that impact as nyc-rule-jaywalking (\"You can't be ticketed for jaywalking in NYC anymore\"), so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "nyc-int-2024-0353": {
   "decision": "skip",
@@ -31392,10 +31393,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a4611": {
-  "decision": "promising",
-  "reason": "triage: extends veterans benefits to non-wartime veterans",
+  "decision": "drafted",
+  "reason": "This signed law (Chapter 445 of 2024) drops New York's wartime-service requirement for veteran assistance, disabled veteran plates and help from veterans' service agencies, so veterans who served in peacetime now qualify.",
+  "file": "src/content/entries/state/ny-veterans-benefits-no-wartime-service-required.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2023-a7173": {
   "decision": "skip",
@@ -31422,10 +31424,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8596": {
-  "decision": "promising",
-  "reason": "triage: tuition awards expanded to all resident veterans",
+  "decision": "skip",
+  "reason": "Duplicate: S8596-A (Ch. 453 of 2024) and its chapter amendment S747 (Ch. 75 of 2025), both sponsored by Scarcella-Spanton, together make one veterans tuition award expansion, and the existing entry ny-2025-s747 already covers it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2023-s9764": {
   "decision": "skip",
@@ -31506,10 +31508,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s2812": {
-  "decision": "promising",
-  "reason": "triage: expands NYC red-light cameras to 600 intersections; safety, revenue from fines",
+  "decision": "drafted",
+  "reason": "This is an enacted state law that quadrupled New York City's red light camera cap to 600 intersections, and the city has now installed all 600. That is a concrete safety gain for people walking, biking and driving, backed by DOT crash-injury data.",
+  "file": "src/content/entries/state/ny-nyc-red-light-cameras-600-intersections.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-13"
  },
  "ny-2023-s760": {
   "decision": "skip",
@@ -81424,10 +81427,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-100-wheelchair-accessible-vehicles-taxis": {
-  "decision": "promising",
-  "reason": "triage: all new taxis wheelchair accessible",
+  "decision": "drafted",
+  "reason": "An adopted TLC rule requires every vehicle newly put into yellow-cab service to be wheelchair accessible, which directly widens taxi access for New Yorkers who use wheelchairs, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-new-yellow-taxis-wheelchair-accessible.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "nyc-rule-emergency-rule-amendment-of-handgun-licensing-rules-revised-emergency-rule": {
   "decision": "skip",
@@ -91206,10 +91210,11 @@
   "date": "2026-11-13"
  },
  "richmond-ord-2024-279": {
-  "decision": "promising",
-  "reason": "triage: $18.4M federal bridge replacement funding",
+  "decision": "drafted",
+  "reason": "The city accepted and appropriated an $18.4 million federal RAISE grant to replace a bridge rated in poor condition with one that has shared walking and biking paths on both sides, and the full $48 million is secured.",
+  "file": "src/content/entries/local/richmond-arthur-ashe-boulevard-bridge-replacement.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-13"
  },
  "richmond-ord-2024-280": {
   "decision": "skip",
@@ -126165,8 +126170,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-264": {
-  "decision": "promising",
-  "reason": "triage: Met Council grant for Aragon, nonprofit interfaith housing development",
+  "decision": "drafted",
+  "reason": "Saint Paul accepted and budgeted a $410,000 Metropolitan Council grant for The Aragon, a planned 53-unit affordable building. That is enacted funding for housing working families can afford, and no existing entry covers it.",
+  "file": "src/content/entries/local/saint-paul-aragon-affordable-homes-grant.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -126321,8 +126327,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1757": {
-  "decision": "promising",
-  "reason": "triage: financing notes for lead pipe replacement; grant-funded, writer checks costs",
+  "decision": "skip",
+  "reason": "RES 26-1757 is a financing step: it approves up to $6.99 million in zero-interest notes sold to the Minnesota Public Facilities Authority, to be repaid from a state grant, and sources don't tie the notes to a specific number of lead line replacements, so the effect on residents can't be verified separately from the state lead-pipe funding the program already gets.",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -126357,8 +126363,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-280": {
-  "decision": "promising",
-  "reason": "triage: $14M federal Safe Streets grant funds street safety projects",
+  "decision": "drafted",
+  "reason": "The council accepted and budgeted $18.1 million in federal and state money for traffic safety construction on Saint Paul's most dangerous streets. The state match means the city's local taxpayers don't cover the match.",
+  "file": "src/content/entries/local/saint-paul-safe-streets-for-all-grant.md",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -126591,8 +126598,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1892": {
-  "decision": "promising",
-  "reason": "triage: voters approved Right to Repair ordinance; writer checks details",
+  "decision": "drafted",
+  "reason": "The canvass resolution certifies a voter-approved ordinance (Chapter 34A). Since Nov. 10, 2026, it has let Saint Paul renters make overdue repairs and deduct the cost from rent, a direct, enacted benefit to tenants.",
+  "file": "src/content/entries/local/saint-paul-tenant-right-to-repair.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -126693,8 +126701,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1792": {
-  "decision": "promising",
-  "reason": "triage: $13M state grant for West 7th sewer infrastructure",
+  "decision": "drafted",
+  "reason": "Saint Paul accepted a $13 million state bonding grant, enacted in Laws 2026 ch. 130 and paid for with state bonds, to rebuild the public sanitary sewers under West 7th Street; this is concrete infrastructure work.",
+  "file": "src/content/entries/local/saint-paul-west-7th-street-sewer-grant.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -126753,8 +126762,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-231": {
-  "decision": "promising",
-  "reason": "triage: $1M federal funds for two library reconstructions",
+  "decision": "drafted",
+  "reason": "Saint Paul formally accepted and budgeted a $1 million federal earmark to rebuild two neighborhood libraries. That is public infrastructure people use, and one of the two is under construction now.",
+  "file": "src/content/entries/local/saint-paul-hayden-heights-riverview-library-federal-funds.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -127515,8 +127525,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-290": {
-  "decision": "promising",
-  "reason": "triage: bonds financing Afton View Apartments; writer checks affordability",
+  "decision": "skip",
+  "reason": "This conduit bond deal finances a private buyer's purchase and rehab of the 286-unit Afton View Apartments, but no primary source I could read gives the income limits, restricted-unit count or affordability term, while the same action waived the developer-fee cap and a related one partly waived sustainable-building rules, so the benefit to renters can't be verified yet.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -127575,8 +127585,8 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-76b2c0db-0b6c-4c64-9591-b134641c877e-2026-177": {
-  "decision": "promising",
-  "reason": "triage: $13.8M wastewater facility rehabilitation contract awarded",
+  "decision": "skip",
+  "reason": "This is a routine construction contract to line about 11,000 feet of a 1971 regional sewer pipe in Forest Lake, paid for by sewer fees; it upkeeps a pipe the Council already owns and doesn't change any service, cost or protection that residents would notice, so it doesn't meet the \"direct, tangible effect\" bar.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -127863,8 +127873,8 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0338": {
-  "decision": "promising",
-  "reason": "triage: $1.7M HUD grant for rapid rehousing of homeless families",
+  "decision": "skip",
+  "reason": "This is a routine annual vote to accept a federal grant renewal. The board's record and HUD's award lists don't say how many families it serves or what each family gets, and no individual is credited, so the entry's core claims couldn't be verified beyond the dollar amount.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128211,14 +128221,14 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-270": {
-  "decision": "promising",
-  "reason": "triage: Final conduit bond issuance for Hamm Building multifamily housing; check affordability and whether it is redevelopment",
+  "decision": "skip",
+  "reason": "The HRA resolution only authorizes up to $14 million in conduit bonds for an \"approximately 128-unit affordable\" conversion, and I couldn't open a primary source showing how many units are income-restricted or at what level, or whether the bonds have been sold. The resolution's own text points to a regulatory agreement for those terms, and the staff report and presentation PDFs wouldn't load.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-271": {
-  "decision": "promising",
-  "reason": "triage: Sale of land to a nonprofit for Village on Rivoli housing; check affordability",
+  "decision": "skip",
+  "reason": "The resolution only sells nine lots to a nonprofit for single-family homes, and neither its text nor any source I could open sets buyer income limits or prices for this phase (past homes went to households earning about 80–115% of median income), so I can't verify that it is affordable and benefits working people.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128289,8 +128299,8 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-327": {
-  "decision": "promising",
-  "reason": "triage: County accepts state crisis response grant; check what services it funds",
+  "decision": "skip",
+  "reason": "The $300,000 state grant pays for 1.5 social worker positions that already exist and are already funded (one at Maplewood police, half of a 911-center position). The board record says the money is there to lower the cost to the county levy and to Maplewood, not to add or save a service, so the main effect is on government budgets.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128349,8 +128359,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1460": {
-  "decision": "promising",
-  "reason": "triage: $14M federal grant for street safety improvements",
+  "decision": "skip",
+  "reason": "This resolution only authorizes signing the agreement for the $14.15 million Safe Streets for All grant, and that grant's safety work is already covered by the existing entry saint-paul-res-ph-26-280 (\"Saint Paul is making 40 miles of its most dangerous streets safer\").",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128505,8 +128515,8 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0299": {
-  "decision": "promising",
-  "reason": "triage: Funds mental health alternative 911 response in Brooklyn Center",
+  "decision": "skip",
+  "reason": "This is a paperwork agreement between Hennepin County and Brooklyn Center, approved in September 2026 to cover all of 2026, for a weekday social-worker 911 team that has run since fall 2024; it adds no new service, money or hours I could verify, so its main effect is on the governments rather than residents.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128547,8 +128557,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0306": {
-  "decision": "promising",
-  "reason": "triage: $9M state bonds to repair a major river bridge",
+  "decision": "drafted",
+  "reason": "Hennepin County formally accepted $9 million in state bridge bond money to repair the Hennepin Avenue suspension bridge, a funded public works project with direct benefits for people who cross it.",
+  "file": "src/content/entries/local/hennepin-avenue-suspension-bridge-9-million-repair.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128571,8 +128582,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0310": {
-  "decision": "promising",
-  "reason": "triage: funded Northside Greenway phase 1 bike/walk route",
+  "decision": "drafted",
+  "reason": "On Sept. 15, 2026, the Hennepin County Board approved up to $496,000 for street safety, drainage and ADA work on the Northside Greenway's first phase. That is funded infrastructure for North Minneapolis residents, and no existing entry covers it.",
+  "file": "src/content/entries/local/hennepin-northside-greenway-phase-1-safety.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128613,8 +128625,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0320": {
-  "decision": "promising",
-  "reason": "triage: $826k ADA ramp upgrades on county roads",
+  "decision": "drafted",
+  "reason": "The approved contract pays to rebuild pedestrian ramps to current ADA standards along seven stretches of county road in suburban Hennepin County, so it is physical accessibility work, not a procedural step.",
+  "file": "src/content/entries/local/hennepin-ada-curb-ramps-seven-suburban-roads.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -128697,8 +128710,8 @@
   "date": "2026-11-13"
  },
  "duluth-26-0793r": {
-  "decision": "promising",
-  "reason": "triage: housing TIF district; writer must check funding/affordability",
+  "decision": "skip",
+  "reason": "This fails the net-impact test: the plan gives a private developer about $6 million in foregone local taxes over 26 years for a 148-unit market-rate complex near Lake Superior College, and only 30 units, the legal minimum for a housing TIF district, are set aside below 50% of area median income. Rents for those units aren't set yet, and councilors objected that the financial case for the subsidy was never made public, so the main benefit goes to the owner, not to working renters.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129057,8 +129070,8 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-56a9c941-ef54-4f45-bc98-ea9b76d60f62-2026-164": {
-  "decision": "promising",
-  "reason": "triage: funded construction upgrading regional wastewater plant",
+  "decision": "skip",
+  "reason": "This contract pays for routine rehabilitation of a 30-year-old wastewater plant in Oak Park Heights: replacing HVAC, electrical, UV disinfection and sludge-handling equipment, and rebuilding roads. The sources I found name no new capacity, overflow reduction or water-quality gain, so residents get no concrete change beyond the plant continuing to run.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129207,8 +129220,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1480": {
-  "decision": "promising",
-  "reason": "triage: $2.5M state grant for new Conway Park building, local use",
+  "decision": "skip",
+  "reason": "The resolution only approves the contracts for spending a state grant from 2023 at Conway Park, and I couldn't find a source saying what the \"new structure\" is or who it will serve, so the core benefit can't be checked.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129267,8 +129280,9 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-e745cd7b-3041-4fc6-b338-5b0982cd82e0-2026-156": {
-  "decision": "promising",
-  "reason": "triage: 100 housing vouchers awarded to projects; affordable housing",
+  "decision": "drafted",
+  "reason": "The Met Council's Aug. 26, 2026 vote funds state rent help for 100 low-income households in five existing apartment buildings. That is a direct, ongoing cost reduction for renters, and no existing entry covers it.",
+  "file": "src/content/entries/local/twin-cities-100-bring-it-home-rent-vouchers.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129675,8 +129689,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-199": {
-  "decision": "promising",
-  "reason": "triage: $2.9M Legacy funds for regional parks, state-funded public parks and trails",
+  "decision": "skip",
+  "reason": "This is Saint Paul's routine yearly acceptance of its formula share of state Parks and Trails Legacy money; most of the $2.9 million pays for design, long-range planning, upkeep and staff, and no item has a defined benefit for residents big enough to carry an entry.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129723,14 +129737,15 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-e745cd7b-3041-4fc6-b338-5b0982cd82e0-2026-144": {
-  "decision": "promising",
-  "reason": "triage: $20M contract for Transit Link rides in Scott and Carver counties",
+  "decision": "skip",
+  "reason": "This is an administrative reassignment of an existing Transit Link contract, which the Council had already funded in June 2025 at the same $20,259,200 cap through July 2030, so riders get no new or expanded service and the action mainly affects government itself.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "twin-cities-council-e745cd7b-3041-4fc6-b338-5b0982cd82e0-2026-151-sw": {
-  "decision": "promising",
-  "reason": "triage: G Line BRT construction contract funded",
+  "decision": "drafted",
+  "reason": "The Metropolitan Council approved a $20.7 million contract to build the METRO G Line, a funded rapid bus line that will replace Routes 62 and 68 on Rice and Robert streets, which is a concrete transit improvement for riders.",
+  "file": "src/content/entries/local/twin-cities-g-line-rapid-bus-rice-robert-streets.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -129963,8 +129978,8 @@
   "date": "2026-11-13"
  },
  "mn-eo-26-10": {
-  "decision": "promising",
-  "reason": "triage: governor's order protecting Boundary Waters",
+  "decision": "skip",
+  "reason": "EO 26-10 pauses state permitting, environmental review and new leases for sulfide-ore copper mining in the Rainy River Headwaters, so it's a land and water protection with no direct, tangible effect on working people's lives (no money, service, right or built project), and it doesn't clearly pass the net-impact test, since the forgone mining jobs are a cost to workers in the region.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130005,8 +130020,8 @@
   "date": "2026-11-13"
  },
  "duluth-26-0697r": {
-  "decision": "promising",
-  "reason": "triage: forgivable loan application for lead line replacement; check if approved",
+  "decision": "skip",
+  "reason": "The resolution only authorizes Duluth to apply for a $456,951 forgivable MPFA loan for lead service lines on N 40th Ave W, and no source I found shows that this loan was awarded, so it is a request for money rather than enacted funding.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130239,8 +130254,8 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-290": {
-  "decision": "promising",
-  "reason": "triage: Funds affordable homeownership projects with HOME money; enacted",
+  "decision": "skip",
+  "reason": "This action mostly moves federal HOME money ($879,000) onto homeownership projects the county had already funded from its 2025 housing levy, such as the Duluth Street twinhomes and Rondo CLT's program; the levy money goes to an unnamed project later, and no source I could open says how many homes this adds or what new benefit residents get.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130269,8 +130284,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-ord-26-31": {
-  "decision": "promising",
-  "reason": "triage: Eliminates youth sub-minimum wage; raises pay for teen workers",
+  "decision": "drafted",
+  "reason": "An adopted and signed ordinance ends Saint Paul's 90-day reduced starting wage for workers aged 14 to 17. That is a direct pay raise for working teens, and the ordinance text, the council vote and the city's wage rates confirm it.",
+  "file": "src/content/entries/local/saint-paul-teen-workers-full-minimum-wage.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130419,8 +130435,9 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-ab312bf8-69d6-4dba-9b0f-d6e0f1d0e12a-2026-130": {
-  "decision": "promising",
-  "reason": "triage: $12M in grants for affordable housing and livable communities, awarded",
+  "decision": "drafted",
+  "reason": "The Metropolitan Council approved $12,045,200 in 34 grants that are expected to build or preserve more than 1,000 affordable homes across 21 Twin Cities communities, a funded action that directly helps renters and first-time buyers.",
+  "file": "src/content/entries/local/twin-cities-livable-communities-grants-1000-affordable-homes.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130575,14 +130592,16 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0249-r1": {
-  "decision": "promising",
-  "reason": "triage: $1.29M grants for youth play areas, lifeguards, arts; funded and tangible",
+  "decision": "drafted",
+  "reason": "The Hennepin County Board funded 26 specific youth grants, including an accessible playground, lifeguard training, all-terrain wheelchairs and reduced-fee arts programs, so it is an enacted action with a direct effect on families.",
+  "file": "src/content/entries/local/hennepin-youth-playgrounds-lifeguards-arts-grants-spring-2026.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "hennepin-26-0250-r1": {
-  "decision": "promising",
-  "reason": "triage: state subsidy funds community health center care, funded",
+  "decision": "drafted",
+  "reason": "The county board accepted $1.85 million in state money for its North Minneapolis health center, NorthPoint, in 2026. The grant pays for care for uninsured and underinsured residents, including school-based care, prenatal coordination, dental upgrades, vaccines and prescriptions, so it is a funded service with a direct effect on working families.",
+  "file": "src/content/entries/local/hennepin-northpoint-clinic-care-state-grant.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130599,8 +130618,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0253-r1": {
-  "decision": "promising",
-  "reason": "triage: $19M homelessness prevention and rapid rehousing for families, funded",
+  "decision": "drafted",
+  "reason": "Hennepin County's board accepted $11 million in new state money for back rent and rehousing help for low-income renters facing eviction. It is funded from leftover Tyler settlement money and interest, so no services were cut to pay for it.",
+  "file": "src/content/entries/local/hennepin-11-million-back-rent-eviction-prevention.md",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -130683,8 +130703,8 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0284r1": {
-  "decision": "promising",
-  "reason": "triage: county funding commitment to Blue Line Extension light rail; funded transit build, check cost",
+  "decision": "skip",
+  "reason": "This resolution doesn't fund anything new: it restates the funding Hennepin County already committed to the Blue Line Extension in 2017 (Resolution 17-0207, up to $530.1 million), so the Metropolitan Council's planned $752 million federal grant application meets federal rules. The federal grant is still only an application and the line isn't built, so riders get nothing directly from this action yet.",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -130695,8 +130715,8 @@
   "date": "2026-11-13"
  },
  "hennepin-26-hcrra-0012r1": {
-  "decision": "promising",
-  "reason": "triage: funding commitment to Blue Line Extension; likely same project as county commitment, writer should merge",
+  "decision": "skip",
+  "reason": "This resolution formally commits the railroad authority's local share so the Metropolitan Council can apply for a $752 million federal grant. The grant hasn't been applied for or awarded, so the Blue Line Extension's construction isn't funded yet, and the resolution has no direct effect on riders yet.",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -130719,20 +130739,22 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-268": {
-  "decision": "promising",
-  "reason": "triage: county affordable housing aid funds projects; writer checks specifics",
+  "decision": "drafted",
+  "reason": "The Ramsey County Board voted 6-0 to commit $8.19 million in state housing aid to 10 rental projects. Each project must stay affordable for 30 years, so the money has a direct, lasting effect on renters.",
+  "file": "src/content/entries/local/ramsey-8-million-affordable-rentals-ten-projects.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "ramsey-2026-269": {
-  "decision": "promising",
-  "reason": "triage: state affordable housing aid to projects; writer checks specifics",
+  "decision": "skip",
+  "reason": "The board did approve $436,475 in state housing aid for two projects (Rondo Community Land Trust's 'The Beasley' and Dayton's Bluff NHS scattered-site single-family homes), with 30 years of required affordability, but the project narrative PDF could not be read, and no other source gives the number of homes, their locations, rental vs. ownership, or income levels, so the concrete benefit can't be verified well enough for an entry.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "ramsey-2026-273": {
-  "decision": "promising",
-  "reason": "triage: family homelessness prevention funding amendment",
+  "decision": "drafted",
+  "reason": "On Aug. 4, 2026, the Ramsey County Board approved $5.28 million more in state money for eviction prevention, rent help and rehousing, which is concrete help for renters; it is the county's share of the 2026 state money, not a repeat of the statewide law entry.",
+  "file": "src/content/entries/local/ramsey-5-million-more-homelessness-prevention-rent-help.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130767,8 +130789,8 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-284": {
-  "decision": "promising",
-  "reason": "triage: joint agreement funding emergency shelters",
+  "decision": "skip",
+  "reason": "This vote lets Ramsey County accept $1.08 million that Saint Paul passed through for emergency shelter, so it is mostly a transfer between governments rather than a benefit of its own. The money paid for the city's closure of the Pig's Eye encampment: $880,000 went to a solicitation that had no named providers, and shelters reported few people from the camp used the beds. A win-only entry can't tell that story honestly, so it belongs on the harms side.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130821,14 +130843,16 @@
   "date": "2026-11-13"
  },
  "duluth-26-0665r": {
-  "decision": "promising",
-  "reason": "triage: $9.9M Lakewalk construction contract, widely used",
+  "decision": "drafted",
+  "reason": "Duluth's council approved a $9.9 million construction contract, mostly paid for with federal and state grants. It rebuilds and moves back about 2.5 miles of the storm-battered Lakewalk, a public trail the city calls a critical transportation route. Work started in August 2026.",
+  "file": "src/content/entries/local/duluth-lakewalk-storm-repair-and-rebuild.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "duluth-26-0666r": {
-  "decision": "promising",
-  "reason": "triage: federal grant funding Lakewalk project; same project as contract",
+  "decision": "drafted",
+  "reason": "Duluth accepted an $8.2 million federal grant to rebuild a storm-battered stretch of its Lakewalk trail. The trail is now under construction. It's real infrastructure with a direct effect on the people who use it.",
+  "file": "src/content/entries/local/duluth-lakewalk-8-million-storm-rebuild.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130863,8 +130887,9 @@
   "date": "2026-11-13"
  },
  "duluth-26-0674r": {
-  "decision": "promising",
-  "reason": "triage: 40th Ave W reconstruction, road improvements",
+  "decision": "drafted",
+  "reason": "Duluth adopted and paid its $2.5 million share of a county contract that rebuilds a worn-out stretch of 40th Avenue West, adding a 10-foot path, a sidewalk, lighting, a flashing pedestrian crossing, a mini roundabout and new city utilities; phase one is finished and phase two is scheduled for 2027.",
+  "file": "src/content/entries/local/duluth-40th-avenue-west-rebuild-path-roundabout.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -130965,8 +130990,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-1223": {
-  "decision": "promising",
-  "reason": "triage: City-county agreement to operate emergency shelters",
+  "decision": "skip",
+  "reason": "The $1.08 million joint powers transfer existed to support the city's closure of the Pig's Eye Park encampment (Saint Paul release, July 22, 2026), so it's the shelter half of a contested sweep, not a clear net win, and telling it honestly needs the harms side of the site; the primary record also doesn't confirm how many beds it funds or for how long.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131001,8 +131026,8 @@
   "date": "2026-11-13"
  },
  "twin-cities-council-2bdad2cc-b0ab-4903-b7cc-6bfbebfc6554-2026-118": {
-  "decision": "promising",
-  "reason": "triage: Engineering contract for H Line bus rapid transit and ADA upgrades",
+  "decision": "skip",
+  "reason": "This is an engineering and construction-administration services contract for the METRO H Line, which was still at the draft corridor plan stage in 2026, so it's a procurement step with no construction funding committed and no direct effect on riders yet.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131187,8 +131212,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0223": {
-  "decision": "promising",
-  "reason": "triage: Federal Ryan White HIV care grant funds services for the 13-county region",
+  "decision": "drafted",
+  "reason": "Hennepin County accepted the rest of its 2026–27 federal Ryan White Part A award. The full year's $6.01 million pays 12 clinics and groups to give medical care, case management, housing and food help to about 3,000 people with HIV in the 13-county Twin Cities area.",
+  "file": "src/content/entries/local/hennepin-ryan-white-hiv-care-6-million.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131289,8 +131315,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0242": {
-  "decision": "promising",
-  "reason": "triage: Sale of county property for a family shelter, tangible service",
+  "decision": "drafted",
+  "reason": "The county board sold a vacant county building to a nonprofit and lent it $4.5 million on the condition it runs a family shelter for about five years; the shelter has since opened and serves 52 homeless families.",
+  "file": "src/content/entries/local/hennepin-federal-plaza-family-shelter-52-families.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131367,14 +131394,14 @@
   "date": "2026-11-13"
  },
  "duluth-26-0624r": {
-  "decision": "promising",
-  "reason": "triage: Development agreement for 24 lots by nonprofit housing developer",
+  "decision": "skip",
+  "reason": "This is a routine land-use approval: a development agreement for platting and building infrastructure on 24 lots, with no city money or other public benefit attached. The record never says the homes will be affordable, and I couldn't tie this plat to One Roof's earlier state-funded Harbor Highlands land trust homes.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "duluth-26-0627r": {
-  "decision": "promising",
-  "reason": "triage: $1.4M citywide sewer lining contract",
+  "decision": "skip",
+  "reason": "This is Duluth's routine yearly contract to reline sewer pipes across the city, paid from the regular sewer fund, and the record names no streets, problem it fixes, or count of people helped, so there is no concrete benefit a reader could see.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131415,8 +131442,8 @@
   "date": "2026-11-13"
  },
  "mn-eo-26-08": {
-  "decision": "promising",
-  "reason": "triage: Peacetime emergency ordered, assistance to wildfire-hit communities",
+  "decision": "skip",
+  "reason": "EO 26-08 is a temporary wildfire emergency declaration that mainly authorized state agencies and the National Guard to support firefighting around the Boundary Waters, and no source I could open shows any concrete, verifiable aid that reached residents (no relief payments, programs or waivers), so it fails the direct-tangible-benefit test.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -131637,8 +131664,9 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-243": {
-  "decision": "promising",
-  "reason": "triage: housing funds obligated to development projects; writer checks specifics",
+  "decision": "drafted",
+  "reason": "On July 7, 2026, the Ramsey County HRA committed its full $1.3 million federal PRO Housing share to build F2F@Arcade, 24 affordable apartments for homeless young adults in Saint Paul. That money builds housing directly, and no existing entry covers it; the county's $8.2 million award to ten other projects is a separate action.",
+  "file": "src/content/entries/local/ramsey-1-3-million-homes-homeless-youth-arcade-street.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132039,8 +132067,9 @@
   "date": "2026-11-13"
  },
  "ramsey-2026-220": {
-  "decision": "promising",
-  "reason": "triage: HRA levy obligated to housing development projects",
+  "decision": "drafted",
+  "reason": "On June 23, 2026, Ramsey County's housing authority put $6.4 million into five new affordable rental buildings with 326 homes, each required to stay affordable for 30 years. This is a separate action from the existing entry on $8.2 million in LAHA funding approved Aug. 4.",
+  "file": "src/content/entries/local/ramsey-6-million-326-new-affordable-homes.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132117,8 +132146,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-931": {
-  "decision": "promising",
-  "reason": "triage: intersection improvement with MnDOT cost share; funded safety project",
+  "decision": "drafted",
+  "reason": "The resolution put a state cost-sharing agreement in place to rebuild the Grand and Snelling intersection with curb bumpouts at all four corners and a new signal, and the city says the work was substantially complete in October 2026.",
+  "file": "src/content/entries/local/saint-paul-grand-snelling-safer-crossings.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132495,8 +132525,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0197": {
-  "decision": "promising",
-  "reason": "triage: Ryan White HIV services funding increase",
+  "decision": "drafted",
+  "reason": "Hennepin County accepted $2 million more in federal Ryan White Part B money from Minnesota DHS and extended the agreement through June 2027. The money pays for medical care, case management, food and housing help for low-income people with HIV. It's a separate funding stream from the Part A award in hennepin-26-0223.",
+  "file": "src/content/entries/local/hennepin-ryan-white-part-b-hiv-care-2-million.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132519,8 +132550,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0201": {
-  "decision": "promising",
-  "reason": "triage: $3.2M more for shelter and tenancy supports for homeless disabled",
+  "decision": "drafted",
+  "reason": "The Hennepin County Board voted to fund another year of emergency shelter, medical respite and help keeping housing for homeless people with disabling conditions. That is a concrete service kept going. It is paid for with a cost-neutral transfer of state Housing Support money, and no existing entry covers it.",
+  "file": "src/content/entries/local/hennepin-shelter-housing-help-disabling-conditions-3-million.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132843,8 +132875,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-93": {
-  "decision": "promising",
-  "reason": "triage: $3.15M federal funding to rebuild Hayden Heights Library",
+  "decision": "drafted",
+  "reason": "Saint Paul accepted and budgeted $3.15 million in enacted FY2026 federal funding to finish rebuilding the Hayden Heights Library. This is a different appropriation from the earlier $1 million split between two libraries, which already has its own entry.",
+  "file": "src/content/entries/local/saint-paul-hayden-heights-library-3-million-federal.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132903,14 +132936,14 @@
   "date": "2026-11-13"
  },
  "duluth-26-0469r": {
-  "decision": "promising",
-  "reason": "triage: Lead pipe replacement funding, $3M forgivable loan; confirm it was approved",
+  "decision": "skip",
+  "reason": "This resolution only lets Duluth apply to the MPFA for a $3.069 million forgivable loan, so nothing was funded yet, and I couldn't confirm that MPFA awarded this project (PFA 1690011-30); the award sources I found give other amounts ($4.6 million for 120 lines in June, and over $22 million for 704 lines in August).",
   "impact": 3,
   "date": "2026-11-13"
  },
  "duluth-26-0470r": {
-  "decision": "promising",
-  "reason": "triage: $11.8M neighborhood lead service line replacement",
+  "decision": "skip",
+  "reason": "The resolution only authorizes Duluth to apply for an $11.8 million MPFA loan, which makes it a procedural step and not enacted funding; MPFA's later award (over $22 million for 704 lead lines, announced Aug. 3, 2026) can't be matched to this application from sources I could read.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -132945,8 +132978,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch111": {
-  "decision": "promising",
-  "reason": "triage: Enacted social media protections for minors",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed law that directly protects Minnesota children 15 and under on social media: it requires a parent's consent and the most private settings by default, and it bans addictive features and targeted ads. It takes effect July 1, 2027.",
+  "file": "src/content/entries/state/mn-kids-under-16-social-media-parental-consent.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133077,8 +133111,9 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-788": {
-  "decision": "promising",
-  "reason": "triage: $777,400 grant for West Side Safe Routes to School",
+  "decision": "drafted",
+  "reason": "Saint Paul accepted and funded a $777,400 regional grant to build curb extensions and safer crossings at six West Side spots used by students walking to four public schools, which is concrete safety infrastructure no existing entry covers.",
+  "file": "src/content/entries/local/saint-paul-west-side-safe-routes-to-school.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133185,14 +133220,15 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch128": {
-  "decision": "promising",
-  "reason": "triage: enacted tax bill; writer must check credits and how paid for",
+  "decision": "drafted",
+  "reason": "The 2026 Minnesota tax law (Laws 2026, ch. 128) gave about 588,000 homeowners with household incomes under $142,490 a one-time 14.88% increase in their homestead credit refund. It's paid from the general fund and capped by income, so it passes the net-impact test.",
+  "file": "src/content/entries/state/mn-2026-homestead-credit-refund-increase.md",
   "impact": 4,
   "date": "2026-11-13"
  },
  "mn-2026-ch129": {
-  "decision": "promising",
-  "reason": "triage: enacted bonding bill funding local infrastructure",
+  "decision": "skip",
+  "reason": "Chapter 129 (HF 2484) is the $46.5 million cash side of Minnesota's 2026 capital package, a mix of unrelated items: predesign and design money (RiverCentre arena, Apple Valley PFAS plant, a fire station, a charter school), memorials and highway signage, a zoo operating shortfall, and canceled earlier appropriations. It has no single concrete benefit to working people, and much of it builds nothing yet; the actual $1.24 billion bonding bill is HF 719 (Laws 2026, ch. 130) and should be its own entry.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133269,8 +133305,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-126": {
-  "decision": "promising",
-  "reason": "triage: $6.8M HOME-ARP funds accepted for housing aid",
+  "decision": "skip",
+  "reason": "This resolution only moves Saint Paul's 2021 HOME-ARP award ($6.8 million) into the 2026 budget. It doesn't fund a named housing project or a number of homes, and the city's 2025–26 CAPER says no HOME-ARP money had been spent, so there is no concrete benefit to report yet.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133347,8 +133383,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch103": {
-  "decision": "promising",
-  "reason": "triage: workers' comp changes; writer checks specifics",
+  "decision": "drafted",
+  "reason": "Enacted and signed law that raises Minnesota permanent partial disability benefits about 20% for injuries on or after Oct. 1, 2026, and lets psychiatric nurse practitioners diagnose work-related PTSD; this is a direct benefit to injured workers.",
+  "file": "src/content/entries/state/mn-workers-comp-permanent-disability-20-percent-raise.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133371,8 +133408,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch99": {
-  "decision": "promising",
-  "reason": "triage: disability accommodation discrimination protection",
+  "decision": "drafted",
+  "reason": "Enacted state law, in effect since Aug. 1, 2026, that lets people with disabilities file a discrimination claim when an employer, landlord, school, business or public agency refuses to discuss an accommodation request; no existing entry covers it.",
+  "file": "src/content/entries/state/mn-disability-accommodation-interactive-process.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133413,14 +133451,16 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch81": {
-  "decision": "promising",
-  "reason": "triage: tenant billing and eviction protections",
+  "decision": "drafted",
+  "reason": "This enacted Minnesota law adds tenant protections that took effect Aug. 1, 2026: landlords can't name a renter's children in an eviction case, and a broken online rent portal can't lead to late fees or eviction. These benefits for renters outweigh the narrow landlord-side changes.",
+  "file": "src/content/entries/state/mn-landlords-cant-name-kids-in-evictions-or-fault-broken-pay-apps.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2026-ch82": {
-  "decision": "promising",
-  "reason": "triage: limits HOA late fees, fines, foreclosure",
+  "decision": "drafted",
+  "reason": "Enacted Minnesota law (Laws 2026, ch. 82) that caps HOA fines and late fees and bars foreclosure over small or recent debts for about 1.6 million Minnesotans in HOAs, at no cost to public services.",
+  "file": "src/content/entries/state/mn-hoa-fines-late-fees-foreclosure-limits.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133443,8 +133483,8 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch86": {
-  "decision": "promising",
-  "reason": "triage: trusted contact against elder fraud",
+  "decision": "skip",
+  "reason": "Laws 2026, ch. 86 doesn't require anyone to do anything: banks \"may offer\" a trusted-contact program and \"may\" report suspected fraud, and the law's main concrete effect is shielding those providers from liability, so it has no guaranteed direct effect on customers.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133485,8 +133525,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch72": {
-  "decision": "promising",
-  "reason": "triage: bans nudify tools, protects people",
+  "decision": "drafted",
+  "reason": "An enacted Minnesota law that bans services that make fake nude images of real people and lets the people shown sue. It has a direct safety and rights effect, and no existing entry covers it. A federal appeals court has paused it, so its status is \"blocked\".",
+  "file": "src/content/entries/state/mn-ban-on-ai-apps-that-make-fake-nudes.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133557,8 +133598,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch65": {
-  "decision": "promising",
-  "reason": "triage: bans crypto kiosks used in scams, with customer payouts",
+  "decision": "drafted",
+  "reason": "An enacted law, in force since Aug. 1, 2026, that bans crypto kiosks after scammers used them to take nearly $1 million from Minnesotans, many of them older adults. Operators must also pay customers back what they're owed.",
+  "file": "src/content/entries/state/mn-crypto-kiosk-ban-scams.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133599,8 +133641,8 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-26-839": {
-  "decision": "promising",
-  "reason": "triage: Notes funding lead pipe replacement; real service",
+  "decision": "skip",
+  "reason": "RES 26-839 is a financing step: it lets the city borrow short term against lead-pipe money the state Public Facilities Authority already awarded, and its main effect is on the city's cash flow. I also couldn't open the resolution text to confirm the note amounts or which award they back.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133629,20 +133671,21 @@
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-81": {
-  "decision": "promising",
-  "reason": "triage: Street, sewer and water reconstruction funded",
+  "decision": "skip",
+  "reason": "This resolution only changes the capital budget's books. It moves $4.6 million of sewer and water utility money into the budget for a routine street rebuild that was already approved at the Jan. 28, 2026 assessment hearing and was underway by June. Its main effect is on the city's own accounting, and no source I opened says what the added money pays for beyond normal utility work.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "saint-paul-res-ph-26-82": {
-  "decision": "promising",
-  "reason": "triage: State money for accessible sidewalks and crossings",
+  "decision": "drafted",
+  "reason": "Saint Paul accepted and spent $1.44 million in state money on accessible sidewalks, curb ramps and safer crossings at four sites, and Payne Avenue construction is underway, so this is physical infrastructure that makes walking safer.",
+  "file": "src/content/entries/local/saint-paul-state-money-accessible-sidewalks-crossings.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "hennepin-26-0165": {
-  "decision": "promising",
-  "reason": "triage: HUD housing and homelessness funds; details unclear but real",
+  "decision": "skip",
+  "reason": "This is Hennepin County's routine yearly application for HUD's formula CDBG/HOME/ESG funds, and none of the sources I could open name the subrecipients, the projects or how many people they reach, so there's no concrete benefit I can verify; the county's own summary ($7.2 million) also conflicts with the resolution ($4.78 million).",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133659,8 +133702,9 @@
   "date": "2026-11-13"
  },
  "hennepin-26-0168": {
-  "decision": "promising",
-  "reason": "triage: Federal funds continue health care for homeless people",
+  "decision": "drafted",
+  "reason": "Hennepin County's board accepted $1.14 million more in federal money to keep medical, mental health and addiction care going in homeless shelters for another year, a service that reached 6,006 people in 2025.",
+  "file": "src/content/entries/local/hennepin-health-care-for-the-homeless-1-1-million.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133809,8 +133853,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch100": {
-  "decision": "promising",
-  "reason": "triage: Housing finance law with bonds and policy; check funding source",
+  "decision": "drafted",
+  "reason": "Enacted Minnesota law putting $40 million into homelessness prevention and rent help, $100 million in housing bonds and $25 million into housing programs, paid for without cutting services by using unspent settlement money and the housing agency's interest earnings.",
+  "file": "src/content/entries/state/mn-2026-housing-rent-help-and-affordable-homes.md",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -133905,8 +133950,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch49": {
-  "decision": "promising",
-  "reason": "triage: Education aid for veterans' children and spouses, funded",
+  "decision": "drafted",
+  "reason": "An enacted, in-effect law that widens and deepens free public college for children and spouses of Minnesota veterans who died from their service or are POW/MIA; it now waives fees as well as tuition. The one-time $750 veteran payment it drops is small next to what the law adds.",
+  "file": "src/content/entries/state/mn-veterans-families-tuition-and-fee-free-college.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133917,8 +133963,8 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch51": {
-  "decision": "promising",
-  "reason": "triage: Clarifies homeowners' right to postpone foreclosure sale",
+  "decision": "skip",
+  "reason": "Chapter 51 is mostly a technical cleanup of the foreclosure-postponement affidavit, and its effects run both ways: it lets heirs of a deceased owner request a postponement, but it limits postponement to once per foreclosure and protects sales made on defective affidavits, so it doesn't clearly pass the net-impact test.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -133965,8 +134011,9 @@
   "date": "2026-11-13"
  },
  "mn-2026-ch43": {
-  "decision": "promising",
-  "reason": "triage: Appropriates money for supportive housing providers",
+  "decision": "drafted",
+  "reason": "An enacted state law that put $9 million in emergency grants toward keeping supportive and rapid-rehousing programs open for homeless Minnesotans when HUD Continuum of Care funding stalled, using unspent state housing money rather than cutting services.",
+  "file": "src/content/entries/state/mn-9-million-supportive-housing-federal-gap.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134037,8 +134084,9 @@
   "date": "2026-11-13"
  },
  "mn-eo-25-09": {
-  "decision": "promising",
-  "reason": "triage: Order keeping vaccine access for Minnesotans",
+  "decision": "drafted",
+  "reason": "Walz's order made the state health department issue a COVID-19 vaccine standing order for pharmacists, so Minnesotans can still get the shot at a pharmacy despite federal limits, and the health department has renewed the order for 2026–27.",
+  "file": "src/content/entries/state/mn-covid-shots-at-pharmacies-for-ages-3-and-up.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134145,8 +134193,8 @@
   "date": "2026-11-13"
  },
  "mn-2025-ch2": {
-  "decision": "promising",
-  "reason": "triage: partition act protects heirs' property owners from forced sales",
+  "decision": "skip",
+  "reason": "SF 202 is a State Bar Association rewrite of court procedure for dividing co-owned property (plus technical eminent-domain notice and TOD-deed fixes); it has no clear, source-backed direct benefit for working people, and even summaries flag it may favor financially stronger co-owners in forced sales.",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134175,8 +134223,8 @@
   "date": "2026-11-13"
  },
  "mn-2025s1-ch10": {
-  "decision": "promising",
-  "reason": "triage: K-12 funding, school nutrition, Read Act",
+  "decision": "skip",
+  "reason": "Minnesota's 2025 K-12 budget mostly kept 2023 law in place, including the inflation-indexed formula, and it cut special education transportation aid, school library aid and aid for counselors, nurses and social workers, so the bill as a whole doesn't pass the net-impact test; its one standout new item, $100 million to keep summer unemployment benefits for hourly school workers, was paid for by canceling Northern Lights Express passenger rail funding, so that item doesn't clearly pass either.",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -134193,20 +134241,21 @@
   "date": "2026-11-13"
  },
  "mn-2025s1-ch13": {
-  "decision": "promising",
-  "reason": "triage: tax bill; check how paid for",
+  "decision": "skip",
+  "reason": "This is Minnesota's 2025 omnibus tax bill, written mainly to close a deficit (higher cannabis tax, no more sales-tax break on data-center electricity, smaller invasive-species and forestry payments), and its main tax cut is a business R&D credit, so I couldn't find a concrete benefit for working people to build an entry on.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch14": {
-  "decision": "promising",
-  "reason": "triage: capital projects funded; check specifics",
+  "decision": "skip",
+  "reason": "Chapter 14 is a $10.5 million grab bag (a Humphrey statue, Capitol-area business grants, a dairy co-op wastewater plant, school key boxes, a museum roof); its working-people pieces, a $2.4 million local public housing program and $500,000 for officer hearing protection, had no awards or distribution I could confirm as of early 2026, so there is no verifiable tangible impact to headline.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch15": {
-  "decision": "promising",
-  "reason": "triage: bonding for local infrastructure projects",
+  "decision": "drafted",
+  "reason": "The enacted 2025 Minnesota bonding law pays for concrete public works, including $176 million for city drinking water and sewer systems, $26 million to fix up public housing and $78 million for local roads and bridges, and it cuts no services.",
+  "file": "src/content/entries/state/mn-2025-bonding-176-million-drinking-water-sewers.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134217,50 +134266,52 @@
   "date": "2026-11-13"
  },
  "mn-2025s1-ch3": {
-  "decision": "promising",
-  "reason": "triage: health, child care, economic supports funding",
+  "decision": "skip",
+  "reason": "This is Minnesota's 2025 health and children-and-families budget bill. It covers many programs, and overall it cut General Fund spending by $70 million below the forecast base. Among the cuts, adult chiropractic care came out of Medical Assistance and reproductive health grants lost $1 million. That makes the net-impact test hard to clear for the whole bill, so it isn't one entry. A specific funded item could still be drafted separately if its source shows it wasn't paid for with service cuts, such as the $12 million for food insecurity or the EMS grants.",
   "impact": 4,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch4": {
-  "decision": "promising",
-  "reason": "triage: commerce and consumer protection provisions",
+  "decision": "skip",
+  "reason": "This omnibus commerce bill's main consumer provision, a Medigap open enrollment for ages 65 to 70 with a lifetime surcharge of up to 35%, is a scaled-back version of a broader guarantee Minnesota passed in 2023 that never took effect (KFF), so it fails the net-impact test, and the bill's other consumer items (a homeowner-association ombudsperson, free water at events, policy copies) are too minor to stand alone.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch5": {
-  "decision": "promising",
-  "reason": "triage: student aid and tuition funding",
+  "decision": "skip",
+  "reason": "This omnibus fails the net-impact test: it closed the Minnesota State Grant deficit mostly by cutting aid to low-income students (lifetime cap cut from 180 to 120 credits, a smaller living allowance, a bigger family share, and lower average awards, per the House summary and Star Tribune), so working students lose more overall than its smaller extras give them.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch6": {
-  "decision": "promising",
-  "reason": "triage: labor policy and jobs funding",
+  "decision": "drafted",
+  "reason": "The 2025 jobs and labor law gave Minnesota workers new legal rights starting Jan. 1, 2026: a paid 15-minute rest break every four hours, a 30-minute meal break after six hours instead of eight, and double pay for any break an employer withholds.",
+  "file": "src/content/entries/state/mn-paid-rest-breaks-and-meal-break-at-six-hours.md",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch7": {
-  "decision": "promising",
-  "reason": "triage: energy budget and utility provisions",
+  "decision": "skip",
+  "reason": "The 2025 special-session energy omnibus mostly keeps agency budgets going (with a small General Fund cut) and rewrites earlier appropriations; I couldn't confirm what it newly changed for residents, because the Solar Rewards extension to 2035 was enacted in 2024 and its other benefit programs already existed.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch8": {
-  "decision": "promising",
-  "reason": "triage: transportation and transit funding; check tax pay-for",
+  "decision": "skip",
+  "reason": "Laws 2025, 1st Special Session ch. 8 (HF 14) is a mixed transportation budget law with no single clear benefit, and it fails the net-impact test: it cut Metro Transit's general-fund operating money by about $61–86 million, moved about $94.7 million of auto-parts sales tax away from the highway fund, and added new taxes on EV charging and plug-in hybrids.",
   "impact": 3,
   "date": "2026-11-13"
  },
  "mn-2025s1-ch9": {
-  "decision": "promising",
-  "reason": "triage: disability, aging, homelessness services funding",
+  "decision": "skip",
+  "reason": "This is the 2025 omnibus human services budget. House nonpartisan staff say that taken as a whole it cuts about $270 million from human services for 2026-27, mostly by slowing payments for disability waiver and nursing home services, and it adds new limits such as a six-hour daily cap on individualized home supports. That fails the net-impact test, and the guide says its sweeteners, like the 25.84% family residential rate increase and wage increases, don't become their own entries.",
   "impact": 4,
   "date": "2026-11-13"
  },
  "mn-2025-ch30": {
-  "decision": "promising",
-  "reason": "triage: veterans benefits and services",
+  "decision": "drafted",
+  "reason": "The 2025 veterans omnibus (Laws 2025, ch. 30) gave Hmong and Lao veterans of the Secret War in Laos state veteran status and concrete benefits, including burial, honor guards, ID designation and hiring preference, and a 2026 law built on it.",
+  "file": "src/content/entries/state/mn-hmong-lao-secret-war-veterans-state-benefits.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134271,8 +134322,9 @@
   "date": "2026-11-13"
  },
  "mn-2025-ch32": {
-  "decision": "promising",
-  "reason": "triage: housing funding and tenant provisions",
+  "decision": "drafted",
+  "reason": "Minnesota's 2025 housing budget law (Laws 2025, ch. 32) put $18 million above base into housing and added a one-time $8.35 million to the state's emergency rent and utility help for families facing homelessness. That money is being paid out through grants that run from Oct. 2025 to Sept. 2027.",
+  "file": "src/content/entries/state/mn-2025-homeless-prevention-rent-help-increase.md",
   "impact": 4,
   "date": "2026-11-13"
  },
@@ -134313,8 +134365,9 @@
   "date": "2026-11-13"
  },
  "mn-2025-ch27": {
-  "decision": "promising",
-  "reason": "triage: workers' comp changes for injured workers",
+  "decision": "drafted",
+  "reason": "The enacted 2025 law has concrete benefits for injured workers. Workers' comp now pays for nursing care from a household member in permanent total disability cases, it protects 10 times more of a claim from creditors, and it adds safeguards against construction employers that hide workers to avoid coverage.",
+  "file": "src/content/entries/state/mn-workers-comp-household-nursing-and-10-million-shield.md",
   "impact": 3,
   "date": "2026-11-13"
  },
@@ -134411,6 +134464,30 @@
  "mn-2025-ch14": {
   "decision": "skip",
   "reason": "triage: insurance association procedure",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "nyc-mayor-2026-11-el-alcalde-mamdani-consigue-una-prorroga-de-90-dias-para-protege": {
+  "decision": "skip",
+  "reason": "triage: Deadline extension for retailers; no direct worker effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-wins-90-day-extension-to-protect-small-retailers-n": {
+  "decision": "skip",
+  "reason": "triage: Deadline extension for retailers; no direct worker effect",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "powhatan-news-412": {
+  "decision": "skip",
+  "reason": "triage: Status update on a company proposal, no enacted action",
+  "impact": 1,
+  "date": "2026-11-13"
+ },
+ "va-gov-1129015": {
+  "decision": "skip",
+  "reason": "triage: Commemorative flag order",
   "impact": 1,
   "date": "2026-11-13"
  }

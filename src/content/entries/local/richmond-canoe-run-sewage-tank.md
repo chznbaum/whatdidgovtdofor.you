@@ -46,9 +46,9 @@ sources:
     publisher: Richmond City Council (Legistar)
     url: https://richmondva.legistar.com/View.ashx?GUID=E975533A-0D37-4B03-B6D9-5CC3C852EF3D&ID=14867268&M=F
     date: 2025-10-14
-  - title: 2025 Appropriation Act, HB 1600, Item 365 (Department of Environmental Quality)
+  - title: 2025 Appropriation Act, Chapter 725, Item 365 (Department of Environmental Quality)
     publisher: Virginia Legislative Information System
-    url: https://budget.lis.virginia.gov/item/2025/1/HB1600/Enrolled/1/365
+    url: https://budget.lis.virginia.gov/item/2025/1/HB1600/Chapter/1/365/
   - title: Governor Youngkin's Proposed Amendments to the 2024-2026 Biennium
     publisher: Virginia Department of Planning and Budget
     url: https://sfac.virginia.gov/pdf/committee_meeting_presentations/2024/Jt%20Money%20Mtg%20December/12182024_No2_DPB%20Director%20Presentation%202025.pdf
@@ -80,7 +80,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the grant, ordinance, funding history, project figures, credited roles, and latest public procurement status. Corrected the ordinance’s official name and removed an unsupported 9–0 vote count.
+  notes: Confirmed the ordinance, grant agreement, project figures, credits, net impact, and latest public procurement status. Corrected the state-budget source to the final enacted version.
 source_key: richmond-ord-2025-223
 ---
 

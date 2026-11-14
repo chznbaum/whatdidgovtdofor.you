@@ -81,7 +81,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: pass
-  notes: Confirmed the enacted law, sponsors, both final-passage vote totals, six-school plan, impact figures, and latest available construction status. No repeal, block, cancellation, or material factual error was found.
+  notes: Confirmed the enacted law, sponsors and cosponsors, both final-passage vote totals, six-school scope, impact figures, and June 2026 construction status. No later repeal, block, cancellation, or material factual error was found.
 source_key: ny-2025-a7385
 ---
 

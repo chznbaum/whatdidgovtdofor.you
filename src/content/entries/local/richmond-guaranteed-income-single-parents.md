@@ -21,9 +21,9 @@ impact:
     label: families in the fourth group
 status:
   state: in-effect
-  as_of: 2026-04-16
-  note: A city report presented to Council in April 2026 said the group launched in fall 2025, includes 42 households and runs from 2025 to 2027. We found no later public update.
-  source: https://rva.gov/sites/default/files/2026-06/Inventory%20of%20Programs%20and%20Initiatives%20that%20Mitigate%20the%20Displacement%20of%20Residents.pdf
+  as_of: 2026-11-13
+  note: The city's March 2026 inventory says the fourth group launched in fall 2025 and runs from 2025 to 2027. The city's current program page still describes the payments and lists RRI staff contacts.
+  source: https://www.rva.gov/community-wealth-building/richmond-resilience-initiative
 credit:
   - official: danny-avula
     role: proposed
@@ -56,7 +56,9 @@ sources:
   - title: Inventory of Programs and Initiatives that Mitigate the Displacement of Residents
     publisher: City of Richmond
     url: https://rva.gov/sites/default/files/2026-06/Inventory%20of%20Programs%20and%20Initiatives%20that%20Mitigate%20the%20Displacement%20of%20Residents.pdf
-    date: 2026-04-16
+  - title: Richmond Resilience Initiative
+    publisher: City of Richmond Office of Community Wealth Building
+    url: https://www.rva.gov/community-wealth-building/richmond-resilience-initiative
 featured: false
 verification:
   writer:
@@ -68,7 +70,7 @@ verification:
     via: codex-cli
     date: 2026-11-13
   verdict: corrected
-  notes: Confirmed the enacted contract, 8–0 council vote, payment figures, eligibility, funding, and continued operation through an April 2026 city report. Narrowed unsupported claims about the exact start date, lottery selection, and Mayor Avula’s funding role.
+  notes: Confirmed the ordinance, contract amounts, September 2025 launch, eligibility, 8–0 vote, credits, and net benefit. Updated the status through today using Richmond’s current program page and corrected the city report’s date metadata.
 source_key: richmond-ord-2025-139
 ---
 

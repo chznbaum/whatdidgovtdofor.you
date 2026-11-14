@@ -61,8 +61,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the council’s 9–0 adoption and the agreement’s affordability, tax-grant, and construction terms. Updated the status to the newer August 2026 EDA action and reset verification to pending.
+  verdict: pass
+  notes: Confirmed the unanimous 9–0 council adoption, affordability requirements, tax-grant formula, project history, credits, and August 2026 EDA authorization. No later construction update, repeal, cancellation, or legal block was found.
 source_key: richmond-ord-2026-170
 ---
 

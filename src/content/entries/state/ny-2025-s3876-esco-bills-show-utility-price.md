@@ -88,8 +88,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the enacted and amended text, sponsors, effective date, roll calls, damages, and rollout status. Narrowed two statements to the customers covered by the law and corrected the attribution of the implementation update.
+  verdict: pass
+  notes: Confirmed the enacted and amended text, sponsors, effective date, both roll calls, damages, customer-cost ban, and rollout status. The November 12 DPS agenda shows implementation work remains active, consistent with the phasing-in status.
 source_key: ny-2025-s3876
 ---
 

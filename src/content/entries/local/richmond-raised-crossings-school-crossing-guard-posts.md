@@ -50,8 +50,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the ordinance’s scope, 8–0 adoption, patron, and federal reimbursement. Corrected the project cost and replaced the unrelated 2026 status evidence with the latest project-specific record.
+  verdict: pass
+  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, federal reimbursement, and project cost against the [ordinance and agreement](https://richmondva.legistar.com/View.ashx?GUID=496C1EC6-9DD9-4466-85DA-EFF5C9E139FE&ID=13612887&M=F). The [latest project-specific CTB record](https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2025/12/res/1-fy2026-2031-six-year-improvement-program-transfers-2025-10-18-through-2025-11-14.pdf) supports the stated scheduled status; no corrections were needed.
 source_key: richmond-ord-2024-289
 ---
 
