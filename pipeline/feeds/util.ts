@@ -34,14 +34,37 @@ export async function getTextIfExists(url: string): Promise<string | null> {
   }
 }
 
-// A PDF's text, laid out as on the page, via poppler's pdftotext (brew install poppler). Scans without a text layer
-// come back empty.
-export async function pdfText(bytes: Uint8Array): Promise<string> {
+// A PDF's text, laid out as on the page, via poppler's pdftotext (brew install poppler). Pages that are scans without
+// a text layer are read with OCR instead (brew install tesseract), up to `ocrPages` of them (OCR takes two or three seconds a
+// page); past that, or without tesseract, they come back empty. `until` ends the text at the first page that matches it
+// (a minutes book's appendix of full texts).
+export async function pdfText(bytes: Uint8Array, { ocrPages = 150, until }: { ocrPages?: number; until?: RegExp } = {}): Promise<string> {
+  const run = promisify(execFile);
   const dir = await mkdtemp(join(tmpdir(), 'feed-pdf-'));
   try {
-    await writeFile(join(dir, 'file.pdf'), bytes);
-    const { stdout } = await promisify(execFile)('pdftotext', ['-layout', join(dir, 'file.pdf'), '-'], { maxBuffer: 64 * 1024 * 1024 });
-    return stdout;
+    const file = join(dir, 'file.pdf');
+    await writeFile(file, bytes);
+    const { stdout } = await run('pdftotext', ['-layout', file, '-'], { maxBuffer: 64 * 1024 * 1024 });
+    // pdftotext ends each page with a form feed. A page with almost no letters is a scan (or blank).
+    const pages = stdout.split('\f');
+    if (pages.at(-1) === '') pages.pop();
+    let budget = ocrPages;
+    for (let i = 0; i < pages.length && budget > 0; i++) {
+      if (until?.test(pages[i])) return pages.slice(0, i).join('\f');
+      if ((pages[i].match(/[A-Za-z]/g)?.length ?? 0) >= 40) continue;
+      budget--;
+      try {
+        await run('pdftoppm', ['-r', '300', '-gray', '-png', '-singlefile', '-f', `${i + 1}`, '-l', `${i + 1}`, file, join(dir, 'page')]);
+        // --psm 1 detects each page's orientation: clerks scan pages sideways and upside down.
+        pages[i] = (await run('tesseract', [join(dir, 'page.png'), '-', '--psm', '1'], { maxBuffer: 16 * 1024 * 1024 })).stdout;
+        if (until?.test(pages[i])) return pages.slice(0, i).join('\f');
+      } catch (e) {
+        if ((e as NodeJS.ErrnoException).code === 'ENOENT') break; // no tesseract: leave scans empty
+        throw e;
+      }
+    }
+    const end = until ? pages.findIndex((p) => until.test(p)) : -1;
+    return (end < 0 ? pages : pages.slice(0, end)).join('\f');
   } finally {
     await rm(dir, { recursive: true, force: true });
   }
