@@ -74,7 +74,8 @@ async function law(id: string, session: Session, local: RegExp): Promise<Candida
   const caption = tag(xml, 'Caption');
   if (tag(xml, 'LegislationType') === 'LOC' && !local.test(caption)) return null;
   const bill = `${tag(xml, 'DocumentType')} ${tag(xml, 'Number')}${tag(xml, 'Suffix')}`;
-  const authors = all(xml, 'Sponsorship')
+  // Authors are Sponsorships; the other chamber's carrier is the detail's single Sponsor.
+  const authors = [...all(xml, 'Sponsorship'), ...all(xml, 'Sponsor')]
     .map((s) => ({ who: member(tag(s, 'MemberDescription')), id: tag(s, 'MemberId'), seq: Number(tag(s, 'Sequence')), type: tag(s, 'Type') }))
     .sort((a, b) => a.seq - b.seq);
   const title = (type: string) => (type.startsWith('House') ? 'Rep.' : 'Sen.');
