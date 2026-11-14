@@ -9,8 +9,9 @@ import { decodeEntities, getText, mdyDate, newest, plainText, sleep } from './ut
 const SITE = 'https://www.lrl.mn.gov/execorders';
 const cell = (html: string | undefined) => plainText(decodeEntities(html ?? '')).trim();
 
-export const mnGovernor: Feed = {
-  id: 'mn-governor',
+// The feed id avoids "-governor", which marks announcement feeds (run.ts): these orders are actions themselves.
+export const mnExecutiveOrders: Feed = {
+  id: 'mn-executive-orders',
   description: "Minnesota governors' executive orders (Legislative Reference Library)",
   async fetch({ since, limit, known }) {
     const index = await getText(`${SITE}/`);
@@ -30,7 +31,7 @@ export const mnGovernor: Feed = {
         const notes = cell(cells[4]);
         out.push({
           key,
-          feed: 'mn-governor',
+          feed: 'mn-executive-orders',
           level: 'state',
           jurisdiction: 'mn',
           kind: 'executive-order',
