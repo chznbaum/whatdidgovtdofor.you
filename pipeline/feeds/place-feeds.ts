@@ -6,6 +6,7 @@ import { agendaCenterFeed } from './agendacenter.ts';
 import { civicClerkFeed } from './civicclerk.ts';
 import { hcmsFeed } from './hcms.ts';
 import { laserficheFeed } from './laserfiche.ts';
+import { minutesListFeed } from './minutes-list.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
 import type { Feed } from './types.ts';
@@ -98,6 +99,18 @@ export async function placeFeeds(): Promise<Feed[]> {
               page: f.page,
               category: f.category,
               files: new RegExp(f.files, 'i'),
+              place,
+            }),
+          );
+          break;
+        case 'minutes-list':
+          out.push(
+            minutesListFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: ${f.title} minutes`,
+              url: f.url,
+              pages: f.pages ?? 2,
+              title: f.title,
               place,
             }),
           );

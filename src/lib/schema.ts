@@ -62,7 +62,7 @@ export const ACTION_TYPES = [
   'grant',
 ] as const;
 
-export const PARTIES = ['D', 'R', 'I', 'L', 'G', 'NP'] as const;
+export const PARTIES = ['D', 'R', 'I', 'L', 'G', 'DSA', 'NP'] as const;
 
 export type Collection = 'officials' | 'places';
 // Generic so Astro's `reference()` output type ({ id, collection }) flows through to the inferred types.
@@ -147,8 +147,9 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
     level: z.enum(['federal', 'state', 'local']),
     jurisdiction: ref.places,
     current: z.boolean().default(true),
-    // When set, the address lookup shows this official to anyone in `place`.
-    seat: z.object({ place: ref.places, title: z.string() }).optional(),
+    // When set, the address lookup shows this official to anyone in `place`. A seat changing hands on a known date (a
+    // governor-elect) has `from`, and the one leaving `until`; the site is rebuilt daily, so the lookup switches on its own.
+    seat: z.object({ place: ref.places, title: z.string(), from: date.optional(), until: date.optional() }).optional(),
     ids: z
       .object({ bioguide: z.string().optional(), openstates: z.string().optional(), wikidata: z.string().optional() })
       .default({}),
@@ -227,6 +228,13 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     category: z.string(), // the body's category id
     files: z.string(), // pattern for the minutes files to read, by file name, e.g. 'Agenda Actions'
   }),
+  z.object({
+    type: z.literal('minutes-list'), // a page listing a body's meetings with "Minutes" PDF links: each one's is a recap
+    id: z.string().optional(),
+    url: z.url(), // the meeting list (older meetings on ?page=2, ...)
+    pages: z.number().int().default(2), // how many list pages to read
+    title: z.string(), // the body: "Metropolitan Council"
+  }),
 ]);
 
 // A district map the browser can query: an ArcGIS layer that sends CORS headers, and the field holding the district.
@@ -277,9 +285,16 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     short: z.string().max(14), // short name: "US", "NY", "NYC", "Norfolk"
     kind: z.enum(['country', 'state', 'region', 'city', 'county', 'town']), // a town sits inside its county (its parent)
     parent: ref.places.optional(),
-    // Census GEOIDs the address lookup matches against: a county or independent city by county, a town by place.
+    // Census GEOIDs the address lookup matches against: a county or independent city by county, a town or a city inside a
+    // county by place. A region whose own body serves more than its member places (the Metropolitan Council's seven
+    // counties) lists those counties.
     geoids: z
-      .object({ state: z.string().optional(), county: z.string().optional(), place: z.string().optional() })
+      .object({
+        state: z.string().optional(),
+        county: z.string().optional(),
+        place: z.string().optional(),
+        counties: z.array(z.string()).optional(),
+      })
       .default({}),
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),

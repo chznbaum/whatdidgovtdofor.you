@@ -12,7 +12,7 @@ interface Props {
 const { vote } = Astro.props;
 const passed = vote.yes > vote.no;
 // Fixed party order so rows never trade places between votes.
-const ORDER = ['D', 'R', 'I', 'L', 'G', 'NP'];
+const ORDER = ['D', 'R', 'I', 'L', 'G', 'DSA', 'NP'];
 const parties = Object.entries(vote.by_party ?? {})
   .filter(([, t]) => t && t.yes + t.no > 0)
   .sort(([a], [b]) => ORDER.indexOf(a) - ORDER.indexOf(b)) as [keyof typeof PARTY_PLURALS, { yes: number; no: number }][];

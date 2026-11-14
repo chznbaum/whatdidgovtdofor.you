@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { entriesWithin, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
+import { andList } from '../../lib/format.ts';
 
 const entries = await getEntries();
 const places = await getPlacesMap();
@@ -8,8 +9,10 @@ const count = (id: string) =>
   id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
 
 // One orange panel per state: the state, each of its regions followed by the region's members, then the cities and
-// counties outside any region.
+// counties outside any region, each county followed by the cities and towns inside it.
 const all = [...places.values()];
+const byName = (a: { data: { name: string } }, b: { data: { name: string } }) => a.data.name.localeCompare(b.data.name);
+const covered = andList(all.filter((p) => p.data.kind === 'state').map((p) => p.data.name).sort());
 const groups = [
   { title: 'Nationwide', ids: ['us'] },
   ...all
@@ -18,8 +21,9 @@ const groups = [
     .map((s) => {
       const regions = all.filter((r) => r.data.kind === 'region' && r.data.parent?.id === s.id).sort((a, b) => a.data.name.localeCompare(b.data.name));
       const inRegions = regions.flatMap((r) => [r.id, ...r.data.members.map((m) => m.id)]);
-      const rest = all.filter((p) => p.data.parent?.id === s.id && !inRegions.includes(p.id)).sort((a, b) => a.data.name.localeCompare(b.data.name));
-      return { title: s.data.name, ids: [s.id, ...inRegions, ...rest.map((p) => p.id)] };
+      const outside = (parent: string) => all.filter((p) => p.data.parent?.id === parent && !inRegions.includes(p.id)).sort(byName);
+      const rest = outside(s.id).flatMap((p) => [p.id, ...outside(p.id).map((c) => c.id)]);
+      return { title: s.data.name, ids: [s.id, ...inRegions, ...rest] };
     }),
 ];
 ---
@@ -28,8 +32,7 @@ const groups = [
   <div class="wrap">
     <h1>Places</h1>
     <p class="lede">
-      We track national actions everywhere, and state and local actions in New York and Virginia. More places are on the
-      way. Want yours? <a href="mailto:places@whatdidgovtdofor.you?subject=Please%20add%20my%20place">Ask us to add it</a>.
+      We track national actions everywhere, and state and local actions in {covered}. More places are on the way. Want yours? <a href="mailto:places@whatdidgovtdofor.you?subject=Please%20add%20my%20place">Ask us to add it</a>.
     </p>
     <div class="signs">
       {

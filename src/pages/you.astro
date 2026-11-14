@@ -4,12 +4,12 @@ import AddressForm from '../components/AddressForm.astro';
 import ActionList from '../components/ActionList.astro';
 import { getCollection } from 'astro:content';
 import { getEntries } from '../lib/data.ts';
+import { andList } from '../lib/format.ts';
 
 // Every sign is rendered here, hidden; the script below reveals the ones that apply to the address.
 const entries = await getEntries();
-// The states we cover, for the note an address elsewhere gets: "New York and Virginia", "Minnesota, New York and Virginia".
-const states = (await getCollection('places', (p) => p.data.kind === 'state')).map((p) => p.data.name).sort();
-const covered = states.length > 1 ? `${states.slice(0, -1).join(', ')} and ${states.at(-1)}` : states[0];
+// The states we cover, for the note an address elsewhere gets.
+const covered = andList((await getCollection('places', (p) => p.data.kind === 'state')).map((p) => p.data.name).sort());
 const levels = [
   { level: 'local', title: 'From your local government' },
   { level: 'state', title: 'From your state' },
@@ -69,7 +69,7 @@ const levels = [
     id: string;
     name: string;
     kind: string;
-    geoids: { state?: string; county?: string; place?: string };
+    geoids: { state?: string; county?: string; place?: string; counties?: string[] };
     members: string[];
   };
   type Index = {
@@ -215,7 +215,9 @@ const levels = [
       if ((p.kind === 'city' || p.kind === 'county' || p.kind === 'town') && ((g.place && g.place === incPlace?.GEOID) || (g.county && g.county === county?.GEOID)))
         mine.add(p.id);
     }
-    for (const p of index.places) if (p.kind === 'region' && p.members.some((m) => mine.has(m))) mine.add(p.id);
+    // A region by its member places, or by its counties where its own body serves more than those (the Met Council).
+    for (const p of index.places)
+      if (p.kind === 'region' && (p.members.some((m) => mine.has(m)) || (county && p.geoids.counties?.includes(county.GEOID)))) mine.add(p.id);
 
     // Officials.
     const seatsFor = (placeId: string) => index.seats.filter((s) => s.place === placeId);
@@ -244,9 +246,12 @@ const levels = [
     const subdivision = layer(geo, /^County Subdivisions$/);
     const localItems: HTMLElement[] = [];
     const localWhere: string[] = [];
-    for (const p of localPlaces) {
+    // A region with a body of its own (the Met Council) comes after the city and county; the where-line names its
+    // district, not the region.
+    const regionsWithCouncils = index.places.filter((p) => p.kind === 'region' && mine.has(p.id) && index.councils[p.id]);
+    for (const p of [...localPlaces, ...regionsWithCouncils]) {
       localItems.push(...seatsFor(p.id).map((s) => officialItem(s.title, s)));
-      localWhere.push(p.name);
+      if (p.kind !== 'region') localWhere.push(p.name);
       const council = index.councils[p.id];
       if (!council) continue;
       const atLarge = council.members.filter((m) => m.district === null);

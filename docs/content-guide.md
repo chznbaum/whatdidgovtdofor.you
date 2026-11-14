@@ -151,7 +151,7 @@ Two to four short paragraphs, 120–250 words total. Plain language at about an 
 
 ```yaml
 name: Tim Kaine
-party: D            # D, R, I, L, G, or NP (nonpartisan office)
+party: D            # D, R, I, L, G, DSA, or NP (nonpartisan office)
 office: U.S. Senator from Virginia
 level: federal      # federal | state | local
 jurisdiction: va    # place id where they serve (use `us` for President/VP/cabinet)
@@ -169,7 +169,7 @@ seat: { place: va, title: Governor }
 ```
 Bodies use `kind: body` and have no party.
 
-Party is the party the person belonged to when they did the work. Use `NP` for officials elected in nonpartisan races (many Virginia city councils).
+Party is the party the person belonged to when they did the work. Use `NP` for officials elected in nonpartisan races (many Virginia city councils) and for appointed bodies. A state affiliate of a national party is that party: Minnesota's Democratic-Farmer-Labor (DFL) members are `D`. Where a local ballot lets candidates print a party (Minneapolis), use what they printed, e.g. `DSA` for Democratic Socialists of America.
 
 ## Checking status
 

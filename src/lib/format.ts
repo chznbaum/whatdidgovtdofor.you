@@ -20,6 +20,7 @@ export const PARTY_NAMES: Record<Party, string> = {
   I: 'Independent',
   L: 'Libertarian',
   G: 'Green',
+  DSA: 'Democratic Socialists of America',
   NP: 'Nonpartisan',
 };
 
@@ -29,6 +30,7 @@ export const PARTY_PLURALS: Record<Party, string> = {
   I: 'Independents',
   L: 'Libertarians',
   G: 'Greens',
+  DSA: 'Democratic Socialists',
   NP: 'Nonpartisan',
 };
 
@@ -123,3 +125,6 @@ export function modelName(id: string): string {
   if (/^(gpt|o\d)/i.test(id)) return `${id.replace(/^gpt/i, 'GPT')} (OpenAI)`;
   return id;
 }
+
+// "New York and Virginia", "Minnesota, New York and Virginia".
+export const andList = (items: string[]) => (items.length > 1 ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}` : (items[0] ?? ''));

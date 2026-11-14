@@ -116,6 +116,8 @@ export const GET: APIRoute = async () => {
   // address's districts (from the geocoder's County Subdivisions or ArcGIS point queries) and shows those districts'
   // members plus any at-large ones.
   const today = new Date();
+  // Whether a seat with optional start and end dates is held on the day the site is built.
+  const holds = (seat: { from?: Date; until?: Date }) => (!seat.from || seat.from <= today) && (!seat.until || today < seat.until);
   const councils = Object.fromEntries(
     allPlaces
       .filter((p) => p.data.council)
@@ -133,7 +135,7 @@ export const GET: APIRoute = async () => {
                 ? [{ census: true, label: 'District' }]
                 : layers.map((l) => ({ url: l.arcgis, field: l.field, label: l.label ?? 'District' })),
             members: members
-              .filter((m) => (!m.from || m.from <= today) && (!m.until || today < m.until))
+              .filter(holds)
               .map((m) => {
                 const role = m.role ?? c.title;
                 // Someone the site already credits keeps the name their page uses ("Andrew Breton", not "Andrew S. Breton").
@@ -147,8 +149,9 @@ export const GET: APIRoute = async () => {
       }),
   );
 
+  // Seats held on the day the site is built: a governor-elect's starts on inauguration day.
   const seats = officials
-    .filter((o) => o.data.current && o.data.seat)
+    .filter((o) => o.data.current && o.data.seat && holds(o.data.seat))
     .map((o) => ({ place: o.data.seat!.place.id, title: o.data.seat!.title, ...person(o.data.name, o.data.party ?? '', o.data.office, o.id) }));
 
   const places = allPlaces.map((p) => ({

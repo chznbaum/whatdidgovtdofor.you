@@ -20,6 +20,7 @@ for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) {
 const FEDERAL_PARTY: Record<string, string> = { Democrat: 'D', Republican: 'R', Independent: 'I', Libertarian: 'L' };
 const STATE_PARTY: Record<string, string> = {
   Democratic: 'D',
+  'Democratic-Farmer-Labor': 'D', // Minnesota's Democratic Party
   Republican: 'R',
   Independent: 'I',
   Libertarian: 'L',
