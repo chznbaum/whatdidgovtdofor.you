@@ -85,7 +85,7 @@ export const GET: APIRoute = async () => {
         const chamber = (c: 'upper' | 'lower') => {
           const byDistrict: Record<string, ReturnType<typeof person>[]> = {};
           const out = (m: RosterMember) =>
-            l.out.some((o) => o.chamber === c && districtKey(o.district) === districtKey(m.district!) && sameName(o.name, m.name) && today < o.until);
+            (l.out ?? []).some((o) => o.chamber === c && districtKey(o.district) === districtKey(m.district!) && sameName(o.name, m.name) && today < o.until);
           for (const m of members.filter((m) => m.chamber === c && m.district && !out(m)))
             (byDistrict[districtKey(m.district!)] ??= []).push(
               person(
