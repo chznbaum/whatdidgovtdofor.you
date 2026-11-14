@@ -154,6 +154,46 @@
       "places": [
         "nj"
       ]
+    },
+    {
+      "name": "Emerge Georgia: signature program",
+      "url": "https://ga.emergeamerica.org/signature-program/",
+      "lean": "progressive",
+      "for": "Democratic women and nonbinary people in Georgia who plan to run for office and already have a record of community work",
+      "offers": "a six-month, 70-hour candidate training with campaign experts and elected officials; tuition is $750, which Emerge encourages you to raise with its grassroots fundraising training instead of paying; on Nov. 14, 2026 the page still showed the deadline for the Class of 2026 (Nov. 26, 2025), so ask about the next class",
+      "places": [
+        "ga"
+      ]
+    },
+    {
+      "name": "Georgia Working Families Party",
+      "url": "https://workingfamilies.org/state/georgia/",
+      "lean": "progressive",
+      "for": "progressive and working-class candidates in Georgia, from city council to Congress, who want the party's backing",
+      "offers": "a link to apply for the party's endorsement, plus its endorsed candidates and news; the party says it won 16 Georgia primaries in 2026, and its Southern Made campaign, launched July 2026, aims to recruit and train 1,000 working-class candidates across the South by 2030",
+      "places": [
+        "ga"
+      ]
+    },
+    {
+      "name": "Asian Americans Advancing Justice-Atlanta: nonpartisan candidate training",
+      "url": "https://www.advancingjustice-atlanta.org/candidatetraining",
+      "lean": "nonpartisan",
+      "for": "anyone thinking of running for local, state, or federal office in Georgia, from school board and city council to Congress; the group works especially to bring Asian American and immigrant Georgians into office",
+      "offers": "a two-day training, held since 2013, on campaign plans, messaging, fundraising and legal compliance, volunteers, media, and election law, with an application; on Nov. 14, 2026 the page still showed the Sept. 5 and 6, 2025 class in Norcross as closed, so ask elections@advancingjustice-atlanta.org about the next one",
+      "places": [
+        "ga"
+      ]
+    },
+    {
+      "name": "Georgia Association of Educators: board candidate support",
+      "url": "https://gae.org/professional-excellence/board-candidate-support",
+      "lean": "worker",
+      "for": "Georgia public school employees in the teachers' union (the state affiliate of the NEA) who are thinking about running for school board or other office",
+      "offers": "a short page making the case for educators in office, which sends you to the NEA's See Educators Run candidate training; it lists no Georgia-only training or dates",
+      "places": [
+        "ga"
+      ]
     }
   ],
   "how_to_run": [
@@ -264,6 +304,72 @@
       "name": "Atlantic County Clerk: candidate information",
       "url": "https://www.atlanticcountyclerk.org/elections-2/candidate-info/",
       "offers": "nominating petitions for county, municipal (including Atlantic City mayor and council), county committee, independent, school board, and fire commissioner candidates, with how many signatures each office needs for 2026 and 2027 and the current candidate lists"
+    },
+    {
+      "place": "fulton-county",
+      "name": "Fulton County Registration and Elections: candidate information",
+      "url": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Candidate-Information",
+      "offers": "who you qualify with for each race: county offices go through the department's qualifying officers (404-612-7020, 5600 Campbellton Fairburn Road, Union City), except that party candidates for county office qualify with the county Democratic or Republican Party, and city candidates, including Atlanta's, qualify with their city clerk; the linked 2026 packet shows qualifying ran March 2 to 6, 2026, with fees of $1,950 for a district commission seat, $3,600 for commission chair, and $747 for school board, paid to whoever you qualify with"
+    },
+    {
+      "place": "dekalb-county",
+      "name": "DeKalb County Voter Registration and Elections: candidate information",
+      "url": "https://dekalbcountyga.gov/departments/voter-registration-and-elections/campaign-finance-and-candidate-information",
+      "offers": "the 2026 county qualifying guide and fee list (qualifying ran March 2 to 6, 2026; fees were $2,101.28 for county commissioner and $750 for school board), with sign, campaign-activity, and poll-watcher rules; nonpartisan and independent candidates qualify with the elections office at 4380 Memorial Drive, Decatur (404-298-4020), party candidates with the county Democratic or Republican Party, and city candidates file with their city clerk; county candidates file campaign reports with the elections board"
+    },
+    {
+      "place": "cobb-county",
+      "name": "Cobb County Elections: qualifying for office",
+      "url": "https://www.cobbcounty.gov/elections/candidate-information/qualifying-office",
+      "offers": "the 2026 county qualifying notice and the final lists of qualified candidates; qualifying ran March 2 to 6, 2026: nonpartisan candidates (State Court judges) qualified with the elections board at 995 Roswell St. NE, Marietta, and partisan candidates with the county Democratic Party (678-223-3705) or Republican Party (770-272-0458), with fees of $1,728.82 for a district commission seat and $570 for school board; questions go to 770-528-2581"
+    },
+    {
+      "place": "marietta",
+      "name": "Marietta City Clerk: election information",
+      "url": "https://www.mariettaga.gov/569/City-Clerk",
+      "offers": "how to run for mayor or City Council: you file your notice of candidacy with the City Clerk at City Hall, 205 Lawrence St., 4th floor, during a three-day qualifying period (for the Nov. 4, 2025 election it was Aug. 18 to 20, 2025); you must be 21 and a qualified voter, mayoral candidates must have lived in Marietta for a year and council candidates in their ward for a year, terms are four years, and a runoff follows if no one wins a majority; the page hadn't posted the next election's dates as of Nov. 14, 2026"
+    },
+    {
+      "place": "gwinnett-county",
+      "name": "Gwinnett County Elections: running for office",
+      "url": "https://www.gwinnettcounty.com/government/departments/elections/running-for-office",
+      "offers": "who you qualify with and what it costs: party candidates for county office qualify with the county Democratic or Republican Party (contact emails on the page), nonpartisan candidates at the elections office at 455 Grayson Highway, Suite 200, Lawrenceville, and independents file nomination petitions (in 2026, June 22 to July 14 at noon); 2026 fees were $1,350 for a district commission seat and $730.25 for school board, paid to whoever you qualify with; with the 2026 qualified candidate list"
+    },
+    {
+      "place": "lawrenceville",
+      "name": "Lawrenceville City Clerk: qualifying for candidacy",
+      "url": "https://www.lawrencevillega.org/445/Qualifying-for-Candidacy-Calificar-Para-",
+      "offers": "what it takes to run for mayor or City Council, in English and Spanish: you must have lived in Lawrenceville for a year by Election Day and be a registered voter, and you pay a $378 qualifying fee for council or $600 for mayor (3 percent of the pay) to the City Clerk, who runs city elections; terms are four years and staggered, with a 12-year limit; the next general election is Nov. 2, 2027, and qualifying packets are available at City Hall, 70 S. Clayton St., in election years (678-407-6389)"
+    },
+    {
+      "place": "chatham-county",
+      "name": "Chatham County Board of Elections: 2026 qualifying notice",
+      "url": "https://cms.chathamcountyga.gov/api/assets/elections-website/b4ac8473-7b6d-431f-a845-ef5527474304/boel-2026-election-qualifying-notice.pdf?version=0",
+      "offers": "where and when candidates qualified for 2026 county races: nonpartisan candidates (school board, Recorder's Court judge) at the Board of Elections, 1117 Eisenhower Drive, Suite F, Savannah (912-201-4375), and party candidates with the Democratic Party of Chatham County (912-272-7972) or the Chatham County Republican Party (912-356-3800), March 2 to 6, 2026; fees were $750 for a school board district seat and $1,050 for school board president; a PDF, posted on the board's home page each election year"
+    },
+    {
+      "place": "savannah",
+      "name": "Savannah Clerk of Council: elections",
+      "url": "https://www.savannahga.gov/1679/Elections",
+      "offers": "the city's page for candidates for mayor and the eight aldermen, all elected without party labels; the Clerk of Council qualifies candidates at City Hall, 2 E. Bay St. (912-651-6441), and the next city election is Nov. 2, 2027, when all nine seats are up; the linked 2023 packet shows a five-day qualifying week in late August and fees of 3 percent of salary ($1,710 for mayor, $750 for alderman), and candidates must be 18, with six months' residence in their district or a year in the city for mayor and at-large posts"
+    },
+    {
+      "place": "columbus-ga",
+      "name": "Muscogee County Elections and Registration: candidate information",
+      "url": "https://columbusga.gov/elections/",
+      "offers": "the elections office's home page, whose Elected Officials & Candidate menu has the qualifying fees, the list of qualified candidates, campaign disclosure forms, and every local candidate's filed reports; mayor, council, and school board races in Columbus are nonpartisan, and candidates qualified with this office (3111 Citizens Way, 2nd floor, 706-653-4392) March 2 to 6, 2026, paying $1,950 for mayor and $360 for council or school board"
+    },
+    {
+      "place": "athens-clarke",
+      "name": "Athens-Clarke County Elections: qualified candidates, 2026",
+      "url": "https://www.accgov.com/10569/Qualified-Candidates-2026",
+      "offers": "who qualified with the county elections office for the May 19, 2026 local races, day by day from March 2 to 6, 2026: mayor, the odd-numbered commission and school board districts (the only ones up in 2026), and solicitor general, with links to candidates' campaign filings; mayor and commission races are nonpartisan, and the elections office at 155 E. Washington St. (706-613-3150) has qualifying details for the next cycle"
+    },
+    {
+      "place": "ga",
+      "name": "Georgia.gov: run for public office",
+      "url": "https://georgia.gov/run-public-office",
+      "offers": "the state's step-by-step guide: the four ways onto a Georgia ballot (a party primary, a political body's petition or convention, an independent petition, or write-in), the partisan, nonpartisan, and county offices you can run for, and how qualifying works: state candidates qualify during set weeks, local candidates with their county or city elections office, everyone pays a fee or files a pauper's affidavit and petition, and you bring a photo ID and your candidacy form; its links for forms and fees go to the Secretary of State's site"
     }
   ],
   "boards": [
@@ -476,6 +582,60 @@
       "name": "City of Atlantic City: Environmental Commission",
       "url": "https://www.acnj.gov/News/View/2342/atlantic-city-is-creating-an-environmental-commission",
       "offers": "the city's call, posted Sept. 8, 2025, for residents to join its new Environmental Commission, which advises city leaders on parks, trees, flooding, litter, food security, and climate; unpaid, monthly meetings, three-year terms (two for alternates), with an online interest form; the page doesn't say whether seats are still open"
+    },
+    {
+      "place": "cobb-county",
+      "name": "Cobb County Clerk: boards and authorities",
+      "url": "https://www.cobbcounty.gov/board/county-clerk/boards-and-authorities",
+      "offers": "about 50 county boards, commissions, and authorities, from the Planning Commission and Library Board to the Transit System Advisory Board and the Opioid Abatement Advisory Council, each with who sits on it, what it does, and how long terms run; commissioners make the appointments, some seats need set qualifications, and there's no application on the page, so ask your district commissioner or the County Clerk's Office at (770) 528-3307"
+    },
+    {
+      "place": "marietta",
+      "name": "City of Marietta: boards and committees",
+      "url": "https://www.mariettaga.gov/152/Boards-Committees",
+      "offers": "the application for a city board or commission, which goes to the City Clerk's Office, and links to each board, from the Planning Commission and Board of Zoning Appeals to the Power & Water board, Civil Service Board, and Historic Preservation Commission; applications are kept for a year and reviewed when a seat opens on the board you picked"
+    },
+    {
+      "place": "gwinnett-county",
+      "name": "Gwinnett County Clerk: apply to serve on a board",
+      "url": "https://www.gwinnettcounty.com/government/departments/county-clerk/serve",
+      "offers": "the online application to serve on a county board, authority, or committee, sent to your district commissioner or to the chairwoman for an at-large seat, with a link to the list of boards and what each does; each commissioner has dozens of appointments to make"
+    },
+    {
+      "place": "lawrenceville",
+      "name": "City of Lawrenceville: boards and commissions",
+      "url": "https://www.lawrencevillega.org/200/Boards-Commissions",
+      "offers": "the city's boards, from the Planning Commission, Board of Appeals, and Housing Authority to the Arts Commission, Financial Review Citizen Committee, and ReCAST Advisory Board for youth programs, with what each does; the page has no application form, so ask the City Clerk, who handles appointments, at 678-407-6389"
+    },
+    {
+      "place": "chatham-county",
+      "name": "Chatham County Commission: board and authority application process",
+      "url": "https://www.chathamcountyga.gov/Commission/BoardAuthoritiesApplication",
+      "offers": "how to ask for a seat on a county board or authority: email or mail a letter naming the board you want, with your resume, to the commission chairman (chairman@chathamcounty.org) and the Clerk of Commission (jbocook@chathamcounty.org, P.O. Box 8161, Savannah, GA 31412); appointments are made all year, the commission discusses requests in closed session and votes at its next meeting, and the page links a 2022 packet describing the boards"
+    },
+    {
+      "place": "columbus-ga",
+      "name": "Columbus Clerk of Council: boards and commissions",
+      "url": "https://columbusga.gov/coc",
+      "offers": "the Clerk of Council keeps the records of Columbus's boards, authorities, committees, and commissions and who sits on them, and the page's Apply Now button opens the city's online board application"
+    },
+    {
+      "place": "athens-clarke",
+      "name": "Athens-Clarke County Clerk of Commission: boards, authorities, and commissions",
+      "url": "https://www.accgov.com/boards",
+      "offers": "the list of about 35 unpaid volunteer boards, from the Planning Commission and Land Bank Authority to the Human Relations Commission and Public Safety Civilian Oversight Board, with a handbook on what members do; the Mayor and Commission fill most seats several times a year, often after interviews, and announce openings on the county site, in media releases, and on social media; as of Nov. 14, 2026 the page said no seats were taking applications (questions: 706-613-3031)"
+    },
+    {
+      "place": "ga",
+      "name": "Georgia Governor's Office: apply for a board, authority, or commission",
+      "url": "https://gov.georgia.gov/executive-action/appointments",
+      "offers": "the online application for the hundreds of state board seats the governor fills: you upload your resume as a PDF named with your first and last name and the governor's board application form, name the board you want, and acknowledge that your application is public; the governor's office changes hands on Jan. 11, 2027, and the form still carries a leftover line about U.S. Senate qualifications from 2019"
+    },
+    {
+      "place": "fulton-county",
+      "name": "Fulton County Clerk to the Commission: boards and authorities",
+      "url": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Boards-and-Authorities",
+      "offers": "a fact sheet for each of the more than 60 boards, authorities, and commissions the county appoints to, from the Board of Health and Library Board to the Citizens Commission on the Environment and the Reparations Task Force, with what each does, who appoints (some seats are named by one district commissioner, others by the full board), terms, any pay, meeting times, and current members; there's no application form, so ask your district commissioner or the Clerk to the Commission at 404-612-8200"
     }
   ],
   "poll_work": [
@@ -628,6 +788,54 @@
       "name": "Camden County Board of Elections: poll workers",
       "url": "https://www.camdencounty.com/service/voting-and-elections/pollworkers/",
       "offers": "the online application; $300 for Election Day, 5 a.m. to 9 p.m., after a required training; you must be 16 or older and registered to vote in Camden County, and bilingual workers are especially needed in Camden City, Pennsauken, and Woodlynne; questions go to (856) 401-8683"
+    },
+    {
+      "place": "fulton-county",
+      "name": "Fulton County Registration and Elections: become a poll worker",
+      "url": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Become-a-Poll-Worker",
+      "offers": "a link to apply, through a staffing company's job portal, for early voting poll worker, polling-place technician, warehouse, and temporary office jobs; you must be a U.S. citizen, 16 or older, and live in Fulton or have a signed waiver from an adjoining county; Election Day runs 5 a.m. to about 11 p.m. at more than 175 polling places, with required in-person training that's paid only if you work Election Day; the page says people who worked the last election get priority, and it doesn't list pay (questions: 404-612-7020)"
+    },
+    {
+      "place": "dekalb-county",
+      "name": "DeKalb County Voter Registration and Elections: poll officials",
+      "url": "https://dekalbcountyga.gov/departments/voter-registration-and-elections/poll-officials",
+      "offers": "the online application for poll manager, assistant manager, and clerk jobs; you must be a U.S. citizen, 16 or older, and live or work in DeKalb (the county isn't taking waivers from other counties now), and you can't hold public office or be a candidate, or a candidate's relative, at your poll; you train, help set up before Election Day, and work from 5:30 a.m. until the polls close; the page says the work is paid but doesn't say how much"
+    },
+    {
+      "place": "cobb-county",
+      "name": "Cobb County Elections: Election Day poll worker jobs",
+      "url": "https://www.cobbcounty.gov/elections/employment-elections/election-day-poll-worker-jobs",
+      "offers": "the online application, kept on file for future elections; paid $180 an election for clerks, $200 for backup managers, $225 for assistant managers, and $275 for managers (who must have worked an election first), plus $30 for setup and $20 to $95 for the required training before each election; Election Day runs 6 a.m. to about 9 p.m.; you must be 16 or older, a U.S. citizen, and live in or work for Cobb (or a neighboring county, with a waiver), with no felony conviction in 10 years, and you're called when the county needs workers (770-528-2581)"
+    },
+    {
+      "place": "lawrenceville",
+      "name": "Lawrenceville City Clerk: poll workers",
+      "url": "https://www.lawrencevillega.org/447/Poll-Workers-Trabajadores-Electorales",
+      "offers": "how to work the polls in city elections, which the City Clerk runs: call 678-407-6391 or email the clerk; you must be a U.S. citizen living in the county, 16 or older, able to read, write, and speak English, and free of felony convictions for 10 years, and you must attend training; the page says poll workers are paid but not how much; the next city general election is Nov. 2, 2027"
+    },
+    {
+      "place": "chatham-county",
+      "name": "Chatham County Board of Elections: become a poll worker",
+      "url": "https://elections.chathamcountyga.gov/Home/BecomePollWorker",
+      "offers": "how to apply, online or in person at 1117 Eisenhower Drive, Suite F, Savannah (weekdays 8:30 a.m. to 4:30 p.m., with a photo ID), with a background check; new workers start as poll clerks, and pay runs $75 to $320 an election depending on the job, plus training pay if you finish all training and work the whole day; Election Day starts by 6 a.m. and you can't leave the polls; you must live in Chatham, be 16 or older, and not be related to a candidate (912-201-4375)"
+    },
+    {
+      "place": "columbus-ga",
+      "name": "Muscogee County Elections and Registration: become a poll worker",
+      "url": "https://columbusga.gov/elections/",
+      "offers": "the elections office's home page, which says you must be 16 or older to work the polls and asks you to email muscogeepollworkers@columbusga.org to learn more; it doesn't list pay, training, or hours (questions: 706-653-4392)"
+    },
+    {
+      "place": "athens-clarke",
+      "name": "Athens-Clarke County Elections: poll worker information",
+      "url": "https://www.accgov.com/10102/Poll-Worker-Information",
+      "offers": "what poll clerks, assistant coordinators, and coordinators do and how to apply when jobs are posted (applications for the Nov. 3, 2026 election were open Aug. 1 to 23); pay is about $15 to $18 an hour, only if you work an election, after required training; Election Day starts by 6 a.m., lunch is provided, and new workers may be on standby; you must be a U.S. citizen living in Athens-Clarke, 16 or older, and high school students can work with their principal's OK (706-613-3150)"
+    },
+    {
+      "place": "gwinnett-county",
+      "name": "Gwinnett County Elections: be a poll official",
+      "url": "https://www.gwinnettcounty.com/government/departments/elections/poll-official",
+      "offers": "a link to apply, hiring events, and what Election Day is like: about 3,000 poll officials, at their home precinct when possible, from 5:30 a.m. until closing work is done (plan on 14 hours or more), after an online course and, for some jobs, two to four hours of in-person training; the county's elections FAQ lists pay with training of $160 for non-issuing clerks, $325 for issuing clerks, $390 for assistant managers, and $490 for managers, paid about four weeks after the election; new hires must show proof of U.S. citizenship"
     }
   ]
 }
