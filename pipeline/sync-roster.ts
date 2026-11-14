@@ -2,11 +2,13 @@
 //   Congress: @unitedstates/congress-legislators (public domain)
 //   State legislatures: Open States bulk people CSVs (CC0)
 //   New York City Council: the district table on council.nyc.gov
-// Run: npm run sync:roster
+// Then lists officials who look to have moved to a rostered seat (below).
+// Run: npm run sync:roster (or `npm run sync:roster -- --check` to list moves against the rosters on disk)
 import './lib/env.ts';
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { CONTENT, listFiles, readYaml } from './lib/content.ts';
+import { sameName } from '../src/lib/names.ts';
+import { CONTENT, idFromPath, listFiles, readYaml, rel } from './lib/content.ts';
 import { parseCsv } from './lib/csv.ts';
 
 const OUT = new URL('../src/data/roster/', import.meta.url);
@@ -89,4 +91,47 @@ async function syncNycCouncil() {
   console.log(`nyc council: ${members.length} members`);
 }
 
-await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);
+// Officials whose file still describes an earlier office (a state senator since elected to Congress): a roster member
+// at another level with the same name, in the same state, whose id the file doesn't carry. Relinking is a hand edit
+// (ids, office, level, jurisdiction), so this only lists them, after every sync until they're linked.
+async function listMoves() {
+  const places = new Map<string, { kind: string; parent?: string; legislature?: Record<string, { name: string }> }>();
+  for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) places.set(idFromPath(file), await readYaml(file));
+  const stateOf = (id: string): string | undefined => {
+    const p = places.get(id);
+    return !p ? undefined : p.kind === 'state' ? id : p.parent && stateOf(p.parent);
+  };
+  const officials = await Promise.all(
+    (await listFiles(join(CONTENT, 'officials'), '.yaml')).map(async (file) => ({ file, ...(await readYaml(file)) })),
+  );
+  const roster = async (name: string) => JSON.parse(await readFile(new URL(`${name}.json`, OUT), 'utf8')).members;
+  const seats = [
+    ...(await roster('federal')).map((m: any) => ({
+      ...m,
+      level: 'federal',
+      state: m.state.toLowerCase(),
+      id: ['bioguide', m.bioguide],
+      office: m.chamber === 'senate' ? `U.S. Senator from ${m.state}` : `U.S. Representative, ${m.state} District ${m.district}`,
+    })),
+    ...(
+      await Promise.all(
+        STATES.map(async (state) =>
+          (await roster(`state-${state}`)).map((m: any) => ({
+            ...m,
+            level: 'state',
+            state,
+            id: ['openstates', m.openstates],
+            office: `${state.toUpperCase()} ${places.get(state)?.legislature?.[m.chamber]?.name ?? m.chamber} District ${m.district}`,
+          })),
+        ),
+      )
+    ).flat(),
+  ];
+  for (const seat of seats)
+    for (const o of officials)
+      if (o.level !== seat.level && o.ids?.[seat.id[0]] !== seat.id[1] && stateOf(o.jurisdiction) === seat.state && sameName(o.name, seat.name))
+        console.log(`moved? ${rel(o.file)} (${o.office}) looks like ${seat.name}, ${seat.office} (${seat.id.join(' ')})`);
+}
+
+if (!process.argv.includes('--check')) await Promise.all([syncCongress(), ...STATES.map(syncState), syncNycCouncil()]);
+await listMoves();
