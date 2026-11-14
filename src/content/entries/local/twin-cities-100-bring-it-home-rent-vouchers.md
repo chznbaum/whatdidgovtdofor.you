@@ -71,9 +71,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the 100-voucher award, program rules, funding, and credited legislators. Corrected the false description of five buildings, qualified the rollout status, added the staff member who prepared the recommendation, and completed the eligibility details.
+    date: 2026-11-14
+  verdict: pass
+  notes: Confirmed the award, figures, eligibility rules, legislative funding and credit against the council records, current program pages and Minnesota law. No later rollback or project-specific rollout update was found, so the Sept. 2 phasing-in status remains supported.
 source_key: twin-cities-council-e745cd7b-3041-4fc6-b338-5b0982cd82e0-2026-156
 ---
 

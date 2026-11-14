@@ -78,9 +78,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the ordinance, grant agreement, project figures, credits, net impact, and latest public procurement status. Corrected the state-budget source to the final enacted version.
+    date: 2026-11-14
+  verdict: pass
+  notes: Confirmed the ordinance, grant agreement, appropriations, project figures, credits, and current procurement status. No repeal, cancellation, funding loss, contract award, or newer status update was found through Nov. 14, 2026.
 source_key: richmond-ord-2025-223
 ---
 

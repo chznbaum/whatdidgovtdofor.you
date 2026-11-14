@@ -31665,10 +31665,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-23195": {
-  "decision": "promising",
-  "reason": "triage: Medicare appeal rights for patients reclassified as outpatients; real money protection",
+  "decision": "drafted",
+  "reason": "This CMS final rule gives some Original Medicare patients a right to appeal when a hospital switches them from inpatient to observation status, which can win back Part A coverage for the hospital stay and for nursing home care. The fast appeal while still in the hospital has been running since February 2025, and no existing entry covers it.",
+  "file": "src/content/entries/federal/medicare-observation-status-appeals.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2024-0006": {
   "decision": "skip",
@@ -31923,22 +31924,23 @@
   "date": "2026-11-11"
  },
  "ny-2023-a1696": {
-  "decision": "promising",
-  "reason": "triage: Insurers must cover extra breast cancer screenings",
+  "decision": "error",
+  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14",
+  "attempts": 1
  },
  "ny-2023-a2656": {
-  "decision": "promising",
-  "reason": "triage: Pregnant people can enroll in coverage anytime",
+  "decision": "skip",
+  "reason": "New York has let pregnant people enroll at any time since a 2015 law (S.5972/A.6780, carried by Liz Krueger); Chapter 420 of 2024 only adds that plans can't charge a fee or penalty for that enrollment, and no source shows any fee was ever charged, so the change has no clear, verifiable effect on people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a3865": {
-  "decision": "promising",
-  "reason": "triage: Enacted insurance mandate covering prenatal vitamins",
+  "decision": "skip",
+  "reason": "A3865-A (Chapter 421 of 2024) created New York's prenatal vitamin coverage requirement, and the existing entry ny-2025-s742 already covers that benefit through its chapter amendment (Chapter 74 of 2025), so a second entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a7790": {
   "decision": "promising",
@@ -32193,10 +32195,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s9040": {
-  "decision": "promising",
-  "reason": "triage: bars PBMs from penalizing pharmacies sharing drug cost info; consumer protection",
+  "decision": "skip",
+  "reason": "New York's 2018 law already let pharmacists tell customers about copays, cheaper alternatives and paying cash; S9040 (Ch. 396 of 2024) only adds the pharmacy's own cost and reimbursement to what they may disclose, which mainly helps pharmacies in disputes with PBMs and doesn't clearly save working people money or give them a new service.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s9047": {
   "decision": "skip",
@@ -32367,10 +32369,11 @@
   "date": "2026-11-11"
  },
  "us-law-118-84": {
-  "decision": "promising",
-  "reason": "triage: reauthorizes rural EMS grants, with mental health training",
+  "decision": "drafted",
+  "reason": "The 2024 law kept the only federal grant program aimed at rural ambulance and fire-EMS agencies going through FY2028 and added overdose drugs and behavioral-crisis training. SAMHSA posted a $13.5 million round under it in June 2026 and made awards that September.",
+  "file": "src/content/entries/federal/rural-ems-grants-renewed-through-2028.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-law-118-85": {
   "decision": "skip",
@@ -32379,10 +32382,11 @@
   "date": "2026-11-11"
  },
  "us-law-118-86": {
-  "decision": "promising",
-  "reason": "triage: reauthorizes Poison Help line, used by millions",
+  "decision": "drafted",
+  "reason": "The law renews federal backing through 2029 for the free 24/7 Poison Help line and the 55 poison centers behind it, a public service that people use directly.",
+  "file": "src/content/entries/federal/poison-help-line-renewed-through-2029.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a7476": {
   "decision": "skip",
@@ -32643,10 +32647,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0123": {
-  "decision": "promising",
-  "reason": "triage: Enacted law easing family shelter intake",
+  "decision": "drafted",
+  "reason": "Local Law 86 of 2024 became law without the mayor's signature. It stops DHS from making children come in person to the hours-long family shelter intake, which is a direct, concrete change for homeless families.",
+  "file": "src/content/entries/local/nyc-shelter-intake-kids-not-required-in-person.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2024-0460": {
   "decision": "skip",
@@ -33208,10 +33213,10 @@
   "date": "2026-11-11"
  },
  "us-law-118-82": {
-  "decision": "promising",
-  "reason": "triage: funds VA benefit payments, avoids shortfall",
+  "decision": "skip",
+  "reason": "The $2.88 billion supplemental was meant to keep October 2024 VA benefit payments going, but VA later told Congress it didn't need the money, and the VA Inspector General found the shortfall was likely overstated, so the law had no real effect on veterans.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-09-mayor-adams-celebrates-record-breaking-year-placing-formerly-homeless-new-yorkers-into": {
   "decision": "skip",
@@ -33592,10 +33597,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-18591": {
-  "decision": "promising",
-  "reason": "triage: SSA hearing appearance options, remote access for claimants",
+  "decision": "error",
+  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters; impact.2.label: Too big: expected string to have <=80 characters",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14",
+  "attempts": 1
  },
  "us-fr-2024-18083": {
   "decision": "skip",
@@ -33875,16 +33881,17 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-16535": {
-  "decision": "promising",
-  "reason": "triage: NLRB rule restoring union election rights, e.g. blocking bars; workers' rights",
+  "decision": "drafted",
+  "reason": "The NLRB's 2024 final rule protects workers' right to unionize. It restored the bar on challenging a voluntarily recognized union, the power to pause elections tainted by labor-law violations, and a clearer path for construction unions. It is still in the current federal regulations.",
+  "file": "src/content/entries/federal/union-recognition-protected-bargaining-time.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-16586": {
-  "decision": "promising",
-  "reason": "triage: final rule: funded veteran suicide prevention grants",
+  "decision": "skip",
+  "reason": "This final rule only puts into effect the Staff Sergeant Parker Gordon Fox Suicide Prevention Grant Program that Pub. L. 116-171 created, and existing entry us-law-116-171 (\"Local groups get VA grants to help veterans at risk of suicide\") already covers it, so a new entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-07-mayor-adams-celebrates-shut-down-more-750-illegal-cannabis-shops-since-launch-operation": {
   "decision": "skip",
@@ -33917,10 +33924,11 @@
   "date": "2026-11-11"
  },
  "us-law-118-72": {
-  "decision": "promising",
-  "reason": "triage: reauthorizes DNA backlog grants incl. sexual assault kits",
+  "decision": "drafted",
+  "reason": "The law was enacted and renews, through FY2029, the federal grants that pay crime labs to test backlogged rape kits and other DNA evidence, and the Justice Department was still awarding those grants in April 2026.",
+  "file": "src/content/entries/federal/rape-kit-testing-grants-renewed-through-2029.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-law-118-73": {
   "decision": "skip",
@@ -34049,10 +34057,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-16889": {
-  "decision": "promising",
-  "reason": "triage: Final ADA rule: accessible medical exam equipment",
+  "decision": "drafted",
+  "reason": "This is an enacted DOJ final rule that gives people with disabilities a right to accessible exam tables, scales and other diagnostic equipment at public hospitals and clinics. As of November 14, 2026, no source found shows it delayed or rescinded.",
+  "file": "src/content/entries/federal/public-clinics-accessible-exam-tables-and-scales.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-17644": {
   "decision": "skip",
@@ -34175,10 +34184,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0904": {
-  "decision": "promising",
-  "reason": "triage: Local law for proactive building inspections; housing safety",
+  "decision": "drafted",
+  "reason": "Local Law 79 of 2024 is in effect. It makes NYC's Department of Buildings look for structurally unsafe buildings before anyone complains, and owners must file repair plans and post notices for tenants, which is a direct safety benefit for renters.",
+  "file": "src/content/entries/local/nyc-buildings-inspected-before-complaints.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2024-0951": {
   "decision": "skip",
@@ -34307,10 +34317,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a4938": {
-  "decision": "promising",
-  "reason": "triage: lithium battery standards law, fire safety for residents",
+  "decision": "drafted",
+  "reason": "An enacted state law, signed July 11, 2024 as Chapter 195. It bans the sale of uncertified e-bike and scooter batteries, a direct safety measure against a leading cause of fire deaths in NYC, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-ebike-batteries-must-be-safety-certified.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a7628": {
   "decision": "skip",
@@ -34457,10 +34468,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-13186": {
-  "decision": "promising",
-  "reason": "triage: EPA coke oven toxic air limits protect nearby residents",
+  "decision": "skip",
+  "reason": "The rule's new coke oven limits and benzene fenceline monitoring have never applied to anyone: a presidential proclamation of Nov. 21, 2025 (published Nov. 26) exempted all 11 covered coke plants for two years, and the Dec. 2025 lawsuit against it has no ruling yet, so no one has had a real benefit to report.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-14696": {
   "decision": "skip",
@@ -34577,10 +34588,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s1001": {
-  "decision": "promising",
-  "reason": "triage: enacted; stops insurer delays on HIV drugs",
+  "decision": "drafted",
+  "reason": "Chapter 152 of 2024 is a signed law that bars New York-regulated health insurers from requiring prior authorization for HIV treatment and prevention drugs, a direct benefit to patients. It's still in effect, and Hochul's December 2025 veto of the Medicaid extension left it untouched.",
+  "file": "src/content/entries/state/ny-hiv-drugs-no-prior-authorization.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s5916": {
   "decision": "skip",
@@ -34823,10 +34835,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s9842": {
-  "decision": "promising",
-  "reason": "triage: PrEP/PEP copay limits; enacted coverage protection, check details",
+  "decision": "skip",
+  "reason": "S9842 (Chapter 180 of 2024) is a technical amendment to New York's existing PrEP/PEP coverage requirement for large group plans: it adds copays to the cost-sharing the superintendent may allow, except while PrEP or PEP holds a USPSTF 'A' or 'B' rating. It creates no new benefit and mostly widens what insurers may charge. If anything belongs on the site, it's the underlying coverage law, not this amendment.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-06-emergency-executive-order-611": {
   "decision": "skip",
@@ -34955,16 +34967,18 @@
   "date": "2026-11-11"
  },
  "ny-2023-s7694": {
-  "decision": "promising",
-  "reason": "triage: SAFE for Kids Act signed; protects minors online",
+  "decision": "drafted",
+  "reason": "This is a signed New York law that changes what social media platforms can push to minors. Its final rules are out, and it takes effect Jan. 25, 2027, so it qualifies as phasing-in.",
+  "file": "src/content/entries/state/ny-social-media-no-addictive-feeds-for-kids.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s7695": {
-  "decision": "promising",
-  "reason": "triage: child data protection act signed",
+  "decision": "drafted",
+  "reason": "An enacted, in-effect New York law that bars websites and apps from collecting, using or selling the personal data of anyone under 18 without informed consent, a concrete privacy protection for families; no existing entry covers it.",
+  "file": "src/content/entries/state/ny-kids-data-not-collected-or-sold-without-consent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-06-mayor-adams-launches-city-s-first-community-hiring-effort-1-2-billion-connect-underserved": {
   "decision": "promising",
@@ -35267,10 +35281,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a8834": {
-  "decision": "promising",
-  "reason": "triage: Bans insurance discrimination against PrEP users",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, Chapter 126 of 2024, which bars life, accident and health insurers from denying coverage or charging more because someone was prescribed PrEP to prevent HIV. That is a direct consumer protection, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-prep-users-cant-be-denied-insurance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8970": {
   "decision": "skip",
@@ -35369,10 +35384,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-08568": {
-  "decision": "promising",
-  "reason": "triage: OSHA final rule on chemical hazard labels improves worker safety",
+  "decision": "skip",
+  "reason": "The 2024 update mostly brings OSHA's chemical-labeling rule in line with the UN's GHS Revision 7. OSHA's own analysis puts the main effect at about $30 million a year in savings for businesses and calls the worker health gains \"modest\" and unquantified, so there's no concrete change for working people to headline, and the compliance dates were pushed back again in January 2026.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-10725": {
   "decision": "skip",
@@ -35525,10 +35540,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2024-0069": {
-  "decision": "promising",
-  "reason": "triage: local law protects workers' time to file discrimination claims",
+  "decision": "drafted",
+  "reason": "Local Law 62 of 2024 makes void any NYC employment contract term that shortens a worker's deadline to file discrimination, harassment or violence claims. That protects a concrete right for workers, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-job-contracts-cant-shorten-time-to-file-bias-claims.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-08363": {
   "decision": "drafted",
@@ -35784,10 +35800,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-07675": {
-  "decision": "promising",
-  "reason": "triage: Final rule: SSI recipients keep benefits with rent subsidy nationwide",
+  "decision": "drafted",
+  "reason": "This is a final SSA rule, in effect since Sept. 30, 2024 and still in the current regulations. It raised SSI payments for about 41,000 people and opens SSI to about 14,000 more a year. It is a different action from the food rule already on the site (us-fr-2024-06464).",
+  "file": "src/content/entries/federal/ssi-rent-discount-no-longer-cuts-your-check.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-04-mayor-adams-dot-commissioner-rodriguez-launch-lockernyc-combat-package-theft-reduce": {
   "decision": "skip",
@@ -35833,10 +35850,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06815": {
-  "decision": "promising",
-  "reason": "triage: Final rule protecting federal employees' civil service protections",
+  "decision": "skip",
+  "reason": "The 2024 OPM rule mainly set internal rules for the federal personnel system and gave no concrete benefit while it stood; OPM's Schedule Policy/Career final rule (published Feb. 6, 2026, effective March 9, 2026) rescinded it, and the court challenges to that rule are still pending.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-07248": {
   "decision": "skip",
@@ -35935,10 +35952,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-05850": {
-  "decision": "promising",
-  "reason": "triage: EPA final rule cutting toxic air pollution from steel plants",
+  "decision": "drafted",
+  "reason": "A final EPA rule set enforceable new limits on toxic metal and soot pollution from the eight U.S. steel mills that make iron in blast furnaces, a safety gain for nearly half a million people living within 5 km; the current EPA has delayed its deadlines to April 2027 and is reconsidering parts of it, so the status is under-threat.",
+  "file": "src/content/entries/federal/steel-mills-must-cut-toxic-metal-and-soot-pollution.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-04629": {
   "decision": "skip",
@@ -35947,10 +35965,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-07654": {
-  "decision": "promising",
-  "reason": "triage: Final rule setting adult protective services standards for older adults",
+  "decision": "drafted",
+  "reason": "This is the first federal rule for Adult Protective Services, finalized in 2024. It sets concrete national floors: a response within 24 hours on urgent cases and reporting options open around the clock, one of them online. States must comply by May 8, 2028, and the sources show no repeal.",
+  "file": "src/content/entries/federal/adult-protective-services-24-hour-response-urgent-abuse.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-09469": {
   "decision": "skip",
@@ -36043,10 +36062,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-09565": {
-  "decision": "promising",
-  "reason": "triage: Final rule creating health plans for postal workers and retirees",
+  "decision": "skip",
+  "reason": "This rule mainly moves postal workers and retirees from FEHB into a new, separate health program, and it can cost retirees money: most who turn 65 must enroll in Medicare Part B and pay its premiums to keep their coverage. That isn't a clear net win for working people under the content guide.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-09607": {
   "decision": "skip",
@@ -36073,10 +36092,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-08736": {
-  "decision": "promising",
-  "reason": "triage: Final rule raising relocation aid for displaced people",
+  "decision": "drafted",
+  "reason": "The final rule raised the payments that homeowners, renters and businesses get when a federally funded project forces them to move. The homeowner cap went to $41,200 and the renter cap to $9,570, and the rule is still in effect.",
+  "file": "src/content/entries/federal/forced-out-by-federal-projects-bigger-relocation-payments.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-08880": {
   "decision": "skip",
@@ -36247,10 +36267,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-07838": {
-  "decision": "promising",
-  "reason": "triage: Final rule expanding gun dealer background checks",
+  "decision": "skip",
+  "reason": "The rule mainly governs which gun sellers need a dealer license, so its benefit to people is indirect; a Texas federal court vacated it nationwide on June 12, 2026 and refused to narrow that on Aug. 13, ATF has proposed rescinding it, and the law change it carried out is already covered by us-law-117-159.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-08262": {
   "decision": "skip",
@@ -36439,10 +36459,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-08609": {
-  "decision": "promising",
-  "reason": "triage: Final rule: airline baggage/change fees disclosed before purchase",
+  "decision": "skip",
+  "reason": "The 2024 DOT airline fee disclosure rule never took effect: the Fifth Circuit stayed it in 2024, the full court vacated it on Feb. 3, 2026, and DOT formally rolled it back on July 2, 2026 (FR 2026-13450), so it never gave travelers anything.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-08813": {
   "decision": "skip",
@@ -36475,10 +36495,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-09072": {
-  "decision": "promising",
-  "reason": "triage: CHAMPVA adds audio telehealth, mental health coverage, contraceptive cost-sharing",
+  "decision": "drafted",
+  "reason": "A final VA rule, still in effect, that removed mental health visit caps, covered audio-only telehealth and made birth control free of cost sharing for the 737,500+ veterans' family members and caregivers on CHAMPVA.",
+  "file": "src/content/entries/federal/champva-family-mental-health-no-visit-caps-free-birth-control.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-09152": {
   "decision": "skip",
@@ -36511,16 +36532,18 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-07915": {
-  "decision": "promising",
-  "reason": "triage: Title IX rule is a broad civil-rights protection for students; check scope",
+  "decision": "drafted",
+  "reason": "The final Title IX rule set out real protections for students and school staff, including protections for pregnant students, lactation space and a broader harassment standard; a court vacated it nationwide in January 2025, so the entry records that as a blocked status.",
+  "file": "src/content/entries/federal/title-ix-pregnant-students-lactation-space-harassment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-08333": {
-  "decision": "promising",
-  "reason": "triage: Final rule protecting H-2A farmworkers' wages and rights",
+  "decision": "drafted",
+  "reason": "A final Labor Department rule that gave H-2A guest farmworkers concrete protections (seat belts, keeping their passports, fair-firing rules, protection from retaliation for organizing); it's a different rule from the existing DHS H-2 entry, and its status is blocked: courts enjoined it in 17 states and the Labor Department stopped enforcing it everywhere in June 2025.",
+  "file": "src/content/entries/federal/guest-farmworkers-seat-belts-passports-protection-for-speaking-up.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-09134": {
   "decision": "skip",
@@ -36631,10 +36654,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06245": {
-  "decision": "promising",
-  "reason": "triage: Final rule: 30-day notice before rural housing tenant lease action",
+  "decision": "drafted",
+  "reason": "USDA's 2024 rule was a binding protection for low-income tenants in rural USDA rental housing: written notice at least 30 days before an eviction for unpaid rent, with steps to catch up. USDA removed it in February 2026, so the entry is marked repealed. The CARES Act's 30-day notice still applies.",
+  "file": "src/content/entries/federal/usda-rural-rentals-30-day-notice-before-eviction-for-rent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-law-118-47": {
   "decision": "skip",
@@ -36661,10 +36685,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8070": {
-  "decision": "promising",
-  "reason": "triage: State tax exclusion of forgiven student loans; cost question, writer checks",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 109 of 2024). It keeps federal student loan forgiveness out of state income tax. That matters now because forgiveness under income-driven repayment became federally taxable again in 2026. The cost is small, and no service cuts pay for it.",
+  "file": "src/content/entries/state/ny-forgiven-student-loans-no-state-income-tax.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8082": {
   "decision": "skip",
@@ -36836,10 +36861,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06551": {
-  "decision": "promising",
-  "reason": "triage: Final rule limits short-term junk plans; check later rollback",
+  "decision": "drafted",
+  "reason": "The 2024 final rule limited short-term health plans, which can skip ACA protections, to four months and made them label themselves as not comprehensive. The rule hasn't been repealed, but the Trump administration stopped enforcing it in August 2025 and plans to rewrite it, so the status is under-threat.",
+  "file": "src/content/entries/federal/short-term-health-plans-capped-at-four-months.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-06690": {
   "decision": "skip",
@@ -36884,10 +36910,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-06572": {
-  "decision": "promising",
-  "reason": "triage: Workers can pick representative for OSHA inspections; check status",
+  "decision": "drafted",
+  "reason": "OSHA's final rule lets workers, union or not, pick a trusted outside representative to go along on safety inspections, which protects a right that affects workplace safety directly; it is in effect, but a pending U.S. Chamber of Commerce lawsuit seeks to strike it.",
+  "file": "src/content/entries/federal/osha-inspections-workers-can-pick-outside-representative.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2024-03-emergency-executive-order-575": {
   "decision": "skip",
@@ -37150,10 +37177,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14119": {
-  "decision": "promising",
-  "reason": "triage: Executive order expanding registered apprenticeships; ordered action, job training for workers",
+  "decision": "skip",
+  "reason": "E.O. 14119 mostly told federal agencies to write plans, form councils and run labor-management forums for their own staff, so its main effect was on government itself and it gave no concrete benefit to people that a source can confirm; it was also revoked by E.O. 14236 on March 14, 2025.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-02305": {
   "decision": "promising",
@@ -37222,10 +37249,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-04275": {
-  "decision": "promising",
-  "reason": "triage: Final VA rule restoring abortion counseling and care for veterans; expands health coverage",
+  "decision": "drafted",
+  "reason": "A VA rule gave veterans and CHAMPVA family members abortion counseling, plus abortions when a pregnancy threatened their life or health or came from rape or incest. That's a concrete health and rights benefit, and Collins's January 2026 rule took it away, so it gets a repealed status.",
+  "file": "src/content/entries/federal/veterans-abortion-care-rape-incest-health-risks.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8010": {
   "decision": "promising",
@@ -37252,10 +37280,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8039": {
-  "decision": "promising",
-  "reason": "triage: Freelance worker payment protections, written contracts and penalties",
+  "decision": "drafted",
+  "reason": "S8039 is the signed chapter amendment that made New York's statewide Freelance Isn't Free Act enforceable as passed, giving freelancers written contracts, on-time pay and anti-retaliation rights starting Aug. 28, 2024; no existing entry covers it.",
+  "file": "src/content/entries/state/ny-freelancers-written-contracts-paid-within-30-days.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8043": {
   "decision": "skip",
@@ -37480,10 +37509,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-02544": {
-  "decision": "promising",
-  "reason": "triage: Privacy rule for SUD records protects patients; tangible rights",
+  "decision": "drafted",
+  "reason": "The final HHS rule, enforced since Feb. 16, 2026, protects addiction treatment records with tighter limits on use in court, breach notices to patients, a federal complaint process and civil fines. The body also notes the looser consent rules that came with it.",
+  "file": "src/content/entries/federal/addiction-treatment-records-stay-out-of-court-leaks-reported.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-02852": {
   "decision": "skip",
@@ -37564,16 +37594,18 @@
   "date": "2026-11-11"
  },
  "ny-2023-a8488": {
-  "decision": "promising",
-  "reason": "triage: utility data matching with assistance program; unclear benefit, likely automatic enrollment in discounts",
+  "decision": "drafted",
+  "reason": "The signed law requires New York utilities to automatically enroll households on HEAP or public assistance in their energy bill discount programs, which directly lowers costs for low-income households. The existing water-discount entry (ny-2025-s766) covers a different program, so this is not a duplicate.",
+  "file": "src/content/entries/state/ny-heap-cash-aid-automatic-utility-discount.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8491": {
-  "decision": "promising",
-  "reason": "triage: two-person crew on hazmat trains; safety law, signed",
+  "decision": "drafted",
+  "reason": "A8491 is the chapter amendment that finished New York's two-person crew law for trains carrying hazardous materials. It is an enacted, in-force safety protection for rail workers and the people living along the tracks, and no existing entry covers the state law.",
+  "file": "src/content/entries/state/ny-hazmat-trains-two-person-crews.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8500": {
   "decision": "promising",
@@ -37600,10 +37632,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a8566": {
-  "decision": "promising",
-  "reason": "triage: expands crime victim compensation eligibility; signed, tangible for victims",
+  "decision": "drafted",
+  "reason": "Signed chapter amendment that completes New York's Fair Access to Victim Compensation Act. Since Dec. 31, 2025, crime victims can get state compensation without a police report and have three years to file. It is in effect and not already on the site.",
+  "file": "src/content/entries/state/ny-crime-victim-compensation-no-police-report-needed.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8626": {
   "decision": "skip",
@@ -37751,10 +37784,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a8502": {
-  "decision": "promising",
-  "reason": "triage: Requires insurance and Medicaid to cover biomarker testing",
+  "decision": "drafted",
+  "reason": "This chapter amendment set the final terms and the Jan. 1, 2025 start date of New York's 2023 law requiring state-regulated plans and Medicaid to cover biomarker testing. That's a direct health-coverage gain, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-biomarker-tests-covered-health-plans-medicaid.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8503": {
   "decision": "skip",
@@ -37883,10 +37917,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8012": {
-  "decision": "promising",
-  "reason": "triage: Bars back-billing beyond 3 months for utility customers",
+  "decision": "drafted",
+  "reason": "This chapter amendment set the final terms of New York's utility backbilling law, which has been in effect since June 19, 2024: utilities can't charge residential or small business customers for gas or power billed more than three months late, and every bill must show 13 months of past usage.",
+  "file": "src/content/entries/state/ny-utilities-cant-bill-you-more-than-three-months-late.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8013": {
   "decision": "skip",
@@ -38064,10 +38099,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0549": {
-  "decision": "promising",
-  "reason": "triage: local law banning solitary in city jails",
+  "decision": "drafted",
+  "reason": "Local Law 42 of 2024 is an enacted law (passed over a veto) that sets out rights for people held in NYC jails, but a federal court has had its main provisions on hold since July 2025, so the entry is filed as blocked.",
+  "file": "src/content/entries/local/nyc-solitary-confinement-ban-city-jails.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2022-0586": {
   "decision": "skip",
@@ -38094,10 +38130,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-01337": {
-  "decision": "promising",
-  "reason": "triage: federal salary history ban, pay equity for new hires",
+  "decision": "drafted",
+  "reason": "This final OPM rule bars federal agencies from setting a new hire's pay from past non-federal salary or a competing job offer. That directly affects what federal workers earn. The codified text still carries the ban, and I found no rescission.",
+  "file": "src/content/entries/federal/federal-jobs-pay-not-based-on-past-salary.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2024-01738": {
   "decision": "skip",
@@ -38112,10 +38149,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a2078": {
-  "decision": "promising",
-  "reason": "triage: prompt disaster claim settlement standards for policyholders",
+  "decision": "drafted",
+  "reason": "This enacted law sets firm deadlines for insurers to decide and pay claims after declared disasters in New York, which directly helps homeowners and renters rebuilding after storms. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-disaster-insurance-claims-15-business-day-deadline.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a8494": {
   "decision": "skip",
@@ -38154,10 +38192,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s2399": {
-  "decision": "promising",
-  "reason": "triage: freelancers can enroll in retirement savings program",
+  "decision": "skip",
+  "reason": "The law (Ch. 776 of 2024, signed Jan. 26, 2024) is confirmed, but I couldn't open any source showing that self-employed New Yorkers can sign up yet: the program site returns 403, its PDFs wouldn't parse, and the open sources cover only employer enrollment, so retry once newyorksecurechoice.com or a board document confirms individual sign-up is live.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8001": {
   "decision": "skip",
@@ -38166,16 +38204,18 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8004": {
-  "decision": "promising",
-  "reason": "triage: prompt disaster insurance claim standards protect policyholders",
+  "decision": "drafted",
+  "reason": "This is the negotiated chapter amendment that, together with Chapter 775 of 2023, set firm deadlines for insurers to decide and pay New Yorkers' property claims after declared disasters. That is a direct consumer protection now in Insurance Law §2618.",
+  "file": "src/content/entries/state/ny-disaster-insurance-claims-decided-in-15-business-days.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8005": {
-  "decision": "promising",
-  "reason": "triage: AEDs required at camps and youth sports",
+  "decision": "drafted",
+  "reason": "This chapter amendment completed New York's 2023 law requiring regulated camps and larger youth sports programs to keep a defibrillator within reach and to try to have a trained adult at every session, game and practice, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-camps-youth-sports-defibrillator-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8007": {
   "decision": "skip",
@@ -38196,10 +38236,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s8036": {
-  "decision": "promising",
-  "reason": "triage: protects tenants from keyless entry and rent pass-through",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 13 of 2024, amending Chapter 637 of 2023). It gives apartment residents 30 days' written notice before a keyless entry device goes on their building, bars rent increases for installing one, and bans installations that block residents' access. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-keyless-building-locks-30-day-notice-no-rent-hike.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s8053": {
   "decision": "skip",
@@ -38328,10 +38369,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0003": {
-  "decision": "promising",
-  "reason": "triage: local law on student crisis response",
+  "decision": "drafted",
+  "reason": "Local Law 17 of 2024 limits when NYPD school safety staff can step in on, handcuff, or send to the hospital a public school student in emotional crisis, which directly protects NYC schoolchildren and their families.",
+  "file": "src/content/entries/local/nyc-school-police-limits-handcuffing-students-in-emotional-crisis.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2022-0145": {
   "decision": "promising",
@@ -38358,10 +38400,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0563": {
-  "decision": "promising",
-  "reason": "triage: enacted right to sue over sick time violations",
+  "decision": "drafted",
+  "reason": "Local Law 22 of 2024 gave NYC workers a new, enforceable right: they can sue an employer in court over denied or unpaid sick time or retaliation. Before it, the only route was a city complaint. The law is in effect and isn't covered by the existing sick-time entry.",
+  "file": "src/content/entries/local/nyc-sue-your-boss-over-sick-time.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2022-0585": {
   "decision": "skip",
@@ -38666,10 +38709,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0198": {
-  "decision": "promising",
-  "reason": "triage: Opioid antagonists stocked in all schools; safety, enacted law",
+  "decision": "drafted",
+  "reason": "An enacted city law (Local Law 2 of 2024) requires NYC's Education Department to keep the overdose-reversal drug naloxone in school buildings that have nurses, which directly protects students and staff.",
+  "file": "src/content/entries/local/nyc-schools-stock-naloxone-overdose-reversal.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2022-0417": {
   "decision": "skip",
@@ -38678,10 +38722,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0774": {
-  "decision": "promising",
-  "reason": "triage: Construction noise measured in homes on request; tangible",
+  "decision": "drafted",
+  "reason": "Local Law 4 of 2024 was enacted and remains in effect. It gives New Yorkers living near construction sites the right to have DEP measure the noise inside their homes, and it sets an indoor daytime noise limit, which is a direct protection for residents.",
+  "file": "src/content/entries/local/nyc-construction-noise-measured-inside-your-home.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-int-2022-0775": {
   "decision": "skip",
@@ -39008,16 +39053,16 @@
   "date": "2026-11-11"
  },
  "ny-2023-s1196": {
-  "decision": "promising",
-  "reason": "triage: insurance and Medicaid must cover biomarker testing",
+  "decision": "skip",
+  "reason": "Duplicate: this biomarker testing coverage law is already covered by existing entry ny-2023-a8502 (\"Your New York health plan or Medicaid must cover biomarker tests\"), the Assembly companion to S1196A.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s143": {
-  "decision": "promising",
-  "reason": "triage: state tax exclusion of forgiven student debt; cost to check",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-2023-s8070, \"Forgiven federal student loans aren't taxed as New York income\", which covers the same 2023 state income tax exclusion for forgiven federal student loans (S143 is the original bill and S8070 its companion chapter amendment).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s1856": {
   "decision": "promising",
@@ -39068,10 +39113,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s4234": {
-  "decision": "promising",
-  "reason": "triage: Utilities can't back-bill past two months; bill history",
+  "decision": "skip",
+  "reason": "Duplicate: S4234A became Chapter 763 of 2023, and its chapter amendment S8012 (Ch. 62 of 2024, also by Michelle Hinchey) already has an entry (ny-2023-s8012) that covers the final version of the same billing-finality and bill-history protections.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s439": {
   "decision": "skip",
@@ -39080,10 +39125,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s4548": {
-  "decision": "promising",
-  "reason": "triage: Auto-enrolls eligible households in energy affordability programs",
+  "decision": "skip",
+  "reason": "Duplicate: S4548 (Chapter 764 of 2023) created New York's automatic enrollment in utility discount programs, and A8488 (Chapter 78 of 2024) is the chapter amendment that rewrote that same section, Social Services Law § 131-ss. The existing entry ny-2023-a8488 (\"On HEAP or cash aid in New York? Your utility bill discount is automatic\") already covers that policy.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-s490": {
   "decision": "skip",
@@ -39254,10 +39299,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-27640": {
-  "decision": "promising",
-  "reason": "triage: Final MSHA rule requiring mine surface equipment safety programs with miner input",
+  "decision": "drafted",
+  "reason": "This is an enacted, enforced MSHA rule that requires every surface mine to have a written safety program for haul trucks, loaders and other mobile equipment, shaped with miners' input. It directly protects miners from a leading cause of mining deaths, it's still in force as of 2026, and no existing entry covers it.",
+  "file": "src/content/entries/federal/mines-must-have-written-safety-plans-for-trucks-and-heavy-equipment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "ny-2023-a7691": {
   "decision": "skip",
@@ -39266,10 +39312,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s5512": {
-  "decision": "promising",
-  "reason": "triage: enacted law; public lead pipe inventories, safety info",
+  "decision": "drafted",
+  "reason": "The signed Lead Pipe Right to Know Act makes New York water systems list every service line and has the state put those lists online, now including a map you can search by address, so residents can find out whether their home has a lead pipe.",
+  "file": "src/content/entries/state/ny-lead-pipe-right-to-know-look-up-your-service-line.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "nyc-mayor-2023-12-mayor-adams-nearly-30-million-federal-funding-queens-boulevard-safety-improvements": {
   "decision": "promising",
@@ -39428,10 +39475,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-26641": {
-  "decision": "promising",
-  "reason": "triage: WIC rule: formula access and emergency waivers; ensures supply",
+  "decision": "drafted",
+  "reason": "This final rule carries out the Access to Baby Formula Act. If a WIC contract formula is recalled, the maker must pay rebates on other brands so WIC families can still get formula, and USDA can waive rules in emergencies; the rule took effect in 2024 and is still in force (only a Dec. 2025 correction followed).",
+  "file": "src/content/entries/federal/wic-formula-recall-backup-brands-and-emergency-waivers.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-14"
  },
  "us-fr-2023-27441": {
   "decision": "skip",
@@ -82173,10 +82221,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-use-of-cityfheps-vouchers-outside-of-new-york-city": {
-  "decision": "promising",
-  "reason": "triage: voucher holders can use vouchers beyond NYC",
+  "decision": "drafted",
+  "reason": "An adopted HRA rule lets families with CityFHEPS rent vouchers use them for apartments anywhere in New York State. That gives homeless and low-income households more homes to choose from at no cost to workers, and HRA's site still offers the statewide option in 2026.",
+  "file": "src/content/entries/local/nyc-cityfheps-rent-vouchers-work-anywhere-in-new-york-state.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "nyc-rule-stormwater-rules-amendments": {
   "decision": "skip",
@@ -82263,10 +82312,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-safety-standards-for-powered-bicycles-pmds-and-batteries": {
-  "decision": "promising",
-  "reason": "triage: implements battery safety law preventing fires; delivery workers affected",
+  "decision": "skip",
+  "reason": "This DCWP rule only clarifies the definition of \"accredited testing laboratory\" under Local Law 39 of 2023, which is procedural, and the safety-testing protection NYC residents get is already covered by the existing entry ny-2023-a4938.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "nyc-rule-amendments-to-rules-for-premiere-permits-and-permits-for-scouting-rigging-and-filming-activities": {
   "decision": "skip",
@@ -90728,10 +90777,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-207": {
-  "decision": "promising",
-  "reason": "triage: City grant for 266-unit affordable development",
+  "decision": "skip",
+  "reason": "This grant agreement backs Elmington's Semmes Flats project at 2201 McDonough Street, the 246 lower-rent apartments the site already covers in richmond-ord-2025-226, so a second entry would duplicate the same benefit.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-211": {
   "decision": "skip",
@@ -90764,10 +90813,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-216": {
-  "decision": "promising",
-  "reason": "triage: Funding for North South BRT transit",
+  "decision": "skip",
+  "reason": "The ordinance only lets Richmond sign a funding agreement with the CVTA for planning and early design of the North-South BRT, which is still in environmental review and preliminary design, so riders get nothing from it yet.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-219": {
   "decision": "skip",
@@ -91271,10 +91320,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-186": {
-  "decision": "promising",
-  "reason": "triage: prevailing wages on city construction",
+  "decision": "drafted",
+  "reason": "Richmond's adopted ordinance requires the local prevailing wage on city construction contracts of $250,000 or more. That puts money directly in construction workers' pockets, and it has been in effect since July 1, 2025.",
+  "file": "src/content/entries/local/richmond-prevailing-wage-city-construction.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-239": {
   "decision": "skip",
@@ -92071,10 +92121,11 @@
   "date": "2026-11-12"
  },
  "hampton-24-0315": {
-  "decision": "promising",
-  "reason": "triage: Homeless Solutions grant funds shelter and rehousing services",
+  "decision": "drafted",
+  "reason": "Hampton City Council accepted and spent a $1.09 million state and federal grant, with no local match required, that paid for shelter, rapid re-housing and homelessness prevention across six Peninsula localities in FY2025.",
+  "file": "src/content/entries/local/hampton-homeless-solutions-grant-fy2025.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hampton-24-0325": {
   "decision": "skip",
@@ -92089,10 +92140,11 @@
   "date": "2026-11-12"
  },
  "hampton-24-0330": {
-  "decision": "promising",
-  "reason": "triage: Federal grant for early intervention for infants with disabilities",
+  "decision": "drafted",
+  "reason": "Hampton accepted and spent $1,054,177 in federal and state money for a year of early intervention services (therapy, service coordination and family training) for infants and toddlers with disabilities in Hampton and Newport News, with no local match required.",
+  "file": "src/content/entries/local/hampton-infant-toddler-early-intervention-fy2025.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hampton-24-0340": {
   "decision": "skip",
@@ -92317,16 +92369,18 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-164": {
-  "decision": "promising",
-  "reason": "triage: city grant to build affordable housing at Walmsley; new construction, check details",
+  "decision": "drafted",
+  "reason": "The ordinance approved a city performance grant that helped pay for a 128-apartment senior building with income limits, part of the Walmsley Boulevard complex that opened in June 2026. Building homes for lower-income renters directly helps working people, and no existing entry covers this project.",
+  "file": "src/content/entries/local/richmond-128-lower-rent-senior-apartments-walmsley.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-165": {
-  "decision": "promising",
-  "reason": "triage: city grant for affordable senior housing at Walmsley; same site as 164",
+  "decision": "drafted",
+  "reason": "Richmond's ordinance approved an Affordable Housing Performance Grant that helped fund 128 income-restricted senior apartments on Walmsley Boulevard; the building opened in June 2026 and isn't covered by any existing entry.",
+  "file": "src/content/entries/local/richmond-128-lower-rent-senior-apartments-walmsley-boulevard.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-166": {
   "decision": "skip",
@@ -92527,16 +92581,16 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-183": {
-  "decision": "promising",
-  "reason": "triage: $1M funds eviction diversion program",
+  "decision": "skip",
+  "reason": "This ordinance only moves $1 million that the adopted FY2025 budget had already given to Richmond's Eviction Diversion Program into a line item for the program's administrator, Southside CDHC, so its main effect is on government bookkeeping, and no source I found reports what the FY2025 money delivered.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-184": {
-  "decision": "promising",
-  "reason": "triage: $9.58M HUD housing and services funds; writer checks uses",
+  "decision": "skip",
+  "reason": "This is Richmond's routine yearly vote to apply for, accept and budget its formula HUD grants (CDBG, HOME, ESG and HOPWA). The Legistar record gives only program totals, with no project-level uses or results, so no concrete benefit to people can be verified or stated.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-185": {
   "decision": "skip",
@@ -92563,22 +92617,25 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-191": {
-  "decision": "promising",
-  "reason": "triage: $10M federal grant to replace gas pipelines",
+  "decision": "drafted",
+  "reason": "Richmond accepted a $10 million federal grant to replace old, leak-prone gas pipes that serve city customers, with South Richmond first. It is a separate, earlier award from the $39 million grant in richmond-ord-2025-159.",
+  "file": "src/content/entries/local/richmond-10-million-federal-grant-aging-gas-pipes.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-192": {
-  "decision": "promising",
-  "reason": "triage: city grant funds affordable housing build",
+  "decision": "drafted",
+  "reason": "The ordinance approved a city performance grant that requires 49 lower-rent apartments at a 162-unit Manchester building, and residents began moving in in April 2026.",
+  "file": "src/content/entries/local/richmond-49-lower-rent-apartments-maury-street.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-193": {
-  "decision": "promising",
-  "reason": "triage: city grant funds affordable housing build",
+  "decision": "drafted",
+  "reason": "The ordinance was adopted and authorized a city performance grant for 90 new apartments at 60% of area median income on average, paid by giving back only the new taxes the building itself generates; it doesn't duplicate the existing Hull Street entries, which cover 60 and 112 units.",
+  "file": "src/content/entries/local/richmond-swansboro-place-90-lower-rent-apartments.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-194": {
   "decision": "skip",
@@ -92587,10 +92644,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-195": {
-  "decision": "promising",
-  "reason": "triage: city grant funds affordable housing build",
+  "decision": "skip",
+  "reason": "The core terms can't be verified from a primary source: the ordinance PDF is a scanned image I couldn't read, and the only source for the 65 units (15 at a 50% AMI average, 50 at an 80% average) and the $92,722 a year is a news tracker that doesn't say how long the units stay affordable. The Cove was also already built and leasing by fall 2023, so this July 2024 grant pays the developer back after the fact for rents that look close to market, which leaves the net benefit to working people unclear.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-res-2024-r020": {
   "decision": "skip",
@@ -92623,10 +92680,11 @@
   "date": "2026-11-12"
  },
  "hampton-24-0308": {
-  "decision": "promising",
-  "reason": "triage: USDA summer meals for kids funded",
+  "decision": "drafted",
+  "reason": "Hampton City Council accepted a USDA grant that paid for free summer meals for an expected 1,500+ children in 2024. That is a direct, tangible food benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/hampton-free-summer-meals-for-kids-2024.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hampton-24-0215": {
   "decision": "skip",
@@ -92827,10 +92885,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-131": {
-  "decision": "promising",
-  "reason": "triage: $50M state grant for sewer overflow fix; cleaner river, may ease ratepayer burden",
+  "decision": "drafted",
+  "reason": "Richmond's council took $50 million in state money for sewer work that keeps raw sewage out of the James River. That is a separate grant from the $100 million Canoe Run tank money already on the site (ORD. 2025-223, October 2025).",
+  "file": "src/content/entries/local/richmond-50-million-state-grant-sewer-overflows-james.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-132": {
   "decision": "skip",
@@ -92917,10 +92976,11 @@
   "date": "2026-11-12"
  },
  "hampton-24-0158": {
-  "decision": "promising",
-  "reason": "triage: FEMA grant funds elevating flood-prone homes; funded action",
+  "decision": "drafted",
+  "reason": "Hampton accepted a $2.73 million FEMA and state grant to raise seven homes that flood over and over, with no city match required. That is a concrete flood-safety benefit for residents, and no existing entry covers it.",
+  "file": "src/content/entries/local/hampton-seven-flood-prone-homes-raised-fema-grant.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hampton-24-0162": {
   "decision": "skip",
@@ -92995,10 +93055,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-093": {
-  "decision": "promising",
-  "reason": "triage: $3.3M state Safer Communities violence prevention funding accepted; check specifics",
+  "decision": "skip",
+  "reason": "News coverage, including WTVR in Oct. 2024, reports that Richmond accepted this FY2023-24 Safer Communities grant too late and never spent it, so the appropriation delivered nothing to residents; the FY2025 grant that did fund programs is a separate action.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-095": {
   "decision": "promising",
@@ -93337,10 +93397,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-110": {
-  "decision": "promising",
-  "reason": "triage: $100M state grant funds sewer overflow project, cleaner river and fewer sewer overflows",
+  "decision": "drafted",
+  "reason": "Adopted ordinance accepting and appropriating a $100M state (DEQ) grant for Richmond's combined sewer overflow work, a tangible infrastructure benefit distinct from the existing $50M (ORD 2024-131) and Canoe Run tank (ORD 2025-223) entries.",
+  "file": "src/content/entries/local/richmond-100-million-state-grant-sewer-overflows-2024.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-res-2024-r013": {
   "decision": "skip",
@@ -93451,22 +93512,25 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-121": {
-  "decision": "promising",
-  "reason": "triage: approved firefighters' union contract; check terms",
+  "decision": "drafted",
+  "reason": "The ordinance approved Richmond firefighters' first union contract, which ties their pay to nearby counties, guarantees callback pay and adds annual cancer screenings; no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-firefighters-first-union-contract.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-122": {
-  "decision": "promising",
-  "reason": "triage: approved police union contract; check terms",
+  "decision": "drafted",
+  "reason": "This ordinance approved the first union contract for Richmond police officers, with city money committed to their pay. That is a direct, concrete gain for public workers, like the existing entry for the labor and trades contract.",
+  "file": "src/content/entries/local/richmond-police-first-union-contract.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-123": {
-  "decision": "promising",
-  "reason": "triage: approved SEIU city workers' contract; check terms",
+  "decision": "drafted",
+  "reason": "Council approval funded the first union contract for Richmond's administrative and technical city workers, with guaranteed raises and just-cause protection. It is a different bargaining unit from the existing police (2024-122) and labor-and-trades (2025-070) contract entries.",
+  "file": "src/content/entries/local/richmond-administrative-technical-workers-first-union-contract.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-128": {
   "decision": "skip",
@@ -93589,16 +93653,16 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-027": {
-  "decision": "promising",
-  "reason": "triage: bridge replacement funded by CSX; infrastructure, one bridge",
+  "decision": "skip",
+  "reason": "This $4 million CSX contribution funds the Arthur Ashe Boulevard bridge replacement, and the site already covers that project in richmond-ord-2024-279 (\"A new Arthur Ashe Boulevard bridge with walking paths on both sides\"), so a separate entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-028": {
-  "decision": "promising",
-  "reason": "triage: city grant to build long-term homeless shelter",
+  "decision": "skip",
+  "reason": "The ordinance only approved a conditional grant agreement: the city's $7 million is released only if the Salvation Army raises its roughly $8 million match by Dec. 31, 2026, and 2026 reporting (WRIC, Richmond BizSense, 12 On Your Side) shows the match still short and construction not started, so nobody has been helped by it yet; it can come back as an entry once the money is released and construction begins.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-029": {
   "decision": "skip",
@@ -93613,10 +93677,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-031": {
-  "decision": "promising",
-  "reason": "triage: funds operating of year-round and weather shelter",
+  "decision": "skip",
+  "reason": "Sources disagree on this 2024 operating contract's amount, term and bed count: $7 million for ten years, an agreement running to June 2025, and 50, 150 or 167 beds; Legistar shows none of these, and richmond-ord-2026-143 already covers keeping the same Chamberlayne Avenue shelter open.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-res-2024-r004": {
   "decision": "skip",
@@ -93649,10 +93713,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-358": {
-  "decision": "promising",
-  "reason": "triage: funds shared-use path and pedestrian bridge",
+  "decision": "drafted",
+  "reason": "Richmond's council approved regional transportation funding to rebuild and widen the walking and biking bridge over the Norfolk Southern tracks in Manchester, which is a concrete infrastructure project with design underway.",
+  "file": "src/content/entries/local/richmond-manchester-rail-footbridge-rebuilt-wider.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2023-371": {
   "decision": "promising",
@@ -93871,10 +93936,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-041": {
-  "decision": "promising",
-  "reason": "triage: Lower penalty and interest on unpaid car taxes; relief for residents, check cost",
+  "decision": "drafted",
+  "reason": "The adopted ordinance cut Richmond's first-month late penalty on vehicle and personal property taxes from 10% to 2% and held off interest until the following month, which directly lowers costs for residents who pay late, and the city's Finance page confirms it is in effect today.",
+  "file": "src/content/entries/local/richmond-late-car-tax-penalty-cut-to-2-percent.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-042": {
   "decision": "skip",
@@ -94141,10 +94207,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-076": {
-  "decision": "promising",
-  "reason": "triage: $3M funds a trail segment; many residents use",
+  "decision": "drafted",
+  "reason": "The ordinance accepted and spent $3 million from the regional transportation authority to build a free public walking and biking trail segment in Bryan Park, which is infrastructure people will use directly; no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-fall-line-trail-bryan-park-segment.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-ord-2024-081": {
   "decision": "skip",
@@ -94159,10 +94226,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-083": {
-  "decision": "promising",
-  "reason": "triage: revises elderly/disabled property tax relief; check details",
+  "decision": "skip",
+  "reason": "The adopted text of ORD. 2024-083 matches rules that were already in place: the $70,000 income and $450,000 net worth limits from May 2023 and the December 31 filing deadline from 2022. I couldn't find what it actually changed or show that the change is anything beyond a technical revision.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-res-2024-r008": {
   "decision": "skip",
@@ -94231,10 +94298,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2024-053": {
-  "decision": "promising",
-  "reason": "triage: city land sold for nominal price to YWCA for affordable apartments",
+  "decision": "drafted",
+  "reason": "Richmond adopted an ordinance giving almost 4 acres of city land to YWCA Richmond for nominal payment to build 50 apartments for lower-income renters, and the building was under construction as of May 2026.",
+  "file": "src/content/entries/local/richmond-city-land-for-50-lower-rent-apartments-lynhaven-avenue.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "richmond-res-2024-r009": {
   "decision": "skip",
@@ -94255,10 +94323,11 @@
   "date": "2026-11-12"
  },
  "hampton-24-0053": {
-  "decision": "promising",
-  "reason": "triage: FEMA grant to elevate flood-prone homes in Hampton",
+  "decision": "drafted",
+  "reason": "Hampton City Council accepted $3.15 million in FEMA and state money to raise eight homes that flood again and again, a concrete storm-safety benefit. It is a different grant (DR-4602-0008) from the existing seven-home entry, which covers DR-4512-0014.",
+  "file": "src/content/entries/local/hampton-eight-flood-prone-homes-raised-fema-grant.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hampton-24-0081": {
   "decision": "skip",
@@ -114905,10 +114974,11 @@
   "date": "2026-11-12"
  },
  "hanover-news-929-approved-resolution-authorizing-vpsa-general-obligation-bond": {
-  "decision": "promising",
-  "reason": "triage: enacted bonds fund two new elementary schools and HVAC",
+  "decision": "drafted",
+  "reason": "The Board of Supervisors approved up to $105 million in school bonds, which mostly paid to replace Beaverdam and Battlefield Park elementary schools. HCPS pages show both new buildings opened with ribbon cuttings in August 2026.",
+  "file": "src/content/entries/local/hanover-new-beaverdam-and-battlefield-park-elementary-schools.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "hanover-news-929-cup2024-00001": {
   "decision": "skip",
@@ -118029,10 +118099,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1478-5945": {
-  "decision": "promising",
-  "reason": "triage: commits county funds to interchange project; infrastructure many use",
+  "decision": "drafted",
+  "reason": "Goochland committed to pay its local share of a funded VDOT project that will rebuild the backed-up, unsignalized westbound I-64 ramps at Oilville Road as a roundabout, a concrete safety and infrastructure project.",
+  "file": "src/content/entries/local/goochland-oilville-i64-exit-roundabout.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-14"
  },
  "goochland-council-iqm2-1477-5860": {
   "decision": "skip",
@@ -134490,5 +134561,11 @@
   "reason": "triage: Commemorative flag order",
   "impact": 1,
   "date": "2026-11-13"
+ },
+ "us-fr-2026-23279": {
+  "decision": "skip",
+  "reason": "triage: Rolls back Head Start wage and benefit requirements; a harm, not a win",
+  "impact": 1,
+  "date": "2026-11-14"
  }
 }

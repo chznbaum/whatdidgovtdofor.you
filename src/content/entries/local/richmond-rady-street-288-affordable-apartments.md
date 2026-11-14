@@ -60,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: pass
-  notes: Confirmed the unanimous 9–0 council adoption, affordability requirements, tax-grant formula, project history, credits, and August 2026 EDA authorization. No later construction update, repeal, cancellation, or legal block was found.
+  notes: Confirmed the ordinance, 9–0 adoption, grant terms, affordability requirements, credits, EDA authorization, project history, and latest verifiable status. No later construction update, repeal, cancellation, funding loss, or court block was found.
 source_key: richmond-ord-2026-170
 ---
 

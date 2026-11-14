@@ -22,9 +22,9 @@ impact:
     label: of bike lanes to get permanent concrete separation from traffic
 status:
   state: phasing-in
-  as_of: 2026-03-19
-  note: The city's March 2026 proposed budget still listed the project as active, with $10,155,554 of its $10,768,910 appropriation available. We found no newer public progress report.
-  source: https://rva.gov/sites/default/files/2026-03/2026.03.19-BSP-FY27ProposedBudget.pdf
+  as_of: 2026-04-14
+  note: A city quarterly report covering spending through Dec. 31, 2025 said the project was in planning and design, with work underway on 90% design plans and $613,356 spent. The city's April 14, 2026 procurement forecast scheduled solicitation for the third quarter of 2026. We found no later public update.
+  source: https://www.rva.gov/sites/default/files/2026-04/Forecast%20Projects%20Calendar%20-%20Apr%202026.pdf
 credit:
   - official: levar-stoney
     role: proposed
@@ -41,7 +41,7 @@ credit:
 sources:
   - title: ORD. 2024-278, accepting $10,768,910 from the Federal Highway Administration for a Safe Streets and Roads for All program
     publisher: Richmond City Council (Legistar)
-    url: https://richmondva.legistar.com/gateway.aspx?M=L&ID=37835
+    url: https://richmondva.legistar.com/View.ashx?GUID=F7299CC4-6A00-40E6-A323-DC1B632DE9AA&ID=13546255&M=F
     date: 2024-11-12
   - title: City awarded additional $10.77 million Safe Streets and Roads for All grant
     publisher: City of Richmond
@@ -51,10 +51,14 @@ sources:
     publisher: Office of Sen. Tim Kaine
     url: https://www.kaine.senate.gov/press-releases/warner-and-kaine-announce-over-256-million-in-funding-for-safety-improvements-in-virginia-beach-and-richmond
     date: 2023-12-11
-  - title: Proposed Budget 2027 — FY 2027-2031 proposed capital improvement plan active projects
+  - title: FY 2026 second-quarter capital improvement plan report
     publisher: City of Richmond
-    url: https://rva.gov/sites/default/files/2026-03/2026.03.19-BSP-FY27ProposedBudget.pdf
-    date: 2026-03-19
+    url: https://rva.gov/sites/default/files/2026-05/FY26%202nd%20Quarter%20CIP%20Report.pdf
+    date: 2025-12-31
+  - title: Forecast calendar for anticipated solicitations, revised April 14, 2026
+    publisher: City of Richmond
+    url: https://www.rva.gov/sites/default/files/2026-04/Forecast%20Projects%20Calendar%20-%20Apr%202026.pdf
+    date: 2026-04-14
 verification:
   writer:
     model: claude-opus-5-5
@@ -63,9 +67,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, award, match, scope, patrons and 8–0 adoption. Corrected unsupported streetlight and design-progress claims, tightened the equity language, and updated status from the March 2026 city budget.
+  notes: Confirmed the ordinance, 8–0 adoption, grant math, 13-corridor scope, planned improvements, equity goal, and credits. Updated the status with newer city evidence and replaced the inaccessible Legistar gateway link.
 source_key: richmond-ord-2024-278
 ---
 

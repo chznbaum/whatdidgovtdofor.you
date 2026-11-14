@@ -62,9 +62,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the grant amount, mileage, ordinance adoption, credit, and latest project-specific status. Added Hanover to the documented Richmond Gas Works service-area footprint.
+    date: 2026-11-14
+  verdict: pass
+  notes: Confirmed the grant amount, mileage, ordinance adoption, service area, credit, funding source, and latest project-specific status. The grant remains active, and no later repeal, cancellation, or project-specific reversal was found.
 source_key: richmond-ord-2025-159
 ---
 

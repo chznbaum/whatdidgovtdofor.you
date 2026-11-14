@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: pass
-  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, federal reimbursement, and project cost against the [ordinance and agreement](https://richmondva.legistar.com/View.ashx?GUID=496C1EC6-9DD9-4466-85DA-EFF5C9E139FE&ID=13612887&M=F). The [latest project-specific CTB record](https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2025/12/res/1-fy2026-2031-six-year-improvement-program-transfers-2025-10-18-through-2025-11-14.pdf) supports the stated scheduled status; no corrections were needed.
+  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, full federal reimbursement, and safety descriptions against the ordinance and VDOT guidance. The latest project-specific CTB record supports the scheduled status and $3,565,314 allocation; no later cancellation or completion record was found.
 source_key: richmond-ord-2024-289
 ---
 

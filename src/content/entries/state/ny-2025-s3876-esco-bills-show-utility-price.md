@@ -21,9 +21,9 @@ impact:
     label: minimum damages if an ESCO violation injures you and you win a lawsuit
 status:
   state: phasing-in
-  as_of: 2026-09-10
-  note: A September 10, 2026 Department of Public Service working-group update said comparisons were live for some customers, while several utilities were still finishing systems for other bills and annual statements.
-  source: https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0B0C1A1-0000-CE61-96C4-881CF0905C27%7D
+  as_of: 2026-11-14
+  note: A September 10, 2026 Department of Public Service update said comparisons were live for some customers, while several utilities were still finishing systems. A November 12 agenda showed implementation work remained active, including utility-system updates and data for annual statements.
+  source: https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BF0B0C1A1-0000-C518-8E9D-EB1E79E25B20%7D
 credit:
   - official: brad-hoylman-sigal
     role: sponsored
@@ -78,6 +78,10 @@ sources:
     publisher: New York State Department of Public Service
     url: https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0B0C1A1-0000-CE61-96C4-881CF0905C27%7D
     date: 2026-09-10
+  - title: ESCO cost-comparison implementation agenda
+    publisher: New York State Department of Public Service
+    url: https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BF0B0C1A1-0000-C518-8E9D-EB1E79E25B20%7D
+    date: 2026-11-12
 featured: false
 verification:
   writer:
@@ -87,9 +91,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: pass
-  notes: Confirmed the enacted and amended text, sponsors, effective date, both roll calls, damages, customer-cost ban, and rollout status. The November 12 DPS agenda shows implementation work remains active, consistent with the phasing-in status.
+    date: 2026-11-14
+  verdict: corrected
+  notes: Confirmed the law text, effective date, sponsors, damages, customer-cost ban, and both original roll calls. Updated the rollout status using the Department of Public Service’s November 12 agenda.
 source_key: ny-2025-s3876
 ---
 
@@ -99,4 +103,4 @@ Every 12 months, the ESCO must also provide a statement that says plainly whethe
 
 Sen. Brad Hoylman-Sigal and Assemblymember Jeffrey Dinowitz sponsored the original bill. It passed the Senate 57–4 and the Assembly 134–11 in spring 2025. Gov. Kathy Hochul signed it on December 19, 2025. Dinowitz sponsored the 2026 chapter amendment, and Sen. Rachel May sponsored its Senate counterpart. The law took effect June 17, 2026.
 
-Implementation has been uneven. In the latest confirmed update, on September 10, 2026, utility representatives reported that comparisons were live for some customers while several utilities were still building systems for other bills and the annual statements.
+Implementation has been uneven. On September 10, 2026, utility representatives reported that comparisons were live for some customers while several utilities were still building systems for other bills and the annual statements. A November 12 Department of Public Service working-group agenda showed continuing work on utility-system updates, annual-statement data, and customer communications.

@@ -1,0 +1,8 @@
+name: Rand Paul
+party: R
+office: U.S. Senator from Kentucky
+level: federal
+jurisdiction: us
+current: true
+ids: { bioguide: P000603 }
+url: https://www.paul.senate.gov
