@@ -1,0 +1,7 @@
+name: Charlie Crist
+party: NP
+office: Mayor of St. Petersburg
+level: local
+jurisdiction: st-petersburg
+current: true
+seat: { place: st-petersburg, title: Mayor, from: 2027-01-07 }

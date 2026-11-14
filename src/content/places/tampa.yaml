@@ -1,0 +1,43 @@
+name: Tampa
+short: Tampa
+kind: city
+parent: fl
+# In Hillsborough County, whose own records robots.txt rules out, so the county isn't covered yet.
+geoids: { state: "12", place: "1271000" }
+# OnBase Agenda Online: each council meeting's "proposed action minutes" give every item's mover and seconder about a
+# week after the meeting.
+feeds:
+  - { type: agendaonline, url: "https://tampagov.hylandcloud.com/251agendaonline", types: "Council (Regular|Evening|Special)" }
+council:
+  body: City Council
+  title: Council Member
+  # Districts 1-3 are elected citywide ("At-Large"); 4-7 are single-member. The City's own district layers
+  # (arcgis.tampagov.net) refused us at Akamai, so this is the Hillsborough County Planning Commission's layer of the
+  # districts it approved on March 9, 2026: 123 voting precincts, all PRECINCT_JURIS "TAMPA", each carrying its council
+  # district (TA_COUNCIL_DISTRICT_NUMBER, integer 4-7; no at-large polygons, and precincts don't overlap). Checked
+  # 2026-11-14 with Origin https://whatdidgovtdofor.you: Access-Control-Allow-Origin "*"; City Hall (-82.4588, 27.9496) →
+  # one feature, precinct 160, 5. Caveat: the 2026 map governs the March 2027 election; it differs from the lines the
+  # current members were elected on only by precinct 345 (moved from District 7 to 5, per north.md), so until April 1,
+  # 2027 an address in precinct 345 is shown District 5's member instead of District 7's.
+  districts: { arcgis: "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/TPC_Approved_TA_Precincts_Redistrict_2026/FeatureServer/36", field: TA_COUNCIL_DISTRICT_NUMBER }
+  url: "https://www.tampa.gov/city-council"
+  checked: 2026-11-14
+  # Nonpartisan races: Tampa's charter elections carry no party (the Hillsborough Supervisor of Elections' site, which
+  # would show the ballot, refused us at Cloudflare). All NP. Names as the City's "Meet Your City Council" list writes
+  # them. Everyone was elected together in March/April 2023 except Naya Young, who won the Oct. 28, 2025 District 5
+  # special runoff (Gwen Henderson died in June 2025) and was sworn in Oct. 31, 2025. All terms end April 1, 2027; the
+  # next city election is March 2, 2027 (runoffs in April), when the whole council and the mayor turn over.
+  # District 7: Luis Viera resigned under the resign-to-run law (WUSF: effective Nov. 2) and won State House District
+  # 67 on Nov. 3. The City's appointment guidelines treat the vacancy as created Nov. 3, 2026. The six remaining members
+  # choose a successor by ballot (four votes needed) at a special call meeting on Tuesday, Nov. 17, 2026, and "as the
+  # first order of business after roll call" on Thursday, Nov. 19, 2026 the appointee takes the oath and the seat, for
+  # the rest of the term (to April 1, 2027). 18 applied (WUSF, Nov. 9). Add the appointee with from: 2026-11-19.
+  members:
+    - { name: Alan Clendenin, party: NP, url: "https://www.tampa.gov/city-council/about-us/alan-clendenin" } # District 1 At-Large; Council Chairman
+    - { name: Guido Maniscalco, party: NP, url: "https://www.tampa.gov/city-council/about-us/guido-maniscalco" } # District 2 At-Large
+    - { name: Lynn Hurtak, party: NP, url: "https://www.tampa.gov/city-council/about-us/lynn-hurtak" } # District 3 At-Large
+    - { district: "4", name: Bill Carlson, party: NP, url: "https://www.tampa.gov/city-council/about-us/bill-carlson" }
+    - { district: "5", name: Naya Young, party: NP, url: "https://www.tampa.gov/city-council/about-us/district-5" }
+    - { district: "6", name: Charlie Miranda, party: NP, url: "https://www.tampa.gov/city-council/about-us/charlie-miranda" }
+    - { district: "7", name: Luis Viera, party: NP, url: "https://www.tampa.gov/city-council/about-us/luis-viera", until: 2026-11-03 } # resigned (resign-to-run); the roster page still lists him
+    # - { district: "7", name: <chosen Nov. 17>, party: NP, from: 2026-11-19 }

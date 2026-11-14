@@ -1,0 +1,8 @@
+name: Jane Castor
+party: NP
+office: Mayor of Tampa
+level: local
+jurisdiction: tampa
+current: true
+seat: { place: tampa, title: Mayor }
+url: https://www.tampa.gov/mayor

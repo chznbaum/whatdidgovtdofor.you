@@ -1,0 +1,37 @@
+name: Gainesville
+short: Gainesville
+kind: city
+parent: fl
+# In Alachua County, whose meeting lists need a POST, so the county isn't covered yet.
+geoids: { state: "12", place: "1225175" }
+# CivicClerk minutes (the city moved there this fall, so records start in October), three to four weeks after a meeting.
+feeds:
+  - { type: civicclerk, tenant: gainesvillefl, category: 26 }
+council:
+  body: City Commission
+  title: Commissioner
+  # The city's commissioner districts (hosted by Alachua County GIS): exactly four polygons, WRD "1"-"4", COMNAME
+  # current (Book's name goes stale in January). The mayor and At-large Seats A and B have no polygon. Checked 2026-11-14
+  # with Origin https://whatdidgovtdofor.you: Access-Control-Allow-Origin "*"; City Hall (-82.3248, 29.6516) → one
+  # feature, "1" (Desmon Duncan-Walker). Last edited 2025-09-10.
+  districts: { arcgis: "https://services1.arcgis.com/MiBZ4u97DWldovjI/arcgis/rest/services/City_of_Gainesville_Commissioner_Districts_view/FeatureServer/0", field: WRD }
+  url: "https://www.gainesvillefl.gov/City-Commission"
+  checked: 2026-11-14
+  # Nonpartisan races (city charter; the city's elections run on the August primary ballot without party labels; news
+  # calls the District 2 race "nonpartisan"). All NP. Names as the City Commission page writes them (its heading says
+  # "Cynthia Chestnut"; her profile says Cynthia Moore Chestnut); Crabbe as news reports his ballot name.
+  # 2026: the City's regular election was Aug. 18, 2026 (runoff date Nov. 3, not needed): Mayor Harvey Ward re-elected
+  # (~79%), District 2 Nathan Crabbe won the open seat (4,714 of 7,593; Book didn't run), District 3 Casey Willits
+  # re-elected, District 4 Bryan Eastman unopposed (unofficial results via Main Street Daily News/Alligator). New terms
+  # start at the first City Commission meeting of January 2027, whose date isn't posted (CivicClerk lists commission
+  # meetings only through Dec. 17, 2026). Jan. 7, 2027 (the first Thursday; the commission meets Thursdays, and 2023's
+  # oath was Thursday, Jan. 5) is a placeholder: 2025's was Monday, Jan. 6. Recheck when the 2027 calendar is posted.
+  members:
+    - { name: Harvey Ward, party: NP, role: Mayor, url: "https://www.gainesvillefl.gov/City-Commission/Mayor-Harvey-Ward" } # re-elected Aug. 18, 2026 (fourth and final term)
+    - { district: "1", name: Desmon Duncan-Walker, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-Desmon-Duncan-Walker" }
+    - { district: "2", name: Ed Book, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-Ed-Book", until: 2027-01-07 } # Mayor Pro Tem; didn't run
+    - { district: "2", name: Nathan Crabbe, party: NP, from: 2027-01-07 }
+    - { district: "3", name: Casey Willits, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-Casey-Willits" }
+    - { district: "4", name: Bryan Eastman, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-Bryan-Eastman" }
+    - { name: James Ingle, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-James-Ingle" } # At-large, Seat A
+    - { name: Cynthia Chestnut, party: NP, url: "https://www.gainesvillefl.gov/City-Commission/Commissioner-Cynthia-Chestnut" } # At-large, Seat B

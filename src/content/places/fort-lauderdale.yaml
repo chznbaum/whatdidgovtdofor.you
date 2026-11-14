@@ -1,0 +1,38 @@
+name: Fort Lauderdale
+short: Ft. Lauderdale
+kind: city
+parent: broward-county
+geoids: { state: "12", place: "1224000" }
+# Legistar with a real PASSED status; movers and roll calls are on each meeting's items, sponsors aren't recorded.
+feeds:
+  - { type: legistar, client: fortlauderdale, types: ["RESOLUTION", "CONSENT RESOLUTION", "ORDINANCE SECOND READING", "MOTION", "CONSENT MOTION", "PUBLIC HEARING"] }
+council:
+  body: City Commission
+  title: Commissioner
+  # The city's own GIS server: exactly four district polygons, DISTRICTID "1" to "4" (the mayor is elected citywide, so
+  # there's no citywide polygon to overlap them). REPNAME is stale for 1 ("John Herbst") and spells 3 "Pamela
+  # Beasley-Pittman". CORS echoes our origin; City Hall (100 N. Andrews Ave., Census geocoder 26.12326, -80.14347) →
+  # DISTRICTID "2" (Steven Glassman), one feature. Redistricting date not confirmed (feature edits 2022 to 2025).
+  districts: { arcgis: "https://gis.fortlauderdale.gov/server/rest/services/CityCommissionDistricts/FeatureServer/0", field: DISTRICTID }
+  # The city's commission pages (/Government/City-Commission/) are robots-disallowed, so the roster is the city's
+  # Legistar members page (four names today, with District 1 vacant). No member URLs for the same reason.
+  url: "https://fortlauderdale.legistar.com/People.aspx"
+  checked: 2026-11-14
+  # Nonpartisan: Broward's official Nov. 3, 2026 results print no party for "Fort Lauderdale, Commissioner, District 1"
+  # (while the same page's partisan races carry one: "REP Ashley Moody"). All NP. Names as the city's Legistar writes
+  # them. The commission is the mayor plus four district commissioners; the mayor, elected citywide, votes (Legistar
+  # roll calls list Trantalis with the four), so he's a member with his own title and shown to every address, not a
+  # separate seat. Vice Mayor Sorensen is chosen by the commission (left out as a role). District 1: John C. Herbst
+  # resigned May 1, 2026, effective Nov. 2 (WLRN; Legistar ends his record 2026-11-02), so the seat is vacant until
+  # Heather Moraitis, who won the Nov. 3 special election (8,553, 49.0%, over John E. Rodstrom 46.7% and Garry Smyth
+  # 4.3%), is sworn in at the Nov. 17 special meeting ("Swearing-in and Receipt of New Commissioner for District 1
+  # Pursuant to Section 3.10 of the City Charter"; Legistar starts her term 2026-11-17, to 2028-12-04). Herbst is left
+  # out (his `until` has passed).
+  members:
+    - { name: Dean J. Trantalis, party: NP, role: Mayor } # term to Dec. 2028
+    - { district: "1", name: Heather Moraitis, party: NP, from: 2026-11-17 }
+    - { district: "2", name: Steven Glassman, party: NP }
+    - { district: "3", name: Pam Beasley-Pittman, party: NP }
+    - { district: "4", name: Ben Sorensen, party: NP } # Vice Mayor
+
+# No separate executive seat: the mayor sits on the commission (above) and the city manager is appointed.

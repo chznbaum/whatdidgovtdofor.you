@@ -1,0 +1,53 @@
+name: Orange County
+short: Orange County
+kind: county
+parent: fl
+geoids: { state: "12", county: "12095" }
+# Legistar, kept by the Comptroller: public hearings never show "Passed" on the matter, so approvals come from the
+# board's meeting items, with mover and seconder.
+feeds:
+  - { type: legistar, client: occompt, meetings: "^Board of County Commissioners$", text: true }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # The 8-district map approved in October 2025 (voters approved going from six districts to eight in Nov. 2024),
+  # effective with the Dec. 8, 2026 terms: the County's hosted layer ("These commission districts ... will become
+  # effective in November 2026 after commissioners for the 2 new districts are elected"), exactly eight polygons,
+  # DIST integer 1-8, names empty. Checked 2026-11-14 with Origin https://whatdidgovtdofor.you: Access-Control-Allow-Origin
+  # "*"; Orlando City Hall (-81.3792, 28.5383) → one feature, 6; Meadow Woods (-81.3700, 28.3850) → one feature, 8.
+  # The County's own server (ocgis4.ocfl.net/arcgis/rest/services/AGOL_Open_Data/MapServer/11, CORS echoes our origin,
+  # robots Crawl-delay 60 via its redirect) has already switched to the same eight districts with December's members
+  # and gives the same answers at both points; no 6-district layer is left to use for Nov. 14 - Dec. 7, so until Dec. 8
+  # addresses get their new-map district (current members shown by number; new Districts 7 and 8 empty until Dec. 8).
+  districts: { arcgis: "https://services1.arcgis.com/0U8EQ1FrumPeIqDb/arcgis/rest/services/Commission_Districts_November_2026/FeatureServer/0", field: DIST }
+  url: "https://ocfl.net/BoardofCommissioners.aspx"
+  checked: 2026-11-14
+  # Nonpartisan races (Orange County Charter): the Supervisor of Elections' Aug. 18, 2026 results (EL45a, 1st unofficial)
+  # print the mayor and commission contests with no party, while partisan primaries on the same report carry
+  # "REP"/"DEM". All NP. Names as the County's roster and Oath of Office page write them; new members as the August
+  # ballot printed them ("Michael \"Mike\" Scott", "Victor M. Torres Jr."), López as the County writes her (her race
+  # wasn't on the August report).
+  # Turnover: Tuesday, Dec. 8, 2026, the County's Oath of Office ceremony (ocfl.net Oath of Office page: "Save the
+  # Date, Tuesday, December 8, 2026", swearing in the Mayor-elect and Districts 2, 4, 6, 7, 8). Legistar's office records
+  # end the outgoing terms Dec. 7 and start the new ones Dec. 8. Past oaths: Dec. 2, 2014, Dec. 4, 2018, Dec. 3, 2024,
+  # each the Tuesday after the first Monday in December (a charter-county date later than the statutory second
+  # Tuesday, as s. 100.041(2)(b), F.S. allows). News saying Nov. 17 for Demings was wrong.
+  # District 3: Mayra Uribe ran for mayor and, under the resign-to-run law, resigned effective Monday, Dec. 7, 2026
+  # (Orange SOE fact sheet; ClickOrlando May 26). With fewer than 28 months left, the seat stays on the 2028 ballot and the
+  # Governor appoints a successor or calls a special election; none announced by Nov. 14. So District 3 is vacant from
+  # Dec. 7 until an appointment (no member listed; add one when named).
+  # District 2: Christine Moore resigned (Legistar ends her term Apr. 22, 2026) to run for mayor of Apopka; Gov. DeSantis
+  # appointed Mike Crabb July 31 (Legistar from Aug. 17); Kamia Brown beat Crabb on Nov. 3.
+  members:
+    - { name: Jerry L. Demings, party: NP, role: County Mayor, url: "https://ocfl.net/BoardofCommissioners/Mayor.aspx", until: 2026-12-08 }
+    - { name: Tiffany Moore Russell, party: NP, role: County Mayor, from: 2026-12-08 } # beat Chris Messina in the Nov. 3 runoff (~63%); resigned as Clerk of Courts Aug. 31
+    - { district: "1", name: Nicole H. Wilson, party: NP, url: "https://ocfl.net/BoardofCommissioners/District1Commissioner.aspx" }
+    - { district: "2", name: Mike Crabb, party: NP, url: "https://ocfl.net/BoardofCommissioners/District2Commissioner.aspx", until: 2026-12-08 }
+    - { district: "2", name: Kamia Brown, party: NP, from: 2026-12-08 }
+    - { district: "3", name: Mayra Uribe, party: NP, url: "https://ocfl.net/BoardofCommissioners/District3Commissioner.aspx", until: 2026-12-07 } # resignation effective Dec. 7; then vacant
+    - { district: "4", name: Maribel Gomez Cordero, party: NP, url: "https://ocfl.net/BoardofCommissioners/District4Commissioner.aspx", until: 2026-12-08 } # term-limited
+    - { district: "4", name: Johanna López, party: NP, from: 2026-12-08 }
+    - { district: "5", name: Kelly Martinez Semrad, party: NP, url: "https://ocfl.net/BoardofCommissioners/District5Commissioner.aspx" }
+    - { district: "6", name: "Michael \"Mike\" Scott", party: NP, url: "https://ocfl.net/BoardofCommissioners/District6Commissioner.aspx" } # re-elected Nov. 3 (runoff over Lawanna Gelzer)
+    - { district: "7", name: Patricia Rumph, party: NP, from: 2026-12-08 } # new district; a 2-year first term to 2028 (runoff over Vicki Vargo)
+    - { district: "8", name: Victor M. Torres Jr., party: NP, from: 2026-12-08 } # new district (runoff over Jeannette Quiñones Hernández)

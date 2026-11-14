@@ -1,0 +1,50 @@
+name: Broward County
+short: Broward
+kind: county
+parent: fl
+geoids: { state: "12", county: "12011" }
+# Legistar's status stays "Agenda Ready" and no item carries an outcome, mover or roll call (the Action Agendas are on
+# a host robots.txt disallows), so actions credit the board. Only about one item in eight names a commissioner.
+feeds:
+  - { type: legistar, client: broward, types: ["Regular Item", "Public Hearing", "Consent Item", "Purchasing Regular Item", "Purchasing Consent Item"], status: Agenda Ready, text: true }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # The county's own AGOL layer behind its QAlert service requests (org JMAJrTsHNLrSsWf5; data edited 2025-04-15; "final
+  # choice of commission districts selected by commissioners on December 7, 2021"): exactly nine polygons, DISTRICT 1 to
+  # 9, one per district (no at-large seats). NAME carries today's members (6 goes stale on Nov. 17). CORS "*";
+  # Governmental Center (115 S. Andrews Ave.) → DISTRICT 8 (Robert McKinzie), one feature. The org holds a dozen other
+  # copies (BCCommission_Districts agreed at 13 points in today's survey); use this one.
+  districts: { arcgis: "https://services.arcgis.com/JMAJrTsHNLrSsWf5/ArcGIS/rest/services/QAlert_Commission_Districts/FeatureServer/0", field: DISTRICT }
+  # The county's own roster pages are on www.broward.org, which blocks us (Cloudflare), so the roster is the county's
+  # Legistar members page. It lists seven today: Bogen's and Furr's office records end Nov. 14 (Bogen's should be
+  # renewed at the Nov. 17 swearing-in). The Supervisor of Elections' "Elected Officials" page lists all nine with party
+  # and district (https://browardvotes.gov/candidates/elected-officials). No member URLs: their pages are on the blocked
+  # host and Legistar's person pages are switched off (410).
+  url: "https://broward.legistar.com/People.aspx"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party. The Aug. 18, 2026 official results print "Caryl Shuham (DEM)" in the
+  # District 6 universal primary (every candidate a Democrat, no write-in, so it decided the seat: Shuham 8,337, 41.9%).
+  # Bogen (2), Fisher (4) and McKinzie (8) were re-elected unopposed in June 2026, so no 2026 ballot printed them; their
+  # party, and everyone else's, is the one the Supervisor of Elections lists for the office: all nine "(DEM)", Lamar
+  # Fisher included (today's survey had him as R from memory; the SOE says DEM). No commission race was on the Nov. 3
+  # ballot. Names as the county writes them (Legistar and the layer agree; the SOE writes "Steven Anthony Geller",
+  # "Quentin \"Beam\" Furr", "Michael I. Udine", "Lamar Fisher", "Hazelle Rogers"). Nov. 17, 2026: new terms start (the
+  # second Tuesday after the general election, Fla. Stat. § 100.041; WLRN had Shuham "scheduled to take office on
+  # November 17"), and the published agenda for that meeting has "COMMISSION ELECTION OF MAYOR", "COMMISSION ELECTION OF
+  # VICE-MAYOR" and "SWEARING IN CEREMONY". The board picks its mayor from its members each year, and the county titles
+  # that member "Mayor" (Legistar: "Mayor", "Vice-Mayor"), so Bogen's title ends Nov. 17. Who follows him isn't known
+  # until that vote (Vice-Mayor McKinzie by custom, unconfirmed): after Nov. 17, add `role: County Mayor` to the member chosen.
+  # The vice mayor is left out as a role.
+  members:
+    - { district: "1", name: Nan H. Rich, party: D }
+    - { district: "2", name: Mark D. Bogen, party: D, role: County Mayor, until: 2026-11-17 }
+    - { district: "2", name: Mark D. Bogen, party: D, from: 2026-11-17 } # re-elected unopposed; new term
+    - { district: "3", name: Michael Udine, party: D }
+    - { district: "4", name: Lamar P. Fisher, party: D } # re-elected unopposed; new term Nov. 17
+    - { district: "5", name: Steve Geller, party: D }
+    - { district: "6", name: Beam Furr, party: D, until: 2026-11-17 } # didn't run (farewell after 12 years, per the press)
+    - { district: "6", name: Caryl Shuham, party: D, from: 2026-11-17 } # name as the ballot printed it; no county page yet
+    - { district: "7", name: Alexandra P. Davis, party: D }
+    - { district: "8", name: Robert McKinzie, party: D } # Vice-Mayor to Nov. 17; re-elected unopposed
+    - { district: "9", name: Hazelle P. Rogers, party: D } # SOE: next election Nov. 2028

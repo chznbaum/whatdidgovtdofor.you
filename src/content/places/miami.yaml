@@ -1,0 +1,34 @@
+name: Miami
+short: Miami
+kind: city
+parent: miami-dade-county
+geoids: { state: "12", place: "1245000" }
+# IQM2: for the City Commission, the file the reader takes is the marked agenda, with each item's outcome, mover,
+# seconder and ayes. A Legistar client (miamifl) is being tried; recheck in 2027.
+feeds:
+  - { type: iqm2, url: "https://miamifl.iqm2.com", board: "Board:\\s*City Commission\\b" }
+council:
+  body: City Commission
+  title: Commissioner
+  # The city's own GIS server (the zoning app's base layer "Commission Districts"): exactly five polygons, COMDISTID 1
+  # to 5, one per district (no at-large seats). COMNAME carries today's members. CORS echoes our origin; City Hall (3500
+  # Pan American Dr, Dinner Key) → COMDISTID 2 (Damian Pardo), one feature. The lines should be the map adopted in the
+  # 2024 settlement of GRACE v. City of Miami (first used in Nov. 2025); Miami-Dade's copy (MiamiCityDistrict_gdb,
+  # edited Jan. 2025) agreed at 11 points in today's survey. The city's redistricting pages are robots-disallowed, so
+  # the adoption date isn't confirmed from an official page.
+  districts: { arcgis: "https://gis.miami.gov/gis/rest/services/Maps/CommissionerDistricts/MapServer/0", field: COMDISTID }
+  # The "City Officials" index (allowed; the City Commission section and /findyourcommissioner are robots-disallowed).
+  url: "https://www.miami.gov/My-Government/City-Officials"
+  checked: 2026-11-14
+  # Nonpartisan: the official Miami-Dade results for the city's Dec. 9, 2025 runoff (mayor, District 3) print no party
+  # for any candidate, and none of the city's races ever carries one. All NP. Names as the city's officials page writes
+  # them. No city offices were on the 2026 ballots (the city's Nov. 3 items were bond and marina questions), so no seat
+  # changes: Districts 3 and 5 and the mayor were elected in 2025 (to 2029), Districts 1, 2 and 4 hold terms to Nov.
+  # 2027 (4 won in a 2025 special for the rest of Manolo Reyes's term). The Aug. 18, 2026 charter amendment moving city
+  # elections to even years doesn't take effect until the 2030s.
+  members:
+    - { district: "1", name: Miguel Angel Gabela, party: NP, url: "https://www.miami.gov/My-Government/City-Officials/District-1-Miguel-Angel-Gabela" }
+    - { district: "2", name: Damian Pardo, party: NP, url: "https://www.miami.gov/My-Government/City-Officials/District-2-Commissioner-Damian-Pardo" }
+    - { district: "3", name: Rolando Escalona, party: NP, url: "https://www.miami.gov/My-Government/City-Officials/District-3-Rolando-Escalona" }
+    - { district: "4", name: "Ralph \"Rafael\" Rosado", party: NP, url: "https://www.miami.gov/My-Government/City-Officials/District-4-Commissioner-Ralph-Rafael-Rosado" }
+    - { district: "5", name: Christine King, party: NP, url: "https://www.miami.gov/My-Government/City-Officials/District-5-Commissioner-Christine-King" }

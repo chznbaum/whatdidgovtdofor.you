@@ -1,0 +1,8 @@
+name: Ron DeSantis
+party: R
+office: Governor of Florida
+level: state
+jurisdiction: fl
+current: true
+seat: { place: fl, title: Governor, until: 2027-01-05 }
+url: https://www.flgov.com/eog/leadership/people/ron-desantis

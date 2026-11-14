@@ -1,0 +1,39 @@
+name: Pinellas County
+short: Pinellas
+kind: county
+parent: fl
+geoids: { state: "12", county: "12103" }
+# Legistar: board-voted items with movers, seconders, roll calls and staff summaries; items delegated to staff are
+# left out by type.
+feeds:
+  - { type: legistar, client: pinellas, types: ["Contract/Agreement", Resolution, Ordinance, "Zoning / Land Use and Related Item", "Grant Related Item", "County Attorney Item", "Real Estate Item"], text: true }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # The County GIS's single-member district view (the 2021 redistricting): exactly four polygons, DISTRICTID "4"-"7",
+  # REPNAME current ("Rene Flowers" without the accent). Districts 1-3 are at large (countywide; the companion
+  # Pinellas_BCCAtLargeDistrict_view isn't used, since a countywide polygon would come back alongside the district).
+  # Checked 2026-11-14 with Origin https://whatdidgovtdofor.you: Access-Control-Allow-Origin "*"; the Clearwater
+  # courthouse (-82.8001, 27.9659) → one feature, "5" (Chris Latvala).
+  districts: { arcgis: "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_BCCSingleMemberDistrict_view/FeatureServer/0", field: DISTRICTID }
+  url: "https://pinellas.gov/pinellas-county-board-of-county-commissioners/"
+  checked: 2026-11-14
+  # Partisan races (the ballot prints the party). The Supervisor of Elections' site (votepinellas.gov) refused us at
+  # Cloudflare, so labels come from news coverage of each race: Florida Politics and St. Pete Catalyst (2022: Latvala
+  # (R), Scott (R), Flowers (D), Peters (R), Eggers (R); 2024: Scherer (R) over Democrat Cookie Kennedy, Nowicki (R) over
+  # Democrat Charlie Justice, Flowers (D) unopposed after the Democratic primary); Axios Tampa Bay and Tampa Bay Beacons
+  # (2026). Verify against official results before publishing.
+  # Nov. 3, 2026: Tim Hughes (D) unseated Brian Scott (R) in At-Large District 2; Eggers (D4) and Peters (D6) re-elected.
+  # Turnover date: Nov. 17, 2026, the second Tuesday after the election (s. 100.041(2)(a), F.S.; no county ordinance
+  # moving it was found, and the 2022 investiture followed the same rule). Legistar's office record starts Hughes on
+  # Nov. 12, but its start dates are entry dates, not oath dates (it starts 2022's winners on a Friday and 2024's on a
+  # Sunday). The Nov. 17 regular meeting picks the 2027 chair and vice chair. The roster page still lists Scott.
+  members:
+    - { name: Chris Scherer, party: R, url: "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-scherer/" } # District 1 (at large)
+    - { name: Brian Scott, party: R, url: "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-brian-scott/", until: 2026-11-17 } # District 2 (at large); lost Nov. 3
+    - { name: Tim Hughes, party: D, from: 2026-11-17 } # District 2 (at large); elected Nov. 3, 2026; no county page yet
+    - { name: Vince Nowicki, party: R, url: "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-vince-nowicki/" } # District 3 (at large)
+    - { district: "4", name: Dave Eggers, party: R, url: "https://pinellas.gov/commissioner-dave-eggers/" } # 2026 Chairman; re-elected Nov. 3
+    - { district: "5", name: Chris Latvala, party: R, url: "https://pinellas.gov/pinellas-county-board-of-county-commissioners/commissioner-chris-latvala/" } # 2026 Vice Chairman
+    - { district: "6", name: Kathleen Peters, party: R, url: "https://pinellas.gov/commissioner-kathleen-peters/" } # re-elected Nov. 3 over Democrat David Glenn Jr.
+    - { district: "7", name: René Flowers, party: D, url: "https://pinellas.gov/commissioner-rene-flowers/" }
