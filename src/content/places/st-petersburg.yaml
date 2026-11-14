@@ -1,0 +1,40 @@
+name: St. Petersburg
+short: St. Petersburg
+kind: city
+parent: pinellas-county
+geoids: { state: "12", place: "1263000" }
+# "Numbered Action Taken" PDFs the day after a meeting, with each item's mover, seconder and every member's vote.
+feeds:
+  - { type: minutes-list, url: "https://www.stpete.org/government/mayor___city_council/city_council/council_minutes_action_taken.php", pages: 1, title: St. Petersburg City Council, layout: blocks, link: Action Taken }
+council:
+  body: City Council
+  title: Council Member
+  # The City GIS's council district view (owner stpetegis; the 2022 redistricting): exactly eight polygons, DISTRICTID
+  # "1"-"8", REPNAME current (goes stale for 2 and 6 on Jan. 7). Members run in district primaries but citywide in the
+  # general; each still represents a district, so the lookup shows the district's member. Checked 2026-11-14 with
+  # Origin https://whatdidgovtdofor.you: Access-Control-Allow-Origin "*"; City Hall (-82.6400, 27.7700) → one feature,
+  # "6" (Gina Driscoll).
+  districts: { arcgis: "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/CityCouncilDistricts_view/FeatureServer/0", field: DISTRICTID }
+  url: "https://www.stpete.org/government/mayor___city_council/city_council/index.php"
+  checked: 2026-11-14
+  # Nonpartisan races: St. Petersburg's mayor and council run without party labels (city charter; the Pinellas
+  # Supervisor of Elections' site, which would show the ballot, refused us at Cloudflare). All NP, including Charlie
+  # Crist, who is a registered Democrat. Names as the roster writes them ("Corey Givens Jr."; the layer says "Corey
+  # Givens, Jr."); new members as news reports their ballot names (ballot not seen).
+  # Nov. 3, 2026 (unofficial results via Axios Tampa Bay, Nov. 4; WUSF): District 2 Gabriel Hament wins the open seat
+  # (Gabbard term-limited); District 6 Linsey Grove wins the open seat (Driscoll term-limited); Districts 4 and 8 were
+  # uncontested (Hanewicz and Floyd re-elected automatically at qualifying, WUSF May 29). New terms start Thursday,
+  # Jan. 7, 2027: the 2019 charter amendment (No. 2, 84% yes) has officials take office on the first Thursday of January
+  # unless that is New Year's Day (then the second Thursday); the 2022 and 2025 oaths were on Jan. 6 and Jan. 2, both
+  # first Thursdays. No 2027 ceremony announcement found yet.
+  members:
+    - { district: "1", name: Copley Gerdes, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_1.php" }
+    - { district: "2", name: Brandi Gabbard, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_2.php", until: 2027-01-07 }
+    - { district: "2", name: Gabriel Hament, party: NP, from: 2027-01-07 }
+    - { district: "3", name: Mike Harting, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_3.php" }
+    - { district: "4", name: Lisset Hanewicz, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_4.php" }
+    - { district: "5", name: Deborah Figgs-Sanders, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_5.php" }
+    - { district: "6", name: Gina Driscoll, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_6.php", until: 2027-01-07 }
+    - { district: "6", name: Linsey Grove, party: NP, from: 2027-01-07 }
+    - { district: "7", name: Corey Givens Jr., party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_7.php" }
+    - { district: "8", name: Richie Floyd, party: NP, url: "https://www.stpete.org/government/mayor___city_council/city_council/district_8.php" }

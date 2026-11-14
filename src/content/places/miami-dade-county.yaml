@@ -1,0 +1,46 @@
+name: Miami-Dade County
+short: Miami-Dade
+kind: county
+parent: fl
+geoids: { state: "12", county: "12086" }
+# The Clerk's minutes pages (the county's public Legistar API is a dead 2018 trial): every item's sponsors, title,
+# mover, seconder and vote, days after a meeting.
+feeds:
+  - { type: govaction, url: "https://www.miamidade.gov", minute: CC, body: Board of County Commissioners }
+council:
+  body: Board of County Commissioners
+  title: Commissioner
+  # Miami-Dade's own AGOL layer (owner MDPublisher, item 21f56c05380e477ea3008fd527ddafe4 "Commission District", data
+  # edited 2026-06-03): the post-2020 plan, exactly 13 polygons, ID 1 to 13, one per district (no at-large seats, so no
+  # overlapping polygons). COMMNAME carries today's members (goes stale for 1 on Jan. 3, 2027). CORS "*"; County Hall
+  # (111 NW 1st St) → ID 5 (Vicki L. Lopez), one feature. Don't use the same org's CommissionDistrict2011_gdb (old lines
+  # and names) or the 1992/2001 copies.
+  districts: { arcgis: "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/ArcGIS/rest/services/CommissionDistrict_gdb/FeatureServer/0", field: ID }
+  url: "https://www.miamidade.gov/global/government/commission/home.page"
+  checked: 2026-11-14
+  # Nonpartisan by charter (Art. 3, § 3.03): the Elections Department's qualifying sheet for the 2026 District 1 vacancy
+  # election says "TYPE OF ELECTION: Nonpartisan", and the official Aug. 18 and Nov. 3, 2026 results print no party for
+  # any commission candidate (while the partisan races on the same ballot do). All NP. Names as the county's roster
+  # writes them (the vice chairman's heading spells "Mcghee"; his district entry and the layer say "McGhee"). 2026:
+  # Districts 2, 4, 6, 8, 10 and 12 re-elected their members (4, 6, 10, 12 unopposed at qualifying; 2 and 8 won outright
+  # Aug. 18) and District 5's appointee Lopez won the Nov. 3 runoff for the rest of the term (60.5%), so no one changes
+  # in November. District 1: Gilbert's resign-to-run resignation (he won Congress, FL-24) takes effect Jan. 3, 2027; the
+  # county's qualifying sheet gives the vacancy term as "commencing on January 3, 2027 through November 21, 2028". Steve
+  # Gallon III was the only qualifier and is elected (name as WLRN prints it; the ballot didn't list the race, and the
+  # county has no page for him yet). Chair Rodriguez and Vice Chair McGhee were elected Nov. 20, 2024 for 2025-26; the
+  # board picks the 2027-28 leaders at year end (not yet), so they're comments, not roles.
+  members:
+    - { district: "1", name: "Oliver G. Gilbert, III", party: NP, url: "https://www.miamidade.gov/global/government/commission/district01/home.page", until: 2027-01-03 }
+    - { district: "1", name: Steve Gallon III, party: NP, from: 2027-01-03 }
+    - { district: "2", name: Marleine Bastien, party: NP, url: "https://www.miamidade.gov/global/government/commission/district02/home.page" }
+    - { district: "3", name: Keon Hardemon, party: NP, url: "https://www.miamidade.gov/global/government/commission/district03/home.page" }
+    - { district: "4", name: Micky Steinberg, party: NP, url: "https://www.miamidade.gov/global/government/commission/district04/home.page" }
+    - { district: "5", name: Vicki L. Lopez, party: NP, url: "https://www.miamidade.gov/global/government/commission/district05/home.page" }
+    - { district: "6", name: Natalie Milian Orbis, party: NP, url: "https://www.miamidade.gov/global/government/commission/district06/home.page" }
+    - { district: "7", name: Raquel A. Regalado, party: NP, url: "https://www.miamidade.gov/global/government/commission/district07/home.page" }
+    - { district: "8", name: Danielle Cohen Higgins, party: NP, url: "https://www.miamidade.gov/global/government/commission/district08/home.page" }
+    - { district: "9", name: Kionne L. McGhee, party: NP, url: "https://www.miamidade.gov/global/government/commission/district09/home.page" } # Vice Chairman
+    - { district: "10", name: Anthony Rodriguez, party: NP, url: "https://www.miamidade.gov/global/government/commission/district10/home.page" } # Chairman
+    - { district: "11", name: Roberto J. Gonzalez, party: NP, url: "https://www.miamidade.gov/global/government/commission/district11/home.page" }
+    - { district: "12", name: "Juan Carlos \"JC\" Bermudez", party: NP, url: "https://www.miamidade.gov/global/government/commission/district12/home.page" }
+    - { district: "13", name: René Garcia, party: NP, url: "https://www.miamidade.gov/global/government/commission/district13/home.page" }

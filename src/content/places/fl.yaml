@@ -1,0 +1,12 @@
+name: Florida
+short: FL
+kind: state
+parent: us
+geoids: { state: "12" }
+blurb: Actions by the Governor, the Legislature, and state agencies.
+# Legislators come from the Senate's and House's own member lists (members take office on election, weeks before Open
+# States catches up); laws from the Senate's bill search (fl-laws); executive orders from the Governor (fl-executive-orders).
+legislature:
+  roster: state-fl
+  upper: { name: Senate, title: State Senator }
+  lower: { name: House of Representatives, title: State Representative }

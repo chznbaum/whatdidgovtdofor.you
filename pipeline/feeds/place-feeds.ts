@@ -4,7 +4,9 @@ import { join } from 'node:path';
 import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
 import { acnjFeed } from './acnj.ts';
 import { agendaCenterFeed } from './agendacenter.ts';
+import { agendaOnlineFeed } from './agendaonline.ts';
 import { civicClerkFeed } from './civicclerk.ts';
+import { govactionFeed } from './govaction.ts';
 import { hcmsFeed } from './hcms.ts';
 import { iqm2Feed } from './iqm2.ts';
 import { laserficheFeed } from './laserfiche.ts';
@@ -113,6 +115,29 @@ export async function placeFeeds(): Promise<Feed[]> {
               id: f.id ?? `${place}-council`,
               description: `${p.name}: ${f.body} minutes and final agendas (meetings JSON)`,
               origin: f.url,
+              body: f.body,
+              place,
+            }),
+          );
+          break;
+        case 'agendaonline':
+          out.push(
+            agendaOnlineFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: meeting minutes (OnBase Agenda Online)`,
+              url: f.url,
+              types: new RegExp(f.types, 'i'),
+              place,
+            }),
+          );
+          break;
+        case 'govaction':
+          out.push(
+            govactionFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: ${f.body} minutes (Clerk's legislative pages)`,
+              origin: f.url,
+              minute: f.minute,
               body: f.body,
               place,
             }),

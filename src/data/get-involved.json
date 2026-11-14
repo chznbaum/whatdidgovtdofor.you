@@ -194,6 +194,16 @@
       "places": [
         "ga"
       ]
+    },
+    {
+      "name": "Ruth's List Florida: run for office",
+      "url": "https://ruthslistfl.org/run/",
+      "lean": "progressive",
+      "for": "Democratic women who support abortion rights and are thinking about running for office in Florida, from city commission and school board to the Legislature",
+      "offers": "a form to tell the group what office you're considering and how far along you are, so it can talk with you about the race, its trainings, and its endorsement process; its trainings page lists Changemaker luncheons and seminars around the state, multi-day 'She's Ready to Run' trainings held with the Florida Democratic Party, and a résumé bank that matches volunteers and staff with campaigns",
+      "places": [
+        "fl"
+      ]
     }
   ],
   "how_to_run": [
@@ -370,6 +380,66 @@
       "name": "Georgia.gov: run for public office",
       "url": "https://georgia.gov/run-public-office",
       "offers": "the state's step-by-step guide: the four ways onto a Georgia ballot (a party primary, a political body's petition or convention, an independent petition, or write-in), the partisan, nonpartisan, and county offices you can run for, and how qualifying works: state candidates qualify during set weeks, local candidates with their county or city elections office, everyone pays a fee or files a pauper's affidavit and petition, and you bring a photo ID and your candidacy form; its links for forms and fees go to the Secretary of State's site"
+    },
+    {
+      "place": "fl",
+      "name": "Florida Division of Elections: qualifying information",
+      "url": "https://dos.fl.gov/elections/candidates-committees/qualifying/",
+      "offers": "the state's qualifying page, with dates, the fee and petition charts, and the state, federal, and petition handbooks; candidates for Congress, Governor and Cabinet, and the Legislature qualify with the Division in Tallahassee, while county and school board candidates qualify with their county Supervisor of Elections in the same week (noon June 8 to noon June 12 in 2026; county judges qualify there in April); a party's candidate must have been a member of that party for 365 days before qualifying opens, and a no-party candidate in no party for 365 days; the 2026 fee for a State House or Senate seat was $1,781.82 with a party or $1,187.88 without one, or you can qualify by petition instead (2026 petitions were due May 11); a 2026 law (Chapter 2026-26) added qualifying requirements, so use the current forms"
+    },
+    {
+      "place": "fl",
+      "name": "Florida Commission on Ethics: financial disclosure when you qualify",
+      "url": "https://ethics.state.fl.us/Documents/Ethics/CandidateFAQ.pdf",
+      "offers": "a two-page guide (PDF) to the financial disclosure every candidate must hand in to qualify: you fill out Form 1 or Form 6 online in the Commission's filing system (paper forms are gone), choosing 'I am a Candidate' and requesting a registration email if you don't hold office now, then print it and give it to your qualifying officer"
+    },
+    {
+      "place": "miami-dade-county",
+      "name": "Miami-Dade Elections: candidate qualifying handbook",
+      "url": "https://www.votemiamidade.gov/elections/candidates-campaigns/candidate-qualifying-handbook.page",
+      "offers": "the county's handbook, office by office, with forms, fees, petition rules, and campaign finance and sign rules for county commission, school board, community council, and county judge races (commission, school board, and judge races are nonpartisan); in 2026 a commission seat cost $360 to qualify ($300 plus 1% of the salary) and a school board seat $2,200.56, or you could turn in petitions signed by 1% of the district's voters instead; the even-numbered commission and school board districts were on the 2026 ballot; city candidates qualify with their city clerk, and the page links a list of municipal clerks (questions: campaigns@votemiamidade.gov, 305-499-8683)"
+    },
+    {
+      "place": "miami",
+      "name": "Miami City Clerk: candidate qualifying",
+      "url": "https://www.miami.gov/My-Government/Elections/Candidate-Qualifying",
+      "offers": "how to run for mayor or city commissioner, which are nonpartisan seats: you must have lived in the city (or, for commissioner, the district) for a year before qualifying, and you file your forms with the City Clerk; it costs $682 to qualify for commissioner and $1,070 for mayor (a $100 city fee plus 1% of the salary for the state), payable from your campaign account, and you can skip the $100 by turning in petitions from 1% of voters (288 signatures for District 1, 432 for District 2, and 388 for District 4, the seats up in 2027) or have either fee waived by swearing you can't afford it (questions: City-Campaigns@miamigov.com, 305-250-5361)"
+    },
+    {
+      "place": "hialeah",
+      "name": "Hialeah City Clerk: candidate resources",
+      "url": "https://www.hialeahfl.gov/176/Candidate-Resources",
+      "offers": "the qualifying forms, the 2026 candidate and treasurer handbook, and the clerk's FAQ for running for City Council, a nonpartisan seat: you must have been a Hialeah voter for a year before the election, file with the City Clerk by appointment during the qualifying period, and pay a $100 city fee plus a $440 state assessment from your campaign account; a council term pays $44,000.32 a year, and the Group II seat filled in the Nov. 3, 2026 special election runs only to Nov. 5, 2027, when the city's regular election comes around (call 305-883-5820 to book)"
+    },
+    {
+      "place": "broward-county",
+      "name": "Broward Supervisor of Elections: become a candidate",
+      "url": "https://browardvotes.gov/candidates/become-candidate",
+      "offers": "the county's qualifying page for county commission (a partisan seat), school board, county judge, and special district races: the forms to file first, the qualifying weeks (in 2026, noon June 8 to noon June 12, and April 20 to 24 for county judges), and the fees, which in 2026 were $7,426.86 for a commission seat with a party or $4,951.24 without one and $2,263.48 for school board, or you can collect voter petitions instead of paying (2026 petitions were due May 11); you qualify at the Supervisor's office, 4650 NW 21st Avenue, Fort Lauderdale, weekdays 9 a.m. to 5 p.m.; the even-numbered commission districts were on the 2026 ballot"
+    },
+    {
+      "place": "fort-lauderdale",
+      "name": "Fort Lauderdale City Clerk: election information",
+      "url": "https://www.fortlauderdale.gov/Government/Departments/City-Clerks-Office/Election-Information",
+      "offers": "the City Clerk is the qualifying officer for mayor and the four district commission seats, which are all on the ballot together every four years; the next regular city election is Nov. 7, 2028 (if only one candidate qualifies for a seat, that person is declared elected), and the page has the 2028 campaign finance reporting schedule and candidates' filed reports; to qualify, book an appointment with the clerk's office (dsoloman@fortlauderdale.gov, 954-828-5006 or 954-828-5002)"
+    },
+    {
+      "place": "st-petersburg",
+      "name": "St. Petersburg City Clerk: candidate rules and information",
+      "url": "https://www.stpete.org/government/elections/candidate_rules.php",
+      "offers": "the City Clerk's page for running for mayor or City Council, which are nonpartisan (candidates can't run as a party's nominee): you must have lived in the city, or the council district, for 12 months before the primary, and the page has the candidate handbook, the forms and fees, and district maps; in 2026 it cost $839.57 to qualify for council ($150 city fee plus 1% of the salary for the state) and $2,801.52 for mayor, or you could turn in 500 voter petitions for council or 1,000 for mayor instead; the 2026 races were for mayor and Districts 2, 4, 6, and 8, and the clerk asks you to email city.clerk@stpete.org about future elections"
+    },
+    {
+      "place": "orange-county-fl",
+      "name": "Orange County Supervisor of Elections: candidate qualifying",
+      "url": "https://voteorangefl.gov/candidate-qualifying/",
+      "offers": "how to get on the ballot for county offices such as the County Commission (now eight districts) and school board: fact sheets for each office, the 2026 qualifying weeks (noon June 8 to noon June 12; county judges in April), and petition counts if you'd rather collect signatures than pay the fee (1% of voters, 1,046 signatures for a commission district in 2026); you file in person at 119 W. Kaley St., Orlando, and can book help (407-836-2070 ext. 71116); city candidates qualify with their city or town clerk instead"
+    },
+    {
+      "place": "gainesville",
+      "name": "Gainesville City Clerk: city elections",
+      "url": "https://www.gainesvillefl.gov/Government-Pages/Government/City-Clerk/Upcoming-City-Election",
+      "offers": "how to run for mayor or City Commission, which are nonpartisan seats: city elections are now held in even-numbered years (the 2026 races were for mayor and Districts 2, 3, and 4), you must have lived in the city, or the district, for 6 months before qualifying, and you qualify with the city's qualifying officer at City Hall during the state's June qualifying week; in 2026 it cost $1,290.28 for a district seat and $1,642.14 for mayor (a 2% qualifying fee plus a 1% state assessment), or you could submit 174 voter signatures for a district or 697 for mayor instead and pay only the assessment, which can be waived for hardship (questions: clerks@gainesvillefl.gov, 352-334-5015)"
     }
   ],
   "boards": [
@@ -636,6 +706,96 @@
       "name": "Fulton County Clerk to the Commission: boards and authorities",
       "url": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Boards-and-Authorities",
       "offers": "a fact sheet for each of the more than 60 boards, authorities, and commissions the county appoints to, from the Board of Health and Library Board to the Citizens Commission on the Environment and the Reparations Task Force, with what each does, who appoints (some seats are named by one district commissioner, others by the full board), terms, any pay, meeting times, and current members; there's no application form, so ask your district commissioner or the Clerk to the Commission at 404-612-8200"
+    },
+    {
+      "place": "fl",
+      "name": "Governor's Appointments Office: apply for a board or commission",
+      "url": "https://eogforms.eog.myflorida.com/pages/SeatApplication.aspx",
+      "offers": "the online application for the seats the governor fills, from state councils and university and college trustees to water management districts, regional planning councils, housing and port authorities, and some county vacancies, picked from a list on the form; you download and fill in the appointment questionnaire (PDF), upload it (5 MB or less), then enter your contact and demographic details; the governor's office changes hands on Jan. 5, 2027"
+    },
+    {
+      "place": "miami-dade-county",
+      "name": "Miami-Dade Clerk of the Board: county advisory boards",
+      "url": "https://www.miamidadeclerk.gov/clerk/cob-vacancies.page",
+      "offers": "the Clerk's page for the advisory boards, committees, councils, and trusts the County Commission sets up; service is unpaid, and it links the county's board system with each board's members, vacancies, and staff contact; commissioners nominate many of the members, and each commissioner's site has an advisory board page explaining how to apply through that district office"
+    },
+    {
+      "place": "miami-dade-county",
+      "name": "Miami-Dade Community Engagement Division: advisory boards",
+      "url": "https://www.miamidade.gov/global/government/commission/community-engagement/home.page",
+      "offers": "one online application for the county's community advisory boards, including the Commission for Women, the Black Affairs, Hispanic Affairs, Asian-American, Elder Affairs, and LGBTQIA+ advisory boards, the Community Relations Board, and the Domestic Violence Oversight Board, which advise the County Commission on what their communities need; the seats are volunteer"
+    },
+    {
+      "place": "miami",
+      "name": "Miami City Clerk: boards and committees",
+      "url": "https://www.miami.gov/My-Government/Departments/City-Clerks-Office/City-Boards-and-Committees-Information",
+      "offers": "the City Clerk's page for board openings that take applications; on Nov. 14, 2026 it was taking applications for the Little Haiti Revitalization Trust until 4 p.m. Nov. 20, 2026; for boards without an application, the city says to tell the commissioner, mayor, or city manager who nominates for that board, and most members must live, own property, work, or run a business in the city and most terms run a year and end early if the nominating commissioner leaves office (questions: Clerks@miamigov.com, 305-250-5361)"
+    },
+    {
+      "place": "hialeah",
+      "name": "City of Hialeah: boards and commissions",
+      "url": "https://www.hialeahfl.gov/189/Boards-Commissions",
+      "offers": "what each city board does, among them the Planning and Zoning Board, the Affordable Housing Advisory Committee, the Historic Preservation Board, the Personnel Board, and the cultural affairs, beautification, veterans, faith, and youth advisory committees; there is no application on the page, so ask the City Clerk (305-883-5820) how to be considered"
+    },
+    {
+      "place": "fort-lauderdale",
+      "name": "Fort Lauderdale City Clerk: advisory boards, committees, and authorities",
+      "url": "https://www.fortlauderdale.gov/Government/Departments/City-Clerks-Office/Advisory-Boards-Committees-Authorities-Information",
+      "offers": "a link to apply online for the city's more than 40 boards, most of which advise the City Commission, from the Affordable Housing Advisory Committee, Homeless Advisory Committee, Budget Advisory Board, and Education Advisory Board to the Planning and Zoning Board and the Housing Authority; each board's details page names the staff liaison who can tell you what it takes to serve (City Clerk's office: CMinott@fortlauderdale.gov)"
+    },
+    {
+      "place": "pinellas-county",
+      "name": "Pinellas County: apply to serve on a board, council, or committee",
+      "url": "https://pinellas.gov/services/apply-to-serve-on-a-board-council-or-committee/",
+      "offers": "the county's page for the volunteer seats the County Commission fills throughout the year, with a button to the online application and links to the application process and the list of boards, councils, and committees with current vacancies, each with its own deadline"
+    },
+    {
+      "place": "st-petersburg",
+      "name": "City of St. Petersburg: boards and committees",
+      "url": "https://www.stpete.org/government/boards___committees/index.php",
+      "offers": "the list of nearly 40 city boards and committees with an Apply Here link to one application, among them the Affordable Housing Advisory Committee, Advisory Commission on Aging, Social Services Allocation Committee, Complete Streets Committee, Civil Service Board, and Development Review Commission; the list marks which have openings, and on Nov. 14, 2026 it showed seats open on the GO Bond Advisory Committee, the Resilience Advisory Committee, and the Social Services Allocation Committee"
+    },
+    {
+      "place": "orange-county-fl",
+      "name": "Orange County: advisory boards",
+      "url": "https://apps.ocfl.net/aware/advisory/board_listing.asp",
+      "offers": "the list of advisory boards, commissions, and authorities the County Commission appoints, from the Affordable Housing, Community Development, and Disability advisory boards to lake and agricultural boards, with links to each board's details and members, current vacancies, and the online application; the seats are volunteer, members who miss three meetings in a row or a quarter of a year's meetings are considered to have resigned, and financial disclosure comes after appointment, not when you apply"
+    },
+    {
+      "place": "tampa",
+      "name": "City of Tampa City Clerk: boards and commissions",
+      "url": "https://www.tampa.gov/city-clerk/info/boards-and-commissions",
+      "offers": "the city's current openings, each with an Apply link, split into seats the City Council fills and seats the mayor fills; on Nov. 14, 2026 they included an at-large seat on the Community Benefits Advisory Council, alternates on the Architecture Review Commission, Historic Preservation Commission, and Code Enforcement/Public Nuisance Abatement Board, a Ybor City resident seat on the Barrio Latino Commission, and an arborist or landscape architect seat on the Variance Review Board; the page also links the list of active members and a guide to every city board"
+    },
+    {
+      "place": "tampa",
+      "name": "Hillsborough County: open seats on citizen boards and councils",
+      "url": "https://app.hillsboroughcounty.org/BoardsAndCouncils/Portal",
+      "offers": "Hillsborough County's list of open seats on boards the County Commission fills, open to Tampa residents as county residents, each with its requirements, due date, and application; on Nov. 14, 2026 about 25 boards, including the Human Relations Board, Affordable Housing Advisory Board, Public Library Board, Planning Commission, HART (the transit authority), and the Hospital Authority, were taking applications until close of business Dec. 11, 2026, and CareerSource Tampa Bay until Nov. 30; most seats require you to live in and be registered to vote in the county, some require living outside city limits or filing a yearly financial disclosure"
+    },
+    {
+      "place": "gainesville",
+      "name": "Gainesville City Clerk: advisory boards and committees",
+      "url": "https://www.gainesvillefl.gov/Government-Pages/Government/City-Clerk/Advisory-Boards-Committees",
+      "offers": "the online application (with a résumé) for the city's advisory boards, where more than 200 residents advise the City Commission on affordable housing, the environment, transportation, human rights, cultural affairs, and more, with links to the vacancy list, board descriptions, and a handbook; applications run in monthly cycles closing at 5 p.m. on the last business day of the month, you can apply for two boards per cycle, and some applicants are invited to speak at a City Commission meeting (help: cityboardapp@gainesvillefl.gov, 352-334-5016)"
+    },
+    {
+      "place": "gainesville",
+      "name": "Alachua County: advisory boards and committees",
+      "url": "https://alachuacounty.us/Depts/bocc/advisoryboards/Pages/default.aspx",
+      "offers": "how to join one of Alachua County's advisory boards, open to Gainesville residents as county residents, where more than 250 people advise the County Commission on affordable housing, economic development, the environment, human rights, county finances, and more; it links the board list with vacancies and the online application, most boards meet once a month, the Commission makes appointments at its meetings on the second and fourth Tuesdays and invites you to speak for yourself, and an application is kept for a year if you aren't picked (meeting information: County Manager's Office, 352-374-5204)"
+    },
+    {
+      "place": "jacksonville",
+      "name": "City of Jacksonville: mayoral boards and commissions",
+      "url": "https://www.jacksonville.gov/departments/boards-and-commissions/appointment-opportunities",
+      "offers": "the boards the mayor appoints, with a link to one online application: among them the Library Board of Trustees, the Environmental Protection Board, the Mayor's Disability Council, Commission on the Status of Women, Young Leaders Advisory Council, and African American, Asian American, Hispanic American, and LGBTQ advisory boards, plus code enforcement and nuisance abatement boards; the seats are volunteer, for Duval County residents, with set terms, and some need expertise while others need only interest; the Ethics Commission takes applications separately on the same page"
+    },
+    {
+      "place": "jacksonville",
+      "name": "Jacksonville City Council: board and commission appointments",
+      "url": "https://www.jacksonville.gov/city-council/transparency-in-action/city-council-appointments",
+      "offers": "the City Council's online application for the seats it fills, such as the Jacksonville-Duval County Council on Elder Affairs, Environmental Protection Board, Tourist Development Council, Public Nuisance Abatement Board, pension boards, and community redevelopment advisory boards for KingSoutel Crossing and Arlington; you pick a board, answer questions about conflicts of interest, and upload a background form; seats are volunteer, for Duval County residents, and state law requires attending meetings in person"
     }
   ],
   "poll_work": [
@@ -836,6 +996,30 @@
       "name": "Gwinnett County Elections: be a poll official",
       "url": "https://www.gwinnettcounty.com/government/departments/elections/poll-official",
       "offers": "a link to apply, hiring events, and what Election Day is like: about 3,000 poll officials, at their home precinct when possible, from 5:30 a.m. until closing work is done (plan on 14 hours or more), after an online course and, for some jobs, two to four hours of in-person training; the county's elections FAQ lists pay with training of $160 for non-issuing clerks, $325 for issuing clerks, $390 for assistant managers, and $490 for managers, paid about four weeks after the election; new hires must show proof of U.S. citizenship"
+    },
+    {
+      "place": "fl",
+      "name": "Florida Division of Elections: find your county Supervisor of Elections",
+      "url": "https://dos.fl.gov/elections/contacts/supervisor-of-elections/",
+      "offers": "Florida has no statewide poll worker sign-up: each of the 67 county Supervisors of Elections hires, trains, and pays its own poll workers, and pay differs by county; this page has a lookup and a spreadsheet (updated Oct. 22, 2026) with every office's phone, email, and website, where each county's sign-up is"
+    },
+    {
+      "place": "miami-dade-county",
+      "name": "Miami-Dade Elections: become a poll worker",
+      "url": "https://www.votemiamidade.gov/elections/poll-workers/home.page",
+      "offers": "the online application, plus a separate one for high school students; you must be a registered or pre-registered voter in Miami-Dade, train before every election and pass a short test, and be at your polling place by 5:30 a.m. on Election Day (polls are open 7 a.m. to 7 p.m.); pay is a stipend by position covering training, setup, and Election Day, which the county's pay chart puts at $346.31 for a clerk, $309.32 for an election specialist, $273.91 for an assistant clerk, $200.33 for an inspector, and $190.33 for a poll deputy (questions: pwinformation@votemiamidade.gov, 305-499-8448)"
+    },
+    {
+      "place": "broward-county",
+      "name": "Broward Supervisor of Elections: Election Day workers",
+      "url": "https://browardvotes.gov/get-involved/what-election-day-worker",
+      "offers": "paid poll jobs with a link to the online application: you must be a registered Broward voter and take at least 4 hours of training; Election Day pay, including training, is $350 for a clerk, $285 to $330 for a voting system technician, $240 for an assistant clerk, $230 for an inspector, and $210 for a poll deputy, early voting workers earn $18 to $22 an hour, and warehouse staff $18 an hour; training isn't paid if you don't work Election Day"
+    },
+    {
+      "place": "orange-county-fl",
+      "name": "Orange County Supervisor of Elections: become an election worker",
+      "url": "https://voteorangefl.gov/become-an-election-worker/",
+      "offers": "$200 to $425 per Election Day, depending on the job, usually paid the same day and never later than 14 business days after; new workers fill out an interest form, then attend an orientation and training before each election; you must be a registered or pre-registered Orange County voter, read, write, and speak English, have email and a computer, arrive by 5:45 a.m. for a 14-hour day, and be able to lift 20 pounds; groups can raise money by staffing a whole precinct through Adopt-A-Precinct"
     }
   ]
 }

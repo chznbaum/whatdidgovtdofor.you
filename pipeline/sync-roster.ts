@@ -82,7 +82,48 @@ const OFFICIAL_URL: Record<string, () => Promise<(r: Record<string, string>) => 
   },
 };
 
+// Legislatures read from their own member lists instead of Open States. Florida's members take office on election
+// (Art. III §15(d)) and both chambers list the new term right away, weeks before Open States rebuilds. The Senate's list
+// is keyed by district ("Vacant" for an empty seat); the House's carries each member's lifelong MemberId. Party is the
+// ballot label: Florida's for no party is NPA.
+const CHAMBER_LISTS: Record<string, () => Promise<{ name: string; party: string; chamber: string; district: string; url: string }[]>> = {
+  async fl() {
+    const party = (p: string) => ({ Republican: 'R', Democrat: 'D', Democratic: 'D', 'No Party Affiliation': 'NPA' })[p.trim()] ?? 'I';
+    const text = (s: string) => s.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;|&rsquo;/g, "'").replace(/\s+/g, ' ').trim();
+    // "Abbott, Shane G." -> "Shane G. Abbott"; "Bush, James, III" -> "James Bush III"
+    const natural = (s: string) => {
+      const [last, first, ...rest] = s.split(',').map((t) => t.trim());
+      return [first, last, ...rest].filter(Boolean).join(' ');
+    };
+    const senate = await get('https://www.flsenate.gov/Senators/');
+    const senators = [...senate.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].flatMap(([, row]) => {
+      const m = row.match(/href="\/Senators\/[\d-]+\/S(\d+)"[^>]*>(?:<img[^>]*>)?([^<]+)<\/a>[\s\S]*?<td[^>]*>\s*\d+\s*<\/td>\s*<td[^>]*>([^<]*)<\/td>/);
+      if (!m || /^Vacant$/i.test(text(m[2]))) return [];
+      return [{ name: natural(text(m[2])), party: party(m[3]), chamber: 'upper', district: m[1], url: `https://www.flsenate.gov/Senators/S${m[1]}` }];
+    });
+    const house = await get('https://www.flhouse.gov/Sections/Representatives/representatives.aspx');
+    const reps = [...house.matchAll(/details\.aspx\?MemberId=(\d+)[^"]*"[\s\S]*?<h5>([\s\S]*?)<\/h5>\s*<p>([^<&]*?)\s*&mdash;\s*<span[^>]*>District:\s*(\d+)/g)].map(
+      ([, id, name, p, district]) => ({
+        name: natural(text(name)),
+        party: party(p),
+        chamber: 'lower',
+        district,
+        url: `https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=${id}`,
+      }),
+    );
+    if (senators.length < 35 || reps.length < 110) throw new Error(`fl: parsed ${senators.length} senators and ${reps.length} representatives`);
+    return [...senators, ...reps];
+  },
+};
+
 async function syncState(state: string) {
+  if (CHAMBER_LISTS[state]) {
+    const members = await CHAMBER_LISTS[state]();
+    const synced = new Date().toISOString().slice(0, 10);
+    await writeFile(new URL(`state-${state}.json`, OUT), JSON.stringify({ synced, state, members }, null, 1) + '\n');
+    console.log(`${state}: ${members.length} legislators (from the chambers' own lists)`);
+    return;
+  }
   const rows = parseCsv(await get(`https://data.openstates.org/people/current/${state}.csv`));
   const official = await OFFICIAL_URL[state]?.();
   const members = rows

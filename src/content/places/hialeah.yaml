@@ -1,0 +1,29 @@
+name: Hialeah
+short: Hialeah
+kind: city
+parent: miami-dade-county
+geoids: { state: "12", place: "1230000" }
+# Agenda Center minutes (10 seconds between requests) with movers, seconders and named ayes, days after a meeting.
+feeds:
+  - { type: agendacenter, url: "https://www.hialeahfl.gov", category: 9, file: minutes }
+council:
+  body: City Council
+  title: Council Member
+  # No `districts`: all seven members are elected citywide (Groups I to VII), so every Hialeah address sees all seven.
+  url: "https://www.hialeahfl.gov/435/City-Council"
+  checked: 2026-11-14
+  # Nonpartisan: the official Miami-Dade results for the Nov. 3, 2026 "Hialeah Councilmember Group II" special primary
+  # print no party (Luis Gonzalez 22,979, 54.4%, over Mariana V. Chavez), like every Hialeah race. All NP. Names and
+  # order as the city's council page writes them. It still calls Gonzalez "Acting Member": he has held, on an interim
+  # basis (the press reports his appointment), the Group II seat Jesús Tundidor left to run for mayor in 2025. His
+  # Nov. 3 majority elects him outright (no December runoff) for the rest of that term, which the press puts at Nov.
+  # 2027. No seat changes hands. The council elects its President and Vice President from its members (comments, not
+  # roles).
+  members:
+    - { name: Carl Zogby, party: NP, url: "https://www.hialeahfl.gov/443/Carl-Zogby" } # President
+    - { name: Melinda De La Vega, party: NP, url: "https://www.hialeahfl.gov/1133/Melinda-De-La-Vega" } # Vice President
+    - { name: Monica Perez, party: NP, url: "https://www.hialeahfl.gov/804/Monica-Perez" }
+    - { name: Luis Rodriguez, party: NP, url: "https://www.hialeahfl.gov/964/Luis-Rodriguez" }
+    - { name: Gelien Perez, party: NP, url: "https://www.hialeahfl.gov/1183/Gelien-Perez" }
+    - { name: William Marrero, party: NP, url: "https://www.hialeahfl.gov/1184/William-Marrero" }
+    - { name: Luis Gonzalez, party: NP, url: "https://www.hialeahfl.gov/1190/Luis-Gonzalez" } # Group II; elected Nov. 3, 2026

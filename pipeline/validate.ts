@@ -118,8 +118,11 @@ function councilProblems(file: string, p: z.infer<Schemas['places']>): Problem[]
     for (const d of Object.values('towns' in l ? l.towns : 'values' in l ? (l.values ?? {}) : {}).flat())
       if (!seats.has(plain(d))) out.push(`council.districts: no member sits for district "${d}"`);
   if (!c.roster && !c.checked) out.push('council.checked: say when the roster was last checked against the government\'s page');
-  const names = c.members.map((m) => m.name);
-  if (new Set(names).size !== names.length) out.push('council.members: a name appears twice');
+  // A name can appear twice only for back-to-back periods (a mayor's title passing to a colleague on a known date).
+  for (const [i, a] of c.members.entries())
+    for (const b of c.members.slice(i + 1))
+      if (a.name === b.name && !((a.until && b.from && a.until <= b.from) || (b.until && a.from && b.until <= a.from)))
+        out.push(`council.members: ${a.name} appears twice for the same time`);
   for (const m of c.members) if (m.from && m.until && m.until <= m.from) out.push(`council.members: ${m.name} leaves before taking office`);
   return out.map((message) => ({ file, message }));
 }

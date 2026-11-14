@@ -1,0 +1,6 @@
+name: South Florida
+short: South Florida
+kind: region
+parent: fl
+members: [miami-dade-county, miami, hialeah, broward-county, fort-lauderdale]
+blurb: Miami-Dade and Broward counties and their largest cities.

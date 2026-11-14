@@ -1,0 +1,53 @@
+name: Jacksonville
+short: Jacksonville
+kind: city
+parent: fl
+# Consolidated with Duval County, but Duval's beach cities and Baldwin have their own governments, so Jacksonville is
+# matched by its Census place, not the county.
+geoids: { state: "12", place: "1235000" }
+# Legistar: ordinances and resolutions with sponsors ("Mayor" for the administration's), passed within days.
+feeds:
+  - { type: legistar, client: jaxcityc, types: [Ordinance, Resolution], sponsors: true }
+council:
+  body: City Council
+  title: Council Member
+  # The City's own ArcGIS Server: the "Council District" layer behind the City's "CoJ City Council Districts" web maps
+  # (the folder name is a tree-canopy project's, so it may move; the AGOL copy services1.arcgis.com/NXfNVaFp7QMxnE3j/
+  # .../CouncilDistricts/FeatureServer/0 has the same fields). Exactly 14 polygons, DISTRICT "1"-"14", MEMBER_NAM
+  # current (its "Raul Arias, Jr." and "Michael Gay" differ from the roster's spelling; names here are the roster's).
+  # The 2022 court-ordered lines used since the 2023 election. Checked 2026-11-14 with Origin https://whatdidgovtdofor.you:
+  # Access-Control-Allow-Origin echoes our origin; City Hall (-81.6588, 30.3275) → one feature, "7" (Jimmy Peluso);
+  # Jacksonville Beach (-81.3934, 30.2947) → one feature, "13" (Rory Diamond). At-large groups have no polygon.
+  districts: { arcgis: "https://maps.coj.net/coj/rest/services/PlanItGeoTrees/PlanItGeoTrees/MapServer/7", field: DISTRICT }
+  url: "https://www.jacksonville.gov/city-council/city-council-members"
+  checked: 2026-11-14
+  # Partisan races: Jacksonville's consolidated government holds partisan "unitary" elections (every candidate on one
+  # ballot with the party printed; first election in March, general in May). The Duval Supervisor of Elections' site is
+  # behind Cloudflare and refused us, so labels come from news that reprints the ballot's labels (Action News Jax/WOKV
+  # 2023 results, "Will Lahnen (REP)", "Rahman Johnson (DEM)"; Jacksonville Today; Florida Trib for Holder): 13 R, 6 D.
+  # Verify against an official ballot source before publishing. Names as the roster page writes them ("Ronald B.
+  # Salem"; Legistar writes "Ron Salem" and "Mone' Holder"). Terms run to June 30, 2027 (Legistar office records,
+  # body 138); no council seat was on the Nov. 3, 2026 ballot, so nothing changes until July 1, 2027 (March/May 2027
+  # elections). At-Large Group 1: Terrance Freeman (R) resigned to run for State House District 12 (resign-to-run);
+  # Moné Holder (D) won the Aug. 18, 2026 special election and Legistar starts her term Aug. 28, 2026.
+  members:
+    - { district: "1", name: Ken Amaro, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d01" }
+    - { district: "2", name: Mike Gay, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d02" }
+    - { district: "3", name: Will Lahnen, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d03" }
+    - { district: "4", name: Kevin Carrico, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d04" }
+    - { district: "5", name: Joe Carlucci, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d05" } # Vice President
+    - { district: "6", name: Michael Boylan, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d06" }
+    - { district: "7", name: Jimmy Peluso, party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/d07" }
+    - { district: "8", name: "Reggie Gaffney, Jr.", party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/d08" }
+    - { district: "9", name: Tyrona Clark-Murray, party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/d09" }
+    - { district: "10", name: "Ju'Coby Pittman", party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/d10" }
+    - { district: "11", name: Raul Arias, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d11" }
+    - { district: "12", name: Randy White, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d12" }
+    - { district: "13", name: Rory Diamond, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/d13" }
+    - { district: "14", name: Rahman Johnson, party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/d14" }
+    # At-large groups: each member lives in a residence area but is elected countywide, so shown to every address.
+    - { name: Moné Holder, party: D, url: "https://www.jacksonville.gov/city-council/city-council-members/al1" } # At-Large Group 1
+    - { name: Ronald B. Salem, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/al2" } # At-Large Group 2
+    - { name: Nick Howland, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/al3" } # At-Large Group 3; Council President 2026-27 (chosen by the council, not a separate election)
+    - { name: Matt Carlucci, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/al4" } # At-Large Group 4
+    - { name: Chris Miller, party: R, url: "https://www.jacksonville.gov/city-council/city-council-members/al5" } # At-Large Group 5

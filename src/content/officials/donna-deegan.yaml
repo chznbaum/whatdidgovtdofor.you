@@ -1,0 +1,8 @@
+name: Donna Deegan
+party: D
+office: Mayor of Jacksonville
+level: local
+jurisdiction: jacksonville
+current: true
+seat: { place: jacksonville, title: Mayor }
+url: https://www.jacksonville.gov/mayor

@@ -7,8 +7,7 @@
 // repeat each two-year session, so a law is keyed by session and bill. Out of session the job reads two or three pages
 // and posts nothing. About 40% of Georgia's laws are local acts for one city or county; only those for a place we cover
 // are kept. The site's own JSON API needs a token its script derives from an obscured key, so it isn't used.
-import { join } from 'node:path';
-import { CONTENT, idFromPath, listFiles, readYaml } from '../lib/content.ts';
+import { coveredPlaceNames } from './places.ts';
 import type { Candidate, Feed } from './types.ts';
 import { decodeEntities, get, getTextIfExists, newest, plainText, sleep, truncate } from './util.ts';
 
@@ -50,15 +49,6 @@ async function signed(path: string): Promise<string[]> {
   return [...new Set(pages.flatMap((html) => [...html.matchAll(/data-text="([^"]+)"/g)].map((m) => m[1].toUpperCase().replace(/\s+/g, ' ').trim())))];
 }
 
-// Names of the Georgia places we cover, for keeping the local acts that are theirs ("Atlanta, City of; ...").
-async function coveredNames(): Promise<RegExp> {
-  const places = new Map<string, any>();
-  for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) places.set(idFromPath(file), await readYaml(file));
-  const inGeorgia = (id: string): boolean => id === 'ga' || (!!places.get(id)?.parent && inGeorgia(places.get(id).parent));
-  const names = [...places].filter(([id, p]) => id !== 'ga' && inGeorgia(id) && p.kind !== 'region').map(([, p]) => p.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  return new RegExp(`^(?:${names.join('|') || '$^'})(?:, City of)?;`, 'i');
-}
-
 const member = (description: string) => {
   // "Chastain, Johnny 7th" -> "Johnny Chastain (7th)"
   const m = description.match(/^(.+?),\s*(.+?)\s+(\d+(?:st|nd|rd|th))$/);
@@ -72,7 +62,8 @@ async function law(id: string, session: Session, local: RegExp): Promise<Candida
   const enacted = statuses.find((s) => /^Act\b/.test(s.name));
   if (!act || /^V/i.test(act) || !enacted) return null; // vetoed, or not recorded yet
   const caption = tag(xml, 'Caption');
-  if (tag(xml, 'LegislationType') === 'LOC' && !local.test(caption)) return null;
+  // A local act's caption starts with its place: "Atlanta, City of; ...", "Fulton County; ...".
+  if (tag(xml, 'LegislationType') === 'LOC' && !local.test(caption.split(';')[0])) return null;
   const bill = `${tag(xml, 'DocumentType')} ${tag(xml, 'Number')}${tag(xml, 'Suffix')}`;
   // Authors are Sponsorships; the other chamber's carrier is the detail's single Sponsor.
   const authors = [...all(xml, 'Sponsorship'), ...all(xml, 'Sponsor')]
@@ -115,7 +106,7 @@ export const gaLaws: Feed = {
   description: "Georgia bills signed into law (the Governor's lists and the General Assembly's SOAP web services)",
   async fetch({ since, limit, known }) {
     const list = await sessions();
-    const local = await coveredNames();
+    const local = await coveredPlaceNames('ga');
     const out: Candidate[] = [];
     for (let year = Number(since.slice(0, 4)); year <= new Date().getFullYear(); year++) {
       for (const [path, session] of [

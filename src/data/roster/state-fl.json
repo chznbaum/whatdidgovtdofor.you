@@ -1,0 +1,1119 @@
+{
+ "synced": "2026-11-14",
+ "state": "fl",
+ "members": [
+  {
+   "name": "Ben Albritton",
+   "party": "R",
+   "chamber": "upper",
+   "district": "27",
+   "url": "https://www.flsenate.gov/Senators/S27"
+  },
+  {
+   "name": "Kristen Aston Arrington",
+   "party": "D",
+   "chamber": "upper",
+   "district": "25",
+   "url": "https://www.flsenate.gov/Senators/S25"
+  },
+  {
+   "name": "Mack Bernard",
+   "party": "D",
+   "chamber": "upper",
+   "district": "24",
+   "url": "https://www.flsenate.gov/Senators/S24"
+  },
+  {
+   "name": "Lauren Book",
+   "party": "D",
+   "chamber": "upper",
+   "district": "30",
+   "url": "https://www.flsenate.gov/Senators/S30"
+  },
+  {
+   "name": "Jim Boyd",
+   "party": "R",
+   "chamber": "upper",
+   "district": "20",
+   "url": "https://www.flsenate.gov/Senators/S20"
+  },
+  {
+   "name": "LaVon Bracy Davis",
+   "party": "D",
+   "chamber": "upper",
+   "district": "15",
+   "url": "https://www.flsenate.gov/Senators/S15"
+  },
+  {
+   "name": "Jennifer Bradley",
+   "party": "R",
+   "chamber": "upper",
+   "district": "6",
+   "url": "https://www.flsenate.gov/Senators/S6"
+  },
+  {
+   "name": "James Buchanan",
+   "party": "R",
+   "chamber": "upper",
+   "district": "22",
+   "url": "https://www.flsenate.gov/Senators/S22"
+  },
+  {
+   "name": "Danny Burgess",
+   "party": "R",
+   "chamber": "upper",
+   "district": "23",
+   "url": "https://www.flsenate.gov/Senators/S23"
+  },
+  {
+   "name": "Colleen Burton",
+   "party": "R",
+   "chamber": "upper",
+   "district": "12",
+   "url": "https://www.flsenate.gov/Senators/S12"
+  },
+  {
+   "name": "Alexis Calatayud",
+   "party": "R",
+   "chamber": "upper",
+   "district": "38",
+   "url": "https://www.flsenate.gov/Senators/S38"
+  },
+  {
+   "name": "Tracie Davis",
+   "party": "D",
+   "chamber": "upper",
+   "district": "5",
+   "url": "https://www.flsenate.gov/Senators/S5"
+  },
+  {
+   "name": "Nick DiCeglie",
+   "party": "R",
+   "chamber": "upper",
+   "district": "18",
+   "url": "https://www.flsenate.gov/Senators/S18"
+  },
+  {
+   "name": "Fentrice Driskell",
+   "party": "D",
+   "chamber": "upper",
+   "district": "16",
+   "url": "https://www.flsenate.gov/Senators/S16"
+  },
+  {
+   "name": "Don Gaetz",
+   "party": "R",
+   "chamber": "upper",
+   "district": "1",
+   "url": "https://www.flsenate.gov/Senators/S1"
+  },
+  {
+   "name": "Ashley Viola Gantt",
+   "party": "D",
+   "chamber": "upper",
+   "district": "34",
+   "url": "https://www.flsenate.gov/Senators/S34"
+  },
+  {
+   "name": "Ileana Garcia",
+   "party": "R",
+   "chamber": "upper",
+   "district": "36",
+   "url": "https://www.flsenate.gov/Senators/S36"
+  },
+  {
+   "name": "Erin Grall",
+   "party": "R",
+   "chamber": "upper",
+   "district": "29",
+   "url": "https://www.flsenate.gov/Senators/S29"
+  },
+  {
+   "name": "Gayle Harrell",
+   "party": "R",
+   "chamber": "upper",
+   "district": "31",
+   "url": "https://www.flsenate.gov/Senators/S31"
+  },
+  {
+   "name": "Jake Johansson",
+   "party": "R",
+   "chamber": "upper",
+   "district": "8",
+   "url": "https://www.flsenate.gov/Senators/S8"
+  },
+  {
+   "name": "Thomas J. &quot;Tom&quot; Leek",
+   "party": "R",
+   "chamber": "upper",
+   "district": "7",
+   "url": "https://www.flsenate.gov/Senators/S7"
+  },
+  {
+   "name": "John Lowndes",
+   "party": "D",
+   "chamber": "upper",
+   "district": "10",
+   "url": "https://www.flsenate.gov/Senators/S10"
+  },
+  {
+   "name": "Jonathan Martin",
+   "party": "R",
+   "chamber": "upper",
+   "district": "33",
+   "url": "https://www.flsenate.gov/Senators/S33"
+  },
+  {
+   "name": "Ralph E. Massullo Jr.",
+   "party": "R",
+   "chamber": "upper",
+   "district": "11",
+   "url": "https://www.flsenate.gov/Senators/S11"
+  },
+  {
+   "name": "Debbie Mayfield",
+   "party": "R",
+   "chamber": "upper",
+   "district": "19",
+   "url": "https://www.flsenate.gov/Senators/S19"
+  },
+  {
+   "name": "Stan McClain",
+   "party": "R",
+   "chamber": "upper",
+   "district": "9",
+   "url": "https://www.flsenate.gov/Senators/S9"
+  },
+  {
+   "name": "Lauren Uhlich Melo",
+   "party": "R",
+   "chamber": "upper",
+   "district": "28",
+   "url": "https://www.flsenate.gov/Senators/S28"
+  },
+  {
+   "name": "Brian Nathan",
+   "party": "D",
+   "chamber": "upper",
+   "district": "14",
+   "url": "https://www.flsenate.gov/Senators/S14"
+  },
+  {
+   "name": "Chris Nocco",
+   "party": "R",
+   "chamber": "upper",
+   "district": "21",
+   "url": "https://www.flsenate.gov/Senators/S21"
+  },
+  {
+   "name": "Rosalind Osgood",
+   "party": "D",
+   "chamber": "upper",
+   "district": "32",
+   "url": "https://www.flsenate.gov/Senators/S32"
+  },
+  {
+   "name": "Jason W. B. Pizzo",
+   "party": "NPA",
+   "chamber": "upper",
+   "district": "37",
+   "url": "https://www.flsenate.gov/Senators/S37"
+  },
+  {
+   "name": "Ana Maria Rodriguez",
+   "party": "R",
+   "chamber": "upper",
+   "district": "40",
+   "url": "https://www.flsenate.gov/Senators/S40"
+  },
+  {
+   "name": "Barbara Sharief",
+   "party": "D",
+   "chamber": "upper",
+   "district": "35",
+   "url": "https://www.flsenate.gov/Senators/S35"
+  },
+  {
+   "name": "David Silvers",
+   "party": "D",
+   "chamber": "upper",
+   "district": "26",
+   "url": "https://www.flsenate.gov/Senators/S26"
+  },
+  {
+   "name": "Corey Simon",
+   "party": "R",
+   "chamber": "upper",
+   "district": "3",
+   "url": "https://www.flsenate.gov/Senators/S3"
+  },
+  {
+   "name": "Carlos Guillermo Smith",
+   "party": "D",
+   "chamber": "upper",
+   "district": "17",
+   "url": "https://www.flsenate.gov/Senators/S17"
+  },
+  {
+   "name": "Keith L. Truenow",
+   "party": "R",
+   "chamber": "upper",
+   "district": "13",
+   "url": "https://www.flsenate.gov/Senators/S13"
+  },
+  {
+   "name": "Jay Trumbull",
+   "party": "R",
+   "chamber": "upper",
+   "district": "2",
+   "url": "https://www.flsenate.gov/Senators/S2"
+  },
+  {
+   "name": "Clay Yarborough",
+   "party": "R",
+   "chamber": "upper",
+   "district": "4",
+   "url": "https://www.flsenate.gov/Senators/S4"
+  },
+  {
+   "name": "Shane G. Abbott",
+   "party": "R",
+   "chamber": "lower",
+   "district": "5",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4864"
+  },
+  {
+   "name": "Jon Albert",
+   "party": "R",
+   "chamber": "lower",
+   "district": "48",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4917"
+  },
+  {
+   "name": "Jose Alvarez",
+   "party": "D",
+   "chamber": "lower",
+   "district": "46",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4916"
+  },
+  {
+   "name": "Dr. Jane Aman",
+   "party": "D",
+   "chamber": "lower",
+   "district": "37",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5097"
+  },
+  {
+   "name": "Adam Anderson",
+   "party": "R",
+   "chamber": "lower",
+   "district": "57",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4885"
+  },
+  {
+   "name": "Bruce Hadley Antone",
+   "party": "D",
+   "chamber": "lower",
+   "district": "41",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4269"
+  },
+  {
+   "name": "Wallace Aristide",
+   "party": "D",
+   "chamber": "lower",
+   "district": "107",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4928"
+  },
+  {
+   "name": "Lucia Baez-Geller",
+   "party": "D",
+   "chamber": "lower",
+   "district": "106",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5098"
+  },
+  {
+   "name": "Jessica Baker",
+   "party": "R",
+   "chamber": "lower",
+   "district": "17",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4866"
+  },
+  {
+   "name": "Webster Barnaby",
+   "party": "R",
+   "chamber": "lower",
+   "district": "29",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4770"
+  },
+  {
+   "name": "Robin Bartleman",
+   "party": "D",
+   "chamber": "lower",
+   "district": "103",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4793"
+  },
+  {
+   "name": "Yvette Benarroch",
+   "party": "R",
+   "chamber": "lower",
+   "district": "81",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4923"
+  },
+  {
+   "name": "Kimberly Berfield",
+   "party": "R",
+   "chamber": "lower",
+   "district": "58",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4210"
+  },
+  {
+   "name": "Tricia E. Berry",
+   "party": "R",
+   "chamber": "lower",
+   "district": "6",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5081"
+  },
+  {
+   "name": "Dean Black",
+   "party": "R",
+   "chamber": "lower",
+   "district": "15",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4865"
+  },
+  {
+   "name": "Omar Blanco",
+   "party": "R",
+   "chamber": "lower",
+   "district": "115",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4929"
+  },
+  {
+   "name": "Darryl Block",
+   "party": "D",
+   "chamber": "lower",
+   "district": "36",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5095"
+  },
+  {
+   "name": "Anthony Bonna",
+   "party": "R",
+   "chamber": "lower",
+   "district": "85",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5092"
+  },
+  {
+   "name": "David Borrero",
+   "party": "R",
+   "chamber": "lower",
+   "district": "111",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4794"
+  },
+  {
+   "name": "Adam Botana",
+   "party": "R",
+   "chamber": "lower",
+   "district": "80",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4782"
+  },
+  {
+   "name": "Nathan Boyles",
+   "party": "R",
+   "chamber": "lower",
+   "district": "3",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5063"
+  },
+  {
+   "name": "Robert A. &quot;Robbie&quot; Brackett",
+   "party": "R",
+   "chamber": "lower",
+   "district": "34",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4870"
+  },
+  {
+   "name": "Demi Busatta",
+   "party": "R",
+   "chamber": "lower",
+   "district": "114",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4800"
+  },
+  {
+   "name": "Dr. James Bush III",
+   "party": "D",
+   "chamber": "lower",
+   "district": "109",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4011"
+  },
+  {
+   "name": "Daphne D. Campbell",
+   "party": "D",
+   "chamber": "lower",
+   "district": "108",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4522"
+  },
+  {
+   "name": "Daryl Campbell",
+   "party": "D",
+   "chamber": "lower",
+   "district": "99",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4843"
+  },
+  {
+   "name": "Jennifer Canady",
+   "party": "R",
+   "chamber": "lower",
+   "district": "50",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4879"
+  },
+  {
+   "name": "Ryan Chamberlin",
+   "party": "R",
+   "chamber": "lower",
+   "district": "24",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4901"
+  },
+  {
+   "name": "Kevin D. Chambliss",
+   "party": "D",
+   "chamber": "lower",
+   "district": "117",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4798"
+  },
+  {
+   "name": "Linda Chaney",
+   "party": "R",
+   "chamber": "lower",
+   "district": "61",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4778"
+  },
+  {
+   "name": "Nan Cobb",
+   "party": "R",
+   "chamber": "lower",
+   "district": "26",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4910"
+  },
+  {
+   "name": "Jacqueline Coffie-Leeks",
+   "party": "D",
+   "chamber": "lower",
+   "district": "63",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5082"
+  },
+  {
+   "name": "William &quot;Bill&quot; Conerly",
+   "party": "R",
+   "chamber": "lower",
+   "district": "72",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4920"
+  },
+  {
+   "name": "Dan Daley",
+   "party": "D",
+   "chamber": "lower",
+   "district": "96",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4757"
+  },
+  {
+   "name": "Kimberly Daniels",
+   "party": "D",
+   "chamber": "lower",
+   "district": "14",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4652"
+  },
+  {
+   "name": "Kyandra Darling",
+   "party": "D",
+   "chamber": "lower",
+   "district": "62",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5084"
+  },
+  {
+   "name": "Nik Dean",
+   "party": "D",
+   "chamber": "lower",
+   "district": "38",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5104"
+  },
+  {
+   "name": "Todd Delmay",
+   "party": "D",
+   "chamber": "lower",
+   "district": "101",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5102"
+  },
+  {
+   "name": "Lisa Dunkley",
+   "party": "D",
+   "chamber": "lower",
+   "district": "97",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4893"
+  },
+  {
+   "name": "Jervonte &quot;Tae&quot; Edmonds",
+   "party": "D",
+   "chamber": "lower",
+   "district": "88",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4842"
+  },
+  {
+   "name": "Tiffany Esposito",
+   "party": "R",
+   "chamber": "lower",
+   "district": "77",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4892"
+  },
+  {
+   "name": "Tom Fabricio",
+   "party": "R",
+   "chamber": "lower",
+   "district": "110",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4792"
+  },
+  {
+   "name": "Jon Fay",
+   "party": "R",
+   "chamber": "lower",
+   "district": "2",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5076"
+  },
+  {
+   "name": "Michael Terence Ferguson",
+   "party": "D",
+   "chamber": "lower",
+   "district": "100",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5103"
+  },
+  {
+   "name": "Jarod Fox",
+   "party": "D",
+   "chamber": "lower",
+   "district": "39",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5106"
+  },
+  {
+   "name": "Gallop Franklin II",
+   "party": "D",
+   "chamber": "lower",
+   "district": "8",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4863"
+  },
+  {
+   "name": "Susan Frantz",
+   "party": "R",
+   "chamber": "lower",
+   "district": "78",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5080"
+  },
+  {
+   "name": "Terrance Freeman",
+   "party": "R",
+   "chamber": "lower",
+   "district": "12",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5083"
+  },
+  {
+   "name": "Mike Friend",
+   "party": "D",
+   "chamber": "lower",
+   "district": "102",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5099"
+  },
+  {
+   "name": "Sam Garrison",
+   "party": "R",
+   "chamber": "lower",
+   "district": "11",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4767"
+  },
+  {
+   "name": "Richard Gentry",
+   "party": "R",
+   "chamber": "lower",
+   "district": "27",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4911"
+  },
+  {
+   "name": "Mike Giallombardo",
+   "party": "R",
+   "chamber": "lower",
+   "district": "79",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4783"
+  },
+  {
+   "name": "Audrey Gibson",
+   "party": "D",
+   "chamber": "lower",
+   "district": "13",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4263"
+  },
+  {
+   "name": "Ryan Gill",
+   "party": "R",
+   "chamber": "lower",
+   "district": "68",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5077"
+  },
+  {
+   "name": "Karen Gonzalez Pittman",
+   "party": "R",
+   "chamber": "lower",
+   "district": "65",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4888"
+  },
+  {
+   "name": "Peggy Gossett-Seidman",
+   "party": "R",
+   "chamber": "lower",
+   "district": "91",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4891"
+  },
+  {
+   "name": "Eric Gray",
+   "party": "D",
+   "chamber": "lower",
+   "district": "35",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5093"
+  },
+  {
+   "name": "Sam Greco",
+   "party": "R",
+   "chamber": "lower",
+   "district": "19",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4906"
+  },
+  {
+   "name": "J.J. Grow",
+   "party": "R",
+   "chamber": "lower",
+   "district": "23",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4909"
+  },
+  {
+   "name": "Jennifer &quot;Rita&quot; Harris",
+   "party": "D",
+   "chamber": "lower",
+   "district": "44",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4877"
+  },
+  {
+   "name": "Brian Hawkins",
+   "party": "R",
+   "chamber": "lower",
+   "district": "53",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5108"
+  },
+  {
+   "name": "Octavio Hernandez",
+   "party": "D",
+   "chamber": "lower",
+   "district": "51",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5110"
+  },
+  {
+   "name": "Ashley Elizabeth Herrmann",
+   "party": "D",
+   "chamber": "lower",
+   "district": "69",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5100"
+  },
+  {
+   "name": "Brian Hodgers",
+   "party": "R",
+   "chamber": "lower",
+   "district": "32",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5064"
+  },
+  {
+   "name": "Elizabeth Holmes",
+   "party": "D",
+   "chamber": "lower",
+   "district": "94",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5101"
+  },
+  {
+   "name": "Christine Hunschofsky",
+   "party": "D",
+   "chamber": "lower",
+   "district": "95",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4799"
+  },
+  {
+   "name": "Berny Jacques",
+   "party": "R",
+   "chamber": "lower",
+   "district": "59",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4886"
+  },
+  {
+   "name": "Kim Kendall",
+   "party": "R",
+   "chamber": "lower",
+   "district": "18",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4905"
+  },
+  {
+   "name": "Jennifer Kincart Jonsson",
+   "party": "R",
+   "chamber": "lower",
+   "district": "49",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4918"
+  },
+  {
+   "name": "Traci Koster",
+   "party": "R",
+   "chamber": "lower",
+   "district": "66",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4779"
+  },
+  {
+   "name": "Rob Long",
+   "party": "D",
+   "chamber": "lower",
+   "district": "90",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5067"
+  },
+  {
+   "name": "Randall Scott &quot;Randy&quot; Maggard",
+   "party": "R",
+   "chamber": "lower",
+   "district": "54",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4758"
+  },
+  {
+   "name": "Patt Maney",
+   "party": "R",
+   "chamber": "lower",
+   "district": "4",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4764"
+  },
+  {
+   "name": "August Mangeney",
+   "party": "D",
+   "chamber": "lower",
+   "district": "93",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5096"
+  },
+  {
+   "name": "Jon Maples",
+   "party": "R",
+   "chamber": "lower",
+   "district": "87",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5094"
+  },
+  {
+   "name": "Daniel R. McDow",
+   "party": "D",
+   "chamber": "lower",
+   "district": "33",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5120"
+  },
+  {
+   "name": "Fiona McFarland",
+   "party": "R",
+   "chamber": "lower",
+   "district": "73",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4780"
+  },
+  {
+   "name": "Kiyan Michael",
+   "party": "R",
+   "chamber": "lower",
+   "district": "16",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4869"
+  },
+  {
+   "name": "James Vernon &quot;Jim&quot; Mooney Jr.",
+   "party": "R",
+   "chamber": "lower",
+   "district": "120",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4797"
+  },
+  {
+   "name": "Anthony Nieves",
+   "party": "D",
+   "chamber": "lower",
+   "district": "47",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5085"
+  },
+  {
+   "name": "Danny Nix Jr.",
+   "party": "R",
+   "chamber": "lower",
+   "district": "75",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4921"
+  },
+  {
+   "name": "Vanessa Oliver",
+   "party": "R",
+   "chamber": "lower",
+   "district": "76",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4922"
+  },
+  {
+   "name": "Michael Owen",
+   "party": "R",
+   "chamber": "lower",
+   "district": "70",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4919"
+  },
+  {
+   "name": "Nick Pachota",
+   "party": "R",
+   "chamber": "lower",
+   "district": "74",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5079"
+  },
+  {
+   "name": "Bill Partington",
+   "party": "R",
+   "chamber": "lower",
+   "district": "28",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4912"
+  },
+  {
+   "name": "Ashley Perez-Biliskov",
+   "party": "R",
+   "chamber": "lower",
+   "district": "116",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5086"
+  },
+  {
+   "name": "Lindsay Polega-Quigley",
+   "party": "D",
+   "chamber": "lower",
+   "district": "60",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5107"
+  },
+  {
+   "name": "Juan Carlos Porras",
+   "party": "R",
+   "chamber": "lower",
+   "district": "119",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4898"
+  },
+  {
+   "name": "Walter Price",
+   "party": "R",
+   "chamber": "lower",
+   "district": "55",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5075"
+  },
+  {
+   "name": "Liesa Priddy",
+   "party": "R",
+   "chamber": "lower",
+   "district": "82",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5091"
+  },
+  {
+   "name": "Jacquelyn Randall",
+   "party": "D",
+   "chamber": "lower",
+   "district": "21",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5088"
+  },
+  {
+   "name": "Marshall Rawson",
+   "party": "R",
+   "chamber": "lower",
+   "district": "10",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5089"
+  },
+  {
+   "name": "Mike Redondo",
+   "party": "R",
+   "chamber": "lower",
+   "district": "118",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4902"
+  },
+  {
+   "name": "Alex Rizo",
+   "party": "R",
+   "chamber": "lower",
+   "district": "112",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4796"
+  },
+  {
+   "name": "Felicia Simone Robinson",
+   "party": "D",
+   "chamber": "lower",
+   "district": "104",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4791"
+  },
+  {
+   "name": "Gloria Romero Roses",
+   "party": "D",
+   "chamber": "lower",
+   "district": "113",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5105"
+  },
+  {
+   "name": "Mitch Rosenwald",
+   "party": "D",
+   "chamber": "lower",
+   "district": "98",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4927"
+  },
+  {
+   "name": "Luis Salazar",
+   "party": "D",
+   "chamber": "lower",
+   "district": "64",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5073"
+  },
+  {
+   "name": "Michelle Salzman",
+   "party": "R",
+   "chamber": "lower",
+   "district": "1",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4763"
+  },
+  {
+   "name": "Judson Sapp",
+   "party": "R",
+   "chamber": "lower",
+   "district": "20",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4907"
+  },
+  {
+   "name": "Samantha Scott",
+   "party": "R",
+   "chamber": "lower",
+   "district": "52",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5070"
+  },
+  {
+   "name": "Jason Shoaf",
+   "party": "R",
+   "chamber": "lower",
+   "district": "7",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4756"
+  },
+  {
+   "name": "Kelly Skidmore",
+   "party": "D",
+   "chamber": "lower",
+   "district": "92",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4786"
+  },
+  {
+   "name": "John Snyder",
+   "party": "R",
+   "chamber": "lower",
+   "district": "86",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4787"
+  },
+  {
+   "name": "Felipe Sousa Lazaballet",
+   "party": "D",
+   "chamber": "lower",
+   "district": "42",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5119"
+  },
+  {
+   "name": "Leonard Spencer",
+   "party": "D",
+   "chamber": "lower",
+   "district": "45",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4915"
+  },
+  {
+   "name": "Allison Tant",
+   "party": "D",
+   "chamber": "lower",
+   "district": "9",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4765"
+  },
+  {
+   "name": "Debra Tendrich",
+   "party": "D",
+   "chamber": "lower",
+   "district": "89",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4924"
+  },
+  {
+   "name": "Dana Trabulsy",
+   "party": "R",
+   "chamber": "lower",
+   "district": "84",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4788"
+  },
+  {
+   "name": "Chase Tramont",
+   "party": "R",
+   "chamber": "lower",
+   "district": "30",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4867"
+  },
+  {
+   "name": "Amy Trask",
+   "party": "D",
+   "chamber": "lower",
+   "district": "22",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5090"
+  },
+  {
+   "name": "Kaylee Tuck",
+   "party": "R",
+   "chamber": "lower",
+   "district": "83",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4776"
+  },
+  {
+   "name": "Jordan G. Varnadore",
+   "party": "R",
+   "chamber": "lower",
+   "district": "71",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5078"
+  },
+  {
+   "name": "Luis Viera",
+   "party": "D",
+   "chamber": "lower",
+   "district": "67",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5074"
+  },
+  {
+   "name": "Samuel Vilchez Santiago",
+   "party": "D",
+   "chamber": "lower",
+   "district": "43",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5109"
+  },
+  {
+   "name": "Matt Woodside",
+   "party": "R",
+   "chamber": "lower",
+   "district": "31",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5087"
+  },
+  {
+   "name": "Marie Paule Woodson",
+   "party": "D",
+   "chamber": "lower",
+   "district": "105",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4789"
+  },
+  {
+   "name": "Taylor Michael Yarkosky",
+   "party": "R",
+   "chamber": "lower",
+   "district": "25",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4868"
+  },
+  {
+   "name": "Bradford Troy &quot;Brad&quot; Yeager",
+   "party": "R",
+   "chamber": "lower",
+   "district": "56",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4882"
+  },
+  {
+   "name": "RaShon Young",
+   "party": "D",
+   "chamber": "lower",
+   "district": "40",
+   "url": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5065"
+  }
+ ]
+}

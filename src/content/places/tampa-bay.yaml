@@ -1,0 +1,6 @@
+name: Tampa Bay
+short: Tampa Bay
+kind: region
+parent: fl
+members: [tampa, st-petersburg, pinellas-county]
+blurb: Tampa, St. Petersburg and Pinellas County, around the bay.
