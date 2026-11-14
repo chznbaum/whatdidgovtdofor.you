@@ -37,6 +37,8 @@ const NOT_PLACES = [
   /\b(?:Republic|country|nation) of Georgia\b|\bGeorgia,? the (?:country|nation)\b/g, // the country
   /\bFederal Reserve Bank of Atlanta\b|\bAtlanta Fed\b|\bAtlanta Regional Office\b/g, // federal offices, not the city
   /\bSavannah River(?: Site| National Laboratory)?\b/g, // the Energy Department's site is in South Carolina
+  /\bFlorida,? (?:N\.Y\.|New York|NY|Uruguay|Cuba)\b/g, // a village in Orange County, N.Y.; a department of Uruguay
+  /\bMiami University\b|\bUniversity of South Florida\b|\bTampa Bay (?:Rays|Buccaneers|Bucs|Lightning|Times)\b/g,
 ];
 
 // Ambiguous name -> other states and countries with a place by that name. Abbreviations only
@@ -72,6 +74,11 @@ const AMBIGUOUS: Record<string, string[]> = {
   'Fulton County': ['New York', 'N.Y.', 'NY', 'Pennsylvania', 'Pa.', 'PA', 'Ohio', 'OH', 'Illinois', 'Ill.', 'IL', 'Indiana', 'Ind.', 'IN', 'Kentucky', 'Ky.', 'KY', 'Arkansas', 'Ark.', 'AR'],
   'DeKalb County': ['Illinois', 'Ill.', 'IL', 'Indiana', 'Ind.', 'IN', 'Alabama', 'Ala.', 'AL', 'Tennessee', 'Tenn.', 'TN', 'Missouri', 'Mo.', 'MO', 'New York', 'N.Y.', 'NY'],
   'Chatham County': ['North Carolina', 'N.C.', 'NC'],
+  Miami: ['Ohio', 'OH', 'Oklahoma', 'Okla.', 'OK', 'Indiana', 'Ind.', 'Kansas', 'Arizona'],
+  Jacksonville: ['North Carolina', 'N.C.', 'NC', 'Illinois', 'Ill.', 'IL', 'Texas', 'Tex.', 'TX', 'Arkansas', 'Ark.', 'AR', 'Alabama', 'Ala.', 'AL', 'Oregon'],
+  Gainesville: ['Georgia', 'Ga.', 'GA', 'Texas', 'Tex.', 'TX', 'Virginia', 'Va.', 'VA'],
+  'St. Petersburg': ['Russia', 'Russian'],
+  'Orange County': ['California', 'Calif.', 'CA', 'New York', 'N.Y.', 'NY', 'North Carolina', 'N.C.', 'NC', 'Virginia', 'Va.', 'VA', 'Texas', 'Tex.', 'TX', 'Indiana', 'Vermont'],
 };
 
 // Names that count only right before their own state (see above). Union County is in 17 states; Columbus is also Ohio's
@@ -79,14 +86,14 @@ const AMBIGUOUS: Record<string, string[]> = {
 const STRICT = new Set(['Ashland', 'Powhatan', 'Ramsey', 'Elizabeth', 'Union County', 'Columbus']);
 
 // How news copy writes each state we cover, besides its name and postal code (AP style).
-const AP: Record<string, string> = { va: 'Va.', ny: 'N.Y.', mn: 'Minn.', nj: 'N.J.', ga: 'Ga.' };
+const AP: Record<string, string> = { va: 'Va.', ny: 'N.Y.', mn: 'Minn.', nj: 'N.J.', ga: 'Ga.', fl: 'Fla.' };
 
 // Extra names for a place, beyond its name and short name.
 // (Not "New York, N.Y.": that's the dateline of every FEMA Region 2 release.)
 const ALIASES: Record<string, string[]> = { nyc: ['City of New York'] };
 
 // Longer places that start or end with a shorter one's name.
-const NOT_PRECEDED_BY: Record<string, string> = { Richmond: 'Greater ' };
+const NOT_PRECEDED_BY: Record<string, string> = { Richmond: 'Greater ', Miami: '(?:North|South|West|East) ' };
 const NOT_FOLLOWED_BY: Record<string, string> = {
   Hampton: ' Roads',
   Chesterfield: ' County', // matched (or rejected) as "Chesterfield County"
@@ -99,6 +106,9 @@ const NOT_FOLLOWED_BY: Record<string, string> = {
   Camden: ' County',
   Ramsey: ' County',
   'New York': ' City|,? N\\.?Y\\.?(?!\\w)',
+  Miami: ' Beach| Gardens| Lakes| Springs| Shores| County|-Dade', // other cities, and the county (matched as Miami-Dade)
+  Jacksonville: ' Beach',
+  Tampa: ' Bay', // the region, matched as Tampa Bay
 };
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -162,6 +172,16 @@ async function load(): Promise<Matcher[]> {
 }
 
 let matchers: Promise<Matcher[]> | undefined;
+
+// A pattern for the names of a state's places we cover (not its regions), for keeping the local acts and local bills
+// that are theirs: Georgia's "Atlanta, City of; ...", Florida's "City of Tampa, Hillsborough County".
+export async function coveredPlaceNames(state: string): Promise<RegExp> {
+  const places = new Map<string, any>();
+  for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) places.set(idFromPath(file), await readYaml(file));
+  const within = (id: string): boolean => id === state || (!!places.get(id)?.parent && within(places.get(id).parent));
+  const names = [...places].filter(([id, p]) => id !== state && within(id) && p.kind !== 'region').flatMap(([, p]) => [p.name, p.short]);
+  return new RegExp(word(`(?:${[...new Set(names)].map(esc).join('|') || '$^'})`), 'i');
+}
 
 const followedBy = (re: RegExp, text: string, at: number) => ((re.lastIndex = at), re.test(text));
 
