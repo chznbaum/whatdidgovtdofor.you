@@ -37,8 +37,9 @@ const levels = [
         <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add your area</a>.
       </p>
       <p class="coverage" data-local-coverage hidden>
-        We don't track <span data-local-name></span>'s local government yet.
-        <a href="mailto:places@whatdidgovtdofor.you" data-ask>Ask us to add it</a>.
+        We don't track <span data-local-name></span>'s local government yet. <a href="mailto:places@whatdidgovtdofor.you" data-ask
+          >Ask us to add it</a
+        >.
       </p>
       <p class="turn">
         <a href="/your-turn/" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
@@ -291,9 +292,14 @@ const levels = [
     $('[data-coverage]').hidden = !!legislature;
     // Not covered yet: offer to ask for the city or county (never the address itself). A covered state with an
     // uncovered locality gets its own note; an uncovered state gets the general one above.
-    const localName = incPlace?.BASENAME ?? county?.NAME;
+    // The address's own municipality: a city or town, or a township that governs itself (a New Jersey township's County
+    // Subdivision is an active government, FUNCSTAT A; a Virginia magisterial district isn't). Covering its county
+    // doesn't cover the municipality.
+    const municipality = incPlace?.BASENAME ?? (subdivision?.FUNCSTAT === 'A' ? subdivision.BASENAME : undefined);
+    const localName = municipality ?? county?.NAME;
     $('[data-local-name]').textContent = localName ?? '';
-    $('[data-local-coverage]').hidden = !legislature || localPlaces.length > 0 || !localName;
+    $('[data-local-coverage]').hidden =
+      !legislature || !localName || (municipality ? localPlaces.some((p) => p.kind !== 'county') : localPlaces.length > 0);
     const askFor = [localName ?? state?.NAME, abbr].filter(Boolean).join(', ');
     for (const a of document.querySelectorAll<HTMLAnchorElement>('a[data-ask]'))
       a.href = `mailto:places@whatdidgovtdofor.you?subject=${encodeURIComponent(`Please add ${askFor}`)}`;
