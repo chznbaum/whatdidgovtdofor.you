@@ -11,7 +11,7 @@ import { parse } from 'yaml';
 const here = import.meta.dirname;
 const root = path.resolve(here, '../..');
 const manifest = path.join(here, 'sources.json');
-const UA = { 'User-Agent': 'whatdidgovtdofor.you portrait pipeline (chazona@chazonabaum.com)' };
+const UA = { 'User-Agent': 'whatdidgovtdofor.you portrait pipeline (+https://whatdidgovtdofor.you; places@whatdidgovtdofor.you)' };
 
 const size = (file) => {
   const out = execFileSync('sips', ['-g', 'pixelWidth', '-g', 'pixelHeight', file]).toString();
