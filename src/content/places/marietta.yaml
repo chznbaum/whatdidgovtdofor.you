@@ -1,0 +1,30 @@
+name: Marietta
+short: Marietta
+kind: city
+parent: cobb-county
+geoids: { state: "13", place: "1349756" }
+# Agenda Center minutes (Legistar-generated) with movers and votes; work-session minutes come along and triage drops
+# them.
+feeds:
+  - { type: agendacenter, url: "https://www.mariettaga.gov", category: 7, file: minutes }
+council:
+  body: City Council
+  title: Council Member
+  # The city's own ward layer (owner jcarmichael@mariettaga.gov, refreshed nightly; data edited 2026-11-14). WARD is "1"
+  # to "7" (SUBWARD splits them further, e.g. "5A"; don't use it); CORS is "*". City Hall → "5". When the lines were
+  # last redrawn wasn't confirmed (see notes).
+  districts: { arcgis: "https://services2.arcgis.com/OKqf9cl3ItPM5Rid/arcgis/rest/services/Ward_Boundaries/FeatureServer/23", field: WARD, label: Ward }
+  url: "https://www.mariettaga.gov/596/City-Council"
+  checked: 2026-11-14
+  # Nonpartisan races: Cobb County Elections' consolidated sample ballot for the city's Nov. 4, 2025 election prints
+  # "- Republican"/"- Democrat" after the Public Service Commission candidates and no party for any Marietta candidate.
+  # The mayor and all seven wards were elected Nov. 4, 2025 (Wards 3 and 5 in the Dec. 2 runoffs) for four-year terms
+  # from Jan. 1, 2026 to Dec. 31, 2029 (the city's "2026 - 2029" term), so no change in January 2027.
+  members:
+    - { district: "1", name: Cheryl Richardson, party: NP, url: "https://www.mariettaga.gov/1173/Cheryl-Richardson-Ward-1" }
+    - { district: "2", name: Jason Waters, party: NP, url: "https://www.mariettaga.gov/1056/Jason-Waters-Ward-2" }
+    - { district: "3", name: Daniel Gaddis, party: NP, url: "https://www.mariettaga.gov/1057/Daniel-Gaddis-Ward-3" }
+    - { district: "4", name: "Byron \"Tee\" Anderson", party: NP, url: "https://www.mariettaga.gov/1058/Byron-Tee-Anderson-Ward-4" }
+    - { district: "5", name: M. Carlyle Kent, party: NP, url: "https://www.mariettaga.gov/1174/M-Carlyle-Kent-Ward-5" }
+    - { district: "6", name: Andre L. Sims, party: NP, url: "https://www.mariettaga.gov/1060/Andre-L-Sims-Ward-6" } # Mayor Pro Tem
+    - { district: "7", name: Joseph R. Goldstein, party: NP, url: "https://www.mariettaga.gov/1175/Joseph-R-Goldstein-Ward-7" }

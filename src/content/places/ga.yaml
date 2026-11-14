@@ -1,0 +1,12 @@
+name: Georgia
+short: GA
+kind: state
+parent: us
+geoids: { state: "13" }
+blurb: Actions by the Governor, the General Assembly, and state agencies.
+# Laws come from the Governor's signed-bill lists and the General Assembly's SOAP web services (ga-laws), executive
+# orders from the Governor's yearly pages (ga-executive-orders).
+legislature:
+  roster: state-ga
+  upper: { name: State Senate, title: State Senator }
+  lower: { name: House of Representatives, title: State Representative }

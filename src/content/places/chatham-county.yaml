@@ -1,0 +1,39 @@
+name: Chatham County
+short: Chatham County
+kind: county
+parent: ga
+geoids: { state: "13", county: "13051" }
+# IQM2 minutes (60 seconds between requests): every decision has an "ACTION OF THE BOARD" block with its mover,
+# seconder and outcome, about a week after a meeting.
+feeds:
+  - { type: iqm2, url: "https://chathamcountyga.iqm2.com", board: "Board of Commissioners" }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  # SAGIS "Current Chatham County Commissioners and School Board Districts", UNIT an integer 1-8. Its COMISSIONER field
+  # is stale for District 4 only ("Patrick K. Farrell"; the other seven names are current), and its description says
+  # "updated following the 2010 Census", but its polygons match the 2022 local-act plan (layer 8 of the same service,
+  # "ChathamCCSB-Legis2-2022") at nine test points (rest.md). CORS echoes our origin; a point on Wilmington Island →
+  # UNIT 4. Use UNIT, ignore the names.
+  districts: { arcgis: "https://pub.sagis.org/arcgis/rest/services/ChathamCounty/Chatham_County_Commission_and_School_Board_Districts/MapServer/0", field: UNIT }
+  url: "https://www.chathamcountyga.gov/Commission/Commissioners"
+  checked: 2026-11-14
+  # Partisan: the Chairman and eight district commissioners were elected Nov. 5, 2024 on party ballots (the Board of
+  # Elections' official summary prints "(Dem)"/"(Rep)" for each), terms through Dec. 2028. District 4 is the exception:
+  # Brian Hussey won the May 19, 2026 special election for the rest of Pat Farrell's term, which the Board of Elections
+  # ran as a nonpartisan contest (its May 2026 newsletter lists it under "Nonpartisan Contests"; its official results
+  # print no party for him or Joe Welch, while every partisan contest carries one), so NP. Sworn in May 29, 2026 (WTOC).
+  # No regular commission seats were on the 2026 ballots, so no change in January 2027. Names as the county's roster
+  # writes them. Officers, for reference: Vice Chair Malinda Scott Hodge, Chairman Pro Tem Dean Kicklighter.
+  members:
+    - { name: Chester A. Ellis, party: D, role: Chairman, url: "https://www.chathamcountyga.gov/commission/Detail/chairman" } # elected countywide
+    - { district: "1", name: Anthony Wayne Noha, party: R, url: "https://www.chathamcountyga.gov/Commission/Detail/1st" }
+    - { district: "2", name: Malinda Scott Hodge, party: D, url: "https://www.chathamcountyga.gov/Commission/Detail/2nd" }
+    - { district: "3", name: Bobby Lockett, party: D, url: "https://www.chathamcountyga.gov/Commission/Detail/3rd" }
+    - { district: "4", name: Brian M. Hussey, party: NP, url: "https://www.chathamcountyga.gov/Commission/Detail/4th" }
+    - { district: "5", name: Tanya Milton, party: D, url: "https://www.chathamcountyga.gov/Commission/Detail/5th" }
+    - { district: "6", name: "Aaron \"Adot\" Whitely", party: D, url: "https://www.chathamcountyga.gov/Commission/Detail/6th" }
+    - { district: "7", name: Dean Kicklighter, party: R, url: "https://www.chathamcountyga.gov/Commission/Detail/7th" }
+    - { district: "8", name: Marsha Buford, party: D, url: "https://www.chathamcountyga.gov/Commission/Detail/8th" }
+
+# The Chairman is a board member elected countywide (above, with `role`); the County Manager is appointed. No seats.

@@ -1,0 +1,27 @@
+name: Lawrenceville
+short: Lawrenceville
+kind: city
+parent: gwinnett-county
+geoids: { state: "13", place: "1345488" }
+# Municode Meetings (15 seconds between requests): regular-meeting minutes with movers, seconders and named votes,
+# about three days after a meeting.
+feeds:
+  - { type: minutes-list, url: "https://lawrenceville-ga.municodemeetings.com/", pages: 1, title: City Council, rows: City Council Regular, delay: 15 }
+council:
+  body: City Council
+  title: Council Member
+  # "All Council Members are elected at-large" (the city's roster page): four numbered posts, no district layer, so
+  # every member is shown to every Lawrenceville address.
+  url: "https://www.lawrencevillega.org/224/Mayor-City-Council"
+  checked: 2026-11-14
+  # Nonpartisan races: the city runs its own elections under its charter; candidates qualify with the city clerk as
+  # election superintendent (no party nomination), a majority wins or goes to a runoff, and neither the election notices
+  # nor the qualifying list names a party. Staggered four-year terms in odd-year elections; the next is Nov. 2, 2027, so no
+  # change in January 2027. Post 1: Bruce Johnson resigned effective Sept. 2, 2026; Darion Ward was the only candidate
+  # for the rest of the term, so the Nov. 3, 2026 special election was cancelled and he is deemed elected (city notice);
+  # he already sits (Oct. 26, 2026 minutes) and the city lists his term as 2026-2027. No member pages, only bio PDFs.
+  members:
+    - { name: Darion Ward, party: NP } # Post 1, term 2026-2027
+    - { name: Victoria Jones, party: NP } # Post 2, term 2024-2027
+    - { name: Randy Travis, party: NP } # Post 3, term 2026-2029; Mayor Pro Tem
+    - { name: Bryant Harris, party: NP } # Post 4, term 2026-2029

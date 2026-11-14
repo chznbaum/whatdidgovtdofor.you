@@ -1,0 +1,36 @@
+name: DeKalb County
+short: DeKalb County
+kind: county
+parent: ga
+geoids: { state: "13", county: "13089" }
+# Legistar's status here is the agenda section and its passed date is also set by deferrals, so approvals come from
+# each board meeting's items, with mover and seconder. Sponsors are empty; each matter's text says what it does.
+feeds:
+  - { type: legistar, client: dekalbcountyga, meetings: "^Board of Commissioners", text: true }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  # Every address has a district member (1 to 5) and a super-district member (6 or 7). The county GIS server's two
+  # layers carry the 2022 plan and today's members (REPNAME) and echo our origin for CORS. Decatur's courthouse →
+  # DISTRICTID "2" (Michelle Long Spears) and "6" (Edward "Ted" Terry). REPNAME for 3 goes stale on Jan. 1.
+  districts:
+    - { arcgis: "https://dcgis.dekalbcountyga.gov/mapping/rest/services/CommissionerDistricts/FeatureServer/1", field: DISTRICTID }
+    - { arcgis: "https://dcgis.dekalbcountyga.gov/mapping/rest/services/CommissionerDistricts/FeatureServer/0", field: DISTRICTID, label: Super District }
+  url: "https://dekalbcountyga.gov/government/board-of-commissioners"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party (DeKalb Voter Registration and Elections, official Nov. 3, 2026 summary:
+  # "Michelle Long Spears (I) (Dem)", "Keyanna Jones Moore (Dem)"; the rest from the Nov. 2024 ballot, all "(Dem)").
+  # Districts 2, 3 and 7 were on the 2026 ballot. Spears and Bolton were re-elected; in District 3, Keyanna Jones Moore
+  # beat Massiah in the June 16 Democratic runoff (61.2%) and won Nov. 3 (95.4%). New terms start Jan. 1 (Legistar's
+  # term records start the 2022 and 2024 winners on Jan. 1; Massiah and Bolton were seated Dec. 9, 2024 after 2024
+  # specials for the rest of those terms).
+  members:
+    - { district: "1", name: Robert Patrick, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/robert-patrick" }
+    - { district: "2", name: Michelle Long Spears, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/michelle-long-spears" }
+    - { district: "3", name: Nicole Massiah, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/nicole-massiah", until: 2027-01-01 }
+    - { district: "4", name: Chakira Johnson, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/chakira-johnson" }
+    - { district: "5", name: Mereda Davis Johnson, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/mareda-davis-johnson" }
+    - { district: "6", name: Ted Terry, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/ted-terry" }
+    - { district: "7", name: LaDena Bolton, party: D, url: "https://dekalbcountyga.gov/government/board-of-commissioners/districts/ladena-bolton" }
+    # Elected Nov. 3, 2026 (name as the ballot prints it; no county page yet).
+    - { district: "3", name: Keyanna Jones Moore, party: D, from: 2027-01-01 }

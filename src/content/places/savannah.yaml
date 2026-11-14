@@ -1,0 +1,33 @@
+name: Savannah
+short: Savannah
+kind: city
+parent: chatham-county
+geoids: { state: "13", place: "1369000" }
+# Action Minutes (every vote, the day after a meeting) on the city's CivicPlus site, which asks 10 seconds between
+# requests; movers and seconders are only in the final minutes weeks later, which are web pages, not read yet.
+feeds:
+  - { type: minutes-list, url: "https://www.savannahga.gov/2460/Action-Minutes", pages: 1, title: Savannah City Council, layout: blocks, link: "\\d{4}", delay: 10 }
+  - { type: rss, url: "https://www.savannahga.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml" }
+council:
+  body: City Council
+  title: Alderman
+  # SAGIS "Aldermanic Districts" (edited for the City of Savannah after boundary changes; the post-2020 lines used since
+  # the Nov. 2023 election). UNIT is an integer 1-6; ALDERMAN carries current names (D3 as "Linda Wilder-Bryan").
+  # CORS echoes our origin (with credentials); City Hall → UNIT 2, Detric Leggett.
+  districts: { arcgis: "https://pub.sagis.org/arcgis/rest/services/Boundaries/Aldermanic_Districts/MapServer/0", field: UNIT }
+  url: "https://www.savannahga.gov/390/Contact-Your-Alderman"
+  checked: 2026-11-14
+  # Nonpartisan: Savannah's mayor and aldermen are elected on a nonpartisan ballot in odd-year Novembers, with runoffs
+  # (GPB on the Nov. 7, 2023 race: "held as a non-partisan election"). All NP. Mayor and aldermen were all elected
+  # together for Jan. 2024 to Dec. 2027, so no change in January 2027. Names as the city's contact page writes them
+  # ("Carol Bell"; the minutes say "Ald. Bell"). Posts 1 and 2 are at large. Officers, for reference: Chairman of
+  # Council Nick Palumbo, Vice Chair Linda Wilder, Mayor Pro Tem Dr. Estella Edwards Shabazz.
+  members:
+    - { name: Carol Bell, party: NP, url: "https://www.savannahga.gov/3027/Post-1-At-Large" } # Post 1, at large
+    - { name: Alicia Miller Blakely, party: NP, url: "https://www.savannahga.gov/3026/Post-2-At-Large" } # Post 2, at large
+    - { district: "1", name: Bernetta B. Lanier, party: NP, url: "https://www.savannahga.gov/3028/District-1" }
+    - { district: "2", name: Detric Leggett, party: NP, url: "https://www.savannahga.gov/3029/District-2" }
+    - { district: "3", name: Linda Wilder, party: NP, url: "https://www.savannahga.gov/3030/District-3" }
+    - { district: "4", name: Nick Palumbo, party: NP, url: "https://www.savannahga.gov/3031/District-4" }
+    - { district: "5", name: Dr. Estella Edwards Shabazz, party: NP, url: "https://www.savannahga.gov/3032/District-5" }
+    - { district: "6", name: Kurtis Purtee, party: NP, url: "https://www.savannahga.gov/3033/District-6" }

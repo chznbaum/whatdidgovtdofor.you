@@ -1,0 +1,34 @@
+name: Gwinnett County
+short: Gwinnett
+kind: county
+parent: ga
+geoids: { state: "13", county: "13135" }
+# Business Session minutes on the county site (an icon link per meeting; the date is in the file's path), with a roll
+# call on every item, two days after a meeting. The "Unofficial" file is replaced by an official one under a new name,
+# so meetings are keyed by date. robots.txt asks 5 seconds between requests.
+feeds:
+  - { type: minutes-list, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/public-meetings/-/bacs/meetings/52", pages: 1, title: Board of Commissioners, layout: blocks, link: "Business_Session.*Minutes", delay: 5, keyByDate: true }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  # The county GIS's current layer (owner GwinnettCountyGIS, edited 2026-11-13; post-2022 lines). COMM_DISTRICT is an
+  # integer 1 to 4 (DISTRICT_ID is the zero-padded "001"); CORS is "*". The Gwinnett Justice and Administration Center
+  # in Lawrenceville → 3 (DISTRICT_REPRESENTATIVE "Jasper Watkins III"); the layer names Holtkamp for 4 until the county
+  # edits it. Don't use Commission_Districts_View (pre-2022 lines). The chair is elected countywide and shown to every
+  # address.
+  districts: { arcgis: "https://services3.arcgis.com/RfpmnkSAQleRbndX/arcgis/rest/services/Administrative/FeatureServer/2", field: COMM_DISTRICT }
+  url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party (Gwinnett Elections' official Nov. 3, 2026 summary: "Ben Ku (I) (Dem)",
+  # "Matthew Holtkamp (I) (Rep)", "Benjamin Culberson (Dem)"; the chair and Districts 1 and 3 from the Nov. 2024
+  # ballot, all "(Dem)"). Districts 2 and 4 were on the 2026 ballot: Ku was re-elected (75.4%); Culberson beat Holtkamp
+  # 52,643 to 42,760 (55.2%). He takes the oath Dec. 14 and his term begins Jan. 1 (FOX 5).
+  members:
+    - { name: Nicole Love Hendrickson, party: D, role: Chairwoman, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/about/chair" }
+    - { district: "1", name: Kirkland Carden, party: D, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/about/district-1-commissioner" }
+    - { district: "2", name: Ben Ku, party: D, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/about/district-2-commissioner" }
+    - { district: "3", name: Jasper Watkins III, party: D, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/about/district-3-commissioner" }
+    - { district: "4", name: Matthew Holtkamp, party: R, url: "https://www.gwinnettcounty.com/government/departments/board-of-commissioners/about/district-4-commissioner", until: 2027-01-01 }
+    # Elected Nov. 3, 2026 (name as the ballot prints it; he goes by Ben). The District 4 seat page should carry him
+    # after January.
+    - { district: "4", name: Benjamin Culberson, party: D, from: 2027-01-01 }

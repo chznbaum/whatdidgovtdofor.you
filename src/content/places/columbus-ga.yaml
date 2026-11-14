@@ -1,0 +1,40 @@
+name: Columbus
+short: Columbus
+kind: city
+parent: ga
+# Columbus Consolidated Government governs all of Muscogee County, so it's matched by the county.
+geoids: { state: "13", county: "13215" }
+# Municode Meetings (15 seconds between requests): the full minutes, two weeks after a meeting, give each ordinance's
+# sponsoring councilor and every motion's mover, seconder and tally ("Summary Minutes" come sooner, with less).
+feeds:
+  - { type: minutes-list, url: "https://columbus-ga.municodemeetings.com/", pages: 1, title: Columbus Council, link: "^Minutes$", rows: "Regular Meeting|Work Session", delay: 15 }
+council:
+  body: City Council
+  title: Councilor
+  # The city's own layer (Elections/Districts MapServer/10, "Council Districts"): exactly the eight district polygons,
+  # DISTRICTID "001"-"008", REPNAME current. Not the AGOL copy in rest.md (Council_Districts_9_30_2026): that one also
+  # holds county-wide polygons "009" and "010" for the at-large posts, and a point query returns "010" first, which is
+  # the feature the lookup reads. Same polygons otherwise (all eight areas match). CORS echoes our origin; Government
+  # Center → "007", two more points → "007", "006". The lookup drops the leading zeros, so members are "1".."8".
+  districts: { arcgis: "https://ccggisprod.columbusga.org/server/rest/services/Elections/Districts/MapServer/10", field: DISTRICTID }
+  url: "https://columbusga.gov/council"
+  checked: 2026-11-14
+  # Nonpartisan: council and mayor run on the May general-primary ballot without party labels (the SoS results, via
+  # ACCG's mirror, print none for any of them while the same ballot's party questions carry "D"), with June runoffs.
+  # All NP. Districts 9 and 10 are at large (no district). Names as columbusga.gov/council writes them ("Gary Allen",
+  # "Walker Garrett"; the minutes write "R. Gary Allen", "R. Walker Garrett"); new members as the ballot printed them.
+  # January 2027: new members are sworn in at the council's organizational meeting on the first Tuesday of January
+  # (oaths on Jan. 3, 2023 and Jan. 7, 2025 per the minutes), so Jan. 5, 2027 is used; the 2027 calendar isn't posted.
+  members:
+    - { district: "1", name: Simi Barnes, party: NP, url: "https://columbusga.gov/council/district-1" }
+    - { district: "2", name: Glenn Davis, party: NP, url: "https://columbusga.gov/council/district-2" }
+    - { district: "3", name: Bruce Huff, party: NP, url: "https://columbusga.gov/council/District-3", until: 2027-01-05 }
+    - { district: "3", name: Sherrie Aaron, party: NP, from: 2027-01-05 }
+    - { district: "4", name: Toyia Tucker, party: NP, url: "https://columbusga.gov/council/District-4" }
+    - { district: "5", name: Charmaine Crabb, party: NP, url: "https://columbusga.gov/council/District-5" }
+    - { district: "6", name: Gary Allen, party: NP, url: "https://columbusga.gov/council/District-6" } # Mayor Pro Tem
+    - { district: "7", name: JoAnne Cogle, party: NP, url: "https://columbusga.gov/council/District-7", until: 2027-01-05 }
+    - { district: "7", name: "Rebecca \"Becca\" Zajac", party: NP, from: 2027-01-05 }
+    - { district: "8", name: Walker Garrett, party: NP, url: "https://columbusga.gov/council/District-8" }
+    - { name: Cathy Cook, party: NP, url: "https://columbusga.gov/council/District-9" } # District 9 (at large)
+    - { name: Travis L. Chambers, party: NP, url: "https://columbusga.gov/council/District-10" } # District 10 (at large)

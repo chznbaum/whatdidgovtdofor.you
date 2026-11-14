@@ -1,0 +1,38 @@
+name: Fulton County
+short: Fulton County
+kind: county
+parent: ga
+geoids: { state: "13", county: "13121" }
+# Legistar: the commissioners' own action items carry sponsors, movers, seconders and roll calls; the manager's
+# routine items are left out.
+feeds:
+  - { type: legistar, client: fulton, types: ["Commissioners Action Item", "CM Action Item - Open & Responsible Government", "CM Action Item - Health and Human Services", "CM Action Item - Justice and Safety", "CM Action Item - Arts and Libraries", "CM Action Item - Infrastructure and Economic Development"], sponsors: true }
+council:
+  body: Board of Commissioners
+  title: Commissioner
+  # The county GIS's 2022 plan (passed by the legislature Feb. 2022, effective Jan. 1, 2023), still current. District is
+  # "1" to "6"; CORS is "*". Atlanta City Hall → "4". The layer's CommName is stale (names Natalie Hall for 4), so
+  # members come from the county, not the layer. The chair is elected countywide and shown to every address.
+  districts: { arcgis: "https://services1.arcgis.com/AQDHTHDrZzfsFsB5/arcgis/rest/services/Commission_Districts_2023/FeatureServer/0", field: District }
+  url: "https://www.fultoncountyga.gov/Commissioners"
+  checked: 2026-11-14
+  # Partisan races: the ballot prints the party (Fulton County's Nov. 3, 2026 results: "Mo Ivory (Dem)", "Bridget Thorne
+  # (I)(Rep)"; Ellis and Abdur-Rahman from the Nov. 2024 ballot, Barrett from 2022). The chair, Districts 1, 3 and 5
+  # were elected Nov. 3, 2026 (unofficial county results, 424 of 437 precincts; no race was close) and change hands on
+  # Jan. 1, 2027: the county's Legistar term records end the current terms 2026-12-31 and began Ivory's last term
+  # 2025-01-01. District 4 (vacant since Ivory resigned Mar. 6, 2026 to run for chair) was filled in a special election
+  # the same day; Legistar starts Malhotra's term Nov. 9, and he isn't on the county's roster page yet.
+  members:
+    - { name: Robb Pitts, party: D, role: Chairman, url: "https://www.fultoncountyga.gov/Commissioners/Robb-Pitts", until: 2027-01-01 } # lost the June 16 Democratic runoff
+    - { district: "1", name: Bridget Thorne, party: R, url: "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne", until: 2027-01-01 }
+    - { district: "2", name: Bob Ellis, party: R, url: "https://www.fultoncountyga.gov/Commissioners/Bob-Ellis" }
+    - { district: "3", name: Dana Barrett, party: D, url: "https://www.fultoncountyga.gov/Commissioners/Dana-Barrett", until: 2027-01-01 } # didn't run
+    - { district: "4", name: Rohit Malhotra, party: D } # special election Nov. 3, 2026 ("Rohit Malhotra (Dem)", 66.7%); seated Nov. 9
+    - { district: "5", name: "Marvin S. Arrington, Jr.", party: D, url: "https://www.fultoncountyga.gov/Commissioners/Marvin-Arrington", until: 2027-01-01 } # ran third for chair
+    - { district: "6", name: Khadijah Abdur-Rahman, party: D, url: "https://www.fultoncountyga.gov/Commissioners/Khadijah-Abdur-Rahman" } # Vice Chair
+    # Elected Nov. 3, 2026 (names as the ballot prints them; no county pages yet). Ivory's title is a guess from the
+    # press ("Chairwoman-elect"); the ballot says "Chairperson" and the county titles Pitts "Chairman".
+    - { name: Mo Ivory, party: D, role: Chairwoman, from: 2027-01-01 } # 339,143 to 112,552 over Eric J. Tatum (Rep)
+    - { district: "1", name: Maggie Goldman, party: D, from: 2027-01-01 } # 42,950 to 32,813 over Thorne
+    - { district: "3", name: Jodi Merriday, party: D, from: 2027-01-01 } # 52,796 to 29,153 over Paul Burton (Rep)
+    - { district: "5", name: Helen Zenobia Willis, party: D, from: 2027-01-01 } # 71,019 to 4,108 over Tiffany A. Henyard (Rep)

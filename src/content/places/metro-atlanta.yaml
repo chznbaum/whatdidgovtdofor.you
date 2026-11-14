@@ -1,0 +1,10 @@
+name: Metro Atlanta
+short: Metro Atlanta
+kind: region
+parent: ga
+members: [atlanta, fulton-county, dekalb-county, cobb-county, marietta, gwinnett-county, lawrenceville]
+blurb: The City of Atlanta and the counties around it, where about half of Georgia lives.
+# The Atlanta Regional Commission's news (it plans for the 11-county region; its board is appointed). robots.txt asks
+# 10 seconds between requests and rules out its WordPress API, so the plain feed is read.
+feeds:
+  - { type: rss, url: "https://atlantaregional.org/feed/" }

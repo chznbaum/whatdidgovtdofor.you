@@ -1,0 +1,40 @@
+name: Athens-Clarke County
+short: Athens-Clarke
+kind: city
+parent: ga
+# The unified government covers all of Clarke County: the Census's "(balance)" place leaves out Winterville and part
+# of Bogart, whose residents also elect the commission, so it's matched by the county.
+geoids: { state: "13", county: "13059" }
+# Agenda Center minutes (10 seconds between requests) with movers and seconders, five to six weeks after a meeting.
+# Committee minutes share the category; triage drops what they only discuss.
+feeds:
+  - { type: agendacenter, url: "https://www.accgov.com", category: 3, file: minutes }
+council:
+  body: Commission
+  title: Commissioner
+  # ACC's AGOL layer behind its "Who's My Commissioner" tool (polygons of CommissionDistricts_AddressPt_20240301_WFL1;
+  # layer 1 is address points). Label is "1"-"10" (District is "001"-"010"); Incumbent and Biography carry the current
+  # names and member pages. CORS "*"; City Hall → Label "4", Allison Wright. Lines in use since the 2022-23
+  # redistricting. ACC's GIS owner edited "Commission Districts V4 AS" on 2026-11-03, so a redraw may be coming; recheck.
+  districts: { arcgis: "https://services2.arcgis.com/xSEULKvB31odt3XQ/arcgis/rest/services/CommissionDistricts_AddressPt_20240301_WFL1/FeatureServer/0", field: Label }
+  url: "https://www.accgov.com/168/Commission-Information-Biographies"
+  checked: 2026-11-14
+  # Nonpartisan: mayor and commissioners run on the May general-primary ballot without party labels (the SoS results,
+  # via ACCG's mirror, print none), with June runoffs. All NP. Names as ACC's roster writes them; new members as the
+  # ballot printed them. January 2027: new members and the mayor are sworn in at the first Tuesday session in January
+  # (Jan. 8, 2019 and Jan. 3, 2023 per WUGA; D1's bio: "His initial term began January 8, 2019"), so Jan. 5, 2027 is
+  # used; ACC's calendar doesn't list it yet. Dexter Fisher leaves District 5 to become mayor.
+  members:
+    - { district: "1", name: Patrick Davenport, party: NP, url: "https://www.accgov.com/8427/District-1" }
+    - { district: "2", name: Melissa Link, party: NP, url: "https://www.accgov.com/8662/District-2" }
+    - { district: "3", name: Tiffany Taylor, party: NP, url: "https://www.accgov.com/8663/District-3" }
+    - { district: "4", name: Allison Wright, party: NP, url: "https://www.accgov.com/8664/District-4" }
+    - { district: "5", name: Dexter Fisher, party: NP, url: "https://www.accgov.com/8665/District-5", until: 2027-01-05 }
+    - { district: "5", name: Craig Topple, party: NP, from: 2027-01-05 }
+    - { district: "6", name: Stephanie Johnson, party: NP, url: "https://www.accgov.com/8666/District-6" }
+    - { district: "7", name: John Culpepper, party: NP, url: "https://www.accgov.com/8667/District-7", until: 2027-01-05 }
+    - { district: "7", name: Ed Tolley, party: NP, from: 2027-01-05 }
+    - { district: "8", name: Carol Myers, party: NP, url: "https://www.accgov.com/8668/District-8" }
+    - { district: "9", name: Ovita Thornton, party: NP, url: "https://www.accgov.com/8494/District-9", until: 2027-01-05 }
+    - { district: "9", name: Tracy Smith, party: NP, from: 2027-01-05 }
+    - { district: "10", name: Mike Hamby, party: NP, url: "https://www.accgov.com/8669/District-10" }
