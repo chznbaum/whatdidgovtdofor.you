@@ -133,7 +133,8 @@ export function legistarFeed(o: LegistarOptions): Feed {
           const names = rows
             .sort((a, b) => a.MatterSponsorSequence - b.MatterSponsorSequence)
             .map((s) => s.MatterSponsorName)
-            .filter((name, i, all) => all.indexOf(name) === i);
+            // Newark lists "Council of the Whole" for the administration's items: a body, not a sponsor.
+            .filter((name, i, all) => all.indexOf(name) === i && !/\bof the Whole$/i.test(name));
           if (names.length) c.extra!.sponsors = names;
         });
       }

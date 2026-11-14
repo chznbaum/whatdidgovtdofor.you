@@ -229,11 +229,22 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     files: z.string(), // pattern for the minutes files to read, by file name, e.g. 'Agenda Actions'
   }),
   z.object({
+    type: z.literal('acnj'), // Atlantic City's meetings JSON: each meeting's minutes book, up to its appendix, is a recap
+    id: z.string().optional(),
+    url: z.url(), // the site's origin, https://www.acnj.gov
+    body: z.string(), // the meeting type, "Council"
+  }),
+  z.object({
     type: z.literal('minutes-list'), // a page listing a body's meetings with "Minutes" PDF links: each one's is a recap
     id: z.string().optional(),
     url: z.url(), // the meeting list (older meetings on ?page=2, ...)
     pages: z.number().int().default(2), // how many list pages to read
     title: z.string(), // the body: "Metropolitan Council"
+    layout: z.enum(['table', 'blocks']).optional(), // a table row per meeting (default), or a line or box per meeting
+    link: z.string().optional(), // pattern for the minutes link's text (default "Minutes")
+    rows: z.string().optional(), // pattern a meeting's row must match, e.g. "Regular Meeting"
+    delay: z.number().optional(), // seconds between requests, if robots.txt sets a Crawl-delay
+    lookback: z.number().int().optional(), // days to look back for late minutes (default 120)
   }),
 ]);
 
