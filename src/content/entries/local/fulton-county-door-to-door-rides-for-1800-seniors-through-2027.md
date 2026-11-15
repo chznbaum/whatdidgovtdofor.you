@@ -27,9 +27,15 @@ status:
   note: Approved on Nov. 4, 2026; the 12-month extension starts Jan. 1, 2027.
   source: https://fulton.legistar.com/gateway.aspx?M=L&ID=16473
 credit:
+  - official: kweli-rashied-henry
+    role: proposed
+    note: Led the department that recommended modifying and extending the Transdev contract
   - official: fulton-county-department-of-senior-services
     role: proposed
     note: Recommended modifying and extending the Transdev contract
+  - official: robb-pitts
+    role: led
+    note: Chaired the board that approved the extension on Nov. 4, 2026
   - official: fulton-county-board-of-commissioners
     role: voted-yes
     note: Approved the 12-month extension on Nov. 4, 2026, after holding it at two earlier meetings
@@ -41,6 +47,12 @@ sources:
   - title: Senior Services transportation
     publisher: Fulton County Government
     url: https://fultoncountyga.gov/inside-fulton-county/fulton-county-departments/senior-services/transportation
+  - title: Senior Services Department Page
+    publisher: Fulton County Government
+    url: https://performance.fultoncountyga.gov/stories/s/Senior-Services-Department-Page/efzg-qvtt/
+  - title: Robb Pitts
+    publisher: Fulton County Government
+    url: https://fultoncountyga.gov/Commissioners/Robb-Pitts
 verification:
   writer:
     model: claude-opus-5-5
@@ -51,12 +63,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the approval, service details, beneficiaries, contract amount and dates. Corrected the future-effective status, incomplete credit and overstated grant description.
+  notes: Confirmed the approval, beneficiaries, service details, funding, dates, and current status. Added the named department head and action-date board chair required by the site’s faces-first credit rules.
 source_key: fulton-county-26-0674
 ---
 
-If you're 60 or older, live in Fulton County, and illness, disability or limited mobility makes it hard to get around, the county's shared-ride service can take you door to door to recurring medical appointments like dialysis, physical therapy and chemotherapy. It also runs weekday trips to the county's 14 neighborhood senior centers and 5 adult day health centers. People with developmental disabilities ride it to 3 county training centers. Vehicles can carry wheelchairs, and drivers help riders from the door. The county lists no fare for these rides.
+If you're 60 or older, live in Fulton County, and illness, disability or limited mobility makes it hard to get around, the county's shared-ride service can take you door to door to recurring medical appointments like dialysis, physical therapy and chemotherapy. It also runs weekday trips to the county's 14 neighborhood senior centers and 5 adult day health centers. People with developmental disabilities ride it to 3 training centers. Vehicles can carry wheelchairs, and drivers help riders from the door. The county lists no fare for these rides.
 
 About 1,800 people use the service. To sign up, call Fulton County Senior Services at 404-613-6000. The county decides how many trips you can take based on how much help you need getting around.
 
-The Department of Senior Services recommended the extension. On Nov. 4, 2026, the Fulton County Board of Commissioners approved up to $9,589,074.96 to keep Transdev running the service from January 1 through December 31, 2027, with the same terms. Commissioners held the item at two meetings in October before approving it. The county's general fund is budgeted to pay about $8.5 million, and four grant lines make up the rest; two of those grant awards were still pending when commissioners approved the extension. The extension keeps the rides going while the county seeks bids for a new contract.
+The Department of Senior Services, led by interim director Kweli Rashied-Henry, recommended the extension. On Nov. 4, 2026, Chairman Robb Pitts led the Fulton County Board of Commissioners when it approved up to $9,589,074.96 to keep Transdev running the service from January 1 through December 31, 2027, with the same terms. Commissioners held the item at two meetings in October before approving it. The county's general fund is budgeted to pay about $8.5 million, and four grant lines make up the rest; two of those grant awards were still pending when commissioners approved the extension. The extension keeps the rides going while the county seeks bids for a new contract.

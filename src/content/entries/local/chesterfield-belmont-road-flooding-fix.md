@@ -19,12 +19,15 @@ impact:
     label: stretch of Belmont Road being removed and rebuilt on a new alignment
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-10-26
   note: The contract was approved Aug. 26, 2026. As of the county's Oct. 26, 2026 update, construction was expected to start by the end of October 2026 and finish by December 2027.
   source: https://www.chesterfield.gov/CivicAlerts.aspx?AID=4692
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that approved funding and awarded the construction contract on Aug. 26, 2026
   - official: chesterfield-board-of-supervisors
-    role: secured-funding
+    role: voted-yes
     note: Voted 5-0 to fund the project and award the construction contract
 votes:
   - chamber: Chesterfield County Board of Supervisors
@@ -38,6 +41,17 @@ votes:
       R:
         yes: 2
         no: 0
+    members:
+      - official: mark-miller
+        vote: yes
+      - official: kevin-carroll
+        vote: yes
+      - official: james-ingle
+        vote: yes
+      - official: jessica-schneider
+        vote: yes
+      - official: lequan-hylton
+        vote: yes
     source: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5321,plainText=false)
 sources:
   - title: Board of Supervisors Meeting, August 26, 2026 minutes
@@ -60,9 +74,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract, project scope, funding transfers, unanimous vote, party breakdown, and current construction timeline. Narrowed two flooding claims to match the county’s stated goal of alleviating—not necessarily eliminating—roadway flooding.
+  notes: Confirmed the contract amount, scope, flood-mitigation purpose, funding, vote, and latest county timeline. Corrected the person-first credit, added the five named voters, and aligned the status date with the latest supporting update.
 source_key: chesterfield-council-2029-funded-and-authorized-3-87m-contract-for-belmont-road-draina
 ---
 
@@ -70,4 +84,4 @@ A stretch of Belmont Road in Chesterfield County, between Whitepine Road and Cor
 
 You don't need to do anything to benefit. Belmont Road is supposed to stay open the whole time, though drivers should expect some alternating lane closures and delays. The county expected work to begin by the end of October 2026 and to finish by December 2027.
 
-The county took public comment on the project in 2022, and people generally supported it. On August 26, 2026, the Board of Supervisors voted 5-0 to pay for it and award a $3,872,010 construction contract to Shirley Contracting Company. The county's project page says drainage improvement bond money is paying for the work. At the vote, the board also moved in $300,000 from developer road payments, $710,000 from the county's general road improvement account, and $140,000 left over from a finished drainage project on Indian Springs Road.
+The county took public comment on the project in 2022, and people generally supported it. On August 26, 2026, the Board of Supervisors, chaired by Mark Miller, voted 5-0 to pay for it and award a $3,872,010 construction contract to Shirley Contracting Company. The county's project page says drainage improvement bond money is paying for the work. At the vote, the board also moved in $300,000 from developer road payments, $710,000 from the county's general road improvement account, and $140,000 left over from a finished drainage project on Indian Springs Road.

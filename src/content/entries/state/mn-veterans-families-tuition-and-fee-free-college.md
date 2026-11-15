@@ -21,17 +21,20 @@ impact:
     label: yearly stipend for each eligible child and spouse, while funds last
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
-  - official: minnesota-department-of-veterans-affairs
-    role: proposed
-    note: HF 3741 was an agency initiative
   - official: josiah-hill
     role: sponsored
     note: Chief House author
   - official: judy-seeberger
     role: sponsored
     note: Chief Senate author
+  - official: brad-lindsay
+    role: proposed
+    note: Commissioner leading MDVA when it advanced HF 3741
+  - official: minnesota-department-of-veterans-affairs
+    role: proposed
+    note: HF 3741 was an agency initiative
   - official: tim-walz
     role: signed
 votes:
@@ -59,10 +62,17 @@ sources:
   - title: Veterans education program consolidation
     publisher: Minnesota House Public Information Services
     url: https://house.mn.gov/NewLaws/story/2026/5761
+  - title: Veterans and Military Affairs Division, March 4, 2026 meeting
+    publisher: Minnesota House of Representatives
+    url: https://www.house.mn.gov/committees/minutes/94021/101628
+    date: 2026-03-04
   - title: Legislative Update – April 20, 2026
     publisher: Minnesota Department of Veterans Affairs
     url: https://mn.gov/mdva/news/legislative-updates/?id=1066-742315
     date: 2026-04-20
+  - title: Minnesota Department of Veterans Affairs leadership
+    publisher: Minnesota Department of Veterans Affairs
+    url: https://mn.gov/mdva/about/leadership.jsp
 featured: false
 verification:
   writer:
@@ -72,9 +82,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the enacted text, current statute, sponsorship, signing date, effective date, and both unanimous roll calls. Corrected the residency comparison and former POW/MIA benefit, added the agency that proposed the bill, and documented the benefit the law ended.
+  notes: Confirmed the benefit, eligibility rules, effective date, unanimous roll calls, and current status. Corrected the agency credit to name the commissioner responsible for MDVA rather than treating a staff testifier as the agency’s champion.
 source_key: mn-2026-ch49
 ---
 
@@ -82,4 +92,4 @@ If your parent, stepparent or spouse died because of military service, you can g
 
 The law shifts the residency test rather than simply broadening it. The veteran no longer needs a past Minnesota connection, but the student must now qualify as a Minnesota resident student. That opens the program to some families while potentially excluding nonresident students who qualified under the old rules. Children and spouses of prisoners of war and service members missing in action now receive benefits through this program. Their former program allowed free public-college tuition or other charges and up to $250 a year at private colleges.
 
-You must apply by the end of the academic term and submit proof of military service and other documents that establish eligibility. The law also ends a one-time $750 payment to veterans who had used up their federal education benefits; the House's summary says that payment was rarely used after other state and federal benefits grew. The Minnesota Department of Veterans Affairs proposed the bill. Rep. Josiah Hill and Sen. Judy Seeberger carried it; the House passed it 134–0 and the Senate 66–0. Gov. Tim Walz signed it on April 21, 2026.
+You must apply by the end of the academic term and submit proof of military service and other documents that establish eligibility. The law also ends a one-time $750 payment to veterans who had used up their federal education benefits; the House's summary says that payment was rarely used after other state and federal benefits grew. The Minnesota Department of Veterans Affairs proposed the bill, and its Government Affairs Director Jon Kelly testified for it. Rep. Josiah Hill and Sen. Judy Seeberger carried it; the House passed it 134–0 and the Senate 66–0. Gov. Tim Walz signed it on April 21, 2026.

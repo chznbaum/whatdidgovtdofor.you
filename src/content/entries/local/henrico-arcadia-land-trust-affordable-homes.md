@@ -22,18 +22,25 @@ impact:
     label: most a buyer can earn, as a share of the Richmond-area median income
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Henrico Board of Supervisors approved the grant on Oct. 27, 2026. The land trust still has to acquire the 20 homes before selling them to qualified buyers.
   source: https://henrico.gov/news/2026/10/board-of-supervisors-meeting-recap-for-oct-27-board-approves-regulations-for-sale-of-recreational-marijuana-awards-construction-contract-for-three-chopt-road-improvements/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the board that approved the $500,000 grant and amended agreement on Oct. 27, 2026
   - official: henrico-board-of-supervisors
-    role: secured-funding
+    role: voted-yes
     note: Approved the $500,000 grant and the amended agreement with the land trust on Oct. 27, 2026
 sources:
   - title: "Board of Supervisors meeting recap for Oct. 27: Board reviews proposed regulations for sale of recreational marijuana, awards construction contract for Three Chopt Road improvements"
     publisher: Henrico County
     url: https://henrico.gov/news/2026/10/board-of-supervisors-meeting-recap-for-oct-27-board-approves-regulations-for-sale-of-recreational-marijuana-awards-construction-contract-for-three-chopt-road-improvements/
     date: 2026-10-28
+  - title: Fairfield’s Roscoe Cooper III to lead Henrico Board of Supervisors in 2026
+    publisher: Henrico County
+    url: https://henrico.gov/news/2026/01/fairfields-roscoe-cooper-iii-to-lead-henrico-board-of-supervisors-in-2026/
+    date: 2026-01-14
   - title: "Henrico makes sure new neighborhood has homes for lower-income households: 'Do something different'"
     publisher: WTVR CBS 6
     url: https://www.wtvr.com/news/local-news/henrico-neighborhood-arcadia-may-1-2024
@@ -50,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant, eligibility limit, land-trust structure, approval, and current phasing-in status. Corrected several details to match the county’s agenda and published recap.
+  notes: Confirmed the grant, 20-home scope, income cap, land-trust model, matching funds, approval date, and current phasing-in status. Corrected the credit to name the board chair who presided over the approval.
 source_key: henrico-news-181689-approved-500-000-grant-to-maggie-walker-community-land-trust
 ---
 

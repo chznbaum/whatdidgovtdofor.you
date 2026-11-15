@@ -22,14 +22,17 @@ impact:
     label: how much lower the three NYC lead dust thresholds are
 status:
   state: in-effect
-  as_of: 2026-11-12
+  as_of: 2026-11-14
 credit:
-  - official: nyc-board-of-health
+  - official: alister-martin
     role: issued
-    note: Adopted the stricter lead dust definition at its Sept. 17, 2026 meeting
+    note: Chaired the Board of Health when it adopted the rule on Sept. 17, 2026
   - official: nyc-health-department
     role: proposed
     note: Proposed the change in May 2026 to keep the city's limits stricter than new federal standards
+  - official: nyc-board-of-health
+    role: voted-yes
+    note: Adopted the stricter lead dust definition at its Sept. 17, 2026 meeting
 sources:
   - title: Amendment of Rules Relating to Lead Dust
     publisher: NYC Rules, City of New York
@@ -39,9 +42,10 @@ sources:
     publisher: NYC Department of Health and Mental Hygiene
     url: https://www.nyc.gov/assets/doh/downloads/pdf/notice/2026/noa-art173-lead-dust-rules.pdf
     date: 2026-10-05
-  - title: "NYC Adopts Stricter Lead Dust Thresholds: What Property Owners, Contractors, and Inspectors Need to Know"
-    publisher: CNS Environmental
-    url: https://www.cnsenviro.com/post/nyc-adopts-stricter-lead-dust-thresholds
+  - title: NYC Health Department Marks Lead Poisoning Prevention Week With Historically Low Elevated Blood Lead Levels for NYC Children
+    publisher: NYC Department of Health and Mental Hygiene
+    url: https://www.nyc.gov/site/doh/about/press/pr2026/nlppw-historic-lows-children-with-elevated-blood-lead-levels.page
+    date: 2026-10-26
   - title: Lead Poisoning — Information for Residential Building Owners
     publisher: NYC Department of Health and Mental Hygiene
     url: https://www.nyc.gov/site/doh/health/health-topics/lead-poisoning-information-for-building-owners.page
@@ -53,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-12
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the adopted thresholds, Sept. 17 adoption, Nov. 5 effective date, rulemaking credit, and current status. Narrowed several claims to the rule’s actual testing contexts and removed a source that gave the wrong effective date.
+  notes: Confirmed the thresholds, testing contexts, adoption and effective dates, and current status. Added the Board’s chair as the required human credit and strengthened the sourcing.
 source_key: nyc-rule-amendment-of-rules-relating-to-lead-dust
 ---
 

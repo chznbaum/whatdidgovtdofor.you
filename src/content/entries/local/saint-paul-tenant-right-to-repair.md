@@ -47,7 +47,7 @@ sources:
     url: https://www.mprnews.org/story/2026/11/03/st-paul-approves-right-to-repair-letting-renters-make-fixes-with-landlords-paying
     date: 2026-11-03
   - title: St. Paul voters approve 'right to repair' ballot question
-    publisher: KARE 11
+    publisher: Pioneer Press (via Yahoo News)
     url: https://www.yahoo.com/news/us/articles/st-paul-voters-approve-repair-195558595.html
     date: 2026-11-04
   - title: St. Paul Voters To Decide 'Right To Repair'
@@ -62,9 +62,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the enacted ordinance, certified vote totals, campaign and court history, effective date, and current status. Corrected the repair-dispute procedure, coverage description, and official ordinance name.
+  notes: Confirmed the ordinance terms, certified vote, court history, effective date, and current status. Corrected the attribution of the Yahoo-hosted election report.
 source_key: saint-paul-res-26-1892
 ---
 

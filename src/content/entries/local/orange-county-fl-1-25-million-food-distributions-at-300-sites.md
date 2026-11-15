@@ -25,6 +25,9 @@ status:
   note: Approved October 27, 2026; performance begins upon contract execution, and the available county record does not give an execution date.
   source: https://webapi.legistar.com/v1/occompt/matters/19530/texts/19669
 credit:
+  - official: jerry-demings
+    role: led
+    note: Chaired the board that approved the contract on October 27, 2026
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
     note: Approved the contract 6–0 on its consent agenda
@@ -55,6 +58,9 @@ sources:
     publisher: Orange County Comptroller
     url: https://www.occompt.com/DocumentCenter/View/57843/Commissioner-Districts-2026
     date: 2025-10-23
+  - title: Orange County FY 2026 adopted budget
+    publisher: Orange County Government
+    url: https://orangecountyfl.net/Portals/0/resource%20library/open%20government/FY%202026%20Adopted%20Budget-CERT.pdf
 verification:
   writer:
     model: claude-opus-5-5
@@ -65,7 +71,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the funding, estimates, allocations, and 6–0 approval. Corrected the district count, payment and access wording, and rollout status.
+  notes: Confirmed the contract amount, reach estimates, allocations, approval date, vote tally, district count, and rollout status. Added the board chair required by the credit rules.
 source_key: orange-county-fl-26-1230
 ---
 
@@ -73,4 +79,4 @@ Orange County approved a $1.25 million, one-year contract with Second Harvest Fo
 
 About $700,000 is set aside for mayor and commissioner allocations: $100,000 for the mayor and $75,000 for each commissioner. The county memorandum says those funds will support distributions at approved locations. Another $445,833.33 is available to Second Harvest to implement the food bank distribution program. Its central warehouse sources, stores and distributes food through a network of more than 300 partner agencies in the county. The county says all Orange County residents may have access to funded programs. Its Citizens' Commission for Children lists those programs in a directory searchable by address at ocfl.net/ccc.
 
-The Citizens' Commission for Children, which has funded Second Harvest food distribution services for more than a decade, concurred with the funding recommendation. The county says the initiative was developed through collaboration among the mayor's office, county commissioners and participating partner agencies. The Board of County Commissioners approved the contract 6–0 on its consent agenda on October 27, 2026. One commissioner was absent.
+The Citizens' Commission for Children, which has funded Second Harvest food distribution services for more than a decade, concurred with the funding recommendation. The county says the initiative was developed through collaboration among the mayor's office, county commissioners and participating partner agencies. Orange County Mayor Jerry Demings chaired the board that approved the contract 6–0 on its consent agenda on October 27, 2026; one commissioner was absent.

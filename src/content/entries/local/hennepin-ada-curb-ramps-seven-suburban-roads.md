@@ -20,13 +20,16 @@ impact:
     label: stretches of county road in eight suburban cities getting upgraded ramps
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The contract was awarded on Sept. 15, 2026. The county says construction starts in 2026 and will be substantially complete in 2027.
   source: https://hennepinmn.legistar.com/gateway.aspx?M=L&ID=4794
 credit:
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that adopted Resolution 26-0320 on Sept. 15, 2026
   - official: hennepin-county-board
     role: voted-yes
-    note: Adopted the contract award on a motion by Commissioner Kevin Anderson, seconded by Commissioner Marion Greene
+    note: Adopted the contract award
 sources:
   - title: "26-0320: Award contract to Concrete Idea, Inc for accessibility improvements along various county roads"
     publisher: Hennepin County Board of Commissioners
@@ -36,6 +39,9 @@ sources:
     publisher: Hennepin County (Legistar)
     url: https://webapi.legistar.com/v1/hennepinmn/matters/4794/histories
     date: 2026-09-15
+  - title: District 2 Irene Fernando
+    publisher: Hennepin County
+    url: https://www.hennepincounty.gov/government/leadership/board-of-commissioners/district-2
   - title: Transportation system ADA transition plan
     publisher: Hennepin County
     url: https://www.hennepincounty.gov/government/projects-initiatives/transportation/transportation-system-ada-transition-plan
@@ -48,9 +54,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the award, funding, locations, board action, timeline, and ADA-plan context. Corrected the headline’s road count; the resolution lists seven project segments but only six distinct named roads.
+  notes: Confirmed the award, amount, seven segments, eight cities, funding, timeline, and current status. Added the board chair before the collective body to meet the person-first credit rule.
 source_key: hennepin-26-0320
 ---
 
@@ -58,4 +64,4 @@ Hennepin County is rebuilding the pedestrian ramps where sidewalks meet the stre
 
 You don't need to do anything. The ramps are being rebuilt along with repaving on the same roads. Construction starts in 2026, and the county expects it to be substantially complete in 2027.
 
-The county board approved the $826,582 contract with Concrete Idea, Inc., the lowest responsive bidder, on September 15, 2026. Commissioner Kevin Anderson made the motion and Commissioner Marion Greene seconded it. The money comes from the county's Metro Tax funds for active transportation. The project is part of the county's ADA transition plan, updated in September 2025, which lists where county streets and sidewalks still fall short of accessibility standards.
+The county board, chaired by Commissioner Irene Fernando, approved the $826,582 contract with Concrete Idea, Inc., the lowest responsive bidder, on September 15, 2026. The money comes from the county's Metro Tax funds for active transportation. The project is part of the county's ADA transition plan, updated in September 2025, which lists where county streets and sidewalks still fall short of accessibility standards.

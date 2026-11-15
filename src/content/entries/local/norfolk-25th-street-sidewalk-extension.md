@@ -21,13 +21,19 @@ impact:
     label: Norfolk's local share of the project
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The money was approved in August 2026. Transportation Alternatives projects in this cycle go through design and engineering before construction starts, so the sidewalk isn't built yet.
   source: https://www.wtkr.com/transportation/multiple-hampton-roads-communities-awarded-over-14-million-for-trail-and-sidewalk-projects-across-the-region
 credit:
+  - official: kenny-alexander
+    role: led
+    note: Served as mayor and presiding officer of the council that adopted the ordinance 8-0
   - official: norfolk-city-council
     role: voted-yes
     note: Adopted the ordinance 8-0, accepting the Transportation Alternatives money and putting up the $240,920 city share
+  - official: nick-donohue
+    role: issued
+    note: Chaired the Commonwealth Transportation Board when it adopted the final FY2027-2032 transportation program containing the award
   - official: commonwealth-transportation-board
     role: secured-funding
     note: Selected $963,678 as a statewide at-large Transportation Alternatives award and adopted the final FY2027-2032 program
@@ -40,6 +46,23 @@ votes:
       NP:
         yes: 8
         no: 0
+    members:
+      - official: kenny-alexander
+        vote: yes
+      - official: carlos-clanton
+        vote: yes
+      - official: courtney-doyle
+        vote: yes
+      - official: mamie-johnson
+        vote: yes
+      - official: jeremy-mcgee
+        vote: yes
+      - official: john-paige
+        vote: yes
+      - official: thomas-smigiel-jr
+        vote: yes
+      - official: martin-thomas-jr
+        vote: yes
     source: https://www.norfolk.gov/AgendaCenter/ViewFile/Minutes/_08252026-1316
 sources:
   - title: Norfolk City Council meeting minutes, August 25, 2026 (Ordinance No. 50480)
@@ -66,9 +89,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, amounts, 8–0 vote, and unfinished status. Corrected which body supplied the award and clarified the funding description.
+  notes: Confirmed the ordinance, funding amounts, project scope, final transportation program, 8–0 vote, and unfinished status. Added the named officials required ahead of the credited bodies and recorded every council member’s vote.
 source_key: norfolk-council-1316-ordinance-no-50480
 ---
 
