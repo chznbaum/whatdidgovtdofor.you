@@ -5,3 +5,10 @@ level: local
 jurisdiction: st-petersburg
 current: true
 url: https://www.stpete.org/government/mayor___city_council/city_council/district_8.php
+portrait:
+  image: /portraits/richie-floyd.webp
+  kind: official
+  source:
+    label: City of St. Petersburg
+    url: https://www.stpete.org/government/mayor___city_council/city_council/district_8.php
+    license: "© City of St. Petersburg, used as a drawing reference"

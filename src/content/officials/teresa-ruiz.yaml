@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/teresa-ruiz.webp
+  kind: official
+  source:
+    label: New Jersey Legislature
+    url: https://www.njleg.state.nj.us/legislative-roster/287/senator-ruiz
+    license: "© New Jersey Legislature, used as a drawing reference"

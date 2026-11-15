@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us
+portrait:
+  image: /portraits/david-bailey.webp
+  kind: official
+  source:
+    label: Gloucester County
+    url: https://www.gloucestercountynj.gov/295/3rd-Legislative-District
+    license: "© Gloucester County / photographer, used as a drawing reference"
