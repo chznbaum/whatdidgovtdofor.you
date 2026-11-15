@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-14
+    date: 2026-11-15
   verdict: pass
-  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, full reimbursement, and safety descriptions against the cited Richmond ordinance, agreement, and VDOT guidance. The CTB record supports the scheduled status, and no later cancellation or completion record was found.
+  notes: Confirmed the ordinance scope, impact figures, mayoral patronage, unanimous adoption, full federal reimbursement, safety descriptions, and scheduled status. No later cancellation or completion record was found through Nov. 15, 2026.
 source_key: richmond-ord-2024-289
 ---
 

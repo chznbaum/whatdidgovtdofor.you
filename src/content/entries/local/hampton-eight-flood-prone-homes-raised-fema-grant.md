@@ -83,9 +83,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-14
-  verdict: corrected
-  notes: Confirmed the grant scope, funding arithmetic, homeowner process, council vote, separate seven-home award, and latest publicly documented status. Added the 2024 presiding mayor and the seven named council voters.
+    date: 2026-11-15
+  verdict: pass
+  notes: Confirmed the grant scope and amounts, homeowner process, council credit and 7–0 vote, separate seven-home award, and latest publicly documented status. No project-specific completion, extension, cancellation, or rollback was found.
 source_key: hampton-24-0053
 ---
 

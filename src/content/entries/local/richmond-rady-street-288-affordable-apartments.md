@@ -21,9 +21,9 @@ impact:
     label: minimum time the apartments must stay affordable
 status:
   state: phasing-in
-  as_of: 2026-08-27
-  note: On Aug. 27, 2026, the Economic Development Authority unanimously authorized its chair to execute the agreement; no later verifiable construction update was found. The agreement requires construction to start within 18 months of its effective date and finish within three years after work starts, although the city may extend either deadline.
-  source: https://richmondeda.com/wp-content/uploads/2026/09/August-27-2026-Board-Meeting-Minutes-FINAL.pdf
+  as_of: 2026-11-15
+  note: After the Economic Development Authority unanimously authorized its chair to execute the agreement on Aug. 27, 2026, RRHA's Nov. 12 agenda included a public hearing and resolution to increase bond financing for acquiring, constructing, and equipping the approximately 288-unit project. Final minutes were not yet posted, and no construction update was found as of Nov. 15. The agreement allows 18 months from its effective date to start construction and three years after work starts to finish, with extensions possible.
+  source: https://www.rrha.com/wp-content/uploads/2026/11/November-12-2026-Regular-Board-Meeting-Agenda.pdf
 credit:
   - official: ellen-robertson
     role: sponsored
@@ -51,6 +51,10 @@ sources:
     publisher: Richmond BizSense
     url: https://richmondbizsense.com/2025/02/25/council-approves-350-unit-northside-apartment-project-appoints-new-eda-member/
     date: 2025-02-25
+  - title: RRHA Board of Commissioners meeting agenda
+    publisher: Richmond Redevelopment and Housing Authority
+    url: https://www.rrha.com/wp-content/uploads/2026/11/November-12-2026-Regular-Board-Meeting-Agenda.pdf
+    date: 2026-11-12
 featured: false
 verification:
   writer:
@@ -60,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-14
+    date: 2026-11-15
   verdict: corrected
-  notes: Confirmed the ordinance, affordability terms, credits, project history, EDA authorization, and current status. Corrected the description of how the property-tax grant baseline is calculated.
+  notes: Confirmed the ordinance, affordability terms, tax-grant structure, project history, and credits. Updated the status using the latest official RRHA proceeding from November 2026.
 source_key: richmond-ord-2026-170
 ---
 

@@ -23,7 +23,7 @@ impact:
 status:
   state: phasing-in
   as_of: 2026-04-14
-  note: A city quarterly report covering spending through Dec. 31, 2025 said the project was in planning and design, with work underway on 90% design plans and $613,356 spent. The city's April 14, 2026 procurement forecast scheduled solicitation for the third quarter of 2026. We found no later public update.
+  note: A city quarterly report listed $613,356 in life-to-date expenditures through Dec. 31, 2025 but gave no status comment for the project. The city's April 14, 2026 procurement forecast anticipated a solicitation for the work in the third quarter of 2026. We found no later public update.
   source: https://www.rva.gov/sites/default/files/2026-04/Forecast%20Projects%20Calendar%20-%20Apr%202026.pdf
 credit:
   - official: levar-stoney
@@ -32,6 +32,9 @@ credit:
   - official: ellen-robertson
     role: sponsored
     note: Co-patron of the ordinance accepting the grant
+  - official: pete-buttigieg
+    role: issued
+    note: Led the U.S. Department of Transportation when it announced the grant award in December 2023
   - official: us-department-of-transportation
     role: issued
     note: Awarded the grant through its Safe Streets and Roads for All program in December 2023
@@ -47,6 +50,10 @@ sources:
     publisher: City of Richmond
     url: https://rva.gov/press-releases-and-announcements/news/city-awarded-additional-1077-million-safe-streets-and-roads
     date: 2023-12-12
+  - title: Biden-Harris Administration investing in hundreds of American communities to improve safety and prevent roadway deaths
+    publisher: U.S. Department of Transportation
+    url: https://www.transportation.gov/briefing-room/biden-harris-administration-investing-hundreds-american-communities-improve-safety
+    date: 2023-12-13
   - title: Warner and Kaine announce over $25.6 million in funding for safety improvements in Virginia Beach and Richmond
     publisher: Office of Sen. Tim Kaine
     url: https://www.kaine.senate.gov/press-releases/warner-and-kaine-announce-over-256-million-in-funding-for-safety-improvements-in-virginia-beach-and-richmond
@@ -67,9 +74,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-14
-  verdict: pass
-  notes: Confirmed the ordinance, 8–0 adoption, grant and match amounts, 13-corridor scope, planned improvements, credits, and source URLs. The project remains active and phasing in; no later cancellation or rollback was found.
+    date: 2026-11-15
+  verdict: corrected
+  notes: Confirmed the ordinance, funding, match, corridor scope, planned improvements, patrons, vote, and current status evidence. Corrected a misread project-status comment and added the transportation secretary required ahead of the agency credit.
 source_key: richmond-ord-2024-278
 ---
 

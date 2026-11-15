@@ -135348,10 +135348,11 @@
   "date": "2026-11-14"
  },
  "newark-26-0271": {
-  "decision": "promising",
-  "reason": "triage: $3.3M grant to plant 1,000 street trees, funded, no city cost",
+  "decision": "drafted",
+  "reason": "Newark accepted a $3.325 million grant, paid from congestion toll revenue and costing the city nothing, to plant 1,000 street trees near bus stops, schools and homes in a neighborhood with heavy air pollution. That is a concrete public improvement funded and approved by the council.",
+  "file": "src/content/entries/local/newark-1000-street-trees-congestion-toll-grant.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-0827": {
   "decision": "skip",
@@ -135444,10 +135445,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1235": {
-  "decision": "promising",
-  "reason": "triage: $3.1M contract for emergency housing program for homeless residents",
+  "decision": "drafted",
+  "reason": "The Newark Municipal Council adopted and funded a contract of up to $3.1 million for emergency housing for homeless Newark individuals and families. That is a service working people can use directly, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-pathways-to-housing-emergency-shelter-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1247": {
   "decision": "skip",
@@ -135498,10 +135500,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1334": {
-  "decision": "promising",
-  "reason": "triage: $727K federal grant for mental health crisis co-responder teams",
+  "decision": "drafted",
+  "reason": "The council accepted $727,087 in federal money, with no city money required, to keep Newark's co-responder crisis teams running another year; they bring mental health crisis care to residents, including people who are homeless, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-crisis-response-teams-federal-grant-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1336": {
   "decision": "skip",
@@ -135714,10 +135717,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c92": {
-  "decision": "promising",
-  "reason": "triage: enacted school mental health partnership program for kids",
+  "decision": "drafted",
+  "reason": "This is an enacted, funded law ($8 million in the FY2027 budget). It sets up a school mental health program that connects K-12 students to psychiatric consultation, referrals, and care coordination, and it is set to expand statewide after the pilot.",
+  "file": "src/content/entries/state/nj-school-mental-health-spark-pilot.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "nj-pl2026-c93": {
   "decision": "promising",
@@ -135732,10 +135736,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c95": {
-  "decision": "promising",
-  "reason": "triage: corn masa folic acid fortification, public health benefit; check details",
+  "decision": "drafted",
+  "reason": "This is an enacted law, P.L.2026, c.95, signed Sept. 28, 2026. It requires folic acid in corn masa flour sold in New Jersey, a direct public-health protection against neural tube birth defects. No existing entry covers it.",
+  "file": "src/content/entries/state/nj-corn-masa-flour-folic-acid.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "nj-pl2026-c96": {
   "decision": "skip",
@@ -136092,10 +136097,10 @@
   "date": "2026-11-14"
  },
  "newark-26-1275": {
-  "decision": "promising",
-  "reason": "triage: water main emergency repair contract, $5.4M, service many residents use",
+  "decision": "skip",
+  "reason": "This is a routine contract to keep existing service running: emergency leak repairs and water service disconnections, with no new or expanded benefit. The disconnection work may include shutoffs, which would be a cost to residents rather than a win.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1278": {
   "decision": "skip",
@@ -136141,10 +136146,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1299": {
-  "decision": "promising",
-  "reason": "triage: $1.78M child lead exposure prevention program funded",
+  "decision": "drafted",
+  "reason": "Newark used a two-thirds emergency appropriation to put a $1,775,025 state grant to work for one year on children with elevated blood lead levels and outreach to their families. That's a concrete health service, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-childhood-lead-exposure-prevention-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1302": {
   "decision": "skip",
@@ -136525,10 +136531,10 @@
   "date": "2026-11-14"
  },
  "newark-26-0964": {
-  "decision": "promising",
-  "reason": "triage: Federal grant funds crisis co-responder teams; one of related subawards",
+  "decision": "skip",
+  "reason": "This is a $50,000 sub-recipient agreement with Circle of Life, paid for by the same SAMHSA Community Crisis Response Partnership grant that newark-26-1334 (\"Newark's mental health crisis teams get another year of federal funding\") already covers, so a separate entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-0965": {
   "decision": "skip",
@@ -136567,10 +136573,10 @@
   "date": "2026-11-14"
  },
  "newark-26-0982": {
-  "decision": "promising",
-  "reason": "triage: $7.4M bond for pump station upgrade; water infrastructure",
+  "decision": "skip",
+  "reason": "The adopted ordinance only authorizes $7.4 million in bonds to replace pumps, piping and building systems at Newark's Wayne Pump Station, and I couldn't open any source saying what the station does for residents or how many people it serves, so the impact on people can't be verified.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-0992": {
   "decision": "skip",
@@ -136609,10 +136615,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1060": {
-  "decision": "promising",
-  "reason": "triage: $2M contract for pedestrian safety crosswalks and bike lanes",
+  "decision": "drafted",
+  "reason": "Newark's council approved a $2.05 million construction contract for new crosswalks, protection for people on foot, and bike lane changes on city streets: physical safety work for residents, not a procedural item.",
+  "file": "src/content/entries/local/newark-pedestrian-safety-crosswalks-bike-lanes-contract.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1064": {
   "decision": "skip",
@@ -136627,10 +136634,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1086": {
-  "decision": "promising",
-  "reason": "triage: State immunization grant for children 0-18",
+  "decision": "drafted",
+  "reason": "The council accepted a $388,000 state grant that keeps Newark's free childhood vaccination program running through June 2027, at no cost to the city. That is a service protected for residents. The Legistar record shows a 9-0 roll call.",
+  "file": "src/content/entries/local/newark-immunization-grant-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1106": {
   "decision": "promising",
@@ -136681,10 +136689,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1137": {
-  "decision": "promising",
-  "reason": "triage: Live Newark closing-cost loans for homebuyers, forgiven over time",
+  "decision": "drafted",
+  "reason": "Newark adopted an ordinance on Sept. 9, 2026 that raises its forgivable, interest-free closing-cost loan for homebuyers from $20,000 to $30,000. That is a direct cost cut for working families buying a home, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-closing-cost-loans-up-to-30000.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1141": {
   "decision": "skip",
@@ -136723,10 +136732,10 @@
   "date": "2026-11-14"
  },
  "newark-26-1163": {
-  "decision": "promising",
-  "reason": "triage: $1.78M state grant for childhood lead exposure prevention",
+  "decision": "skip",
+  "reason": "This is a duplicate: entry newark-26-1299 (\"$1.78 million to help Newark kids with lead in their blood\") already covers what looks like the same $1,775,025 SFY2027 Childhood Lead Exposure Prevention grant from the state health department for July 2026 through June 2027.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1166": {
   "decision": "skip",
@@ -136819,10 +136828,11 @@
   "date": "2026-11-14"
  },
  "newark-26-1220": {
-  "decision": "promising",
-  "reason": "triage: county funds for heat and air-quality Code Red shelter and cooling services",
+  "decision": "drafted",
+  "reason": "The council approved and ratified a grant of up to $113,000 that paid for emergency shelter, cooling centers, outreach and rides for vulnerable Newark residents on Code Red heat and air-quality days in summer 2026. That is a direct, tangible service.",
+  "file": "src/content/entries/local/newark-code-red-heat-shelter-cooling-centers-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1226": {
   "decision": "skip",
@@ -136855,16 +136865,16 @@
   "date": "2026-11-14"
  },
  "newark-26-1242": {
-  "decision": "promising",
-  "reason": "triage: emergency replacement of 36-inch water transmission main serving residents",
+  "decision": "skip",
+  "reason": "This is a routine procurement resolution that approves, after the fact, an extension and funding increase for an emergency water-main repair contract whose 90-day period had nearly ended. It doesn't say what the repair means for residents or how many it serves.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1244": {
-  "decision": "promising",
-  "reason": "triage: Pequannock aqueduct rehabilitation, $15.7M water supply repair",
+  "decision": "skip",
+  "reason": "This is a routine change order (No. 3) adding $857,191.99 to an existing 2024 contract to rebuild the Pequannock Aqueducts, because crews found unexpected site conditions; it pays more for work already awarded rather than creating a new benefit for residents, so the real candidate would be the June 5, 2024 contract award.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1249": {
   "decision": "skip",
@@ -136879,10 +136889,10 @@
   "date": "2026-11-14"
  },
  "newark-26-1256": {
-  "decision": "promising",
-  "reason": "triage: design contract for water treatment upgrade at Pequannock plant",
+  "decision": "skip",
+  "reason": "This raises a design and construction-oversight contract for a planned treatment upgrade at the Pequannock plant; it doesn't fund or build anything that reaches residents yet, so it has no direct effect on people until construction is funded.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "newark-26-1257": {
   "decision": "skip",
@@ -137119,10 +137129,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c82": {
-  "decision": "promising",
-  "reason": "triage: Same balcony solar act as governor's signing; duplicate source",
+  "decision": "drafted",
+  "reason": "This is an enacted law (P.L.2026, c.82) with a direct effect on people. It lets New Jersey renters and homeowners use plug-in solar panels to cut their power bills, with no utility approval, fees, or permits, and landlords, HOAs and towns can't broadly ban them. No existing entry covers it.",
+  "file": "src/content/entries/state/nj-balcony-solar-plug-in-panels.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "union-county-news-124677": {
   "decision": "skip",
@@ -137185,10 +137196,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c76": {
-  "decision": "promising",
-  "reason": "triage: Bans PFAS in apparel and diapers; direct safety gain",
+  "decision": "drafted",
+  "reason": "This is a signed state law that bars clothing and diapers with intentionally added PFAS from sale in New Jersey starting Aug. 27, 2028. That's a direct consumer-safety protection, and no existing entry covers it.",
+  "file": "src/content/entries/state/nj-pfas-banned-in-clothing-and-diapers.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "nj-pl2026-c77": {
   "decision": "skip",
@@ -137245,10 +137257,11 @@
   "date": "2026-11-14"
  },
  "union-county-council-august-27-regular-mtg-minutes-2026-570": {
-  "decision": "promising",
-  "reason": "triage: Funded $11.5M county road resurfacing contract",
+  "decision": "drafted",
+  "reason": "The Union County commissioners funded and awarded a contract to repave about 17 miles of county roads, with upgraded ADA curb ramps and storm drains. That's concrete infrastructure work for residents, like the Savannah repaving entry that already qualified.",
+  "file": "src/content/entries/local/union-county-17-miles-county-roads-repaved-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "union-county-council-august-27-regular-mtg-minutes-2026-571": {
   "decision": "skip",
@@ -146159,10 +146172,10 @@
   "date": "2026-11-14"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-29": {
-  "decision": "promising",
-  "reason": "triage: $3.4M state grant for new traffic signals; funded, local safety",
+  "decision": "skip",
+  "reason": "The record shows only a budget amendment accepting an NJDOT signal grant. The minutes PDF is scanned images with no readable text, so the presiding officer and vote details can't be checked. No source ties the $3,368,826.90 to specific intersections or a schedule, and the matching NJDOT/DVRPC signal phases list other amounts and are still at the concept stage, so the core benefit can't be verified.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-30": {
   "decision": "skip",
@@ -146177,10 +146190,10 @@
   "date": "2026-11-14"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-32": {
-  "decision": "promising",
-  "reason": "triage: $1.35M funded park improvements at Union Field",
+  "decision": "skip",
+  "reason": "The record backs only the $1.35M Green Acres acceptance, its title and the 7-0 vote, but every source that would show what the park money pays for, the vote date (Sept. 8 vs. 16) and who presided or brought it was an unreadable PDF, so the entry can't be written to the guide's standard.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-33": {
   "decision": "skip",
@@ -146267,10 +146280,11 @@
   "date": "2026-11-14"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-47": {
-  "decision": "promising",
-  "reason": "triage: $5.8M contract to build waterfront park",
+  "decision": "drafted",
+  "reason": "Camden City Council awarded a $5.77 million construction contract that builds a new public waterfront park with a greenway path, lighting and docks in North Camden. That is concrete infrastructure for a working-class neighborhood.",
+  "file": "src/content/entries/local/camden-north-camden-waterfront-park-construction.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "camden-council-council-minutes-sept-16-2026-resolution-48": {
   "decision": "skip",
@@ -153162,10 +153176,10 @@
   "date": "2026-11-14"
  },
  "savannah-council-actionminutes-2026-10-08-item-30": {
-  "decision": "promising",
-  "reason": "triage: affordable housing fund sale; writer checks details",
+  "decision": "skip",
+  "reason": "This resolution only moves ownership of the 16 apartments at 916 MLK, which are already built and were funded in Dec. 2024 with up to $5.5M from the Savannah Affordable Housing Fund; it doesn't add homes, and I couldn't confirm who 916 MLK LLC is, how the $6M is set up, or what affordability terms apply, because the city's agenda pages return 403 and the minutes PDF can't be read.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "savannah-council-actionminutes-2026-10-08-item-31": {
   "decision": "skip",
@@ -153300,10 +153314,11 @@
   "date": "2026-11-14"
  },
  "fulton-county-26-0659": {
-  "decision": "promising",
-  "reason": "triage: funds meals for seniors 60+ in 2027",
+  "decision": "drafted",
+  "reason": "Fulton's commissioners approved $2.63 million so Open Hand Atlanta keeps cooking and delivering free meals, plus nutrition help, for county residents 60 and older in 2027. It's a different contract from the existing entry on neighborhood senior center programs (26-0752).",
+  "file": "src/content/entries/local/fulton-county-senior-meals-open-hand-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "fulton-county-26-0660": {
   "decision": "skip",
@@ -153462,10 +153477,10 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3101-award-middle-oconee-east-sewer-trunk-line-phase-1a-contracts": {
-  "decision": "promising",
-  "reason": "triage: funded sewer trunk line construction contract",
+  "decision": "skip",
+  "reason": "This is a routine contract award to replace an aging sewer trunk line, and no source I could open shows a concrete benefit to residents, such as fewer overflows or added capacity for homes. The county's project pages return 404, the minutes and agendas are PDFs I can't read, and I couldn't confirm who presided on Oct. 6, 2026 to credit them.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3101-direct-staff-to-evaluate-options-to-preserve-affordable-hous": {
   "decision": "skip",
@@ -153486,10 +153501,10 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3101-ordinance-26-10-82": {
-  "decision": "promising",
-  "reason": "triage: $4M HUD lead hazard control grant for homes",
+  "decision": "skip",
+  "reason": "The commission only agreed to accept up to $4.4 million in HUD FY27 lead-hazard money \"if awarded\"; the county's agenda item describes this as an application, and no HUD award has been announced, so nothing has actually been funded yet.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3101-ordinance-26-10-83": {
   "decision": "skip",
@@ -153534,10 +153549,11 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3101-ordinance-26-10-90": {
-  "decision": "promising",
-  "reason": "triage: funded pedestrian improvements, but plans stage only",
+  "decision": "drafted",
+  "reason": "The Mayor and Commission voted unanimously to approve preliminary plans and add up to $1 million for sidewalks, crossings and traffic calming in a neighborhood, which is funded construction that directly affects residents' safety.",
+  "file": "src/content/entries/local/athens-clarke-stonehenge-pedestrian-improvements.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3101-ordinance-26-10-91": {
   "decision": "skip",
@@ -153618,10 +153634,11 @@
   "date": "2026-11-14"
  },
  "gwinnett-county-council-2026-10-06-2026-1249": {
-  "decision": "promising",
-  "reason": "triage: funded pedestrian improvement project, $3.6M",
+  "decision": "drafted",
+  "reason": "The board awarded a $3.65 million construction contract for a walking path and drainage work that will connect Satellite Boulevard to McDaniel Farm Park. That is public infrastructure people can use, and it is funded by Gwinnett's voter-approved SPLOST sales tax.",
+  "file": "src/content/entries/local/gwinnett-county-mcdaniel-farm-park-satellite-boulevard-path.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "gwinnett-county-council-2026-10-06-2026-1250": {
   "decision": "promising",
@@ -153774,10 +153791,11 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4140-26-o-1516": {
-  "decision": "promising",
-  "reason": "triage: $7.75M HUD grant to reduce lead hazards in homes",
+  "decision": "drafted",
+  "reason": "The council accepted a federal grant of up to $7.75 million to find and fix lead-paint hazards in Atlanta homes. That directly protects children's health and families' housing, and nothing on the site covers it yet.",
+  "file": "src/content/entries/local/atlanta-hud-lead-hazard-grant-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4140-26-o-1517": {
   "decision": "skip",
@@ -153792,10 +153810,11 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4140-26-o-1519": {
-  "decision": "promising",
-  "reason": "triage: rent subsidies for 100 formerly homeless units",
+  "decision": "drafted",
+  "reason": "Atlanta's council renewed HUD rental subsidies for 2027, keeping rent help in place for 100 formerly homeless people at Santa Fe Villas, a direct housing benefit for low-income residents.",
+  "file": "src/content/entries/local/atlanta-santa-fe-villas-rent-subsidies-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4140-26-o-1520": {
   "decision": "skip",
@@ -153888,10 +153907,11 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4140-26-o-1546": {
-  "decision": "promising",
-  "reason": "triage: Funded land purchase for new public park in District 10",
+  "decision": "drafted",
+  "reason": "The Atlanta City Council passed and funded an ordinance to buy 12.6 acres for a new public park in Collier Heights. It is paid for with developer park impact fees and park improvement money, so no service is cut to pay for it.",
+  "file": "src/content/entries/local/atlanta-collier-heights-new-park-land-hamilton-holmes-drive.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4140-26-o-1548": {
   "decision": "skip",
@@ -153936,10 +153956,10 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4140-26-r-4123": {
-  "decision": "promising",
-  "reason": "triage: Funded donation to 24/7 Gateway Center serving homeless people",
+  "decision": "skip",
+  "reason": "I couldn't verify what the $325,000 pays for or who sponsored it, and the item amends the agreement from March's 26-R-3303 (also a $325,000 Gateway Center donation), so it may change an existing grant rather than add new money.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4140-26-r-4125": {
   "decision": "skip",
@@ -154837,10 +154857,11 @@
   "date": "2026-11-14"
  },
  "savannah-council-actionminutes-2026-09-24-item-22": {
-  "decision": "promising",
-  "reason": "triage: funded street resurfacing, many residents use",
+  "decision": "drafted",
+  "reason": "Savannah approved and funded a $7.37 million contract to mill and repave 61 street segments across the city, which is infrastructure people use every day, and the city's own agenda and minutes confirm the scope, the bids and the 7-0 vote.",
+  "file": "src/content/entries/local/savannah-repaving-61-street-segments-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "savannah-council-actionminutes-2026-09-24-item-23": {
   "decision": "skip",
@@ -155359,10 +155380,11 @@
   "date": "2026-11-14"
  },
  "columbus-ga-council-cg-meeting-minutes-09-22-2026-resolution-327-26": {
-  "decision": "promising",
-  "reason": "triage: fire, police and clinic team respond to mental health calls",
+  "decision": "drafted",
+  "reason": "Columbus Council approved a working agreement that staffs the city's Mobile Integrated Healthcare mental health unit with Fire/EMS, police, and Mercy Med; the unit sends a crisis team with a mental health clinician to 911 mental health calls, a direct public safety and health service for residents.",
+  "file": "src/content/entries/local/columbus-ga-mental-health-crisis-team-agreement.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "columbus-ga-council-cg-meeting-minutes-09-22-2026-resolution-328-26": {
   "decision": "skip",
@@ -155413,16 +155435,18 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4133-26-o-1491": {
-  "decision": "promising",
-  "reason": "triage: federal funding for Beltline trail segment, build funded",
+  "decision": "drafted",
+  "reason": "The Atlanta City Council voted 13-0 to accept a $2 million federal highway grant to build the Beltline Southside Trail's Segment 6, including a new walking and biking bridge over I-20, so this is funded infrastructure with a direct effect on people.",
+  "file": "src/content/entries/local/atlanta-beltline-southside-trail-i20-walking-bridge-grant.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4133-26-o-1492": {
-  "decision": "promising",
-  "reason": "triage: regional funding for same Beltline trail segment",
+  "decision": "drafted",
+  "reason": "On Sept. 21, 2026, Atlanta's council voted 13-0 to accept up to $5 million in federal money for building a public trail, the BeltLine's Southside Trail Segment 6.",
+  "file": "src/content/entries/local/atlanta-beltline-southside-trail-segment-6-federal-grant.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "atlanta-council-4133-26-o-1493": {
   "decision": "skip",
@@ -155989,10 +156013,11 @@
   "date": "2026-11-14"
  },
  "fulton-county-26-0603": {
-  "decision": "promising",
-  "reason": "triage: grant funds 54 affordable units in English Avenue",
+  "decision": "drafted",
+  "reason": "On Sept. 16, 2026, Fulton County commissioners approved a grant toward 404 @ Oliver Street, which will have 54 income-restricted rental homes in English Avenue. That is enacted funding with a direct housing benefit for lower-income renters, and no existing entry covers it.",
+  "file": "src/content/entries/local/fulton-county-english-avenue-404-oliver-affordable-apartments.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "fulton-county-26-0606": {
   "decision": "skip",
@@ -156295,10 +156320,10 @@
   "date": "2026-11-14"
  },
  "chatham-county-council-1916-action-calendar-item-5-agenda-item-11-5": {
-  "decision": "promising",
-  "reason": "triage: funds direct services: health care, child advocacy, shelter",
+  "decision": "skip",
+  "reason": "The record shows a unanimous Sept. 11, 2026 vote approving nine FY27 Blueprint MOUs, but the item page and every MOU are PDFs I couldn't read, and no other source gives the dollar amounts, the services each program delivers, or how many people they serve, so the core claims and impact figures can't be verified.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "chatham-county-council-1916-action-calendar-item-6-agenda-item-11-6": {
   "decision": "skip",
@@ -156355,10 +156380,11 @@
   "date": "2026-11-14"
  },
  "savannah-council-actionminutes-2026-09-10-19": {
-  "decision": "promising",
-  "reason": "triage: $65M water system upgrade serving residents",
+  "decision": "drafted",
+  "reason": "The council approved $65.5 million in construction to modernize Savannah's main drinking water plant, built in 1946: a new water tower, a replacement raw-water pipeline and treatment upgrades, paid for mainly with state GEFA money.",
+  "file": "src/content/entries/local/savannah-id-water-plant-phase-1c-water-tower-pipeline.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "savannah-council-actionminutes-2026-09-10-20": {
   "decision": "skip",
@@ -156733,10 +156759,11 @@
   "date": "2026-11-14"
  },
  "cobb-county-council-1190-item-16": {
-  "decision": "promising",
-  "reason": "triage: new fire station funded and contracted",
+  "decision": "drafted",
+  "reason": "Cobb commissioners approved a design-build contract for a new Fire Station 20 to replace east Cobb's 1984 station. The station will be built on land the county bought for it in 2022, so the contract is a concrete public-safety improvement, not an announcement.",
+  "file": "src/content/entries/local/cobb-county-new-fire-station-20-sewell-mill-east-piedmont.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "cobb-county-council-1190-item-17": {
   "decision": "skip",
@@ -156841,16 +156868,17 @@
   "date": "2026-11-14"
  },
  "cobb-county-council-1190-item-37": {
-  "decision": "promising",
-  "reason": "triage: intersection project contract funded",
+  "decision": "skip",
+  "reason": "This is a $1.93M contract to redo a car intersection by removing left turns. I couldn't find crash data or design details in a source I could open, and local residents dispute that it helps, so I can't confirm the safety benefit.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "cobb-county-council-1190-item-38": {
-  "decision": "promising",
-  "reason": "triage: intersection project contract funded",
+  "decision": "drafted",
+  "reason": "The Cobb County board approved a $753,052 construction contract to rebuild the Florence Road–Hiram Road–Gaydon Road intersection with a roundabout, raised median and street lighting. That's physical safety infrastructure for the people who drive and live there, and no existing entry covers it.",
+  "file": "src/content/entries/local/cobb-county-florence-road-hiram-gaydon-roundabout.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "cobb-county-council-1190-item-5": {
   "decision": "skip",
@@ -156883,10 +156911,11 @@
   "date": "2026-11-14"
  },
  "columbus-ga-council-cg-meeting-minutes-09-08-2026-ordinance-26-041": {
-  "decision": "promising",
-  "reason": "triage: city workers' pension improvements: faster vesting, lower contributions",
+  "decision": "drafted",
+  "reason": "The ordinance was adopted and directly improves retirement benefits for Columbus city workers: they vest sooner, they can earn credit for up to 40 years of service, and newer hires pay a smaller share of their pay toward their pensions.",
+  "file": "src/content/entries/local/columbus-ga-city-worker-pension-improvements.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "columbus-ga-council-cg-meeting-minutes-09-08-2026-resolution-255-26": {
   "decision": "skip",
@@ -157201,10 +157230,10 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3071-authorize-acceptance-of-943-346-continuum-of-care-homeless-a": {
-  "decision": "promising",
-  "reason": "triage: Accepts if awarded; homeless services funding, check details",
+  "decision": "skip",
+  "reason": "The commission authorized accepting $943,346 in HUD Continuum of Care money only \"if awarded,\" and HUD's FY2026 CoC awards aren't expected until about Dec. 1, 2026, so nothing has been funded yet and the core claim can't be verified.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3071-authorize-applications-for-up-to-13-574-000-in-fta-5339-tran": {
   "decision": "skip",
@@ -157261,10 +157290,11 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3071-ordinance-26-09-75": {
-  "decision": "promising",
-  "reason": "triage: Rezoning requires 30-year 60% AMI affordable units",
+  "decision": "drafted",
+  "reason": "An enacted rezoning that requires every unit on an 18.57-acre site to be rented to households earning no more than 60% of area median income for 30 years, which is a direct, binding housing benefit for lower-income renters.",
+  "file": "src/content/entries/local/athens-clarke-atlanta-highway-all-affordable-apartments-rezoning.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3071-ordinance-26-09-76": {
   "decision": "skip",
@@ -157279,10 +157309,10 @@
   "date": "2026-11-14"
  },
  "athens-clarke-council-3071-ordinance-26-09-78": {
-  "decision": "promising",
-  "reason": "triage: Up to $1M HUD youth homeless grant accepted and budgeted",
+  "decision": "skip",
+  "reason": "The commission only agreed to accept up to $1 million in HUD youth homelessness money \"if awarded,\" and I found no evidence HUD has awarded it; the minutes also don't say what services the money would pay for, so the core benefit can't be verified yet.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "athens-clarke-council-3071-ordinance-26-09-79": {
   "decision": "skip",
@@ -157351,10 +157381,11 @@
   "date": "2026-11-14"
  },
  "gwinnett-county-council-2026-09-01-2026-1126": {
-  "decision": "promising",
-  "reason": "triage: Funded $1.79M pedestrian improvements awarded",
+  "decision": "drafted",
+  "reason": "The Gwinnett board awarded a construction contract that funds new sidewalks, drainage work and a water main replacement. People who walk these two roads benefit directly.",
+  "file": "src/content/entries/local/gwinnett-county-old-rockbridge-williams-road-sidewalks.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "gwinnett-county-council-2026-09-01-2026-1127": {
   "decision": "skip",
@@ -157465,10 +157496,11 @@
   "date": "2026-11-14"
  },
  "columbus-ga-council-cg-meeting-minutes-09-08-2026-resolution-271-26": {
-  "decision": "promising",
-  "reason": "triage: Funded construction of public splashpad",
+  "decision": "drafted",
+  "reason": "Columbus Council approved a $737,849.77 contract to build a new public splashpad at the Comer Recreation Center, which is a tangible new public recreation facility.",
+  "file": "src/content/entries/local/columbus-ga-comer-recreation-center-splashpad.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "columbus-ga-council-cg-meeting-minutes-09-08-2026-resolution-272-26": {
   "decision": "skip",
@@ -157693,10 +157725,10 @@
   "date": "2026-11-14"
  },
  "savannah-council-actionminutes-2026-08-27-item-27": {
-  "decision": "promising",
-  "reason": "triage: enacted moratorium on large data centers; protects power/water costs, writer can verify",
+  "decision": "skip",
+  "reason": "A temporary moratorium on data center development is a land-use pause pending future rules, with no direct, tangible benefit to working people (no money, lower costs, service, right, or infrastructure) that the record can establish.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "savannah-council-actionminutes-2026-08-27-item-30": {
   "decision": "skip",
@@ -174729,11 +174761,11 @@
   "date": "2026-11-14"
  },
  "miami-dade-county-council-5568-r-888-26": {
-  "decision": "error",
-  "reason": "invalid after repair: impact.2.label: Too big: expected string to have <=80 characters",
+  "decision": "drafted",
+  "reason": "Resolution R-888-26 commits $10 million in new money ($7M from Destination: Home, $3M from the county's food and beverage tax) to help at-risk households stay housed, and it doesn't overlap the existing street-outreach entry R-889-26.",
+  "file": "src/content/entries/local/miami-dade-homeless-prevention-right-at-home.md",
   "impact": 3,
-  "date": "2026-11-14",
-  "attempts": 1
+  "date": "2026-11-15"
  },
  "miami-dade-county-council-5568-r-889-26": {
   "decision": "drafted",
@@ -176771,10 +176803,10 @@
   "date": "2026-11-14"
  },
  "broward-county-26-1329": {
-  "decision": "promising",
-  "reason": "triage: Towing ordinance enacted; check consumer protections",
+  "decision": "skip",
+  "reason": "The ordinance mostly lets towing companies charge more for nonconsent tows (a higher yearly rate escalator, an electric-vehicle storage surcharge and fuel-surcharge rules), so working people whose cars get towed pay more; the employee background-check requirement doesn't outweigh that, and the record shows no final vote.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-1330": {
   "decision": "skip",
@@ -177239,10 +177271,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-10-01-numbered-action-taken-agenda-pdf-t-202610021520370-resolution-2026-434": {
-  "decision": "promising",
-  "reason": "triage: Added funds for 86 affordable rentals",
+  "decision": "drafted",
+  "reason": "The council added up to $225,000 in city ARPA money and pushed back deadlines so an 86-unit apartment building for households earning up to 80% of area median income can be finished, which is a direct housing benefit.",
+  "file": "src/content/entries/local/st-petersburg-palm-lake-urban-sanctuary-arpa-funds.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-10-01-numbered-action-taken-agenda-pdf-t-202610021520370-resolution-2026-435": {
   "decision": "drafted",
@@ -177516,10 +177549,11 @@
   "date": "2026-11-14"
  },
  "tampa-council-2933-resolution-2026-814": {
-  "decision": "promising",
-  "reason": "triage: $2.85M housing and services for people with HIV",
+  "decision": "drafted",
+  "reason": "Tampa City Council approved a three-year federal HOPWA agreement of up to $2.85 million so EPIC can provide housing and support services to people living with HIV/AIDS. It's funded housing help, and it isn't a duplicate: the existing $891,000 entry (Resolution 2026-870) is a separate agreement.",
+  "file": "src/content/entries/local/tampa-epic-hopwa-housing-help-hiv-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2933-resolution-2026-815": {
   "decision": "skip",
@@ -177576,10 +177610,11 @@
   "date": "2026-11-14"
  },
  "tampa-council-2933-resolution-2026-824": {
-  "decision": "promising",
-  "reason": "triage: $19.9M watermain replacement funded",
+  "decision": "drafted",
+  "reason": "The council approved a $19.9 million construction contract to replace about 34,000 feet of old cast-iron water mains across Tampa's water service area, which is built infrastructure with a direct effect on residents, paid for from water utility capital funds.",
+  "file": "src/content/entries/local/tampa-replacing-6-miles-of-old-cast-iron-water-mains.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2933-resolution-2026-825": {
   "decision": "promising",
@@ -177666,10 +177701,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1119": {
-  "decision": "promising",
-  "reason": "triage: $1.3M funds care at community health centers for low-income patients",
+  "decision": "drafted",
+  "reason": "Orange County approved $1.3 million in county money for the Medicaid Low Income Pool. The state uses it to draw federal matching funds and pay two health center networks that care for uninsured and underinsured residents, which is a direct health-care benefit and not a duplicate of an existing entry.",
+  "file": "src/content/entries/local/orange-county-fl-low-income-pool-clinics-uninsured-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1121": {
   "decision": "skip",
@@ -177708,10 +177744,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1128": {
-  "decision": "promising",
-  "reason": "triage: county workers' pay raises; check funding",
+  "decision": "drafted",
+  "reason": "The Orange County commission approved a 4% raise for county workers not covered by a union contract and raised the county's pay ranges by at least 3%. The site already counts raises for public workers as wins (the Norfolk, Henrico and Poquoson entries).",
+  "file": "src/content/entries/local/orange-county-fl-non-union-county-workers-4-percent-raise.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1129": {
   "decision": "skip",
@@ -177822,10 +177859,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1160": {
-  "decision": "promising",
-  "reason": "triage: $4M for Aspire mental health services",
+  "decision": "drafted",
+  "reason": "The county approved an enacted funding agreement that sends $4.03 million, matched with federal Medicaid Low Income Pool money, to behavioral health care at Aspire Health Partners for uninsured, underinsured and Medicaid patients. It's a different provider and a different agreement from the existing clinic entry (26-1119).",
+  "file": "src/content/entries/local/orange-county-fl-aspire-behavioral-health-low-income-pool-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1161": {
   "decision": "skip",
@@ -178110,10 +178148,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-1056a": {
-  "decision": "promising",
-  "reason": "triage: funds hospital care program for low-income residents",
+  "decision": "drafted",
+  "reason": "The county approved and funded hospital care for uninsured, low-income adults and homeless residents for FY27. That is a service working people use, and none of the existing entries covers it.",
+  "file": "src/content/entries/local/pinellas-county-hospital-care-uninsured-adults-fy27.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-1064a": {
   "decision": "skip",
@@ -178122,10 +178161,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-1069a": {
-  "decision": "promising",
-  "reason": "triage: renews health care for homeless and county health program",
+  "decision": "drafted",
+  "reason": "On Sept. 24, 2026, the Pinellas County Commission renewed through September 2028 up to $12.5 million a year in county and federal funding for health care for low-income uninsured adults and homeless residents, which is a concrete service working people use.",
+  "file": "src/content/entries/local/pinellas-county-health-care-uninsured-homeless-2028.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-1074a": {
   "decision": "skip",
@@ -178140,10 +178180,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-1144a": {
-  "decision": "promising",
-  "reason": "triage: funds behavioral health coordinated access service",
+  "decision": "drafted",
+  "reason": "The county funded three more years of its free-to-call Care About Me line, which books appointments for mental health and addiction care, using $2.52 million in opioid settlement money; no existing entry covers it.",
+  "file": "src/content/entries/local/pinellas-county-care-about-me-behavioral-health-line-contract.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-1234a": {
   "decision": "skip",
@@ -178158,10 +178199,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-1286a": {
-  "decision": "promising",
-  "reason": "triage: opioid funds for behavioral health urgent care center",
+  "decision": "drafted",
+  "reason": "On Sept. 24, 2026, Pinellas County commissioners voted unanimously to fund up to $25 million in opioid settlement money for a walk-in urgent care for mental health and addiction, a new service people can use directly.",
+  "file": "src/content/entries/local/pinellas-county-operation-par-behavioral-health-urgent-care.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-1288a": {
   "decision": "skip",
@@ -178416,10 +178458,11 @@
   "date": "2026-11-14"
  },
  "broward-county-26-863": {
-  "decision": "promising",
-  "reason": "triage: funding for 330 rentals, 136 income-restricted",
+  "decision": "drafted",
+  "reason": "On Sept. 22, 2026 the Broward County Commission voted 9-0 to approve a funding agreement that requires 136 income-restricted apartments in a new Fort Lauderdale building for 30 years. The county pays for it by giving back half of the new property tax the building itself produces.",
+  "file": "src/content/entries/local/broward-county-cypress-workforce-apartments-fort-lauderdale.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-876": {
   "decision": "skip",
@@ -178668,10 +178711,10 @@
   "date": "2026-11-14"
  },
  "broward-county-26-1187": {
-  "decision": "promising",
-  "reason": "triage: Enacted towing ordinance; likely consumer protections, writer checks",
+  "decision": "skip",
+  "reason": "The ordinance mostly raises what people pay when their car is towed without consent: a bigger yearly rate increase (up to 5% instead of 3%), a new storage surcharge for electric vehicles, and a fuel surcharge. Only the background checks for towing workers help the public, so it fails the net-impact test for working people.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-1198": {
   "decision": "skip",
@@ -178878,10 +178921,11 @@
   "date": "2026-11-14"
  },
  "hialeah-council-1407-resolution-no-2026-230": {
-  "decision": "promising",
-  "reason": "triage: Funded aftercare and summer camp for kids",
+  "decision": "drafted",
+  "reason": "Hialeah's council accepted $906,400 from The Children's Trust to run the city's aftercare and summer camp programs from August 2026 to August 2027, a direct child care service for working families.",
+  "file": "src/content/entries/local/hialeah-childrens-trust-aftercare-summer-camp-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "hialeah-council-1407-resolution-no-2026-231": {
   "decision": "skip",
@@ -178926,16 +178970,18 @@
   "date": "2026-11-14"
  },
  "hialeah-council-1407-resolution-no-2026-238": {
-  "decision": "promising",
-  "reason": "triage: Funded home-delivered and group meals for seniors",
+  "decision": "drafted",
+  "reason": "The council accepted and passed through real state money for meals for older Hialeah residents, which directly helps them, and no existing entry covers it.",
+  "file": "src/content/entries/local/hialeah-senior-meals-state-grant-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "hialeah-council-1407-resolution-no-2026-239": {
-  "decision": "promising",
-  "reason": "triage: City pays 25% of seniors' water bills",
+  "decision": "drafted",
+  "reason": "Hialeah's council adopted a program, 7-0, in which the city pays 25% of the water and sewer bill for qualifying low-income seniors in FY2027, which puts money directly back in their pockets.",
+  "file": "src/content/entries/local/hialeah-seniors-water-sewer-bill-relief-fy2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "hialeah-council-1407-resolution-no-2026-240": {
   "decision": "skip",
@@ -179018,16 +179064,18 @@
   "date": "2026-11-14"
  },
  "jacksonville-2026-0509-e": {
-  "decision": "promising",
-  "reason": "triage: $7.2M public service grants for vulnerable people",
+  "decision": "drafted",
+  "reason": "An enacted Jacksonville ordinance puts $7.2 million in city grants into nonprofits serving the city's most vulnerable residents for FY 2026-27. A floor amendment from Jimmy Peluso released the 35% that had been held back pending Amendment 3.",
+  "file": "src/content/entries/local/jacksonville-public-service-grants-most-vulnerable-fy27.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "jacksonville-2026-0510-e": {
-  "decision": "promising",
-  "reason": "triage: $5.3M opioid settlement grants for treatment",
+  "decision": "drafted",
+  "reason": "The enacted ordinance puts $5,279,951 in opioid settlement money into 15 nonprofit programs for prevention, treatment and recovery in Jacksonville, running Oct. 2026 through Sept. 2027. The city's list of awards adds up to exactly that amount.",
+  "file": "src/content/entries/local/jacksonville-opioid-settlement-grants-15-addiction-programs.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "jacksonville-2026-0511-e": {
   "decision": "skip",
@@ -179048,10 +179096,10 @@
   "date": "2026-11-14"
  },
  "jacksonville-2026-0514-e": {
-  "decision": "promising",
-  "reason": "triage: Funds paratransit for disabled riders",
+  "decision": "skip",
+  "reason": "The $1.9 million is the city's routine yearly contribution to JTA paratransit, and the same ordinance approves JTA's FY 26-27 budget, which cuts about $39 million in service (eliminated routes, a suspended Skyway, up to 150 frontline jobs), so it doesn't clearly pass the net-impact test; the ordinance text and summary PDFs also couldn't be read to confirm exactly what the money pays for.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "jacksonville-2026-0559-e": {
   "decision": "skip",
@@ -179138,10 +179186,10 @@
   "date": "2026-11-14"
  },
  "jacksonville-2026-0646-e": {
-  "decision": "promising",
-  "reason": "triage: $7.7M Eastside grants for affordable housing, workforce, homelessness",
+  "decision": "skip",
+  "reason": "The ordinance only moves $7.7 million into the Eastside Community Grants Program's general grants account. It names no recipients and no per-category amounts (the enacted text and exhibit won't load from Legistar), and the committee won't send its awards to the council until Dec. 7, 2026, so there's no verifiable concrete effect on people yet.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "jacksonville-2026-0661-e": {
   "decision": "skip",
@@ -179324,10 +179372,11 @@
   "date": "2026-11-14"
  },
  "tampa-council-2931-file-no-b2027-2": {
-  "decision": "promising",
-  "reason": "triage: funds more frequent Route 1 bus service",
+  "decision": "drafted",
+  "reason": "On Sept. 22, 2026, Tampa City Council voted unanimously to add $150,000 to its FY2027 budget, bringing Route 1 funding to $1.5M; the money pays the full cost of more frequent buses on one of Tampa's busiest bus routes in 2027.",
+  "file": "src/content/entries/local/tampa-hart-route-1-frequent-buses-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2931-file-no-b2027-2-1": {
   "decision": "skip",
@@ -179534,10 +179583,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-09-17-numbered-action-taken-agenda-pdf-t-202609281414470-2026-417": {
-  "decision": "promising",
-  "reason": "triage: city workers' union contract; writer checks raises",
+  "decision": "drafted",
+  "reason": "The St. Petersburg City Council approved a three-year union contract for the city's blue- and white-collar workers. It gives them a 3.5% raise effective Sept. 21, 2026, keeps step raises going, and adds 40 hours a year of leave to care for sick family. The union's own page confirms the terms.",
+  "file": "src/content/entries/local/st-petersburg-blue-white-collar-workers-union-contract-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-09-17-numbered-action-taken-agenda-pdf-t-202609281414470-2026-418": {
   "decision": "promising",
@@ -179768,10 +179818,10 @@
   "date": "2026-11-14"
  },
  "tampa-council-2925-resolution-no-2026-751": {
-  "decision": "promising",
-  "reason": "triage: $8M to rehabilitate water pipes citywide",
+  "decision": "skip",
+  "reason": "This resolution moves $8 million between accounts inside Tampa's Water Renewal and Replacement Fund for an ongoing citywide pipe repair project, and the record names no new pipes, streets or service gains for residents, so it is a bookkeeping change that may also overlap the existing entry on Tampa's cast-iron water main replacement.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2925-resolution-no-2026-752": {
   "decision": "skip",
@@ -179876,10 +179926,11 @@
   "date": "2026-11-14"
  },
  "tampa-council-2925-resolution-no-2026-770": {
-  "decision": "promising",
-  "reason": "triage: federal Safe Streets grant agreement funds safety projects across Tampa",
+  "decision": "drafted",
+  "reason": "Tampa's council accepted a $2.6 million federal Safe Streets grant, with a $650,000 city match, to slow traffic and add crossings on four roads in underserved neighborhoods: funded street-safety work that directly affects residents.",
+  "file": "src/content/entries/local/tampa-speed-safety-fixes-four-roads-federal-grant.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2925-resolution-no-2026-771": {
   "decision": "skip",
@@ -180177,10 +180228,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1041": {
-  "decision": "promising",
-  "reason": "triage: $14M of ADA pedestrian safety construction over five years",
+  "decision": "drafted",
+  "reason": "The board approved about $14.4 million in five-year contracts to build accessible curb ramps and fill missing sidewalk gaps in every county district, which is tangible pedestrian safety and accessibility work.",
+  "file": "src/content/entries/local/orange-county-fl-ada-curb-ramps-sidewalk-gaps.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1042": {
   "decision": "skip",
@@ -180213,16 +180265,18 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1049": {
-  "decision": "promising",
-  "reason": "triage: $1.47M homelessness outreach and prevention",
+  "decision": "drafted",
+  "reason": "The Orange County commission approved $1.47 million in county money for a year of street outreach, shelter diversion and short-term help with housing costs for residents facing eviction or homelessness, a direct service that no existing entry covers.",
+  "file": "src/content/entries/local/orange-county-fl-homeless-outreach-eviction-help-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1051": {
-  "decision": "promising",
-  "reason": "triage: $1.4M homelessness outreach and prevention",
+  "decision": "drafted",
+  "reason": "The county commission funded a $1.4 million, one-year contract for bridge housing, financial help and outreach for Orange County residents who are homeless or about to lose their homes. That is a direct service to working people, and no existing entry covers it.",
+  "file": "src/content/entries/local/orange-county-fl-samaritan-homeless-outreach-prevention-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1052": {
   "decision": "promising",
@@ -180327,10 +180381,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1076": {
-  "decision": "promising",
-  "reason": "triage: funds legal aid and seniors services, enacted",
+  "decision": "drafted",
+  "reason": "Orange County approved $1.76 million for 2026–27 to fund free civil legal help for low-income residents and children, court guardianship for seniors who can't care for themselves, and community mediation, all direct services to people.",
+  "file": "src/content/entries/local/orange-county-fl-legal-aid-senior-guardianship-mediation-fy2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1077": {
   "decision": "skip",
@@ -180441,16 +180496,17 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-1097": {
-  "decision": "promising",
-  "reason": "triage: reimbursement for Head Start meals, ~$2.2M",
+  "decision": "skip",
+  "reason": "This is yearly compliance paperwork (a management plan, a budget, and permission for staff to sign) that lets Orange County bill the state for up to $2.2 million in USDA money for Head Start meals it already has to serve, so the main effect is on the county's own books, not a new or protected benefit for families.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1098": {
-  "decision": "promising",
-  "reason": "triage: septic-to-sewer funding in Pine Hills",
+  "decision": "drafted",
+  "reason": "The county accepted $3.6 million more in state money for a septic-to-sewer project that hooked 95 Pine Hills properties up to county sewer for free. That's tangible infrastructure with a direct effect on homeowners and businesses, and no existing entry covers it.",
+  "file": "src/content/entries/local/orange-county-fl-pine-hills-septic-to-sewer-state-grant.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "orange-county-fl-26-1099": {
   "decision": "promising",
@@ -180657,10 +180713,10 @@
   "date": "2026-11-14"
  },
  "broward-county-26-651": {
-  "decision": "promising",
-  "reason": "triage: federal transit formula grants for Broward bus system; routine but funds service for many riders",
+  "decision": "skip",
+  "reason": "These are routine annual applications for federal transit formula money (Sections 5307 and 5339) plus two budget adjustments, and they name no specific new service or project; an application isn't an award, so there's no concrete change for riders to report.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-699": {
   "decision": "skip",
@@ -180711,10 +180767,10 @@
   "date": "2026-11-14"
  },
  "broward-county-26-820": {
-  "decision": "promising",
-  "reason": "triage: Resilient Broward capital grants; details unclear but funds local flood resilience projects",
+  "decision": "skip",
+  "reason": "The Sept. 10, 2026 vote only approved a standard grant agreement form for the Resilient Broward program's future Tier 1 awards; per county schedules applications were due in October and awards come later, so no specific project, place, or dollar amount has been funded yet to verify.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-824": {
   "decision": "skip",
@@ -180861,10 +180917,10 @@
   "date": "2026-11-14"
  },
  "broward-county-26-975": {
-  "decision": "promising",
-  "reason": "triage: towing, mover, repair consumer protections; enacted ordinance, details need research",
+  "decision": "skip",
+  "reason": "Legistar shows no recorded vote for the Sept. 10 hearing. The county's summary mixes new towing safety and consent rules with a loosened payment requirement (\"at least two forms of payment\" to match state law), so a net benefit to consumers can't be shown.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "broward-county-26-983": {
   "decision": "skip",
@@ -181011,10 +181067,11 @@
   "date": "2026-11-14"
  },
  "miami-council-3650-r-26-0360": {
-  "decision": "promising",
-  "reason": "triage: funded senior meals program grant",
+  "decision": "drafted",
+  "reason": "On Sept. 10, 2026, the Miami City Commission voted 5-0 to give Sunshine for All up to $428,500 for its senior meals program. That is direct food help for older residents, and it doesn't duplicate the existing $1.8 million homebound-meals entry, which is a separate item.",
+  "file": "src/content/entries/local/miami-sunshine-for-all-senior-meals-district-4.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "miami-council-3650-r-26-0361": {
   "decision": "promising",
@@ -181305,10 +181362,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-0788a": {
-  "decision": "promising",
-  "reason": "triage: funded rapid rehousing for homeless families",
+  "decision": "drafted",
+  "reason": "Pinellas County approved a three-year, $4 million contract set that keeps its rapid rehousing program running, with housing search, case management and a direct rent-help fund for homeless people and families. That is a concrete service, and it isn't a duplicate: the existing St. Petersburg entry covers the city's own budget share, not this county contract.",
+  "file": "src/content/entries/local/pinellas-county-rapid-rehousing-homeless-families-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-0972a": {
   "decision": "skip",
@@ -181341,10 +181399,11 @@
   "date": "2026-11-14"
  },
  "pinellas-county-26-1311a": {
-  "decision": "promising",
-  "reason": "triage: emergency financial assistance for adults funded",
+  "decision": "drafted",
+  "reason": "The contract keeps a county program going for five years. The program pays one-time help with overdue rent, mortgage, utilities and transportation for low-income Pinellas adults without minor children, up to $7.26 million.",
+  "file": "src/content/entries/local/pinellas-county-adult-emergency-financial-assistance-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "pinellas-county-26-1321a": {
   "decision": "skip",
@@ -181365,10 +181424,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-09-10-numbered-action-taken-agenda-pdf-t-202609281211450-2026-388": {
-  "decision": "promising",
-  "reason": "triage: $3.8M funds teen programs",
+  "decision": "drafted",
+  "reason": "The council accepted $3.77 million from the Juvenile Welfare Board to run the city's TASCO teen programs for a full year, which keeps a direct public service going for St. Petersburg teens.",
+  "file": "src/content/entries/local/st-petersburg-tasco-teen-programs-jwb-grant-fy27.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-09-10-numbered-action-taken-agenda-pdf-t-202609281211450-2026-389": {
   "decision": "skip",
@@ -181377,10 +181437,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-09-10-numbered-action-taken-agenda-pdf-t-202609281211450-2026-390": {
-  "decision": "promising",
-  "reason": "triage: state affordable housing grant accepted",
+  "decision": "drafted",
+  "reason": "The council accepted $1,851,747 in state SHIP money for affordable housing in St. Petersburg, and the city's own pages show its SHIP-funded down payment program offers lower- and moderate-income buyers up to $75,000.",
+  "file": "src/content/entries/local/st-petersburg-ship-affordable-housing-grant-2026-27.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-09-10-numbered-action-taken-agenda-pdf-t-202609281211450-2026-391": {
   "decision": "skip",
@@ -181947,10 +182008,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-09-03-numbered-action-taken-agenda-pdf-t-202609281148290-2026-374": {
-  "decision": "promising",
-  "reason": "triage: funded eviction prevention services, $500k",
+  "decision": "drafted",
+  "reason": "The St. Petersburg City Council approved a $500,000 agreement for a legal aid nonprofit to help tenants avoid eviction, which is a direct housing service for renters, and no existing entry covers it.",
+  "file": "src/content/entries/local/st-petersburg-community-law-program-eviction-prevention-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-09-03-numbered-action-taken-agenda-pdf-t-202609281148290-2026-375": {
   "decision": "skip",
@@ -182013,10 +182075,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-09-03-numbered-action-taken-agenda-pdf-t-202609281148290-2026-385": {
-  "decision": "promising",
-  "reason": "triage: $6M storm drainage construction for flooding",
+  "decision": "drafted",
+  "reason": "The council approved $6.06 million to build bigger storm drains for flood-prone streets near the 54th Avenue N canal, a funded infrastructure project that directly protects residents.",
+  "file": "src/content/entries/local/st-petersburg-50th-avenue-7th-street-north-storm-drainage.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-09-03-numbered-action-taken-agenda-pdf-t-202609281148290-2026-386": {
   "decision": "skip",
@@ -182103,10 +182166,11 @@
   "date": "2026-11-14"
  },
  "tampa-council-2882-resolution-2026-712": {
-  "decision": "promising",
-  "reason": "triage: funds more frequent Route 1 bus service",
+  "decision": "drafted",
+  "reason": "Tampa approved a $1.35M agreement with HART to pay for more frequent buses on Route 1, its busiest line. This is a direct transit benefit, and it is a separate action from the existing entry for the $1.5M in 2027 funding.",
+  "file": "src/content/entries/local/tampa-route-1-bus-frequency-agreement-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2882-resolution-2026-713": {
   "decision": "skip",
@@ -182217,28 +182281,31 @@
   "date": "2026-11-14"
  },
  "tampa-council-2882-resolution-2026-731": {
-  "decision": "promising",
-  "reason": "triage: Funded citywide watermain replacement; part of same program",
+  "decision": "drafted",
+  "reason": "Tampa City Council approved a $9.8 million contract on Sept. 3, 2026 to replace water mains, service lines, hydrants and valves in Wellswood East, a concrete infrastructure project; it is a separate action from the existing cast-iron main entry (Resolution 2026-824).",
+  "file": "src/content/entries/local/tampa-wellswood-east-water-main-replacement.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2882-resolution-2026-732": {
-  "decision": "promising",
-  "reason": "triage: Watermain contract; same program, likely one entry",
+  "decision": "drafted",
+  "reason": "The council approved and funded a $10.5 million contract to replace about 7 miles of water mains in Tampa's Hampton Terrace neighborhood. That's infrastructure residents will directly use, and it's a different contract and neighborhood from the existing 6-mile cast-iron entry.",
+  "file": "src/content/entries/local/tampa-hampton-terrace-water-main-replacement.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2882-resolution-2026-733": {
-  "decision": "promising",
-  "reason": "triage: Watermain contract; same program, likely one entry",
+  "decision": "drafted",
+  "reason": "Tampa City Council approved a $15.97 million contract to replace aging distribution water mains, which is infrastructure people use directly. It is a separate contract (Ric-Man, 24-C-09002) from the Westra contract already on the site (24-C-09003).",
+  "file": "src/content/entries/local/tampa-16-million-water-main-replacement-ric-man.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2882-resolution-2026-734": {
-  "decision": "promising",
-  "reason": "triage: Appropriation for watermain replacement; same program",
+  "decision": "skip",
+  "reason": "Resolution 2026-734 only moves $15,970,800 within Tampa's Water Future Debt Capital Projects Fund to pay for a companion design-build contract (Resolution 2026-733, Ric-Man Construction, \"FY24 Citywide Distribution Watermain Improvements\"), and neither the minutes nor any public source I could find says which streets, neighborhoods or how many miles of pipe it covers, so no reader-facing benefit can be verified and it may overlap the existing Tampa water-main entries (2026-731, 2026-824).",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2882-ta-cpa26-03-ta-cpa26-07": {
   "decision": "skip",
@@ -182247,10 +182314,10 @@
   "date": "2026-11-14"
  },
  "fort-lauderdale-26-0441": {
-  "decision": "promising",
-  "reason": "triage: Bond financing for new water treatment plant; funded infrastructure, cost to ratepayers needs checking",
+  "decision": "skip",
+  "reason": "This resolution only sets up the debt for the Prospect Lake water plant, a public-private partnership project. The plant's construction was already funded (including a $343.8M Series 2023B bond) and was due to be finished by September 2026, so this vote mainly affects the city's finances, not residents; I also couldn't find a staff memo explaining the $1.18B note.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "fort-lauderdale-26-0648": {
   "decision": "skip",
@@ -182817,10 +182884,11 @@
   "date": "2026-11-14"
  },
  "miami-dade-county-council-5546-r-714-26": {
-  "decision": "promising",
-  "reason": "triage: county land to affordable housing builders for $10",
+  "decision": "drafted",
+  "reason": "On Sept. 1, 2026, Miami-Dade commissioners voted 12-0 to give three empty county lots for $10 each to builders who must build and sell homes to households earning no more than 120% of area median income within two years, which is enacted land for affordable homes.",
+  "file": "src/content/entries/local/miami-dade-county-surplus-lots-affordable-homes-for-sale.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "miami-dade-county-council-5546-r-715-26": {
   "decision": "skip",
@@ -183177,10 +183245,11 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-08-27-numbered-action-taken-agenda-pdf-t-202609281106050-2026-346": {
-  "decision": "promising",
-  "reason": "triage: $6M funds CALL crisis response program for residents",
+  "decision": "drafted",
+  "reason": "The council approved $5.97 million to keep the CALL program running. CALL sends trained civilian crisis responders instead of police to nonviolent mental health, substance use and other noncriminal calls, a direct public service for St. Petersburg residents.",
+  "file": "src/content/entries/local/st-petersburg-call-crisis-responders-renewed.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "st-petersburg-council-2026-08-27-numbered-action-taken-agenda-pdf-t-202609281106050-2026-347": {
   "decision": "promising",
@@ -183489,10 +183558,10 @@
   "date": "2026-11-14"
  },
  "tampa-council-2884-resolution-2026-690": {
-  "decision": "promising",
-  "reason": "triage: $5M loan for affordable rental housing; check terms",
+  "decision": "skip",
+  "reason": "The resolution moves an already-approved $5 million housing loan from one developer to another and amends the agreement, which is administrative, and I couldn't find any source for the project's unit count, rent limits or what the amendment changes.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-15"
  },
  "tampa-council-2884-resolution-2026-691": {
   "decision": "skip",

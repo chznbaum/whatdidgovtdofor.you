@@ -79,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-14
+    date: 2026-11-15
   verdict: pass
-  notes: Confirmed the enacted law, impact figures, sponsors and cosponsors, both final-passage votes, six-school plan, financing context, and June 2026 construction status. No later repeal, cancellation, court block, or material factual error was found.
+  notes: Confirmed the enacted law, $125 million increase, $600 million ceiling, sponsors and cosponsors, both final-passage votes, six-school plan, and June 2026 rollout status. No subsequent repeal, cancellation, funding cut, court block, or material factual error was found.
 source_key: ny-2025-a7385
 ---
 
