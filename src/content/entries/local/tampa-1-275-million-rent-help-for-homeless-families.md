@@ -26,9 +26,9 @@ status:
     - us-house-appropriations-committee
   source: https://www.everycrsreport.com/reports/R49341.html
 credit:
-  - official: robert-scott
-    role: proposed
-    note: Headed the Housing and Community Development Department, which submitted the agreement for council approval
+  - official: alan-clendenin
+    role: led
+    note: Chaired the council meeting that adopted the resolution on Nov. 5, 2026
   - official: tampa-city-council
     role: voted-yes
     note: Adopted the resolution unanimously on Nov. 5, 2026
@@ -36,6 +36,10 @@ sources:
   - title: City Council Regular - November 5, 2026 minutes (Resolution No. 2026-950)
     publisher: City of Tampa
     url: https://tampagov.hylandcloud.com/251agendaonline/Documents/ViewAgenda?meetingId=2938&type=minutes&doctype=2
+    date: 2026-11-05
+  - title: Tampa City Council meeting transcript — November 5, 2026
+    publisher: City of Tampa
+    url: https://apps.tampagov.net/CTTV_CC_webapp/Agenda.aspx?pkey=2715
     date: 2026-11-05
   - title: HOME Investment Partnership Grant Agreement with EPIC
     publisher: City of Tampa
@@ -62,7 +66,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amount, 22-household minimum, eligibility, budget split, unanimous approval, and current federal funding threat. Corrected credit to the city department head who proposed the agreement.
+  notes: Confirmed the grant amount, eligibility, agreement terms, unanimous approval, and current federal funding threat. Corrected the credit to the council chair who presided over the approval.
 source_key: tampa-council-2938-resolution-no-2026-950
 ---
 
@@ -72,4 +76,4 @@ This is tenant-based rental assistance: the help is tied to the household, not t
 
 The money comes from the U.S. Department of Housing and Urban Development's HOME program. Tampa has $425,000 available for the first year. Of that, $280,500 is budgeted for tenant-based rental assistance and $144,500 for delivering the program, including case management and support costs. The remaining $850,000 depends on future HOME grants and annual council approval.
 
-Tampa Housing and Community Development Director Robert Scott headed the department that submitted the agreement for approval. The Tampa City Council adopted it unanimously on Nov. 5, 2026. The resolution authorizes the mayor to execute the agreement for the city.
+Alan Clendenin chaired the Tampa City Council meeting that approved the agreement. The council adopted it unanimously on Nov. 5, 2026. The resolution authorizes the mayor to execute the agreement for the city.

@@ -25,14 +25,8 @@ status:
   state: phasing-in
   as_of: 2026-11-14
   note: Approved on Nov. 4, 2026; the 12-month extension starts Jan. 1, 2027.
-  source: https://fulton.legistar.com/gateway.aspx?M=L&ID=16473
+  source: https://fulton.legistar.com/LegislationDetail.aspx?GUID=9ED36D84-1376-49C1-8E79-DDBA4F1F7CB6&ID=8260244&Options=&Search=
 credit:
-  - official: kweli-rashied-henry
-    role: proposed
-    note: Led the department that recommended modifying and extending the Transdev contract
-  - official: fulton-county-department-of-senior-services
-    role: proposed
-    note: Recommended modifying and extending the Transdev contract
   - official: robb-pitts
     role: led
     note: Chaired the board that approved the extension on Nov. 4, 2026
@@ -42,7 +36,7 @@ credit:
 sources:
   - title: "File 26-0674: Senior Transportation Services contract extension"
     publisher: Fulton County Board of Commissioners (Legistar)
-    url: https://fulton.legistar.com/gateway.aspx?M=L&ID=16473
+    url: https://fulton.legistar.com/LegislationDetail.aspx?GUID=9ED36D84-1376-49C1-8E79-DDBA4F1F7CB6&ID=8260244&Options=&Search=
     date: 2026-11-04
   - title: Senior Services transportation
     publisher: Fulton County Government
@@ -63,7 +57,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the approval, beneficiaries, service details, funding, dates, and current status. Added the named department head and action-date board chair required by the site’s faces-first credit rules.
+  notes: Confirmed the approval, dates, beneficiaries, service details, funding, chair, and current status against Fulton County records. Corrected the credit attribution for this routine contract extension and replaced the opaque gateway link with the canonical Legistar record.
 source_key: fulton-county-26-0674
 ---
 
@@ -71,4 +65,4 @@ If you're 60 or older, live in Fulton County, and illness, disability or limited
 
 About 1,800 people use the service. To sign up, call Fulton County Senior Services at 404-613-6000. The county decides how many trips you can take based on how much help you need getting around.
 
-The Department of Senior Services, led by interim director Kweli Rashied-Henry, recommended the extension. On Nov. 4, 2026, Chairman Robb Pitts led the Fulton County Board of Commissioners when it approved up to $9,589,074.96 to keep Transdev running the service from January 1 through December 31, 2027, with the same terms. Commissioners held the item at two meetings in October before approving it. The county's general fund is budgeted to pay about $8.5 million, and four grant lines make up the rest; two of those grant awards were still pending when commissioners approved the extension. The extension keeps the rides going while the county seeks bids for a new contract.
+The Department of Senior Services recommended the extension. On Nov. 4, 2026, Chairman Robb Pitts led the Fulton County Board of Commissioners when it approved up to $9,589,074.96 to keep Transdev running the service from January 1 through December 31, 2027, with the same terms. Commissioners held the item at two meetings in October before approving it. The county's general fund is budgeted to pay about $8.5 million, and four grant lines make up the rest; two of those grant awards were still pending when commissioners approved the extension. The extension keeps the rides going while the county seeks bids for a new contract.

@@ -1,6 +1,6 @@
 ---
-title: $6.4 million toward 326 new affordable homes in Ramsey County
-dek: Ramsey County's housing levy is helping build five new rental buildings in Saint Paul, Roseville and Falcon Heights. They'll have 326 homes, 96 of them for the lowest-income renters, and must stay affordable for 30 years.
+title: $6.4 million toward 305 net new affordable homes in Ramsey County
+dek: Ramsey County's housing levy is helping build five rental buildings with 308 apartments in Saint Paul, Roseville and Falcon Heights. Because one project replaces three existing homes, they'll add a net 305 and must stay affordable for 30 years.
 level: local
 jurisdiction: ramsey
 places:
@@ -13,23 +13,20 @@ action:
 topics:
   - housing
   - costs
-who_benefits: Renters who will live in 326 new apartments in five buildings in Saint Paul, Roseville and Falcon Heights, including 96 homes set aside for households at 30% of the area median income.
+who_benefits: Renters with low to moderate incomes who will live in 308 apartments in five buildings in Saint Paul, Roseville and Falcon Heights.
 impact:
   - figure: $6.4 million
     label: county housing levy money for five new affordable rental buildings
-  - figure: "326"
-    label: new homes in the five buildings
-  - figure: "96"
-    label: homes set aside for households at 30% of area median income
+  - figure: "305"
+    label: net new affordable homes after three existing homes are replaced
+  - figure: 30 years
+    label: required affordability period for each building
 status:
   state: phasing-in
   as_of: 2026-11-14
   note: The Ramsey County Housing and Redevelopment Authority approved the money on June 23, 2026. All five projects remain in construction, development or predevelopment, so none of the homes is ready to rent yet.
   source: https://www.ramseycountymn.gov/businesses/property-development/property-development-programs-incentives/affordable-housing-infrastructure-investments/2026-housing-development-awards
 credit:
-  - official: josh-olson
-    role: proposed
-    note: Directed Community & Economic Development, the department listed as the sponsor of File 2026-220
   - official: mai-chong-xiong
     role: led
     note: Chaired the Housing and Redevelopment Authority meeting that approved the awards
@@ -65,12 +62,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the $6.4 million award, project and affordability totals, funding sources, June 23 approval, and current rollout. Corrected the approving body and added the department head and HRA chair required by the credit rules.
+  notes: Confirmed the $6.4 million award, funding sources, projects, approval date, rollout, and approving officials. Corrected the housing totals and removed an unsupported staff credit.
 source_key: ramsey-2026-220
 ---
 
-Ramsey County is putting $6.4 million into five new apartment buildings for renters with lower incomes. Together they'll build 326 homes. The largest awards are $2.5 million for Gloryville, an 87-home building on Saint Paul's East Side, and $1.36 million for Fairway Commons, a 110-home building in Falcon Heights. The other three are Aragon, a 53-home building in Saint Paul's Sunray-Battlecreek-Highwood area; Edison III, with 52 homes in Roseville; and Rondo Revitalize, with 24 homes in Rondo. Rondo Revitalize will replace three existing affordable units, so the five projects will add a net 323 homes.
+Ramsey County is putting $6.4 million into five new apartment buildings for renters with lower incomes. Together they'll contain 308 homes and add a net 305 because Rondo Revitalize will replace three existing affordable units. The largest awards are $2.5 million for Gloryville, a 69-home building on Saint Paul's East Side, and $1.36 million for Fairway Commons, a 110-home building in Falcon Heights. The other three are Aragon, with 53 homes in Saint Paul; Edison III, with 52 in Roseville; and Rondo Revitalize, with 24 in Saint Paul's Rondo neighborhood.
 
-Of the 326 homes, 96 are set aside for the lowest-income renters: households at 30% of the area median income. Each building must record a 30-year affordability requirement, and the county checks compliance every year. To rent one of these apartments, you'll apply through the building's owner once it opens. None of the buildings is open yet.
+At least 41 apartments are reserved for households at 30% of the area median income: 15 at Gloryville, 12 at Fairway Commons and 14 at Aragon. County documents say Edison III and Rondo Revitalize will also include homes restricted across the 30%-to-60%-AMI range but do not give an exact breakdown. Each building must record a 30-year affordability requirement, and the county will check compliance annually. You'll apply through each building's owner when leasing opens.
 
-The money comes from the county's Housing and Redevelopment Authority levy, a property tax the county started collecting in 2022 to pay for affordable housing. Most of this round, $4.95 million, is 2026 levy money. The remaining $1.45 million was freed up from earlier awards whose projects didn't go forward. The projects were chosen from 45 eligible applications. Community & Economic Development, led by director Josh Olson, proposed the awards. On June 23, 2026, HRA chair Mai Chong Xiong led the meeting where the Ramsey County Housing and Redevelopment Authority approved them.
+The money comes from the county's Housing and Redevelopment Authority levy, a property tax first collected in 2022 for affordable housing and redevelopment. Of this round, $4.95 million is 2026 levy money. The remaining $1.45 million was freed from earlier awards whose projects did not go forward. The projects were chosen from 45 eligible applications. On June 23, 2026, HRA chair Mai Chong Xiong led the meeting where the Ramsey County Housing and Redevelopment Authority approved the awards.

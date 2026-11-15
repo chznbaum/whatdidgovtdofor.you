@@ -23,9 +23,9 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
-  - official: jodi-wentland
-    role: proposed
-    note: Recommended approval of the property sale and loan authorization
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that authorized the sale and loan negotiations on July 14, 2026
   - official: hennepin-county-board
     role: voted-yes
     note: Authorized negotiations for the sale and the deferred, forgivable loan
@@ -48,6 +48,9 @@ sources:
   - title: Shelters & Supportive Housing Units
     publisher: People Serving People
     url: https://www.peopleservingpeople.org/what-we-do/shelters-housing/
+  - title: District 2 Irene Fernando
+    publisher: Hennepin County
+    url: https://www.hennepincounty.gov/government/leadership/board-of-commissioners/district-2
 featured: false
 verification:
   writer:
@@ -58,8 +61,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: corrected
-  notes: Confirmed the shelter’s opening and capacity, the $5.5 million sale terms, the loan authorization, and current operation. Added the county administrator who recommended the action and refreshed the status check.
+  verdict: pass
+  notes: Confirmed the board action, $5.5 million sale terms, $4.5 million loan authorization, September 4 opening, 52-family capacity, referral process, attribution, and current operation.
 source_key: hennepin-26-0242
 ---
 
@@ -67,4 +70,4 @@ Hennepin County owned a former hotel on 4th Street South in downtown Minneapolis
 
 The sale price was about $5.5 million. The board authorized county staff to negotiate a deferred, forgivable loan of up to $4.5 million toward that price. The loan terms described in the resolution require the building to remain a family shelter through about the end of 2031. The new shelter, Belonging Place, opened in September 2026 and can hold up to 52 families. It was full a little over a month later. Families don't apply to the shelter directly. The county refers them through its shelter system, and the county has a policy of finding a shelter spot for every family that needs one.
 
-County Administrator Jodi Wentland recommended the action, and the Hennepin County Board of Commissioners authorized the sale and loan negotiations on July 14, 2026, after a request for proposals that spring picked People Serving People. The nonprofit says the new site raises its family shelter capacity by 45%.
+On County Administrator Jodi Wentland's recommendation, the Hennepin County Board of Commissioners, chaired by Irene Fernando, authorized the sale and loan negotiations on July 14, 2026, after a request for proposals that spring picked People Serving People. The nonprofit says the new site raises its family shelter capacity by 45%.

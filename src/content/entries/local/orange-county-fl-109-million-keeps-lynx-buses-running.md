@@ -24,9 +24,6 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
-  - official: joseph-kunkel
-    role: proposed
-    note: Submitted the Public Works Department's request to approve the agreement
   - official: jerry-demings
     role: led
     note: Presided over the Board of County Commissioners when it approved the agreement
@@ -65,7 +62,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the agreement, amounts, term, allocation, unanimous approval, and current status. Corrected the credits to name the department director who proposed the agreement and the mayor who presided over its approval.
+  notes: Confirmed the agreement, funding amounts, term, allocation, unanimous approval, and current status. Removed an unsupported credit for routine departmental submission.
 source_key: orange-county-fl-26-1203
 ---
 
@@ -73,4 +70,4 @@ If you ride a LYNX bus in Orange County, this agreement helps keep it running. T
 
 Orange County is LYNX's largest regional funding partner. It pays 83% of the local share for fixed-route bus service across LYNX's three-county area. This agreement is up from $95,275,909 in the comparable agreement for 2025-26. LYNX's FY2027 funding schedule assigns $105,983,161 of this agreement to operations and $3,034,275 to capital costs.
 
-Orange County Public Works Director Joseph C. Kunkel asked the board to approve the agreement. Mayor Jerry Demings presided over the Board of County Commissioners when it approved the agreement unanimously as part of its consent agenda on Oct. 13, 2026.
+Mayor Jerry Demings presided over the Board of County Commissioners when it approved the agreement unanimously as part of its consent agenda on Oct. 13, 2026.

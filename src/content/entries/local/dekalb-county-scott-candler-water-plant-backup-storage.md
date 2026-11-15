@@ -22,9 +22,9 @@ status:
   note: The Board of Commissioners approved the contract with Ruby-Collins, Inc. on Aug. 25, 2026. On Nov. 5, a committee recommended hiring a separate construction manager for the project; the clearwells and pump station still have to be built and commissioned, so the added storage isn't in service yet.
   source: https://dekalbcountyga.legistar.com/LegislationDetail.aspx?GUID=A10BE31C-AA41-48BD-A936-85D66A0065AE&ID=8260926&Options=&Search=
 credit:
-  - official: reginald-wells
-    role: proposed
-    note: Led the Department of Watershed Management and presented the contract to the Public Works and Infrastructure Committee
+  - official: chakira-johnson
+    role: led
+    note: Presided over the Board of Commissioners meeting that approved the contract
   - official: dekalb-county-board-of-commissioners
     role: voted-yes
     note: Approved the contract 7–0
@@ -62,9 +62,10 @@ sources:
     publisher: OpenPublica
     url: https://www.openpublica.com/meetings/dekalbcounty-georgia-board-of-commissioners-committees-2026-08-18-6a853620fef2c30b1d31e7db
     date: 2026-08-18
-  - title: Watershed Management
-    publisher: DeKalb County
-    url: https://dekalbcountyga.gov/departments/watershed-management
+  - title: DeKalb County Board of Commissioners meeting, Aug. 25, 2026
+    publisher: OpenPublica
+    url: https://www.openpublica.com/meetings/dekalbcounty-georgia-board-of-commissioners-committees-2026-08-25-6a8e2f4121c997fc88e9f38d
+    date: 2026-08-25
   - title: Roll call, File 2026-0854, Aug. 25, 2026
     publisher: DeKalb County Board of Commissioners (Legistar)
     url: https://webapi.legistar.com/v1/dekalbcountyga/eventitems/162932/votes
@@ -96,7 +97,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract ceiling, two 10-million-gallon clearwells, unanimous vote, customer-rate financing, and active preconstruction status. Corrected the personal credit and added every commissioner named in the roll call.
+  notes: Confirmed the contract amount, storage capacity, vote, financing, and current preconstruction status. Corrected the attribution to the board’s presiding officer.
 source_key: dekalb-county-2026-0854
 ---
 
@@ -106,4 +107,4 @@ This contract tears out that filter plant and builds a new pump station that sen
 
 Customers help pay for this work. It is part of a capital plan funded with water and sewer charges, bonds, loans and system cash; commissioners approved 10% yearly water and sewer rate increases through 2034 to support the plan and system operations.
 
-Watershed Management Director Reginald Wells presented the contract to commissioners. They held it twice over the summer before the Public Works and Infrastructure Committee recommended approval. On Aug. 25, 2026, the full board voted 7–0 to hire Ruby-Collins, Inc., the top-scoring of two bidders, to design and build the project for up to $233.8 million. The work is still ahead, so the new storage isn't in service yet.
+The contract moved through the board for two months before the Public Works and Infrastructure Committee recommended approval. On Aug. 25, 2026, Presiding Officer Chakira Johnson led the full board meeting where commissioners voted 7–0 to hire Ruby-Collins, Inc., the top-scoring of two bidders, to design and build the project for up to $233.8 million. The work is still ahead, so the new storage isn't in service yet.

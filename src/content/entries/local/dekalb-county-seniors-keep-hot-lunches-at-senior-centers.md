@@ -25,9 +25,9 @@ status:
   note: The board approved the award on Oct. 27, 2026, but the county record says the contract takes effect upon execution. No execution date was published as of Nov. 14, 2026.
   source: https://dekalbcountyga.legistar.com/LegislationDetail.aspx?GUID=D2D01636-1EBD-4435-9130-3799FB12AFA1&ID=8257212
 credit:
-  - official: michelle-butler
-    role: proposed
-    note: Led the Purchasing and Contracting department that recommended the award
+  - official: chakira-johnson
+    role: led
+    note: Chaired the board that approved the contract award on Oct. 27, 2026
   - official: dekalb-county-board-of-commissioners
     role: voted-yes
     note: Approved the contract award on Oct. 27, 2026
@@ -50,7 +50,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract term, amount, funding, services, eligibility rules, approval date, and execution-dependent status. Corrected the action name and credited the procurement official who recommended the award instead of commissioners who merely moved and seconded the bundled vote.
+  notes: Confirmed the award date, amount, services, eligibility, funding, and execution-dependent status. Corrected the credit to follow the rule for routine contract awards.
 source_key: dekalb-county-2026-1208
 ---
 
@@ -58,4 +58,4 @@ If you're 60 or older and live in DeKalb County, you can join one of the county'
 
 There is no membership fee, though some classes may charge a small supply fee. The county also gives members rides to the senior center in their community. To sign up, call the Neighborhood Centers office at 770-322-2950.
 
-DeKalb County's Purchasing and Contracting Department, led by Chief Procurement Officer Michelle Butler, recommended Meals on Wheels Atlanta after three proposals were submitted. The nonprofit scored 96.2 out of 100; the next-highest responsive proposal scored 55.64, and the third was nonresponsive. The contract can cost up to $1,885,529 over three years and is paid from an Atlanta Regional Commission grant fund. The Board of Commissioners approved the award on Oct. 27, 2026, and authorized the county's chief executive to execute the contract.
+DeKalb County's Purchasing and Contracting Department, led by Chief Procurement Officer Michelle Butler, recommended Meals on Wheels Atlanta after three proposals were submitted. The nonprofit scored 96.2 out of 100; the next-highest responsive proposal scored 55.64, and the third was nonresponsive. The contract can cost up to $1,885,529 over three years and is paid from an Atlanta Regional Commission grant fund. Presiding Officer Chakira Johnson chaired the Board of Commissioners when it approved the award on Oct. 27, 2026, and authorized the county's chief executive to execute the contract.

@@ -1,6 +1,6 @@
 ---
 title: $15 million toward a new shelter for homeless women and families
-dek: Orange County is putting $15 million in federal disaster-recovery money into the Coalition for the Homeless's new Center for Women and Families in Orlando's Parramore neighborhood. The center is set to finish in early 2028 and house about 550 women and families a year.
+dek: Orange County is putting $15 million in federal disaster-recovery money into the Coalition for the Homeless's new Center for Women and Families in Orlando's Parramore neighborhood. The Coalition hopes to open the center in early 2028 and house about 550 women and families a year.
 level: local
 jurisdiction: orange-county-fl
 action:
@@ -24,9 +24,9 @@ status:
   note: Under construction on the Coalition for the Homeless's Parramore campus. The Coalition hopes to open it in the first quarter of 2028.
   source: https://mynews13.com/fl/orlando/news/2026/10/28/new-homeless-shelter-in-orlando-will-serve-women-and-their-children
 credit:
-  - official: tanya-wilson
-    role: proposed
-    note: Submitted the department's request to approve the $15 million agreement
+  - official: jerry-demings
+    role: led
+    note: Chaired the board that approved the $15 million agreement on Oct. 27, 2026
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
     note: Selected the project for disaster-recovery funding on March 24, 2026, and approved the $15 million agreement on Oct. 27, 2026
@@ -43,6 +43,9 @@ sources:
     publisher: WKMG News 6 ClickOrlando
     url: https://www.clickorlando.com/news/local/2026/05/06/new-center-for-women-and-families-planned-for-orlandos-parramore-neighborhood/
     date: 2026-05-06
+  - title: Orange County Charter, Section 302
+    publisher: Orange County Government
+    url: https://www.ocfl.net/Portals/0/Library/Environment/docs/Orange%20County%20Charter_0-CERT.pdf
 featured: false
 verification:
   writer:
@@ -54,7 +57,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the $15 million agreement, beneficiaries, capacity, approval date, and construction status. Corrected the funding description, project cost, timeline wording, and credit to name the department director who submitted the agreement.
+  notes: Confirmed the grant amount, approval, beneficiaries, capacity figures, construction status, and funding. Corrected the unsupported staff credit and softened the completion timeline to match the cited report.
 source_key: orange-county-fl-26-1278
 ---
 
@@ -62,4 +65,4 @@ The Coalition for the Homeless of Central Florida is building a new Center for W
 
 There's nothing to apply for yet. The center is under construction, and the Coalition hopes to open it in the first quarter of 2028. Women and families who need shelter can contact the Coalition.
 
-The county commissioners chose the project for disaster-recovery money in March 2026 after taking applications. On Oct. 27, 2026, Planning, Environmental, and Development Services Director Tanya Wilson asked the commissioners to approve the $15 million agreement, and they approved it on their consent agenda. The county had already put about $3.26 million in federal community-development money into the project's first two phases. Recent reporting puts the whole project at about $60 million. The City of Orlando and a federal appropriation are paying part of it too.
+The county commissioners chose the project for disaster-recovery money in March 2026 after taking applications. On Oct. 27, 2026, Mayor Jerry Demings chaired the board when commissioners approved the $15 million agreement on their consent agenda. The county had already put about $3.26 million in federal community-development money into the project's first two phases. Recent reporting puts the whole project at about $60 million. The City of Orlando and a federal appropriation are paying part of it too.

@@ -24,9 +24,6 @@ status:
   note: Approved on Nov. 4, 2026; the renewal begins Jan. 1, 2027 and runs through Dec. 31, 2027.
   source: https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=
 credit:
-  - official: kweli-rashied-henry
-    role: proposed
-    note: Interim director of the department that recommended the renewals
   - official: robb-pitts
     role: led
     note: Chaired the board that approved the renewals on Nov. 4, 2026
@@ -77,7 +74,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the approval, services, eligibility, term, roll call and center count. Corrected the funding ceiling and credit chain using the county’s [official staff report](https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=).
+  notes: Confirmed the funding, services, eligibility, dates, providers, vote, and current status against the county’s [legislation record](https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=) and [meeting record](https://fulton.legistar.com/MeetingDetail.aspx?GUID=ED0A01D3-0E2F-4FD7-B706-D267BFEFDF5A&ID=1444877&Options=&Search=). Removed an unsupported credit for a routine contract recommendation.
 source_key: fulton-county-26-0752
 ---
 
@@ -85,4 +82,4 @@ If you live in Fulton County and are 60 or older, you can keep going to a neighb
 
 The county lists 14 neighborhood centers, from Roswell and Alpharetta in the north to Palmetto and Fairburn in the south, along with several in Atlanta. County staff say the program also keeps seniors from becoming isolated and inactive. To find a center, call the one nearest you or the county's Department of Senior Services.
 
-Interim Senior Services Director Kweli Rashied-Henry headed the department that recommended the renewal. Chairman Robb Pitts led the meeting, and the Board of Commissioners passed it 6–0 on Nov. 4, 2026, with Democrats and Republicans both voting yes. It authorizes up to $4,363,792.43 from county money and grants, including $685,370.28 listed as pending a grant award, for Jan. 1 through Dec. 31, 2027. This is the last of four one-year renewals allowed under the original 2022 contracts. No renewal options remain after 2027.
+Chairman Robb Pitts led the meeting, and the Board of Commissioners passed it 6–0 on Nov. 4, 2026, with Democrats and Republicans both voting yes. It authorizes up to $4,363,792.43 from county money and grants, including $685,370.28 listed as pending a grant award, for Jan. 1 through Dec. 31, 2027. This is the last of four one-year renewals allowed under the original 2022 contracts. No renewal options remain after 2027.

@@ -27,9 +27,6 @@ status:
   note: The Hennepin County Board approved the 26 grants on Aug. 4, 2026. The record describes equipment purchases, training, programs and capital projects, not completed work.
   source: https://hennepinmn.legistar.com/LegislationDetail.aspx?FullText=1&GUID=A15E3FEF-29B1-44DF-92DA-086CC3EC4CA9&ID=8157786&Options=&Search=
 credit:
-  - official: jennifer-yang
-    role: proposed
-    note: Presented the review panels' 26 award recommendations to the board's budget committee on July 28, 2026
   - official: irene-fernando
     role: led
     note: Chaired the board that approved the 26 grants on Aug. 4, 2026
@@ -63,7 +60,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the resolution, project amounts, funding source, approval date and current status. Added the officials responsible for proposing and leading the action, and tightened several claims to match the meeting record exactly.
+  notes: Confirmed the resolution, all grant amounts and projects, beneficiary estimate, funding source, approval date, board chair, and current status. Removed an unsupported “proposed” credit for the staff member who presented the review panels’ recommendations.
 source_key: hennepin-26-0249-r1
 ---
 
@@ -71,4 +68,4 @@ Hennepin County is giving $1,286,919 to local governments, public schools and pa
 
 Another $139,000 helps keep pools and beaches staffed. It pays to train and certify lifeguards in Bloomington and Crystal and to train and retain lifeguards at Three Rivers Park District. Eleven smaller grants of about $10,000 or less each buy gear. Eden Prairie gets two all-terrain wheelchairs, the Minneapolis Park and Recreation Board gets adaptive water equipment, and several schools get soccer, archery and other sports equipment. Nine arts grants totaling $146,018 cover a reduced-fee art lab in Edina, theater and arts residencies in Minneapolis schools, after-school theater in Robbinsdale and reduced barriers to a summer arts program.
 
-Families don't apply. Government units applied, and the county received 82 requests for about $6 million, far more than it had to give. Review panels scored the requests on how many young people they serve, accessibility, community and financial need, and geographic spread. Jennifer Yang, the county's director of Grants Management and Administration, presented their 26 recommendations to the board's budget committee. Irene Fernando chaired the Hennepin County Board when it approved the awards on Aug. 4, 2026. The program is paid for with the county's ballpark sales tax, which state law allows the county to spend on youth activities.
+Families don't apply. Government units applied, and the county received 82 requests for about $6 million, far more than it had to give. Review panels scored the requests on how many young people they serve, accessibility, community and financial need, and geographic spread. The panels sent their 26 recommendations to the board's budget committee. Irene Fernando chaired the Hennepin County Board when it approved the awards on Aug. 4, 2026. The program is paid for with the county's ballpark sales tax, which state law allows the county to spend on youth activities.

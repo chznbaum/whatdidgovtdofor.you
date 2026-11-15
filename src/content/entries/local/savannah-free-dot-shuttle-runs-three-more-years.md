@@ -23,21 +23,18 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
-  - official: jay-melder
-    role: proposed
-    note: Recommended that City Council approve the contract
   - official: van-johnson
     role: led
     note: Presided over the council meeting and defended renewing the existing service with CAT
   - official: detric-leggett
-    role: led
+    role: issued
     note: Chaired CAT's board when it approved the three-year agreement on July 28, 2026
   - official: savannah-city-council
     role: voted-yes
     note: Approved the contract 6-2, with one member recused
   - official: chatham-area-transit
-    role: implemented
-    note: Operates the DOT shuttle
+    role: voted-yes
+    note: Its board approved the three-year agreement on July 28, 2026
 votes:
   - chamber: Savannah City Council
     date: 2026-10-22
@@ -87,7 +84,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the renewal, routes, funding, service standards, votes, and current operation. Corrected the contract end date and added the accountable people, structured vote, and supporting sources.
+  notes: Confirmed the contract amount and term, routes, service standards, funding, vote, and current operation. Corrected the credits to remove a routine staff recommendation and accurately describe CAT’s board action.
 source_key: savannah-council-actionminutes-2026-10-22-12
 ---
 
@@ -95,4 +92,4 @@ Savannah's DOT shuttle is free to ride, and the city approved up to $7.9 million
 
 On Oct. 22, 2026, the Savannah City Council approved the contract with Chatham Area Transit. The three-year contract averages about $2.65 million a year. It requires at least two buses in active service and headways no longer than 15 minutes. Enforcement of the new service standards and financial penalties starts in January 2027.
 
-The contract is paid from the city's Parking Services Fund. Parking and Mobility Services' enterprise-fund revenue, including paid parking, is restricted to mobility projects. City Manager Jay Melder recommended approval. Mayor Van Johnson defended renewing the existing service with CAT. CAT Board Chair Detric Leggett led the board when it approved the agreement on July 28. The council voted 6-2, with Leggett recused. Alderwomen Bernetta Lanier and Alicia Miller Blakely voted no. Lanier asked whether the routes reach the neighborhoods that need free rides most, and Blakely wanted a contract renewed year by year. Alderman Kurtis Purtee asked city staff to price a route from Georgia Southern's Armstrong Campus to downtown.
+The contract is paid from the city's Parking Services Fund. Parking and Mobility Services' enterprise-fund revenue, including paid parking, is restricted to mobility projects. Mayor Van Johnson defended renewing the existing service with CAT. CAT Board Chair Detric Leggett chaired the board when it approved the agreement on July 28. The council voted 6-2, with Leggett recused. Alderwomen Bernetta Lanier and Alicia Miller Blakely voted no. Lanier asked whether the routes reach the neighborhoods that need free rides most, and Blakely wanted a contract renewed year by year. Alderman Kurtis Purtee asked city staff to price a route from Georgia Southern's Armstrong Campus to downtown.

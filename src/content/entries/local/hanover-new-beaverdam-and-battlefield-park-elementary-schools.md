@@ -71,12 +71,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the bond authorization, project scope, construction history, and both August 2026 openings. Corrected the credits to name the officials responsible and accurately describe the boards’ votes.
+  notes: Confirmed the $105 million authorization, project scope, credits, construction timeline, and both August 2026 openings. Corrected the explanation of how the Virginia Public School Authority financing works.
 source_key: hanover-news-929-approved-resolution-authorizing-vpsa-general-obligation-bond
 ---
 
 Children in Beaverdam and Mechanicsville started this school year in new buildings. Hanover County replaced two elementary schools, Beaverdam Elementary and Battlefield Park Elementary, instead of renovating them. Families didn't have to do anything: students stayed in the old buildings during construction and moved into the new ones when they opened for the 2026–27 school year.
 
-The money came from bonds. On July 24, 2024, the Hanover County Board of Supervisors held a public hearing and approved borrowing up to $105 million through the Virginia Public School Authority, a state program that lends to school divisions. County documents say most of the money was for the two replacement schools. The rest covered HVAC repair and replacement, updates to school grounds, and other building improvements. The county repays these general obligation bonds over time with local revenue.
+The money came from bonds. On July 24, 2024, the Hanover County Board of Supervisors held a public hearing and authorized up to $105 million in general obligation bonds to the Virginia Public School Authority. County documents say most of the money was for the two replacement schools. The rest covered HVAC repair and replacement, updates to school grounds, and other building improvements. The county repays these general obligation bonds over time with local revenue.
 
 A 2018 school division study recommended replacing Battlefield Park and renovating Beaverdam. The School Board put both schools in its capital plan, and Superintendent Michael Gill's proposed FY2025 plan changed Beaverdam to a replacement. The School Board adopted that plan unanimously. Susan Dibble chaired the Board of Supervisors when it approved the bonds. Groundbreakings were in March 2025 and ribbon cuttings in August 2026. These were the county's second and third new schools since 2008. In 2025, Board Chair Michael Herzberg said the county lowered its real estate tax rate in 2007 and, after the market turned down later that year, lacked enough money to build new schools for more than a decade.

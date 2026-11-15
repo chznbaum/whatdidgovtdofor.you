@@ -24,9 +24,9 @@ status:
   note: Orange County commissioners approved the funding agreements on Nov. 10, 2026. Neither project has been built yet.
   source: https://occompt.legistar.com/LegislationDetail.aspx?ID=8299813&GUID=81CFD7DB-FB65-4F4B-814B-C8B88722E68B&FullText=1
 credit:
-  - official: tanya-wilson
-    role: proposed
-    note: Submitted the department's request for approval as its director
+  - official: jerry-demings
+    role: led
+    note: Presided over the board that approved both agreements on Nov. 10, 2026
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
     note: Approved both agreements on Nov. 10, 2026, after its Community Development Advisory Board recommended the projects
@@ -63,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the Nov. 10 approval, award amounts, purposes, federal funding source, and current status. Updated the grocery program’s current eligibility threshold and credited the county department director who submitted the agreements for approval.
+  notes: Confirmed the amounts, project purposes, federal funding, eligibility, approval date, and current status. Corrected the credit from the department director who transmitted this routine consent item to Mayor Jerry Demings, who presided over the approving board.
 source_key: orange-county-fl-26-1335
 ---
 
@@ -71,4 +71,4 @@ Orange County is giving United Against Poverty $15 million to build a new buildi
 
 United Against Poverty runs a member-share grocery on Michigan Street in Orlando where enrolled customers buy food at discounted prices. Qualified families earning at or below 300% of the federal poverty line must apply for membership. Catholic Charities' Orlando (East) Agape Mission Market is a food pantry that provides food by appointment. Hurricane Ian ruined United Against Poverty's grocery freezers and coolers, and they were not replaced for more than 16 months. In 2025, the group said its 20-year-old building needed major repairs after part of the roof collapsed and water got in.
 
-The money comes from the roughly $219 million that the U.S. Department of Housing and Urban Development gave Orange County for long-term recovery from Hurricane Ian. Nonprofits applied for it in 2025. Planning, Environmental and Development Services Director Tanya Wilson asked commissioners to approve the agreements after the county's Community Development Advisory Board recommended the projects. The Board of County Commissioners approved them on Nov. 10, 2026.
+The money comes from the roughly $219 million that the U.S. Department of Housing and Urban Development gave Orange County for long-term recovery from Hurricane Ian. Nonprofits applied for it in 2025. After the county's Community Development Advisory Board recommended the projects, Mayor Jerry Demings presided over the Board of County Commissioners when it approved both agreements on Nov. 10, 2026.

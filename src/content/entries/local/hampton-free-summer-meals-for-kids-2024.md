@@ -8,7 +8,7 @@ action:
   name: Resolution to Amend the Fiscal Year 2025 Council Approved Budget and Accept and Appropriate the 2024 Summer Food Service Program Grant for Children through the U.S. Department of Agriculture (USDA)
   identifier: Hampton File 24-0308
   date: 2024-07-10
-  effective: 2024-08-23
+  effective: 2024-06-17
 topics:
   - food
   - costs
@@ -23,8 +23,8 @@ status:
   as_of: 2026-11-14
 credit:
   - official: david-mccauley
-    role: proposed
-    note: Led the department that proposed the grant-funded program
+    role: implemented
+    note: Led the department that ran the meal program
   - official: hampton-parks-recreation-leisure-services
     role: implemented
     note: Ran the meal sites across the city
@@ -63,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant, dates, eligibility, funding, council approval, and later evidence that meals were delivered. Added the responsible department head and presiding mayor ahead of the credited bodies.
+  notes: Confirmed the program, eligibility, funding, council vote, and delivery using Hampton’s official records. Corrected the benefit’s start date and narrowed the department director’s credit to implementation.
 source_key: hampton-24-0308
 ---
 
