@@ -5,3 +5,10 @@ level: local
 jurisdiction: hampton
 current: false
 url: https://www.hampton.gov/CivicAlerts.aspx?AID=5744&ARC=12228
+portrait:
+  image: /portraits/donnie-tuck.webp
+  kind: photo
+  source:
+    label: Virginia Peninsula Community College
+    url: https://www.vpcc.edu/directory/donnie-tuck/
+    license: "© holder, used as a drawing reference"

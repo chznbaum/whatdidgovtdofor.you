@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.msha.gov
+portrait:
+  image: /portraits/christopher-williamson.webp
+  kind: official
+  source:
+    label: Mine Safety and Health Administration, U.S. Department of Labor
+    url: https://web.archive.org/web/20240616173413/https://www.msha.gov/about/leadership/office-assistant-secretary/christopher-j-williamson
+    license: Public domain

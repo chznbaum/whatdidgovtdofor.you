@@ -5,3 +5,10 @@ level: local
 jurisdiction: cobb-county
 current: true
 url: https://www.cobbcounty.gov/board-commissioners
+portrait:
+  image: /portraits/keli-gambrill.webp
+  kind: photo
+  source:
+    label: Keli Gambrill campaign
+    url: https://cobbneedskeli.com/
+    license: "© Keli Gambrill campaign, used as a drawing reference"

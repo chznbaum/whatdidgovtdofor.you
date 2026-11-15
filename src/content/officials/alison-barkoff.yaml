@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://acl.gov
+portrait:
+  image: /portraits/alison-barkoff.webp
+  kind: official
+  source:
+    label: Administration for Community Living, U.S. Department of Health and Human Services
+    url: https://web.archive.org/web/20240601051334/https://acl.gov/about-acl/organization/leadership
+    license: Public domain

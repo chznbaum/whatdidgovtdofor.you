@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/ellen-park.webp
+  kind: official
+  source:
+    label: New Jersey Department of Military and Veterans Affairs, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:NJDOMVA_Ellen_Park_(cropped).jpg
+    license: Public domain

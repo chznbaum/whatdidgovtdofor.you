@@ -5,3 +5,10 @@ level: local
 jurisdiction: jacksonville
 current: true
 url: https://www.jacksonville.gov/city-council
+portrait:
+  image: /portraits/matt-carlucci.webp
+  kind: photo
+  source:
+    label: American Flood Coalition
+    url: https://floodcoalition.org/members/matt-carlucci/
+    license: "© City of Jacksonville / American Flood Coalition, used as a drawing reference"

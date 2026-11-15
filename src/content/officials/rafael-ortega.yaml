@@ -5,3 +5,10 @@ level: local
 jurisdiction: ramsey
 current: true
 url: https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/rafael-ortega-district-5
+portrait:
+  image: /portraits/rafael-ortega.webp
+  kind: photo
+  source:
+    label: MPR News
+    url: https://www.mprnews.org/story/2014/02/26/rafael-ortega
+    license: "© Rafael Ortega, used as a drawing reference"

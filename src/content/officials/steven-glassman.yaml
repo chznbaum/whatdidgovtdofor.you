@@ -5,3 +5,10 @@ level: local
 jurisdiction: fort-lauderdale
 current: true
 url: https://www.fortlauderdale.gov/Government/City-Commission/Commissioner-Steven-Glassman-District-2
+portrait:
+  image: /portraits/steven-glassman.webp
+  kind: official
+  source:
+    label: City of Fort Lauderdale, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Commissioner_Steve_Glassman.jpg
+    license: Public domain

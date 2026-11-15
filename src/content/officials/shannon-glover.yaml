@@ -6,3 +6,10 @@ jurisdiction: portsmouth
 current: true
 seat: { place: portsmouth, title: Mayor }
 url: https://www.portsmouthva.gov
+portrait:
+  image: /portraits/shannon-glover.webp
+  kind: official
+  source:
+    label: Hampton Roads Planning District Commission
+    url: https://www.hamptonroads.gov/238/Our-Board
+    license: "© holder, used as a drawing reference"

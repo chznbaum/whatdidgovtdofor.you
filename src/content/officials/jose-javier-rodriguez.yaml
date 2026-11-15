@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.dol.gov/agencies/eta
+portrait:
+  image: /portraits/jose-javier-rodriguez.webp
+  kind: official
+  source:
+    label: U.S. Department of Labor, Employment and Training Administration
+    url: https://web.archive.org/web/20240526082151/https://www.dol.gov/agencies/eta/about/leadership
+    license: Public domain

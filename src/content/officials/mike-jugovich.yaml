@@ -5,3 +5,10 @@ level: local
 jurisdiction: st-louis-county
 current: true
 url: https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners
+portrait:
+  image: /portraits/mike-jugovich.webp
+  kind: photo
+  source:
+    label: St. Louis County
+    url: https://content.govdelivery.com/accounts/MNSTLOUIS/bulletins/402463b
+    license: "© St. Louis County / Jeff Frey, used as a drawing reference"

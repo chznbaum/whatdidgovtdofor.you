@@ -5,3 +5,10 @@ level: local
 jurisdiction: henrico
 current: true
 url: https://henrico.gov/supervisors/fairfield-district/
+portrait:
+  image: /portraits/roscoe-cooper.webp
+  kind: official
+  source:
+    label: Henrico County
+    url: https://henrico.gov/supervisors/fairfield-district/
+    license: "© Henrico County, used as a drawing reference"

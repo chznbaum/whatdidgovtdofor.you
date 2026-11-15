@@ -5,3 +5,10 @@ level: local
 jurisdiction: hanover
 current: false
 url: https://www.hcps.us/events/previous_news/fiscal_year_2025_budget_update
+portrait:
+  image: /portraits/michael-gill.webp
+  kind: photo
+  source:
+    label: Hanover County Public Schools
+    url: https://web.archive.org/web/20250115011742/https://www.hcps.us/about_us/message_from_the_superintendent
+    license: "© Hanover County Public Schools, used as a drawing reference"

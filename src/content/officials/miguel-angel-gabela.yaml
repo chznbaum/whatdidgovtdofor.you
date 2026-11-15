@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami
 current: true
 url: https://www.miami.gov/District1
+portrait:
+  image: /portraits/miguel-angel-gabela.webp
+  kind: official
+  source:
+    label: City of Miami
+    url: https://www.miami.gov/My-Government/City-Officials/District-1-Miguel-Angel-Gabela
+    license: "© City of Miami, used as a drawing reference"

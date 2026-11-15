@@ -5,3 +5,10 @@ level: state
 jurisdiction: ga
 current: true
 url: https://www.legis.ga.gov/members/senate
+portrait:
+  image: /portraits/kay-kirkpatrick.webp
+  kind: official
+  source:
+    label: Georgia General Assembly, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Kay_Kirkpatrick.png
+    license: Public domain

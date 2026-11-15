@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us
+portrait:
+  image: /portraits/marisa-sweeney.webp
+  kind: photo
+  source:
+    label: JerseyThroughandThrough, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Marisa_Sweeney_Headshot.png
+    license: CC BY-SA 4.0

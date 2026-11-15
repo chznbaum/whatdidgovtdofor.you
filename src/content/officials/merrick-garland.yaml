@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.justice.gov/archives/ag/staff-profile/meet-attorney-general
+portrait:
+  image: /portraits/merrick-garland.webp
+  kind: official
+  source:
+    label: U.S. Department of Justice, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Attorney_General_Merrick_Garland.jpg
+    license: Public domain

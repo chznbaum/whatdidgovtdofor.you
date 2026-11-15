@@ -4,3 +4,10 @@ office: Chief Administrative Officer, City of Richmond
 level: local
 jurisdiction: richmond
 current: false
+portrait:
+  image: /portraits/lincoln-saunders.webp
+  kind: official
+  source:
+    label: City of Richmond
+    url: https://web.archive.org/web/20241104073349/http://www.rva.gov/cao
+    license: "© City of Richmond, used as a drawing reference"

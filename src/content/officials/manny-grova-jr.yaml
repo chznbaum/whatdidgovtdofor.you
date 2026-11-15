@@ -5,3 +5,10 @@ level: local
 jurisdiction: elizabeth
 current: true
 url: https://www.elizabethnj.org/m/directory/employee?eid=27
+portrait:
+  image: /portraits/manny-grova-jr.webp
+  kind: official
+  source:
+    label: City of Elizabeth
+    url: https://www.elizabethnj.org/m/directory/employee?eid=27
+    license: "© City of Elizabeth, used as a drawing reference"

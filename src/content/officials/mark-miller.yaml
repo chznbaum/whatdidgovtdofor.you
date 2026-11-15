@@ -5,3 +5,10 @@ level: local
 jurisdiction: chesterfield
 current: true
 url: https://www.chesterfield.gov/1240/Midlothian-District---Miller
+portrait:
+  image: /portraits/mark-miller.webp
+  kind: photo
+  source:
+    label: Sports Backers
+    url: https://www.sportsbackers.org/board/profile/mark-miller/
+    license: "© holder, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: dekalb-county
 current: true
 seat: { place: dekalb-county, title: CEO }
 url: https://dekalbcountyga.gov/government/chief-executive-officer
+portrait:
+  image: /portraits/lorraine-cochran-johnson.webp
+  kind: photo
+  source:
+    label: Lorraine Cochran-Johnson campaign
+    url: https://lorrainefordekalbceo.com/
+    license: "© Lorraine for DeKalb CEO, used as a drawing reference"

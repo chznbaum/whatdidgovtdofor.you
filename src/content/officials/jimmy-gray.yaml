@@ -6,3 +6,10 @@ jurisdiction: hampton
 current: true
 seat: { place: hampton, title: Mayor }
 url: https://hampton.gov
+portrait:
+  image: /portraits/jimmy-gray.webp
+  kind: official
+  source:
+    label: Hampton Roads Planning District Commission
+    url: https://www.hamptonroads.gov/238/Our-Board
+    license: "© holder, used as a drawing reference"

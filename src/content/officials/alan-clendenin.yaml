@@ -5,3 +5,10 @@ level: local
 jurisdiction: tampa
 current: true
 url: https://www.tampa.gov/city-council
+portrait:
+  image: /portraits/alan-clendenin.webp
+  kind: official
+  source:
+    label: City of Tampa
+    url: https://www.tampa.gov/city-council/about-us/alan-clendenin
+    license: "© City of Tampa, used as a drawing reference"

@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.ed.gov/about/ed-offices/ocr
+portrait:
+  image: /portraits/catherine-lhamon.webp
+  kind: official
+  source:
+    label: U.S. Department of Education, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Catherine_Lhamon_staff_photo-US_DoE.jpg
+    license: Public domain

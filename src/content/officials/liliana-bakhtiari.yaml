@@ -5,3 +5,10 @@ level: local
 jurisdiction: atlanta
 current: true
 url: https://citycouncil.atlantaga.gov/council-members/district-5
+portrait:
+  image: /portraits/liliana-bakhtiari.webp
+  kind: photo
+  source:
+    label: Liliana Bakhtiari campaign
+    url: https://www.lilianaforatlanta.com/bio
+    license: "© Liliana for Atlanta, used as a drawing reference"

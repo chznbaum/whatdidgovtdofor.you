@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.dol.gov/agencies/whd
+portrait:
+  image: /portraits/jessica-looman.webp
+  kind: official
+  source:
+    label: U.S. Department of Labor, Wage and Hour Division
+    url: https://web.archive.org/web/20231026064416/https://www.dol.gov/agencies/whd/about/leadership/deputy-administrator
+    license: Public domain

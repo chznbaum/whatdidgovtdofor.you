@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.rd.usda.gov
+portrait:
+  image: /portraits/joaquin-altoro.webp
+  kind: photo
+  source:
+    label: National Association of Counties
+    url: https://www.naco.org/people/joaquin-altoro
+    license: © holder, used as a drawing reference

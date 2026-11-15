@@ -5,3 +5,10 @@ level: local
 jurisdiction: fort-lauderdale
 current: true
 url: https://www.fortlauderdale.gov/government/city-commission
+portrait:
+  image: /portraits/pam-beasley-pittman.webp
+  kind: official
+  source:
+    label: City of Fort Lauderdale
+    url: https://www.fortlauderdale.gov/Government/City-Commission/Commissioner-Pamela-Beasley-Pittman-District-3
+    license: "© City of Fort Lauderdale, used as a drawing reference"

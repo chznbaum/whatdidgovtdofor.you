@@ -5,3 +5,10 @@ level: local
 jurisdiction: cobb-county
 current: true
 url: https://www.cobbcounty.gov/board
+portrait:
+  image: /portraits/erick-allen.webp
+  kind: official
+  source:
+    label: Georgia House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_House_of_Representatives_Erick_Eugene_Allen.jpg
+    license: Public domain

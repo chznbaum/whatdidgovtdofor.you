@@ -7,8 +7,8 @@ current: false
 url: https://nyassembly.gov/mem/Daniel-J-ODonnell
 portrait:
   image: /portraits/daniel-odonnell.webp
-  kind: photo
+  kind: official
   source:
-    label: Office of U.S. Rep. Charles Rangel, via Wikimedia Commons
-    url: https://commons.wikimedia.org/wiki/File:ODonnellHeadshot.png
-    license: CC BY 2.0
+    label: New York State Assembly
+    url: https://web.archive.org/web/20240507165604/https://nyassembly.gov/mem/Daniel-J-O%27Donnell
+    license: "© New York State Assembly, used as a drawing reference"

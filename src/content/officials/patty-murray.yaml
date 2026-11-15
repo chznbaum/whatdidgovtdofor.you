@@ -6,3 +6,10 @@ jurisdiction: us
 current: true
 ids: { bioguide: M001111 }
 url: https://www.murray.senate.gov
+portrait:
+  image: /portraits/patty-murray.webp
+  kind: official
+  source:
+    label: United States Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Patty_Murray,_official_portrait,_113th_Congress.jpg
+    license: Public domain

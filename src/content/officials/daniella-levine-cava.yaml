@@ -6,3 +6,10 @@ jurisdiction: miami-dade-county
 current: true
 seat: { place: miami-dade-county, title: County Mayor }
 url: https://www.miamidade.gov/global/government/mayor/home.page
+portrait:
+  image: /portraits/daniella-levine-cava.webp
+  kind: official
+  source:
+    label: Miami-Dade County
+    url: https://www.miamidade.gov/global/government/biographies/mayor.page
+    license: Public domain

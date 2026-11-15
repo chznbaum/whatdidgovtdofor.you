@@ -5,3 +5,10 @@ level: local
 jurisdiction: hennepin
 current: true
 url: https://www.hennepincounty.gov/government/leadership/board-of-commissioners/district-2
+portrait:
+  image: /portraits/irene-fernando.webp
+  kind: photo
+  source:
+    label: Irene Fernando campaign
+    url: https://www.voteirene.com/about-irene
+    license: "© Irene Fernando campaign, used as a drawing reference"

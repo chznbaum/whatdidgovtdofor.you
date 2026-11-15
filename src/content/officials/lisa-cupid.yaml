@@ -6,3 +6,10 @@ jurisdiction: cobb-county
 current: true
 seat: { place: cobb-county, title: Commission Chair }
 url: https://www.cobbcounty.gov/board
+portrait:
+  image: /portraits/lisa-cupid.webp
+  kind: photo
+  source:
+    label: Lisa Cupid campaign
+    url: https://cupidforcobb.com/
+    license: "© Cupid for Cobb, used as a drawing reference"

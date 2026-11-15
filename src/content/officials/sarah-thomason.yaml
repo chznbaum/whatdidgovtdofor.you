@@ -5,3 +5,10 @@ level: state
 jurisdiction: va
 current: true
 url: https://www.oaa.virginia.gov/who-we-are/
+portrait:
+  image: /portraits/sarah-thomason.webp
+  kind: official
+  source:
+    label: Virginia Opioid Abatement Authority
+    url: https://web.archive.org/web/20230929161606/https://www.oaa.virginia.gov/who-we-are/
+    license: "© Commonwealth of Virginia, used as a drawing reference"

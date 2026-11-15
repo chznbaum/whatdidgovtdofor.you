@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://medicareadvocacy.org/federal-court-orders-appeal-rights-on-observation-status-issue-for-certain-medicare-hospital-patients/
+portrait:
+  image: /portraits/alice-bers.webp
+  kind: photo
+  source:
+    label: Community Legal Aid, via the Greenfield Recorder
+    url: https://recorder.com/2025/11/26/medicare-legal-aid-massachusetts/
+    license: © holder, used as a drawing reference

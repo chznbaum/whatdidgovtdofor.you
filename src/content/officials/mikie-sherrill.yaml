@@ -6,3 +6,10 @@ jurisdiction: nj
 current: true
 seat: { place: nj, title: Governor }
 url: https://www.nj.gov/governor/
+portrait:
+  image: /portraits/mikie-sherrill.webp
+  kind: official
+  source:
+    label: Office of the Governor of New Jersey
+    url: https://www.nj.gov/governor/admin/about/index.shtml
+    license: "© State of New Jersey, used as a drawing reference"

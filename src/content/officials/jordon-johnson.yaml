@@ -5,3 +5,10 @@ level: local
 jurisdiction: duluth
 current: true
 url: https://duluthmn.gov/city-council/city-councilors/jordon-johnson/
+portrait:
+  image: /portraits/jordon-johnson.webp
+  kind: official
+  source:
+    label: City of Duluth
+    url: https://duluthmn.gov/city-council/city-councilors/jordon-johnson/
+    license: "© City of Duluth, used as a drawing reference"

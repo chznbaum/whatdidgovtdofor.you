@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: M001183 }
+portrait:
+  image: /portraits/joe-manchin.webp
+  kind: official
+  source:
+    label: United States Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Joe_Manchin_official_portrait_112th_Congress.jpg
+    license: Public domain

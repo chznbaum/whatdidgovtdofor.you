@@ -6,3 +6,10 @@ jurisdiction: chatham-county
 current: true
 seat: { place: chatham-county, title: Commission Chairman }
 url: https://ics.chathamcountyga.gov/Commission/Detail/Chairman
+portrait:
+  image: /portraits/chester-ellis.webp
+  kind: official
+  source:
+    label: Chatham County
+    url: https://www.chathamcountyga.gov/Commission/Detail/Chairman
+    license: "© Chatham County, used as a drawing reference"

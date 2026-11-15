@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: false
 url: https://www.nyc.gov/site/dss/about/leadership.page
+portrait:
+  image: /portraits/molly-wasow-park.webp
+  kind: official
+  source:
+    label: NYC Human Resources Administration
+    url: https://web.archive.org/web/20240621042130/https://www.nyc.gov/site/hra/about/meet-commissioner.page
+    license: "© City of New York, used as a drawing reference"

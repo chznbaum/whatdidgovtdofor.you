@@ -5,3 +5,10 @@ level: local
 jurisdiction: gwinnett-county
 current: true
 url: https://www.gwinnettcounty.com/departments/elections/electedofficials/boardofcommissioners
+portrait:
+  image: /portraits/ben-ku.webp
+  kind: photo
+  source:
+    label: Political Revolution
+    url: https://pol-rev.com/campaigns/ben-ku/
+    license: "© Ben Ku campaign / Political Revolution, used as a drawing reference"

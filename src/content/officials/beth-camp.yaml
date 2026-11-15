@@ -5,3 +5,10 @@ level: state
 jurisdiction: ga
 current: true
 url: https://www.legis.ga.gov/members/house
+portrait:
+  image: /portraits/beth-camp.webp
+  kind: photo
+  source:
+    label: Bethannecamp1, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Bethcamplr-1.jpg
+    license: CC BY-SA 4.0

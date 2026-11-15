@@ -6,3 +6,10 @@ jurisdiction: ga
 current: true
 seat: { place: ga, title: Governor, until: 2027-01-11 }
 url: https://gov.georgia.gov/about-us/about-governor-brian-p-kemp
+portrait:
+  image: /portraits/brian-kemp.webp
+  kind: official
+  source:
+    label: Office of the Governor of Georgia
+    url: https://gov.georgia.gov/about-us/about-governor-brian-p-kemp
+    license: "© State of Georgia, used as a drawing reference"

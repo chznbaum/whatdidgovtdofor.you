@@ -5,3 +5,10 @@ level: local
 jurisdiction: dekalb-county
 current: true
 url: https://dekalbcountyga.gov/government/board-of-commissioners/districts/chakira-johnson
+portrait:
+  image: /portraits/chakira-johnson.webp
+  kind: official
+  source:
+    label: DeKalb County
+    url: https://dekalbcountyga.gov/news/2025-04-10/dekalb-county-district-4-commissioner-chakira-johnson-host-community-connection
+    license: "© DeKalb County, used as a drawing reference"

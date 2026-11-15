@@ -5,3 +5,10 @@ level: local
 jurisdiction: duluth
 current: false
 url: https://duluth-mn.granicus.com/boards/w/1076c9db6be8c33e/members/402812
+portrait:
+  image: /portraits/noah-hobbs.webp
+  kind: photo
+  source:
+    label: Noah Hobbs campaign
+    url: https://web.archive.org/web/20200603203832/https://www.hobbsforduluth.com/about
+    license: "© Noah Hobbs campaign, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: virginia-beach
 current: true
 seat: { place: virginia-beach, title: Mayor }
 url: https://www.virginiabeach.gov
+portrait:
+  image: /portraits/bobby-dyer.webp
+  kind: official
+  source:
+    label: City of Virginia Beach
+    url: https://virginiabeach.gov/city-hall/mayors-office
+    license: "© City of Virginia Beach, used as a drawing reference"

@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: https://www.newarknj.gov/m/directory/employee?eid=83
+portrait:
+  image: /portraits/ketlen-baptiste-alsbrook.webp
+  kind: photo
+  source:
+    label: Rutgers REACH program
+    url: https://reach.rutgers.edu/sites/default/files/2025-03/Rutgers%20REACH%20Program%207.2.pdf
+    license: "© Ketlen Baptiste Alsbrook / photographer, used as a drawing reference"

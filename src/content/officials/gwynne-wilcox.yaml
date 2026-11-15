@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.nlrb.gov
+portrait:
+  image: /portraits/gwynne-wilcox.webp
+  kind: official
+  source:
+    label: National Labor Relations Board
+    url: https://www.nlrb.gov/bio/gwynne-a-wilcox
+    license: Public domain

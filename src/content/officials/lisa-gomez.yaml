@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.dol.gov/agencies/ebsa
+portrait:
+  image: /portraits/lisa-gomez.webp
+  kind: photo
+  source:
+    label: U.S. Department of Labor, via AICPA & CIMA Conferences
+    url: https://agenda.aicpastore.com/speakers/70656-lisa-gomez
+    license: Public domain (U.S. Department of Labor portrait)

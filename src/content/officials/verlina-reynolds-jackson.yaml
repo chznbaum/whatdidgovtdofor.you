@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/verlina-reynolds-jackson.webp
+  kind: photo
+  source:
+    label: Verlina Reynolds-Jackson for Congress
+    url: https://www.verlinaforcongress.com/media
+    license: "© Verlina Reynolds-Jackson for Congress, used as a drawing reference"

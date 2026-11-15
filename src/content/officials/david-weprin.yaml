@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/David-I-Weprin
+portrait:
+  image: /portraits/david-weprin.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/David-I-Weprin
+    license: "© New York State Assembly, used as a drawing reference"

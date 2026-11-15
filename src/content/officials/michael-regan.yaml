@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.epa.gov
+portrait:
+  image: /portraits/michael-regan.webp
+  kind: official
+  source:
+    label: U.S. Environmental Protection Agency, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Michael_S._Regan_official_photo.jpg
+    license: Public domain

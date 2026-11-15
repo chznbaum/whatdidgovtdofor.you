@@ -6,3 +6,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://rentguidelinesboard.cityofnewyork.us/about/board-staff/
+portrait:
+  image: /portraits/chantella-mitchell.webp
+  kind: photo
+  source:
+    label: The New York Community Trust
+    url: https://thenytrust.org/staff/chantella-mitchell/
+    license: "© The New York Community Trust, used as a drawing reference"

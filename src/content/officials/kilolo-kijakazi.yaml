@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.ssa.gov
+portrait:
+  image: /portraits/kilolo-kijakazi.webp
+  kind: photo
+  source:
+    label: Urban Institute
+    url: https://web.archive.org/web/20200512225746/https://www.urban.org/author/kilolo-kijakazi
+    license: © Urban Institute, used as a drawing reference

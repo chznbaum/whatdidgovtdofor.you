@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.nlrb.gov
+portrait:
+  image: /portraits/lauren-mcferran.webp
+  kind: official
+  source:
+    label: National Labor Relations Board, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Lauren_McFerran.jpg
+    license: Public domain

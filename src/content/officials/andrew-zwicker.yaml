@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/andrew-zwicker.webp
+  kind: official
+  source:
+    label: New Jersey Legislature
+    url: https://www.njleg.state.nj.us/legislative-roster/436/senator-zwicker
+    license: "© New Jersey Legislature, used as a drawing reference"

@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/roy-freiman.webp
+  kind: official
+  source:
+    label: New Jersey Department of Military and Veterans Affairs, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:New_Jersey_Department_of_Military_and_Veteran_Affairs_Legislative_Meet_and_Greet_Roy_Freiman_(cropped).jpg
+    license: Public domain

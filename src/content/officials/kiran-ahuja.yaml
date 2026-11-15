@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.opm.gov
+portrait:
+  image: /portraits/kiran-ahuja.webp
+  kind: official
+  source:
+    label: U.S. Office of Personnel Management, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Kiran-Ahuja-OPM.jpg
+    license: Public domain

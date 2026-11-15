@@ -4,4 +4,11 @@ office: Minnesota State Senator, District 41
 level: state
 jurisdiction: mn
 current: true
-url: https://www.senate.mn/members/member_bio.html?mem_id=1240
+url: https://www.senate.mn/members/member_bio.html?mem_id=1265
+portrait:
+  image: /portraits/judy-seeberger.webp
+  kind: official
+  source:
+    label: Minnesota Senate
+    url: https://www.mnsenate.gov/members/member_bio.html?mem_id=1265
+    license: "© Minnesota Senate, used as a drawing reference"

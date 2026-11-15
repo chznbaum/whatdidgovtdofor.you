@@ -6,3 +6,10 @@ level: local
 jurisdiction: twin-cities
 current: true
 url: https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Chair.aspx
+portrait:
+  image: /portraits/robin-hutcheson.webp
+  kind: official
+  source:
+    label: U.S. Department of Transportation, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Robin_Hutcheson,_FMCSA_Deputy_Administrator.png
+    license: "Public domain"

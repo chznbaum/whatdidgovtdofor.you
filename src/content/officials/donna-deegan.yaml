@@ -6,3 +6,10 @@ jurisdiction: jacksonville
 current: true
 seat: { place: jacksonville, title: Mayor }
 url: https://www.jacksonville.gov/mayor
+portrait:
+  image: /portraits/donna-deegan.webp
+  kind: photo
+  source:
+    label: Donna Deegan for Mayor
+    url: https://www.donnaformayor.com/
+    license: "© Donna Deegan campaign, used as a drawing reference"

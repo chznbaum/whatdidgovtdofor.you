@@ -4,3 +4,10 @@ office: Mayor Pro Tem and Alderwoman, Savannah City Council, 5th District
 level: local
 jurisdiction: savannah
 current: true
+portrait:
+  image: /portraits/estella-shabazz.webp
+  kind: official
+  source:
+    label: City of Savannah
+    url: https://www.savannahga.gov/3032/District-5
+    license: "© City of Savannah, used as a drawing reference"

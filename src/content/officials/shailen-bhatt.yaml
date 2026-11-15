@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://highways.dot.gov
+portrait:
+  image: /portraits/shailen-bhatt.webp
+  kind: official
+  source:
+    label: U.S. Department of Transportation, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Shailen_Bhatt,_FHWA_Administrator.jpg
+    license: Public domain

@@ -5,3 +5,10 @@ level: local
 jurisdiction: st-petersburg
 current: true
 url: https://www.stpete.org/government/mayor___city_council/city_council/district_4.php
+portrait:
+  image: /portraits/lisset-hanewicz.webp
+  kind: official
+  source:
+    label: City of St. Petersburg
+    url: https://www.stpete.org/government/mayor___city_council/city_council/index.php
+    license: "© City of St. Petersburg, used as a drawing reference"

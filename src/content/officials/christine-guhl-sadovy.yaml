@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: false
 url: https://www.nj.gov/bpu/about/commissioners/cguhlsadovy.html
+portrait:
+  image: /portraits/christine-guhl-sadovy.webp
+  kind: official
+  source:
+    label: New Jersey Board of Public Utilities
+    url: https://www.nj.gov/bpu/about/commissioners/cguhlsadovy.html
+    license: "© State of New Jersey, used as a drawing reference"

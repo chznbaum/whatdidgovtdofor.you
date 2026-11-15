@@ -5,3 +5,10 @@ level: local
 jurisdiction: gwinnett-county
 current: true
 url: https://www.gwinnettcounty.com/departments/elections/electedofficials/boardofcommissioners
+portrait:
+  image: /portraits/kirkland-carden.webp
+  kind: photo
+  source:
+    label: Kirkland Carden campaign
+    url: https://kirklandcarden.squarespace.com/
+    license: "© Kirkland Carden campaign, used as a drawing reference"

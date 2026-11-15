@@ -7,3 +7,10 @@ current: true
 # Newark's elections are nonpartisan: the ballot prints no party. Re-elected May 12, 2026, for July 2026 to June 2030.
 seat: { place: newark, title: Mayor }
 url: https://www.newarknj.gov/city-mayor
+portrait:
+  image: /portraits/ras-baraka.webp
+  kind: photo
+  source:
+    label: Montclair Film Festival, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Ras_J._Baraka.jpg
+    license: CC BY 2.0

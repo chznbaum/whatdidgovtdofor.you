@@ -5,3 +5,10 @@ level: local
 jurisdiction: nyc
 current: true
 url: https://www.nyc.gov/site/doh/about/about-doh/the-commissioner.page
+portrait:
+  image: /portraits/alister-martin.webp
+  kind: photo
+  source:
+    label: Vot-ER
+    url: https://vot-er.org/about/
+    license: "© Vot-ER, used as a drawing reference"

@@ -6,3 +6,10 @@ level: local
 jurisdiction: ramsey
 current: true
 url: https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/mai-chong-xiong-district-6-board-vice-chair
+portrait:
+  image: /portraits/mai-chong-xiong.webp
+  kind: photo
+  source:
+    label: Mai Chong Xiong campaign
+    url: https://directory.runforsomething.net/candidate/2483/xiong-mai-chong/
+    license: "© Mai Chong Xiong campaign, used as a drawing reference"
