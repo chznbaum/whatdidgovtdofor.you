@@ -80,7 +80,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: pass
-  notes: Confirmed the ordinance, grant agreement, appropriations, project figures, credits, and current procurement status. No repeal, cancellation, funding loss, contract award, or newer status update was found through Nov. 14, 2026.
+  notes: Confirmed the ordinance, grant agreement, appropriations, project figures, credits, and procurement status. No later contract award, cancellation, funding loss, or other status change was found through Nov. 14, 2026.
 source_key: richmond-ord-2025-223
 ---
 

@@ -1,41 +1,38 @@
 ---
-title: Seven Hampton homes that flood again and again are being raised
-dek: In April 2024, Hampton accepted $2.73 million from FEMA and Virginia to elevate seven homes that flood repeatedly. The city didn't have to put up any money of its own.
+title: Hampton set aside $2.73 million to raise flood-prone homes
+dek: In April 2024, Hampton accepted $2.73 million from FEMA and Virginia for a home-elevation project. The resolution's summary says seven homes, but its legal text says eight. No local match was required.
 level: local
 jurisdiction: hampton
 action:
   type: grant
-  name: City of Hampton Elevation Project, FEMA Hazard Mitigation Grant Program
+  name: City of Hampton Elevation Project
   identifier: Resolution 24-0158 (FEMA-DR-4512-DR-VA-0014)
   date: 2024-04-10
 topics:
   - storms
   - housing
   - safety
-who_benefits: The owners and residents of seven Hampton homes that flood repeatedly.
+who_benefits: The owners and residents of the flood-prone Hampton homes selected for the project.
 impact:
-  - figure: "7"
-    label: Hampton homes that flood repeatedly, to be raised above flood levels
   - figure: $2.73 million
-    label: total project budget, paid by FEMA ($2.47 million) and Virginia ($260,090)
+    label: initial budget for the Hampton home-elevation project
+  - figure: $2.47 million
+    label: FEMA share of the initial project budget
   - figure: $0
-    label: local match the city had to put up
+    label: local match required from the city
 status:
   state: phasing-in
-  as_of: 2025-02-03
-  note: Federal spending data last updated the subaward for Hampton's W. Gilbert Street elevation project on Feb. 3, 2025. We couldn't find a public completion record for the seven homes, so this remains phasing-in as of that latest project-specific record.
+  as_of: 2026-02-11
+  note: A federal spending record lists a City of Hampton DR-4512 elevation-project subaward dated Feb. 11, 2026. We found no public completion record, so the project remains phasing-in as of that record.
   source: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
 credit:
   - official: hampton-city-council
     role: voted-yes
-    note: Accepted and budgeted the grant on April 10, 2024, as part of its consent agenda
-  - official: joe-biden
-    role: issued
-    note: Authorized FEMA hazard mitigation funding for Virginia under disaster declaration DR-4512 on Aug. 5, 2021
+    note: Accepted and budgeted the grant on April 10, 2024
 sources:
   - title: Resolution 24-0158, accepting and appropriating the FEMA HMGP award for the City of Hampton Elevation Project
     publisher: City of Hampton (Legistar)
-    url: https://hampton.legistar.com/gateway.aspx?M=L&ID=12737
+    url: https://hampton.legistar.com/LegislationDetail.aspx?ID=6613351&GUID=1D3E20E1-1DF5-4762-B836-FA8C80C4AF2F
     date: 2024-04-10
   - title: Flood Mitigation and Home Elevation FAQ
     publisher: City of Hampton
@@ -44,9 +41,10 @@ sources:
     publisher: The White House, archived by The American Presidency Project
     url: https://www.presidency.ucsb.edu/documents/white-house-press-release-biden-administration-commits-historic-346-billion-hazard
     date: 2021-08-05
-  - title: Public Notice FEMA-4512-DR-VA
-    publisher: Federal Emergency Management Agency
-    url: https://www.fema.gov/disaster-federal-register-notice/public-notice-fema-4512-dr-va
+  - title: Project Grant 4512DRVAP00000005 and Hampton elevation-project subawards
+    publisher: GovTribe, using USAspending.gov data
+    url: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
+    date: 2026-02-11
 featured: false
 verification:
   writer:
@@ -58,12 +56,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the resolution, vote, grant amounts, FEMA funding, and Biden authorization. Clarified that this specific seven-home award is closed to new applicants and updated the status to the newest project-specific record found.
+  notes: Confirmed the grant authorization and amounts. Corrected the conflicting home count, homeowner-cost implication, presidential credit, and status using the newest project-specific spending record found.
 source_key: hampton-24-0158
 ---
 
-Hampton is using federal and state money to raise seven homes that flood again and again. Raising a house lifts its living space above expected flood water. That keeps the people inside safer and cuts down on repeated damage and flood insurance claims.
+Hampton accepted federal and state funding for a project to raise flood-prone homes above expected flood water. The council record is internally inconsistent: its staff summary says the goal is seven homes, while one clause in the adopted resolution says eight. Raising a house lifts its living space above expected flood levels, making residents safer and reducing repeated damage and flood insurance claims.
 
-The project costs $2,730,945. FEMA pays $2,470,855: $2,340,810 for the work itself and $130,045 to cover the city's cost of running the project. Virginia's Department of Emergency Management adds $260,090. The city didn't have to contribute any local money. Hampton applied for the competitive grant itself, so the homes covered are the ones the city put in its application. These seven homes were already selected through Hampton's application; this award is not open to new applicants.
+The initial project budget was $2,730,945. FEMA committed $2,470,855: $2,340,810 for the project and $130,045 for the city's management costs. Virginia's Department of Emergency Management added $260,090. The resolution required no local cash or in-kind match from the city. That does not mean participating homeowners face no costs: Hampton says they may still have to pay for pre-existing damage, some code-related work, and temporary relocation. The award covers properties Hampton had already included in its application, rather than opening a new application round.
 
-The money comes from FEMA's Hazard Mitigation Grant Program, which pays to lower the risk from future disasters after a federal disaster declaration. President Joe Biden opened that funding to all of Virginia under declaration DR-4512 in August 2021. The state then passed the award to Hampton, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024.
+The money comes from FEMA's Hazard Mitigation Grant Program. In August 2021, President Joe Biden approved nationwide mitigation funding tied to COVID-19 disaster declarations, including funding for Virginia under DR-4512. Hampton later received this specific award through Virginia, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024. A February 2026 federal spending entry shows continuing subaward activity, but we found no public record that the elevation work is finished.

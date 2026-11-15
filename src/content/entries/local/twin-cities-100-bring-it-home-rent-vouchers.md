@@ -21,9 +21,9 @@ impact:
     label: approximate share of income tenants pay toward rent and utilities
 status:
   state: phasing-in
-  as_of: 2026-09-02
-  note: The council approved the awards on Aug. 26. The latest public follow-up I could confirm, published Sept. 2, said the developments would receive the vouchers; Metro HRA's stated next steps were to check existing tenants, inspect units, and sign payment contracts.
-  source: https://finance-commerce.com/2026/09/five-metro-housing-projects-receive-rent-assistance-vouchers/
+  as_of: 2026-11-09
+  note: A Nov. 9 report said Metro HRA had housed eight families through Bring It Home overall, but it did not connect them to these five projects. No public source I found confirmed that contracts or assistance payments had begun for these 100 project-based vouchers.
+  source: https://www.startribune.com/housing-sales-tax-rent-voucher-construction-slow/601877093
 credit:
   - official: michael-howard
     role: secured-funding
@@ -63,6 +63,10 @@ sources:
     publisher: Finance & Commerce
     url: https://finance-commerce.com/2026/09/five-metro-housing-projects-receive-rent-assistance-vouchers/
     date: 2026-09-02
+  - title: Housing tax raises nearly half a billion, but little has reached renters
+    publisher: Minnesota Star Tribune
+    url: https://www.startribune.com/housing-sales-tax-rent-voucher-construction-slow/601877093
+    date: 2026-11-09
 verification:
   writer:
     model: claude-opus-5-5
@@ -72,8 +76,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: pass
-  notes: Confirmed the award, figures, eligibility rules, legislative funding and credit against the council records, current program pages and Minnesota law. No later rollback or project-specific rollout update was found, so the Sept. 2 phasing-in status remains supported.
+  verdict: corrected
+  notes: Confirmed the 100-voucher award, five developments, eligibility rules, tenant contribution, funding, and credits. Updated the rollout status with the newest reporting available.
 source_key: twin-cities-council-e745cd7b-3041-4fc6-b338-5b0982cd82e0-2026-156
 ---
 

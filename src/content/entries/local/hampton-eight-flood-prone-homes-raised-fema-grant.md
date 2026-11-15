@@ -66,8 +66,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: corrected
-  notes: Confirmed the grant amounts, eight-home scope, council vote, and separate seven-home award. Reworded ongoing-work claims because no public completion or cancellation report was found after the grant period ended.
+  verdict: pass
+  notes: Confirmed the eight-home scope, funding amounts, council action and vote, homeowner process and costs, and the separate seven-home award. No newer public completion, extension, cancellation, or repeal record was found.
 source_key: hampton-24-0053
 ---
 

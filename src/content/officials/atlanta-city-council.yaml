@@ -1,0 +1,7 @@
+name: Atlanta City Council
+kind: body
+office: City Council of Atlanta
+level: local
+jurisdiction: atlanta
+current: true
+url: https://citycouncil.atlantaga.gov

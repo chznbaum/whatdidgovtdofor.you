@@ -1,0 +1,8 @@
+name: Jerry Demings
+party: NP
+office: Mayor of Orange County, Florida
+level: local
+jurisdiction: orange-county-fl
+current: true
+seat: { place: orange-county-fl, title: Mayor }
+url: https://www.ocfl.net/YourGovernment/OrangeCountyMayor.aspx

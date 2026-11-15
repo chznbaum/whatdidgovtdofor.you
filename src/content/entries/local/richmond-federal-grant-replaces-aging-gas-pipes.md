@@ -64,7 +64,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: pass
-  notes: Confirmed the grant amount, mileage, ordinance adoption, service area, credit, funding source, and latest project-specific status. The grant remains active, and no later repeal, cancellation, or project-specific reversal was found.
+  notes: Confirmed the ordinance, grant amount, mileage, service area, funding source, credit, ratepayer claim, and current project status. The NGDISM program and Richmond award remain active, with no project-specific cancellation or reversal found.
 source_key: richmond-ord-2025-159
 ---
 

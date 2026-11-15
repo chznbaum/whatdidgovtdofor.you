@@ -68,8 +68,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: corrected
-  notes: Confirmed the ordinance, 8–0 adoption, grant math, 13-corridor scope, planned improvements, equity goal, and credits. Updated the status with newer city evidence and replaced the inaccessible Legistar gateway link.
+  verdict: pass
+  notes: Confirmed the ordinance, 8–0 adoption, grant and match amounts, 13-corridor scope, planned improvements, credits, and source URLs. The project remains active and phasing in; no later cancellation or rollback was found.
 source_key: richmond-ord-2024-278
 ---
 

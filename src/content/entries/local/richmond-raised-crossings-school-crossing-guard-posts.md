@@ -51,7 +51,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: pass
-  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, full federal reimbursement, and safety descriptions against the ordinance and VDOT guidance. The latest project-specific CTB record supports the scheduled status and $3,565,314 allocation; no later cancellation or completion record was found.
+  notes: Confirmed the scope, 8–0 adoption, mayoral patronage, full reimbursement, and safety descriptions against the cited Richmond ordinance, agreement, and VDOT guidance. The CTB record supports the scheduled status, and no later cancellation or completion record was found.
 source_key: richmond-ord-2024-289
 ---
 
