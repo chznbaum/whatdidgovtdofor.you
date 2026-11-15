@@ -144,6 +144,7 @@ Your job:
    - Every number, vote tally, and status claim must come from a source you opened, and that source must be in the entry.
    - Check the CURRENT status as of today, not just the enactment news.
    - Use existing official ids where they match. ${OFFICIALS_RULE}
+   - When a council, board, commission, or agency acted, credit the people in it before the body, as the guide's "A body is made of people" says: whoever a source says brought it, the head who issued it, or else the chair or presiding officer on the action's date. A mover or seconder alone isn't credit.
    - Set verification to: writer: { model: ${model}, via: ${via}, date: ${today()} } and verdict: pending.
    - Set source_key: ${(candidate as any).key ?? 'a stable id for the action'}.
    - The slug is lowercase kebab-case describing the impact. Prefix state and local slugs with the place (ny-, nyc-, va-, norfolk-, …).
@@ -296,8 +297,9 @@ Check every factual claim using web search and the cited sources:
 - impact figures: each one appears in a source or follows from one arithmetically?
 - action: name, identifier, and dates correct?
 - credit: did each person really play that role, and is their party right? Is the order right: the legislators who wrote, carried, or championed it first; an executive first only with a sourced \`proposed\`, \`negotiated\`, or \`issued\`; \`signed\` last? Is anyone a source names as doing the work missing?
+- credit for a body: if a council, board, commission, or agency is credited, are the people in it credited before it, as the guide's "A body is made of people" says (whoever a source says brought it, the head who issued it, or else the chair or presiding officer on the action's date)? Is each the person who held the post on that date, not today? A mover or seconder is credited only when a source says they brought the item. Let a body lead only if you searched and no one in it can be named.
 - net impact: does it pass the guide's "Count what it cost" test from working people's point of view? If it's a tax change, does the body say how it was paid for? Fail it if it's a sweetener in a law that cuts services, relief that mostly goes to owners, or public housing redevelopment.
-- votes: totals and party breakdowns match the official roll call exactly?
+- votes: totals and party breakdowns match the official roll call exactly? If the record names how each member of a small body voted, are they all in \`members\`?
 - status: correct as of today? Search specifically for repeal, expiration, court blocks, funding cuts, or extensions since enactment.
 - sources: do the URLs exist, and do they support what they're cited for?
 - guide compliance: impact-first headline, plain language, no editorializing about parties.

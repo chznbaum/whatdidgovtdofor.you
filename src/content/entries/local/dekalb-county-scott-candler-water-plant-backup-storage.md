@@ -22,7 +22,7 @@ status:
   note: The Board of Commissioners approved the contract with Ruby-Collins, Inc. on Aug. 25, 2026. On Nov. 5, a committee recommended hiring a separate construction manager for the project; the clearwells and pump station still have to be built and commissioned, so the added storage isn't in service yet.
   source: https://dekalbcountyga.legistar.com/LegislationDetail.aspx?GUID=A10BE31C-AA41-48BD-A936-85D66A0065AE&ID=8260926&Options=&Search=
 credit:
-  - official: dekalb-board-of-commissioners
+  - official: dekalb-county-board-of-commissioners
     role: voted-yes
     note: Approved the contract 7–0
   - official: robert-patrick

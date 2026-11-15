@@ -4,6 +4,7 @@
 import type { APIRoute } from 'astro';
 import { getEntry } from 'astro:content';
 import { getEntries, getLead } from '../../lib/data.ts';
+import { fitName } from '../../lib/fit.ts';
 import { ROLE_BYLINE, initials, nameWithParty } from '../../lib/format.ts';
 import { ORANGE, h, img, portraitUri, render, type Node } from '../../lib/og.ts';
 
@@ -19,7 +20,9 @@ export const GET: APIRoute = async () => {
   if (person.data.portrait) {
     art = img(await portraitUri(person.data.portrait.image, 590), { position: 'absolute', left: 610, top: 40, width: 590, height: 590 });
   } else if (person.data.kind === 'body') {
-    art = h({ position: 'absolute', left: 780, top: 150, width: 380, fontFamily: 'Young Serif', fontSize: 70, lineHeight: 0.95, letterSpacing: -2 }, person.data.name);
+    // Above the band, which starts at 476.
+    const size = fitName(person.data.name, { width: 380, height: 310, max: 70, lineHeight: 0.95, tracking: -0.029 });
+    art = h({ position: 'absolute', left: 780, top: 150, width: 380, fontFamily: 'Young Serif', fontSize: size, lineHeight: 0.95, letterSpacing: size * -0.029 }, person.data.name);
   } else {
     art = h({ position: 'absolute', right: 40, top: 150, fontFamily: 'Young Serif', fontSize: 260, lineHeight: 1, letterSpacing: -9 }, initials(person.data.name));
   }

@@ -332,8 +332,9 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
     aspect-ratio: auto;
     width: 100%;
   }
+  /* A body's name across the column, shrunk only when its longest word wouldn't fit (--word: see Face). */
   [data-art='body'] .art :global(.type span) {
-    font-size: 15cqw;
+    font-size: min(15cqw, 97cqw / var(--word));
     padding: 0 0 1.25rem;
   }
   /* Initials stand in for a face: set big, but only as tall as the letters. */
@@ -638,7 +639,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
       margin: auto 3rem 0 0;
     }
     [data-art='body'] .art :global(.type span) {
-      font-size: 11cqw;
+      font-size: min(11cqw, 97cqw / var(--word));
       padding-bottom: 2.5rem;
     }
     [data-art='duo'] .art {

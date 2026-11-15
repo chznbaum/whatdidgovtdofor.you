@@ -3,6 +3,7 @@
 import type { APIRoute } from 'astro';
 import { getEntry } from 'astro:content';
 import { entrySlug, getEntries, type Entry } from '../../lib/data.ts';
+import { fitName } from '../../lib/fit.ts';
 import { ROLE_BYLINE, coverCredits, initials, nameWithParty } from '../../lib/format.ts';
 import { ORANGE, h, img, markUri, portraitUri, render, type Node } from '../../lib/og.ts';
 import { MARK, statusText } from '../../lib/status.ts';
@@ -26,7 +27,8 @@ export const GET: APIRoute = async ({ props }) => {
   if (key.data.portrait) {
     art = img(await portraitUri(key.data.portrait.image, 560), { width: 560, height: 560, position: 'absolute', right: -40, bottom: -40 });
   } else if (key.data.kind === 'body') {
-    art = h({ position: 'absolute', right: 40, bottom: 70, width: 400, fontFamily: 'Young Serif', fontSize: 78, lineHeight: 0.95, letterSpacing: -2 }, key.data.name);
+    const size = fitName(key.data.name, { width: 400, height: 500, max: 78, lineHeight: 0.95, tracking: -0.026 });
+    art = h({ position: 'absolute', right: 40, bottom: 70, width: 400, fontFamily: 'Young Serif', fontSize: size, lineHeight: 0.95, letterSpacing: size * -0.026 }, key.data.name);
   } else {
     art = h({ position: 'absolute', right: 40, bottom: -36, fontFamily: 'Young Serif', fontSize: 300, lineHeight: 1, letterSpacing: -10 }, initials(key.data.name));
   }

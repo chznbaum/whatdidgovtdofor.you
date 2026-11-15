@@ -97,9 +97,17 @@ The people (or bodies) who made it happen, each with a `role`:
 
 **People who hold no office** can be credited when a source names them as championing the specific action, for example a First Lady or a named advocate who pushed it through. Use `championed`. List them after the officials who carried it but before the signer. Create their file with the office line describing who they are (`office: First Lady of the United States`), with `current` as appropriate.
 
+**A body is made of people: credit them.** When a council, board, commission, or agency acted, credit the people in it who carried the action, as we do for members of Congress. A face readers can hold responsible does more for them than a group's name. Credit whoever held the post on the date of the action, not whoever holds it today: chairs rotate and members leave, and a former official keeps the office they held then, with `current: false`. In this order:
+
+1. **Whoever a source says brought it:** the sponsor or patron, the member who asked for it, or the member who championed it (often the one whose district it serves). Use `sponsored`, `proposed`, or `championed`. A Legistar sponsor field or the member's own announcement is a source.
+2. **For a rule, order, or decision an agency or appointed board issued:** the head who issued it (the administrator, commissioner, director, or chair who signed or adopted it), with `issued`. The head answers for what the agency does.
+3. **For a council or board vote where no source names who brought it:** the chair or presiding officer at the time (the chair, the president, or a mayor who presides over the council), with `led` and a note, e.g. "Chaired the board that approved it on Nov. 10, 2026".
+
+The body itself comes after its people, usually as `voted-yes`. Moving or seconding a motion isn't credit on its own, because one motion often passes a whole consent agenda; credit a mover only when a source says they brought the item. A body leads only when no one in it can be named, e.g. a union or advocacy group that won a case, or a board whose record and coverage name nobody.
+
 At minimum, credit the lead sponsors (or, for an executive action, whoever issued it). An entry whose only credit is the signer isn't finished: find out who carried it. Add others when a source names their role. Don't list every yes vote here; that's what `votes` is for. `note` is optional context ("Carried the bill for six sessions", "Lead Senate negotiator").
 
-Each `official` is an id that must exist in `src/content/officials/{id}.yaml`. Create the file if it's missing (see Officials below). A collective body like `norfolk-city-council` or `nyc-rent-guidelines-board` is a valid official with `kind: body`.
+Each `official` is an id that must exist in `src/content/officials/{id}.yaml`. Create the file if it's missing (see Officials below). A collective body like `norfolk-city-council` or `nyc-rent-guidelines-board` is a valid official with `kind: body`, credited after the people in it (above).
 
 ### `votes` (optional, strongly encouraged for legislation)
 One item per final-passage vote:
@@ -112,7 +120,7 @@ votes:
     by_party: { D: { yes: 220, no: 0 }, R: { yes: 0, no: 207 } }
     source: https://clerk.house.gov/Votes/2022420
 ```
-Use the official roll call (clerk.house.gov, senate.gov, LIS, nysenate.gov, legistar) as the source. Party breakdowns must match it exactly. For a small body like a city council, use `members` instead of (or as well as) `by_party`.
+Use the official roll call (clerk.house.gov, senate.gov, LIS, nysenate.gov, legistar) as the source. Party breakdowns must match it exactly. For a small body like a city council, use `members` instead of (or as well as) `by_party`. When the minutes name how each member voted (a roll call such as "5-0 (Miller, Carroll, Ingle, Schneider, Hylton)"), list every member in `members`: that's who sat on the body that day. Don't fill in names the record doesn't give; "Unanimous (8-0)" alone gets the tally only.
 
 ### `sources` (1 or more; aim for 2–4)
 Prefer primary sources: the law text, an agency page, the official roll call, a government press release. Add one reputable news or nonpartisan analysis source (CBO, KFF, CRS, Tax Policy Center, a major paper) when it helps a reader trust the numbers. Every number and status claim must trace to something here.
