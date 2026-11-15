@@ -68,5 +68,12 @@
   "title": "Virginia's state grocery tax is gone; only a 1% local tax remains",
   "reason": "Fails the net-impact test (owner's call after GPT verification): the state never replaced the transportation revenue it cut, a recurring loss (about $741M over six years), and groceries bought with SNAP or WIC were already exempt, so the lowest-income shoppers got nothing.",
   "date": "2026-11-11"
+ },
+ {
+  "slug": "richmond-128-lower-rent-senior-apartments-walmsley",
+  "source_key": "richmond-ord-2024-164",
+  "title": "Richmond is backing 128 lower-rent senior apartments on Walmsley Boulevard",
+  "reason": "Tied to the wrong ordinance: ORD. 2024-164 is Walmsley Gardens' 216 family apartments; the 128 senior apartments are ORD. 2024-165, already covered by richmond-128-lower-rent-senior-apartments-walmsley-boulevard.",
+  "date": "2026-11-14"
  }
 ]

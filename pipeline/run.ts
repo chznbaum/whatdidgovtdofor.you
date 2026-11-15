@@ -331,8 +331,9 @@ async function draft({ limit, writer, concurrency, keys }: { limit: number; writ
 async function verify({ limit, stale, concurrency, files }: { limit: number; stale?: number; concurrency: number; files: string[] }) {
   const cutoff = stale ? Date.now() - stale * 86_400_000 : undefined;
   const all = files.length ? await Promise.all(files.map(async (f) => ({ file: join(ROOT, f), ...(await readMarkdown(join(ROOT, f))) }))) : await existingEntries();
+  // A failed entry is hidden and its status date never moves, so the stale re-check skips it (name its file to re-check).
   const todo = all
-    .filter((e) => files.length || e.data.verification?.verdict === 'pending' || (cutoff && new Date(e.data.status?.as_of).getTime() < cutoff))
+    .filter((e) => files.length || e.data.verification?.verdict === 'pending' || (cutoff && e.data.verification?.verdict !== 'fail' && new Date(e.data.status?.as_of).getTime() < cutoff))
     .slice(0, limit);
   console.log(`verify: ${todo.length} entries`);
   const candidates = new Map((await readJson<any[]>(CANDIDATES, [])).map((c) => [c.key, c]));
