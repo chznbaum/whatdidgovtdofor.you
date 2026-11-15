@@ -13,7 +13,7 @@ topics:
   - health
   - seniors
   - costs
-who_benefits: Original Medicare patients reclassified from inpatient to outpatient observation who either lack Part B or stayed at least three consecutive days but were inpatients for fewer than three; CMS estimated 15,655 notices a year but said that likely overstates eligibility.
+who_benefits: Original Medicare patients formally admitted as inpatients and reclassified to outpatient observation who either lack Part B or stay at least three consecutive hospital days but fewer than three as inpatients; for past-stay appeals, Part B patients also had to enter a skilled nursing facility within 30 days.
 impact:
   - figure: 15,655
     label: annual notices CMS estimated, while warning this likely overstates eligibility
@@ -23,9 +23,12 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
+  - official: alice-bers
+    role: championed
+    note: Lead attorney for the national class in Alexander v. Azar
   - official: center-for-medicare-advocacy
     role: championed
-    note: Represented the national class in Alexander v. Azar, the lawsuit that won the appeal right
+    note: Served as lead counsel for the national class in Alexander v. Azar
   - official: justice-in-aging
     role: championed
     note: Represented the national class in Alexander v. Azar
@@ -46,9 +49,10 @@ sources:
   - title: Hospital Appeals - Change of Inpatient Status (Alexander v Azar)
     publisher: Centers for Medicare & Medicaid Services
     url: https://www.cms.gov/medicare/appeals-grievances/original-medicare-appeals/hospital-appeals-change-inpatient-status-alexander-v-azar
-  - title: Original Medicare (Fee-for-service) Appeals
-    publisher: Centers for Medicare & Medicaid Services
-    url: https://www.cms.gov/medicare/appeals-grievances/fee-for-service
+  - title: Federal Court Orders Appeal Rights on “Observation Status” Issue for Certain Medicare Hospital Patients
+    publisher: Center for Medicare Advocacy
+    url: https://medicareadvocacy.org/federal-court-orders-appeal-rights-on-observation-status-issue-for-certain-medicare-hospital-patients/
+    date: 2020-03-24
   - title: Alexander v. Azar litigation
     publisher: Justice in Aging
     url: https://justiceinaging.org/alexander-v-azar-litigation/
@@ -62,14 +66,14 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the appeal remains in effect and both CMS estimates trace to the final rule. Corrected eligibility, coverage and refund language, and added the omitted third class counsel.
+  notes: Confirmed the appeal right remains in effect and verified the dates, estimates, coverage effects, court history, and class counsel. Clarified retrospective eligibility, restored the named lead attorney’s credit, and shortened the body to the required length.
 source_key: us-fr-2024-23195
 ---
 
-A hospital can admit a Medicare patient, then reclassify them as an outpatient “under observation.” Without Part B, Medicare may not cover the stay. Part A generally covers skilled nursing facility care only after a qualifying hospital stay with at least three inpatient days.
+Hospitals sometimes admit Medicare patients, then reclassify them as outpatients under observation. That can leave people without Part B owing for the stay and can prevent Part A coverage of skilled nursing care, which generally requires three inpatient days.
 
-To get a fast appeal, you must have Original Medicare and be reclassified after a formal inpatient admission while still in the hospital. You must also either lack Part B or have spent at least three consecutive days in the hospital but fewer than three as an inpatient. The hospital must give you written notice as soon as you qualify and no later than four hours before you leave. A quality review organization decides whether the admission met Part A rules. If it says the switch was wrong, Part A can cover the hospital stay, and you may qualify for skilled nursing facility coverage within 30 days if other rules are met. Medicare Advantage plans aren't included.
+For a fast appeal, you need Original Medicare, a formal inpatient admission, and reclassification before leaving the hospital. You must lack Part B or spend three consecutive days in the hospital but fewer than three as an inpatient. The hospital must give notice as soon as you qualify and at least four hours before you leave. A quality review organization decides whether the admission met Part A rules. A favorable decision can restore Part A hospital coverage and, if other rules are met, skilled nursing coverage within 30 days. Medicare Advantage is excluded.
 
-A separate appeal window covered past stays from January 1, 2009, through February 13, 2025. It closed January 2, 2026, though a late request may still be accepted if the person shows good cause, such as a serious illness that prevented filing on time.
+A separate process covered stays from January 1, 2009, through February 13, 2025. Part B patients also had to enter a skilled nursing facility within 30 days; patients without Part B did not. The deadline was January 2, 2026. Late requests may still be accepted for good cause, such as serious illness.
 
-The right came from years of litigation, not Congress. The Center for Medicare Advocacy, Justice in Aging, and Wilson Sonsini Goodrich & Rosati represented a national class of patients in Alexander v. Azar. A federal court ruled for the patients in 2020, and an appeals court upheld that ruling in 2022. CMS Administrator Chiquita Brooks-LaSure issued the rule to carry out the court's order.
+The right came from litigation. Lead attorney Alice Bers and the Center for Medicare Advocacy, with Justice in Aging and Wilson Sonsini Goodrich & Rosati, represented the class in Alexander v. Azar. A federal court ruled for the patients in 2020, and an appeals court upheld that ruling in 2022. CMS Administrator Chiquita Brooks-LaSure issued the rule to carry out the court's order.

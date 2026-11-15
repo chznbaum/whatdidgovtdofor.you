@@ -23,12 +23,15 @@ impact:
     label: clinics and community groups funded to provide 13 services
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   source: https://www.hennepincounty.gov/services/assistance/health-care/information-for-ryan-white-hiv-service-providers
 credit:
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that accepted the full grant on July 14, 2026; the resolution designates the chair as the grant's chief elected official.
   - official: hennepin-county-board
-    role: implemented
-    note: Accepted the grant. Its chair serves as the grant's chief elected official and appoints members of the community council; Hennepin County Public Health administers the grant.
+    role: voted-yes
+    note: Accepted the grant.
 sources:
   - title: Resolution 26-0223, Agreement A2513067 with HRSA for the Ryan White HIV/AIDS Program Part A grant
     publisher: Hennepin County Board of Commissioners
@@ -48,9 +51,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the award, service period, provider and client counts, board approval, eligibility process, and current status. Tightened eligibility and administration claims and replaced an unavailable source URL.
+  notes: Confirmed the grant amount, term, beneficiaries, services, eligibility process, approval history, and current operation against Hennepin County records. Added the board chair required by the individual-credit rule and updated the status check date.
 source_key: hennepin-26-0223
 ---
 

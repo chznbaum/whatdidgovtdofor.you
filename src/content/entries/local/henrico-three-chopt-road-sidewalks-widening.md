@@ -21,15 +21,18 @@ impact:
     label: approximate share of the contract paid with federal money
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The contract was awarded Oct. 27, 2026. Utility relocation is underway, and Henrico says construction is anticipated to begin in the fourth quarter of 2026 and finish in 2029.
   source: https://henrico.gov/projects/three-chopt-road-improvement/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the board that approved Resolution 229-26 on Oct. 27, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
     note: Awarded the $45.5 million contract to Shirley Contracting Co. on Oct. 27, 2026
 sources:
-  - title: "Board of Supervisors meeting recap for Oct. 27: Board reviews proposed regulations for sale of recreational marijuana, awards construction contract for Three Chopt Road improvements"
+  - title: "Board of Supervisors meeting recap for Oct. 27: Board approves regulations for sale of recreational marijuana, awards construction contract for Three Chopt Road improvements"
     publisher: Henrico County
     url: https://henrico.gov/news/2026/10/board-of-supervisors-meeting-recap-for-oct-27-board-approves-regulations-for-sale-of-recreational-marijuana-awards-construction-contract-for-three-chopt-road-improvements/
     date: 2026-10-28
@@ -53,9 +56,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract, scope, funding, resolution and current status. Corrected the action metadata and source date, and removed claims that conflated this project with separate safety work near Tuckahoe Middle School.
+  notes: Confirmed the contract amount, project scope, federal share, resolution, schedule and current status. Added the board chair required by the credit rules and corrected stale metadata.
 source_key: henrico-news-181689-approved-45-5m-three-chopt-road-contract-with-shirley-contra
 ---
 
@@ -63,4 +66,4 @@ A busy stretch of Three Chopt Road in western Henrico will be rebuilt. The work 
 
 You don't need to do anything to benefit. The sidewalks will give people a dedicated place to walk along the rebuilt road. Expect delays during construction: the county says crews will have to rebuild the road while it continues to carry heavy traffic.
 
-Henrico held public meetings on the project in 2015 and 2016. The Henrico Board of Supervisors awarded the $45.5 million construction contract to Shirley Contracting Co. through Resolution 229-26 on Oct. 27, 2026. Public Works Director Terrell Hughes presented the project. According to local reporting, federal money covers about $34 million of the contract. As of Nov. 13, utility relocation was underway, and the county anticipated construction would begin in the fourth quarter of 2026 and finish in 2029.
+Henrico held public meetings on the project in 2015 and 2016. The Henrico Board of Supervisors awarded the $45.5 million construction contract to Shirley Contracting Co. through Resolution 229-26 on Oct. 27, 2026. Public Works Director Terrell Hughes presented the project. According to local reporting, federal money covers about $34 million of the contract. As of Nov. 14, utility relocation was underway, and the county anticipated construction would begin in the fourth quarter of 2026 and finish in 2029.

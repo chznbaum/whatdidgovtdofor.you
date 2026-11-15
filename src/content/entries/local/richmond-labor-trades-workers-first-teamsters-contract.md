@@ -58,9 +58,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: corrected
-  notes: Confirmed the ordinance, 8–0 adoption, fiscal estimate, credits, and signed agreement. Corrected the 611 figure from union membership to representation and refreshed the status through the contract’s June 2028 term.
+    date: 2026-11-14
+  verdict: pass
+  notes: Confirmed the ordinance, unanimous 8–0 approval, contract terms, $11.38 million estimate, 611-worker figure, credits, and current status through June 2028.
 source_key: richmond-ord-2025-070
 ---
 

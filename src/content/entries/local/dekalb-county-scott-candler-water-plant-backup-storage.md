@@ -1,6 +1,6 @@
 ---
 title: DeKalb's only water plant is getting 20 million gallons of backup storage
-dek: DeKalb County approved $233.8 million to replace a failure-prone part of the Scott Candler Water Treatment Plant. The work adds two 10-million-gallon tanks of treated water and a new pump station so the water supply can withstand breakdowns.
+dek: DeKalb County approved a contract of up to $233.8 million to replace a failure-prone part of the Scott Candler Water Treatment Plant. The work adds two 10-million-gallon tanks of treated water and a new pump station so the water supply can withstand breakdowns.
 level: local
 jurisdiction: dekalb-county
 action:
@@ -22,20 +22,32 @@ status:
   note: The Board of Commissioners approved the contract with Ruby-Collins, Inc. on Aug. 25, 2026. On Nov. 5, a committee recommended hiring a separate construction manager for the project; the clearwells and pump station still have to be built and commissioned, so the added storage isn't in service yet.
   source: https://dekalbcountyga.legistar.com/LegislationDetail.aspx?GUID=A10BE31C-AA41-48BD-A936-85D66A0065AE&ID=8260926&Options=&Search=
 credit:
+  - official: reginald-wells
+    role: proposed
+    note: Led the Department of Watershed Management and presented the contract to the Public Works and Infrastructure Committee
   - official: dekalb-county-board-of-commissioners
     role: voted-yes
     note: Approved the contract 7–0
-  - official: robert-patrick
-    role: voted-yes
-    note: Moved approval; represents District 1, where the plant is located
-  - official: ted-terry
-    role: voted-yes
-    note: Seconded the motion, and in committee moved to recommend approval
 votes:
   - chamber: DeKalb County Board of Commissioners
     date: 2026-08-25
     yes: 7
     no: 0
+    members:
+      - official: robert-patrick
+        vote: yes
+      - official: michelle-long-spears
+        vote: yes
+      - official: nicole-massiah
+        vote: yes
+      - official: chakira-johnson
+        vote: yes
+      - official: mereda-davis-johnson
+        vote: yes
+      - official: ted-terry
+        vote: yes
+      - official: ladena-bolton
+        vote: yes
     source: https://webapi.legistar.com/v1/dekalbcountyga/eventitems/162932/votes
 sources:
   - title: "File 2026-0854: Design Build Services for Scott Candler Water Treatment Plant Demolition and New Clearwells and High Service Pump Station"
@@ -46,6 +58,13 @@ sources:
     publisher: DeKalb County Board of Commissioners (Legistar)
     url: https://webapi.legistar.com/v1/dekalbcountyga/matters/17326/histories
     date: 2026-08-25
+  - title: DeKalb County Public Works and Infrastructure Committee meeting, Aug. 18, 2026
+    publisher: OpenPublica
+    url: https://www.openpublica.com/meetings/dekalbcounty-georgia-board-of-commissioners-committees-2026-08-18-6a853620fef2c30b1d31e7db
+    date: 2026-08-18
+  - title: Watershed Management
+    publisher: DeKalb County
+    url: https://dekalbcountyga.gov/departments/watershed-management
   - title: Roll call, File 2026-0854, Aug. 25, 2026
     publisher: DeKalb County Board of Commissioners (Legistar)
     url: https://webapi.legistar.com/v1/dekalbcountyga/eventitems/162932/votes
@@ -77,7 +96,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract scope, $233.8 million ceiling, unanimous vote, credited commissioners, and active project status. Added the material customer-rate financing and newer evidence that construction remains pending.
+  notes: Confirmed the contract ceiling, two 10-million-gallon clearwells, unanimous vote, customer-rate financing, and active preconstruction status. Corrected the personal credit and added every commissioner named in the roll call.
 source_key: dekalb-county-2026-0854
 ---
 
@@ -87,4 +106,4 @@ This contract tears out that filter plant and builds a new pump station that sen
 
 Customers help pay for this work. It is part of a capital plan funded with water and sewer charges, bonds, loans and system cash; commissioners approved 10% yearly water and sewer rate increases through 2034 to support the plan and system operations.
 
-County commissioners held the item twice over the summer before approving it. Commissioner Ted Terry moved to recommend it in committee, and on Aug. 25, 2026 Commissioner Robert Patrick, whose district includes the plant, moved to approve it. The full board voted 7–0 to hire Ruby-Collins, Inc., the top-scoring of two bidders, to design and build the project for up to $233.8 million. The work is still ahead, so the new storage isn't in service yet.
+Watershed Management Director Reginald Wells presented the contract to commissioners. They held it twice over the summer before the Public Works and Infrastructure Committee recommended approval. On Aug. 25, 2026, the full board voted 7–0 to hire Ruby-Collins, Inc., the top-scoring of two bidders, to design and build the project for up to $233.8 million. The work is still ahead, so the new storage isn't in service yet.

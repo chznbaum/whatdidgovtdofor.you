@@ -22,10 +22,13 @@ impact:
     label: width of the new lighted shared-use path on the east side
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: Construction was underway by Oct. 28, 2026, when Henrico held a groundbreaking. The widening is set to finish in 2028; the sidewalk and path are not open yet.
   source: https://henrico.gov/news/2026/10/henrico-breaks-ground-on-road-improvement-water-transmission-line-projects/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the Board of Supervisors when it awarded the construction contract on July 28, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
     note: Awarded the $40.3 million contract to Abernathy Construction Corp. on July 28, 2026
@@ -34,9 +37,14 @@ sources:
     publisher: Henrico County
     url: https://henrico.gov/news/2026/07/board-of-supervisors-meeting-recap-board-adopts-henriconext-plan-capping-years-of-work-public-engagement/
     date: 2026-07-30
+  - title: Board of Supervisors regular meeting minutes - July 28, 2026
+    publisher: Henrico County
+    url: https://henrico.gov/pdfs/manager/meetings2026/072826regmins.PDF
+    date: 2026-07-28
   - title: ITB No. 25-2876-9JL - Richmond Henrico Turnpike Improvements
-    publisher: HigherGov (Henrico County solicitation)
-    url: https://www.highergov.com/sl/contract-opportunity/va-itb-no-25-2876-9jl-richmond-henrico-t-66220974/
+    publisher: Henrico County (hosted by GovTribe)
+    url: https://govtribe.com/file/government-file/itb-notice-dot-pdf-98
+    date: 2026-01-23
   - title: Henrico begins work on two major infrastructure projects
     publisher: WWBT 12 On Your Side
     url: https://www.12onyourside.com/2026/10/28/henrico-begins-work-two-major-infrastructure-projects/
@@ -58,9 +66,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract award, project scope, funding history, board vote and current construction status. Corrected the official action identifier and the inaccurate description of when construction began.
+  notes: Confirmed the contract, dimensions, funding history, board action, and construction status. Added the board chair before the body, repaired the solicitation citation, added the official meeting record, and updated the status check date.
 source_key: henrico-news-176564-board-awards-40-3m-richmond-henrico-turnpike-contract
 ---
 

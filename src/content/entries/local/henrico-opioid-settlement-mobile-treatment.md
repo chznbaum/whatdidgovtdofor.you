@@ -23,13 +23,19 @@ impact:
     label: prevention, treatment, and recovery programs the money supports
 status:
   state: phasing-in
-  as_of: 2026-11-12
+  as_of: 2026-11-14
   note: The county had received the funding and was hiring the four new mobile-unit staff as of Nov. 9, 2026, so the longer van hours and the new programs were still starting up.
   source: https://www.12onyourside.com/2026/11/09/henrico-county-uses-opioid-lawsuit-funds-expand-addiction-treatment/
 credit:
+  - official: leslie-stephen
+    role: led
+    note: Vice-chaired the task force that planned the 13 programs
   - official: empower-henrico-task-force
     role: proposed
     note: Planned the 13 programs and presented the plan to Henrico's Board of Supervisors
+  - official: todd-pillion
+    role: issued
+    note: Chaired the authority when its Grants Committee approved the fiscal 2027 awards
   - official: virginia-opioid-abatement-authority
     role: issued
     note: Approved the fiscal 2027 grants and carryforward funding on June 15, 2026
@@ -50,6 +56,9 @@ sources:
     publisher: Virginia Opioid Abatement Authority
     url: https://www.oaa.virginia.gov/news-and-updates/releases/name-1119686-en.html
     date: 2026-06-16
+  - title: Empower Henrico Task Force
+    publisher: Henrico County
+    url: https://recovery.henrico.gov/addiction-task-force/
   - title: Herring's bill to fund opioid treatment and recovery signed into law
     publisher: Office of the Attorney General of Virginia
     url: https://www.oag.state.va.us/consumer-protection/index.php/news/469-april-1-2021-herring-s-bill-to-fund-opioid-treatment-and-recovery-signed-into-law
@@ -62,9 +71,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-12
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the funding, 13 programs, expanded van hours, and rollout status. Corrected the award date and credit roles, and removed an unsupported claim about advance signup.
+  notes: Confirmed the funding, 13 programs, expanded van hours, June 15 award date, and current rollout status. Added the named leaders required before the two credited bodies and updated the status check to today.
 source_key: henrico-news-181799
 ---
 

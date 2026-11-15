@@ -23,10 +23,13 @@ impact:
     label: how long each funded property must stay affordable
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The board committed the money on Aug. 4, 2026, and authorized the county manager to enter the necessary loan or other agreements. The state sent its first 2026 aid payment on July 20, 2026, and the second is due Dec. 20, 2026.
   source: https://ramseycountymn.legistar.com/LegislationDetail.aspx?GUID=EF964971-C71D-408A-94F5-0164357B5E9F&ID=8156292&Options=&Search=
 credit:
+  - official: josh-olson
+    role: proposed
+    note: Led the Community & Economic Development department, which sponsored and recommended the awards
   - official: ramsey-county-board
     role: voted-yes
     note: Approved the awards 6–0 on a motion by Commissioner Rena Moran, seconded by Commissioner Kelly Miller
@@ -39,6 +42,21 @@ votes:
       NP:
         yes: 6
         no: 0
+    members:
+      - official: tara-jebens-singh
+        vote: yes
+      - official: mary-jo-mcguire
+        vote: yes
+      - official: garrison-mcmurtrey
+        vote: absent
+      - official: rena-moran
+        vote: yes
+      - official: rafael-ortega
+        vote: yes
+      - official: mai-chong-xiong
+        vote: yes
+      - official: kelly-miller
+        vote: yes
     source: https://ramseycountymn.legistar.com/View.ashx?M=F&ID=15748147&GUID=965145B7-64BF-401E-8A99-B9914F93DF6E
 sources:
   - title: "File 2026-268: Obligation of 2026 Local Affordable Housing Aid for Housing Development Projects"
@@ -52,6 +70,9 @@ sources:
   - title: Board of Commissioners
     publisher: Ramsey County
     url: https://www.ramseycountymn.gov/your-government/leadership/board-commissioners
+  - title: "2026–2027 proposed biennial budget: Community & Economic Development"
+    publisher: Ramsey County
+    url: https://assets.ramseycountymn.gov/files/2025-09/Ramsey%20County%20Biennial%20Budget%20Book%20-%202026-2027%20Proposed%20-%20Final%20Sept%202025.pdf
 featured: false
 verification:
   writer:
@@ -61,9 +82,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the $8.194 million obligation, ten projects, 30-year affordability term, project awards, and 6–0 vote. Removed unsupported claims that every project was already under construction or renovation and replaced stale Legistar links.
+  notes: Confirmed the $8.194 million commitment, projects, affordability term, funding schedule, and 6–0 vote. Added the department head responsible for the proposal, the complete roll call, and today’s status date.
 source_key: ramsey-2026-268
 ---
 

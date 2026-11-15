@@ -29,6 +29,9 @@ status:
   note: The council approved the awards on Oct. 1, 2026. Each award depends on loan agreements and performance deadlines. Construction is scheduled to start between January 2027 and January 2028 and to finish between January 2028 and April 2029.
   source: https://www.stpete.org/Government/Agendas%20and%20Documents/Council%20Minutes%20&%20Action%20Taken/2026/2026-10-01%20Numbered-Action%20Taken%20Agenda.pdf?t=202610021520370
 credit:
+  - official: lisset-hanewicz
+    role: led
+    note: Chaired the council that approved the awards on Oct. 1, 2026.
   - official: st-petersburg-city-council
     role: voted-yes
     note: Approved all six awards 5–0. Councilmember Gerdes moved the resolution and Councilmember Figgs-Sanders seconded it.
@@ -41,6 +44,23 @@ votes:
       NP:
         yes: 5
         no: 0
+    members:
+      - official: copley-gerdes
+        vote: yes
+      - official: brandi-gabbard
+        vote: absent
+      - official: mike-harting
+        vote: yes
+      - official: lisset-hanewicz
+        vote: yes
+      - official: deborah-figgs-sanders
+        vote: yes
+      - official: gina-driscoll
+        vote: absent
+      - official: corey-givens
+        vote: abstain
+      - official: richie-floyd
+        vote: yes
     source: https://www.stpete.org/Government/Agendas%20and%20Documents/Council%20Minutes%20&%20Action%20Taken/2026/2026-10-01%20Numbered-Action%20Taken%20Agenda.pdf?t=202610021520370
 sources:
   - title: Numbered/Action Taken Agenda, Oct. 1, 2026 (Resolution 2026-435)
@@ -69,7 +89,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the award, unit counts, affordability terms, income limits, project schedules, funding origin, and 5–0 vote. Removed unsupported personal credit and tightened the leasing and status language.
+  notes: Confirmed the award, affordability terms, unit counts, funding source, construction schedule, and current status. Added the council chair and complete roll-call record, and corrected “34 developers” to “34 applications.”
 source_key: st-petersburg-council-2026-10-01-numbered-action-taken-agenda-pdf-t-202610021520370-resolution-2026-435
 ---
 
@@ -77,4 +97,4 @@ St. Petersburg is putting $40.85 million in federal disaster recovery money into
 
 The apartments are not available yet. Renters will have to meet each building's income limits when leasing begins. Construction is scheduled to finish between January 2028 and April 2029.
 
-The money comes from HUD's Community Development Block Grant Disaster Recovery program. Congress funded it after Hurricanes Idalia and Helene, and St. Petersburg's share is about $159.8 million. The city set aside $48 million for affordable rentals and ran a competition: 34 developers asked for about $246.7 million, and six were chosen. The City Council approved the awards 5–0 on Oct. 1, 2026.
+The money comes from HUD's Community Development Block Grant Disaster Recovery program. Congress funded it after Hurricanes Idalia and Helene, and St. Petersburg's share is about $159.8 million. The city set aside $48 million for affordable rentals and ran a competition: 34 applications sought about $246.7 million, and six were chosen. The City Council approved the awards 5–0 on Oct. 1, 2026.

@@ -18,18 +18,32 @@ impact:
     label: size of the new station, replacing an 8,000-square-foot building from the 1930s
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Board of Supervisors awarded the construction contract to Branch Builds, Inc. on Aug. 26, 2026. The new station hasn't been built yet, and crews still work from the old building.
   source: https://content.govdelivery.com/accounts/VACHESTERFIELDCO/bulletins/427da30
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that approved the construction contract on Aug. 26, 2026
   - official: chesterfield-board-of-supervisors
-    role: secured-funding
-    note: Approved the contract 5–0; the project was part of the board's 2022 bond plan that voters approved
+    role: voted-yes
+    note: Approved the construction contract 5–0
 votes:
   - chamber: Chesterfield County Board of Supervisors
     date: 2026-08-26
     yes: 5
     no: 0
+    members:
+      - official: mark-miller
+        vote: yes
+      - official: kevin-carroll
+        vote: yes
+      - official: james-ingle
+        vote: yes
+      - official: jessica-schneider
+        vote: yes
+      - official: lequan-hylton
+        vote: yes
     source: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5321,plainText=false)
 sources:
   - title: Board of Supervisors Meeting, August 26, 2026 minutes
@@ -51,9 +65,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
-  verdict: pass
-  notes: Confirmed the contract award, contractor, station dimensions and age, bond funding, 5–0 vote, and current project status. The cited official sources support the entry’s claims.
+    date: 2026-11-14
+  verdict: corrected
+  notes: Confirmed the contract, dimensions, old station’s age, bond funding, vote, and current status. Corrected the person-first attribution and added the five named voters from the official minutes.
 source_key: chesterfield-council-2029-authorized-11-15m-contract-for-ettrick-fire-station-no-12-re
 ---
 
@@ -61,4 +75,4 @@ Ettrick is getting a new fire and EMS station. Chesterfield County hired Branch 
 
 You don't need to do anything to benefit. If you live, work or drive through Ettrick and call 911 for a fire or a medical emergency, crews from this station are among those who respond. The new building is still to be built, and crews keep working from the old station until it's done.
 
-The money comes from the $540 million bond package Chesterfield voters approved on Nov. 8, 2022. That plan set aside $12.3 million to replace the Ettrick fire and EMS station. On Aug. 26, 2026, the Board of Supervisors voted 5–0 to award the contract. They also let the county's procurement director approve any change orders, as long as the project stays within that budget.
+The money comes from the $540 million bond package Chesterfield voters approved on Nov. 8, 2022. That plan set aside $12.3 million to replace the Ettrick fire and EMS station. On Aug. 26, 2026, the Board of Supervisors, chaired by Mark Miller, voted 5–0 to award the contract. They also let the county's procurement director approve any change orders, as long as the project stays within that budget.

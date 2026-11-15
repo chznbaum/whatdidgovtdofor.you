@@ -23,6 +23,9 @@ status:
   note: Approved by the Poquoson City Council on Aug. 10, 2026. Eligibility required employees to remain employed through Sept. 8, but we could not confirm when the bonuses were paid.
   source: https://www.poquoson-va.gov/AgendaCenter/ViewFile/Minutes/_08102026-461
 credit:
+  - official: david-hux
+    role: led
+    note: Presided over the council that approved the bonus and moved its adoption
   - official: poquoson-city-council
     role: voted-yes
     note: Approved the bonus appropriation 7-0 on a motion by Mayor Hux, seconded by Councilman Southall
@@ -31,6 +34,21 @@ votes:
     date: 2026-08-10
     yes: 7
     no: 0
+    members:
+      - official: jeanne-hubbard
+        vote: yes
+      - official: charles-southall
+        vote: yes
+      - official: carey-freeman
+        vote: yes
+      - official: anjie-emmett
+        vote: yes
+      - official: keith-feigh
+        vote: yes
+      - official: debra-bunting
+        vote: yes
+      - official: david-hux
+        vote: yes
     source: https://www.poquoson-va.gov/AgendaCenter/ViewFile/Minutes/_08102026-461
 sources:
   - title: City Council Work and Regular Sessions 8-10-26 minutes
@@ -47,8 +65,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: pass
-  notes: Confirmed the amounts, eligibility rules, carryover funding, ordinance name, action date, and 7–0 vote against the [official minutes](https://www.poquoson-va.gov/AgendaCenter/ViewFile/Minutes/_08102026-461). Later council records through Nov. 9 show no cancellation or confirmed payment, so the cautious status is supported.
+  verdict: corrected
+  notes: Confirmed the bonus amounts, eligibility rules, carryover funding, ordinance date, and 7–0 vote against the official minutes. Added the presiding mayor before the council in credit and recorded every named voter.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 

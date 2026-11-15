@@ -23,24 +23,37 @@ impact:
     label: state grant covering the required local match
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: Construction began Aug. 18, 2026. The work pauses for winter and resumes in April 2027. The city expects the project to be substantially complete in December 2027.
   source: https://duluthmn.gov/parks/parks-trails/current-projects/lakewalk-coastal-improvements/
 credit:
-  - official: duluth-city-council
-    role: secured-funding
-    note: Authorized the grant applications in 2023 and accepted the federal grant in July 2026
+  - official: noah-hobbs
+    role: sponsored
+    note: Brought the council resolution authorizing the federal grant application in February 2023
   - official: amy-klobuchar
     role: secured-funding
     note: Helped secure the award and announced it in Duluth in July 2023
+  - official: pete-buttigieg
+    role: issued
+    note: Led the U.S. Department of Transportation when it awarded the 2023 RAISE grant
   - official: us-department-of-transportation
     role: implemented
     note: Awarded the RAISE grant
+  - official: lynn-marie-nephew
+    role: led
+    note: Chaired the council that accepted the federal grant on July 27, 2026
+  - official: duluth-city-council
+    role: voted-yes
+    note: Authorized the federal grant application in 2023 and accepted the grant in July 2026
 sources:
   - title: Resolution 26-0666R, authorizing acceptance of a U.S. Department of Transportation grant for the Lakewalk and Coastal Improvements Project
     publisher: Duluth City Council
     url: https://duluth-mn.legistar.com/LegislationDetail.aspx?GUID=AA03B568-F222-4E32-8143-0C0CB51452D7&ID=8139468&Options=&Search=
     date: 2026-07-27
+  - title: City Council meeting agenda, February 27, 2023
+    publisher: Duluth City Council
+    url: https://duluth-mn.legistar.com/View.ashx?GUID=7A425190-CB77-4ACB-9A86-4243298C9692&ID=1063820&M=A
+    date: 2023-02-27
   - title: Lakewalk & Coastal Improvements
     publisher: City of Duluth
     url: https://duluthmn.gov/parks/parks-trails/current-projects/lakewalk-coastal-improvements/
@@ -49,6 +62,14 @@ sources:
     publisher: City of Duluth
     url: https://duluthmn.gov/web-subscriptions/View-press-release/?prid=8499
     date: 2026-08-17
+  - title: RAISE 2023 Awards Announced!
+    publisher: U.S. Department of Transportation
+    url: https://content.govdelivery.com/accounts/USDOT/bulletins/3627dc3
+    date: 2023-06-28
+  - title: Duluth City Council elects 2026 leadership at first meeting of the year
+    publisher: City of Duluth
+    url: https://duluthmn.gov/web-subscriptions/View-press-release/?prid=8278
+    date: 2026-01-14
   - title: Sen. Amy Klobuchar makes Duluth visit touting $8 million Lakewalk improvement funding
     publisher: KEYC News Now
     url: https://www.keyc.com/2023/07/05/sen-klobuchar-makes-duluth-visit-touting-8-million-lakewalk-improvement-funding/
@@ -65,9 +86,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amounts, council actions, project scope, construction schedule, and current status. Corrected unsupported credit, two source URLs, the official action name, and the status date.
+  notes: Confirmed the funding, scope, construction schedule, and current status. Corrected the credit chain to name the officials responsible for the council and USDOT actions.
 source_key: duluth-26-0666r
 ---
 

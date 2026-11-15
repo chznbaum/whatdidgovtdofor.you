@@ -1,11 +1,11 @@
 ---
-title: A planned Parkview park would absorb stormwater and add public green space
+title: A planned Parkview park would capture stormwater and add public green space
 dek: In October 2026, Portsmouth City Council accepted a $128,000 state land-conservation grant to acquire a parcel and permanently protect it alongside nearby city land for a planned stormwater park and living shoreline. The project is intended to reduce localized flooding.
 level: local
 jurisdiction: portsmouth
 action:
   type: grant
-  name: Ordinance accepting an Open Space Lands Preservation Trust Fund grant from the Virginia Outdoors Foundation
+  name: Adoption of an ordinance accepting an Open Space Lands Preservation Trust Fund grant in the amount of $128,000 from the Virginia Outdoors Foundation and appropriating said amount in the FY 2027 Grants Fund for use in furtherance of the creation of a living shoreline and stormwater park
   identifier: 26-233k
   date: 2026-10-13
 topics:
@@ -18,13 +18,19 @@ impact:
     label: state grant for the Parkview living shoreline and stormwater park
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The council accepted and appropriated the grant on Oct. 13, 2026. VOF's award materials describe a proposed land acquisition and improvements; available sources do not show the acquisition or construction completed.
   source: https://content.civicplus.com/api/assets/va-portsmouth/1b233375-de5f-425e-bc75-934bec58be91
 credit:
+  - official: shannon-glover
+    role: led
+    note: Presided over the council that accepted and appropriated the grant 7–0 on Oct. 13, 2026
   - official: portsmouth-city-council
     role: voted-yes
     note: Accepted the grant and set aside the money for the project, 7–0
+  - official: sissy-crowther
+    role: issued
+    note: Chaired the Virginia Outdoors Foundation board when it unanimously approved the $128,000 award on June 12, 2025
   - official: virginia-outdoors-foundation
     role: secured-funding
     note: Awarded the $128,000 grant from its Preservation Trust Fund in June 2025
@@ -43,6 +49,10 @@ sources:
     publisher: City of Portsmouth
     url: https://content.civicplus.com/api/assets/va-portsmouth/1b233375-de5f-425e-bc75-934bec58be91
     date: 2026-10-13
+  - title: June 12, 2025 Board of Trustees meeting minutes
+    publisher: Virginia Outdoors Foundation
+    url: https://townhall.virginia.gov/l/GetFile.cfm?File=meeting%5C139%5C41461%5CMinutes_DCR_41461_v2.pdf
+    date: 2025-06-12
   - title: VOF announces $2.8 million for open-space projects
     publisher: Virginia Outdoors Foundation
     url: https://www.vof.org/2025/06/12/vof-announces-2-8-million-for-open-space-projects/
@@ -51,6 +61,9 @@ sources:
     publisher: Virginia Outdoors Foundation
     url: https://www.vof.org/wp-content/uploads/2025/06/J_Eastern-Region-Land-Conservation-Projects-.pdf
     date: 2025-06-12
+  - title: Charter of the City of Portsmouth
+    publisher: Virginia Legislative Information System
+    url: https://law.lis.virginia.gov/charters/portsmouth/
 verification:
   writer:
     model: claude-opus-5-5
@@ -59,9 +72,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, unanimous vote, $128,000 award, project design, and current status. Clarified that the grant funds land acquisition and permanent protection—not construction—and made the prospective benefits appropriately conditional.
+  notes: Confirmed the grant, project scope, unanimous votes, and unfinished status. Added the named officials who led the two bodies and tightened claims to the sources’ wording.
 source_key: portsmouth-council-2520654d-96b4-45bb-b154-43ac1f70d4c1-26-233k
 ---
 
@@ -69,4 +82,4 @@ Portsmouth plans a small stormwater park in the Parkview neighborhood on a 0.35-
 
 You don't need to sign up for anything. The intended benefits for Parkview residents are less localized flooding and a public green space where people can walk.
 
-The money comes from the Virginia Outdoors Foundation's Open-Space Lands Preservation Trust Fund, a state program that pays to acquire and permanently protect land. The $128,000 grant is for the fee-simple acquisition of one parcel; the nearby city-owned parcel would also be dedicated as open space. In June 2025, the foundation awarded Portsmouth the grant as one of 17 open-space awards that year. On October 13, 2026, Portsmouth City Council voted 7–0 to accept the grant and appropriate it in the city's fiscal 2027 Grants Fund.
+The money comes from the Virginia Outdoors Foundation's Open-Space Lands Preservation Trust Fund, a state program that pays to acquire and permanently protect land. On June 12, 2025, the foundation's Board of Trustees, chaired by Elizabeth “Sissy” Crowther, unanimously approved the $128,000 award as one of 17 open-space grants that round. The grant is for the fee-simple acquisition of one parcel; the nearby city-owned parcel would also be dedicated as open space. On October 13, 2026, Mayor Shannon Glover presided when Portsmouth City Council voted 7–0 to accept the grant and appropriate it in the city's fiscal 2027 Grants Fund.

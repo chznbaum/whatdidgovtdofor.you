@@ -22,8 +22,11 @@ impact:
     label: total under the agreement approved in October 2024
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that adopted the amendment on June 11, 2026
   - official: hennepin-county-board
     role: voted-yes
     note: Adopted the amendment on consent June 11, 2026, after the Human Services Committee approved it
@@ -36,6 +39,10 @@ sources:
     publisher: Hennepin County Board of Commissioners (Legistar web API)
     url: https://webapi.legistar.com/v1/hennepinmn/matters/4546/texts/4581
     date: 2026-06-11
+  - title: June 11, 2026 final Hennepin County Board agenda
+    publisher: Hennepin County Board of Commissioners
+    url: https://hennepinmn.legistar.com/View.ashx?GUID=CCC03054-363B-49A3-8F50-9D30E773A028&ID=1420531&M=A
+    date: 2026-06-11
 verification:
   writer:
     model: claude-opus-5-5
@@ -44,9 +51,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the resolution, amounts, dates, board approval, providers, and current status. Corrected the respite facility’s operator and two unsupported statements about the funding and agreement timeline.
+  notes: Confirmed the grant amount, agreement total, dates, providers, board approval, funding source, and current operation. Added the board chair required by the body-credit rule and updated the status check date.
 source_key: hennepin-26-0201
 ---
 

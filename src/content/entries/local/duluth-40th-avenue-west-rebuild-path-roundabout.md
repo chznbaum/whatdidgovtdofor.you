@@ -22,13 +22,19 @@ impact:
     label: length of 40th Avenue West being rebuilt
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The county announced that phase one, from 8th Street to the railroad tracks, was nearly complete and that the road would reopen Oct. 23, 2026. Phase two starts in spring 2027 and covers the rest of the road, the mini roundabout at Grand Avenue and more city utility work. The county expects the Grand Avenue intersection to reopen by late August 2027.
   source: https://content.govdelivery.com/accounts/MNSTLOUIS/bulletins/4301810
 credit:
-  - official: st-louis-county-board
+  - official: mike-jugovich
     role: led
-    note: The county owns the road (CSAH 91), runs the project and awarded the contract to Ulland Brothers, the lowest of four bidders
+    note: Chaired the county board when it approved advance-construction funding for the county-led project in June 2026
+  - official: st-louis-county-board
+    role: voted-yes
+    note: Approved advance-construction funding for the county-led project before St. Louis County awarded the contract
+  - official: lynn-marie-nephew
+    role: led
+    note: Presided over the Duluth City Council's 9–0 consent-agenda vote
   - official: duluth-city-council
     role: voted-yes
     note: Concurred with the county's award and approved the city's $2,502,524.32 share by a 9–0 vote on its consent agenda
@@ -41,6 +47,10 @@ sources:
     publisher: City of Duluth (Legistar)
     url: https://webapi.legistar.com/v1/duluth-mn/events/3124/eventitems?AgendaNote=1&MinutesNote=1
     date: 2026-07-27
+  - title: Advance Construction Agreement for the CSAH 91 reconstruction project
+    publisher: St. Louis County Board of Commissioners
+    url: https://www.stlouiscountymn.gov/Portals/0/Library/Dept/Auditor/County-Board/2026-06-02%20Consent%20Agenda.pdf?ver=K8QMYEbFnXAzP6GTdHI7rg%3D%3D
+    date: 2026-06-02
   - title: 40th Ave W (CSAH 91) Reconstruction
     publisher: St. Louis County
     url: https://engage.stlouiscountymn.gov/40th-ave-west-reconstruction
@@ -60,9 +70,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the project scope, funding, unanimous city vote, construction schedule and current status. Corrected the official action name and credited the county-led work ahead of the city’s concurrence vote.
+  notes: Confirmed the project scope, funding, schedule, status, and 9–0 city vote. Added the named presiding officials required for each credited body and narrowed the county board’s role to what its records establish.
 source_key: duluth-26-0674r
 ---
 
@@ -70,4 +80,4 @@ The pavement, curbs and traffic signal on 40th Avenue West are worn out, so St. 
 
 Duluth is replacing its own utilities under the street during the same work. That share comes from the city's water fund, its street improvement sales tax and its stormwater fund. The state's Public Facilities Authority reimburses part of it for replacing lead water service lines. Nobody needs to apply for anything, and the county kept access open for people who live on the street during construction.
 
-The street is a county road, so the county board awarded the contract to Ulland Brothers, the lowest of four bidders. On July 27, 2026, the Duluth City Council voted 9–0 to approve the city's share of $2,502,524.32. Work began in August and was split into two seasons. The first stretch reopened in October, and the roundabout and remaining road follow in 2027.
+The street is a county road, so St. Louis County led the project and awarded the contract to Ulland Brothers, the lowest of four bidders. County Board Chair Mike Jugovich led the board when it approved advance-construction funding in June 2026. Duluth City Council President Lynn Marie Nephew led the council's July 27 meeting, where the council voted 9–0 to approve the city's share of $2,502,524.32. Work began in August and was split into two seasons. The first stretch reopened in October, and the roundabout and remaining road follow in 2027.

@@ -20,8 +20,11 @@ impact:
     label: year Chesterfield's jail became one of Virginia's first mental health pilots
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that approved acceptance of the FY2027 grant on August 26, 2026
   - official: chesterfield-board-of-supervisors
     role: voted-yes
     note: Authorized the county administrator to accept and appropriate the FY2027 grant funds
@@ -30,6 +33,10 @@ sources:
     publisher: Chesterfield County Board of Supervisors
     url: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5321,plainText=false)
     date: 2026-08-26
+  - title: Miller, Carroll elected to serve as Board of Supervisors chair, vice chair for 2026
+    publisher: Chesterfield County
+    url: https://www.chesterfield.gov/m/NewsFlash/Home/Detail/6938
+    date: 2026-01-07
   - title: Board of Supervisors Roundup
     publisher: Chesterfield County
     url: https://www.chesterfield.gov/m/newsflash/home/detail/6387
@@ -49,9 +56,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the FY2027 grant acceptance, program services, 2016 pilot history, prior-year amount and current status. Narrowed claims about credit, voting, enrollment and planned FY2026 spending to what the cited sources establish.
+  notes: Confirmed the grant acceptance, prior-year amount, program services, pilot history, and current status. Added the required chair credit and refreshed the status check.
 source_key: chesterfield-council-2029-accepted-state-grant-funds-for-jail-mental-health-programs
 ---
 

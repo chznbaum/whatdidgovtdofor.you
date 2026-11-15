@@ -16,11 +16,11 @@ impact:
     label: additional document types listed in the rules for IDNYC applications
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
-  - official: nyc-hra
+  - official: molly-wasow-park
     role: issued
-    note: Adopted the rule after a public hearing on March 28, 2025
+    note: DSS commissioner overseeing HRA when the agency adopted the rule
 sources:
   - title: IDNYC Expansion of Eligible Documents
     publisher: NYC Rules
@@ -33,6 +33,10 @@ sources:
     publisher: NYC Department of Citywide Administrative Services
     url: https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/2025/cityrecord-07-11-25.pdf
     date: 2025-07-11
+  - title: IDNYC Quarterly Report, Second Quarter 2025
+    publisher: NYC Human Resources Administration
+    url: https://www.nyc.gov/assets/idnyc/downloads/pdf/LL-35-of-2014-IDNYC-Q2-2025-Quarterly-Report-Final.pdf
+    date: 2025-07-14
   - title: IDNYC Frequently Asked Questions
     publisher: City of New York
     url: https://www.nyc.gov/site/idnyc/frequently-asked-questions/frequently-asked-questions.page
@@ -44,9 +48,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the 23-document expansion, application rules, credit, benefits, and current status. Corrected the adoption date, removed a stale enrollment figure, and clarified that some document practices predated their addition to the formal rules.
+  notes: Confirmed the 23-document expansion, effective date, eligibility rules, benefits, and current status against NYC’s rule and current guidance. Corrected the credit to name the commissioner overseeing HRA when it adopted the rule and updated the status check date.
 source_key: nyc-rule-idnyc-expansion-of-eligible-documents
 ---
 
@@ -54,4 +58,4 @@ IDNYC is New York City's free photo ID. It works as a library card, gets you int
 
 The changes are meant for people who have trouble getting standard ID. The city named people who are unhoused, people coming out of jail or prison, and asylum seekers in city shelters. Some of these documents count for only a point. For example, a Department of Correction photo record must be paired with other papers to reach the three identity points you need. You still apply in person at an IDNYC enrollment site, and the card is free for anyone who applies through December 31, 2026.
 
-The city's Human Resources Administration, which runs IDNYC, wrote the rule. It drew on two years of experience and suggestions from applicants, advocates, enrollment staff and City Council members. The rule also put earlier program practices into the rules, such as accepting a letter for HRA clients who lack photo ID.
+HRA adopted the rule while Molly Wasow Park was the DSS commissioner overseeing the agency. It drew on two years of experience and suggestions from applicants, advocates, enrollment staff and City Council members. The rule also put earlier program practices into the rules, such as accepting a letter for HRA clients who lack photo ID.

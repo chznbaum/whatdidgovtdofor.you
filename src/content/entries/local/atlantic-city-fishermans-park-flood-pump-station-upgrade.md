@@ -25,6 +25,12 @@ status:
   note: Atlantic City Council awarded the construction contract on Oct. 28, 2026; the benefit will arrive as the upgrades are built.
   source: https://www.acnj.gov/_Content/pdf/minutes/2026-10-28-Council-Minutes.pdf
 credit:
+  - official: cory-booker
+    role: secured-funding
+    note: Secured the $4 million EDA grant shared by this project and inlet retrofits
+  - official: aaron-randolph
+    role: led
+    note: Chaired the council that approved Resolution 632 on Oct. 28, 2026
   - official: atlantic-city-council
     role: voted-yes
     note: Approved Resolution 632 awarding the $1,954,300 construction contract
@@ -43,6 +49,9 @@ sources:
   - title: Atlantic City Harbor Strategic Resilience Plan and Development Scenarios
     publisher: Resilient New Jersey
     url: https://resilientnj-accr.com/pdfs/230807_AC_Harbor_Resilience_Plan_final.pdf
+  - title: Council President & 1st Ward Councilman Aaron Randolph
+    publisher: City of Atlantic City
+    url: https://www.acnj.gov/Officials/Bio/council-president-and-1st-ward-councilman-aaron-randolph
 featured: false
 verification:
   writer:
@@ -54,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the council award and EDA grant. Corrected the affected area, funding description, flood-protection wording, status note, and an unusable grant source.
+  notes: Confirmed the contract award, project scope, grant, local match, affected area, and current status. Added the officials whose documented roles were missing.
 source_key: atlantic-city-council-619-resolution-632
 ---
 

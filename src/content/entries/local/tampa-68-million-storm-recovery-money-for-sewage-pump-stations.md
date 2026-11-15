@@ -23,18 +23,18 @@ status:
   note: The City Council approved the agreement on Oct. 15, 2026, and the Hillsborough County board approved Tampa's $73.9 million three-project award on Nov. 10. The $68.04 million wastewater share is paid as cost reimbursement, and no completion was reported by Nov. 14.
   source: https://hcfl.gov/newsroom/2026/11/12/board-of-county-commissioners-regular-meeting-recap-for-nov-10-2026
 credit:
+  - official: alan-clendenin
+    role: led
+    note: Chaired the council that approved Resolution 2026-879 on Oct. 15, 2026
   - official: tampa-city-council
     role: voted-yes
     note: Approved the city's disaster recovery project list and the $68.04 million agreement unanimously
+  - official: ken-hagan
+    role: led
+    note: Chaired the county board that approved Tampa's $73.9 million three-project award on Nov. 10, 2026
   - official: hillsborough-county-board-of-county-commissioners
     role: voted-yes
     note: Approved $73.9 million for three Tampa infrastructure projects, including wastewater pump station improvements
-  - official: naya-young
-    role: voted-yes
-    note: Moved the resolution
-  - official: luis-viera
-    role: voted-yes
-    note: Seconded the resolution
 votes:
   - chamber: Tampa City Council
     date: 2026-10-15
@@ -54,6 +54,9 @@ sources:
     publisher: Hillsborough County
     url: https://hcfl.gov/newsroom/2026/11/12/board-of-county-commissioners-regular-meeting-recap-for-nov-10-2026
     date: 2026-11-12
+  - title: Board of County Commissioners
+    publisher: Hillsborough County
+    url: https://hcfl.gov/government/board-of-county-commissioners
   - title: Hillsborough using federal grant money to protect against future flooding
     publisher: Hillsborough County
     url: https://hcfl.gov/newsroom/2026/04/01/hillsborough-using-federal-grant-money-to-protect-against-future-flooding
@@ -77,7 +80,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the $68.04 million agreement, 228-station figure, 5–0 vote, federal funding source, and current rollout status. Updated the county board’s role and added its subsequent funding approval as the latest status evidence.
+  notes: Confirmed the $68.04 million agreement, federal funding, 228-station figure, 5–0 city vote, and Nov. 10 county approval. Corrected the credits so each approving body follows its presiding officer and procedural movers are not treated as project sponsors.
 source_key: tampa-council-2936-resolution-2026-879
 ---
 
@@ -85,4 +88,4 @@ Tampa's sewer system depends on pump stations that push wastewater toward the tr
 
 The money comes from a $709 million Community Development Block Grant for Disaster Recovery that the U.S. Department of Housing and Urban Development awarded Hillsborough County after Hurricanes Helene and Milton hit in 2024. The county runs the grant's infrastructure program together with Tampa, Plant City and Temple Terrace, and about half of the grant goes to repairing storm damage to pump stations, lift stations, culverts and channels, and to making them stronger against future storms. The city is paid back as it spends on the work.
 
-On Oct. 15, 2026, the Tampa City Council approved the city's disaster recovery project list and then this agreement with the county. Council member Naya Young moved the resolution and Luis Viera seconded it. It passed 5–0, with Lynn Hurtak and Bill Carlson absent. The same night the council approved two smaller agreements from the same grant, for fire station and police facility upgrades.
+On Oct. 15, 2026, the Tampa City Council, chaired by Alan Clendenin, approved the city's disaster recovery project list and then this agreement with the county. It passed 5–0, with Lynn Hurtak and Bill Carlson absent. On Nov. 10, the Hillsborough County board, chaired by Ken Hagan, approved $73.9 million for the three Tampa projects. The two smaller agreements cover fire station and police facility upgrades.

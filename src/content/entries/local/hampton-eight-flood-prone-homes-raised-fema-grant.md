@@ -27,6 +27,9 @@ status:
   note: The council accepted the grant on Feb. 28, 2024, and the award period stated in the resolution ran through May 10, 2025. We couldn't find a public completion, extension, or cancellation report, so this is the latest confirmed state, not a claim that construction remains underway.
   source: https://hampton.legistar.com/LegislationDetail.aspx?GUID=506756B0-3C51-4219-95A9-42F8EE8316EC&ID=6553921&Options=&Search=
 credit:
+  - official: donnie-tuck
+    role: led
+    note: Presided over the council meeting that accepted and appropriated the award
   - official: hampton-city-council
     role: voted-yes
     note: Accepted and appropriated the grant 7–0 after the city applied for it
@@ -39,6 +42,21 @@ votes:
       NP:
         yes: 7
         no: 0
+    members:
+      - official: chris-bowman
+        vote: yes
+      - official: steven-brown
+        vote: yes
+      - official: jimmy-gray
+        vote: yes
+      - official: hope-harper
+        vote: yes
+      - official: billy-hobbs
+        vote: yes
+      - official: martha-mugler
+        vote: yes
+      - official: donnie-tuck
+        vote: yes
     source: https://hampton.legistar.com/View.ashx?GUID=64C52075-B788-426F-9CC2-009028C349F8&ID=1160634&M=M
 sources:
   - title: FEMA Hazard Mitigation Grant Program DR-4602 award, File 24-0053
@@ -66,8 +84,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-14
-  verdict: pass
-  notes: Confirmed the eight-home scope, funding amounts, council action and vote, homeowner process and costs, and the separate seven-home award. No newer public completion, extension, cancellation, or repeal record was found.
+  verdict: corrected
+  notes: Confirmed the grant scope, funding arithmetic, homeowner process, council vote, separate seven-home award, and latest publicly documented status. Added the 2024 presiding mayor and the seven named council voters.
 source_key: hampton-24-0053
 ---
 

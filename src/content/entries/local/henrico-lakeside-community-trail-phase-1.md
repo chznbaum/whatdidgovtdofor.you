@@ -20,10 +20,13 @@ impact:
     label: approximate construction contract awarded to Webb Development
 status:
   state: phasing-in
-  as_of: 2026-11-13
-  note: The Board of Supervisors awarded the construction contract on Oct. 13, 2026. Henrico expected construction to begin in November 2026 and be complete in about a year.
-  source: https://henrico.gov/news/2026/10/board-of-supervisors-meeting-recap-for-oct-13-board-recognizes-down-syndrome-awareness-month-awards-contract-for-lakeside-community-trail/
+  as_of: 2026-11-14
+  note: The Board of Supervisors awarded the construction contract on Oct. 13, 2026. As of Nov. 14, Henrico listed construction for late 2026 or early 2027 and completion in 2028; the trail is not open yet.
+  source: https://henrico.gov/projects/lakeside-community-trail/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the Board of Supervisors when it approved Resolution 221-26 on Oct. 13, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
     note: Awarded the Phase 1 construction contract on Oct. 13, 2026
@@ -47,9 +50,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract award, scope, cost, funding, credit, and rollout status against Henrico’s project page and formal meeting records. Corrected the official resolution metadata, publication date, and construction schedule.
+  notes: Confirmed the contract award, route, dimensions, funding, resolution number and current rollout status. Added the board chair required by the person-first credit rules and updated the schedule to Henrico’s current project page.
 source_key: henrico-news-180167-awarded-lakeside-community-trail-phase-1-contract
 ---
 
@@ -57,4 +60,4 @@ Lakeside is getting a new paved path for walking, biking and rolling. The first 
 
 This stretch is part of the Fall Line Trail, a regional path planned to run from Ashland to Petersburg. In Henrico's plan, the full Lakeside Community Trail is a 12-foot-wide, roughly 2-mile path from Spring Park to Hilliard Road, with lighting and pedestrian signals. Two later phases will carry it past Dumbarton Road to the Lakeside Recreation Area and on to Hilliard Road. Those phases went out to bid under a separate contract.
 
-On Oct. 13, 2026, the Henrico County Board of Supervisors awarded a contract of about $1 million to Webb Development to build Phase 1. A federal Transportation Alternatives grant helps pay for the project. The county says design, right-of-way purchases and utility moves are done. It expected construction to begin in November 2026 and plans to finish the full Lakeside trail in 2028.
+On Oct. 13, 2026, the Henrico County Board of Supervisors, chaired by Roscoe Cooper, awarded a contract of about $1 million to Webb Development to build Phase 1. A federal Transportation Alternatives grant helps pay for the project. The county says design, right-of-way purchases and utility moves are done. Its current schedule lists construction for late 2026 or early 2027 and completion in 2028.

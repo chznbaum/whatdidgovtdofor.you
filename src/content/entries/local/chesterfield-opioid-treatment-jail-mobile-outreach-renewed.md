@@ -21,16 +21,30 @@ impact:
     label: renews medication treatment for opioid addiction in the county jail
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that approved both renewals on Aug. 26, 2026
   - official: chesterfield-board-of-supervisors
     role: voted-yes
-    note: Approved both renewals 5-0 on Kevin Carroll's motion, seconded by Jim Ingle
+    note: Approved both renewals 5-0
 votes:
   - chamber: Chesterfield County Board of Supervisors
     date: 2026-08-26
     yes: 5
     no: 0
+    members:
+      - official: mark-miller
+        vote: yes
+      - official: kevin-carroll
+        vote: yes
+      - official: james-ingle
+        vote: yes
+      - official: jessica-schneider
+        vote: yes
+      - official: lequan-hylton
+        vote: yes
     source: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5321,plainText=false)
 sources:
   - title: Board of Supervisors Meeting, August 26, 2026, minutes
@@ -56,9 +70,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the appropriations, unanimous vote, program partnerships, settlement funding, and current FY2027 awards. Removed unsupported details and corrected the action name, source list, credit, and source-key year.
+  notes: Confirmed the appropriations, services, partnerships, settlement funding, and current FY2027 renewals. Corrected the person-first credit, added all five named voters, and updated the status date.
 source_key: chesterfield-council-2029-appropriated-opioid-abatement-funding-for-two-partnerships
 ---
 
@@ -66,4 +80,4 @@ Chesterfield County is keeping two addiction programs running for another year. 
 
 The other program, Mobile Outreach, provides supportive care to people who use drugs in the community, with a focus on harm reduction. Chesterfield runs it with Petersburg, Powhatan and Colonial Heights, and the county appropriated $990,120 for it. People diagnosed with opioid use disorder can receive COMPASS treatment in the jail. For community help, Chesterfield lists its substance use outreach staff at 804-717-6169 and revive@chesterfield.gov.
 
-The appropriation uses money from lawsuit settlements with opioid manufacturers and distributors, not local tax revenue. The Virginia Opioid Abatement Authority approved both projects as renewals for the 2027 grant year in June 2026. The Chesterfield Board of Supervisors then voted 5-0 on August 26, 2026, to appropriate the money. Supervisor Kevin Carroll made the motion, and Jim Ingle seconded it.
+The appropriation uses money from lawsuit settlements with opioid manufacturers and distributors, not local tax revenue. The Virginia Opioid Abatement Authority approved both projects as renewals for the 2027 grant year in June 2026. The Chesterfield Board of Supervisors, chaired by Mark Miller, then voted 5-0 on August 26, 2026, to appropriate the money.

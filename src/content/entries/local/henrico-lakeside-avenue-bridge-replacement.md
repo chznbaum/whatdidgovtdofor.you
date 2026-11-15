@@ -5,13 +5,13 @@ level: local
 jurisdiction: henrico
 action:
   type: budget
-  name: Resolution - Award of Contract - Lakeside Avenue Bridge Replacement Project
+  name: Resolution - Award of Contract - Lakeside Avenue Bridge Replacement Project - Fairfield District
   identifier: Resolution 133-26
   date: 2026-06-09
 topics:
   - infrastructure
   - safety
-who_benefits: People who drive, ride, or walk on Lakeside Avenue where it crosses North Run Creek in Henrico's Lakeside area.
+who_benefits: People who use Lakeside Avenue where it crosses North Run Creek in Henrico's Lakeside area.
 impact:
   - figure: $9.2 million
     label: construction contract to replace the Lakeside Avenue bridge
@@ -19,10 +19,13 @@ impact:
     label: width of the shoulders on each side of the new bridge's two 12-foot lanes
 status:
   state: phasing-in
-  as_of: 2026-11-13
-  note: The contract was awarded June 9, 2026. Utility relocation and construction are underway, and Henrico estimates the new bridge will be finished in 2027.
+  as_of: 2026-11-14
+  note: The contract was awarded June 9, 2026. Utility relocation is complete, construction is underway, and Henrico estimates the new bridge will be finished in 2027.
   source: https://henrico.gov/projects/lakeside-avenue-bridge-replacement/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the Board that unanimously awarded the construction contract on June 9, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
     note: Awarded the construction contract to Sagres Construction Corp. on June 9, 2026
@@ -49,9 +52,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the unanimous June 9 award, contract amount, bridge specifications, and current construction status. Removed unsupported comparisons and corrected the official action metadata and source date.
+  notes: Confirmed the contract, specifications, vote, cost and current construction status against Henrico’s official records. Added the Board chair required by the credit rules and updated outdated or unsupported wording.
 source_key: henrico-news-174384-awarded-lakeside-avenue-bridge-replacement-contract
 ---
 
@@ -59,4 +62,4 @@ Henrico County is replacing the bridge that carries Lakeside Avenue over North R
 
 You don't need to do anything to benefit. If you use Lakeside Avenue to get to work, school, or shops in the Lakeside area, this is the bridge you cross over the creek.
 
-The Henrico County Board of Supervisors awarded the $9.2 million construction contract to Sagres Construction Corp. on June 9, 2026. The design and right-of-way acquisition were already complete. Utility relocation and construction are now underway, and the county expects the new bridge to be finished in 2027.
+Board Chair Roscoe D. Cooper III (D) led the Henrico County Board of Supervisors' unanimous June 9, 2026 vote to award the $9.2 million construction contract to Sagres Construction Corp. The design and right-of-way acquisition are complete, and utility relocation has finished. Construction is underway, and the county expects the new bridge to be finished in 2027.

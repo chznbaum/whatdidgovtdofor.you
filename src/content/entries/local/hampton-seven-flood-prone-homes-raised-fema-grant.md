@@ -26,6 +26,9 @@ status:
   note: A federal spending record lists a City of Hampton DR-4512 elevation-project subaward dated Feb. 11, 2026. We found no public completion record, so the project remains phasing-in as of that record.
   source: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
 credit:
+  - official: donnie-tuck
+    role: led
+    note: Presided over the council meeting that accepted and budgeted the grant
   - official: hampton-city-council
     role: voted-yes
     note: Accepted and budgeted the grant on April 10, 2024
@@ -56,7 +59,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant authorization and amounts. Corrected the conflicting home count, homeowner-cost implication, presidential credit, and status using the newest project-specific spending record found.
+  notes: Confirmed the grant authorization, amounts, conflicting seven/eight-home language, homeowner costs, and latest project-specific spending record. Added the mayor who presided over the approving council meeting, as required for a credited body.
 source_key: hampton-24-0158
 ---
 

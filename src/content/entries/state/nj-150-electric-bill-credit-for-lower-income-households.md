@@ -11,7 +11,7 @@ action:
   effective: 2026-08-01
 topics:
   - costs
-who_benefits: New Jersey households whose active utility accounts were flagged for protection under the state's Winter Termination Program during the 2025–26 winter.
+who_benefits: New Jersey households with active residential utility accounts that were flagged for Winter Termination Program protection during the 2025–26 winter and met the program's eligibility criteria.
 impact:
   - figure: $150
     label: maximum bill credit per eligible household, paid as $50 a month for three months
@@ -21,6 +21,9 @@ status:
   state: delivered
   as_of: 2026-11-14
 credit:
+  - official: christine-guhl-sadovy
+    role: issued
+    note: As BPU president, headed the board when it approved the 2026 round on June 30, 2026
   - official: nj-board-of-public-utilities
     role: issued
     note: Approved the 2026 round on June 30, 2026, funding it with up to $41.6 million from the Regional Greenhouse Gas Initiative
@@ -61,12 +64,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: "Confirmed the credit, funding, eligibility process, timing, officials, and current status against BPU and governor sources. Added the order’s important limits: $150 was the maximum, credits could appear on gas or electric bills, and no separate REAP application was required."
+  notes: Confirmed the $150 maximum, automatic eligibility, RGGI funding, timing, and delivered status. Narrowed two eligibility claims and credited the BPU president who headed the issuing board.
 source_key: nj-gov-20260707a
 ---
 
-Eligible households received a $50 credit on their utility bill in August, September and October 2026, up to $150 in all. Customers who moved into a utility's territory during those months received credits only from their first bill there, with no credit for earlier months. Eligible households with a residential electric account also received the separate $25 credit provided to all residential electric customers.
+Eligible households received a $50 credit on their utility bill in August, September and October 2026, up to $150 in all. Customers who moved into a utility's territory during those months received credits only from their first bill there, with no credit for earlier months. Eligible households that also had an existing residential electric account with one of New Jersey's four investor-owned electric utilities received the separate $25 August credit.
 
 You did not have to submit a separate REAP application. Gas and electric utilities used records of active accounts flagged for the Winter Termination Program, which protects qualifying households from winter shutoffs. If separate companies supplied your gas and electricity, the utilities coordinated so the credit appeared on only one of those bills. Questions go to your utility.
 
-The Board of Public Utilities approved this third round on June 30, 2026. Its $50 monthly credit was larger than the previous round's $25 monthly credit. On her first day in office in January, Gov. Mikie Sherrill (D) directed state agencies to plan how carbon-auction money could provide timely relief to low- and middle-income customers. She announced the $150 maximum credit on July 7. The board allocated up to $41.6 million from the Regional Greenhouse Gas Initiative, where power plants buy allowances for the carbon they emit. The relief was not paid for by cutting public services.
+BPU President Christine Guhl-Sadovy (NP) headed the Board of Public Utilities when it approved this third round on June 30, 2026. Its $50 monthly credit was larger than the previous round's $25 monthly credit. On her first day in office in January, Gov. Mikie Sherrill (D) directed state agencies to plan how carbon-auction money could provide timely relief to low- and middle-income customers. She announced the $150 maximum credit on July 7. The board allocated up to $41.6 million from the Regional Greenhouse Gas Initiative, where power plants buy allowances for the carbon they emit. The relief was not paid for by cutting public services.

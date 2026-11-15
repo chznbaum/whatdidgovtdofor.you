@@ -20,21 +20,47 @@ impact:
     label: estimated registered personal vehicles in Virginia Beach
 status:
   state: phasing-in
-  as_of: 2026-11-11
+  as_of: 2026-11-14
   note: The one-time credit applies to calendar-year 2027 personal property tax assessments, with the city applying it to bills beginning in January 2027.
   source: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY2026-27-Adopted-Operating-Budget.pdf
 credit:
-  - official: virginia-beach-city-council
+  - official: bobby-dyer
     role: led
-    note: Asked staff to find tax relief that reaches the most residents; adopted the budget 11–0
+    note: Presided over the council that directed staff to develop broad-based tax relief and approved the budget 11–0
   - official: patrick-duhaney
     role: proposed
     note: City manager; included the credit in his proposed budget
+  - official: virginia-beach-city-council
+    role: voted-yes
+    note: Directed staff to find tax relief that reaches the most residents and adopted the budget 11–0
 votes:
   - chamber: Virginia Beach City Council
     date: 2026-05-12
     yes: 11
     no: 0
+    members:
+      - official: bobby-dyer
+        vote: yes
+      - official: david-hutcheson
+        vote: yes
+      - official: barbara-henley
+        vote: yes
+      - official: michael-berlucchi
+        vote: yes
+      - official: amelia-ross-hammond
+        vote: yes
+      - official: rosemary-wilson
+        vote: yes
+      - official: worth-remick
+        vote: yes
+      - official: cal-cash-jackson-green
+        vote: yes
+      - official: stacy-cummings
+        vote: yes
+      - official: joash-schulman
+        vote: yes
+      - official: jennifer-rouse
+        vote: yes
     source: https://edocs.vbgov.com/WebLink/DocView.aspx?dbid=0&id=51775913&repo=CityClerk
 sources:
   - title: Virginia Beach City Council votes to adopt revised budget
@@ -44,6 +70,10 @@ sources:
   - title: Virginia Beach FY 2026-27 Adopted Executive Summary
     publisher: City of Virginia Beach
     url: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/budget/Budget/Adopted/FY27/FY27-Adopted-Executive-Summary.pdf
+  - title: Virginia Beach City Council Special Formal Session Agenda
+    publisher: City of Virginia Beach
+    url: https://s3.us-east-1.amazonaws.com/virginia-beach-departments-docs/city-clerk/City-Council/Special-Session-Agenda.pdf
+    date: 2026-05-12
   - title: Virginia Beach approves $2.9 billion budget, keeps real estate tax rate unchanged as home assessments rise
     publisher: WTKR News 3
     url: https://www.wtkr.com/news/in-the-community/virginia-beach/virginia-beach-approves-2-9-billion-budget-keeps-real-estate-tax-rate-unchanged-as-home-assessments-rise
@@ -62,14 +92,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-11
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the adopted credit, funding source, figures, attribution, and 11–0 vote. Updated the status through today and replaced proposed/summary evidence with final adopted and official vote records.
+  notes: Confirmed the adopted credit, figures, funding, effective date, current status, and 11–0 vote. Corrected the person-first attribution, added all named voters, and refreshed the status date.
 source_key: vb-fy2027-vehicle-tax-credit
 ---
 
 Starting with 2027 personal property tax bills, Virginia Beach will apply a 10.1% credit to the tax on the first $20,000 of each qualifying personal-use vehicle's assessed value. The credit is capped at $80 per vehicle; on a car at the city's average value of $11,913, it's about $48. A household with two qualifying vehicles valued at $20,000 or more can save up to $160. You do not file a separate application; the city will build the credit into the bill.
 
-Virginia Beach's recent local tax relief had focused on real estate, which directly benefits property owners. After the City Council asked for relief that would reach the most residents, City Manager Patrick Duhaney proposed this vehicle credit, which also reaches people who rent. The city estimates about 495,000 registered personal vehicles, compared with roughly 113,000 residents who own real estate.
+Virginia Beach's recent local tax relief had focused on real estate, which directly benefits property owners. Mayor Bobby Dyer presided over the City Council as it asked for relief that would reach the most residents. City Manager Patrick Duhaney then proposed this vehicle credit, which also reaches people who rent. The city estimates about 495,000 registered personal vehicles, compared with roughly 113,000 residents who own real estate.
 
 The one-time credit costs about $12.8 million. The city paid for it with higher-than-expected real estate revenue: it kept the real estate tax rate at 97 cents per $100 of assessed value while assessments rose about 6% on average, so many homeowners will still pay more in real estate tax. The council adopted the nearly $2.9 billion budget unanimously on May 12. Because personal property tax follows the calendar year, the credit starts with 2027 bills.

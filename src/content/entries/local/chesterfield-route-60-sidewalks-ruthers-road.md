@@ -5,7 +5,7 @@ level: local
 jurisdiction: chesterfield
 action:
   type: budget
-  name: Appropriation of funds and construction contract for the Route 60 (Ruthers Road - Spring Rock Green) Sidewalk Improvements Project
+  name: Appropriation of Anticipated Virginia Department of Transportation Reimbursements and Authorization to Award a Construction Contract for the Route 60 (Ruthers Road - Spring Rock Green) Sidewalk Improvements Project
   date: 2026-06-24
 topics:
   - safety
@@ -21,21 +21,32 @@ impact:
     label: in expected VDOT reimbursements set aside for the project
 status:
   state: phasing-in
-  as_of: 2026-10-27
-  note: A notice to proceed was issued in October 2026, and the county expects construction to be completed by summer 2027.
+  as_of: 2026-11-14
+  note: The county's Oct. 27 update says a notice to proceed was issued in October 2026 and construction is expected to be completed by summer 2027.
   source: https://www.chesterfield.gov/m/newsflash/home/detail/4451
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that appropriated funding and authorized the construction contract on June 24, 2026
   - official: chesterfield-board-of-supervisors
-    role: secured-funding
-    note: Approved the funding and the construction contract 5-0
-  - official: james-ingle
     role: voted-yes
-    note: Moved to approve the funding and contract
+    note: Voted 5-0 to appropriate the funding and authorize the construction contract
 votes:
   - chamber: Chesterfield County Board of Supervisors
     date: 2026-06-24
     yes: 5
     no: 0
+    members:
+      - official: mark-miller
+        vote: yes
+      - official: kevin-carroll
+        vote: yes
+      - official: james-ingle
+        vote: yes
+      - official: jessica-schneider
+        vote: yes
+      - official: lequan-hylton
+        vote: yes
     source: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5182,plainText=false)
 sources:
   - title: Board of Supervisors Meeting, June 24, 2026, minutes
@@ -59,9 +70,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract, funding, unanimous vote, project scope, and Jim Ingle’s party. Updated the construction status from the county’s October 27 project page and narrowed two overstated pedestrian-safety claims.
+  notes: Confirmed the project scope, funding, contract, unanimous vote, and current construction timeline. Corrected the action name, person-first credit, named roll-call members, and status check date.
 source_key: chesterfield-council-2027-appropriated-funds-and-authorized-4-75-million-contract-for-
 ---
 
@@ -69,4 +80,4 @@ On the stretch of Midlothian Turnpike (Route 60) from Ruthers Road to just past 
 
 You won't need to apply or sign up to use the sidewalks. A notice to proceed was issued in October 2026, and the county expects construction to be completed by summer 2027. A second phase is planned to add more sidewalks and crossings, including a protected path through the median under Chippenham Parkway. The county hopes to start it by the end of 2029.
 
-The county applied for money for the project before the COVID pandemic. On June 24, 2026, the Board of Supervisors voted 5-0 to set aside $1.54 million in expected reimbursements from the Virginia Department of Transportation. Those reimbursements need approval from the Richmond Regional Transportation Planning Organization. If that doesn't come through, the money will come from the county's road improvement account instead. The board also approved a $4.75 million construction contract with Muller, Inc. Supervisor Jim Ingle made the motion.
+The county applied for money for the project before the COVID pandemic. On June 24, 2026, the Board of Supervisors, chaired by Mark Miller, voted 5-0 to set aside $1.54 million in expected reimbursements from the Virginia Department of Transportation. Those reimbursements need approval from the Richmond Regional Transportation Planning Organization. If that doesn't come through, the money will come from the county's road improvement account instead. The board also approved a $4.75 million construction contract with Muller, Inc.

@@ -21,13 +21,28 @@ impact:
     label: accessible yellow cabs in late 2013, when the settlement was reached
 status:
   state: in-effect
-  as_of: 2026-11-13
-  note: Current TLC guidance still requires every taxi hack-up to use an accessible vehicle. The 2024 court order requires half of all 13,587 authorized medallions—not just active cabs—to be attached to accessible vehicles by the end of 2028.
+  as_of: 2026-11-14
+  note: Current TLC guidance still requires every taxi hack-up to use an accessible vehicle. The 2024 order keeps that 100% rule in place until both 50% settlement targets are met and lets plaintiffs seek a special master if the city is not on schedule to meet the authorized-medallion target by the end of 2028.
   source: https://www.nyc.gov/site/tlc/businesses/yellow_cab_hackup.page
 credit:
   - official: taxis-for-all-campaign
     role: championed
-    note: Sued in 2011 and won the 2024 court order requiring all taxi hack-ups to be accessible
+    note: One of four disability-rights groups that brought the 2011 lawsuit and won the 2024 enforcement order
+  - official: united-spinal-association
+    role: championed
+    note: Plaintiff in the 2011 lawsuit and 2024 enforcement proceedings
+  - official: 504-democratic-club
+    role: championed
+    note: Plaintiff in the 2011 lawsuit and 2024 enforcement proceedings
+  - official: disabled-in-action-metropolitan-new-york
+    role: championed
+    note: Plaintiff in the 2011 lawsuit and 2024 enforcement proceedings
+  - official: disability-rights-advocates
+    role: led
+    note: Class counsel that filed the lawsuit and monitored and enforced the settlement
+  - official: sheppard-mullin
+    role: led
+    note: Class counsel that filed the lawsuit and monitored and enforced the settlement
   - official: david-do
     role: issued
     note: TLC chair who promised compliant rules and signed the adopted rule
@@ -42,25 +57,25 @@ sources:
     publisher: NYC Rules
     url: https://rules.cityofnewyork.us/rule/100-wheelchair-accessible-vehicles-taxis/
     date: 2024-10-18
+  - title: Memorandum Decision and Order in Taxis For All Campaign v. TLC
+    publisher: U.S. District Court for the Southern District of New York
+    url: https://dralegal.org/wp-content/uploads/2024/09/TFA.TLC-Order-on-Enforcement.pdf
+    date: 2024-08-29
   - title: Court Rules New York City Must Make All New Taxis Wheelchair-Accessible Until 50% of All Taxis Are Accessible
     publisher: Disability Rights Advocates
     url: https://dralegal.org/press/nyc-taxis-ruling/
     date: 2024-09-03
-  - title: Judge rules all new NYC taxis must be wheelchair-accessible until city meets settlement requirement
-    publisher: amNY
-    url: https://www.amny.com/nyc-transit/nyc-taxis-wheelchair-accessible-ruling-lawsuit/
-    date: 2024-09-02
   - title: New yellow cabs must be wheelchair accessible, city orders
     publisher: NY1
     url: https://ny1.com/nyc/all-boroughs/traffic_and_transit/2024/10/21/new-yellow-cabs-must-be-wheelchair-accessible--city-orders
     date: 2024-10-21
-  - title: Half of NYC's active taxi fleet is now wheelchair accessible
+  - title: NYC Reaches Historic Milestone—More Than 50% of All Active NYC Taxis Are Now Wheelchair Accessible
+    publisher: NYC Taxi and Limousine Commission
+    url: https://www.nyc.gov/site/tlc/about/nyc-historic-accessbility-milestone-wav-taxis.page
+    date: 2025-06-05
+  - title: More mobility—NYC taxis reach historic milestone as 50% of fleet now wheelchair accessible
     publisher: amNY
     url: https://www.amny.com/news/nyc-taxis-half-fleet-now-wheelchair-accessible
-    date: 2025-06-05
-  - title: TLC Finally Hits 50% Accessibility Target After Years of Delays
-    publisher: The City Reporter
-    url: https://www.thecityreporter.nyc/2025/06/05/yellow-cabs-tlc-wheelchair-accessible/
     date: 2025-06-05
   - title: Accessible Taxi Loan Assistance Service Pilot Program (ATLAS)
     publisher: NYC Taxi and Limousine Commission
@@ -73,14 +88,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the accessibility requirement, fleet figures, court history, and current status. Corrected the adoption date, court-order scope, funding details, source metadata, and missing mayoral credit.
+  notes: Confirmed the rule, effective date, fleet figures, owner assistance, and current mandate. Corrected the court-order timeline, incomplete plaintiff credit, source metadata, and body length.
 source_key: nyc-rule-100-wheelchair-accessible-vehicles-taxis
 ---
 
-If you use a wheelchair in New York City, more yellow cabs can now pick you up. Since Oct. 18, 2024, every vehicle newly put into service as a yellow taxi, including cars that replace a retired cab, must be wheelchair accessible. You don't have to do anything: the change happens as the fleet turns over.
+If you use a wheelchair in New York City, more yellow cabs can now pick you up. Since Oct. 18, 2024, any vehicle put into service as a yellow taxi, including a replacement cab, must be wheelchair accessible. You do not have to apply.
 
-The rule came out of a long fight. Disability groups led by the Taxis For All Campaign sued in 2011. When the city settled in 2013, only 213 yellow cabs could take a wheelchair. The city promised that half the fleet would be accessible by 2020, then missed that deadline and an extended one in 2023. In 2024 the city asked to be let out of the deal. In August 2024, federal Judge George Daniels refused and ordered accessible vehicles for every taxi hack-up until the city met both targets: half of active cabs and half of all authorized medallions.
+The rule followed a long fight. The Taxis For All Campaign, United Spinal Association, 504 Democratic Club, and Disabled In Action sued in 2011, represented by Disability Rights Advocates and Sheppard Mullin. When the city settled in 2013, 213 yellow cabs were accessible. It promised half the fleet by 2020 but missed that deadline and new 2023 deadlines. In 2024 the city sought relief from the deal. Judge George Daniels refused and ordered accessible vehicles for every taxi hack-up until both 50% targets—for active cabs and all authorized medallions—are met.
 
-The Taxi and Limousine Commission, chaired by David Do, adopted the rule on Oct. 16, and it took effect Oct. 18 after Mayor Eric Adams approved it. One-medallion owners who prove hardship can get up to six extra months before retiring a non-accessible vehicle. Accessible cabs can cost close to $100,000. Through the limited ATLAS pilot, qualified one-medallion owners can have a $30,000 Taxi Improvement Fund grant applied to the purchase and seek a low-interest loan. By June 2025, 5,140 yellow cabs in service were accessible, just over half of the cabs on the road. The city still has until the end of 2028 to make half of all authorized medallions accessible.
+The Taxi and Limousine Commission, chaired by David Do, adopted the rule on Oct. 16, and it took effect Oct. 18 after Mayor Eric Adams approved it. One-medallion owners who prove hardship can get up to six extra months before retiring a non-accessible vehicle. Accessible cabs can cost close to $100,000. Through the ATLAS pilot, qualified one-medallion owners can apply a $30,000 Taxi Improvement Fund grant to the purchase and seek a low-interest loan. By June 2025, 5,140 yellow cabs in service were accessible, or 50.7% of active cabs. The rule remains until the authorized-medallion target is met; plaintiffs may seek a special master if the city falls off schedule for the end of 2028.

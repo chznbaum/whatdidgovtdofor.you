@@ -23,17 +23,23 @@ impact:
     label: homes set aside for households at 30% of area median income
 status:
   state: phasing-in
-  as_of: 2026-11-13
-  note: The Ramsey County Board, sitting as the county's Housing and Redevelopment Authority, approved the money on June 23, 2026. All five buildings are new construction and are still being developed, so none of the homes are ready to rent yet.
+  as_of: 2026-11-14
+  note: The Ramsey County Housing and Redevelopment Authority approved the money on June 23, 2026. All five projects remain in construction, development or predevelopment, so none of the homes is ready to rent yet.
   source: https://www.ramseycountymn.gov/businesses/property-development/property-development-programs-incentives/affordable-housing-infrastructure-investments/2026-housing-development-awards
 credit:
-  - official: ramsey-county-board
+  - official: josh-olson
+    role: proposed
+    note: Directed Community & Economic Development, the department listed as the sponsor of File 2026-220
+  - official: mai-chong-xiong
+    role: led
+    note: Chaired the Housing and Redevelopment Authority meeting that approved the awards
+  - official: ramsey-county-housing-and-redevelopment-authority
     role: voted-yes
-    note: Sitting as the Housing and Redevelopment Authority, approved $6.4 million in housing levy money for five projects
+    note: Approved $6.4 million in housing levy money for five projects
 sources:
   - title: "File 2026-220: Obligation of 2026 Housing and Redevelopment Authority Levy for Housing Development Projects"
     publisher: Ramsey County Housing and Redevelopment Authority
-    url: https://ramseycountymn.legistar.com/gateway.aspx?M=L&ID=5328
+    url: https://ramseycountymn.legistar.com/View.ashx?GUID=3B58E443-8D86-4038-9F75-D99C30424A08&ID=1423057&M=PA
     date: 2026-06-23
   - title: 2026 Housing Development Awards
     publisher: Ramsey County
@@ -41,6 +47,13 @@ sources:
   - title: Housing and Redevelopment Authority (HRA) Levy
     publisher: Ramsey County
     url: https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/railroad-housing-authorities/housing-redevelopment-authority-hra-levy
+  - title: Ramsey County 2026-2027 proposed biennial budget
+    publisher: Ramsey County
+    url: https://assets.ramseycountymn.gov/files/2025-09/Ramsey%20County%20Biennial%20Budget%20Book%20-%202026-2027%20Proposed%20-%20Final%20Sept%202025.pdf
+  - title: Election of the Chair for 2026
+    publisher: Ramsey County Housing and Redevelopment Authority
+    url: https://ramseycountymn.legistar.com/LegislationDetail.aspx?GUID=D271D76F-591D-4B3B-9A4E-E8663F260A68&ID=7790796&Options=&Search=
+    date: 2026-01-06
 featured: false
 verification:
   writer:
@@ -50,9 +63,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the award, funding amounts, project totals, affordability requirements, approval date, and current rollout. Clarified that 326 is the gross construction total because Rondo Revitalize replaces three existing affordable units, making the net increase 323 homes.
+  notes: Confirmed the $6.4 million award, project and affordability totals, funding sources, June 23 approval, and current rollout. Corrected the approving body and added the department head and HRA chair required by the credit rules.
 source_key: ramsey-2026-220
 ---
 
@@ -60,4 +73,4 @@ Ramsey County is putting $6.4 million into five new apartment buildings for rent
 
 Of the 326 homes, 96 are set aside for the lowest-income renters: households at 30% of the area median income. Each building must record a 30-year affordability requirement, and the county checks compliance every year. To rent one of these apartments, you'll apply through the building's owner once it opens. None of the buildings is open yet.
 
-The money comes from the county's Housing and Redevelopment Authority levy, a property tax the county started collecting in 2022 to pay for affordable housing. Most of this round, $4.95 million, is 2026 levy money. The remaining $1.45 million was freed up from earlier awards whose projects didn't go forward. The projects were chosen from 45 eligible applications. On June 23, 2026, the Ramsey County Board, sitting as the housing authority, approved the awards.
+The money comes from the county's Housing and Redevelopment Authority levy, a property tax the county started collecting in 2022 to pay for affordable housing. Most of this round, $4.95 million, is 2026 levy money. The remaining $1.45 million was freed up from earlier awards whose projects didn't go forward. The projects were chosen from 45 eligible applications. Community & Economic Development, led by director Josh Olson, proposed the awards. On June 23, 2026, HRA chair Mai Chong Xiong led the meeting where the Ramsey County Housing and Redevelopment Authority approved them.

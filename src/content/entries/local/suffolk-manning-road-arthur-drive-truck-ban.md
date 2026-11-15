@@ -16,11 +16,14 @@ impact:
   - figure: "43"
     label: reported crashes on Manning Road in a city study, 22 with injuries
   - figure: "2"
-    label: Suffolk roads now closed to through truck traffic
+    label: road segments covered by the new through-truck restrictions
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: mike-duman
+    role: led
+    note: Presided over the council meeting that approved the ordinance on Aug. 19, 2026
   - official: suffolk-city-council
     role: voted-yes
     note: Approved the ordinance 7-0; Council Member Wright was excused
@@ -29,6 +32,13 @@ sources:
     publisher: City of Suffolk
     url: https://www.suffolkva.us/AgendaCenter/ViewFile/Agenda/_08192026-3799
     date: 2026-08-19
+  - title: City Council Regular Meeting Minutes, Aug. 19, 2026
+    publisher: City of Suffolk
+    url: https://www.suffolkva.us/AgendaCenter/ViewFile/Minutes/_08192026-3799
+    date: 2026-08-19
+  - title: Truck Restricted Roads and Bridges
+    publisher: City of Suffolk
+    url: https://www.suffolkva.us/1696/Truck-Restricted-Roads-and-Bridges
   - title: Suffolk bans tractor-trailers on two roads as neighbors raise enforcement concerns
     publisher: WTKR News 3
     url: https://www.wtkr.com/news/in-the-community/suffolk/suffolk-bans-tractor-trailers-on-two-roads-as-neighbors-raise-enforcement-concerns
@@ -40,13 +50,13 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, road segments, 7-0 vote, crash figures, implementation details, and current status. Narrowed the delivery exception to match Suffolk’s ordinance language.
+  notes: Confirmed the ordinance, road segments, crash figures, exemptions, implementation, 7–0 approval, and current status. Added Mayor Mike Duman before the council body because the official minutes identify him as the presiding officer.
 source_key: suffolk-council-3799-item-22
 ---
 
-Trucks that are only passing through can no longer use two roads in Suffolk. The ban covers Manning Road between Copeland Road and Mineral Springs Road, and Arthur Drive between Mineral Springs Road and Whaleyville Boulevard. Trucks receiving loads or making deliveries on these roads are exempt. The ban is meant to send through traffic to bigger roads and away from homes.
+Trucks that are only passing through can no longer use two roads in Suffolk. The ban covers Manning Road between Copeland Road and Mineral Springs Road, and Arthur Drive between Mineral Springs Road and Whaleyville Boulevard. Trucks receiving loads or making deliveries on these roads are exempt. The ban is meant to keep through trucks on designated truck routes and off local residential streets.
 
 Residents don't need to do anything. Suffolk Public Works said it would put up the required truck-restriction signs by Sept. 11. The city also said it was telling the port, the Tidewater Motor Truck Association, and local businesses about the change. Police say they enforce the ban the same way they enforce other traffic laws.
 

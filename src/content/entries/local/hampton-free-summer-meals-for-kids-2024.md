@@ -22,9 +22,15 @@ status:
   state: delivered
   as_of: 2026-11-14
 credit:
-  - official: hampton-parks-recreation-leisure-services
+  - official: david-mccauley
     role: proposed
-    note: Proposed the grant-funded program and ran the meal sites across the city
+    note: Led the department that proposed the grant-funded program
+  - official: hampton-parks-recreation-leisure-services
+    role: implemented
+    note: Ran the meal sites across the city
+  - official: donnie-tuck
+    role: led
+    note: Presided over the council that approved the grant on July 10, 2024
   - official: hampton-city-council
     role: voted-yes
     note: Accepted the USDA grant and added it to the city budget
@@ -32,6 +38,10 @@ sources:
   - title: "File 24-0308: USDA Summer Feeding Service Program (SFSP)"
     publisher: City of Hampton (Legistar)
     url: https://hampton.legistar.com/LegislationDetail.aspx?GUID=6CC2DB5A-0FC4-428C-86CD-483C97682325&ID=6743704&Options=&Search=
+    date: 2024-07-10
+  - title: Council Approved Minutes
+    publisher: City of Hampton (Legistar)
+    url: https://hampton.legistar.com/View.ashx?GUID=08AB9336-D3C5-417D-8B92-CB65F9E92E53&ID=1160724&M=M
     date: 2024-07-10
   - title: 2024 Summer Food Service Program Sites
     publisher: Hampton Parks, Recreation and Leisure Services
@@ -53,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant approval, program dates, funding, and delivery; Hampton later reported 32,514 meals served in FY2025. Corrected eligibility, action naming, impact wording, credit order, and source coverage.
+  notes: Confirmed the grant, dates, eligibility, funding, council approval, and later evidence that meals were delivered. Added the responsible department head and presiding mayor ahead of the credited bodies.
 source_key: hampton-24-0308
 ---
 

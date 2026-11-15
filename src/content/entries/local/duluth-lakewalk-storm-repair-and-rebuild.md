@@ -22,20 +22,27 @@ impact:
     label: length of Lakewalk trail covered by the construction contract
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: Construction began Aug. 18. The city's Oct. 30 update said work was continuing and would wrap up over the next few weeks; the city expects a winter pause, work to resume in April 2027, and substantial completion in December 2027.
   source: https://duluthmn.gov/parks/parks-trails/current-projects/lakewalk-coastal-improvements/
 credit:
-  - official: duluth-city-council
-    role: voted-yes
-    note: Approved the $9.9 million construction contract on July 27, 2026
+  - official: jordon-johnson
+    role: led
+    note: Brought the contract resolution to the council as chair of the Recreation, Libraries and Authorities Committee
   - official: amy-klobuchar
     role: secured-funding
     note: Helped acquire and announced the federal RAISE grant
+  - official: duluth-city-council
+    role: voted-yes
+    note: Approved the $9.9 million construction contract on July 27, 2026
 sources:
   - title: Resolution 26-0665R, Lakewalk and Coastal Improvement Project contract
     publisher: City of Duluth (Legistar)
     url: https://duluth-mn.legistar.com/LegislationDetail.aspx?GUID=0916FB19-79B9-4EA3-9EC7-2B6C9AEB5CBC&ID=8140285&Options=&Search=
+    date: 2026-07-27
+  - title: July 27, 2026 Duluth City Council agenda
+    publisher: City of Duluth (Legistar)
+    url: https://duluth-mn.legistar.com/View.ashx?GUID=0CF75EF8-DEF6-454F-B5CC-D2E3341D432D&ID=1425415&M=AADA
     date: 2026-07-27
   - title: Lakewalk & Coastal Improvements
     publisher: City of Duluth
@@ -59,9 +66,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract, financing, project scope and continuing construction. Corrected the trail mileage, premature winter-pause claim, action classification and unsupported Tina Smith credit.
+  notes: Confirmed the contract, funding, scope, construction timeline and current status. Added the councilor named in the official agenda and updated the status check date.
 source_key: duluth-26-0665r
 ---
 
@@ -69,4 +76,4 @@ The Lakewalk is Duluth's path along Lake Superior, and storms keep tearing it ap
 
 The work restores the shoreline and moves the trail back from the water where it can, so the next storm does less damage. It also rebuilds the path to be more accessible for wheelchairs and other mobility devices, gives bikes and walkers more room, and adds a bypass trail by Leif Erikson Park, better signs and new links to downtown. You don't need to do anything to use it. Parts of the trail close during construction, and the city posts closures on its project page.
 
-Duluth won a federal RAISE grant of about $8.2 million in 2023, which Sen. Amy Klobuchar helped acquire and announced. The Minnesota Department of Transportation added a $2.05 million match, and the city is putting in $2 million of its own. On July 27, 2026, the City Council approved a $9.9 million contract with Rachel Contracting, the lowest of three bidders. Work started in August 2026; the city expects a winter pause, work to resume in April 2027 and substantial completion in December 2027.
+Duluth won a federal RAISE grant of about $8.2 million in 2023, which Sen. Amy Klobuchar helped acquire and announced. The Minnesota Department of Transportation added a $2.05 million match, and the city is putting in $2 million of its own. Councilor Jordon Johnson, chair of the Recreation, Libraries and Authorities Committee, brought the contract resolution to the council on July 27, 2026; the City Council approved a $9.9 million contract with Rachel Contracting, the lowest of three bidders. Work started in August 2026; the city expects a winter pause, work to resume in April 2027 and substantial completion in December 2027.

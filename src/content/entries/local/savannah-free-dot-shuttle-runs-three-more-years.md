@@ -1,6 +1,6 @@
 ---
-title: Savannah's free DOT shuttle keeps running for three more years
-dek: Savannah approved up to $7.9 million on Oct. 22, 2026 to keep Chatham Area Transit running the fare-free DOT shuttle downtown and to Carver Village and Cloverdale. The contract requires 15-minute headways; enforcement of the new standards begins in January 2027.
+title: Savannah's free DOT shuttle keeps running through June 2029
+dek: Savannah approved up to $7.9 million on Oct. 22, 2026, to keep Chatham Area Transit running the fare-free DOT shuttle downtown and to Carver Village and Cloverdale through June 2029. The contract requires 15-minute headways; enforcement begins in January 2027.
 level: local
 jurisdiction: savannah
 action:
@@ -23,16 +23,39 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
+  - official: jay-melder
+    role: proposed
+    note: Recommended that City Council approve the contract
+  - official: van-johnson
+    role: led
+    note: Presided over the council meeting and defended renewing the existing service with CAT
+  - official: detric-leggett
+    role: led
+    note: Chaired CAT's board when it approved the three-year agreement on July 28, 2026
   - official: savannah-city-council
     role: voted-yes
-    note: Approved the three-year contract 6-2, with one member recused
+    note: Approved the contract 6-2, with one member recused
   - official: chatham-area-transit
     role: implemented
-    note: Runs the DOT; its board approved the renewal on July 28, 2026
+    note: Operates the DOT shuttle
+votes:
+  - chamber: Savannah City Council
+    date: 2026-10-22
+    yes: 6
+    no: 2
+    by_party:
+      NP:
+        yes: 6
+        no: 2
+    source: https://savannahga.gov/DocumentCenter/View/38285/ActionMinutes_2026-10-22
 sources:
   - title: Savannah City Council action minutes, Oct. 22, 2026
     publisher: City of Savannah
     url: https://savannahga.gov/DocumentCenter/View/38285/ActionMinutes_2026-10-22
+    date: 2026-10-22
+  - title: Savannah City Council minutes, Oct. 22, 2026
+    publisher: City of Savannah
+    url: https://agenda.savannahga.gov/content/files/exhibit-1_agenda-plus-rm-draft-minutes-october-22-2026-city-council-regular-meeting-watermark.pdf
     date: 2026-10-22
   - title: Contract for DOT Transit Services with Chatham Area Transit
     publisher: City of Savannah
@@ -42,10 +65,17 @@ sources:
     publisher: Chatham Area Transit Authority
     url: https://savannahagenda.com/wp-content/uploads/2026/07/5.2-Board-Action-Item-Circulatory-Transit-Services-DOT-Shuttle-Agreement.pdf
     date: 2026-07-28
+  - title: Week in Review - Aug. 30-Sept. 5
+    publisher: Savannah Agenda
+    url: https://savannahagenda.com/week-in-review-aug-30-sept-5/
+    date: 2026-09-05
   - title: Savannah renews downtown shuttle contract, with calls for expansion
     publisher: Savannah Morning News
     url: https://www.aol.com/articles/savannah-renews-downtown-shuttle-contract-090524000.html
     date: 2026-10-26
+  - title: DOT shuttle
+    publisher: Chatham Area Transit Authority
+    url: https://catchacat.org/getting-around/zero-fare/dot-express-shuttle/
 featured: false
 verification:
   writer:
@@ -57,12 +87,12 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the council action, vote, routes, fare-free service, and current operation. Corrected the cost average, performance-standard timing, funding wording, CAT approval date, and source list.
+  notes: Confirmed the renewal, routes, funding, service standards, votes, and current operation. Corrected the contract end date and added the accountable people, structured vote, and supporting sources.
 source_key: savannah-council-actionminutes-2026-10-22-12
 ---
 
-Savannah's DOT shuttle is free to ride, and the city just approved up to $7.9 million to keep it running for three more years. Downtown service runs from Johnson Square south to Victory Drive and includes an east-west line to Eastern Wharf. Another route links the west side neighborhoods of Carver Village and Cloverdale with downtown. You don't need a ticket or a pass. Just get on.
+Savannah's DOT shuttle is free to ride, and the city approved up to $7.9 million to keep it running through June 2029. Downtown service runs from Johnson Square south to Victory Drive and includes an east-west line to Eastern Wharf. Another route links the west side neighborhoods of Carver Village and Cloverdale with downtown. You don't need a ticket or a pass. Just get on.
 
-On Oct. 22, 2026, the Savannah City Council approved the contract with Chatham Area Transit, averaging about $2.65 million a year. The agreement requires at least two buses in active service and headways no longer than 15 minutes. Enforcement of the new service standards and financial penalties starts in January 2027.
+On Oct. 22, 2026, the Savannah City Council approved the contract with Chatham Area Transit. The three-year contract averages about $2.65 million a year. It requires at least two buses in active service and headways no longer than 15 minutes. Enforcement of the new service standards and financial penalties starts in January 2027.
 
-The contract is paid from the city's Parking Services Fund. Parking and Mobility Services' enterprise-fund revenue, including paid parking, is restricted to mobility projects. The council voted 6-2. Alderwomen Bernetta Lanier and Alicia Miller Blakely voted no. Lanier asked whether the routes reach the neighborhoods that need free rides most, and Blakely wanted a contract that renewed year by year. Alderman Kurtis Purtee asked city staff to price out a new route running south from Georgia Southern's Armstrong Campus to downtown.
+The contract is paid from the city's Parking Services Fund. Parking and Mobility Services' enterprise-fund revenue, including paid parking, is restricted to mobility projects. City Manager Jay Melder recommended approval. Mayor Van Johnson defended renewing the existing service with CAT. CAT Board Chair Detric Leggett led the board when it approved the agreement on July 28. The council voted 6-2, with Leggett recused. Alderwomen Bernetta Lanier and Alicia Miller Blakely voted no. Lanier asked whether the routes reach the neighborhoods that need free rides most, and Blakely wanted a contract renewed year by year. Alderman Kurtis Purtee asked city staff to price a route from Georgia Southern's Armstrong Campus to downtown.

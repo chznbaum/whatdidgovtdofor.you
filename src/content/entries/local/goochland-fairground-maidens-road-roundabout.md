@@ -20,18 +20,32 @@ impact:
     label: year the county expects construction to finish
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: Funded but not yet built. The county's schedule has design from 2026 to 2028, land purchases from 2028 to 2029, and construction from 2029 to 2030.
   source: https://www.goochlandva.us/1276/Fairground-RoadMaidens-Road-Intersection
 credit:
+  - official: jonathan-christy
+    role: led
+    note: Chaired the board that approved the appropriation on Feb. 3, 2026
   - official: goochland-board-of-supervisors
     role: voted-yes
-    note: Approved the money 5–0 after a public hearing. Thomas Winfree made the motion and Jonathan Lyle seconded it.
+    note: Approved the appropriation 5–0 after a public hearing
 votes:
   - chamber: Goochland County Board of Supervisors
     date: 2026-02-03
     yes: 5
     no: 0
+    members:
+      - official: jonathan-lyle
+        vote: yes
+      - official: neil-spoonhower
+        vote: yes
+      - official: charlie-vaughters
+        vote: yes
+      - official: tom-winfree
+        vote: yes
+      - official: jonathan-christy
+        vote: yes
     source: https://goochlandcountyva.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1606
 sources:
   - title: Board of Supervisors Regular Meeting minutes, Feb. 3, 2026
@@ -52,6 +66,10 @@ sources:
     publisher: Goochland County
     url: https://goochlandva.new.swagit.com/videos/373916
     date: 2026-02-03
+  - title: Resolution electing 2026 chair and vice-chair
+    publisher: Goochland County
+    url: https://www.goochlandva.us/DocumentCenter/View/12929/2026-Chair---Vice-Chair---Approved
+    date: 2026-01-06
 featured: false
 verification:
   writer:
@@ -61,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the appropriation, 5–0 vote, project cost, funding sources, and current 2029–2030 schedule. Narrowed unsupported claims and added direct financial sources.
+  notes: Confirmed the appropriation, project cost, funding sources, schedule, and current design status. Added the board chair required by the credit rules and all five named votes from the official roll call.
 source_key: goochland-council-iqm2-1606-6550
 ---
 
@@ -71,4 +89,4 @@ Goochland County is replacing the intersection of Fairground Road and Maidens Ro
 
 You don't need to do anything to benefit. Once it opens, anyone who drives through the intersection will use it. The county estimates the whole project at about $8.47 million. Its schedule calls for design work through 2028, buying land from 2028 to 2029, and construction from 2029 to 2030.
 
-On Feb. 3, 2026, after a public hearing, the Board of Supervisors voted 5–0 to move $3.29 million into the county's capital projects fund for the roundabout. Thomas Winfree made the motion and Jonathan Lyle seconded it. The money doesn't come from cuts to services. It comes from road payments developers made as a condition of their projects ($364,199 and $146,616 from two road funds) and $2,779,185 of Goochland's share of the Central Virginia Transportation Authority's regional transportation money.
+On Feb. 3, 2026, Chair Jonathan Christy led the Board of Supervisors meeting where supervisors voted 5–0, after a public hearing, to move $3.29 million into the county's capital projects fund for the roundabout. The appropriation did not draw on the county's general fund. It used road payments developers made as conditions of their projects ($364,199 and $146,616 from two proffer accounts) and $2,779,185 of Goochland's share of the Central Virginia Transportation Authority's regional transportation money.

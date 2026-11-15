@@ -22,13 +22,16 @@ impact:
     label: new 10-foot-wide shared path for walking and biking
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Board of Supervisors awarded the construction contract to Sagres Construction Corp. on Oct. 13, 2026. The county expects completion in 2028; the path and bike lanes are not open yet.
   source: https://henrico.gov/projects/libbie-avenue-road-improvements/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the Board that unanimously approved the contract award on Oct. 13, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
-    note: Awarded the $3.7 million construction contract on Oct. 13, 2026
+    note: Unanimously awarded the $3.7 million construction contract on Oct. 13, 2026
 sources:
   - title: "Board of Supervisors meeting recap for Oct. 13: Board recognizes Down Syndrome Awareness Month, awards contract for Lakeside Community Trail"
     publisher: Henrico County
@@ -38,10 +41,14 @@ sources:
     publisher: Henrico County
     url: https://henrico.gov/pdfs/manager/meetings2026/101326ag.pdf
     date: 2026-10-13
-  - title: Henrico eyeing new $4M bike and pedestrian path on Libbie Ave.
-    publisher: Richmond BizSense
-    url: https://richmondbizsense.com/2024/02/06/henrico-eyeing-new-4m-bike-and-pedestrian-path-on-libbie-ave/
-    date: 2024-02-06
+  - title: Board of Supervisors regular meeting minutes, Oct. 13, 2026
+    publisher: Henrico County
+    url: https://henrico.gov/pdfs/manager/meetings2026/101326regmins.PDF
+    date: 2026-10-13
+  - title: Libbie Avenue Road Diet project manual, ITB No. 26-2940-3EAR
+    publisher: Henrico County
+    url: https://govtribe.com/file/government-file/830880roadhenr-dot-pdf
+    date: 2026-06-29
   - title: Libbie Avenue Road Improvements
     publisher: Henrico County
     url: https://henrico.gov/projects/libbie-avenue-road-improvements/
@@ -53,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the unanimous contract award, project scope, funding mix, and incomplete status. Corrected the protected-lane wording, official resolution metadata, and unsupported or premature construction language.
+  notes: Confirmed the contract award, project scope, funding, unanimous vote and incomplete status. Added the required named chair credit and replaced the inaccessible funding citation with the county’s project manual.
 source_key: henrico-news-180167-awarded-3-7-million-libbie-avenue-road-diet-contract
 ---
 
@@ -63,4 +70,4 @@ Libbie Avenue just north of West Broad Street will be rebuilt so it's safer to w
 
 Anyone can use it, with nothing to sign up for. The new path and bike lanes will connect the Broad Street shopping area and Libbie Mill-Midtown with the shared path the county is building along Bethlehem Road.
 
-Henrico's Department of Public Works presented the design at a public meeting in October 2024. Richmond BizSense reported then that it would be paid for with a mix of local and federal money. On Oct. 13, 2026, the Henrico Board of Supervisors unanimously awarded Sagres Construction Corp. the $3.7 million contract to build it. The county expects the project to be completed in 2028, so the path and lanes aren't open yet.
+Henrico's Department of Public Works held a public meeting on the design in October 2024. The county's project manual says the work is paid for with Regional Surface Transportation Program funds and local money. On Oct. 13, 2026, Roscoe D. Cooper III chaired the Henrico Board of Supervisors as it unanimously awarded Sagres Construction Corp. the $3.7 million contract to build it. The county expects the project to be completed in 2028, so the path and lanes aren't open yet.

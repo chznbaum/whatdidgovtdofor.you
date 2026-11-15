@@ -25,13 +25,10 @@ impact:
     label: occupied homes within the dam-break inundation zone
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: Portsmouth City Council accepted and budgeted the money on Sept. 22, 2026 for Phase 1 of the dam work. FEMA had announced in 2023 that it would award $24.21 million for the project, pending further review, before the Trump administration canceled pending BRIC applications in April 2025. After a federal judge ordered FEMA to restore the program, FEMA approved $5.2 million for the Lake Meade project in July 2026.
   source: https://content.civicplus.com/api/assets/va-portsmouth/ced11ef6-4507-499d-9fa7-f3e68816067e
 credit:
-  - official: portsmouth-city-council
-    role: voted-yes
-    note: Voted 6–0 to accept the money and add it to the FY 2027 capital budget
   - official: mark-warner
     role: championed
     note: Led an April 2025 letter urging DHS to reverse the cancellation of the dam's funding
@@ -44,6 +41,12 @@ credit:
   - official: jennifer-mcclellan
     role: championed
     note: Co-signed the April 2025 letter urging DHS to restore the dam's funding
+  - official: shannon-glover
+    role: led
+    note: Presided over the City Council meeting that accepted and budgeted the funding
+  - official: portsmouth-city-council
+    role: voted-yes
+    note: Voted 6–0 to accept the money and add it to the FY 2027 capital budget
 votes:
   - chamber: Portsmouth City Council
     date: 2026-09-22
@@ -86,9 +89,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the current grant, council vote, dam risks, court-ordered BRIC restoration, and lawmakers’ roles. Corrected the water-customer count, earlier grant status, missing credit, and vote citation.
+  notes: Confirmed the grant amount, council vote, water-system reach, dam risks, BRIC history, lawmakers’ advocacy, and current status. Added the required individual credit for the council’s presiding officer, fixed credit order, and updated the status check date.
 source_key: portsmouth-council-f4c3ff8d-aa26-447b-892f-7214c4533963-26-220b
 ---
 

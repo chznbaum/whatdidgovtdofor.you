@@ -26,9 +26,15 @@ status:
   note: Saint Paul reported on June 10, 2026 that construction could begin in late 2027 or early 2028, contingent on securing Minnesota Housing funding. We found no later official notice that construction had begun.
   source: https://stpaul.legistar.com/View.ashx?GUID=77BF9748-0561-4256-AA29-4826DD0AFBB5&ID=1422201&M=PA
 credit:
-  - official: ramsey-county-housing-and-redevelopment-authority
+  - official: mai-chong-xiong
     role: led
+    note: Chaired the Ramsey County Housing and Redevelopment Authority when it committed the funding
+  - official: ramsey-county-housing-and-redevelopment-authority
+    role: voted-yes
     note: Accepted Ramsey County's federal award in January 2026 and committed $1.2 million to F2F@Arcade in July
+  - official: charlie-zelle
+    role: led
+    note: Chaired the Metropolitan Council when it applied as lead grantee and received the $4 million federal award
   - official: metropolitan-council
     role: secured-funding
     note: Applied as lead grantee with Hennepin and Ramsey counties and won the regional federal PRO Housing grant
@@ -49,9 +55,10 @@ sources:
     publisher: Saint Paul Housing and Redevelopment Authority
     url: https://stpaul.legistar.com/View.ashx?GUID=77BF9748-0561-4256-AA29-4826DD0AFBB5&ID=1422201&M=PA
     date: 2026-06-10
-  - title: 2025 Metropolitan Livable Communities Fund Annual Report
+  - title: Met Council announces federal grant to address affordable housing shortage
     publisher: Metropolitan Council
-    url: https://www.lrl.mn.gov/docs/2026/mandated/260715.pdf
+    url: https://metrocouncil.org/News-Events/Council-News/Newsletters/Met-Council-Announces-Federal-Grant-HUD.aspx
+    date: 2024-06-27
 featured: false
 verification:
   writer:
@@ -63,7 +70,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the county grant and approving resolution. Updated the apartment eligibility, income limits, and construction timeline using newer official project records.
+  notes: Confirmed the $1.2 million obligation, project details, affordability period, vote date, and current preconstruction status. Corrected the credits so each participating body is preceded by the person who led it.
 source_key: ramsey-2026-243
 ---
 

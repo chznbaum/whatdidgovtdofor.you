@@ -26,6 +26,9 @@ status:
   note: The county's latest update, dated Oct. 27, said right-of-way acquisition was complete and the contractor was expected to begin in early November 2026 and finish by August 2027; it did not confirm that construction had started.
   source: https://www.chesterfield.gov/m/newsflash?cat=96
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the Board of Supervisors when it authorized the construction contract
   - official: chesterfield-board-of-supervisors
     role: voted-yes
     note: Voted 5–0 to authorize the construction contract and allow change orders up to the full project budget
@@ -51,9 +54,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract, project scope, figures, and unanimous vote. Updated the construction status from the county’s October 27 project report and corrected the board’s credited role.
+  notes: Confirmed the contract award, project scope, unanimous vote, and Oct. 27 construction update. Added the Board chair before the collective body to meet the site’s credit standard.
 source_key: chesterfield-council-2026-15-b-7
 ---
 

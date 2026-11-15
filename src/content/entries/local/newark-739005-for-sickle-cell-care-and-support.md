@@ -21,9 +21,15 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
+  - official: ketlen-baptiste-alsbrook
+    role: secured-funding
+    note: As health department director, submitted the city's grant application on Sept. 10, 2026
   - official: newark-department-of-health-and-community-wellness
     role: secured-funding
     note: Applied for the state grant and operates the medical care, support and education it funds
+  - official: luis-quintana
+    role: led
+    note: Council president when the Municipal Council accepted the grant and adopted the emergency appropriation
   - official: newark-municipal-council
     role: voted-yes
     note: Accepted the grant on Oct. 21 and adopted the emergency appropriation on Nov. 5, 2026
@@ -34,13 +40,13 @@ sources:
     date: 2026-10-21
   - title: File 26-1406, temporary emergency appropriation for the Sickle Cell Disease Pilot Program
     publisher: City of Newark Municipal Council (Legistar)
-    url: https://newark.legistar.com/gateway.aspx?M=L&ID=1612398
+    url: https://newark.legistar.com/LegislationDetail.aspx?GUID=BFF65007-F65C-498B-8462-2B1E5FA58B1F&ID=8303305&Options=&Search=
     date: 2026-11-05
   - title: P.L. 2023, Chapter 242 (A4052), Sickle Cell Disease Pilot Program
     publisher: New Jersey Legislature
     url: https://pub.njleg.gov/Bills/2022/PL23/242_.HTM
     date: 2024-01-08
-  - title: New Jersey Department of Health highlights the Sickle Cell Disease Pilot Program
+  - title: New Jersey Department of Health Celebrates Newborn Screening Awareness Month, Public Health Laboratory Appreciation Month and Continues to Lead Robust Newborn Screening Efforts Statewide
     publisher: New Jersey Department of Health
     url: https://www.nj.gov/health/news/2026/approved/20260923a.shtml
     date: 2026-09-23
@@ -55,7 +61,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amount, service period, local contribution, program purpose, adoption, and current status. Corrected the action identifier and credited the Newark bodies responsible for obtaining and budgeting this particular grant.
+  notes: Confirmed the grant amount, award period, no-city-match term, appropriation, program scope, and current status. Added the named department director and council president required before the credited bodies.
 source_key: newark-26-1406
 ---
 

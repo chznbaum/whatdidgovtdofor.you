@@ -1,6 +1,6 @@
 ---
 title: Norfolk court, tax-office and mental health workers get at least 3.5% raises
-dek: Starting Aug. 1, 2026, Norfolk funded raises of at least 3.5% for constitutional officers and full-time staff, the General Registrar, Electoral Board members and Norfolk CSB's full-time workers. State-supported constitutional-office staff also got one-time 2% bonuses.
+dek: Starting Aug. 1, 2026, Norfolk funded raises of at least 3.5% for constitutional officers and full-time staff, the General Registrar, Electoral Board members and Norfolk CSB's full-time workers. State-supported constitutional officers and staff also got one-time 2% bonuses.
 level: local
 jurisdiction: norfolk
 action:
@@ -12,16 +12,19 @@ action:
 topics:
   - work
   - health
-who_benefits: Norfolk's locally elected constitutional officers and their full-time employees, the General Registrar, Electoral Board members and full-time Community Services Board employees; state-supported constitutional-office staff are also covered by the one-time bonus.
+who_benefits: Norfolk's locally elected constitutional officers and their full-time employees, the General Registrar, Electoral Board members and full-time Community Services Board employees; state-supported constitutional officers and their employees are also covered by the one-time bonus.
 impact:
   - figure: 3.5%+
     label: minimum base pay raise for full-time staff covered by the ordinance
   - figure: 2%
-    label: one-time bonus for state-supported constitutional office employees
+    label: one-time bonus for state-supported constitutional officers and their employees
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: kenny-alexander
+    role: led
+    note: Presided over the council meeting that approved the ordinance
   - official: norfolk-city-council
     role: voted-yes
     note: Approved the ordinance unanimously, 8–0
@@ -45,9 +48,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the raises, bonuses, unanimous vote and current status. Corrected the effective date and removed registrar-office employees, whom the ordinance does not cover.
+  notes: Confirmed the ordinance, covered workers, effective date, statewide funding, 8–0 vote and current status. Added presiding Mayor Kenneth Alexander before the council and corrected the bonus descriptions to include constitutional officers themselves.
 source_key: norfolk-council-1310-ordinance-no-50448
 ---
 
@@ -55,4 +58,4 @@ Norfolk's constitutional officers—the sheriff, court clerk, treasurer, commiss
 
 Effective Aug. 1, 2026, the constitutional officers and their full-time employees, the General Registrar, Electoral Board members and full-time Community Services Board employees got base pay increases of at least 3.5%. Because these are base-pay increases, they carry forward into later paychecks. The ordinance also funded one-time 2% bonuses for state-supported constitutional officers and their state-supported employees. The city handled the changes through payroll; no application was needed.
 
-Virginia's 2026–2028 budget set the Aug. 1 effective date and supplied $51,956,892 statewide in FY2027 for these 3.5% raises, provided local governing authorities used the money for the listed workers. Norfolk City Council approved its budget amendment unanimously, 8–0, on July 14, 2026. The published agenda gives neither a Norfolk-specific total cost nor a worker count.
+Virginia's 2026–2028 budget set the Aug. 1 effective date and supplied $51,956,892 statewide in FY2027 for these 3.5% raises, provided local governing authorities used the money for the listed workers. Mayor Kenneth Alexander presided as Norfolk City Council approved its budget amendment unanimously, 8–0, on July 14, 2026. The published council record gives neither a Norfolk-specific total cost nor a worker count.

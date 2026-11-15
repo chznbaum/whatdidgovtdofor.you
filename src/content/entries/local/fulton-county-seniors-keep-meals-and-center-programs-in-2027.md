@@ -1,6 +1,6 @@
 ---
 title: Fulton seniors keep daily meals and programs at neighborhood centers in 2027
-dek: Fulton County approved $4.36 million so three local providers keep running group meals, case management, volunteer services and neighborhood senior centers for residents 60 and older through December 2027.
+dek: Fulton County authorized up to $4.36 million so three local providers can keep running group meals, case management, volunteer services and neighborhood senior centers for residents 60 and older through December 2027.
 level: local
 jurisdiction: fulton-county
 action:
@@ -15,24 +15,21 @@ topics:
 who_benefits: Fulton County residents aged 60 and older who use the county's neighborhood senior centers, group meals and case management.
 impact:
   - figure: $4.36 million
-    label: for senior meals, case management and center programs in 2027
+    label: maximum for senior meals, case management and center programs in 2027
   - figure: 60+
     label: age of Fulton County residents eligible for the services
 status:
   state: phasing-in
   as_of: 2026-11-14
   note: Approved on Nov. 4, 2026; the renewal begins Jan. 1, 2027 and runs through Dec. 31, 2027.
-  source: https://fulton.legistar.com/gateway.aspx?M=L&ID=16552
+  source: https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=
 credit:
-  - official: fulton-county-department-of-senior-services
+  - official: kweli-rashied-henry
     role: proposed
-    note: Recommended renewing the three providers' contracts
-  - official: khadijah-abdur-rahman
-    role: voted-yes
-    note: Vice Chair; moved approval
-  - official: dana-barrett
-    role: voted-yes
-    note: Seconded the motion
+    note: Interim director of the department that recommended the renewals
+  - official: robb-pitts
+    role: led
+    note: Chaired the board that approved the renewals on Nov. 4, 2026
   - official: fulton-county-board-of-commissioners
     role: voted-yes
     note: Approved the renewal 6–0
@@ -48,11 +45,24 @@ votes:
       R:
         yes: 2
         no: 0
+    members:
+      - official: robb-pitts
+        vote: yes
+      - official: bridget-thorne
+        vote: yes
+      - official: bob-ellis
+        vote: yes
+      - official: dana-barrett
+        vote: yes
+      - official: marvin-arrington
+        vote: yes
+      - official: khadijah-abdur-rahman
+        vote: yes
     source: https://fulton.legistar.com/gateway.aspx?M=L&ID=16552
 sources:
   - title: "File 26-0752: Senior Services Aging Services contract renewals"
     publisher: Fulton County Board of Commissioners
-    url: https://fulton.legistar.com/gateway.aspx?M=L&ID=16552
+    url: https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=
     date: 2026-11-04
   - title: Senior Centers
     publisher: Fulton County Department of Senior Services
@@ -67,7 +77,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the approval, vote, funding, providers, service scope, eligibility and 2027 term. Corrected the future-effective status and narrowed two body claims to what the county records support.
+  notes: Confirmed the approval, services, eligibility, term, roll call and center count. Corrected the funding ceiling and credit chain using the county’s [official staff report](https://fulton.legistar.com/LegislationDetail.aspx?FullText=1&GUID=85CE8687-C3F8-448D-88F6-0FD7045E97D2&ID=8305257&Options=&Search=).
 source_key: fulton-county-26-0752
 ---
 
@@ -75,4 +85,4 @@ If you live in Fulton County and are 60 or older, you can keep going to a neighb
 
 The county lists 14 neighborhood centers, from Roswell and Alpharetta in the north to Palmetto and Fairburn in the south, along with several in Atlanta. County staff say the program also keeps seniors from becoming isolated and inactive. To find a center, call the one nearest you or the county's Department of Senior Services.
 
-The Department of Senior Services recommended the renewal. Vice Chair Khadijah Abdur-Rahman moved to approve it, Commissioner Dana Barrett seconded, and the Board of Commissioners passed it 6–0 on Nov. 4, 2026, with Democrats and Republicans both voting yes. It pays up to $4,363,792.43 from county money and grants for Jan. 1 through Dec. 31, 2027. This is the last of four one-year renewals allowed under the original 2022 contracts. No renewal options remain after 2027.
+Interim Senior Services Director Kweli Rashied-Henry headed the department that recommended the renewal. Chairman Robb Pitts led the meeting, and the Board of Commissioners passed it 6–0 on Nov. 4, 2026, with Democrats and Republicans both voting yes. It authorizes up to $4,363,792.43 from county money and grants, including $685,370.28 listed as pending a grant award, for Jan. 1 through Dec. 31, 2027. This is the last of four one-year renewals allowed under the original 2022 contracts. No renewal options remain after 2027.

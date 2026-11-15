@@ -22,16 +22,19 @@ impact:
     label: gallons a day of emergency supply the county could tap, plus Doswell's plant
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Board approved the money on March 25, 2026, and the county said the work would be done within about a year. We couldn't find confirmation that the pumps or pump station upgrades are in service yet.
   source: https://engage.hanovercounty.gov/waterplan
 credit:
-  - official: hanover-board-of-supervisors
-    role: voted-yes
-    note: Authorized the $4 million on March 25, 2026
   - official: matt-longshore
     role: proposed
     note: Director of Public Utilities; presented the water supply resilience study and its short-term fixes
+  - official: sean-davis
+    role: led
+    note: Chaired the Board of Supervisors when it authorized the improvements
+  - official: hanover-board-of-supervisors
+    role: voted-yes
+    note: Authorized the $4 million on March 25, 2026
 sources:
   - title: Hanover Board Brief | March 25, 2026
     publisher: Hanover County
@@ -55,9 +58,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the authorization, amounts, funding source, and current phasing-in status. Narrowed the outage and beneficiary claims and clarified how the backup system works.
+  notes: Confirmed the authorization, engineering figures, outage history, funding source, beneficiaries, and current rollout status. Corrected the credit order and added the board chair required by the body-credit rule.
 source_key: hanover-news-1098-authorized-4-million-for-short-term-water-resilience-improve
 ---
 

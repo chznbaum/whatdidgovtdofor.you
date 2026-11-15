@@ -18,10 +18,13 @@ impact:
     label: construction contract awarded to M&F Concrete
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Henrico Board of Supervisors awarded the construction contract on Oct. 13, 2026. As of this check, the sidewalks were not yet complete.
   source: https://henrico.gov/news/2026/10/board-of-supervisors-meeting-recap-for-oct-13-board-recognizes-down-syndrome-awareness-month-awards-contract-for-lakeside-community-trail/
 credit:
+  - official: roscoe-cooper
+    role: led
+    note: Chaired the board that awarded the construction contract on Oct. 13, 2026
   - official: henrico-board-of-supervisors
     role: voted-yes
     note: Awarded the construction contract on Oct. 13, 2026
@@ -38,9 +41,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract date, contractor, scope, cost, ramps, and current construction status against Henrico County records. Corrected the Board’s credit role and the cited page’s publication date.
+  notes: Confirmed the contract, scope, cost, approval date, vote, and current construction status against Henrico’s recap, agenda, minutes, and project page. Added the board chair required by the person-first credit standard and refreshed the status date.
 source_key: henrico-news-180167-awarded-laburnum-avenue-sidewalk-contract
 ---
 

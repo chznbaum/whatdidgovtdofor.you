@@ -22,8 +22,11 @@ impact:
     label: added to this year's grant in August 2026
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that approved the amendment on Aug. 4, 2026
   - official: hennepin-county-board
     role: voted-yes
     note: Approved accepting the added state money for NorthPoint, the health center the county runs with an independent patient-majority board
@@ -36,6 +39,10 @@ sources:
     publisher: Hennepin County (Legistar)
     url: https://webapi.legistar.com/v1/hennepinmn/matters/4696/texts/4734
     date: 2026-08-04
+  - title: 2026 Hennepin County Board of Commissioners Organizational Structure
+    publisher: Hennepin County Board of Commissioners
+    url: https://hennepinmn.legistar.com/LegislationDetail.aspx?GUID=50B450B0-B386-4489-BF9E-D714A616D209&ID=7793385
+    date: 2026-01-06
   - title: "Minn. Stat. § 145.9269: Federally qualified health centers"
     publisher: Minnesota Office of the Revisor of Statutes
     url: https://www.revisor.mn.gov/statutes/cite/145.9269
@@ -47,9 +54,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amount, amendment, services, dates, statutory formula, and current status. Corrected the county’s role and two descriptions that went beyond the official record.
+  notes: Confirmed the grant amount, services, dates, statutory formula, net benefit, and current status. Added the board chair required by the site’s credit rules and updated the status check date.
 source_key: hennepin-26-0250-r1
 ---
 

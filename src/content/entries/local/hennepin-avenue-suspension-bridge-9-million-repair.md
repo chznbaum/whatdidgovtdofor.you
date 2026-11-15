@@ -23,22 +23,28 @@ impact:
     label: years crews are scheduled to work on the bridge
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The grant is approved, and the county lists 2026 as a survey and monitoring year. Construction on the full bridge is scheduled for 2027 and 2028.
   source: https://www.hennepincounty.gov/services/roads-bridges/construction-projects/hennepin-avenue-bridge-preservation
 credit:
-  - official: hennepin-county-board
-    role: led
-    note: Approved the grant agreement and pledged that the county would finish the project if its cost exceeded the $9 million grant
-  - official: sandy-pappas
-    role: secured-funding
-    note: Senate author of the 2025 bonding law, which put $11 million into grants for major local bridges
-  - official: fue-lee
-    role: secured-funding
-    note: House co-author of the 2025 bonding law
   - official: mary-franson
     role: secured-funding
-    note: House co-author of the 2025 bonding law
+    note: House sponsor and co-chair of the Capital Investment Committee for the 2025 bonding law
+  - official: sandy-pappas
+    role: secured-funding
+    note: Senate sponsor and chair of the Capital Investment Committee for the 2025 bonding law
+  - official: fue-lee
+    role: secured-funding
+    note: House co-author and co-chair of the Capital Investment Committee for the 2025 bonding law
+  - official: nancy-daubenberger
+    role: issued
+    note: Led MnDOT when the agency made the $9 million grant available to Hennepin County
+  - official: irene-fernando
+    role: led
+    note: Chaired the Hennepin County Board when it adopted Resolution 26-0306
+  - official: hennepin-county-board
+    role: voted-yes
+    note: Approved the grant agreement and pledged that the county would finish the project if its cost exceeded the $9 million grant
   - official: tim-walz
     role: signed
     note: Signed the 2025 bonding law on June 14, 2025
@@ -57,6 +63,13 @@ sources:
     publisher: Minnesota Office of the Revisor of Statutes
     url: https://www.revisor.mn.gov/bills/94/2025/1/HF/18
     date: 2025-06-14
+  - title: Hennepin County Board minutes, January 6, 2026
+    publisher: Hennepin County Board of Commissioners
+    url: https://hennepinmn.legistar.com/View.ashx?GUID=E9241AF1-DB97-4E23-B533-4A3E1913E717&ID=15132470&M=F
+    date: 2026-01-06
+  - title: Commissioner Nancy Daubenberger
+    publisher: Minnesota Department of Transportation
+    url: https://www.dot.state.mn.us/about/commissionerbio.html
 featured: false
 verification:
   writer:
@@ -66,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amount, dates, project schedule, bonding-law authors, vote totals and current status against official county and legislative records. Corrected the County Board’s role and replaced an inaccessible source link.
+  notes: Confirmed the grant, project scope, schedule, prior design grant, bonding law, legislative votes and current status. Corrected the credits to name the officials responsible for the state grant and county-board action.
 source_key: hennepin-26-0306
 ---
 
@@ -76,4 +89,4 @@ The Hennepin Avenue Bridge carries traffic over the Mississippi River between do
 
 Nobody has to apply for anything. Crews are scheduled to work on the bridge in 2027 and 2028. The bridge will close at times and traffic will be detoured, and the county says it will announce closures ahead of time.
 
-County staff developed the project. In 2025 the Hennepin County Board accepted a $3.5 million state grant for design, and on Sept. 15, 2026 it approved the $9 million grant for the repairs. The board also pledged that the county would finish the project if its cost exceeded the $9 million grant. The money comes from state bonds in the 2025 bonding law. That law set aside $11 million for major local bridges. Sen. Sandy Pappas and Reps. Fue Lee and Mary Franson carried it, and it passed the House 116–15 and the Senate 57–10. Gov. Tim Walz signed it on June 14, 2025.
+County staff developed the project. In 2025 the Hennepin County Board accepted a $3.5 million state grant for design. The money for the new grant comes from state bonds in the 2025 bonding law, which set aside $11 million for major local bridges. Rep. Mary Franson and Sen. Sandy Pappas sponsored the bonding law, and Rep. Fue Lee was its other House author. It passed the House 116–15 and the Senate 57–10, and Gov. Tim Walz signed it on June 14, 2025. Transportation Commissioner Nancy Daubenberger led MnDOT when the agency awarded the $9 million grant. On Sept. 15, 2026, Board Chair Irene Fernando led the county board that accepted it and pledged that the county would finish the project if its cost exceeded the grant.

@@ -24,15 +24,15 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
+  - official: joseph-kunkel
+    role: proposed
+    note: Submitted the Public Works Department's request to approve the agreement
+  - official: jerry-demings
+    role: led
+    note: Presided over the Board of County Commissioners when it approved the agreement
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
     note: Approved the agreement unanimously as part of its Oct. 13, 2026 consent agenda
-  - official: mayra-uribe
-    role: voted-yes
-    note: Moved approval of the consent agenda containing the agreement
-  - official: maribel-gomez-cordero
-    role: voted-yes
-    note: Seconded the consent-agenda motion
 sources:
   - title: "26-1203: Service Funding Agreement (27-C007) with LYNX in the amount of $109,017,436"
     publisher: Orange County Board of County Commissioners (Legistar)
@@ -65,7 +65,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the agreement, vote, effective term, 83% share, officials, and current status. Corrected the prior-year amount and removed service improvements funded through a separate agreement.
+  notes: Confirmed the agreement, amounts, term, allocation, unanimous approval, and current status. Corrected the credits to name the department director who proposed the agreement and the mayor who presided over its approval.
 source_key: orange-county-fl-26-1203
 ---
 
@@ -73,4 +73,4 @@ If you ride a LYNX bus in Orange County, this agreement helps keep it running. T
 
 Orange County is LYNX's largest regional funding partner. It pays 83% of the local share for fixed-route bus service across LYNX's three-county area. This agreement is up from $95,275,909 in the comparable agreement for 2025-26. LYNX's FY2027 funding schedule assigns $105,983,161 of this agreement to operations and $3,034,275 to capital costs.
 
-The Board of County Commissioners approved the agreement unanimously as part of its consent agenda on Oct. 13, 2026. Commissioner Mayra Uribe moved to approve the balance of the consent agenda, and Commissioner Maribel Gomez Cordero seconded the motion.
+Orange County Public Works Director Joseph C. Kunkel asked the board to approve the agreement. Mayor Jerry Demings presided over the Board of County Commissioners when it approved the agreement unanimously as part of its consent agenda on Oct. 13, 2026.

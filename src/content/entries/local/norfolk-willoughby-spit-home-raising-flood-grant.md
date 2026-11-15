@@ -22,13 +22,39 @@ impact:
     label: grant-plus-match total across home mitigation and Phase 1A/1B work
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: About 20 owners had begun applications by April. The design-build RFQ closed on August 10, 2026; the solicitation calls for work to finish within 18 months of notice to proceed, and the grant application targets January 2029 completion.
   source: https://procurement.opengov.com/portal/norfolk/projects/270625
 credit:
+  - official: kenny-alexander
+    role: led
+    note: Served as mayor and presiding officer of the council that adopted the ordinance 8-0
   - official: norfolk-city-council
     role: voted-yes
     note: Adopted the appropriation unanimously on June 9, 2026
+votes:
+  - chamber: Norfolk City Council
+    date: 2026-06-09
+    yes: 8
+    no: 0
+    members:
+      - official: kenny-alexander
+        vote: yes
+      - official: carlos-clanton
+        vote: yes
+      - official: courtney-doyle
+        vote: yes
+      - official: mamie-johnson
+        vote: yes
+      - official: jeremy-mcgee
+        vote: yes
+      - official: john-paige
+        vote: yes
+      - official: thomas-smigiel-jr
+        vote: yes
+      - official: martin-thomas-jr
+        vote: yes
+    source: https://www.norfolk.gov/AgendaCenter/ViewFile/Minutes/_06092026-1304
 sources:
   - title: City Council June 9, 2026 minutes (Ordinance No. 50382)
     publisher: City of Norfolk
@@ -61,9 +87,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, unanimous vote, funding amounts, owner cost share, voluntary cohort, and project scope. Tightened the eligibility language and refreshed the still-active rollout status through November 13, 2026.
+  notes: Confirmed the ordinance, funding allocations, homeowner terms, project scope, procurement timeline, and active rollout through November 14, 2026. Added the required presiding-officer credit and the council’s complete 8–0 roll call.
 source_key: norfolk-council-1304-ordinance-no-50382
 ---
 
@@ -71,4 +97,4 @@ Willoughby Spit is vulnerable to coastal flooding. Norfolk's program offers prop
 
 The city opened enrollment in February 2026, and about 20 owners had begun applications by April. The work is fully funded by federal and nonfederal program money, so participating owners do not pay a direct share. The city also plans relocation assistance, including hotel or other temporary lodging, while a home is being raised.
 
-Virginia awarded Norfolk $24,986,500 through the Community Flood Preparedness Fund, and the grant requires an equal city match. A little more than half of each side—$13,075,000 from the grant and the same amount from the match—is budgeted for the nonstructural home program. Other money supports the ferry and Harbor Park work, Phase 1B design, the Clay Avenue Bridge, and Phase 1A East design. On June 9, 2026, Norfolk City Council voted unanimously to put the grant and match into the budget.
+Virginia awarded Norfolk $24,986,500 through the Community Flood Preparedness Fund, and the grant requires an equal city match. A little more than half of each side—$13,075,000 from the grant and the same amount from the match—is budgeted for the nonstructural home program. Other money supports the ferry and Harbor Park work, Phase 1B design, the Clay Avenue Bridge, and Phase 1A East design. Mayor Kenny Alexander presided over the June 9, 2026 meeting where Norfolk City Council voted 8–0 to put the grant and match into the budget.

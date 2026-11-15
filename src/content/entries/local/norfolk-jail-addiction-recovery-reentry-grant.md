@@ -19,8 +19,11 @@ impact:
     label: Norfolk City Council vote to accept and spend the grant
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
 credit:
+  - official: kenny-alexander
+    role: led
+    note: Presided over the council meeting that approved the grant on Sept. 29, 2026
   - official: norfolk-city-council
     role: voted-yes
     note: Adopted the ordinance unanimously, 8–0, on Sept. 29, 2026
@@ -29,6 +32,23 @@ votes:
     date: 2026-09-29
     yes: 8
     no: 0
+    members:
+      - official: kenny-alexander
+        vote: yes
+      - official: carlos-clanton
+        vote: yes
+      - official: courtney-doyle
+        vote: yes
+      - official: mamie-johnson
+        vote: yes
+      - official: jeremy-mcgee
+        vote: yes
+      - official: john-paige
+        vote: yes
+      - official: thomas-smigiel-jr
+        vote: yes
+      - official: martin-thomas-jr
+        vote: yes
     source: https://www.norfolk.gov/AgendaCenter/ViewFile/Minutes/_09292026-1322
 sources:
   - title: City Council minutes, September 29, 2026 (Ordinance No. 50513)
@@ -53,9 +73,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the ordinance, $150,000 appropriation, 8–0 vote, council credit, funding rules, and current status; removed claims that the cited sources did not substantiate.
+  notes: Confirmed the ordinance, grant terms, program services, $150,000 amount, eight-member unanimous vote, and current status. Added the required presiding officer credit and named roll-call members.
 source_key: norfolk-council-1322-ordinance-no-50513
 ---
 
@@ -63,4 +83,4 @@ Norfolk appropriated $150,000 in state money for the Norfolk Correctional Addict
 
 The Virginia Department of Criminal Justice Services runs the Jail-Based Substance Use Treatment Grant Program. State rules allow the money to pay for medication treatment, other recovery services, and reentry or transitional support. The Norfolk Sheriff's Office says its existing addiction-recovery program offers group and individual counseling, reentry classes, trauma-informed care, and release planning for participants with both substance-use and mental-health conditions. The public sources do not say how people enroll in the grant-funded program.
 
-Norfolk City Council voted 8–0 on September 29, 2026, to add the grant to the city's fiscal 2027 budget. The state grant rules require the money to add to, rather than replace, existing state or local funding, and they require no local match.
+Mayor Kenny Alexander presided over the meeting where Norfolk City Council voted 8–0 on September 29, 2026, to add the grant to the city's fiscal 2027 budget. The state grant rules require the money to add to, rather than replace, existing state or local funding, and they require no local match.

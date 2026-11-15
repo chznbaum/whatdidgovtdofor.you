@@ -25,14 +25,28 @@ status:
   note: The Board of Supervisors approved the election on July 22, 2026. VRS listed Chesterfield's EMT coverage as elected and effective Jan. 1, 2027 in its Sept. 17, 2026 Board materials.
   source: https://www.varetire.org/hi/media/members/pdf/board/materials/2026/bot-09-17-26.pdf
 credit:
+  - official: mark-miller
+    role: led
+    note: Chaired the board that approved the resolution on July 22, 2026
   - official: chesterfield-board-of-supervisors
     role: voted-yes
-    note: Approved the resolution 5-0 on a motion by Kevin Carroll, seconded by Jim Ingle
+    note: Approved the resolution 5-0
 votes:
   - chamber: Chesterfield County Board of Supervisors
     date: 2026-07-22
     yes: 5
     no: 0
+    members:
+      - official: mark-miller
+        vote: yes
+      - official: kevin-carroll
+        vote: yes
+      - official: james-ingle
+        vote: yes
+      - official: jessica-schneider
+        vote: yes
+      - official: lequan-hylton
+        vote: yes
     source: https://chesterfieldcova.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5235,plainText=false)
 sources:
   - title: Board of Supervisors Minutes, July 22, 2026
@@ -65,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the unanimous county action, benefit figures and Jan. 1, 2027 start date. VRS has since confirmed the coverage election, so I updated the status and qualified details that depend on retiree eligibility.
+  notes: Confirmed the benefit, figures, eligibility, unanimous approval and Jan. 1, 2027 effective date. Added the board chair required by the credit rules and the five named votes from the official minutes.
 source_key: chesterfield-council-2028-added-emts-to-enhanced-hazardous-duty-retirement-consultant-
 ---
 

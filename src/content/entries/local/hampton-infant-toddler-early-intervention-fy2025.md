@@ -24,6 +24,9 @@ status:
   state: delivered
   as_of: 2026-11-14
 credit:
+  - official: donnie-tuck
+    role: led
+    note: Presided over the council that approved the grant on Aug. 14, 2024
   - official: hampton-city-council
     role: voted-yes
     note: Approved the grant 6–0 with one abstention on Aug. 14, 2024
@@ -38,6 +41,10 @@ sources:
   - title: Roll call on File 24-0330, Aug. 14, 2024 legislative session
     publisher: City of Hampton (Legistar Web API)
     url: https://webapi.legistar.com/v1/hampton/eventitems/36548/votes
+    date: 2024-08-14
+  - title: Hampton City Council legislative session record, Aug. 14, 2024
+    publisher: Open Publica
+    url: https://www.openpublica.com/meetings/hampton-virginia-city-council-2024-08-14-6a6fd567ef89feec72de7ef4
     date: 2024-08-14
   - title: Infant & Toddler Connection of Virginia
     publisher: Infant & Toddler Connection of Virginia
@@ -60,7 +67,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the grant amount, funding sources, service period, program delivery, eligibility, and 6–0 vote with one abstention. Tightened the entry to distinguish awarded funding from documented spending and restored the resolution’s official title.
+  notes: Confirmed the award, funding split, grant period, services, eligibility, delivery evidence and council vote. Added the mayor who presided over the approving council, as required by the credit standard.
 source_key: hampton-24-0330
 ---
 
@@ -68,4 +75,4 @@ When a baby or toddler in Hampton or Newport News isn't developing as expected, 
 
 The program serves children under age 3 and their families. Services usually happen in everyday places like home or day care. Families or doctors can make a referral, a diagnosis isn't required, and Virginia's program says services are available whatever a family can pay.
 
-The $1,054,177 award combined federal Individuals with Disabilities Education Act funding ($258,947) and Virginia funding ($795,230). It reached the city through the state Department of Behavioral Health and Developmental Services. Hampton didn't have to put up any matching money. The city has received this award for 23 years, and city staff noted that the number of children served has grown almost every year. Hampton City Council approved the grant funding 6–0 on Aug. 14, 2024, with one member abstaining. This was the first year of a five-year grant that can be renewed.
+The $1,054,177 award combined federal Individuals with Disabilities Education Act funding ($258,947) and Virginia funding ($795,230). It reached the city through the state Department of Behavioral Health and Developmental Services. Hampton didn't have to put up any matching money. The city has received this award for 23 years, and city staff noted that the number of children served has grown almost every year. Mayor Donnie Tuck presided as Hampton City Council approved the grant funding 6–0 on Aug. 14, 2024, with one member abstaining. This was the first year of a five-year grant that can be renewed.

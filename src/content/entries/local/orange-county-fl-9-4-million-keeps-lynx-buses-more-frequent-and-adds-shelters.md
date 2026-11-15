@@ -23,12 +23,15 @@ status:
   state: in-effect
   as_of: 2026-11-14
 credit:
+  - official: joseph-kunkel
+    role: proposed
+    note: Public Works director who submitted the agreement and requested its approval
+  - official: jerry-demings
+    role: led
+    note: Chaired the board that approved the agreement and highlighted the 30-minute service and Pine Hills connections
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
-    note: Approved the agreement on Oct. 13, 2026, as part of $120.7 million in LYNX funding that ClickOrlando reported passed unanimously
-  - official: jerry-demings
-    role: signed
-    note: Orange County mayor and chair of the commission; pointed to the 30-minute service and Pine Hills connections the county's money paid for
+    note: Approved the agreement unanimously on Oct. 13, 2026, as part of more than $120.7 million in LYNX funding
 sources:
   - title: "26-1205: Bus Service Agreement 27-C011 with LYNX under the Accelerated Transportation Safety Program"
     publisher: Orange County Board of County Commissioners (Legistar)
@@ -60,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the unanimous approval, funding amount, service frequencies, shelter program, credits, and current status. Corrected the official action metadata, one source date and URL, and the description of the funding source.
+  notes: Confirmed the funding amount, service improvements, shelter program, unanimous approval, funding source, and current status. Corrected the credit to identify the official who submitted the agreement and to put people before the approving body.
 source_key: orange-county-fl-26-1205
 ---
 
@@ -68,4 +71,4 @@ If you ride LYNX in Orange County, this money keeps your bus coming more often. 
 
 The money comes from Orange County's Accelerated Transportation Safety Program. County and LYNX staff brought it to commissioners in June 2023 after voters rejected a transportation sales tax in 2022. Instead of a new tax, the county used existing sales-tax revenue to pay for about $100 million in transportation work over five years, with about $45 million going to LYNX. Early on, the program added Sunday buses every 30 minutes on Links 21, 37, 42 and 436S, weekday buses every 30 minutes on Link 40, and a new Link 311 from the airport to Disney Springs.
 
-County commissioners approved this year's agreement on Oct. 13, 2026, along with LYNX's main operating funding. Mayor Jerry Demings, who chairs the commission, credited the program with bringing 30-minute buses to heavily used routes.
+Public Works Director Joseph Kunkel submitted this year's agreement for approval. County commissioners approved it unanimously on Oct. 13, 2026, along with LYNX's main operating funding. Mayor Jerry Demings, who chairs the commission, credited the program with bringing 30-minute buses to heavily used routes.

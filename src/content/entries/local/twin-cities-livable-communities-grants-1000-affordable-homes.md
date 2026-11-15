@@ -26,18 +26,25 @@ impact:
     label: homes expected to be affordable to households with the lowest incomes
 status:
   state: phasing-in
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   note: The Metropolitan Council approved the grants on Aug. 12, 2026, and authorized its executive director of community development to sign the grant agreements. The awards cover planning, predevelopment, construction and cleanup projects that are rolling out on different schedules.
-  source: https://metrocouncil.org/News-Events/Housing/Newsletters/Met-Council-awards-first-grants-to-advance-Imagine.aspx
+  source: https://metrocouncil.org/getdoc/ab312bf8-69d6-4dba-9b0f-d6e0f1d0e12a/Minutes.aspx
 credit:
-  - official: metropolitan-council
+  - official: robin-hutcheson
     role: issued
-    note: Awarded the grants on a motion by Council Member Robert Lilligren, seconded by Council Member Victor Obisakin
+    note: Chaired the council that awarded the grants on Aug. 12, 2026
+  - official: metropolitan-council
+    role: voted-yes
+    note: Approved the 34 awards; the minutes record that the motion carried
 sources:
   - title: Metropolitan Council minutes, Aug. 12, 2026 (Business Item 2026-130)
     publisher: Metropolitan Council
     url: https://metrocouncil.org/getdoc/ab312bf8-69d6-4dba-9b0f-d6e0f1d0e12a/Minutes.aspx
     date: 2026-08-12
+  - title: Funding Recommendation for 2026 Livable Communities Round One Grants (Business Item 2026-130)
+    publisher: Metropolitan Council
+    url: https://metrocouncil.org/Council-Meetings/Committees/Metropolitan-Council/2026/08-12-26/BI-2026-130.aspx
+    date: 2026-07-20
   - title: Met Council awards first grants to advance Imagine 2050, totaling more than $12 million
     publisher: Metropolitan Council
     url: https://metrocouncil.org/News-Events/Housing/Newsletters/Met-Council-awards-first-grants-to-advance-Imagine.aspx
@@ -50,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the award date, vote, dollar total, project count, housing estimates and examples. Corrected the entry to make clear that the $12 million also funds planning, commercial, workforce and cleanup projects—not only affordable homes.
+  notes: Confirmed the grant total, project count, housing estimates, funding breakdown, examples, approval date, and current rollout status. Corrected the credit to name the council chair before the body and added the detailed business-item report supporting the project and funding claims.
 source_key: twin-cities-council-ab312bf8-69d6-4dba-9b0f-d6e0f1d0e12a-2026-130
 ---
 
@@ -60,4 +67,4 @@ The Metropolitan Council, the Twin Cities region’s planning and transit agency
 
 The housing projects in the round are expected to build or preserve more than 1,000 affordable homes, including more than 100 for households with the lowest incomes. Projects include 72 family apartments in Oakdale along the METRO Gold Line, 27 of them with three or more bedrooms; 16 affordable homes for sale in Bloomington; and repairs to Torre de San Miguel, a 142-home community in Saint Paul. These grants go to local governments and development authorities, not directly to households, so there is no single Met Council application for renters or buyers.
 
-The grants reach 21 cities and townships, including Minneapolis, Saint Paul, Brooklyn Park, Edina and Woodbury. The region is expected to need more than 43,500 new affordable homes by 2030, and fewer than half have been built or permitted. Nearly 50 applicants requested almost three times the available funding. The council approved the awards on Aug. 12, 2026, on a motion by Council Member Robert Lilligren, seconded by Council Member Victor Obisakin.
+The grants reach 21 cities and townships, including Minneapolis, Saint Paul, Brooklyn Park, Edina and Woodbury. The region is expected to need more than 43,500 new affordable homes by 2030, and fewer than half have been built or permitted. Nearly 50 applicants requested almost three times the available funding. Robin Hutcheson chaired the Metropolitan Council when it approved the awards on Aug. 12, 2026.

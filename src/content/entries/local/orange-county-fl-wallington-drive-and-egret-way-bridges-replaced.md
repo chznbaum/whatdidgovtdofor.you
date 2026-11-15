@@ -23,9 +23,12 @@ status:
   note: The county awarded the construction contract to Granite Construction Company on Oct. 27, 2026. The new bridges have not been built yet.
   source: https://occompt.legistar.com/LegislationDetail.aspx?ID=8285248&GUID=28ABDCF4-3F57-44A9-B566-EC0869018F6E&FullText=1
 credit:
+  - official: jerry-demings
+    role: led
+    note: Chaired the board that approved the contract on Oct. 27, 2026
   - official: orange-county-board-of-county-commissioners
     role: voted-yes
-    note: Approved the contract on Oct. 27, 2026, on a motion by Commissioner Maribel Gomez Cordero, seconded by Commissioner Mayra Uribe
+    note: Approved the contract on Oct. 27, 2026
 sources:
   - title: "File 26-1248: Award of IFB Y26-742-ZR, Emergency-Wallington Drive Bridge and Egret Way Bridge Replacements Project"
     publisher: Orange County Comptroller (Board of County Commissioners records)
@@ -35,6 +38,9 @@ sources:
     publisher: Orange County Comptroller
     url: https://occompt.legistar.com/gateway.aspx?M=L&ID=19548
     date: 2026-10-27
+  - title: Orange County FY 2025-26 Adopted Budget
+    publisher: Orange County Government
+    url: https://orangecountyfl.net/Portals/0/resource%20library/open%20government/FY%202026%20Adopted%20Budget-CERT.pdf
   - title: Wallington Drive over LW-9 Canal (bridge 754059)
     publisher: BridgeLookup (National Bridge Inventory data)
     url: https://bridgelookup.com/bridge/wallington-drive-over-lw-9-canal-88745
@@ -52,7 +58,7 @@ verification:
     via: codex-cli
     date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the contract award, scope, traffic counts, funding, approval, and current status. Corrected three overstated body claims and updated two source links.
+  notes: Confirmed the contract award, amount, bridge conditions, scope, traffic counts, funding, and current status. Added the board’s presiding official and clarified the funding attribution.
 source_key: orange-county-fl-26-1248
 ---
 
@@ -60,4 +66,4 @@ Two small bridges in Orange County are getting rebuilt. Both were built in 1961,
 
 The county will tear down both bridges and build new ones with sheet-pile supports. The new bridges get new decks, drainage, sidewalks and erosion protection along the canal banks. The job also replaces the water main that crosses on the Wallington Drive bridge. Each bridge carries about 260 vehicles a day. Residents don't need to do anything.
 
-On Oct. 27, 2026, the Orange County Board of County Commissioners awarded the $6.29 million contract to Granite Construction Company. Granite submitted the lowest responsive, responsible bid among six bids. Commissioner Maribel Gomez Cordero moved to approve it, and Commissioner Mayra Uribe seconded. The county's Roads and Drainage Division in Public Works runs the project, which is paid for from county road and water accounts.
+On Oct. 27, 2026, the Orange County Board of County Commissioners, chaired by Mayor Jerry Demings, awarded the $6.29 million contract to Granite Construction Company. Granite submitted the lowest responsive, responsible bid among six bids. The county's Roads and Drainage Division in Public Works runs the project. It is paid for from a local-option gas-tax account for bridge maintenance and repairs and the county's Water Utilities System account.

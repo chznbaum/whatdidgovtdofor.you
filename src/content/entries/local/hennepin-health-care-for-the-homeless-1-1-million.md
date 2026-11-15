@@ -23,9 +23,12 @@ impact:
     label: homeless shelters with clinic care, plus street outreach
 status:
   state: in-effect
-  as_of: 2026-11-13
+  as_of: 2026-11-14
   source: https://www.govinfo.gov/content/pkg/FR-2026-09-24/html/2026-19578.htm
 credit:
+  - official: irene-fernando
+    role: led
+    note: Chaired the board that unanimously approved the grant agreement on May 19, 2026
   - official: hennepin-county-board
     role: voted-yes
     note: Approved the grant agreement on May 19, 2026, after its Health Committee passed it on consent
@@ -33,6 +36,10 @@ sources:
   - title: "File 26-0168: Agreement A2311581 with HRSA for continued operation of the Health Care for the Homeless program"
     publisher: Board of Hennepin County Commissioners
     url: https://hennepinmn.legistar.com/LegislationDetail.aspx?GUID=58D15412-A14B-4B60-84D8-9E77FFE7D0A2&ID=7994769&Options=&Search=
+    date: 2026-05-19
+  - title: May 19, 2026 board meeting and final minutes
+    publisher: Board of Hennepin County Commissioners
+    url: https://hennepinmn.legistar.com/MeetingDetail.aspx?GUID=022BD3D9-2F85-419C-A515-52C5E445A6DD&ID=1415525&Options=info%7C&Search=
     date: 2026-05-19
   - title: Health Care for the Homeless
     publisher: Hennepin County
@@ -50,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-13
+    date: 2026-11-14
   verdict: corrected
-  notes: Confirmed the May award, unanimous board approval, program services, eligibility, and usage figures. Updated the funding horizon using HRSA’s September 2026 continuation notice.
+  notes: Confirmed the grant amounts, services, eligibility, usage figures, unanimous approval, and HRSA funding through June 2027. Added the board chair required by the credit rules and refreshed the status date.
 source_key: hennepin-26-0168
 ---
 
