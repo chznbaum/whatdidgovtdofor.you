@@ -87,9 +87,26 @@ export function coverCredits<T extends { role: Role }>(credits: T[]): T[] {
   return second && second.role === first.role && second.role !== 'signed' ? [first, second] : [first];
 }
 
-// "S. Chris Jones" → "CJ"; "Bill de Blasio" → "BdB". Used where there's no photo to draw from.
+// A name's words without a generational suffix: "Isaiah Hugley, Sr." → ["Isaiah", "Hugley"].
+const SUFFIX = /^(jr|sr|ii|iii|iv|v)\.?,?$/i;
+function nameWords(name: string): string[] {
+  const words = name.replace(/["“”]/g, '').split(/\s+/);
+  while (words.length > 1 && SUFFIX.test(words.at(-1)!)) words.pop();
+  words[words.length - 1] = words.at(-1)!.replace(/,$/, '');
+  return words;
+}
+
+// "Roscoe D. Cooper III" → "Cooper"; "Bill de Blasio" → "de Blasio".
+export function surname(name: string): string {
+  const words = nameWords(name);
+  let i = words.length - 1;
+  while (i > 1 && /^[a-z]/.test(words[i - 1])) i--;
+  return words.slice(i).join(' ');
+}
+
+// "S. Chris Jones" → "CJ"; "Bill de Blasio" → "BdB"; "James Sanders Jr." → "JS". Used where there's no photo to draw from.
 export function initials(name: string): string {
-  const words = name.split(/\s+/).filter((w) => !/^[A-Z]\.$/.test(w));
+  const words = nameWords(name).filter((w) => !/^[A-Z]\.$/.test(w));
   if (words.length === 1) return words[0].slice(0, 2);
   const last = words.at(-1)!;
   const particle = words.length > 2 && /^[a-z]/.test(words.at(-2)!) ? words.at(-2)![0] : '';

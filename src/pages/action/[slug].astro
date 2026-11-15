@@ -78,7 +78,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
             ))
           }
         </ul>
-        {drawn.length > 0 && <PortraitCredit people={drawn} class="cover-credit" />}
+        {drawn.length > 0 && <PortraitCredit people={drawn} full class="cover-credit" />}
         {undrawn.length > 0 && <p class="no-photo">No photo on file, so initials stand in.</p>}
       </section>
 

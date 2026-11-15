@@ -41,7 +41,7 @@ const tenure = o.current ? 'Serving now' : 'Former';
           <a href={placeUrl(place.id)}>{place.data.name}</a>
           {o.url && <a href={o.url}>Official website</a>}
         </p>
-        {o.portrait && <PortraitCredit people={[official]} class="person-credit" />}
+        {o.portrait && <PortraitCredit people={[official]} full class="person-credit" />}
         {o.kind === 'person' && !o.portrait && <p class="no-photo">No photo on file, so initials stand in.</p>}
       </div>
       <Face official={official} variant="cutout" class="person-face" eager sizes="(min-width: 60rem) 26rem, 14rem" />

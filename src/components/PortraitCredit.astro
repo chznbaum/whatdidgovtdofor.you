@@ -1,64 +1,94 @@
 ---
 // The label every drawing carries, and a link to the page each source photo came from. The site never republishes
 // the photo itself (pipeline/portraits/SOURCING.md). Labels are truthful: "official portrait" only for an official
-// government portrait (Congress bioguide); otherwise "photo".
+// government portrait (Congress bioguide); otherwise "photo". The photo's license stays in the data, not on the page:
+// we only link to the photo, and How we check explains how drawings are made from them.
+// Lists and index views use the short form, which links the words themselves: "Illustration from [photo]." or, for
+// several people, "Illustrations from photos of [Hinchey] and [Hunter]." A page about one action or one person uses
+// the full form, which names each source: "See the photo (Senate of Virginia)".
 import type { Official } from '../lib/data.ts';
+import { surname } from '../lib/format.ts';
 
 interface Props {
   // The people pictured. Anyone without a drawing is skipped.
   people: Official[];
+  // Name each photo's source in its own link (pages about one action or one person).
+  full?: boolean;
   class?: string;
 }
 
-const { people, class: cls } = Astro.props;
+const { people, full = false, class: cls } = Astro.props;
 const drawn = people.filter((o) => o.data.portrait);
 const many = drawn.length > 1;
 const allOfficial = drawn.every((o) => o.data.portrait!.kind === 'official');
-const label = many
-  ? `Illustrations from ${allOfficial ? 'official portraits' : 'photos'}.`
-  : `Illustration from ${allOfficial ? 'official portrait' : 'photo'}.`;
-const lastName = (n: string) => n.split(' ').at(-1);
+const kind = many ? (allOfficial ? 'official portraits' : 'photos') : allOfficial ? 'official portrait' : 'photo';
+const lead = many ? 'Illustrations from' : 'Illustration from';
+// "Hinchey and Hunter", "Ossé, Stanley, Lucas, Hanger, and Hinchey": the people's ids in list order, with the words between.
+const parts = new Intl.ListFormat('en', { type: 'conjunction' }).formatToParts(drawn.map((o) => o.id));
+const byId = new Map(drawn.map((o) => [o.id, o]));
 ---
 
 {
-  drawn.length > 0 && (
-    <p class:list={['credit', cls]}>
-      <span>{label}</span>
-      {drawn.map((o) => {
-        const s = o.data.portrait!.source;
-        return (
-          <span class="src">
+  drawn.length > 0 &&
+    (full ? (
+      <p class:list={['credit', 'full', cls]}>
+        <span>
+          {lead} {kind}.
+        </span>
+        {drawn.map((o) => {
+          const s = o.data.portrait!.source;
+          return (
             <a href={s.url} target="_blank" rel="noopener">
-              See the photo{many && ` of ${lastName(o.data.name)}`} ({s.label})
+              See the photo{many && ` of ${surname(o.data.name)}`} ({s.label})
               <span class="visually-hidden">, opens in a new tab</span>
             </a>
-            {s.license && <span class="license">{s.license}.</span>}
-          </span>
-        );
-      })}
-    </p>
-  )
+          );
+        })}
+      </p>
+    ) : many ? (
+      <p class:list={['credit', cls]}>
+        {lead} {kind} of{' '}
+        {parts.map((p) => {
+          if (p.type === 'literal') return p.value;
+          const o = byId.get(p.value)!;
+          return (
+            <a href={o.data.portrait!.source.url} target="_blank" rel="noopener">
+              {surname(o.data.name)}
+              <span class="visually-hidden">, opens in a new tab</span>
+            </a>
+          );
+        })}
+        .
+      </p>
+    ) : (
+      <p class:list={['credit', cls]}>
+        {lead}{' '}
+        <a href={drawn[0].data.portrait!.source.url} target="_blank" rel="noopener">
+          {kind}
+          <span class="visually-hidden"> of {drawn[0].data.name}, opens in a new tab</span>
+        </a>
+        .
+      </p>
+    ))
 }
 
 <style>
   .credit {
+    font: 500 1rem/1.3 var(--text);
+  }
+  .credit a {
+    font-weight: 600;
+    text-underline-offset: 3px;
+  }
+  .full {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0 0.9rem;
-    font: 500 1rem/1.3 var(--text);
   }
-  .src {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0 0.5rem;
-  }
-  .src a {
+  .full a {
     display: inline-flex;
     align-items: center;
     min-height: 44px;
-    font-weight: 600;
-    text-underline-offset: 3px;
   }
 </style>

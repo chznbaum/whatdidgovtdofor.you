@@ -91,7 +91,7 @@ const names = (people: Official[]) => and.format(people.map((o) => nameWithParty
       display: block !important;
     }
     .cta :global(.cta-credit.wide-only) {
-      display: flex !important;
+      display: block !important;
     }
   }
 
@@ -164,7 +164,9 @@ const names = (people: Official[]) => and.format(people.map((o) => nameWithParty
     .faces .wrap {
       display: grid;
       grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
-      grid-template-areas: 'row copy' 'from copy' 'credit copy';
+      /* The last row takes the copy column's extra height, so the names and credits stay together under the faces. */
+      grid-template-areas: 'row copy' 'from copy' 'credit copy' '. copy';
+      grid-template-rows: auto auto auto 1fr;
       align-items: start;
       column-gap: 4rem;
     }
@@ -179,6 +181,7 @@ const names = (people: Official[]) => and.format(people.map((o) => nameWithParty
     }
     .faces :global(.cta-credit) {
       grid-area: credit;
+      margin-top: 0.6rem;
     }
     .faces .copy {
       grid-area: copy;
