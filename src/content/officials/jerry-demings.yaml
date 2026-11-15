@@ -6,3 +6,10 @@ jurisdiction: orange-county-fl
 current: true
 seat: { place: orange-county-fl, title: Mayor }
 url: https://www.ocfl.net/YourGovernment/OrangeCountyMayor.aspx
+portrait:
+  image: /portraits/jerry-demings.webp
+  kind: official
+  source:
+    label: Orange County Government, Florida
+    url: https://www.ocfl.net/BoardofCommissioners/Mayor.aspx
+    license: Public domain

@@ -4,3 +4,10 @@ office: Member, St. Petersburg City Council, District 7
 level: local
 jurisdiction: st-petersburg
 current: true
+portrait:
+  image: /portraits/corey-givens.webp
+  kind: official
+  source:
+    label: City of St. Petersburg
+    url: https://www.stpete.org/government/mayor___city_council/city_council/index.php
+    license: "© City of St. Petersburg, used as a drawing reference"

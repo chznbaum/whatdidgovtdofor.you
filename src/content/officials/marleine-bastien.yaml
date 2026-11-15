@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami-dade-county
 current: true
 url: https://www.miamidade.gov/global/government/commission/district02/home.page
+portrait:
+  image: /portraits/marleine-bastien.webp
+  kind: official
+  source:
+    label: Miami-Dade County
+    url: https://www.miamidade.gov/global/government/commission/home.page
+    license: "© Miami-Dade County, used as a drawing reference"

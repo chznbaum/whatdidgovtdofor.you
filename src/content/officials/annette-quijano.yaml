@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/annette-quijano.webp
+  kind: photo
+  source:
+    label: Center for Climate Integrity
+    url: https://climateintegrity.org/projects/leaders-network/annette-quijano
+    license: "© Center for Climate Integrity / photographer, used as a drawing reference"
