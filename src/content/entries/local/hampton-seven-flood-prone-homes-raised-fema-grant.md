@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-15
-  verdict: corrected
-  notes: Confirmed Hampton’s authorization, amounts, seven/eight-home discrepancy, homeowner obligations, and council credit. Corrected the status because the cited February 2026 transaction belongs to a different DR-4512 subaward.
+    date: 2026-11-16
+  verdict: pass
+  notes: Confirmed the resolution, funding breakdown, homeowner obligations, council credit, and latest project-specific status. Later DR-4512 activity concerns other subawards, not this project.
 source_key: hampton-24-0158
 ---
 

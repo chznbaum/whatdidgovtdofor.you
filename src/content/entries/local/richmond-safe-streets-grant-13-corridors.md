@@ -74,9 +74,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-15
-  verdict: corrected
-  notes: Confirmed the ordinance, funding, match, corridor scope, planned improvements, patrons, vote, and current status evidence. Corrected a misread project-status comment and added the transportation secretary required ahead of the agency credit.
+    date: 2026-11-16
+  verdict: pass
+  notes: Confirmed the ordinance, 8–0 vote, patrons, funding and match, 13-corridor scope, planned improvements, credits, and latest public status evidence. No later project update, cancellation, or funding rollback was found.
 source_key: richmond-ord-2024-278
 ---
 

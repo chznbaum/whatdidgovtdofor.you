@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-15
+    date: 2026-11-16
   verdict: pass
-  notes: Confirmed the ordinance scope, impact figures, mayoral patronage, unanimous adoption, full federal reimbursement, safety descriptions, and scheduled status. No later cancellation or completion record was found through Nov. 15, 2026.
+  notes: Confirmed the ordinance’s scope, 8–0 adoption, Mayor Stoney’s patronage, federal reimbursement, and the safety descriptions. The December 2025 CTB record still supports scheduled status; no later cancellation or completion record was found through Nov. 16, 2026.
 source_key: richmond-ord-2024-289
 ---
 

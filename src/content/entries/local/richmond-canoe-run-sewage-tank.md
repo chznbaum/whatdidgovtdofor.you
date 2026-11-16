@@ -78,9 +78,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-15
-  verdict: corrected
-  notes: Confirmed the ordinance, $100 million grant, tank capacity, overflow projections, state appropriations, and latest public procurement status. Corrected the local credit chain and replaced an inaccessible Legistar attachment URL with the stable legislative file.
+    date: 2026-11-16
+  verdict: pass
+  notes: Confirmed the ordinance, executed grant, budget appropriations, project figures, council action, credits, and current procurement status. No corrections were needed.
 source_key: richmond-ord-2025-223
 ---
 

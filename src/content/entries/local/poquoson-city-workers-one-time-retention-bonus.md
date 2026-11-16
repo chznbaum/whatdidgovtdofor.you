@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-15
+    date: 2026-11-16
   verdict: pass
-  notes: Confirmed the amounts, eligibility rules, funding, action date, credit, and 7–0 vote against the official minutes. No later official record established payment or cancellation, so the cautious dated status remains appropriate.
+  notes: Confirmed the amounts, eligibility, funding, action date, credit, and 7–0 vote against the [official minutes](https://www.poquoson-va.gov/AgendaCenter/ViewFile/Minutes/_08102026-461). Later available records do not confirm payment or cancellation, so the cautious dated status remains appropriate.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 
