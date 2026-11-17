@@ -22,9 +22,9 @@ impact:
     label: of bike lanes to get permanent concrete separation from traffic
 status:
   state: phasing-in
-  as_of: 2026-04-14
-  note: A city quarterly report listed $613,356 in life-to-date expenditures through Dec. 31, 2025 but gave no status comment for the project. The city's April 14, 2026 procurement forecast anticipated a solicitation for the work in the third quarter of 2026. We found no later public update.
-  source: https://www.rva.gov/sites/default/files/2026-04/Forecast%20Projects%20Calendar%20-%20Apr%202026.pdf
+  as_of: 2026-06-30
+  note: A city fourth-quarter capital report listed $1,078,916 in life-to-date expenditures through June 30, 2026 but gave no status comment for the project. The city's April 14, 2026 procurement forecast anticipated a solicitation for the work in the third quarter of 2026. We found no later public update.
+  source: https://rva.gov/sites/default/files/2026-09/FY26%204th%20Quarter%20CIP%20Report.pdf
 credit:
   - official: levar-stoney
     role: proposed
@@ -58,10 +58,10 @@ sources:
     publisher: Office of Sen. Tim Kaine
     url: https://www.kaine.senate.gov/press-releases/warner-and-kaine-announce-over-256-million-in-funding-for-safety-improvements-in-virginia-beach-and-richmond
     date: 2023-12-11
-  - title: FY 2026 second-quarter capital improvement plan report
+  - title: FY 2026 fourth-quarter capital improvement plan report
     publisher: City of Richmond
-    url: https://rva.gov/sites/default/files/2026-05/FY26%202nd%20Quarter%20CIP%20Report.pdf
-    date: 2025-12-31
+    url: https://rva.gov/sites/default/files/2026-09/FY26%204th%20Quarter%20CIP%20Report.pdf
+    date: 2026-06-30
   - title: Forecast calendar for anticipated solicitations, revised April 14, 2026
     publisher: City of Richmond
     url: https://www.rva.gov/sites/default/files/2026-04/Forecast%20Projects%20Calendar%20-%20Apr%202026.pdf
@@ -74,9 +74,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
-  verdict: pass
-  notes: Confirmed the ordinance, 8–0 vote, patrons, funding and match, 13-corridor scope, planned improvements, credits, and latest public status evidence. No later project update, cancellation, or funding rollback was found.
+    date: 2026-11-17
+  verdict: corrected
+  notes: Confirmed the ordinance, award amount, scope, credits, and project details. Updated the status using Richmond’s newer fourth-quarter capital report.
 source_key: richmond-ord-2024-278
 ---
 

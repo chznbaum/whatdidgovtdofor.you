@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: pass
-  notes: Confirmed the ordinance’s scope, 8–0 adoption, Mayor Stoney’s patronage, federal reimbursement, and the safety descriptions. The December 2025 CTB record still supports scheduled status; no later cancellation or completion record was found through Nov. 16, 2026.
+  notes: Confirmed the ordinance’s scope, 8–0 adoption, Stoney patronage, reimbursable funding, and safety descriptions. The latest UPC-specific CTB evidence still identifies project 125534 as scheduled with $3,565,314 allocated; no later cancellation or completion record was found through Nov. 17, 2026.
 source_key: richmond-ord-2024-289
 ---
 

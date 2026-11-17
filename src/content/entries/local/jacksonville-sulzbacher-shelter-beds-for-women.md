@@ -68,9 +68,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
-  verdict: corrected
-  notes: Confirmed the appropriation, sponsors, vote, spending figures, and planned 32 beds. Corrected an unsupported claim about how women access the beds and dated the status to the newest evidence available.
+    date: 2026-11-17
+  verdict: pass
+  notes: Confirmed the appropriation, sponsors, vote, spending figures and planned 32 beds against the official ordinance record and cited reporting. No later public confirmation showed that the dorm had opened, so the qualified phasing-in status remains appropriate.
 source_key: jacksonville-2026-0542-e
 ---
 

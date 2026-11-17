@@ -78,9 +78,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: pass
-  notes: Confirmed the ordinance, executed grant, budget appropriations, project figures, council action, credits, and current procurement status. No corrections were needed.
+  notes: Confirmed the ordinance, executed grant, state appropriations, project figures, credits, 9–0 council action, and latest available procurement status. No corrections were needed.
 source_key: richmond-ord-2025-223
 ---
 

@@ -21,8 +21,8 @@ impact:
     label: of traffic, at least, violated the speed limit in every chosen zone
 status:
   state: phasing-in
-  as_of: 2026-07-24
-  note: July reports agreed on a January 2027 rollout but conflicted on whether Jan. 27 was official. WDBO gave that date, while FOX 35 said the county had not announced a specific day. The first 30 days will be warnings. No newer county launch update was found as of Nov. 16, 2026.
+  as_of: 2026-11-17
+  note: July reports agreed on a January 2027 rollout but conflicted on whether Jan. 27 was official. WDBO gave that date, while FOX 35 said the county had not announced a specific day. The first 30 days will be warnings. No newer county launch update was found as of Nov. 17, 2026.
   source: https://www.wdbo.com/news/local/slow-down-automated-speed-cameras-coming-12-orange-county-school-zones/V7V3X37DVJEAPA6J6TR73K635Y/
 credit:
   - official: jerry-demings
@@ -70,9 +70,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: corrected
-  notes: Confirmed the 12 zones, planned expansion, vendor selection, $100 penalty, and January 2027 rollout. Corrected the enforcement threshold and hours, contract description, fine distribution, Michael Scott’s role, and the outdated status note.
+  notes: Confirmed the 12 zones, 32-school expansion, $100 penalty, statutory enforcement hours, fine distribution, vendor selection, contract ceiling, and credits. Updated the status check through Nov. 17, 2026; no newer county rollout announcement was found.
 source_key: orange-county-fl-26-0723
 ---
 

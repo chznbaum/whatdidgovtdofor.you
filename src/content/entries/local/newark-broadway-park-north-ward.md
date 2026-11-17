@@ -61,9 +61,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
-  verdict: corrected
-  notes: Confirmed the contract, amount, amenities, beneficiaries and current construction status. Added the North Ward council member and Trust for Public Land to the credit, tightened unsupported wording, and replaced weaker source links with direct city records.
+    date: 2026-11-17
+  verdict: pass
+  notes: Confirmed the contract, amount, vote, funding and lowest-bidder claim in Newark’s official record, and verified the park’s size, amenities, beneficiaries, credits and spring 2027 target against the city release. No later cancellation, funding cut or schedule change was found.
 source_key: newark-26-0883
 ---
 

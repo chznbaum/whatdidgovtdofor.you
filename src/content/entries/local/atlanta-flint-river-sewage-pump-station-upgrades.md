@@ -60,14 +60,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: corrected
-  notes: Confirmed the ordinance, amount, 13-0 vote, project scope, and council credit. Corrected claims drawn from an older inactive replacement project, narrowed the funding description, and dated the status to the newest supporting evidence.
+  notes: Confirmed the ordinance, funding, project scope, 13–0 vote, credit, and latest reported status. Corrected one unsupported description of the station’s second-stage pumps.
 source_key: atlanta-council-4108-26-o-1413
 ---
 
 The Flint River pump station near Hartsfield-Jackson moves wastewater from the airport and parts of southeast Atlanta and College Park. The existing station can pump 15 million gallons a day. Georgia financing documents describe it as nearly 40 years old, with high pump failure rates, obsolete controls and reliability problems that pose health and safety risks at the airport.
 
-Debris has clogged the station's submersible pumps during peak flows. The upgrades replace pumps, add screening to catch debris, update obsolete backup pumps and address electrical, structural and safety features. The city says the work should extend the station's life by about 15 years. You do not need to apply; the goal is more reliable sewer service.
+Debris has clogged the station's submersible pumps during peak flows. The upgrades replace pumps, add screening to catch debris, update obsolete second-stage pumps and address electrical, structural and safety features. The city says the work should extend the station's life by about 15 years. You do not need to apply; the goal is more reliable sewer service.
 
 The $15,573,840 came from existing Watershed reserves. Council President Marci Collier Overstreet presided when the Atlanta City Council approved the transfer 13-0 on its consent agenda on Aug. 3, 2026. No source names an individual sponsor. A related one-year mechanical-repair contract authorization includes the Flint River work.

@@ -83,9 +83,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: pass
-  notes: Confirmed the award scope and amounts, homeowner process and possible costs, council credit and vote, separate seven-home grant, and latest public status. Repository validation passes.
+  notes: Confirmed the grant scope, exact funding amounts, homeowner process and potential costs, council credit and 7–0 vote, separate seven-home grant, and latest publicly documented status. No later completion, extension, cancellation, or rollback record was found.
 source_key: hampton-24-0053
 ---
 

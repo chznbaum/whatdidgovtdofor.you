@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
+    date: 2026-11-17
   verdict: pass
-  notes: Confirmed the resolution, funding breakdown, homeowner obligations, council credit, and latest project-specific status. Later DR-4512 activity concerns other subawards, not this project.
+  notes: Confirmed the resolution, funding breakdown, council credit, homeowner obligations, and all cited URLs. The latest project-specific evidence remains the February 2025 subaward update; later activity under the parent award concerns other subawards.
 source_key: hampton-24-0158
 ---
 

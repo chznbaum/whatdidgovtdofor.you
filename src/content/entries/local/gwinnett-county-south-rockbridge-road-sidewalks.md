@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-16
-  verdict: corrected
-  notes: Confirmed the route, contract amount, funding, commissioners’ parties, and 5–0 vote. Corrected language that mistook the county page’s headline for evidence that construction had begun, and added an official source for the SPLOST explanation.
+    date: 2026-11-17
+  verdict: pass
+  notes: Confirmed the contract award, route, amount, SPLOST funding, 5–0 vote, credits, and officials’ parties. No later source showed the project completed, cancelled, or defunded as of Nov. 17, 2026.
 source_key: gwinnett-county-council-2026-08-04-2026-0961
 ---
 
