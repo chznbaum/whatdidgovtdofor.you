@@ -66,7 +66,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the contract award, route, $3.43 million cap, SPLOST funding, 5–0 vote, credits, and officials’ parties. No later source showed the project completed, cancelled, or defunded as of Nov. 18, 2026.
+  notes: Confirmed the contract, route, $3.43 million cap, 2017 SPLOST funding, 5–0 vote, credits, and parties against the [county record](https://www.gwinnettcounty.com/government/departments/board-of-commissioners/meeting-videos/-/ecv/showInfo/PLAY339), [project announcement](https://www.gwinnettcounty.com/-/news-events/stories/story-details/splost-new-sidewalks-taking-shape-at-south-rockbridge-road), and [official roster](https://www.gwinnettcounty.com/government/departments/elections/elected-officials/board-of-commissioners). No later source showed completion, cancellation, or defunding as of Nov. 18, 2026; repository validation also passes.
 source_key: gwinnett-county-council-2026-08-04-2026-0961
 ---
 

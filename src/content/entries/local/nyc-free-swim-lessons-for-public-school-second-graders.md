@@ -1,6 +1,6 @@
 ---
 title: Free swim lessons for NYC second graders, reaching thousands so far
-dek: A 2023 city law tells NYC Parks to give free swimming and water safety lessons to public school second graders. The city cut the money for it. Council-funded lessons have taught 6,000 children, and 3,000 more are funded for 2026–27.
+dek: Under a 2023 law, NYC Parks must offer free water-safety lessons to public school second graders when funding, staff and pools allow. Wave Makers has taught 6,000 children, and the FY2027 budget funds 3,000 more alongside a broader Parks swim program.
 level: local
 jurisdiction: nyc
 action:
@@ -15,7 +15,7 @@ topics:
 who_benefits: New York City public school second graders, about 70,000 children a year, though so far only some of them are reached.
 impact:
   - figure: 6,000
-    label: second graders taught to swim for free through the Council-funded program so far
+    label: second graders taught to swim for free through Wave Makers so far
   - figure: 3,000 more
     label: second graders funded for free lessons in the city's 2026–27 budget
   - figure: $1.5 million
@@ -23,9 +23,7 @@ impact:
 status:
   state: phasing-in
   as_of: 2026-11-18
-  note: The law makes the lessons subject to funding, staff and pool space. In November 2023, Mayor Eric Adams's administration cut the $5.2 million set aside to start them. Since 2024 the Council has paid for lessons for some second graders through Wave Makers, a partnership with the nonprofit Asphalt Green and the Gray Foundation. That has reached 6,000 children, and $1.5 million in the FY2027 budget adds 3,000 more. It still falls well short of all roughly 70,000 second graders.
-  by:
-    - eric-adams
+  note: The law makes the lessons subject to funding, staff and pool space. The Adams administration's November 2023 cuts delayed a $5.3 million swim-safety expansion, but in 2025 the city added $5.5 million a year for a broader Parks expansion that included 4,800 additional second graders. Separately, Council Members Julie Menin and Shekar Krishnan helped launch Wave Makers with Asphalt Green and the Gray Foundation in 2024. That pilot reached 6,000 children, and the Council's $1.5 million FY2027 allocation funds another 3,000. These programs still do not reach all roughly 70,000 second graders.
   source: https://council.nyc.gov/press/2026/07/14/3172/
 credit:
   - official: julie-menin
@@ -36,7 +34,7 @@ credit:
     note: The bill was introduced at the request of the Manhattan Borough President, the office he held at the time.
   - official: shekar-krishnan
     role: championed
-    note: Cosponsored the bill and chaired the Parks Committee. Helped lead the Council-funded Wave Makers lessons.
+    note: Cosponsored the bill and chaired the Parks Committee. Helped launch and lead Wave Makers.
   - official: nyc-city-council
     role: voted-yes
     note: Passed the bill on Sept. 14, 2023. It became law on Oct. 15, 2023, without the mayor's signature.
@@ -52,24 +50,32 @@ sources:
     publisher: Chalkbeat New York
     url: https://www.chalkbeat.org/newyork/2026/07/14/free-swim-lessons-for-nyc-second-graders/
     date: 2026-07-14
-  - title: Is This Enough of a Splash?
-    publisher: West Side Spirit
-    url: https://www.westsidespirit.com/news/is-this-enough-of-a-splash-CK4509721
-  - title: SPLASH! Free Swimming Lessons to All Second Graders After Menin's Bill Passes
-    publisher: West Side Spirit
-    url: https://www.westsidespirit.com/news/splash-free-swimming-lessons-to-all-second-graders-after-menin-s-bill-passes-BB2737672
-    date: 2023-09-18
+  - title: Mayor Adams announces $5.5 million investment to expand free swim lessons to nearly 18,000 students
+    publisher: New York City Mayor's Office
+    url: https://www.nyc.gov/mayors-office/news/2025/03/mayor-adams-5-5-million-investment-expand-free-swim-lessons-nearly-18-000
+    date: 2025-03-25
+  - title: January 2025 Financial Plan Detail, Fiscal Years 2025–2029
+    publisher: New York City Office of Management and Budget
+    url: https://www.nyc.gov/assets/omb/downloads/pdf/jan25/tech1-25.pdf
+  - title: Annual State of the City's Economy and Finances
+    publisher: Office of the New York City Comptroller
+    url: https://comptroller.nyc.gov/reports/annual-state-of-the-citys-economy-and-finances/
 verification:
   writer:
     model: claude-opus-5-5
     via: claude-code
     date: 2026-11-18
-  verdict: pending
+  verifier:
+    model: gpt-5.6-sol
+    via: codex-cli
+    date: 2026-11-18
+  verdict: corrected
+  notes: "Confirmed the law, enactment date, sponsors, program reach, and FY2027 funding. Corrected the funding history: Wave Makers’ first 6,000 students were reached through a public-private pilot, while the Council’s $1.5 million funds the next 3,000; I also added the separate $5.5 million Parks expansion."
 source_key: nyc-int-2022-0760
 ---
 
-New York City law now says the Parks Department, working with the city's schools, should give free swimming and water safety lessons to public school second graders. That's about 70,000 children a year. Experts say kids that age are old enough to learn the skills and remember them. Families don't pay anything, and the lessons happen during the school day.
+New York City law says the Parks Department, working with the city's schools, must offer free swimming and water-safety lessons to public school second graders when funding, staff and pools are available. That's about 70,000 children a year. Families do not pay, and participating schools bring students to lessons during the school day. Ask your child's school whether its second grade takes part.
 
-The promise hasn't been kept for every child. The law makes the lessons depend on funding, staff and pool space. In November 2023, Mayor Eric Adams's administration cut the $5.2 million set aside to start them. The City Council then paid for a smaller program called Wave Makers, run with the nonprofit Asphalt Green and the Gray Foundation. It has taught 6,000 second graders so far, and $1.5 million in the 2026–27 city budget adds 3,000 more. Ask your child's school whether its second grade takes part.
+Council Member Julie Menin sponsored the bill at the request of Manhattan Borough President Mark Levine. Parks Committee Chair Shekar Krishnan cosponsored it and later helped lead Wave Makers. The Council passed the bill on Sept. 14, 2023, and it became law on Oct. 15 without Mayor Eric Adams's signature.
 
-Council Member Julie Menin wrote the bill, which Manhattan Borough President Mark Levine asked the Council to introduce. She pointed to a city survey that found more than a quarter of public school students couldn't swim. Parks Committee Chair Shekar Krishnan backed the bill and helped lead the Council-funded lessons. The Council passed it on Sept. 14, 2023, and it became law on Oct. 15, 2023, without the mayor's signature. As Speaker, Menin has kept pushing to reach every second grader.
+The rollout has been partial. Adams's November 2023 budget cuts delayed a $5.3 million swim-safety expansion. In 2025, his administration added $5.5 million a year for a broader Parks program that included 4,800 additional second graders. Menin and Krishnan also worked with Asphalt Green and the Gray Foundation to launch Wave Makers, which has taught 6,000 second graders. The Council's $1.5 million FY2027 allocation funds lessons for 3,000 more. Even with both programs, the city remains far short of reaching every second grader.

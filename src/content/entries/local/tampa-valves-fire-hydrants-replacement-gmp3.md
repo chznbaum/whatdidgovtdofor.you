@@ -21,8 +21,8 @@ impact:
     label: approximate number of fire hydrants in Tampa's water system
 status:
   state: phasing-in
-  as_of: 2026-07-16
-  note: Tampa City Council approved and funded the agreement on July 16, 2026. Its 875-day clock starts only after the city issues a notice to proceed or permits allow on-site work, whichever is later; no later source found as of Nov. 16 confirmed that the clock had started.
+  as_of: 2026-11-18
+  note: Tampa City Council approved and funded the agreement on July 16, 2026. Its 875-day clock starts only after the city issues a notice to proceed or permits allow on-site work, whichever is later; no later source found as of Nov. 18 confirmed that the clock had started.
   source: https://docs.meetings.tampamonitor.com/2026-07-16/meeting-2815/25489/r21-c-00047-gmp3-agrmnt-r4.pdf
 credit:
   - official: alan-clendenin
@@ -59,8 +59,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: pass
-  notes: Confirmed the unanimous approval, $15,018,637.28 amount, scope, funding, 875-day term, system figures, earlier phases, and Alan Clendenin’s chair role. No later source found through Nov. 18, 2026, showed cancellation or confirmed that the work clock had started.
+  verdict: corrected
+  notes: Confirmed the approval, amount, scope, funding sources, schedule, system figures, unanimous vote, and Alan Clendenin’s chair role. Updated the status check and clarified that the records authorize earlier phases but do not establish that their work was completed.
 source_key: tampa-council-2815-resolution-2026-564
 ---
 
@@ -68,4 +68,4 @@ Tampa's water system has about 14,000 fire hydrants and 50,000 valves. When a hy
 
 The $15 million covers final design, permits, traffic control, installation, testing, and updating the city's maps of its water system. The contractor gets 875 calendar days after the city issues its notice to proceed or permits allow on-site work, whichever is later. The money comes from the water utility's fund for renewing and replacing equipment and from its capital borrowing. You don't need to do anything to benefit, though you may see crews and lane closures near work sites.
 
-This is the third and largest phase of a program the city began in 2021. Earlier phases replaced valves and related equipment at 60 locations, along with valves at Tampa International Airport. The City Council, chaired by Alan Clendenin, approved this phase unanimously on July 16, 2026.
+This is the third and largest phase of a program the city began in 2021. Earlier phases covered work on valves and related equipment at 60 locations, along with valves at Tampa International Airport. The City Council, chaired by Alan Clendenin, approved this phase unanimously on July 16, 2026.

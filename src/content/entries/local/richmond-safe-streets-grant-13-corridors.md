@@ -78,8 +78,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the ordinance, 8–0 vote, award and match amounts, scope, source links, and latest public status. Added Public Works Director Bobby Vincent Jr. because DPW led the grant application and implementation.
+  verdict: pass
+  notes: Confirmed the ordinance, 8–0 adoption, award and match amounts, 13-corridor scope, planned improvements, credits, and latest publicly documented status. No later cancellation, repeal, funding cut, or project update was found.
 source_key: richmond-ord-2024-278
 ---
 

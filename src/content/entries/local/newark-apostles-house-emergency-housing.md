@@ -50,12 +50,12 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the council action, vote date, contract ceiling, initial funding, provider services, and Crump’s leadership. Clarified that funding after May was not confirmed.
+  notes: Confirmed the resolution, dates, contract ceiling, partial funding, unanimous council vote, current-status caveat, and Crump’s role. Revised one service description to match the cited provider page.
 source_key: newark-26-0562
 ---
 
 Newark authorized The Apostles' House, a nonprofit on Grant Street, to provide emergency housing for city residents who have lost their homes. The contract runs from April 1, 2026, through March 31, 2027, with a ceiling of $1,119,090. The city initially certified $187,026 for April and May. Any payment beyond that depended on later available funds.
 
-The Apostles' House says its emergency shelters house more than 115 women and children each year. It provides meals, case management, counseling and help finding permanent housing. The city's resolution does not say how residents enter this particular program.
+The Apostles' House says its emergency shelters house more than 115 women and children each year. It provides job-search help, counseling, connections to childcare and medical services, household budget planning and housing assistance. The city's resolution does not say how residents enter this particular program.
 
 The city's Department of Health and Community Wellness sought proposals in January 2026 and selected The Apostles' House. The Municipal Council adopted the contract on May 20, 2026, with Council President C. Lawrence Crump presiding.
