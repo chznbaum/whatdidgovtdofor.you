@@ -20,10 +20,10 @@ impact:
   - figure: "400"
     label: people projected to receive street outreach
 status:
-  state: in-effect
-  as_of: 2026-07-23
-  note: The city's July 2026 annual action plan said implementation of the second-round activities was underway. No later Tampa report was found.
-  source: https://docs.meetings.tampamonitor.com/2026-07-23/meeting-2892/25667/tampa-py2026-aap-final-draft-002.pdf
+  state: phasing-in
+  as_of: 2026-11-18
+  note: Tampa reported in July that implementation was underway. As of Nov. 18, the council's Nov. 19 agenda included a resolution to appropriate the full grant for RUSH activities.
+  source: https://docs.meetings.tampamonitor.com/2026-11-19/meeting-2941/28345/summary-sheet-cover-sheet.pdf
 credit:
   - official: alan-clendenin
     role: led
@@ -62,8 +62,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: pass
-  notes: Confirmed the award, allocations, projected service counts, resolution, vote, credit and implementation status. A pending November appropriation item corroborates that the grant remains active; no cancellation, funding cut or court block was found.
+  verdict: corrected
+  notes: Confirmed the grant amount, allocations, projected service counts, resolution, 6–0 vote, and Alan Clendenin’s role. Changed the status to phasing in because implementation was underway but the full budget appropriation was still awaiting the Nov. 19 council vote.
 source_key: tampa-council-2878-resolution-no-2026-479
 ---
 

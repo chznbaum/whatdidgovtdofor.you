@@ -65,8 +65,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the funding, project scope, impact figures, vote, and latest reported status. Corrected the lead credit to the chair of the City Utilities Committee, which brought the ordinance.
+  verdict: pass
+  notes: Confirmed the funding transfer, project scope, impact figures, beneficiaries, 13-0 vote, committee-chair credit, and latest reported status against the official record and cited sources.
 source_key: atlanta-council-4108-26-o-1413
 ---
 

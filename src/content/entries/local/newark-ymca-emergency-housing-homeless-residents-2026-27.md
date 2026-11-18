@@ -81,7 +81,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the contract ceiling, initial funding, term, shelter services and intake process, council leadership, and 9–0 vote. Searches found no later appropriation specific to this contract, cancellation, or repeal.
+  notes: Confirmed the amounts, dates, contract terms, intake process, council leadership, and unanimous vote against Newark’s resolution, final minutes, and YMCA page. No later contract-specific appropriation, cancellation, or repeal was found.
 source_key: newark-26-0494
 ---
 

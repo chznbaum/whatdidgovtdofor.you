@@ -21,9 +21,9 @@ impact:
     label: you can get a free test, and glasses if needed, at least this often
 status:
   state: in-effect
-  as_of: 2025-11-11
-  note: The newest report found, from November 2025, says the Vision for All program was serving patients through mobile units and fixed sites in four boroughs. No newer official status could be found.
-  source: https://www.brooklynpaper.com/brannan-vision-for-all-eyecare-takes-off/
+  as_of: 2026-11-18
+  note: Community Healthcare Network's current schedule lists Eye Mobile appointments during November 2026.
+  source: https://www.chnnyc.org/calendar/mobile-health-centers-schedule/
 credit:
   - official: justin-brannan
     role: sponsored
@@ -52,6 +52,9 @@ sources:
     publisher: PoliticsNY
     url: https://politicsny.com/2022/04/12/brannan-sets-sights-on-free-eye-care-for-low-income-new-yorkers-as-part-of-city-budget/
     date: 2022-04-12
+  - title: Mobile Health Centers Schedule
+    publisher: Community Healthcare Network
+    url: https://www.chnnyc.org/calendar/mobile-health-centers-schedule/
 featured: false
 verification:
   writer:
@@ -63,7 +66,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the law, eligibility, impact figures, sponsorship, enactment, implementation, and latest program status. Shortened the body to meet the 250-word limit without changing its meaning.
+  notes: Confirmed the law, eligibility, figures, enactment, sponsorship, implementation, and current operation. Updated the stale status using Community Healthcare Network’s November 2026 schedule.
 source_key: nyc-int-2022-0096
 ---
 

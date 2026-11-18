@@ -70,7 +70,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the appropriation, 32-bed plan, spending breakdown, sponsors, 17-0 vote, funding source, and conservative phasing-in status against the ordinance record and current reporting.
+  notes: Confirmed the appropriation, 32-bed plan, spending breakdown, mayoral request, co-sponsors, parties, and 17-0 vote. A search through Nov. 18 found no reliable public confirmation that the beds had opened, so the cautious phasing-in status remains supported.
 source_key: jacksonville-2026-0542-e
 ---
 

@@ -49,8 +49,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the resolution, dates, contract ceiling, partial funding, unanimous council vote, current-status caveat, and Crump’s role. Revised one service description to match the cited provider page.
+  verdict: pass
+  notes: Confirmed the contract ceiling, partial funding, dates, provider services, C. Lawrence Crump’s role, and the council’s 9–0 vote. The entry accurately discloses that funding after May 2026 was conditional and remains unconfirmed.
 source_key: newark-26-0562
 ---
 

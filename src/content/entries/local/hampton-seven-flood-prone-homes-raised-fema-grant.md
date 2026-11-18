@@ -59,11 +59,11 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the resolution, funding breakdown, homeowner obligations, council credit, and source URLs. Corrected the status because the February 2026 subaward cannot be tied to this specific project.
+  notes: Confirmed the grant, funding breakdown, homeowner obligations, council action, and latest project-specific federal record. Shortened the body to the guide’s 250-word limit and reset verification to pending.
 source_key: hampton-24-0158
 ---
 
-Hampton accepted federal and state funding for a project to raise flood-prone homes above expected flood water. The council record is internally inconsistent: its staff summary says the goal is seven homes, while one clause in the adopted resolution says eight. Raising a house lifts its living space above expected flood levels, making residents safer and reducing repeated damage and flood insurance claims.
+Hampton accepted federal and state funding to raise flood-prone homes above expected flood water. The council record conflicts: its staff summary says seven homes, while the adopted resolution says eight. Raising a house lifts its living space above expected flood levels, making residents safer and reducing repeated damage and flood insurance claims.
 
 The initial project budget was $2,730,945. FEMA committed $2,470,855: $2,340,810 for the project and $130,045 for the city's management costs. Virginia's Department of Emergency Management added $260,090. The resolution required no local cash or in-kind match from the city. That does not mean participating homeowners face no costs: Hampton says they may still have to pay for pre-existing damage, some code-related work, and temporary relocation. The award covers properties Hampton had already included in its application, rather than opening a new application round.
 
