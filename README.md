@@ -1,3 +1,11 @@
+<a href="https://whatdidgovtdofor.you">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/readme-cover/readme-cover-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/readme-cover/readme-cover-light.png">
+    <img src="docs/readme-cover/readme-cover-light.png" width="1012" alt="whatdidgovtdofor.you: each action is a Markdown file, validated by a Zod schema and fact-checked by a model from a different company. Part of the entry file for Virginia HB 625, with title, action, credit, status and verification keys, next to how it renders: an ink drawing of Rozia Henson (D) and Russet Perry (D), the title &quot;Starting in 2028, you can choose a health plan with capped drug copays&quot;, the status &quot;Law now. Benefits start Jan. 1, 2028.&quot;, and a note that GPT-5.6-sol (OpenAI) checked Claude Opus 5.5&#39;s draft against its sources and corrected it.">
+  </picture>
+</a>
+
 # whatdidgovtdofor.you
 
 A public record of the concrete things government did for people (national, New York, New York City, Virginia, Hampton Roads, Greater Richmond, Minnesota, the Twin Cities, Duluth, New Jersey, Newark, Camden, Atlantic City, Elizabeth, Georgia, Metro Atlanta, Columbus, Savannah, Athens-Clarke, Florida, South Florida, Tampa Bay, Jacksonville, Orange County, and Gainesville), each one traceable to the officials responsible and showing whether it still stands.
