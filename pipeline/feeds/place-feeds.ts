@@ -10,6 +10,7 @@ import { govactionFeed } from './govaction.ts';
 import { hcmsFeed } from './hcms.ts';
 import { iqm2Feed } from './iqm2.ts';
 import { laserficheFeed } from './laserfiche.ts';
+import { limsFeed } from './lims.ts';
 import { minutesListFeed } from './minutes-list.ts';
 import { legistarFeed } from './legistar.ts';
 import { rssFeed } from './rss.ts';
@@ -151,6 +152,18 @@ export async function placeFeeds(): Promise<Feed[]> {
               origin: f.url,
               board: new RegExp(f.board, 'i'),
               place,
+            }),
+          );
+          break;
+        case 'lims':
+          out.push(
+            limsFeed({
+              id: f.id ?? `${place}-council`,
+              description: `${p.name}: official acts of the council in force (LIMS API)`,
+              origin: f.url,
+              place,
+              keyEnv: f.key,
+              skip: f.skip ? new RegExp(f.skip, 'i') : undefined,
             }),
           );
           break;
