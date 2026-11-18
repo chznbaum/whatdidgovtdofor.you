@@ -79,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: pass
-  notes: Confirmed the law text, sponsors and cosponsors, enactment date, vote totals, six-school plan, impact figures, and rollout status. No later repeal, cancellation, funding cut, court block, or material factual error was found; repository validation also passes.
+  notes: Confirmed the enacted text, sponsors and cosponsors, signing date, official vote totals, six-school plan, impact figures, financing authority, and rollout status through November 18, 2026. No repeal, cancellation, court block, funding cut, or material unsupported claim was found; repository validation passes.
 source_key: ny-2025-a7385
 ---
 

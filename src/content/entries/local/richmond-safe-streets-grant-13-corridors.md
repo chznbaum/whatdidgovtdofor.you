@@ -32,6 +32,9 @@ credit:
   - official: ellen-robertson
     role: sponsored
     note: Co-patron of the ordinance accepting the grant
+  - official: bobby-vincent-jr
+    role: proposed
+    note: Directed the Department of Public Works, which sponsored the project and led the grant application and implementation
   - official: pete-buttigieg
     role: issued
     note: Led the U.S. Department of Transportation when it announced the grant award in December 2023
@@ -74,9 +77,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the ordinance, award amount, scope, credits, and project details. Updated the status using Richmond’s newer fourth-quarter capital report.
+  notes: Confirmed the ordinance, 8–0 vote, award and match amounts, scope, source links, and latest public status. Added Public Works Director Bobby Vincent Jr. because DPW led the grant application and implementation.
 source_key: richmond-ord-2024-278
 ---
 

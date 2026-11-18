@@ -19,9 +19,9 @@ impact:
     label: initially certified for services in April and May 2026
 status:
   state: in-effect
-  as_of: 2026-05-31
-  note: The resolution certified funding only through May 31, 2026. The remaining balance required later availability and appropriation, and no later appropriation specific to this contract was found as of November 17, 2026.
-  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&GUID=3F56F2F8-2037-490A-A57B-24A828ADC3AF&ID=8070212&Options=&Search=
+  as_of: 2026-11-18
+  note: The contract remains authorized through March 31, 2027. Only $169,214 for April and May was specifically certified in the contract resolution; a November budget extension appropriated $1,083,333 for homeless shelters generally, without identifying Circle of Life's share.
+  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
 credit:
   - official: c-lawrence-crump
     role: led
@@ -45,6 +45,10 @@ sources:
   - title: Treatment Center and Homeless Shelter — Circle of Life Newark
     publisher: NJ 211
     url: https://search.nj211.org/search/bcdaa731-02d1-561e-abe0-291dcc971105
+  - title: November 2026 Temporary Budget Extension, File 26-1449
+    publisher: City of Newark Municipal Council (Legistar)
+    url: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
+    date: 2026-10-21
 verification:
   writer:
     model: claude-opus-5-5
@@ -53,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the resolution, amounts, contract term, adoption, and Crump’s presidency. Clarified that only two months of funding were initially certified and that continued funding could not be confirmed.
+  notes: Confirmed the contract, amounts, dates, provider requirements, council vote, and Crump’s presidency. Updated the stale status using Newark’s November homeless-shelter appropriation while preserving the distinction between general shelter funding and Circle of Life’s specifically certified amount.
 source_key: newark-26-0572
 ---
 

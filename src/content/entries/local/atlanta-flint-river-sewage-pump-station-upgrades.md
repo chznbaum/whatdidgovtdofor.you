@@ -60,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
-  verdict: corrected
-  notes: Confirmed the ordinance, funding, project scope, 13–0 vote, credit, and latest reported status. Corrected one unsupported description of the station’s second-stage pumps.
+    date: 2026-11-18
+  verdict: pass
+  notes: Confirmed the ordinance, reserve transfer, project scope, impact figures, 13–0 vote, credits, and latest reported status. No substantive errors found.
 source_key: atlanta-council-4108-26-o-1413
 ---
 

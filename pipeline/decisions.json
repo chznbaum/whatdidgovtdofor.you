@@ -31924,11 +31924,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-a1696": {
-  "decision": "error",
-  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters",
+  "decision": "skip",
+  "reason": "Since 2017, New York Insurance Law §3216(i)(11)(F) and the matching sections have required coverage of breast screening and diagnostic imaging, including ultrasounds and MRIs, with no deductible, coinsurance or copay (DFS Circular Letter 2016-2, Supplement 1). Chapter 424 of 2024 (A1696C/S2465C) repeals that subparagraph and restates the coverage, tied to a doctor's recommendation under national guidelines. Neither the bill page, the Governor's release nor ACR coverage says what new benefit patients actually gained, so the core claim can't be verified without overclaiming.",
   "impact": 3,
-  "date": "2026-11-14",
-  "attempts": 1
+  "date": "2026-11-18"
  },
  "ny-2023-a2656": {
   "decision": "skip",
@@ -33597,11 +33596,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2024-18591": {
-  "decision": "error",
-  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters; impact.2.label: Too big: expected string to have <=80 characters",
+  "decision": "drafted",
+  "reason": "The rule gives people appealing Social Security and SSI denials four standard ways to attend their hearing, including by phone or online video from home, so many no longer have to travel to an office. The current regulation text, checked through Nov. 2026, shows it still in effect.",
+  "file": "src/content/entries/federal/ssa-appeal-hearings-by-phone-or-video-from-home.md",
   "impact": 3,
-  "date": "2026-11-14",
-  "attempts": 1
+  "date": "2026-11-18"
  },
  "us-fr-2024-18083": {
   "decision": "skip",
@@ -39488,10 +39487,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-27506": {
-  "decision": "promising",
-  "reason": "triage: confirms ban on partially hydrogenated oils in food; health protection",
+  "decision": "skip",
+  "reason": "This 2023 FDA rule wraps up the agency's 2015 finding that partially hydrogenated oils aren't safe by removing leftover references from its rules, so its main effect is on the rules themselves, not on the food people eat (the 2015 decision could be its own entry).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-a2672": {
   "decision": "promising",
@@ -39518,16 +39517,18 @@
   "date": "2026-11-11"
  },
  "ny-2023-s5941": {
-  "decision": "promising",
-  "reason": "triage: auto-renewal notice 45 days ahead protects consumers",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed law (Chapter 728 of 2023). It gives New Yorkers on yearly or longer subscriptions an advance warning before an automatic renewal charge, along with cancellation instructions, and the requirement is still in the current statute.",
+  "file": "src/content/entries/state/ny-yearly-subscriptions-renewal-notice-before-charge.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s608": {
-  "decision": "promising",
-  "reason": "triage: bans drug shortage price gouging",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, Chapter 725 of 2023, and it is still in effect. It bars anyone in the supply chain from charging unconscionably excessive prices for drugs the FDA lists as in shortage, which directly protects people who buy medicine.",
+  "file": "src/content/entries/state/ny-drug-shortage-price-gouging-banned.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2023-1031": {
   "decision": "skip",
@@ -39734,10 +39735,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0569": {
-  "decision": "promising",
-  "reason": "triage: Workers' bill of rights and immigrant worker outreach law; verify enactment",
+  "decision": "drafted",
+  "reason": "Local Law 161 of 2023 makes every NYC employer give and post a city-written Workers' Bill of Rights that covers all workers regardless of immigration status, and it requires city outreach to immigrant workers. It is enacted and still in effect: DCWP updated the guide in February 2026.",
+  "file": "src/content/entries/local/nyc-workers-bill-of-rights-every-employee-gets-a-copy.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2022-0816": {
   "decision": "skip",
@@ -39788,10 +39790,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s1783": {
-  "decision": "promising",
-  "reason": "triage: Enacted rights protection for LGBT and HIV+ nursing home residents",
+  "decision": "drafted",
+  "reason": "This is an enacted, in-force New York law (Ch. 682 of 2023) that gives LGBTQ residents and residents with HIV in nursing homes, adult care facilities and assisted living enforceable protections against discrimination; no existing entry covers it.",
+  "file": "src/content/entries/state/ny-lgbtq-hiv-long-term-care-residents-bill-of-rights.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2023-11-mayor-adams-celebrates-win-delivery-workers-court-allows-nation-s-first-minimum-pay-rate-for": {
   "decision": "skip",
@@ -39842,10 +39845,11 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-24922": {
-  "decision": "promising",
-  "reason": "triage: Final rule requiring disclosures to poultry growers; protects contract farmers",
+  "decision": "drafted",
+  "reason": "A final USDA rule in effect since Feb. 2024 requires big chicken companies to give contract poultry growers pay history and contract terms before they sign. USDA's 2026 regulatory agenda lists it for rescission, so it is marked under threat.",
+  "file": "src/content/entries/federal/chicken-farmers-see-grower-pay-history-before-signing-contracts.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-fr-2023-26046": {
   "decision": "skip",
@@ -39884,10 +39888,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s7424": {
-  "decision": "promising",
-  "reason": "triage: Enacted AED safety requirement for camps and youth sports",
+  "decision": "skip",
+  "reason": "This repeats an existing entry: ny-2023-s8005 (\"New York camps and youth leagues must keep a defibrillator within reach\") already covers the AED plan and trained-person rule for camps and youth sports, which S7424 enacted and its chapter amendment S8005 revised.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2023-11-mayor-adams-calls-for-live-interview-gmgt-live-s-the-reset-talk-show": {
   "decision": "skip",
@@ -39962,10 +39966,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s214": {
-  "decision": "promising",
-  "reason": "triage: Crime victims can get compensation without police report; real rights expansion",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-2023-a8566 (\"Crime victims in New York can get state help without a police report\"), which covers the same 2023 law: it dropped the police-report requirement for victim compensation, and A8566 is the Assembly companion of S214A.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s2473": {
   "decision": "skip",
@@ -40004,10 +40008,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s5775": {
-  "decision": "promising",
-  "reason": "triage: Two-person freight train crew requirement; safety and jobs protection, enacted",
+  "decision": "skip",
+  "reason": "Duplicate: S5775 (Ch. 707 of 2023) created New York's two-person train crew law, and A8491 (Ch. 79 of 2024) amended that same law to cover hazardous-material trains; the existing entry ny-2023-a8491 already covers that law as it stands today.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s6097": {
   "decision": "skip",
@@ -40178,22 +40182,25 @@
   "date": "2026-11-11"
  },
  "ny-2023-s2099": {
-  "decision": "promising",
-  "reason": "triage: drug adulterant test supplies (fentanyl strips) now dispensed; safety",
+  "decision": "drafted",
+  "reason": "Matthew's Law (Ch. 654 of 2023) lets any New Yorker get drug-checking test strips from pharmacists and prescribers. That is a concrete health and safety benefit, it is still in effect and was broadened later, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-fentanyl-test-strips-from-pharmacists-matthews-law.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s2330": {
-  "decision": "promising",
-  "reason": "triage: long-term care premium hike notices and public rate filings",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 655 of 2023) that gives New York long-term care insurance policyholders 90 days' notice before rate hikes, a public comment period on proposed increases, and 10 years of rate history before they buy. It is in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-long-term-care-insurance-rate-hike-notice-public-comment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s3255": {
-  "decision": "promising",
-  "reason": "triage: discrimination claim deadline extended to three years",
+  "decision": "drafted",
+  "reason": "Chapter 656 of 2023 is a signed law. It gives New Yorkers three years instead of one to file a free discrimination complaint with the state Division of Human Rights, which is a direct rights benefit, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-three-years-to-file-discrimination-complaint.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s3539": {
   "decision": "skip",
@@ -40202,10 +40209,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s4516": {
-  "decision": "promising",
-  "reason": "triage: bars penalty clauses on harassment victims in NDAs",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 658 of 2023, signed Nov. 17, 2023). It protects workers who settle harassment or discrimination claims from penalty clauses that could make them pay back money if they break a gag clause.",
+  "file": "src/content/entries/state/ny-harassment-settlements-no-penalty-for-breaking-nda.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s4715": {
   "decision": "skip",
@@ -40328,10 +40336,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-25408": {
-  "decision": "promising",
-  "reason": "triage: nursing home ownership disclosure rule; transparency for residents",
+  "decision": "skip",
+  "reason": "The rule mainly requires nursing homes to report ownership and management details, including private equity and REIT owners, to CMS for enrollment and oversight, so its main effect is on government rather than a direct, tangible change for residents or workers.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-118-22": {
   "decision": "skip",
@@ -40412,10 +40420,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s6577": {
-  "decision": "promising",
-  "reason": "triage: protects homeowners from deed theft, foreclosure stay",
+  "decision": "drafted",
+  "reason": "The enacted 2023 law (Chapter 630) protects homeowners from deed theft. It lets prosecutors pause evictions and foreclosures on stolen homes and void fraudulent deeds, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-deed-theft-victims-evictions-paused-fraudulent-deeds-voided.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2023-11-mayor-adams-leads-jewish-muslim-christian-faith-community-leaders-discussion-tackle": {
   "decision": "skip",
@@ -40664,10 +40673,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-24195": {
-  "decision": "promising",
-  "reason": "triage: Final VA rule: presumptive service connection for rare respiratory cancers eases benefits claims",
+  "decision": "skip",
+  "reason": "The PACT Act made respiratory cancer of any type presumptive for these same veterans, which covers all nine cancers in this rule, and the site already has that law as us-law-117-168; this 2023 rule only finalized, without changes, an April 2022 interim rule.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2023-11-mayor-adams-city-planning-director-garodnick-celebrate-city-council-s-passage-zoning-reform-for": {
   "decision": "skip",
@@ -40790,10 +40799,10 @@
   "date": "2026-11-11"
  },
  "us-fr-2023-23573": {
-  "decision": "promising",
-  "reason": "triage: NLRB joint-employer rule expands who is liable to bargain; check if it took effect (later vacated)",
+  "decision": "skip",
+  "reason": "A federal court in Texas vacated the NLRB's 2023 joint-employer rule on March 8, 2024, before its delayed effective date, and the Board dropped its appeal, so it never took effect or reached any worker.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2023-10-mayor-adams-after-governor-hochul-signs-bills-increase-inclusivity-city": {
   "decision": "skip",
@@ -40892,10 +40901,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-a5010": {
-  "decision": "promising",
-  "reason": "triage: Bans corporal punishment in schools; child protection",
+  "decision": "drafted",
+  "reason": "A signed 2023 law extended New York's ban on corporal punishment from public schools to every school in the state, including private ones, and made it a form of child abuse under the Education Law: a direct safety protection for working families' kids.",
+  "file": "src/content/entries/state/ny-corporal-punishment-banned-in-all-schools-public-and-private.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-a5036": {
   "decision": "skip",
@@ -41114,10 +41124,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s5026": {
-  "decision": "promising",
-  "reason": "triage: freelance pay protections, enacted",
+  "decision": "skip",
+  "reason": "This is New York's Freelance Isn't Free Act, which the site already covers in ny-2023-s8039 (\"Freelancers in New York get written contracts and payment deadlines\"). S8039 is the 2023 chapter amendment to S5026, so a second entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s6491": {
   "decision": "skip",
@@ -41306,10 +41316,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s1466": {
-  "decision": "promising",
-  "reason": "triage: ambulance payments; may protect patients, writer checks",
+  "decision": "skip",
+  "reason": "The enacted bill, Chapter 649 of 2023 (S1466 restored to its original text), mainly makes insurers pay out-of-network ambulance companies directly. The amended version had patient cost protections, but they appear to have been dropped before passage, so the main effect is on providers and insurers, not a clear benefit to working people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-a7376": {
   "decision": "skip",
@@ -41324,10 +41334,10 @@
   "date": "2026-11-11"
  },
  "ny-2023-s2391": {
-  "decision": "promising",
-  "reason": "triage: raises Medicaid income limits for disabled people; check details",
+  "decision": "skip",
+  "reason": "Chapter 583 of 2023 wrote into law a higher Medicaid Buy-In savings limit (not an income limit) that the state health department had already put in place on Jan. 1, 2023 (GIS 22 MA/11), so the law gave no new benefit and an entry would overclaim.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s2683": {
   "decision": "skip",
@@ -41510,16 +41520,16 @@
   "date": "2026-11-11"
  },
  "ny-2023-s2985": {
-  "decision": "promising",
-  "reason": "triage: affordable housing financing law; check substance",
+  "decision": "skip",
+  "reason": "Chapter 535 of 2023 rewrites the loan terms, caps and powers that state and city housing finance agencies like HPD, HFA and HDC work under, so its main effect is on government itself, and no source ties it to a homes count, a dollar figure or a benefit readers could get.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s4709": {
-  "decision": "promising",
-  "reason": "triage: tax abatement for habitability repairs in affordable housing; check cost",
+  "decision": "skip",
+  "reason": "S4709A (Ch. 536 of 2023) brings back NYC's J-51 program as a property-tax abatement for building owners who renovate. The bill's own summary says the main benefit goes to owners, and tenants gain only indirectly through repairs, so it fails the guide's net-impact test for relief that mostly goes to owners and doesn't establish how the lost revenue is covered.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s5915": {
   "decision": "skip",
@@ -41684,10 +41694,11 @@
   "date": "2026-11-11"
  },
  "ny-2023-s580": {
-  "decision": "promising",
-  "reason": "triage: Medicaid covers violence prevention services; claim check needed",
+  "decision": "drafted",
+  "reason": "An enacted, signed law (Chapter 531 of 2023) that opens Medicaid coverage of violence prevention services to low-income New Yorkers treated for violent injuries is a direct service benefit, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-medicaid-violence-prevention-services-after-violent-injury.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2023-s6082": {
   "decision": "skip",
@@ -41744,10 +41755,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0760": {
-  "decision": "promising",
-  "reason": "triage: Free water safety instruction for public school kids",
+  "decision": "drafted",
+  "reason": "Local Law 129 of 2023 is an enacted city law that requires free school-day swim lessons for public school second graders. The city cut the funding, but Council money has since paid for lessons for 6,000 children and 3,000 more are funded, so it delivers a real but partial benefit, recorded as phasing-in.",
+  "file": "src/content/entries/local/nyc-free-swim-lessons-for-public-school-second-graders.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2023-0877": {
   "decision": "skip",
@@ -41756,10 +41768,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2023-0949": {
-  "decision": "promising",
-  "reason": "triage: Battery trade-in program for e-bikes; fire safety, delivery workers",
+  "decision": "drafted",
+  "reason": "Local Law 131 of 2023 set up a city-funded trade-in program. It gave 402 NYC delivery workers a free UL-certified e-bike and two certified batteries in exchange for unsafe devices, a concrete safety benefit that was delivered in 2025.",
+  "file": "src/content/entries/local/nyc-delivery-workers-free-certified-e-bike-trade-in.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2023-0962": {
   "decision": "promising",
@@ -41774,10 +41787,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2023-1017": {
-  "decision": "promising",
-  "reason": "triage: Lifeguards at public beaches and pools; safety",
+  "decision": "skip",
+  "reason": "Local Law 134 of 2023 (Int. 1017-A) only requires the Parks Department to file an annual report on lifeguard hiring, training, incidents and pool closures; it sets no staffing levels, training, or services, so its main effect is on government itself, not a direct, tangible benefit to people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2023-1066": {
   "decision": "skip",
@@ -82570,10 +82583,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-amendments-to-cityfheps-rules": {
-  "decision": "promising",
-  "reason": "triage: drops 90-day stay, eases work hours for housing vouchers",
+  "decision": "skip",
+  "reason": "The rule ended the 90-day shelter wait for CityFHEPS but also raised the work requirement for adult-only households from any hours to 10 a week, hurting gig and part-time workers (City Limits, Urban Justice Center), so no source settles whether working people came out ahead.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "nyc-rule-rulemaking-petitions-3": {
   "decision": "skip",
@@ -94522,10 +94535,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-292": {
-  "decision": "promising",
-  "reason": "triage: surplus share for families in crisis; funded from surplus",
+  "decision": "drafted",
+  "reason": "The ordinance put one-time surplus money toward Richmond's Family Crisis Fund, which covers emergency bills for residents in a money crisis. That money comes from a real surplus, so it passes the net-impact test, and no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-family-crisis-fund-surplus-humankind.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-293": {
   "decision": "skip",
@@ -94552,10 +94566,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-327": {
-  "decision": "promising",
-  "reason": "triage: funds lead service line replacement for homes, schools, daycares",
+  "decision": "drafted",
+  "reason": "Richmond's council accepted and spent a $750,000 state grant: $500,000 pays to replace lead water lines on private homes, schools and day cares, and $250,000 pays for a public map of service lines. That is concrete health infrastructure, and the 2026 $7.3 million entry is a separate action.",
+  "file": "src/content/entries/local/richmond-lead-pipe-replacement-homes-schools-daycares-750k.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-328": {
   "decision": "skip",
@@ -94702,10 +94717,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-325": {
-  "decision": "promising",
-  "reason": "triage: funded inclement weather shelter for homeless, Dec-Apr",
+  "decision": "drafted",
+  "reason": "The ordinance paid for the 2023–24 season of Richmond's Chamberlayne Avenue inclement weather shelter. It is a separate action from the existing 2026 Chamberlayne and overflow-bed entries, and it delivered 150 shelter beds to homeless residents.",
+  "file": "src/content/entries/local/richmond-chamberlayne-winter-shelter-150-beds-2023-24.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "hampton-23-0308": {
   "decision": "skip",
@@ -94744,10 +94760,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-280": {
-  "decision": "promising",
-  "reason": "triage: city grant for affordable housing development at 700 W 44th",
+  "decision": "drafted",
+  "reason": "Richmond adopted a performance grant agreement that requires 144 income-capped apartments at 700 W. 44th St., and no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-west-44th-street-144-income-capped-apartments.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-res-2023-r054": {
   "decision": "skip",
@@ -95008,10 +95025,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-294": {
-  "decision": "promising",
-  "reason": "triage: funds 50-bed year-round family emergency shelter; appropriated grant",
+  "decision": "drafted",
+  "reason": "This 2023 ordinance funded the opening of HomeAgain's 50-bed year-round family shelter at 7 N. Second St. in Richmond. The two existing 2026 entries only cover keeping that shelter open, so this is a separate action.",
+  "file": "src/content/entries/local/richmond-homeagain-50-bed-year-round-family-shelter-opens.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-297": {
   "decision": "skip",
@@ -95020,10 +95038,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-298": {
-  "decision": "promising",
-  "reason": "triage: grant contract operating year-round shelter; same action as shelter funding",
+  "decision": "skip",
+  "reason": "This 2023 grant funded HomeAgain's 50-bed family shelter at 7 N. Second St., and the site already covers that same shelter twice (richmond-ord-2026-284 and richmond-ord-2026-285, \"Richmond's 50-bed downtown family shelter stays open\"), so a third entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-299": {
   "decision": "skip",
@@ -95080,16 +95098,18 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-308": {
-  "decision": "promising",
-  "reason": "triage: city grant for affordable apartments; check affordability terms",
+  "decision": "drafted",
+  "reason": "The adopted ordinance put Richmond's affordable housing performance grant behind 150 apartments for households earning up to 60% of area median income on a vacant Southside lot, and they opened in October 2026.",
+  "file": "src/content/entries/local/richmond-afton-avenue-150-income-capped-apartments.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-309": {
-  "decision": "promising",
-  "reason": "triage: city grant for affordable apartments; check affordability terms",
+  "decision": "drafted",
+  "reason": "The ordinance approved a city Affordable Housing Performance Grant for 2100 Bainbridge St. The building is now open, with 83 income-capped apartments for seniors. It is a different project from the Swansboro Place entry already on the site.",
+  "file": "src/content/entries/local/richmond-bainbridge-street-83-senior-apartments-swansboro.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-310": {
   "decision": "skip",
@@ -95158,10 +95178,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2023-277": {
-  "decision": "promising",
-  "reason": "triage: City grant to build an affordable apartment development; check funding and affordability",
+  "decision": "drafted",
+  "reason": "The council approved a city performance grant for 216 income-capped family apartments on Walmsley Boulevard, and they have now been built and leased. The existing Walmsley entry (ORD. 2024-165) covers only the separate 128-unit senior building.",
+  "file": "src/content/entries/local/richmond-walmsley-gardens-216-income-capped-family-apartments.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2023-278": {
   "decision": "promising",
@@ -143622,10 +143643,11 @@
   "date": "2026-11-14"
  },
  "newark-26-0515": {
-  "decision": "promising",
-  "reason": "triage: widens eligibility for free eviction lawyers",
+  "decision": "drafted",
+  "reason": "The adopted ordinance raises the income limit for Newark's free eviction lawyers from 200% to 300% of the federal poverty guidelines, so more tenants now qualify. That is a direct, tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-free-eviction-lawyer-income-limit-raised.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0522": {
   "decision": "skip",
@@ -144132,10 +144154,10 @@
   "date": "2026-11-14"
  },
  "newark-26-0532": {
-  "decision": "promising",
-  "reason": "triage: rent control corrections; unclear effect, draft to check",
+  "decision": "skip",
+  "reason": "This ordinance mostly reorganizes and corrects Newark's code: it moves rental registration and inspection rules into the rent control chapter and conforms definitions, penalties and inspection fees, and the record I could open shows no new benefit or protection for tenants that I could verify.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0539": {
   "decision": "promising",
@@ -144168,10 +144190,11 @@
   "date": "2026-11-14"
  },
  "newark-26-0562": {
-  "decision": "promising",
-  "reason": "triage: emergency housing shelter funding $1.1M",
+  "decision": "drafted",
+  "reason": "The council adopted a contract of up to $1.12 million for The Apostles' House to run emergency housing for homeless Newark residents through March 2027, and no existing entry covers this provider.",
+  "file": "src/content/entries/local/newark-apostles-house-emergency-housing.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0570": {
   "decision": "promising",
@@ -144204,10 +144227,10 @@
   "date": "2026-11-14"
  },
  "newark-26-0587": {
-  "decision": "promising",
-  "reason": "triage: federal grant for mental health crisis response teams",
+  "decision": "skip",
+  "reason": "This accepts one year ($727,424, Sept. 2025–Sept. 2026) of Newark's $2.9 million SAMHSA crisis response grant. The existing entry newark-26-1334 (\"Newark's mental health crisis teams get another year of federal funding\") already covers that program's yearly funding, so a separate entry for this year would duplicate it.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0599": {
   "decision": "skip",
@@ -144330,10 +144353,10 @@
   "date": "2026-11-14"
  },
  "newark-26-0698": {
-  "decision": "promising",
-  "reason": "triage: design contract for pedestrian bridge; design only",
+  "decision": "skip",
+  "reason": "This is a routine architecture and engineering contract to redesign a stalled project, not an action that delivers a bridge: the Mulberry Commons pedestrian bridge was paid for in 2022, had a symbolic groundbreaking in 2023, and still has no construction start or completion date in any source I found.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0700": {
   "decision": "skip",
@@ -144348,10 +144371,11 @@
   "date": "2026-11-14"
  },
  "newark-26-0702": {
-  "decision": "promising",
-  "reason": "triage: $4M state grant for pedestrian safety and traffic calming",
+  "decision": "drafted",
+  "reason": "Newark accepted a $4.03 million federal grant, which the city doesn't have to match, to build pedestrian and bicycle safety and traffic-calming improvements on Broad Street. This is funded infrastructure with a direct safety benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/newark-broad-street-safe-gateway-pedestrian-safety.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "newark-26-0704": {
   "decision": "skip",
@@ -144546,10 +144570,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c6": {
-  "decision": "promising",
-  "reason": "triage: nurse practitioners can practice independently, expands access to care",
+  "decision": "drafted",
+  "reason": "The enacted law permanently lets experienced advanced practice nurses in primary and behavioral health care prescribe without a doctor's joint protocol. That keeps New Jersey patients' access to care that would otherwise have ended with the pandemic-era waiver.",
+  "file": "src/content/entries/state/nj-nurse-practitioners-prescribe-without-doctor-protocol.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2026-c7": {
   "decision": "skip",
@@ -144576,10 +144601,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c3": {
-  "decision": "promising",
-  "reason": "triage: officers must show face and ID before arrest or detention, rights protection",
+  "decision": "error",
+  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18",
+  "attempts": 1
  },
  "nj-pl2026-c4": {
   "decision": "drafted",
@@ -144589,10 +144615,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2026-c5": {
-  "decision": "promising",
-  "reason": "triage: codifies AG directive limiting local police cooperation with immigration enforcement",
+  "decision": "drafted",
+  "reason": "P.L.2026, c.5 is an enacted state law that limits when New Jersey police can take part in civil immigration enforcement. It protects immigrant residents' rights in stops, questioning, and jail holds, and it is a different law from the existing c.4 entry.",
+  "file": "src/content/entries/state/nj-police-cant-do-ice-civil-immigration-work.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-eo-057-16": {
   "decision": "skip",
@@ -144775,10 +144802,11 @@
   "date": "2026-11-14"
  },
  "nj-eo-057-12": {
-  "decision": "promising",
-  "reason": "triage: Bars civil immigration enforcement on state property; ordered, protects residents",
+  "decision": "drafted",
+  "reason": "Governor Sherrill's EO 12 keeps ICE out of nonpublic areas of state property without a judge's warrant. That protects people who use state child care centers, offices, dorms and care facilities, and it remains in effect after a federal judge dismissed the Justice Department's challenge on Sept. 4, 2026.",
+  "file": "src/content/entries/state/nj-ice-needs-judges-warrant-for-nonpublic-state-property.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-gov-20260206a": {
   "decision": "skip",
@@ -144853,10 +144881,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c319": {
-  "decision": "promising",
-  "reason": "triage: Sandy rebuilding program resumes with funds for homeowners",
+  "decision": "drafted",
+  "reason": "An enacted law (P.L.2025, c.319) that made New Jersey reopen Sandy rebuilding grants. DCA's Pathway D now pays up to $100,000 for repairs or $500,000 for reconstruction and is taking applications.",
+  "file": "src/content/entries/state/nj-sandy-rrem-rebuilding-grants-reopened.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c320": {
   "decision": "skip",
@@ -144871,10 +144900,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c322": {
-  "decision": "promising",
-  "reason": "triage: Voters can fix mail ballot errors",
+  "decision": "drafted",
+  "reason": "This enacted law gives New Jersey mail-in voters a new way to fix envelope errors that now get their ballots thrown out, or to vote provisionally instead, which is a direct voting-rights benefit; the state says it takes effect in 2027.",
+  "file": "src/content/entries/state/nj-fix-mail-ballot-envelope-mistakes-cure.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c323": {
   "decision": "skip",
@@ -144943,10 +144973,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c335": {
-  "decision": "promising",
-  "reason": "triage: Prevailing wage on data center construction",
+  "decision": "drafted",
+  "reason": "An enacted, in-effect law that requires workers building large private data centers in New Jersey to earn at least the prevailing wage, with no offsetting cost to working people.",
+  "file": "src/content/entries/state/nj-data-center-construction-prevailing-wage.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c336": {
   "decision": "skip",
@@ -145051,10 +145082,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c353": {
-  "decision": "promising",
-  "reason": "triage: Limits schools withholding transcripts over debt",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.353, signed Jan. 20, 2026, limits when New Jersey colleges can withhold transcripts over unpaid balances, a direct protection for students and former students trying to get jobs or keep studying.",
+  "file": "src/content/entries/state/nj-college-transcripts-released-with-payment-plan.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c354": {
   "decision": "skip",
@@ -145069,10 +145101,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c356": {
-  "decision": "promising",
-  "reason": "triage: Criminal penalties for prevailing wage violations",
+  "decision": "drafted",
+  "reason": "Enacted law (P.L.2025, c.356) that makes faking certified payroll or contractor registration records under New Jersey's Prevailing Wage Act a crime, giving workers on public projects stronger protection against wage theft.",
+  "file": "src/content/entries/state/nj-falsifying-prevailing-wage-payroll-records-now-a-crime.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c357": {
   "decision": "skip",
@@ -145105,10 +145138,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c362": {
-  "decision": "promising",
-  "reason": "triage: Manufactured home park residents get purchase rights",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.362 is an enacted law, in effect since Jan. 20, 2026. It gives New Jersey manufactured-home owners a real right to buy their park when it's sold: the consent threshold drops from two-thirds to 51%, they get 120 days instead of 45, and it can be enforced in court.",
+  "file": "src/content/entries/state/nj-mobile-home-owners-first-right-to-buy-their-park.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c363": {
   "decision": "skip",
@@ -145208,10 +145242,10 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c379": {
-  "decision": "promising",
-  "reason": "triage: Revises state retirement savings program; may expand access, check details",
+  "decision": "skip",
+  "reason": "P.L.2025, c.379 widens RetireReady NJ to employers with 10+ workers and adds automatic contribution increases, but the same law replaced the program's percentage-only fee cap with up to $26 per account plus 0.25% of the balance. Under the new fees, about 84% of accounts (average balance about $840) pay roughly $28 a year instead of about $6, so the law shifts costs onto the low-balance savers it claims to help and fails the net-impact test.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c380": {
   "decision": "skip",
@@ -145250,10 +145284,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c386": {
-  "decision": "promising",
-  "reason": "triage: Annual wellness visits covered without waiting periods",
+  "decision": "drafted",
+  "reason": "This is an enacted law, approved Jan. 20, 2026 and effective Jan. 1, 2027. It requires New Jersey-regulated health plans and the state and school employee plans to cover one wellness visit each plan or calendar year, with no 12-month waiting period, so people can schedule their checkups.",
+  "file": "src/content/entries/state/nj-yearly-wellness-visit-no-12-month-wait.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c387": {
   "decision": "drafted",
@@ -145420,10 +145455,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c293": {
-  "decision": "promising",
-  "reason": "triage: Easier applications for housing and rental aid",
+  "decision": "drafted",
+  "reason": "Enacted law (P.L.2025, c.293) requiring New Jersey's DCA to let people apply for housing, shelter and rental aid, including Section 8 vouchers that are currently online-only, without the internet starting Jan. 1, 2027.",
+  "file": "src/content/entries/state/nj-housing-aid-apply-without-internet-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c294": {
   "decision": "skip",
@@ -145444,10 +145480,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c297": {
-  "decision": "promising",
-  "reason": "triage: Funded heat and air quality shelter pilot",
+  "decision": "drafted",
+  "reason": "An enacted, funded law ($2.5 million) that set up Code Red heat and air-quality alerts, with cooling centers, outreach and rides, for homeless and other at-risk people in five New Jersey counties; the pilot is running now.",
+  "file": "src/content/entries/state/nj-code-red-cooling-centers-homeless-heat-pilot.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c298": {
   "decision": "skip",
@@ -145462,10 +145499,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c300": {
-  "decision": "promising",
-  "reason": "triage: Railroad safety requirements, details unclear but safety",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.300 is an enacted New Jersey law. It requires two-person crews on trains carrying large hazardous-material loads, defect detectors along the tracks, and bridge inspection reports, which directly protects rail workers and the people who live along the tracks.",
+  "file": "src/content/entries/state/nj-hazmat-trains-two-person-crews-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c301": {
   "decision": "skip",
@@ -145504,10 +145542,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c307": {
-  "decision": "promising",
-  "reason": "triage: Anti-discrimination protections for veterans and service members",
+  "decision": "drafted",
+  "reason": "The enacted law, P.L.2025 c.307, adds current service members and veterans as a protected class under New Jersey's Law Against Discrimination and makes it illegal to refuse to rehire workers who return from military leave, a concrete rights protection that took effect on Jan. 20, 2026.",
+  "file": "src/content/entries/state/nj-veterans-service-members-protected-from-discrimination.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c308": {
   "decision": "skip",
@@ -145534,10 +145573,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c312": {
-  "decision": "promising",
-  "reason": "triage: Expands social services at county colleges for students",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.312, signed Jan. 20, 2026 and in effect now, requires each county welfare office to name a staff member who helps county college students apply for SNAP, TANF and child care aid, and requires the colleges to help students get those benefits.",
+  "file": "src/content/entries/state/nj-county-college-students-help-applying-snap-child-care.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c313": {
   "decision": "skip",
@@ -145606,10 +145646,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c405": {
-  "decision": "promising",
-  "reason": "triage: caps rental application fees; direct renter savings",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.405 is an enacted law, in effect since May 1, 2026, that caps rental application fees at $50, which directly lowers what renters pay to apply for an apartment.",
+  "file": "src/content/entries/state/nj-rental-application-fees-capped-at-50.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c284": {
   "decision": "skip",
@@ -145704,10 +145745,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c202": {
-  "decision": "promising",
-  "reason": "triage: PFAS limits and programs protect health",
+  "decision": "drafted",
+  "reason": "An enacted New Jersey law will ban sales of cosmetics, carpet, fabric treatments and plant-fiber food packaging with intentionally added PFAS starting Jan. 12, 2028, will require PFAS warning labels on cookware, and funds state PFAS reduction and research; it doesn't duplicate the existing clothing-and-diapers entry (P.L.2026, c.76).",
+  "file": "src/content/entries/state/nj-pfas-banned-cosmetics-carpet-food-packaging-2028.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c203": {
   "decision": "skip",
@@ -146107,10 +146149,10 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c270": {
-  "decision": "promising",
-  "reason": "triage: raises income limits for utility bill help and efficiency programs",
+  "decision": "skip",
+  "reason": "P.L.2025, c.270 only requires DCA, DHS and BPU to review income limits for utility assistance within a year and leaves any increase to the agencies; no source ties an actual increase to this law, so it's a study mandate with no confirmed effect on people yet.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c271": {
   "decision": "skip",
@@ -146119,10 +146161,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c196": {
-  "decision": "promising",
-  "reason": "triage: PrEP from pharmacists without prescription, coverage mandated",
+  "decision": "drafted",
+  "reason": "This is an enacted New Jersey law, P.L.2025, c.196, signed Jan. 9, 2026. It lets trained pharmacists provide the HIV prevention drugs PrEP and PEP without a prescription, and it requires state-regulated plans, Medicaid and state worker plans to cover them without prior authorization.",
+  "file": "src/content/entries/state/nj-pharmacists-hiv-prevention-prep-pep-no-prescription.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c197": {
   "decision": "skip",
@@ -146144,10 +146187,11 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c200": {
-  "decision": "promising",
-  "reason": "triage: requires insurance coverage of menopause treatment",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.200 is an enacted New Jersey law that requires state-regulated plans, state and school employee plans, and Medicaid to cover menopause care, which is a direct health benefit and isn't already on the site.",
+  "file": "src/content/entries/state/nj-health-plans-must-cover-menopause-care.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c195": {
   "decision": "skip",
@@ -146168,16 +146212,18 @@
   "date": "2026-11-14"
  },
  "nj-pl2025-c193": {
-  "decision": "promising",
-  "reason": "triage: lead screening for pregnant people, health protection",
+  "decision": "drafted",
+  "reason": "P.L.2025, c.193 is an enacted New Jersey law, in effect since April 1, 2026, that requires prenatal providers to assess pregnant patients for lead exposure, test them under CDC and ACOG guidance, and follow up on high results. It directly protects pregnant people and their children.",
+  "file": "src/content/entries/state/nj-prenatal-lead-risk-check-and-screening.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c194": {
-  "decision": "promising",
-  "reason": "triage: longer window to enroll newborns in coverage",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed law (P.L.2025, c.194). It gives parents on state-regulated health plans 90 days instead of 60 to enroll a newborn before the baby's automatic coverage ends, and no existing entry covers it.",
+  "file": "src/content/entries/state/nj-newborn-health-coverage-enrollment-90-days.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "nj-pl2025-c190": {
   "decision": "skip",
@@ -168894,10 +168940,11 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4075-26-o-1279": {
-  "decision": "promising",
-  "reason": "triage: USDA reimbursement funds kids' summer meals",
+  "decision": "drafted",
+  "reason": "Atlanta formally accepted up to $790,680 in USDA reimbursement money for the meals Parks and Recreation serves kids in its programs, about 3,000 a day; this is a funded action with a direct benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/atlanta-usda-summer-meals-rec-centers.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "atlanta-council-4075-26-o-1280": {
   "decision": "skip",
@@ -169002,10 +169049,10 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4075-26-o-1301": {
-  "decision": "promising",
-  "reason": "triage: $15M added to sewer repair contract, funded",
+  "decision": "skip",
+  "reason": "This vote only adds money to an existing annual on-call sewer repair contract, a routine contract change. The record names no specific repairs, places, or outcomes I could verify, so I can't tell readers what it concretely does for them.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "atlanta-council-4075-26-o-1302": {
   "decision": "skip",
@@ -169014,10 +169061,10 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4075-26-o-1303": {
-  "decision": "promising",
-  "reason": "triage: same sewer repair program; may merge with sibling",
+  "decision": "skip",
+  "reason": "This is a routine amendment that adds money to an existing annual sewer repair contract. The record gives a dollar figure and a vendor, but no project, place, or result for residents I could verify, so there's no concrete impact to put in an entry.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "atlanta-council-4075-26-r-3596": {
   "decision": "skip",
@@ -169086,10 +169133,11 @@
   "date": "2026-11-14"
  },
  "ga-eo-2026-05-15-02": {
-  "decision": "promising",
-  "reason": "triage: State of emergency declared for price shock; effect unclear, writer should check what it does",
+  "decision": "drafted",
+  "reason": "Kemp's May 15, 2026 order kept Georgia's 33.3-cent gas tax and 37.3-cent diesel tax suspended for two more weeks, and GBPI says the state used surplus funds to backfill the lost road money, so the order passes the net-impact test.",
+  "file": "src/content/entries/state/ga-gas-tax-suspension-extended-two-weeks-may-2026.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "savannah-council-actionminutes-2026-05-14-10": {
   "decision": "skip",
@@ -169260,10 +169308,11 @@
   "date": "2026-11-14"
  },
  "atlanta-council-4075-26-o-1304": {
-  "decision": "promising",
-  "reason": "triage: Funds sewer/stream project; writer confirms what it builds",
+  "decision": "drafted",
+  "reason": "The council approved $24.04 million to replace undersized sewer trunk lines in Atlanta's eastside Peachtree Creek basin. The work cuts sewage overflows during storms, which is a funded infrastructure project with a direct effect on residents.",
+  "file": "src/content/entries/local/atlanta-peachtree-creek-eastside-sewer-capacity.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "atlanta-council-4075-26-o-1305": {
   "decision": "skip",
@@ -169608,10 +169657,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb506": {
-  "decision": "promising",
-  "reason": "triage: Medicaid covers tobacco cessation treatment",
+  "decision": "drafted",
+  "reason": "HB 506 was signed May 12, 2026 as Act 624, but the Senate replaced its tobacco-cessation text with protections against surprise bills for emergency ground ambulance rides; that law directly limits what insured Georgians pay, and no existing entry covers it.",
+  "file": "src/content/entries/state/ga-no-surprise-ambulance-bills-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb651": {
   "decision": "skip",
@@ -169668,10 +169718,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb207": {
-  "decision": "promising",
-  "reason": "triage: preclearance lets people with records know licensing eligibility",
+  "decision": "drafted",
+  "reason": "SB 207 is a signed Georgia law with no service-cutting cost. It lets people with criminal records get a binding answer from more than 40 licensing boards before they pay for training, and it limits which convictions boards can use to deny a license.",
+  "file": "src/content/entries/state/ga-licensing-boards-criminal-record-predetermination.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb220": {
   "decision": "skip",
@@ -169686,10 +169737,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb406": {
-  "decision": "promising",
-  "reason": "triage: HOA registration and complaint board for homeowners",
+  "decision": "drafted",
+  "reason": "An enacted Georgia law limits when homeowners associations can foreclose, keeps fines and fees from counting toward foreclosure, and gives the 2.5 million people in associations a state complaint process. Its only cost is a $100 yearly registration fee per association.",
+  "file": "src/content/entries/state/ga-hoa-foreclosure-limits-state-oversight.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb472": {
   "decision": "skip",
@@ -169752,10 +169804,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb1024": {
-  "decision": "promising",
-  "reason": "triage: Bankruptcy home exemption revision; may protect debtors' homes, writer checks",
+  "decision": "drafted",
+  "reason": "HB 1024 is signed law, in effect since July 1, 2026. It more than doubles the home equity Georgians can protect in bankruptcy, a direct benefit to struggling homeowners that costs public services nothing.",
+  "file": "src/content/entries/state/ga-bankruptcy-home-equity-protection-50000.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb1037": {
   "decision": "skip",
@@ -169825,10 +169878,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb1187": {
-  "decision": "promising",
-  "reason": "triage: Bans NDAs concealing child sex abuse claims",
+  "decision": "drafted",
+  "reason": "Georgia's Trey's Law makes NDAs that silence childhood sexual abuse survivors unenforceable. It's an enacted, signed law that protects survivors' right to speak, and nothing on the site duplicates it.",
+  "file": "src/content/entries/state/ga-child-sexual-abuse-ndas-unenforceable.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb1195": {
   "decision": "skip",
@@ -169837,16 +169891,16 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb1200": {
-  "decision": "promising",
-  "reason": "triage: Caps homestead base-year increases for Savannah homeowners; funding impact open",
+  "decision": "skip",
+  "reason": "HB 1200 freezes the school-tax value of Chatham County homesteads at their 2025 level, which cuts revenue for Savannah-Chatham public schools; no source shows that money being replaced, and the relief goes only to homeowners, more of it to those with pricier homes, so it fails the net-impact test (I also couldn't confirm whether voters approved it on Nov. 3, 2026).",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb1203": {
-  "decision": "promising",
-  "reason": "triage: Chatham homestead exemption tweak; cost to schools open",
+  "decision": "skip",
+  "reason": "HB 1203 only signs existing homestead holders up automatically for Chatham County's homeowner-only school-tax assessment freeze, and no source shows the lost school revenue is replaced, so it fails the guide's net-impact test.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb1209": {
   "decision": "skip",
@@ -170011,10 +170065,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb540": {
-  "decision": "promising",
-  "reason": "triage: Conversational AI disclosures and minor protections; enacted safety rule",
+  "decision": "drafted",
+  "reason": "Georgia's SB 540 (Act 518) is a signed law. Starting July 1, 2027, it requires AI chatbots to tell you they are AI and to have a protocol for self-harm conversations, and it adds protections for children. It is a direct consumer-safety protection and no existing entry covers it.",
+  "file": "src/content/entries/state/ga-ai-chatbots-must-disclose-protect-kids-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb542": {
   "decision": "promising",
@@ -170101,10 +170156,10 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb134": {
-  "decision": "promising",
-  "reason": "triage: Manufactured home sales tax exemption expanded; affordable housing; check cost",
+  "decision": "skip",
+  "reason": "As enacted (Act 427), HB 134 no longer has the manufactured-home sales tax exemption; it became a forestry and biofuel manufacturer tax credit bill (transferable credits capped at $250 million), which mainly helps businesses and fails the net-impact test. The housing exemption passed separately as HB 165.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb549": {
   "decision": "skip",
@@ -170215,10 +170270,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb1118": {
-  "decision": "promising",
-  "reason": "triage: Paid maternal birth leave for state employees",
+  "decision": "drafted",
+  "reason": "HB 1118 was signed May 5, 2026 (Act 413) and has been in effect since July 1, 2026; it gives eligible Georgia state and school employees who give birth up to 120 hours of paid recovery leave on top of existing paid parental leave.",
+  "file": "src/content/entries/state/ga-maternal-birth-leave-state-school-employees.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb438": {
   "decision": "promising",
@@ -170275,10 +170331,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb945": {
-  "decision": "promising",
-  "reason": "triage: Banks can hold accounts on suspected elder fraud",
+  "decision": "drafted",
+  "reason": "HB 945 became law on May 11, 2026 and took effect July 1. It caps crypto ATM transactions, limits their fees, requires refunds to scammed new users, and lets banks pause suspected exploitation of people 65 and older or adults with disabilities. That is a direct consumer protection for working people.",
+  "file": "src/content/entries/state/ga-crypto-atm-limits-scam-refunds-bank-holds-seniors.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb946": {
   "decision": "skip",
@@ -170323,10 +170380,10 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb111": {
-  "decision": "promising",
-  "reason": "triage: Consumer data privacy rights",
+  "decision": "skip",
+  "reason": "Legal analyses (JD Supra and LexBlog) report that the House replaced SB 111's entire text with unrelated changes to the rural hospital donation tax credit, so the Act 462 that Kemp signed on May 11, 2026 contains no consumer privacy law; the tracker's title is stale, and the hospital donation credit doesn't clearly pass the net-impact test.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb146": {
   "decision": "skip",
@@ -170437,10 +170494,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb439": {
-  "decision": "promising",
-  "reason": "triage: Rules on assisted living referral agencies",
+  "decision": "drafted",
+  "reason": "SB 439 (Act 510) is an enacted consumer protection, in effect since July 1, 2026, for Georgia families looking for assisted living or a personal care home: referral agencies must disclose that facilities pay them, get the family's acknowledgment before collecting a fee, and refer only to licensed homes.",
+  "file": "src/content/entries/state/ga-senior-living-referral-agencies-disclose-fees.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb441": {
   "decision": "skip",
@@ -170576,10 +170634,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb1193": {
-  "decision": "promising",
-  "reason": "triage: Early literacy overhaul; direct effect on students; check funding/substance",
+  "decision": "drafted",
+  "reason": "Enacted law, funded with $70 million in the signed FY2027 budget, that pays for a literacy coach in every Georgia school with K-3 classes, a concrete public-school service for working families' kids.",
+  "file": "src/content/entries/state/ga-literacy-coach-every-k3-school.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb1208": {
   "decision": "skip",
@@ -170624,10 +170683,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-hb162": {
-  "decision": "promising",
-  "reason": "triage: Seals first offender records so people can get jobs and housing",
+  "decision": "drafted",
+  "reason": "HB 162 is an enacted, signed Georgia law. Since July 1, 2026 it seals first offender records from public view and from private background check companies at sentencing, which directly protects thousands of Georgians a year when they look for jobs and housing.",
+  "file": "src/content/entries/state/ga-first-offender-records-sealed-at-sentencing.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-hb165": {
   "decision": "skip",
@@ -170708,10 +170768,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb195": {
-  "decision": "promising",
-  "reason": "triage: Pharmacists can dispense PrEP/PEP without a doctor visit; access gain",
+  "decision": "drafted",
+  "reason": "Enacted law (Act 409, signed May 5, 2026) that lets Georgia pharmacists prescribe and dispense HIV prevention drugs without a doctor's visit first, a direct health-access gain in the state with the highest rate of new HIV infections.",
+  "file": "src/content/entries/state/ga-pharmacists-prescribe-hiv-prevention-prep-pep.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb403": {
   "decision": "skip",
@@ -170720,10 +170781,11 @@
   "date": "2026-11-14"
  },
  "ga-20252026-sb444": {
-  "decision": "promising",
-  "reason": "triage: Insurers can't deny care based solely on AI; patient protection",
+  "decision": "drafted",
+  "reason": "Signed law (Act 411, signed May 5, 2026, effective Jan. 1, 2027) that bars insurers' AI tools from denying Georgians' health coverage unless a human clinical peer has reviewed the case, which is a direct patient protection.",
+  "file": "src/content/entries/state/ga-ai-cant-deny-health-coverage-without-human-review-2027.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "ga-20252026-sb523": {
   "decision": "skip",
@@ -197142,10 +197204,11 @@
   "date": "2026-11-14"
  },
  "miami-dade-county-council-5519-r-437-26": {
-  "decision": "promising",
-  "reason": "triage: county land conveyed for affordable housing; check size and terms",
+  "decision": "drafted",
+  "reason": "On May 19, 2026, Miami-Dade commissioners voted 9-0 to give two vacant county lots to developers for $10 each. The developers must build homes and sell them within two years to households earning up to 120% of area median income, or the land goes back to the county.",
+  "file": "src/content/entries/local/miami-dade-county-two-lots-10-dollars-affordable-homes.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "miami-dade-county-council-5519-r-438-26": {
   "decision": "skip",
@@ -197208,10 +197271,11 @@
   "date": "2026-11-14"
  },
  "orange-county-fl-26-0544": {
-  "decision": "promising",
-  "reason": "triage: $2.4M court-linked addiction treatment contract for residents",
+  "decision": "drafted",
+  "reason": "The Orange County board approved a five-year contract of about $2.43 million for outpatient addiction and mental health treatment and case management for people in the county's problem-solving courts. That is a funded service with a direct effect on residents.",
+  "file": "src/content/entries/local/orange-county-fl-problem-solving-court-addiction-treatment.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "orange-county-fl-26-0545": {
   "decision": "skip",
@@ -197618,10 +197682,11 @@
   "date": "2026-11-14"
  },
  "miami-council-3569-r-26-0224": {
-  "decision": "promising",
-  "reason": "triage: $9.3M seawall construction contract funded, flood protection",
+  "decision": "drafted",
+  "reason": "The Miami City Commission awarded an estimated $9.28 million construction contract to raise and replace public seawalls in Morningside and Shorecrest, with tidal valves to protect bayfront neighborhoods from tidal flooding and storm surge.",
+  "file": "src/content/entries/local/miami-morningside-shorecrest-seawalls-contract.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "miami-council-3569-r-26-0225": {
   "decision": "promising",
@@ -197720,10 +197785,10 @@
   "date": "2026-11-14"
  },
  "st-petersburg-council-2026-05-14-numbered-action-taken-agenda-pdf-t-202609280846130-2026-177": {
-  "decision": "promising",
-  "reason": "triage: Funded water main replacement",
+  "decision": "skip",
+  "reason": "The record shows only that a $2.13M construction contract was approved for a 36-inch water main, and no source I could open says what the main does for residents (for example, replacing an aging line or improving supply reliability), so I can't state a concrete, verified benefit to working people.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "st-petersburg-council-2026-05-14-numbered-action-taken-agenda-pdf-t-202609280846130-2026-178": {
   "decision": "skip",
@@ -198176,16 +198241,17 @@
   "date": "2026-11-14"
  },
  "fl-2026-74": {
-  "decision": "promising",
-  "reason": "triage: Medicaid long-term care enrollment and waitlist for elderly and disabled",
+  "decision": "skip",
+  "reason": "Chapter 2026-74 (CS/HB 1121) mostly changes how Florida's aging agencies are run (procurement rules, a pay cap for area agency on aging executives, oversight of guardians, renamed waitlists), and I couldn't open the bill text or staff analyses to confirm a concrete, measurable benefit for people, such as more enrollment slots or new services.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "fl-2026-75": {
-  "decision": "promising",
-  "reason": "triage: seizure action plans and staff training in schools",
+  "decision": "drafted",
+  "reason": "CS/HB 1201 (Ch. 2026-75), signed and in effect since July 1, 2026, extends Florida's seizure-care rights to charter school students and requires a seizure first-aid poster in every public school, a direct safety gain for students with epilepsy that costs working families nothing.",
+  "file": "src/content/entries/state/fl-charter-schools-seizure-action-plans-epilepsy.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "fl-2026-66": {
   "decision": "skip",
@@ -198362,10 +198428,11 @@
   "date": "2026-11-14"
  },
  "fl-2026-38": {
-  "decision": "promising",
-  "reason": "triage: Expands swim lesson vouchers for children; drowning prevention",
+  "decision": "drafted",
+  "reason": "The enacted law opens Florida's free swim-lesson vouchers to low-income children ages 1 to 7, up from age 4 and under, and requires drowning-prevention information for new parents, which is a direct safety benefit for working families.",
+  "file": "src/content/entries/state/fl-free-swim-lesson-vouchers-kids-up-to-age-7.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-18"
  },
  "fl-2026-39": {
   "decision": "skip",
@@ -198925,5 +198992,570 @@
   "reason": "triage: Property maintenance contract amendment",
   "impact": 1,
   "date": "2026-11-17"
+ },
+ "powhatan-news-413": {
+  "decision": "skip",
+  "reason": "split into 2 approved actions",
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0815-a": {
+  "decision": "skip",
+  "reason": "triage: committee appointment, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0819-a": {
+  "decision": "skip",
+  "reason": "triage: official appointment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0820-a": {
+  "decision": "skip",
+  "reason": "triage: official appointment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0821-a": {
+  "decision": "skip",
+  "reason": "triage: official appointment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0823-a": {
+  "decision": "skip",
+  "reason": "triage: board reappointment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0826-a": {
+  "decision": "skip",
+  "reason": "triage: support resolution, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0832-e": {
+  "decision": "skip",
+  "reason": "triage: board membership change, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0855-a": {
+  "decision": "skip",
+  "reason": "triage: business subsidy, benefits company",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0865-e": {
+  "decision": "promising",
+  "reason": "triage: funds youth summer jobs program, extends grant term",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0880-a": {
+  "decision": "skip",
+  "reason": "triage: commemorative resolution",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0881-a": {
+  "decision": "skip",
+  "reason": "triage: commemorative resolution",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0882-a": {
+  "decision": "skip",
+  "reason": "triage: honorary retirement resolution",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0883-a": {
+  "decision": "skip",
+  "reason": "triage: commemorative resolution",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-0709": {
+  "decision": "skip",
+  "reason": "triage: Single-property rezoning for a salon",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1479": {
+  "decision": "drafted",
+  "reason": "On Nov. 17, 2026 the DeKalb Board of Commissioners approved a $9.9 million contract to build a new public recreation center in Lithonia, a lasting public facility with youth and wellness programs.",
+  "file": "src/content/entries/local/dekalb-county-lithonia-park-recreation-center.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1487": {
+  "decision": "skip",
+  "reason": "triage: Petition process step, no enacted action, one street",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1498": {
+  "decision": "drafted",
+  "reason": "On Nov. 17, 2026, DeKalb commissioners approved a year of funding for a 400-bed emergency shelter with food, case management and rides, a direct service to homeless residents that doesn't duplicate the Affordable Housing Fund outreach item (2026-1457).",
+  "file": "src/content/entries/local/dekalb-400-bed-shelter-frontline-response.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1500": {
+  "decision": "skip",
+  "reason": "triage: Petition process step, one street",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1535": {
+  "decision": "skip",
+  "reason": "triage: Commercial property financing program, benefits businesses",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1608": {
+  "decision": "skip",
+  "reason": "triage: Airport hangar lease for individual",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1625": {
+  "decision": "skip",
+  "reason": "triage: Right-of-way taking for freight corridor, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1640": {
+  "decision": "skip",
+  "reason": "triage: Hangar lease termination, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1645": {
+  "decision": "promising",
+  "reason": "triage: $50K to nonprofit for housing insecurity help, small",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1648": {
+  "decision": "promising",
+  "reason": "triage: $50K for rent and utility assistance via nonprofit, small",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1656": {
+  "decision": "skip",
+  "reason": "triage: Airport hangar lease for individual",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1677": {
+  "decision": "skip",
+  "reason": "triage: Rescission of an allocation, no benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "dekalb-county-2026-1678": {
+  "decision": "promising",
+  "reason": "triage: Kitchen equipment repair at senior center, minor",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "essex-county-news-18438": {
+  "decision": "skip",
+  "reason": "triage: Bid notice, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0524": {
+  "decision": "skip",
+  "reason": "triage: Procurement and interlocal agreement, government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0784": {
+  "decision": "skip",
+  "reason": "triage: Turf maintenance contract, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0867": {
+  "decision": "skip",
+  "reason": "triage: Routine stormwater equipment purchase, vague",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0916": {
+  "decision": "skip",
+  "reason": "triage: Honorary street naming",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0987": {
+  "decision": "skip",
+  "reason": "triage: Chemical purchasing contract increase, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0994": {
+  "decision": "promising",
+  "reason": "triage: $127,842 grant to council on aging, small, vague services",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0996": {
+  "decision": "skip",
+  "reason": "triage: Art museum grant, not direct working-people benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1009": {
+  "decision": "skip",
+  "reason": "triage: Boat parade event agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1011": {
+  "decision": "skip",
+  "reason": "triage: Plat waiver for a private developer",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1025": {
+  "decision": "skip",
+  "reason": "triage: Support for solar group buying program, in-kind outreach only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1035": {
+  "decision": "skip",
+  "reason": "triage: Office lease amendment, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1040": {
+  "decision": "skip",
+  "reason": "triage: Beach alcohol license for hotel",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1041": {
+  "decision": "skip",
+  "reason": "triage: Temporary road closure license for developer",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1053": {
+  "decision": "skip",
+  "reason": "triage: Emergency dispensing sites agreement, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1054": {
+  "decision": "skip",
+  "reason": "triage: Event agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1055": {
+  "decision": "skip",
+  "reason": "triage: Event agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1056": {
+  "decision": "skip",
+  "reason": "triage: Event agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1057": {
+  "decision": "skip",
+  "reason": "triage: Administrative staffing designation",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1059": {
+  "decision": "skip",
+  "reason": "triage: Submerged land lease renewal, administrative",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1062": {
+  "decision": "skip",
+  "reason": "triage: Budget amendment, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1063": {
+  "decision": "skip",
+  "reason": "triage: Use agreement with FDOT and water taxi license, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1064": {
+  "decision": "skip",
+  "reason": "triage: Event agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1081": {
+  "decision": "skip",
+  "reason": "triage: Single workers' comp settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1097": {
+  "decision": "skip",
+  "reason": "triage: Meeting minutes",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1126": {
+  "decision": "skip",
+  "reason": "triage: Election results declaration",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1128": {
+  "decision": "skip",
+  "reason": "triage: Commission meeting times, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1133": {
+  "decision": "skip",
+  "reason": "triage: Billing contract capacity, government internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1143": {
+  "decision": "skip",
+  "reason": "triage: Audit services agreement, internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1149": {
+  "decision": "skip",
+  "reason": "triage: Crime lab staffing MOU, minimal direct effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1153": {
+  "decision": "skip",
+  "reason": "triage: Access agreement with contractors, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1156": {
+  "decision": "skip",
+  "reason": "triage: Meeting time resolution, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-1157": {
+  "decision": "promising",
+  "reason": "triage: FDOT-funded neighborhood improvements agreement; funded construction",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "hampton-news-6091": {
+  "decision": "skip",
+  "reason": "triage: Award press release",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-el-alcalde-mamdani-lanza-la-segunda-ronda-de-pop-up-produce-para": {
+  "decision": "skip",
+  "reason": "triage: Spanish duplicate of free produce program; launch, covered by sibling",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-announces-plan-to-support-horse-drawn-carriage-wor": {
+  "decision": "skip",
+  "reason": "triage: Plan announcement, niche group",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-delivers-faster-buses-on-flatbush-avenue-laying-g": {
+  "decision": "promising",
+  "reason": "triage: Delivered bus lanes on Flatbush serving many riders",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-doubles-city-s-free-produce-program-for-older-new": {
+  "decision": "promising",
+  "reason": "triage: Funded expansion of free produce for seniors",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-383": {
+  "decision": "skip",
+  "reason": "triage: Capital bond ordinance, procedural step, vague",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-436": {
+  "decision": "skip",
+  "reason": "triage: Intergovernmental funding pool agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-439": {
+  "decision": "skip",
+  "reason": "triage: Government office lease amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-440": {
+  "decision": "skip",
+  "reason": "triage: Easement agreement, no effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-444": {
+  "decision": "skip",
+  "reason": "triage: Right-of-way easement, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-446": {
+  "decision": "promising",
+  "reason": "triage: Tech job training MOU, unclear funding",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "savannah-news-3424": {
+  "decision": "skip",
+  "reason": "triage: Arena solar project, no clear worker benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "st-louis-county-news-slc-academy-8": {
+  "decision": "skip",
+  "reason": "triage: No content, event/program",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "union-county-news-126331": {
+  "decision": "skip",
+  "reason": "triage: Duplicate of existing on-demand Westfield shuttle entry",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "union-county-news-126333": {
+  "decision": "skip",
+  "reason": "triage: Spanish duplicate of Westfield shuttle",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "union-county-news-126335": {
+  "decision": "skip",
+  "reason": "triage: Volunteer garden report",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "union-county-news-126337": {
+  "decision": "skip",
+  "reason": "triage: Spanish volunteer garden report",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "va-gov-1129423": {
+  "decision": "skip",
+  "reason": "triage: Statement on hearings, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "va-gov-1129461": {
+  "decision": "skip",
+  "reason": "triage: Small crop research grants for agriculture",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-news-virginia-beach-fire-department-honor-guard-association-to-host-annual-christmas-tree-wreath-sale-2": {
+  "decision": "skip",
+  "reason": "triage: Fundraiser event",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "powhatan-news-413-resolution-r-2026-65": {
+  "decision": "skip",
+  "reason": "triage: Opioid settlement participation, no direct effect shown",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "powhatan-news-413-resolution-r-2026-66": {
+  "decision": "skip",
+  "reason": "triage: Pavilion contract, small",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0541-e": {
+  "decision": "skip",
+  "reason": "triage: Developer subsidy for mixed-use project, benefits owners",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0689-e": {
+  "decision": "skip",
+  "reason": "triage: Land use map change for owner",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0741-e": {
+  "decision": "skip",
+  "reason": "triage: Land use map change for owner",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0756-e": {
+  "decision": "skip",
+  "reason": "triage: Grant rule on vehicle purchases, government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0779-e": {
+  "decision": "skip",
+  "reason": "triage: Industrial parking rules, business-focused",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0800-e": {
+  "decision": "skip",
+  "reason": "triage: Jail trust fund budget, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0805-e": {
+  "decision": "skip",
+  "reason": "triage: Association grant, narrow",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0806-e": {
+  "decision": "skip",
+  "reason": "triage: Historic preservation, no direct worker benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0811-e": {
+  "decision": "skip",
+  "reason": "triage: Stadium use agreement for bowl game",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0813-e": {
+  "decision": "promising",
+  "reason": "triage: $162,640 funds youth homeless program House of Hope",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "jacksonville-2026-0814-e": {
+  "decision": "skip",
+  "reason": "triage: Downtown special assessment on property owners for services",
+  "impact": 1,
+  "date": "2026-11-18"
  }
 }

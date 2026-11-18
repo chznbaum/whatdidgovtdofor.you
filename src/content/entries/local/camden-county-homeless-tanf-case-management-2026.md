@@ -5,7 +5,7 @@ level: local
 jurisdiction: camden-county
 action:
   type: budget
-  name: Agreements under CCRFP
+  name: "Resolution authorizing agreements under CCRFP #25-43 for 2026 SSH, TANF and ICM services"
   identifier: Resolution 54
   date: 2026-06-18
 topics:
@@ -17,8 +17,8 @@ impact:
     label: for nonprofit homeless, TANF and intensive case management services in 2026
 status:
   state: in-effect
-  as_of: 2026-06-18
-  note: The board authorized the 2026 agreements and passed Resolution 47 in the same vote to insert the related grant funds into the budget. No later source confirming performance or cancellation of the agreements was found.
+  as_of: 2026-11-18
+  note: The agreements were still within their 2026 service year as of November 18, 2026. Current county and state pages still list the underlying services, and no cancellation was found.
 credit:
   - official: louis-cappelli-jr
     role: led
@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the $936,000 amount, June 18 vote, Cappelli’s role and party, and the nonprofit procurement. Corrected the incomplete action name, unsupported service-access claims, and the status note because the board passed the required funding resolution in the same vote.
+  notes: Confirmed the $936,000 authorization, funding resolution, unanimous vote, Cappelli’s role and party, and current service information. Updated the action name and status check date.
 source_key: camden-county-council-06-meeting-minutes-6-17-2026-resolution-54
 ---
 

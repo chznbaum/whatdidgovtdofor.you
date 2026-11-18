@@ -68,14 +68,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
-  verdict: pass
-  notes: Confirmed the appropriation, sponsors, vote, spending figures and planned 32 beds against the official ordinance record and cited reporting. No later public confirmation showed that the dorm had opened, so the qualified phasing-in status remains appropriate.
+    date: 2026-11-18
+  verdict: corrected
+  notes: "Confirmed the appropriation, bed count, spending breakdown, sponsors, vote and phasing-in status. Corrected who prompted the additional beds: reporting attributes the request to JFRD’s PATH team, not Sulzbacher."
 source_key: jacksonville-2026-0542-e
 ---
 
 Jacksonville is paying the nonprofit Sulzbacher $413,900 to add 32 shelter beds for single women who have nowhere to live. Sulzbacher is converting office space at its Downtown center into a dorm. Most of the money, $392,501, covers operating costs, including frontline advocates and case managers who help residents get basic needs met. About $21,400 buys beds, linens, foot lockers, computers and security cameras.
 
-The beds are meant for single women experiencing homelessness. Sulzbacher works with the Jacksonville Fire and Rescue Department's PATH team, which finds people who need shelter and services. Sulzbacher said the new dorm would let it take in women the team encounters on the spot, at any hour. Its goal is to connect at least 90% of them with benefits, housing help and health care. Sulzbacher asked for the beds after the PATH team saw more single women becoming homeless in Duval County over the past two years. Its staff say rising rents are a big reason.
+The beds are meant for single women experiencing homelessness. Sulzbacher works with the Jacksonville Fire and Rescue Department's PATH team, which finds people who need shelter and services. Sulzbacher said the new dorm would let it take in women the team encounters on the spot, at any hour. Its goal is to connect at least 90% of them with benefits, housing help and health care. The beds respond to the PATH team seeing more single women becoming homeless in Duval County over the past two years. Sulzbacher staff say rising rents are a big reason.
 
 Mayor Donna Deegan asked for the ordinance. Council members from both parties co-sponsored it: Ken Amaro, Raul Arias, Terrance Freeman, Jimmy Peluso, Tyrona Clark-Murray, Matt Carlucci, Randy White and Rahman Johnson. The money comes from the city's Homelessness Initiatives Special Revenue Fund, and the council approved it 17-0 on Aug. 11, 2026. Sulzbacher said the dorm would open about 60 days after it signs its contract with the city.

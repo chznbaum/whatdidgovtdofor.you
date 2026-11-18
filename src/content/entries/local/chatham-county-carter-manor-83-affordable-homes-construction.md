@@ -5,7 +5,7 @@ level: local
 jurisdiction: chatham-county
 action:
   type: budget
-  name: Award of construction contract for the Villages at Carter Manor site development
+  name: The Villages at Carter Manor
   identifier: "Bid #26-0036-5; Agenda Item 10.15 G"
   date: 2026-05-22
 topics:
@@ -21,9 +21,9 @@ impact:
     label: state grant supporting the development's infrastructure
 status:
   state: phasing-in
-  as_of: 2026-05-22
-  note: The board awarded the site-development contract on May 22, 2026, the newest official project milestone found. The county's latest detailed schedule called for infrastructure work through the end of 2026, home construction beginning in early 2027 and families beginning to move in during the third quarter of 2027.
-  source: https://chathamcountyga.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1907&Inline=True
+  as_of: 2026-11-18
+  note: The county's current ARPA project page still lists the Port Wentworth housing development as in progress. The county's latest detailed schedule called for infrastructure work through the end of 2026, home construction beginning in the first quarter of 2027 and families beginning to move in during the third quarter of 2027.
+  source: https://arpa.chathamcountyga.gov/home/EconomicImpacts
 credit:
   - official: gabrielle-nelson
     role: championed
@@ -38,6 +38,10 @@ sources:
   - title: Board of Commissioners regular meeting minutes, May 22, 2026 (Item 10.15 G)
     publisher: Chatham County Board of Commissioners
     url: https://chathamcountyga.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1907&Inline=True
+    date: 2026-05-22
+  - title: The Villages at Carter Manor Bid
+    publisher: Chatham County Purchasing & Contracting
+    url: https://cms.chathamcountyga.gov/api/assets/purchasing-website/e492a381-4492-4d73-a84d-9e0bc51a9957?download=0
     date: 2026-05-22
   - title: City of Port Wentworth awarded Rural Workforce Housing Initiative grant
     publisher: City of Port Wentworth
@@ -59,9 +63,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the contract award, amount, funding, vote, and Habitat eligibility rules. Corrected the entry to describe infrastructure and site work—not construction of the homes—and added the official identified as the project’s driving force.
+  notes: Confirmed the 83-home plan, contract award, amount, vote, eligibility rules, grant, schedule, and credited officials. Updated the project’s current status and removed an unsupported claim about who pays the contract balance.
 source_key: chatham-county-council-1907-agenda-item-10-15-g
 ---
 
@@ -69,6 +73,6 @@ Chatham County is paying JW Oliver Construction $5.41 million to prepare the Vil
 
 The homes are intended for qualifying buyers. Under Habitat's current rules, applicants generally must earn between 35% and 80% of Chatham County's area median income, demonstrate a need for housing and an ability to pay, and complete sweat-equity and homebuyer-education requirements. A county report said 16 families had already been selected for the program by June 2025, including eight essential-worker families.
 
-A $2,362,492 Rural Workforce Housing Initiative grant from Georgia supports the water, sewer, road and drainage work. County funds cover the contract's remaining roughly $3,047,527.
+A $2,362,492 Rural Workforce Housing Initiative grant from Georgia supports the water, sewer, road and drainage work.
 
 Port Wentworth Mayor Pro Tem Gabrielle Nelson first raised the idea of bringing Habitat construction to the city, and the county later called her a driving force behind the project. Chatham County, Port Wentworth and Habitat broke ground in June 2024. The Board of Commissioners, chaired by Chester Ellis, awarded the site-development contract unanimously on May 22, 2026. The county's latest detailed schedule called for home construction to begin in early 2027 and families to begin moving in during the third quarter of that year.

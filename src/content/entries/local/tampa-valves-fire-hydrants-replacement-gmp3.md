@@ -58,9 +58,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: pass
-  notes: Confirmed the unanimous council approval, contract amount and scope, 875-day term, funding sources, system figures, prior phases, and Alan Clendenin’s chair role. No later source found as of Nov. 17, 2026, showed cancellation or confirmed that the work clock had started.
+  notes: Confirmed the unanimous approval, $15,018,637.28 amount, scope, funding, 875-day term, system figures, earlier phases, and Alan Clendenin’s chair role. No later source found through Nov. 18, 2026, showed cancellation or confirmed that the work clock had started.
 source_key: tampa-council-2815-resolution-2026-564
 ---
 

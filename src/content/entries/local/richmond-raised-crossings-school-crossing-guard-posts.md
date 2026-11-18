@@ -1,6 +1,6 @@
 ---
-title: 36 school crossing guard posts in Richmond get raised crosswalks
-dek: In December 2024, Richmond approved a VDOT funding agreement to build raised crossings at 36 intersections without traffic lights where crossing guards help children cross. It also adds left-turn hardening at about 30 stop-sign intersections to slow down turning drivers.
+title: Richmond is adding 36 raised crossings where school crossing guards work
+dek: In December 2024, Richmond approved a VDOT funding agreement to build 36 raised crossings at intersections without traffic lights where crossing guards help children cross. It also adds left-turn hardening at about 30 stop-sign intersections to slow down turning drivers.
 level: local
 jurisdiction: richmond
 action:
@@ -11,7 +11,7 @@ action:
 topics:
   - safety
   - infrastructure
-who_benefits: Children and families walking to school, the crossing guards who help them, and other people on foot at 36 Richmond intersections without traffic lights and about 30 stop-sign intersections.
+who_benefits: Children and families walking to school, the crossing guards who help them, and other people on foot where 36 raised crossings and left-turn hardening at about 30 stop-sign intersections are being added.
 impact:
   - figure: "36"
     label: raised crossings at unsignalized intersections staffed by school crossing guards
@@ -20,7 +20,7 @@ impact:
 status:
   state: phasing-in
   as_of: 2025-12-09
-  note: The latest project-specific public record we found, approved by the Commonwealth Transportation Board on Dec. 9, 2025, described UPC 125534 as scheduled and showed $3,565,314 allocated to it. We found no later public record confirming construction or completion through Nov. 13, 2026.
+  note: The latest project-specific public record we found, approved by the Commonwealth Transportation Board on Dec. 9, 2025, described UPC 125534 as scheduled and showed $3,565,314 allocated to it. We found no later public record confirming construction or completion through Nov. 18, 2026.
   source: https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2025/12/res/1-fy2026-2031-six-year-improvement-program-transfers-2025-10-18-through-2025-11-14.pdf
 credit:
   - official: levar-stoney
@@ -49,14 +49,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
-  verdict: pass
-  notes: Confirmed the ordinance’s scope, 8–0 adoption, Stoney patronage, reimbursable funding, and safety descriptions. The latest UPC-specific CTB evidence still identifies project 125534 as scheduled with $3,565,314 allocated; no later cancellation or completion record was found through Nov. 17, 2026.
+    date: 2026-11-18
+  verdict: corrected
+  notes: Confirmed the ordinance, 8–0 vote, Stoney patronage, federal reimbursement, safety descriptions, and scheduled-project status. Corrected the unsupported claim that 36 crossings necessarily means 36 separate intersections or guard posts.
 source_key: richmond-ord-2024-289
 ---
 
-Richmond approved a federally reimbursed project to install raised crossings at 36 intersections that have no traffic light but do have a school crossing guard. A raised crossing lifts the crosswalk a few inches above the street, so drivers have to slow down and can see the people crossing more easily. The same project will add left-turn hardening at about 30 stop-sign intersections. These are curbs or wedges that keep drivers from cutting left turns fast and wide through the crosswalk.
+Richmond approved a federally reimbursed project to install 36 raised crossings at intersections that have no traffic light but do have a school crossing guard. A raised crossing lifts the crosswalk a few inches above the street, so drivers have to slow down and can see the people crossing more easily. The same project will add left-turn hardening at about 30 stop-sign intersections. These are curbs or wedges that keep drivers from cutting left turns fast and wide through the crosswalk.
 
-You don't need to do anything to benefit. Children walking to school, their crossing guards, and anyone else on foot at these intersections will get a slower, safer crossing.
+You don't need to do anything to benefit. Children walking to school, their crossing guards, and anyone else on foot at these locations will get a slower, safer crossing.
 
 Mayor Levar Stoney's administration brought the ordinance to the City Council, and the council approved it 8-0 on December 9, 2024. The raised-crossing and left-turn-hardening project was initially estimated at about $3.5 million. The city said the project had no fiscal impact because its costs were fully reimbursable with federal highway-safety funds, so city services weren't cut to pay for it. The ordinance lets Richmond sign the project agreement with the Virginia Department of Transportation; the city administers the work, and VDOT reimburses eligible costs. The latest project-specific record we found described the project as scheduled, not completed.

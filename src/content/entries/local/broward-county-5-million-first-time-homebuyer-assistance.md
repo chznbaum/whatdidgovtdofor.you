@@ -5,7 +5,7 @@ level: local
 jurisdiction: broward-county
 action:
   type: program
-  name: Affordable homeowner purchase assistance program (FY 2026 Affordable Housing Trust Fund)
+  name: Affordable homeowner purchase assistance program
   identifier: File 26-611
   date: 2026-05-26
 topics:
@@ -18,14 +18,15 @@ impact:
   - figure: $500,000
     label: for each of the nine commission districts and the unincorporated areas
 status:
-  state: phasing-in
-  as_of: 2026-08-26
-  note: Broward County approved the money in May and directed staff to implement the program. The county's HPA funding flyer updated in August said new funding allocations were expected in November 2026, without confirming a release date.
-  source: https://www.browardcdn.org/api/public/content/9acc83ccc0dd4bdfbca676cb3a5e54ed?v=f80dea7a
+  state: in-effect
+  as_of: 2026-11-18
 credit:
   - official: hazelle-rogers
     role: proposed
     note: Brought the March 3, 2026 motion directing county staff to design the $5 million homeownership program, and asked to sponsor the final item
+  - official: alexandra-p-davis
+    role: championed
+    note: Advocated countywide coverage during the final vote and was credited with championing the program's District 7 rollout
   - official: broward-county-board-of-county-commissioners
     role: voted-yes
     note: Approved the program 9-0 on May 26, 2026
@@ -48,10 +49,13 @@ sources:
     publisher: Broward County Board of County Commissioners (Legistar)
     url: https://webapi.legistar.com/v1/broward/events/1191/eventitems?MinutesNote=1&$filter=substringof('ome',EventItemTitle)
     date: 2026-03-03
-  - title: Homebuyer Purchase Assistance program funding flyer
-    publisher: Broward County Housing and Urban Planning Division
-    url: https://www.browardcdn.org/api/public/content/9acc83ccc0dd4bdfbca676cb3a5e54ed?v=f80dea7a
-    date: 2026-08-26
+  - title: First-Time Homebuyer Purchase Assistance Program
+    publisher: City of Tamarac Housing Division
+    url: https://www.tamarac.gov/1593/First-Time-Homebuyer-Purchase-Assistance
+  - title: Broward County Launches Home Purchase Assistance Program for District 7 Residents
+    publisher: The Westside Gazette
+    url: https://thewestsidegazette.com/broward-county-launches-home-purchase-assistance-program-for-district-7-residents/
+    date: 2026-07-29
 featured: false
 verification:
   writer:
@@ -61,9 +65,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the allocation, both votes, Rogers’s role, and the impact figures. Corrected the rollout status and application instructions using Broward County’s current HPA materials.
+  notes: Confirmed the allocation, eligibility terms, both votes, Rogers’s role and party, and the impact figures. Corrected the rollout status and sourcing, and added Davis’s documented championship of the program.
 source_key: broward-county-26-611
 ---
 
@@ -71,6 +75,6 @@ Broward County approved $5 million from its Affordable Housing Trust Fund and di
 
 The money is split evenly. Each of the nine County Commission districts gets $500,000, and so does the Broward Municipal Services District, which covers the unincorporated areas. The approved terms allow assistance of up to $100,000 per home for households earning no more than 120% of the area median income, adjusted for family size. The loan becomes a grant if the buyer stays in the home for 15 years.
 
-Buyers do not apply directly to the county. Broward's program materials say to get preapproved by a mortgage lender and complete a homebuyer education class; the lender then reserves available funds with the Housing and Urban Planning Division. Funding is first-come, first-qualified. The county's August flyer said new allocations were expected in November 2026 but did not confirm when this $5 million would become available.
+Buyers do not apply directly to the county. Broward's program materials say to get preapproved by a mortgage lender and complete a homebuyer education class; the lender then reserves available funds with the Housing and Urban Planning Division. Funding is first-come, first-qualified.
 
-Commissioner Hazelle Rogers brought the March 3 motion directing staff to design the countywide program. The commission approved that direction 8-0. Staff returned with the ten-area plan, Rogers asked to sponsor the final item, and the commission approved it 9-0 on May 26.
+Commissioner Hazelle Rogers brought the March 3 motion directing staff to design the countywide program. The commission approved that direction 8-0. Staff returned with the ten-area plan, and Rogers asked to sponsor the final item. Commissioner Alexandra P. Davis also championed the program and argued for countywide coverage. The commission approved it 9-0 on May 26.

@@ -51,9 +51,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: pass
-  notes: Confirmed the authorization, contract amount, 18-street scope, 5–0 consent vote, Lisa Cupid’s role and party, and the 2024 traffic-calming policy. No later completion, cancellation, or contract-change record was found.
+  notes: Confirmed the authorization, amount, 18-street scope, identifiers, 5–0 consent vote, Lisa Cupid’s role and party, and the 2024 traffic-calming policy. No later completion, cancellation, or contract change was found through November 18, 2026.
 source_key: cobb-county-council-1200-item-13
 ---
 

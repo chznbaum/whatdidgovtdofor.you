@@ -79,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
-  verdict: corrected
-  notes: Confirmed the contract ceiling, initial funding, dates, shelter purpose, and 9–0 roll call. Corrected the presiding council president and limited the status to the latest funding evidence available.
+    date: 2026-11-18
+  verdict: pass
+  notes: Confirmed the contract ceiling, initial certification, dates, shelter services and intake process, council leadership, and 9–0 roll call. The entry accurately limits its status to the latest contract-specific funding evidence found.
 source_key: newark-26-0494
 ---
 

@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
+    date: 2026-11-18
   verdict: pass
-  notes: Confirmed the contract award, route, amount, SPLOST funding, 5–0 vote, credits, and officials’ parties. No later source showed the project completed, cancelled, or defunded as of Nov. 17, 2026.
+  notes: Confirmed the contract award, route, $3.43 million cap, SPLOST funding, 5–0 vote, credits, and officials’ parties. No later source showed the project completed, cancelled, or defunded as of Nov. 18, 2026.
 source_key: gwinnett-county-council-2026-08-04-2026-0961
 ---
 

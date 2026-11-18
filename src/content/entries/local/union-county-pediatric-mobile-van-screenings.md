@@ -66,9 +66,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-17
-  verdict: corrected
-  notes: Confirmed the grant, resolution, vote, planned services, and sponsor. Clarified that the van was still expected to launch in 2027 and corrected the attribution and supporting sources.
+    date: 2026-11-18
+  verdict: pass
+  notes: Confirmed the grant amount, resolution, unanimous vote, credited sponsor, planned services, 2027 rollout, and current status against the official minutes and cited sources.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 
