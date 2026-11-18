@@ -1,0 +1,33 @@
+# Checks every pull request to main, the pipeline's included: validate the content, then build the site. It uses no
+# secrets, so pull requests from forks run it the same way. Deploys happen only from main (deploy.yml).
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# A new push to a PR replaces its check in progress.
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Validate and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      # Same npm as deploy.yml, for the same reason: the lock was written by it.
+      - run: npm install -g npm@11.6.2
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run build

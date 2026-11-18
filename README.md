@@ -40,13 +40,15 @@ Entries publish without human review by design. `pipeline/decisions.json` record
 
 ### Running it every day
 
-`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → commit → push. The push is always a normal one, never forced. If the remote has moved, local commits are rebased onto it, and a conflict stops the run for a person. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file). It drafts only actions triaged at impact 3 or higher, 100 a run, and can also be started by hand to work through a backlog.
+`ops/daily.sh` does one unattended run: rosters → feeds → draft → verify (including status re-checks older than 60 days) → validate → build → commit → pull request. Changes reach `main` only through pull requests, so a run ends once its PR is open. People review and merge it, or workflows started by the PR do (e.g. once it clears CI), and the merge deploys.
 
-`ops/lower-impact.sh` is for when there's capacity to spare: it drafts actions triaged at impact 2 (which the daily run never reaches; `MIN_IMPACT=1` adds impact 1), then verifies, builds, commits and pushes the same way. Start it by hand, e.g. `nohup ops/lower-impact.sh > /tmp/whatdidgovtdofor-lower-impact.log 2>&1 &`. Runs take a lock (`pipeline/state/run.lock`), so two never overlap: a run started by hand won't start while another is going, and the scheduled run waits for it (up to four hours).
+Each run works on a `pipeline/<date>-<time>` branch and switches the checkout back when it's done. While a pipeline PR is still open, later runs add their commits to that PR (with `main` merged in) instead of opening another, so they never redraft what's waiting there. Pushes are always normal ones, never forced. A conflict, or a previous run's commits that never reached GitHub, stops the run for a person. The run uses `gh` for the PR, so `gh auth status` must pass for the user it runs as. To schedule it on macOS, install the launchd template in `ops/com.whatdidgovtdofor.pipeline.plist` (instructions are inside the file). It drafts only actions triaged at impact 3 or higher, 100 a run, and can also be started by hand to work through a backlog.
+
+`ops/lower-impact.sh` is for when there's capacity to spare: it drafts actions triaged at impact 2 (which the daily run never reaches; `MIN_IMPACT=1` adds impact 1), then verifies, builds, and opens or adds to a PR the same way. Start it by hand, e.g. `nohup ops/lower-impact.sh > /tmp/whatdidgovtdofor-lower-impact.log 2>&1 &`. Runs take a lock (`pipeline/state/run.lock`), so two never overlap: a run started by hand won't start while another is going, and the scheduled run waits for it (up to four hours).
 
 ## Deploying
 
-The site is static and is served from a **Bunny Storage Zone behind a Bunny Pull Zone**. Every push to `main`, including the daily pipeline's, runs `.github/workflows/deploy.yml`:
+The site is static and is served from a **Bunny Storage Zone behind a Bunny Pull Zone**. Every pull request to `main` runs `.github/workflows/ci.yml` (validate and build, no secrets). Every merge to `main`, the pipeline's PRs included, runs `.github/workflows/deploy.yml`:
 
 1. validate and build
 2. `ops/deploy-bunny.mjs`: upload only the files whose SHA-256 changed, purge the Pull Zone cache, then delete stored files the build no longer has
@@ -63,7 +65,7 @@ GitHub Actions secrets, in the `production` environment (Settings → Environmen
 | `BUNNY_API_KEY` | Account API key, used only to purge the cache |
 | `BUNNY_PULLZONE_ID` | Pull zone id |
 
-To see what a deploy would change without changing anything, run `node ops/deploy-bunny.mjs --dry-run` with the same variables set. To revert a bad deploy, revert the commit on `main` and push; the workflow redeploys.
+To see what a deploy would change without changing anything, run `node ops/deploy-bunny.mjs --dry-run` with the same variables set. To revert a bad deploy, open a PR that reverts the commit and merge it; the workflow redeploys.
 
 ### Models
 
