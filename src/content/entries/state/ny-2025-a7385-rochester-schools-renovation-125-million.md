@@ -81,7 +81,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the enacted text, sponsors and cosponsors, signing date, roll-call totals, six-school plan, financing authority, impact figures, and rollout status. No repeal, cancellation, court block, funding cut, or unsupported material claim was found; repository validation passes.
+  notes: Confirmed the enacted text, sponsors and cosponsors, signing date, roll-call totals, six-school plan, impact figures, and rollout status. No repeal, cancellation, court block, funding cut, or unsupported material claim was found; repository validation passes.
 source_key: ny-2025-a7385
 ---
 

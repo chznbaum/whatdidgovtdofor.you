@@ -68,7 +68,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the grant amount, resolution, unanimous vote, credited sponsor and party, planned services, 2027 rollout, and licensing-dependent status. Later September reporting concerned separate back-to-school clinics and did not show that the funded Union County van had launched.
+  notes: Confirmed the grant amount, resolution, 9–0 vote, sponsor, planned services and locations, licensing requirement, and expected 2027 launch. Later 2026 clinics were separate from the funded Union County van, and no later source showed it launched or was cancelled.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 

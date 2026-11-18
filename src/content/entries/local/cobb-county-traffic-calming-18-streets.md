@@ -19,8 +19,8 @@ impact:
     label: maximum the county authorized for installation
 status:
   state: phasing-in
-  as_of: 2026-07-28
-  note: Authorized July 28, 2026 under an existing resurfacing contract with Blount Construction Company. No later county update confirming completion was found as of November 16, 2026.
+  as_of: 2026-11-18
+  note: Authorized July 28, 2026 under an existing resurfacing contract with Blount Construction Company. No later county update confirming completion was found as of November 18, 2026.
   source: https://cobbcoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10163,plainText=false)
 credit:
   - official: lisa-cupid
@@ -52,8 +52,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: pass
-  notes: Confirmed the 18-street authorization, $519,612.50 ceiling, project identifiers, 5–0 consent vote, Lisa Cupid’s role and party, and the 2024 traffic-calming policy. No later completion, cancellation, or contract change was found through November 18, 2026.
+  verdict: corrected
+  notes: Confirmed the authorization, funding ceiling, identifiers, 5–0 consent vote, policy details, and Lisa Cupid’s role and party. Updated the status check from July 28/November 16 to November 18, 2026.
 source_key: cobb-county-council-1200-item-13
 ---
 

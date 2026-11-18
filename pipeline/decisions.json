@@ -50046,10 +50046,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-a9542": {
-  "decision": "promising",
-  "reason": "triage: State PACE program lets seniors stay home",
+  "decision": "skip",
+  "reason": "A9542 (Chapter 812 of 2022, amended by Chapter 90 of 2023) didn't create new care for seniors: PACE already existed in New York, and the law only set up a single license for PACE providers; the Health Department proposed rules for it in August 2024, a PACE Alliance statement to the Legislature (undated, but written more than three years after the 2022 law) said they still weren't final, and I found no sign of adoption or of any effect on seniors yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a9878": {
   "decision": "skip",
@@ -50064,16 +50064,17 @@
   "date": "2026-11-11"
  },
  "ny-2021-s3483": {
-  "decision": "promising",
-  "reason": "triage: EPIC drug aid eligibility kept despite COLA increases",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Ch. 800 of 2022, narrowed by Ch. 21 of 2023 and still in Elder Law §242) that keeps seniors on EPIC prescription help for a year when a raise no bigger than inflation in Social Security or a pension pushes their income over the limit.",
+  "file": "src/content/entries/state/ny-epic-cost-of-living-raise-keeps-eligibility.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s4104": {
-  "decision": "promising",
-  "reason": "triage: Right-to-repair for electronics; lowers costs",
+  "decision": "skip",
+  "reason": "Duplicate: existing entry ny-2023-a1285 (\"Phone and laptop makers must offer you parts, tools and repair manuals\") already covers New York's digital fair repair law, through its 2023 chapter amendment (Ch. 48 of 2023) to the law enacted from S4104A/A7006B.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s4870": {
   "decision": "skip",
@@ -50100,10 +50101,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7211": {
-  "decision": "promising",
-  "reason": "triage: Bans unlawful image sharing, gives right to sue",
+  "decision": "drafted",
+  "reason": "This is an enacted, signed New York law (Chapter 805 of 2022, narrowed by Chapter 30 of 2023) and it is in effect. It makes it a crime for an attacker to post images of a victim's injuries or death on social media, and it lets victims and their estates sue and get the images taken down.",
+  "file": "src/content/entries/state/ny-attacker-posts-your-injuries-online-you-can-sue.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s7685": {
   "decision": "skip",
@@ -50112,10 +50114,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8442": {
-  "decision": "promising",
-  "reason": "triage: Timely processing of disability service applications",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 806 of 2022, as amended by Ch. 106 of 2023) that sets a 120-day deadline for New York's OPWDD to process electronically submitted applications for developmental disability eligibility and services, with a 30-day notice for missing information; it remains in Mental Hygiene Law § 13.07(c-1).",
+  "file": "src/content/entries/state/ny-opwdd-applications-processed-within-120-days.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s8591": {
   "decision": "promising",
@@ -50208,10 +50211,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-297": {
-  "decision": "promising",
-  "reason": "triage: Protects veterans' GI Bill benefits when school closes",
+  "decision": "drafted",
+  "reason": "The enacted law lets GI Bill students whose school closes certify that they're transferring fewer than 12 credits and get their benefit time back without first enrolling somewhere new, and it removes a transfer end date that could cut off families' benefits; both are direct benefits to veterans and their families, and still in effect.",
+  "file": "src/content/entries/federal/school-closed-get-gi-bill-time-back-before-reenrolling.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-300": {
   "decision": "skip",
@@ -50238,10 +50242,10 @@
   "date": "2026-11-11"
  },
  "us-law-117-308": {
-  "decision": "promising",
-  "reason": "triage: VA appraisal rules improve home loan access",
+  "decision": "skip",
+  "reason": "Pub. L. 117-308 mainly tells VA to update its appraisal rules and send Congress recommendations, and VA already allowed desktop appraisals (Circular 26-22-13, July 2022) before the law passed, so I can't trace a concrete benefit to veterans back to this law.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-313": {
   "decision": "promising",
@@ -50636,10 +50640,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a1741": {
-  "decision": "promising",
-  "reason": "triage: Copay assistance counts toward out-of-pocket max, lowers costs for patients",
+  "decision": "drafted",
+  "reason": "Chapter 736 of 2022 is in effect. It makes New York-regulated health plans count drugmaker coupons and other payment help toward patients' deductibles and out-of-pocket maximums, which lowers what people with costly prescriptions pay, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-drug-coupons-count-toward-your-deductible.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a1880": {
   "decision": "skip",
@@ -50654,10 +50659,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a2085": {
-  "decision": "promising",
-  "reason": "triage: Requires insurers to cover colorectal cancer screening",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 739 of 2022, amended by Chapter 78 of 2023). It requires state-regulated large-group health plans to cover colorectal cancer screening, including a follow-up colonoscopy, at no cost to the patient, and it remains in Insurance Law §4303(uu) and §339.",
+  "file": "src/content/entries/state/ny-colon-cancer-screening-no-cost-large-group-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a2375": {
   "decision": "skip",
@@ -50678,10 +50684,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-a299": {
-  "decision": "promising",
-  "reason": "triage: Medicaid covers ABA therapy; clear coverage gain for a niche group",
+  "decision": "skip",
+  "reason": "I couldn't confirm that A299B changed what anyone actually gets: NY Medicaid already covered ABA for members under 21 starting in August 2021, and CMS approved SPA 23-0073 (effective July 1, 2023) to cover all ages, but the state's October 2025 ABA manual and plan materials still limit coverage to people under 21, so I can't confirm the adult expansion took effect.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a3511": {
   "decision": "skip",
@@ -50690,10 +50696,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a372": {
-  "decision": "promising",
-  "reason": "triage: No copays for opioid treatment; lowers cost of care",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 734 of 2022) that ends copays for people getting opioid addiction treatment at an opioid treatment program. That is a direct, ongoing cost cut for patients. No existing entry covers it, and the current statute still has the provision.",
+  "file": "src/content/entries/state/ny-no-copays-opioid-treatment-program-visits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a3904": {
   "decision": "skip",
@@ -50714,10 +50721,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a4947": {
-  "decision": "promising",
-  "reason": "triage: Carlos' Law: higher penalties for corporations after worker deaths, workplace safety",
+  "decision": "drafted",
+  "reason": "Carlos' Law (Ch. 746 of 2022, amended by Ch. 61 of 2023) is an enacted worker-safety law that raised the fine for a company convicted of a crime that kills or seriously injures an employee from $10,000 to as much as $500,000, and it is still in effect.",
+  "file": "src/content/entries/state/ny-crimes-that-kill-or-badly-hurt-workers-cost-companies-up-to-500000.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a5390": {
   "decision": "skip",
@@ -50916,10 +50924,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9029": {
-  "decision": "promising",
-  "reason": "triage: child care assistance lasts longer for families",
+  "decision": "skip",
+  "reason": "S9029A (Ch. 834 of 2022, amended by Ch. 70 of 2023) lets counties extend child care aid eligibility from 12 to 24 months, but only if the state approves and the county opts in through its plan; I found no county that has done so (Monroe County still uses 12 months), so I can't confirm any family has actually benefited.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9149": {
   "decision": "skip",
@@ -50977,22 +50985,24 @@
   "date": "2026-11-11"
  },
  "ny-2021-a6709": {
-  "decision": "promising",
-  "reason": "triage: Guaranteed-income cash not counted against benefits",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Chapter 749 of 2022, signed Dec. 23, 2022, and still in effect until March 2029). It keeps people in cash-transfer pilots from losing New York public assistance, which is a direct, tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-guaranteed-income-pilot-cash-wont-cut-public-assistance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a7053": {
-  "decision": "promising",
-  "reason": "triage: Housing access for formerly incarcerated; unclear specifics, writer verifies",
+  "decision": "skip",
+  "reason": "Chapter 750 of 2022 does exist: it bars public housing from turning people away or evicting them only for having been in prison. But the sources show it had no real effect on anyone. Advocates said NYCHA already screens by conviction, not by time served, so the law bans something NYCHA wasn't doing. NYCHA said the law matched reforms it had already made. In 2023 the sponsors themselves were seeking an amendment over the loophole. That leaves no benefit we could state without overstating it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a7599": {
-  "decision": "promising",
-  "reason": "triage: Limits pretext traffic stops for equipment violations",
+  "decision": "drafted",
+  "reason": "A7599 was signed as Chapter 751 of 2022 and is still in the Vehicle and Traffic Law. Under it, New York drivers can no longer be ticketed for a window sticker or a view-blocking object, like an air freshener on the mirror, unless an officer has reason to believe they broke another law too, which protects drivers from minor-violation traffic stops.",
+  "file": "src/content/entries/state/ny-mirror-ornament-or-window-sticker-alone-no-ticket.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a7642": {
   "decision": "skip",
@@ -51001,10 +51011,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a8215": {
-  "decision": "promising",
-  "reason": "triage: Repeals incarceration fee charged to prisoners",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 753 of 2022) that ended a $1-a-week deduction New York prisons could take from incarcerated workers' already very low wages. It's a small but real amount of money left with working people, and no service cuts paid for it.",
+  "file": "src/content/entries/state/ny-prisons-stop-taking-1-a-week-from-prison-work-pay.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a8630": {
   "decision": "promising",
@@ -51031,10 +51042,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s2521": {
-  "decision": "promising",
-  "reason": "triage: Notice before facility fee billing; modest protection",
+  "decision": "drafted",
+  "reason": "Chapter 764 of 2022 (in effect since June 21, 2023 and not changed since) makes hospitals give patients written notice before billing a facility fee their insurance won't cover, and it bans facility fees for preventive care.",
+  "file": "src/content/entries/state/ny-written-notice-before-uncovered-hospital-facility-fees.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s2838": {
   "decision": "skip",
@@ -51175,10 +51187,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9230": {
-  "decision": "promising",
-  "reason": "triage: Heirs property partition protects family land from forced sale",
+  "decision": "skip",
+  "reason": "S9230 doesn't give working people anything new. It only narrows the existing heirs-property partition protections (RPAPL 993) so they cover residential or agricultural property and nothing else, which makes it a scope-limiting amendment rather than a win.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9413": {
   "decision": "skip",
@@ -51283,16 +51295,17 @@
   "date": "2026-11-11"
  },
  "ny-2021-a807": {
-  "decision": "promising",
-  "reason": "triage: Insurance must cover HIV PrEP/PEP, lowers costs",
+  "decision": "skip",
+  "reason": "A807 became Chapter 721 of 2022, and the 2023 chapter amendment S825 (Ch. 79 of 2023) rewrote it to cover large group plans; the existing entry ny-2023-s825 (\"Large group health plans in New York must cover HIV prevention drugs\") already covers that coverage requirement, so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s8922": {
-  "decision": "promising",
-  "reason": "triage: Warehouse quota protections for workers",
+  "decision": "drafted",
+  "reason": "The enacted 2022 law (Chapter 722) gives warehouse workers enforceable rights: quotas must be disclosed, and quotas can't block meal, rest or bathroom breaks. It is still in effect, and it is a different action from the existing 2023 injury-reduction amendment entry (ny-2023-s5081).",
+  "file": "src/content/entries/state/ny-warehouse-quotas-cant-cost-you-breaks-or-bathroom-trips.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9427": {
   "decision": "drafted",
@@ -51734,10 +51747,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a3241": {
-  "decision": "promising",
-  "reason": "triage: Tenant rent escrow for dangerous conditions outside NYC; real tenant right, check if signed",
+  "decision": "error",
+  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18",
+  "attempts": 1
  },
  "ny-2021-a4978": {
   "decision": "skip",
@@ -51932,10 +51946,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4844": {
-  "decision": "promising",
-  "reason": "triage: Workplace rights to express breast milk",
+  "decision": "drafted",
+  "reason": "Chapter 672 of 2022 is a signed law in effect since June 7, 2023. It requires every New York employer to provide a private, equipped room for pumping breast milk and a written policy on those rights, which is a direct workplace right, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-private-room-to-pump-breast-milk-at-work.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s7199": {
   "decision": "skip",
@@ -51992,10 +52007,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7863": {
-  "decision": "promising",
-  "reason": "triage: Space heater safety requirements",
+  "decision": "drafted",
+  "reason": "This is an enacted, still-current New York consumer-safety law: Ch. 664 of 2022, now GBL § 391-jj. It bans the sale of electric space heaters that lack a thermostat, an automatic shut-off and OSHA-recognized certification, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-space-heaters-sold-must-have-automatic-shut-offs.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-12-mayor-adams-get-stuff-built-bold-three-pronged-strategy-tackle-affordable-housing": {
   "decision": "skip",
@@ -52010,16 +52026,18 @@
   "date": "2026-11-11"
  },
  "us-law-117-223": {
-  "decision": "promising",
-  "reason": "triage: Survivors can leave shared phone plans",
+  "decision": "drafted",
+  "reason": "An enacted federal law that lets abuse survivors split their phone lines off an abuser's shared plan for free within two business days, and gives them up to six months of emergency Lifeline help. It is still in effect, and the existing New York entry covers only that state's own law.",
+  "file": "src/content/entries/federal/survivors-split-phone-line-from-abusers-plan-free.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-224": {
-  "decision": "promising",
-  "reason": "triage: Limits pre-dispute NDAs in harassment cases",
+  "decision": "drafted",
+  "reason": "The Speak Out Act is an enacted federal law that protects workers', contractors' and consumers' right to speak about sexual harassment and assault: courts can no longer enforce gag clauses signed before a dispute arose. It doesn't duplicate any existing entry.",
+  "file": "src/content/entries/federal/gag-clauses-signed-before-harassment-cant-silence-you.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a8319": {
   "decision": "promising",
@@ -52232,10 +52250,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0153": {
-  "decision": "promising",
-  "reason": "triage: Housing stability program for domestic violence survivors",
+  "decision": "drafted",
+  "reason": "Local Law 112 of 2022 set up a running, funded program that gives low-income survivors of domestic and gender-based violence grants for housing costs. 426 survivors got one in FY2025, and the FY2027 budget funds it again.",
+  "file": "src/content/entries/local/nyc-abuse-survivors-get-grants-to-keep-their-housing.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2022-0154": {
   "decision": "skip",
@@ -52280,10 +52299,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a3202": {
-  "decision": "promising",
-  "reason": "triage: Patients see OTs without referral; lower access barrier",
+  "decision": "drafted",
+  "reason": "The enacted law (Chapter 601 of 2022) lets New Yorkers start occupational therapy without first paying for a doctor's referral. That is a direct gain in access to care, and it doesn't duplicate any existing entry.",
+  "file": "src/content/entries/state/ny-occupational-therapy-without-referral-10-visits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a5338": {
   "decision": "skip",
@@ -52298,10 +52318,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a8092": {
-  "decision": "promising",
-  "reason": "triage: Workers protected from discipline for lawful absences",
+  "decision": "drafted",
+  "reason": "A8092B, signed Nov. 21, 2022 as Chapter 604, made it illegal retaliation under Labor Law §215 to give workers attendance points or demerits for legally protected absences, a direct protection for working people that is still in the statute today.",
+  "file": "src/content/entries/state/ny-protected-leave-cant-earn-you-attendance-points.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a9282": {
   "decision": "skip",
@@ -52526,10 +52547,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a7363": {
-  "decision": "promising",
-  "reason": "triage: Shields homes and wages from hospital debt judgments",
+  "decision": "drafted",
+  "reason": "Chapter 648 of 2022 is an enacted law that stops hospitals and licensed health providers from garnishing patients' wages or putting liens on their homes to collect medical debt judgments. It is still in the statute, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-medical-debt-no-wage-garnishment-or-home-liens.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a744": {
   "decision": "promising",
@@ -52772,10 +52794,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7157": {
-  "decision": "promising",
-  "reason": "triage: DV victims released from utility/phone contracts",
+  "decision": "skip",
+  "reason": "This repeats the existing entry ny-2023-a998 (\"Survivors of abuse can leave shared phone, cable and utility plans for free\"): A998 (Ch. 42 of 2023) is the follow-up amendment to S7157-A (Ch. 578 of 2022), and it reworked the same protection and set it to take effect June 30, 2023, so both bills describe one benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s7263": {
   "decision": "promising",
@@ -53138,10 +53160,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-209": {
-  "decision": "promising",
-  "reason": "triage: Raises military life insurance max to $500,000 for families",
+  "decision": "drafted",
+  "reason": "This is an enacted law with a direct, lasting benefit. Since March 2023 it has raised the most life insurance troops and veterans can buy through the VA from $400,000 to $500,000, it still stands on VA's current SGLI page, and members' premiums pay for it rather than cuts to services.",
+  "file": "src/content/entries/federal/troops-and-veterans-can-carry-500000-in-va-life-insurance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-210": {
   "decision": "skip",
@@ -53180,10 +53203,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14087": {
-  "decision": "promising",
-  "reason": "triage: Order directing drug cost actions; may be intent, writer checks what was ordered",
+  "decision": "skip",
+  "reason": "E.O. 14087 only told HHS to consider new payment models and report back. Its main result, Medicare's $2 Drug List, never launched: E.O. 14148 revoked the order in January 2025, and CMS dropped the model in March 2025. That makes it an announcement of intent with no enacted benefit, and the drug-price provisions it cites are already covered by the existing IRA entries.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-10-mayor-adams-governor-hochul-plan-first-of-its-kind-job-education-hub-growing": {
   "decision": "skip",
@@ -53684,16 +53707,17 @@
   "date": "2026-11-11"
  },
  "ny-2021-a9922": {
-  "decision": "promising",
-  "reason": "triage: Signed law: WTC Health Program certification counts as presumptive proof for claims",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 559 of 2022). It requires the Workers' Compensation Board to presume that an illness certified by the federal WTC Health Program came from 9/11 rescue, recovery and clean-up work. It also let workers whose claims were denied refile them, and none of the existing 9/11 entries already covers it.",
+  "file": "src/content/entries/state/ny-9-11-health-program-certification-backs-your-comp-claim.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9294": {
-  "decision": "promising",
-  "reason": "triage: Signed law extends WTC disability claim deadline",
+  "decision": "skip",
+  "reason": "S9294A (Ch. 561 of 2022) moved the WTC retirement and workers' comp filing deadlines from 2022 to Sept. 11, 2026, but S10605 of 2025, already on the site as ny-2025-s10605, extended those same deadlines to 2030, so this earlier step would duplicate a benefit we already cover.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-09-new-bivalent-covid-19-vaccines-available-boost-city-s-immunity": {
   "decision": "skip",
@@ -53762,10 +53786,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0472": {
-  "decision": "promising",
-  "reason": "triage: Law creating citywide doula program",
+  "decision": "skip",
+  "reason": "Local Law 85 of 2022 set up NYC's free Citywide Doula Initiative only through June 30, 2024, and Local Law 170 of 2025 (Int. 1285) later made that same program permanent, so the existing entry nyc-int-2025-1285 already covers this benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2022-0478": {
   "decision": "skip",
@@ -53780,10 +53804,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0490": {
-  "decision": "promising",
-  "reason": "triage: Law requiring city sexual and reproductive health services",
+  "decision": "skip",
+  "reason": "Local Law 88 of 2022 (Int. 490-A) only puts general duties into the code for the city health department: research disparities, do outreach and education, and make referrals \"when determined appropriate\". The enacted text names no new service, benefit, eligibility rule or funding, so I can't state concretely what changed for people beyond what the department already did.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2022-0509": {
   "decision": "skip",
@@ -54189,10 +54213,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-176": {
-  "decision": "promising",
-  "reason": "triage: enacted; lifts time limit for child sex abuse victims to sue",
+  "decision": "drafted",
+  "reason": "Pub. L. 117-176 removed the federal deadline for people abused as children to sue under 18 U.S.C. § 2255, a concrete rights protection that is still in effect, and the site has no federal entry for it yet.",
+  "file": "src/content/entries/federal/child-sex-abuse-survivors-no-deadline-to-sue-federal.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-177": {
   "decision": "skip",
@@ -54201,10 +54226,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8389": {
-  "decision": "promising",
-  "reason": "triage: signed law helping public workers get loan forgiveness",
+  "decision": "drafted",
+  "reason": "This signed 2022 law helps New York public and nonprofit workers get federal student loan forgiveness. It makes employers certify their work, counts 30 hours a week as full-time and gives teachers credit for prep time, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-public-employers-must-certify-your-work-for-loan-forgiveness.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-09-mayor-adams-110-million-federal-grant-hunts-point-terminal-produce-market": {
   "decision": "skip",
@@ -54399,10 +54425,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s5024": {
-  "decision": "promising",
-  "reason": "triage: lead screening for children, health protection",
+  "decision": "drafted",
+  "reason": "Dakota's Law (Ch. 532 of 2022) is an enacted health protection: doctors must assess lead risk for children 6 months to 6 years old at every well-child visit, and pre-K and kindergarten programs must check whether new students were screened for lead. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-young-kids-lead-risk-check-every-checkup.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s536": {
   "decision": "skip",
@@ -54717,10 +54744,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a159": {
-  "decision": "promising",
-  "reason": "triage: Nursing home residents gain right to sue, class actions",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 502 of 2022) that writes into statute that a nursing home resident's legal representative or estate can sue under the residents' rights law. That protects residents' rights directly. The pipeline's summary says it adds class actions, but class actions were already allowed, so the entry leaves that out.",
+  "file": "src/content/entries/state/ny-nursing-home-harm-estate-or-representative-can-sue.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a3298": {
   "decision": "skip",
@@ -54879,10 +54907,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s3085": {
-  "decision": "promising",
-  "reason": "triage: senior/disabled tax exemption income limit; check local cost",
+  "decision": "drafted",
+  "reason": "Chapter 488 of 2022 raised the income ceiling for New York's senior and disability property tax exemptions from $29,000 to $50,000, with a sliding scale up to $58,400. It targets low-income homeowners, costs the state nothing, and localities such as Nassau County opted in.",
+  "file": "src/content/entries/state/ny-seniors-earning-up-to-50000-property-tax-break.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-08-mayor-adams-nyc-soon-be-home-largest-composting-program-nation-providing-every": {
   "decision": "skip",
@@ -54982,10 +55011,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14079": {
-  "decision": "promising",
-  "reason": "triage: ordered action protecting health care access",
+  "decision": "skip",
+  "reason": "E.O. 14079 only told HHS to \"consider\" actions such as Medicaid help for patients traveling across state lines, and it says it creates no enforceable right or benefit, so it is an announcement of intent with no direct effect (it was also revoked by E.O. 14182 on Jan. 24, 2025).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-164": {
   "decision": "promising",
@@ -55048,10 +55077,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-171": {
-  "decision": "promising",
-  "reason": "triage: Enacted battery safety standard protects children",
+  "decision": "drafted",
+  "reason": "Reese's Law is an enacted federal child-safety law. Products with button and coin batteries must now have child-resistant battery compartments and warnings, and the batteries must come in child-resistant packaging. CPSC rules put it in force in 2023–2024, and CPSC is still enforcing it with recalls in 2026.",
+  "file": "src/content/entries/federal/button-battery-products-must-lock-batteries-away-from-kids.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-172": {
   "decision": "promising",
@@ -55084,10 +55114,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0372": {
-  "decision": "promising",
-  "reason": "triage: Enacted utility customer advocate office",
+  "decision": "skip",
+  "reason": "Local Law 80 of 2022 mainly sets up a city advocacy office, so its main effect is on government itself, and the service it was meant to give residents can't be confirmed: the office's first advocate was named only in July 2026, and no source shows the required help line, email or website, or any rate-case result.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-int-2022-0480": {
   "decision": "skip",
@@ -55126,10 +55156,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a1007": {
-  "decision": "promising",
-  "reason": "triage: Lets localities set 25 mph limits; safety gain",
+  "decision": "drafted",
+  "reason": "The law was signed in 2022 and is still in effect. It let New York cities, villages and some towns cut their area speed limits from 30 mph to 25 mph, and Albany, Hudson, Kingston, Scarsdale and White Plains have since done it, so it is a concrete safety change for people on those streets.",
+  "file": "src/content/entries/state/ny-towns-and-cities-can-set-25-mph-speed-limits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a3964": {
   "decision": "skip",
@@ -55318,10 +55349,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7107": {
-  "decision": "promising",
-  "reason": "triage: supported decision-making rights for disabled people",
+  "decision": "drafted",
+  "reason": "Chapter 481 of 2022 is an enacted law that lets New Yorkers with disabilities keep their own decision rights through supported decision-making agreements instead of a guardianship; OPWDD adopted its rules in 2025 and launched statewide facilitation in March 2026.",
+  "file": "src/content/entries/state/ny-supported-decision-making-instead-of-guardianship.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-07-mayor-adams-1-5-million-investment-nyc-small-business-resource-network": {
   "decision": "skip",
@@ -56440,10 +56472,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8033": {
-  "decision": "promising",
-  "reason": "triage: DIAPER act; writer verifies what it provides",
+  "decision": "drafted",
+  "reason": "The DIAPER Act (Ch. 386 of 2022) is an enacted law that ended local sales tax on baby and adult diapers statewide from Dec. 1, 2022, which directly lowers the cost of a necessity for families and older adults.",
+  "file": "src/content/entries/state/ny-no-local-sales-tax-on-diapers.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-07-mayor-adams-calls-federal-resources-assist-arriving-asylum-seekers": {
   "decision": "skip",
@@ -56686,10 +56719,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14076": {
-  "decision": "promising",
-  "reason": "triage: Executive order protecting reproductive healthcare access",
+  "decision": "skip",
+  "reason": "E.O. 14076 mostly told federal agencies to write reports and consider future actions, so it had no direct effect on people by itself; the concrete benefits came through later rules, such as the VA abortion rule already on the site as us-fr-2024-04275, and E.O. 14182 revoked the order on Jan. 24, 2025.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-07-mayor-adams-releases-rainfall-ready-nyc-action-plan-preparing-city-government-new-yorkers-for": {
   "decision": "skip",
@@ -56758,10 +56791,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0208": {
-  "decision": "promising",
-  "reason": "triage: Fire safety inspections in residential buildings; safety gain",
+  "decision": "drafted",
+  "reason": "Local Law 71 of 2022 requires HPD to inspect 300 higher-risk apartment buildings a year for self-closing doors, the safety feature whose failure let the Twin Parks fire smoke kill 17 people. That is a concrete, enacted safety protection for tenants, and it isn't already an entry.",
+  "file": "src/content/entries/local/nyc-300-buildings-a-year-checked-for-self-closing-fire-doors.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a10160": {
   "decision": "skip",
@@ -56788,10 +56822,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s51001": {
-  "decision": "promising",
-  "reason": "triage: Post-Bruen gun licensing law; public safety, check details",
+  "decision": "drafted",
+  "reason": "New York's 2022 Concealed Carry Improvement Act is an enacted public-safety law: it keeps guns off transit, out of schools and other sensitive places, requires 18 hours of training for a carry license, and adds ammunition background checks. Courts have upheld most of it.",
+  "file": "src/content/entries/state/ny-guns-banned-on-transit-in-schools-and-times-square.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s8204": {
   "decision": "skip",
@@ -57040,10 +57075,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9461": {
-  "decision": "promising",
-  "reason": "triage: Ticket price disclosure and bot penalties, enacted",
+  "decision": "drafted",
+  "reason": "Enacted New York law (Ch. 358 of 2022) requiring all-in ticket prices up front and banning delivery fees for e-tickets, a direct cost protection for ticket buyers; renewed through June 30, 2027 and not duplicated by the NYC-only ticket ad entry.",
+  "file": "src/content/entries/state/ny-ticket-prices-must-show-all-fees-up-front.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9463": {
   "decision": "skip",
@@ -57052,10 +57088,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9464": {
-  "decision": "promising",
-  "reason": "triage: Raises child care income eligibility; check cost and details",
+  "decision": "skip",
+  "reason": "S9464-A (Chapter 360 of 2022) is a technical correction: the sponsor memo says it only changes the facilitated enrollment pilots' income cap from 275% to 300% of the federal poverty level so they match the FY2023 budget's 300% expansion, and that expansion is already covered by the entry \"New York opened child care aid to families earning up to $83,250.\"",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9466": {
   "decision": "skip",
@@ -57232,10 +57268,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-158": {
-  "decision": "promising",
-  "reason": "triage: Funds school meals, higher reimbursements; pays by rescinding old funds",
+  "decision": "drafted",
+  "reason": "An enacted, budget-neutral law that paid schools and child care providers more per meal for 2022–23 and kept summer 2022 meal waivers going, paid for by rescinding unspent pandemic funds rather than cutting services.",
+  "file": "src/content/entries/federal/schools-got-40-cents-more-per-lunch-in-2022-23.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-159": {
   "decision": "drafted",
@@ -57251,10 +57288,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s5602": {
-  "decision": "promising",
-  "reason": "triage: Extends school-zone speed cameras and hours, child safety",
+  "decision": "drafted",
+  "reason": "This enacted law, Chapter 229 of 2022, let NYC's school-zone speed cameras run 24/7, and they still do: a 2025 law extended the program through July 1, 2030 without changing the hours. It's a concrete safety gain for people walking near schools, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-nyc-school-zone-speed-cameras-run-24-7.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9449": {
   "decision": "skip",
@@ -57486,10 +57524,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14075": {
-  "decision": "promising",
-  "reason": "triage: ordered federal protections for LGBTQI+ people",
+  "decision": "skip",
+  "reason": "E.O. 14075 mostly told agencies to study the problem, write guidance, set up working groups and draft plans (on conversion therapy, LGBTQI+ youth, housing and data), so it delivered no concrete benefit of its own, and it was revoked on Jan. 20, 2025 by E.O. 14148 and E.O. 14168.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "nyc-mayor-2022-06-mayor-adams-on-federal-court-s-endorsement-city-s-rikers-action-plan": {
   "decision": "skip",
@@ -57516,10 +57554,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a8610": {
-  "decision": "promising",
-  "reason": "triage: extends special-ed services to age 23",
+  "decision": "drafted",
+  "reason": "This is an enacted law, signed as Chapter 223 of 2022, that let New York districts keep serving students with disabilities who aged out during the pandemic until age 23. It was optional for districts and expired June 30, 2024, so the status is expired.",
+  "file": "src/content/entries/state/ny-students-with-disabilities-who-turned-21-in-2021-22-could-stay-until-23.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a9374": {
   "decision": "skip",
@@ -57528,22 +57567,23 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9039": {
-  "decision": "promising",
-  "reason": "triage: enacted cause of action protecting reproductive rights",
+  "decision": "drafted",
+  "reason": "Signed in 2022 as Chapter 218, S9039A gives anyone sued or charged elsewhere over abortion or gender-affirming care that's legal in New York the right to sue back for damages and fees, and it remains in effect.",
+  "file": "src/content/entries/state/ny-sued-over-abortion-or-gender-affirming-care-you-can-sue-back.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9077": {
-  "decision": "promising",
-  "reason": "triage: enacted shield for abortion providers",
+  "decision": "skip",
+  "reason": "S9077A was part of the June 13, 2022 package Gov. Hochul signed, and the site already covers its main effect (no extradition, no court or police help with out-of-state cases over abortions legal in New York) in \"New York won't help other states punish abortions legal here\", so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9079": {
-  "decision": "promising",
-  "reason": "triage: enacted shield for practitioners serving out-of-state patients",
+  "decision": "skip",
+  "reason": "S9079B/A9687B (ch. 220 of 2022) was one of the six bills in the abortion-protection package Gov. Hochul signed on June 13, 2022, which the existing entry ny-gov-governor-hochul-signs-nation-leading-legislative-package-protect-abortion-and-reproductive (\"New York won't help other states punish abortions legal here\") already covers, and ny-2023-s1066 covers the 2023 telehealth expansion of this same misconduct shield.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-s9080": {
   "decision": "promising",
@@ -57660,10 +57700,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-133": {
-  "decision": "promising",
-  "reason": "triage: expands VA mammograms to exposed veterans",
+  "decision": "drafted",
+  "reason": "An enacted law that gives a concrete health benefit: VA breast cancer screening at any age for veterans who deployed to burn pit areas. The existing PACT Act entry doesn't cover it.",
+  "file": "src/content/entries/federal/veterans-near-burn-pits-get-va-mammograms-at-any-age.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-134": {
   "decision": "skip",
@@ -57672,10 +57713,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-135": {
-  "decision": "promising",
-  "reason": "triage: VA mammography and breast cancer care",
+  "decision": "drafted",
+  "reason": "An enacted law that changed care for veterans: every VA mammography site had to switch to 3D breast imaging, and the law set up a tele-mammography pilot for veterans far from VA mammogram sites. A VA official confirmed in 2024 that all in-house programs use 3D.",
+  "file": "src/content/entries/federal/veterans-get-3d-mammograms-at-va-facilities.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "us-law-117-136": {
   "decision": "skip",
@@ -57696,10 +57738,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-139": {
-  "decision": "promising",
-  "reason": "triage: extends radiation exposure compensation",
+  "decision": "drafted",
+  "reason": "A bipartisan law that kept federal compensation payments of $50,000 to $100,000 open for two more years to people sickened by radiation from atomic tests and uranium work. It's a direct, tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/federal/atomic-test-and-uranium-radiation-victims-got-2-more-years-to-claim-aid.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-18"
  },
  "ny-2021-a7865": {
   "decision": "skip",
@@ -83648,10 +83691,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-payment-of-high-volume-for-hire-vehicle-drivers": {
-  "decision": "promising",
-  "reason": "triage: Adopted raise in minimum driver pay",
+  "decision": "skip",
+  "reason": "A judge blocked this Dec. 2022 TLC minimum-pay rule after Uber sued, and the TLC adopted the same raise again effective March 13, 2023, which the existing entry nyc-rule-minimum-driver-payment-for-high-volume-for-hire-services (\"NYC Uber and Lyft drivers earn more per trip after a 2023 raise\") already covers.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "nyc-rule-taximeter-rate-of-fare-and-various-surcharges": {
   "decision": "skip",
@@ -83738,10 +83781,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-childhood-blood-lead-levels-mandatory-reporting-and-investigation": {
-  "decision": "promising",
-  "reason": "triage: Adopted lower lead threshold triggers investigation",
+  "decision": "drafted",
+  "reason": "The NYC Board of Health made a binding Health Code change. Since Dec. 5, 2022, the city must investigate the home of any child with a blood lead level of 3.5 mcg/dL or higher (down from 5) and can order lead hazards fixed, which directly protects children and families.",
+  "file": "src/content/entries/local/nyc-child-blood-lead-3-5-triggers-home-investigation.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "nyc-rule-procedures-for-hearing-and-determining-appeals-filed": {
   "decision": "skip",
@@ -84194,10 +84238,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-third-party-food-delivery-service-workers": {
-  "decision": "promising",
-  "reason": "triage: Delivery worker protections: distance limits, pay rules",
+  "decision": "drafted",
+  "reason": "DCWP's 2022 rule carries out enacted Local Laws 113, 114, 116 and 118 of 2021, which give NYC app delivery workers concrete protections that are still in effect: distance and bridge limits, trip details before they accept, weekly pay with no fee, and free insulated bags. No existing entry covers them.",
+  "file": "src/content/entries/local/nyc-delivery-workers-can-cap-trip-distance-and-skip-bridges.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "nyc-rule-time-for-moving-to-reopen-a-default-and-request-a-new-hearing": {
   "decision": "skip",
@@ -84506,10 +84551,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-stove-knob-covers": {
-  "decision": "promising",
-  "reason": "triage: adopted rule, tenant safety; landlord must provide",
+  "decision": "drafted",
+  "reason": "HPD's adopted rule puts into effect a working stove-safety requirement for NYC rental homes: landlords must provide knob covers or locking knobs for gas stoves where a child under 6 lives, or to any tenant who asks. No existing entry covers it.",
+  "file": "src/content/entries/local/nyc-landlords-must-provide-stove-knob-covers-for-young-kids.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "ny-gov-governor-hochul-signs-legislation-extending-tax-exemption-application-deadline-homeowners": {
   "decision": "skip",
@@ -84548,10 +84594,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-fair-workweek-law-for-fast-food-workers": {
-  "decision": "promising",
-  "reason": "triage: adopted rules implementing scheduling protections for fast food workers",
+  "decision": "skip",
+  "reason": "This DCWP rule mainly puts into effect Local Laws 1 and 2 of 2021, the just-cause protections for fast food workers, which the existing entry nyc-int-2019-1415 already covers; the third law it implements (Local Law 77 of 2021) is about utility safety workers and the rule page names no new protections of its own.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "nyc-rule-33462": {
   "decision": "skip",
@@ -98163,10 +98209,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-304": {
-  "decision": "promising",
-  "reason": "triage: One-time 5-cent rebate from real surplus; check renters excluded",
+  "decision": "skip",
+  "reason": "This was a one-time, uncapped rebate of 5 cents per $100 of taxable value on every assessed parcel, commercial and landlord-owned property included, and renters got nothing, so most of the $18 million surplus went to owners of high-value and large holdings. That fails the guide's test for relief that mostly goes to owners and large property holders, even though a surplus paid for it.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-305": {
   "decision": "skip",
@@ -98193,10 +98239,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-309": {
-  "decision": "promising",
-  "reason": "triage: $1.97M federal grant for gun violence prevention programs",
+  "decision": "drafted",
+  "reason": "Richmond's council accepted and appropriated a $1.97 million DOJ grant that paid for youth gun violence prevention programs, which gives residents direct safety services; DOJ, city, Legistar and USAspending records confirm it.",
+  "file": "src/content/entries/local/richmond-federal-grant-youth-gun-violence-prevention.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-311": {
   "decision": "skip",
@@ -98247,10 +98294,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-319": {
-  "decision": "promising",
-  "reason": "triage: Funds Mayo Bridge replacement",
+  "decision": "drafted",
+  "reason": "The ordinance is the enacted agreement that put VDOT in charge of replacing Richmond's poorly rated 1913 Mayo Bridge, a funded infrastructure project now in design that will carry drivers, bus riders, cyclists and walkers over the James.",
+  "file": "src/content/entries/local/richmond-mayo-bridge-replacement-in-design.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-326": {
   "decision": "skip",
@@ -98463,10 +98511,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-284": {
-  "decision": "promising",
-  "reason": "triage: ARPA funds accepted; pandemic recovery and parks, broad but vague",
+  "decision": "drafted",
+  "reason": "The ordinance put $60.5 million of Richmond's second-year American Rescue Plan money into parks capital projects. The city's plan sends most of that to four community centers, and three of them opened in 2025.",
+  "file": "src/content/entries/local/richmond-60-million-federal-relief-parks-community-centers.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-285": {
   "decision": "skip",
@@ -98547,10 +98596,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0256": {
-  "decision": "promising",
-  "reason": "triage: annual grant appropriation; summer meals for kids funded",
+  "decision": "drafted",
+  "reason": "Hampton accepted USDA money that paid for free summer meals for more than 2,500 children in 2022, a concrete food benefit; the existing Hampton entries cover only 2023 and 2024.",
+  "file": "src/content/entries/local/hampton-kids-free-summer-meals-2022-usda.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "hampton-22-0260": {
   "decision": "promising",
@@ -98679,16 +98729,17 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-257": {
-  "decision": "promising",
-  "reason": "triage: $2.4M pedestrian safety improvements funded",
+  "decision": "drafted",
+  "reason": "The ordinance accepted and budgeted $2.36 million in VDOT money for five federal Highway Safety Improvement Program projects that make Richmond intersections safer, which counts as built safety infrastructure for people who walk, bike and drive.",
+  "file": "src/content/entries/local/richmond-2-36-million-safer-crossings-and-signals.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-258": {
-  "decision": "promising",
-  "reason": "triage: city land sold for affordable apartments; check details",
+  "decision": "skip",
+  "reason": "This 2022 land sale is one step in the Oak Grove school-site development (now NOON Ingram, 243 units, opened Oct. 2025), which richmond-ord-2023-279 already covers.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-259": {
   "decision": "promising",
@@ -98751,10 +98802,10 @@
   "date": "2026-11-12"
  },
  "richmond-res-2022-r063": {
-  "decision": "promising",
-  "reason": "triage: bonds to rehab 161 affordable apartments; check affordability",
+  "decision": "skip",
+  "reason": "These are routine private-activity bond approvals for converting the Townes at River South public housing (an old HOPE VI site) under RAD, and the content guide keeps RAD conversions out of scope while the site covers only wins.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-res-2022-r064": {
   "decision": "promising",
@@ -98775,10 +98826,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-302": {
-  "decision": "promising",
-  "reason": "triage: Enacted water bill help for low-income households",
+  "decision": "drafted",
+  "reason": "The ordinance signed Richmond's utility up to the state's federally funded water assistance program, which paid past-due water and sewer bills for low-income customers until the money ran out; the program has since closed nationally, so the entry is marked expired.",
+  "file": "src/content/entries/local/richmond-water-bill-aid-for-low-income-households.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-res-2022-r068": {
   "decision": "skip",
@@ -98955,10 +99007,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-261": {
-  "decision": "promising",
-  "reason": "triage: Creates Civilian Review Board for police oversight",
+  "decision": "skip",
+  "reason": "The ordinance created a police oversight board that can only advise: it reviews internal police investigations and makes recommendations, it can't discipline anyone, residents can't file complaints with it directly, and the chief must approve its procedures, so its main effect is on government rather than a tangible change for residents.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-263": {
   "decision": "skip",
@@ -99129,10 +99181,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-237": {
-  "decision": "promising",
-  "reason": "triage: grant to expand child care and preschool access",
+  "decision": "skip",
+  "reason": "The ordinance only authorizes the CAO to sign a Thrive Birth to 5 grant contract, and no source I could open (the Legistar record, its API text and histories, city press releases, news) gives the contract's dollar amount, what it funded, who it served, or whether it was carried out, so the core impact can't be verified.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-243": {
   "decision": "skip",
@@ -99201,10 +99253,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0227": {
-  "decision": "promising",
-  "reason": "triage: funds homeless solutions program",
+  "decision": "drafted",
+  "reason": "Hampton accepted a $1,060,922 state and federal grant that paid for homeless shelters, rapid rehousing and prevention across the Peninsula in 2022–23. It is the year before the existing 2023–24 (hampton-23-0249) and 2024–25 entries, so it doesn't duplicate them.",
+  "file": "src/content/entries/local/hampton-1-06-million-peninsula-homeless-shelters-rehousing-2022-23.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "hampton-22-0228": {
   "decision": "skip",
@@ -99423,10 +99476,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-218": {
-  "decision": "promising",
-  "reason": "triage: longer deadline for elderly/disabled tax relief applications",
+  "decision": "drafted",
+  "reason": "The ordinance gave Richmond homeowners who are 65 or older or totally disabled nine more months each year to apply for real estate tax relief that is based on income, and the city still uses the Dec. 31 deadline.",
+  "file": "src/content/entries/local/richmond-seniors-disabled-homeowners-until-dec-31-to-seek-tax-relief.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-221": {
   "decision": "drafted",
@@ -99580,10 +99634,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-172": {
-  "decision": "promising",
-  "reason": "triage: HUD block grants $8.8M for housing and services; writer can check specifics",
+  "decision": "drafted",
+  "reason": "The adopted ordinance accepted and appropriated $8.83 million in federal HUD grants for Richmond's 2022–23 housing, neighborhood, homeless and HIV-housing programs, a funded action that directly serves lower-income residents.",
+  "file": "src/content/entries/local/richmond-8-8-million-hud-housing-homeless-grants-2022-23.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "richmond-ord-2022-173": {
   "decision": "skip",
@@ -119127,10 +119182,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1403-5540": {
-  "decision": "promising",
-  "reason": "triage: Sewer force main repair serving residents",
+  "decision": "drafted",
+  "reason": "Goochland's board funded and approved the $8 million replacement of the sewer main whose 2021 rupture spilled 300,000 gallons of raw sewage into Tuckahoe Creek, and the project reached substantial completion in July 2024.",
+  "file": "src/content/entries/local/goochland-sewer-main-that-spilled-into-tuckahoe-creek-rebuilt.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "goochland-council-iqm2-1403-5544": {
   "decision": "skip",
@@ -119271,10 +119327,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1397-5384": {
-  "decision": "promising",
-  "reason": "triage: Support for broadband grant project; expands internet access",
+  "decision": "skip",
+  "reason": "The June 7, 2022 resolution only reaffirmed the county's support and approved the three-party VATI agreement for a project already funded (the county match was appropriated March 1, 2022), and I couldn't open the agreement, the resolution text, or a readable source to confirm Goochland's figures and current build status.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-18"
  },
  "goochland-council-iqm2-1397-5386": {
   "decision": "skip",
@@ -199674,6 +199730,3206 @@
   "decision": "skip",
   "reason": "triage: routine grant modification for air program",
   "impact": 1,
+  "date": "2026-11-18"
+ },
+ "tampa-council-2986": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955": {
+  "decision": "skip",
+  "reason": "split into 7 approved actions",
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175": {
+  "decision": "skip",
+  "reason": "split into 73 approved actions",
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1621": {
+  "decision": "skip",
+  "reason": "triage: budget transfer for storm sewer work; vague, procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1622": {
+  "decision": "skip",
+  "reason": "triage: contract renewal for storm sewer work; routine",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1624": {
+  "decision": "skip",
+  "reason": "triage: consultant agreement extension; government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1625": {
+  "decision": "promising",
+  "reason": "triage: donated parcels for West Atlanta parks; modest local gain",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1626": {
+  "decision": "skip",
+  "reason": "triage: parking sublease for city staff",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1627": {
+  "decision": "promising",
+  "reason": "triage: small crime victim services grant",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1629": {
+  "decision": "skip",
+  "reason": "triage: small donation to nonprofit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1631": {
+  "decision": "skip",
+  "reason": "triage: property option amendment; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1632": {
+  "decision": "skip",
+  "reason": "triage: housing bond request; unclear what is built, may involve redevelopment",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-3992": {
+  "decision": "skip",
+  "reason": "triage: software licensing; government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4013": {
+  "decision": "promising",
+  "reason": "triage: street resurfacing contract; modest",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4124": {
+  "decision": "skip",
+  "reason": "triage: routine billing adjustments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4273": {
+  "decision": "skip",
+  "reason": "triage: tree planting contract; minor benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4279": {
+  "decision": "skip",
+  "reason": "triage: routine overpayment refunds",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4325": {
+  "decision": "promising",
+  "reason": "triage: street resurfacing contract; moderate local",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4335": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4336": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4337": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4338": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4342": {
+  "decision": "skip",
+  "reason": "triage: study request only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4343": {
+  "decision": "skip",
+  "reason": "triage: assessment request only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4344": {
+  "decision": "skip",
+  "reason": "triage: small donation",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4345": {
+  "decision": "skip",
+  "reason": "triage: request to mayor, not an order",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4346": {
+  "decision": "skip",
+  "reason": "triage: small donation",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4348": {
+  "decision": "skip",
+  "reason": "triage: request only; government structure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4349": {
+  "decision": "skip",
+  "reason": "triage: intergovernmental strategy; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4350": {
+  "decision": "skip",
+  "reason": "triage: donation, purpose unclear",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4351": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4352": {
+  "decision": "skip",
+  "reason": "triage: surveillance camera renewal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4353": {
+  "decision": "skip",
+  "reason": "triage: utility adjustment with GDOT; technical",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4354": {
+  "decision": "skip",
+  "reason": "triage: payment between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4357": {
+  "decision": "skip",
+  "reason": "triage: staffing contract; internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4360": {
+  "decision": "skip",
+  "reason": "triage: roof repairs at facilities; minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4361": {
+  "decision": "drafted",
+  "reason": "The council approved up to $10 million to build a replacement fire station in southwest Atlanta, a public-safety facility with a direct effect on residents, like other fire-station entries already on the site.",
+  "file": "src/content/entries/local/atlanta-fire-station-31-construction.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4362": {
+  "decision": "skip",
+  "reason": "triage: individual claim payment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4363": {
+  "decision": "skip",
+  "reason": "triage: individual claim payment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4364": {
+  "decision": "skip",
+  "reason": "triage: individual claim payment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4365": {
+  "decision": "skip",
+  "reason": "triage: individual claim payment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4366": {
+  "decision": "skip",
+  "reason": "triage: individual claim payment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4405": {
+  "decision": "skip",
+  "reason": "triage: lawsuit settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "nj-eo-057-29": {
+  "decision": "skip",
+  "reason": "triage: procurement policy for businesses; mainly government/contractors",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mamdani-administration-and-msquared-break-ground-on-134-homes-at": {
+  "decision": "promising",
+  "reason": "triage: groundbreaking on 134 homes, new financing tool; check affordability",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mamdani-administration-takes-notoriously-noncompliant-landlord-t": {
+  "decision": "skip",
+  "reason": "triage: lawsuit filed, not enacted action",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-expands-access-to-free-immigration-legal-help-ope": {
+  "decision": "promising",
+  "reason": "triage: hotline now open seven days, free legal help service expanded",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-vanderbilt-university-announce-new-revenue-shari": {
+  "decision": "skip",
+  "reason": "triage: university engineering labs deal; no direct working-people effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "savannah-news-3425": {
+  "decision": "skip",
+  "reason": "triage: temporary road closure notice",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "st-louis-county-news-4334494": {
+  "decision": "skip",
+  "reason": "triage: police incident notice",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "va-gov-1129742": {
+  "decision": "skip",
+  "reason": "triage: op-ed, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fl-eo-2026-229": {
+  "decision": "skip",
+  "reason": "triage: routine emergency order extension",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fl-eo-2026-230": {
+  "decision": "skip",
+  "reason": "triage: immigration emergency extension, no tangible benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "fort-lauderdale-26-0973": {
+  "decision": "skip",
+  "reason": "triage: entertainment overlay decertification, property-specific",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "ramsey-2026-454": {
+  "decision": "skip",
+  "reason": "triage: legislative platform, not enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-2": {
+  "decision": "skip",
+  "reason": "triage: request to legislature, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-3": {
+  "decision": "skip",
+  "reason": "triage: one road closure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-4": {
+  "decision": "skip",
+  "reason": "triage: animal cruelty registry; little direct working-people effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-5": {
+  "decision": "skip",
+  "reason": "triage: minor animal code amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-6": {
+  "decision": "skip",
+  "reason": "triage: easement exchange for one property",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-7": {
+  "decision": "skip",
+  "reason": "triage: private lakefront encroachments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "virginia-beach-council-51905955-1-8": {
+  "decision": "skip",
+  "reason": "triage: private lakefront encroachments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1264": {
+  "decision": "skip",
+  "reason": "triage: donations to nonprofits, narrow, unclear effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1479": {
+  "decision": "skip",
+  "reason": "triage: amusement machine regulation, unclear benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1507": {
+  "decision": "skip",
+  "reason": "triage: bond refunding, financial/government",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1568": {
+  "decision": "skip",
+  "reason": "triage: small donation to police foundation",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1590": {
+  "decision": "skip",
+  "reason": "triage: land transfer to land bank, no homes yet",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1594": {
+  "decision": "skip",
+  "reason": "triage: contract time extension, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1600": {
+  "decision": "skip",
+  "reason": "triage: housing code change protecting seniors from anonymous complaint harassment; check tenant effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1602": {
+  "decision": "skip",
+  "reason": "triage: council internal budget true-up",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1608": {
+  "decision": "skip",
+  "reason": "triage: airport runway grant, little direct working-people effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1609": {
+  "decision": "skip",
+  "reason": "triage: airport runway grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1610": {
+  "decision": "skip",
+  "reason": "triage: airport taxiway grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1611": {
+  "decision": "skip",
+  "reason": "triage: airport safety area grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1612": {
+  "decision": "skip",
+  "reason": "triage: airport restroom repairs",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1613": {
+  "decision": "skip",
+  "reason": "triage: airport air systems",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1614": {
+  "decision": "skip",
+  "reason": "triage: airport equipment grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1615": {
+  "decision": "skip",
+  "reason": "triage: airport lease, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1616": {
+  "decision": "skip",
+  "reason": "triage: design funding only, not construction",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1617": {
+  "decision": "skip",
+  "reason": "triage: trust fund closure date, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1618": {
+  "decision": "skip",
+  "reason": "triage: waives charges for land bank, government-to-government",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1619": {
+  "decision": "skip",
+  "reason": "triage: bond fund transfer, government finance",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-o-1620": {
+  "decision": "skip",
+  "reason": "triage: budget transfer for storm sewer work; vague",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4406": {
+  "decision": "skip",
+  "reason": "triage: lawsuit settlement, government matter",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4407": {
+  "decision": "skip",
+  "reason": "triage: airport runway contract, not working-people benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4410": {
+  "decision": "skip",
+  "reason": "triage: airport SkyTrain vehicles contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4413": {
+  "decision": "promising",
+  "reason": "triage: funded downtown safe streets project, pedestrian safety",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4414": {
+  "decision": "skip",
+  "reason": "triage: agency maintenance agreement, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4415": {
+  "decision": "skip",
+  "reason": "triage: contract extension, no new funding",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4416": {
+  "decision": "promising",
+  "reason": "triage: funded safe street corridor project",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4417": {
+  "decision": "skip",
+  "reason": "triage: engineering task order fund, administrative",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4419": {
+  "decision": "skip",
+  "reason": "triage: airport runway contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4420": {
+  "decision": "skip",
+  "reason": "triage: airport taxiway contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4421": {
+  "decision": "skip",
+  "reason": "triage: rehiring a retiree, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "atlanta-council-4175-26-r-4422": {
+  "decision": "skip",
+  "reason": "triage: election security reimbursement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01239-2026-11-12": {
+  "decision": "skip",
+  "reason": "triage: single corps member contract, tiny",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00164-2026-10-29": {
+  "decision": "drafted",
+  "reason": "The ordinance is enacted. It took effect after the mayor didn't sign within the charter's deadline, and from Jan. 1, 2027 it creates a legal, staffed place where unsheltered Minneapolis residents can sleep in their cars.",
+  "file": "src/content/entries/local/minneapolis-safe-outdoor-parking-lots.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00178-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: government structure, internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00348-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: companion licensing rules for safe outdoor spaces; same action as zoning",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00851-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: levies assessments on owners, cost on residents",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00870-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: funds voluntary relocation help for Heritage Park residents; redevelopment context unclear",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00898-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: license fee schedule, business fees",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01024-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: oversight commission training, internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01130-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: TIF decertification, between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01139-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: contract amendment changing affordability terms, unclear gain",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01163-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: vehicle body work procurement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01164-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: city employee benefit administration",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01165-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: contract cost increase on sewer project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01171-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: loan subordination, financial technicality",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01172-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: loan for performing arts center",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01173-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: history exhibit grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01174-2026-10-29": {
+  "decision": "promising",
+  "reason": "triage: STI testing equipment for mobile medical unit; small",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01176-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: firefighter mental health services contract, narrow",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01178-2026-10-29": {
+  "decision": "promising",
+  "reason": "triage: Habitat rehab financing, affordable homes, details thin",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01179-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: revenue contract between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01181-2026-10-29": {
+  "decision": "promising",
+  "reason": "triage: community trauma response services funded with county",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01182-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: single landlord license reinstatement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01183-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: dispatch software support contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01184-2026-10-29": {
+  "decision": "promising",
+  "reason": "triage: state grant for maternal and child health",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01186-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: legislative directive, not enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01187-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: transition plan directive, not enacted service",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01190-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: land lease for city storage, between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01193-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: easement between city and park board",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01194-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: small $35k pilot, narrow",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01195-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: easement acquisition, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01196-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: routine assessment levy",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01197-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: single-property assessment reduction",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01198-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: project designation and hearing, assessed to owners; not final",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01199-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: county reimbursement agreement for greenway; small",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01201-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: designation and hearing step, assessments on owners",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01202-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: single-developer rezoning",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01209-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: air monitoring grant, narrow",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01215-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: design contract only, no construction",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01218-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01219-2026-10-29": {
+  "decision": "promising",
+  "reason": "triage: appropriation amendment for DV navigators; thin detail, modest",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01220-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: appropriation amendment for navigators; vague",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01262-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: prosecutor grant, government-side",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01263-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: non-binding resolution calling on feds",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01264-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: internal directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01265-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: statement of intent only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01266-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: internal directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01274-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: memo request, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01275-2026-10-29": {
+  "decision": "skip",
+  "reason": "triage: research directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00740-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: litigation matter",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00919-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: business district service charges",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00920-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: routine assessments on tax-exempt parcels",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00921-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: routine assessments on tax-exempt parcels",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01041-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: police barricade grant, government-side",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01048-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: government internal body",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01056-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: waste disposal contract, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01060-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: planning contract only",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01093-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: research directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01094-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: fire training reimbursement, government-side",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01096-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: small consultant contract amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01098-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: police software contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01099-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: health master contracts incl. $9M energy/environment; unclear direct effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01101-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: workforce development contracts, small",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01102-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: small chronic disease contract increases",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01103-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: committee work plan",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01106-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: individual legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01107-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: consultant contract, government-side",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01108-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: small behavioral health contract increases",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01109-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: consultant contract, government-side",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01110-2026-10-15": {
+  "decision": "promising",
+  "reason": "triage: Health contract increases; teen clinic, unclear specifics",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01111-2026-10-15": {
+  "decision": "promising",
+  "reason": "triage: HOPWA rent assistance extended for people with HIV",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01112-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Contract increases, injury prevention; vague",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01113-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Steam for government building; internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01114-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Operations consultants; admin",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01115-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Health contract with county; vague services",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01116-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Review request, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01117-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Architect fee for government building",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01118-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Contract cost increase on safety project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01122-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Outreach contract increases; vague",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01130-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: TIF decertification; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01131-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Grant applications only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01133-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Generator fuel bid; infrastructure maintenance",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01134-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Routine maintenance bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01135-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Small cost increase on lead line replacement",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01136-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Routine bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01137-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Recycling processing contract; routine",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01138-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Government ramp plumbing",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01140-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Investment custody; government finance",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01143-2026-10-15": {
+  "decision": "promising",
+  "reason": "triage: Expands access to injectable opioid treatment at clinics",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01144-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Software support contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01146-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Assessment cancellation for one tax-exempt parcel",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01154-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Police audit directive; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01155-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Fleet audit directive; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01156-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Union rate change for winter work pool; thin",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01157-2026-10-15": {
+  "decision": "drafted",
+  "reason": "Minneapolis accepted a $3.38 million FEMA SAFER grant that pays for 15 more firefighter positions. That adds public-safety capacity and jobs, and FEMA's award table and the city's LIMS record both confirm it.",
+  "file": "src/content/entries/local/minneapolis-safer-grant-15-more-firefighters.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01161-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Audit request; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01166-2026-10-15": {
+  "decision": "skip",
+  "reason": "triage: Legal analysis request; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2025-00580-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Demolition contract increase",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00855-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Business district charges; benefits businesses",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00856-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Sewer charge assessments; costs to owners",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00863-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: Grant amount update, dislocated worker funds; amendment",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00988-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Individual claim settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01019-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Individual claim settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01020-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Individual claim settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01027-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: Federal grant for chronic disease prevention; modest",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01028-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: State grant for chronic disease prevention; modest",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01029-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Grant application only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01031-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Small court liaison grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01032-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: Directive only, no enacted change",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01033-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: brownfield grants to developers, narrow",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01035-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: grant application only, not enacted",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01037-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: resolution calling on others, no action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01043-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: intergovernmental agreement, government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01044-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: website contract, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01045-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: internal software contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01046-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: procedural election appointments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01047-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: extends HIV/AIDS rental assistance through 2027",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01051-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: police grant application, vague",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01053-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: design contract only, not built",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01055-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: parking ramp contract change order",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01058-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: engineering contract amendment, development project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01059-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: legal settlement, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01061-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: funded sewer improvement construction",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01065-2026-10-01": {
+  "decision": "promising",
+  "reason": "triage: $4.4M storm tunnel rehab contract awarded",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01066-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: program guidelines update, unclear benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01067-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: change order on road project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01068-2026-10-01": {
+  "decision": "skip",
+  "reason": "This is a $3.6 million consultant contract for engineering work on Minneapolis's signal timing (analysis, timing plans, putting the plans in place), and no source I could open says what people will get from it, such as longer walk signals, safer crossings, faster buses or a measured cut in delays, so the record and the RFP listing don't establish a direct, verifiable benefit.",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01069-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: releases affordability mortgage, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01070-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: development rights only, not built",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01071-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: commercial development rights",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01072-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: convention center maintenance contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01073-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: parking ramp door contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01074-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: property settlement, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01076-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: fire alarm replacement in building, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01077-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: waste hauling contract, routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01078-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: special district budget procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01079-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: comments on a plan",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01080-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: assessment rates, shifts costs to owners",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01081-2026-10-01": {
+  "decision": "skip",
+  "reason": "triage: project designation, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2025-00845-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: contract amendment for routine repairs",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2025-01002-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: grant amount correction, administrative",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00106-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: convention center remodel change order",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00196-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: fence regulation tweak",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00809-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: noise code cleanup",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00857-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: business district charges on property",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00864-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: business license change",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00903-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: tiny change order",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00937-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: technical election procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00984-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: government cybersecurity contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00985-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: employee survey contract; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00986-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: contract amendment, stormwater project cost increase",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00987-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: contract amendment for intersection safety work; procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00989-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: legal settlement with a company",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00990-2026-09-17": {
+  "decision": "skip",
+  "reason": "The LIMS record says only \"authorizing program changes,\" and the city's LIMS documents and the partner's page both return 403, so I can't verify what the Sept. 2026 changes did or whether they leave homebuyers better off (they could tighten eligibility).",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00991-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: bond host approval for senior living; financing step",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00992-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: public art agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00996-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: lab software maintenance contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00998-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: small $4,000 pet adoption grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00999-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: grant applications and unclear grants; not concrete",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01001-2026-09-17": {
+  "decision": "promising",
+  "reason": "triage: citywide ADA ramp installation contract; modest accessibility gain",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01003-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: firefighter training reimbursement; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01004-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: parking ramp building controls",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01005-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: cost increase on street reconstruction contract",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01006-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: radios for fire dept; internal equipment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01007-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: directive to repeal energy disclosure; rollback, not a win",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01011-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: debt forgiveness on supportive housing loan; financing relief for developer",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01016-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: consulting pool contracts",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01022-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: vague legislative directive, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-01025-2026-09-17": {
+  "decision": "skip",
+  "reason": "triage: police internal affairs consultant; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00788-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: municipal consent for MnDOT project; procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00806-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: dress code posting; trivial",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00871-2026-08-27": {
+  "decision": "promising",
+  "reason": "triage: removes pet limits for people with felony records; small gain",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00931-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: plan adoption, not enacted action",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00941-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: contract amendment for water tower",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00947-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: firefighter mental health contract; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00948-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: grant application only, not awarded",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00950-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: graffiti removal contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00951-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: design contract amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00952-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: watermain construction contract; routine infrastructure",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00953-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: vegetation management contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00954-2026-08-27": {
+  "decision": "skip",
+  "reason": "This is a $286,000 increase to an existing contract (from $750,000 to $1,036,000) for one package of Minneapolis's lead pipe replacement work, and no source I could open says what the money buys: more replacements, how many homes, or cost overruns like the materials, restoration and winterization increases on earlier contracts, so I can't verify a concrete benefit beyond the program that already exists.",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00956-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: cost increase on bridge rehab contract",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00957-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: settlement with newspaper",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00958-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: settlement with newspaper",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00959-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: design designation and easements; not yet built",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00961-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: easement acquisition; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00964-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: fund transfer; no enacted benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00965-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: police body camera contract; government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00971-2026-08-27": {
+  "decision": "skip",
+  "reason": "triage: rescinds delegated authority; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00817-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Local approval of state law; unclear effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00818-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Contract extension for music center",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00819-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Government software contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00821-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Small contract amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00822-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Contract amendment, community trauma response; routine",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00823-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Police cadet training contract; government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00826-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00827-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00828-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Fire training facility; government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00830-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: City Hall renovation amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00832-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Small stormwater bid; minor",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00833-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Routine tree removal contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00837-2026-07-30": {
+  "decision": "skip",
+  "reason": "This permit is a zoning approval for People Serving People's new family shelter at 219 4th St S, the building Hennepin County sold to the group in July 2026. The existing entry hennepin-26-0242 (\"A downtown Minneapolis shelter now houses 52 homeless families\") already covers that shelter, so a separate entry would duplicate it.",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00839-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Program guideline revisions; affordable housing preservation, details unclear",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00841-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Delegation of authority; procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00842-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Convention center electrical work",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00843-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Skyway easement; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00844-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Water efficiency grant program, unclear benefit; procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00845-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Internal HR software",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00846-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Bridge contract amendment, cost overrun",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00847-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Reimburses city staff costs; government-internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00848-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Rezoning of city property; unclear benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00850-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Water plant roof replacement; maintenance",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00852-2026-07-30": {
+  "decision": "promising",
+  "reason": "triage: Agreement for Grand Ave bridge over Greenway; modest infrastructure",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00853-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Small technical assistance contracts to developers",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00854-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Claim settlement for city",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00858-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Policy map reclassification; minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00860-2026-07-30": {
+  "decision": "skip",
+  "reason": "This is a preliminary agreement with BNSF covering easements, ownership of the structure, and a cost share, approved while the 1941 Cedar Lake Road bridge is still in design for 2027; I couldn't confirm the size of BNSF's contribution (LIMS returns 403) or that construction is funded or contracted, so the action doesn't yet deliver a verifiable, tangible benefit.",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00863-2026-07-30": {
+  "decision": "drafted",
+  "reason": "Minneapolis accepted and appropriated $1.75 million in State of Minnesota grants that pay for free job counseling and training for laid-off workers and for low-income and at-risk youth. It is a funded program with a direct effect on working people, and no existing entry covers it.",
+  "file": "src/content/entries/local/minneapolis-state-job-training-grants-laid-off-workers-youth.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00865-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Sewer grant reimbursing past work; mostly government-internal",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00874-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Deadline extension for developer",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00875-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Bond refunding; financial",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00878-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Directs research only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00881-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Committee work plan",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00890-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Grant application only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00891-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Research directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00625-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Project layout designation for county road; procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00693-2026-07-16": {
+  "decision": "drafted",
+  "reason": "The council approved bonds and TIF to turn the historic Grain Exchange into 232 apartments, 210 of them income-capped at 60% of area median income. That is enacted public financing for affordable housing with a direct effect on renters.",
+  "file": "src/content/entries/local/minneapolis-grain-exchange-210-income-capped-apartments.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00766-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Variance appeal for a property owner",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00769-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Loan restructure for a business",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2025-01270-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: CAD contract adjustment, government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00438-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Committee work plan, internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00464-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Public art contract correction",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00725-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Levies assessments on owners; routine",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00859-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Single rental license reinstatement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00872-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Emergency preparedness grant, agency capacity",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00873-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Emergency preparedness grant, agency capacity",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00883-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Police analyst salary reimbursement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00884-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Police overtime reimbursement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00887-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Single-parcel rezoning",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00888-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Tourism district charge continuation, business-focused",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00899-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Individual legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00900-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Only authorizes negotiating; insurance cost unclear",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00903-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Convention center construction contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00904-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Target Center doors bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00905-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Loan to a commercial property buyer",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00906-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Convention center concession remodel",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00907-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Loan forgiveness to a project owner, tenant effect unclear",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00909-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Local approval of county awards, details unclear",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00910-2026-08-13": {
+  "decision": "drafted",
+  "reason": "The amendment funds Minneapolis's 24/7 unarmed behavioral crisis response teams, which answer mental health 911 calls, through the end of 2026, so a public safety service people rely on keeps running.",
+  "file": "src/content/entries/local/minneapolis-behavioral-crisis-response-2026-extension.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00911-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Routine sewer pipe lining contract",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00912-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Bomb disposal equipment grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00913-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: County reimburses city, between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00920-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Assessment report on tax-exempt parcels",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00921-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Assessment report on tax-exempt parcels",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00922-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Engineering contract amendment only",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00923-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Engineering contract amendment only",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00924-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Police training annex contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00927-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Research contract for grant project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00928-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Research contract for grant project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00929-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Legislative directive, no enacted benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00930-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: EV carshare contract increase",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00932-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Engineering contract extension only",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00933-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Olympic torch relay hosting",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00943-2026-08-13": {
+  "decision": "skip",
+  "reason": "triage: Heritage Park public housing redevelopment relocation",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00777-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Council process reform, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00801-2026-07-30": {
+  "decision": "promising",
+  "reason": "triage: State grant funds family home visiting",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00808-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Audit directive, internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00815-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Tow fee schedule change, effect unclear",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00816-2026-07-30": {
+  "decision": "skip",
+  "reason": "triage: Program procedure changes, unclear effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00770-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Developer financing agreements, no clear outcome",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00771-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Program guideline revision, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00772-2026-07-16": {
+  "decision": "promising",
+  "reason": "triage: County funding for affordable housing projects; check details",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00773-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Small admin loan servicing contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00774-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Convention center snow plow contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00778-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Individual legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00780-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Firefighter contract, no public-facing details; narrow",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00785-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Road construction bid, unclear worker benefit",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00787-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Grant applications only, not enacted funding",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00793-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Resolution of support only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00794-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Land transfer between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00795-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Gift appropriation, no detail",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00799-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Directive on proposed closure, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00800-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Street vacation, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00804-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Solidarity resolution, no enacted effect",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00807-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Research grant, no direct service",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00870-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Heritage Park redevelopment/relocation, public housing-type",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00879-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Directive on Heritage Park relocation, not enacted benefit",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00880-2026-07-16": {
+  "decision": "skip",
+  "reason": "triage: Legal analysis request, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00100-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Tailgating alcohol rules, no working-people benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00176-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Symbolic welcoming-city codification, unclear tangible effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00264-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Venue health regulation, narrow",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00265-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Business licensing language update",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00446-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Moratorium on data centers, indirect effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00486-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Surveillance contract extension",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00618-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Plan to edit code language, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00655-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Consulting contract for review",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00662-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Single lot sale",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00666-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Single-parcel rezoning",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00677-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Resolution of concern only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00687-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Conference travel grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00688-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Directs analysis only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00689-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: MOU amendment and easement, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00690-2026-06-25": {
+  "decision": "drafted",
+  "reason": "The council accepted $2.54 million in federal WIOA money for free job training for Minneapolis adults, laid-off workers and young people, and the mayor signed it. That is a concrete service like the Atlanta and Union County WIOA entries already on the site, and no existing Minneapolis entry covers it.",
+  "file": "src/content/entries/local/minneapolis-wioa-job-training-grants-2026.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00691-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Debt forgiveness to housing portfolio owner, unclear tenant benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00694-2026-06-25": {
+  "decision": "promising",
+  "reason": "triage: Affordable Housing Trust Fund up to $2.56M for 2116 Nicollet",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00695-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Opportunity Zone ranking, benefits investors",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00696-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Theater contract extension",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00697-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Revenue contract for security at arena",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00701-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Engineering design only, no built project",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00587-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: consulting contract, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00588-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: individual claim settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00589-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: GIS software contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00596-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: police training contract, procedural",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00597-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: bond policy, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00598-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: audit services for associations",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00599-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: funded energy assistance for city households",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00600-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: small contract amendment, unclear effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00602-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: loan to business entity",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00605-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: individual claim settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00606-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: emergency management capacity grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00607-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: city hall renovation, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00610-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: small admin grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00611-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: event approval",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00612-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: contract amendment for sewer project, cost increase",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00613-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: federal courthouse ramp security",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00614-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: small valve contract amendment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00615-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: design services amendment only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00616-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: routine maintenance bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00617-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: government lease",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00619-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: federally funded safe routes to school project agreement",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00620-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: planting contract, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00621-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: equipment rental bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00622-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: sewer reconstruction bid, routine",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00624-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: equipment rental bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00626-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: areaway abandonment, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00627-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: maintenance facility, government itself",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00631-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: arts grant extensions",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00633-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: application to host volunteers",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00634-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: routine assessment equalization",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00635-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: grant applications only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00636-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: funded outreach services contracts, effect unclear",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00637-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: study grant only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00638-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: home repair program guideline change, details unknown",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00647-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: small professional development grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00663-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: pension special law approval, unclear",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00664-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: police training actors contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00665-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: internal affairs contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00672-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: research directive only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00674-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: information request only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00702-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Design contract only, no built result yet",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00703-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Vehicle auction contracts, government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00704-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Small security contracts for public housing; narrow",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00706-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Small grant for program development, government-facing",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00707-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Internal software system contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00708-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Small stormwater/landscape bid, modest effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00709-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Facility roof repair, government building",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00710-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Legal settlement, government insurer matter",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00711-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Vague HUD program income appropriation",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00712-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Special assessments on owners for street work",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00713-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Special assessments for resurfacing, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00714-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Resolution calling on legislature, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00716-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Pump station electrical maintenance",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00717-2026-06-25": {
+  "decision": "drafted",
+  "reason": "The council approved a $17.9 million construction contract that adds storm sewer capacity to North Minneapolis streets that flood in most years; this is infrastructure built for working-class homeowners and renters.",
+  "file": "src/content/entries/local/minneapolis-35th-avenue-north-flood-mitigation.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00718-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Legislative directive, government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00719-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Routine sewer pipe cleaning contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00720-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Single property legal settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00721-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Directive requesting information only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00722-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Election judge appointments, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00723-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Easement acquisition, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00724-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Utility agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00727-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Concept layout and easements, not funded construction",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00728-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Temporary easements, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00729-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Small philanthropic grant for youth engagement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00730-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Pump station maintenance bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00742-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: MOU for student capstone assessment",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00746-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Directs research only, no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00748-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Directive on gun range costs, government internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00755-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Directs memo, internal government matter",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00758-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Easement between government bodies",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00767-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Information request on police changes",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00790-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Single discrimination charge settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00802-2026-06-25": {
+  "decision": "skip",
+  "reason": "triage: Requests an audit, government procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00360-2026-06-11": {
+  "decision": "drafted",
+  "reason": "The council approved $5 million for 2026 to keep running a program that pays rent and emergency housing costs for homeless or at-risk Minneapolis Public Schools families. That is direct housing help for working families, and no existing entry covers it.",
+  "file": "src/content/entries/local/minneapolis-stable-homes-stable-schools-2026-funding.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00516-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: Purchasing rule on agency agreements, mainly government-facing",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00527-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: City lot sales to developers, unclear tangible effect",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00533-2026-06-11": {
+  "decision": "promising",
+  "reason": "triage: Added affordable housing trust funding for NorthView; check cost and loan forgiveness",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00559-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: Assessments for street resurfacing, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00585-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: Banking contract extension, government internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00586-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: Temp staffing contracts, government internal",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00562-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Permit report adoption; procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00565-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Small gift maintenance agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00567-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Police directive on federal task force; no clear benefit",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00574-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Single-parcel rezoning for a developer",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00577-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Resolution urging legislature; not enacted",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00578-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Downtown business district outreach contract; narrow",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00580-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Grant application only, not awarded",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00646-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Grant application only, not awarded",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00648-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: Staff study direction; no enacted action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00747-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: research directive only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00749-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: legislative directive, no enacted benefit shown",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00750-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: grant application only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00751-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: condemning resolution, no action",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00752-2026-06-11": {
+  "decision": "skip",
+  "reason": "triage: art fair funding, minor",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00363-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: address correction",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00447-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: government ethics procedure",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00467-2026-05-21": {
+  "decision": "drafted",
+  "reason": "The council enacted Minneapolis's plan for $17.4 million in 2026 HUD grants (CDBG, HOME, ESG, HOPWA) that fund affordable rentals, job training, shelter and HIV housing help, and the city's final action plan backs the figures. Before merging, check that the votes `members` list uses the shape src/content.config.ts expects; I used yes/no id lists.",
+  "file": "src/content/entries/local/minneapolis-2026-hud-housing-jobs-homeless-grants.md",
+  "impact": 3,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00502-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: single license reinstatement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00504-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: government building elevator contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00506-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: individual settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00507-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: individual settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00508-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: individual settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00509-2026-05-21": {
+  "decision": "promising",
+  "reason": "triage: $5.1M storm sewer construction contract awarded",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00510-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: contract amendment, procedural",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00511-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: internal software consulting",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00513-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: street renaming",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00514-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: public art contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00515-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: city facility roof",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00517-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: fleet maintenance bid",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00518-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: city employee training contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00524-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: annual report on music center",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00526-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: tiny $25k contract, narrow",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00528-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: contract amendment for interpreting",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00529-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: contract amendments for interpreting",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00530-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: police training range contract",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00531-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: grant application only",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00532-2026-05-21": {
+  "decision": "promising",
+  "reason": "triage: city worker union contract; writer checks pay terms",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00535-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: single facility permit, effect unclear",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00537-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: individual settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00538-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: individual settlement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00539-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: design contract for city facility",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00540-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: design contract amendment, flood project unbuilt",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00541-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: intergovernmental agreement",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00542-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: agreement between governments",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00544-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: tiny staff training grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00545-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: tiny conference grant",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00546-2026-05-21": {
+  "decision": "promising",
+  "reason": "triage: funds domestic violence advocacy through 2029",
+  "impact": 2,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00550-2026-05-21": {
+  "decision": "skip",
+  "reason": "triage: police reporting directive",
+  "impact": 1,
+  "date": "2026-11-18"
+ },
+ "minneapolis-lims-2026-00561-2026-05-21": {
+  "decision": "drafted",
+  "reason": "The council accepted and funded the city's 2026 lead service line replacement project orders, which pay for replacing lead water pipes to homes at no cost to owners: a direct health and infrastructure benefit.",
+  "file": "src/content/entries/local/minneapolis-2026-lead-service-line-replacement-funding.md",
+  "impact": 3,
   "date": "2026-11-18"
  }
 }

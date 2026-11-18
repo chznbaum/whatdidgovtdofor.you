@@ -65,7 +65,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the council action, $2.5 million award, 62-home plan, income restriction, infrastructure uses, unanimous vote, attribution, and September 2026 progress report. No later cancellation, rollback, or conflicting project update was found.
+  notes: Confirmed the council action and unanimous vote, $2.5 million award, 62-home plan, 51% income restriction, infrastructure financing, attribution, and September 2026 progress. No later cancellation, rollback, or conflicting project update was found.
 source_key: columbus-ga-council-cg-meeting-minutes-05-26-2026-resolution-128-26
 ---
 
