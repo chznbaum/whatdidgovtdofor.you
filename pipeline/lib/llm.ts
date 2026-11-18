@@ -15,12 +15,20 @@ export const MODELS: Record<Provider, string> = {
 };
 // Triage only screens and scores candidates from their titles, so it runs on a cheaper model.
 export const TRIAGE_MODEL = process.env.TRIAGE_MODEL ?? 'claude-sonnet-5-5';
+// Reasoning effort is always set explicitly, never left to a CLI's default (which can change, and for Claude Code is
+// lower than high). Writing and verifying need high. Triage (and splitting meeting recaps) keeps medium, what it ran at
+// before this was explicit.
+export const EFFORT: Record<Provider, string> = {
+  claude: process.env.CLAUDE_EFFORT ?? 'high',
+  codex: process.env.CODEX_EFFORT ?? 'high',
+};
+export const TRIAGE_EFFORT = process.env.TRIAGE_EFFORT ?? 'medium';
 const VIA: Record<Provider, string> = { claude: 'claude-code', codex: 'codex-cli' };
 
 export const otherProvider = (p: Provider): Provider => (p === 'claude' ? 'codex' : 'claude');
 export const providerOfModel = (model: string): Provider => (/^claude/i.test(model) ? 'claude' : 'codex');
 
-export type LlmCall = { prompt: string; schema: object; web: boolean; cwd: string; timeoutMs?: number; model?: string };
+export type LlmCall = { prompt: string; schema: object; web: boolean; cwd: string; timeoutMs?: number; model?: string; effort?: string };
 export type LlmResult<T> = { data: T; model: string; via: string };
 
 function exec(cmd: string, args: string[], input: string, cwd: string, timeoutMs: number) {
@@ -56,6 +64,8 @@ async function runClaude<T>(call: LlmCall, timeoutMs: number): Promise<T> {
     JSON.stringify(call.schema),
     '--model',
     call.model ?? MODELS.claude,
+    '--effort',
+    call.effort ?? EFFORT.claude,
     // Keep runs hermetic: no MCP servers, no user hooks or CLAUDE.md, no saved session.
     '--strict-mcp-config',
     '--setting-sources',
@@ -92,7 +102,7 @@ async function runCodex<T>(call: LlmCall, timeoutMs: number): Promise<T> {
       '--model',
       call.model ?? MODELS.codex,
       '-c',
-      `model_reasoning_effort=${process.env.CODEX_EFFORT ?? 'high'}`,
+      `model_reasoning_effort=${call.effort ?? EFFORT.codex}`,
       '--output-schema',
       schemaPath,
       '--output-last-message',
