@@ -16,7 +16,7 @@ import { ceremonialReason } from './feeds/ceremonial.ts';
 import type { Candidate } from './feeds/types.ts';
 import { slugify } from './feeds/util.ts';
 import { CONTENT, ROOT, idFromPath, listFiles, parseMarkdown, readAllEntries, readMarkdown, rel, writeMarkdown } from './lib/content.ts';
-import { MODELS, TRIAGE_MODEL, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
+import { MODELS, TRIAGE_EFFORT, TRIAGE_MODEL, otherProvider, providerOfModel, runLlm, type Provider } from './lib/llm.ts';
 import {
   OFFICIALS_RULE,
   SPLIT_SCHEMA,
@@ -137,6 +137,7 @@ async function split({ concurrency }: { concurrency: number }) {
             web: false,
             cwd: ROOT,
             model: TRIAGE_MODEL,
+            effort: TRIAGE_EFFORT,
             timeoutMs: 15 * 60_000,
           })
         ).data;
@@ -223,7 +224,7 @@ async function triage({ limit, concurrency }: { limit: number; concurrency: numb
     const started = Date.now();
     try {
       const prompt = await triagePrompt(batch);
-      const { data } = await runLlm<TriageOutput>(provider, { prompt, schema: TRIAGE_SCHEMA, web: false, cwd: ROOT, model: TRIAGE_MODEL, timeoutMs: 10 * 60_000 });
+      const { data } = await runLlm<TriageOutput>(provider, { prompt, schema: TRIAGE_SCHEMA, web: false, cwd: ROOT, model: TRIAGE_MODEL, effort: TRIAGE_EFFORT, timeoutMs: 10 * 60_000 });
       const byKey = new Map(data.results.map((r) => [r.key, r]));
       let promising = 0;
       for (const c of batch) {
