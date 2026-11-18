@@ -90,6 +90,7 @@ Set these in your shell or in a `.env` file at the repo root (gitignored; copy `
 | `CONGRESS_API_KEY` | `DEMO_KEY` | Free at [api.data.gov/signup](https://api.data.gov/signup/); DEMO_KEY is heavily rate-limited and skips sponsors and summaries |
 | `NYSENATE_API_KEY` | none | Free at [legislation.nysenate.gov](https://legislation.nysenate.gov/); without it the `ny-laws` feed is skipped |
 | `NYC_LEGISTAR_TOKEN` | none | Free at [council.nyc.gov/legislation/api](https://council.nyc.gov/legislation/api/); without it the `nyc-laws` feed is skipped |
+| `MPLS_LIMS_KEY` | none | Register for the [Minneapolis LIMS API](https://lims.minneapolismn.gov) (the city emails a key); without it the `minneapolis-council` feed is skipped |
 
 ## Content layout
 

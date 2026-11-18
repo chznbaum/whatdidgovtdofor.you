@@ -3,8 +3,10 @@ short: Minneapolis
 kind: city
 parent: hennepin
 geoids: { state: "27", place: "2743000" }
-# No feed yet: the council's records are in LIMS (lims.minneapolismn.gov), whose API needs a key; the owner requested one
-# on Nov. 13, 2026. The rest of the site is behind a Cloudflare check; the API's /api/v1/ paths aren't.
+# The council's records are in LIMS (lims.minneapolismn.gov). Its API needs a key (MPLS_LIMS_KEY, sent as a Bearer token;
+# without it the feed is skipped). The rest of the site is behind a Cloudflare check; the API's /api/v1/ paths aren't.
+feeds:
+  - { type: lims, url: "https://lims.minneapolismn.gov", key: MPLS_LIMS_KEY }
 council:
   body: City Council
   title: Council Member

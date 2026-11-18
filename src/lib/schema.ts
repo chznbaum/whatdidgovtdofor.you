@@ -256,6 +256,13 @@ const placeFeedSchema = z.discriminatedUnion('type', [
     board: z.string(), // pattern for the body in a meeting's title ("Board: Atlanta City Council")
   }),
   z.object({
+    type: z.literal('lims'), // Minneapolis's LIMS API (<url>/api/v1/): each official act the council adopted that's in force
+    id: z.string().optional(),
+    url: z.url(), // the LIMS origin, https://lims.minneapolismn.gov
+    key: z.string(), // the env var holding the API key, sent as a Bearer token; without it the feed is skipped
+    skip: z.string().optional(), // pattern for the subcategories left out (default: licenses, appointments, honorary resolutions, gifts...)
+  }),
+  z.object({
     type: z.literal('minutes-list'), // a page listing a body's meetings with "Minutes" PDF links: each one's is a recap
     id: z.string().optional(),
     url: z.url(), // the meeting list (older meetings on ?page=2, ...)
