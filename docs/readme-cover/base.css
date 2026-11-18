@@ -4,10 +4,10 @@
 @font-face { font-family: 'Libre Franklin'; font-weight: 600; src: url('../../node_modules/@fontsource/libre-franklin/files/libre-franklin-latin-600-normal.woff2') format('woff2'); }
 @font-face { font-family: 'Libre Franklin'; font-weight: 700; src: url('../../node_modules/@fontsource/libre-franklin/files/libre-franklin-latin-700-normal.woff2') format('woff2'); }
 @font-face { font-family: 'Libre Franklin'; font-weight: 800; src: url('../../node_modules/@fontsource/libre-franklin/files/libre-franklin-latin-800-normal.woff2') format('woff2'); }
-:root { --orange: #ff7a00; --ink: #000; --paper: #fff; --muted: #444; --fg: #000; }
-html.dark { --fg: #fff; }
+:root { --orange: #ff7a00; --ink: #000; --paper: #fff; --muted: #444; --fg: #000; --bg: var(--paper); }
+html.dark { --fg: #fff; --bg: var(--ink); }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { width: var(--w); height: var(--h); overflow: hidden; background: transparent; }
+html, body { width: var(--w); height: var(--h); overflow: hidden; background: var(--bg); }
 body { font-family: 'Libre Franklin', sans-serif; font-variant-numeric: lining-nums; -webkit-font-smoothing: antialiased; position: relative; color: var(--fg); }
 .serif { font-family: 'Young Serif', serif; font-weight: 400; font-variant-numeric: lining-nums; }
 .mark { display: inline-block; vertical-align: -0.14em; }
