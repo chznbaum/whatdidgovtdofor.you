@@ -65,7 +65,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the council action, $2.5 million award, approved 62-home plan, income restriction, funding uses, unanimous vote, attribution, and latest public progress report. The earlier 61-home application was superseded by the May 2026 MOU and September 2026 project update, both specifying 62 homes.
+  notes: Confirmed the council action, $2.5 million award, 62-home plan, income restriction, infrastructure uses, unanimous vote, attribution, and September 2026 progress report. No later cancellation, rollback, or conflicting project update was found.
 source_key: columbus-ga-council-cg-meeting-minutes-05-26-2026-resolution-128-26
 ---
 

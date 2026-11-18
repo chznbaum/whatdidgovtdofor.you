@@ -81,7 +81,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the contract ceiling, initial certification, dates, shelter services and intake process, council leadership, and 9–0 roll call. The entry accurately limits its status to the latest contract-specific funding evidence found.
+  notes: Confirmed the contract ceiling, initial funding, term, shelter services and intake process, council leadership, and 9–0 vote. Searches found no later appropriation specific to this contract, cancellation, or repeal.
 source_key: newark-26-0494
 ---
 

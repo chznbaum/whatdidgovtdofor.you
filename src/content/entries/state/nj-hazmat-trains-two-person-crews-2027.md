@@ -12,7 +12,7 @@ action:
 topics:
   - safety
   - work
-who_benefits: Rail workers and New Jersey residents who live, work and travel near tracks used by trains carrying oil and hazardous chemicals.
+who_benefits: Rail workers and 3.6 million New Jersey residents who live near potential hazmat rail incidents.
 impact:
   - figure: "2"
     label: crew members generally required on covered hazardous trains
@@ -22,8 +22,8 @@ impact:
     label: default deadline for bridge reports unless DOT sets another schedule
 status:
   state: phasing-in
-  as_of: 2026-09-18
-  note: Enacted and scheduled to take effect Jan. 20, 2027. On March 30, 2026, the Association of American Railroads sued in federal court in Trenton to block the law, arguing that federal law preempts it. Motions were pending on the latest publicly available docket, retrieved Sept. 18, 2026.
+  as_of: 2026-11-18
+  note: Enacted and scheduled to take effect Jan. 20, 2027. On March 30, 2026, the Association of American Railroads sued in federal court in Trenton to block the law, arguing that federal law preempts it. Both sides' motions were pending on the latest publicly available docket, checked Nov. 18, 2026.
   by:
     - association-of-american-railroads
   source: https://dockets.justia.com/docket/new-jersey/njdce/3:2026cv03375/594749
@@ -76,14 +76,10 @@ sources:
     publisher: InsiderNJ
     url: https://www.insidernj.com/press-release/labor-environmentalists-and-community-groups-applaud-action-to-make-new-jersey-rail-safer-despite-heavy-industry-opposition
     date: 2026-01-24
-  - title: AAR sues New Jersey over 2-person crew law
-    publisher: Progressive Railroading
-    url: https://www.progressiverailroading.com/safety/news/AAR-sues-New-Jersey-over-2-person-crew-law--76687
-    date: 2026-04-07
   - title: Association of American Railroads v. Jain, No. 3:26-cv-03375
     publisher: Justia Dockets & Filings
     url: https://dockets.justia.com/docket/new-jersey/njdce/3:2026cv03375/594749
-    date: 2026-09-18
+    date: 2026-11-18
 verification:
   writer:
     model: claude-opus-5-5
@@ -94,12 +90,12 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the enacted text, sponsor history, final conditional-veto votes, and federal docket. Corrected the law’s scope, bridge-report deadline, status, vote tally, source date, and credit.
+  notes: Confirmed the enacted law, sponsors, final votes, effective date, and pending federal challenge. Updated the status through Nov. 18 and tightened the body to the guide’s length limit.
 source_key: nj-pl2025-c300
 ---
 
-Starting Jan. 20, 2027, railroads generally must put at least two crew members on a train that begins operating in New Jersey if its tank cars carry 200,000 gallons or more of oil or 20,000 gallons or more of other hazardous materials. A one-person train that began outside the state may pass through, but it must add a second crew member if it stops in New Jersey to add or remove cars. For trains carrying inhalation toxins such as anhydrous ammonia, or specified carloads of other especially hazardous materials, most crew exceptions do not apply. A narrow class of small switching railroads is exempt from the law.
+Starting Jan. 20, 2027, railroads generally must put at least two crew members on a train that begins operating in New Jersey if its tank cars carry 200,000 gallons or more of oil or 20,000 gallons or more of other hazardous materials. A one-person train that began outside the state may pass through, but must add a second crew member if it stops in New Jersey to add or remove cars. Most crew exceptions do not apply to trains with inhalation toxins, including anhydrous ammonia, or specified loads of especially hazardous materials. Certain small switching railroads are exempt.
 
-The Department of Transportation must establish a program for trackside detectors that scan passing trains for defects. Participating railroads must keep the detectors working and train their crews to respond to alerts. Railroads must also send qualifying federal bridge inspection reports to the state within 30 days of each inspection unless DOT regulations set another schedule. Designated union safety inspectors may enter private railroad property after two to five days' notice, subject to the law's access limits. You do not need to apply; the requirements fall on railroads.
+The Department of Transportation must establish a trackside-detector program to scan trains for defects. Participating railroads must maintain detectors and train employees to respond. Railroads must send qualifying federal bridge inspection reports to the state within 30 days of each inspection unless DOT sets another schedule. Designated union safety inspectors may enter railroad property after two to five days' notice, subject to access limits. You do not apply; the requirements fall on railroads.
 
-Former Sen. Loretta Weinberg began pushing related hazmat-rail legislation more than a decade ago. Sen. Patrick Diegnan and Assembly member Clinton Calabrese led the enacted bill, with Sen. Raj Mukherji and Assembly members Robert Karabinchak and Ellen Park serving as its other prime sponsors. Rail unions, environmental groups and trackside communities also pushed for the measures. Gov. Phil Murphy signed the law on Jan. 20, 2026. In March, the Association of American Railroads sued to stop it; motions remained pending on the latest publicly available docket.
+Former Sen. Loretta Weinberg pushed related hazmat-rail legislation for more than a decade. Sen. Patrick Diegnan and Assembly member Clinton Calabrese led this bill; Sen. Raj Mukherji and Assembly members Robert Karabinchak and Ellen Park were its other prime sponsors. It passed the Senate 36–2 and Assembly 69–0. Gov. Phil Murphy signed it Jan. 20, 2026. The Association of American Railroads sued in March; both sides' motions were pending on the latest public docket checked Nov. 18, 2026.

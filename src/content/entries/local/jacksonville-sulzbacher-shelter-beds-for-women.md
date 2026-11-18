@@ -69,8 +69,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: "Confirmed the appropriation, bed count, spending breakdown, sponsors, vote and phasing-in status. Corrected who prompted the additional beds: reporting attributes the request to JFRD’s PATH team, not Sulzbacher."
+  verdict: pass
+  notes: Confirmed the appropriation, 32-bed plan, spending breakdown, sponsors, 17-0 vote, funding source, and conservative phasing-in status against the ordinance record and current reporting.
 source_key: jacksonville-2026-0542-e
 ---
 

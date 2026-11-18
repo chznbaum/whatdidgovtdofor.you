@@ -62,8 +62,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the project, amenities, beneficiaries, funding, credits, approval date and current status. Reworded the $5.15 million claims to reflect the approved bid because the resolution’s operative clause contains a conflicting ceiling.
+  verdict: pass
+  notes: Confirmed the contract approval, bid amount, park size and amenities, beneficiaries, funding, credits, council action, and spring 2027 target. No later cancellation, funding cut, or material status change was found.
 source_key: newark-26-0883
 ---
 

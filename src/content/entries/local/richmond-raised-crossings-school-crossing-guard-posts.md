@@ -50,8 +50,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the ordinance, 8–0 vote, Stoney patronage, federal reimbursement, safety descriptions, and scheduled-project status. Corrected the unsupported claim that 36 crossings necessarily means 36 separate intersections or guard posts.
+  verdict: pass
+  notes: Confirmed the ordinance, quantities, 8–0 adoption, Stoney patronage, federal reimbursement, safety descriptions, and latest verifiable scheduled-project status. The cited URLs exist and support the entry.
 source_key: richmond-ord-2024-289
 ---
 

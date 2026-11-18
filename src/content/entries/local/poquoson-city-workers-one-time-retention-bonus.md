@@ -66,7 +66,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the eligibility rules, bonus amounts, $212,779 carryover funding, ordinance date, mayor’s presiding role, and complete 7–0 roll call against official records. Later available council records do not establish payment or cancellation, so the cautious dated status is appropriate.
+  notes: Confirmed the eligibility rules, bonus amounts, $212,779 carryover funding, ordinance date, credit, and complete 7–0 roll call against Poquoson’s official records. No later record found establishes payment, amendment, or cancellation, so the cautious dated status is appropriate; repository validation also passes.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 

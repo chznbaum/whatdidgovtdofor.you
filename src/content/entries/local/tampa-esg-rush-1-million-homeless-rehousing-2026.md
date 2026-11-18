@@ -63,7 +63,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the grant amount, planned services and counts, resolution, unanimous vote, credit, and implementation status. No later repeal, cancellation, court block, or funding cut was found.
+  notes: Confirmed the award, allocations, projected service counts, resolution, vote, credit and implementation status. A pending November appropriation item corroborates that the grant remains active; no cancellation, funding cut or court block was found.
 source_key: tampa-council-2878-resolution-no-2026-479
 ---
 

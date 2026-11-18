@@ -53,7 +53,7 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: pass
-  notes: Confirmed the authorization, amount, 18-street scope, identifiers, 5–0 consent vote, Lisa Cupid’s role and party, and the 2024 traffic-calming policy. No later completion, cancellation, or contract change was found through November 18, 2026.
+  notes: Confirmed the 18-street authorization, $519,612.50 ceiling, project identifiers, 5–0 consent vote, Lisa Cupid’s role and party, and the 2024 traffic-calming policy. No later completion, cancellation, or contract change was found through November 18, 2026.
 source_key: cobb-county-council-1200-item-13
 ---
 

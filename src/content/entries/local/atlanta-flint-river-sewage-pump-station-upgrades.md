@@ -24,9 +24,9 @@ status:
   note: The council transferred the money on Aug. 3, 2026. An Aug. 4 report still described the upgrades as planned; no newer source located reports completion or cancellation.
   source: https://cmg-cmg-rd-20021-prod.cdn.arcpublishing.com/news/local/major-upgrades-planned-flint-river-pump-station-near-airport/7FXJPUSFBVHDFBGISD3XLCJ4CM/
 credit:
-  - official: marci-collier-overstreet
+  - official: dustin-hillis
     role: led
-    note: Presided over the council that approved it on Aug. 3, 2026; no source names an individual sponsor
+    note: Chaired the City Utilities Committee that brought the ordinance and advanced it unanimously
   - official: atlanta-city-council
     role: voted-yes
     note: Adopted 13-0 on the consent agenda
@@ -41,6 +41,10 @@ sources:
     publisher: Atlanta City Council
     url: https://atlantacityga.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=4108&Inline=True
     date: 2026-08-03
+  - title: Atlanta City Council President announces 2026 committee chairs and appointments
+    publisher: Atlanta City Council
+    url: https://citycouncil.atlantaga.gov/Home/Components/News/News/4410/17?backlist=%2Fcouncil-members%2Fadvanced-components%2Fcovid-19
+    date: 2026-01-05
   - title: Atlanta City Council approves $36M for water system upgrades
     publisher: Atlanta News First
     url: https://www.atlantanewsfirst.com/2026/08/03/atlanta-city-council-approves-36m-water-system-upgrades/
@@ -61,8 +65,8 @@ verification:
     model: gpt-5.6-sol
     via: codex-cli
     date: 2026-11-18
-  verdict: pass
-  notes: Confirmed the ordinance, reserve transfer, project scope, impact figures, 13–0 vote, credits, and latest reported status. No substantive errors found.
+  verdict: corrected
+  notes: Confirmed the funding, project scope, impact figures, vote, and latest reported status. Corrected the lead credit to the chair of the City Utilities Committee, which brought the ordinance.
 source_key: atlanta-council-4108-26-o-1413
 ---
 
@@ -70,4 +74,4 @@ The Flint River pump station near Hartsfield-Jackson moves wastewater from the a
 
 Debris has clogged the station's submersible pumps during peak flows. The upgrades replace pumps, add screening to catch debris, update obsolete second-stage pumps and address electrical, structural and safety features. The city says the work should extend the station's life by about 15 years. You do not need to apply; the goal is more reliable sewer service.
 
-The $15,573,840 came from existing Watershed reserves. Council President Marci Collier Overstreet presided when the Atlanta City Council approved the transfer 13-0 on its consent agenda on Aug. 3, 2026. No source names an individual sponsor. A related one-year mechanical-repair contract authorization includes the Flint River work.
+The $15,573,840 came from existing Watershed reserves. City Utilities Committee Chair Dustin Hillis led the committee that brought the ordinance and advanced it unanimously. The Atlanta City Council approved the transfer 13-0 on its consent agenda on Aug. 3, 2026. A related one-year mechanical-repair contract authorization includes the Flint River work.

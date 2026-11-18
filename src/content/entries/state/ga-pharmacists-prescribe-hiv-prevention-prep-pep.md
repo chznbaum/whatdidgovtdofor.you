@@ -1,6 +1,6 @@
 ---
-title: Georgia pharmacists can prescribe HIV prevention drugs once trained
-dek: A 2026 law lets trained Georgia pharmacists prescribe and dispense PrEP and PEP, the medicines that prevent HIV, so you don't need a doctor's visit first. Pharmacists can provide up to 90 days of PrEP and 30 days of PEP.
+title: Georgia law lets pharmacists prescribe HIV prevention drugs
+dek: A 2026 law lets trained Georgia pharmacists working under physician agreements prescribe and dispense PrEP and PEP, the medicines that prevent HIV, so you don't need a doctor's visit first. They can provide up to 90 days of PrEP and a 30-day supply of PEP.
 level: state
 jurisdiction: ga
 action:
@@ -102,12 +102,12 @@ verification:
     via: codex-cli
     date: 2026-11-18
   verdict: corrected
-  notes: Confirmed the enacted text, signature, diagnosis count, credits, and all three votes. Corrected the physician-protocol description, updated the rollout status, added omitted co-sponsors, and replaced secondary vote links with official records.
+  notes: Confirmed the enacted text, sponsors, signature and effective dates, diagnosis count, all three vote totals, and the latest published implementation update. Clarified the physician-agreement requirement, patients’ right to decline provider notification, and the distinction between a 30-day PEP supply and the usual 28-day course.
 source_key: ga-20252026-sb195
 ---
 
-PrEP is medicine that keeps you from getting HIV, either as a daily pill or as a shot. PEP is a short course you start soon after a possible exposure. Under this law, a Georgia pharmacist who has finished approved training can prescribe and provide either one. You won't need a doctor's appointment first. A pharmacist can dispense a 30- to 90-day supply of PrEP or administer a long-acting PrEP shot, and can provide a 30-day course of PEP.
+PrEP is medicine that keeps you from getting HIV, either as a daily pill or as a shot. PEP is a short course you start soon after a possible exposure. Under this law, a Georgia pharmacist who has finished approved training and works under a protocol agreement with a physician can prescribe and provide either one. You won't need a doctor's appointment first. A pharmacist can dispense a 30- to 90-day supply of PrEP or administer a long-acting PrEP shot, and can provide a 30-day supply of PEP.
 
-You'll need to show a negative HIV test from the past week or take one at the pharmacy. The pharmacist works under an agreement with a physician. They'll tell your regular doctor, or give you a list of clinics for follow-up care if you don't have one. Georgia has one of the country's highest rates of new HIV diagnoses, and pharmacies are often easier to reach than clinics, especially in rural areas.
+You'll need to show a negative HIV test from the past week or take one at the pharmacy. With your consent, the pharmacist will tell your regular doctor. If you don't have one or don't consent to notification, they'll give you a list of clinics or other providers for follow-up care. Georgia has one of the country's highest rates of new HIV diagnoses, and pharmacies are often easier to reach than clinics, especially in rural areas.
 
 Sen. Chuck Hufstetler, a Rome Republican, wrote the bill. The Senate passed it 55–0 in 2025, but it stalled in the House. Rep. Mark Newton carried it there in 2026, and Rep. Karla Drenner, a Democrat, urged colleagues to back it. It passed the House 155–7, and the Senate agreed to the House's changes 45–0. Gov. Brian Kemp signed it on May 5, 2026, and it took effect July 1. Pharmacists can't start until the state pharmacy board approves training, which it must do by Jan. 1, 2027.
