@@ -2,12 +2,13 @@
 import Base from '../layouts/Base.astro';
 import AddressForm from '../components/AddressForm.astro';
 import ActionList from '../components/ActionList.astro';
+import ShowMore from '../components/ShowMore.astro';
 import { getCollection } from 'astro:content';
-import { getEntries } from '../lib/data.ts';
 import { andList } from '../lib/format.ts';
 
-// Every sign is rendered here, hidden; the script below reveals the ones that apply to the address.
-const entries = await getEntries();
+// The officials are found in the browser (lookup-index.json); the actions that reach the address are chosen from the
+// action index and loaded as cards, 50 at a time per level (src/lib/cards.ts).
+const BATCH = 50;
 // The states we cover, for the note an address elsewhere gets.
 const covered = andList((await getCollection('places', (p) => p.data.kind === 'state')).map((p) => p.data.name).sort());
 const levels = [
@@ -46,12 +47,13 @@ const levels = [
       </p>
     </section>
 
-    <div class="results" data-results hidden>
+    <div class="results" data-results data-batch={BATCH} hidden>
       {
         levels.map(({ level, title }) => (
           <section aria-labelledby={`lvl-${level}`} data-level-section={level}>
             <h2 id={`lvl-${level}`}>{title}</h2>
-            <ActionList entries={entries.filter((e) => e.data.level === level)} />
+            <ActionList entries={[]} />
+            <ShowMore />
           </section>
         ))
       }
@@ -60,6 +62,8 @@ const levels = [
 </Base>
 
 <script>
+  import { cardItems, getIndex } from '../lib/cards.ts';
+
   type Person = { name: string; party: string; office: string; id: string | null; url: string | null; n: number };
   type Seat = Person & { place: string; title: string };
   type Member = Person & { district: string | null; role: string; lead: boolean };
@@ -176,7 +180,12 @@ const levels = [
     return el('section', { class: 'tier' }, el('h3', {}, title), el('ul', { role: 'list' }, ...items));
   }
 
+  // A newer lookup wins: an earlier one still loading stops before it shows anything.
+  let run = 0;
+  const BATCH = Number(resultsEl.dataset.batch);
+
   async function lookup(address: string) {
+    const thisRun = ++run;
     input.value = address;
     statusEl.textContent = 'Looking up your districts…';
     officialsEl.hidden = true;
@@ -328,22 +337,35 @@ const levels = [
     for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="/your-turn"]')) a.href = `/your-turn?places=${[...mine].join(',')}`;
     officialsEl.hidden = false;
 
-    // Actions that apply to this address.
-    let shown = 0;
-    for (const section of document.querySelectorAll<HTMLElement>('[data-level-section]')) {
-      let any = false;
-      for (const li of section.querySelectorAll<HTMLElement>('li[data-places]')) {
-        const applies = li.dataset.places!.split(' ').some((p) => mine.has(p));
-        li.hidden = !applies;
-        if (applies) {
-          any = true;
-          shown++;
-        }
-      }
-      section.hidden = !any;
-    }
+    // Actions that apply to this address: any whose places include one of the address's, per level, newest first.
+    const actions = await getIndex();
+    if (run !== thisRun) return;
+    const ids = new Set(actions.place.flatMap(([id], i) => (mine.has(id) ? [i] : [])));
+    let total = 0;
+    await Promise.all(
+      [...document.querySelectorAll<HTMLElement>('[data-level-section]')].map(async (section) => {
+        const level = actions.level.indexOf(section.dataset.levelSection!);
+        const slugs = actions.actions.filter(([, , l, , p]) => l === level && p.some((x) => ids.has(x))).map(([slug]) => slug);
+        total += slugs.length;
+        const list = section.querySelector('ul')!;
+        const more = section.querySelector<HTMLButtonElement>('[data-more]')!;
+        list.replaceChildren(...(await cardItems(slugs.slice(0, BATCH), 'h3')));
+        section.hidden = slugs.length === 0;
+        more.hidden = slugs.length <= BATCH;
+        more.onclick = async () => {
+          more.disabled = true;
+          const next = await cardItems(slugs.slice(list.children.length, list.children.length + BATCH), 'h3');
+          more.disabled = false;
+          list.append(...next);
+          more.hidden = list.children.length >= slugs.length;
+          // Carry on from the first new card.
+          next[0]?.querySelector<HTMLElement>('a.body')?.focus();
+        };
+      }),
+    );
+    if (run !== thisRun) return;
     resultsEl.hidden = false;
-    statusEl.textContent = `${shown} action${shown === 1 ? '' : 's'} on record for this address.`;
+    statusEl.textContent = `${total} action${total === 1 ? '' : 's'} on record for this address.`;
   }
 
   function fromUrl() {

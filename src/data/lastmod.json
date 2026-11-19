@@ -3549,13 +3549,13 @@
   "src/data/get-involved.json": {"hash":"4a9deaedb88014d0","date":"2026-11-14"},
   "src/pages/404.astro": {"hash":"5d4a5f1e59551f64","date":"2026-11-19"},
   "src/pages/action/[slug].astro": {"hash":"273437782b1d89f7","date":"2026-11-19"},
-  "src/pages/actions.astro": {"hash":"bf2819bec6bbdcb9","date":"2026-11-19"},
+  "src/pages/actions.astro": {"hash":"414bc942fb143ce7","date":"2026-11-19"},
   "src/pages/content-guide.astro": {"hash":"6247bc45febbb038","date":"2026-11-11"},
   "src/pages/how-we-check.astro": {"hash":"2101636d3384fde5","date":"2026-11-19"},
   "src/pages/index.astro": {"hash":"68b0e989d12b9bb7","date":"2026-11-19"},
   "src/pages/officials/[id].astro": {"hash":"8bfe749808be3c6a","date":"2026-11-19"},
   "src/pages/places/[id].astro": {"hash":"854e001afa7e80db","date":"2026-11-19"},
   "src/pages/places/index.astro": {"hash":"9c55781fdf5cdf00","date":"2026-11-13"},
-  "src/pages/you.astro": {"hash":"05d8bfeaf37abd9f","date":"2026-11-19"},
+  "src/pages/you.astro": {"hash":"f138dad5605600bc","date":"2026-11-19"},
   "src/pages/your-turn.astro": {"hash":"07e1f9dfc70297ca","date":"2026-11-19"}
 }
