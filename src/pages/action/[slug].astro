@@ -10,6 +10,7 @@ import Status from '../../components/Status.astro';
 import VoteTally from '../../components/VoteTally.astro';
 import { entryDates, entrySlug, getEntries, getPlacesMap, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
 import { actionNodes } from '../../lib/jsonld.ts';
+import { searchFilters } from '../../lib/search.ts';
 import { entryShareAlt } from '../../lib/share.ts';
 import { ACTION_NOUN, ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
 
@@ -52,7 +53,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
   article={entryDates(entry)}
   jsonld={actionNodes(entry, credits, place, await getPlacesMap())}
 >
-  <div class="top" id="cover">
+  <div class="top" id="cover" data-pagefind-body>
     <section class="cover" data-art={art} data-size={size} aria-labelledby="title">
       <p class="where"><a href={placeUrl(place.id)}>{where}</a></p>
       <h1 id="title" class="title">{d.title}</h1>
@@ -77,7 +78,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
           }
         </ul>
         {drawn.length > 0 && <PortraitCredit people={drawn} full class="cover-credit" />}
-        {undrawn.length > 0 && <p class="no-photo">No photo on file, so initials stand in.</p>}
+        {undrawn.length > 0 && <p class="no-photo" data-pagefind-ignore>No photo on file, so initials stand in.</p>}
       </section>
 
       {
@@ -114,7 +115,11 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
     </div>
   </div>
 
-  <article class="record wrap">
+  <article class="record wrap" data-pagefind-body>
+    {/* What site search can filter this action by (src/lib/search.ts); the values are ids, never shown. */}
+    <div hidden>
+      {searchFilters(entry).map(([key, value]) => <span data-pagefind-filter={`${key}:${value}`} />)}
+    </div>
     <div class="main">
       <section aria-labelledby="means-h">
         <h2 id="means-h" class="sec-h">What it means for you</h2>
@@ -144,7 +149,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
         )
       }
 
-      <section aria-labelledby="sources-h">
+      <section aria-labelledby="sources-h" data-pagefind-ignore>
         <h2 id="sources-h" class="sec-h">Sources</h2>
         <ol class="sources">
           {
@@ -161,7 +166,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
         </ol>
       </section>
 
-      <section class="check" aria-labelledby="check-h">
+      <section class="check" aria-labelledby="check-h" data-pagefind-ignore>
         <h2 id="check-h" class="sec-h">How we checked this</h2>
         <p>
           Drafted by {modelName(v.writer.model)} on {formatDate(v.writer.date)}.
@@ -224,7 +229,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
 
       {
         d.votes.length > 0 && (
-          <section aria-labelledby="votes-h">
+          <section aria-labelledby="votes-h" data-pagefind-ignore>
             <h2 id="votes-h" class="sec-h">How they voted</h2>
             {d.votes.map((vote) => (
               <VoteTally vote={vote} />
@@ -233,7 +238,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
         )
       }
 
-      <button class="share" type="button" data-share hidden>Share this</button>
+      <button class="share" type="button" data-share hidden data-pagefind-ignore>Share this</button>
     </aside>
   </article>
 </Base>

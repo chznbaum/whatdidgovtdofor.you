@@ -9,6 +9,7 @@
     "dev": "astro dev",
     "prebuild": "node pipeline/lastmod.ts",
     "build": "astro build",
+    "postbuild": "node pipeline/search.ts",
     "preview": "astro preview",
     "astro": "astro",
     "validate": "node pipeline/validate.ts",
@@ -20,6 +21,7 @@
     "@fontsource/young-serif": "^5.3.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^7.4.7",
+    "pagefind": "1.6.0",
     "satori": "^0.63.2",
     "sharp": "^0.35.5",
     "yaml": "^2.9.1"

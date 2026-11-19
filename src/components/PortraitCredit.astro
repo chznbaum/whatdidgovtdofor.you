@@ -31,7 +31,7 @@ const byId = new Map(drawn.map((o) => [o.id, o]));
 {
   drawn.length > 0 &&
     (full ? (
-      <p class:list={['credit', 'full', cls]}>
+      <p class:list={['credit', 'full', cls]} data-pagefind-ignore>
         <span>
           {lead} {kind}.
         </span>
@@ -46,7 +46,7 @@ const byId = new Map(drawn.map((o) => [o.id, o]));
         })}
       </p>
     ) : many ? (
-      <p class:list={['credit', cls]}>
+      <p class:list={['credit', cls]} data-pagefind-ignore>
         {lead} {kind} of{' '}
         {parts.map((p) => {
           if (p.type === 'literal') return p.value;
@@ -61,7 +61,7 @@ const byId = new Map(drawn.map((o) => [o.id, o]));
         .
       </p>
     ) : (
-      <p class:list={['credit', cls]}>
+      <p class:list={['credit', cls]} data-pagefind-ignore>
         {lead}{' '}
         <a href={drawn[0].data.portrait!.source.url} target="_blank" rel="noopener">
           {kind}
