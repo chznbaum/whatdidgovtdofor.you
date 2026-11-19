@@ -179,19 +179,42 @@ const changedPages = [
 ].filter(Boolean);
 
 // Tell IndexNow which pages changed. Failures only warn: the pages are live either way, and the sitemap still lists them.
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Tell IndexNow which pages changed. Failures only warn: the pages are live either way, and the sitemap still lists them.
+// IndexNow fetches the key file to check each request, so wait until the site serves it, and retry a 403 (key not
+// found) a couple of times: on the first deploy with the key, the file was only seconds old and the ping got a 403.
 async function pingIndexNow(urls) {
   if (!urls.length) return console.log('indexnow: no pages changed');
   if (!local.includes(`${INDEXNOW_KEY}.txt`)) return console.warn(`::warning::indexnow: dist/${INDEXNOW_KEY}.txt missing; skipped`);
+  const keyLocation = `${site}/${INDEXNOW_KEY}.txt`;
+  for (let i = 0; ; i++) {
+    const served = await fetch(keyLocation).then((r) => (r.ok ? r.text() : '')).catch(() => '');
+    if (served.trim() === INDEXNOW_KEY) break;
+    if (i === 8) return console.warn(`::warning::indexnow: ${keyLocation} isn't serving the key; skipped`);
+    await sleep(15_000);
+  }
   for (let i = 0; i < urls.length; i += INDEXNOW_BATCH) {
     const urlList = urls.slice(i, i + INDEXNOW_BATCH);
-    const res = await fetch('https://api.indexnow.org/indexnow', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify({ host: new URL(site).host, key: INDEXNOW_KEY, keyLocation: `${site}/${INDEXNOW_KEY}.txt`, urlList }),
-    }).catch((err) => ({ ok: false, status: err.message }));
-    // 200: accepted; 202: accepted, key check pending (the first time).
-    if (res.ok) console.log(`indexnow: sent ${urlList.length} page(s) (${res.status})`);
-    else console.warn(`::warning::indexnow: ${res.status} for ${urlList.length} page(s)`);
+    for (let attempt = 1; ; attempt++) {
+      const res = await fetch('https://api.indexnow.org/indexnow', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json; charset=utf-8' },
+        body: JSON.stringify({ host: new URL(site).host, key: INDEXNOW_KEY, keyLocation, urlList }),
+      }).catch((err) => ({ ok: false, status: err.message, text: async () => '' }));
+      // 200: accepted; 202: accepted, key check pending.
+      if (res.ok) {
+        console.log(`indexnow: sent ${urlList.length} page(s) (${res.status})`);
+        break;
+      }
+      const why = (await res.text().catch(() => '')).slice(0, 300);
+      if ((res.status === 403 || res.status === 429 || Number(res.status) >= 500) && attempt < 3) {
+        await sleep(30_000 * attempt);
+        continue;
+      }
+      console.warn(`::warning::indexnow: ${res.status} for ${urlList.length} page(s)${why ? `: ${why}` : ''}`);
+      break;
+    }
   }
 }
 
@@ -224,11 +247,17 @@ if (apiKey && pullZone) {
   await api('POST', '/purgeCache');
   console.log('purged the pull zone cache');
 
-  // What a browser is actually told for a page, now that the cache is empty.
-  const cacheControl = (await fetch(`${site}/`, { method: 'HEAD' }).catch(() => undefined))?.headers.get('cache-control');
+  // What a browser is actually told for a page. New or changed rules take a little while to reach Bunny's edges (the
+  // first deploy with them read the old 30 days a second after adding them), so keep checking for up to 3 minutes.
+  let cacheControl;
+  for (let i = 0; i < 13; i++) {
+    if (i) await sleep(15_000);
+    cacheControl = (await fetch(`${site}/`, { method: 'HEAD' }).catch(() => undefined))?.headers.get('cache-control');
+    if (cacheControl && Number(/max-age=(\d+)/.exec(cacheControl)?.[1] ?? 0) <= 300) break;
+  }
   const maxAge = Number(/max-age=(\d+)/.exec(cacheControl ?? '')?.[1] ?? 0);
-  if (cacheControl === undefined || cacheControl === null) console.warn(`::warning::couldn't read ${site}/'s cache-control`);
-  else if (maxAge > 300) console.warn(`::warning::${site}/ still tells browsers "${cacheControl}"; pages should be rechecked on every visit`);
+  if (!cacheControl) console.warn(`::warning::couldn't read ${site}/'s cache-control`);
+  else if (maxAge > 300) console.warn(`::warning::${site}/ still tells browsers "${cacheControl}" after 3 minutes; pages should be rechecked on every visit`);
   else console.log(`${site}/ cache-control: ${cacheControl}`);
 } else console.warn('BUNNY_API_KEY or BUNNY_PULLZONE_ID not set; skipped the cache rules and the purge');
 
