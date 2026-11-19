@@ -102,6 +102,14 @@ const ownHeading =
       )
     }
 
+    {
+      own.length + footprint.length + around.length > 0 && (
+        <p class="feed">
+          <a href={placeFeedUrl(place.id)}>RSS feed</a>
+        </p>
+      )
+    }
+
     <YourTurnHere place={place} />
 
     {
@@ -143,6 +151,16 @@ const ownHeading =
     font-weight: 600;
     font-size: var(--t-md);
     max-width: 44ch;
+  }
+  .feed {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .feed a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
   }
   .seated {
     display: flex;

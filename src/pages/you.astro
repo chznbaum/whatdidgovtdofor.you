@@ -57,6 +57,7 @@ const levels = [
           </section>
         ))
       }
+      <p class="feed"><a href="/feed.xml" data-feed>RSS feed for this address</a></p>
     </div>
   </div>
 </Base>
@@ -335,6 +336,9 @@ const levels = [
     const nearest = localPlaces[0] ?? index.places.find((p) => p.kind === 'state' && mine.has(p.id));
     $('[data-turn-where]').textContent = nearest ? ` in ${nearest.name}` : '';
     for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="/your-turn"]')) a.href = `/your-turn?places=${[...mine].join(',')}`;
+    // Everything that reaches the address, as a feed: one is built for each set of places an address can have, keyed
+    // the same way (addressFeedKey in src/lib/data.ts).
+    $<HTMLAnchorElement>('[data-feed]').href = `/you/feed/${[...mine].filter((id) => id !== 'us').sort().join('_') || 'us'}.xml`;
     officialsEl.hidden = false;
 
     // Actions that apply to this address: any whose places include one of the address's, per level, newest first.
@@ -470,6 +474,16 @@ const levels = [
   }
   .turn {
     margin-top: 1.25rem;
+  }
+  .feed {
+    margin-top: 3rem;
+  }
+  .feed a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-weight: 600;
+    font-size: 1rem;
   }
   .turn a {
     display: inline-block;
