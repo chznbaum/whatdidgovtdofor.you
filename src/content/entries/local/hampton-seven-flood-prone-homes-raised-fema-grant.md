@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: corrected
-  notes: Confirmed the grant, funding breakdown, homeowner obligations, council action, and latest project-specific federal record. Shortened the body to the guide’s 250-word limit and reset verification to pending.
+  notes: Confirmed the grant amount and breakdown, homeowner obligations, council action, and latest identifiable project activity against the [city resolution](https://hampton.legistar.com/LegislationDetail.aspx?ID=6613351&GUID=1D3E20E1-1DF5-4762-B836-FA8C80C4AF2F) and [federal award data](https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005). Only the verification metadata required correction.
 source_key: hampton-24-0158
 ---
 

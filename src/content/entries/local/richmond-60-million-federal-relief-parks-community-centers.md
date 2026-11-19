@@ -69,9 +69,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the ordinance, allocations, patrons, opening dates, amenities, and current facility status. Calhoun remained under construction in the latest city update, so I corrected the outdated status and tightened two opening claims.
+    date: 2026-11-19
+  verdict: pass
+  notes: Confirmed the ordinance, allocations, patrons, unanimous adoption, 2025 openings, amenities, and latest facility status. No corrections were needed.
 source_key: richmond-ord-2022-284
 ---
 

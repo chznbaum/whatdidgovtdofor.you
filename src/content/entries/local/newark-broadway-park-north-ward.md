@@ -61,9 +61,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: pass
-  notes: Confirmed the contract, vote, bid amount, park plans, beneficiaries, funding, credits, and spring 2027 target. No later cancellation, funding cut, or material status change was found.
+  notes: Confirmed the contract, exact bid amount, 7–0–1 council vote, park features, beneficiaries, funding, credits, and spring 2027 target. No later cancellation, funding cut, court action, or material status change was found.
 source_key: newark-26-0883
 ---
 

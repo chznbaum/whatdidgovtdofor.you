@@ -77,9 +77,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: pass
-  notes: Confirmed the ordinance, 8–0 adoption, grant and match amounts, planned improvements, attribution, and current project status against city and federal sources. No later cancellation, repeal, or funding cut was found.
+  notes: Confirmed the ordinance, grant and match amounts, 13-corridor scope, planned improvements, attribution, and phased status against city and federal records. No cancellation, repeal, or funding cut was found.
 source_key: richmond-ord-2024-278
 ---
 

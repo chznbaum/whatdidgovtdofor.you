@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: pass
-  notes: Confirmed the funding transfer, project scope, impact figures, beneficiaries, 13-0 vote, committee-chair credit, and latest reported status against the official record and cited sources.
+  notes: Confirmed the funding transfer, project scope and figures, beneficiaries, unanimous committee recommendation, 13-0 final vote, Dustin Hillis’s chair role, and current project status. The named mover and seconder acted on the consent agenda; the record does not show that either brought or championed this ordinance.
 source_key: atlanta-council-4108-26-o-1413
 ---
 
