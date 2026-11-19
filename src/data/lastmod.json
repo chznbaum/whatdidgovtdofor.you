@@ -3553,9 +3553,9 @@
   "src/pages/content-guide.astro": {"hash":"6247bc45febbb038","date":"2026-11-11"},
   "src/pages/how-we-check.astro": {"hash":"2101636d3384fde5","date":"2026-11-19"},
   "src/pages/index.astro": {"hash":"68b0e989d12b9bb7","date":"2026-11-19"},
-  "src/pages/officials/[id].astro": {"hash":"6be0bc0045f321da","date":"2026-11-19"},
-  "src/pages/places/[id].astro": {"hash":"91cefefa1963280b","date":"2026-11-19"},
+  "src/pages/officials/[id].astro": {"hash":"e6610559b22cb4d5","date":"2026-11-19"},
+  "src/pages/places/[id].astro": {"hash":"150556793ba15487","date":"2026-11-19"},
   "src/pages/places/index.astro": {"hash":"9c55781fdf5cdf00","date":"2026-11-13"},
-  "src/pages/you.astro": {"hash":"f138dad5605600bc","date":"2026-11-19"},
+  "src/pages/you.astro": {"hash":"a61f8145a5a7f7ee","date":"2026-11-19"},
   "src/pages/your-turn.astro": {"hash":"07e1f9dfc70297ca","date":"2026-11-19"}
 }

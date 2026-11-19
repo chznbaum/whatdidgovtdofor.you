@@ -59,7 +59,12 @@ const tenure = o.current ? 'Serving now' : 'Former';
       </h2>
       {
         entries.length > 0 ? (
-          <ActionList entries={entries} captions={captions} />
+          <>
+            <ActionList entries={entries} captions={captions} />
+            <p class="feed">
+              <a href={officialFeedUrl(official.id)}>RSS feed</a>
+            </p>
+          </>
         ) : (
           <p class="empty">
             We haven't recorded any actions credited to {o.name} yet. If you know of one, <a href="mailto:corrections@whatdidgovtdofor.you">tell us</a>.
@@ -133,6 +138,16 @@ const tenure = o.current ? 'Serving now' : 'Former';
   }
   .did {
     margin-top: 3rem;
+  }
+  .feed {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .feed a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
   }
   .did h2 {
     margin-bottom: 0.5rem;
