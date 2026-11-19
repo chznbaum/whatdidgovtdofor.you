@@ -100,13 +100,13 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: corrected
-  notes: Confirmed the enacted text, effective date, sponsors, signature, diagnosis count, vote totals, and latest published implementation status. Corrected the testing paragraph so the seven-day HIV-test rule is limited to PrEP.
+  notes: Confirmed the enacted text, dates, sponsors, signature, vote totals, impact figures, and latest published implementation status. Softened one medically absolute statement about PrEP’s effectiveness.
 source_key: ga-20252026-sb195
 ---
 
-PrEP keeps you from getting HIV, as a daily pill or a shot. PEP is a short course you start soon after a possible exposure. Under this law, a Georgia pharmacist who has finished approved training and works under a protocol agreement with a physician can prescribe and provide either one. You won't need a doctor's appointment first. A pharmacist can dispense a 30- to 90-day supply of PrEP or administer a long-acting PrEP shot, and can provide a 30-day supply of PEP.
+PrEP greatly lowers your chance of getting HIV and comes as a daily pill or a shot. PEP is a short course you start soon after a possible exposure. Under this law, a Georgia pharmacist who has finished approved training and works under a protocol agreement with a physician can prescribe and provide either one. You won't need a doctor's appointment first. A pharmacist can dispense a 30- to 90-day supply of PrEP or administer a long-acting PrEP shot, and can provide a 30-day supply of PEP.
 
 For PrEP, you'll need to show a negative HIV test from the past week or take one at the pharmacy. With your consent, the pharmacist will tell your regular doctor. If you don't have one or don't consent to notification, they'll give you a list of clinics or other providers for follow-up care. Georgia has one of the country's highest rates of new HIV diagnoses, and pharmacies are often easier to reach than clinics, especially in rural areas.
 

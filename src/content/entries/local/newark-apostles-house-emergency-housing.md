@@ -48,9 +48,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: pass
-  notes: Confirmed the contract ceiling, partial funding, dates, provider services, C. Lawrence Crump’s role, and the council’s 9–0 vote. The entry accurately discloses that funding after May 2026 was conditional and remains unconfirmed.
+  notes: Confirmed the resolution, amounts, dates, shelter services, 9–0 adoption, and C. Lawrence Crump’s leadership. No later contract-specific appropriation, amendment, or cancellation was found through November 19, 2026; the entry properly discloses that funding beyond May remains unconfirmed.
 source_key: newark-26-0562
 ---
 

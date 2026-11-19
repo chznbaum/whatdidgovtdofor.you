@@ -19,8 +19,8 @@ impact:
     label: planned contract term
 status:
   state: phasing-in
-  as_of: 2026-05-19
-  note: The board authorized staff to negotiate and execute a contract on May 19, 2026. The cited record does not establish that a contract was executed, and no later public execution record was located.
+  as_of: 2026-11-19
+  note: The board authorized staff to negotiate and execute a contract on May 19, 2026. The cited record does not establish that a contract was executed, and searches through Nov. 19, 2026 found no later public execution, cancellation, or rollback record.
   source: https://occompt.legistar.com/View.ashx?GUID=E05E713B-ED25-4723-84BF-8ECFAF78D0EC&ID=1407526&M=M
 credit:
   - official: jerry-demings
@@ -50,9 +50,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
-  verdict: pass
-  notes: Confirmed the county memo and final minutes support the amount, five-year term, service scope, rankings, unanimous six-member vote, and credits. Searches through Nov. 18, 2026 found no later public execution, cancellation, or rollback record.
+    date: 2026-11-19
+  verdict: corrected
+  notes: Confirmed the amount, term, service scope, rankings, six-member vote, credits, and court programs. Updated the stale status check after finding no later public execution, cancellation, or rollback record through Nov. 19, 2026.
 source_key: orange-county-fl-26-0544
 ---
 

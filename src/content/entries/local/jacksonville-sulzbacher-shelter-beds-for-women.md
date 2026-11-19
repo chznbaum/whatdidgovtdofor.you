@@ -68,9 +68,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
+    date: 2026-11-19
   verdict: pass
-  notes: Confirmed the appropriation, 32-bed plan, spending breakdown, mayoral request, co-sponsors, parties, and 17-0 vote. A search through Nov. 18 found no reliable public confirmation that the beds had opened, so the cautious phasing-in status remains supported.
+  notes: Confirmed the ordinance, $413,900 appropriation, 32-bed plan, spending details, sponsors, parties, and 17–0 vote. A search through Nov. 19 found no reliable confirmation that the dorm opened or that the funding was cancelled, so the cautious phasing-in status remains supported.
 source_key: jacksonville-2026-0542-e
 ---
 

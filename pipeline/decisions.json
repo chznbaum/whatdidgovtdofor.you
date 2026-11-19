@@ -51747,11 +51747,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a3241": {
-  "decision": "error",
-  "reason": "invalid after repair: impact.0.label: Too big: expected string to have <=80 characters; impact.1.label: Too big: expected string to have <=80 characters",
+  "decision": "drafted",
+  "reason": "Chapter 677 of 2022 is an enacted law that lets tenants outside the New York City area get a court to send their rent to an administrator who fixes dangerous conditions. That is a direct housing-safety remedy, and it is separate from the existing Article 7-C repair-suit entry (ny-2021-s4594, the Tenant Dignity and Safe Housing Act).",
+  "file": "src/content/entries/state/ny-upstate-tenants-rent-toward-repairs.md",
   "impact": 3,
-  "date": "2026-11-18",
-  "attempts": 1
+  "date": "2026-11-19"
  },
  "ny-2021-a4978": {
   "decision": "skip",
@@ -57769,10 +57769,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9113": {
-  "decision": "promising",
-  "reason": "triage: expands who can seek red flag orders",
+  "decision": "drafted",
+  "reason": "This 2022 law was enacted and is in effect. It widens who can ask a court for a red flag order to include health care providers, and it requires police and prosecutors to file one when they have credible information. That is a direct safety change, separate from the existing 2019 red flag entry.",
+  "file": "src/content/entries/state/ny-health-providers-can-seek-red-flag-orders.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s9229": {
   "decision": "skip",
@@ -57793,10 +57794,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s9458": {
-  "decision": "promising",
-  "reason": "triage: semiautomatic rifle licensing, safety",
+  "decision": "drafted",
+  "reason": "An enacted 2022 New York law (Ch. 212) requires a license, and so a minimum age of 21, to buy a semiautomatic rifle. It is a direct public-safety measure, it is still in effect, and federal courts have upheld it.",
+  "file": "src/content/entries/state/ny-2021-s9458.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s9465": {
   "decision": "skip",
@@ -57871,10 +57873,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0105": {
-  "decision": "promising",
-  "reason": "triage: enacted self-closing door law after Bronx fire; safety",
+  "decision": "drafted",
+  "reason": "Local Law 63 of 2022 is an enacted fire-safety law. It cut NYC landlords' deadline to fix broken self-closing doors, required HPD to reinspect, and raised fines. That's a different action from the existing 300-building inspection entry (Int. 208).",
+  "file": "src/content/entries/local/nyc-landlords-14-days-fix-self-closing-doors.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2022-0106": {
   "decision": "promising",
@@ -58033,10 +58036,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s66": {
-  "decision": "promising",
-  "reason": "triage: revives sexual abuse civil claims, a real right for survivors",
+  "decision": "drafted",
+  "reason": "The Adult Survivors Act (S66A, Ch. 203 of 2022) was enacted and gave survivors of sexual abuse in adulthood a one-time year to file suits that had been time-barred. More than 3,000 suits were filed, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-adult-survivors-got-a-year-to-sue.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-05-mayor-adams-chancellor-banks-gifted-talented-application-opening-new-program-sites": {
   "decision": "skip",
@@ -58093,10 +58097,10 @@
   "date": "2026-11-11"
  },
  "us-law-117-129": {
-  "decision": "promising",
-  "reason": "triage: lets USDA keep WIC families supplied with formula during shortages",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry us-fr-2023-26641 (\"WIC can cover a backup formula during recalls and shortages\"), which covers USDA's final rule carrying out the Access to Baby Formula Act (Pub. L. 117-129) and the same benefit: WIC formula contracts must include recall remedies so families can still get formula.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-05-mayor-adams-hud-nycha-complete-434-million-comprehensive-renovation-nine-public-housing": {
   "decision": "skip",
@@ -58177,10 +58181,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-126": {
-  "decision": "promising",
-  "reason": "triage: bans deadly crib bumpers and inclined sleepers",
+  "decision": "drafted",
+  "reason": "An enacted federal law that bans selling padded crib bumpers and inclined infant sleepers, both tied to infant suffocation deaths; it is a direct safety protection for babies and their parents and is still in effect.",
+  "file": "src/content/entries/federal/crib-bumpers-and-inclined-baby-sleepers-banned.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-law-117-127": {
   "decision": "skip",
@@ -58213,10 +58218,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8417": {
-  "decision": "promising",
-  "reason": "triage: bans discrimination against domestic violence victims",
+  "decision": "drafted",
+  "reason": "Chapter 202 of 2022 is an enacted law. It extended New York Human Rights Law protection for domestic violence survivors from employment to housing, public accommodations, education and credit, and it is still in the statute today.",
+  "file": "src/content/entries/state/ny-domestic-violence-survivors-housing-credit-bias-ban.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-05-emergency-executive-order-92": {
   "decision": "skip",
@@ -58531,10 +58537,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a6938": {
-  "decision": "promising",
-  "reason": "triage: limits student debt collection practices; protects borrowers",
+  "decision": "drafted",
+  "reason": "Signed law (Chapter 180 of 2022) with a direct effect on students: New York colleges and licensed career schools can't withhold transcripts, or charge more for them, over money a student owes. No existing entry covers it, and no later repeal turned up.",
+  "file": "src/content/entries/state/ny-colleges-cant-withhold-transcripts-over-debt.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a7981": {
   "decision": "skip",
@@ -59181,10 +59188,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2022-0071": {
-  "decision": "promising",
-  "reason": "triage: enacted property tax exemption renewal for seniors, disabled",
+  "decision": "drafted",
+  "reason": "Local Law 56 of 2022 let lower-income senior and disabled NYC homeowners keep their property tax exemptions for 2022–23 without reapplying, and the Council said about 7,100 of them had not yet renewed as the March 15 deadline came close. That is a direct money benefit aimed at people on modest incomes.",
+  "file": "src/content/entries/local/nyc-senior-disabled-homeowners-kept-tax-break-without-reapplying.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-04-mayor-adams-100-days-getting-stuff-done-new-yorkers": {
   "decision": "skip",
@@ -59199,10 +59207,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a9007": {
-  "decision": "promising",
-  "reason": "triage: enacted health budget with nurse and care provisions",
+  "decision": "drafted",
+  "reason": "Part D of New York's FY2023 health budget bill created retention bonuses of up to $3,000 for front-line health care and mental hygiene workers. The state reports more than $2 billion paid to over 800,000 workers, which is a concrete, delivered benefit to working people.",
+  "file": "src/content/entries/state/ny-health-care-workers-bonuses-up-to-3000.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s8001": {
   "decision": "skip",
@@ -59211,10 +59220,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s8005": {
-  "decision": "promising",
-  "reason": "triage: repeals supervision fee on people on supervised release",
+  "decision": "drafted",
+  "reason": "Part D of the enacted FY2023 public protection budget bill (S8005C, signed April 9, 2022) repealed the $30 monthly parole supervision fee, which more than 25,000 New Yorkers a year were charged, and the current Correction Law § 201 no longer has the fee.",
+  "file": "src/content/entries/state/ny-parole-30-monthly-supervision-fee-ended.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s8006": {
   "decision": "drafted",
@@ -59351,10 +59361,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7705": {
-  "decision": "promising",
-  "reason": "triage: ghost gun sales criminalized; safety",
+  "decision": "drafted",
+  "reason": "S7705 (ch. 149 of 2022) is the chapter amendment that completed New York's Jose Webster Untraceable Firearms Act, which made selling ghost guns a felony and requires gunsmiths to serialize and register them. It is in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-selling-ghost-guns-is-a-felony.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7711": {
   "decision": "skip",
@@ -59369,10 +59380,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7726": {
-  "decision": "promising",
-  "reason": "triage: nursing home infection audits with penalties",
+  "decision": "drafted",
+  "reason": "Chapter 152 of 2022 is an enacted, signed law. It changed New York's nursing home infection-control audit law and requires the state to audit every nursing home each year against a checklist that is all-or-nothing and can bring fines. That directly protects residents, and the Health Department put it in place in January 2024.",
+  "file": "src/content/entries/state/ny-nursing-homes-yearly-infection-control-audits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7729": {
   "decision": "skip",
@@ -59399,10 +59411,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7773": {
-  "decision": "promising",
-  "reason": "triage: contractors liable for subcontractor wage theft",
+  "decision": "skip",
+  "reason": "S7773 (Ch. 157 of 2022) is a chapter amendment that adjusts the 2021 contractor wage-liability law (S2766-C, Ramos), and the site already covers that law in \"Your general contractor can owe wages a subcontractor never paid you\"; the amendment mostly narrows it by adding pre-suit notice and a lookback limit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7782": {
   "decision": "skip",
@@ -59519,22 +59531,25 @@
   "date": "2026-11-11"
  },
  "ny-2021-a2035": {
-  "decision": "promising",
-  "reason": "triage: enacted harassment hotline service",
+  "decision": "drafted",
+  "reason": "This is an enacted law, Chapter 138 of 2022. It created a free, confidential state hotline that connects workers facing sexual harassment with volunteer lawyers. It is still in the Executive Law, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-workplace-sexual-harassment-hotline-free-legal-advice.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a2483": {
-  "decision": "promising",
-  "reason": "triage: extends rights law to public employees",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 139 of 2022) that brought staff of elected officials, judges' staff, and other public workers clearly under New York's Human Rights Law, closing a loophole courts had used to say the state wasn't their employer; still in effect.",
+  "file": "src/content/entries/state/ny-bias-law-protects-lawmakers-and-judges-staff.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s5870": {
-  "decision": "promising",
-  "reason": "triage: bans retaliation for discrimination complaints",
+  "decision": "drafted",
+  "reason": "Chapter 140 of 2022 is an enacted worker-rights protection: it makes leaking a worker's personnel file to punish a discrimination complaint illegal retaliation and lets the Attorney General sue, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-boss-cant-leak-personnel-file-to-punish-bias-complaint.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-03-mayor-adams-deliver-additional-3-million-cash-assistance-bronx-fire-victims": {
   "decision": "promising",
@@ -59549,10 +59564,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14069": {
-  "decision": "promising",
-  "reason": "triage: ordered pay equity for federal contractors",
+  "decision": "skip",
+  "reason": "E.O. 14069 only told the FAR Council to consider proposing pay-equity rules for federal contractors; the proposed rule that followed (FAR Case 2023-021, Jan. 2024) was never finalized and has been withdrawn, and E.O. 14148 revoked the order on Jan. 20, 2025, so nothing ever took effect for workers (the federal-employee salary-history rule is already entry us-fr-2024-01337).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-law-117-100": {
   "decision": "skip",
@@ -59573,10 +59588,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-103": {
-  "decision": "promising",
-  "reason": "triage: omnibus funding; writer should find concrete items",
+  "decision": "drafted",
+  "reason": "The 2022 omnibus carried the Violence Against Women Act reauthorization, which renewed grants for survivor services through 2027, let tribal courts try more non-Native abusers, and created a federal right to sue over intimate images shared without consent; none of the existing entries covers it.",
+  "file": "src/content/entries/federal/violence-against-women-act-renewed-through-2027.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-mayor-2022-03-emergency-executive-order-56": {
   "decision": "skip",
@@ -59741,10 +59757,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a8751": {
-  "decision": "promising",
-  "reason": "triage: Disabled patients can designate a support person in hospital; real right",
+  "decision": "drafted",
+  "reason": "A8751 is the signed amendment that completes Fred's Law (Ch. 689 of 2021): during a pandemic or declared disaster, New York hospitals can't bar the support person a patient with a disability relies on. The amendment lets a legal guardian name that person, it protects a concrete right, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-hospitals-cant-bar-disabled-patients-support-person.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a8754": {
   "decision": "skip",
@@ -59843,10 +59860,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7694": {
-  "decision": "promising",
-  "reason": "triage: Newborn G6PD screening; health protection for babies",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 70 of 2022) requiring diagnostic G6PD deficiency testing for New York newborns with jaundice, anemia, or family or ancestry risk; in effect since June 22, 2022, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-newborns-at-risk-tested-for-g6pd-deficiency.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7696": {
   "decision": "promising",
@@ -60186,10 +60204,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7837": {
-  "decision": "promising",
-  "reason": "triage: PBM regulation of drug procurement; enacted, could lower costs; writer to verify",
+  "decision": "skip",
+  "reason": "S7837 is a negotiated amendment to the 2021 law on pharmacy benefit managers (Chapter 828 of 2021); it mostly delays licensing deadlines, raises fees, creates a regulatory fund and swaps the private right to sue for a complaint process, so it changes how the state regulates those companies rather than giving working people a concrete benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7838": {
   "decision": "skip",
@@ -60204,10 +60222,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7843": {
-  "decision": "promising",
-  "reason": "triage: Workers' comp forms translated; tangible access for injured workers",
+  "decision": "drafted",
+  "reason": "This is an enacted law, Chapter 131 of 2022. It makes the Workers' Compensation Board translate the forms injured workers fill out and its guides to applying for benefits, so workers who don't read English well get direct help, and it is still in effect as amended in 2023.",
+  "file": "src/content/entries/state/ny-workers-comp-forms-in-12-languages.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7845": {
   "decision": "skip",
@@ -60456,10 +60475,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7761": {
-  "decision": "promising",
-  "reason": "triage: Medicaid now covers licensed counselors and family therapists; check enactment",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 819 of 2021, as amended by Chapter 97 of 2022) that lets licensed mental health counselors and marriage and family therapists bill New York Medicaid directly. The state Health Department began covering their services on March 1, 2023, and it is still in effect. The existing ny-2021-a1171 entry covers private group insurance, a different bill.",
+  "file": "src/content/entries/state/ny-medicaid-covers-licensed-counselors-and-family-therapists.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7764": {
   "decision": "skip",
@@ -60468,10 +60488,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7767": {
-  "decision": "promising",
-  "reason": "triage: plans can't drop drugs mid-year; protects patients",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 99 of 2022, finalizing Chapter 780 of 2021) that stops New York-regulated health plans from dropping or raising the cost of covered drugs mid-year, a direct protection for patients that no existing entry covers.",
+  "file": "src/content/entries/state/ny-health-plans-cant-drop-your-drug-mid-year.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7770": {
   "decision": "skip",
@@ -60990,10 +61011,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1085": {
-  "decision": "promising",
-  "reason": "triage: Free civil legal help for DV survivors in divorce",
+  "decision": "skip",
+  "reason": "Local Law 5 of 2022 set up a two-year pilot of free divorce lawyers for domestic violence survivors, and the program that replaced it, Int 1175-2025 (Local Law 137 of 2025, enacted Oct. 10, 2025), is already an entry (\"NYC law offers free divorce lawyers to low-income abuse survivors\"), so a separate entry would repeat the same benefit and the pilot belongs in that entry's backstory.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2019-1520": {
   "decision": "skip",
@@ -61014,10 +61035,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1625": {
-  "decision": "promising",
-  "reason": "triage: Contraception available at city health clinics",
+  "decision": "drafted",
+  "reason": "Local Law 9 of 2022 is an enacted law that requires NYC's Health Department clinics to offer birth control, emergency contraception, IUDs and implants, or quick referrals, and the city's sexual health clinics still offer these services today.",
+  "file": "src/content/entries/local/nyc-health-clinics-must-offer-iuds-implants-birth-control.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2019-1724": {
   "decision": "promising",
@@ -61050,10 +61072,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2020-2176": {
-  "decision": "promising",
-  "reason": "triage: Tenant rights for supportive housing residents",
+  "decision": "drafted",
+  "reason": "Enacted local law (Local Law 15 of 2022, still in effect per the city health department) that requires every NYC supportive housing provider to give tenants and applicants a written notice of their housing rights at set times and on request, backed by a $250 fine. It's a concrete tenant protection like the existing shelter-rights entry, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-supportive-housing-tenants-get-rights-in-writing.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2201": {
   "decision": "skip",
@@ -61086,10 +61109,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2021-2372": {
-  "decision": "promising",
-  "reason": "triage: Lookback window lets survivors sue for gender-motivated violence",
+  "decision": "drafted",
+  "reason": "Local Law 21 of 2022 is enacted and changed real legal rights: survivors of gender-motivated violence got a two-year window (2023–2025) to sue over claims whose deadline had passed, and the regular deadline to sue went from 7 years to 9. It's a different action from the 2026 window already on the site (nyc-int-2025-1297).",
+  "file": "src/content/entries/local/nyc-gender-violence-survivors-9-years-and-lookback-window.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2417": {
   "decision": "skip",
@@ -61374,10 +61398,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0009": {
-  "decision": "promising",
-  "reason": "triage: Enacted school-crossing traffic safety devices",
+  "decision": "drafted",
+  "reason": "Local Law 1 of 2022 is an enacted city law with a concrete safety effect: the city transportation department must put a stop sign, traffic signal or other control at every intersection next to a school that had none.",
+  "file": "src/content/entries/local/nyc-traffic-controls-at-intersections-next-to-schools.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2018-0051": {
   "decision": "skip",
@@ -61410,10 +61435,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s7737": {
-  "decision": "promising",
-  "reason": "triage: bans flame retardants in furniture, safety",
+  "decision": "drafted",
+  "reason": "S7737 is the signed chapter amendment that set the final terms and start dates of New York's ban on toxic flame retardants in new furniture, mattresses and TV and monitor cases. The ban has been in effect since Dec. 1, 2024, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-furniture-mattresses-tvs-free-of-toxic-flame-retardants.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7799": {
   "decision": "skip",
@@ -61560,10 +61586,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0066": {
-  "decision": "promising",
-  "reason": "triage: creates gun violence prevention office, enacted",
+  "decision": "skip",
+  "reason": "Local Law 29 of 2022 wrote into the charter a gun violence prevention office that has existed since 2017 (the Mayor's Office to Prevent Gun Violence); the office's duties are mostly coordinating, advising and reporting, and its violence-interrupter services were left optional and unfunded by the law, so its main effect is on government itself, not a direct, tangible benefit to people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2018-0271": {
   "decision": "skip",
@@ -61657,10 +61683,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s255": {
-  "decision": "promising",
-  "reason": "triage: Prevailing wage for aggregate haulers; enacted wage gain for workers",
+  "decision": "drafted",
+  "reason": "Chapter 823 of 2021 (S255B), signed by Gov. Hochul, extends prevailing wage pay to drivers and loaders who haul sand, gravel, stone, dirt and fill to and from public works sites, and NYSDOL enforces it today. It is a separate law from the 2025 concrete-and-asphalt hauling entry (ny-2025-a8465).",
+  "file": "src/content/entries/state/ny-hauling-sand-gravel-fill-to-public-jobs-pays-going-wage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s3566": {
   "decision": "skip",
@@ -61675,16 +61702,17 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4630": {
-  "decision": "promising",
-  "reason": "triage: Bans flame retardants in furniture; safety gain",
+  "decision": "skip",
+  "reason": "Duplicate: the existing entry ny-2021-s7737 (\"New furniture, mattresses and TVs sold in New York can't have toxic flame retardants\") already covers this flame-retardant ban, since S7737 is the 2022 chapter amendment to S4630-B (Chapter 829 of 2021), also carried by Todd Kaminsky.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s5064": {
-  "decision": "promising",
-  "reason": "triage: Extends anti-discrimination protection to domestic workers",
+  "decision": "drafted",
+  "reason": "Signed law (Ch. 830 of 2021) that gave New York's more than 300,000 domestic workers the Human Rights Law's full protection against job discrimination, and the current statute shows it is still in effect.",
+  "file": "src/content/entries/state/ny-domestic-workers-full-human-rights-law-protection.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s5724": {
   "decision": "drafted",
@@ -61712,10 +61740,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a336": {
-  "decision": "promising",
-  "reason": "triage: Opioid antagonist with prescriptions; saves lives",
+  "decision": "drafted",
+  "reason": "An enacted New York law (Chapter 803 of 2021, in effect since June 28, 2022) requires prescribers to give patients at high risk of overdose a prescription for naloxone, the overdose-reversal drug, with their first opioid prescription each year.",
+  "file": "src/content/entries/state/ny-naloxone-prescribed-with-opioids-for-high-risk-patients.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a3523": {
   "decision": "skip",
@@ -61724,10 +61753,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s5560": {
-  "decision": "promising",
-  "reason": "triage: Funds early intervention for toddlers with disabilities",
+  "decision": "skip",
+  "reason": "Chapter 820 of 2021 mainly changed how early intervention is funded: a $40 million pool paid for by an assessment on health insurers now pays counties directly instead of the program billing private insurance. Early intervention was already free to families before the law and stayed free after it, so the main effect falls on government and insurers rather than people, and whether the assessment pushes up premiums can't be established.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a1953": {
   "decision": "skip",
@@ -61772,10 +61801,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4051": {
-  "decision": "promising",
-  "reason": "triage: Raises juvenile jurisdiction age to 12; protects young children",
+  "decision": "drafted",
+  "reason": "Enacted and in effect: New York raised the minimum age of juvenile delinquency from 7 to 12, except for homicide, and created voluntary social-services programs in place of prosecution for younger children, which directly protects children's rights.",
+  "file": "src/content/entries/state/ny-kids-under-12-not-prosecuted-except-homicide.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s4404": {
   "decision": "skip",
@@ -61790,10 +61820,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s6575": {
-  "decision": "promising",
-  "reason": "triage: Medicaid covers licensed mental health practitioners",
+  "decision": "skip",
+  "reason": "Duplicate: S6575 became Chapter 819 of 2021, and its chapter amendment S7761 (Chapter 97 of 2022) is already covered by the existing entry ny-2021-s7761, which shows the same Medicaid coverage for licensed mental health counselors and marriage and family therapists.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s6585": {
   "decision": "skip",
@@ -61910,10 +61940,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2021-2312": {
-  "decision": "promising",
-  "reason": "triage: Enacted law limiting move-out fees charged to tenants",
+  "decision": "drafted",
+  "reason": "Local Law 169 of 2021 is an enacted NYC law. It protects renters directly: when they leave a lease early, the landlord can charge no more than the fair market cost of getting the apartment ready to rent again and must itemize that charge. No existing entry covers it.",
+  "file": "src/content/entries/local/nyc-early-move-out-prep-fees-capped-at-fair-cost.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2405": {
   "decision": "promising",
@@ -61928,10 +61959,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2021-2448": {
-  "decision": "promising",
-  "reason": "triage: Paid time off to take child to COVID vaccine",
+  "decision": "drafted",
+  "reason": "An enacted NYC local law gave working parents paid time off, outside their sick time, for each of their children's COVID-19 shots. Its own sunset clause ended it on Dec. 31, 2022.",
+  "file": "src/content/entries/local/nyc-parents-4-paid-hours-per-child-covid-shot.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2456": {
   "decision": "skip",
@@ -61964,10 +61996,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a2030": {
-  "decision": "promising",
-  "reason": "triage: Bans prior authorization for addiction treatment meds",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 720 of 2021) that removed prior authorization for addiction treatment drugs for New Yorkers on Medicaid, a direct health benefit that is still in effect and not covered by any existing entry.",
+  "file": "src/content/entries/state/ny-medicaid-addiction-medicine-no-prior-approval.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a2140": {
   "decision": "skip",
@@ -62036,10 +62069,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-a4572": {
-  "decision": "promising",
-  "reason": "triage: Adds newborn screenings for two conditions",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-2021-s7694: Chapter 730 of 2021 (A4572) was changed by the chapter amendment S7694 (Ch. 70 of 2022), and that amendment set the G6PD testing that actually took effect, which the existing entry covers; the adrenoleukodystrophy screening was already required under 2013's Aidan's Law, so this bill brought no separate new benefit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a4613": {
   "decision": "skip",
@@ -62096,10 +62129,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a6077": {
-  "decision": "promising",
-  "reason": "triage: Domestic workers get temporary disability coverage",
+  "decision": "drafted",
+  "reason": "Chapter 740 of 2021 was signed on Dec. 22, 2021. It lowered the weekly hours a domestic worker needs with one household to get New York disability and Paid Family Leave coverage from 40 to 20, and the Workers' Compensation Board's current rules confirm it's in effect.",
+  "file": "src/content/entries/state/ny-domestic-workers-20-hours-disability-paid-leave.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a6166": {
   "decision": "skip",
@@ -62156,10 +62190,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s6194": {
-  "decision": "promising",
-  "reason": "triage: NY 988 crisis hotline system enacted; state funding mechanism may need check",
+  "decision": "skip",
+  "reason": "Its chapter amendment (S7850, Ch. 135 of 2022) repealed the 988 center and mobile-crisis requirements that S6194B (Ch. 793 of 2021) had added to the County Law and put a one-time resource report to the Governor in their place, so the law as it stands only requires a report and has no direct effect on people.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s646": {
   "decision": "skip",
@@ -62306,10 +62340,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s1035": {
-  "decision": "promising",
-  "reason": "triage: disabled patients may have support person in hospital; clear right",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-2021-a8751, \"NY hospitals can't bar a disabled patient's support person in a pandemic.\" That entry covers the same law, which passed as Senate bill S1035 and its Assembly companion A8751.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s1353": {
   "decision": "skip",
@@ -62342,10 +62376,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s2014": {
-  "decision": "promising",
-  "reason": "triage: bars unauthorized legal fees charged to tenants; direct cost protection",
+  "decision": "drafted",
+  "reason": "S2014 (Chapter 695 of 2021) is an enacted, in-effect law that stops New York landlords from billing renters for legal fees unless a court orders it, which directly protects tenants' money and housing.",
+  "file": "src/content/entries/state/ny-landlords-cant-charge-legal-fees-without-court-order.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s2131": {
   "decision": "skip",
@@ -62402,10 +62437,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4377": {
-  "decision": "promising",
-  "reason": "triage: Patient rights translated into six languages; real access gain",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law (Chapter 705 of 2021, as amended by Chapter 66 of 2022). It requires the state to translate the nursing home residents' bill of rights into 10 non-English languages, and it requires homes to give residents the ombudsman's and the state complaint hotline's contact details. That is a concrete rights protection for nursing home residents and their families.",
+  "file": "src/content/entries/state/ny-nursing-home-residents-rights-in-10-languages.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s4485": {
   "decision": "skip",
@@ -62450,16 +62486,18 @@
   "date": "2026-11-11"
  },
  "ny-2021-s6576": {
-  "decision": "promising",
-  "reason": "triage: Medicaid covers licensed clinical social workers; expands mental health access",
+  "decision": "drafted",
+  "reason": "This enacted law (Chapter 712 of 2021) lets New York Medicaid pay licensed clinical social workers directly for covered care, which widens access to mental health treatment. It doesn't duplicate the existing entry for counselors and family therapists.",
+  "file": "src/content/entries/state/ny-medicaid-covers-licensed-clinical-social-workers.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7053": {
-  "decision": "promising",
-  "reason": "triage: License suspension lifted with payment plan for fines; helps low-income drivers",
+  "decision": "drafted",
+  "reason": "Chapter 713 of 2021 is an enacted, signed law that lets New Yorkers whose licenses were suspended for missing a traffic ticket get them back by entering a no-fee payment plan instead of paying the whole fine. That is a separate change from the earlier law ending suspensions for unpaid fines, which the site already covers (ny-2021-s2558).",
+  "file": "src/content/entries/state/ny-payment-plan-lifts-license-suspension-missed-ticket.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7167": {
   "decision": "promising",
@@ -62534,10 +62572,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2020-1894": {
-  "decision": "promising",
-  "reason": "triage: Rules on AI hiring tools protect job applicants (bias audits, notice)",
+  "decision": "skip",
+  "reason": "Duplicate: the existing entry nyc-rule-automated-employment-decision-tools-updated (\"NYC employers must bias-test automated tools that drive hiring\") already covers the benefit of Local Law 144 of 2021, the bias-audit and notice requirement that the DCWP rule puts into effect, so this would be a second entry for the same impact.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2020-2168": {
   "decision": "skip",
@@ -62570,10 +62608,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2021-2318": {
-  "decision": "promising",
-  "reason": "triage: Licensing construction labor providers to curb worker abuse; check details",
+  "decision": "drafted",
+  "reason": "Local Law 150 of 2021 is an enacted, still-enforced worker protection: construction labor brokers (\"body shops\") must be licensed by DCWP and give workers written notice of their rights, required training and pay, and workers can sue over violations or retaliation.",
+  "file": "src/content/entries/local/nyc-construction-temp-agencies-licensed-must-explain-your-rights.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2410": {
   "decision": "skip",
@@ -62612,10 +62651,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a6970": {
-  "decision": "promising",
-  "reason": "triage: online absentee ballot application; voting access",
+  "decision": "drafted",
+  "reason": "Chapter 746 of 2021 put New York's online absentee ballot application into law permanently. It lets voters apply online using the signature the state already has on file, and it is still in effect for 2026 elections.",
+  "file": "src/content/entries/state/ny-apply-for-absentee-ballot-online.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a7207": {
   "decision": "skip",
@@ -62726,16 +62766,18 @@
   "date": "2026-11-11"
  },
  "ny-2021-s2122": {
-  "decision": "promising",
-  "reason": "triage: school water testing and standards, safety",
+  "decision": "drafted",
+  "reason": "This signed law (Chapter 771 of 2021) lowered New York's limit for lead in school drinking water from 15 to 5 ppb. It also requires testing every three years and free safe water for students and staff, and it is in effect now.",
+  "file": "src/content/entries/state/ny-school-taps-lead-limit-5-ppb-tested-every-3-years.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s2623": {
-  "decision": "promising",
-  "reason": "triage: keeps unemployment benefits for parents lacking child care",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 772 of 2021) that lets New York workers who leave a job to care for their child keep their eligibility for unemployment benefits; it is still in Labor Law §593 and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-leaving-job-for-child-care-no-longer-bars-unemployment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s2740": {
   "decision": "skip",
@@ -62780,16 +62822,17 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4111": {
-  "decision": "promising",
-  "reason": "triage: bars mid-year drug formulary changes; protects patients",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-2021-s7767 (\"Your New York health plan can't drop your drug in the middle of the year\"): S7767 (Ch. 99 of 2022, also sponsored by Breslin) is the chapter amendment to this bill's Chapter 780 of 2021, and both make up the same mid-year formulary protection.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s4306": {
-  "decision": "promising",
-  "reason": "triage: more early voting sites per county",
+  "decision": "drafted",
+  "reason": "This enacted law (Chapter 781 of 2021) requires every New York county to open more early voting sites and keep them open longer on weekends. It is a direct, concrete gain in voting access, and the existing nine-day early voting entry doesn't cover it.",
+  "file": "src/content/entries/state/ny-more-early-voting-sites-longer-weekend-hours.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s4323": {
   "decision": "skip",
@@ -62884,10 +62927,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s3467": {
-  "decision": "promising",
-  "reason": "triage: gift card fee limits and no expiration, consumer protection",
+  "decision": "drafted",
+  "reason": "Signed law (Ch. 668 of 2021, in effect since Dec. 10, 2022) that bans fees which drain gift cards and makes most cards last at least 9 years, a direct consumer protection for New Yorkers at no cost to services.",
+  "file": "src/content/entries/state/ny-gift-cards-last-9-years-no-fees.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s4308": {
   "decision": "skip",
@@ -63214,10 +63258,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s3623": {
-  "decision": "promising",
-  "reason": "triage: Unemployment benefits for military spouses who move",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 610 of 2021) that makes spouses who quit a job to follow a service member's military transfer eligible for New York unemployment benefits, a direct income protection still in the Labor Law today.",
+  "file": "src/content/entries/state/ny-military-spouses-who-quit-to-move-get-unemployment.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s5543": {
   "decision": "promising",
@@ -63328,10 +63373,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-69": {
-  "decision": "promising",
-  "reason": "triage: VA maternity care coordination for veterans enacted",
+  "decision": "drafted",
+  "reason": "The law turned VA's maternity care coordination program from agency policy into a legal requirement, authorized $15 million for it, and required training for outside maternity providers, a direct service for pregnant veterans that VA still runs as of a 2026 Inspector General review.",
+  "file": "src/content/entries/federal/pregnant-veterans-va-maternity-care-coordinator-by-law.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s7150": {
   "decision": "skip",
@@ -63448,10 +63494,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4892": {
-  "decision": "promising",
-  "reason": "triage: Nourish NY gets surplus farm food to food banks",
+  "decision": "drafted",
+  "reason": "This 2021 law made Nourish NY permanent. Under it, food banks buy New York farm food for families in need, and the FY2027 budget still funds it at $55 million.",
+  "file": "src/content/entries/state/ny-food-banks-buy-new-york-farm-food-for-families.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-eo-14054": {
   "decision": "skip",
@@ -63460,10 +63507,10 @@
   "date": "2026-11-11"
  },
  "us-eo-14055": {
-  "decision": "promising",
-  "reason": "triage: nondisplacement of workers on federal service contracts, protects jobs",
+  "decision": "skip",
+  "reason": "E.O. 14055 never reached any worker: its requirements applied only to solicitations issued after the FAR Council wrote implementing regulations, which it never did. The Labor Department's December 22, 2025 rescission notice says the rule \"effectively never became applicable\" and that it knows of no solicitations that included it. Trump then revoked the order on Jan. 20, 2025 (E.O. 14148), and DOL removed its rule (29 CFR part 9) in December 2025.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-law-117-59": {
   "decision": "skip",
@@ -63586,10 +63633,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s671": {
-  "decision": "promising",
-  "reason": "triage: mortgage modification single point of contact; may protect borrowers",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 565 of 2021, amended by Ch. 48 of 2022) giving New York homeowners 30+ days behind on a covered home loan a single point of contact for loan modification help; it's still in effect.",
+  "file": "src/content/entries/state/ny-mortgage-borrowers-behind-get-single-point-of-contact.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s6783": {
   "decision": "skip",
@@ -63634,10 +63682,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4807": {
-  "decision": "promising",
-  "reason": "triage: pharmacists can give CDC vaccines, easier access",
+  "decision": "drafted",
+  "reason": "Chapter 555 of 2021 is an enacted law that lets New York adults get seven more vaccines at a pharmacy and made pharmacists' vaccine authority permanent; it remains in effect after a 2026 follow-up law.",
+  "file": "src/content/entries/state/ny-pharmacists-give-adults-hepatitis-hpv-mmr-shots.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a6247": {
   "decision": "skip",
@@ -63646,10 +63695,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s2928": {
-  "decision": "promising",
-  "reason": "triage: paid family leave now covers siblings",
+  "decision": "drafted",
+  "reason": "This law gave New York workers a new right: since Jan. 1, 2023 they can take up to 12 weeks of paid, job-protected leave to care for a seriously ill sibling, and the state's paid family leave site still lists siblings as covered.",
+  "file": "src/content/entries/state/ny-paid-family-leave-covers-seriously-ill-siblings.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-eo-14051": {
   "decision": "skip",
@@ -63664,10 +63714,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4254": {
-  "decision": "promising",
-  "reason": "triage: bans dog-breed insurance discrimination, saves owners money",
+  "decision": "drafted",
+  "reason": "An enacted New York law (Chapter 545 of 2021, still in effect and widened in 2022) stops home insurers from refusing, cancelling or raising premiums on a policy based only on a dog's breed, which protects homeowners' coverage and costs.",
+  "file": "src/content/entries/state/ny-home-insurers-cant-penalize-your-dogs-breed.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s5023": {
   "decision": "skip",
@@ -63766,10 +63817,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a430": {
-  "decision": "promising",
-  "reason": "triage: workers must be told about electronic monitoring",
+  "decision": "drafted",
+  "reason": "A signed New York law (Ch. 583 of 2021, in effect since May 2022) gives private-sector workers a concrete right: written notice, up front, if their employer monitors their phone, email or internet use.",
+  "file": "src/content/entries/state/ny-employers-must-tell-you-if-they-monitor-your-email.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a476": {
   "decision": "skip",
@@ -63839,10 +63891,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-s1834": {
-  "decision": "promising",
-  "reason": "triage: used cars must have working airbags",
+  "decision": "drafted",
+  "reason": "An enacted New York law (Ch. 580 of 2021, Anthony Amoros' Law) bars dealers from selling used cars without a working airbag. That is a direct safety protection for people who buy used cars, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-used-cars-from-dealers-must-have-working-airbags.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s2929": {
   "decision": "skip",
@@ -64019,10 +64072,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s14": {
-  "decision": "promising",
-  "reason": "triage: Ghost gun ban and serialization; public safety improvement",
+  "decision": "skip",
+  "reason": "Duplicate: the existing entry ny-2021-s7705 (\"Selling an untraceable ghost gun is a felony in New York\") already covers the Jose Webster Untraceable Firearms Act, because S7705 is the chapter amendment to the law S14-A created (L.2021, c.520).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-s1555": {
   "decision": "promising",
@@ -64031,10 +64084,10 @@
   "date": "2026-11-11"
  },
  "ny-2021-s4394": {
-  "decision": "promising",
-  "reason": "triage: Whistleblower protection against employer retaliation",
+  "decision": "skip",
+  "reason": "This duplicates the existing entry ny-gov-governor-hochul-signs-legislation-protecting-employees-retaliation (\"Your New York job can't punish you for reporting wrongdoing\"), which covers the same law: S4394A, the Labor Law § 740 whistleblower expansion Gov. Hochul signed on Oct. 28, 2021.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a229": {
   "decision": "skip",
@@ -64133,10 +64186,11 @@
   "date": "2026-11-11"
  },
  "us-law-117-49": {
-  "decision": "promising",
-  "reason": "triage: TEACH grant forgiveness fix for teachers; enacted",
+  "decision": "drafted",
+  "reason": "The law gives teachers a legal right to undo TEACH grants that were wrongly turned into loans, with refunds and fixes to their credit reports, and gives teachers hit by COVID extra time to finish their service; it is enacted and in effect.",
+  "file": "src/content/entries/federal/teach-grants-wrongly-turned-into-loans-can-be-undone.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "us-eo-14049": {
   "decision": "skip",
@@ -64421,16 +64475,17 @@
   "date": "2026-11-11"
  },
  "nyc-int-2021-2296": {
-  "decision": "promising",
-  "reason": "triage: delivery worker payment and tip standards",
+  "decision": "skip",
+  "reason": "Local Law 116 of 2021 (Int 2296-2021) is the law that directed DCWP to study and set a minimum pay rate for app delivery workers, and that same benefit is already covered by the existing entry nyc-dcwp-2023-delivery-minimum-pay (\"App delivery workers earn at least $22.13 an hour before tips\"); its sponsors (Menchaca and others) belong in that entry's credits rather than in a separate entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2298": {
-  "decision": "promising",
-  "reason": "triage: delivery workers gain restaurant toilet access",
+  "decision": "drafted",
+  "reason": "Local Law 117 of 2021 gives NYC app delivery workers an enforceable right to use restaurant bathrooms when picking up orders. It has been in effect since Jan. 24, 2022, and is still enforced by DCWP.",
+  "file": "src/content/entries/local/nyc-delivery-workers-can-use-restaurant-bathrooms.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "nyc-int-2021-2399": {
   "decision": "skip",
@@ -64481,10 +64536,11 @@
   "date": "2026-11-11"
  },
  "ny-2021-a3213": {
-  "decision": "promising",
-  "reason": "triage: auto-enrollment in retirement savings; check enactment",
+  "decision": "drafted",
+  "reason": "The 2021 law turned New York's optional Secure Choice program into automatic enrollment, so workers at employers with 10 or more staff and no retirement plan now get a Roth IRA by payroll deduction. Employers had to register by July 2026, and workers pay nothing beyond what they choose to save.",
+  "file": "src/content/entries/state/ny-auto-enrolled-retirement-savings-no-plan-at-work.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-19"
  },
  "ny-2021-a2206": {
   "decision": "skip",
@@ -84950,10 +85006,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-third-party-food-delivery-services-and-third-party-courier-services": {
-  "decision": "promising",
-  "reason": "triage: Adopted rules protecting delivery workers",
+  "decision": "skip",
+  "reason": "This DCWP rule is mostly paperwork for enforcing Local Laws 100, 110 and 115 of 2021: license expiration dates, recordkeeping, a penalty schedule and where existing disclosures go. Its main effect falls on the agency and the delivery companies, not working people, and the real benefits for delivery workers are already covered by existing entries (minimum pay, tip option, distance limits).",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "nyc-rule-house-site-connections-to-the-sewer-system": {
   "decision": "skip",
@@ -85280,10 +85336,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-rental-assistance-programs": {
-  "decision": "promising",
-  "reason": "triage: Raises max rents for HRA vouchers, helps voucher holders find housing; check scope",
+  "decision": "drafted",
+  "reason": "HRA's rule carried out Local Law 71 of 2021, which raised the most CityFHEPS rent vouchers will pay from $1,265–$1,580 a month to the Section 8 standard; no existing entry covers it (ny-2021-a8009 is the separate state FHEPS law).",
+  "file": "src/content/entries/local/nyc-city-rent-vouchers-raised-to-section-8-levels.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "ny-gov-governor-hochul-signs-legislation-protecting-new-yorkers-lead-exposure-christmas-and-holiday": {
   "decision": "skip",
@@ -100265,10 +100322,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-069": {
-  "decision": "promising",
-  "reason": "triage: enacted 5% raise and $17 city wage floor",
+  "decision": "drafted",
+  "reason": "The ordinance raised Richmond's minimum pay for city employees from $13 to $17 an hour and gave eligible workers a 5% raise, a direct wage gain for public workers. It doesn't duplicate any existing entry.",
+  "file": "src/content/entries/local/richmond-city-workers-pay-floor-13-to-17.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-070": {
   "decision": "skip",
@@ -100385,10 +100443,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0154": {
-  "decision": "promising",
-  "reason": "triage: annual plan; HUD-funded housing and community aid, details unclear, writer can check",
+  "decision": "drafted",
+  "reason": "Hampton City Council adopted the plan that directs the city's 2022 federal grants for housing and neighborhood work: $903,077 in CDBG and $570,404 in HOME money for low- to moderate-income residents. Hampton's earlier CDBG/HOME and homeless-funding entries set the precedent for drafting it.",
+  "file": "src/content/entries/local/hampton-1-47-million-hud-housing-money-2022-23.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-22-0157": {
   "decision": "skip",
@@ -100421,10 +100480,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-104": {
-  "decision": "promising",
-  "reason": "triage: ARPA loans/grants to build and preserve affordable housing, enacted",
+  "decision": "drafted",
+  "reason": "The Richmond City Council voted 8-0 to award the city's first round of federal ARPA housing money as grants and loans to build and preserve homes for low- and moderate-income residents, and a 2023 council resolution says that first $10 million produced more than 1,000 affordable rentals.",
+  "file": "src/content/entries/local/richmond-first-arpa-housing-grants-1000-rentals.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-106": {
   "decision": "skip",
@@ -100445,10 +100505,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-109": {
-  "decision": "promising",
-  "reason": "triage: funds lead service line replacement for homes, schools, day cares; small grant",
+  "decision": "drafted",
+  "reason": "Richmond adopted an ordinance that accepted and spent $500,000 in outside money from the Virginia Resources Authority to replace lead water service lines at homes, schools and day cares. It is a separate, earlier appropriation from the existing 2023 and 2026 lead-pipe entries.",
+  "file": "src/content/entries/local/richmond-lead-pipe-replacement-500k-2022.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-110": {
   "decision": "skip",
@@ -100505,10 +100566,10 @@
   "date": "2026-11-12"
  },
  "richmond-res-2022-r024": {
-  "decision": "promising",
-  "reason": "triage: sets car tax relief rate; real relief for vehicle owners, check funding",
+  "decision": "skip",
+  "reason": "This is Richmond's yearly car-tax relief rate resolution, which City Code § 26-496(b) requires so the state's fixed relief money gets used up; it creates no new benefit, so it's a procedural implementation step.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-res-2022-r026": {
   "decision": "skip",
@@ -100517,10 +100578,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0112": {
-  "decision": "promising",
-  "reason": "triage: state flood grants for five Hampton projects, funded",
+  "decision": "drafted",
+  "reason": "Hampton's council accepted $9.16 million in state Community Flood Preparedness Fund grants to build four flood-reduction projects. These are tangible storm and infrastructure work, they aren't a tax cut, and no existing entry covers them.",
+  "file": "src/content/entries/local/hampton-9-million-state-flood-grants-four-projects.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-22-0136": {
   "decision": "skip",
@@ -100571,10 +100633,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-020": {
-  "decision": "promising",
-  "reason": "triage: speed limits lowered to 35 mph on major roads, safety",
+  "decision": "drafted",
+  "reason": "This is an enacted Richmond ordinance that cut speed limits to 35 mph on 10 Southside road stretches, a direct safety change that is still in effect, and no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-southside-roads-35-mph-speed-limit.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-092": {
   "decision": "skip",
@@ -100607,10 +100670,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-099": {
-  "decision": "promising",
-  "reason": "triage: $1.28M ARPA grants for housing services, homelessness",
+  "decision": "drafted",
+  "reason": "Richmond's council appropriated $1.28 million in federal relief money for five specific housing and homeless services, including the region's Homeless Connection Line and shelter retrofits. That is a funded action with a direct effect on residents, and no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-arpa-grants-homeless-line-shelters-2022.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2021-368": {
   "decision": "skip",
@@ -100751,10 +100815,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0116": {
-  "decision": "promising",
-  "reason": "triage: Funded road projects; check what they are",
+  "decision": "error",
+  "reason": "invalid after repair: title: no trailing period or exclamation point",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19",
+  "attempts": 1
  },
  "hampton-22-0134": {
   "decision": "skip",
@@ -100865,10 +100930,11 @@
   "date": "2026-11-12"
  },
  "hampton-22-0106": {
-  "decision": "promising",
-  "reason": "triage: Lower car tax values; writer checks cost offset",
+  "decision": "drafted",
+  "reason": "Hampton's council cut the taxable value of residents' cars and light trucks to 75% for 2022, which cushioned a 44% jump in used-car values for every vehicle owner without raising fees or cutting services. This is a different tax year from the existing 2023 entry, so it isn't a duplicate.",
+  "file": "src/content/entries/local/hampton-car-tax-75-percent-of-value-2022.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-22-0109": {
   "decision": "skip",
@@ -101093,10 +101159,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-017": {
-  "decision": "promising",
-  "reason": "triage: transit-oriented rezoning along West Broad, enacted; writer checks housing effect",
+  "decision": "skip",
+  "reason": "This ordinance only moves specific West Broad Street parcels into the TOD-1 district and sets street frontage rules; it doesn't build or fund any homes, require affordability, or deliver a benefit people can point to, and an upzoning like this can mostly raise land values for owners, so it doesn't clearly pass the net-impact test.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-018": {
   "decision": "skip",
@@ -101285,10 +101351,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2022-004": {
-  "decision": "promising",
-  "reason": "triage: $1.1M state grant funds drainage to reduce repeat flooding in three neighborhoods",
+  "decision": "drafted",
+  "reason": "Richmond accepted and spent a $1.1 million state Community Flood Preparedness Fund grant on drainage work to stop repeat flooding in the McGuire, Chapel Drive and Hopkins Road neighborhoods, and the city now lists the project as completed.",
+  "file": "src/content/entries/local/richmond-mcguire-chapel-drive-flood-drainage-fix.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2022-005": {
   "decision": "skip",
@@ -101621,10 +101688,10 @@
   "date": "2026-11-12"
  },
  "hampton-21-0322": {
-  "decision": "promising",
-  "reason": "triage: Flood resilience grants for three neighborhoods, appropriated; check scope",
+  "decision": "skip",
+  "reason": "The resolution accepted $433,173 in Round 1 state flood-fund grants that paid only for design work on Honor Park and the Mill Point shoreline and for a flood-resilience plan; I found no source showing either project was later built, so it has no confirmed direct effect on residents.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-21-0323": {
   "decision": "skip",
@@ -101729,10 +101796,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2021-338": {
-  "decision": "promising",
-  "reason": "triage: $8.1M state aid to clear delinquent utility bills",
+  "decision": "drafted",
+  "reason": "The ordinance accepted and appropriated $8.1 million in federal pandemic relief that was credited to past-due residential gas, water and wastewater accounts, which put money directly toward working households' utility debt.",
+  "file": "src/content/entries/local/richmond-8-million-pandemic-relief-past-due-utility-bills.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2021-339": {
   "decision": "skip",
@@ -101915,10 +101983,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2021-310": {
-  "decision": "promising",
-  "reason": "triage: city land sold for $10,000 to build affordable apartments",
+  "decision": "drafted",
+  "reason": "An adopted ordinance sold city land at a nominal price to help build 56 income-capped apartments, Greenway Village, which is now being finished, and no existing entry covers it.",
+  "file": "src/content/entries/local/richmond-city-land-for-56-lower-rent-apartments-fourqurean-lane.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "richmond-ord-2021-311": {
   "decision": "skip",
@@ -102179,10 +102248,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2021-291": {
-  "decision": "promising",
-  "reason": "triage: ARPA funds accepted: parks, stormwater, water; large funded action, check uses",
+  "decision": "skip",
+  "reason": "This is a broad acceptance and appropriation of Richmond's first $77.4M ARPA tranche, spread across about two dozen items, so no single concrete action can headline an entry; it includes out-of-scope public housing redevelopment (Creighton Court, Highland Grove), and its main pieces overlap existing entries for ARPA parks, affordable rentals, and utility-bill relief.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-21-0238": {
   "decision": "skip",
@@ -102197,10 +102266,11 @@
   "date": "2026-11-12"
  },
  "hampton-21-0260": {
-  "decision": "promising",
-  "reason": "triage: Armistead Ave drainage and sidewalk reconstruction funded; local infrastructure",
+  "decision": "drafted",
+  "reason": "Hampton accepted $670,695 in VDOT SMART SCALE money and moved $480,000 in city bond money to rebuild a flood-prone half mile of N. Armistead Avenue with drainage fixes and accessible walkways on both sides, and construction is now underway.",
+  "file": "src/content/entries/local/hampton-670695-walkways-drainage-north-armistead-avenue.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "hampton-21-0261": {
   "decision": "promising",
@@ -119417,10 +119487,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1395-5336": {
-  "decision": "promising",
-  "reason": "triage: 30% car tax relief on first $20,000; check funding (state PPTRA)",
+  "decision": "skip",
+  "reason": "This is Goochland's yearly routine resolution that splits a fixed state car-tax relief payment (PPTRA, frozen at 2004 levels) among qualifying vehicles. The county sets the percentage at whatever level uses up the state money, so it adds no new benefit of its own, and the 30% figure may have been lower than the year before.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "goochland-council-iqm2-1395-5337": {
   "decision": "skip",
@@ -119507,10 +119577,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1391-5286": {
-  "decision": "promising",
-  "reason": "triage: $7.99M to replace sewer force main; funded service infrastructure",
+  "decision": "skip",
+  "reason": "This duplicates goochland-council-iqm2-1403-5540 (\"Goochland rebuilt two miles of the sewer main that spilled into Tuckahoe Creek\"), which covers the same Eastern Goochland Force Main replacement; this March 2022 item is the first money for that project (about 11,000 feet, roughly 2 miles).",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "goochland-council-iqm2-1391-5290": {
   "decision": "skip",
@@ -119525,10 +119595,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1391-5295": {
-  "decision": "promising",
-  "reason": "triage: Funded broadband expansion with ARPA money; tangible",
+  "decision": "drafted",
+  "reason": "On March 1, 2022, the board voted to put $3,437,500 in American Rescue Plan money toward Goochland's broadband expansion. That pays for fiber lines to rural homes with no high-speed internet, and Firefly reports most county areas in service now, with the rest still connecting.",
+  "file": "src/content/entries/local/goochland-3-4-million-pandemic-aid-rural-fiber-internet.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "goochland-council-iqm2-1391-5297": {
   "decision": "promising",
@@ -119609,10 +119680,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1372-5266": {
-  "decision": "promising",
-  "reason": "triage: County match funds federal rural broadband grant",
+  "decision": "skip",
+  "reason": "This $200,000 county match goes to the same Firefly Fiber RISE build that entry goochland-council-iqm2-1391-5295 already covers ($3.44 million toward fiber internet for rural Goochland), because RISE includes the USDA ReConnect grant; it belongs as a detail in that entry rather than as a second entry, and I couldn't find a source for the Goochland ReConnect build's current status.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "goochland-council-iqm2-1372-5270": {
   "decision": "skip",
@@ -119741,10 +119812,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1351-5207": {
-  "decision": "promising",
-  "reason": "triage: One-time bonuses for county and school employees; real money for workers",
+  "decision": "drafted",
+  "reason": "The Goochland Board of Supervisors set aside $1.25 million from current-year revenues for one-time bonuses to county and school workers, which is money in workers' pockets with no service cuts to pay for it.",
+  "file": "src/content/entries/local/goochland-one-time-bonuses-county-and-school-workers-2021.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-19"
  },
  "goochland-council-iqm2-1351-5218": {
   "decision": "skip",
@@ -202931,5 +203003,77 @@
   "file": "src/content/entries/local/minneapolis-2026-lead-service-line-replacement-funding.md",
   "impact": 3,
   "date": "2026-11-18"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f": {
+  "decision": "skip",
+  "reason": "split into 5 approved actions",
+  "date": "2026-11-19"
+ },
+ "us-fr-2026-23429": {
+  "decision": "drafted",
+  "reason": "The final HIPAA rule gives patients a concrete right they can use: providers and health plans must hand over records within 15 days instead of 30, and viewing records in person or through a portal or app is free. The harshest disclosure changes proposed in 2021 were dropped.",
+  "file": "src/content/entries/federal/health-records-within-15-days.md",
+  "impact": 3,
+  "date": "2026-11-19"
+ },
+ "fl-eo-2026-232": {
+  "decision": "skip",
+  "reason": "triage: Amends emergency order; no details, procedural",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "saint-paul-res-26-1832": {
+  "decision": "skip",
+  "reason": "triage: Parking agreement with developer; not working-people benefit",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "saint-paul-res-ph-26-312": {
+  "decision": "skip",
+  "reason": "triage: Sale of one HRA parcel; no clear public benefit shown",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "us-grant-nea-grant-spotlight-ballet-north-texas": {
+  "decision": "skip",
+  "reason": "triage: Arts grant press feature",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "va-gov-1129835": {
+  "decision": "skip",
+  "reason": "triage: Announced legislative agenda; not enacted",
+  "impact": 2,
+  "date": "2026-11-19"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f-2026-171-sw": {
+  "decision": "skip",
+  "reason": "triage: Property sales between agencies; procedural",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f-2026-173": {
+  "decision": "skip",
+  "reason": "triage: Comprehensive plan amendment; procedural land-use",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f-2026-184": {
+  "decision": "skip",
+  "reason": "triage: Comprehensive plan amendment; procedural land-use",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f-2026-186": {
+  "decision": "skip",
+  "reason": "triage: Draft budget for public comment; not final",
+  "impact": 1,
+  "date": "2026-11-19"
+ },
+ "twin-cities-council-21425641-5085-4911-b833-7b6a7ee6ad3f-2026-196-sw": {
+  "decision": "skip",
+  "reason": "triage: Rejecting bids; procedural",
+  "impact": 1,
+  "date": "2026-11-19"
  }
 }
