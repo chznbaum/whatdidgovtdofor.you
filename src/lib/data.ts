@@ -117,6 +117,44 @@ export function entriesWithin(id: string, entries: Entry[], places: Map<string, 
   return entries.filter((e) => entryPlaceIds(e).some((p) => scope.has(p)));
 }
 
+// The sets of places an address can belong to, as /you finds them from the Census (its lookup in src/pages/you.astro):
+// the country, the state, a city or town and a county (any county in the state, since a city can span several), and
+// any region that lists one of them as a member or serves the address's county. Each set has a feed of everything
+// that reaches the address (/you/feed/<key>.xml); the key is the set's ids without "us", sorted, joined by "_"
+// ("us" alone for an address outside the states we cover).
+export function addressPlaceSets(places: Map<string, Place>): { key: string; ids: Set<string> }[] {
+  const all = [...places.values()];
+  const local = (k: string) => k === 'city' || k === 'county' || k === 'town';
+  const regions = all.filter((p) => p.data.kind === 'region');
+  const withRegions = (ids: string[], county?: string) => {
+    const set = new Set(['us', ...ids]);
+    for (const r of regions)
+      if (r.data.members.some((m) => set.has(m.id)) || (county && r.data.geoids.counties?.includes(county))) set.add(r.id);
+    return set;
+  };
+  const sets: Set<string>[] = [new Set(['us'])];
+  for (const state of all.filter((p) => p.data.kind === 'state')) {
+    const inState = all.filter((p) => local(p.data.kind) && stateOf(p, places)?.id === state.id);
+    const counties = inState.filter((p) => p.data.kind === 'county');
+    const towns = inState.filter((p) => p.data.kind !== 'county');
+    // An address in a county we don't cover can still be in a region that serves it (the Met Council's seven counties).
+    const servedCounties = regions.flatMap((r) => (stateOf(r, places)?.id === state.id ? (r.data.geoids.counties ?? []) : []));
+    const uncovered = [undefined, ...servedCounties.filter((c) => !counties.some((p) => p.data.geoids.county === c))];
+    for (const c of uncovered) {
+      sets.push(withRegions([state.id], c));
+      for (const t of towns) sets.push(withRegions([state.id, t.id], t.data.geoids.county ?? c));
+    }
+    for (const county of counties) {
+      sets.push(withRegions([state.id, county.id], county.data.geoids.county));
+      for (const t of towns) sets.push(withRegions([state.id, t.id, county.id], county.data.geoids.county));
+    }
+  }
+  const byKey = new Map(sets.map((ids) => [addressFeedKey(ids), ids]));
+  return [...byKey].map(([key, ids]) => ({ key, ids }));
+}
+
+export const addressFeedKey = (ids: Iterable<string>) => [...ids].filter((id) => id !== 'us').sort().join('_') || 'us';
+
 export const creditedIds = (e: Entry) => e.data.credit.map((c) => c.official.id);
 
 // The home page's cover story: an editor's pick, falling back to the newest featured action whose key person has a

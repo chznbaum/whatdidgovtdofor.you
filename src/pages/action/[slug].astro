@@ -12,7 +12,7 @@ import { entryDates, entrySlug, getEntries, getPlacesMap, officialUrl, placeUrl,
 import { actionNodes } from '../../lib/jsonld.ts';
 import { searchFilters } from '../../lib/search.ts';
 import { entryShareAlt } from '../../lib/share.ts';
-import { ACTION_NOUN, ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
+import { ACTION_NOUN, ROLE_BYLINE, actionLine, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
@@ -38,7 +38,7 @@ const art = stars[0].person.data.kind === 'body' ? 'body' : pictured.length > 1 
 const and = new Intl.ListFormat('en', { type: 'conjunction' });
 
 // "Virginia law, April 2026": who acted, what kind of action, when.
-const where = `${place.id === 'us' ? 'Federal' : place.data.name} ${ACTION_NOUN[d.action.type]}, ${formatMonth(d.action.date)}`;
+const where = actionLine(d.action.type, d.action.date, place.id, place.data.name);
 const size = d.title.length <= 42 ? 'l' : d.title.length <= 64 ? 'm' : 's';
 // Impact figures the headline doesn't already say.
 const impacts = d.impact.filter((i) => !d.title.toLowerCase().includes(i.figure.toLowerCase()));
