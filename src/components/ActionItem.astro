@@ -1,0 +1,28 @@
+---
+// One action in a list: the card inside its list item, with what the page's filters read. Lists render these
+// directly (ActionList), and each is also built on its own as /card/<slug>.html, which lists load when
+// "Show more" adds results, so a loaded card is the same markup as a rendered one.
+import ActionCard from './ActionCard.astro';
+import { entryPlaceIds, entrySlug, type Entry } from '../lib/data.ts';
+import { GROUP } from '../lib/status.ts';
+
+interface Props {
+  entry: Entry;
+  heading?: 'h2' | 'h3';
+  caption?: string;
+  threatDetail?: boolean;
+}
+
+const { entry, heading = 'h3', caption, threatDetail } = Astro.props;
+---
+
+<li
+  data-entry={entry.id}
+  data-slug={entrySlug(entry)}
+  data-places={entryPlaceIds(entry).join(' ')}
+  data-group={GROUP[entry.data.status.state]}
+  data-level={entry.data.level}
+  data-topics={entry.data.topics.join(' ')}
+>
+  <ActionCard entry={entry} heading={heading} caption={caption} threatDetail={threatDetail} />
+</li>

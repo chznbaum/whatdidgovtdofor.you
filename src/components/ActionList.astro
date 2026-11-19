@@ -1,8 +1,7 @@
 ---
 // A list of actions as faces. Rows on a phone; a grid of faces once there's room.
-import ActionCard from './ActionCard.astro';
-import { entryPlaceIds, type Entry } from '../lib/data.ts';
-import { GROUP } from '../lib/status.ts';
+import ActionItem from './ActionItem.astro';
+import type { Entry } from '../lib/data.ts';
 
 interface Props {
   entries: Entry[];
@@ -19,15 +18,7 @@ const { entries, heading = 'h3', captions, threatDetail } = Astro.props;
   <ul class="list" role="list">
     {
       entries.map((entry) => (
-        <li
-          data-entry={entry.id}
-          data-places={entryPlaceIds(entry).join(' ')}
-          data-group={GROUP[entry.data.status.state]}
-          data-level={entry.data.level}
-          data-topics={entry.data.topics.join(' ')}
-        >
-          <ActionCard entry={entry} heading={heading} caption={captions?.get(entry.id)} threatDetail={threatDetail} />
-        </li>
+        <ActionItem entry={entry} heading={heading} caption={captions?.get(entry.id)} threatDetail={threatDetail} />
       ))
     }
   </ul>
