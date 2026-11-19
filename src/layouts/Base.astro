@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import CallToAction from '../components/CallToAction.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { absoluteUrl } from '../lib/url.ts';
 
 interface Props {
   title?: string;
@@ -25,13 +26,13 @@ const {
   noindex = false,
 } = Astro.props;
 const pageTitle = title ? `${title} | whatdidgovtdofor.you` : `${SITE} | whatdidgovtdofor.you`;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://whatdidgovtdofor.you');
-const ogImage = image ? new URL(image, canonical) : undefined;
+const canonical = absoluteUrl(Astro.url.pathname);
+const ogImage = image ? absoluteUrl(image) : undefined;
 const path = Astro.url.pathname;
 const nav = [
-  { href: '/actions/', label: 'Actions' },
-  { href: '/places/', label: 'Places' },
-  { href: '/how-we-check/', label: 'How we check', wide: true },
+  { href: '/actions', label: 'Actions' },
+  { href: '/places', label: 'Places' },
+  { href: '/how-we-check', label: 'How we check', wide: true },
 ];
 ---
 

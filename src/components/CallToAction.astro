@@ -11,7 +11,7 @@ import type { Official } from '../lib/data.ts';
 import Face from './Face.astro';
 import PortraitCredit from './PortraitCredit.astro';
 
-const HREF = '/your-turn/';
+const HREF = '/your-turn';
 
 // Faces row: people who ran for a city council or a state legislature, won, and did work credited on this site
 // (not just signed it). Mixed parties and places on purpose. The first three show on a phone.
@@ -28,7 +28,7 @@ const names = (people: Official[]) => and.format(people.map((o) => nameWithParty
         <ul class="row" role="list">
           {row.map((o, i) => (
             <li class:list={[i >= PHONE && 'wide-only']}>
-              <a href={`/officials/${o.id}/`} aria-label={nameWithParty(o.data)}>
+              <a href={`/officials/${o.id}`} aria-label={nameWithParty(o.data)}>
                 <Face official={o} sizes="(min-width: 60rem) 10rem, 5.5rem" />
               </a>
             </li>

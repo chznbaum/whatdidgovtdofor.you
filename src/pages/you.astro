@@ -42,7 +42,7 @@ const levels = [
         >.
       </p>
       <p class="turn">
-        <a href="/your-turn/" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
+        <a href="/your-turn" data-turn>Your turn: run for office, join a board, or work the polls<span data-turn-where></span></a>
       </p>
     </section>
 
@@ -163,10 +163,10 @@ const levels = [
 
   function officialItem(title: string, p: Person) {
     const label = p.party && p.party !== 'NP' ? `${p.name} (${p.party})` : p.name;
-    const href = p.id ? `/officials/${p.id}/` : p.url;
+    const href = p.id ? `/officials/${p.id}` : p.url;
     const name = href ? el('a', { href, class: 'name' }, label) : el('span', { class: 'name' }, label);
     const record = p.n
-      ? el('a', { href: `/officials/${p.id}/`, class: 'record' }, `${p.n} action${p.n === 1 ? '' : 's'} on record`)
+      ? el('a', { href: `/officials/${p.id}`, class: 'record' }, `${p.n} action${p.n === 1 ? '' : 's'} on record`)
       : el('span', { class: 'record none' }, 'No actions on record yet');
     return el('li', {}, el('span', { class: 'title' }, title), name, record);
   }
@@ -321,11 +321,11 @@ const levels = [
     for (const a of document.querySelectorAll<HTMLAnchorElement>('a[data-ask]'))
       a.href = `mailto:places@whatdidgovtdofor.you?subject=${encodeURIComponent(`Please add ${askFor}`)}`;
 
-    // Ways in for the same places: /your-turn/ narrowed by the place ids, never the address. The call to action at
+    // Ways in for the same places: /your-turn narrowed by the place ids, never the address. The call to action at
     // the bottom of the page follows suit.
     const nearest = localPlaces[0] ?? index.places.find((p) => p.kind === 'state' && mine.has(p.id));
     $('[data-turn-where]').textContent = nearest ? ` in ${nearest.name}` : '';
-    for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="/your-turn/"]')) a.href = `/your-turn/?places=${[...mine].join(',')}`;
+    for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="/your-turn"]')) a.href = `/your-turn?places=${[...mine].join(',')}`;
     officialsEl.hidden = false;
 
     // Actions that apply to this address.
@@ -350,7 +350,7 @@ const levels = [
     const query = new URLSearchParams(location.search).get('address');
     if (query) {
       // Move a no-JS form submission into the fragment so the address isn't kept in the URL sent to servers.
-      history.replaceState(null, '', `/you/#${encodeURIComponent(query)}`);
+      history.replaceState(null, '', `/you#${encodeURIComponent(query)}`);
       return query;
     }
     return location.hash.length > 1 ? decodeURIComponent(location.hash.slice(1)) : '';
