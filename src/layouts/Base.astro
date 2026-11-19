@@ -2,12 +2,19 @@
 import '../styles/global.css';
 import CallToAction from '../components/CallToAction.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { homeShareAlt } from '../lib/share.ts';
 import { absoluteUrl } from '../lib/url.ts';
 
 interface Props {
   title?: string;
+  // The <title> and og:title, when they should say more than the page's own heading (e.g. "Ashland, Va.").
+  metaTitle?: string;
   description?: string;
   image?: string;
+  // Alt text for `image`; the site's default image has its own.
+  imageAlt?: string;
+  // An action's page is an article, with the dates it was published and last changed.
+  article?: { published: Date; modified: Date };
   // The call to action above the footer. Off on the page it points to.
   cta?: boolean;
   footer?: boolean;
@@ -18,16 +25,22 @@ interface Props {
 const SITE = 'What did government do for you?';
 const {
   title,
+  metaTitle = title,
   description = 'The concrete things government did for people, who made them happen, and whether they still stand.',
   // Pages without their own share image use the site's: the home page's question and lead person.
   image = '/og/home.png',
+  imageAlt,
+  article,
   cta = true,
   footer = true,
   noindex = false,
 } = Astro.props;
-const pageTitle = title ? `${title} | whatdidgovtdofor.you` : `${SITE} | whatdidgovtdofor.you`;
-const canonical = absoluteUrl(Astro.url.pathname);
+const pageTitle = metaTitle ? `${metaTitle} | whatdidgovtdofor.you` : `${SITE} | whatdidgovtdofor.you`;
+// A page kept out of search (the 404 page) names no canonical URL of its own.
+const canonical = noindex ? undefined : absoluteUrl(Astro.url.pathname);
 const ogImage = image ? absoluteUrl(image) : undefined;
+const ogImageAlt = imageAlt ?? (image === '/og/home.png' ? await homeShareAlt() : undefined);
+const day = (d: Date) => d.toISOString().slice(0, 10);
 const path = Astro.url.pathname;
 const nav = [
   { href: '/actions', label: 'Actions' },
@@ -43,20 +56,25 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="whatdidgovtdofor.you" href="/feed.xml" />
     <meta name="theme-color" content="#ff7a00" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:site_name" content="whatdidgovtdofor.you" />
-    <meta property="og:title" content={title ?? SITE} />
+    <meta property="og:title" content={metaTitle ?? SITE} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
+    {canonical && <meta property="og:url" content={canonical} />}
     {ogImage && <meta property="og:image" content={ogImage} />}
     {ogImage && <meta property="og:image:width" content="1200" />}
     {ogImage && <meta property="og:image:height" content="630" />}
+    {ogImage && ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
+    {article && <meta property="article:published_time" content={day(article.published)} />}
+    {article && <meta property="article:modified_time" content={day(article.modified)} />}
     <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {ogImage && ogImageAlt && <meta name="twitter:image:alt" content={ogImageAlt} />}
+    {/* Search engines may show the share image large (Google Discover needs this to). */}
+    <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large'} />
     <slot name="head" />
   </head>
   <body>

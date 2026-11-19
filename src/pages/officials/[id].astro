@@ -28,6 +28,7 @@ const tenure = o.current ? 'Serving now' : 'Former';
 
 <Base
   title={nameWithParty(o)}
+  metaTitle={o.kind === 'person' && !o.name.includes(o.office) ? `${nameWithParty(o)}, ${o.office}` : nameWithParty(o)}
   description={`What ${o.name} did for people as ${o.office}: ${entries.length} action${entries.length === 1 ? '' : 's'} on record.`}
 >
   <header class="cover" id="cover">
