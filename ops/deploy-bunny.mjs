@@ -11,6 +11,8 @@
 //   BUNNY_API_KEY           account API key, for the cache rules and the purge
 //   BUNNY_PULLZONE_ID       pull zone id, for the cache rules and the purge
 //   SITE_URL                the public site, checked after the purge; default https://whatdidgovtdofor.you
+// After the purge, the pages that changed (and any removed) are sent to IndexNow, which Bing and other search
+// engines read, so they recrawl them soon. Its key is public by design: it's the file public/<INDEXNOW_KEY>.txt.
 // Usage: node ops/deploy-bunny.mjs [--dry-run]   (a dry run lists the uploads, deletes and cache-rule changes)
 import { createHash } from 'node:crypto';
 import { readFile, readdir } from 'node:fs/promises';
@@ -40,6 +42,9 @@ const BROWSER_CACHE = [
   { name: 'pages and data', pattern: '*', seconds: 0 },
 ];
 const MANAGED = '[deploy]';
+
+const INDEXNOW_KEY = '2178572a77865261f4fd6f802241719e';
+const INDEXNOW_BATCH = 10000; // the protocol's limit per request
 const OVERRIDE_BROWSER_CACHE_TIME = 16; // EdgeRuleActionType
 const URL_TRIGGER = 0; // TriggerTypes.Url
 const MATCH_ANY = 0; // PatternMatchingTypes
@@ -159,7 +164,39 @@ async function syncCacheRules() {
   return log;
 }
 
+// A built file's public URL, if it's a page search engines should hear about: "action/x/index.html" →
+// https://whatdidgovtdofor.you/action/x. Not the 404 page, Bunny's error copy, or noindex pages (the redirect).
+const site = (process.env.SITE_URL || 'https://whatdidgovtdofor.you').replace(/\/$/, '');
+function pageUrl(path, buf) {
+  if (!path.endsWith('index.html') || path.startsWith(ERRORS)) return undefined;
+  if (buf && /<meta name="robots" content="noindex"/.test(buf.toString('utf8'))) return undefined;
+  const dir = path.replace(/\/?index\.html$/, '');
+  return dir ? `${site}/${dir}` : site;
+}
+const changedPages = [
+  ...uploads.map(([path, buf]) => pageUrl(path, buf)),
+  ...deletes.map((path) => pageUrl(path)),
+].filter(Boolean);
+
+// Tell IndexNow which pages changed. Failures only warn: the pages are live either way, and the sitemap still lists them.
+async function pingIndexNow(urls) {
+  if (!urls.length) return console.log('indexnow: no pages changed');
+  if (!local.includes(`${INDEXNOW_KEY}.txt`)) return console.warn(`::warning::indexnow: dist/${INDEXNOW_KEY}.txt missing; skipped`);
+  for (let i = 0; i < urls.length; i += INDEXNOW_BATCH) {
+    const urlList = urls.slice(i, i + INDEXNOW_BATCH);
+    const res = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({ host: new URL(site).host, key: INDEXNOW_KEY, keyLocation: `${site}/${INDEXNOW_KEY}.txt`, urlList }),
+    }).catch((err) => ({ ok: false, status: err.message }));
+    // 200: accepted; 202: accepted, key check pending (the first time).
+    if (res.ok) console.log(`indexnow: sent ${urlList.length} page(s) (${res.status})`);
+    else console.warn(`::warning::indexnow: ${res.status} for ${urlList.length} page(s)`);
+  }
+}
+
 if (dryRun) {
+  console.log(`  indexnow: would send ${changedPages.length} page(s), e.g. ${changedPages.slice(0, 3).join(', ')}`);
   for (const [p] of uploads.slice(0, 20)) console.log(`  upload ${p}`);
   for (const p of deletes.slice(0, 20)) console.log(`  delete ${p}`);
   if (apiKey && pullZone) {
@@ -188,7 +225,6 @@ if (apiKey && pullZone) {
   console.log('purged the pull zone cache');
 
   // What a browser is actually told for a page, now that the cache is empty.
-  const site = process.env.SITE_URL || 'https://whatdidgovtdofor.you';
   const cacheControl = (await fetch(`${site}/`, { method: 'HEAD' }).catch(() => undefined))?.headers.get('cache-control');
   const maxAge = Number(/max-age=(\d+)/.exec(cacheControl ?? '')?.[1] ?? 0);
   if (cacheControl === undefined || cacheControl === null) console.warn(`::warning::couldn't read ${site}/'s cache-control`);
@@ -198,3 +234,5 @@ if (apiKey && pullZone) {
 
 await pool(deletes, 8, (path) => bunny('DELETE', path));
 console.log(`deleted ${deletes.length}`);
+
+await pingIndexNow(changedPages);
