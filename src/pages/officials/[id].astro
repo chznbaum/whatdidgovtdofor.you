@@ -4,7 +4,8 @@ import Base from '../../layouts/Base.astro';
 import ActionList from '../../components/ActionList.astro';
 import Face from '../../components/Face.astro';
 import PortraitCredit from '../../components/PortraitCredit.astro';
-import { getEntries, placeUrl, type Official } from '../../lib/data.ts';
+import { getEntries, getPlacesMap, placeUrl, type Official } from '../../lib/data.ts';
+import { officialNodes } from '../../lib/jsonld.ts';
 import { PARTY_NAMES, ROLE_LABEL, nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
@@ -28,6 +29,7 @@ const tenure = o.current ? 'Serving now' : 'Former';
 
 <Base
   title={nameWithParty(o)}
+  jsonld={officialNodes(official, place, await getPlacesMap())}
   metaTitle={o.kind === 'person' && !o.name.includes(o.office) ? `${nameWithParty(o)}, ${o.office}` : nameWithParty(o)}
   description={`What ${o.name} did for people as ${o.office}: ${entries.length} action${entries.length === 1 ? '' : 's'} on record.`}
 >

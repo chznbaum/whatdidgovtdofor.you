@@ -5,6 +5,7 @@ import ActionList from '../../components/ActionList.astro';
 import YourTurnHere from '../../components/YourTurnHere.astro';
 import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeTitle, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
+import { placeNodes } from '../../lib/jsonld.ts';
 
 export async function getStaticPaths() {
   return (await getCollection('places')).map((place) => ({ params: { id: place.id }, props: { place } }));
@@ -53,6 +54,7 @@ const ownHeading =
   title={p.name}
   metaTitle={title}
   description={p.blurb ?? description}
+  jsonld={placeNodes(place, places, p.blurb ?? description)}
 >
   <div class="wrap">
     <header class="head">

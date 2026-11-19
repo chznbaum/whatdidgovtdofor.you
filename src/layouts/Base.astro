@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import CallToAction from '../components/CallToAction.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { graph, type Node } from '../lib/jsonld.ts';
 import { homeShareAlt } from '../lib/share.ts';
 import { absoluteUrl } from '../lib/url.ts';
 
@@ -15,6 +16,8 @@ interface Props {
   imageAlt?: string;
   // An action's page is an article, with the dates it was published and last changed.
   article?: { published: Date; modified: Date };
+  // The page's own structured data; the site's nodes are always added (src/lib/jsonld.ts).
+  jsonld?: Node[];
   // The call to action above the footer. Off on the page it points to.
   cta?: boolean;
   footer?: boolean;
@@ -31,6 +34,7 @@ const {
   image = '/og/home.png',
   imageAlt,
   article,
+  jsonld = [],
   cta = true,
   footer = true,
   noindex = false,
@@ -75,6 +79,7 @@ const nav = [
     {ogImage && ogImageAlt && <meta name="twitter:image:alt" content={ogImageAlt} />}
     {/* Search engines may show the share image large (Google Discover needs this to). */}
     <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large'} />
+    {!noindex && <script type="application/ld+json" set:html={graph(jsonld)} />}
     <slot name="head" />
   </head>
   <body>

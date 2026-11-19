@@ -59,6 +59,19 @@ export const ROLE_BYLINE: Record<Role, string> = {
 };
 
 // How a credit reads in a list of people: "Tim Kaine (D) · Sponsored it".
+// What kind of action, in a word or two: "Virginia law, April 2026".
+export const ACTION_NOUN: Record<CollectionEntry<'entries'>['data']['action']['type'], string> = {
+  law: 'law',
+  ordinance: 'local law',
+  'ballot-measure': 'ballot measure',
+  budget: 'budget',
+  grant: 'grant',
+  program: 'program',
+  regulation: 'rule',
+  'executive-order': 'executive order',
+  settlement: 'settlement',
+};
+
 export const ROLE_LABEL: Record<Role, string> = {
   signed: 'Signed it',
   sponsored: 'Sponsored it',
