@@ -24,7 +24,7 @@ Every action leads with the person who did the work, drawn in ink from a real ph
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Local dev server |
-| `npm run build` | Build the static site into `dist/` (first stamps `src/data/lastmod.json`; see below) |
+| `npm run build` | Build the static site into `dist/` (first stamps `src/data/lastmod.json`, then builds the search index; see below) |
 | `node pipeline/lastmod.ts --check` | Check the page dates match the content (CI runs it) |
 | `npm run validate` | Check all content against the schema and editorial rules |
 | `npm run sync:roster` | Refresh Congress and NY/VA legislature rosters |
@@ -106,6 +106,8 @@ src/content/places/<id>.yaml                         jurisdictions with Census G
 src/data/roster/*.json                               synced legislator rosters
 src/data/get-involved.json                           ways to run, serve, or work the polls, by place (see get-involved.schema.md)
 ```
+
+**Search and filtering at scale.** Two indexes are built with the site (`src/lib/search.ts`): `/action-index.json`, every action's status, level, topics and places, newest first, for filtering in the browser; and Pagefind's full-text index in `dist/pagefind`, built after the site by `pipeline/search.ts`, which adds the action pages newest first so filtered results need no sort. Each action page marks what search reads (`data-pagefind-body`, `data-pagefind-ignore`) and its filters.
 
 `src/data/lastmod.json` is generated: a short hash and a date for every file a page is built from (entries, officials, places, portraits, page templates). Before each build, `pipeline/lastmod.ts` gives a new or changed file today's date (New York time); the sitemap's `lastmod` and the structured data's `dateModified` come from it, so deploys need no git history. Never edit it by hand; if CI says it's out of date, run `npm run build` (or `node pipeline/lastmod.ts`) and commit it.
 

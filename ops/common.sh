@@ -72,6 +72,17 @@ start_run() {
     git switch -q --no-track -c "$BRANCH" origin/main
   fi
   echo "$BRANCH" > "$LAST"
+  sync_deps
+}
+
+# Install dependencies when package-lock.json has changed since the last install here (a merged PR can add one; the
+# build would fail without it). The lock's hash is kept in node_modules, which npm ci rebuilds.
+sync_deps() {
+  want=$(shasum package-lock.json | cut -d' ' -f1)
+  [ "$(cat node_modules/.installed-lock 2>/dev/null)" = "$want" ] && return 0
+  echo "package-lock.json changed; installing dependencies"
+  npm ci --no-audit --no-fund --loglevel=error
+  echo "$want" > node_modules/.installed-lock
 }
 
 publish() {
