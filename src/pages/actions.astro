@@ -2,11 +2,30 @@
 import Base from '../layouts/Base.astro';
 import ActionList from '../components/ActionList.astro';
 import StatusMark from '../components/StatusMark.astro';
-import { getEntries } from '../lib/data.ts';
+import { entryPlaceIds, getEntries, getPlacesMap, placeAndDescendants, stateOf } from '../lib/data.ts';
 import { TOPIC_LABELS } from '../lib/format.ts';
 
+// The first batch is rendered; "Show more", a search or a filter loads cards from /card/<slug>.html, choosing them from
+// the action index (/action-index.json) or, for a search, from Pagefind (src/lib/search.ts).
+const BATCH = 50;
 const entries = await getEntries();
+const places = await getPlacesMap();
 const topics = Object.entries(TOPIC_LABELS).filter(([t]) => entries.some((e) => e.data.topics.includes(t as never)));
+
+// "Where": each state, then the places in it, for places with at least one action in them or aimed at them.
+const hasActions = (id: string) => {
+  const scope = placeAndDescendants(id, places);
+  return entries.some((e) => entryPlaceIds(e).some((p) => scope.has(p)));
+};
+const states = [...places.values()].filter((p) => p.data.kind === 'state').sort((a, b) => a.data.name.localeCompare(b.data.name));
+const where = states
+  .map((state) => ({
+    state,
+    inside: [...places.values()]
+      .filter((p) => p.id !== state.id && stateOf(p, places)?.id === state.id && hasActions(p.id))
+      .sort((a, b) => a.data.name.localeCompare(b.data.name)),
+  }))
+  .filter((g) => hasActions(g.state.id));
 
 const filters = {
   group: [
@@ -23,85 +42,223 @@ const filters = {
     ['local', 'Local'],
   ],
 };
+const count = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' : 's'}`;
 ---
 
 <Base title="All actions" description="Every government action on record, with its status and who made it happen.">
   <div class="wrap">
     <h1>All actions</h1>
-    <form class="filters" data-filters aria-label="Filter actions">
-      <fieldset>
-        <legend>Status</legend>
-        {
-          filters.group.map(([value, label, mark], i) => (
-            <label>
-              <input type="radio" name="status" value={value} checked={i === 0} />
-              <span>
-                {mark && <StatusMark mark={mark} size={16} />}
-                {label}
-              </span>
-            </label>
-          ))
-        }
-      </fieldset>
-      <fieldset>
-        <legend>Government</legend>
-        {
-          filters.level.map(([value, label], i) => (
-            <label>
-              <input type="radio" name="level" value={value} checked={i === 0} />
-              <span>{label}</span>
-            </label>
-          ))
-        }
-      </fieldset>
-      <label class="topic">
-        <span>Topic</span>
-        <select name="topic">
-          <option value="">Any topic</option>
-          {topics.map(([value, label]) => <option value={value}>{label}</option>)}
-        </select>
-      </label>
-    </form>
-    <p class="count" role="status" aria-live="polite" data-count>{entries.length} actions</p>
-    <ActionList entries={entries} heading="h2" />
-    <p class="empty" data-empty hidden>Nothing matches those filters. Try a different status or topic.</p>
+    <details class="tools" data-tools>
+      <summary>Search and filter<span class="active" data-active></span></summary>
+      <form class="filters" data-filters aria-label="Search and filter actions" role="search">
+        <label class="search">
+          <span>Search</span>
+          <input type="search" name="q" autocomplete="off" enterkeyhint="search" />
+        </label>
+        <fieldset>
+          <legend>Status</legend>
+          {
+            filters.group.map(([value, label, mark], i) => (
+              <label>
+                <input type="radio" name="status" value={value} checked={i === 0} />
+                <span>
+                  {mark && <StatusMark mark={mark} size={16} />}
+                  {label}
+                </span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <fieldset>
+          <legend>Government</legend>
+          {
+            filters.level.map(([value, label], i) => (
+              <label>
+                <input type="radio" name="level" value={value} checked={i === 0} />
+                <span>{label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <div class="selects">
+          <label class="pick">
+            <span>Where</span>
+            <select name="where">
+              <option value="">Anywhere</option>
+              {
+                where.map(({ state, inside }) => (
+                  <optgroup label={state.data.name}>
+                    <option value={state.id}>{state.data.name}</option>
+                    {inside.map((p) => (
+                      <option value={p.id}>{p.data.name}</option>
+                    ))}
+                  </optgroup>
+                ))
+              }
+            </select>
+          </label>
+          <label class="pick">
+            <span>Topic</span>
+            <select name="topic">
+              <option value="">Any topic</option>
+              {topics.map(([value, label]) => <option value={value}>{label}</option>)}
+            </select>
+          </label>
+        </div>
+      </form>
+    </details>
+    <p class="count" role="status" aria-live="polite" data-count>{count(entries.length)}</p>
+    <div data-results data-total={entries.length} data-batch={BATCH}>
+      <ActionList entries={entries.slice(0, BATCH)} heading="h2" />
+    </div>
+    <p class="empty" data-empty hidden>Nothing matches. Try a different search or filters.</p>
+    <button class="more" type="button" data-more hidden={entries.length <= BATCH}>Show more</button>
   </div>
 </Base>
 
 <script>
+  type Index = {
+    status: string[];
+    level: string[];
+    topic: string[];
+    place: [string, string, string, number, number[]][];
+    actions: [string, number, number, number[], number[]][];
+  };
+  type Pagefind = {
+    init: () => Promise<void>;
+    search: (q: string, o: object) => Promise<{ results: { data: () => Promise<{ url: string }> }[] }>;
+  };
+
+  const details = document.querySelector<HTMLDetailsElement>('[data-tools]')!;
   const form = document.querySelector<HTMLFormElement>('[data-filters]')!;
-  const items = [...document.querySelectorAll<HTMLElement>('li[data-entry]')];
+  const active = document.querySelector<HTMLElement>('[data-active]')!;
+  const results = document.querySelector<HTMLElement>('[data-results]')!;
+  const list = results.querySelector<HTMLUListElement>('ul')!;
   const count = document.querySelector<HTMLElement>('[data-count]')!;
   const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  const more = document.querySelector<HTMLButtonElement>('[data-more]')!;
+  const BATCH = Number(results.dataset.batch);
+  const FIELDS = ['q', 'status', 'level', 'where', 'topic'];
 
-  function apply() {
+  let index: Promise<Index> | undefined;
+  const getIndex = () => (index ??= fetch('/action-index.json').then((r) => r.json()));
+  let pagefind: Promise<Pagefind> | undefined;
+  const PAGEFIND = '/pagefind/pagefind.js';
+  const getPagefind = () =>
+    (pagefind ??= import(/* @vite-ignore */ PAGEFIND).then(async (pf: Pagefind) => (await pf.init(), pf)));
+
+  // The current matches, in order, as slugs to come (a search's are fetched from Pagefind as they're needed).
+  let matches: (() => Promise<string>)[] = [];
+  let shown = list.children.length;
+  let run = 0;
+
+  const label = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' : 's'}`;
+
+  function values() {
     const f = new FormData(form);
-    const status = f.get('status') as string;
-    const level = f.get('level') as string;
-    const topic = f.get('topic') as string;
-    let n = 0;
-    for (const li of items) {
-      const show =
-        (!status || li.dataset.group === status) &&
-        (!level || li.dataset.level === level) &&
-        (!topic || li.dataset.topics!.split(' ').includes(topic));
-      li.hidden = !show;
-      if (show) n++;
+    return Object.fromEntries(FIELDS.map((k) => [k, (f.get(k) as string | null)?.trim() ?? '']));
+  }
+
+  async function find(v: Record<string, string>): Promise<(() => Promise<string>)[]> {
+    const idx = await getIndex();
+    const scope = v.where ? idx.place.find((p) => p[0] === v.where)?.[4] ?? [] : [];
+    if (v.q) {
+      const filters: Record<string, unknown> = {};
+      if (v.status) filters.status = v.status;
+      if (v.level) filters.level = v.level;
+      if (v.topic) filters.topic = v.topic;
+      if (v.where) filters.place = { any: scope.map((i) => idx.place[i][0]) };
+      const found = await (await getPagefind()).search(v.q, { filters });
+      return found.results.map((r) => async () => (await r.data()).url.replace(/^\/action\//, '').replace(/\/$/, ''));
     }
-    count.textContent = `${n} action${n === 1 ? '' : 's'}`;
-    empty.hidden = n > 0;
-    const params = new URLSearchParams([...f].filter(([, v]) => v) as [string, string][]);
+    const status = idx.status.indexOf(v.status);
+    const level = idx.level.indexOf(v.level);
+    const topic = idx.topic.indexOf(v.topic);
+    const inScope = new Set(scope);
+    return idx.actions
+      .filter(
+        ([, s, l, t, p]) =>
+          (!v.status || s === status) &&
+          (!v.level || l === level) &&
+          (!v.topic || t.includes(topic)) &&
+          (!v.where || p.some((x) => inScope.has(x))),
+      )
+      .map(([slug]) => () => Promise.resolve(slug));
+  }
+
+  // The cards for matches [from, to), in order, as list items.
+  async function cards(from: number, to: number) {
+    const slugs = await Promise.all(matches.slice(from, to).map((m) => m()));
+    const html = await Promise.all(slugs.map((s) => fetch(`/card/${s}.html`).then((r) => (r.ok ? r.text() : ''))));
+    const t = document.createElement('template');
+    t.innerHTML = html.join('');
+    return [...t.content.children];
+  }
+
+  async function apply() {
+    const mine = ++run;
+    const v = values();
+    const n = FIELDS.filter((k) => v[k]).length;
+    active.textContent = n ? `(${n})` : '';
+    results.setAttribute('aria-busy', 'true');
+    const found = await find(v);
+    if (mine !== run) return;
+    matches = found;
+    const first = await cards(0, BATCH);
+    if (mine !== run) return;
+    list.replaceChildren(...first);
+    shown = first.length;
+    finish();
+    const params = new URLSearchParams(Object.entries(v).filter(([, x]) => x));
     history.replaceState(null, '', params.size ? `?${params}` : location.pathname);
   }
 
-  // Restore filters from the URL so filtered views can be shared.
+  function finish() {
+    results.removeAttribute('aria-busy');
+    count.textContent = label(matches.length);
+    empty.hidden = matches.length > 0;
+    more.hidden = shown >= matches.length;
+  }
+
+  more.addEventListener('click', async () => {
+    const mine = run;
+    more.disabled = true;
+    if (!matches.length) matches = await find(values());
+    const next = await cards(shown, shown + BATCH);
+    more.disabled = false;
+    if (mine !== run) return;
+    list.append(...next);
+    shown += next.length;
+    finish();
+    // Move focus to the first new card, so keyboard and screen-reader users carry on from there.
+    next[0]?.querySelector<HTMLElement>('a.body')?.focus();
+  });
+
+  let typing: ReturnType<typeof setTimeout> | undefined;
+  form.addEventListener('input', (e) => {
+    if ((e.target as HTMLInputElement).name !== 'q') return;
+    clearTimeout(typing);
+    typing = setTimeout(apply, 250);
+  });
+  form.addEventListener('change', (e) => {
+    if ((e.target as HTMLInputElement).name !== 'q') apply();
+  });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    clearTimeout(typing);
+    apply();
+  });
+
+  // A shared link opens with its search and filters applied, and the panel open so they show.
   const params = new URLSearchParams(location.search);
   for (const [k, v] of params) {
     const field = form.elements.namedItem(k);
-    if (field instanceof RadioNodeList || field instanceof HTMLSelectElement) field.value = v;
+    if (field instanceof RadioNodeList || field instanceof HTMLSelectElement || field instanceof HTMLInputElement) field.value = v;
   }
-  form.addEventListener('change', apply);
-  if (params.size) apply();
+  if (FIELDS.some((k) => params.get(k))) {
+    details.open = true;
+    apply();
+  }
 </script>
 
 <style>
@@ -110,12 +267,91 @@ const filters = {
     font-size: clamp(var(--t-3xl), 7vw, var(--t-5xl));
     letter-spacing: -0.02em;
   }
+  /* Search and filter, closed until asked for; the summary is a button like the filters' chips. */
+  .tools {
+    margin-top: 1.5rem;
+  }
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 48px;
+    padding: 0 1.1rem;
+    border: 3px solid var(--ink);
+    background: var(--paper);
+    font: 700 1.0625rem / 1 var(--text);
+    cursor: pointer;
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.15rem;
+    border-right: 2.5px solid currentColor;
+    border-bottom: 2.5px solid currentColor;
+    transform: translateY(-0.15rem) rotate(45deg);
+  }
+  .tools[open] summary::after {
+    transform: translateY(0.15rem) rotate(-135deg);
+  }
+  .tools[open] summary {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  summary:hover {
+    text-decoration: underline;
+  }
+  summary:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+  }
   .filters {
     display: flex;
     flex-wrap: wrap;
     align-items: end;
-    gap: 1rem 2rem;
-    margin-top: 1.5rem;
+    gap: 1.25rem 2rem;
+    margin-top: 1.25rem;
+  }
+  /* Search on a row of its own; the filters wrap below it. */
+  .search {
+    display: grid;
+    gap: 0.4rem;
+    flex: 1 0 100%;
+  }
+  .search input {
+    width: 100%;
+    max-width: 36rem;
+  }
+  .search > span,
+  .pick > span {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .search input {
+    min-height: 3.25rem;
+    padding: 0 0.75rem;
+    border: 3px solid var(--ink);
+    border-radius: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 500 1.0625rem / 1.2 var(--text);
+  }
+  .search input:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+  }
+  .selects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.25rem;
+  }
+  .pick {
+    display: grid;
+    gap: 0.4rem;
   }
   fieldset {
     display: flex;
@@ -125,9 +361,9 @@ const filters = {
     padding: 0;
     border: 0;
   }
-  legend,
-  .topic > span {
+  legend {
     display: block;
+    padding: 0;
     width: 100%;
     margin-bottom: 0.4rem;
     font-weight: 700;
@@ -162,6 +398,8 @@ const filters = {
     outline-offset: 2px;
   }
   select {
+    width: 14rem;
+    max-width: 100%;
     min-height: 44px;
     padding: 0 0.6rem;
     border: 2px solid var(--ink);
@@ -175,5 +413,35 @@ const filters = {
   }
   .empty {
     font-size: var(--t-body);
+  }
+  [data-results][aria-busy='true'] {
+    opacity: 0.45;
+    transition: opacity 0.15s 0.15s;
+  }
+  /* Like the action page's "Share this". */
+  .more {
+    display: block;
+    min-height: 48px;
+    margin: 3rem auto 0;
+    padding: 0 1.5rem;
+    border: 3px solid var(--ink);
+    background: var(--paper);
+    font: 700 1.0625rem / 1 var(--text);
+    cursor: pointer;
+  }
+  .more:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .more:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+  }
+  .more[disabled] {
+    opacity: 0.5;
+    cursor: progress;
+  }
+  .more[hidden] {
+    display: none;
   }
 </style>
