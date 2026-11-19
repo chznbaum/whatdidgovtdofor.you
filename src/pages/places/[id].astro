@@ -5,6 +5,7 @@ import ActionList from '../../components/ActionList.astro';
 import YourTurnHere from '../../components/YourTurnHere.astro';
 import { getEntries, getPlacesMap, officialUrl, placeModified, placeSections, placeTitle, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
+import { placeFeedUrl } from '../../lib/feed.ts';
 import { placeNodes } from '../../lib/jsonld.ts';
 
 export async function getStaticPaths() {
@@ -42,6 +43,7 @@ const ownHeading =
 <Base
   title={p.name}
   metaTitle={title}
+  feed={{ href: placeFeedUrl(place.id), title: `${title} | whatdidgovtdofor.you` }}
   description={p.blurb ?? description}
   jsonld={placeNodes(place, places, p.blurb ?? description, placeModified(place, entries, places, seated))}
 >

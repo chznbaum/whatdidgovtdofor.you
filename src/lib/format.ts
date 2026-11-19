@@ -72,6 +72,10 @@ export const ACTION_NOUN: Record<CollectionEntry<'entries'>['data']['action']['t
   settlement: 'settlement',
 };
 
+// Who acted, what kind of action, and when: "Virginia law, April 2026", "Federal rule, May 2024".
+export const actionLine = (type: keyof typeof ACTION_NOUN, date: Date, placeId: string, placeName: string) =>
+  `${placeId === 'us' ? 'Federal' : placeName} ${ACTION_NOUN[type]}, ${formatMonth(date)}`;
+
 export const ROLE_LABEL: Record<Role, string> = {
   signed: 'Signed it',
   sponsored: 'Sponsored it',
