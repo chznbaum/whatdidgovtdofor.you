@@ -1,38 +1,17 @@
 ---
-// The button under a list that adds the next batch of cards (the list's own script loads them). Styled like the
-// action page's "Share this".
+// The button under a list that adds the next batch of cards (the list's own script loads them). The outlined
+// button style is shared (.button in global.css); this only places it.
 interface Props {
   hidden?: boolean;
 }
 const { hidden = true } = Astro.props;
 ---
 
-<button class="more" type="button" data-more hidden={hidden}>Show more</button>
+<button class="more button" type="button" data-more hidden={hidden}>Show more</button>
 
 <style>
   .more {
     display: block;
-    min-height: 48px;
     margin: 3rem auto 0;
-    padding: 0 1.5rem;
-    border: 3px solid var(--ink);
-    background: var(--paper);
-    font: 700 1.0625rem / 1 var(--text);
-    cursor: pointer;
-  }
-  .more:hover {
-    background: var(--ink);
-    color: var(--paper);
-  }
-  .more:focus-visible {
-    outline: 3px solid var(--ink);
-    outline-offset: 2px;
-  }
-  .more[disabled] {
-    opacity: 0.5;
-    cursor: progress;
-  }
-  .more[hidden] {
-    display: none;
   }
 </style>

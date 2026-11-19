@@ -69,6 +69,45 @@ svg {
   display: none !important;
 }
 
+/* Buttons take the site's type and color, not the browser's (iOS paints button text system blue). */
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  color: inherit;
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* The outlined button (Show more, Share this). It inverts under a pointer that can hover, and while pressed on a
+   touch screen; a tap never leaves it inverted. While it's busy (disabled), it keeps its look. */
+.button {
+  min-height: 48px;
+  padding: 0 1.25rem;
+  border: 3px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font: 700 1.0625rem / 1 var(--text);
+  cursor: pointer;
+}
+.button:active {
+  background: var(--ink);
+  color: var(--paper);
+}
+@media (hover: hover) {
+  .button:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+}
+.button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+.button[disabled] {
+  cursor: progress;
+}
+
 h1,
 h2,
 h3,

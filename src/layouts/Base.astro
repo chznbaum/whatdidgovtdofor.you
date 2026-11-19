@@ -111,6 +111,8 @@ const nav = [
     </main>
     {cta && <CallToAction />}
     {footer && <SiteFooter />}
+    {/* iOS Safari applies :active (a pressed button) only on a page that listens for touches. */}
+    <script is:inline>document.addEventListener('touchstart', () => {}, { passive: true });</script>
   </body>
 </html>
 
