@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import ActionList from '../../components/ActionList.astro';
 import YourTurnHere from '../../components/YourTurnHere.astro';
-import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeUrl, type Place } from '../../lib/data.ts';
+import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeTitle, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
@@ -15,6 +15,7 @@ const p = place.data;
 const entries = await getEntries();
 const places = await getPlacesMap();
 
+const title = placeTitle(place, places);
 const scope = placeAndDescendants(place.id, places);
 const isRegion = p.kind === 'region';
 const own = isRegion
@@ -29,6 +30,12 @@ const around =
     ? []
     : entriesWithin(place.id, entries, places).filter((e) => !own.includes(e) && !footprint.includes(e));
 
+// For places without a blurb: how many actions are this place's own (its government's, or aimed at it).
+const count = own.length + footprint.length;
+const description = count
+  ? `${count} ${count === 1 ? 'thing' : 'things'} government did for people in ${title}, who made them happen, and whether they still stand.`
+  : `What government did for people in ${title}.`;
+
 const seated = (await getCollection('officials')).filter((o) => o.data.current && o.data.seat?.place.id === place.id);
 const children = [...places.values()].filter((c) => c.data.parent?.id === place.id || p.members.some((m) => m.id === c.id));
 
@@ -42,7 +49,11 @@ const ownHeading =
         : `What ${p.name} did`;
 ---
 
-<Base title={p.name} description={p.blurb ?? `What government did for people in ${p.name}.`}>
+<Base
+  title={p.name}
+  metaTitle={title}
+  description={p.blurb ?? description}
+>
   <div class="wrap">
     <header class="head">
       <div class="panel">

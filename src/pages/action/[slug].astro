@@ -8,7 +8,8 @@ import Face from '../../components/Face.astro';
 import PortraitCredit from '../../components/PortraitCredit.astro';
 import Status from '../../components/Status.astro';
 import VoteTally from '../../components/VoteTally.astro';
-import { entrySlug, getEntries, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
+import { entryDates, entrySlug, getEntries, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
+import { entryShareAlt } from '../../lib/share.ts';
 import { ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
@@ -53,7 +54,13 @@ const impacts = d.impact.filter((i) => !d.title.toLowerCase().includes(i.figure.
 const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type === 'ordinance' ? 'Signed into law by' : 'Signed by');
 ---
 
-<Base title={d.title} description={d.dek} image={`/og/${entrySlug(entry)}.png`}>
+<Base
+  title={d.title}
+  description={d.dek}
+  image={`/og/${entrySlug(entry)}.png`}
+  imageAlt={await entryShareAlt(entry)}
+  article={entryDates(entry)}
+>
   <div class="top" id="cover">
     <section class="cover" data-art={art} data-size={size} aria-labelledby="title">
       <p class="where"><a href={placeUrl(place.id)}>{where}</a></p>
