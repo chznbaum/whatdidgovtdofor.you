@@ -17,16 +17,10 @@ const org = 'lean' in item ? item : undefined;
   {
     variant === 'card' ? (
       <h3>
-        <a href={item.url} target="_blank" rel="noopener">
-          {item.name}
-          <span class="visually-hidden">, opens in a new tab</span>
-        </a>
+        <a href={item.url} target="_blank" rel="noopener" aria-label={`${item.name}, opens in a new tab`}>{item.name}</a>
       </h3>
     ) : (
-      <a class="name" href={item.url} target="_blank" rel="noopener">
-        {item.name}
-        <span class="visually-hidden">, opens in a new tab</span>
-      </a>
+      <a class="name" href={item.url} target="_blank" rel="noopener" aria-label={`${item.name}, opens in a new tab`}>{item.name}</a>
     )
   }
   {org && <p class="lean">{LEAN_LABEL[org.lean]}</p>}
