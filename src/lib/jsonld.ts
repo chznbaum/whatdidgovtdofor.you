@@ -202,7 +202,7 @@ export function actionNodes(e: Entry, credits: Credit[], place: Place, places: M
 
 // ---------- an official ----------
 
-export function officialNodes(o: Official, place: Place, places: Map<string, Place>): Node[] {
+export function officialNodes(o: Official, place: Place, places: Map<string, Place>, modified?: Date): Node[] {
   const url = absoluteUrl(officialUrl(o.id));
   const person = o.data.kind === 'person';
   return [
@@ -213,6 +213,7 @@ export function officialNodes(o: Official, place: Place, places: Map<string, Pla
       name: o.data.name,
       isPartOf: ref(ids.website),
       mainEntity: ref(officialId(o.id)),
+      ...(modified && { dateModified: day(modified) }),
     },
     {
       ...officialRef(o),
@@ -226,7 +227,7 @@ export function officialNodes(o: Official, place: Place, places: Map<string, Pla
 
 // ---------- a place ----------
 
-export function placeNodes(p: Place, places: Map<string, Place>, description: string): Node[] {
+export function placeNodes(p: Place, places: Map<string, Place>, description: string, modified?: Date): Node[] {
   const url = absoluteUrl(placeUrl(p.id));
   return [
     {
@@ -235,6 +236,7 @@ export function placeNodes(p: Place, places: Map<string, Place>, description: st
       url,
       name: placeTitle(p, places),
       description,
+      ...(modified && { dateModified: day(modified) }),
       isPartOf: ref(ids.website),
       about: placeNode(p, places),
     },

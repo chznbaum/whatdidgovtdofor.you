@@ -1,4 +1,5 @@
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import { fileDate, latest } from './lastmod.ts';
 
 export type Entry = CollectionEntry<'entries'>;
 export type Official = CollectionEntry<'officials'>;
@@ -10,12 +11,30 @@ export const entryUrl = (e: Entry) => `/action/${entrySlug(e)}`;
 export const officialUrl = (id: string) => `/officials/${id}`;
 export const placeUrl = (id: string) => `/places/${id}`;
 
-// When the site published an entry, and when its page last changed: the later of the draft, the verifier's check
-// and the status check, each of which the page shows.
+// When the site published an entry, and when its page last changed: the latest of the draft, the verifier's check
+// and the status check (each shown on the page) and the last change to its file (a hand correction, say).
 export const entryDates = (e: Entry) => {
   const v = e.data.verification;
-  const dates = [v.writer.date, v.verifier?.date, e.data.status.as_of].filter((d): d is Date => Boolean(d));
-  return { published: v.writer.date, modified: new Date(Math.max(...dates.map((d) => d.getTime()))) };
+  return { published: v.writer.date, modified: latest(v.writer.date, v.verifier?.date, e.data.status.as_of, fileDate(e.filePath))! };
+};
+
+const newestPublished = (entries: Entry[]) => latest(...entries.map((e) => entryDates(e).published));
+
+// An official's page changes with their own file and drawing, and when an action crediting them is added.
+export const officialModified = (o: Official, entries: Entry[]) => {
+  const image = o.data.portrait?.image;
+  return latest(
+    fileDate(o.filePath),
+    fileDate(image && `public${image}`),
+    fileDate(image && `public${image.replace(/\.webp$/, '-400.webp')}`),
+    newestPublished(entries.filter((e) => e.data.credit.some((c) => c.official.id === o.id))),
+  );
+};
+
+// A place's page changes with its own file, the officials seated there, and the actions it lists.
+export const placeModified = (place: Place, entries: Entry[], places: Map<string, Place>, seated: Official[]) => {
+  const { own, footprint, around } = placeSections(place, entries, places);
+  return latest(fileDate(place.filePath), ...seated.map((o) => fileDate(o.filePath)), newestPublished([...own, ...footprint, ...around]));
 };
 
 // AP abbreviations for the states we cover, for page titles ("Ashland, Va."). A state missing here gets its full name.
@@ -50,6 +69,25 @@ export async function getOfficialsMap(): Promise<Map<string, Official>> {
 
 export async function getPlacesMap(): Promise<Map<string, Place>> {
   return new Map((await getCollection('places')).map((p) => [p.id, p]));
+}
+
+// What a place's page lists: its own actions (its government's; a region's, its local governments'), actions from
+// elsewhere aimed at it (footprint), and actions from the governments around it that reach it (around).
+export function placeSections(place: Place, entries: Entry[], places: Map<string, Place>) {
+  const scope = placeAndDescendants(place.id, places);
+  const isRegion = place.data.kind === 'region';
+  const own = isRegion
+    ? entries.filter((e) => e.data.level === 'local' && scope.has(e.data.jurisdiction.id))
+    : entries.filter((e) => e.data.jurisdiction.id === place.id);
+  const footprint =
+    place.id === 'us'
+      ? []
+      : entries.filter((e) => !own.includes(e) && e.data.places.some((x) => scope.has(x.id)) && !scope.has(e.data.jurisdiction.id));
+  const around =
+    place.id === 'us' || isRegion
+      ? []
+      : entriesWithin(place.id, entries, places).filter((e) => !own.includes(e) && !footprint.includes(e));
+  return { own, footprint, around };
 }
 
 // Every place id an entry applies to: where the acting government sits plus any local footprint.
