@@ -8,9 +8,10 @@ import Face from '../../components/Face.astro';
 import PortraitCredit from '../../components/PortraitCredit.astro';
 import Status from '../../components/Status.astro';
 import VoteTally from '../../components/VoteTally.astro';
-import { entryDates, entrySlug, getEntries, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
+import { entryDates, entrySlug, getEntries, getPlacesMap, officialUrl, placeUrl, type Entry } from '../../lib/data.ts';
+import { actionNodes } from '../../lib/jsonld.ts';
 import { entryShareAlt } from '../../lib/share.ts';
-import { ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
+import { ACTION_NOUN, ROLE_BYLINE, ROLE_LABEL, TOPIC_LABELS, coverCredits, formatDate, formatMonth, modelName, nameWithParty } from '../../lib/format.ts';
 
 export async function getStaticPaths() {
   return (await getEntries()).map((entry) => ({ params: { slug: entrySlug(entry) }, props: { entry } }));
@@ -36,18 +37,7 @@ const art = stars[0].person.data.kind === 'body' ? 'body' : pictured.length > 1 
 const and = new Intl.ListFormat('en', { type: 'conjunction' });
 
 // "Virginia law, April 2026": who acted, what kind of action, when.
-const NOUN: Record<typeof d.action.type, string> = {
-  law: 'law',
-  ordinance: 'local law',
-  'ballot-measure': 'ballot measure',
-  budget: 'budget',
-  grant: 'grant',
-  program: 'program',
-  regulation: 'rule',
-  'executive-order': 'executive order',
-  settlement: 'settlement',
-};
-const where = `${place.id === 'us' ? 'Federal' : place.data.name} ${NOUN[d.action.type]}, ${formatMonth(d.action.date)}`;
+const where = `${place.id === 'us' ? 'Federal' : place.data.name} ${ACTION_NOUN[d.action.type]}, ${formatMonth(d.action.date)}`;
 const size = d.title.length <= 42 ? 'l' : d.title.length <= 64 ? 'm' : 's';
 // Impact figures the headline doesn't already say.
 const impacts = d.impact.filter((i) => !d.title.toLowerCase().includes(i.figure.toLowerCase()));
@@ -60,6 +50,7 @@ const signedPhrase = (type: typeof d.action.type) => (type === 'law' || type ===
   image={`/og/${entrySlug(entry)}.png`}
   imageAlt={await entryShareAlt(entry)}
   article={entryDates(entry)}
+  jsonld={actionNodes(entry, credits, place, await getPlacesMap())}
 >
   <div class="top" id="cover">
     <section class="cover" data-art={art} data-size={size} aria-labelledby="title">
