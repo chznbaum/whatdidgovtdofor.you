@@ -154,16 +154,14 @@ a {
 }
 
 /* Every link that leaves the site ends with the same mark, wherever it is (Markdown content included), so people can
-   tell before they follow it. Drawn as a mask in the link's own color on an inline box (an inline block would give
-   the line a place to break), so the mark never wraps away from the link's last word. */
-a[href^="http"]:not([href^="https://whatdidgovtdofor.you"]) {
-  --ext: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.75'%3E%3Cpath d='M14 3h7v7M21 3 11 13M19 14v7H3V5h7'/%3E%3C/svg%3E");
-}
+   tell before they follow it. The mark is a background image on an inline box that holds a word joiner, so it never
+   wraps away from the link's last word and isn't underlined. It's black, and white inside .on-ink, the class the
+   site's dark sections carry; a background image can't take the text's color. */
 a[href^="http"]:not([href^="https://whatdidgovtdofor.you"])::after {
-  /* A word joiner: no break between the link's last character and the mark, even after a ")". */
   content: '\2060';
   padding-left: 0.84em;
-  background-color: currentColor;
-  -webkit-mask: var(--ext) right center / 0.62em 0.62em no-repeat;
-  mask: var(--ext) right center / 0.62em 0.62em no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.75'%3E%3Cpath d='M14 3h7v7M21 3 11 13M19 14v7H3V5h7'/%3E%3C/svg%3E") right center / 0.62em 0.62em no-repeat;
+}
+.on-ink a[href^="http"]:not([href^="https://whatdidgovtdofor.you"])::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.75'%3E%3Cpath d='M14 3h7v7M21 3 11 13M19 14v7H3V5h7'/%3E%3C/svg%3E");
 }
