@@ -75,7 +75,7 @@ start_run() {
 }
 
 publish() {
-  git add src/content src/data/roster pipeline/decisions.json pipeline/retracted.json
+  git add src/content src/data/roster src/data/lastmod.json pipeline/decisions.json pipeline/retracted.json
   git diff --cached --quiet || git commit -q -m "$1"
   [ -n "$BRANCH" ] || return 0
 

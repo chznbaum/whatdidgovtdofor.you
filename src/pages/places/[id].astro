@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import ActionList from '../../components/ActionList.astro';
 import YourTurnHere from '../../components/YourTurnHere.astro';
-import { entriesWithin, getEntries, getPlacesMap, officialUrl, placeAndDescendants, placeTitle, placeUrl, type Place } from '../../lib/data.ts';
+import { getEntries, getPlacesMap, officialUrl, placeModified, placeSections, placeTitle, placeUrl, type Place } from '../../lib/data.ts';
 import { nameWithParty } from '../../lib/format.ts';
 import { placeNodes } from '../../lib/jsonld.ts';
 
@@ -17,19 +17,8 @@ const entries = await getEntries();
 const places = await getPlacesMap();
 
 const title = placeTitle(place, places);
-const scope = placeAndDescendants(place.id, places);
 const isRegion = p.kind === 'region';
-const own = isRegion
-  ? entries.filter((e) => e.data.level === 'local' && scope.has(e.data.jurisdiction.id))
-  : entries.filter((e) => e.data.jurisdiction.id === place.id);
-const footprint =
-  place.id === 'us'
-    ? []
-    : entries.filter((e) => !own.includes(e) && e.data.places.some((x) => scope.has(x.id)) && !scope.has(e.data.jurisdiction.id));
-const around =
-  place.id === 'us' || isRegion
-    ? []
-    : entriesWithin(place.id, entries, places).filter((e) => !own.includes(e) && !footprint.includes(e));
+const { own, footprint, around } = placeSections(place, entries, places);
 
 // For places without a blurb: how many actions are this place's own (its government's, or aimed at it).
 const count = own.length + footprint.length;
@@ -54,7 +43,7 @@ const ownHeading =
   title={p.name}
   metaTitle={title}
   description={p.blurb ?? description}
-  jsonld={placeNodes(place, places, p.blurb ?? description)}
+  jsonld={placeNodes(place, places, p.blurb ?? description, placeModified(place, entries, places, seated))}
 >
   <div class="wrap">
     <header class="head">
