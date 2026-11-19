@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import ActionList from '../components/ActionList.astro';
+import ShowMore from '../components/ShowMore.astro';
 import StatusMark from '../components/StatusMark.astro';
 import { entryPlaceIds, getEntries, getPlacesMap, placeAndDescendants, stateOf } from '../lib/data.ts';
 import { TOPIC_LABELS } from '../lib/format.ts';
@@ -112,18 +113,13 @@ const count = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' 
       <ActionList entries={entries.slice(0, BATCH)} heading="h2" />
     </div>
     <p class="empty" data-empty hidden>Nothing matches. Try a different search or filters.</p>
-    <button class="more" type="button" data-more hidden={entries.length <= BATCH}>Show more</button>
+    <ShowMore hidden={entries.length <= BATCH} />
   </div>
 </Base>
 
 <script>
-  type Index = {
-    status: string[];
-    level: string[];
-    topic: string[];
-    place: [string, string, string, number, number[]][];
-    actions: [string, number, number, number[], number[]][];
-  };
+  import { cardItems, getIndex } from '../lib/cards.ts';
+
   type Pagefind = {
     init: () => Promise<void>;
     search: (q: string, o: object) => Promise<{ results: { data: () => Promise<{ url: string }> }[] }>;
@@ -140,8 +136,6 @@ const count = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' 
   const BATCH = Number(results.dataset.batch);
   const FIELDS = ['q', 'status', 'level', 'where', 'topic'];
 
-  let index: Promise<Index> | undefined;
-  const getIndex = () => (index ??= fetch('/action-index.json').then((r) => r.json()));
   let pagefind: Promise<Pagefind> | undefined;
   const PAGEFIND = '/pagefind/pagefind.js';
   const getPagefind = () =>
@@ -187,13 +181,7 @@ const count = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' 
   }
 
   // The cards for matches [from, to), in order, as list items.
-  async function cards(from: number, to: number) {
-    const slugs = await Promise.all(matches.slice(from, to).map((m) => m()));
-    const html = await Promise.all(slugs.map((s) => fetch(`/card/${s}.html`).then((r) => (r.ok ? r.text() : ''))));
-    const t = document.createElement('template');
-    t.innerHTML = html.join('');
-    return [...t.content.children];
-  }
+  const cards = async (from: number, to: number) => cardItems(await Promise.all(matches.slice(from, to).map((m) => m())));
 
   async function apply() {
     const mine = ++run;
@@ -417,31 +405,5 @@ const count = (n: number) => `${n.toLocaleString('en-US')} action${n === 1 ? '' 
   [data-results][aria-busy='true'] {
     opacity: 0.45;
     transition: opacity 0.15s 0.15s;
-  }
-  /* Like the action page's "Share this". */
-  .more {
-    display: block;
-    min-height: 48px;
-    margin: 3rem auto 0;
-    padding: 0 1.5rem;
-    border: 3px solid var(--ink);
-    background: var(--paper);
-    font: 700 1.0625rem / 1 var(--text);
-    cursor: pointer;
-  }
-  .more:hover {
-    background: var(--ink);
-    color: var(--paper);
-  }
-  .more:focus-visible {
-    outline: 3px solid var(--ink);
-    outline-offset: 2px;
-  }
-  .more[disabled] {
-    opacity: 0.5;
-    cursor: progress;
-  }
-  .more[hidden] {
-    display: none;
   }
 </style>
