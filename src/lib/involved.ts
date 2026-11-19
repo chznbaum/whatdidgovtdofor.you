@@ -165,6 +165,6 @@ export const sentence = (s: string, lead = '') => {
   return /[.!?]$/.test(t) ? t : `${t}.`;
 };
 
-// Where /your-turn/ narrows to: the places listed, plus everything that contains them. The /you/ results link passes
+// Where /your-turn narrows to: the places listed, plus everything that contains them. The /you results link passes
 // the lookup's own place set ("us,va,hampton-roads,norfolk"); a place page passes its own id.
-export const yourTurnUrl = (ids: string[] = []) => (ids.length ? `/your-turn/?places=${ids.join(',')}` : '/your-turn/');
+export const yourTurnUrl = (ids: string[] = []) => (ids.length ? `/your-turn?places=${ids.join(',')}` : '/your-turn');

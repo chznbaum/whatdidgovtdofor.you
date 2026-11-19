@@ -7,7 +7,7 @@ interface Props {
 const { id = 'address' } = Astro.props;
 ---
 
-<form class="lookup" action="/you/" method="get" data-lookup>
+<form class="lookup" action="/you" method="get" data-lookup>
   <label for={id}>Who did something for your address?</label>
   <div class="field">
     <input
@@ -32,8 +32,8 @@ const { id = 'address' } = Astro.props;
       event.preventDefault();
       const address = new FormData(form).get('address')?.toString().trim();
       if (!address) return;
-      const target = `/you/#${encodeURIComponent(address)}`;
-      if (location.pathname === '/you/') {
+      const target = `/you#${encodeURIComponent(address)}`;
+      if (location.pathname.replace(/\/$/, '') === '/you') {
         location.hash = encodeURIComponent(address);
       } else {
         location.href = target;

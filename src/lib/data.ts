@@ -6,9 +6,9 @@ export type Place = CollectionEntry<'places'>;
 
 // URL slug: the file name without its level folder ("federal/medicare-insulin-35-cap" → "medicare-insulin-35-cap").
 export const entrySlug = (e: Entry) => e.id.split('/').pop()!;
-export const entryUrl = (e: Entry) => `/action/${entrySlug(e)}/`;
-export const officialUrl = (id: string) => `/officials/${id}/`;
-export const placeUrl = (id: string) => `/places/${id}/`;
+export const entryUrl = (e: Entry) => `/action/${entrySlug(e)}`;
+export const officialUrl = (id: string) => `/officials/${id}`;
+export const placeUrl = (id: string) => `/places/${id}`;
 
 const byDateDesc = (a: Entry, b: Entry) => b.data.action.date.getTime() - a.data.action.date.getTime();
 
