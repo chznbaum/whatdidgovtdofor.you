@@ -1,18 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { entriesWithin, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
+import { actionCount, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
 import { andList } from '../../lib/format.ts';
 
 const entries = await getEntries();
 const places = await getPlacesMap();
-const count = (id: string) =>
-  id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
+const count = (id: string) => actionCount(id, entries, places);
 
 // One orange panel per state: the state, each of its regions followed by the region's members, then the cities and
 // counties outside any region, each county followed by the cities and towns inside it.
 const all = [...places.values()];
 const byName = (a: { data: { name: string } }, b: { data: { name: string } }) => a.data.name.localeCompare(b.data.name);
-const covered = andList(all.filter((p) => p.data.kind === 'state').map((p) => p.data.name).sort());
+// A place shows once it has an action on record; a place file can exist before that (an official's jurisdiction).
+const shown = (id: string) => count(id) > 0;
+const covered = andList(all.filter((p) => p.data.kind === 'state' && shown(p.id)).map((p) => p.data.name).sort());
 const groups = [
   { title: 'Nationwide', ids: ['us'] },
   ...all
@@ -25,7 +26,9 @@ const groups = [
       const rest = outside(s.id).flatMap((p) => [p.id, ...outside(p.id).map((c) => c.id)]);
       return { title: s.data.name, ids: [s.id, ...inRegions, ...rest] };
     }),
-];
+]
+  .map((g) => ({ ...g, ids: g.ids.filter(shown) }))
+  .filter((g) => g.ids.length);
 ---
 
 <Base title="Places" description="Every place we track, with the number of government actions on record there.">

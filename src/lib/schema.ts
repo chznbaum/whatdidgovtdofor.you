@@ -145,7 +145,9 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
     party: z.enum(PARTIES).optional(),
     office: z.string(),
     level: z.enum(['federal', 'state', 'local']),
-    jurisdiction: ref.places,
+    // The place in which they're authorized to wield government power, or an organization is authorized to operate.
+    // A private citizen, credited for their own advocacy and not for an organization, has none.
+    jurisdiction: ref.places.optional(),
     current: z.boolean().default(true),
     // When set, the address lookup shows this official to anyone in `place`. A seat changing hands on a known date (a
     // governor-elect) has `from`, and the one leaving `until`; the site is rebuilt daily, so the lookup switches on its own.
@@ -359,6 +361,10 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),
     feeds: z.array(placeFeedSchema).default([]),
+    // Internal, never shown: whether the pipeline reads this place's feeds. `not-ready`: nothing to pull from yet (a
+    // place filed so officials can name it as their jurisdiction); `paused`: out of the pipeline for now, e.g. while a
+    // feed is being fixed. Left out, the place is read. The note says why.
+    pipeline: z.object({ status: z.enum(['not-ready', 'paused']), note: z.string() }).optional(),
     council: councilSchema.optional(),
     legislature: legislatureSchema.optional(), // a state's
   });

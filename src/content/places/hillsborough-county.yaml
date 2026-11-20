@@ -1,0 +1,7 @@
+name: Hillsborough County
+short: Hillsborough
+kind: county
+parent: fl
+geoids: { state: "12", county: "12057" }
+# Filed so the county's own officials can name it as their jurisdiction. Tampa stays under fl until the county is read.
+pipeline: { status: not-ready, note: "No feed: the county's own records are ruled out by its robots.txt." }

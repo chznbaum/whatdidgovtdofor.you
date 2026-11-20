@@ -59,7 +59,7 @@ credit:
     note: Lead labor economist on the case
   - official: samantha-dalal
     role: implemented
-    note: Workers' Algorithm Observatory researcher on the lead data team
+    note: One of DCWP's lead data scientists on the case
   - official: nyc-dcwp
     role: issued
     note: Investigated the complaints, analyzed DoorDash's records, and issued the order

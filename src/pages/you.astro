@@ -5,12 +5,14 @@ import ActionList from '../components/ActionList.astro';
 import ShowMore from '../components/ShowMore.astro';
 import { getCollection } from 'astro:content';
 import { andList } from '../lib/format.ts';
+import { getEntries, getLookupPlaceIds, getPlacesMap } from '../lib/data.ts';
 
 // The officials are found in the browser (lookup-index.json); the actions that reach the address are chosen from the
 // action index and loaded as cards, 50 at a time per level (src/lib/cards.ts).
 const BATCH = 50;
 // The states we cover, for the note an address elsewhere gets.
-const covered = andList((await getCollection('places', (p) => p.data.kind === 'state')).map((p) => p.data.name).sort());
+const lookup = await getLookupPlaceIds(await getEntries(), await getPlacesMap());
+const covered = andList((await getCollection('places', (p) => p.data.kind === 'state' && lookup.has(p.id))).map((p) => p.data.name).sort());
 const levels = [
   { level: 'local', title: 'From your local government' },
   { level: 'state', title: 'From your state' },

@@ -1,0 +1,7 @@
+name: Syracuse
+short: Syracuse
+kind: city
+parent: ny
+geoids: { state: "36", place: "3673000" }
+# Filed so organizations that work in the city can name it as their jurisdiction.
+pipeline: { status: not-ready, note: "No feed chosen yet." }

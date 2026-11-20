@@ -2,13 +2,14 @@
 // federal one, the same actions /you lists (any whose places include one of the address's). One feed per set of
 // places an address can have (addressPlaceSets in src/lib/data.ts).
 import type { APIRoute } from 'astro';
-import { addressPlaceSets, entryPlaceIds, getEntries, getPlacesMap, placeTitle } from '../../../lib/data.ts';
+import { addressPlaceSets, entryPlaceIds, getEntries, getLookupPlaceIds, getPlacesMap, placeTitle } from '../../../lib/data.ts';
 import { addressFeedUrl, rss } from '../../../lib/feed.ts';
 
 const RANK = ['town', 'city', 'county', 'region', 'state', 'country'];
 
 export async function getStaticPaths() {
-  return addressPlaceSets(await getPlacesMap()).map(({ key, ids }) => ({ params: { key }, props: { ids: [...ids] } }));
+  const places = await getPlacesMap();
+  return addressPlaceSets(places, await getLookupPlaceIds(await getEntries(), places)).map(({ key, ids }) => ({ params: { key }, props: { ids: [...ids] } }));
 }
 
 export const GET: APIRoute = async ({ params, props }) => {
