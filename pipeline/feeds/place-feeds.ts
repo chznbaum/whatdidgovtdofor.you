@@ -22,6 +22,11 @@ export async function placeFeeds(): Promise<Feed[]> {
   for (const file of await listFiles(join(CONTENT, 'places'), '.yaml')) {
     const place = idFromPath(file);
     const p = await readYaml(file);
+    // A place marked `pipeline: { status }` isn't read: not ready (nothing to pull from yet) or paused.
+    if (p.pipeline?.status) {
+      if (p.pipeline.status === 'paused' && p.feeds?.length) console.log(`[${place}] paused, ${p.feeds.length} feed(s) skipped: ${p.pipeline.note}`);
+      continue;
+    }
     for (const f of p.feeds ?? []) {
       switch (f.type) {
         case 'legistar':

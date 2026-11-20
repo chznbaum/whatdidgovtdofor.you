@@ -361,6 +361,10 @@ export const placeSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Refs<
     members: z.array(ref.places).default([]),
     blurb: z.string().optional(),
     feeds: z.array(placeFeedSchema).default([]),
+    // Internal, never shown: whether the pipeline reads this place's feeds. `not-ready`: nothing to pull from yet (a
+    // place filed so officials can name it as their jurisdiction); `paused`: out of the pipeline for now, e.g. while a
+    // feed is being fixed. Left out, the place is read. The note says why.
+    pipeline: z.object({ status: z.enum(['not-ready', 'paused']), note: z.string() }).optional(),
     council: councilSchema.optional(),
     legislature: legislatureSchema.optional(), // a state's
   });

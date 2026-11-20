@@ -2,7 +2,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import federal from '../data/roster/federal.json';
-import { entryPlaceIds, getEntries } from '../lib/data.ts';
+import { entryPlaceIds, getEntries, getLookupPlaceIds, getPlacesMap } from '../lib/data.ts';
 import { sameName } from '../lib/names.ts';
 
 // Synced rosters, by file name: state legislatures (`legislature.roster` in a state's place file) and councils a place
@@ -150,7 +150,8 @@ export const GET: APIRoute = async () => {
     .sort((a, b) => rank(a.data.seat!.title) - rank(b.data.seat!.title))
     .map((o) => ({ place: o.data.seat!.place.id, title: o.data.seat!.title, ...person(o.data.name, o.data.party ?? '', o.data.office, o.id) }));
 
-  const places = allPlaces.map((p) => ({
+  const lookup = await getLookupPlaceIds(entries, await getPlacesMap());
+  const places = allPlaces.filter((p) => lookup.has(p.id)).map((p) => ({
     id: p.id,
     name: p.data.name,
     kind: p.data.kind,

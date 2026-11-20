@@ -117,13 +117,26 @@ export function entriesWithin(id: string, entries: Entry[], places: Map<string, 
   return entries.filter((e) => entryPlaceIds(e).some((p) => scope.has(p)));
 }
 
+// How many actions a place has on record: the federal ones for the country, everything within it for anywhere else.
+export const actionCount = (id: string, entries: Entry[], places: Map<string, Place>) =>
+  id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
+
+// The places the address lookup on /you knows: those with an action on record, or with officials the lookup shows (a
+// council roster or a seat). A place filed only so officials can name it has neither, and an address in it is treated
+// as if the file weren't there. The /you feeds (addressPlaceSets) use the same set, so their keys match the lookup's.
+export async function getLookupPlaceIds(entries: Entry[], places: Map<string, Place>): Promise<Set<string>> {
+  const seats = new Set((await getCollection('officials')).flatMap((o) => (o.data.seat ? [o.data.seat.place.id] : [])));
+  const shown = [...places.values()].filter((p) => p.id === 'us' || p.data.council || seats.has(p.id) || actionCount(p.id, entries, places) > 0);
+  return new Set(shown.map((p) => p.id));
+}
+
 // The sets of places an address can belong to, as /you finds them from the Census (its lookup in src/pages/you.astro):
 // the country, the state, a city or town and a county (any county in the state, since a city can span several), and
 // any region that lists one of them as a member or serves the address's county. Each set has a feed of everything
 // that reaches the address (/you/feed/<key>.xml); the key is the set's ids without "us", sorted, joined by "_"
 // ("us" alone for an address outside the states we cover).
-export function addressPlaceSets(places: Map<string, Place>): { key: string; ids: Set<string> }[] {
-  const all = [...places.values()];
+export function addressPlaceSets(places: Map<string, Place>, lookup: Set<string>): { key: string; ids: Set<string> }[] {
+  const all = [...places.values()].filter((p) => lookup.has(p.id));
   const local = (k: string) => k === 'city' || k === 'county' || k === 'town';
   const regions = all.filter((p) => p.data.kind === 'region');
   const withRegions = (ids: string[], county?: string) => {

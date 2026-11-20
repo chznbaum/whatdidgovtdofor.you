@@ -1,12 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { entriesWithin, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
+import { actionCount, getEntries, getPlacesMap, placeUrl } from '../../lib/data.ts';
 import { andList } from '../../lib/format.ts';
 
 const entries = await getEntries();
 const places = await getPlacesMap();
-const count = (id: string) =>
-  id === 'us' ? entries.filter((e) => e.data.level === 'federal').length : entriesWithin(id, entries, places).length;
+const count = (id: string) => actionCount(id, entries, places);
 
 // One orange panel per state: the state, each of its regions followed by the region's members, then the cities and
 // counties outside any region, each county followed by the cities and towns inside it.
