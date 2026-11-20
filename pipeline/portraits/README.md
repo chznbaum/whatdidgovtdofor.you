@@ -39,8 +39,8 @@ Use real folders and a real venv, not links into the main checkout: Codex agents
 **Steps** (run 5, Nov 2026, took one evening for 50):
 
 1. **Scope:** `node pipeline/portraits/scope.ts 50`, split into groups by place.
-2. **Source:** one agent per group, with `SOURCING.md` "Sourcing a run's list" and the hosts OUTREACH.md lists as blocking us. Run 5 used Claude Opus 5.5 at high effort.
-3. **Pilot:** draw three people with large photos, one agent each, with `DRAWING-BRIEF.md`. Show the owner the tiles on orange beside published peers, and get their call before the rest.
+2. **Source:** one agent per group, with `SOURCING.md` "Sourcing a run's list" and the hosts OUTREACH.md lists as blocking us. Sourcing runs on Codex (owner, Nov 19, 2026: everything but the review); run 5's sourcing ran on Claude Opus 5.5 before that call.
+3. **Pilot,** when the method or a model is new to the project: draw three people with large photos, one agent each, with `DRAWING-BRIEF.md`. Show the owner the tiles on orange beside published peers, and get their call before the rest.
 4. **Draw:** one short agent session per person, about five at a time; start the next as each one finishes. Each draws with its own image tool from the photo, checks, publishes and logs, then ends. Run 5 used Codex `gpt-6-astra` at high effort (never `gpt-6.2-astra`). The task names the person and the run folder, and points at `DRAWING-BRIEF.md` and the person's line in `flags.md`. Agents that stop on an environment problem get restarted once it's fixed.
 5. **Review:** a grid of every new tile on orange, plus `review-sheet.py` contact sheets. Then independent reviewers from a different model family, about 17 people each, with `REVIEW-BRIEF.md`; run 5 used Claude Opus 5.5 at high effort.
 6. **Owner's call:** show the grid, then each face a reviewer flagged, as photo beside drawing and tile beside peers. Fix only what the owner picks, one agent per person, editing the published drawing in place where one property is off (`DRAWING-BRIEF.md`, "Editing a near-miss try in place"); show the result before committing.
