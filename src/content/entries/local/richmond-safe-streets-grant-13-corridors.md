@@ -12,7 +12,7 @@ topics:
   - safety
   - transit
   - infrastructure
-who_benefits: People who walk, bike, ride the bus or drive on 13 high-crash Richmond corridors. The city aims to spend 75% of all its Safe Streets and Roads for All funds in areas of persistent poverty or historically disadvantaged communities.
+who_benefits: People who walk, bike, ride the bus or drive on 13 high-crash Richmond corridors, with a city goal of spending 75% of all its Safe Streets and Roads for All funds in areas of persistent poverty or historically disadvantaged communities.
 impact:
   - figure: $10.77 million
     label: federal Safe Streets and Roads for All grant Richmond accepted
@@ -77,9 +77,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
-  verdict: pass
-  notes: Confirmed the ordinance, grant and match amounts, 13-corridor scope, planned improvements, attribution, and phased status against city and federal records. No cancellation, repeal, or funding cut was found.
+    date: 2026-11-20
+  verdict: corrected
+  notes: Confirmed the amounts, project scope, credits, vote, and phased status against Richmond and federal records. Combined `who_benefits` into the single sentence required by the content guide.
 source_key: richmond-ord-2024-278
 ---
 

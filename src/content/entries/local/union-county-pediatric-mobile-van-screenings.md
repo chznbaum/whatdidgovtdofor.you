@@ -66,9 +66,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: pass
-  notes: Confirmed the grant, resolution, 9–0 vote, attribution, planned services, licensing requirement, and expected 2027 launch. Later 2026 clinics were separate from the funded Union County van; no later source showed the van launched, was cancelled, or lost funding.
+  notes: Confirmed the grant amount, resolution, 9–0 vote, attribution, services, licensing requirement, and planned 2027 launch. No later source showed that the Union County van launched, was cancelled, blocked, or lost funding.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 

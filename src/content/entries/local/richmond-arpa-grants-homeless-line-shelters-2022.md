@@ -21,9 +21,9 @@ impact:
     label: budgeted for upgrades to CARITAS emergency shelters
 status:
   state: in-effect
-  as_of: 2024-12-09
+  as_of: 2026-03-19
   note: The 2024 amendment left $1,202,945.05 appropriated after the council recaptured $80,342.95 that St. Joseph's Villa did not use. Later city budget reports show spending on the grant lines through fiscal year 2025 but do not establish that every amended award was fully paid.
-  source: https://richmondva.legistar.com/View.ashx?GUID=28A492AE-5EA9-4778-820F-E8B71F4A8EAA&ID=13614531&M=F
+  source: https://rva.gov/sites/default/files/2026-03/2026.03.19-BSP-FY27ProposedBudget.pdf
 credit:
   - official: ann-frances-lambert
     role: sponsored
@@ -88,9 +88,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: corrected
-  notes: Confirmed the ordinance, patrons, service amounts, hotline details, and 9–0 roll call. Updated the entry for Richmond’s 2024 recapture of unused youth-outreach funds and distinguished appropriations from confirmed payments.
+  notes: Confirmed the ordinance, amended total, five service amounts, patrons, hotline details, and unanimous roll call. Updated the status date and link to match the latest action-specific spending evidence.
 source_key: richmond-ord-2022-099
 ---
 

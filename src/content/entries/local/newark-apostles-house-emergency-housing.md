@@ -48,9 +48,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: pass
-  notes: Confirmed the resolution, amounts, dates, shelter services, 9–0 adoption, and C. Lawrence Crump’s leadership. No later contract-specific appropriation, amendment, or cancellation was found through November 19, 2026; the entry properly discloses that funding beyond May remains unconfirmed.
+  notes: Confirmed the contract amount, partial funding, dates, 9–0 adoption, Crump’s leadership, and shelter claims. No later contract-specific funding, amendment, or cancellation was found; the entry accurately limits confirmed status to May 31.
 source_key: newark-26-0562
 ---
 

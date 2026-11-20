@@ -1,6 +1,6 @@
 ---
 title: Richmond put $10 million toward 1,000+ affordable rentals
-dek: Richmond's council voted 8-0 in April 2022 to award $10 million in American Rescue Plan housing money as grants and loans. The city said the awards supported more than 1,000 affordable rentals; later reporting said most ARPA-backed units were expected to open in 2026.
+dek: Richmond's council voted 8-0 in April 2022 to award $10 million in American Rescue Plan housing money as grants and loans. The city said the awards supported more than 1,000 affordable rentals; by October 2026, one $1 million first-round project had added 150 units.
 level: local
 jurisdiction: richmond
 action:
@@ -19,13 +19,16 @@ impact:
     label: first round of Richmond's federal relief money set aside for affordable housing
 status:
   state: phasing-in
-  as_of: 2025-09-10
-  note: The award list was amended in 2022 and 2023, and in December 2024 the council recaptured $250,000 from one first-round project for reallocation. The city's Sept. 10, 2025 performance report said ARPA housing investments across its funding rounds supported roughly 2,135 units and that most were expected to come online in 2026; it did not say how many first-round units were open.
-  source: https://www.rva.gov/sites/default/files/2025-09/PY2024%20FY2025%20CAPER%20-%20For%20Public%20Review_0.pdf
+  as_of: 2026-10-08
+  note: The award list was amended in 2022 and 2023, and in December 2024 the council recaptured $250,000 from one first-round project for reallocation. In October 2026, the city said its $1 million investment in the 150-unit Pinnacle at Afton had brought those income-restricted units into its affordable-housing portfolio. The announcement did not give a current completion count for the entire first round; the city's 2025 programwide report had said most ARPA-backed units were expected in 2026.
+  source: https://www.rva.gov/index.php/press-releases-and-announcements-mayors-office/news/remarks-delivered-mayor-danny-avula-affordable
 credit:
   - official: levar-stoney
     role: proposed
     note: Patron of the ordinance; his administration recommended the awards
+  - official: sherrill-hampton
+    role: proposed
+    note: Led the housing department that ran the application process and sent the award recommendations to the council
   - official: richmond-city-council
     role: voted-yes
     note: Approved 8-0 on its consent agenda on April 25, 2022
@@ -77,6 +80,14 @@ sources:
     publisher: City of Richmond Department of Housing and Community Development
     url: https://www.rva.gov/sites/default/files/2025-09/PY2024%20FY2025%20CAPER%20-%20For%20Public%20Review_0.pdf
     date: 2025-09-10
+  - title: Afton Avenue Apartments 2024 Federal Low-Income Housing Tax Credit application
+    publisher: Virginia Housing
+    url: https://s-www.virginiahousing.com/-/media/docs/partners/rental-housing/historical-tax-credits-data/2024/4-pct/afton-avenue-apartments---application.pdf?hash=C342102EF309D9A0B390A851A2A49B42&sc_lang=en
+    date: 2024-01-24
+  - title: Remarks as delivered at the Pinnacle at Afton affordable housing event
+    publisher: City of Richmond Mayor's Office
+    url: https://www.rva.gov/index.php/press-releases-and-announcements-mayors-office/news/remarks-delivered-mayor-danny-avula-affordable
+    date: 2026-10-08
 featured: false
 verification:
   writer:
@@ -86,9 +97,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: corrected
-  notes: Confirmed the ordinance, patron, 8–0 roll call, and $10 million allocation. Corrected the entry to distinguish housing financed or planned from completed homes and updated the status for later amendments and construction progress.
+  notes: Confirmed the ordinance, $10 million award round, 1,000-plus rental figure, patron, roll call, amendments, and net impact. Updated the status with 2026 evidence and added the housing director who oversaw the application and award-recommendation process.
 source_key: richmond-ord-2022-104
 ---
 
@@ -96,4 +107,4 @@ In spring 2022, Richmond approved its first round of federal pandemic-relief awa
 
 Residents do not apply to the city for the development money. It goes to housing providers. People apply to rent or buy the resulting homes, which have income limits; preservation awards can also help existing residents remain in affordable homes.
 
-The city opened applications for the $10 million round in December 2021. Mayor Levar Stoney was the ordinance's patron, and his administration recommended the awards. The City Council approved them 8-0 on April 25, 2022. A 2023 city resolution said the first $10 million supported more than 1,000 affordable rental units, but it did not establish that all those homes were finished. The city later revised the award list and recaptured $250,000 from one project for reallocation. Its September 2025 performance report said most units supported by Richmond's ARPA housing investments were expected to come online in 2026. The awards used federal relief money rather than a new city tax.
+The city opened applications for the $10 million round in December 2021. Mayor Levar Stoney was the ordinance's patron, and Housing and Community Development Director Sherrill Hampton's department ran the application process and sent the award recommendations to the council. The City Council approved them 8-0 on April 25, 2022. A 2023 city resolution said the first $10 million supported more than 1,000 affordable rental units, but it did not establish that all those homes were finished. The city later revised the award list and recaptured $250,000 from one project for reallocation. By October 2026, the city said the $1 million first-round-backed Pinnacle at Afton had added 150 income-restricted apartments. It did not give a current completion count for the whole first round. The awards used federal relief money rather than a new city tax.

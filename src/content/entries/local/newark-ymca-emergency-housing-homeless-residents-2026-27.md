@@ -79,9 +79,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: pass
-  notes: Confirmed the contract amounts, dates, funding caveat, intake process, council leadership, and 9–0 vote. The YMCA shelter remains active, and no later amendment, cancellation, or contract-specific appropriation was found through November 19, 2026.
+  notes: Confirmed the authorization, funding caveat, shelter intake process, council leadership, and 9–0 roll call. The shelter remains active, and no later amendment, cancellation, or contract-specific appropriation was found through November 20, 2026.
 source_key: newark-26-0494
 ---
 
