@@ -2220,6 +2220,7 @@
     "notes": "Former Ward 5 Council Member and Council President (2012-2023). Her own bio photo from the home page of her consulting site (alt text 'Amy Brendmoen bio photo', uploaded May 2024). The file is 1825x2560 three-quarter length (hands on hips in front of an ornate door); saved photos/amy-brendmoen.jpg as a 930x1080 head-and-shoulders crop (no upscaling), full frame kept as photos/amy-brendmoen.full.jpg. Posed, facing the camera with a slight head tilt, warm closed-mouth smile, eyes clearly visible. Face ~380px across; the file is a little soft. Short tousled pixie cut, ash-brown with blond highlights swept to one side. Fair skin, warm natural light. Small pearl stud earrings. No glasses. Black ribbed V-neck sweater. Leave the door grille background out. Her best official photo is photos/amy-brendmoen.official.jpg: the city's 2015 council portrait (Wayback, stpaul.gov ward-5 page through Dec. 2023, file 20150323-SAP_6276-Edit_0.jpg), posed on a gray backdrop with a smile, short brown hair, rust sweater and silver statement necklace, but only 267x400 with a ~120px face and 9 years older, so the larger recent press photo was preferred (precedent: Hochul, Boysko). No Commons category for her. Other rejects on her site: pink-dress photo leaning on a brick wall (428x640, small), podium and group photos."
   },
   "james-bowles": {
+    "hold": "only a ~75px face from a video",
     "tier": "reference-only",
     "page": "https://scholarscompass.vcu.edu/goo_items/3",
     "image": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/78/6a/9e786aa1172bad71f5d992e041e8665e39b5938cc3c7d913cced75c76499b09f_2.ts00003.ts",
@@ -2390,6 +2391,7 @@
     "notes": "Michal Freedhoff, EPA Assistant Administrator for Chemical Safety and Pollution Prevention (2021-2025). Her official EPA portrait (2021, U.S. government work; the only portrait of her on Commons), full size 1638x2048 kept as photos/michal-freedhoff.full.jpg; photos/michal-freedhoff.jpg is a head-and-shoulders crop (box 119,34,1467,1535), face ~530px across. Posed, slight three-quarter turn to her right with a slight head tilt, gentle closed-lip smile, eyes clear. Voluminous shoulder-length curly copper/strawberry-blonde hair, lighter golden at the crown and ends, parted near the middle; hazel-green eyes; no glasses; fair skin with light freckles, soft warm studio light from the left against a dark backdrop. Sleeveless dark plum/burgundy top, thin gold chain with a small gold fish pendant; US flag at left (drop it). No other posed photo of her found on Commons; EPA's own pages were not needed for this public-domain copy."
   },
   "deb-barber": {
+    "hold": "photo too small (~60px face)",
     "tier": "official",
     "page": "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Vacant%2C-District-4.aspx",
     "image": "https://metrocouncil.org/getattachment/3d158a90-a19d-4c1e-8406-abd33dd7b720/Vacant,-District-4.aspx",
@@ -2970,6 +2972,7 @@
     "notes": "Anne Anderson, the Woburn, Mass. mother whose son Jimmy died of leukemia in 1981; not an official. No posed portrait of her exists online that I could find, so this is an event photo and is reference-only. Taken Oct 23, 2023 at the EPA press conference in Woburn announcing the proposed TCE ban (Sen. Markey and EPA's Michal Freedhoff were there); posted by Sen. Ed Markey on X and run by Common Dreams with the caption 'Activist Anne Anderson delivers brief remarks while U.S. Sen. Ed Markey (D-Mass.) (left) looks on' (credit 'Photo: Sen. Ed Markey/X'). Full 3040x2014 kept as photos/anne-anderson.full.jpg; photos/anne-anderson.jpg is a crop of her (box 1115,557,1976,1621), face ~250px across. She stands at an EPA podium in a three-quarter view turned to her left (toward Markey), with a warm, open smile and eyes visible, in bright sun; a mic stands just right of her face and a man's head is partly visible behind it (drop both, and the podium). She was in her late 80s: short, wispy, tousled white hair; fair skin with deep lines, pink in the sun; navy zip jacket over a pale lilac turtleneck. Second reference for front-on structure (not to copy the expression): photos/anne-anderson.ap.jpg, a crop of the AP photo by Michael Casey from the same event (6000x4000 original via GBH/WBUR, wbur.org/news/2023/10/24/epa-ban-tce-trichloroethylene-cancer-chemical-woburn), front-facing, face ~500px, but speaking at the mic with a solemn, unsmiling expression and a black leather jacket. Also tried: the Harvard Chan School story linked from her yaml (hsph.harvard.edu, 'A mother's crusade for clean water', 2013) shows only a stock photo of oil barrels; Commons has nothing; EPA news releases (epa.gov and the Jan 2025 snapshot) carry no photos; Toxic-Free Future and CommonWealth Beacon pages show no portrait of her; Markey's 2013 campaign release site is down; boston.com was skipped (its robots.txt blocks AI agents)."
   },
   "denis-mcdonough": {
+    "hold": "photo cut tight at the shoulders; no padding (owner, Nov 19, 2026)",
     "tier": "official",
     "page": "https://commons.wikimedia.org/wiki/File:Secretary_McDonough,_official_photo.jpg",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Secretary_McDonough%2C_official_photo.jpg",
@@ -3460,6 +3463,7 @@
     "notes": "Studio speaker headshot embedded in the 2025 Rutgers REACH event program (page 5, Panelists, captioned KETLEN BAPTISTE ALSBROOK, MPA, with her Newark DHCW director bio); extracted from the PDF at its embedded size (387x540, kept as photos/ketlen-baptiste-alsbrook.full.jpg; photos/ketlen-baptiste-alsbrook.jpg is a head-and-shoulders crop). SMALL: face is only ~105px across; no larger copy found. Posed, slight three-quarter to her left, warm open smile showing teeth. Long straight dark-brown/black hair past the shoulders, center part. Medium-deep brown skin, soft even studio light on a gray backdrop. Large silver hoop earring, thin gold necklace, teal blazer over black top. Rejected: the City of Newark staff-directory photo (newarknj.gov, eid=83) could not be checked: newarknj.gov returns a Cloudflare \"Sorry, you have been blocked\" page even for robots.txt, so the host (and its Wayback copies) was skipped. University Hospital board page (uhnj.org/about-us/board-of-directors/ketlen-baptiste-alsbrook/) has a 239x332 selfie-style office photo (braids, orange blazer, face ~110px, unsmiling); smaller and less posed. Nothing on Commons."
   },
   "jonathan-christy": {
+    "hold": "photo too small to draw truly (~95px face)",
     "tier": "official",
     "page": "https://www.goochlandva.us/158/Board-of-Supervisors",
     "image": "https://www.goochlandva.us/ImageRepository/Document?documentId=10068",
@@ -3880,6 +3884,7 @@
     "notes": "Her official commissioner portrait from HRA/DSS's 'Meet the Commissioner' page while she led DSS (archived June 2024; the page now shows her successor, but the image file is still on nyc.gov). Taken during her tenure (2023-2025). Posed close portrait, face turned slightly to her left with a gentle head tilt, warm smile showing teeth, eyes visible; face ~650px across. Shoulder-length dark-brown curly hair with a few gray strands, swept back off the forehead; brown eyes; pearl stud earrings. Fair skin, soft natural window light, blurred blue-and-white office background. No glasses. Magenta collarless jacket over a black top. The head nearly touches the top edge of the frame. The DSS leadership page on the list (nyc.gov/site/dss/about/leadership.page) is 404 and was never archived. No Commons photo."
   },
   "robb-pitts": {
+    "hold": "photo too small to draw truly (~150px face); needs a larger posed photo",
     "tier": "press",
     "page": "https://roughdraftatlanta.com/author/robb-pitts/",
     "image": "https://roughdraftatlanta.com/wp-content/uploads/2021/12/Robb-Pitts-Headshot-rotated.jpeg",
@@ -4040,6 +4045,7 @@
     "notes": "Kilolo Kijakazi, Acting Commissioner of Social Security (July 2021-Dec 2023). Her Urban Institute staff headshot (EXIF 2015), the photo on her Urban author page while she was an Institute Fellow there (archived May 2020; file still live on urban.org); the same photo was used for her as Acting Commissioner on Abt Associates SSA-demonstration presenter page and the EBRI symposium bio. Full 2400x2640 kept as photos/kilolo-kijakazi.full.jpg; photos/kilolo-kijakazi.jpg is a head-and-shoulders crop (box 264,0,2201,2289), face ~950px across. Posed, slight three-quarter to her left, warm smile showing upper teeth, eyes clear. Black locs gathered up into a high bun/updo; dark brown eyes; no glasses in this photo; small pearl stud earrings; deep brown skin, soft window light, blurred office atrium behind. Red sleeveless top, long pearl necklace with a dark pearl drop. LOOK IN OFFICE DIFFERS: her official SSA portrait (photos/kilolo-kijakazi.alt.jpg, 191x264, face ~70px, too small to draw from alone; Commons File:Kilolo_Kijakazi.jpg, public domain, from SSA Executive Bios) shows her c. 2021-23 with the same locs updo but gray-silver at the hairline and temples, rectangular dark red-brown framed glasses, smiling with teeth, black blazer over white top with black stripe, gold pendant, US flag. The drawer should add the glasses and graying front hair from the alt. Official tier only has that tiny copy: ssa.gov (and blog.ssa.gov, best.ssa.gov, which redirect to it) return Akamai 403 Access Denied to our agent, even robots.txt, so SSA pages and their Wayback copies were skipped. Rejected: Urban 2025 author photo (152x200), GovExec Dec 2023 article photo (Getty news photo)."
   },
   "kenny-alexander": {
+    "hold": "photo cut at the shoulders; no padding (owner, Nov 19, 2026)",
     "tier": "official",
     "page": "https://www.norfolk.gov/200/City-Council",
     "image": "https://www.norfolk.gov/ImageRepository/Document?documentId=92702",
@@ -4300,6 +4306,7 @@
     "notes": "Official Georgia Senate member portrait dated 2025-01-15, public domain on Commons (sourced there from the General Assembly's portrait file; taken from Commons because legis.ga.gov's member pages load portraits through its JSON API, which is off-limits). Her nameplate reads 'Senator Kay Kirkpatrick, Chairman, Children and Families'. The original is a 2858x4287 half-length PNG (kept as photos/kay-kirkpatrick.full.jpg, flattened to JPEG); photos/kay-kirkpatrick.jpg is a 2100x2250 head-and-shoulders crop. Grey studio backdrop between the U.S. and Georgia flags, front-facing, gentle smile showing teeth, blue-grey eyes visible behind dark tortoiseshell/black rectangular glasses. Chin-length auburn/copper-red bob with bangs swept to the side, round gold ball earrings, fair skin with fine lines, even studio light. Black zip jacket over a dark floral top (orange, teal, purple), Senate lapel pin. Face is about 950px across."
   },
   "sophie-shulman": {
+    "hold": "photo too small (~70px face)",
     "tier": "press",
     "page": "https://live.worldbank.org/en/experts/s/sophie-shulman",
     "image": "https://s7d1.scene7.com/is/image/wbcollab/Sophie_Shulman-2?qlt=75&resMode=sharp2",
@@ -4380,6 +4387,7 @@
     "notes": "Cory Booker, U.S. Senator from New Jersey (2013-). His current official Senate portrait (2025, 119th Congress; Commons credits his booker.senate.gov press kit). Full 4430x5538 kept as photos/cory-booker.full.jpg; photos/cory-booker.jpg is a head-and-shoulders crop (box 461,0,3968,4153), face ~1600px across. Posed, front-facing, gentle closed-mouth smile (no teeth), eyes clear and direct. Bald/shaved head; dark brows; brown-hazel eyes; no glasses; short salt-and-pepper stubble beard and mustache, gray at the chin; light-to-medium brown skin, warm even light; blurred ornate room with red drapes behind (drop it). Navy suit, lavender shirt, purple tie with small white pattern. ALSO SAVED: photos/cory-booker.alt.jpg (613x762, face ~350px), the older photo used as his bioguide image and 114th Congress member-guide portrait (Commons File:Cory_Booker,_official_portrait,_114th_Congress.jpg, public domain; likely c. 2010-13): broad open smile showing teeth, clean-shaven, slightly off-camera, semi-candid office setting, red dotted tie. fetch-official had saved that bioguide 450x550 version first; replaced, since the 2025 portrait is posed, current and far larger. booker.senate.gov robots.txt redirects to an Akamai 403 Access Denied page, so his site was not used."
   },
   "mike-duman": {
+    "hold": "photo too small to draw truly (~100px face)",
     "tier": "official",
     "page": "https://www.suffolkva.us/DocumentCenter/View/19169/Adopted-Operating--Capital-Budget-FY-2026-2027",
     "image": "https://www.suffolkva.us/DocumentCenter/View/19169/Adopted-Operating--Capital-Budget-FY-2026-2027",
