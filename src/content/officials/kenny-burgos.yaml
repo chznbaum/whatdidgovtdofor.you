@@ -4,3 +4,10 @@ office: New York State Assembly Member, District 85
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/kenny-burgos.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20221230220840/https://nyassembly.gov/mem/Kenny-Burgos
+    license: "© New York State Assembly, used as a drawing reference"

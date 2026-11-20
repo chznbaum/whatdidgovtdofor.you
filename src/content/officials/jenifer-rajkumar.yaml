@@ -6,3 +6,10 @@ jurisdiction: ny
 current: true
 ids: { openstates: ocd-person/029fb490-649e-4dbf-b7fc-6cf46ea433ff }
 url: https://nyassembly.gov/mem/Jenifer-Rajkumar
+portrait:
+  image: /portraits/jenifer-rajkumar.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://nyassembly.gov/mem/Jenifer-Rajkumar
+    license: "© New York State Assembly, used as a drawing reference"

@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/joseph-cryan.webp
+  kind: photo
+  source:
+    label: Center for Climate Integrity
+    url: https://climateintegrity.org/leaders/members/joseph-cryan
+    license: "© Joseph Cryan / photographer, used as a drawing reference"

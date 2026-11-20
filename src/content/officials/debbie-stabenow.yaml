@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: S000770 }
+portrait:
+  image: /portraits/debbie-stabenow.webp
+  kind: official
+  source:
+    label: U.S. Senate Photographic Studio, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Debbie_Stabenow,_official_photo,_116th_Congress_(1).jpg
+    license: Public domain

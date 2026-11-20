@@ -5,3 +5,10 @@ level: state
 jurisdiction: fl
 current: true
 url: https://www.flhouse.gov/Sections/Representatives/representatives.aspx
+portrait:
+  image: /portraits/jim-mooney.webp
+  kind: official
+  source:
+    label: Florida House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Florida_State_Representative_Jim_Mooney.jpg
+    license: Public domain (Florida government work)

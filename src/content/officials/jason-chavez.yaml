@@ -5,3 +5,10 @@ level: local
 jurisdiction: minneapolis
 current: true
 url: https://www.minneapolismn.gov/government/city-council/
+portrait:
+  image: /portraits/jason-chavez.webp
+  kind: official
+  source:
+    label: City of Minneapolis (photo by Rich Ryan)
+    url: https://www.minneapolismn.gov/government/city-council/members/ward-9/
+    license: "© Rich Ryan 2026 (city headshot), used as a drawing reference"

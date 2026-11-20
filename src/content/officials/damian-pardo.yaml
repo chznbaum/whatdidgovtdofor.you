@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami
 current: true
 url: https://www.miami.gov/My-Government/City-Officials/District-2-Commissioner-Damian-Pardo
+portrait:
+  image: /portraits/damian-pardo.webp
+  kind: photo
+  source:
+    label: Miami-Dade Transportation Planning Organization
+    url: https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf
+    license: Public domain (Florida government work)

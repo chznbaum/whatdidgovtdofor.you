@@ -4,3 +4,10 @@ office: Florida State Representative, District 115
 level: state
 jurisdiction: fl
 current: true
+portrait:
+  image: /portraits/omar-blanco.webp
+  kind: official
+  source:
+    label: Florida House of Representatives
+    url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4929&LegislativeTermId=92
+    license: Public domain (Florida government work)

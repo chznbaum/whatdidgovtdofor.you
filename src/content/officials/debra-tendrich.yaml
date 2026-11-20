@@ -5,3 +5,10 @@ level: state
 jurisdiction: fl
 current: true
 url: https://www.myfloridahouse.gov
+portrait:
+  image: /portraits/debra-tendrich.webp
+  kind: official
+  source:
+    label: Florida House of Representatives
+    url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4924&LegislativeTermId=92
+    license: Public domain (Florida government work)

@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: true
 url: https://nyassembly.gov/mem/Chris-Burdick
+portrait:
+  image: /portraits/chris-burdick.webp
+  kind: photo
+  source:
+    label: Wikimedia Commons (Dewdrop430)
+    url: https://commons.wikimedia.org/wiki/File:AM_Burdick_Headshot_2024_Outside.jpg
+    license: CC0

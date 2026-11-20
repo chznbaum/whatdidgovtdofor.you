@@ -21,7 +21,7 @@ status:
   state: in-effect
   as_of: 2026-11-16
 credit:
-  - official: edward-mcdonnell
+  - official: edward-t-mcdonnell
     role: led
     note: Deputy Director who presided over the board meeting that approved it on July 16, 2026
   - official: camden-county-board-of-commissioners
@@ -43,7 +43,7 @@ votes:
         vote: yes
       - official: jonathan-young-sr
         vote: yes
-      - official: edward-mcdonnell
+      - official: edward-t-mcdonnell
         vote: yes
     source: https://www.camdencounty.com/wp-content/uploads/2026/09/07-Meeting-Minutes-7.16.2026.pdf
 sources:

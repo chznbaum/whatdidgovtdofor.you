@@ -5,3 +5,10 @@ level: state
 jurisdiction: fl
 current: true
 url: https://www.flsenate.gov/Senators/s4
+portrait:
+  image: /portraits/clay-yarborough.webp
+  kind: photo
+  source:
+    label: "Clay Yarborough for State Senate (campaign site)"
+    url: https://clayyarborough.com/
+    license: "© Clay Yarborough campaign, used as a drawing reference"

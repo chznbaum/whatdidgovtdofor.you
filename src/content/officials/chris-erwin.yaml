@@ -5,3 +5,10 @@ level: state
 jurisdiction: ga
 current: true
 url: https://www.legis.ga.gov/members/house
+portrait:
+  image: /portraits/chris-erwin.webp
+  kind: official
+  source:
+    label: Georgia House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Official_headshot_of_Chris_Erwin.jpg
+    license: Public domain

@@ -6,3 +6,10 @@ jurisdiction: tampa
 current: true
 seat: { place: tampa, title: Mayor }
 url: https://www.tampa.gov/mayor
+portrait:
+  image: /portraits/jane-castor.webp
+  kind: official
+  source:
+    label: City of Tampa
+    url: https://www.tampa.gov/mayor
+    license: Public domain (Florida government work)

@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: T000464 }
+portrait:
+  image: /portraits/jon-tester.webp
+  kind: official
+  source:
+    label: U.S. Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:JonTester.jpg
+    license: Public domain

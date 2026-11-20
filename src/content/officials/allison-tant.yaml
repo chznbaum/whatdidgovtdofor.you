@@ -5,3 +5,10 @@ level: state
 jurisdiction: fl
 current: true
 url: https://www.myfloridahouse.gov
+portrait:
+  image: /portraits/allison-tant.webp
+  kind: photo
+  source:
+    label: Allison Tant for State House (campaign site)
+    url: https://allisontant.com/
+    license: "© Allison Tant campaign, used as a drawing reference"

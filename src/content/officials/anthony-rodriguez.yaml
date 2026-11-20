@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami-dade-county
 current: true
 url: https://www.miamidade.gov/global/government/commission/district10/home.page
+portrait:
+  image: /portraits/anthony-rodriguez.webp
+  kind: photo
+  source:
+    label: Miami-Dade Transportation Planning Organization
+    url: https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf
+    license: Public domain (Florida government work)
