@@ -76,9 +76,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: pass
-  notes: Confirmed the allocation, project limits, funding source, council vote, credit, and VDOT schedule against official records. A search through Nov. 19, 2026 found no reliable public record confirming completion of all six projects, so the cautious phasing-in status remains supported.
+  notes: Confirmed the allocation, project limits, vote, credit, and schedule against the official Hampton and VDOT records. No later public record found through Nov. 20, 2026 establishes completion, cancellation, or deallocation, so the cautious phasing-in status remains supported.
 source_key: hampton-23-0289
 ---
 
