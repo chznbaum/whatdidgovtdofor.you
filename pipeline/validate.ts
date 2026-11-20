@@ -67,6 +67,14 @@ export async function validateEntry(file: string, schemas?: Schemas): Promise<Pr
   }
 }
 
+// Only a private citizen goes without a jurisdiction (docs/content-guide.md, "Officials"): a body, a seat, or a
+// legislator's roster id means government power or an organization.
+function jurisdictionProblems(file: string, o: z.infer<Schemas['officials']>): Problem[] {
+  if (o.jurisdiction) return [];
+  const why = o.kind === 'body' ? 'an organization or government body' : o.seat ? 'an official with a seat' : o.ids.bioguide || o.ids.openstates ? 'a legislator' : '';
+  return why ? [{ file, message: `jurisdiction: required for ${why}; only a private citizen has none` }] : [];
+}
+
 // An official a writer or verifier wants to add, checked before it's written. One that fails stays off disk, so the
 // entry citing it fails too ("unknown officials id") and the repair round sees both problems at draft time, not at the
 // run's final validate hours later.
@@ -80,7 +88,7 @@ export async function validateOfficialYaml(id: string, text: string, schemas?: S
     return [{ file, message: `isn't valid YAML (${String(err).split('\n')[0]}); quote any value containing a colon` }];
   }
   const parsed = (schemas ?? (await loadSchemas())).officials.safeParse(data);
-  return parsed.success ? [] : zodProblems(file, parsed.error);
+  return parsed.success ? jurisdictionProblems(file, parsed.data) : zodProblems(file, parsed.error);
 }
 
 // Portrait rules from docs/design.md: the drawing ships with the site (its source photo never does; the site links
@@ -150,7 +158,11 @@ async function validateYaml(collection: 'officials' | 'places', schemas: Schemas
   for (const file of await listFiles(join(CONTENT, collection), '.yaml')) {
     const parsed = schemas[collection].safeParse(await readYaml(file));
     if (!parsed.success) problems.push(...zodProblems(rel(file), parsed.error));
-    else if (collection === 'officials') problems.push(...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>, sites));
+    else if (collection === 'officials')
+      problems.push(
+        ...portraitProblems(rel(file), parsed.data as z.infer<Schemas['officials']>, sites),
+        ...jurisdictionProblems(rel(file), parsed.data as z.infer<Schemas['officials']>),
+      );
     else problems.push(...councilProblems(rel(file), parsed.data as z.infer<Schemas['places']>));
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(idFromPath(file))) problems.push({ file: rel(file), message: 'id must be a lowercase slug' });
   }

@@ -145,7 +145,9 @@ export const officialSchema = <O extends z.ZodType, P extends z.ZodType>(ref: Re
     party: z.enum(PARTIES).optional(),
     office: z.string(),
     level: z.enum(['federal', 'state', 'local']),
-    jurisdiction: ref.places,
+    // The place in which they're authorized to wield government power, or an organization is authorized to operate.
+    // A private citizen, credited for their own advocacy and not for an organization, has none.
+    jurisdiction: ref.places.optional(),
     current: z.boolean().default(true),
     // When set, the address lookup shows this official to anyone in `place`. A seat changing hands on a known date (a
     // governor-elect) has `from`, and the one leaving `until`; the site is rebuilt daily, so the lookup switches on its own.

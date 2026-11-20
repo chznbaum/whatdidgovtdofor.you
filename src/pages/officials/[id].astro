@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { official } = Astro.props as { official: Official };
 const o = official.data;
-const place = (await getEntry(o.jurisdiction))!;
+const place = o.jurisdiction ? (await getEntry(o.jurisdiction))! : undefined;
 const entries = (await getEntries()).filter((e) => e.data.credit.some((c) => c.official.id === official.id));
 // "Proposed it and signed it": every role this official played, as one phrase.
 const and = new Intl.ListFormat('en', { type: 'conjunction' });
@@ -30,7 +30,7 @@ const tenure = o.current ? 'Serving now' : 'Former';
 // The place is linked where the title already names it ("U.S. Senator from [Virginia]"), by its name, its name
 // without "County", or its short name ("NYC"). Otherwise it gets its own link beside the party and tenure.
 const escapeRe = (x: string) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const aliases = [place.data.name, place.data.name.replace(/ County$/, ''), place.data.short, ...(place.id === 'us' ? ['U.S.'] : [])];
+const aliases = place ? [place.data.name, place.data.name.replace(/ County$/, ''), place.data.short, ...(place.id === 'us' ? ['U.S.'] : [])] : [];
 const named = aliases
   .filter(Boolean)
   .map((a) => new RegExp(`\\b${escapeRe(a)}(?![A-Za-z])`).exec(o.office))
@@ -68,7 +68,7 @@ const office = named
           {office ? (
             <>
               {office.before}
-              <a href={placeUrl(place.id)}>{office.place}</a>
+              <a href={placeUrl(place!.id)}>{office.place}</a>
               {office.after}
             </>
           ) : (
@@ -89,7 +89,7 @@ const office = named
             // The party shows once, as the initial after the name.
             <p class="meta">
               {o.kind === 'person' && <span>{tenure}</span>}
-              {!office && <a href={placeUrl(place.id)}>{place.data.name}</a>}
+              {!office && place && <a href={placeUrl(place.id)}>{place.data.name}</a>}
             </p>
           )
         }

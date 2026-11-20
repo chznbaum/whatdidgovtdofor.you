@@ -44,7 +44,7 @@ export const GET: APIRoute = async () => {
   const byBioguide = new Map(officials.filter((o) => o.data.ids.bioguide).map((o) => [o.data.ids.bioguide!, o.id]));
   const byOpenstates = new Map(officials.filter((o) => o.data.ids.openstates).map((o) => [o.data.ids.openstates!, o.id]));
   const findOfficial = (level: 'state' | 'local', name: string, place: string) =>
-    officials.find((o) => o.data.level === level && o.data.jurisdiction.id === place && sameName(o.data.name, name))?.id;
+    officials.find((o) => o.data.level === level && o.data.jurisdiction?.id === place && sameName(o.data.name, name))?.id;
 
   const person = (name: string, party: string, office: string, id: string | undefined, url?: string | null) => ({
     name,

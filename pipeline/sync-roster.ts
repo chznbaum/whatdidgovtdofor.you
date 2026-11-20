@@ -163,7 +163,8 @@ async function syncNycCouncil() {
 }
 
 // Officials whose file still describes an earlier office (a state senator since elected to Congress): a roster member
-// at another level with the same name, in the same state, whose id the file doesn't carry. Relinking is a hand edit
+// at another level with the same name, in the same state, whose id the file doesn't carry. A member of Congress's
+// jurisdiction is `us`, which names no state, so they're matched by name alone. Relinking is a hand edit
 // (ids, office, level, jurisdiction), so this only lists them, after every sync until they're linked.
 async function listMoves() {
   const places = new Map<string, { kind: string; parent?: string; legislature?: Record<string, { name: string }> }>();
@@ -200,7 +201,7 @@ async function listMoves() {
   ];
   for (const seat of seats)
     for (const o of officials)
-      if (o.level !== seat.level && o.ids?.[seat.id[0]] !== seat.id[1] && stateOf(o.jurisdiction) === seat.state && sameName(o.name, seat.name))
+      if (o.level !== seat.level && o.ids?.[seat.id[0]] !== seat.id[1] && (stateOf(o.jurisdiction) === seat.state || (o.jurisdiction === 'us' && o.ids?.bioguide)) && sameName(o.name, seat.name))
         console.log(`moved? ${rel(o.file)} (${o.office}) looks like ${seat.name}, ${seat.office} (${seat.id.join(' ')})`);
 }
 

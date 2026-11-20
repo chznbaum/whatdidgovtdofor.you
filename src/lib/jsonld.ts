@@ -202,7 +202,7 @@ export function actionNodes(e: Entry, credits: Credit[], place: Place, places: M
 
 // ---------- an official ----------
 
-export function officialNodes(o: Official, place: Place, places: Map<string, Place>, modified?: Date): Node[] {
+export function officialNodes(o: Official, place: Place | undefined, places: Map<string, Place>, modified?: Date): Node[] {
   const url = absoluteUrl(officialUrl(o.id));
   const person = o.data.kind === 'person';
   return [
@@ -221,7 +221,7 @@ export function officialNodes(o: Official, place: Place, places: Map<string, Pla
       ...(o.data.portrait && { image: absoluteUrl(o.data.portrait.image) }),
       ...(sameAs(o) && { sameAs: sameAs(o) }),
     },
-    breadcrumbs(url, [...placeCrumbs(place, places), { name: o.data.name, url }]),
+    breadcrumbs(url, [...(place ? placeCrumbs(place, places) : [{ name: 'Home', url: SITE }]), { name: o.data.name, url }]),
   ];
 }
 
