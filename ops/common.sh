@@ -18,8 +18,15 @@ lock() {
     waited=$((waited + 1))
   done
   date > "$LOCK/started"
-  trap 'rm -rf "$LOCK"' EXIT
+  trap 'status=$?; rm -rf "$LOCK"; [ "$status" -eq 0 ] || notify_failure "$status"' EXIT
   trap 'exit 130' INT TERM
+}
+
+# A run that stops partway says so on this Mac: unattended runs log to a file nobody is watching. Best effort, so a
+# machine without osascript (or without a logged-in session) just skips it.
+notify_failure() {
+  command -v osascript >/dev/null 2>&1 || return 0
+  osascript -e "display notification \"$(basename "$0") stopped (exit $1); see its log\" with title \"whatdidgovtdofor pipeline failed\" sound name \"Basso\"" >/dev/null 2>&1 || true
 }
 
 # Changes reach main only through pull requests, and a run's job ends once its PR is open. People, or workflows started

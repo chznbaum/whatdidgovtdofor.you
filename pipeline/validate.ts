@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { z } from 'astro/zod';
+import { parse } from 'yaml';
 import { entrySchema, involvedSchema, officialSchema, placeSchema, type Collection } from '../src/lib/schema.ts';
 import { CONTENT, ROOT, idFromPath, listFiles, loadIds, readMarkdown, readYaml, rel } from './lib/content.ts';
 
@@ -64,6 +65,22 @@ export async function validateEntry(file: string, schemas?: Schemas): Promise<Pr
   } catch (err) {
     return [{ file: rel(file), message: String(err) }];
   }
+}
+
+// An official a writer or verifier wants to add, checked before it's written. One that fails stays off disk, so the
+// entry citing it fails too ("unknown officials id") and the repair round sees both problems at draft time, not at the
+// run's final validate hours later.
+export async function validateOfficialYaml(id: string, text: string, schemas?: Schemas): Promise<Problem[]> {
+  const file = `src/content/officials/${id}.yaml`;
+  if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) return [{ file, message: 'id must be a lowercase slug' }];
+  let data;
+  try {
+    data = parse(text);
+  } catch (err) {
+    return [{ file, message: `isn't valid YAML (${String(err).split('\n')[0]}); quote any value containing a colon` }];
+  }
+  const parsed = (schemas ?? (await loadSchemas())).officials.safeParse(data);
+  return parsed.success ? [] : zodProblems(file, parsed.error);
 }
 
 // Portrait rules from docs/design.md: the drawing ships with the site (its source photo never does; the site links

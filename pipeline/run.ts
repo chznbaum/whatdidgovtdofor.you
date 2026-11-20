@@ -32,7 +32,7 @@ import {
   type VerifierOutput,
   type WriterOutput,
 } from './prompts.ts';
-import { validateEntry } from './validate.ts';
+import { validateEntry, validateOfficialYaml } from './validate.ts';
 
 const CANDIDATES = join(ROOT, 'pipeline/state/candidates.json');
 const DECISIONS = join(ROOT, 'pipeline/decisions.json'); // committed: what we did with each candidate key
@@ -77,12 +77,18 @@ async function pool<T>(items: T[], concurrency: number, fn: (item: T) => Promise
 
 const existingEntries = readAllEntries;
 
-async function writeOfficials(officials: { id: string; yaml: string }[]) {
+// Write the new officials that pass validation and return the problems of those that don't (they aren't written, so
+// the repair round can send them again). Existing files are never overwritten.
+async function writeOfficials(officials: { id: string; yaml: string }[]): Promise<string[]> {
+  const problems: string[] = [];
   for (const o of officials) {
-    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(o.id)) continue;
     const file = join(CONTENT, 'officials', `${o.id}.yaml`);
-    if (!existsSync(file)) await writeFile(file, o.yaml.trim() + '\n');
+    if (existsSync(file)) continue;
+    const found = await validateOfficialYaml(o.id, o.yaml);
+    if (found.length) problems.push(...found.map((p) => `${p.file}: ${p.message}`));
+    else await writeFile(file, o.yaml.trim() + '\n');
   }
+  return problems;
 }
 
 // --- feeds ---------------------------------------------------------------
@@ -302,9 +308,9 @@ async function draft({ limit, writer, concurrency, keys }: { limit: number; writ
           file = target;
         }
         Object.assign(doc.data, { source_key: candidate.key, verification });
-        await writeOfficials(out.new_officials);
+        const officialProblems = await writeOfficials(out.new_officials);
         await writeMarkdown(file, doc);
-        return (await validateEntry(file)).map((p) => p.message);
+        return [...officialProblems, ...(await validateEntry(file)).map((p) => p.message)];
       };
 
       let problems = await materialize(data);
@@ -355,10 +361,10 @@ async function verify({ limit, stale, concurrency, files }: { limit: number; sta
       } catch (err) {
         return [{ file: rel(entry.file), message: `the frontmatter isn't valid YAML (${String(err).split('\n')[0]}); quote any value containing a colon` }];
       }
-      await writeOfficials(out.new_officials);
+      const officialProblems = (await writeOfficials(out.new_officials)).map((message) => ({ file: rel(entry.file), message }));
       Object.assign(corrected.data, keep);
       await writeMarkdown(entry.file, corrected);
-      return validateEntry(entry.file);
+      return [...officialProblems, ...(await validateEntry(entry.file))];
     };
 
     try {
