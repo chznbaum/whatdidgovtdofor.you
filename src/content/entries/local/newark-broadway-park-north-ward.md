@@ -1,6 +1,6 @@
 ---
 title: Newark's North Ward is getting a 2-acre park with a splash pad
-dek: On Aug. 5, 2026, Newark approved Flanagan's $5.15 million bid to turn an empty lot between Broadway and Oraton Street into Broadway Park. Plans include walking paths, a playground, a splash pad and a lawn for events. It's expected to open in spring 2027.
+dek: On Aug. 5, 2026, Newark approved Flanagan's $5.15 million bid to turn an empty lot between Broadway and Oraton Street into Broadway Park. Plans include walking paths, a playground, a splash pad and a lawn for events. It is expected to open in summer 2027.
 level: local
 jurisdiction: newark
 action:
@@ -20,9 +20,9 @@ impact:
     label: residents within a 10-minute walk, more than 2,000 of them children
 status:
   state: phasing-in
-  as_of: 2026-08-05
-  note: Construction started with a June 2026 groundbreaking, and the council approved the main construction contract on Aug. 5, 2026. The park is expected to open in spring 2027. That contract approval is the newest dated evidence found.
-  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&GUID=F3576EA4-4162-40E4-9765-5A78497531E4&ID=8158446&Options=&Search=
+  as_of: 2026-11-20
+  note: Construction started with a June 2026 groundbreaking, and the council approved the main construction contract on Aug. 5, 2026. A current city call for Broadway Park artists says the park is expected to open in summer 2027.
+  source: https://cityofnewark-arts.submittable.com/submit
 credit:
   - official: anibal-ramos-jr
     role: championed
@@ -52,6 +52,9 @@ sources:
     publisher: The Jersey Bee (from Patch Newark)
     url: https://jerseybee.org/2026/07/14/newark-recently-broke-ground-on-broadway-park/
     date: 2026-07-14
+  - title: Broadway Park | Call for Artists | Public Artist In Residence
+    publisher: City of Newark, Division of Arts and Cultural Affairs
+    url: https://cityofnewark-arts.submittable.com/submit
 featured: false
 verification:
   writer:
@@ -61,14 +64,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
-  verdict: pass
-  notes: Confirmed the contract, exact bid amount, 7–0–1 council vote, park features, beneficiaries, funding, credits, and spring 2027 target. No later cancellation, funding cut, court action, or material status change was found.
+    date: 2026-11-20
+  verdict: corrected
+  notes: Confirmed the contract, funding, park features, beneficiaries, vote and credits. Updated the opening target from spring to summer 2027 using Newark’s current artist call and removed an unsupported bid comparison.
 source_key: newark-26-0883
 ---
 
 Newark is building a new park on 2 acres of land between Broadway and Oraton Street in the North Ward. The site sits next to Luis Muñoz Marín Elementary School and has been unused since the early 1980s. The construction contract approved on Aug. 5, 2026 covers walking paths, play structures and an event area. Plans also include a playground with a slide built into the hillside, a musical play area, an exercise area, a community garden, a quiet space for meditation, and a splash pad to help kids stay cool in summer.
 
-The site will become a public city park. More than 7,000 people live within a 10-minute walk, including over 2,000 children. Students from two nearby elementary schools helped design it. The city expects it to open in spring 2027.
+The site will become a public city park. More than 7,000 people live within a 10-minute walk, including over 2,000 children. Students from two nearby elementary schools helped design it. The city now expects it to open in summer 2027.
 
-North Ward Council Member Anibal Ramos Jr.'s office worked with Trust for Public Land, schools and neighborhood groups on the design. Mayor Ras Baraka and Trust for Public Land broke ground in June 2026, after about six years of preparation. The Council of the Whole sponsored the contract resolution, and the council approved it with Council President Luis Quintana presiding. Flanagan's Contracting Group submitted the lower of two bids, about $5.15 million. The contract is funded with New Jersey Green Acres and federal Community Development Block Grant money. TPL's philanthropic partner, the PARC Foundation, is also supporting the project.
+North Ward Council Member Anibal Ramos Jr.'s office worked with Trust for Public Land, schools and neighborhood groups on the design. Mayor Ras Baraka and Trust for Public Land broke ground in June 2026, after about six years of preparation. The Council of the Whole sponsored the contract resolution, and the council approved it with Council President Luis Quintana presiding. The council awarded Flanagan's Contracting Group the roughly $5.15 million contract after receiving two bids. The contract is funded with New Jersey Green Acres and federal Community Development Block Grant money. TPL's philanthropic partner, the PARC Foundation, is also supporting the project.

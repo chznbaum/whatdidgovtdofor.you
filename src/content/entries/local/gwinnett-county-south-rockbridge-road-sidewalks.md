@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: pass
-  notes: Confirmed the contract award, $3,428,430 cap, 2017 SPLOST funding, route, 5–0 vote, credits, and parties against Gwinnett County records. No later completion, cancellation, or funding change was found as of Nov. 19, 2026; repository validation passes.
+  notes: Confirmed the contract, route, $3,428,430 cap, 2017 SPLOST funding, 5–0 vote, credits, and parties against Gwinnett County records. No later completion, cancellation, or funding change was found as of Nov. 20, 2026.
 source_key: gwinnett-county-council-2026-08-04-2026-0961
 ---
 

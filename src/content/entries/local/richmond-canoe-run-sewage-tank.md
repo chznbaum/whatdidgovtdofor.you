@@ -81,9 +81,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
-  verdict: corrected
-  notes: Confirmed the ordinance, grant agreement, 9–0 vote, project figures, cost split, and latest public procurement status. Corrected the funding credit to reflect who proposed the two appropriations.
+    date: 2026-11-20
+  verdict: pass
+  notes: Confirmed the appropriations, grant agreement, project figures, credits, and 9–0 council vote. The latest public evidence still shows the project post-bid but unawarded as of Aug. 5, 2026; no newer award, cancellation, or funding loss was found.
 source_key: richmond-ord-2025-223
 ---
 

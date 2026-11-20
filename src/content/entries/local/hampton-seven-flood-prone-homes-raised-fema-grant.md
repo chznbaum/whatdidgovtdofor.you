@@ -22,8 +22,8 @@ impact:
     label: local match required from the city
 status:
   state: phasing-in
-  as_of: 2025-02-03
-  note: The latest federal record we could tie to this award is a Feb. 3, 2025 update to the City of Hampton W. Gilbert St. elevation subaward. A separate generic Hampton DR-4512 elevation subaward appears in February 2026, but it is not identified as Resolution 24-0158. The resolution's grant period ran through Aug. 5, 2025; no completion record or project-specific extension was found.
+  as_of: 2026-02-11
+  note: Federal award data lists a City of Hampton DR-4512 elevation-project subaward dated Feb. 11, 2026, after the resolution's original grant period ended Aug. 5, 2025. No public completion record was found, so the project remains listed as phasing in as of that latest attributable activity.
   source: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
 credit:
   - official: donnie-tuck
@@ -47,7 +47,7 @@ sources:
   - title: Project Grant 4512DRVAP00000005 and Hampton elevation-project subawards
     publisher: GovTribe, using USAspending.gov data
     url: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
-    date: 2025-02-03
+    date: 2026-02-11
 featured: false
 verification:
   writer:
@@ -57,14 +57,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-19
+    date: 2026-11-20
   verdict: corrected
-  notes: Confirmed the grant amount and breakdown, homeowner obligations, council action, and latest identifiable project activity against the [city resolution](https://hampton.legistar.com/LegislationDetail.aspx?ID=6613351&GUID=1D3E20E1-1DF5-4762-B836-FA8C80C4AF2F) and [federal award data](https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005). Only the verification metadata required correction.
+  notes: Confirmed the resolution, funding split, homeowner costs, council action, and credit. Updated the status to the latest attributable federal record; no public completion record was found through Nov. 20, 2026.
 source_key: hampton-24-0158
 ---
 
 Hampton accepted federal and state funding to raise flood-prone homes above expected flood water. The council record conflicts: its staff summary says seven homes, while the adopted resolution says eight. Raising a house lifts its living space above expected flood levels, making residents safer and reducing repeated damage and flood insurance claims.
 
-The initial project budget was $2,730,945. FEMA committed $2,470,855: $2,340,810 for the project and $130,045 for the city's management costs. Virginia's Department of Emergency Management added $260,090. The resolution required no local cash or in-kind match from the city. That does not mean participating homeowners face no costs: Hampton says they may still have to pay for pre-existing damage, some code-related work, and temporary relocation. The award covers properties Hampton had already included in its application, rather than opening a new application round.
+The initial project budget was $2,730,945. FEMA initially committed $2,470,855: $2,340,810 for the project and $130,045 for the city's management costs. Virginia's Department of Emergency Management added $260,090. The resolution required no local cash or in-kind match from the city. That does not mean participating homeowners face no costs: Hampton says they may still have to pay for pre-existing damage, some code-related work, and temporary relocation. The award covers properties Hampton had already included in its application, rather than opening a new application round.
 
-The money comes from FEMA's Hazard Mitigation Grant Program. In August 2021, President Joe Biden approved nationwide mitigation funding tied to COVID-19 disaster declarations, including funding for Virginia under DR-4512. Hampton later received this specific award through Virginia, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024. The resolution's original grant period ran through August 5, 2025. The latest federal spending activity we could tie to this award is a February 3, 2025 update to the W. Gilbert St. elevation subaward; a generic February 2026 Hampton elevation subaward is not identified as this project, and we found no public completion record.
+The money comes from FEMA's Hazard Mitigation Grant Program. In August 2021, President Joe Biden approved nationwide mitigation funding tied to COVID-19 disaster declarations, including funding for Virginia under DR-4512. Hampton later received this specific award through Virginia, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024. The federal award record lists a City of Hampton DR-4512 elevation-project subaward dated February 11, 2026, after the resolution's original grant period ended August 5, 2025. We found no public completion record through November 20, 2026.
