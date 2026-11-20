@@ -5,3 +5,10 @@ level: local
 jurisdiction: camden
 current: true
 url: https://www.camdennj.gov
+portrait:
+  image: /portraits/angel-fuentes.webp
+  kind: official
+  source:
+    label: City of Camden
+    url: https://www.camdennj.gov/council-members/
+    license: "© City of Camden, used as a drawing reference"

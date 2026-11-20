@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/bob-smith.webp
+  kind: photo
+  source:
+    label: Rutgers Magazine
+    url: https://rutgers.edu/magazine/winter-2022/renewed-sense-purpose
+    license: "© Rutgers University / photographer, used as a drawing reference"

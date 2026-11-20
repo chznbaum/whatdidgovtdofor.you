@@ -6,3 +6,10 @@ level: local
 jurisdiction: chatham-county
 current: true
 url: https://portwentworthga.gov/gov-mayorcouncil/
+portrait:
+  image: /portraits/gabrielle-nelson.webp
+  kind: official
+  source:
+    label: City of Port Wentworth
+    url: https://portwentworthga.gov/mediareleases-national-league-of-cities-selects-mayor-pro-tem-gabrielle-nelson-for-centennial-under-40-impact-award/
+    license: "© City of Port Wentworth / photographer, used as a drawing reference"

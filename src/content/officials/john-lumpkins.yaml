@@ -4,3 +4,10 @@ office: Member, Goochland County Board of Supervisors, District 3
 level: local
 jurisdiction: goochland
 current: false
+portrait:
+  image: /portraits/john-lumpkins.webp
+  kind: official
+  source:
+    label: Goochland County, Virginia
+    url: https://web.archive.org/web/20221006001814/https://goochlandva.us/158/Board-of-Supervisors
+    license: "© Goochland County, used as a drawing reference"

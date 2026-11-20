@@ -6,3 +6,10 @@ jurisdiction: us
 current: false
 ids: { bioguide: K000382 }
 url: https://bioguide.congress.gov/search/bio/K000382
+portrait:
+  image: /portraits/ann-kuster.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Ann_McLane_Kuster,_Official_Portrait,_113th_Congress.jpg
+    license: Public domain

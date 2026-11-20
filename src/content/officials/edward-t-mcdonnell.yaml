@@ -5,3 +5,10 @@ level: local
 jurisdiction: camden-county
 current: true
 url: https://www.camdencounty.com/contact/edward-t-mcdonnell/
+portrait:
+  image: /portraits/edward-t-mcdonnell.webp
+  kind: official
+  source:
+    label: Camden County
+    url: https://www.camdencounty.com/contact/edward-t-mcdonnell/
+    license: "© County of Camden, used as a drawing reference"

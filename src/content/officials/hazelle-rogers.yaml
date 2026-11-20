@@ -5,3 +5,10 @@ level: local
 jurisdiction: broward-county
 current: true
 url: https://www.broward.org/Commission/District9
+portrait:
+  image: /portraits/hazelle-rogers.webp
+  kind: photo
+  source:
+    label: Broward Metropolitan Planning Organization
+    url: https://www.browardmpo.org/our-board
+    license: Public domain (Florida government work)

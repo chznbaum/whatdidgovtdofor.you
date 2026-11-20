@@ -6,10 +6,12 @@ whatdidgovtdofor.you, a static Astro site of concrete things government did for 
 - `docs/design.md`: the design system, "Faces first" (chosen Nov. 2026 from designer samples kept locally in `design-samples/`, which is gitignored). Every action leads with the person who did the work, drawn in ink from a real photo. Never use party colors, and never let a status color line up with a party (no red/blue status axis).
 - `README.md`: commands and the publishing pipeline.
 - `docs/sourcing.md`: how feeds and research scripts may read government sources.
+- `pipeline/portraits/README.md`: how a portrait run goes, start to finish, and the owner's rules for it.
+- Standing instructions belong in these files, not in any one assistant's private memory: other models work on this project too.
 
-Local files, not in the repo, when present at the checkout root: `HANDOFF.md` (the current state of work), `OUTREACH.md` (sources that block us), and `design-samples/` (design rounds and research notes).
+Local files, not in the repo, at the main checkout's root only: `HANDOFF.md` (the current state of work), `OUTREACH.md` (sources that block us), and `design-samples/` (design rounds, research notes, portrait run folders). Start a session in the main checkout so you can read them; from a worktree, the main checkout is the first path `git worktree list` prints. Update them in place: fix what's become wrong rather than adding dated sections.
 
-Every change reaches `main` through a pull request; nothing is pushed to `main` directly. Work on a branch (a worktree if the main checkout is busy, e.g. during a pipeline run), push it, and open a PR to `main`. Your job ends at the PR: the owner, or workflows the PR triggers, review and merge it. Never force-push. Don't add co-author trailers to commits or "Generated with" footers to commits or PRs.
+Every change reaches `main` through a pull request; nothing is pushed to `main` directly. Don't work in the main checkout itself: cut a branch in a worktree for the work, and keep one piece of work to one worktree. A session that delegates to agents moves itself into the worktree first (in T3 Code, `t3_worktree_handoff`), since delegated agents start in, and can write only to, the session's own folder. Push the branch and open a PR to `main`. Your job ends at the PR: the owner, or workflows the PR triggers, review and merge it. Never force-push. Don't add co-author trailers to commits or "Generated with" footers to commits or PRs.
 
 Run `npm run validate` after touching content and `npm run build` after touching code. Pipeline scripts run on Node 24 with native type stripping (no enums or parameter properties; use explicit `.ts` import extensions).
 

@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami
 current: true
 url: https://www.miami.gov/My-Government/City-Officials/District-5-Commissioner-Christine-King
+portrait:
+  image: /portraits/christine-king.webp
+  kind: official
+  source:
+    label: City of Miami
+    url: https://www.miami.gov/My-Government/City-Officials/District-5-Commissioner-Christine-King
+    license: "© City of Miami, used as a drawing reference"

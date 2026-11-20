@@ -4,3 +4,10 @@ office: New York State Assembly Member, District 65
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/yuh-line-niou.webp
+  kind: photo
+  source:
+    label: Wikimedia Commons (Pnguyen5482)
+    url: https://commons.wikimedia.org/wiki/File:Assemblymember_Yuh-Line_Niou_in_Albany.jpg
+    license: CC BY-SA 4.0

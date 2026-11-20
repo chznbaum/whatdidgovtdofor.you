@@ -5,3 +5,10 @@ level: local
 jurisdiction: dekalb-county
 current: true
 url: https://dekalbcountyga.gov/departments/community-development
+portrait:
+  image: /portraits/allen-mitchell.webp
+  kind: official
+  source:
+    label: DeKalb County, Georgia
+    url: https://dekalbcountyga.gov/departments/community-development
+    license: "© DeKalb County, used as a drawing reference"

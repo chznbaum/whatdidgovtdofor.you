@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster/226/senator-greenstein
+portrait:
+  image: /portraits/linda-greenstein.webp
+  kind: photo
+  source:
+    label: New Jersey League of Conservation Voters
+    url: https://www.njlcv.org/node/866
+    license: "© Linda Greenstein / photographer, used as a drawing reference"

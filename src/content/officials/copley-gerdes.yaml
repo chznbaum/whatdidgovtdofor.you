@@ -5,3 +5,10 @@ level: local
 jurisdiction: st-petersburg
 current: true
 url: https://www.stpete.org/government/mayor___city_council/city_council/district_1.php
+portrait:
+  image: /portraits/copley-gerdes.webp
+  kind: official
+  source:
+    label: City of St. Petersburg
+    url: https://www.stpete.org/government/mayor___city_council/city_council/district_1.php
+    license: Public domain (Florida government work)

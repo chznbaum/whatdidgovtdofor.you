@@ -5,3 +5,10 @@ level: local
 jurisdiction: atlanta
 current: true
 url: https://citycouncil.atlantaga.gov/council-members/dustin-hillis
+portrait:
+  image: /portraits/dustin-hillis.webp
+  kind: photo
+  source:
+    label: "Dustin Hillis campaign (votedustinhillis.com)"
+    url: https://www.votedustinhillis.com/
+    license: "© Dustin Hillis campaign, used as a drawing reference"

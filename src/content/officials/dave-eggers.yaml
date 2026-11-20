@@ -5,3 +5,10 @@ level: local
 jurisdiction: pinellas-county
 current: true
 url: https://pinellas.gov/commissioner-dave-eggers/
+portrait:
+  image: /portraits/dave-eggers.webp
+  kind: official
+  source:
+    label: "Pinellas County"
+    url: "https://pinellas.gov/commissioner-dave-eggers/"
+    license: "© Pinellas County, used as a drawing reference"

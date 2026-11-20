@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: https://www.newarknj.gov/government/municipal-council
+portrait:
+  image: /portraits/louise-scott-rountree.webp
+  kind: photo
+  source:
+    label: BallotReady (candidate headshot)
+    url: https://www.ballotready.org/people/louise-scott-rountree
+    license: "© Louise Scott-Rountree / photographer, used as a drawing reference"

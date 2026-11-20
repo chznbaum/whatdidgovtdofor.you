@@ -5,3 +5,10 @@ level: state
 jurisdiction: fl
 current: true
 url: https://www.flsenate.gov/Senators/S12
+portrait:
+  image: /portraits/colleen-burton.webp
+  kind: photo
+  source:
+    label: "Colleen Burton (campaign site; photo by The Workmans / Alex Workman)"
+    url: https://www.colleenburton.com/meet-colleen
+    license: "© Colleen Burton campaign / The Workmans, used as a drawing reference"

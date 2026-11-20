@@ -4,3 +4,10 @@ office: New York City Council Member, District 33
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/stephen-levin.webp
+  kind: photo
+  source:
+    label: Solar One (staff page)
+    url: https://www.solar1.org/about/staff/
+    license: "© Solar One, used as a drawing reference"

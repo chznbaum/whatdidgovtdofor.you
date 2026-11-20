@@ -5,3 +5,10 @@ level: local
 jurisdiction: camden-county
 current: true
 url: https://camdencounty.com/contact/louis-cappelli-jr
+portrait:
+  image: /portraits/louis-cappelli-jr.webp
+  kind: official
+  source:
+    label: Camden County
+    url: https://camdencounty.com/contact/louis-cappelli-jr
+    license: "© County of Camden, used as a drawing reference"

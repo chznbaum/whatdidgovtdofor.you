@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster/465/senator-amato
+portrait:
+  image: /portraits/carmen-amato.webp
+  kind: official
+  source:
+    label: New Jersey Department of Military and Veterans Affairs, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Carmen_Amato_(March_5,_2025).jpg
+    license: Public domain

@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us/legislative-roster
+portrait:
+  image: /portraits/nicholas-scutari.webp
+  kind: photo
+  source:
+    label: Nick Scutari campaign
+    url: https://www.nickscutari.com/
+    license: "© Nick Scutari campaign / photographer, used as a drawing reference"

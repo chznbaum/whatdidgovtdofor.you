@@ -4,3 +4,10 @@ office: Vice President, Richmond City Council, 3rd District
 level: local
 jurisdiction: richmond
 current: false
+portrait:
+  image: /portraits/ann-frances-lambert.webp
+  kind: photo
+  source:
+    label: VPM News (photo courtesy of the Lambert campaign)
+    url: https://www.vpm.org/news/2021-01-04/new-richmond-council-members-usher-in-historic-female-representation/
+    license: "© Ann-Frances Lambert campaign, used as a drawing reference"

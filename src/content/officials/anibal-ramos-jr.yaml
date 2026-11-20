@@ -4,3 +4,10 @@ office: Member, Newark Municipal Council, North Ward
 level: local
 jurisdiction: newark
 current: true
+portrait:
+  image: /portraits/anibal-ramos-jr.webp
+  kind: photo
+  source:
+    label: Committee to Re-Elect Anibal Ramos, Jr. for Council
+    url: https://www.anibalramosjr.com/show_your_support_for_councilman_anibal_ramos_jr_on_social_media
+    license: "© Committee to Re-Elect Anibal Ramos, Jr., used as a drawing reference"

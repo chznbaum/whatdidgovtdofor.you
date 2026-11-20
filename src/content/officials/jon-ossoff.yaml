@@ -6,3 +6,10 @@ jurisdiction: ga
 current: true
 ids: { bioguide: O000174 }
 url: https://www.ossoff.senate.gov
+portrait:
+  image: /portraits/jon-ossoff.webp
+  kind: official
+  source:
+    label: U.S. Senate Photographic Studio, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021.jpg
+    license: Public domain

@@ -4,3 +4,10 @@ office: New York City Council Member, District 42
 level: local
 jurisdiction: nyc
 current: false
+portrait:
+  image: /portraits/inez-barron.webp
+  kind: official
+  source:
+    label: New York City Council
+    url: https://legistar.council.nyc.gov/PersonDetail.aspx?ID=124615&GUID=96279C89-505F-4044-8950-8CB0E849A395
+    license: "© New York City Council, used as a drawing reference"

@@ -5,3 +5,10 @@ level: local
 jurisdiction: hialeah
 current: true
 url: https://www.hialeahfl.gov
+portrait:
+  image: /portraits/carl-zogby.webp
+  kind: official
+  source:
+    label: City of Hialeah
+    url: https://www.hialeahfl.gov/443/Carl-Zogby
+    license: "© City of Hialeah, used as a drawing reference"

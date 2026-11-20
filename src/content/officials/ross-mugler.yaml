@@ -5,3 +5,10 @@ level: local
 jurisdiction: hampton
 current: false
 url: "https://hampton.legistar.com/LegislationDetail.aspx?ID=7046695&GUID=F9A78F67-5C17-4AB9-81C3-4D6009D81352"
+portrait:
+  image: /portraits/ross-mugler.webp
+  kind: photo
+  source:
+    label: "Old Dominion University (Board of Visitors)"
+    url: https://web.archive.org/web/20220812031313/https://www.odu.edu/about/bov/members/ross-a-mugler
+    license: "© Old Dominion University, used as a drawing reference"

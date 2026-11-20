@@ -5,3 +5,10 @@ level: local
 jurisdiction: miami-dade-county
 current: true
 url: https://www.miamidade.gov/global/government/commission/district12/home.page
+portrait:
+  image: /portraits/juan-carlos-bermudez.webp
+  kind: official
+  source:
+    label: Miami-Dade County Board of County Commissioners
+    url: https://www.miamidade.gov/global/government/commission/home.page
+    license: "© Miami-Dade County, used as a drawing reference"

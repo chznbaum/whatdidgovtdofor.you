@@ -4,3 +4,10 @@ office: Georgia State Senator, District 52
 level: state
 jurisdiction: ga
 current: true
+portrait:
+  image: /portraits/chuck-hufstetler.webp
+  kind: official
+  source:
+    label: Georgia General Assembly, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Charles_%22Chuck%22_Edward_Hufstetler.jpg
+    license: Public domain

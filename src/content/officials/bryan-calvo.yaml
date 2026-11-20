@@ -6,3 +6,10 @@ jurisdiction: hialeah
 current: true
 seat: { place: hialeah, title: Mayor }
 url: https://www.hialeahfl.gov/195/City-Mayor
+portrait:
+  image: /portraits/bryan-calvo.webp
+  kind: official
+  source:
+    label: City of Hialeah
+    url: https://www.hialeahfl.gov/195/City-Mayor
+    license: Public domain (Florida government work)

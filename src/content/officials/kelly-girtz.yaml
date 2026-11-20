@@ -6,3 +6,10 @@ jurisdiction: athens-clarke
 current: true
 seat: { place: athens-clarke, title: Mayor, until: 2027-01-05 }
 url: https://www.accgov.com/mayor
+portrait:
+  image: /portraits/kelly-girtz.webp
+  kind: photo
+  source:
+    label: Kelly Girtz (kellygirtz.com)
+    url: https://kellygirtz.com/
+    license: "© Kelly Girtz, used as a drawing reference"

@@ -4,3 +4,10 @@ office: President, Minneapolis City Council, Ward 1
 level: local
 jurisdiction: minneapolis
 current: true
+portrait:
+  image: /portraits/elliott-payne.webp
+  kind: official
+  source:
+    label: City of Minneapolis
+    url: https://www.minneapolismn.gov/government/city-council/members/ward-1/
+    license: "© City of Minneapolis, used as a drawing reference"

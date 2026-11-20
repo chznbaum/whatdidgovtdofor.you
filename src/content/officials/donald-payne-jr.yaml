@@ -5,3 +5,10 @@ level: federal
 jurisdiction: nj
 current: false
 ids: { bioguide: P000604 }
+portrait:
+  image: /portraits/donald-payne-jr.webp
+  kind: official
+  source:
+    label: U.S. House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Donald_Payne_Jr_Official_Portrait_113rd_Congress.jpg
+    license: Public domain

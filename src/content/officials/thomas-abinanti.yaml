@@ -4,3 +4,10 @@ office: New York State Assembly Member, District 92
 level: state
 jurisdiction: ny
 current: false
+portrait:
+  image: /portraits/thomas-abinanti.webp
+  kind: photo
+  source:
+    label: "Tom Abinanti campaign (abinanti.com)"
+    url: https://abinanti.com/
+    license: "© Tom Abinanti, used as a drawing reference"

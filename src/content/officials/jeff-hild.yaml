@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://acf.gov
+portrait:
+  image: /portraits/jeff-hild.webp
+  kind: photo
+  source:
+    label: American Academy of Pediatrics
+    url: https://www.aap.org/en/about-the-aap/aap-leadership/senior-leadership-team/
+    license: "© publisher, used as a drawing reference"

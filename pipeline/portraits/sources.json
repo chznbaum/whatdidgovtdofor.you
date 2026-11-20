@@ -2220,6 +2220,7 @@
     "notes": "Former Ward 5 Council Member and Council President (2012-2023). Her own bio photo from the home page of her consulting site (alt text 'Amy Brendmoen bio photo', uploaded May 2024). The file is 1825x2560 three-quarter length (hands on hips in front of an ornate door); saved photos/amy-brendmoen.jpg as a 930x1080 head-and-shoulders crop (no upscaling), full frame kept as photos/amy-brendmoen.full.jpg. Posed, facing the camera with a slight head tilt, warm closed-mouth smile, eyes clearly visible. Face ~380px across; the file is a little soft. Short tousled pixie cut, ash-brown with blond highlights swept to one side. Fair skin, warm natural light. Small pearl stud earrings. No glasses. Black ribbed V-neck sweater. Leave the door grille background out. Her best official photo is photos/amy-brendmoen.official.jpg: the city's 2015 council portrait (Wayback, stpaul.gov ward-5 page through Dec. 2023, file 20150323-SAP_6276-Edit_0.jpg), posed on a gray backdrop with a smile, short brown hair, rust sweater and silver statement necklace, but only 267x400 with a ~120px face and 9 years older, so the larger recent press photo was preferred (precedent: Hochul, Boysko). No Commons category for her. Other rejects on her site: pink-dress photo leaning on a brick wall (428x640, small), podium and group photos."
   },
   "james-bowles": {
+    "hold": "only a ~75px face from a video",
     "tier": "reference-only",
     "page": "https://scholarscompass.vcu.edu/goo_items/3",
     "image": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/78/6a/9e786aa1172bad71f5d992e041e8665e39b5938cc3c7d913cced75c76499b09f_2.ts00003.ts",
@@ -2390,6 +2391,7 @@
     "notes": "Michal Freedhoff, EPA Assistant Administrator for Chemical Safety and Pollution Prevention (2021-2025). Her official EPA portrait (2021, U.S. government work; the only portrait of her on Commons), full size 1638x2048 kept as photos/michal-freedhoff.full.jpg; photos/michal-freedhoff.jpg is a head-and-shoulders crop (box 119,34,1467,1535), face ~530px across. Posed, slight three-quarter turn to her right with a slight head tilt, gentle closed-lip smile, eyes clear. Voluminous shoulder-length curly copper/strawberry-blonde hair, lighter golden at the crown and ends, parted near the middle; hazel-green eyes; no glasses; fair skin with light freckles, soft warm studio light from the left against a dark backdrop. Sleeveless dark plum/burgundy top, thin gold chain with a small gold fish pendant; US flag at left (drop it). No other posed photo of her found on Commons; EPA's own pages were not needed for this public-domain copy."
   },
   "deb-barber": {
+    "hold": "photo too small (~60px face)",
     "tier": "official",
     "page": "https://metrocouncil.org/About-Us/Who-We-Are/CouncilMembers/Vacant%2C-District-4.aspx",
     "image": "https://metrocouncil.org/getattachment/3d158a90-a19d-4c1e-8406-abd33dd7b720/Vacant,-District-4.aspx",
@@ -2970,6 +2972,7 @@
     "notes": "Anne Anderson, the Woburn, Mass. mother whose son Jimmy died of leukemia in 1981; not an official. No posed portrait of her exists online that I could find, so this is an event photo and is reference-only. Taken Oct 23, 2023 at the EPA press conference in Woburn announcing the proposed TCE ban (Sen. Markey and EPA's Michal Freedhoff were there); posted by Sen. Ed Markey on X and run by Common Dreams with the caption 'Activist Anne Anderson delivers brief remarks while U.S. Sen. Ed Markey (D-Mass.) (left) looks on' (credit 'Photo: Sen. Ed Markey/X'). Full 3040x2014 kept as photos/anne-anderson.full.jpg; photos/anne-anderson.jpg is a crop of her (box 1115,557,1976,1621), face ~250px across. She stands at an EPA podium in a three-quarter view turned to her left (toward Markey), with a warm, open smile and eyes visible, in bright sun; a mic stands just right of her face and a man's head is partly visible behind it (drop both, and the podium). She was in her late 80s: short, wispy, tousled white hair; fair skin with deep lines, pink in the sun; navy zip jacket over a pale lilac turtleneck. Second reference for front-on structure (not to copy the expression): photos/anne-anderson.ap.jpg, a crop of the AP photo by Michael Casey from the same event (6000x4000 original via GBH/WBUR, wbur.org/news/2023/10/24/epa-ban-tce-trichloroethylene-cancer-chemical-woburn), front-facing, face ~500px, but speaking at the mic with a solemn, unsmiling expression and a black leather jacket. Also tried: the Harvard Chan School story linked from her yaml (hsph.harvard.edu, 'A mother's crusade for clean water', 2013) shows only a stock photo of oil barrels; Commons has nothing; EPA news releases (epa.gov and the Jan 2025 snapshot) carry no photos; Toxic-Free Future and CommonWealth Beacon pages show no portrait of her; Markey's 2013 campaign release site is down; boston.com was skipped (its robots.txt blocks AI agents)."
   },
   "denis-mcdonough": {
+    "hold": "photo cut tight at the shoulders; no padding (owner, Nov 19, 2026)",
     "tier": "official",
     "page": "https://commons.wikimedia.org/wiki/File:Secretary_McDonough,_official_photo.jpg",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Secretary_McDonough%2C_official_photo.jpg",
@@ -3460,6 +3463,7 @@
     "notes": "Studio speaker headshot embedded in the 2025 Rutgers REACH event program (page 5, Panelists, captioned KETLEN BAPTISTE ALSBROOK, MPA, with her Newark DHCW director bio); extracted from the PDF at its embedded size (387x540, kept as photos/ketlen-baptiste-alsbrook.full.jpg; photos/ketlen-baptiste-alsbrook.jpg is a head-and-shoulders crop). SMALL: face is only ~105px across; no larger copy found. Posed, slight three-quarter to her left, warm open smile showing teeth. Long straight dark-brown/black hair past the shoulders, center part. Medium-deep brown skin, soft even studio light on a gray backdrop. Large silver hoop earring, thin gold necklace, teal blazer over black top. Rejected: the City of Newark staff-directory photo (newarknj.gov, eid=83) could not be checked: newarknj.gov returns a Cloudflare \"Sorry, you have been blocked\" page even for robots.txt, so the host (and its Wayback copies) was skipped. University Hospital board page (uhnj.org/about-us/board-of-directors/ketlen-baptiste-alsbrook/) has a 239x332 selfie-style office photo (braids, orange blazer, face ~110px, unsmiling); smaller and less posed. Nothing on Commons."
   },
   "jonathan-christy": {
+    "hold": "photo too small to draw truly (~95px face)",
     "tier": "official",
     "page": "https://www.goochlandva.us/158/Board-of-Supervisors",
     "image": "https://www.goochlandva.us/ImageRepository/Document?documentId=10068",
@@ -3880,6 +3884,7 @@
     "notes": "Her official commissioner portrait from HRA/DSS's 'Meet the Commissioner' page while she led DSS (archived June 2024; the page now shows her successor, but the image file is still on nyc.gov). Taken during her tenure (2023-2025). Posed close portrait, face turned slightly to her left with a gentle head tilt, warm smile showing teeth, eyes visible; face ~650px across. Shoulder-length dark-brown curly hair with a few gray strands, swept back off the forehead; brown eyes; pearl stud earrings. Fair skin, soft natural window light, blurred blue-and-white office background. No glasses. Magenta collarless jacket over a black top. The head nearly touches the top edge of the frame. The DSS leadership page on the list (nyc.gov/site/dss/about/leadership.page) is 404 and was never archived. No Commons photo."
   },
   "robb-pitts": {
+    "hold": "photo too small to draw truly (~150px face); needs a larger posed photo",
     "tier": "press",
     "page": "https://roughdraftatlanta.com/author/robb-pitts/",
     "image": "https://roughdraftatlanta.com/wp-content/uploads/2021/12/Robb-Pitts-Headshot-rotated.jpeg",
@@ -4040,6 +4045,7 @@
     "notes": "Kilolo Kijakazi, Acting Commissioner of Social Security (July 2021-Dec 2023). Her Urban Institute staff headshot (EXIF 2015), the photo on her Urban author page while she was an Institute Fellow there (archived May 2020; file still live on urban.org); the same photo was used for her as Acting Commissioner on Abt Associates SSA-demonstration presenter page and the EBRI symposium bio. Full 2400x2640 kept as photos/kilolo-kijakazi.full.jpg; photos/kilolo-kijakazi.jpg is a head-and-shoulders crop (box 264,0,2201,2289), face ~950px across. Posed, slight three-quarter to her left, warm smile showing upper teeth, eyes clear. Black locs gathered up into a high bun/updo; dark brown eyes; no glasses in this photo; small pearl stud earrings; deep brown skin, soft window light, blurred office atrium behind. Red sleeveless top, long pearl necklace with a dark pearl drop. LOOK IN OFFICE DIFFERS: her official SSA portrait (photos/kilolo-kijakazi.alt.jpg, 191x264, face ~70px, too small to draw from alone; Commons File:Kilolo_Kijakazi.jpg, public domain, from SSA Executive Bios) shows her c. 2021-23 with the same locs updo but gray-silver at the hairline and temples, rectangular dark red-brown framed glasses, smiling with teeth, black blazer over white top with black stripe, gold pendant, US flag. The drawer should add the glasses and graying front hair from the alt. Official tier only has that tiny copy: ssa.gov (and blog.ssa.gov, best.ssa.gov, which redirect to it) return Akamai 403 Access Denied to our agent, even robots.txt, so SSA pages and their Wayback copies were skipped. Rejected: Urban 2025 author photo (152x200), GovExec Dec 2023 article photo (Getty news photo)."
   },
   "kenny-alexander": {
+    "hold": "photo cut at the shoulders; no padding (owner, Nov 19, 2026)",
     "tier": "official",
     "page": "https://www.norfolk.gov/200/City-Council",
     "image": "https://www.norfolk.gov/ImageRepository/Document?documentId=92702",
@@ -4300,6 +4306,7 @@
     "notes": "Official Georgia Senate member portrait dated 2025-01-15, public domain on Commons (sourced there from the General Assembly's portrait file; taken from Commons because legis.ga.gov's member pages load portraits through its JSON API, which is off-limits). Her nameplate reads 'Senator Kay Kirkpatrick, Chairman, Children and Families'. The original is a 2858x4287 half-length PNG (kept as photos/kay-kirkpatrick.full.jpg, flattened to JPEG); photos/kay-kirkpatrick.jpg is a 2100x2250 head-and-shoulders crop. Grey studio backdrop between the U.S. and Georgia flags, front-facing, gentle smile showing teeth, blue-grey eyes visible behind dark tortoiseshell/black rectangular glasses. Chin-length auburn/copper-red bob with bangs swept to the side, round gold ball earrings, fair skin with fine lines, even studio light. Black zip jacket over a dark floral top (orange, teal, purple), Senate lapel pin. Face is about 950px across."
   },
   "sophie-shulman": {
+    "hold": "photo too small (~70px face)",
     "tier": "press",
     "page": "https://live.worldbank.org/en/experts/s/sophie-shulman",
     "image": "https://s7d1.scene7.com/is/image/wbcollab/Sophie_Shulman-2?qlt=75&resMode=sharp2",
@@ -4380,6 +4387,7 @@
     "notes": "Cory Booker, U.S. Senator from New Jersey (2013-). His current official Senate portrait (2025, 119th Congress; Commons credits his booker.senate.gov press kit). Full 4430x5538 kept as photos/cory-booker.full.jpg; photos/cory-booker.jpg is a head-and-shoulders crop (box 461,0,3968,4153), face ~1600px across. Posed, front-facing, gentle closed-mouth smile (no teeth), eyes clear and direct. Bald/shaved head; dark brows; brown-hazel eyes; no glasses; short salt-and-pepper stubble beard and mustache, gray at the chin; light-to-medium brown skin, warm even light; blurred ornate room with red drapes behind (drop it). Navy suit, lavender shirt, purple tie with small white pattern. ALSO SAVED: photos/cory-booker.alt.jpg (613x762, face ~350px), the older photo used as his bioguide image and 114th Congress member-guide portrait (Commons File:Cory_Booker,_official_portrait,_114th_Congress.jpg, public domain; likely c. 2010-13): broad open smile showing teeth, clean-shaven, slightly off-camera, semi-candid office setting, red dotted tie. fetch-official had saved that bioguide 450x550 version first; replaced, since the 2025 portrait is posed, current and far larger. booker.senate.gov robots.txt redirects to an Akamai 403 Access Denied page, so his site was not used."
   },
   "mike-duman": {
+    "hold": "photo too small to draw truly (~100px face)",
     "tier": "official",
     "page": "https://www.suffolkva.us/DocumentCenter/View/19169/Adopted-Operating--Capital-Budget-FY-2026-2027",
     "image": "https://www.suffolkva.us/DocumentCenter/View/19169/Adopted-Operating--Capital-Budget-FY-2026-2027",
@@ -4488,5 +4496,1007 @@
     "width": 789,
     "height": 1000,
     "notes": "Official Assembly portrait, the cut-out header headshot on his member page (PNG with transparent background, flattened onto white). The directory headshot (headshot/104.jpg) is only 134x200 (an older studio shot with a flag and law books). Front-facing, broad smile showing teeth, eyes visible; face ~320px across. Short gray hair, thinning and receding on top, fuller at the sides; dark eyebrows; clean-shaven. Fair-olive skin, even studio light. No glasses. Black pinstripe suit, white shirt, red-black-and-white striped tie. No Commons photo or Wikipedia image."
+  },
+  "jamal-osman": {
+    "tier": "official",
+    "page": "https://www.minneapolismn.gov/government/city-council/members/ward-6/",
+    "image": "https://www.minneapolismn.gov/media/-www-content-assets/images/headshots/Ward-6-Jamal-Osman.jpg",
+    "publisher": "City of Minneapolis",
+    "license": "\u00a9 City of Minneapolis, used as a drawing reference",
+    "width": 868,
+    "height": 650,
+    "notes": "Official Council studio headshot. His Ward 6 page shows the 200x200 thumbnail (Ward-6-Jamal-Osman-th.jpg, alt \"Council Vice-President Jamal Osman\"); this is the full-size file of the same shot on the same path. Front-facing, gentle closed-lip smile showing a little of the upper teeth, short dark curly hair, thin moustache and short chin beard, no glasses. Deep brown skin, evenly lit studio light on a gray gradient backdrop. Navy suit, white shirt, blue patterned tie, gold City lapel pin. Shoulders and upper chest in frame with clear space above the hair. Face ~195px across."
+  },
+  "diane-savino": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20221207000244/https://www.nysenate.gov/senators/diane-j-savino",
+    "image": "https://www.nysenate.gov/sites/default/files/hs.jpg",
+    "publisher": "New York State Senate",
+    "license": "\u00a9 New York State Senate, used as a drawing reference",
+    "width": 2526,
+    "height": 3537,
+    "notes": "Former Senator (District 23, left the Senate at the end of 2022). Official Senate studio headshot, the member photo (160x160 style of hs.jpg) on her archived member page, Wayback snapshot 2022-12-07; nysenate.gov serves a Cloudflare challenge to scripts, so the original file was retrieved from the Wayback Machine (web.archive.org/web/20230628033856im_/https://www.nysenate.gov/sites/default/files/hs.jpg). Photo year unknown (looks like her middle tenure, 2010s). Front-facing with a slight head tilt to her left, broad smile showing upper teeth, red lipstick, brown eyes, long layered black hair past the shoulders with a side part, no glasses. Light olive skin, soft even studio light on a mottled blue backdrop. Red double-breasted jacket with large red buttons, thin gold necklace. Shoulders and upper chest in frame, clear space above the hair. Face ~900px across. Rejected: the page hero (1366x1020-Savino.jpg), a candid at the Senate dais holding her glasses, mid-word at a microphone."
+  },
+  "nicole-love-hendrickson": {
+    "tier": "press",
+    "page": "https://www.love4gwinnett.com/",
+    "image": "https://static.wixstatic.com/media/f0ae8a_7aaa8225c1ee4d4292388e902d25c556~mv2.jpg",
+    "publisher": "Nicole Love Hendrickson campaign (love4gwinnett.com)",
+    "license": "\u00a9 Nicole Love Hendrickson campaign, used as a drawing reference",
+    "width": 1477,
+    "height": 1577,
+    "notes": "Posed outdoor campaign portrait on her campaign home page (2024 re-election campaign; original 2000x2349, three-quarter length with hands at blazer lapels, kept as photos/nicole-love-hendrickson.full.jpg; photos/nicole-love-hendrickson.jpg is a head-and-shoulders crop with the shoulders and upper chest, face ~380px across). Front-facing, broad smile showing teeth, eyes clear. Long dark brown-black hair worn down in loose waves past the shoulders, side part; no glasses; drop pearl earrings, silver chain with a heart pendant. Deep brown skin, soft even daylight, blurred trees and hedge behind. Lavender blazer over a pale pink top. Rejected: the official Gwinnett County chair page photo (gwinnettcounty.com/government/departments/board-of-commissioners/about/chair, nicole-love-hendrickson (4).webp) is the same-era studio headshot but only 200x200 (face ~70px); Commons File:2021-03-03 BOC 2021 State of the County (114) (cropped).jpg (Gwinnett County Government, CC BY-SA 4.0) is a speech candid from 2021; campaign nicolesheadshots-77.jpg is a family walking photo; a white-suit cut-out on the campaign site is three-quarter length with a smaller face. www.naco.org/people/hon-nicole-love-hendrickson returned 403."
+  },
+  "mark-bogen": {
+    "tier": "press",
+    "page": "https://hylonewsmiami.com/2025/11/29/mark-bogen-elected-broward-county-mayor-robert-mckinzie-tapped-for-vice-mayor/",
+    "image": "https://i0.wp.com/hylonewsmiami.com/wp-content/uploads/2025/11/Mark-Bogen-McKinzie-Win.jpg",
+    "publisher": "Broward County Government (via Hylo News Miami)",
+    "license": "\u00a9 Broward County, used as a drawing reference",
+    "width": 1130,
+    "height": 1260,
+    "notes": "Posed photo the Broward County Government released (credited \"Photo credit: Broward County Government Twitter\") when he became mayor again in Nov. 2025, shown in Hylo News Miami's story. The original is a two-person shot (2240x1260) with Vice Mayor Robert McKinzie on the left, both seated at the commission dais; kept as photos/mark-bogen.full.jpg. photos/mark-bogen.jpg is the right half: Bogen alone, waist up, hands clasped on the dais, shoulders and chest fully in frame. Front-facing, eyes to camera, warm closed-lip-to-slight-teeth smile. Face ~340px across. Very little space above the hair (the top of his hair is about 10px from the top edge). Light olive/fair skin, soft even light against walnut wood paneling and a brown leather chair. Thick dark-brown hair going gray at the temples and sides, side-parted and swept back. No glasses, clean-shaven, lines around eyes. Navy suit, light-blue shirt, blue patterned tie, smartwatch on left wrist. Official tier blocked: www.broward.org (his District 2 page, https://www.broward.org/district2/About, and its headshot Dist2_MarkBogen-removebg.png) returns a Cloudflare 403 to automated reads, so that host and its archived copies were skipped. Alternate: an older posed studio portrait on a black backdrop, broad smile, darker hair, uploaded to Florida Politics in 2021 (https://floridapolitics.com/wp-content/uploads/2021/07/Mark-Bogen.jpg, 1365x1001, shown on https://floridapolitics.com/archives/473742-bogen-crosses-100k; face ~350px) - good if a studio look is wanted, but years older than his current look. Rejected: swearing-in candid at a podium mic (Caribbean National Weekly). Not on Commons or the Broward MPO board page. Broward County's X post (x.com/browardinfo) not read: login wall."
+  },
+  "marci-collier-overstreet": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:President_of_the_Atlanta_City_Council_Marci_Collier_Overstreet.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/President_of_the_Atlanta_City_Council_Marci_Collier_Overstreet.jpg",
+    "publisher": "Atlanta City Council, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1920,
+    "height": 2400,
+    "notes": "Official Atlanta City Council studio portrait as Council President, dated 2026-01-05 on Commons (source given as citycouncil.atlantaga.gov/home/showpublishedimage/26295/..., a host that blocks us, so not fetched there; Commons license tag PD-GAGov). Gray studio backdrop, front-facing, warm closed-lip-to-teeth smile, eyes clear. Long dark brown-black hair, center part, worn down in big soft curls to the shoulders; no glasses; stud earrings, silver chain with a square pendant; red lipstick. Medium-brown skin, even studio light. Red fringed knit jacket over a red top. Head and shoulders with upper chest; face ~800px across. Framing is fairly tight at the top (hair close to the top edge) but shoulders are fully in frame. Rejected: Commons photos from Jon Ossoff rally (2020) are candids."
+  },
+  "dave-eggers": {
+    "tier": "official",
+    "page": "https://pinellas.gov/commissioner-dave-eggers/",
+    "image": "https://pinellas.gov/wp-content/uploads/2026/01/DEggers_2026_5x7.jpg",
+    "publisher": "Pinellas County",
+    "license": "\u00a9 Pinellas County, used as a drawing reference",
+    "width": 1500,
+    "height": 2100,
+    "notes": "Official 2026 portrait as Commission Chair (uploaded Jan. 2026). His commissioner page shows it at 225x315 (DEggers_2026.jpg, alt \"2026 Pinellas County Commission Chair, Dave Eggers\"); this is the full 5x7 print version of the same photo from the county media library (attachment page https://pinellas.gov/deggers_2026_5x7/). Studio portrait on a mottled blue backdrop, head and chest, shoulders fully in frame with good space above the hair. Front-facing, eyes to camera, gentle closed-mouth smile. Face ~700px across. Fair skin with a ruddy tone, soft even studio light. Short gray hair, receding with a high forehead, combed back, thinning on top. Dark rectangular half-rim glasses with clear lower rims. Clean-shaven, lines at the eyes. Blue sport coat, white button-down shirt, red tie with a small white square pattern, gold county lapel pin on his right lapel and a U.S. flag pin on his left. No Commons file needed."
+  },
+  "alex-wan": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Member_of_the_Atlanta_City_Council_Alex_Su-chi_Wan.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Member_of_the_Atlanta_City_Council_Alex_Su-chi_Wan.jpg",
+    "publisher": "Atlanta City Council, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1920,
+    "height": 2400,
+    "notes": "Official Atlanta City Council studio portrait (Commons date 2022-01-03, the start of his current council tenure; source given as citycouncil.atlantaga.gov/home/showpublishedimage/26301/..., a host that blocks us, so not fetched there; license tag PD-GAGov). Gray studio backdrop, front-facing, broad smile showing teeth, eyes clear. Short salt-and-pepper hair, mostly gray, lighter at the temples, brushed back; no glasses; clean-shaven. Light-to-medium East Asian skin tone, even studio light. Navy suit, white shirt, dark patterned tie, round city lapel pin. Head and shoulders with upper chest and clear space above the hair; face ~750px across."
+  },
+  "c-lawrence-crump": {
+    "tier": "press",
+    "page": "https://www.ballotready.org/people/c-lawrence-crump",
+    "image": "https://assets.civicengine.com/uploads/candidate/headshot/646275/646275.jpg",
+    "publisher": "BallotReady (candidate headshot)",
+    "license": "\u00a9 C. Lawrence Crump / photographer, used as a drawing reference",
+    "width": 272,
+    "height": 320,
+    "notes": "Candidate headshot on his BallotReady profile (page names him Newark City Council At-Large). SMALL: 272x320, face ~90px across; no larger copy found. Recent (2022-26). Posed studio shot on a plain white backdrop, front-facing, big open smile showing teeth. Bald/shaved head, short salt-and-pepper beard and mustache (mostly gray on the chin), black rectangular glasses. Deep brown skin, bright even light. Gray windowpane-check suit jacket, white shirt, gold/blue/white striped bow tie; framed to mid-chest with clear space above the head. Rejected: Passaic Valley Sewerage Commission commissioners page (nj.gov/pvsc/who/commissioners/LCrump.jpg) is an official photo but only 123x150 and a candid (wedding-style, red boutonniere); PVSC July 2023 swearing-in release photo is full-length with hand raised. newarknj.gov (Cloudflare) skipped per brief; goodparty.org profile hit a Vercel Security Checkpoint, skipped; newark.legistar.com person page has no photo."
+  },
+  "kimberly-palmieri-mouded": {
+    "tier": "official",
+    "page": "https://ucnj.org/commissioners/commissioner-kimberly-palmieri-mouded/",
+    "image": "https://ucnj.org/wp-content/uploads/2019/01/Kimberly-Palmieri-Mouded.png",
+    "publisher": "Union County",
+    "license": "\u00a9 County of Union, used as a drawing reference",
+    "width": 408,
+    "height": 470,
+    "notes": "Official Union County commissioner headshot from her ucnj.org bio page (shown there as the 250x288 resize; this is the original upload, 408x470). Face ~170px across. Uploaded 2019 (she took office 2019), still the photo the county uses in 2026. Posed, front-facing, warm smile showing teeth. Long straight hair, dark brown at the roots with caramel/honey highlights through the lengths, center-ish part, falling past the shoulders. Light olive skin, soft even studio light on a plain gray backdrop. Small gold hoop earrings, single strand of pearls, navy blazer over a white top. Framed to the upper chest; some space above the hair but not a lot."
+  },
+  "ann-frances-lambert": {
+    "tier": "press",
+    "page": "https://www.vpm.org/news/2021-01-04/new-richmond-council-members-usher-in-historic-female-representation/",
+    "image": "https://k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/60/bb/8de36b6b2bde2a52d75d723b4d52/artboard-1-100-1.jpg",
+    "publisher": "VPM News (photo courtesy of the Lambert campaign)",
+    "license": "\u00a9 Ann-Frances Lambert campaign, used as a drawing reference",
+    "width": 696,
+    "height": 698,
+    "notes": "Former Council Vice President (3rd District, Jan. 2021 to Jan. 2025). Her campaign headshot from about 2020, as supplied to VPM for its Jan. 4, 2021 article (captioned \"Photos courtesy of campaigns\"); the file is a 1600x900 two-panel graphic with Katherine Jordan on the left, kept as photos/ann-frances-lambert.full.jpg; photos/ann-frances-lambert.jpg is the right panel cropped inside its frame. The City used this same photo as her official Council photo (Council-Photo-3-Lambert_257x360_0.jpg on rva.gov/richmond-city-council/council-contacts, archived 2024-12-06; kept as photos/ann-frances-lambert.rva.jpg), but that copy is only 257x360, face ~140px, and cut at the top of the hair, so the wider campaign copy is used. Posed outdoors on a street, front-facing, broad smile showing upper teeth, pink lipstick, shoulder-length black hair with soft waves and a side part, pearl earrings, no glasses. Medium brown skin, soft overcast light. Navy blazer over a yellow top, pearl necklace with a large gold-and-crystal pendant. Shoulders and top of chest in frame, clear space above the hair. Face ~290px across; the file is slightly soft."
+  },
+  "luis-quintana": {
+    "tier": "official",
+    "page": "https://www.nj.gov/pvsc/who/commissioners/",
+    "image": "https://www.nj.gov/pvsc/who/commissioners/Quintana.jpg",
+    "publisher": "Passaic Valley Sewerage Commission",
+    "license": "\u00a9 Passaic Valley Sewerage Commission / State of New Jersey, used as a drawing reference",
+    "width": 609,
+    "height": 628,
+    "notes": "Official posed portrait on the Passaic Valley Sewerage Commission commissioners page (page names him Luis A. Quintana, Vice Chairman; he sits on the PVSC board as a Newark representative). Page displays it at 123x150; this is the full file, 609x628. Face ~160px across. Probably from his time as Newark mayor/council president (c. 2014-2018), the setting looks like the Newark council chamber. Seated behind a wooden desk, hands folded, front-facing, closed-mouth smile. Short gray hair, receding at the temples, combed back; gray-and-dark mustache, clean-shaven otherwise. Light/olive skin, warm indoor light. Navy pinstripe suit, white shirt with French cuffs, burgundy patterned tie, lapel pin, big watch. Waist-up; hair close to the top edge (little space above). Tufted leather chair, NJ/city flags and a seal behind him: drop them. Rejected: BallotReady campaign headshot (assets.civicengine.com .../585747/luis-a-quintana.png, 1600x1525) is a candid looking off to the side at an event. newarknj.gov (Cloudflare) skipped per brief; no Commons photo; Legistar person page has no photo."
+  },
+  "louis-cappelli-jr": {
+    "tier": "official",
+    "page": "https://camdencounty.com/contact/louis-cappelli-jr",
+    "image": "https://www.camdencounty.com/wp-content/uploads/2016/04/commissioners-portraits-resized-2023.jpg",
+    "publisher": "Camden County",
+    "license": "\u00a9 County of Camden, used as a drawing reference",
+    "width": 393,
+    "height": 491,
+    "notes": "Official 2023 Camden County commissioner portrait on his county contact page (page names him Director Louis Cappelli, Jr.). Face ~210px across; largest copy the county serves. Posed, front-facing, warm smile showing teeth. Short brown hair, side part, a little gray at the temples; clean-shaven. Fair skin with some tan, light crow s-feet, even studio light on a mottled gray backdrop. Navy pinstripe suit, white shirt, navy tie with small white pattern. Framed to the upper chest with modest space above the hair. camdencounty.com robots.txt sets crawl-delay 10 (respected)."
+  },
+  "cynthia-newbille": {
+    "tier": "press",
+    "page": "https://www.sportsbackers.org/board/profile/cynthia-newbille/",
+    "image": "https://www.sportsbackers.org/wp-content/uploads/2025/01/Photo-7-Councilwoman-Cynthia-Newbille-2.jpg",
+    "publisher": "Sports Backers (board profile)",
+    "license": "\u00a9 City of Richmond, used as a drawing reference",
+    "width": 546,
+    "height": 768,
+    "notes": "The City Council studio portrait she used for years (filename Photo-7-Councilwoman-Cynthia-Newbille, the Council photo-numbering for the 7th District), shown on her Sports Backers board profile (uploaded Jan. 2025). The same photo was her official Council photo on richmondgov.com and on rva.gov in 2020-21, but only at 118x165 (rva.gov/sites/default/files/2020-08/Newbille.jpg). Her current rva.gov photo (Council-Photo-7-Newbille_258x360_0.jpg on rva.gov/richmond-city-council/council-contacts, kept as photos/cynthia-newbille.rva.jpg) is a newer, unsmiling shot with shorter curly hair, a burgundy blazer and pink collar, but only 258x360 (face ~115px); the 686x660 Newbille3a.png on rva.gov/office-city-clerk/council-information is an upscaled circle crop of it with no shoulders. So this older, larger, posed and smiling photo is used; it is probably from the 2010s, so she looks a little younger than now. Front-facing with a slight turn, warm smile showing upper teeth, deep burgundy lipstick, short layered black hair swept up and back, gold teardrop hoop earrings, no glasses. Deep brown skin, soft even studio light on a mottled gray backdrop. Black blazer over a white open-collared shirt, thin gold necklace. Shoulders and top of chest in frame; the hair comes close to the top edge. Face ~300px across."
+  },
+  "dupre-kelly": {
+    "tier": "press",
+    "page": "https://www.duprekelly.com/about-dupr%C3%A9",
+    "image": "https://static.wixstatic.com/media/9969e8_79caa6737f05418996367c54f96cc7b8~mv2.jpg",
+    "publisher": "Dupr\u00e9 Kelly campaign site (duprekelly.com)",
+    "license": "\u00a9 Dupr\u00e9 Kelly, used as a drawing reference",
+    "width": 680,
+    "height": 690,
+    "notes": "Headshot on the About page of his West Ward council campaign site. Original 1080x967, kept as photos/dupre-kelly.full.jpg (him cut out and composited over a Newark skyline: National Newark Building and clouds); photos/dupre-kelly.jpg is a head-and-shoulders crop, 680x690, face ~180px across. Recent (council era, 2022-26). Posed, front-facing, closed-lip smile with a little teeth. Shaved bald head; full, neatly trimmed black beard and mustache. Deep brown skin, even light (cutout edges are clean). Light blue-gray suit, white shirt, brown/pink/blue plaid tie, brown pocket square, small gold eye-shaped lapel pin. Hands steepled at the waist below the crop; good space above the head. His right shoulder touches the right edge of the original. Drop the composited skyline. Rejected: BallotReady campaign headshot (assets.civicengine.com .../646257/646257.jpg, 960x959) is a moody night-balcony shot, unsmiling, head cut at the top edge. newarknj.gov (Cloudflare) skipped per brief; Ballotpedia skipped (AWS WAF); Legistar person page has no photo; no Commons photo."
+  },
+  "tyrona-clark-murray": {
+    "tier": "press",
+    "page": "https://voteclarkmurray.com/",
+    "image": "https://img1.wsimg.com/isteam/ip/e9a2c856-854a-43b7-8231-222c9fd6d3d4/blob-0003.png",
+    "publisher": "Tyrona Clark-Murray for City Council District 9 (campaign)",
+    "license": "\u00a9 Tyrona Clark-Murray campaign, used as a drawing reference",
+    "width": 595,
+    "height": 800,
+    "notes": "Hero headshot on her campaign site (voteclarkmurray.com; the site from her 2022-23 races). The file is a 1200x1000 PNG with the photo centered on a transparent margin; photos/tyrona-clark-murray.jpg is the photo area only (595x800), not upscaled. Jacksonville Today ran the same photo in May 2026 credited \"Campaign website for Tyrona Clark-Murray\". Photo c. 2022. Posed on a pale lavender-gray backdrop, slight three-quarter turn to her right, eyes to camera, broad smile showing teeth, shimmery lavender lipstick. Face ~190px across: smaller than ideal but sharp. Shoulders and chest fully in frame, good space above the hair. Medium-brown skin, bright even light. Dark-brown hair pulled into a high ponytail worn as one long braid over her right shoulder, lighter brown at the tip. Small hoop earrings. Hot-pink blazer with white piping over a white satin pussy-bow blouse. No glasses. Rejected: the City of Jacksonville official headshot on her District 9 page (https://www.jacksonville.gov/city-council/city-council-members/d09, Tyrona-C-M.jpg) is only 192x234 (face ~65px; navy backdrop, hair in an updo, navy jacket with white bow blouse); the Jacksonville Daily Record (May 2026) shows a different blue-backdrop headshot (long wavy hair, beaded necklace) that is cut off at the collarbone with no shoulders, so it cannot frame (media.yourobserver.com/img/photos/2026/05/07/Clark-Murray_resized_r1080x720.jpg, face ~250px; possibly a newer official photo, but no larger or wider copy found); a 2023 Florida Tributary candidate collage uses the same pink campaign photo at smaller size. No Commons file. floridapolitics.com served a Cloudflare challenge on /?p=612550, so it was skipped."
+  },
+  "james-baker": {
+    "tier": "official",
+    "page": "https://ucnj.org/james-e-baker-jr/",
+    "image": "https://ucnj.org/commissioners/wp-content/uploads/sites/29/2022/01/James-E-Baker-Jr-scaled.jpg",
+    "publisher": "Union County",
+    "license": "\u00a9 County of Union, used as a drawing reference",
+    "width": 2048,
+    "height": 2560,
+    "notes": "Official Union County commissioner headshot, uploaded January 2022, from his ucnj.org bio page (shown there at 819x1024; this is the 2048 scaled copy from the same srcset; a 2786px original also exists). Face ~900px across. Posed, front-facing, gentle closed-mouth smile. Short white/silver hair, full on top and brushed back; white-and-gray mustache with a little gray on the chin. Medium-deep brown skin with some dark spots/freckles on the cheeks, soft even studio light on a pale gray-lavender backdrop. Black suit with peak lapels, white shirt, black-and-red plaid tie. Framed to mid-chest with clear space above the hair."
+  },
+  "harvey-epstein": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20251103143907/https://nyassembly.gov/mem/Harvey-Epstein",
+    "image": "https://nyassembly.gov/write/upload/member_files/074/headshot/074.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 1902,
+    "height": 2000,
+    "notes": "Former Assembly Member (District 74, 2018-2025; now on the NYC Council). Assembly directory headshot from his archived member page (Wayback snapshot 2025-11-03; the live page is gone and District 74 now shows his successor), uploaded March 2024 (hst=1711395485), so his look at the end of his Assembly tenure. File retrieved from the Wayback Machine copy (web.archive.org/web/20251103202618im_/...). Front-facing with a slight turn, broad smile showing upper teeth, fully shaved head, brown eyes, clean-shaven, small earring in his left ear, no glasses. Light skin, warm even studio light on a dark mottled navy backdrop. Royal blue blazer over a dark navy shirt with small white dots, open collar, gold Assembly lapel pin. Shoulders and upper chest in frame, clear space above the head. Face ~600px across. The page also has a cut-out version of the same shot on white (header_headshot/074.png)."
+  },
+  "matt-westmoreland": {
+    "tier": "press",
+    "page": "https://roughdraftatlanta.com/2023/02/16/matt-westmoreland-leading-the-way-in-education-and-legislation/",
+    "image": "https://roughdraftatlanta.com/wp-content/uploads/2023/02/LGBTQ-Leaders-Matt-Westmoreland-750x400-021723.png",
+    "publisher": "Rough Draft Atlanta (Atlanta City Council portrait)",
+    "license": "\u00a9 Atlanta City Council, used as a drawing reference",
+    "width": 750,
+    "height": 400,
+    "notes": "His current-term official Atlanta City Council portrait (U.S., Georgia and City of Atlanta flags against the green marble wall at City Hall), as run, cropped to 750x400, with a Feb. 2023 Rough Draft Atlanta profile; no larger copy found. Front-facing, broad smile showing teeth, eyes clear (slightly narrowed by the smile). Short dark brown hair swept up and back; no glasses; clean-shaven. Fair skin with a warm, slightly flushed tone, even studio light. Dark navy suit, white shirt, navy tie, round lapel pin. Face ~220px across, under the 300px aim. The frame is tight at the top (hair near the top edge) and stops at the upper chest, but both shoulders are in frame. Rejected: citycouncil.atlantaga.gov (blocks us, Akamai 403; not tried, nor its archived copies); no Commons photo (File:Matt Westmoreland 17102026 (46).jpg is a different Matt Westmoreland at a Fulham football match); his first-term (2018) council portrait at saportareport.com/wp-content/uploads/2019/07/Matt-Westmoreland.png is 376x440 (face ~210px) and an older look; 2017 Saporta campaign photo is a candid with a microphone; branch.vote (195px) and Kiwanis Atlanta speaker (240px) copies of the first-term portrait are tiny; ARC board bio is only at atlantaregional.org/?p=24554, which ARC robots.txt disallows (/?p=); atlantaciviccircle.org robots.txt disallows everything."
+  },
+  "stanley-neron": {
+    "tier": "official",
+    "page": "https://ucnj.org/commissioners/commissioner-stan-j-neron/",
+    "image": "https://ucnj.org/commissioners/wp-content/uploads/sites/29/2025/12/DSC09883-3.jpg",
+    "publisher": "Union County",
+    "license": "\u00a9 County of Union, used as a drawing reference",
+    "width": 1638,
+    "height": 2048,
+    "notes": "Official Union County commissioner headshot, uploaded December 2025, on his ucnj.org bio page (page title Commissioner Stanley J. Neron). Face ~620px across. Posed, front-facing, broad smile showing teeth. Very short black hair, close crop with a receding hairline; short black goatee and mustache with a light beard shadow along the jaw, a little gray in the goatee. Medium-deep brown skin, soft even studio light on a pale lavender-gray backdrop. Navy three-piece suit, white shirt, black satin tie, white pocket square, round Union County seal lapel pin. Framed to mid-chest with clear space above the head."
+  },
+  "john-mckeon": {
+    "tier": "official",
+    "page": "https://www.njleg.state.nj.us/legislative-roster/478/senator-mckeon",
+    "image": "https://climateintegrity.org/uploads/signers2/L4CA-Headshot-JohnFMcKeon.png",
+    "publisher": "New Jersey Legislature",
+    "license": "\u00a9 New Jersey Legislature, used as a drawing reference",
+    "width": 900,
+    "height": 900,
+    "notes": "Official Legislature member photo (the njleg member page serves it as pub.njleg.gov/publications/members/mckeon_color.jpg, only 151x220, face ~70px). This file is a larger copy of the same photo (same pose, checked side by side) from his Climate Integrity Leaders Network page (climateintegrity.org/projects/leaders-network/john-f-mckeon), the same route used for Angela McKnight. Face ~400px across. The copy is palette-reduced, so there is visible dither noise in flat areas; features are clear. The photo is old (likely late 2000s, from his Assembly years; he is older and grayer now) but it is still the photo the Legislature uses. Posed in the State House rotunda, front-facing, very broad smile showing teeth, crinkled eyes, light blue eyes. Thick dark-brown hair, side-swept with volume. Fair/light skin, warm indoor light. Dark suit, light blue shirt, gold patterned tie, US flag lapel pin. Framed to the upper chest with modest space above the hair. Background (balcony, sconces) should be dropped. BallotReady carries only the same 151x220 photo. Skipped njsendems.org (Cloudflare) and Ballotpedia (AWS WAF) per brief; no Commons photo of this John McKeon."
+  },
+  "dana-barrett": {
+    "tier": "official",
+    "page": "https://www.fultoncountyga.gov/News/2026/07/02/DISTRICT-3-COMMISSIONER-DANA-BARRETT-HOSTS-PROPERTY-TAX-ASSESSMENT-TOWN-HALL",
+    "image": "https://fultoncountyga.gov/-/media/Commissioners/Barrett/Dana-Barrett-Web-Graphic.png",
+    "publisher": "Fulton County Government",
+    "license": "\u00a9 Fulton County Government, used as a drawing reference",
+    "width": 520,
+    "height": 726,
+    "notes": "Posed studio cut-out of her on the Fulton County news release graphic for her July 2026 property tax town hall (1672x941 graphic kept as photos/dana-barrett.full.jpg; photos/dana-barrett.jpg is a 520x726 crop of her, waist up with arms crossed; the white FULTON COUNTY logo text sits in the top-left corner of the crop, beside her hair, not over her). Same shoot as the July 2025 town hall graphic. Front-facing, broad smile showing teeth, eyes clear. Platinum blonde, almost white, straight blunt bob to the jaw, center part, darker roots barely visible; no glasses (she wears dark round glasses in some candids); clean even studio light on fair skin; small necklace. Pale blue double-breasted blazer with dark buttons over a white top, on a solid blue backdrop. Face only ~130px across, below the aim: no larger posed photo found. Rejected: her official member page photo (fultoncountyga.gov/Commissioners/Dana-Barrett, Barrett-01.jpg) is a fine posed, smiling portrait in a navy blazer leaning on a commission-chamber railing, but only 417x417 with a face ~85px; the NACo appointment graphic (2025) uses the same small portrait; danabarrett.com (her own site) hero image is a mid-word interview candid with glasses; no Commons photo."
+  },
+  "benjie-wimberly": {
+    "tier": "official",
+    "page": "https://www.njleg.state.nj.us/legislative-roster/499/senator-wimberly",
+    "image": "https://pub.njleg.gov/publications/members/wimberly_benjie_2024.jpg",
+    "publisher": "New Jersey Legislature",
+    "license": "\u00a9 New Jersey Legislature, used as a drawing reference",
+    "width": 250,
+    "height": 364,
+    "notes": "Official 2024 Legislature member photo (still used on his Senate page; he moved to the Senate in January 2025). SMALL: 250x364, face ~120px across; no larger copy found. Posed, front-facing, warm smile showing teeth. Shaved bald head; short salt-and-pepper beard and mustache, grayer on the chin. Medium brown skin, soft even studio light; US and NJ flags blurred behind. Navy suit, white shirt, light blue textured tie, round lapel pin. Framed to the upper chest with modest space above the head. Rejected: Commons File:Benjie_Wimberly_(cropped).jpg (NJ DMAVA, 2024, public domain, 1511x1868) is a committee-hearing candid, mid-word, looking off to the side, desk lamp in front; BallotReady has only an older 151x220 photo (flags behind, younger). njsendems.org and assemblydems.com (Cloudflare) and Ballotpedia (AWS WAF) skipped per brief."
+  },
+  "thomas-abinanti": {
+    "tier": "press",
+    "page": "https://abinanti.com/",
+    "image": "https://abinanti.com/masthead_photo.jpg",
+    "publisher": "Tom Abinanti campaign (abinanti.com)",
+    "license": "\u00a9 Tom Abinanti, used as a drawing reference",
+    "width": 378,
+    "height": 600,
+    "notes": "Former Assembly Member (District 92, 2011-2022). Posed headshot from the masthead of his own site (now his 2026 Mt. Pleasant Town Supervisor campaign); he wears the gold Assembly lapel pin, so it was taken while he was in office (looks like about 2021-22). His official Assembly headshot (nyassembly.gov/write/upload/member_files/092/headshot/092.jpg, archived 2021-12-21) is only 134x200 (face ~75px), an older look without glasses; no Commons photo exists. Front-facing, warm smile showing upper teeth, black rectangular glasses, receding light brown hair with gray, combed back and a little tousled, clean-shaven. Fair skin, soft indoor light against a plain off-white wall. Charcoal suit, light blue shirt, blue patterned tie, Assembly pin. Shoulders and upper chest in frame with clear space above the hair. Image is under 400px wide; face ~200px across. Alternate: photos/thomas-abinanti.alt.jpg (abinanti.com/atty.png, 800x800, face ~300px, same glasses and pin, seated before law books) is larger but cropped at the top of the hair, so it was not chosen."
+  },
+  "dustin-hillis": {
+    "tier": "press",
+    "page": "https://www.votedustinhillis.com/",
+    "image": "https://images.squarespace-cdn.com/content/v1/586c5dfeb3db2bcdc456b0d5/c3df0223-1b1d-4c9b-af62-155179fad36c/HansenB250628-0100.jpg",
+    "publisher": "Dustin Hillis campaign (votedustinhillis.com)",
+    "license": "\u00a9 Dustin Hillis campaign, used as a drawing reference",
+    "width": 1080,
+    "height": 1160,
+    "notes": "Posed outdoor campaign portrait on his 2025 re-election campaign home page (file name dates the shoot to June 28, 2025; original 2500x1667, half-length on a residential street, kept as photos/dustin-hillis.full.jpg; photos/dustin-hillis.jpg is a head-and-shoulders crop with upper chest, face ~300px across). Facing camera with a slight turn of the body, warm closed-mouth smile, eyes visible through glasses. Short light-brown hair, thinning and receding at the front; dark tortoiseshell rectangular glasses; short light-brown goatee and mustache. Fair skin, soft even daylight. Blue textured suit, light blue shirt, blue-and-white striped tie, city lapel pin. Rejected: his first-term official Atlanta City Council studio portrait (gray backdrop, no glasses, maroon tie; 1920x2400) as run by Rough Draft Atlanta (roughdraftatlanta.com/wp-content/uploads/2021/09/Dustin-Hillis.jpeg, used with a Dec. 2024 article) is larger and posed but an older look without the glasses he now wears; citycouncil.atlantaga.gov blocks us (not tried, nor archived copies); no Commons photo; branch.vote candidate photos are 200-400px; patch.com robots.txt disallows anthropic-ai and was not fetched."
+  },
+  "jimmy-peluso": {
+    "tier": "press",
+    "page": "https://www.jimmy4jax.com/",
+    "image": "https://images.squarespace-cdn.com/content/v1/69f7a141916aef708d5422f0/afbaa99f-3095-4167-a0b3-b0c08c635ab5/jimmy-peluso-for-at-large-4.jpg?format=2500w",
+    "publisher": "Jimmy Peluso for Jacksonville City Council (campaign)",
+    "license": "\u00a9 Jimmy Peluso campaign, used as a drawing reference",
+    "width": 1150,
+    "height": 1352,
+    "notes": "Hero photo on his 2026-27 campaign site (running for At-Large Group 4). The full banner is 2500x1352 with a navy gradient over the left half (kept as photos/jimmy-peluso.full.jpg); photos/jimmy-peluso.jpg is the right part with him alone. Posed outdoors, waist up, arms crossed, slight three-quarter turn to his right, eyes to camera, broad smile showing teeth. Face ~360px across; shoulders and chest fully in frame with good space above the hair. The campaign's navy fade darkens the far left edge over his right shoulder and arm: draw the shoulder from the visible shape. Fair skin with a warm, slightly ruddy tone, soft daylight. Short light-brown hair, receding a little at the temples, combed up and back. Brown eyes, no glasses, clean-shaven. Charcoal-gray polo shirt with a U.S. Navy emblem on the left chest. U.S. flag hanging behind on the right, blurred trees and a brick wall. Photo c. 2026. Rejected: the City of Jacksonville official headshot on his District 7 page (https://www.jacksonville.gov/city-council/city-council-members/d07, Peluso,-Jimmy.jpg) is only 192x235 (face ~75px; navy suit, white shirt, dark tie, studio blue backdrop), and the city serves no larger copy; Jacksonville Today's 2023 election-night photo is a candid with another man. jimmypeluso.com is a parked domain. No Commons file."
+  },
+  "angel-fuentes": {
+    "tier": "official",
+    "page": "https://www.camdennj.gov/council-members/",
+    "image": "https://www.camdennj.gov/wp-content/uploads/2026/02/Fuentes_rev1-scaled.jpg",
+    "publisher": "City of Camden",
+    "license": "\u00a9 City of Camden, used as a drawing reference",
+    "width": 1920,
+    "height": 2560,
+    "notes": "Official City of Camden council photo, uploaded February 2026, on the Council Members page (captioned Angel Fuentes, President). Face ~600px across. The file looks digitally sharpened/smoothed (rev1), so skin texture is soft; features are clear. Posed, front-facing, gentle closed-mouth smile. Dark brown hair combed back, gray at the temples and sides; clean-shaven. Black rectangular glasses. Light-medium tan skin, even indoor light. Gray suit, tan/camel vest, white shirt, navy/red/gold striped tie, gold City of Camden seal lapel pin. Framed to the waist with space above the hair. Behind him are the NJ state flag and a colorful mural: drop them. camdennj.gov robots.txt sets crawl-delay 10 (respected)."
+  },
+  "carl-zogby": {
+    "tier": "official",
+    "page": "https://www.hialeahfl.gov/443/Carl-Zogby",
+    "image": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=17778",
+    "publisher": "City of Hialeah",
+    "license": "\u00a9 City of Hialeah, used as a drawing reference",
+    "width": 1080,
+    "height": 1080,
+    "notes": "Official council headshot on his City of Hialeah page (alt \"Headshot of Carl Zogby - Councilman\"); 1080x1080 PNG, the size the city serves. Posed in council chambers in front of a U.S. flag (left) and the bronze City of Hialeah seal on wood paneling (right). Slight three-quarter turn to his right, eyes to camera, calm closed-mouth smile (subtle, not broad; no broader-smiling posed photo found). Face ~370px across; shoulders and upper chest in frame, modest space (~45px) above the hair. Fair/light olive skin, soft even light. Short gray hair, darker at the crown, combed back; full short gray-and-white beard and mustache, whiter at the chin. Brown eyes, no glasses, forehead lines. Royal-blue suit, light-blue shirt, gold patterned tie. Photo year not stated (c. 2023-25). No Commons file. hialeahfl.gov robots.txt sets Crawl-delay: 10 (respected; three requests)."
+  },
+  "louise-scott-rountree": {
+    "tier": "press",
+    "page": "https://www.ballotready.org/people/louise-scott-rountree",
+    "image": "https://assets.civicengine.com/uploads/candidate/headshot/646273/646273.jpg",
+    "publisher": "BallotReady (candidate headshot)",
+    "license": "\u00a9 Louise Scott-Rountree / photographer, used as a drawing reference",
+    "width": 250,
+    "height": 250,
+    "notes": "Candidate headshot on her BallotReady profile (page names her Newark City Council At-Large). VERY SMALL: 250x250, face ~80px across; no larger copy found. Recent (2022-26). Posed outdoors, face turned slightly to her left (three-quarter), smile showing teeth with bright pink lipstick. Shoulder-length burgundy/auburn twist braids (box twists) with a side part. Medium-light brown skin, soft daylight. Royal blue top, pearl necklace, pearl earrings, silver/pearl brooch; a classical stone building (likely Newark City Hall) and sky behind. Cut at the upper chest; some space above the hair. newarknj.gov (Cloudflare) and cawp.rutgers.edu skipped per brief; Legistar person page has no photo; no Commons photo."
+  },
+  "dianne-feinstein": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Dianne_Feinstein_Official_High_Res_Photo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Dianne_Feinstein_Official_High_Res_Photo.jpg",
+    "publisher": "United States Senate, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 2368,
+    "height": 3000,
+    "notes": "Former Senator (1992-2023). Her long-standing official Senate portrait (Commons source: her Senate site Official Photo page; Commons files it under 2005); the Congress bioguide photo (F000062, 450x550) is a tight crop of this same shot and was not used because it is small and cut at the shoulders. Front-facing with a slight turn, warm smile showing teeth, red lipstick, blue-gray eyes, voluminous coiffed brown hair with lighter highlights, pearl stud earrings, no glasses. Fair skin, soft even studio light, bookshelves behind. Red blazer over a black top, long thin gold chain necklace. Shoulders and upper chest in frame with clear space above the hair. Face ~700px across. Rejected: the 2004 official Senate photo by Becky Hammel (black jacket and pearls, same era, also good) and an older 1990s portrait (black velvet jacket with pink trim), as the red-jacket shot is the one she used longest and the bioguide uses."
+  },
+  "elliott-payne": {
+    "tier": "official",
+    "page": "https://www.minneapolismn.gov/government/city-council/members/ward-1/",
+    "image": "https://www.minneapolismn.gov/media/-www-content-assets/images/headshots/Ward-1-Elliott-Payne.jpg",
+    "publisher": "City of Minneapolis",
+    "license": "\u00a9 City of Minneapolis, used as a drawing reference",
+    "width": 868,
+    "height": 650,
+    "notes": "Official Council studio headshot. His Ward 1 page shows the 200x200 thumbnail (Ward-1-Elliott-Payne-th.jpg, alt \"Council President Elliott Payne\"); this is the full-size file of the same shot on the same path. Front-facing with a slight turn, closed-mouth smile, shaved head, full short beard and moustache, dark with heavy gray on the chin and cheeks, no glasses. Light brown skin, evenly lit studio light on a gray gradient backdrop. Black suit, white shirt, black textured tie, City lapel pin. Shoulders and upper chest in frame with clear space above the head. Face ~230px across. Rejected: the page hero (CP-Elliott-Payne-hero3.jpg), a full-length outdoor candid in sunglasses."
+  },
+  "christine-king": {
+    "tier": "official",
+    "page": "https://www.miami.gov/My-Government/City-Officials/District-5-Commissioner-Christine-King",
+    "image": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/king-headshot.jpeg",
+    "publisher": "City of Miami",
+    "license": "\u00a9 City of Miami, used as a drawing reference",
+    "width": 1280,
+    "height": 850,
+    "notes": "Official headshot (alt \"King headshot.jpeg\") on her District 5 commissioner page, which displays it at 300x200; this is the full file the city serves (1280x850, landscape). Studio portrait on a plain white backdrop, waist-up, shoulders and chest fully in frame with good space above the hair. Slight three-quarter turn to her left, eyes to camera, broad smile showing teeth, pink lipstick. Face ~205px across (smaller than ideal but crisp). Medium-brown skin, bright even studio light. Long, voluminous dark-brown hair with caramel/honey balayage on the lengths, side-parted on her right and curled in big waves past the shoulders. Pearl stud earrings, a short pearl necklace. Black blazer over a white silk V-neck blouse. No glasses. Photo year not stated (she took office in 2021; c. 2021-24). No larger copy on the page; no Commons file."
+  },
+  "kelly-girtz": {
+    "tier": "press",
+    "page": "https://kellygirtz.com/",
+    "image": "https://img1.wsimg.com/isteam/ip/88f67f72-81c9-46a4-97bd-cf1cfdff04a2/kelly_girtz_backdrop_horiz%20bw%20warm.JPG",
+    "publisher": "Kelly Girtz (kellygirtz.com)",
+    "license": "\u00a9 Kelly Girtz, used as a drawing reference",
+    "width": 1200,
+    "height": 1220,
+    "notes": "Posed studio portrait, the hero image on his own site (2560x1707, waist up with arms crossed against a plain backdrop, kept as photos/kelly-girtz.full.jpg; photos/kelly-girtz.jpg is a head-and-shoulders crop with upper chest, face ~420px across). Warm-toned black-and-white (sepia-ish) print, so no color information: he has fair skin and light blue-gray eyes (see the color ACC photo). Facing camera with head tilted slightly to his left, broad smile showing teeth, eyes clear and crinkled. Head shaved very short, nearly bald on top, gray at the sides; gray goatee and mustache, darker in the mustache; no glasses. Suit jacket, light shirt, checked tie. Undated; the look matches his current official photo. Rejected: the official Athens-Clarke County mayor page photo (accgov.com/mayor, ImageRepository documentID=15112) is a color, smiling outdoor headshot but only 250x250 (face ~100px); Commons File:Kelly Girtz.jpg (CC BY 3.0, Athens Police Nerd) is a 2019 YouTube still, mid-word and unsmiling."
+  },
+  "heather-simmons": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Brig._Gen._Mays_meets_with_legislators_Heather_Simmons_(cropped).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Brig._Gen._Mays_meets_with_legislators_Heather_Simmons_%28cropped%29.jpg",
+    "publisher": "Wikimedia Commons (New Jersey Department of Military Affairs; photo by Mark C. Olsen)",
+    "license": "Public domain",
+    "width": 1507,
+    "height": 2011,
+    "notes": "Crop of a NJ Department of Military Affairs photo from the State House in Trenton, March 23, 2026 (file title names her; in the uncropped original she stands between Brig. Gen. Mays and Brig. Gen. Roscoe, the only civilian). Face ~750px across. Current look. Posed for the camera, front-facing, warm smile showing teeth. Chin-length dark-brown/auburn bob, side part, tucked behind one ear. Fair/light olive skin, even indoor flash light. White textured boucle jacket, dark top, thin gold necklace, small gold hoop earrings, round General Assembly member pin. Framed to mid-chest with clear space above the hair; NJ flag and window blinds behind (drop them). Rejected (but posed and fine): Legislature member photo pub.njleg.gov/publications/members/simmons_heather_2024a.jpg, 250x364, face ~120px, older look with long dark hair past the shoulders, charcoal blazer; BallotReady 200x280 older photo. assemblydems.com (Cloudflare) and Ballotpedia (AWS WAF) skipped per brief; the photo s Flickr source page skipped (flickr robots)."
+  },
+  "shawn-still": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Shawn_Micah_Tresher_Still.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Member_of_the_Georgia_State_Senate_Shawn_Micah_Tresher_Still.jpg",
+    "publisher": "Georgia General Assembly, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 3439,
+    "height": 5158,
+    "notes": "Official Georgia Senate portrait (Commons date 2022-11-10, just after his first election; source given as legis.ga.gov/api/images/default-source/portraits/still-shawn-5016.jpg; license tag PD-GAGov). Gray drape backdrop between a U.S. flag (left) and the Georgia flag (right edge). Front-facing, broad smile showing teeth, eyes visible though narrowed by the smile. Short light-brown hair going gray, combed back, receding at the temples; no glasses; clean-shaven. Fair skin, even studio light. Navy windowpane suit, white checked shirt, pink patterned tie, round Senate lapel pin. Chest-up with clear space above the head; face ~1300px across. Rejected: Commons File:Shawn Still Mugshot.png (a booking photo, not a portrait)."
+  },
+  "kevin-riley": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-12.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 3277,
+    "height": 4096,
+    "notes": "Council posed member headshot, shown as \"Kevin C. Riley Head Shot\" for District 12 on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-12.jpg, updated 2026-09 from the Council photo team's Flickr), so current. His council.nyc.gov/kevin-riley page has only an event photo. Front-facing, broad smile showing upper teeth, shaved head, short dark goatee and moustache, small stud earrings, no glasses. Deep brown skin, even studio light; US flag and NYC flag behind. Navy suit, white shirt, pink-and-white patterned tie, gold Council lapel pin. Shoulders and upper chest in frame; only a small margin above the head. Face ~1300px across."
+  },
+  "joseph-bodek": {
+    "tier": "official",
+    "page": "https://ucnj.org/commissioners/commissionerjoseph-bodek/",
+    "image": "https://ucnj.org/commissioners/wp-content/uploads/sites/29/2023/12/bodek_2024_full-scaled.jpg",
+    "publisher": "Union County",
+    "license": "\u00a9 County of Union, used as a drawing reference",
+    "width": 2048,
+    "height": 2560,
+    "notes": "Official Union County commissioner headshot (file named bodek_2024, uploaded December 2023) on his ucnj.org bio page (page title Chairman Joseph Bodek). Face ~850px across. Posed, front-facing with head tilted very slightly, closed-mouth smile, eyes a little squinted with the smile. Short light-gray/white hair, receding, brushed up; clean-shaven; deep forehead lines. Fair skin with a ruddy/pink tone, bright even studio light on a white/pale-pink backdrop. Blue suit, light blue button-down shirt, navy-and-blue plaid tie, round Union County seal lapel pin. Framed to mid-chest with clear space above the hair."
+  },
+  "linda-greenstein": {
+    "tier": "press",
+    "page": "https://www.njlcv.org/node/866",
+    "image": "https://www.njlcv.org/sites/default/files/person/greenstein.jpg",
+    "publisher": "New Jersey League of Conservation Voters",
+    "license": "\u00a9 Linda Greenstein / photographer, used as a drawing reference",
+    "width": 380,
+    "height": 475,
+    "notes": "Posed headshot on the NJ League of Conservation Voters endorsement page District 14: Linda Greenstein. Face ~190px across. Likely c. 2010 (same era and hair as her old Legislature photo); she is older now. Posed indoors, front-facing with a slight tilt, closed-lip smile showing a little teeth, blue-gray eyes, no glasses. Chin-length layered auburn/medium-brown bob with side-swept bangs. Fair skin, warm soft light; dark bookshelves behind. Red textured jacket over a black top, silver hoop earrings. Framed to the upper chest with modest space above the hair. Rejected: Legislature member photo pub.njleg.gov/publications/members/greenstein_color.jpg (151x220, face ~65px; posed outdoors, navy jacket, pearls); Commons File:Linda_R._Greenstein.jpg (CC BY 2.0, 2015, 859x1166, larger and more recent with gold wire glasses, but an event candid under harsh flash with a green cast, a ceiling of party decorations behind). njsendems.org (Cloudflare) and Ballotpedia (AWS WAF) skipped per brief; BallotReady has only the 151x220 Legislature photo."
+  },
+  "paul-sarlo": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:(05-08-2025)_Paul_Sarlo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/%2805-08-2025%29_Paul_Sarlo.jpg",
+    "publisher": "Wikimedia Commons (New Jersey Department of Military and Veterans Affairs)",
+    "license": "Public domain",
+    "width": 785,
+    "height": 1046,
+    "notes": "NJ Department of Military and Veterans Affairs photo from the May 8, 2025 Senate Military and Veterans Affairs Committee session (file title names him; it is the image on his Wikipedia article; cropped from File:(05-08-2025)_TAG_speaks_before_Senate_Paul_Sarlo.jpg). Face ~360px across. Current look. Facing the camera, closed-lip smile showing a little teeth, eyes slightly crinkled. Dark brown hair slicked straight back, receding with gray at the temples; clean-shaven. Light olive skin, soft indoor daylight. Navy suit, light lavender-blue shirt, pink/lilac patterned tie. Framed to mid-chest with space above the hair; stone wall and stained-glass window behind (drop them). Rejected (posed, but small): Legislature member photo pub.njleg.gov/publications/members/sarlo_paul_2022_250.jpg, 250x364, face ~120px, warm smile, red patterned tie, State House background; BallotReady 200x200 older photo. njsendems.org (Cloudflare) and Ballotpedia (AWS WAF) skipped per brief."
+  },
+  "amina-bey": {
+    "tier": "press",
+    "page": "https://www.ballotready.org/people/amina-bey",
+    "image": "https://assets.civicengine.com/uploads/candidate/headshot/914175/914175.jpg",
+    "publisher": "BallotReady (candidate headshot)",
+    "license": "\u00a9 Amina Bey / photographer, used as a drawing reference",
+    "width": 1030,
+    "height": 842,
+    "notes": "Professional studio portrait used as her candidate headshot on BallotReady (page names her Newark City Council, Central Ward, 2025-present). Original 1500x1000 landscape kept as photos/amina-bey.full.jpg; photos/amina-bey.jpg is a head-and-shoulders crop (1030x842, face ~260px across). Recent (2025 campaign). Posed, body turned slightly, face toward camera, smile showing teeth with red lipstick; chin resting lightly on her left hand (fingers along the jaw, not over the face). Short tapered auburn/copper-brown hair with side-swept bangs. Deep brown skin, soft even studio light on a plain gray backdrop. Crisp white button-down shirt with a wide collar, large gold hoop earrings, gold chain bracelet with pearl, gold watch. Plenty of space above the hair. newarknj.gov (Cloudflare) skipped per brief; goodparty.org (Vercel Security Checkpoint) skipped; Ballotpedia (AWS WAF) skipped; Legistar person page has no photo; no Commons photo."
+  },
+  "skip-henderson": {
+    "tier": "official",
+    "page": "https://columbusga.gov/Mayor",
+    "image": "https://resources.columbusga.gov/mayor/images/Mayor%20Henderson%20II.jpg",
+    "publisher": "Columbus Consolidated Government",
+    "license": "\u00a9 Columbus Consolidated Government, used as a drawing reference",
+    "width": 212,
+    "height": 265,
+    "notes": "Official portrait on the Columbus Office of the Mayor page (the same 212x265 file is on the columbusga.gov home page as /portals/0/resources/images/Mayor.jpg). VERY SMALL: face only ~75px across; no larger copy found. Seated at his desk in his office, U.S. flag at left, window blinds behind, hands clasped on the desk; front-facing, slight closed-mouth smile, eyes clear. Short silver-gray hair, side-parted and brushed back, fuller on top; no glasses; clean-shaven. Fair skin with a ruddy tone, even indoor light. Charcoal suit, white shirt, blue-and-white striped tie, wristwatch. Waist-up with clear space above the head. Rejected: Commons File:Skip Henderson mugshot.jpg (the Wikipedia lead image; a booking photo, not a portrait, and not used); Georgia Trend 2022 photo by Nathan LeDuc is a construction-site candid by a magazine photographer; the Meet-the-Mayor page shows no photo (content errors); the mayor bio PDF (resources.columbusga.gov/mayor/pdfs/MayorHendersonsBio.pdf) has no portrait; his ghcc.org page has no portrait; his Facebook page needs a login."
+  },
+  "laurie-cumbo": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20210604035315/https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/84b32e643c798fb3663b30a1051ebab6ea58806e/thumbnails/district-35.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 365,
+    "height": 497,
+    "notes": "Former Majority Leader (District 35, 2014-2021). Council posed member headshot, shown as \"Laurie A. Cumbo Head Shot\" on the council.nyc.gov/districts/ member table (Wayback snapshot 2021-06-04); the file is the 2019 version of thumbnails/district-35.jpg in the Council's NewYorkCityCouncil/districts GitHub repo (replaced for her successor on 2021-12-31). Small: face ~115px across, so draw from an upscale. Front-facing with a slight turn, arms crossed, broad smile showing teeth, red lipstick, very short cropped natural dark hair, gold earrings, no glasses. Medium brown skin, even studio light; NY State flag and US flag behind. White jacket with bold black stripes over a red blouse and a black-and-white patterned scarf. Head, shoulders and crossed arms in frame with space above the hair. Her archived council.nyc.gov/laurie-cumbo and district-35 pages have only a swearing-in candid; Legistar shows only current members and the Council Flickr is off limits. Larger alternates, not chosen: photos/laurie-cumbo.dcla.jpg, her official NYC Department of Cultural Affairs commissioner portrait (nyc.gov/assets/dcla/images/content/pages/LC.jpg, 853x1280, March 2022 or later, archived on web.archive.org/web/20230501215459/https://www.nyc.gov/site/dcla/about/commissioner.page), posed and smiling, face ~200px, but seated full-length and after her Council tenure, with longer hair in a high bun; photos/laurie-cumbo.commons.jpg, Commons File:Cumboheadshot.jpg (Jeremy riddle, CC BY-SA 4.0, 2019, captioned majority leader), larger but black-and-white and cut off at the top of the head."
+  },
+  "colleen-burton": {
+    "tier": "press",
+    "page": "https://www.colleenburton.com/meet-colleen",
+    "image": "https://images.squarespace-cdn.com/content/v1/5eb41e29f44ae6092427f507/9ab785f2-c70c-4c0b-9213-079f8afb5e3b/The_Workmans_Alex_Workman_Colleen_Burton_February_2026_0379.jpg?format=2500w",
+    "publisher": "Colleen Burton (campaign site; photo by The Workmans / Alex Workman)",
+    "license": "\u00a9 Colleen Burton campaign / The Workmans, used as a drawing reference",
+    "width": 660,
+    "height": 710,
+    "notes": "From a February 2026 campaign photo shoot (file name credits The Workmans / Alex Workman), on the Meet Colleen page of her campaign site. The original (1813x1208, the largest served) shows her walking toward the camera down a bright Capitol skybridge corridor holding a white binder; kept as photos/colleen-burton.full.jpg. photos/colleen-burton.jpg is a head-to-waist crop (660x710, no upscaling) with good space above the hair and both shoulders in frame; the binder covers her lower left chest. Eyes to camera, warm smile showing teeth, head slightly tilted. Face ~130px across: small but sharp. Fair skin, soft daylight. Shoulder-length honey/light-brown hair with blonde highlights, side-swept bangs, curled under at the ends. No glasses. Red boucle skirt suit jacket with gold buttons over a red top, thin gold pendant necklace. Rejected: the Florida Senate official photo on her member page (https://www.flsenate.gov/Senators/S12, s12_5414.jpg) is only 185x246 (face ~90px; also on Commons at the same size, CC BY-SA 4.0 by ComradeRJGNV); it is posed and smiling on a teal studio backdrop but shows darker brown hair, navy jacket and a pearl-and-crystal necklace, an older look than 2026. The Senate Handbook 2024-2026 PDF only has a ~190x270 copy. The Senate's PhotoShelter headshot gallery (flsenate.photoshelter.com, Senator-Headshots-Current, lists \"Burton, Collen\") loads images through a JavaScript app API, so it was not used. Same 2026 shoot also has: seated at her office desk, eyes to camera, smiling (0102, 1503x1002, face ~130px, softer focus) and smiling at a committee dais with a microphone in front (0676, 2500x1667, face ~190px, a candid at a mic). Florida House 2014 portrait on Commons (File:Colleen_Burton.jpg, public domain) is 200x300 and over a decade old."
+  },
+  "mike-braun": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_Braun,_Official_Portrait,_116th_Congress.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mike_Braun%2C_Official_Portrait%2C_116th_Congress.jpg/1280px-Mike_Braun%2C_Official_Portrait%2C_116th_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "publisher": "United States Senate Photographic Studio, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1600,
+    "notes": "Former Senator (2019-2025; now Governor of Indiana). Official Senate portrait for the 116th Congress, dated 2019-01-03, by the U.S. Senate Photographic Studio. The bioguide photo (B001310) is a 450x550 crop of it. Front-facing, warm smile showing upper teeth, dark rectangular glasses with blue-gray frames, gray hair combed back with darker brown tones on top, receding at the temples, clean-shaven. Fair, slightly tanned skin, even studio light; US flag and Indiana flag behind. Dark charcoal suit, white shirt, red tie with navy-and-gold stripes and crests, Senate lapel pin. Shoulders and upper chest in frame with clear space above the hair. Face ~480px across (1280px Commons thumbnail of a 4951x6189 original)."
+  },
+  "soo-hong": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Official_headshot_of_Soo_Hong.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Official_headshot_of_Soo_Hong.jpg",
+    "publisher": "Georgia House of Representatives, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1688,
+    "height": 2283,
+    "notes": "Official Georgia House headshot (Commons, dated 2025; source given as her legis.ga.gov member page, member 5042; license tag PD-GAHoR). Dark charcoal studio backdrop. Front-facing, broad smile showing teeth, eyes clear (narrowed a little by the smile). Long straight dark brown hair past the shoulders with lighter brown ends, center part; no glasses. Light East Asian skin tone, even studio light. Maroon blazer over a white ruffle-collar blouse. Head and upper chest with clear space above the hair; the shoulders run out to both side edges. Face ~840px across. Alternative if a wider frame is needed: her campaign home page (hongforgeorgia.com) has a posed, smiling three-quarter-length portrait in her law office, navy blazer, same look (irp.cdn-website.com/92b6c967/dms3rep/multi/HONG-RAW076-copy.png, 1280x1280, face ~200px)."
+  },
+  "robin-wonsley": {
+    "tier": "official",
+    "page": "https://www.minneapolismn.gov/government/city-council/members/ward-2/",
+    "image": "https://www.minneapolismn.gov/media/-www-content-assets/images/headshots/Ward-2-Robin-Wonsley.jpg",
+    "publisher": "City of Minneapolis",
+    "license": "\u00a9 City of Minneapolis, used as a drawing reference",
+    "width": 868,
+    "height": 650,
+    "notes": "Official Council studio headshot. Her Ward 2 page shows the 200x200 thumbnail (Ward-2-Robin-Wonsley-th.jpg, alt \"Council Member Robin Wonsley\"); this is the full-size file of the same shot on the same path. Front-facing, big smile showing upper teeth, thin silver square wire-rimmed glasses, long locs past the shoulders, dark at the roots fading to teal-green ends, no earrings visible. Deep brown skin, even studio light on a gray gradient backdrop. Black-and-white houndstooth blazer over a white open-collared shirt. Shoulders and upper chest in frame with clear space above the hair. Face ~170px across."
+  },
+  "juan-carlos-bermudez": {
+    "tier": "official",
+    "page": "https://www.miamidade.gov/global/government/commission/home.page",
+    "image": "https://www.miamidade.gov/resources/images/commission/district12/juan-bermudez-district-12.jpg",
+    "publisher": "Miami-Dade County Board of County Commissioners",
+    "license": "\u00a9 Miami-Dade County, used as a drawing reference",
+    "width": 811,
+    "height": 378,
+    "notes": "Official commissioner portrait as used in the Board of County Commissioners member carousel (same wide banner format as Marleine Bastien's). Studio portrait on a blue gradient backdrop, front-facing, eyes to camera, broad smile showing teeth. Face ~220px across. TIGHT FRAMING: the top of his head nearly touches the top edge (~5px), and the frame ends at the upper chest just below the tie knot, though both shoulders are in frame. The same photo appears uncropped but tiny on his District 12 home and About pages (miamidade.gov/resources/images/commission/district12/bermudez-headshot.jpg, 120x170, face ~45px): use it for the full jacket and the space above the head. Light olive skin, soft even studio light. Bald on top with short dark-gray/salt-and-pepper hair at the sides and back. Brown eyes, no glasses, clean-shaven. Navy suit, white shirt, yellow-gold tie, small round county pin on his left lapel. Photo c. 2022-23 (he took office Nov. 2022). Rejected: Doral Family Journal 2021 campaign graphic (a similar smiling photo pasted over a county-seal collage, 800x445, smaller face, cut at the chest). No Commons file; no larger copy found on miamidade.gov. floridianpress.com served a Cloudflare challenge (skipped)."
+  },
+  "kelly-martinez-semrad": {
+    "tier": "official",
+    "page": "https://www.ocfl.net/boardofcommissioners/district5commissioner.aspx",
+    "image": "https://www.ocfl.net/portals/0/images/D5%20Kelly%20Semrad.jpg",
+    "publisher": "Orange County Government, Florida",
+    "license": "Public domain",
+    "width": 2514,
+    "height": 3520,
+    "notes": "Official 2025 commissioner portrait. Her District 5 page shows a tight 578x771 crop of it (D5Commissioner Headshot 4x3.JPG, also on Commons as File:Orange_County_Commissioner_Kelly_Semrad.jpg, public domain, credited Government of Orange County, Florida), which nearly touches the hair at the top and cuts off the shoulders. This is the full-resolution, wider frame of the same photo from the same county image folder (named like the board page thumbnail, D5 Kelly Semrad Thumb.jpg); no page displays it at this size, so page points to her District 5 page. Studio portrait on a mottled charcoal-gray backdrop, head and chest, both shoulders in frame, good space above the hair. Slight three-quarter turn to her right, eyes to camera, broad smile showing teeth, rosy lipstick. Face ~1000px across. Fair/light olive skin, soft even studio light. Shoulder-length light-brown hair with honey/caramel highlights, side-parted on her left, sweeping over her forehead, ends flipped out. Hazel-green eyes, no glasses. Gold leaf-shaped drop earrings, short pearl necklace with a gold pendant. Bright cerulean-blue jacket with a stand-up collar over a white top. Rejected: OCFL Newsroom April 2025 feature photo (at a convention-center podium with a mic, mid-word). Office per her yaml: Orange County Commissioner, District 5 (sworn in Dec. 3, 2024)."
+  },
+  "ralph-rosado": {
+    "tier": "official",
+    "page": "https://www.miami.gov/My-Government/City-Officials/District-4-Commissioner-Ralph-Rafael-Rosado",
+    "image": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/d4/ralph.png",
+    "publisher": "City of Miami",
+    "license": "\u00a9 City of Miami, used as a drawing reference",
+    "width": 5119,
+    "height": 6400,
+    "notes": "Official headshot (alt \"Ralph.png\") on his District 4 commissioner page, displayed at 264x330; this is the full file the city serves (PNG, flattened to JPEG). Studio portrait on a flat pastel-pink backdrop, head and chest, both shoulders in frame with good space above the hair. Front-facing with a slight turn to his left, eyes to camera, broad smile showing teeth. Face ~2100px across. Fair/light olive skin with rosy cheeks, bright even studio light. Short, thick dark-brown/near-black hair, side-parted and brushed back. Brown eyes, strong dark eyebrows, no glasses, clean-shaven. Navy suit, white shirt, pink tie with a white diamond lattice pattern, round City of Miami seal pin on his left lapel. Photo c. 2025 (elected Nov. 2025). No Commons file."
+  },
+  "ross-mugler": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20220812031313/https://www.odu.edu/about/bov/members/ross-a-mugler",
+    "image": "https://www.odu.edu/about/bov/members/ross-a-mugler/_jcr_content/par/float/image.img.520.jpg/1626724085320.jpg",
+    "publisher": "Old Dominion University (Board of Visitors)",
+    "license": "\u00a9 Old Dominion University, used as a drawing reference",
+    "width": 520,
+    "height": 650,
+    "notes": "Former Commissioner of the Revenue for Hampton (1992 to Dec. 31, 2024). Posed studio portrait from his member page on the Board of Visitors of Old Dominion University, a Virginia public university (he served on the board 2014-2025 by governor appointment); the page names him and says he has been Hampton's Commissioner of the Revenue since 1992. Image uploaded July 2021, so from his time in office. The page is gone from odu.edu, so it was read from the Wayback snapshot 2022-08-12 and the file retrieved from the Wayback copy (web.archive.org/web/20220812031313im_/...). Tier is a judgement call: a state university's own page, not his city office's; hampton.gov (his office page) blocks us. Front-facing with a slight lean and turn, pleasant closed-mouth smile, bald on top with very short light hair at the sides, light blue eyes, clean-shaven, no glasses. Fair, ruddy skin, warm studio light from his right on a dark gray mottled backdrop. Navy windowpane-check suit, light blue dotted shirt, navy tie with red-and-white diamond pattern. Shoulders and chest in frame with clear space above the head. Face ~175px across. Tried: vpcc.edu/directory/ross-mugler (placeholder silhouette), the 2014 ODU news release (only the university seal), the hampton.legistar.com retirement item (no photo), Wikimedia Commons (nothing)."
+  },
+  "stephen-levin": {
+    "tier": "press",
+    "page": "https://www.solar1.org/about/staff/",
+    "image": "https://solar1.org/wp-content/uploads/2023/03/Stephen-Levin.ar_.jpg",
+    "publisher": "Solar One (staff page)",
+    "license": "\u00a9 Solar One, used as a drawing reference",
+    "width": 1703,
+    "height": 1710,
+    "notes": "Former Council Member (District 33, 2010-2021), now CEO of Solar One; this is the headshot on its staff page (\"Stephen Levin, Chief Executive Officer\"; profile solar1.org/blog/person/stephen-levin/), uploaded March 2023, about a year after he left the Council, so close to his late-tenure look. Every Council-era photo found is a mid-word candid: the Council's own member thumbnail (2019 version of github.com/NewYorkCityCouncil/districts thumbnails/district-33.jpg, shown as \"Stephen T. Levin Head Shot\" on council.nyc.gov/districts/, Wayback 2021-06-04; 219x311, speaking at a microphone; kept as photos/stephen-levin.council.jpg), the same shot on his old council.nyc.gov/d33 pages (2010-2015, 194x246 and 220x311), his archived district-33 page hero (testifying at a mic), and Commons File:Steve Levin 2010.jpg (CC BY 2.0, speaking and gesturing). Posed indoors, front-facing with a slight head tilt, relaxed closed-mouth smile, green-hazel eyes, thick wavy brown hair swept up and to the side, light stubble, no glasses. Fair skin, soft window light from his right, blurred light office behind. Red, white and blue plaid button-down shirt, open collar, no jacket. Shoulders and upper chest in frame with clear space above the hair. Face ~550px across."
+  },
+  "anthony-rodriguez": {
+    "tier": "official",
+    "page": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf",
+    "image": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf (embedded image, extracted with pdfimages)",
+    "publisher": "Miami-Dade Transportation Planning Organization",
+    "license": "Public domain (Florida government work)",
+    "width": 608,
+    "height": 911,
+    "notes": "Miami-Dade TPO Governing Board members poster dated 2026-02-02 (linked from miamidadetpo.org/tpo/governing-board.page), captioned Anthony Rodriguez, Miami-Dade County, Chairman; the photo is the embedded JPEG at full resolution. Same shoot as his Miami-Dade County Commission portrait. Posed studio headshot on a blue gradient, front-facing, broad smile showing teeth, eyes clear. Light olive skin, even soft light. Silver-gray hair swept straight back, darker at the sides. Full dark beard graying at the chin and mustache. No glasses. Navy suit, white shirt, purple-and-red small-pattern tie. Cut at the waist with clear space above the hair; face ~245px across. Rejected: the county commission banner of the same photo (miamidade.gov/resources/images/commission/district10/anthony-rodriguez-district-10.jpg, 811x378, face ~165px), and smaller county headshots (159x238, 120x170) with a US flag behind."
+  },
+  "jason-chavez": {
+    "tier": "official",
+    "page": "https://www.minneapolismn.gov/government/city-council/members/ward-9/",
+    "image": "https://www.minneapolismn.gov/media/-www-content-assets/images/headshots/Ward-9-Jason-Chavez.jpg",
+    "publisher": "City of Minneapolis (photo by Rich Ryan)",
+    "license": "\u00a9 Rich Ryan 2026 (city headshot), used as a drawing reference",
+    "width": 868,
+    "height": 650,
+    "notes": "2026 city council headshot (Rich Ryan). Posed, front-facing, closed-mouth smile. Short black hair, swept up on top, short sides; no glasses; clean-shaven. Medium-tan skin, even studio light on a gray gradient background. Gray suit jacket over a white crew-neck T-shirt, council pin on left lapel. Head and shoulders to mid-chest with clear space above the hair. Face ~200px across, the largest copy on the city site (page shows the 200x200 -th thumbnail)."
+  },
+  "ann-kuster": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Ann_McLane_Kuster,_Official_Portrait,_113th_Congress.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ann_McLane_Kuster%2C_Official_Portrait%2C_113th_Congress.jpg/1280px-Ann_McLane_Kuster%2C_Official_Portrait%2C_113th_Congress.jpg",
+    "publisher": "U.S. House of Representatives (Rep. Kuster official portrait), via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1923,
+    "notes": "Official House portrait, 113th Congress (Jan 2013; source kuster.house.gov), 1280px copy of the 2754x4138 original; the bioguide 450x550 is a tight crop of the same photo. Posed, slight three-quarter turn, broad smile showing teeth. Shoulder-length dark brown bob with side part; thin rimless/wire glasses; pearl necklace and pearl earrings. Fair skin, even studio light; blue backdrop with U.S. flag at left. Black jacket with white piping, House pin. Head to chest with clear space above hair. Face ~550px across. She left Congress in Jan 2025; this is the official photo from her time in office."
+  },
+  "debbie-stabenow": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Debbie_Stabenow,_official_photo,_116th_Congress_(1).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Debbie_Stabenow%2C_official_photo%2C_116th_Congress_%281%29.jpg",
+    "publisher": "U.S. Senate Photographic Studio (Rebecca Hammel), via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1377,
+    "height": 1834,
+    "notes": "Official Senate photo, 23 May 2019 (116th Congress; source stabenow.senate.gov stabenow_lg.jpg). Newer than the bioguide 450x550 (an older portrait with yellow blouse, cropped at the shoulders with hair touching the top edge). Posed, front-facing, closed-mouth smile with red lipstick. Voluminous strawberry-blonde/honey-blond bouffant; no glasses; blue earrings and a blue glass-bead necklace. Fair skin, soft warm light; marble Senate background. Royal-blue draped jacket over black top. Head to mid-chest with ample space above the hair. Face ~470px across. She left the Senate in Jan 2025."
+  },
+  "donald-payne-jr": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Donald_Payne_Jr_Official_Portrait_113rd_Congress.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Donald_Payne_Jr_Official_Portrait_113rd_Congress.jpg/1280px-Donald_Payne_Jr_Official_Portrait_113rd_Congress.jpg",
+    "publisher": "U.S. House of Representatives (Rep. Payne official portrait), via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1924,
+    "notes": "Official House portrait, 113th Congress (Nov 2012; source payne.house.gov), 1280px copy of the 2832x4256 original; the bioguide 450x550 is a tight crop of the same photo. Posed, slight three-quarter turn, broad smile showing teeth. Shaved/very close-cropped black hair, receding; mustache; no glasses. Dark brown skin, even studio light; blue backdrop with U.S. flag at left. Dark pinstripe suit, white shirt with red and navy stripes, red polka-dot bow tie (his signature), House pin. Head to waist with clear space above. Face ~500px across. He died in April 2024; this is the official photo from his time in office."
+  },
+  "jon-ossoff": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Jon_Ossoff_Senate_Portrait_2021.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jon_Ossoff_Senate_Portrait_2021.jpg/1920px-Jon_Ossoff_Senate_Portrait_2021.jpg",
+    "publisher": "U.S. Senate Photographic Studio, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1920,
+    "height": 2400,
+    "notes": "Official Senate portrait, April 2021 (U.S. Senate Photographic Studio), 1920px copy of the 3680x4600 original; same photo as the bioguide image, which is only 440x550 with a ~160px face. Posed, slight three-quarter turn to his right, closed-mouth slight smile, eyes clear. Dark brown wavy hair, side-swept; no glasses; clean-shaven. Fair skin, soft studio light; bookshelf background. Navy suit, white shirt, dark purple knit tie, Senate pin. Head to waist, clear space above hair. Face ~700px across."
+  },
+  "jon-tester": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:JonTester.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/JonTester.jpg/1920px-JonTester.jpg",
+    "publisher": "U.S. Senate (Office of Sen. Jon Tester official portrait), via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1920,
+    "height": 2432,
+    "notes": "Official Senate portrait dated 24 Oct 2014 (source tester.senate.gov officialportraitcolor.jpg), 1920px copy of the 2700x3420 original. Posed, front-facing, broad open smile showing teeth, eyes slightly crinkled but visible. Short light-brown hair with gray, flat-top crew cut, receding at temples; no glasses; clean-shaven. Fair, ruddy/pink skin, bright even light; Capitol dome background. Navy windowpane suit, white shirt, light-blue striped tie, Senate pin. Head to mid-chest, clear space above hair. Face ~800px across. Rejected: bioguide 450x550 (older, ~2007, cut at the collar with hair touching the top edge); Commons Jon_Tester.jpg (farm photo leaning on a fence, informal)."
+  },
+  "edward-t-mcdonnell": {
+    "tier": "official",
+    "page": "https://www.camdencounty.com/contact/edward-t-mcdonnell/",
+    "image": "https://www.camdencounty.com/wp-content/uploads/2016/04/commissioners-portraits-resized-20232.jpg",
+    "publisher": "Camden County",
+    "license": "\u00a9 County of Camden, used as a drawing reference",
+    "width": 393,
+    "height": 491,
+    "notes": "Official 2023 Camden County commissioner portrait (same series as Louis Cappelli Jr.'s) on his county contact page, which names him Deputy Director Edward T. McDonnell. Face ~230px across; largest copy the county serves (393w; only a 240w style otherwise). Posed, front-facing, broad smile showing teeth, eyes crinkled. Reddish-brown/auburn hair swept back and to the side, a lock falling over the forehead, longer over the ears; clean-shaven. Fair, ruddy skin with flushed cheeks and freckling, even studio light on a mottled gray backdrop. Navy blazer, blue-and-white striped shirt, red tie. Framed to the upper chest; little space above the hair (~20px). camdencounty.com robots.txt crawl-delay 10 respected."
+  },
+  "jenifer-rajkumar": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Jenifer-Rajkumar",
+    "image": "https://nyassembly.gov/write/upload/member_files/038/headshot/038.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 992,
+    "height": 1280,
+    "notes": "Assembly directory headshot (about 2022), studio light-blue backdrop with a US flag behind her left side. Front-facing, warm smile showing teeth, eyes clear. Very long straight dark-brown hair with caramel highlights falling past the shoulders, center part. Red mock-neck dress, arms crossed, gold bangle. Light-brown skin, even soft studio light. Face ~225px across; plenty of space above the hair, frame runs to the waist. Rejected: header_headshot/038.png (same photo cut out, smaller, 550x771); Commons 2012 rally photo (139px) and 2023 YouTube still (506x735, candid)."
+  },
+  "allen-mitchell": {
+    "tier": "official",
+    "page": "https://dekalbcountyga.gov/departments/community-development",
+    "image": "https://dekalbcountyga.gov/sites/default/files/2026-03/DEKALB%20DIRECTOR%20-%20Community%20Development_Allen%20Mitchell.JPG",
+    "publisher": "DeKalb County, Georgia",
+    "license": "\u00a9 DeKalb County, used as a drawing reference",
+    "width": 2048,
+    "height": 2732,
+    "notes": "Official director portrait on DeKalb County's Community Development department page (uploaded 2026-03; the page shows an AVIF resize, this is the full-size original from the same folder). The page names him: Director Allen Mitchell, director since January 2016. Posed studio portrait, front-facing, warm closed-mouth smile, eyes visible, no glasses. Older Black man, medium-dark brown skin, short closely cropped grey/white hair receding at the temples, full white-and-grey beard and moustache trimmed short. Navy pinstripe suit, white shirt, red tie with small diamond pattern, matching red pocket square, round gold county lapel pin. Dark near-black backdrop with a U.S. flag at the left edge; soft even studio light. Face is about 800px across; the top of the hair sits close to the top edge (a little space), shoulders and upper chest fully in frame."
+  },
+  "brian-strickland": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Robert_Brian_Strickland.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Member_of_the_Georgia_State_Senate_Robert_Brian_Strickland.jpg",
+    "publisher": "Georgia General Assembly (via Wikimedia Commons)",
+    "license": "Public domain",
+    "width": 2945,
+    "height": 3300,
+    "notes": "Official Georgia Senate member portrait, shot 2025-02-06 (EXIF), public domain on Commons, which sourced it from the General Assembly's portrait file strickland-brian-835.jpg (taken from Commons because legis.ga.gov member pages load portraits through its JSON API, which is off-limits). Commons names him Robert Brian Strickland, Member of the Georgia State Senate (District 42). The original is a 2945x4417 waist-length JPEG (kept as photos/brian-strickland.full.jpg); photos/brian-strickland.jpg is the top 2945x3300, head to mid-chest. Posed, front-facing, broad open smile showing teeth, blue-grey eyes visible, no glasses. White man, fair skin with warm flush, medium-brown hair swept back and to the side, short brown beard with some ginger and grey. Navy suit, white shirt, green-and-blue diagonal striped tie. Grey curtain backdrop between the U.S. and Georgia flags; warm, even studio light. Face is about 1100px across, with clear space above the hair. Rejected: Commons '(cropped)' version (same photo, smaller) and a 2023 video screenshot (candid)."
+  },
+  "omar-blanco": {
+    "tier": "official",
+    "page": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4929&LegislativeTermId=92",
+    "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/cutout%2f4929.png",
+    "publisher": "Florida House of Representatives",
+    "license": "Public domain (Florida government work)",
+    "width": 500,
+    "height": 500,
+    "notes": "Florida House official portrait (2024-26 term), the cut-out version shown on his member page; transparent PNG flattened onto white. Posed, front-facing, warm smile showing teeth, eyes clear (slightly narrowed by the smile). Medium tan/olive skin, soft even studio light. Short dark-brown/black hair combed back, gray at the temples. Clean-shaven, no glasses. Navy suit with gold House lapel pin, white shirt, red tie. Cut at mid-chest with clear space above the hair; face ~160px across. Rejected: the same photo with US flag background at 208x278 (Member/4929.jpg, also Commons File:Omar_Blanco.jpg); the member page photo albums are floor and swearing-in candids."
+  },
+  "bruce-williamson": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Official_headshot_of_Bruce_Williamson.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Official_headshot_of_Bruce_Williamson.png",
+    "publisher": "Georgia House of Representatives (via Wikimedia Commons)",
+    "license": "Public domain",
+    "width": 2689,
+    "height": 4032,
+    "notes": "Official Georgia House headshot, dated 2025 on Commons ('Official headshot of Georgia Representative Bruce Williamson'), public domain, sourced there from his legis.ga.gov member page (house/778); taken from Commons because legis.ga.gov loads member portraits through its JSON API, which is off-limits. He is Rep. Bruce Williamson (R-Monroe), House District 112. Original is an RGBA PNG flattened to JPEG. Posed, front-facing, broad smile showing teeth, eyes visible (light hazel/green), no glasses. Older white man, fair skin with ruddy warmth and smile lines, silver-grey hair (lighter grey on top, side-parted and swept back). Dark charcoal suit, white shirt, coral/salmon tie with a small white pattern, round white-and-gold lapel pin. Plain dark grey backdrop, even soft studio light. Face is about 1700px across with clear space above the hair. Caveat: tall, tight frame: cut at the upper chest, and the suit shoulders run off both side edges, so the drawing must stop where the photo does. No wider posed photo found: the House press office (house-press.com) release on his 2026 ACCG award carries no portrait."
+  },
+  "joseph-cryan": {
+    "tier": "press",
+    "page": "https://climateintegrity.org/leaders/members/joseph-cryan",
+    "image": "https://climateintegrity.org/uploads/signers2/L4CAHeadshots-JosephCryan.png",
+    "publisher": "Center for Climate Integrity",
+    "license": "\u00a9 Joseph Cryan / photographer, used as a drawing reference",
+    "width": 900,
+    "height": 900,
+    "notes": "Posed headshot on his Climate Integrity Leaders Network profile (page titled Joseph Cryan, State Senator). Face ~350px across. Year unknown, likely a few years old (outdoors in autumn; he looks a little younger than in 2023 photos). Front-facing, broad smile showing teeth, eyes crinkled. Short light-brown hair going gray, swept up and back, thinning at the front; clean-shaven. Fair, ruddy skin, warm late-afternoon sun from his left (our right), soft shadow on the far cheek. Black blazer over a white open-collar small-check shirt, no tie. Framed to mid-chest with good space above the hair; stone house and lawn behind (drop them). Rejected: Legislature member photo pub.njleg.gov/publications/members/cryan_joseph_2017_250.jpg (posed, gray background, blue tie; small, 250x364, face ~140px); Commons File:Joe Cryan (cropped).jpg (NJDMAVA public domain, Oct. 2023, 1673x2510, but a candid speaking into a microphone mid-word, hand raised); NJLCV njlcv.org/sites/default/files/person/Cryan.jpeg (600x437, posed, smiling, pinstripe suit and striped tie, face ~200px, head tilted, a good second choice and more current)."
+  },
+  "chris-erwin": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Official_headshot_of_Chris_Erwin.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Official_headshot_of_Chris_Erwin.jpg",
+    "publisher": "Georgia House of Representatives (via Wikimedia Commons)",
+    "license": "Public domain",
+    "width": 2529,
+    "height": 3380,
+    "notes": "Official Georgia House headshot, dated 2025 on Commons ('Official headshot of Georgia Representative Chris Erwin'), public domain, sourced there from his legis.ga.gov member page (house/4965); taken from Commons because legis.ga.gov loads member portraits through its JSON API, which is off-limits. He is Rep. Chris Erwin (R-Homer), House District 32, chair of the House Education Committee. Posed, front-facing, broad smile showing teeth, blue eyes visible, no glasses. White man, fair skin with a warm pink tone and smile lines, short silver-grey hair (light, with some darker grey at the sides) brushed up and back. Charcoal suit with faint pinstripe, white shirt, light blue tie with thin gold and navy stripes. Soft blue-grey gradient backdrop, bright even studio light. Face is about 1600px across. Caveat: tight frame: the hair nearly touches the top edge, and the photo stops at the tie knot and the top of the suit shoulders, so the drawing has little to work with below the collar. Rejected: the photos on his campaign site chriserwinforgeorgia.com (2022-2023) are all group snapshots with a small face (with a student at the Capitol; full-length with his wife between flags)."
+  },
+  "allison-tant": {
+    "tier": "press",
+    "page": "https://allisontant.com/",
+    "image": "https://allisontant.com/wp-content/uploads/2022/06/hero2.jpg",
+    "publisher": "Allison Tant for State House (campaign site)",
+    "license": "\u00a9 Allison Tant campaign, used as a drawing reference",
+    "width": 1600,
+    "height": 1200,
+    "notes": "Campaign hero portrait, c. 2022 (uploaded June 2022); same photo as the site share image og-1.png. Posed outdoors on a soft blurred gray-lavender background, very slight three-quarter turn and head tilt, closed-mouth warm smile, eyes clear. Fair skin, soft daylight. Shoulder-length layered honey-blonde hair with lighter highlights, side part. Small hoop earrings, no glasses. Black leather jacket over a red open-collar shirt. Figure sits in the left half of the wide frame, cut at the chest, clear space above the hair; face ~280px across. Rejected: Florida House official portrait (cutout%2f4765.png 308x200 and Member/4765.jpg 150x200; black turtleneck, face ~55px, too small); House photo albums are floor candids; other campaign photos are candids with constituents or speaking at a mic."
+  },
+  "chuck-hufstetler": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Charles_%22Chuck%22_Edward_Hufstetler.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Member_of_the_Georgia_State_Senate_Charles_%22Chuck%22_Edward_Hufstetler.jpg",
+    "publisher": "Georgia General Assembly (via Wikimedia Commons)",
+    "license": "Public domain",
+    "width": 2520,
+    "height": 2815,
+    "notes": "Official Georgia Senate member portrait, shot 2020-01-30 (EXIF), public domain on Commons, which sourced it from the General Assembly's portrait file hufstetler-chuck-838.jpg (taken from Commons because legis.ga.gov member pages load portraits through its JSON API, which is off-limits). Commons names him Charles 'Chuck' Edward Hufstetler, Member of the Georgia State Senate (District 52, Rome). The original is a 3538x2895 landscape waist-up shot with both flags (kept as photos/chuck-hufstetler.full.jpg); photos/chuck-hufstetler.jpg is a 2520x2815 crop centered on him, head to waist, with the flag edges at both sides. Posed, front-facing, open smile showing teeth, light blue eyes visible, no glasses. White man, fair skin with a warm ruddy tone, light-brown hair greying at the temples, side-parted and swept back; full reddish-brown beard and moustache with some grey at the chin. Black suit, white shirt, light green tie with thin black-and-white diagonal stripes, round gold Senate lapel pin. Dark grey curtain backdrop, U.S. flag at left, Georgia flag at right; even studio light. Face is about 800px across, clear space above the hair. The photo is from 2020; no newer official portrait was checked (no other Commons file of him)."
+  },
+  "nicholas-scutari": {
+    "tier": "press",
+    "page": "https://www.nickscutari.com/",
+    "image": "https://d3n8a8pro7vhmx.cloudfront.net/nickscutari/pages/1/attachments/original/1549633931/scutariphoto.png",
+    "publisher": "Nick Scutari campaign (nickscutari.com)",
+    "license": "\u00a9 Nick Scutari campaign / photographer, used as a drawing reference",
+    "width": 1500,
+    "height": 1677,
+    "notes": "Posed headshot cut out on the home page of his campaign site (uploaded February 2019; same State House session as the NJLCV full-length photo). Original is a transparent PNG; flattened onto white for the JPEG. Face ~400px across. Front-facing, warm smile showing teeth. Short dark-brown/near-black hair combed back with a slight wave at the front; clean-shaven. Light olive skin, soft even light. Navy suit, light-blue shirt, navy tie with small green Christmas-tree pattern, gold State Senate lapel pin on his left lapel. Framed from the top of the head (very little space above the hair, ~30px) down to the waist. Rejected: Legislature member photo pub.njleg.gov/publications/members/scutari_nicholas_2020_250.jpg (posed, smiling, a little more current, but 250x364, face ~150px); NJLCV njlcv.org/sites/default/files/person/Scutari-hall-e1545339677688.jpg (same session, full-length, face ~80px); 2017 campaign candids on nickscutari.nationbuilder.com (talking to voters). No Commons photo of him found; Wikipedia article has no image. njsendems.org official head shots page skipped (Cloudflare, per brief)."
+  },
+  "bill-conerly": {
+    "tier": "official",
+    "page": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4920&LegislativeTermId=92",
+    "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/cutout%2f4920.png",
+    "publisher": "Florida House of Representatives",
+    "license": "Public domain (Florida government work)",
+    "width": 500,
+    "height": 455,
+    "notes": "Florida House official portrait (2024-26 term), the cut-out version shown on his member page; transparent PNG flattened onto white. Posed, front-facing, broad smile showing teeth, eyes visible behind glasses. Light skin, even studio light. Short dark-brown hair going gray, receding at the temples. Thin rectangular dark-framed glasses. Short salt-and-pepper beard and mustache. Navy suit with gold House lapel pin, white shirt, burgundy-and-navy striped tie. Cut at mid-chest with clear space above the hair; face ~150px across. Rejected: the same photo with flag background at 208x278 (Member/4920.jpg, also Commons File:Bill_Conerly.jpg). No larger posed photo found in a quick search."
+  },
+  "yuh-line-niou": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Assemblymember_Yuh-Line_Niou_in_Albany.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Assemblymember_Yuh-Line_Niou_in_Albany.jpg",
+    "publisher": "Wikimedia Commons (Pnguyen5482)",
+    "license": "CC BY-SA 4.0",
+    "width": 1900,
+    "height": 2150,
+    "notes": "Taken in the Assembly chamber, 2017 session (Jan. 4, 2017), while she held the District 65 seat. photos/yuh-line-niou.jpg is a head-and-shoulders crop with margin of the full 2942x3781 file (kept as photos/yuh-line-niou.full.jpg). Seated at her desk, nearly front-facing, broad smile showing teeth, eyes visible but looking just right of the camera; not a studio portrait. Dark hair swept up in a pompadour/updo, winged eyeliner, layered gold collar necklace, black blazer. Light skin, warm indoor chamber light, soft blurred background with a small US flag at her shoulder and a colleague behind. A thin transparent mic/desk bar crosses the lower chest; ignore it. Face ~640px across. Rejected: her Assembly headshot of the time (Wayback copy of nyassembly.gov/write/upload/member_files/065/headshot/065.jpg, 2020-21, hair down, smiling outdoors) is only 134x200; the AD65 files from 2023 on are her successor. Her 2026 State Senate campaign portrait (yuhlineforsenate.com, run.imgix.net .../b1ba9c68...jpg, 1365x2048, studio, hair down, red lipstick, black shirt) is posed and current but her head is turned ~45 degrees and she looks well off to the side; usable as a press-tier alternative if a current look is wanted. Commons Yuh-Line_Niou.jpg (2016) is 315x383."
+  },
+  "bryan-calvo": {
+    "tier": "official",
+    "page": "https://www.hialeahfl.gov/195/City-Mayor",
+    "image": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=21388",
+    "publisher": "City of Hialeah",
+    "license": "Public domain (Florida government work)",
+    "width": 2019,
+    "height": 2600,
+    "notes": "City of Hialeah official mayoral portrait (c. 2025-26, after he took office), in front of the US flag and the bronze city seal on wood paneling. Posed, front-facing with a slight turn, broad smile showing teeth, eyes clear. Light-medium olive skin, warm even light. Short dark-brown/black hair, curly on top, short at the sides. Clean-shaven, no glasses. Bright royal-blue suit, white shirt, navy tie with thin light-blue stripes. Three-quarter-length (to the hands at the waist), lots of space above the hair; face ~550px across. Same file is on Commons as File:Bryan_Calvo.jpg (uploaded by PublicPolicyIndex as CC0 own work, which is doubtful; the city page is the source)."
+  },
+  "chris-burdick": {
+    "tier": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:AM_Burdick_Headshot_2024_Outside.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/AM_Burdick_Headshot_2024_Outside.jpg",
+    "publisher": "Wikimedia Commons (Dewdrop430)",
+    "license": "CC0",
+    "width": 1615,
+    "height": 1966,
+    "notes": "Posed outdoor headshot, Sept. 2023 (titled 2024), used on his Wikipedia article. Front-facing, closed-lip-to-slight-teeth warm smile, eyes clear. Bald on top with short grey-white fringe at the sides, clean-shaven, no glasses. Navy suit, pale blue striped button-down shirt, light blue dotted tie. Fair, ruddy skin; soft daylight under trees, background of foliage and parked cars (leave it out). Head and full shoulders down to the waist, good space above the head. Face ~460px across. Same look as his official Assembly headshot (nyassembly.gov/write/upload/member_files/093/headshot/093.jpg, 414x546, blue studio backdrop, Assembly pin; face only ~180px), which was passed over for size."
+  },
+  "jason-anavitarte": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Jason_Raul_Anavitarte.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Member_of_the_Georgia_State_Senate_Jason_Raul_Anavitarte.jpg",
+    "publisher": "Georgia General Assembly (via Wikimedia Commons)",
+    "license": "Public domain",
+    "width": 683,
+    "height": 1024,
+    "notes": "Official Georgia Senate member portrait, dated 2021-01-11 on Commons, public domain, sourced there from the General Assembly's portrait file anavitarte-jason-4980.jpg (taken from Commons because legis.ga.gov member pages load portraits through its JSON API, which is off-limits). Commons names him Jason Raul Anavitarte, Member of the Georgia State Senate (District 31; Majority Leader since June 2025). Posed, front-facing with a slight turn, smile showing teeth, dark brown eyes visible, no glasses. White Hispanic man, light olive skin, short dark-brown hair cut close at the sides, receding a little at the temples; short dark beard and moustache with a little grey at the chin. Navy suit, white shirt, coral/pink patterned tie, round Senate lapel pin. Grey backdrop between the U.S. flag (left) and Georgia flag (right); warm even studio light. Face is about 290px across: the smallest of this group, but the largest posed copy available; head to waist with clear space above the hair. Photo is from 2021; he looks much the same in 2025 press photos. Rejected: senatepress.net 2025 majority-leader photo (candid speaking at a Senate podium mic, three-quarter profile); his campaign site jasonanavitarte.com (2022 full-body cutout in a fleece vest and a candid at a farm fence, faces ~150px)."
+  },
+  "bob-smith": {
+    "tier": "press",
+    "page": "https://rutgers.edu/magazine/winter-2022/renewed-sense-purpose",
+    "image": "https://rutgers.edu/sites/default/files/styles/max_width_embed_default_2x/public/2022-01/Portrait_sen_Bob-Smith.jpg?itok=4t3-GDF9",
+    "publisher": "Rutgers Magazine (Rutgers, The State University of New Jersey)",
+    "license": "\u00a9 Rutgers University / photographer, used as a drawing reference",
+    "width": 632,
+    "height": 750,
+    "notes": "Posed portrait in Rutgers Magazine, Winter 2022 (alt text Portrait of Bob Smith; the article profiles Sen. Bob Smith GSNB '74, 17th District). Largest style the page serves (632w). Tier is press as an institution's published portrait, like NJLCV/Climate Integrity; it is a commissioned magazine photo, not his own press kit. Face ~370px across. Facing the camera, slight smile with lips parted showing lower teeth. Bald (fully shaved/bald head), clean-shaven, large ears. Thin silver rectangular wire-rim glasses. Fair, slightly ruddy skin, warm indoor light, State House corridor softly blurred behind (drop it). Charcoal suit, light-blue shirt, pink tie with small navy/white medallion pattern. Framed to the upper chest with a little space above the head. Rejected: Legislature member photo pub.njleg.gov/publications/members/smith_bob_2021_250.jpg (250x364, face ~150px, unsmiling, looks candid); NJLCV njlcv.org/sites/default/files/person/Sen-BSmith.jpg (300x437, much older, with hair, low quality). No Commons photo of him (Commons Bob Smith files are the New Hampshire senator). njsendems.org skipped per brief."
+  },
+  "isabella-casillas-guzman": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Isabella_Casillas_Guzman,_SBA_Administrator.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Isabella_Casillas_Guzman%2C_SBA_Administrator.png/1280px-Isabella_Casillas_Guzman%2C_SBA_Administrator.png",
+    "publisher": "U.S. Small Business Administration, via Wikimedia Commons",
+    "license": "Public domain",
+    "width": 1280,
+    "height": 1512,
+    "notes": "Official SBA Administrator portrait, 2021 (originally sba.gov/person/isabella-casillas-guzman), 1280px copy of the 3800x4489 PNG; converted to JPEG. Posed, front-facing, closed-mouth smile, dark-red lipstick. Long, dark brown-black curly hair past the shoulders, center part, a few gray strands; no glasses. Light-medium olive skin, even studio light; U.S. flag and SBA flag behind. Black jacket over black satin shirt, white bone/shell pendant necklace. Head to mid-chest with space above the hair. Face ~500px across. She served 2021 to Jan 2025; the SBA site no longer carries her page, so the link is the Commons file page."
+  },
+  "clay-yarborough": {
+    "tier": "press",
+    "page": "https://clayyarborough.com/",
+    "image": "https://clayyarborough.com/wp-content/themes/yarborough/images/meta.png",
+    "publisher": "Clay Yarborough for State Senate (campaign site)",
+    "license": "\u00a9 Clay Yarborough campaign, used as a drawing reference",
+    "width": 540,
+    "height": 630,
+    "notes": "Campaign site share image (1200x630, saved as clay-yarborough.full.jpg); clay-yarborough.jpg is the right-hand crop of him (x 640-1180), with the campaign wordmark cut away. c. 2022-25. Posed outdoors in a sunlit park, front-facing, broad smile showing teeth, eyes clear, arms crossed. Fair skin with a pink flush, bright daylight. Short reddish-brown hair, side part, receding slightly. Clean-shaven, no glasses. Navy blazer, light blue-and-white checked open-collar shirt, no tie. Waist-up with space above the hair; face ~155px across. Rejected: Florida Senate official portrait (flsenate.gov/PublishedContent/Senators/2026-2028/Photos/s04_5394.jpg, 185x246, face ~75px, smiling, navy suit and blue polka-dot tie: too small to draw); Commons File:Rep_Clay_Yarborough.jpg (793x1190, 2021 House floor candid holding a mic, unsmiling). The Senate high-res gallery (flsenate.photoshelter.com) is on the blocked list and was not used."
+  },
+  "clinton-calabrese": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Brig._Gen._Mays_meets_with_legislators_Clinton_Calabrese_(cropped).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Brig._Gen._Mays_meets_with_legislators_Clinton_Calabrese_%28cropped%29.jpg",
+    "publisher": "Wikimedia Commons (New Jersey National Guard / New Jersey Department of Military Affairs)",
+    "license": "Public domain",
+    "width": 2082,
+    "height": 2774,
+    "notes": "NJ Department of Military Affairs photo from March 23, 2026, when the Adjutant General met legislators at the State House (file title names him; it is the image on his Wikipedia article; cropped from File:Brig._Gen._Mays_meets_with_legislators_Clinton_Calabrese.jpg, 7657x5107). Current look. Face ~1000px across. Posed for the camera, front-facing, smile showing teeth. Short dark-brown hair, slightly spiky and pushed up at the front; clean-shaven with light stubble shadow. Light olive skin, even flash light. Navy windowpane-check suit, light-blue shirt, red tie with small white/blue squares, round Assembly lapel pin. Framed to mid-chest with space above the hair; gold NJ flag fringe and white shutters behind (drop them). Rejected: Legislature member photo pub.njleg.gov/publications/members/calabrese_clinton_2025.jpg (posed, smiling, but 250x364, face ~120px, and he looks years younger: slicked-back hair, pinstripe suit, US flag)."
+  },
+  "kenny-burgos": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20221230220840/https://nyassembly.gov/mem/Kenny-Burgos",
+    "image": "https://web.archive.org/web/20230105163803id_/https://nyassembly.gov/write/upload/member_files/085/headshot/085.jpg?hst=1660074100",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 2000,
+    "height": 2800,
+    "notes": "Official Assembly portrait from his time representing District 85 (file uploaded Aug. 2022; Wayback copy from Jan. 2023, while he served; the District 85 files from Dec. 2024 on belong to his successor). Blue studio backdrop, US flag at left. Front-facing, broad smile showing teeth, eyes clear. Short dark hair, faded on the sides; full, neatly trimmed dark beard and mustache; strong dark eyebrows. Black suit, white shirt, plum tie, Assembly pin. Light-tan/olive skin, even studio light. Head and shoulders to mid-chest, room above the hair. Face ~680px across. Alternative: Commons Kenny_Burgos.jpg (Andyaholt, CC BY 4.0, 2026, 1401x2102), a newer posed headshot with the same look (white open-collar shirt, dark pinstripe jacket, warm bronze backdrop), described as his official headshot; the Assembly portrait was taken for being the government source of his time in office. Commons 2021 MTA event crop is a candid."
+  },
+  "copley-gerdes": {
+    "tier": "official",
+    "page": "https://www.stpete.org/government/mayor___city_council/city_council/district_1.php",
+    "image": "https://www.stpete.org/defaults/Photo%20Tiles/gerdes-headshot.jpg",
+    "publisher": "City of St. Petersburg",
+    "license": "Public domain (Florida government work)",
+    "width": 500,
+    "height": 703,
+    "notes": "City of St. Petersburg council headshot, current (file dated 2026-09). Posed studio shot on a flat charcoal-gray background, front-facing with a slight lean, broad smile showing teeth, eyes clear. Light skin with a warm tan, soft even light. Short brown hair going gray, swept up and back, grayer at the temples. Full short beard and mustache, brown with gray. No glasses. Blue-gray textured knit blazer, white open-collar shirt, no tie. Cut at mid-chest with space above the hair; face ~190px across. The page shows it at 180x253; this is the full file."
+  },
+  "gabrielle-nelson": {
+    "tier": "official",
+    "page": "https://portwentworthga.gov/mediareleases-national-league-of-cities-selects-mayor-pro-tem-gabrielle-nelson-for-centennial-under-40-impact-award/",
+    "image": "https://portwentworthga.gov/wp-content/uploads/2025/03/Gabrielle-Nelson-headshot.jpg",
+    "publisher": "City of Port Wentworth",
+    "license": "\u00a9 City of Port Wentworth / photographer, used as a drawing reference",
+    "width": 742,
+    "height": 928,
+    "notes": "Studio headshot on the City of Port Wentworth's own media release (March 2025) naming her Mayor Pro Tem Gabrielle Nelson for the NLC Centennial Under 40 Impact Award. Posed, front-facing, warm smile showing teeth, dark brown eyes visible, no glasses. Black woman, medium-brown skin, short black pixie cut with a long swept side fringe over her forehead and close-cropped sides, small gold hoop earrings, nose stud, thin gold necklace. Brown/navy/cream houndstooth blazer over a sky-blue top. Plain mottled grey backdrop, soft even studio light. Face is about 255px across (just under the 300px aim), head to mid-chest with clear space above the hair. A small photographer watermark sits in the bottom-right corner (on the jacket, not the face): leave it out of the drawing. EXIF says the camera original was 3093x3867, but the city only publishes this 742x928 copy. Rejected: the mayor-and-council page photo (portwentworthga.gov/wp-content/uploads/2024/07/Mayor-Pro-Tem-Gabrielle-Nelson.png, 443x505): posed but unsmiling with a hand at her chin, face only ~110px."
+  },
+  "jacob-frey": {
+    "tier": "official",
+    "page": "https://www.minneapolismn.gov/government/mayor/",
+    "image": "https://www.minneapolismn.gov/media/-www-content-assets/images/headshots/Mayor-Jacob-Frey.jpg",
+    "publisher": "City of Minneapolis",
+    "license": "\u00a9 City of Minneapolis, used as a drawing reference",
+    "width": 700,
+    "height": 740,
+    "notes": "City of Minneapolis mayor page headshot (page shows the -th thumbnail; the full file is 1600x800). photos/jacob-frey.full.jpg is the full wide file; jacob-frey.jpg is a head-and-shoulders crop of it (x500-1200, y60-800), not upscaled. Posed environmental shot, seated on City Hall steps leaning forward on his arms, slight three-quarter turn to his right, smile showing teeth, eyes visible. Wavy dark brown hair, tousled, longer on top; no glasses; clean-shaven. Fair skin, soft overcast daylight; granite City Hall background. Light-blue open-collar button shirt, no jacket or tie; forearm crosses the lower frame. Face ~210px across. Year unknown (2020s). Rejected: Commons Frey_2021_0145_F.jpg (his own Flickr, CC BY 2.0, large but he looks off to the side, not at camera); Commons Jacob_Frey._(October_21,_2025).jpg (CC0 by Czbik, 903x1129, front-facing and smiling, face ~490px, but a snapshot with hair cut by the top edge, brown zip jacket; usable fallback for a current look)."
+  },
+  "troy-singleton": {
+    "tier": "official",
+    "page": "https://www.njleg.state.nj.us/legislative-roster/395/senator-singleton",
+    "image": "https://pub.njleg.gov/publications/members/singleton_troy_2023_250a.jpg",
+    "publisher": "New Jersey Legislature",
+    "license": "\u00a9 New Jersey Legislature, used as a drawing reference",
+    "width": 250,
+    "height": 364,
+    "notes": "Official 2023 Legislature member photo (the member page loads it via /api/legislatorData/legislatorBio/395). SMALL: 250x364, face ~150px across; the Legislature serves no larger copy. Posed, front-facing, broad smile showing teeth. Bald/shaved head; short, full black beard, trimmed, with mustache. Black rectangular glasses with thick frames. Deep brown skin, warm even light, blurred wood-paneled background. Navy pinstripe suit, white shirt, bright pink tie, round Senate lapel pin. Framed to the upper chest with some space above the head. Rejected (larger but candids): Commons File:Troy Singleton.jpg (NJDMAVA public domain, Feb. 2020, 1645x2045, speaking at a microphone, three-quarter, unsmiling); campaign site troysingleton.com hero photo (assets.nationbuilder.com/.../troy.jpg, 1390x1456, at a State House podium, looking up and away, mouth open). newdealleaders.org/leader/troy-singleton blocked by a Cloudflare challenge (skipped); njsendems.org, ballotpedia.org, patch.com skipped per brief."
+  },
+  "damian-pardo": {
+    "tier": "official",
+    "page": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf",
+    "image": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf (embedded image, extracted with pdfimages)",
+    "publisher": "Miami-Dade Transportation Planning Organization",
+    "license": "Public domain (Florida government work)",
+    "width": 526,
+    "height": 737,
+    "notes": "Miami-Dade TPO Governing Board members poster dated 2026-02-02 (linked from miamidadetpo.org/tpo/governing-board.page), captioned Damian Pardo, City of Miami; the photo is the embedded JPEG at its full resolution. Posed studio headshot on a blue gradient, front-facing, broad smile showing teeth, eyes clear (slightly narrowed by the smile). Light-medium olive skin, soft even light with a bright highlight on the right cheek. Fully shaved bald head. Full dark-brown beard and mustache with a little gray. No glasses. Navy-and-green plaid suit, white shirt, blue/green/white check tie, paisley pocket square. Cut at mid-chest with space above the head; face ~260px across. Not tried: www.miami.gov (blocked list), so his city page photo was not compared. linktr.ee/CommissionerPardoD2 skipped: robots.txt disallows all for generic agents."
+  },
+  "glenn-davis": {
+    "tier": "official",
+    "page": "https://columbusga.gov/council/district-2",
+    "image": "https://columbusga.gov/Portals/council/adam/Content/WHN51r4Ei06t6urkJafRmg/Picture/Councilor-2.jpg",
+    "publisher": "Columbus Consolidated Government",
+    "license": "\u00a9 Columbus Consolidated Government, used as a drawing reference",
+    "width": 207,
+    "height": 253,
+    "hold": "Only photo found is the city's 207x253 council headshot: face about 90px across, below the ~100px floor. Wait for a larger posed photo.",
+    "notes": "Columbus council District 2 page names him: Glenn Davis, District 2. The same 207x253 file appears on columbusga.gov/council (alt Glenn Davis, a second copy under /YyQE9NBf1EeyG4E6Z5hvyQ/). Posed outdoor head-and-shoulders, front-facing, broad smile showing teeth, eyes visible, no glasses. White man, fair ruddy skin, short brown hair parted at the side, brown moustache. Navy pinstripe suit, light blue shirt, gold/orange tie; arched building and shrubs behind, bright daylight. The photo looks old (date unknown; he was first elected in 2002), so it may show him younger than he is now. Tried: Commons (no file of him; the Glenn Davis category is the 1940s football player), Ledger-Enquirer/WRBL stories via Yahoo (lead image is a CCG-TV frame of the man presiding with the gavel, apparently the mayor, not him), web search for a campaign or press headshot (none). Ballotpedia is on the blocked list. Could still try: a CCG-TV council meeting video frame (reference-only, candid) or asking the Clerk of Council for a current headshot."
+  },
+  "danielle-cohen-higgins": {
+    "tier": "official",
+    "page": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf",
+    "image": "https://www.miamidadetpo.org/library/mdtpo-governing-board-members-poster.pdf (embedded image, extracted with pdfimages)",
+    "publisher": "Miami-Dade Transportation Planning Organization",
+    "license": "Public domain (Florida government work)",
+    "width": 572,
+    "height": 728,
+    "notes": "Miami-Dade TPO Governing Board members poster dated 2026-02-02 (linked from miamidadetpo.org/tpo/governing-board.page), captioned Danielle Cohen Higgins, Miami-Dade County; embedded JPEG at full resolution. Same shoot as her county commission portrait. Posed studio headshot on a blue gradient, front-facing, broad smile showing teeth, eyes clear. Light-medium warm skin, soft even light. Long, voluminous wavy hair, dark brown at the roots grading to honey-blonde balayage, worn down over both shoulders with a side part. Small gold stud earrings, two thin gold necklaces, no glasses. Navy pinstripe blazer over a navy satin button shirt. Cut at mid-chest with space above the hair; face ~185px across. Rejected: county commission banner of the same photo (miamidade.gov/resources/district-08/images/danielle-cohen-higgins-district-8.jpg, 811x378, face ~100px)."
+  },
+  "debra-tendrich": {
+    "tier": "official",
+    "page": "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4924&LegislativeTermId=92",
+    "image": "https://www.flhouse.gov/FileStores/Web/Imaging/Member/cutout%2f4924.png",
+    "publisher": "Florida House of Representatives",
+    "license": "Public domain (Florida government work)",
+    "width": 500,
+    "height": 410,
+    "notes": "Florida House official portrait (2024-26 term), the cut-out version shown on her member page; transparent PNG flattened onto white. Posed, front-facing with a slight turn, broad smile showing teeth, eyes clear. Light-medium warm skin, soft even studio light. Long brown hair with lighter caramel ends, swept to her left shoulder in loose curls. Small stud earrings, small pendant necklace, no glasses. Black blazer over a cobalt-blue V-neck blouse. Cut at mid-chest with space above the hair; face ~130px across. Rejected: the same photo with flag background at 208x278 (Member/4924.jpg, also Commons File:Debra_Tendrich.jpg). Her campaign site debratendrich.com returned 403 Access Denied."
+  },
+  "eileen-higgins": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Eileen_Higgins_(Miami%E2%80%93Dade_County_Commissioner)_official_headshot_with_white_background.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Eileen_Higgins_%28Miami%E2%80%93Dade_County_Commissioner%29_official_headshot_with_white_background.jpg",
+    "publisher": "Office of Commissioner Eileen Higgins, Miami-Dade County (via Wikimedia Commons)",
+    "license": "Public domain (Florida government work)",
+    "width": 1200,
+    "height": 1307,
+    "notes": "Her official headshot from her time as Miami-Dade County Commissioner (2020s; Commons source is a county constituent newsletter). Posed studio shot on a plain white background, front-facing, warm smile showing teeth, eyes clear behind glasses. Fair skin, soft even light. Chin-length straight strawberry-blonde bob with bangs. Tortoiseshell rectangular glasses. Pearl necklace and pearl drop earrings. Black blazer over a bright blue top. Cut at mid-chest with space above the hair; face ~480px across. Her current City of Miami mayoral page (www.miami.gov) is on the blocked list, so a newer mayoral portrait was not checked. Commons File:Eileen_Higgins_(cropped).jpg is a crop of this same photo."
+  },
+  "jeff-hild": {
+    "tier": "press",
+    "page": "https://www.aap.org/en/about-the-aap/aap-leadership/senior-leadership-team/",
+    "image": "https://www.aap.org/globalassets/images/leadership/hild-jeff-2024-headshot.jpg",
+    "publisher": "American Academy of Pediatrics (leadership page)",
+    "license": "\u00a9 publisher, used as a drawing reference",
+    "width": 2400,
+    "height": 3000,
+    "notes": "2024 headshot (filename hild-jeff-2024-headshot) on the AAP Senior Leadership Team page, where he is now SVP, Advocacy (names him Jeff Hild, JD; AAP release says he previously led ACF as Principal Deputy Assistant Secretary). It looks like his HHS official portrait (U.S. flag, plain backdrop), but no government page showing it was readable. Posed, front-facing, broad smile showing teeth. Short reddish-brown hair, side-swept; no glasses; short reddish-brown beard and mustache with gray in the chin. Fair, ruddy skin, even bright studio light; light background with U.S. flag at left. Charcoal suit, lavender gingham button-down, navy tie. Head to mid-chest with a little space above the hair. Face ~1100px across. Tried acf.gov (AWS WAF challenge) and hhs.gov (Akamai 403 even on robots.txt); no Commons or Wikipedia entry."
+  },
+  "hazelle-rogers": {
+    "tier": "official",
+    "page": "https://www.browardmpo.org/our-board",
+    "image": "https://www.browardmpo.org/images/Hazzelle_Rogers-Cropped.jpg",
+    "publisher": "Broward Metropolitan Planning Organization",
+    "license": "Public domain (Florida government work)",
+    "width": 340,
+    "height": 380,
+    "notes": "Broward MPO board roster headshot (she represents Broward County on the MPO board); date unknown, possibly from her Lauderdale Lakes years. Posed on a plain white background, front-facing with a slight turn, closed-mouth smile with red lipstick, eyes clear behind glasses. Dark brown skin, soft even light. Very short natural black hair, close-cropped. Black rectangular glasses. Long crystal drop earrings, jeweled beaded neckline. Plum/purple satin jacket with a large ruffled collar. Cut at the upper chest with space above the hair; face ~150px across. Rejected: Commons File:Hazelle_Rogers.png (Broward County photo, 220x220, face ~100px, cut at the collar: glasses, dark blazer, pink top), Commons House portrait from 2008 (150x200). www.broward.org is on the blocked list and was not read."
+  },
+  "jane-castor": {
+    "tier": "official",
+    "page": "https://www.tampa.gov/mayor",
+    "image": "https://www.tampa.gov/sites/default/files/slideshow/slides/mayor_castor_headshot_2023-wide.jpg",
+    "publisher": "City of Tampa",
+    "license": "Public domain (Florida government work)",
+    "width": 1144,
+    "height": 806,
+    "notes": "City of Tampa official mayoral headshot, 2023 (first slide on the mayor page; this is the original file behind the 1210x681 slideshow style). Posed studio shot on a flat slate-gray background, front-facing, smile showing teeth, eyes clear behind glasses. Fair skin, soft even light. Platinum-blonde chin-length hair swept up and back from the forehead, side part. Thin rimless/wire rectangular glasses. Small gold hoop earrings. Navy blazer with a round city lapel pin, white open-collar shirt. Cut at mid-chest with space above the hair; face ~310px across. Rejected: Commons File:Mayor_Jane_Castor_-Tampa.jpeg (City of Tampa, 660x769, older look: tortoiseshell round glasses, black background, lavender check shirt) as the older, smaller photo."
+  },
+  "jim-mooney": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Florida_State_Representative_Jim_Mooney.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Florida_State_Representative_Jim_Mooney.jpg",
+    "publisher": "Florida House of Representatives (via Wikimedia Commons)",
+    "license": "Public domain (Florida government work)",
+    "width": 442,
+    "height": 592,
+    "notes": "Florida House official portrait from his first term (uploaded to Commons Nov. 2020 from his House member page). Posed in front of the US flag on a mottled gray backdrop, front-facing, closed-mouth smile, eyes clear behind glasses. Fair skin with a light tan, even light. Short silver-gray hair combed back, receding. Black rectangular glasses with blue inner rims. Clean-shaven. Gray suit with gold House lapel pin, pale mint-green shirt, blue/gray/white striped tie. Cut at the chest with space above the hair; face ~230px across, but the file is soft (looks upscaled from a smaller original), so expect little fine detail. NEWER LOOK: his current House portrait (flhouse.gov member page, Member/4797.jpg 208x279 and cutout%2f4797.png 308x279; face ~90px, too small) is the same look in a navy suit with a white shirt and blue-and-white striped tie, and a slightly broader smile."
+  },
+  "anibal-ramos-jr": {
+    "tier": "press",
+    "page": "https://www.anibalramosjr.com/show_your_support_for_councilman_anibal_ramos_jr_on_social_media",
+    "image": "https://d3n8a8pro7vhmx.cloudfront.net/brunot/pages/1441/attachments/original/1525279553/RamosSpanishFBAsset.jpg",
+    "publisher": "Committee to Re-Elect Anibal Ramos, Jr. for Council (anibalramosjr.com)",
+    "license": "\u00a9 Committee to Re-Elect Anibal Ramos, Jr., used as a drawing reference",
+    "width": 660,
+    "height": 1000,
+    "notes": "Posed campaign headshot cut out onto a 2018 Spanish-language social-media graphic (VOTE: MARTES, 8 DE MAYO / ANIBAL RAMOS C1) on the social-media page of his campaign site; the same headshot is on the English Ramos1200x628/RamosFBAsset graphics. photos/anibal-ramos-jr.jpg is a 660x1000 head-and-shoulders crop of the 1200x1302 graphic (full file kept as photos/anibal-ramos-jr.full.jpg). Photo is from 2018 or earlier; same man as the 2018 re-election announcement photos on the site and the North Ward campaign pages. Face ~370px across. Slight three-quarter turn toward our right (his right ear, on our left, shows), eyes to camera, smile showing teeth. Short salt-and-pepper hair, gray at the sides, darker on top, cut close; light salt-and-pepper stubble beard and mustache. Light olive/tan skin, bright daylight, a little warm. Blue-gray suit, white shirt, cream tie with navy diagonal stripes. FRAMING: the top of his hair touches the frame edge (no space above the hair), and his right shoulder (our left) runs off the left edge; campaign text (VOTE banner, red ANIBAL, navy RAMOS letters, stars) sits behind and right of his head: drop it all. No government photo found: newarknj.gov member page is on the blocked list (Cloudflare) and was skipped, archived copies included; Essex County Citizen Services page (he is director) has no photo; no Commons or Wikipedia image. Rejected: InsiderNJ 2018 feature image (uncaptioned two-person street snapshot, thumbs up); campaign-site event candids (podium, seated, with children/baseball team, faces small). spaa.newark.rutgers.edu/anibal-ramos-jr returned 403 (nginx) to our script; skipped."
+  },
+  "carmen-amato": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:Carmen_Amato_(March_5,_2025).jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Carmen_Amato_%28March_5%2C_2025%29.jpg",
+    "publisher": "Wikimedia Commons (New Jersey Department of Military and Veterans Affairs)",
+    "license": "Public domain",
+    "width": 1186,
+    "height": 1580,
+    "notes": "NJ Department of Military and Veterans Affairs photo from the Ocean County State Medals Ceremony, March 5, 2025 (file title names him; it is the image on his Wikipedia article; a native-resolution crop of File:Ocean County State Medal Ceremony (March 5, 2025).jpg, 7658x5108, not upscaled). Current look. Face ~420px across. Posed for the group photo, facing the camera, closed-mouth smile. Bald on top with short gray-brown hair at the sides and back, a few wisps on the crown; clean-shaven. Thin silver rimless/wire rectangular glasses. Fair, slightly ruddy skin, even indoor flash light. Dark charcoal suit, white shirt, gray-blue tie with small airplane pattern. Framed to mid-chest with space above the head; US flag and a display case behind (drop them). Rejected: Legislature member photo pub.njleg.gov/publications/members/amato_carmen_2024.jpg (posed, warm smile showing teeth, red-and-navy striped tie, flag pin, bookshelf background; but 250x364, face ~140px). Commons File:Carmen_Amato.jpg is an unrelated Italian singer."
+  },
+  "john-lumpkins": {
+    "tier": "official",
+    "page": "https://web.archive.org/web/20221006001814/https://goochlandva.us/158/Board-of-Supervisors",
+    "image": "https://goochlandva.us/ImageRepository/Document?documentId=4760",
+    "publisher": "Goochland County, Virginia (Board of Supervisors page)",
+    "license": "\u00a9 Goochland County, used as a drawing reference",
+    "width": 1800,
+    "height": 2048,
+    "notes": "County headshot from the Board of Supervisors member list as archived Oct 2022 (Wayback), where it sits directly under the heading John Lumpkins, Jr / District 3; the image file is still live on goochlandva.us. Likely from his 2018-2023 supervisor term. His current county page (goochlandva.us/422/Commonwealths-Attorney; he became Commonwealth's Attorney after the Nov 2023 election) has no photo. Posed, front-facing, closed-mouth slight smile, eyes clear (gray-green). Bald on top with a fringe of short light-brown/gray hair at the sides; no glasses; short gray goatee/stubble beard and mustache. Fair, slightly ruddy skin, even flash light; flat slate-gray backdrop. Charcoal suit, white button-down, red patterned tie. Head to mid-chest with clear space above the head. Face ~750px across. No Commons, Wikipedia or campaign photo found."
+  },
+  "gordon-johnson": {
+    "tier": "official",
+    "page": "https://commons.wikimedia.org/wiki/File:(05-08-2025)_Gordon_Johnson.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/%2805-08-2025%29_Gordon_Johnson.jpg",
+    "publisher": "Wikimedia Commons (New Jersey Department of Military and Veterans Affairs)",
+    "license": "Public domain",
+    "width": 1803,
+    "height": 2402,
+    "notes": "NJ Department of Military and Veterans Affairs photo from the May 8, 2025 Senate Military and Veterans Affairs Committee session at the State House Annex (same session as Paul Sarlo's photo; file title names him; it is the image on his Wikipedia article; cropped from File:(05-08-2025)_TAG_speaks_before_Senate_Gordon_Johnson.jpg, 7907x5274). Current look. Face ~900px across. Facing the camera with eyes on the lens, head turned very slightly to our right; a small closed-mouth smile with lips pushed forward (a moment between expressions, not a broad smile). Bald on top, short gray-black hair at the sides; neat gray-and-black mustache. Thin gold/silver wire rectangular glasses. Deep brown skin, soft indoor daylight. Gray-blue tweed sport coat, white shirt, red/navy/white plaid bow tie. Framed to mid-chest with space above the head; stained-glass window and stone wall behind (drop them). Alternatives: Legislature member photo pub.njleg.gov/publications/members/johnson_gordon_2023_250.jpg (posed, slight closed smile, green bow tie, olive jacket; best expression but 250x364, face ~140px) \u2014 use it if the drawer finds this expression off; Commons File:Gordon_M._Johnson.jpg (CC BY 3.0, 2019 video still, 607x752, face ~280px, front-facing, neutral closed mouth, lilac bow tie, soft video quality). Rejected: Commons File:Yvonne Mays, Gordon Johnson, and Latham Tiver.jpg (2024, profile view)."
+  },
+  "joseph-kunkel": {
+    "tier": "official",
+    "page": "https://newsroom.ocfl.net/2026/06/orange-county-employee-celebrates-50-years-of-public-service/",
+    "image": "https://newsroom.ocfl.net/wp-content/uploads/2026/06/OCFL2026-114-scaled.jpg",
+    "publisher": "Orange County Government (Florida), Newsroom",
+    "license": "Public domain (Florida government work)",
+    "width": 750,
+    "height": 1100,
+    "hold": "Identity not captioned: the photo has no caption naming him. The man is inferred to be Joe Kunkel because the story quotes him as Public Works director and he stands with the honoree and Mayor Demings, and the same man appears in the county newsroom photo for the March 2025 story in which Director Kunkel treated a Public Works crew to breakfast (newsroom.ocfl.net/2025/03/public-works-crew-comes-to-aid-of-elderly-woman-in-distress/, IMG_1192). Confirm his identity (e.g. with the county) before drawing.",
+    "notes": "County newsroom photo from a June 2026 service-award presentation (full 2560x1708 frame saved as joseph-kunkel.full.jpg; joseph-kunkel.jpg is the crop of the man at far left, x 250-1000, y 300-1400). Candid but posed for the camera, front-facing, smile showing teeth, eyes clear behind glasses. Fair skin, even indoor flash-style light against a pale projection screen. Thinning gray-brown hair, receding, a few strands lifted on top. Thin rectangular glasses with blue frames along the top edge. Clean-shaven. Taupe/gray-brown suit, white button-down shirt, navy tie with a gold leaf pattern. Cut at the waist with clear space above the hair; face ~240px across. The honoree (Larkin Cockram) intrudes at the right edge of the crop. No posed headshot found on ocfl.net, the newsroom directory page, or in search; LinkedIn not tried (login wall)."
+  },
+  "aileen-gunther": {
+    "tier": "reference-only",
+    "page": "https://www.youtube.com/watch?v=h9MdkJsdlcs",
+    "image": "https://i.ytimg.com/vi/h9MdkJsdlcs/maxresdefault.jpg",
+    "publisher": "WJFF Radio Catskill (YouTube)",
+    "license": "\u00a9 WJFF Radio Catskill, used as a drawing reference only; never republish",
+    "width": 640,
+    "height": 720,
+    "notes": "From the thumbnail of WJFF Radio Catskill video \"Aileen Gunther (100th), NY Assembly Member, shares response to Gov Kathy Hochul's State of the State\" (about 2023-24, her last terms). The thumbnail sets a posed cut-out portrait of her on a navy title card; photos/aileen-gunther.jpg is the right-hand 640x720 crop with her portrait, the full 1280x720 thumbnail is photos/aileen-gunther.full.jpg (left side is title text; ignore the navy card and the \"ate\" text fragment at left). Front-facing, gentle closed-to-slightly-open smile, eyes clear behind round burgundy/red-framed glasses. Chin-length blonde bob with darker roots and side-swept bangs, small stud earrings. Grey crew-neck sweater over a white collared shirt. Fair skin with fine lines, soft even light. Face ~370px across. Frame ends at the top of the chest; shoulders are in frame but the right shoulder runs to the edge, so the drawing should stop at the frame rather than extend the sweater. Rejected: Assembly headshot of her time (nyassembly.gov member_files/100/headshot/100.jpg, Wayback copies 2020-2023: short reddish-blonde hair, dark rectangular glasses, lilac shirt) is only 134x200, and the header cut-out 145x185; the Assembly never served it larger (the large member_files/100 files captured 2025 on are her successor, Paula Kay). Her Assembly event photos (Wayback, photos/2013-2020) all have faces under ~60px; Commons Aileen_Gunther.jpg (2009, 484x567) is a candid mid-word with a microphone; Vote Smart photo is 110x135; Mid-Hudson News retirement interview (YouTube 8xk8rLRqip4) and WMHT New York NOW (BvJY3N3b9tU) thumbnails are candid mid-gesture/webcam."
+  },
+  "edward-braunstein": {
+    "tier": "official",
+    "page": "https://nyassembly.gov/mem/Edward-C-Braunstein",
+    "image": "https://nyassembly.gov/write/upload/member_files/026/headshot/026.jpg",
+    "publisher": "New York State Assembly",
+    "license": "\u00a9 New York State Assembly, used as a drawing reference",
+    "width": 500,
+    "height": 745,
+    "notes": "Assembly directory headshot (about 2022), blue studio backdrop with US flag at left. Front-facing, warm smile showing teeth, eyes clear (light blue-grey). Short brown hair, slightly receding, combed up and to the side; clean-shaven, no glasses. Navy suit, white shirt, bright blue textured tie. Fair skin, even studio light. Head and shoulders to mid-chest with room above the hair. Face ~255px across; largest the Assembly serves (no _1500 versions). His member page shows the same photo as a cut-out (header_headshot/026.png, 500x700, same face size). Nothing on Commons."
+  },
+  "inez-barron": {
+    "tier": "official",
+    "page": "https://legistar.council.nyc.gov/PersonDetail.aspx?ID=124615&GUID=96279C89-505F-4044-8950-8CB0E849A395",
+    "image": "https://legistar.council.nyc.gov/View.ashx?M=P&ID=124615&GUID=96279C89-505F-4044-8950-8CB0E849A395",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 274,
+    "height": 350,
+    "notes": "Council member photo from her Legistar profile, from her District 42 years (2014-2021); the same photo was the Council district-42 thumbnail (NewYorkCityCouncil/districts repo, thumbnails/district-42.jpg at commit 84b32e6, 2019, only 219x311). Posed, white studio backdrop, front-facing, big open smile showing teeth, eyes clear. Short natural grey-and-black hair in small twists/locs, long white-and-gold pendant earrings, white collared blouse under a jacket with large red, orange, black and pink floral print. Deep brown skin, soft even light. Head and shoulders to the upper chest with a little room above the hair. SMALL: 274x350, face ~135px across, below the 400px-wide minimum; it is the largest copy found and the only posed photo. Nothing on Commons; NYC Campaign Finance Board 2013 voter guide photo is 120x150; the Council's event photos are on flickr.com (blocked); her archived Council WordPress site (council.nyc.gov/inez-barron/) holds no portrait."
+  },
+  "james-gennaro": {
+    "tier": "official",
+    "page": "https://council.nyc.gov/districts/",
+    "image": "https://raw.githubusercontent.com/NewYorkCityCouncil/districts/master/thumbnails/district-24.jpg",
+    "publisher": "New York City Council",
+    "license": "\u00a9 New York City Council, used as a drawing reference",
+    "width": 3277,
+    "height": 4096,
+    "notes": "The Council's posed member headshot, shown for District 24 on the council.nyc.gov/districts/ member table; the file lives in the Council's own NewYorkCityCouncil/districts GitHub repo (thumbnails/district-24.jpg, updated 2026-10-22, commit e9bb366). Front-facing, warm smile showing teeth, eyes clear (slightly crinkled). Short swept-back white-grey hair, receding at the temples; clean-shaven, no glasses. Bright royal-blue suit, white shirt, navy-and-blue striped tie, Council lapel pin. Fair, ruddy skin; even studio light. US flag at left and New York State flag at right behind. Head and shoulders to mid-chest; headroom above the hair is modest (~200px). Face ~1350px across. Rejected: Legistar profile photo (PersonDetail.aspx?ID=34347, 402x600, older); council.nyc.gov/district-24/ shows only a 2021 hero image; the repo's 2021 thumbnail (626x934) is older; Commons Jim_Gennaro.jpg (2009) is a candid with Dan Rather."
   }
 }

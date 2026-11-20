@@ -6,3 +6,10 @@ jurisdiction: miami
 current: true
 seat: { place: miami, title: Mayor }
 url: https://www.miami.gov/My-Government/City-Officials/Mayor-Eileen-Higgins
+portrait:
+  image: /portraits/eileen-higgins.webp
+  kind: official
+  source:
+    label: "Office of Commissioner Eileen Higgins, Miami-Dade County, via Wikimedia Commons"
+    url: https://commons.wikimedia.org/wiki/File:Eileen_Higgins_(Miami%E2%80%93Dade_County_Commissioner)_official_headshot_with_white_background.jpg
+    license: "Public domain (Florida government work)"

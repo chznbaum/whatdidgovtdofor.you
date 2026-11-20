@@ -5,3 +5,10 @@ level: local
 jurisdiction: broward-county
 current: true
 url: https://www.broward.org/district2/About
+portrait:
+  image: /portraits/mark-bogen.webp
+  kind: photo
+  source:
+    label: Broward County Government (via Hylo News Miami)
+    url: https://hylonewsmiami.com/2025/11/29/mark-bogen-elected-broward-county-mayor-robert-mckinzie-tapped-for-vice-mayor/
+    license: "© Broward County, used as a drawing reference"

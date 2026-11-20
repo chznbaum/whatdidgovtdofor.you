@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: https://www.newarknj.gov/council-members
+portrait:
+  image: /portraits/amina-bey.webp
+  kind: photo
+  source:
+    label: BallotReady (candidate headshot)
+    url: https://www.ballotready.org/people/amina-bey
+    license: "© Amina Bey / photographer, used as a drawing reference"

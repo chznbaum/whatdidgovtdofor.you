@@ -4,4 +4,11 @@ office: Member, Jacksonville City Council, District 7
 level: local
 jurisdiction: jacksonville
 current: true
-url: https://www.jacksonville.gov/city-council
+url: https://www.jacksonville.gov/city-council/city-council-members/d07
+portrait:
+  image: /portraits/jimmy-peluso.webp
+  kind: photo
+  source:
+    label: "Jimmy Peluso for Jacksonville City Council (campaign)"
+    url: https://www.jimmy4jax.com/
+    license: "© Jimmy Peluso campaign, used as a drawing reference"

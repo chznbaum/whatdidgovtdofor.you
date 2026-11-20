@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://assembly.state.ny.us/mem/Aileen-M-Gunther/
+portrait:
+  image: /portraits/aileen-gunther.webp
+  kind: photo
+  source:
+    label: WJFF Radio Catskill (YouTube)
+    url: https://www.youtube.com/watch?v=h9MdkJsdlcs
+    license: © WJFF Radio Catskill, used as a drawing reference only; never republish

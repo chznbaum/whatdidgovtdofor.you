@@ -4,3 +4,10 @@ office: Miami City Commissioner, District 4
 level: local
 jurisdiction: miami
 current: true
+portrait:
+  image: /portraits/ralph-rosado.webp
+  kind: official
+  source:
+    label: City of Miami
+    url: https://www.miami.gov/My-Government/City-Officials/District-4-Commissioner-Ralph-Rafael-Rosado
+    license: "© City of Miami, used as a drawing reference"

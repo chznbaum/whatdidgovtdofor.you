@@ -5,3 +5,10 @@ level: state
 jurisdiction: ga
 current: true
 url: https://www.senate.ga.gov
+portrait:
+  image: /portraits/brian-strickland.webp
+  kind: official
+  source:
+    label: Georgia General Assembly, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Member_of_the_Georgia_State_Senate_Robert_Brian_Strickland.jpg
+    license: Public domain

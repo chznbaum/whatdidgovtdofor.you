@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 url: https://www.sba.gov
+portrait:
+  image: /portraits/isabella-casillas-guzman.webp
+  kind: official
+  source:
+    label: U.S. Small Business Administration, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Isabella_Casillas_Guzman,_SBA_Administrator.png
+    license: Public domain

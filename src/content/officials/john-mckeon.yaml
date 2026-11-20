@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us
+portrait:
+  image: /portraits/john-mckeon.webp
+  kind: official
+  source:
+    label: New Jersey Legislature
+    url: https://www.njleg.state.nj.us/legislative-roster/478/senator-mckeon
+    license: "© New Jersey Legislature, used as a drawing reference"

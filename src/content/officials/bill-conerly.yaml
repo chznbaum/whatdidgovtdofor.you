@@ -4,3 +4,10 @@ office: Florida State Representative, District 72
 level: state
 jurisdiction: fl
 current: true
+portrait:
+  image: /portraits/bill-conerly.webp
+  kind: official
+  source:
+    label: Florida House of Representatives
+    url: https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4920&LegislativeTermId=92
+    license: "Public domain (Florida government work)"

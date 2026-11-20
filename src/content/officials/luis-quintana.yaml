@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: "https://newark.legistar.com/PersonDetail.aspx?ID=5749&GUID=FC8185B7-E99A-4DD0-AD07-252E52879F11"
+portrait:
+  image: /portraits/luis-quintana.webp
+  kind: official
+  source:
+    label: Passaic Valley Sewerage Commission
+    url: https://www.nj.gov/pvsc/who/commissioners/
+    license: "© Passaic Valley Sewerage Commission / State of New Jersey, used as a drawing reference"

@@ -4,3 +4,10 @@ office: Member, Minneapolis City Council, Ward 2
 level: local
 jurisdiction: minneapolis
 current: true
+portrait:
+  image: /portraits/robin-wonsley.webp
+  kind: official
+  source:
+    label: City of Minneapolis
+    url: https://www.minneapolismn.gov/government/city-council/members/ward-2/
+    license: "© City of Minneapolis, used as a drawing reference"

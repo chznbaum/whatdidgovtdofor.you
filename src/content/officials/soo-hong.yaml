@@ -5,3 +5,10 @@ level: state
 jurisdiction: ga
 current: true
 url: https://www.legis.ga.gov/members/house
+portrait:
+  image: /portraits/soo-hong.webp
+  kind: official
+  source:
+    label: Georgia House of Representatives, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Official_headshot_of_Soo_Hong.jpg
+    license: Public domain
