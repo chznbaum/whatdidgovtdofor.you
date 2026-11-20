@@ -5,3 +5,10 @@ level: local
 jurisdiction: atlanta
 current: true
 url: https://citycouncil.atlantaga.gov/
+portrait:
+  image: /portraits/alex-wan.webp
+  kind: official
+  source:
+    label: Atlanta City Council, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Member_of_the_Atlanta_City_Council_Alex_Su-chi_Wan.jpg
+    license: "Public domain"

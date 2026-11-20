@@ -5,3 +5,10 @@ level: local
 jurisdiction: atlanta
 current: true
 url: https://citycouncil.atlantaga.gov/council-members/council-president-marci-collier-overstreet
+portrait:
+  image: /portraits/marci-collier-overstreet.webp
+  kind: official
+  source:
+    label: Atlanta City Council, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:President_of_the_Atlanta_City_Council_Marci_Collier_Overstreet.jpg
+    license: "Public domain"

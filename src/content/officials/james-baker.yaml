@@ -5,3 +5,10 @@ level: local
 jurisdiction: union-county
 current: true
 url: https://ucnj.org/james-e-baker-jr/
+portrait:
+  image: /portraits/james-baker.webp
+  kind: official
+  source:
+    label: Union County
+    url: https://ucnj.org/james-e-baker-jr/
+    license: "© County of Union, used as a drawing reference"

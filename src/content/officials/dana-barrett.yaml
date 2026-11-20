@@ -5,3 +5,10 @@ level: local
 jurisdiction: fulton-county
 current: true
 url: https://fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-commissioners
+portrait:
+  image: /portraits/dana-barrett.webp
+  kind: official
+  source:
+    label: Fulton County Government
+    url: https://www.fultoncountyga.gov/News/2026/07/02/DISTRICT-3-COMMISSIONER-DANA-BARRETT-HOSTS-PROPERTY-TAX-ASSESSMENT-TOWN-HALL
+    license: "© Fulton County Government, used as a drawing reference"

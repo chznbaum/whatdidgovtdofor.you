@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: https://www.newarknj.gov/council-members
+portrait:
+  image: /portraits/c-lawrence-crump.webp
+  kind: photo
+  source:
+    label: "BallotReady (candidate headshot)"
+    url: https://www.ballotready.org/people/c-lawrence-crump
+    license: "© C. Lawrence Crump / photographer, used as a drawing reference"

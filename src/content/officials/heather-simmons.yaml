@@ -5,3 +5,10 @@ level: state
 jurisdiction: nj
 current: true
 url: https://www.njleg.state.nj.us
+portrait:
+  image: /portraits/heather-simmons.webp
+  kind: official
+  source:
+    label: New Jersey Department of Military and Veterans Affairs, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Brig._Gen._Mays_meets_with_legislators_Heather_Simmons_(cropped).jpg
+    license: "Public domain"

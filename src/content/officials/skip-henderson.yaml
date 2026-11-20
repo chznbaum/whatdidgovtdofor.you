@@ -6,3 +6,10 @@ jurisdiction: columbus-ga
 current: true
 seat: { place: columbus-ga, title: Mayor, until: 2027-01-05 }
 url: https://columbusga.gov/mayor/Meet-the-Mayor
+portrait:
+  image: /portraits/skip-henderson.webp
+  kind: official
+  source:
+    label: Columbus Consolidated Government
+    url: https://columbusga.gov/Mayor
+    license: "© Columbus Consolidated Government, used as a drawing reference"

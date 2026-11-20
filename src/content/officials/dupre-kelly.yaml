@@ -5,3 +5,10 @@ level: local
 jurisdiction: newark
 current: true
 url: https://www.newarknj.gov/government/municipal-council
+portrait:
+  image: /portraits/dupre-kelly.webp
+  kind: photo
+  source:
+    label: "Dupré Kelly campaign site (duprekelly.com)"
+    url: https://www.duprekelly.com/about-dupr%C3%A9
+    license: "© Dupré Kelly, used as a drawing reference"

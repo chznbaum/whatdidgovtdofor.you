@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: B001310 }
+portrait:
+  image: /portraits/mike-braun.webp
+  kind: official
+  source:
+    label: United States Senate Photographic Studio, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Mike_Braun,_Official_Portrait,_116th_Congress.jpg
+    license: Public domain

@@ -5,3 +5,10 @@ level: local
 jurisdiction: orange-county-fl
 current: true
 url: https://www.ocfl.net/BoardofCommissioners.aspx
+portrait:
+  image: /portraits/kelly-martinez-semrad.webp
+  kind: official
+  source:
+    label: Orange County Government, Florida
+    url: https://www.ocfl.net/boardofcommissioners/district5commissioner.aspx
+    license: Public domain

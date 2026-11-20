@@ -5,3 +5,10 @@ level: local
 jurisdiction: jacksonville
 current: true
 url: https://www.jacksonville.gov/city-council/city-council-members/d09
+portrait:
+  image: /portraits/tyrona-clark-murray.webp
+  kind: photo
+  source:
+    label: Tyrona Clark-Murray for City Council District 9 (campaign)
+    url: https://voteclarkmurray.com/
+    license: "© Tyrona Clark-Murray campaign, used as a drawing reference"

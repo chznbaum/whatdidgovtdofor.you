@@ -5,3 +5,10 @@ level: local
 jurisdiction: union-county
 current: true
 url: https://ucnj.org/commissioners/?p=1291
+portrait:
+  image: /portraits/joseph-bodek.webp
+  kind: official
+  source:
+    label: Union County
+    url: https://ucnj.org/commissioners/commissionerjoseph-bodek/
+    license: "© County of Union, used as a drawing reference"

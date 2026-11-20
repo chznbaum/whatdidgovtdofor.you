@@ -5,3 +5,10 @@ level: local
 jurisdiction: atlanta
 current: true
 url: https://citycouncil.atlantaga.gov
+portrait:
+  image: /portraits/matt-westmoreland.webp
+  kind: photo
+  source:
+    label: Rough Draft Atlanta (Atlanta City Council portrait)
+    url: https://roughdraftatlanta.com/2023/02/16/matt-westmoreland-leading-the-way-in-education-and-legislation/
+    license: "© Atlanta City Council, used as a drawing reference"

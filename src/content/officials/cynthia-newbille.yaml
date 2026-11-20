@@ -5,3 +5,10 @@ level: local
 jurisdiction: richmond
 current: true
 url: https://rva.gov/richmond-city-council/council-contacts
+portrait:
+  image: /portraits/cynthia-newbille.webp
+  kind: photo
+  source:
+    label: "Sports Backers (board profile)"
+    url: https://www.sportsbackers.org/board/profile/cynthia-newbille/
+    license: "© City of Richmond, used as a drawing reference"

@@ -6,3 +6,10 @@ jurisdiction: gwinnett-county
 current: true
 seat: { place: gwinnett-county, title: Chairwoman, Board of Commissioners }
 url: https://www.gwinnettcounty.com
+portrait:
+  image: /portraits/nicole-love-hendrickson.webp
+  kind: photo
+  source:
+    label: "Nicole Love Hendrickson campaign (love4gwinnett.com)"
+    url: https://www.love4gwinnett.com/
+    license: "© Nicole Love Hendrickson campaign, used as a drawing reference"

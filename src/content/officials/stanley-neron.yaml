@@ -5,3 +5,10 @@ level: local
 jurisdiction: union-county
 current: true
 url: https://ucnj.org/commissioners/commissioner-stan-j-neron/
+portrait:
+  image: /portraits/stanley-neron.webp
+  kind: official
+  source:
+    label: Union County
+    url: https://ucnj.org/commissioners/commissioner-stan-j-neron/
+    license: "© County of Union, used as a drawing reference"

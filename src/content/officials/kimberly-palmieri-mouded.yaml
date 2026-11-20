@@ -5,3 +5,10 @@ level: local
 jurisdiction: union-county
 current: true
 url: https://ucnj.org/commissioners/commissioner-kimberly-palmieri-mouded/
+portrait:
+  image: /portraits/kimberly-palmieri-mouded.webp
+  kind: official
+  source:
+    label: Union County
+    url: https://ucnj.org/commissioners/commissioner-kimberly-palmieri-mouded/
+    license: "© County of Union, used as a drawing reference"

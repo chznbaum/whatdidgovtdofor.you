@@ -5,3 +5,10 @@ level: state
 jurisdiction: ny
 current: false
 url: https://council.nyc.gov/district-2/
+portrait:
+  image: /portraits/harvey-epstein.webp
+  kind: official
+  source:
+    label: New York State Assembly
+    url: https://web.archive.org/web/20251103143907/https://nyassembly.gov/mem/Harvey-Epstein
+    license: "© New York State Assembly, used as a drawing reference"

@@ -4,3 +4,10 @@ office: Vice President, Minneapolis City Council, Ward 6
 level: local
 jurisdiction: minneapolis
 current: true
+portrait:
+  image: /portraits/jamal-osman.webp
+  kind: official
+  source:
+    label: City of Minneapolis
+    url: https://www.minneapolismn.gov/government/city-council/members/ward-6/
+    license: "© City of Minneapolis, used as a drawing reference"

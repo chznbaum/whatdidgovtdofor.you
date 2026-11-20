@@ -5,3 +5,10 @@ level: federal
 jurisdiction: us
 current: false
 ids: { bioguide: F000062 }
+portrait:
+  image: /portraits/dianne-feinstein.webp
+  kind: official
+  source:
+    label: United States Senate, via Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Dianne_Feinstein_Official_High_Res_Photo.jpg
+    license: Public domain
