@@ -2,6 +2,6 @@ name: Bob Menendez
 party: D
 office: U.S. Senator from New Jersey
 level: federal
-jurisdiction: nj
+jurisdiction: us
 current: false
 ids: { bioguide: M000639 }

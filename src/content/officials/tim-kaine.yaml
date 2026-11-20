@@ -2,7 +2,7 @@ name: Tim Kaine
 party: D
 office: U.S. Senator from Virginia
 level: federal
-jurisdiction: va
+jurisdiction: us
 current: true
 ids: { bioguide: K000384 }
 url: https://www.kaine.senate.gov

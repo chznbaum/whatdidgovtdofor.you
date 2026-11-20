@@ -162,12 +162,14 @@ name: Tim Kaine
 party: D            # D, R, I, L, G, DSA, NPA, or NP (nonpartisan office)
 office: U.S. Senator from Virginia
 level: federal      # federal | state | local
-jurisdiction: va    # place id where they serve (use `us` for President/VP/cabinet)
+jurisdiction: us    # place id where they're authorized to wield government power (see below)
 current: true       # holds this office today
 ids: { bioguide: K000384 }   # members of Congress: bioguide id (see src/data/roster/federal.json)
                              # state legislators: openstates id (see src/data/roster/state-*.json)
 url: https://www.kaine.senate.gov
 ```
+
+`jurisdiction` is the place in which the official is authorized to wield government power, the same sense as an entry's `jurisdiction`: every member of Congress, and every federal judge, is `us`; a state legislator is the state; a council member is the city or county, even one elected from a ward or district. It isn't the constituency: the district, ward, or state a member represents goes in `office` ("U.S. Representative, Virginia's 3rd District"), not here. A person or organization outside government gets the place where they're authorized to operate in that capacity, not where they live as a citizen: `us` for a national organization, a state for a statewide one, or the city or county a local one works in. Never substitute a nearby place: if the right one has no file in `src/content/places/` yet, it needs a basic one (name, short name, kind, parent), added by a person, since the pipeline doesn't write places.
 
 For a former official, use the office they held when they did the credited work and set `current: false` (e.g., `office: President of the United States`, `current: false` for Joe Biden).
 
