@@ -49,9 +49,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
+    date: 2026-11-22
   verdict: pass
-  notes: Confirmed the ordinance, project quantities, 8–0 vote, Stoney’s patronage, reimbursement structure, and safety descriptions. Current searches found no project-specific cancellation, construction, or completion record contradicting the stated scheduled status.
+  notes: Confirmed the ordinance, project quantities, 8–0 vote, Stoney’s patronage, funding structure, and safety descriptions. Checked 2026 transportation records and found the project still listed, with no cancellation or completion record.
 source_key: richmond-ord-2024-289
 ---
 

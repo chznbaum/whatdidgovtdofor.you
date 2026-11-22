@@ -88,9 +88,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: corrected
-  notes: Confirmed the ordinance, amended total, five service amounts, patrons, hotline details, and unanimous roll call. Updated the status date and link to match the latest action-specific spending evidence.
+    date: 2026-11-22
+  verdict: pass
+  notes: Confirmed the original and amended appropriations, five service amounts, patrons, unanimous nine-member vote, current program information, and latest action-specific spending evidence. No qualifying rollback or later recapture was found.
 source_key: richmond-ord-2022-099
 ---
 

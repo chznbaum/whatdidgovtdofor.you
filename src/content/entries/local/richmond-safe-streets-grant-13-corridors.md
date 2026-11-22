@@ -77,9 +77,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: corrected
-  notes: Confirmed the amounts, project scope, credits, vote, and phased status against Richmond and federal records. Combined `who_benefits` into the single sentence required by the content guide.
+    date: 2026-11-22
+  verdict: pass
+  notes: Confirmed the grant amounts, matching funds, project scope, ordinance, credits, council adoption, and phased status against Richmond and federal records. No later repeal, cancellation, funding cut, or project update was found.
 source_key: richmond-ord-2024-278
 ---
 

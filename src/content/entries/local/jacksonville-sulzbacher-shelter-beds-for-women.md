@@ -6,7 +6,7 @@ jurisdiction: jacksonville
 action:
   type: ordinance
   name: Ordinance 2026-542-E, funding for I.M. Sulzbacher Center for the Homeless to increase shelter capacity
-  identifier: Ord. 2026-0542-E
+  identifier: Ord. 2026-542-E
   date: 2026-08-11
 topics:
   - housing
@@ -41,6 +41,9 @@ credit:
     role: cosponsored
   - official: rahman-johnson
     role: cosponsored
+  - official: percy-golden-ii
+    role: proposed
+    note: Led JFRD when its PATH team specifically requested the additional beds
   - official: jacksonville-city-council
     role: voted-yes
     note: Approved it 17-0 on Aug. 11, 2026
@@ -59,6 +62,10 @@ sources:
     publisher: Jacksonville Today
     url: https://jaxtoday.org/2026/08/14/400k-expand-beds-for-unhoused-women/
     date: 2026-08-14
+  - title: Jacksonville has put a new focus on homelessness in recent years, but is it paying off?
+    publisher: Action News Jax
+    url: https://www.actionnewsjax.com/news/local/jacksonville-has-put-new-focus-homelessness-recent-years-is-it-paying-off/GAI7PXC7FRGW5D4BU6XP5S3XW4/
+    date: 2026-08-11
 featured: false
 verification:
   writer:
@@ -68,9 +75,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: pass
-  notes: Confirmed the ordinance, funding, 32-bed plan, sponsors, parties, and 17–0 vote against the official legislative record and Jacksonville Today. No later reliable report confirmed that the dorm opened or was cancelled, so the cautious phasing-in status remains supported.
+    date: 2026-11-22
+  verdict: corrected
+  notes: Confirmed the funding, bed count, vote, sponsors, parties, and cautious rollout status. Added the JFRD chief required by the agency-credit rule and corrected the enacted ordinance number.
 source_key: jacksonville-2026-0542-e
 ---
 

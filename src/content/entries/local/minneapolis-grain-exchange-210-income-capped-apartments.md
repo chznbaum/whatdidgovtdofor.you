@@ -97,9 +97,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-18
-  verdict: corrected
-  notes: Confirmed the financing amounts, affordable-unit count, credits, roll call, and parties. Updated the enactment date and project status, corrected the TIF-note description, and replaced a dead source.
+    date: 2026-11-22
+  verdict: pass
+  notes: Confirmed the financing, 210-unit affordability plan, enactment history, credits, full roll call and party breakdown. The Sept. 22 financing update remains the latest specific project-status report found.
 source_key: minneapolis-lims-2026-00693-2026-07-16
 ---
 
