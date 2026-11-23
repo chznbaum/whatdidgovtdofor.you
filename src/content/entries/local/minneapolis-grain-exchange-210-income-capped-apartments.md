@@ -97,9 +97,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the financing, 210-unit affordability plan, enactment history, credits, full roll call and party breakdown. The Sept. 22 financing update remains the latest specific project-status report found.
+  notes: Confirmed the financing package, apartment and income figures, enactment history, credits, roll call, party breakdown, and current project status against the official record and cited sources. No later source confirmed construction had started or showed the project was cancelled or blocked.
 source_key: minneapolis-lims-2026-00693-2026-07-16
 ---
 

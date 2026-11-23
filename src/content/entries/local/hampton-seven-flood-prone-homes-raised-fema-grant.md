@@ -6,7 +6,7 @@ jurisdiction: hampton
 action:
   type: grant
   name: City of Hampton Elevation Project
-  identifier: Resolution 24-0158 (FEMA-DR-4512-DR-VA-0014)
+  identifier: Hampton File 24-0158 (FEMA-DR-4512-DR-VA-0014)
   date: 2024-04-10
 topics:
   - storms
@@ -33,7 +33,7 @@ credit:
     role: voted-yes
     note: Accepted and budgeted the grant on April 10, 2024
 sources:
-  - title: Resolution 24-0158, accepting and appropriating the FEMA HMGP award for the City of Hampton Elevation Project
+  - title: Hampton File 24-0158, accepting and appropriating the FEMA HMGP award for the City of Hampton Elevation Project
     publisher: City of Hampton (Legistar)
     url: https://hampton.legistar.com/LegislationDetail.aspx?ID=6613351&GUID=1D3E20E1-1DF5-4762-B836-FA8C80C4AF2F
     date: 2024-04-10
@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: corrected
-  notes: Confirmed the resolution, funding split, homeowner costs, council action, and credit. Corrected the status evidence to the project-specific subaward and found no later public completion or cancellation record.
+  notes: "Confirmed the grant amount, funding split, conflicting seven/eight-home descriptions, homeowner costs, council action, and latest project-specific federal award record. Corrected the local identifier: 24-0158 is Hampton’s file number, not a resolution number."
 source_key: hampton-24-0158
 ---
 

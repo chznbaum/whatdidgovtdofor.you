@@ -77,9 +77,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the grant amounts, matching funds, project scope, ordinance, credits, council adoption, and phased status against Richmond and federal records. No later repeal, cancellation, funding cut, or project update was found.
+  notes: Confirmed the ordinance, grant and matching amounts, project scope, credits, council adoption, and phased status against Richmond and federal records. No later repeal, cancellation, funding cut, or project-specific update was found.
 source_key: richmond-ord-2024-278
 ---
 

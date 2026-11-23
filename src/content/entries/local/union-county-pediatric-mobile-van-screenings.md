@@ -66,9 +66,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
-  verdict: corrected
-  notes: Confirmed the grant amount, planned services, 9–0 vote, licensing requirement, 2027 target, and current status. Corrected the credit for this routine Finance Department budget item.
+    date: 2026-11-23
+  verdict: pass
+  notes: Confirmed the grant amount, 9–0 vote, planned services and locations, licensing requirement, 2027 target, Bodek’s chairmanship and party, and the lack of a later cancellation or launch. The credit and current phasing-in status are supported.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 

@@ -21,9 +21,9 @@ impact:
     label: for Wythe Creek Road, Commander Shepard Blvd. to the Back River bridge
 status:
   state: phasing-in
-  as_of: 2024-06-28
-  note: VDOT's 2024 locally administered-project list scheduled all six projects for a June 28, 2024 construction start. We couldn't find a public record through Nov. 18, 2026 showing that all six stretches were completed.
-  source: https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/for-localities/funding-programs/rural-rustic-roads/CY24BaselineCommitmentsList_acc012224_PM.pdf
+  as_of: 2026-11-17
+  note: VDOT's project FAQ puts the final milling and overlay of Wythe Creek Road in the third construction phase. A VDOT presentation published with Hampton's Nov. 17, 2026 meeting materials lists the project as under construction, with completion expected in spring 2028.
+  source: https://www.hampton.gov/AgendaCenter/ViewFile/Agenda/_11172026-3560
 credit:
   - official: donnie-tuck
     role: led
@@ -67,6 +67,10 @@ sources:
   - title: Calendar Year 2024 LAP Baseline Commitments List
     publisher: Virginia Department of Transportation
     url: https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/for-localities/funding-programs/rural-rustic-roads/CY24BaselineCommitmentsList_acc012224_PM.pdf
+  - title: Wythe Creek Road (Route 172) widening project FAQ
+    publisher: Virginia Department of Transportation
+    url: https://www.vdot.virginia.gov/media/vdotvirginiagov/projects/hampton-roads/wythe-creek-road-route-172-widening-project/WytheCreekWideningProject-FAQ_acc07222024_PM.pdf
+    date: 2024-07-23
 featured: false
 verification:
   writer:
@@ -76,9 +80,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
-  verdict: pass
-  notes: Confirmed the allocation, project limits, funding source, council vote, credit, and VDOT schedule against official records. No later public record establishes completion, cancellation, or deallocation, so the cautious phasing-in status remains supported.
+    date: 2026-11-23
+  verdict: corrected
+  notes: Confirmed the allocation, road limits, vote, funding, credit, and net impact. Updated the status with newer official evidence showing the Wythe Creek resurfacing remains part of an active construction project.
 source_key: hampton-23-0289
 ---
 
