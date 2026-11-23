@@ -26,6 +26,15 @@ status:
   note: The executed grant agreement allows eligible project costs through June 30, 2030. As of Aug. 5, 2026, bidding had closed but the design-build contract had not been awarded; the procurement listing showed construction starting in February 2027. The city's latest completion estimate was December 2029. No newer public status was found.
   source: https://projects.constructconnect.com/details/7425693-rfp-d-b-canoe-run-park-storage-tank-project&find_loc=virginia-23225
 credit:
+  - official: betsy-carr
+    role: championed
+    note: Chief patron of House budget amendments in 2024 and 2025 seeking additional state support for Richmond's sewer overflow work
+  - official: ghazala-hashmi
+    role: championed
+    note: Chief patron of a 2024 Senate budget amendment seeking $100 million in each year for Richmond's sewer overflow work
+  - official: lamont-bagby
+    role: cosponsored
+    note: Co-patron of the 2024 Senate budget amendment for Richmond's sewer overflow work
   - official: glenn-youngkin
     role: proposed
     note: Proposed the two $50 million appropriations that made $100 million available for Richmond's sewer overflow project
@@ -52,6 +61,15 @@ sources:
   - title: 2024 Budget Bill as introduced, HB 30, Item 365 (Department of Environmental Quality)
     publisher: Virginia Legislative Information System
     url: https://budget.lis.virginia.gov/item/2024/1/HB30/Introduced/1/365/
+  - title: Additional Support for Richmond CSO Project, 2024 HB 30 Item 365
+    publisher: Virginia Legislative Information System
+    url: https://budget.lis.virginia.gov/amendment/2024/1/HB30/Introduced/MR/365/1h/
+  - title: City of Richmond CSO Project, 2024 SB 30 Item 365
+    publisher: Virginia Legislative Information System
+    url: https://budget.lis.virginia.gov/amendment/2024/1/SB30/Introduced/MR/365/1s/
+  - title: Increase Support for Richmond CSO Project, 2025 HB 1600 Item 365
+    publisher: Virginia Legislative Information System
+    url: https://budget.lis.virginia.gov/amendment/2025/1/HB1600/Introduced/MR/365/2h/
   - title: Governor Youngkin's Proposed Amendments to the 2024-2026 Biennium
     publisher: Virginia Department of Planning and Budget
     url: https://sfac.virginia.gov/pdf/committee_meeting_presentations/2024/Jt%20Money%20Mtg%20December/12182024_No2_DPB%20Director%20Presentation%202025.pdf
@@ -81,14 +99,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: pass
-  notes: Confirmed the appropriations, grant agreement, project figures, credits, and 9–0 council vote. The latest public evidence still shows the project post-bid but unawarded as of Aug. 5, 2026; no newer award, cancellation, or funding loss was found.
+    date: 2026-11-22
+  verdict: corrected
+  notes: Confirmed the grant, ordinance, tank figures, 9–0 vote, project budget, and latest public procurement status. Added the named legislators who formally championed Richmond’s sewer funding before the credited legislative body.
 source_key: richmond-ord-2025-223
 ---
 
 In much of Richmond, sewage and rainwater run through the same pipes. When a heavy storm fills those pipes, the extra water, sewage included, spills into the James River. The city estimates the Canoe Run Park outfall has about 37 overflow events in an average year. A planned 6-million-gallon tank under the park will hold that flow until the wastewater treatment plant can take it, cutting the projected average to about 10 overflows a year.
 
-You don't need to apply for anything. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The state grant covers $100 million of the city's estimated $135.81 million project budget; the grant agreement leaves the remaining costs to Richmond. Then-Gov. Glenn Youngkin proposed one $50 million appropriation in his 2024–2026 budget and another in his 2025 amendments; the General Assembly enacted both. Mayor Danny Avula was patron of the ordinance accepting the grant. Council President Cynthia Newbille led the City Council when it adopted the ordinance on October 14, 2025.
+You don't need to apply for anything. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The state grant covers $100 million of the city's estimated $135.81 million project budget; the grant agreement leaves the remaining costs to Richmond. Del. Betsy Carr sponsored House budget amendments in 2024 and 2025 seeking more state support for Richmond's sewer work. Sens. Ghazala Hashmi and Lamont Bagby carried a matching Senate request in 2024. Those larger requests were not enacted. Then-Gov. Glenn Youngkin proposed the two $50 million pieces that became the $100 million grant, and the General Assembly enacted them. Mayor Danny Avula was patron of the ordinance accepting the grant. Council President Cynthia Newbille led the City Council when it adopted the ordinance on October 14, 2025.
 
 The city developed its first long-term sewer-overflow plan in 1988, and a 2020 state law now requires completing the work by July 1, 2035. Bids for this tank closed in July 2026, but the design-build contract had not been awarded as of August 5. The park will be mostly closed during construction and restored afterward.

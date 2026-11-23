@@ -22,8 +22,8 @@ impact:
     label: local match required from the city
 status:
   state: phasing-in
-  as_of: 2026-02-11
-  note: Federal award data lists a City of Hampton DR-4512 elevation-project subaward dated Feb. 11, 2026, after the resolution's original grant period ended Aug. 5, 2025. No public completion record was found, so the project remains listed as phasing in as of that latest attributable activity.
+  as_of: 2025-02-03
+  note: Federal award data last identifies this project as subaward 14S, the City of Hampton W. Gilbert St. Elevation Project, updated Feb. 3, 2025. The resolution's grant period ran through Aug. 5, 2025; no public completion or cancellation record was found through Nov. 22, 2026, so phasing-in is the latest confirmed state.
   source: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
 credit:
   - official: donnie-tuck
@@ -44,10 +44,10 @@ sources:
     publisher: The White House, archived by The American Presidency Project
     url: https://www.presidency.ucsb.edu/documents/white-house-press-release-biden-administration-commits-historic-346-billion-hazard
     date: 2021-08-05
-  - title: Project Grant 4512DRVAP00000005 and Hampton elevation-project subawards
+  - title: Project Grant 4512DRVAP00000005, subaward 14S
     publisher: GovTribe, using USAspending.gov data
     url: https://govtribe.com/award/federal-grant-award/project-grant-4512drvap00000005
-    date: 2026-02-11
+    date: 2025-02-03
 featured: false
 verification:
   writer:
@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
+    date: 2026-11-22
   verdict: corrected
-  notes: Confirmed the resolution, funding split, homeowner costs, council action, and credit. Updated the status to the latest attributable federal record; no public completion record was found through Nov. 20, 2026.
+  notes: Confirmed the resolution, funding split, homeowner costs, council action, and credit. Corrected the status evidence to the project-specific subaward and found no later public completion or cancellation record.
 source_key: hampton-24-0158
 ---
 
@@ -67,4 +67,4 @@ Hampton accepted federal and state funding to raise flood-prone homes above expe
 
 The initial project budget was $2,730,945. FEMA initially committed $2,470,855: $2,340,810 for the project and $130,045 for the city's management costs. Virginia's Department of Emergency Management added $260,090. The resolution required no local cash or in-kind match from the city. That does not mean participating homeowners face no costs: Hampton says they may still have to pay for pre-existing damage, some code-related work, and temporary relocation. The award covers properties Hampton had already included in its application, rather than opening a new application round.
 
-The money comes from FEMA's Hazard Mitigation Grant Program. In August 2021, President Joe Biden approved nationwide mitigation funding tied to COVID-19 disaster declarations, including funding for Virginia under DR-4512. Hampton later received this specific award through Virginia, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024. The federal award record lists a City of Hampton DR-4512 elevation-project subaward dated February 11, 2026, after the resolution's original grant period ended August 5, 2025. We found no public completion record through November 20, 2026.
+The money comes from FEMA's Hazard Mitigation Grant Program. In August 2021, President Joe Biden approved nationwide mitigation funding tied to COVID-19 disaster declarations, including funding for Virginia under DR-4512. Hampton later received this specific award through Virginia, and the Hampton City Council accepted it and added it to the city budget on April 10, 2024. Federal award data last identifies the project as subaward 14S, the City of Hampton W. Gilbert Street Elevation Project, updated February 3, 2025. The resolution's original grant period ended August 5, 2025. We found no public completion or cancellation record through November 22, 2026.

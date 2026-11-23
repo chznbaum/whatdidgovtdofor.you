@@ -70462,10 +70462,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s2665": {
-  "decision": "promising",
-  "reason": "triage: Bans unauthorized third-party phone bill fees",
+  "decision": "drafted",
+  "reason": "The enacted law (Chapter 226 of 2020) makes third-party charges void on New Yorkers' landline and cable phone bills unless the customer agreed to them, and it is still in effect.",
+  "file": "src/content/entries/state/ny-phone-bill-cramming-ban.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s2719": {
   "decision": "promising",
@@ -70636,10 +70637,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2020-2049": {
-  "decision": "promising",
-  "reason": "triage: Protections for displaced hotel workers",
+  "decision": "drafted",
+  "reason": "Local Law 99 of 2020 gives NYC hotel workers enforceable job security when a hotel changes owners or operators, and guests the right to be warned about major service problems; it is still in effect and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-hotel-workers-keep-jobs-90-days-after-sale.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2020-2083": {
   "decision": "skip",
@@ -70918,10 +70920,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8617": {
-  "decision": "promising",
-  "reason": "triage: Signed law requiring pandemic plans protecting public workers",
+  "decision": "drafted",
+  "reason": "This is an enacted law, Chapter 168 of 2020, and it is still in effect. It gives public workers across New York, the state and local governments and public authorities, a written plan to keep them safe in an epidemic. The plan has to cover protective gear for each shift, remote work, staggered shifts and a union review. The existing HERO Act entry covers private employers only, so this isn't a duplicate.",
+  "file": "src/content/entries/state/ny-public-workers-epidemic-safety-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-1091": {
   "decision": "skip",
@@ -71038,10 +71041,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a7812": {
-  "decision": "promising",
-  "reason": "triage: Allows public places to stock naloxone; saves lives",
+  "decision": "drafted",
+  "reason": "This enacted, unanimously passed 2020 law lets restaurants, bars, stores, hotels and other public venues keep naloxone, the overdose-reversal drug, and protects them and their workers from liability when they use it. It is still in effect in current Public Health Law § 3309, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-businesses-can-stock-naloxone.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a7915": {
   "decision": "skip",
@@ -71134,10 +71138,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8370": {
-  "decision": "promising",
-  "reason": "triage: Voters can fix absentee ballot defects; basic right",
+  "decision": "drafted",
+  "reason": "Chapter 141 of 2020 became law. It requires New York boards of elections to tell absentee voters about fixable envelope mistakes and give them time to fix them so their ballots count. The process is still in Election Law § 9-209, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-fix-absentee-ballot-signature-mistakes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8796": {
   "decision": "skip",
@@ -71152,10 +71157,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8015": {
-  "decision": "promising",
-  "reason": "triage: Pandemic counts as illness for absentee voting; voting access",
+  "decision": "drafted",
+  "reason": "An enacted law that let any New Yorker vote absentee during the pandemic if voting in person risked catching or spreading disease. It was extended once and lapsed at the end of 2022. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-covid-risk-absentee-voting-2020.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8799": {
   "decision": "skip",
@@ -71188,10 +71194,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0721": {
-  "decision": "promising",
-  "reason": "triage: Enacted right to record police; a protected right",
+  "decision": "drafted",
+  "reason": "Local Law 67 of 2020 makes your right to record NYC police a city law and lets you sue when officers violate it. It is a concrete rights protection, no existing entry covers it, and it is still in effect, though a 2026 court ruling says it doesn't reach police station lobbies.",
+  "file": "src/content/entries/local/nyc-right-to-record-police.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0760": {
   "decision": "skip",
@@ -71333,10 +71340,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8113": {
-  "decision": "promising",
-  "reason": "triage: Enacted utility shutoff moratorium during emergencies; protects households",
+  "decision": "drafted",
+  "reason": "Chapter 108 of 2020 was the enacted law that first barred New York utilities from shutting off residential water, power, gas and phone service over unpaid bills during the COVID emergency. The existing entry covers only the separate 2021 law that extended it.",
+  "file": "src/content/entries/state/ny-covid-utility-shutoff-ban-2020.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8181": {
   "decision": "skip",
@@ -71388,10 +71396,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8397": {
-  "decision": "promising",
-  "reason": "triage: Health workers protected from retaliation for complaints; rights protection",
+  "decision": "drafted",
+  "reason": "Chapter 117 of 2020 is an enacted law and still in effect. It protects New York health care workers from retaliation when they raise workplace safety violations, including in news or social media. No existing entry covers it; the 2021 Section 740 expansion is a separate law.",
+  "file": "src/content/entries/state/ny-health-workers-can-blow-the-whistle-on-unsafe-work.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8400": {
   "decision": "skip",
@@ -71430,10 +71439,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8416": {
-  "decision": "promising",
-  "reason": "triage: Telehealth reimbursement for audio-only visits; broad access, check scope",
+  "decision": "drafted",
+  "reason": "This enacted 2020 law (Chapter 124) let New York Medicaid and Child Health Plus pay for telehealth visits by phone only, and the state's Medicaid program still covers audio-only telehealth in 2026.",
+  "file": "src/content/entries/state/ny-medicaid-covers-telehealth-by-phone.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8419": {
   "decision": "drafted",
@@ -71485,10 +71495,10 @@
   "date": "2026-11-11"
  },
  "us-law-116-144": {
-  "decision": "promising",
-  "reason": "triage: Authorizes VA medical facility projects; funded construction for veterans",
+  "decision": "skip",
+  "reason": "Pub. L. 116-144 only authorizes Congress to fund seven VA construction projects later ($2.27 billion total: Louisville, Manhattan flood recovery, San Juan, and four in California); it appropriates nothing, so whatever people got came from separate appropriations acts that should be credited, not this procedural authorization.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a10608": {
   "decision": "skip",
@@ -71503,16 +71513,18 @@
   "date": "2026-11-11"
  },
  "ny-2019-s6601": {
-  "decision": "promising",
-  "reason": "triage: Duty to give medical care to people in custody; safety right",
+  "decision": "drafted",
+  "reason": "This 2020 New York law, Chapter 103, gives every person under arrest or in police custody an enforceable right to medical and mental health care, including the right to sue. No existing entry covers it, and the law is still in effect unchanged.",
+  "file": "src/content/entries/state/ny-police-must-get-medical-care-for-people-in-custody.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s3253": {
-  "decision": "promising",
-  "reason": "triage: Right to record police; a clear civil right",
+  "decision": "drafted",
+  "reason": "The New Yorker's Right to Monitor Act (Ch. 100 of 2020) puts a right to record police into state law and lets you sue an officer who interferes. It still stands, and it's statewide, so it doesn't duplicate the existing NYC-only right-to-record entry.",
+  "file": "src/content/entries/state/ny-right-to-record-police.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8245": {
   "decision": "skip",
@@ -71521,16 +71533,18 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8275": {
-  "decision": "promising",
-  "reason": "triage: Unemployment benefits not forfeited during emergency; money for jobless",
+  "decision": "drafted",
+  "reason": "Chapter 97 of 2020 suspended forfeit-day penalties from past claims for the length of New York's COVID emergency, so laid-off workers who were otherwise eligible could collect unemployment. It expired when the emergency ended in June 2021.",
+  "file": "src/content/entries/state/ny-covid-unemployment-forfeit-penalties-suspended.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8415": {
-  "decision": "promising",
-  "reason": "triage: Repeals loitering crime; rights gain",
+  "decision": "drafted",
+  "reason": "Chapter 98 of 2020 repealed New York's 1845 law that made it a crime for masked people to gather in public, so people can't be jailed for covering their faces. The law was signed and remains in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-wearing-a-mask-in-public-no-longer-a-crime.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a1531": {
   "decision": "skip",
@@ -71539,10 +71553,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a6144": {
-  "decision": "promising",
-  "reason": "triage: Criminalizes police chokeholds causing injury; safety protection",
+  "decision": "drafted",
+  "reason": "The Eric Garner Anti-Chokehold Act is a signed state law that makes it a felony for police or peace officers anywhere in New York to seriously injure or kill someone with a chokehold. It protects people's safety and rights, and no existing entry covers it: the NYC council's chokehold law is a separate local action.",
+  "file": "src/content/entries/state/ny-police-chokeholds-that-injure-or-kill-are-a-felony.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s2574": {
   "decision": "promising",
@@ -71551,22 +71566,25 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8496": {
-  "decision": "promising",
-  "reason": "triage: Repeals 50-a, opening police disciplinary records; transparency right",
+  "decision": "drafted",
+  "reason": "The law repealed Section 50-a, which had kept police misconduct and discipline records secret since 1976. Anyone can now request those records under the state's public records law, so this is a concrete public right that is in effect. New York's highest court upheld it in 2025, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-police-misconduct-records-open-to-public.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a6163": {
-  "decision": "promising",
-  "reason": "triage: enacted back-seat belt requirement, safety",
+  "decision": "drafted",
+  "reason": "Enacted safety law (Ch. 136 of 2020) that extended New York's seat belt requirement to back-seat riders 16 and older, a group AAA data show die at twice the rate when unbelted; it remains in effect.",
+  "file": "src/content/entries/state/ny-back-seat-riders-must-buckle-up.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a7331": {
-  "decision": "promising",
-  "reason": "triage: housing rights for assistance animals",
+  "decision": "drafted",
+  "reason": "A signed 2020 law (Ch. 137) that puts in New York's Human Rights Law a disabled person's right to keep an animal that eases their symptoms in housing covered by that law, even where a no-pets rule applies. No existing entry covers it.",
+  "file": "src/content/entries/state/ny-support-animals-despite-no-pets-rules.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s6252": {
   "decision": "skip",
@@ -71587,10 +71605,11 @@
   "date": "2026-11-11"
  },
  "us-law-116-154": {
-  "decision": "promising",
-  "reason": "triage: expands adapted-housing grants for disabled veterans",
+  "decision": "drafted",
+  "reason": "An enacted law that raised and broadened VA grants used to make homes accessible for severely disabled veterans. It's still in effect, and no existing entry covers it.",
+  "file": "src/content/entries/federal/disabled-veterans-adapted-home-grants-expanded.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-155": {
   "decision": "skip",
@@ -71617,10 +71636,11 @@
   "date": "2026-11-11"
  },
  "us-law-116-152": {
-  "decision": "promising",
-  "reason": "triage: funds park and public land repairs, paid from energy revenue",
+  "decision": "drafted",
+  "reason": "The Great American Outdoors Act paid for repairs to roads, trails, campgrounds and water systems on public lands, and it made the Land and Water Conservation Fund's park money permanent, all paid for with federal energy revenue rather than service cuts; the repair fund expired after fiscal 2025.",
+  "file": "src/content/entries/federal/public-lands-repair-fund-and-permanent-park-money.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a2655": {
   "decision": "skip",
@@ -71689,10 +71709,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1264": {
-  "decision": "promising",
-  "reason": "triage: legalizes e-bikes, ends ticketing of riders and delivery workers",
+  "decision": "drafted",
+  "reason": "Local Law 73 of 2020 made the e-bikes that state law allows legal under city law too. That ended years of $500 fines and impoundments that fell mostly on immigrant food-delivery workers, and the law is still in effect.",
+  "file": "src/content/entries/local/nyc-e-bikes-legal-to-ride.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-1266": {
   "decision": "skip",
@@ -71719,10 +71740,10 @@
   "date": "2026-11-11"
  },
  "us-eo-13937": {
-  "decision": "promising",
-  "reason": "triage: orders cheaper insulin and epinephrine at health centers for low-income patients",
+  "decision": "skip",
+  "reason": "E.O. 13937 only told HHS to write a rule, and the rule HRSA issued in December 2020 was delayed and then rescinded (final rescission published Oct. 1, 2021, effective Nov. 1, 2021), so no source shows anyone actually got cheaper insulin or epinephrine from it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-eo-13938": {
   "decision": "skip",
@@ -71767,10 +71788,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0536": {
-  "decision": "promising",
-  "reason": "triage: enacted chokehold ban, safety and rights",
+  "decision": "drafted",
+  "reason": "Local Law 66 of 2020 makes it a misdemeanor to choke someone or compress their diaphragm during an arrest in NYC. That is an enacted protection from police violence, and the state's highest court upheld it unanimously in 2023, so it is in effect today.",
+  "file": "src/content/entries/local/nyc-chokeholds-and-chest-compression-banned-in-arrests.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-eo-13921": {
   "decision": "skip",
@@ -71809,16 +71831,18 @@
   "date": "2026-11-11"
  },
  "us-law-116-140": {
-  "decision": "promising",
-  "reason": "triage: Enacted: student veterans keep benefits during COVID",
+  "decision": "drafted",
+  "reason": "An enacted, bipartisan law that kept GI Bill housing, work-study and job-training pay going for student veterans when COVID-19 closed their schools. No existing entry covers it. Its COVID authorities ran out on June 1, 2022.",
+  "file": "src/content/entries/federal/gi-bill-pay-continued-during-covid-school-closures.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-139": {
-  "decision": "promising",
-  "reason": "triage: Enacted PPP funding and testing; business-heavy, writer checks cost",
+  "decision": "drafted",
+  "reason": "The April 2020 law put $25 billion of emergency money (not offset by service cuts) into COVID-19 testing, including at least $11 billion to states, localities, territories and tribes, which HHS paid out in May 2020; the entry covers the testing money, not the owner-heavy PPP loans.",
+  "file": "src/content/entries/federal/covid-testing-25-billion-2020.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-eo-13916": {
   "decision": "skip",
@@ -71911,16 +71935,18 @@
   "date": "2026-11-11"
  },
  "ny-2019-s8130": {
-  "decision": "promising",
-  "reason": "triage: Enacted: easier absentee ballot application, a voting right",
+  "decision": "drafted",
+  "reason": "Chapter 91 of 2020 was enacted. For the 2020 elections it let New Yorkers request absentee ballots online with no signature, and it counted ballots postmarked on Election Day. This was a temporary pandemic law, separate from the lasting 2021 online-application law (Chapter 746) that already has an entry.",
+  "file": "src/content/entries/state/ny-2020-online-absentee-ballot-requests.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s8189": {
-  "decision": "promising",
-  "reason": "triage: Enacted price-gouging ban on essential goods",
+  "decision": "drafted",
+  "reason": "Chapter 90 of 2020 extended New York's price gouging ban to medical supplies, PPE and other essential goods and services, protected hospitals, small businesses and the state as buyers, and raised the possible penalties. It is still in the law today, and it differs from the existing 2023 entry on drug shortages.",
+  "file": "src/content/entries/state/ny-no-price-gouging-on-medical-supplies-in-emergencies.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-142": {
   "decision": "skip",
@@ -72061,10 +72087,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s6940": {
-  "decision": "promising",
-  "reason": "triage: bans 1,4-dioxane in household products, safety",
+  "decision": "drafted",
+  "reason": "This enacted chapter amendment completes New York's law that limits 1,4-dioxane, a likely carcinogen, in household cleaners, personal care products and cosmetics. The limits are fully in force now that the last manufacturer waivers ran out in 2025.",
+  "file": "src/content/entries/state/ny-cleaners-and-shampoos-limit-likely-carcinogen-dioxane.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s6941": {
   "decision": "skip",
@@ -72073,10 +72100,10 @@
   "date": "2026-11-11"
  },
  "ny-2019-s6942": {
-  "decision": "promising",
-  "reason": "triage: equal pay protections for protected classes",
+  "decision": "skip",
+  "reason": "S6942 (Chapter 46 of 2020) is a chapter amendment to S6436 (Chapter 741 of 2019), which revises how that law's equal-pay protections for state civil servants apply; the site already covers that law as ny-2019-s6436, so this would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s6943": {
   "decision": "skip",
@@ -72187,10 +72214,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s7173": {
-  "decision": "promising",
-  "reason": "triage: obstetric hemorrhage protocols, maternal safety",
+  "decision": "drafted",
+  "reason": "This is the chapter amendment that completed a signed 2019 law, still in effect, requiring New York hospitals to adopt protocols for recognizing and treating obstetric hemorrhage, a leading cause of maternal deaths, so it directly protects people giving birth.",
+  "file": "src/content/entries/state/ny-hospitals-obstetric-hemorrhage-protocols.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s7175": {
   "decision": "skip",
@@ -72343,10 +72371,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0245": {
-  "decision": "promising",
-  "reason": "triage: tax lien sale exemptions can protect homeowners from losing homes; check",
+  "decision": "skip",
+  "reason": "Local Law 42 of 2020 keeps nonprofit-owned property out of NYC's tax lien sale and adds a nonprofit ombudsperson at the Department of Finance; it mainly helps nonprofit organizations as property owners, and no source shows a direct, tangible benefit to working people or how many were protected.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1440": {
   "decision": "skip",
@@ -72452,10 +72480,11 @@
   "date": "2026-11-11"
  },
  "us-law-116-128": {
-  "decision": "promising",
-  "reason": "triage: keeps veterans' GI Bill housing stipends during online classes",
+  "decision": "drafted",
+  "reason": "This 2020 law kept GI Bill students' housing stipends at the full in-person rate when COVID moved their classes online, which put money directly in veterans' pockets. It is separate from the April 2020 law (us-law-116-140), which covered schools that closed outright.",
+  "file": "src/content/entries/federal/gi-bill-housing-pay-kept-when-covid-moved-classes-online.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-127": {
   "decision": "drafted",
@@ -72592,10 +72621,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0971": {
-  "decision": "promising",
-  "reason": "triage: dangerous vehicle abatement program; safety, enacted",
+  "decision": "skip",
+  "reason": "Local Law 36 of 2020's Dangerous Vehicle Abatement Program expired on Oct. 26, 2023, and NYC DOT's own evaluation found it \"ineffective at meaningfully reducing unsafe driving\" (55% vs. 37% violation drop for a control group, only 12 cars seized), so no source supports a tangible benefit to claim.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0991": {
   "decision": "promising",
@@ -72604,10 +72633,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1281": {
-  "decision": "promising",
-  "reason": "triage: stores must accept cash; helps unbanked, enacted",
+  "decision": "skip",
+  "reason": "Duplicate: the existing entry nyc-rule-31891 (\"Pay cash at any NYC store or food seller, at the same price\") already covers NYC's ban on cashless stores, the benefit this law (Local Law 34 of 2020, Int. 1281-2018) created and that DCWP rule carries out, so the law's sponsors belong in that entry's credits rather than a second entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1408": {
   "decision": "skip",
@@ -72646,16 +72675,17 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0873": {
-  "decision": "promising",
-  "reason": "triage: Lead package: enacted law removing lead paint hazards in homes",
+  "decision": "drafted",
+  "reason": "Local Law 28 of 2020 is an enacted law with a direct effect on safety. It requires regular lead paint hazard surveys in schools, with results sent to parents, and makes HPD cite landlords who can't show they did the required lead work between tenants. No existing entry covers it.",
+  "file": "src/content/entries/local/nyc-schools-check-lead-paint-tell-parents.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0891": {
-  "decision": "promising",
-  "reason": "triage: Lead package: enacted lead poisoning prevention in dwellings",
+  "decision": "skip",
+  "reason": "Local Law 29 of 2020 (Int. 891-A) brought tenant-occupied one- and two-family homes under NYC's lead paint law, and the existing entry nyc-rule-childhood-lead-poisoning (\"NYC's lead paint law now protects tenants in one- and two-family homes\") already covers that impact through the Health Department rule that put this law into effect, so a second entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0904": {
   "decision": "skip",
@@ -72682,10 +72712,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s501": {
-  "decision": "promising",
-  "reason": "triage: toxic chemicals in kids' products; enacted safety law",
+  "decision": "drafted",
+  "reason": "An enacted New York law has banned the sale of children's products with intentionally added asbestos, benzene or the flame retardant TDCPP since Jan. 1, 2023, a direct safety protection for kids that DEC confirms is in effect.",
+  "file": "src/content/entries/state/ny-kids-products-free-of-asbestos-benzene.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5349": {
   "decision": "skip",
@@ -72700,10 +72731,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s4573": {
-  "decision": "promising",
-  "reason": "triage: shortens strikers' UI wait to 7 days; real gain for strikers",
+  "decision": "drafted",
+  "reason": "An enacted law that got striking New York workers unemployment pay weeks sooner, which directly helps workers. No existing entry covers it, and the change is still in effect: a 2025 law shortened the wait even more.",
+  "file": "src/content/entries/state/ny-strikers-unemployment-wait-cut-to-3-weeks.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s7310": {
   "decision": "skip",
@@ -72868,10 +72900,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a2904": {
-  "decision": "promising",
-  "reason": "triage: Ends prior authorization for addiction medications; direct access to treatment",
+  "decision": "drafted",
+  "reason": "Enacted law (Chapter 748 of 2019) that stops state-regulated private health plans from requiring prior authorization for buprenorphine, methadone and long-acting injectable naltrexone. It remains in current Insurance Law and doesn't duplicate the existing Medicaid entry (ny-2021-a2030).",
+  "file": "src/content/entries/state/ny-no-preapproval-for-addiction-medicine-on-private-plans.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s6293": {
   "decision": "skip",
@@ -72892,10 +72925,10 @@
   "date": "2026-11-11"
  },
  "us-law-116-104": {
-  "decision": "promising",
-  "reason": "triage: Reauthorizes rape kit DNA backlog grants; tangible safety/justice effect",
+  "decision": "skip",
+  "reason": "This 2019 law renewed the Debbie Smith DNA backlog grants through FY2024, and the site already covers that same program in us-law-118-72, the 2024 renewal through 2029 that replaced this one, so a second entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-105": {
   "decision": "drafted",
@@ -73014,10 +73047,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a2850": {
-  "decision": "promising",
-  "reason": "triage: Hospitals must have domestic violence policies and services; real protection",
+  "decision": "drafted",
+  "reason": "Chapter 733 of 2019 (amended by Chapter 37 of 2020) is an enacted law in effect since Dec. 23, 2020. It requires every New York general hospital to have domestic violence policies, trained staff and a coordinator, and to offer victims an advocate, which directly serves people who come to a hospital after abuse.",
+  "file": "src/content/entries/state/ny-hospitals-must-offer-domestic-violence-advocate.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s1456": {
   "decision": "skip",
@@ -73050,10 +73084,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s439": {
-  "decision": "promising",
-  "reason": "triage: Limits PFAS in firefighting foam; safety and health",
+  "decision": "drafted",
+  "reason": "An enacted New York law that bans PFAS foam in firefighter training and, since March 22, 2022, its sale, protecting firefighters and drinking water; it doesn't duplicate the Cohoes incineration entry or the Florida entry.",
+  "file": "src/content/entries/state/ny-pfas-firefighting-foam-banned.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5160": {
   "decision": "promising",
@@ -73128,16 +73163,18 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0948": {
-  "decision": "promising",
-  "reason": "triage: heat inspections and sensors protect tenants",
+  "decision": "drafted",
+  "reason": "Local Law 18 of 2020 created NYC's heat sensor program. It requires owners of the 50 buildings with the worst heat records to put temperature sensors in each unit, and requires HPD to inspect those buildings without waiting for complaints. That is a direct housing protection for tenants. The existing entry covers the 2023 law that expanded the program, not this one, which created it.",
+  "file": "src/content/entries/local/nyc-heat-sensors-in-worst-heat-buildings.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-1211": {
-  "decision": "promising",
-  "reason": "triage: homeless set-asides in city-funded housing",
+  "decision": "drafted",
+  "reason": "Local Law 19 of 2020 is in force. It requires new city-financed NYC rental buildings with 41 or more units to set aside 15% of their income-restricted apartments for homeless households, which is a direct housing benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-homeless-set-aside-city-funded-rentals.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1380": {
   "decision": "skip",
@@ -73194,10 +73231,10 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-1249": {
-  "decision": "promising",
-  "reason": "triage: ends penalty program for taxi drivers",
+  "decision": "skip",
+  "reason": "Local Law 12 of 2020 mainly merged the TLC's Critical Driver Program into its Persistent Violator Program with the same 6- and 10-point thresholds, which is an administrative consolidation; its one benefit to drivers, no double penalty for the same violation, rests on a single TLC rule statement, and I couldn't open the law text, committee reports or vote record to check what changed in practice or whether other terms, like the once-in-five-years course credit, cut the other way.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1412": {
   "decision": "promising",
@@ -73284,10 +73321,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a4267": {
-  "decision": "promising",
-  "reason": "triage: domestic violence victims can end lease early; real protection",
+  "decision": "drafted",
+  "reason": "Chapter 694 of 2019, signed and still in effect, lets New York tenants fleeing domestic violence end a lease with written notice instead of a court order, which is a direct housing and safety benefit. It is a different law from the 2022 anti-discrimination law (ny-2021-s8417).",
+  "file": "src/content/entries/state/ny-domestic-violence-survivors-end-lease-early.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a4474": {
   "decision": "skip",
@@ -73500,10 +73538,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1362": {
-  "decision": "promising",
-  "reason": "triage: flavored vape ban plus cessation outreach",
+  "decision": "drafted",
+  "reason": "Local Law 228 of 2019 is an enacted health and safety law that keeps flavored vapes, which are built to draw in kids, off NYC store shelves and requires outreach on quit-smoking help; it costs working people nothing and duplicates no existing entry.",
+  "file": "src/content/entries/local/nyc-flavored-vapes-banned-from-sale.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0550": {
   "decision": "skip",
@@ -73638,10 +73677,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a453": {
-  "decision": "promising",
-  "reason": "triage: LLC members liable for unpaid wages",
+  "decision": "drafted",
+  "reason": "Chapter 620 of 2019 is an enacted law that lets New York workers hold the ten largest owners of an out-of-state LLC personally liable for wages the company never paid them, which directly protects workers' pay.",
+  "file": "src/content/entries/state/ny-out-of-state-llc-owners-liable-for-unpaid-wages.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a754": {
   "decision": "skip",
@@ -73788,10 +73828,11 @@
   "date": "2026-11-11"
  },
  "us-law-116-91": {
-  "decision": "promising",
-  "reason": "triage: Permanent college funding and Pell authorization; Pell only authorized, FAFSA data matching",
+  "decision": "drafted",
+  "reason": "The FUTURE Act made $255 million a year in funding for HBCUs, tribal colleges and other minority-serving colleges permanent after it had lapsed. It paid for that with savings from simplifying the FAFSA rather than service cuts, and the HBCU and tribal college funding still flows, though the Education Department has redirected the Hispanic-serving and other minority-serving colleges' shares.",
+  "file": "src/content/entries/federal/hbcus-and-tribal-colleges-get-permanent-federal-funding.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a117": {
   "decision": "promising",
@@ -73806,10 +73847,10 @@
   "date": "2026-11-11"
  },
  "ny-2019-s5079": {
-  "decision": "promising",
-  "reason": "triage: Zombie property remediation; protects neighborhoods, helps communities",
+  "decision": "skip",
+  "reason": "Chapter 682 of 2019 only lets cities, towns and villages sue lenders to finish foreclosures on vacant, abandoned homes, so any benefit to residents is indirect and no source documents one or shows the tool being used.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5864": {
   "decision": "skip",
@@ -73878,10 +73919,10 @@
   "date": "2026-11-11"
  },
  "ny-2019-a6962": {
-  "decision": "promising",
-  "reason": "triage: Hospital hemorrhage protocols improve maternal safety",
+  "decision": "skip",
+  "reason": "Duplicate: A6962A (Chapter 662 of 2019) is the original obstetric hemorrhage protocol law, and its chapter amendment S7173 (Chapter 75 of 2020) is already covered by the existing entry ny-2019-s7173, \"Hospitals must have a plan for dangerous bleeding at childbirth\".",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a7395": {
   "decision": "promising",
@@ -73890,10 +73931,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a7525": {
-  "decision": "promising",
-  "reason": "triage: Small claims limit raised to $10,000 in NYC; easier recovery of money",
+  "decision": "drafted",
+  "reason": "The enacted law (Ch. 664 of 2019) doubled what New Yorkers can claim in NYC small claims court, where people sue without a lawyer, and the law in force today still sets that $10,000 cap.",
+  "file": "src/content/entries/state/ny-nyc-small-claims-court-limit-10000.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a7647": {
   "decision": "skip",
@@ -73944,10 +73986,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s4351": {
-  "decision": "promising",
-  "reason": "triage: Free paint collection program paid by producers; convenience and safety",
+  "decision": "drafted",
+  "reason": "The enacted 2019 law created New York's paint collection program, which has been running since May 2022 at 392 free drop-off sites, so it is a working public service. A small per-container fee on new paint pays for it, and it takes collection costs off local governments.",
+  "file": "src/content/entries/state/ny-free-leftover-paint-drop-off.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s4876": {
   "decision": "skip",
@@ -74004,10 +74047,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s4865": {
-  "decision": "promising",
-  "reason": "triage: protects families' inherited homes from forced sales; real but niche",
+  "decision": "drafted",
+  "reason": "An enacted, signed law that still stands: it protects families who inherited a home or farm together from forced partition sales, including sales pushed by speculators who buy a small share, so it has a direct effect on working families' housing.",
+  "file": "src/content/entries/state/ny-inherited-family-homes-protected-from-forced-sales.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5157": {
   "decision": "skip",
@@ -74124,10 +74168,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1321": {
-  "decision": "promising",
-  "reason": "triage: prevailing wage for building service workers on city projects",
+  "decision": "drafted",
+  "reason": "Local Law 212 of 2019 is an enacted NYC labor standard, still in effect. It requires the Comptroller's prevailing wage and benefits for building service workers at large city-aided housing projects, which puts money directly in workers' pockets.",
+  "file": "src/content/entries/local/nyc-building-workers-prevailing-wage-city-aided-housing.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1559": {
   "decision": "promising",
@@ -74142,10 +74187,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a6188": {
-  "decision": "promising",
-  "reason": "triage: crime of harassing rent-regulated tenants; protects tenants",
+  "decision": "drafted",
+  "reason": "The 2019 law, a program bill from Attorney General Letitia James, made it a crime for a landlord to push out a rent-regulated tenant by making the home unsafe or unlivable, with no injury required. That gives tenants a real protection. The existing ny-2025-a10006 entry covers a separate 2026 law that added a further, aggravated crime on top of this one.",
+  "file": "src/content/entries/state/ny-landlord-harassment-of-rent-regulated-tenants-a-crime.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s4802": {
   "decision": "skip",
@@ -74160,10 +74206,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s4777": {
-  "decision": "promising",
-  "reason": "triage: nuisance call limits protect consumers from telemarketers",
+  "decision": "drafted",
+  "reason": "An enacted 2019 New York law (Ch. 572) gives every New Yorker the right to be put on a live telemarketer's do-not-call list and bars sellers from sharing your contact details without written consent; the current statute shows it is still in effect.",
+  "file": "src/content/entries/state/ny-live-telemarketers-must-offer-do-not-call-list.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1541": {
   "decision": "skip",
@@ -74238,10 +74285,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a3245": {
-  "decision": "promising",
-  "reason": "triage: bans slamming of energy suppliers, consumer protection",
+  "decision": "drafted",
+  "reason": "An enacted 2019 New York law makes it illegal for energy suppliers to switch a customer's gas or electric supplier without verified consent and lets the PSC fine violators. It is still in Public Service Law §65(16) today.",
+  "file": "src/content/entries/state/ny-energy-suppliers-cant-switch-you-without-consent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a4766": {
   "decision": "skip",
@@ -74532,10 +74580,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1574": {
-  "decision": "promising",
-  "reason": "triage: Commercial waste zones cut truck traffic and add worker/safety standards; check sources",
+  "decision": "drafted",
+  "reason": "Local Law 199 of 2019 replaced NYC's free-for-all private trash hauling with 20 zones that carry capped prices, required safety training and job protections for carting workers, and fewer diesel truck miles. Eight zones were fully running as of Sept. 1, 2026, and the rest are scheduled through 2027.",
+  "file": "src/content/entries/local/nyc-private-garbage-haulers-move-to-zones-with-safety-rules.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1557": {
   "decision": "skip",
@@ -74580,16 +74629,18 @@
   "date": "2026-11-11"
  },
  "ny-2019-s3419": {
-  "decision": "promising",
-  "reason": "triage: adoptees gain right to birth certificate; real right but is it for working people",
+  "decision": "drafted",
+  "reason": "An enacted, signed law (Chapter 491 of 2019) that gave adult adoptees a right they didn't have before: a copy of their original birth certificate without going to court. It's still in effect, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-adoptees-get-original-birth-certificate-at-18.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s45": {
-  "decision": "promising",
-  "reason": "triage: extends veterans benefits to LGBT veterans discharged other than honorably",
+  "decision": "drafted",
+  "reason": "New York's Restoration of Honor Act (Ch. 490 of 2019) is an enacted, still-operating law that opens state veterans' benefits to veterans given less-than-honorable discharges for being LGBTQ or because of PTSD, brain injury or military sexual trauma, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-lgbtq-and-ptsd-veterans-get-state-veterans-benefits.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a1093": {
   "decision": "promising",
@@ -74610,10 +74661,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s5328": {
-  "decision": "promising",
-  "reason": "triage: Insurers can't deny related services after pre-authorization",
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 640 of 2019, in effect since March 2020) that stops state-regulated health plans from refusing to pay for urgently needed related care given during an approved treatment just because no separate preapproval was obtained.",
+  "file": "src/content/entries/state/ny-urgent-care-during-approved-treatment-cant-be-denied-for-no-preapproval.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5372": {
   "decision": "skip",
@@ -74688,10 +74740,10 @@
   "date": "2026-11-11"
  },
  "ny-2019-s4389": {
-  "decision": "promising",
-  "reason": "triage: Bans 1,4-dioxane in household and personal care products",
+  "decision": "skip",
+  "reason": "The existing entry ny-2019-s6940 (\"Cleaners and shampoos sold in New York must be nearly free of a likely carcinogen\") already covers New York's 2019 law limiting 1,4-dioxane in household cleaners, cosmetics and personal care products, so this candidate would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s6184": {
   "decision": "skip",
@@ -75024,16 +75076,17 @@
   "date": "2026-11-11"
  },
  "nyc-int-2019-1553": {
-  "decision": "promising",
-  "reason": "triage: Bans unfinished ghost gun frames; safety, enacted",
+  "decision": "drafted",
+  "reason": "NYC Local Law 187 of 2019 is an enacted public-safety law that makes it a crime to have or hand over the unserialized parts used to build untraceable ghost guns, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-unfinished-ghost-gun-parts-banned.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2019-1682": {
-  "decision": "promising",
-  "reason": "triage: Conversion therapy ban protects LGBTQ residents' rights",
+  "decision": "skip",
+  "reason": "Int 1682-2019 (Local Law 188 of 2019) repealed NYC's conversion therapy ban rather than creating a benefit, so it is a rollback, not a win for working people, and harms are out of scope.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a111": {
   "decision": "skip",
@@ -75745,10 +75798,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a4781": {
-  "decision": "promising",
-  "reason": "triage: Pharmacies must notify patients of drug recalls; safety gain",
+  "decision": "drafted",
+  "reason": "This is an enacted, still-in-effect 2019 New York law (Ch. 379) that makes pharmacies try to warn patients within three days of the FDA's most serious drug recalls, a direct safety protection at no cost to working people.",
+  "file": "src/content/entries/state/ny-pharmacies-must-warn-you-of-dangerous-drug-recalls.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a264": {
   "decision": "drafted",
@@ -75782,10 +75836,11 @@
   "date": "2026-11-11"
  },
  "nyc-int-2018-0136": {
-  "decision": "promising",
-  "reason": "triage: Expands worker protections under human rights law",
+  "decision": "drafted",
+  "reason": "Local Law 172 of 2019 extended the NYC Human Rights Law's protections against discrimination, harassment and retaliation, and its accommodation rights, to freelancers and independent contractors. It's an enacted law that directly protects workers, it's still in effect, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-freelancers-protected-from-job-bias.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "nyc-int-2018-0560": {
   "decision": "skip",
@@ -75860,10 +75915,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s2387": {
-  "decision": "promising",
-  "reason": "triage: Menstrual product ingredient labeling; consumer safety",
+  "decision": "drafted",
+  "reason": "This enacted, signed law made New York the first state to require ingredient lists on tampons, pads and menstrual cups, which gives buyers information federal rules don't. It has no offsetting cost to working people, and it isn't a duplicate: the existing NY PFAS ban and the Virginia labeling law are separate actions.",
+  "file": "src/content/entries/state/ny-period-products-must-list-ingredients.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s3476": {
   "decision": "skip",
@@ -75938,10 +75994,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a230": {
-  "decision": "promising",
-  "reason": "triage: bans sale of patient health data without consent",
+  "decision": "drafted",
+  "reason": "This enacted law (Chapter 358 of 2019, still in effect) bars New York ambulance and advanced life support services from selling or using identifying patient information for marketing, which is a concrete privacy protection for anyone treated by an ambulance crew.",
+  "file": "src/content/entries/state/ny-ambulance-services-cant-sell-patient-info-for-marketing.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a7584": {
   "decision": "skip",
@@ -75950,10 +76007,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s1092": {
-  "decision": "promising",
-  "reason": "triage: bans unconsented pelvic exams on unconscious patients",
+  "decision": "drafted",
+  "reason": "This is an enacted New York law, in effect today, that protects patients' consent and bodily autonomy: providers can't do a pelvic exam on an anesthetized or unconscious patient without consent, outside narrow exceptions.",
+  "file": "src/content/entries/state/ny-pelvic-exams-under-anesthesia-need-your-consent.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a3366": {
   "decision": "promising",
@@ -76088,10 +76146,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-a2118": {
-  "decision": "promising",
-  "reason": "triage: disabled tenants can end leases when moving",
+  "decision": "drafted",
+  "reason": "Chapter 320 of 2019 gave New York tenants with disabilities an enforceable right to end a lease early to move in with family or into care or subsidized housing, and that right is still in Real Property Law §227-a.",
+  "file": "src/content/entries/state/ny-disabled-tenants-can-end-lease-to-move-to-care-or-family.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-a3629": {
   "decision": "skip",
@@ -76118,10 +76177,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s1089": {
-  "decision": "promising",
-  "reason": "triage: 529 savings don't reduce public assistance",
+  "decision": "drafted",
+  "reason": "This is an enacted law (Chapter 323 of 2019), and it still stands. Families on cash assistance can keep 529 college savings without those savings counting against the asset limit and costing them benefits.",
+  "file": "src/content/entries/state/ny-529-college-savings-dont-count-against-public-assistance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s2109": {
   "decision": "skip",
@@ -76154,10 +76214,11 @@
   "date": "2026-11-11"
  },
  "ny-2019-s5402": {
-  "decision": "promising",
-  "reason": "triage: ABLE savings don't reduce benefits",
+  "decision": "drafted",
+  "reason": "A signed 2019 law (Ch. 329) wrote into state law that NY ABLE disability savings don't count against public assistance, which protects disabled New Yorkers who save from losing cash aid; no existing entry covers it.",
+  "file": "src/content/entries/state/ny-able-disability-savings-dont-count-against-cash-assistance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "ny-2019-s5568": {
   "decision": "skip",
@@ -76220,10 +76281,10 @@
   "date": "2026-11-11"
  },
  "us-law-116-60": {
-  "decision": "promising",
-  "reason": "triage: reauthorizes autism research and support programs",
+  "decision": "skip",
+  "reason": "The law mainly renewed federal autism research, CDC data collection, an interagency coordinating committee and professional training grants through FY2024, so its main effect is on research and government programs, not a direct, tangible benefit to working people (and a 2024 renewal has since replaced it).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-22"
  },
  "us-law-116-61": {
   "decision": "skip",
@@ -85842,10 +85903,10 @@
   "date": "2026-11-12"
  },
  "nyc-rule-31901": {
-  "decision": "promising",
-  "reason": "triage: Heat sensors in buildings with heat violations; tangible tenant protection",
+  "decision": "skip",
+  "reason": "This HPD rule only puts Local Law 18 of 2020's heat sensor program into effect, and that program is already on the site as nyc-int-2022-0434 (\"NYC puts heat sensors in 50 more cold buildings every year\"), so a new entry would duplicate it.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "nyc-rule-coib-rules-regarding-city-planning-commissioners": {
   "decision": "skip",
@@ -85860,10 +85921,11 @@
   "date": "2026-11-12"
  },
  "nyc-rule-31931": {
-  "decision": "promising",
-  "reason": "triage: Emergency food delivery for homebound food-insecure New Yorkers",
+  "decision": "drafted",
+  "reason": "The rule set up and kept running NYC's COVID food delivery program, which brought more than 65 million free meals to homebound New Yorkers in 2020 and paid out-of-work taxi drivers $40 million to deliver them; it was paid for mostly by FEMA, so the cost doesn't fall on working people, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-getfood-homebound-meal-delivery-2020.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "nyc-rule-temporary-food-distribution-program-permanent-rule": {
   "decision": "skip",
@@ -105744,10 +105806,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2020-145": {
-  "decision": "promising",
-  "reason": "triage: accepts $8.2M HUD housing and community funds",
+  "decision": "drafted",
+  "reason": "The ordinance accepted and budgeted $8.2 million in federal HUD grants for low-income housing, homeless help and housing for people living with HIV in Richmond's 2020–21 fiscal year, and no existing entry covers that year.",
+  "file": "src/content/entries/local/richmond-hud-housing-homeless-help-2020-21.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "richmond-ord-2020-146": {
   "decision": "skip",
@@ -105798,10 +105861,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0133": {
-  "decision": "promising",
-  "reason": "triage: funds homeless solutions program, appropriated",
+  "decision": "drafted",
+  "reason": "Hampton accepted a $1.06 million state and federal grant that paid for homeless shelters, rapid rehousing and prevention across six Peninsula localities in 2020–21; the existing entries cover other years and the separate COVID round.",
+  "file": "src/content/entries/local/hampton-peninsula-homeless-shelter-rehousing-2020-21.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0134": {
   "decision": "skip",
@@ -105882,10 +105946,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0200": {
-  "decision": "promising",
-  "reason": "triage: funds free summer meals for kids",
+  "decision": "drafted",
+  "reason": "Hampton City Council accepted $272,753.44 in USDA money for free meals for children during summer 2020. The entries already on the site cover 2021–2024 but not 2020, so this isn't a duplicate.",
+  "file": "src/content/entries/local/hampton-free-summer-meals-2020.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0202": {
   "decision": "skip",
@@ -106026,10 +106091,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0263": {
-  "decision": "promising",
-  "reason": "triage: bonds funding stormwater improvement projects",
+  "decision": "drafted",
+  "reason": "The resolution approved $12 million in bonds for three specific flood-storage projects in Hampton's Newmarket Creek watershed. The projects are now being built, so it's concrete infrastructure that protects residents from flooding.",
+  "file": "src/content/entries/local/hampton-newmarket-creek-flood-bonds.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0265": {
   "decision": "skip",
@@ -106086,10 +106152,10 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2020-169": {
-  "decision": "promising",
-  "reason": "triage: land acquisition amendment; Hull Street project already underway",
+  "decision": "skip",
+  "reason": "This ordinance only amends an earlier eminent-domain ordinance so the city can acquire more land and easements for the Hull Street Road project; it is a procedural property-acquisition step with no direct benefit of its own, and the project would be better covered by the action that funded or built it.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "richmond-ord-2020-173": {
   "decision": "skip",
@@ -106308,10 +106374,10 @@
   "date": "2026-11-12"
  },
  "hampton-20-0217": {
-  "decision": "promising",
-  "reason": "triage: Satellite early voting office established; voting access",
+  "decision": "skip",
+  "reason": "No page I could open confirms the 2020 satellite early-voting site actually ran (the pages that likely do returned 403); the council vote record isn't available; and the satellite no longer exists as such, because the registrar's main office later moved into the same building, so the core claim and its status can't be verified.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0218": {
   "decision": "skip",
@@ -106326,10 +106392,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0221": {
-  "decision": "promising",
-  "reason": "triage: Funds emergency shelter and rapid re-housing for homeless",
+  "decision": "drafted",
+  "reason": "Hampton City Council took in $800,000 in federal and state COVID money for emergency shelter and rapid rehousing across the six-locality Peninsula homelessness region, with no local match. No existing entry covers this pandemic grant, which is separate from the yearly homelessness grants already on the site.",
+  "file": "src/content/entries/local/hampton-covid-homeless-shelter-rehousing-2020.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0225": {
   "decision": "skip",
@@ -106386,16 +106453,17 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2020-163": {
-  "decision": "promising",
-  "reason": "triage: Two satellite early voting sites; voting access",
+  "decision": "drafted",
+  "reason": "The 2020 ordinance created two satellite early-voting sites, at City Hall and Hickory Hill Community Center. That expanded voting access, and the city still lists both sites for general elections.",
+  "file": "src/content/entries/local/richmond-early-voting-city-hall-hickory-hill.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "richmond-ord-2020-164": {
-  "decision": "promising",
-  "reason": "triage: Accepts $6.2M HUD funds for housing and services projects",
+  "decision": "skip",
+  "reason": "Sources confirm Richmond took $6.18M in pandemic HUD money on Aug. 10, 2020, but the city documents that say who got it, what it paid for, and whether it was spent are PDFs the tool couldn't read, so the entry's specifics and status can't be confirmed.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "richmond-res-2020-r046": {
   "decision": "skip",
@@ -106770,10 +106838,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0121": {
-  "decision": "promising",
-  "reason": "triage: COVID tax relief for Hampton taxpayers, enacted; check cost and who benefits",
+  "decision": "drafted",
+  "reason": "Hampton's council voted 7-0 to let taxpayers who could show a COVID-related financial loss pay their June 5, 2020 real estate and car taxes by Aug. 1 with no penalty or interest, and paid for it with $500,000 from city reserves rather than service cuts.",
+  "file": "src/content/entries/local/hampton-covid-tax-deadline-extension-2020.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0122": {
   "decision": "skip",
@@ -108300,10 +108369,11 @@
   "date": "2026-11-12"
  },
  "hampton-20-0029": {
-  "decision": "promising",
-  "reason": "triage: funded contract to build public aquatics facility and splash park",
+  "decision": "drafted",
+  "reason": "Hampton City Council voted 7-0 to approve the design-build contract for a city-funded public aquatics center and splash park. The project replaced the pool the city lost when the Olde Hampton Community Center closed, and the Aquaplex is open and running in 2026.",
+  "file": "src/content/entries/local/hampton-aquaplex-public-pools-and-splash-park.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0030": {
   "decision": "skip",
@@ -108312,10 +108382,10 @@
   "date": "2026-11-12"
  },
  "hampton-20-0031": {
-  "decision": "promising",
-  "reason": "triage: new grant fund for stormwater/flood resilience on residential parcels",
+  "decision": "skip",
+  "reason": "The ordinance only creates the grant fund state law requires, a procedural step; the RAIN pilot it enabled was discontinued after its 2020 debut, according to a 2023 Virginia Cooperative Extension report, and I could not verify that any grants were paid or that the program runs now.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "hampton-20-0032": {
   "decision": "skip",
@@ -108522,10 +108592,11 @@
   "date": "2026-11-12"
  },
  "richmond-ord-2019-245": {
-  "decision": "promising",
-  "reason": "triage: Enacted cold-weather homeless shelter at 40 degrees",
+  "decision": "drafted",
+  "reason": "Mayor Stoney proposed the ordinance and the council adopted it. It opened a city building as an overnight shelter for homeless people on nights of 40°F or colder through April 15, 2020, and the city's notices show the shelter ran that winter. No existing entry covers the 2019–20 winter.",
+  "file": "src/content/entries/local/richmond-giles-center-cold-night-shelter-2019-20.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "richmond-ord-2019-255": {
   "decision": "skip",
@@ -121281,10 +121352,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1247-cu-2019-00017": {
-  "decision": "promising",
-  "reason": "triage: permit for new elementary school; 650 students",
+  "decision": "skip",
+  "reason": "The permit is a zoning step for the same new Goochland elementary school that the existing entry goochland-council-iqm2-1422-5602 (\"Goochland kids got a new elementary school after bids came in high\") already covers, so a separate entry would be a duplicate.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "goochland-council-iqm2-1247-granted-cup-for-new-elementary-school-on-tax-map-42-11-0-3-t": {
   "decision": "skip",
@@ -121401,10 +121472,11 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1296-3625": {
-  "decision": "promising",
-  "reason": "triage: CDBG grant for rent, utilities, food aid",
+  "decision": "drafted",
+  "reason": "On June 2, 2020, Goochland's board appropriated $216,110 in federal block grant money to Social Services so residents could get direct help with electricity, rent, mortgage and food costs. That is a tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/goochland-rent-power-food-help-2020.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "goochland-council-iqm2-1296-3626": {
   "decision": "skip",
@@ -121497,10 +121569,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1294-3558": {
-  "decision": "promising",
-  "reason": "triage: 30% vehicle tax relief; check state funding",
+  "decision": "skip",
+  "reason": "This is a routine yearly rate-setting step: Goochland sets its car-tax relief percentage so it uses up the fixed state reimbursement it gets under Virginia's 1998 Personal Property Tax Relief Act, so the 2020 resolution distributed existing state money rather than creating, expanding or protecting a benefit.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "goochland-council-iqm2-1294-3559": {
   "decision": "skip",
@@ -121539,10 +121611,10 @@
   "date": "2026-11-12"
  },
  "goochland-council-iqm2-1293-3587": {
-  "decision": "promising",
-  "reason": "triage: Suspended utility shut-offs and adoption fees",
+  "decision": "skip",
+  "reason": "The vote mostly ratified actions the county administrator had already taken, and the one real benefit (no county water/sewer shut-offs, in place since March 13, 2020) has no sourced figure or customer count, and nothing confirms when it ended.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-22"
  },
  "goochland-council-iqm2-1293-3590": {
   "decision": "promising",
@@ -203664,5 +203736,1259 @@
   "reason": "triage: Equipment purchase",
   "impact": 1,
   "date": "2026-11-20"
+ },
+ "hialeah-council-1431": {
+  "decision": "skip",
+  "reason": "split into 0 approved actions",
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6": {
+  "decision": "skip",
+  "reason": "split into 9 approved actions",
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes": {
+  "decision": "skip",
+  "reason": "split into 30 approved actions",
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941": {
+  "decision": "skip",
+  "reason": "split into 83 approved actions",
+  "date": "2026-11-22"
+ },
+ "ny-2025-s8904": {
+  "decision": "skip",
+  "reason": "triage: BOCES lease terms; government procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s8944": {
+  "decision": "skip",
+  "reason": "triage: Procedural plea rule, unclear worker effect",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9345": {
+  "decision": "skip",
+  "reason": "triage: One school district insurance fund; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9758": {
+  "decision": "skip",
+  "reason": "triage: Grand jury evidence procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9853": {
+  "decision": "skip",
+  "reason": "triage: Professional supervision ratio; minor",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9971": {
+  "decision": "skip",
+  "reason": "triage: Retroactive tax exemption for one congregation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9989": {
+  "decision": "skip",
+  "reason": "triage: Retroactive tax exemption for one organization",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s9997": {
+  "decision": "skip",
+  "reason": "triage: Supervision rule for PT assistants; technical",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "nyc-mayor-2026-11-el-alcalde-mamdani-presenta-el-primer-plan-integral-de-la-ciudad": {
+  "decision": "skip",
+  "reason": "triage: Plan to close Rikers; not enacted action",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-brings-health-care-directly-to-taxi-drivers-at-nyc": {
+  "decision": "promising",
+  "reason": "triage: Health care for taxi drivers at airports; may be a real service, writer checks",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-celebrates-15-projects-reimagining-new-york-city-s": {
+  "decision": "skip",
+  "reason": "triage: Celebration of public space projects; event",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-releases-city-s-first-comprehensive-plan-to-close": {
+  "decision": "skip",
+  "reason": "triage: Plan only, not enacted",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-news-126351": {
+  "decision": "skip",
+  "reason": "triage: Toy drive event",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-news-126352": {
+  "decision": "skip",
+  "reason": "triage: Adoption ceremony event",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-news-126363": {
+  "decision": "skip",
+  "reason": "triage: Adoption ceremony event (Spanish)",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "va-gov-1130065": {
+  "decision": "skip",
+  "reason": "triage: Framework/roadmap announcement, no enacted action",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "va-gov-1130075": {
+  "decision": "skip",
+  "reason": "triage: Awards announcement",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "va-gov-1130081": {
+  "decision": "skip",
+  "reason": "triage: Awards announcement",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "dekalb-county-2026-0151": {
+  "decision": "skip",
+  "reason": "triage: Single rezoning application",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "dekalb-county-2026-1260": {
+  "decision": "skip",
+  "reason": "triage: Zoning calendar; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "dekalb-county-2026-1265": {
+  "decision": "skip",
+  "reason": "triage: Freight company permit application",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "dekalb-county-2026-1266": {
+  "decision": "skip",
+  "reason": "triage: Office permit application",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "dekalb-county-2026-1268": {
+  "decision": "skip",
+  "reason": "triage: Church expansion permit",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "fl-eo-2026-233": {
+  "decision": "skip",
+  "reason": "triage: Emergency order amendment; administrative",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "fl-eo-2026-234": {
+  "decision": "skip",
+  "reason": "triage: Special election call",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "fl-eo-2026-235": {
+  "decision": "skip",
+  "reason": "triage: Stay of execution procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-fdn-26-65-c": {
+  "decision": "skip",
+  "reason": "triage: Single property review order",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-120": {
+  "decision": "skip",
+  "reason": "triage: Government power charter amendment",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-121": {
+  "decision": "skip",
+  "reason": "triage: Council staffing; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-122": {
+  "decision": "skip",
+  "reason": "triage: Council attendance; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-123": {
+  "decision": "skip",
+  "reason": "triage: Ordinance reading procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-124": {
+  "decision": "skip",
+  "reason": "triage: Term clarification; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-125": {
+  "decision": "skip",
+  "reason": "triage: Officer salary procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-126": {
+  "decision": "skip",
+  "reason": "triage: Oath wording cleanup",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-127": {
+  "decision": "skip",
+  "reason": "triage: Technical conformity to state law",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-128": {
+  "decision": "skip",
+  "reason": "triage: Obsolete role cleanup",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-129": {
+  "decision": "skip",
+  "reason": "triage: Initiative procedure conformity; only submits to voters",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-130": {
+  "decision": "skip",
+  "reason": "triage: Obsolete reference cleanup",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-131": {
+  "decision": "skip",
+  "reason": "triage: Obsolete reference cleanup",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-132": {
+  "decision": "skip",
+  "reason": "triage: Inspector General; only submits to voters, about government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "nyc-rule-violation-amount-for-the-failure-to-maintain-vacant-lots": {
+  "decision": "skip",
+  "reason": "triage: fine increase on lot owners; minor, no direct worker benefit",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "us-fr-2026-23777": {
+  "decision": "skip",
+  "reason": "triage: rule rolls back worker protections; contractor classification harms workers",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "us-fr-2026-23818": {
+  "decision": "skip",
+  "reason": "triage: postponement of animal rules; no worker effect",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "essex-county-news-18445": {
+  "decision": "skip",
+  "reason": "triage: meeting notice",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "metro-atlanta-news-anti-idling-at-schools": {
+  "decision": "skip",
+  "reason": "triage: awareness post, no enacted action",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "newport-news-news-2598": {
+  "decision": "skip",
+  "reason": "triage: pet adoption event",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "nj-pl2026-c107": {
+  "decision": "drafted",
+  "reason": "P.L.2026, c.107, signed Nov. 20, 2026, removes the time limit on lawsuits by human trafficking survivors and on prosecutions for trafficking and aggravated criminal sexual contact, which directly protects survivors' rights and safety, and no existing entry covers it.",
+  "file": "src/content/entries/state/nj-no-deadline-trafficking-cases.md",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "nj-pl2026-c108": {
+  "decision": "skip",
+  "reason": "triage: technical loan payment exemption",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "nj-pl2026-c109": {
+  "decision": "skip",
+  "reason": "triage: pretrial detention rule; unclear benefit, mainly criminal procedure",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "nj-pl2026-c110": {
+  "decision": "promising",
+  "reason": "triage: enacted outreach funding for working families tax credit; check size",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a10079": {
+  "decision": "skip",
+  "reason": "triage: advisory council membership; governance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a10218": {
+  "decision": "skip",
+  "reason": "triage: extends small-group insurance provisions; unclear worker effect",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a10267": {
+  "decision": "skip",
+  "reason": "triage: board rename; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a10679": {
+  "decision": "promising",
+  "reason": "triage: requires public home listings with seller disclosure; buyer access",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a10936": {
+  "decision": "skip",
+  "reason": "triage: technical definition",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a11296": {
+  "decision": "skip",
+  "reason": "triage: school district reserve fund; government finance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a11375": {
+  "decision": "skip",
+  "reason": "triage: civil service administration; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a11476": {
+  "decision": "skip",
+  "reason": "triage: county public works program scope; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a2330": {
+  "decision": "skip",
+  "reason": "triage: lobbying filing format; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a368": {
+  "decision": "skip",
+  "reason": "triage: paperwork acknowledgement requirement; minimal benefit",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a4382": {
+  "decision": "skip",
+  "reason": "triage: school board election procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a4384": {
+  "decision": "skip",
+  "reason": "triage: petition deadline; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a4591": {
+  "decision": "promising",
+  "reason": "triage: hospitals must inform patients of reconstruction options",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a463": {
+  "decision": "skip",
+  "reason": "triage: candidate disclosure posting; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a4840": {
+  "decision": "skip",
+  "reason": "triage: professional certification requirements",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a5383": {
+  "decision": "skip",
+  "reason": "triage: informational packets only",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a6029": {
+  "decision": "skip",
+  "reason": "triage: outreach information only",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a6744": {
+  "decision": "promising",
+  "reason": "triage: compact lets psychologists serve patients across states via telehealth",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a8388": {
+  "decision": "skip",
+  "reason": "triage: poll worker eligibility; election administration",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a8695": {
+  "decision": "skip",
+  "reason": "triage: jury procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a9183": {
+  "decision": "skip",
+  "reason": "triage: school district reserve fund; government finance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a9566": {
+  "decision": "skip",
+  "reason": "triage: licensing permit duration; professional",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a9609": {
+  "decision": "drafted",
+  "reason": "A signed law that lets New York workers get the disability-benefit paperwork they need from their own nurse practitioner instead of having to find a physician, a direct effect on people filing claims.",
+  "file": "src/content/entries/state/ny-nurse-practitioner-disability-claims.md",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "ny-2025-a98": {
+  "decision": "skip",
+  "reason": "triage: dental hygienist supervision rule",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s10134": {
+  "decision": "skip",
+  "reason": "triage: tax exemption for one congregation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s10264": {
+  "decision": "skip",
+  "reason": "triage: school district reserve fund; government finance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s10396": {
+  "decision": "skip",
+  "reason": "triage: school district reserve fund; government finance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s4692": {
+  "decision": "promising",
+  "reason": "triage: free menstrual products in private college bathrooms",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s6273": {
+  "decision": "skip",
+  "reason": "triage: study only",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "ny-2025-s8899": {
+  "decision": "skip",
+  "reason": "triage: clinician supervision rules; professional",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-133": {
+  "decision": "skip",
+  "reason": "triage: Comprehensive plan land use update; planning, no direct effect",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-134": {
+  "decision": "skip",
+  "reason": "triage: Comp plan housing section update; policy text, unclear effect",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-135": {
+  "decision": "skip",
+  "reason": "triage: Comp plan coastal section; planning document",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-136": {
+  "decision": "skip",
+  "reason": "triage: Capital improvements schedule; procedural planning",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-137": {
+  "decision": "skip",
+  "reason": "triage: Alcohol special use permit for one venue",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-138": {
+  "decision": "skip",
+  "reason": "triage: Alcohol special use permit for one venue",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-ordinance-no-2026-139": {
+  "decision": "skip",
+  "reason": "triage: Charter amendment on council budget powers; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1000": {
+  "decision": "drafted",
+  "reason": "Tampa City Council approved a three-year federal HOPWA agreement of up to $2,745,636. It pays Catholic Charities to help people living with HIV/AIDS and their families with rent. It's direct housing help, it isn't one of the other HOPWA agreements already on the site, and the minutes and agenda item back every claim.",
+  "file": "src/content/entries/local/tampa-catholic-charities-hiv-rent-help-2026.md",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1001": {
+  "decision": "promising",
+  "reason": "triage: HOPWA housing aid agreement funded, $505K",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1002": {
+  "decision": "promising",
+  "reason": "triage: HOPWA housing aid agreement funded, $735K",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1003": {
+  "decision": "skip",
+  "reason": "triage: $1.07M homeless survivor housing funds; likely duplicates existing hurricane homelessness entry",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1004": {
+  "decision": "skip",
+  "reason": "triage: Defense tech accelerator match; business development",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1005": {
+  "decision": "skip",
+  "reason": "triage: Donated land acceptance; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1006": {
+  "decision": "skip",
+  "reason": "triage: Private dock agreement benefits owner",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1007": {
+  "decision": "skip",
+  "reason": "triage: Private dock agreement benefits owner",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1008": {
+  "decision": "skip",
+  "reason": "triage: Private dock agreement benefits owner",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1009": {
+  "decision": "skip",
+  "reason": "triage: Sidewalk easement acceptance; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1010": {
+  "decision": "skip",
+  "reason": "triage: Private dock agreement benefits owner",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1011": {
+  "decision": "skip",
+  "reason": "triage: Encroachment agreement termination; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1012": {
+  "decision": "skip",
+  "reason": "triage: Utility easement; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1013": {
+  "decision": "skip",
+  "reason": "triage: Ditch mowing contract renewal; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1014": {
+  "decision": "skip",
+  "reason": "triage: Ditch mowing contract renewal; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1015": {
+  "decision": "skip",
+  "reason": "triage: Administrative consultant contract",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1016": {
+  "decision": "skip",
+  "reason": "triage: Engineering consultant agreement; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1017": {
+  "decision": "skip",
+  "reason": "triage: Sets a hearing only; possible rate change",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1018": {
+  "decision": "skip",
+  "reason": "triage: Sets a hearing only; possible rate change",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1019": {
+  "decision": "skip",
+  "reason": "triage: Sets a hearing only",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1020": {
+  "decision": "skip",
+  "reason": "triage: Sets a hearing on a report",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1021": {
+  "decision": "skip",
+  "reason": "triage: Opting out of tax exemption for 80-120% AMI housing; ambiguous, not a clear gain",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1022": {
+  "decision": "skip",
+  "reason": "triage: Software licensing renewal; government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-1023": {
+  "decision": "skip",
+  "reason": "triage: Notice of intent for data center moratorium; not yet enacted",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-962": {
+  "decision": "skip",
+  "reason": "triage: Police overtime grant; routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-963": {
+  "decision": "skip",
+  "reason": "triage: Budget appropriation for police grant",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-964": {
+  "decision": "skip",
+  "reason": "triage: Annual federal reporting; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-965": {
+  "decision": "skip",
+  "reason": "triage: Grant modification for fire station retrofit; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-966": {
+  "decision": "skip",
+  "reason": "triage: Budget transfer for fire station wind mitigation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-967": {
+  "decision": "skip",
+  "reason": "triage: Internal fund transfer for pier restoration",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-968": {
+  "decision": "skip",
+  "reason": "triage: Youth uniform donation; small",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-969": {
+  "decision": "skip",
+  "reason": "triage: Grant amendment; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-970": {
+  "decision": "skip",
+  "reason": "triage: Liens for mowing costs; harms side",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-703": {
+  "decision": "skip",
+  "reason": "triage: Routine software maintenance for government lab",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-704": {
+  "decision": "skip",
+  "reason": "triage: Routine contract amendment, administrative",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-705": {
+  "decision": "skip",
+  "reason": "triage: Surplus printer trade-in, government procedure",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-706": {
+  "decision": "skip",
+  "reason": "triage: Legal counsel contract, affects government itself",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-707": {
+  "decision": "skip",
+  "reason": "triage: Pass-through of library funds, minor administrative",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-ph-26-313": {
+  "decision": "skip",
+  "reason": "triage: budget adjustment for bond sale; procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-ph-26-314": {
+  "decision": "skip",
+  "reason": "triage: skyway hours exception for private applicant",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-consent-item-2": {
+  "decision": "skip",
+  "reason": "triage: power supply transfer between governments",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-consent-item-3": {
+  "decision": "skip",
+  "reason": "triage: design services only, no built effect yet",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-consent-item-4": {
+  "decision": "skip",
+  "reason": "triage: planning services, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-consent-item-5": {
+  "decision": "skip",
+  "reason": "triage: change order, routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-consent-item-6": {
+  "decision": "skip",
+  "reason": "triage: meeting schedule, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-item-11": {
+  "decision": "skip",
+  "reason": "triage: assignment agreement, unclear effect",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-item-8": {
+  "decision": "skip",
+  "reason": "triage: zoning text change, effect unclear",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-rzm2026-00007": {
+  "decision": "skip",
+  "reason": "triage: private developer rezoning",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "lawrenceville-council-meet-minutes-5516be9a5a684a17983adf6db5fd58a6-sb012-27": {
+  "decision": "skip",
+  "reason": "triage: arts center restoration contract",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "newark-26-1480": {
+  "decision": "skip",
+  "reason": "The resolution sells city land at 271-285 New Street to Foya Development Group for \"215 affordable and workforce housing units,\" but no source I could open gives the income limits, how many units are affordable versus workforce, or how long the restrictions last, so I can't confirm working people come out ahead or state who benefits.",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "newark-26-1535": {
+  "decision": "skip",
+  "reason": "triage: litigation settlement for one claimant",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "newark-26-1553": {
+  "decision": "skip",
+  "reason": "triage: land sale to a contractor business",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "newark-26-1581": {
+  "decision": "skip",
+  "reason": "triage: referral to planning board only, not enacted",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-678": {
+  "decision": "promising",
+  "reason": "triage: school-zone turn lane and 25 mph limit, small local safety",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-679": {
+  "decision": "skip",
+  "reason": "triage: contract cost reduction, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-680": {
+  "decision": "skip",
+  "reason": "triage: tiny materials contract extension",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-681": {
+  "decision": "promising",
+  "reason": "triage: grant to replace a structurally deficient culvert",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-682": {
+  "decision": "promising",
+  "reason": "triage: grant to replace three deficient culverts",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-683": {
+  "decision": "skip",
+  "reason": "triage: locksmith contract, government internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-684": {
+  "decision": "skip",
+  "reason": "triage: engineering contract add-on",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-685": {
+  "decision": "skip",
+  "reason": "triage: lumber supply contract, internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-686": {
+  "decision": "skip",
+  "reason": "triage: small respite spending plan increase, unclear",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-687": {
+  "decision": "skip",
+  "reason": "triage: one-month bus contract extension, routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-688": {
+  "decision": "skip",
+  "reason": "triage: change order raising cost of ice rink",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-689": {
+  "decision": "skip",
+  "reason": "triage: engineering add-on",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-690": {
+  "decision": "skip",
+  "reason": "triage: surplus firearm trade-in, internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-691": {
+  "decision": "skip",
+  "reason": "triage: dispatch software support, internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-692": {
+  "decision": "promising",
+  "reason": "triage: state grant accepted for addiction programs",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-693": {
+  "decision": "skip",
+  "reason": "triage: fund transfers, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-694": {
+  "decision": "promising",
+  "reason": "triage: contract paying for addiction services; pairs with state grant",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-695": {
+  "decision": "skip",
+  "reason": "triage: fund transfers, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-696": {
+  "decision": "promising",
+  "reason": "triage: up to $1M in kids recreation grants",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-697": {
+  "decision": "skip",
+  "reason": "triage: small greening grants",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-698": {
+  "decision": "promising",
+  "reason": "triage: warming center on Code Blue nights",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-699": {
+  "decision": "skip",
+  "reason": "triage: budget modification, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-700": {
+  "decision": "skip",
+  "reason": "triage: mapping grant, budget modification",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-701": {
+  "decision": "skip",
+  "reason": "triage: budget modification for settlement funds",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "union-county-council-oct-15-regular-meeting-minutes-2026-702": {
+  "decision": "skip",
+  "reason": "triage: small arts center donation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-971": {
+  "decision": "skip",
+  "reason": "triage: lien for mowing costs; enforcement",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-972": {
+  "decision": "skip",
+  "reason": "triage: lien for securing vacant structures",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-973": {
+  "decision": "skip",
+  "reason": "triage: internal budget transfer",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-974": {
+  "decision": "skip",
+  "reason": "triage: lien for mowing costs",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-975": {
+  "decision": "skip",
+  "reason": "triage: lien for mowing costs",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-976": {
+  "decision": "skip",
+  "reason": "triage: fund transfer between park projects",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-977": {
+  "decision": "skip",
+  "reason": "triage: final change order, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-978": {
+  "decision": "skip",
+  "reason": "triage: routine maintenance contract",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-979": {
+  "decision": "skip",
+  "reason": "triage: appropriation for routine riser maintenance",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-980": {
+  "decision": "promising",
+  "reason": "triage: funded street resurfacing in Ybor City",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-981": {
+  "decision": "skip",
+  "reason": "triage: routine hauling contract renewal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-982": {
+  "decision": "skip",
+  "reason": "triage: plant equipment purchase; indirect effect",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-983": {
+  "decision": "skip",
+  "reason": "triage: grounds maintenance contract",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-984": {
+  "decision": "skip",
+  "reason": "triage: city equipment purchase",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-985": {
+  "decision": "skip",
+  "reason": "triage: parts purchase, routine",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-986": {
+  "decision": "skip",
+  "reason": "triage: routine plant maintenance contract",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-987": {
+  "decision": "skip",
+  "reason": "triage: design consultant amendment",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-988": {
+  "decision": "skip",
+  "reason": "The resolution moves $47.47M between existing water and wastewater bond funds and projects, which is internal budget housekeeping with no new benefit for residents shown in the record, and Tampa's water main work is already covered by existing entries.",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-989": {
+  "decision": "skip",
+  "reason": "triage: council's own budget",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-990": {
+  "decision": "skip",
+  "reason": "triage: legal services for city lawsuits",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-991": {
+  "decision": "skip",
+  "reason": "triage: reimburses city office, government-internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-992": {
+  "decision": "skip",
+  "reason": "triage: companion appropriation, government-internal",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-993": {
+  "decision": "skip",
+  "reason": "triage: grant deadline extension",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-994": {
+  "decision": "skip",
+  "reason": "triage: small business grant program, narrow",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-995": {
+  "decision": "skip",
+  "reason": "triage: program income appropriation, administrative",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-996": {
+  "decision": "skip",
+  "reason": "triage: tiny program income appropriation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-997": {
+  "decision": "skip",
+  "reason": "triage: program income appropriation, administrative",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-998": {
+  "decision": "promising",
+  "reason": "triage: HOPWA housing help for people with AIDS",
+  "impact": 2,
+  "date": "2026-11-22"
+ },
+ "tampa-council-2941-resolution-no-2026-999": {
+  "decision": "drafted",
+  "reason": "The council approved a funded three-year HOPWA agreement that pays for housing and support services for people living with HIV/AIDS. It's a direct, tangible service, and it's a different agreement with a different provider from the existing Tampa HOPWA entries.",
+  "file": "src/content/entries/local/tampa-catholic-charities-hiv-housing-help.md",
+  "impact": 3,
+  "date": "2026-11-22"
+ },
+ "saint-paul-ord-26-53": {
+  "decision": "skip",
+  "reason": "triage: mobile saunas license; not a working-people benefit",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-ord-26-56": {
+  "decision": "skip",
+  "reason": "triage: sets garbage rates, likely cost increase",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1357": {
+  "decision": "skip",
+  "reason": "triage: donated bike racks, minor",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1758": {
+  "decision": "skip",
+  "reason": "triage: assessment process, charges owners",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1797": {
+  "decision": "skip",
+  "reason": "triage: assessment process, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1837": {
+  "decision": "skip",
+  "reason": "triage: loan forgiveness for commercial building",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1872": {
+  "decision": "skip",
+  "reason": "triage: developer-built site sidewalks permit",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1878": {
+  "decision": "skip",
+  "reason": "triage: staff conference donation",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1903": {
+  "decision": "skip",
+  "reason": "triage: loan amendment to a business",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-1921": {
+  "decision": "skip",
+  "reason": "triage: special election date, procedural",
+  "impact": 1,
+  "date": "2026-11-22"
+ },
+ "saint-paul-res-26-989": {
+  "decision": "promising",
+  "reason": "triage: state-funded ADA accessible crossings on Payne Avenue",
+  "impact": 2,
+  "date": "2026-11-22"
  }
 }

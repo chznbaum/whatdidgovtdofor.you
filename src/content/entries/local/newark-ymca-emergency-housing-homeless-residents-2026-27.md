@@ -19,9 +19,9 @@ impact:
     label: initially certified for services in April and May 2026
 status:
   state: in-effect
-  as_of: 2026-05-31
-  note: The resolution initially certified funding only through May 31, 2026. The remaining balance required later availability and appropriation, and no later appropriation specific to this contract was found as of November 17, 2026.
-  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&GUID=F0CFEB0A-E6F3-4859-8E9F-53A569663D69&ID=8031337&Options=&Search=
+  as_of: 2026-11-22
+  note: The original resolution certified only $484,950 for April and May. Newark's November temporary budget appropriated $1,083,333 for homeless shelters, and the YMCA still lists the shelter as operating, but the public records do not say how much of that later appropriation went to this contract.
+  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
 credit:
   - official: c-lawrence-crump
     role: led
@@ -67,6 +67,10 @@ sources:
     publisher: City of Newark Municipal Council (Legistar)
     url: https://newark.legistar.com/LegislationDetail.aspx?GUID=F53EFF4E-11BB-44A0-975B-3DDD1F049461&ID=6866282&Options=&Search=
     date: 2024-09-17
+  - title: November 2026 temporary budget extension
+    publisher: City of Newark Municipal Council (Legistar)
+    url: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
+    date: 2026-10-21
   - title: Emergency Shelter
     publisher: YMCA of Newark and Vicinity
     url: https://www.newarkymca.org/main/emergency-shelter/
@@ -79,9 +83,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: pass
-  notes: Confirmed the authorization, funding caveat, shelter intake process, council leadership, and 9–0 roll call. The shelter remains active, and no later amendment, cancellation, or contract-specific appropriation was found through November 20, 2026.
+    date: 2026-11-22
+  verdict: corrected
+  notes: Confirmed the contract terms, shelter intake process, council leadership, and 9–0 roll call. Updated the stale status metadata with November funding evidence while preserving the contract-specific funding caveat.
 source_key: newark-26-0494
 ---
 

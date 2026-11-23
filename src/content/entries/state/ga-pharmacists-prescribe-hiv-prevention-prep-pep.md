@@ -100,9 +100,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: corrected
-  notes: Confirmed the claims against the signed act, official vote records, DPH data, and Pharmacy Board minutes. Shortened the body to meet the content guide’s 250-word limit without changing its meaning.
+    date: 2026-11-22
+  verdict: pass
+  notes: Confirmed the claims against the signed act, official legislative records, DPH data, and Pharmacy Board minutes. The credits, three vote totals, implementation status, and impact figures check out.
 source_key: ga-20252026-sb195
 ---
 

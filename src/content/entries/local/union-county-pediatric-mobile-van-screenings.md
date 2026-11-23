@@ -24,9 +24,9 @@ status:
   note: On July 9, 2026, RWJBarnabas Health said the Union County unit was expected to launch in 2027. It must receive a New Jersey Department of Health license before regular stops begin.
   source: https://www.healthleadersmedia.com/cmo/how-rwjbarnabas-health-pairs-mobile-pediatric-clinics-state-funded-population-health-model
 credit:
-  - official: kimberly-palmieri-mouded
-    role: sponsored
-    note: Sponsored the resolution adding the van grant to the county budget
+  - official: joseph-bodek
+    role: led
+    note: Chaired the board that approved the budget modification on May 28, 2026
   - official: union-county-board-of-county-commissioners
     role: voted-yes
     note: Approved the grant 9-0 on May 28, 2026
@@ -66,14 +66,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-20
-  verdict: pass
-  notes: Confirmed the grant amount, resolution, 9–0 vote, attribution, services, licensing requirement, and planned 2027 launch. No later source showed that the Union County van launched, was cancelled, blocked, or lost funding.
+    date: 2026-11-22
+  verdict: corrected
+  notes: Confirmed the grant amount, planned services, 9–0 vote, licensing requirement, 2027 target, and current status. Corrected the credit for this routine Finance Department budget item.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 
 Union County is getting a pediatric health van that will bring children's care to their own neighborhoods. RWJBarnabas Health clinicians will staff it. They'll provide health screenings, physicals, vaccines, routine preventive care and health education. Stops are planned in Linden, Union Township, Rahway, Elizabeth, Plainfield and other towns, so families won't have to travel to a far-off office. To learn about county clinics and registration, call the Union County Office of Health Management at 908-965-3627.
 
-The money is a $1,479,806 grant from the New Jersey Department of Health. It reaches the county through RWJBarnabas Health. Commissioner Kimberly Palmieri-Mouded sponsored the resolution adding the grant to the county's 2026 budget, and on May 28, 2026, all nine commissioners voted for it. On June 10, Commissioner Chairman Joseph Bodek and RWJBarnabas Health announced the partnership. It follows a similar van that started running in Essex County that April.
+The money is a $1,479,806 grant from the New Jersey Department of Health. It reaches the county through RWJBarnabas Health. Chairman Joseph Bodek presided over the May 28 meeting where all nine commissioners voted to add the grant to the county's 2026 budget. On June 10, Bodek and RWJBarnabas Health announced the partnership. It follows a similar van that started running in Essex County that April.
 
 The van must receive a state health department license before it can begin regular stops. In July, RWJBarnabas Health said it expected the Union County unit to launch in 2027. Over the summer, RWJBarnabas and the state separately ran back-to-school clinics in Union and Essex counties, where children received school physicals and vaccines.
