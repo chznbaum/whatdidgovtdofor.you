@@ -83,9 +83,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the eight-home scope, funding split, homeowner process, council action and separate seven-home grant. Later searches found no project-specific completion, extension or cancellation record; the cautious 2024 status note remains accurate.
+  notes: Confirmed the eight-home scope, exact funding split and arithmetic, homeowner process, council roster and 7–0 vote, credit, separate seven-home grant, and cautious status language. Searches through Nov. 23, 2026 found no project-specific completion, extension, cancellation, or rollback report.
 source_key: hampton-24-0053
 ---
 

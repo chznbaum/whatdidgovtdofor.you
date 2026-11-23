@@ -48,9 +48,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the contract ceiling, initial $187,026 certification, dates, shelter claims, 9–0 council adoption, Crump’s role, and current status. No later contract-specific funding, amendment, cancellation, or replacement was found through November 22, 2026.
+  notes: Confirmed the authorization, funding limits, contract dates, shelter claims, unanimous 9–0 vote, Crump’s role and nonpartisan affiliation. No later contract-specific funding, amendment, cancellation or replacement was found through November 23, 2026.
 source_key: newark-26-0562
 ---
 

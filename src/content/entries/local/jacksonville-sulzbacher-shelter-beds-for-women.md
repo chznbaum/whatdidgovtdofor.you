@@ -75,9 +75,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
-  verdict: corrected
-  notes: Confirmed the funding, bed count, vote, sponsors, parties, and cautious rollout status. Added the JFRD chief required by the agency-credit rule and corrected the enacted ordinance number.
+    date: 2026-11-23
+  verdict: pass
+  notes: Confirmed the ordinance, funding breakdown, 32-bed plan, credits, parties, and 17–0 vote. A search through Nov. 23 found no reliable confirmation that the dorm has opened, so the cautious phasing-in status remains appropriate.
 source_key: jacksonville-2026-0542-e
 ---
 

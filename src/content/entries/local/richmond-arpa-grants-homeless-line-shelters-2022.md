@@ -88,9 +88,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the original and amended appropriations, five service amounts, patrons, unanimous nine-member vote, current program information, and latest action-specific spending evidence. No qualifying rollback or later recapture was found.
+  notes: Confirmed the original and amended appropriations, all five award amounts, patrons, unanimous nine-member vote, service descriptions, spending evidence, and funding source. No later recapture, repeal, court block, or other qualifying rollback was found.
 source_key: richmond-ord-2022-099
 ---
 

@@ -100,9 +100,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the claims against the signed act, official legislative records, DPH data, and Pharmacy Board minutes. The credits, three vote totals, implementation status, and impact figures check out.
+  notes: Confirmed the signed act, all three official vote totals, sponsor and carrier credits, the DPH diagnosis figure, and the implementation status. No later Pharmacy Board implementation update or repeal, court block, or cancellation was found.
 source_key: ga-20252026-sb195
 ---
 

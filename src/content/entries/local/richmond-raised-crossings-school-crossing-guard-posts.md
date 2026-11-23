@@ -20,20 +20,31 @@ impact:
 status:
   state: phasing-in
   as_of: 2025-12-09
-  note: The latest project-specific public record we found, approved by the Commonwealth Transportation Board on Dec. 9, 2025, described UPC 125534 as scheduled and showed $3,565,314 allocated to it. We found no later public record confirming construction or completion through Nov. 18, 2026.
+  note: The latest project-specific public record we found, approved by the Commonwealth Transportation Board on Dec. 9, 2025, described UPC 125534 as scheduled and showed $3,565,314 allocated to it. We found no later public record confirming construction or completion through Nov. 23, 2026.
   source: https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2025/12/res/1-fy2026-2031-six-year-improvement-program-transfers-2025-10-18-through-2025-11-14.pdf
 credit:
   - official: levar-stoney
     role: proposed
     note: Mayor at the time; his administration brought the ordinance to the council as its patron
+  - official: kristen-nye
+    role: led
+    note: Council president at the time; presided over the meeting that adopted it
   - official: richmond-city-council
     role: voted-yes
     note: Approved it unanimously along with two related VDOT safety agreements
 sources:
-  - title: ORD. 2024-289 legislation details and attached project agreement
+  - title: ORD. 2024-289 legislation details
     publisher: Richmond City Council (Legistar)
     url: https://richmondva.legistar.com/LegislationDetail.aspx?ID=7019707&GUID=999078A8-6A58-4DD5-9BF2-0F4F727DA361
     date: 2024-12-09
+  - title: December 9, 2024 formal meeting minutes
+    publisher: Richmond City Council
+    url: https://richmondva.legistar.com/View.ashx?GUID=11C2CF91-73A5-4FB8-944B-D6B379DA5EE8&ID=1117040&M=E1
+    date: 2024-12-09
+  - title: Richmond greenlights over $3.5 million in traffic improvement projects
+    publisher: Newsradio WRVA
+    url: https://www.audacy.com/newsradiowrva/news/local/richmond-greenlights-traffic-improvement-projects
+    date: 2024-12-10
   - title: Bicycle and pedestrian treatments
     publisher: Virginia Department of Transportation
     url: https://www.vdot.virginia.gov/doing-business/technical-guidance-and-support/transportation-and-mobility-planning/bicycle-and-pedestrian-accommodations/bicycle-and-pedestrian-treatments/
@@ -49,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
-  verdict: pass
-  notes: Confirmed the ordinance, project quantities, 8–0 vote, Stoney’s patronage, funding structure, and safety descriptions. Checked 2026 transportation records and found the project still listed, with no cancellation or completion record.
+    date: 2026-11-23
+  verdict: corrected
+  notes: Confirmed the ordinance, project quantities, funding structure, unanimous vote, safety descriptions, and scheduled status. Added the council president required by the credit rules and refreshed the supporting sources and status search date.
 source_key: richmond-ord-2024-289
 ---
 

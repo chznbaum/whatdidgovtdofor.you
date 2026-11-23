@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: pass
-  notes: Confirmed the 13-0 vote, reserve transfer, project scope, impact figures, beneficiaries, Dustin Hillis’s committee-chair role, and current status. No later completion, cancellation, repeal, or funding cut was found.
+  notes: Confirmed the 13–0 adoption, reserve transfer, project scope, impact figures, beneficiaries, and Dustin Hillis’s committee-chair role. A search through Nov. 23 found no completion, cancellation, funding cut, or court order affecting the upgrades.
 source_key: atlanta-council-4108-26-o-1413
 ---
 

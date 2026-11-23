@@ -99,14 +99,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-22
+    date: 2026-11-23
   verdict: corrected
-  notes: Confirmed the grant, ordinance, tank figures, 9–0 vote, project budget, and latest public procurement status. Added the named legislators who formally championed Richmond’s sewer funding before the credited legislative body.
+  notes: Confirmed the ordinance, grant, figures, credited roles, 9–0 adoption, and latest public procurement status. Trimmed the explainer from 263 to 244 words to meet the editorial limit.
 source_key: richmond-ord-2025-223
 ---
 
-In much of Richmond, sewage and rainwater run through the same pipes. When a heavy storm fills those pipes, the extra water, sewage included, spills into the James River. The city estimates the Canoe Run Park outfall has about 37 overflow events in an average year. A planned 6-million-gallon tank under the park will hold that flow until the wastewater treatment plant can take it, cutting the projected average to about 10 overflows a year.
+In much of Richmond, sewage and rainwater share pipes. Heavy storms can overwhelm them, spilling combined sewage into the James River. The city estimates the Canoe Run Park outfall has about 37 overflow events in an average year. A planned 6-million-gallon tank under the park will hold that flow until the wastewater treatment plant can take it, cutting the projected average to about 10 overflows a year.
 
-You don't need to apply for anything. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The state grant covers $100 million of the city's estimated $135.81 million project budget; the grant agreement leaves the remaining costs to Richmond. Del. Betsy Carr sponsored House budget amendments in 2024 and 2025 seeking more state support for Richmond's sewer work. Sens. Ghazala Hashmi and Lamont Bagby carried a matching Senate request in 2024. Those larger requests were not enacted. Then-Gov. Glenn Youngkin proposed the two $50 million pieces that became the $100 million grant, and the General Assembly enacted them. Mayor Danny Avula was patron of the ordinance accepting the grant. Council President Cynthia Newbille led the City Council when it adopted the ordinance on October 14, 2025.
+You don't need to apply. The benefit is a cleaner river for anyone who swims, paddles or fishes in the James. The grant covers $100 million of the $135.81 million project budget; Richmond covers the rest. Del. Betsy Carr sponsored House budget amendments in 2024 and 2025 seeking more state support for Richmond's sewer work. Sens. Ghazala Hashmi and Lamont Bagby carried a matching Senate request in 2024. Those larger requests were not enacted. Then-Gov. Glenn Youngkin proposed the two $50 million pieces that became the $100 million grant, and the General Assembly enacted them. Mayor Danny Avula was patron of the ordinance accepting the grant. Council President Cynthia Newbille led the City Council when it adopted the ordinance on October 14, 2025.
 
-The city developed its first long-term sewer-overflow plan in 1988, and a 2020 state law now requires completing the work by July 1, 2035. Bids for this tank closed in July 2026, but the design-build contract had not been awarded as of August 5. The park will be mostly closed during construction and restored afterward.
+The city developed its first long-term sewer-overflow plan in 1988, and a 2020 state law requires completing the work by July 1, 2035. Bids for this tank closed in July 2026, but the design-build contract had not been awarded as of August 5. The park will be mostly closed during construction and restored afterward.
