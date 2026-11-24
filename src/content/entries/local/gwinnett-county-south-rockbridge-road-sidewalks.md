@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-24
   verdict: pass
-  notes: Confirmed the route, contract cap, SPLOST funding, 5–0 vote, credits, parties, and continuing construction status against Gwinnett County records. No later completion, cancellation, funding cut, or scope change was found as of Nov. 23, 2026.
+  notes: Confirmed the route, $3,428,430 contract cap, SPLOST funding, 5–0 vote, credits, and parties against [Gwinnett County’s records](https://www.gwinnettcounty.com/government/departments/board-of-commissioners/meeting-videos/-/ecv/showInfo/PLAY339). No later completion, cancellation, funding cut, or scope change was found as of Nov. 24, 2026.
 source_key: gwinnett-county-council-2026-08-04-2026-0961
 ---
 

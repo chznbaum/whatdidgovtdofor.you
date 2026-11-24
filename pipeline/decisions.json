@@ -2707,10 +2707,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-mayor-mamdani-breaks-ground-on-36-million-transformation-of-eas": {
-  "decision": "promising",
-  "reason": "triage: Funded library rebuild, groundbreaking",
+  "decision": "drafted",
+  "reason": "A funded $36 million capital project now under construction that will enlarge and modernize a public library branch in Crown Heights. That is public infrastructure built for working people, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-eastern-parkway-library-expansion.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-governor-hochul-announce-8-4-million-to-transfor": {
   "decision": "promising",
@@ -2731,10 +2732,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-mayor-mamdani-cracks-down-on-hidden-fees-at-rental-car-companies": {
-  "decision": "promising",
-  "reason": "triage: Consumer fee enforcement; check if rule or action",
+  "decision": "skip",
+  "reason": "This was a DCWP inspection sweep under existing consumer law: 62 inspections and 56 summonses, mostly for missing price signs. It created no new rule or protection, and the release gives no restitution or fine amounts, so there's no concrete new benefit to credit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-new-york-junior-tennis-learning-unveil-10-newly": {
   "decision": "skip",
@@ -2767,10 +2768,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-mamdani-administration-applauds-launch-of-housing-court-fast-tra": {
-  "decision": "promising",
-  "reason": "triage: Faster housing court relief for tenants; check who acted",
+  "decision": "drafted",
+  "reason": "A July 2026 court directive, launched with the city on Aug. 25, 2026, makes NYC Housing Court move faster on urgent repair cases: a judge the day a case is filed and a court date within 5 days for tenants in buildings under vacate orders, without essential services, or with no working elevator.",
+  "file": "src/content/entries/local/nyc-housing-court-fast-track-dangerous-buildings.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-usta-announce-1-000-discounted-tickets-to-us-open": {
   "decision": "skip",
@@ -2779,16 +2781,16 @@
   "date": "2026-11-11"
  },
  "va-gov-1122870": {
-  "decision": "promising",
-  "reason": "triage: Signed EO on Medicaid/SNAP response; check concrete effect",
+  "decision": "skip",
+  "reason": "Executive Order 20 tells state agencies to plan their response to the federal Medicaid and SNAP cuts and lists goals, but it gives no one a concrete new benefit, and the premium-assistance money it mentions already has an entry (va-gov-1127551).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-after-decades-of-delay-mayor-mamdani-moves-to-fix-the-city-owne": {
-  "decision": "promising",
-  "reason": "triage: BQE repair; check if funded or ordered",
+  "decision": "skip",
+  "reason": "The Aug. 24, 2026 release announces a plan to rehabilitate BQE Central: environmental review starts this fall, an impact statement is due in 2028, and groundbreaking is set for 2030, with no stated funding or contract, so nothing has been enacted, funded or ordered yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-and-office-of-chief-medical-examiner-announcenew-i": {
   "decision": "skip",
@@ -2797,10 +2799,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-mayor-mamdani-expands-access-to-doula-care-across-nyc-as-citywid": {
-  "decision": "promising",
-  "reason": "triage: Doula care service expanded, 4,000 served",
+  "decision": "drafted",
+  "reason": "The Citywide Doula Initiative already has an entry (nyc-int-2025-1285), but this release also announces something new and concrete: MetroPlusHealth's Gold Plan for City employees covers doula care starting Jan. 1, 2027, added at the request of the Health Department and NYC Health + Hospitals.",
+  "file": "src/content/entries/local/nyc-metroplus-gold-plan-doula-coverage.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-launches-renew-crew-to-bring-faster-repairs-and": {
   "decision": "promising",
@@ -3257,10 +3260,10 @@
   "date": "2026-11-23"
  },
  "nyc-mayor-2026-08-mayor-mamdani-and-chancellor-kamar-samuels-launch-sweeping-overh": {
-  "decision": "promising",
-  "reason": "triage: fixes child care payment delays for providers and families",
+  "decision": "skip",
+  "reason": "The announcement overhauls the city's own child care contracting: $43 million to restore staff in the schools' early childhood division, faster contract registration, and faster bridge loans to providers. Its main effect is on government operations and provider cash flow, not a concrete new benefit that families can point to, so it fails the guide's \"main effect is on government itself\" test.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-mayor-mamdani-signs-bill-making-year-round-outdoor-dining-a-perm": {
   "decision": "skip",
@@ -3444,10 +3447,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-mayor-mamdani-the-doe-fund-break-ground-on-new-supportive-and-a": {
-  "decision": "promising",
-  "reason": "triage: Groundbreaking of funded supportive/affordable housing; new construction",
+  "decision": "drafted",
+  "reason": "The city financed and began building a 96-unit Doe Fund residence in Hunts Point. Fifty-eight units are supportive housing for formerly homeless New Yorkers, and 38 are rent-stabilized lottery units, a concrete housing win like other groundbreaking entries already on the site.",
+  "file": "src/content/entries/local/nyc-hunts-point-casanova-supportive-housing.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14417": {
   "decision": "skip",
@@ -3637,10 +3641,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1122438": {
-  "decision": "promising",
-  "reason": "triage: Event touting signed health and drug cost laws; writer can find specific laws",
+  "decision": "skip",
+  "reason": "This is a roundup of laws already signed: the $35 insulin cap (va-2026-hb1214), the crackdown on drug middlemen (covered by entries such as va-2026-sb669), and Marketplace premium help (va-gov-1127551); the only new item, a $350 million Medicaid reserve fund, has no direct effect on people yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1122439": {
   "decision": "skip",
@@ -3649,10 +3653,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-08-fast-buses-mayor-mamdani-breaks-ground-on-bronx-s-first-busway": {
-  "decision": "promising",
-  "reason": "triage: Groundbreaking on funded busway; bus riders benefit",
+  "decision": "skip",
+  "reason": "This duplicates an existing entry: nyc-mayor-2026-09-fast-buses-mayor-mamdani-completes-the-bronx-s-first-busway-on already covers the Tremont Avenue busway project (\"Bx36 riders get the Bronx's first busway on Tremont Avenue\"), and this candidate is that project's August groundbreaking.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-08-remarks-as-prepared-mayor-mamdani-makes-an-announcement-on-stan": {
   "decision": "skip",
@@ -3751,10 +3755,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-and-nycha-implement-aggressive-lead-abatement-stra": {
-  "decision": "promising",
-  "reason": "triage: Funded $10M lead removal in child care centers",
+  "decision": "drafted",
+  "reason": "The city budgeted $10.2 million to permanently remove lead paint from child care centers on NYCHA campuses. NYCHA's tracker shows 52 of the 70 centers that tested positive were abated by Nov. 17, 2026, so the work is under way and helping young children now.",
+  "file": "src/content/entries/local/nyc-nycha-child-care-centers-lead-paint-removal.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-announces-major-expansion-of-the-bureau-of-coastal": {
   "decision": "skip",
@@ -3835,10 +3840,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-fast-buses-mayor-mamdani-breaks-ground-on-offset-bus-lanes-on-f": {
-  "decision": "promising",
-  "reason": "triage: Funded bus lanes under construction, faster commutes",
+  "decision": "drafted",
+  "reason": "The city is building a street redesign that gives bus-only lanes to about 130,000 daily riders on the Bronx's busiest bus corridor; construction began July 22, 2026, and a project like this has a direct, tangible effect on riders.",
+  "file": "src/content/entries/local/nyc-fordham-road-offset-bus-lanes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-announces-full-slate-of-committee-appointees-for-m": {
   "decision": "skip",
@@ -4214,10 +4220,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-releases-rental-ripoff-report-outlining-new-act": {
-  "decision": "promising",
-  "reason": "triage: new tenant enforcement actions; check what's enacted",
+  "decision": "skip",
+  "reason": "The release announces a report of 23 planned policy actions (proposed rules, a task force, and legislation it supports) but nothing enacted, funded, or in effect with dates, so it's an announcement of intent rather than an action.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-remarks-as-prepared-mayor-mamdani-delivers-keynote-address-for": {
   "decision": "skip",
@@ -4262,10 +4268,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-and-chancellor-kamar-samuels-launch-major-expansio": {
-  "decision": "promising",
-  "reason": "triage: launched pre-K special ed seats expansion",
+  "decision": "drafted",
+  "reason": "A funded $67.5 million FY2027 budget item that adds 250 specialized pre-K seats for children with disabilities and more evaluation and IEP staff, with a direct, tangible effect on families; no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-pre-k-special-education-expansion.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-groundswell-community-mural-project-announce-12-c": {
   "decision": "skip",
@@ -4322,10 +4329,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mayor-mamdani-turns-underused-east-village-nypd-parking-lot-into": {
-  "decision": "promising",
-  "reason": "triage: 131 affordable homes on city lot; check funding",
+  "decision": "skip",
+  "reason": "This was HPD choosing a development team for the East Village lot. The project is still in predevelopment, with no land-use approval, financing, construction start date or rents, so it is still an announcement of intent rather than enacted, funded or built housing.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-14052": {
   "decision": "skip",
@@ -4334,10 +4341,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1121033": {
-  "decision": "promising",
-  "reason": "triage: optional solar group purchase to cut energy costs",
+  "decision": "skip",
+  "reason": "Switch Together is a solar group-buying program run by the nonprofit Solar United Neighbors with local governments, and the release says it \"requires no direct expenditure of state funds\"; the governor promoted it and partnered with the group, but the state didn't enact, fund, or order anything.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-law-119-102": {
   "decision": "skip",
@@ -4451,10 +4458,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-fast-buses-faster-commutes-mayor-mamdani-completes-madison-and": {
-  "decision": "promising",
-  "reason": "triage: Completed bus lanes for 150,000 daily riders",
+  "decision": "drafted",
+  "reason": "NYC DOT finished bus lanes on Madison and Lexington Avenues that speed trips for tens of thousands of daily riders, and no existing entry covers them.",
+  "file": "src/content/entries/local/nyc-madison-lexington-avenue-bus-lanes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-governor-hochul-gotham-fc-new-york-city-fc-anno": {
   "decision": "skip",
@@ -4505,10 +4513,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-07-mamdani-administrationrecovers-2-3-millionfor-workers-in-major": {
-  "decision": "promising",
-  "reason": "triage: Wage theft recovery for workers",
+  "decision": "drafted",
+  "reason": "DCWP settlements put about $2.1 million in restitution in the pockets of more than 1,600 NYC workers whose scheduling and paid-time-off rights were violated. That is a concrete, enforced benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-walgreens-and-3-employers-owe-workers-2-1-million.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-kicks-off-summer-youth-employment-program-providi": {
   "decision": "skip",
@@ -4523,10 +4532,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1120725": {
-  "decision": "promising",
-  "reason": "triage: Data center tax shields ratepayers; writer verifies",
+  "decision": "skip",
+  "reason": "The press release promotes the budget's data center electricity tax (Item 3-5.24, $0.011/kWh, capped at $600 million a year, July 2026–June 2028), but the budget language sends the money to the general fund with no earmark, so there is no direct, sourced benefit to working people; press reports that it helps transit and schools aren't backed by the budget text.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-07-mayor-mamdani-urges-new-yorkers-to-prepare-for-heavy-rain-flash": {
   "decision": "skip",
@@ -4679,10 +4688,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-06-mayor-mamdani-breaks-ground-on-255-million-river-commons-develo": {
-  "decision": "promising",
-  "reason": "triage: groundbreaking of 328 affordable and supportive homes, new construction",
+  "decision": "drafted",
+  "reason": "City-financed construction of 328 income-restricted and supportive homes, plus a bigger public clinic, on public hospital land in the South Bronx. It's new construction, not a public housing redevelopment, and the work is underway.",
+  "file": "src/content/entries/local/nyc-river-commons-south-bronx-affordable-homes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-06-mayor-mamdani-honors-2026-knicks-championship-team-with-temporar": {
   "decision": "skip",
@@ -4932,10 +4942,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-06-standing-up-for-trans-new-yorkers-mayor-mamdani-launches-15-mi": {
-  "decision": "promising",
-  "reason": "triage: funded $15M care access plan; check if enacted",
+  "decision": "skip",
+  "reason": "The June 26, 2026 release announced a $15 million plan with no start dates or budget source, and as of Oct. 7, 2026 the biggest piece (about $8.9 million for youth care providers) was only a notice of intent to contract, for contracts that would start Feb. 1, 2027; no source shows the hotline has launched, so nothing has reached people yet and it's still an announcement of intent. It can be reconsidered once contracts are awarded or the hotline opens.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-12927": {
   "decision": "skip",
@@ -5022,10 +5032,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-06-mamdani-administration-takes-on-skyrocketing-insurance-costs-wit": {
-  "decision": "promising",
-  "reason": "triage: city-backed housing insurance program lowers costs; check launch and who benefits",
+  "decision": "skip",
+  "reason": "This is an announcement of intent: the June 24, 2026 release only opened a request for expressions of interest to design the program, no operator has been chosen (selection is planned for early 2027, launch for late 2027), and its direct benefit is lower premiums for housing owners rather than a confirmed gain for tenants.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-06-match-four-at-nynj-stadium-what-new-yorkers-need-to-know": {
   "decision": "skip",
@@ -5076,10 +5086,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-06-mayor-mamdani-signs-executive-order-protecting-workers-from-extr": {
-  "decision": "promising",
-  "reason": "triage: Signed order protecting workers from extreme heat",
+  "decision": "skip",
+  "reason": "The June 22, 2026 heat order mostly directs guidance, studies and reviews (outdoor-worker guidance \"as soon as practicable,\" indoor guidance and construction-rule recommendations by March 2027, a workers' comp study) and sets no enforceable water, shade or rest standard, so it has no direct, tangible effect yet; its one concrete item, agency heat plans for city workers, largely repeats a heat-stress plan the city already had in April 2025.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14412": {
   "decision": "skip",
@@ -5148,10 +5158,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1119700": {
-  "decision": "promising",
-  "reason": "triage: Signed gun violence prevention package, safety improved",
+  "decision": "skip",
+  "reason": "This June 16 event was a ceremonial signing of bills already signed in April and May (SB38 became Chapter 534 on April 10, and the assault-weapons ban was signed May 14); the most direct bills in the package already have entries (HB19, HB871, HB901), and the bill-level feed can still pick up the others, such as ghost guns and background checks.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1119733": {
   "decision": "skip",
@@ -5353,10 +5363,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1119499": {
-  "decision": "promising",
-  "reason": "triage: signed law improving sickle cell care and access",
+  "decision": "drafted",
+  "reason": "The Queen Candis package includes an enacted law, in effect since July 1, 2026, that requires every Virginia school division to train its nurses to recognize and manage sickle cell disease. That's a concrete change in care for students with the disease. This entry covers that law, HB 1446 and its companion SB 822, because I couldn't confirm that the final budget funds the package's main item, the specialist network.",
+  "file": "src/content/entries/state/va-school-nurses-sickle-cell-training.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-06-mayor-mamdani-and-comptroller-levine-deposit-20-million-in-ponc": {
   "decision": "skip",
@@ -5485,10 +5496,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-06-mayor-mamdani-completes-first-phase-of-battery-coastal-resilienc": {
-  "decision": "promising",
-  "reason": "triage: Completed flood-protection construction",
+  "decision": "drafted",
+  "reason": "A city-funded $200 million rebuild that raises The Battery's public waterfront promenade 5 feet against storm surge and sea-level rise; phase one is finished and phase two is under way, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-battery-wharf-raised-against-rising-seas.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-06-mayor-mamdani-governor-hochul-fifa-and-nynj-host-committee-ann": {
   "decision": "skip",
@@ -5630,10 +5642,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1119198": {
-  "decision": "promising",
-  "reason": "triage: Signed hospital violence protections",
+  "decision": "drafted",
+  "reason": "HB 229/SB 173 became law May 14, 2026 (Chapters 1108 and 1109). It makes carrying guns, large knives and other weapons into Virginia hospitals that provide mental health or developmental services a crime, a direct safety protection for health workers and patients.",
+  "file": "src/content/entries/state/va-hospital-weapons-ban.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-06-mayor-mamdani-announces-new-york-knicks-postseason-has-generated": {
   "decision": "skip",
@@ -5672,10 +5685,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1119115": {
-  "decision": "promising",
-  "reason": "triage: Signed bills on homeownership and housing costs",
+  "decision": "drafted",
+  "reason": "This release is a roundup of the June 1, 2026 Rocky Mount housing bill signing. Its manufactured-home bills (HB 655/SB 346, HB 374, HB 375) already have entries, but the two-year mixed-income housing loan pilot it highlights (SB 490/HB 196/HB 820) is enacted, has $20 million in the budget, and has no entry yet.",
+  "file": "src/content/entries/state/va-mixed-income-housing-loan-pilot.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1119140": {
   "decision": "skip",
@@ -5847,16 +5861,17 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mamdani-administration-begins-work-on-lexington-avenue-bus-lane": {
-  "decision": "promising",
-  "reason": "triage: funded construction of bus lane upgrades for riders",
+  "decision": "skip",
+  "reason": "This is a duplicate. The May 2026 announcement that work had begun on the Lexington Avenue bus lane upgrades is the same project as the existing entry \"Madison and Lexington Avenue buses got new lanes for 150,000+ daily riders\", which covers its completion in July 2026.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-05-mayor-mamdani-baselines-31-7-million-for-new-york-city-s-public": {
-  "decision": "promising",
-  "reason": "triage: permanent library funding protects services",
+  "decision": "drafted",
+  "reason": "The adopted FY2027 budget made $31.7 million a year for NYC's three library systems a permanent part of the city budget. That money had to be won back every year, and it supports branch operations, including Sunday hours at more than 30 branches. Council Member Linda Lee said at the June 30 budget deal that the Council added $1 million on top of the baseline.",
+  "file": "src/content/entries/local/nyc-libraries-31-7-million-permanent-funding.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1117882": {
   "decision": "skip",
@@ -6158,10 +6173,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1118730": {
-  "decision": "promising",
-  "reason": "triage: signed law lowering childcare costs",
+  "decision": "skip",
+  "reason": "This \"ICYMI\" release covers HB 18 and SB 3, the Employee Child Care Assistance Program signed May 27, 2026, which the existing entry va-gov-1118631 (\"Virginia will help pay for child care if your employer joins\") already covers. The other bills signed that day only require reports, so they don't qualify.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "ny-2025-s9005": {
   "decision": "skip",
@@ -6182,10 +6197,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-announces-start-of-construction-to-complete-mcguin": {
-  "decision": "promising",
-  "reason": "triage: funded street safety construction",
+  "decision": "skip",
+  "reason": "This duplicates an existing entry: nyc-mayor-2026-11-a-new-era-for-greenpoint-mayor-mamdani-completes-mcguinness-bou already covers the finished McGuinness Boulevard redesign, and this May 2026 release only announced the start of construction on that same project.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-10456": {
   "decision": "skip",
@@ -6261,10 +6276,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1118376": {
-  "decision": "promising",
-  "reason": "triage: signed substance abuse support laws",
+  "decision": "drafted",
+  "reason": "SB 641 (Ch. 208) was enacted, and the Board of Medicine rule carrying it out has been in effect since Sept. 23, 2026: Virginia patients who decline counseling can no longer be refused office-based buprenorphine for opioid addiction, a direct gain in access to treatment.",
+  "file": "src/content/entries/state/va-declining-counseling-cant-block-buprenorphine.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1118377": {
   "decision": "skip",
@@ -6285,10 +6301,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-and-chancellor-samuelsannounce-expansion-of-nyc-so": {
-  "decision": "promising",
-  "reason": "triage: school program expansion",
+  "decision": "skip",
+  "reason": "This mostly speeds up the phase-in of Adams' curriculum mandate, already due to reach all middle schools by fall 2027, and no source shows a clear benefit to families: the city gives no evidence the curriculums improve learning, and the teachers' union (UFT) is wary of the math expansion.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-05-mayor-mamdani-announces-1-000-affordable-world-cup-tickets-for-n": {
   "decision": "skip",
@@ -6500,10 +6516,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-announces-new-broadway-bus-lane-to-better-serve-la": {
-  "decision": "promising",
-  "reason": "triage: New bus lane ordered for Queens riders",
+  "decision": "drafted",
+  "reason": "NYC DOT built a dedicated center bus lane on Broadway in Jackson Heights for the roughly 9,000 daily riders of the Q70 LaGuardia bus, and it was in use by July 2026, so this is completed infrastructure, not just an announcement.",
+  "file": "src/content/entries/local/nyc-broadway-q70-laguardia-bus-lane.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-05-mayor-mamdani-nyc-tourism-conventions-and-team-wonder-launch": {
   "decision": "skip",
@@ -6628,10 +6645,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-invests-12-million-to-expand-peer-led-substance-u": {
-  "decision": "promising",
-  "reason": "triage: Funded recovery services expansion",
+  "decision": "drafted",
+  "reason": "The city committed $12 million in opioid settlement money to seven nonprofits for peer-led addiction recovery services, expected to create 500 peer specialist jobs, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-opioid-settlement-500-recovery-peer-jobs.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-09038": {
   "decision": "skip",
@@ -6664,16 +6682,17 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-05-mayor-mamdani-announces-20-million-investment-in-congestion-pri": {
-  "decision": "promising",
-  "reason": "triage: Funded asthma programs in Bronx",
+  "decision": "drafted",
+  "reason": "The MTA set aside $20 million in congestion toll mitigation money for Bronx childhood asthma services, including school-based care at 15 more schools, and the city Health Department is now running the programs.",
+  "file": "src/content/entries/local/nyc-bronx-childhood-asthma-congestion-toll-funding.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-05-mayor-mamdani-chancellor-samuels-announce-five-new-public-schoo": {
-  "decision": "promising",
-  "reason": "triage: New public schools opening",
+  "decision": "skip",
+  "reason": "This release announces five schools that the Panel for Educational Policy approved in separate votes, at least one in December 2025 under the previous administration, so the announcement itself isn't the enacted action. It also gives no seat counts, and at least one of the schools moves into an existing building, so I couldn't confirm that the openings add any capacity for families.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-08750": {
   "decision": "skip",
@@ -6755,10 +6774,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-04-mayor-mamdani-announces-95-million-cloudburst-project-to-manage": {
-  "decision": "promising",
-  "reason": "triage: Funded $95M flood project for Brooklyn neighborhood",
+  "decision": "skip",
+  "reason": "The April 30, 2026 release announces a planned $95 million DEP project whose design isn't finalized and whose storage-tank sites are still under evaluation, and no source shows a contract, a budget action or a construction start since, so under the guide it's still an announcement of intent.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-04-mayor-mamdani-opens-applications-for-the-little-apple-new-yor": {
   "decision": "promising",
@@ -7737,10 +7756,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1116694": {
-  "decision": "promising",
-  "reason": "triage: signed worker protection laws; paid family leave already listed, other laws may qualify",
+  "decision": "skip",
+  "reason": "This press release covers four laws that already have entries: paid family leave (va-2026-sb2), prevailing wage (va-2026-hb569), wage theft (va-2026-hb238), and the salary history ban (va-2026-hb636 and va-2026-sb215).",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1116695": {
   "decision": "skip",
@@ -7749,16 +7768,16 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-04-mamdani-administration-announces-new-bus-lanes-infrastructure-u": {
-  "decision": "promising",
-  "reason": "triage: new bus lanes and safety upgrades on high-crash corridor; verify it is ordered/funded",
+  "decision": "skip",
+  "reason": "The April 21, 2026 release only announces DOT's plan for Linden Boulevard bus lanes and safety upgrades, with work \"slated to begin in late 2026,\" and I found no report that construction has started, so it's still an announcement of intent; a groundbreaking or completion release would qualify.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-04-mayor-mamdani-nyc-children-open-seven-formerly-vacant-early": {
-  "decision": "promising",
-  "reason": "triage: seven child care centers opened; real services",
+  "decision": "skip",
+  "reason": "The city's April 16 release says the seven reopened centers (about 240 3-K seats) are the \"first phase\" of the March 3-K expansion, and the May release that doubled that expansion to 2,000 seats counts these centers among the previously vacant ones it opened; the existing entry \"2,000 more free 3-K seats for NYC 3-year-olds, in 56 ZIP codes\" already covers that.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1116648": {
   "decision": "skip",
@@ -7839,10 +7858,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-04-mamdani-administration-unveils-first-of-its-kind-insurance-progr": {
-  "decision": "promising",
-  "reason": "triage: insurance program to cut housing operating costs; check who benefits, may favor owners",
+  "decision": "skip",
+  "reason": "The release announces a city-backed housing insurance program that is still being designed and bid out (consultant hired, proposals due Aug. 2026), with no policies written and coverage not starting until 2027, so nothing has been enacted or delivered yet.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-04-mayor-mamdani-announces-new-mayor-s-fund-board-including-bronx": {
   "decision": "skip",
@@ -7869,10 +7888,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-04-mayor-mamdani-governor-hochul-announce-state-s-first-pied-a-ter": {
-  "decision": "promising",
-  "reason": "triage: tax on wealthy second homes; revenue use unclear, check enactment and use",
+  "decision": "skip",
+  "reason": "The pied-à-terre surcharge was enacted in Part HH of New York's FY2027 budget, signed May 2026 and in effect since July 1, 2026, but it only taxes wealthy owners of NYC homes they don't live in; its roughly $350–500 million a year goes into the city's general budget with no service or benefit tied to it, so it has no direct, tangible effect on working people to credit.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1116451": {
   "decision": "skip",
@@ -11931,10 +11950,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1115949": {
-  "decision": "promising",
-  "reason": "triage: Signed housing, health, utility cost bills; writer to find specifics",
+  "decision": "drafted",
+  "reason": "This release covers about 20 bills. Most already have entries (HB15, HB6/SB596, HB242, HB1002), but HB736 doesn't. It makes state-regulated health plans keep a prescription drug approval for at least 6 months, which directly helps patients. It was enacted as Chapter 213 and takes effect Jan. 1, 2027.",
+  "file": "src/content/entries/state/va-2026-hb736-drug-prior-authorization-lasts-6-months.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "ny-2025-s9818": {
   "decision": "skip",
@@ -13927,10 +13947,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mayor-mamdani-invests-108-million-to-improve-sewer-performance": {
-  "decision": "promising",
-  "reason": "triage: Funded sewer upgrades citywide, flooding resilience",
+  "decision": "drafted",
+  "reason": "A funded city program to replace 6,708 outdated catch basins against street flooding is concrete infrastructure that directly protects New Yorkers' streets and homes, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-6708-catch-basins-replaced-to-curb-street-flooding.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14399": {
   "decision": "skip",
@@ -14141,10 +14162,11 @@
   "date": "2026-11-11"
  },
  "va-gov-1115166": {
-  "decision": "promising",
-  "reason": "triage: Governor signed affordability bills; umbrella release, writer picks specific bills",
+  "decision": "drafted",
+  "reason": "The release covers a slate of bills, most of which already have entries (SB669, HB220, HB655/SB346, HB1180, SB628). HB60 doesn't have one yet: it's an enacted law in effect since July 1, 2026 that bars Virginia insurers from denying, limiting or overcharging for life or accident-and-sickness coverage because someone takes HIV-prevention PrEP.",
+  "file": "src/content/entries/state/va-prep-cant-cost-you-life-or-disability-insurance.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-03-mayor-mamdani-advances-new-york-city-s-first-free-child-care-pro": {
   "decision": "promising",
@@ -14159,10 +14181,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mayor-mamdani-announces-end-to-criminal-enforcement-for-minor-tr": {
-  "decision": "promising",
-  "reason": "triage: Ends criminal summonses for minor cyclist offenses; enacted policy",
+  "decision": "drafted",
+  "reason": "A mayoral directive in effect since March 27, 2026 moved cyclists' and e-bike riders' low-level traffic violations out of criminal court and into the civil ticket process drivers use. That directly affects thousands of riders, many of them delivery workers, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-cyclists-traffic-tickets-not-criminal-summonses.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-03-mayor-mamdani-unveils-new-tools-and-financing-to-help-homeowners": {
   "decision": "skip",
@@ -14189,10 +14212,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mayor-mamdani-announces-15-mph-slow-zones-at-all-eligible-nyc-sc": {
-  "decision": "promising",
-  "reason": "triage: Ordered slow zones at schools; safety gain",
+  "decision": "skip",
+  "reason": "The March 16 release mostly announces a plan to reach every eligible school by the end of the term, and the zones actually installed are already covered by the existing entry nyc-mayor-2026-09-mayor-mamdani-puts-kids-first-with-hundreds-of-new-15-mph-slow-z.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14395": {
   "decision": "skip",
@@ -14333,16 +14356,17 @@
   "date": "2026-11-11"
  },
  "va-gov-1114443": {
-  "decision": "promising",
-  "reason": "triage: $14M homelessness grants funded; housing services",
+  "decision": "drafted",
+  "reason": "The state awarded $14 million in Housing Trust Fund grants to 61 projects that move homeless Virginians into housing and keep them there, which is funded, direct help.",
+  "file": "src/content/entries/state/va-14-million-homeless-reduction-grants.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-03-mayor-mamdani-announces-major-3-k-expansion-adding-more-than-1": {
-  "decision": "promising",
-  "reason": "triage: Funded 1,000+ new free 3-K seats",
+  "decision": "skip",
+  "reason": "This duplicates an existing entry. On May 18, 2026 the city doubled this March plan for 1,000+ new 3-K seats to 2,000 seats in the same 56 ZIP codes, and that later announcement is already on the site as \"2,000 more free 3-K seats for NYC 3-year-olds, in 56 ZIP codes\".",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-04646": {
   "decision": "skip",
@@ -14423,10 +14447,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mayor-mamdani-announces-50-million-capital-investment-to-recons": {
-  "decision": "promising",
-  "reason": "triage: Funded $50M to rebuild 10 parks",
+  "decision": "drafted",
+  "reason": "The city committed $50 million in fiscal 2027 capital money to fully rebuild 10 neglected parks in high-need neighborhoods. That is funded public infrastructure with a direct local footprint, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-50-million-rebuild-10-neglected-parks.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "va-gov-1114240": {
   "decision": "skip",
@@ -14489,10 +14514,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-02-mayor-mamdani-announces-20-million-investment-in-strong-foundat": {
-  "decision": "promising",
-  "reason": "triage: Funded $20M perinatal mental health programs",
+  "decision": "drafted",
+  "reason": "The city moved $20 million over three years into free nurse home visits and perinatal mental health care, and opened Nurse-Family Partnership to parents who already have a child and to people who enroll later in pregnancy. That is a funded service working people can use, not only an announcement.",
+  "file": "src/content/entries/local/nyc-nurse-family-partnership-strong-foundations-expansion.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-02-mayor-mamdani-announces-completion-of-weeksville-restoration-pr": {
   "decision": "skip",
@@ -14670,10 +14696,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-02-mamdani-administration-breaks-ground-on-timbale-terrace-affordab": {
-  "decision": "promising",
-  "reason": "triage: groundbreaking of affordable housing; check details and not public housing redevelopment",
+  "decision": "drafted",
+  "reason": "The city closed financing and began building a fully affordable 341-home building on a former NYPD parking lot it owned, with 97 homes for formerly homeless New Yorkers. That is a concrete housing gain, and no public housing homes are lost.",
+  "file": "src/content/entries/local/nyc-timbale-terrace-east-harlem-affordable-homes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-02-mayor-mamdani-announces-six-appointees-to-the-rent-guidelines-bo": {
   "decision": "skip",
@@ -14832,10 +14859,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mayor-mamdani-launches-city-s-first-undergraduate-scholarship-pr": {
-  "decision": "promising",
-  "reason": "triage: New scholarship for city workers",
+  "decision": "drafted",
+  "reason": "The city started a real, running program: full-time NYC workers can apply for college-funded scholarships toward a bachelor's or associate degree at 10 partner schools, and the first group starts in fall 2026. It costs workers nothing and doesn't cut services.",
+  "file": "src/content/entries/local/nyc-city-workers-undergraduate-scholarships.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-06048": {
   "decision": "skip",
@@ -14964,10 +14992,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-mamdani-administration-launches-new-program-to-deliver-affordabl": {
-  "decision": "promising",
-  "reason": "triage: Housing program on city land; check it's funded",
+  "decision": "skip",
+  "reason": "Neighborhood Builders Fast Track changes how HPD picks developers (it pre-qualifies them and shortens the RFP), but as of Nov. 2026 no developer has been chosen and no homes are funded or built; it mainly affects government's own process.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-03-mayor-mamdani-releases-update-on-savings-plan": {
   "decision": "skip",
@@ -14994,16 +15022,18 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-03-ahead-of-opening-day-mamdani-administration-breaks-ground-on-pr": {
-  "decision": "promising",
-  "reason": "triage: Funded bus and safety project breaking ground",
+  "decision": "drafted",
+  "reason": "This is a funded street project that is now being built. It gives the Bx6 Select Bus Service's 25,000 daily riders bus-only and protected center-running lanes, and it adds safety fixes for people on foot. No existing entry covers it.",
+  "file": "src/content/entries/local/nyc-bx6-east-161st-street-bus-lanes.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-03-mamdani-administration-secures-nearly-2m-in-restitution-for-800": {
-  "decision": "promising",
-  "reason": "triage: Wage theft restitution for 800+ workers",
+  "decision": "drafted",
+  "reason": "These are enforced settlements that pay more than $1.8 million in restitution to over 830 NYC fast-food and retail workers for Fair Workweek violations, and payments are still going out.",
+  "file": "src/content/entries/local/nyc-dunkin-taco-bell-theory-workers-win-1-8-million.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14397": {
   "decision": "skip",
@@ -15194,10 +15224,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-02-mayor-mamdani-announces-city-will-restart-construction-of-four-h": {
-  "decision": "promising",
-  "reason": "triage: restarts funded bus/bike lane construction; ordered action",
+  "decision": "skip",
+  "reason": "This Feb. 13, 2026 release only announces that four halted projects would restart; the built ones belong in their own entries (Fordham Road already has one, and the Ashland Place lane has its own Sept. 2026 completion release), and the rest weren't confirmed built: a court halted the Brooklyn/Kingston Avenue work partway through, and I found nothing showing the Midwood/Flatbush lanes were installed.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-02978": {
   "decision": "skip",
@@ -15519,10 +15549,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-02-mamdani-administration-announces-stricter-enforcement-for-city-s": {
-  "decision": "promising",
-  "reason": "triage: enforcement on distressed buildings; tenant repairs, writer checks",
+  "decision": "drafted",
+  "reason": "HPD's 2026 Alternative Enforcement Program round puts 250 buildings with 7,038 homes under extra inspections, orders to correct and city-made emergency repairs billed to owners, which directly affects those tenants and isn't already an entry.",
+  "file": "src/content/entries/local/nyc-250-worst-buildings-alternative-enforcement-2026.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-02-mayor-mamdani-visits-city-warming-center-thanks-city-workers-an": {
   "decision": "skip",
@@ -15747,10 +15778,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-01-mayor-mamdani-announces-5-million-settlement-reinstatement-of": {
-  "decision": "promising",
-  "reason": "triage: settlement reinstating up to 10,000 delivery workers with pay",
+  "decision": "drafted",
+  "reason": "A city enforcement settlement that returns more than $4.6 million in unpaid minimum pay to over 49,000 NYC delivery workers and requires Uber to reinstate up to 10,000 workers it wrongly deactivated is a direct, tangible win for workers, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-delivery-apps-owe-49000-workers-back-pay.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-01-mayor-mamdani-announces-more-than-50-000-3-k-and-pre-k-applicati": {
   "decision": "skip",
@@ -16010,10 +16042,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2026-01-mamdani-administration-bans-hotel-hidden-fees-and-unexpected-cre": {
-  "decision": "promising",
-  "reason": "triage: Ban on hotel junk fees and card holds protects consumers",
+  "decision": "skip",
+  "reason": "This press release announces the same DCWP hotel junk-fee and card-hold rule already covered by the existing entry nyc-rule-hotel-junk-fees (\"Hotel prices shown in NYC must include resort and destination fees\").",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2026-01044": {
   "decision": "skip",
@@ -16278,10 +16310,10 @@
   "date": "2026-11-11"
  },
  "va-gov-1081466": {
-  "decision": "promising",
-  "reason": "triage: Day One executive orders on affordability; enacted orders, check specifics",
+  "decision": "skip",
+  "reason": "This is a roundup of ten Day One executive orders, and none of them changed anything for people yet: most order reports, reviews or task forces, two hand authority to the chief of staff, and EO 10's repeal of Executive Order 47 left existing ICE agreements in force until a separate Feb. 4, 2026 directive ordered state agencies out of them, which would be its own entry.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2026-01-mamdani-administration-announces-historic-2-1-million-settlemen": {
   "decision": "promising",
@@ -17596,10 +17628,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-12-mayor-adams-chancellor-aviles-ramos-announce-open-enrollment-fo": {
-  "decision": "promising",
-  "reason": "triage: Birth-to-2 child care enrollment; writer checks overlap with 2K entry",
+  "decision": "drafted",
+  "reason": "A city-funded pilot that gives families free child care for babies and toddlers, with no income test, began serving children in January 2026 and is funded through 2026–27. It is a separate program from the existing 2-K entry.",
+  "file": "src/content/entries/local/nyc-free-infant-toddler-child-care-birth-to-2.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-eo-14368": {
   "decision": "skip",
@@ -18087,10 +18120,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-11-mayor-adams-announces-new-project-labor-agreements-covering-more": {
-  "decision": "promising",
-  "reason": "triage: PLAs for union jobs on $7B projects; signed agreements",
+  "decision": "skip",
+  "reason": "These project labor agreements set standard work rules on city capital projects, which already have to pay prevailing wage under state law, so their main effect is on how the city buys construction; the release gives no concrete, checkable benefit for workers beyond \"best efforts\" community hiring goals and a planned pre-apprenticeship MOU, and I couldn't confirm the agreements' terms, how long they last, or whether they're still in effect.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2025-11-mayor-adams-awards-key-to-the-city-of-new-york-to-national-women": {
   "decision": "skip",
@@ -18324,10 +18357,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-12-mayor-adams-announces-68-million-plan-to-tackle-flash-flooding": {
-  "decision": "promising",
-  "reason": "triage: funded flood infrastructure; check funding",
+  "decision": "drafted",
+  "reason": "The city committed capital money (up to $50 million from DEP) to a designed flood-control project protecting Brooklyn homes. Design is under way and an early piece is finished, so it is funded work, not just an announcement.",
+  "file": "src/content/entries/local/nyc-prospect-park-bluebelt-flash-flooding.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2025-21784": {
   "decision": "skip",
@@ -18384,10 +18418,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-12-mayor-adams-dcwp-announce-38-million-settlement-with-starbucks": {
-  "decision": "promising",
-  "reason": "triage: $38M back pay to workers",
+  "decision": "drafted",
+  "reason": "An enforcement settlement that makes Starbucks pay more than $35.5 million in back pay to over 15,000 hourly NYC workers for Fair Workweek violations is a direct, tangible benefit, and no existing entry covers it.",
+  "file": "src/content/entries/local/nyc-starbucks-workers-35-million-fair-workweek-settlement.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "us-fr-2025-21626": {
   "decision": "skip",
@@ -18843,10 +18878,11 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-11-mayor-adams-announces-next-step-of-ambitious-universal-after-sch": {
-  "decision": "promising",
-  "reason": "triage: funded after-school seats expansion; check funding",
+  "decision": "drafted",
+  "reason": "The city funded 10,000 new free K-5 after-school seats for fall 2026, part of a $331 million commitment, named 75 schools and 11 community centers to host them, and in May 2026 DYCD awarded the contracts to run them, so this is a funded program with a direct benefit to families.",
+  "file": "src/content/entries/local/nyc-10000-more-free-after-school-seats-fall-2026.md",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2025-11-mayor-adams-unveils-new-designs-for-sidewalk-sheds-and-scaffoldi": {
   "decision": "skip",
@@ -18861,10 +18897,10 @@
   "date": "2026-11-11"
  },
  "nyc-mayor-2025-11-mayor-adams-and-chancellor-aviles-ramos-announce-new-york-city-p": {
-  "decision": "promising",
-  "reason": "triage: class size reduction milestone, funded and mandated",
+  "decision": "skip",
+  "reason": "This is a progress report on carrying out New York's class size law, which the site already covers in ny-2023-s843 (\"NYC public school classes are being capped at 20 to 25 students\"), and the $450 million is money spent meeting that law, not a separate action.",
   "impact": 3,
-  "date": "2026-11-11"
+  "date": "2026-11-24"
  },
  "nyc-mayor-2025-11-mayor-adams-releases-november-2025-financial-plan-update-with-ne": {
   "decision": "skip",
@@ -79960,10 +79996,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-highlights-new-laws-protect-new-yorkers-and-stand-against-ice-overreach": {
-  "decision": "promising",
-  "reason": "triage: Enacted budget immigration protections; real rights",
+  "decision": "drafted",
+  "reason": "The FY27 budget (Ch. 55 of 2026, Part LL, Subpart B) enacted the New York State Bivens Act, which lets people sue any government officer, federal agents included, in state court for constitutional violations. It is in effect and isn't covered by the existing 287(g) entry.",
+  "file": "src/content/entries/state/ny-sue-federal-agents-who-violate-your-rights.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-what-they-are-saying-governor-hochul-secures-major-investments-fy27-budget-your-family-your": {
   "decision": "skip",
@@ -79979,10 +80016,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-champions-investments-bolster-new-yorks-support-systems-and-foster-greater": {
-  "decision": "promising",
-  "reason": "triage: Enacted budget support services; broad, writer to find specifics",
+  "decision": "drafted",
+  "reason": "This roundup release is mostly plans and studies, but one item is enacted: Part R of the signed FY27 health budget law (Ch. 57 of 2026) requires state-regulated health plans to cover gambling disorder treatment from Jan. 1, 2027, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-gambling-addiction-treatment-insurance-coverage.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-invests-critical-infrastructure-part-fy27-budget": {
   "decision": "skip",
@@ -79998,16 +80036,18 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-secures-historic-investments-bolster-new-yorks-healthcare-system-and-protect": {
-  "decision": "promising",
-  "reason": "triage: Enacted health budget lowering costs; writer finds specifics",
+  "decision": "drafted",
+  "reason": "The release covers many items, but Part HH of the enacted FY27 budget (Ch. 58 of 2026) is a concrete, signed consumer protection that no existing entry covers. It makes New York-regulated health plans let new enrollees keep their current doctor for 90 days, with no condition limit, and limits repeat reviews of chronic-condition care to once a year.",
+  "file": "src/content/entries/state/ny-new-health-plan-keep-your-doctor-90-days.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-secures-investments-keep-our-kids-safe-online-and-bolster-youth-mental-health": {
-  "decision": "promising",
-  "reason": "triage: Enacted youth mental health and online safety funding",
+  "decision": "drafted",
+  "reason": "The FY2027 budget enacted the Safe by Design Act (Part Y of ch. 58 of 2026, A10008-C). It sets strict default privacy settings for minors on social, gaming and messaging platforms and turns off built-in AI companions for them by default. That is a concrete new protection for New York kids and parents, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-kids-online-privacy-defaults-safe-by-design.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-secures-more-1-billion-financial-assistance-municipalities-outside-new-york": {
   "decision": "skip",
@@ -80029,10 +80069,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-comprehensive-immigration-plan-protect-new-yorkers-against-ice": {
-  "decision": "promising",
-  "reason": "triage: Signed laws protecting residents from enforcement",
+  "decision": "drafted",
+  "reason": "Chapter 55 of 2026 (S.9005-C, Part LL) was signed May 27, 2026. It requires a federal judge's warrant before school and civilian state and local staff can let immigration agents into nonpublic areas, guarantees free public school regardless of status, and lets private sensitive locations bar agents; existing entries cover only the package's 287(g) ban and its right-to-sue provisions.",
+  "file": "src/content/entries/state/ny-ice-needs-judges-warrant-schools-public-offices.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-ushers-new-era-economic-growth-innovation-and-good-paying-jobs-fy27-budget": {
   "decision": "skip",
@@ -80041,16 +80082,16 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-secures-reforms-lower-auto-insurance-premiums-new-yorkers": {
-  "decision": "promising",
-  "reason": "triage: Enacted insurance reforms to lower premiums; check cost shifts",
+  "decision": "skip",
+  "reason": "The core of this FY27 budget package limits what injured crash victims can recover (a tighter serious-injury threshold, no damages for drivers found mostly at fault, capped damages for drivers committing crimes), and the premium savings are only predicted, not shown. It fails the net-impact test. Its consumer protections, such as the ban on rating by ZIP code or occupation, are sweeteners inside that package and don't qualify as an entry of their own.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-keeping-new-yorkers-safe-governor-hochul-signs-legislation-strengthen-public-safety-and-make": {
-  "decision": "promising",
-  "reason": "triage: Signed public safety measures on streets and subways",
+  "decision": "skip",
+  "reason": "This release bundles budget public-safety items, and no single benefit could be verified: the speed limiter law for repeat speeders (S9008-C Part D) only lets NYC create a program by local law, doesn't take effect until May 2027, and its sources disagree on the trigger and terms, while the order-of-protection change couldn't be pinned to bill text, and the rest are mostly new crimes and policing funds.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-let-them-build-governor-hochul-signs-legislation-delivers-generational-reforms-make-it-easier": {
   "decision": "skip",
@@ -80071,10 +80112,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-two-bills-protecting-vaccine-access-new-yorkers": {
-  "decision": "promising",
-  "reason": "triage: Signed bills protecting vaccine access",
+  "decision": "drafted",
+  "reason": "Two signed New York laws (Ch. 114 and 115 of 2026) make state-regulated health plans cover vaccines the state health commissioner recommends, not only those on the federal ACIP list, and let pharmacists give COVID-19 shots to children 2 and up. Both took effect right away and no existing entry covers them.",
+  "file": "src/content/entries/state/ny-plans-cover-vaccines-state-health-experts-recommend.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "nyc-rule-proposed-rule-rules-relating-to-safety-standards-for-refrigeration": {
   "decision": "skip",
@@ -80216,10 +80258,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-keeping-new-yorkers-safe-governor-hochul-announces-local-cops-local-crimes-provision-banning": {
-  "decision": "promising",
-  "reason": "triage: Statewide 287(g) ban took effect; enacted rights protection",
+  "decision": "drafted",
+  "reason": "New York enacted a ban on 287(g) agreements in its FY2027 budget (S.9005-C, signed May 27, 2026). The ban took effect Aug. 25, 2026, and protects immigrant New Yorkers' rights, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-police-cant-be-deputized-for-ice.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "nyc-rule-amendment-of-rules-relating-to-utility-company-properties": {
   "decision": "skip",
@@ -80374,10 +80417,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-announces-major-expansion-suny-reconnect-and-cuny-reconnect-programs": {
-  "decision": "promising",
-  "reason": "triage: Enacted budget expands free community college for adults",
+  "decision": "drafted",
+  "reason": "The enacted FY2027 New York budget expanded free associate degrees (tuition, fees, books and supplies) for adults 25 to 55. It added three fields and 11 colleges and opened nursing to people who already hold a degree, which is a direct, funded benefit to working adults.",
+  "file": "src/content/entries/state/ny-suny-cuny-reconnect-expansion-2026.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-signs-legislation-adding-harriet-tubman-underground-railroad-byway-state": {
   "decision": "skip",
@@ -80465,10 +80509,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-medical-aid-dying-act-new-york-state-law": {
-  "decision": "promising",
-  "reason": "triage: Signed law giving terminally ill a end-of-life right",
+  "decision": "drafted",
+  "reason": "The law took effect Aug. 5, 2026 and lets terminally ill adult New Yorkers obtain medication to end their lives. That is a new legal right, and it remains in effect after a federal judge dismissed the disability groups' challenge.",
+  "file": "src/content/entries/state/ny-terminally-ill-medical-aid-in-dying.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "nyc-rule-inflation-adjustment": {
   "decision": "skip",
@@ -80592,10 +80637,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-landmark-legislation-improve-safety-security-and-accountability-within": {
-  "decision": "promising",
-  "reason": "triage: Signed prison reform omnibus improving safety for incarcerated people and staff",
+  "decision": "drafted",
+  "reason": "The enacted, in-force omnibus (Ch. 707 of 2025, amended by Ch. 36 of 2026) gives people hurt in state custody, and families of people who die there, concrete new rights: more time to sue, quick handoff of death footage to the attorney general, and public notice of deaths.",
+  "file": "src/content/entries/state/ny-hurt-in-prison-2-years-after-release-to-sue.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-signs-legislation-eliminate-unfair-utility-subsidy-passes-buck-new-residential": {
   "decision": "drafted",
@@ -80647,22 +80693,23 @@
   "date": "2026-11-12"
  },
  "ny-gov-governor-hochul-signs-legislation-requiring-language-assistance-programs-hospitals-statewide": {
-  "decision": "promising",
-  "reason": "triage: Signed law requiring hospital language access",
+  "decision": "skip",
+  "reason": "S6288B/A387B (Ch. 614 of 2025) mostly writes into Public Health Law §2803-bb what state Health Department rule 10 NYCRR 405.7 already required of hospitals: a language assistance program with a coordinator, staff training, signage and interpreters (a 2026 State Comptroller audit cites those duties under 405.7). The signed version also replaced the 20- and 10-minute interpreter deadlines in earlier drafts with \"a reasonable period of time,\" so I can't show a new, concrete benefit for patients.",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-authorizes-real-property-tax-exemptions-new-york-seniors": {
-  "decision": "promising",
-  "reason": "triage: Senior property tax exemption; localities opt in; writer checks funding",
+  "decision": "drafted",
+  "reason": "Chapter 581 of 2025 is an enacted law that raised the senior property tax exemption cap from 50% to 65% for lower-income senior homeowners, and counties such as Orleans and Putnam have already adopted it; the cost shifts to other property taxpayers rather than cutting services.",
+  "file": "src/content/entries/state/ny-seniors-property-tax-exemption-up-to-65-percent.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-signs-legislation-making-life-saving-medical-care-more-affordable-and": {
-  "decision": "promising",
-  "reason": "triage: Signed medical affordability bills; details vague, writer checks",
+  "decision": "skip",
+  "reason": "This press release is about S2000A/A1195A, which requires follow-up lung cancer screening and diagnostic services with no cost-sharing, and the site already covers it in ny-2025-a1195 (\"Follow-up lung cancer tests will have no copays on New York plans\").",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "ny-gov-governor-hochul-signs-legislation-establishing-new-york-state-memorial-honor-holocaust-victims": {
   "decision": "skip",
@@ -80689,10 +80736,11 @@
   "date": "2026-11-12"
  },
  "ny-gov-protecting-new-yorkers-secret-online-price-hikes-governor-hochul-announces-nation-leading": {
-  "decision": "promising",
-  "reason": "triage: Surveillance pricing law in effect; consumer protection",
+  "decision": "drafted",
+  "reason": "New York's General Business Law § 349-a is an enacted consumer-protection law. Since Nov. 10, 2025, businesses must tell shoppers when an algorithm used their personal data to set a price, and no existing entry covers it.",
+  "file": "src/content/entries/state/ny-businesses-must-disclose-prices-set-with-your-personal-data.md",
   "impact": 3,
-  "date": "2026-11-12"
+  "date": "2026-11-24"
  },
  "nyc-rule-immigration-assistance-service-provider-penalty-schedule-updates": {
   "decision": "skip",
@@ -138294,10 +138342,10 @@
   "date": "2026-11-16"
  },
  "nj-gov-20260731a": {
-  "decision": "promising",
-  "reason": "triage: $83M rural health grants awarded; funding source worth checking",
+  "decision": "skip",
+  "reason": "These grants are paid for by the federal Rural Health Transformation Program, which the One Big Beautiful Bill Act (Pub. L. 119-21, sec. 71401) created to offset that law's Medicaid cuts, and the guide says that law's sweeteners don't become their own entries.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "union-county-news-124049": {
   "decision": "skip",
@@ -138991,10 +139039,11 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260729a": {
-  "decision": "promising",
-  "reason": "triage: Announcement of housing resources; unclear enacted action, but may fund veteran housing",
+  "decision": "drafted",
+  "reason": "Bringing Veterans Home is a funded state program that has permanently housed more than 2,500 veterans and promises a call within 24 hours of referral, and no existing entry covers it.",
+  "file": "src/content/entries/state/nj-bringing-veterans-home-housing-help.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "union-county-news-124008": {
   "decision": "skip",
@@ -139239,10 +139288,10 @@
   "date": "2026-11-14"
  },
  "union-county-news-123625": {
-  "decision": "promising",
-  "reason": "triage: county project labor agreements threshold lowered to $3M; worker protections on public jobs",
+  "decision": "skip",
+  "reason": "The county's press releases confirm the $5M-to-$3M project labor agreement threshold cut, but I couldn't find the vote date, resolution or ordinance, sponsor, or tally (the board's 2026 agendas and minutes are scanned images I can't read), and no source says how many projects or workers it affects, so the entry can't be properly sourced.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "union-county-news-123628": {
   "decision": "skip",
@@ -141132,10 +141181,10 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260624a": {
-  "decision": "promising",
-  "reason": "triage: housing tax credit auction funds affordable housing; program details",
+  "decision": "skip",
+  "reason": "A roundup release with nothing concrete to credit: planning help for 30 towns, a $35 million tax credit auction that names no developments or units, an executive order on how agencies coordinate, and budget items that were only proposed.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "union-county-news-121928": {
   "decision": "skip",
@@ -142896,10 +142945,11 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260604a": {
-  "decision": "promising",
-  "reason": "triage: $20M legal defense funding for detained immigrants, funded",
+  "decision": "drafted",
+  "reason": "The FY2027 budget Gov. Sherrill signed June 30, 2026 raised New Jersey's free deportation-defense lawyer program from $8.2 million to $20.2 million, and the state awarded the money to 10 legal providers on Nov. 13, 2026.",
+  "file": "src/content/entries/state/nj-deportation-defense-lawyers-funding-nearly-tripled.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "newark-26-0433": {
   "decision": "skip",
@@ -142974,10 +143024,10 @@
   "date": "2026-11-14"
  },
  "union-county-news-121279": {
-  "decision": "promising",
-  "reason": "triage: approved contract for one-year on-demand transit pilot",
+  "decision": "skip",
+  "reason": "This announces the same Union County Via micro-transit pilot around Westfield (Route 28 and South Avenue) that the board approved on May 28, 2026, which is already covered by union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-337 (\"Book a $3 on-demand county shuttle ride around Westfield\").",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "union-county-news-121282": {
   "decision": "skip",
@@ -144421,10 +144471,11 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260520a": {
-  "decision": "promising",
-  "reason": "triage: contract award for bridge replacement, evacuation route; construction",
+  "decision": "drafted",
+  "reason": "NJDOT awarded a $47.7 million contract to replace a poor-condition, 65-year-old bridge on a coastal evacuation route, a funded infrastructure project with a direct effect on Cape May County residents and travelers.",
+  "file": "src/content/entries/state/nj-route-50-cedar-swamp-creek-bridge-replacement.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "nj-gov-20260520c": {
   "decision": "skip",
@@ -145027,10 +145078,10 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260325a": {
-  "decision": "promising",
-  "reason": "triage: clean energy and storage law; energy affordability claims, cost effect to check",
+  "decision": "skip",
+  "reason": "A4529/S3819 only loosens project-maturity rules and moves the BPU's deadline for grid-scale storage incentive awards to Dec. 31, 2026, so its main effect is on a state procurement process; no source gives a concrete benefit to households, and the program's ratepayer-funded cost isn't counted.",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "nj-gov-20260325b": {
   "decision": "skip",
@@ -145232,10 +145283,11 @@
   "date": "2026-11-14"
  },
  "nj-gov-20260128a": {
-  "decision": "promising",
-  "reason": "triage: Nurse home visits expanded to six more counties; funded service",
+  "decision": "drafted",
+  "reason": "The January 2026 expansion brought New Jersey's free universal newborn nurse home visits, created by P.L.2021, c.187, to 17 of 21 counties. That's a concrete health service for working families, and the site has no entry for it yet.",
+  "file": "src/content/entries/state/nj-free-nurse-home-visit-for-new-parents.md",
   "impact": 3,
-  "date": "2026-11-14"
+  "date": "2026-11-24"
  },
  "nj-eo-057-9": {
   "decision": "skip",
@@ -205208,5 +205260,185 @@
   "reason": "triage: property purchase, no stated purpose",
   "impact": 1,
   "date": "2026-11-23"
+ },
+ "camden-county-news-annual-thanksgiving-food-distribution": {
+  "decision": "skip",
+  "reason": "triage: one-day event, food giveaway",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "camden-county-news-emergency-roadwork-on-kresson-road-in-cherry-hill": {
+  "decision": "skip",
+  "reason": "triage: road closure notice",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "camden-county-news-sheriffs-office-named-robotic-dog": {
+  "decision": "skip",
+  "reason": "triage: naming contest, no effect",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "essex-county-news-18449": {
+  "decision": "skip",
+  "reason": "triage: announced minigolf facelift plan",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "henrico-news-182796": {
+  "decision": "skip",
+  "reason": "triage: event announcement",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "metro-atlanta-news-housing-costs-in-metro-atlanta-whos-feeling-the-squeeze": {
+  "decision": "skip",
+  "reason": "triage: report/article, no action",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nj-eo-057-30": {
+  "decision": "skip",
+  "reason": "triage: orders a plan and review, no concrete benefit yet",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "ny-2025-a10411": {
+  "decision": "drafted",
+  "reason": "Enacted law (Ch. 414 of 2026) that bars carmakers and dealers from charging New Yorkers subscription fees to use features built into a car they already bought or leased, a direct consumer cost protection.",
+  "file": "src/content/entries/state/ny-car-feature-subscription-fee-ban.md",
+  "impact": 3,
+  "date": "2026-11-24"
+ },
+ "ny-2025-s8925": {
+  "decision": "skip",
+  "reason": "triage: duplicate of signed kratom 7-OH release; consumer safety restriction",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "ny-gov-governor-hochul-signs-legislation-protect-new-yorkers-against-harmful-effects-concentrated-and": {
+  "decision": "skip",
+  "reason": "triage: kratom 7-OH sales limit; narrow, product ban",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "ny-gov-money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription": {
+  "decision": "drafted",
+  "reason": "A signed New York law (Chapter 414 of 2026) stops carmakers and dealers from charging subscription fees for features built into a car that need no ongoing service. It is a direct consumer-cost protection that takes effect Feb. 27, 2027.",
+  "file": "src/content/entries/state/ny-2025-a10411-vehicle-feature-subscriptions.md",
+  "impact": 3,
+  "date": "2026-11-24"
+ },
+ "nyc-mayor-2026-11-el-alcalde-mamdani-y-lyft-fijan-un-tope-de-3-65-para-los-viajes": {
+  "decision": "drafted",
+  "reason": "The city signed a deal with Lyft that caps Citi Bike members' e-bike rides at $3.65 starting Jan. 19, 2027 and freezes membership and per-minute prices through May 2029, which cuts a real transit cost for about 139,000 members without new public spending.",
+  "file": "src/content/entries/local/nyc-citi-bike-member-ebike-rides-capped-at-365.md",
+  "impact": 3,
+  "date": "2026-11-24"
+ },
+ "nyc-mayor-2026-11-la-ciudad-de-nueva-york-demanda-al-gobierno-federal-para-protege": {
+  "decision": "skip",
+  "reason": "triage: lawsuit filed, no enacted result; Spanish duplicate",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-and-lyft-cap-citi-bike-member-e-bike-fares-at-3-6": {
+  "decision": "drafted",
+  "reason": "The city reached an agreement with Lyft that caps Citi Bike member e-bike rides at $3.65 starting Jan. 19, 2027, and freezes member prices through May 2029. That is a concrete cost cut for working riders, and no source shows a city subsidy paying for it with service cuts.",
+  "file": "src/content/entries/local/nyc-citi-bike-member-e-bike-fare-cap.md",
+  "impact": 3,
+  "date": "2026-11-24"
+ },
+ "nyc-mayor-2026-11-mayor-mamdani-takes-aim-at-repeat-offenders-in-nyc-s-housing-mar": {
+  "decision": "skip",
+  "reason": "triage: unclear if enacted action; no summary",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "nyc-mayor-2026-11-new-york-city-sues-federal-government-to-protect-mixed-status": {
+  "decision": "skip",
+  "reason": "triage: lawsuit only, outcome not won",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "richmond-news-2027": {
+  "decision": "skip",
+  "reason": "triage: junk page, no action",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "st-louis-county-news-4339b15": {
+  "decision": "skip",
+  "reason": "triage: criminal conviction, routine",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "us-grant-fema-20261123-fema-approves-more-42-million-funding-help-communities-recover-recent": {
+  "decision": "drafted",
+  "reason": "FEMA approved more than $16 million in hazard mitigation money for new stormwater systems to cut routine flooding in Camden's Cramer Hill, a funded infrastructure project with a direct effect on residents; the rest of the release is scattered repair reimbursements outside the site's places.",
+  "file": "src/content/entries/federal/us-fema-camden-cramer-hill-stormwater.md",
+  "impact": 3,
+  "date": "2026-11-24"
+ },
+ "va-gov-1130136": {
+  "decision": "skip",
+  "reason": "triage: ceremonial tree delivery",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "fl-eo-2026-237": {
+  "decision": "skip",
+  "reason": "triage: amends emergency order, procedural",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0296": {
+  "decision": "skip",
+  "reason": "triage: data access reporting, government-facing",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0786": {
+  "decision": "promising",
+  "reason": "triage: mail ballot procedures for jail voters; narrow right",
+  "impact": 2,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0797": {
+  "decision": "skip",
+  "reason": "triage: reporting requirement, government-facing",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0853": {
+  "decision": "skip",
+  "reason": "triage: study only",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0927": {
+  "decision": "skip",
+  "reason": "triage: street renaming",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "nyc-int-2026-0978": {
+  "decision": "drafted",
+  "reason": "Local Law 171 of 2026 raises the household income limit for NYC's SCRIE and DRIE rent freezes from $50,000 to $75,000, back to July 1, 2026. That is a direct, enacted housing-cost benefit for older and disabled renters, paid for with a small property-tax credit to landlords, and it is a new action, not the 2020 extension already on the site.",
+  "file": "src/content/entries/local/nyc-rent-freeze-income-limit-75000.md",
+  "impact": 4,
+  "date": "2026-11-24"
+ },
+ "dekalb-county-2026-0150": {
+  "decision": "skip",
+  "reason": "triage: private rezoning application",
+  "impact": 1,
+  "date": "2026-11-24"
+ },
+ "dekalb-county-2026-1267": {
+  "decision": "skip",
+  "reason": "triage: private rezoning for church expansion",
+  "impact": 1,
+  "date": "2026-11-24"
  }
 }

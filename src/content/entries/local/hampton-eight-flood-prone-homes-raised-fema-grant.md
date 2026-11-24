@@ -83,9 +83,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-24
   verdict: pass
-  notes: Confirmed the eight-home scope, exact funding split and arithmetic, homeowner process, council roster and 7–0 vote, credit, separate seven-home grant, and cautious status language. Searches through Nov. 23, 2026 found no project-specific completion, extension, cancellation, or rollback report.
+  notes: Confirmed the eight-home scope, exact funding split, council vote and homeowner process against Hampton’s resolution, minutes and flood-mitigation FAQ. Searches through Nov. 24, 2026 found no project-specific completion, extension, cancellation or rollback report.
 source_key: hampton-24-0053
 ---
 

@@ -61,9 +61,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
-  verdict: corrected
-  notes: Confirmed the project, construction date, routes, impact figures, status, and credited officials. Softened one unsupported comparison with walking speed.
+    date: 2026-11-24
+  verdict: pass
+  notes: Confirmed the project scope, routes, figures, construction date, design details, officials’ roles, and party labels against NYC and supporting sources. No completion, cancellation, or rollback was reported through Nov. 24, 2026, so phasing-in remains appropriate.
 source_key: nyc-mayor-2026-08-fast-buses-mayor-mamdani-breaks-ground-on-116th-street-overhaul
 ---
 
