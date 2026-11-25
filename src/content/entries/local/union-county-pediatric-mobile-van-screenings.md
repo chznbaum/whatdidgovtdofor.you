@@ -85,9 +85,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
-  verdict: corrected
-  notes: Confirmed the grant, services, locations, vote, licensing requirement, 2027 target, and current status. Corrected the lead credit and added the nine commissioners identified by the roll call.
+    date: 2026-11-25
+  verdict: pass
+  notes: Confirmed the grant, planned services and locations, 2027 target, licensing requirement, 9–0 vote, commissioner roster, lead credit, and current phasing-in status against the county minutes and cited sources. No later cancellation, funding cut, or launch was found.
 source_key: union-county-council-cob-minutes-date-5-28-2026-meeting-type-regular-2026-365
 ---
 

@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the council action, grant amounts and split, seven/eight-home discrepancy, homeowner costs, credit, and current project status. No newer project-specific completion, cancellation, or rollback record was found.
+  notes: Confirmed the council action, funding split, seven/eight-home discrepancy, homeowner costs, credit, and status. No project-specific completion, cancellation, or rollback record was found through Nov. 25, 2026.
 source_key: hampton-24-0158
 ---
 

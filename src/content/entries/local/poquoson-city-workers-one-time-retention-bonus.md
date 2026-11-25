@@ -64,9 +64,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the bonus amounts, eligibility rules, carryover funding, ordinance date and name, credit, and complete 7–0 roll call against Poquoson’s official minutes. Later records disclosed no rollback, and the cautious payment-status note remains appropriate.
+  notes: Confirmed the amounts, eligibility, funding, ordinance name, credit, and complete 7–0 roll call against [Poquoson’s official minutes](https://www.poquoson-va.gov/AgendaCenter/ViewFile/Minutes/_08102026-461). Later city records provide no reliable confirmation of payment or rollback, so the cautious status remains supportable.
 source_key: poquoson-council-461-approved-fy2027-additional-appropriations-for-one-time-emplo
 ---
 

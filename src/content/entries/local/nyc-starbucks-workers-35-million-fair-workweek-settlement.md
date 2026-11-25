@@ -20,9 +20,9 @@ impact:
     label: paid for each week worked from July 2021 to July 2024, for most workers
 status:
   state: phasing-in
-  as_of: 2026-02-15
-  note: Workers began reporting that checks had arrived in February 2026, while some eligible workers were still waiting. We couldn't find a later official record confirming that distribution was complete.
-  source: https://www.reddit.com/r/starbucks/comments/1r4040p/received_nyc_starbucks_settlement/
+  as_of: 2026-05-27
+  note: Workers reported receiving initial checks in February 2026. In late May, at least one worker was still waiting for a replacement after the first check went to the wrong address; no later official record confirms that every payment is complete.
+  source: https://www.reddit.com/r/starbucks/comments/1tpao73/starbucks_settlement_20212024/
 credit:
   - official: vilda-vera-mayuga
     role: issued
@@ -55,9 +55,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: corrected
-  notes: Confirmed the settlement terms, worker eligibility, investigation, and credit. Corrected the signed date, payment status, agency-head role, and several claims that were stale or broader than the sources support.
+  notes: Confirmed the settlement terms, amounts, eligibility, investigation, and credit. Updated the payment status with the newest evidence found.
 source_key: nyc-mayor-2025-12-mayor-adams-dcwp-announce-38-million-settlement-with-starbucks
 ---
 

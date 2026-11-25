@@ -60,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the ordinance, quantities, unanimous 8–0 vote, federal reimbursement structure, credited roles, and safety descriptions. The latest project-specific record still supports scheduled/phasing-in status, with no newer completion or cancellation record found through Nov. 24, 2026.
+  notes: Confirmed the ordinance, quantities, unanimous vote, credited roles, reimbursement structure, and safety descriptions. No later project-specific record showed completion, cancellation, or loss of funding through Nov. 25, 2026.
 source_key: richmond-ord-2024-289
 ---
 

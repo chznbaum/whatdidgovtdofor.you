@@ -65,9 +65,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the contract, funding, unanimous vote, chair, completion, and conveyance against official records. The Crozier waterworks remains active in the latest 2026 state and EPA data.
+  notes: Confirmed the contract, funding, unanimous vote, chair and party, project completion, conveyance, and current Crozier waterworks listing against official records. No rollback or cancellation was found.
 source_key: goochland-council-iqm2-1227-3063
 ---
 

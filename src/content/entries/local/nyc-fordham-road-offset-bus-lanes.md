@@ -1,6 +1,6 @@
 ---
 title: Fordham Road is getting new bus lanes for 130,000 daily Bronx riders
-dek: NYC is moving Fordham Road's often-blocked curbside bus lanes away from the curb, from Sedgwick Avenue to Boston Road. Buses there can crawl at 5 mph. Work began July 22, 2026, and the city aims to finish by the end of the year.
+dek: NYC is moving many of Fordham Road's often-blocked curbside bus lanes away from the curb, along the corridor from Sedgwick Avenue to Boston Road. Buses there can crawl at 5 mph. Work began July 22, 2026, and the city aims to finish by the end of the year.
 level: local
 jurisdiction: nyc
 action:
@@ -10,7 +10,7 @@ action:
 topics:
   - transit
   - safety
-who_benefits: About 130,000 people who ride the Bx12, Bx9, Bx17 and Bx22 buses on Fordham Road each day.
+who_benefits: About 130,000 daily riders use the Bx12, Bx12 SBS, Bx9, Bx17 and Bx22 along Fordham Road.
 impact:
   - figure: 130,000
     label: daily riders on the Fordham Road bus routes
@@ -20,9 +20,9 @@ impact:
     label: minimum bus speed gain the city has set as the goal for the corridor
 status:
   state: phasing-in
-  as_of: 2026-07-23
-  note: Construction began July 22, 2026, and the city expects to finish by the end of 2026. No completion announcement could be found as of Nov. 24, 2026, so this status reflects the latest confirmed report, from July 2026.
-  source: https://www.amny.com/news/dot-starts-fordham-road-bus-lane-bronx/
+  as_of: 2026-10-23
+  note: NYC DOT reported on Oct. 23, 2026, that it was still redesigning the corridor. The city expects to finish by the end of 2026; no later completion announcement could be found as of Nov. 25, 2026.
+  source: https://www.nyc.gov/html/dot/html/pr2026/nyc-dot-tests-new-asphalt-mixes-with-up-to-96-percent-recycled-mater.shtml
 credit:
   - official: zohran-mamdani
     role: led
@@ -45,10 +45,10 @@ sources:
     publisher: amNY
     url: https://www.amny.com/news/dot-starts-fordham-road-bus-lane-bronx/
     date: 2026-07-22
-  - title: NYC embarks on plan to improve bus speeds on busy Fordham Road in the Bronx
-    publisher: CBS New York
-    url: https://www.cbsnews.com/newyork/news/fordham-road-bronx-bus-lanes-redesign-mta-nycdot/
-    date: 2026-07-22
+  - title: NYC DOT Tests New Asphalt Mixes With up to 96% Recycled Material to Improve Road Durability and Reduce Carbon Footprint
+    publisher: NYC Department of Transportation
+    url: https://www.nyc.gov/html/dot/html/pr2026/nyc-dot-tests-new-asphalt-mixes-with-up-to-96-percent-recycled-mater.shtml
+    date: 2026-10-23
 verification:
   writer:
     model: claude-opus-5-5
@@ -57,14 +57,14 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
+    date: 2026-11-25
   verdict: corrected
-  notes: Confirmed the corridor scope, rider count, speed figures, construction start, and phasing-in status. Corrected Mayor Mamdani’s role and the amNY publication date.
+  notes: Confirmed the project scope, figures, start date, credits, and ongoing construction. Corrected ridership wording, design scope, planning history, the six-minute claim, and the status evidence.
 source_key: nyc-mayor-2026-07-fast-buses-mayor-mamdani-breaks-ground-on-offset-bus-lanes-on-f
 ---
 
-Fordham Road is the busiest bus corridor in the Bronx. About 130,000 people a day ride the Bx12, Bx9, Bx17 and Bx22 along it, but buses there can slow to 5 mph. The road already has bus lanes along the curb. Delivery trucks and cars picking people up often block them.
+Fordham Road is the busiest bus corridor in the Bronx. The Bx12, Bx12 SBS, Bx9, Bx17 and Bx22 carry about 130,000 riders a day along it, but buses there can slow to 5 mph. The road already has bus lanes along the curb. Delivery trucks and cars picking people up often block them.
 
-The city is moving the bus lanes one lane away from the curb, from Sedgwick Avenue to Boston Road. The curb lane becomes a legal place to park, load and drop people off, so vehicles stop pulling into the bus lane. The city's goal is to speed up buses by at least 20%, saving riders up to six minutes a trip. Fordham Road is also one of the Bronx's most dangerous streets for crashes, and the city says the redesign will make it safer. Riders don't need to do anything to benefit.
+The city is moving many of the bus lanes one lane away from the curb along the corridor from Sedgwick Avenue to Boston Road. Along much of the route, the current curbside bus lane becomes space for parking, loading and passenger drop-offs, so vehicles can stop without blocking buses. The city's goal is to speed buses on the corridor by at least 20%. Its broader bus plan, which includes Fordham Road, aims to shorten average commutes by up to six minutes across 175 routes. Fordham Road is also one of the Bronx's most dangerous streets for crashes, and the city says the redesign will make it safer. Riders don't need to do anything to benefit.
 
-The city first planned bus lane upgrades for Fordham Road under Mayor Eric Adams, but halted them in 2023 after local businesses pushed back. In February 2026, Mayor Zohran Mamdani said the city would restart the project. Transportation Commissioner Mike Flynn's department finished the design, and work began on July 22, 2026. The city expects to finish by the end of the year and says it will adjust the design if buses don't speed up enough.
+The city worked for years on plans to upgrade Fordham Road's bus lanes, but the Adams administration halted the project in 2023 after local businesses pushed back. In February 2026, Mayor Zohran Mamdani said the city would restart it. Transportation Commissioner Mike Flynn's department finished the design, and work began on July 22, 2026. The city expects to finish by the end of the year and says it will adjust the design if buses don't speed up enough.

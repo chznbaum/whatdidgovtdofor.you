@@ -81,9 +81,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-24
-  verdict: corrected
-  notes: Confirmed the ordinance, grant, impact figures, 9–0 adoption and latest public procurement status. Removed credit for three unsuccessful budget amendments and reset verification to pending.
+    date: 2026-11-25
+  verdict: pass
+  notes: Confirmed the ordinance, grant agreement, impact figures, 9–0 adoption, funding credits, project budget, and latest publicly available procurement status. The entry accurately notes that no status evidence newer than August 2026 was found.
 source_key: richmond-ord-2025-223
 ---
 
