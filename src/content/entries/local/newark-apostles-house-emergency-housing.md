@@ -19,9 +19,9 @@ impact:
     label: contract runs from April 1, 2026 through March 31, 2027
 status:
   state: in-effect
-  as_of: 2026-05-31
-  note: The resolution certified $187,026 only through May 31, 2026. The remaining balance required later available funds, and no later appropriation specific to this contract was found as of November 18, 2026.
-  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&GUID=4E1E6E3C-0DF0-41C5-B349-193E8F685DCE&ID=8031338&Options=&Search=
+  as_of: 2026-11-24
+  note: The resolution certified $187,026 only for April and May. Newark's November temporary budget appropriated $1,083,333 for homeless shelters, and The Apostles' House says its shelters operate 24/7, but public records do not identify how much of the later appropriation went to this contract.
+  source: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
 credit:
   - official: c-lawrence-crump
     role: led
@@ -40,6 +40,10 @@ sources:
     publisher: City of Newark Municipal Council (Legistar)
     url: https://newark.legistar.com/View.ashx?GUID=20DAD9A2-C0C9-440A-ABBE-7C20850DC1BA&ID=1415839&M=A
     date: 2026-05-20
+  - title: November 2026 temporary budget extension
+    publisher: City of Newark Municipal Council (Legistar)
+    url: https://newark.legistar.com/LegislationDetail.aspx?FullText=1&G=76B7E664-B393-4911-9914-3B4B31917701&GUID=B6FF2EEF-4849-42FD-B014-04ED09DE042D&ID=8291572&Options=&Search=
+    date: 2026-10-21
 verification:
   writer:
     model: claude-opus-5-5
@@ -48,9 +52,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
-  verdict: pass
-  notes: Confirmed the authorization, funding limits, contract dates, shelter claims, unanimous 9–0 vote, Crump’s role and nonpartisan affiliation. No later contract-specific funding, amendment, cancellation or replacement was found through November 23, 2026.
+    date: 2026-11-24
+  verdict: corrected
+  notes: Confirmed the 9–0 vote, contract terms, Crump’s role, and shelter claims. Updated the stale status with Newark’s later shelter appropriation while preserving the contract-specific funding caveat.
 source_key: newark-26-0562
 ---
 

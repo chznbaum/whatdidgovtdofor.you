@@ -60,9 +60,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
-  verdict: corrected
-  notes: Confirmed the ordinance, project quantities, funding structure, unanimous vote, safety descriptions, and scheduled status. Added the council president required by the credit rules and refreshed the supporting sources and status search date.
+    date: 2026-11-25
+  verdict: pass
+  notes: Confirmed the ordinance, quantities, unanimous vote, credited roles, reimbursement structure, and safety descriptions. No later project-specific record showed completion, cancellation, or loss of funding through Nov. 25, 2026.
 source_key: richmond-ord-2024-289
 ---
 

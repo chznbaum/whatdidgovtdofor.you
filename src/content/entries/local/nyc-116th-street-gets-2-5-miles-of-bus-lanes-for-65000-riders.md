@@ -20,13 +20,15 @@ impact:
     label: how slowly buses move on some stretches today
 status:
   state: phasing-in
-  as_of: 2026-08-31
-  note: Construction began Aug. 31, 2026, and the city expected it to continue through fall 2026. No report of completion could be found as of Nov. 23, 2026, so this reflects the most recent confirmed status.
-  source: https://www.nyc.gov/mayors-office/news/2026/08/fast-buses--mayor-mamdani-breaks-ground-on-116th-street-overhaul
+  as_of: 2026-10-27
+  note: Streetsblog described the redesign as under construction on Oct. 27, 2026; no completion report could be found through Nov. 25. State Sen. Cordell Cleare's S10717, introduced Oct. 7 and still in Senate Rules as of Nov. 25, would bar bus-lane and bus-operation photo enforcement on 116th Street but would not remove the lanes.
+  by:
+    - cordell-cleare
+  source: https://nyc.streetsblog.org/2026/10/27/tuesdays-headlines-justice-for-scofflaw-drivers-edition
 credit:
   - official: zohran-mamdani
     role: championed
-    note: Made 116th Street one of 50 priority corridors in his fast-buses plan and broke ground on the project
+    note: Included 116th Street among 50 priority corridors in the joint city-state fast-buses plan and broke ground on the project
   - official: mike-flynn
     role: led
     note: Commissioner of the Department of Transportation, which is building the redesign
@@ -52,6 +54,14 @@ sources:
     publisher: amNY
     url: https://www.amny.com/nyc-transit/construction-manhattan-116th-street-bus-lanes/
     date: 2026-08-31
+  - title: "Tuesday's Headlines: Justice For Scofflaw Drivers Edition"
+    publisher: Streetsblog New York City
+    url: https://nyc.streetsblog.org/2026/10/27/tuesdays-headlines-justice-for-scofflaw-drivers-edition
+    date: 2026-10-27
+  - title: S10717, 2025–2026 session
+    publisher: New York State Senate
+    url: https://www.nysenate.gov/legislation/bills/2025/S10717
+    date: 2026-10-07
 featured: false
 verification:
   writer:
@@ -61,9 +71,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-25
   verdict: corrected
-  notes: Confirmed the project, construction date, routes, impact figures, status, and credited officials. Softened one unsupported comparison with walking speed.
+  notes: Confirmed the project scope, routes, figures, construction start, design details, and officials’ roles. Updated the latest confirmed construction status, disclosed a pending bill targeting camera enforcement, and corrected the fast-buses plan’s attribution.
 source_key: nyc-mayor-2026-08-fast-buses-mayor-mamdani-breaks-ground-on-116th-street-overhaul
 ---
 
@@ -71,4 +81,4 @@ If you ride a bus across Harlem on 116th Street, the trip should get faster. The
 
 You don't have to do anything to benefit. The changes help riders on 10 routes, including the M116, M3, M7 and M102 and six Bronx express buses, more than 65,000 people a day. The street links to the 2, 3, 6, B and C trains. The work also adds three midblock crosswalks, new traffic signals, pedestrian islands, a speed hump, and protected bike lanes on Pleasant Avenue from 116th to 120th Street.
 
-The Department of Transportation designed the project under Commissioner Ydanis Rodriguez and showed it to community boards in 2025. Mayor Zohran Mamdani made 116th Street one of 50 priority corridors in his fast-buses plan. His administration, with Transportation Commissioner Mike Flynn, broke ground on Aug. 31, 2026, and expected the work to last through the fall.
+The Department of Transportation designed the project under Commissioner Ydanis Rodriguez and showed it to community boards in 2025. Mayor Zohran Mamdani's administration included 116th Street among 50 priority corridors in a joint city-state fast-buses plan. His administration, with Transportation Commissioner Mike Flynn, broke ground on Aug. 31, 2026, and expected the work to last through the fall.

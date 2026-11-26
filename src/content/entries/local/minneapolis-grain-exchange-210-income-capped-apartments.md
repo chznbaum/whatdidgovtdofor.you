@@ -97,9 +97,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the financing package, apartment and income figures, enactment history, credits, roll call, party breakdown, and current project status against the official record and cited sources. No later source confirmed construction had started or showed the project was cancelled or blocked.
+  notes: Confirmed the financing package and unanimous roll call against the official record, and verified the 232-unit plan—including 210 income-restricted apartments—against the [project narrative](https://content.govdelivery.com/attachments/MPLS/2026/07/02/file_attachments/3703133/Grain%20Exchange%2090%20LIHTC%20Project%20Narrative%202026.05.pdf). Later city references and current searches found no cancellation, court block, or confirmed construction start, so the phasing-in status remains supported.
 source_key: minneapolis-lims-2026-00693-2026-07-16
 ---
 

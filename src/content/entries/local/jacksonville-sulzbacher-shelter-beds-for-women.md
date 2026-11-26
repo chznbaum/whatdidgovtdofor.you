@@ -75,9 +75,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the ordinance, funding breakdown, 32-bed plan, credits, parties, and 17–0 vote. A search through Nov. 23 found no reliable confirmation that the dorm has opened, so the cautious phasing-in status remains appropriate.
+  notes: Confirmed the ordinance, funding breakdown, contract term, 32-bed plan, credits, parties, and 17–0 vote. A search through Nov. 25 found no reliable confirmation that the dorm opened or that the funding was cancelled, so the cautious phasing-in status remains appropriate.
 source_key: jacksonville-2026-0542-e
 ---
 

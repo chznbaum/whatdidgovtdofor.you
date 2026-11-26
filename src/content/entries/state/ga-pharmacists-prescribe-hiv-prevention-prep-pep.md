@@ -100,9 +100,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
+    date: 2026-11-25
   verdict: pass
-  notes: Confirmed the signed act, all three official vote totals, sponsor and carrier credits, the DPH diagnosis figure, and the implementation status. No later Pharmacy Board implementation update or repeal, court block, or cancellation was found.
+  notes: Confirmed the [enacted law](https://gov.georgia.gov/document/2026-signed-legislation/sb-195/download), dates, impact figures, credits, and all three vote totals. The [latest published Pharmacy Board minutes](https://gbp.georgia.gov/2026-meeting-minutes) show no implementation action after the August pause, so the phasing-in status remains accurate.
 source_key: ga-20252026-sb195
 ---
 

@@ -57,9 +57,9 @@ verification:
   verifier:
     model: gpt-5.6-sol
     via: codex-cli
-    date: 2026-11-23
-  verdict: corrected
-  notes: "Confirmed the grant amount, funding split, conflicting seven/eight-home descriptions, homeowner costs, council action, and latest project-specific federal award record. Corrected the local identifier: 24-0158 is Hampton’s file number, not a resolution number."
+    date: 2026-11-25
+  verdict: pass
+  notes: Confirmed the council action, funding split, seven/eight-home discrepancy, homeowner costs, credit, and status. No project-specific completion, cancellation, or rollback record was found through Nov. 25, 2026.
 source_key: hampton-24-0158
 ---
 
